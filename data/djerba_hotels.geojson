@@ -1,0 +1,2258 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-16T15:20:46Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/272372755",
+        "building": "yes",
+        "stars": "3",
+        "tourism": "hotel",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.9617266,
+              33.8656427
+            ],
+            [
+              10.9618553,
+              33.8655317
+            ],
+            [
+              10.9618532,
+              33.8654566
+            ],
+            [
+              10.9619335,
+              33.8654202
+            ],
+            [
+              10.9620113,
+              33.8654609
+            ],
+            [
+              10.9620281,
+              33.8654494
+            ],
+            [
+              10.9622099,
+              33.865563
+            ],
+            [
+              10.9621571,
+              33.8656179
+            ],
+            [
+              10.9621447,
+              33.8656309
+            ],
+            [
+              10.962055,
+              33.8655723
+            ],
+            [
+              10.962045,
+              33.8655841
+            ],
+            [
+              10.9620182,
+              33.8655724
+            ],
+            [
+              10.9619748,
+              33.8655824
+            ],
+            [
+              10.9619533,
+              33.8655997
+            ],
+            [
+              10.9619094,
+              33.8656643
+            ],
+            [
+              10.9618914,
+              33.865659
+            ],
+            [
+              10.9618735,
+              33.8656844
+            ],
+            [
+              10.9618608,
+              33.8656847
+            ],
+            [
+              10.9618482,
+              33.8657072
+            ],
+            [
+              10.9617923,
+              33.8656844
+            ],
+            [
+              10.9617826,
+              33.8656926
+            ],
+            [
+              10.9617266,
+              33.8656427
+            ]
+          ]
+        ]
+      },
+      "id": "way/272372755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1466624801",
+        "addr:city": "Midoun",
+        "addr:country": "TN",
+        "addr:postcode": "4116",
+        "addr:street": "Zone Touristique Ennadhour",
+        "brand": "Robinson Club",
+        "brand:wikidata": "Q1750092",
+        "contact:phone": "+216 75745500",
+        "contact:website": "https://www.tui.com/hotels/robinson-djerba-bahiya-69496/hotelinformation/",
+        "internet_access": "wlan",
+        "leisure": "resort",
+        "name": "Robinson Club Djerba Bahiya",
+        "operator": "Robinson Club",
+        "operator:wikidata": "Q1750092",
+        "pets": "no",
+        "resort": "recreation_center",
+        "rooms": "396",
+        "stars": "4",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.0506891,
+              33.8235864
+            ],
+            [
+              11.050867,
+              33.8232199
+            ],
+            [
+              11.0511699,
+              33.8230994
+            ],
+            [
+              11.0511813,
+              33.8230545
+            ],
+            [
+              11.0511989,
+              33.8229856
+            ],
+            [
+              11.0511382,
+              33.822948
+            ],
+            [
+              11.0511194,
+              33.8229145
+            ],
+            [
+              11.0511891,
+              33.8227366
+            ],
+            [
+              11.0513181,
+              33.8224962
+            ],
+            [
+              11.051419,
+              33.8223184
+            ],
+            [
+              11.0514306,
+              33.8222998
+            ],
+            [
+              11.0514518,
+              33.8219823
+            ],
+            [
+              11.0549175,
+              33.8223646
+            ],
+            [
+              11.0549048,
+              33.8224288
+            ],
+            [
+              11.0549439,
+              33.8226662
+            ],
+            [
+              11.0549668,
+              33.8227127
+            ],
+            [
+              11.0550031,
+              33.8226975
+            ],
+            [
+              11.0550686,
+              33.8226854
+            ],
+            [
+              11.055307,
+              33.8227506
+            ],
+            [
+              11.0553201,
+              33.8228811
+            ],
+            [
+              11.055339,
+              33.8230924
+            ],
+            [
+              11.0550497,
+              33.8231625
+            ],
+            [
+              11.0550717,
+              33.8232098
+            ],
+            [
+              11.0551128,
+              33.823273
+            ],
+            [
+              11.0552218,
+              33.8233994
+            ],
+            [
+              11.0552506,
+              33.8234506
+            ],
+            [
+              11.0552588,
+              33.8234796
+            ],
+            [
+              11.0552711,
+              33.8235172
+            ],
+            [
+              11.0552881,
+              33.8235464
+            ],
+            [
+              11.0553246,
+              33.8235975
+            ],
+            [
+              11.0553451,
+              33.823688
+            ],
+            [
+              11.055376,
+              33.8237717
+            ],
+            [
+              11.0554089,
+              33.8238264
+            ],
+            [
+              11.0554397,
+              33.8239289
+            ],
+            [
+              11.0554582,
+              33.8240433
+            ],
+            [
+              11.0554479,
+              33.8241629
+            ],
+            [
+              11.0554479,
+              33.8242004
+            ],
+            [
+              11.0554706,
+              33.8242431
+            ],
+            [
+              11.0554829,
+              33.8243371
+            ],
+            [
+              11.0554747,
+              33.8244566
+            ],
+            [
+              11.055452,
+              33.8245591
+            ],
+            [
+              11.055413,
+              33.8246052
+            ],
+            [
+              11.0553451,
+              33.824665
+            ],
+            [
+              11.0549833,
+              33.8247982
+            ],
+            [
+              11.0549077,
+              33.8248309
+            ],
+            [
+              11.0548198,
+              33.824866
+            ],
+            [
+              11.0547636,
+              33.824855
+            ],
+            [
+              11.0506891,
+              33.8235864
+            ]
+          ]
+        ]
+      },
+      "id": "way/1466624801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/349276727",
+        "name": "جربة سن كلوب",
+        "name:ar": "جربة سن كلوب",
+        "name:en": "Djerba Sun Club",
+        "name:fr": "Djerba Sun Club",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9746886,
+          33.8593847
+        ]
+      },
+      "id": "node/349276727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1123865146",
+        "name": "Hôtel Palm Azur",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0201735,
+          33.7630102
+        ]
+      },
+      "id": "node/1123865146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1123865151",
+        "addr:city": "حومة السوق",
+        "addr:postcode": "4128",
+        "name": "Radisson Blu Palace Resort & Thalasso",
+        "name:ar": "فندق راديسون بلو",
+        "name:en": "Hotel Radisson Blu",
+        "name:fr": "Hôtel Radisson Blu",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.959163,
+          33.8706074
+        ]
+      },
+      "id": "node/1123865151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1272108676",
+        "name": "orient djerba",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9619377,
+          33.8655195
+        ]
+      },
+      "id": "node/1272108676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1742031291",
+        "addr:city": "الرياض",
+        "name": "دار الضيافة",
+        "name:ar": "دار الضيافة",
+        "name:fr": "Dar Dhiafa",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8547945,
+          33.8216317
+        ]
+      },
+      "id": "node/1742031291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1756692079",
+        "name": "El Mouradi Djerba Menzel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0557091,
+          33.7799401
+        ]
+      },
+      "id": "node/1756692079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1905335401",
+        "name": "Sidi Mansour",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0405567,
+          33.8253576
+        ]
+      },
+      "id": "node/1905335401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1993454516",
+        "contact:website": "http://www.yadis.com/",
+        "name": "Hôtel Yadis Djerba Golf Thalasso & Spa",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0153654,
+          33.8282879
+        ]
+      },
+      "id": "node/1993454516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085826035",
+        "name": "Djerba Holiday Beach",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9729847,
+          33.8616132
+        ]
+      },
+      "id": "node/2085826035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085849740",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9909774,
+          33.8475475
+        ]
+      },
+      "id": "node/2085849740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085849950",
+        "contact:website": "http://www.caribbeanworld.com.tn/",
+        "name": "Carribean World Thalasso Djerba",
+        "stars": "4",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9854538,
+          33.8554633
+        ]
+      },
+      "id": "node/2085849950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2086134981",
+        "name": "فندق النخلة الخضراء",
+        "name:ar": "فندق النخلة الخضراء",
+        "name:fr": "Green Palm Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0265657,
+          33.8253543
+        ]
+      },
+      "id": "node/2086134981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2127708745",
+        "addr:city": "حومة السوق",
+        "name": "السندباد",
+        "name:ar": "السندباد",
+        "name:en": "Sindbad",
+        "name:fr": "Sindbad",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8579943,
+          33.876451
+        ]
+      },
+      "id": "node/2127708745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141881780",
+        "name": "Ulysse Djerba Thalasso & Spa",
+        "source": "Survey",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9624052,
+          33.8698725
+        ]
+      },
+      "id": "node/2141881780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2143191527",
+        "name": "Isis Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9907931,
+          33.842568
+        ]
+      },
+      "id": "node/2143191527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2375803822",
+        "check_date": "2024-10-12",
+        "internet_access": "wlan",
+        "name": "SunConnect Aqua Resort",
+        "opening_hours": "24/7",
+        "stars": "4",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0059517,
+          33.8331316
+        ]
+      },
+      "id": "node/2375803822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2375803823",
+        "internet_access": "wlan",
+        "name": "Palais des Iles",
+        "name:ru": "Палайз дез Айлез",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0037161,
+          33.8346935
+        ]
+      },
+      "id": "node/2375803823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2375803824",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0053228,
+          33.8364389
+        ]
+      },
+      "id": "node/2375803824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2375803825",
+        "alt_name": "Hotel Riad Meninx",
+        "name": "Hotel Riad Meninx",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0027482,
+          33.8367615
+        ]
+      },
+      "id": "node/2375803825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2375803826",
+        "name": "Hôtel Club Meninx",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0043172,
+          33.8382381
+        ]
+      },
+      "id": "node/2375803826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2376504479",
+        "contact:website": "http://www.riu.com/de/Paises/tunesien/insel-djerba/hotel-riu-palace-royal-garden/index.jsp",
+        "name": "Hôtel Riu Palace Royal Garden Djerba",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0180043,
+          33.8269919
+        ]
+      },
+      "id": "node/2376504479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2773247186",
+        "name": "فندق دار علي",
+        "name:ar": "فندق دار علي",
+        "name:en": "Hotel Dar Ali",
+        "name:fr": "Hôtel Dar Ali",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9613716,
+          33.8682606
+        ]
+      },
+      "id": "node/2773247186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2773247190",
+        "name": "Hôtel Flamingo",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9674435,
+          33.8670986
+        ]
+      },
+      "id": "node/2773247190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2773681437",
+        "name": "الأزرق الكبير",
+        "name:ar": "الأزرق الكبير",
+        "name:es": "El Gran Azul",
+        "name:fr": "Le Grand Bleu",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8750787,
+          33.8772537
+        ]
+      },
+      "id": "node/2773681437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3268485484",
+        "name": "Résidence Chahd",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9521418,
+          33.8664857
+        ]
+      },
+      "id": "node/3268485484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3717123698",
+        "name": "Plage Essaguia Djerba",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0570978,
+          33.785631
+        ]
+      },
+      "id": "node/3717123698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3737508045",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9932069,
+          33.8402598
+        ]
+      },
+      "id": "node/3737508045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3777842252",
+        "name": "Hôtel Homère",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.013988,
+          33.7597811
+        ]
+      },
+      "id": "node/3777842252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3777842253",
+        "name": "Caribbean World Palma Djerba",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0159146,
+          33.7602888
+        ]
+      },
+      "id": "node/3777842253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3777842254",
+        "name": "Yadis Imperial Beach & Spa Resort",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0182505,
+          33.7621043
+        ]
+      },
+      "id": "node/3777842254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3777842255",
+        "internet_access": "wlan",
+        "name": "Seabel Aladin Djerba",
+        "name:ar": "",
+        "name:ru": "Hotel Sebel Aladin Jerba",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.021598,
+          33.7644469
+        ]
+      },
+      "id": "node/3777842255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3777842256",
+        "addr:city": "أغير",
+        "name": "فندق جربة قشتالة",
+        "name:ar": "فندق جربة قشتالة",
+        "name:fr": "Hôtel Djerba Castille",
+        "stars": "1",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0232802,
+          33.7655466
+        ]
+      },
+      "id": "node/3777842256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3778152882",
+        "name": "Maison Leila",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9604089,
+          33.825031
+        ]
+      },
+      "id": "node/3778152882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3778210442",
+        "name": "Joya Paradise & Spa",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9937074,
+          33.8412283
+        ]
+      },
+      "id": "node/3778210442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3778221004",
+        "contact:website": "https://fr-fr.facebook.com/HotelAbirDjerba",
+        "name": "Hôtel Abir",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9920826,
+          33.8420112
+        ]
+      },
+      "id": "node/3778221004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3832636693",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9964335,
+          33.8379387
+        ]
+      },
+      "id": "node/3832636693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3832637256",
+        "name": "Hôtel Vincci Djerba Resort & Spa",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9942256,
+          33.8393718
+        ]
+      },
+      "id": "node/3832637256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3832637825",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9970372,
+          33.8411216
+        ]
+      },
+      "id": "node/3832637825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3832638288",
+        "name": "Ksar Djerba",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9960763,
+          33.8425796
+        ]
+      },
+      "id": "node/3832638288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3832646978",
+        "name": "Cedriana Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.998215,
+          33.8402507
+        ]
+      },
+      "id": "node/3832646978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3832732375",
+        "name": "Hôtel Diar Yassine Djerba",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9998306,
+          33.8361528
+        ]
+      },
+      "id": "node/3832732375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3832732858",
+        "name": "Sentido Djerba Beach",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9985271,
+          33.8429249
+        ]
+      },
+      "id": "node/3832732858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3832796466",
+        "name": "Aldiana Djerba Atlantide",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0011506,
+          33.8393061
+        ]
+      },
+      "id": "node/3832796466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3833884084",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Djerba Plaza Thalasso & Spa",
+        "smoking": "yes",
+        "stars": "4",
+        "tourism": "hotel",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0082399,
+          33.831704
+        ]
+      },
+      "id": "node/3833884084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3834006273",
+        "name": "Hôtel Les Alizes",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9843262,
+          33.8525498
+        ]
+      },
+      "id": "node/3834006273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3834006353",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9833072,
+          33.8530686
+        ]
+      },
+      "id": "node/3834006353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3834396694",
+        "contact:website": "http://www.hasdrubal-prestige.com/fr/",
+        "name": "Hasdrubal Prestige Thalasso & Spa Djerba",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9797137,
+          33.8591855
+        ]
+      },
+      "id": "node/3834396694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3834454957",
+        "name": "Hôtel El Andalous",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9918065,
+          33.8406363
+        ]
+      },
+      "id": "node/3834454957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3834528077",
+        "contact:website": "https://www.facebook.com/pages/Hotel-Djerba-Saray/",
+        "name": "Hôtel Saray",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9919929,
+          33.8371978
+        ]
+      },
+      "id": "node/3834528077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3835036638",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9764936,
+          33.8627541
+        ]
+      },
+      "id": "node/3835036638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3840879485",
+        "name": "Hôtel Rais Club",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0062127,
+          33.7568584
+        ]
+      },
+      "id": "node/3840879485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3840879976",
+        "name": "Vincci AlKantara Thalassa Djerba Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0080775,
+          33.7582137
+        ]
+      },
+      "id": "node/3840879976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3844776399",
+        "contact:website": "http://eden-village-djerba-mare.djerba-hotels.net/",
+        "name": "Eden Village Djerba Mare",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9965027,
+          33.8441101
+        ]
+      },
+      "id": "node/3844776399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3846309187",
+        "addr:postcode": "4180",
+        "name": "Al Jazira Beach & Spa - All Inclusive - Families and Couples Only",
+        "stars": "3",
+        "tourism": "hotel",
+        "website": "https://www.aljazira-hotel.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9687538,
+          33.865656
+        ]
+      },
+      "id": "node/3846309187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3846429913",
+        "addr:postcode": "4180",
+        "addr:street": "Plage Sidi Mahrez",
+        "name": "Telemaque Beach & Spa - All Inclusive - Families and Couples Only",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9785433,
+          33.8614128
+        ]
+      },
+      "id": "node/3846429913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3846478900",
+        "name": "Les Sirenes Thalasso & Spa",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9837527,
+          33.8576358
+        ]
+      },
+      "id": "node/3846478900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3846488211",
+        "name": "Hôtel Rodes",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9805671,
+          33.8577891
+        ]
+      },
+      "id": "node/3846488211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3847071084",
+        "name": "Le Beau Séjour",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9621191,
+          33.8683742
+        ]
+      },
+      "id": "node/3847071084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3858704080",
+        "name": "Hôtel Miramar",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9831085,
+          33.8549979
+        ]
+      },
+      "id": "node/3858704080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3858704346",
+        "name": "فندق الكثبان",
+        "name:ar": "فندق الكثبان",
+        "name:fr": "Hôtel Les Dunes",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.982181,
+          33.8557582
+        ]
+      },
+      "id": "node/3858704346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3860436216",
+        "name": "Hôtel Hacienda Djerba",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9950333,
+          33.8450935
+        ]
+      },
+      "id": "node/3860436216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3860436339",
+        "contact:website": "http://www.magiclife.com/de/de/cluburlaub/tunesien/penelope-beach/",
+        "name": "Magic Live Club Penelope Beach",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.993091,
+          33.8452982
+        ]
+      },
+      "id": "node/3860436339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3860532716",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9930406,
+          33.8475758
+        ]
+      },
+      "id": "node/3860532716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3860532896",
+        "name": "Jasmina Thalassa",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9919025,
+          33.8488476
+        ]
+      },
+      "id": "node/3860532896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3860573502",
+        "contact:website": "http://www.fiesta-beach.com/",
+        "name": "Fiesta Beach Club",
+        "stars": "4",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9885133,
+          33.8494021
+        ]
+      },
+      "id": "node/3860573502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3860701679",
+        "addr:street": "Rue l'environnement",
+        "email": "palmbeachclubdjerba.resa@palmbeach.com.tn",
+        "fax": "+216 75 757 410",
+        "internet_access": "wlan",
+        "name": "Club Marmara Palm Beach Djerba",
+        "phone": "+216 75 757 404",
+        "stars": "4",
+        "tourism": "hotel",
+        "website": "http://www.palm-beach-hotels-tunisia.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9873987,
+          33.8530526
+        ]
+      },
+      "id": "node/3860701679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3860701680",
+        "email": "palmbeachpalacedjerba.resa@palmbeach.com.tn",
+        "fax": "+216 75 758 888",
+        "name": "Palm Beach Palace Djerba (ex-Sofitel)",
+        "operator": "Palm Beach Hotels Tunisia",
+        "phone": "+216 75 757 777",
+        "stars": "5",
+        "tourism": "hotel",
+        "website": "http://www.palm-beach-hotels-tunisia.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9891552,
+          33.8510387
+        ]
+      },
+      "id": "node/3860701680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3861168946",
+        "contact:website": "http://www.hotelharoun.com/",
+        "name": "Hôtel Haroun",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9860129,
+          33.8521875
+        ]
+      },
+      "id": "node/3861168946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3861253678",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0434011,
+          33.8250763
+        ]
+      },
+      "id": "node/3861253678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3862546583",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9938697,
+          33.8434115
+        ]
+      },
+      "id": "node/3862546583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3862645541",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0309055,
+          33.8263941
+        ]
+      },
+      "id": "node/3862645541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3872625575",
+        "name": "Menzel Dija",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0277444,
+          33.8250898
+        ]
+      },
+      "id": "node/3872625575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3872971245",
+        "name": "Seabel Rym Beach Djerba",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0462225,
+          33.8270515
+        ]
+      },
+      "id": "node/3872971245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3874457810",
+        "addr:city": "Midoun",
+        "addr:postcode": "4116",
+        "name": "Club Calimera Yati Beach",
+        "smoking": "yes",
+        "tourism": "hotel",
+        "website": "https://www.calimera.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0489485,
+          33.8272635
+        ]
+      },
+      "id": "node/3874457810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3874533829",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Welcome Meridiana",
+        "name:ar": "ويلكم مريديانا",
+        "tourism": "hotel",
+        "website": "https://www.welcomemeridiana-hotel.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0406269,
+          33.8282896
+        ]
+      },
+      "id": "node/3874533829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3875843480",
+        "name": "Hôtel Golf Beach",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0320337,
+          33.7723482
+        ]
+      },
+      "id": "node/3875843480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3875873018",
+        "check_date": "2024-09-11",
+        "name": "Hari Club Beach Resort",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0304595,
+          33.7710951
+        ]
+      },
+      "id": "node/3875873018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3875967673",
+        "name": "Prima Life Garden Park",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0115607,
+          33.7598103
+        ]
+      },
+      "id": "node/3875967673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3883141838",
+        "addr:city": "أغير",
+        "name": "مركز التدريب والإجازات",
+        "name:ar": "مركز التدريب والإجازات",
+        "name:fr": "Centre des Stages et Vacances",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0139051,
+          33.7577527
+        ]
+      },
+      "id": "node/3883141838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3883227078",
+        "name": "Complexe Hôtelier Dar Djerba",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0326396,
+          33.8290961
+        ]
+      },
+      "id": "node/3883227078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3892534187",
+        "contact:website": "http://hotel-darelbhar.com",
+        "name": "Hotel de charme et SPA Dar El Bhar",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9775491,
+          33.8622873
+        ]
+      },
+      "id": "node/3892534187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3892534188",
+        "name": "Dar Salem",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9707783,
+          33.8644212
+        ]
+      },
+      "id": "node/3892534188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3892534189",
+        "name": "Hôtel Villa Azur",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9738472,
+          33.8639084
+        ]
+      },
+      "id": "node/3892534189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3958076070",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0258678,
+          33.7674145
+        ]
+      },
+      "id": "node/3958076070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3970205754",
+        "name": "Raspizdos 1*",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9473476,
+          33.6275146
+        ]
+      },
+      "id": "node/3970205754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4161711748",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0439413,
+          33.7786148
+        ]
+      },
+      "id": "node/4161711748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4269499697",
+        "addr:city": "Djerba",
+        "addr:postcode": "4186",
+        "addr:street": "مزراية 3",
+        "email": "lepatiodemezraya@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Le Patio de Mezraya",
+        "phone": "+216 75 756 508",
+        "rooms": "9",
+        "tourism": "hotel",
+        "website": "https://lepatiodemezraya.kinko.info/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9532517,
+          33.8605187
+        ]
+      },
+      "id": "node/4269499697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4463563630",
+        "name": "Royal Karthago Resort & Thalasso Djerba",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0410868,
+          33.7783698
+        ]
+      },
+      "id": "node/4463563630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4477174879",
+        "name": "TUI MAGIC LIFE Club Penelope Beach Imperial",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9939858,
+          33.8461641
+        ]
+      },
+      "id": "node/4477174879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4772468021",
+        "name": "شقق مفروشة للايجار .جربة",
+        "name:ar": "شقق مفروشة للايجار .جربة",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8521598,
+          33.8700473
+        ]
+      },
+      "id": "node/4772468021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4971840929",
+        "addr:street": "شارع البيئة",
+        "addr:street:ar": "شارع البيئة",
+        "addr:street:fr": "Avenue de l'Environnement",
+        "name": "نزل الفصول الأربعة",
+        "name:ar": "نزل الفصول الأربعة",
+        "name:en": "Four Seasons Hotel",
+        "name:fr": "quartes seasons",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9937232,
+          33.8430593
+        ]
+      },
+      "id": "node/4971840929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5102006821",
+        "addr:city": "حومة السوق",
+        "name": "الصيد",
+        "name:ar": "الصيد",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8516728,
+          33.8833715
+        ]
+      },
+      "id": "node/5102006821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5534004839",
+        "name": "Arisha",
+        "name:en": "Arisha",
+        "name:fr": "Arisha",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8579096,
+          33.8777965
+        ]
+      },
+      "id": "node/5534004839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5664286721",
+        "internet_access": "wlan",
+        "name": "Palm Azur",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.020155,
+          33.7630188
+        ]
+      },
+      "id": "node/5664286721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5731726038",
+        "name": "Club Med Djerba Méridiana",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0128565,
+          33.75977
+        ]
+      },
+      "id": "node/5731726038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5836351586",
+        "name": "نزل السعفات الذهبية",
+        "name:ar": "نزل السعفات الذهبية",
+        "name:en": "les palmes d'or",
+        "name:fr": "Hôtel Les Palmes d'Or",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8614097,
+          33.8774353
+        ]
+      },
+      "id": "node/5836351586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5923007199",
+        "name": "Vincci Helios Beach",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0530317,
+          33.8182423
+        ]
+      },
+      "id": "node/5923007199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5923007200",
+        "name": "Hôtel Ilyade",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0536605,
+          33.820983
+        ]
+      },
+      "id": "node/5923007200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6178119385",
+        "name": "فندق ليبيرتا سياحة اسلامية",
+        "name:ar": "فندق ليبيرتا سياحة اسلامية",
+        "name:fr": "Hôtel liberta tourisme islamique",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0072755,
+          33.8374555
+        ]
+      },
+      "id": "node/6178119385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6488546670",
+        "addr:city": "MIDOUN",
+        "addr:postcode": "4116",
+        "addr:street": "Z.T",
+        "brand": "Les Jardins De Toumana",
+        "internet_access": "wlan",
+        "name": "Les Jardins De Toumana",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9870692,
+          33.8487512
+        ]
+      },
+      "id": "node/6488546670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6937967885",
+        "name:fr": "Dar jerba narjass",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0317698,
+          33.8271871
+        ]
+      },
+      "id": "node/6937967885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9833865820",
+        "addr:city": "Houmt Souk",
+        "addr:housenumber": "14",
+        "addr:postcode": "4180",
+        "addr:street": "Rue Mohamed Ferjani",
+        "air_conditioning": "yes",
+        "brand": "Dar Lola Djerba",
+        "description": "Maison d'hôtes de charme",
+        "email": "contact@darlola.tn",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Dar Lola",
+        "phone": "+216 24 915 814",
+        "rooms": "5",
+        "tourism": "hotel",
+        "website": "https://darlola.tn/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8588496,
+          33.8769504
+        ]
+      },
+      "id": "node/9833865820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10202448550",
+        "name": "Dar Chich Yahia",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7441527,
+          33.7804941
+        ]
+      },
+      "id": "node/10202448550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10213837654",
+        "name": "Les palmes d'or",
+        "phone": "+216 75 653 369",
+        "tourism": "hotel",
+        "website": "https://www.hotelpalmesdor.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8612847,
+          33.8785858
+        ]
+      },
+      "id": "node/10213837654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10828664181",
+        "name": "Hotel Marhala",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8593663,
+          33.8775458
+        ]
+      },
+      "id": "node/10828664181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10828664182",
+        "name": "Auberge de la Jeunesse",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8593253,
+          33.8773043
+        ]
+      },
+      "id": "node/10828664182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10828664183",
+        "addr:city": "Houmt Souk",
+        "addr:postcode": "4180",
+        "addr:street": "Rue Mohamed El Ferjani",
+        "email": "hotel.erriadh@topnet.tn",
+        "name": "Hôtel Erriadh",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8588834,
+          33.8768121
+        ]
+      },
+      "id": "node/10828664183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11141704805",
+        "name:en": "essalem hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8595446,
+          33.8743995
+        ]
+      },
+      "id": "node/11141704805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11141704905",
+        "name:en": "essalem hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8593272,
+          33.8744553
+        ]
+      },
+      "id": "node/11141704905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11915129898",
+        "addr:city": "Midoun - Djerba",
+        "addr:postcode": "4116",
+        "addr:street": "Route Touristique Midoun Djerba",
+        "name": "Djerba Golf Resort & Spa",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0237028,
+          33.8270009
+        ]
+      },
+      "id": "node/11915129898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12662108701",
+        "name": "Hôtel Essalem",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8592734,
+          33.8742433
+        ]
+      },
+      "id": "node/12662108701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13530118301",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8589743,
+          33.8726785
+        ]
+      },
+      "id": "node/13530118301"
+    }
+  ]
+}
