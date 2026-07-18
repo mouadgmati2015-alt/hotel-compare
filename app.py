@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 import json
 from streamlit_carousel import carousel
 from data.hotels_data import HOTELS_DATA
@@ -77,14 +78,37 @@ if page == "Comparateur":
 
 elif page == "Blog":
     st.title("📖 Notre Blog Voyage")
-    try:
-        with open('blog_data.json', 'r', encoding='utf-8') as f:
-            articles = json.load(f)
-            for i, art in enumerate(articles):
-                with st.expander(art['titre'], expanded=(i == 0)):
-                    st.image(art['image'], use_container_width=True)
-                    st.write(art['resume'])
-                    if st.button(f"Lire la suite", key=f"btn_{i}"):
-                        st.success(art['details'])
-    except:
-        st.error("Impossible de charger les articles du blog.")
+    
+    # Données intégrées pour éviter les problèmes de chemin de fichier
+    articles = [
+  {
+    "titre": "5 astuces d'expert pour voyager moins cher",
+    "image": "images/images_astuce.jfif",
+    "resume": "Voyager ne signifie pas forcément se ruiner.",
+    "details": "Voici mes 5 conseils d'expert : flexibilité, réservation anticipée, hébergement alternatif, cuisine locale et bagage léger."
+  },
+  {
+    "titre": "Le guide ultime pour choisir son hôtel en Tunisie",
+    "image": "images/images_hotel.jfif",
+    "resume": "Choisir le mauvais hôtel peut gâcher un séjour.",
+    "details": "Vérifiez bien l'emplacement, les services inclus et les avis récents."
+  },
+  {
+    "titre": "Découvrir la Tunisie autrement",
+    "image": "images/images_tunisie.jfif",
+    "resume": "Sortir des sentiers battus.",
+    "details": "Sidi Bou Saïd, le désert du Sud et les villages berbères sont des lieux magiques."
+  }
+]
+    for i, art in enumerate(articles):
+        with st.expander(art['titre'], expanded=(i == 0)):
+            # On tente d'afficher l'image
+            if os.path.exists(art['image']):
+                st.image(art['image'], use_container_width=True)
+            else:
+                st.warning(f"Image introuvable à : {art['image']}")
+            
+            st.write(art['resume'])
+            
+            if st.button(f"Lire la suite", key=f"btn_{i}"):
+                st.success(art['details'])
