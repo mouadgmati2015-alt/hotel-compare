@@ -1,19 +1,19 @@
 [
   {
     "titre": "5 astuces d'expert pour voyager moins cher",
-    "image": "images/images_astuce.jpeg",
+    "image": "images/image_astuce.jpg",
     "resume": "Voyager ne signifie pas forcément se ruiner.",
     "details": "Voici mes 5 conseils d'expert pour voyager malin : flexibilité, réservation anticipée, hébergement alternatif, cuisine locale et bagage léger."
   },
   {
     "titre": "Le guide ultime pour choisir son hôtel en Tunisie",
-    "image": "images/images_hotel.jpeg",
+    "image": "images/image_hotel.jpg",
     "resume": "Choisir le mauvais hôtel peut gâcher un séjour.",
     "details": "La Tunisie offre une diversité d'hébergements incroyable. Vérifiez bien l'emplacement, les services inclus et les avis récents."
   },
   {
     "titre": "Découvrir la Tunisie autrement : mes coups de cœur",
-    "image": "images/images_tunisie.jpeg",
+    "image": "images/image_tunisie.jpg",
     "resume": "Loin des circuits classiques, la Tunisie regorge de pépites.",
     "details": "Découvrez Sidi Bou Saïd, le désert du Sud et les villages berbères pour une expérience authentique."
   }
