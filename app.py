@@ -6,6 +6,7 @@ from data.hotels_data import HOTELS_DATA
 import streamlit as st
 import streamlit.components.v1 as components
 
+
 # Injection de la balise de vérification Google Search Console
 google_tag = '<meta name="google-site-verification" content="UFPNwmAw5bpc..." />'
 components.html(google_tag, height=0, width=0)
@@ -15,20 +16,21 @@ st.set_page_config(page_title="HotelCompare", layout="wide")
 # --- Style CSS ---
 st.markdown("""
     <style>
-    [data-testid="stSidebar"] { min-width: 150px; max-width: 150px; }
-    .stApp { margin-top: -60px; }
-    .hero-container { text-align: center; margin-bottom: 20px; }
-    [data-testid="column"] {
-        background-color: #f9f9f9;
-        border: 1px solid #e0e0e0;
-        border-radius: 15px;
-        padding: 20px;
-        margin: 10px;
-        box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    .stApp {
+        background-color: #F8F9FA;
+    }
+    [data-testid="stSidebar"] { 
+        min-width: 150px; 
+        max-width: 150px; 
+    }
+    .block-container {
+        padding-top: 1rem !important;
+    }
+    iframe {
+        width: 100% !important;
     }
     </style>
-    """, unsafe_allow_html=True)
-
+""", unsafe_allow_html=True)
 # --- Navigation ---
 page = st.sidebar.radio("Navigation", ["Comparateur", "Blog"])
 
@@ -38,18 +40,27 @@ if page == "Comparateur":
     st.image("logo_4.png", width=120)
     st.title("Comparez vos hôtels avec l'IA")
     st.markdown('</div>', unsafe_allow_html=True)
-    
+    st.markdown("""
+    <style>
+    iframe {
+        width: 100% !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
     # Carrousel
     test_items = [
         dict(title="", text="", img="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2000"),
+        dict(title="", text="", img="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"),
+        dict(title="", text="", img="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80"),
+        dict(title="", text="", img="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"),
+        dict(title="", text="", img="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80"),
+        dict(title="", text="", img="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"),
         dict(title="", text="", img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2000")
     ]
     carousel(items=test_items, width=1)
-    
-    st.divider()
-    
+   
     # --- Mode d'emploi ---
-    st.markdown("---")
+    
     st.subheader("💡 Comment comparer vos hôtels")
     st.markdown("""
     1. **Sélectionnez** vos deux hôtels dans les menus déroulants ci-dessous.
@@ -209,7 +220,7 @@ Les règles varient drastiquement. Consultez toujours les sites officiels des Af
 
 **Dernier rappel** : Les conditions évoluent rapidement. Vérifiez les sites des ambassades quelques semaines avant votre départ !
 """},
-        {"titre": "Calendrier des bons plans", "image": "images/test.jpg", "resume": "Les meilleures périodes pour voyager à moindre coût.", "details": """
+        {"titre": "Calendrier des bons plans pour voyager", "image": "images/test.jpg", "resume": "Les meilleures périodes pour voyager à moindre coût.", "details": """
 Pour voyager à moindre coût, la règle d'or est de privilégier le "hors-saison" ou les périodes d'intersaison. Voici une tendance générale des destinations abordables mois par mois :
 
 ### Calendrier des destinations économiques
@@ -230,6 +241,52 @@ Pour voyager à moindre coût, la règle d'or est de privilégier le "hors-saiso
 
 **Voyagez intelligemment en choisissant la bonne période pour votre destination !**
 """},
+    {
+    "titre": "Comment fonctionnent les algorithmes de prix des hôtels",
+    "image": "images/test2.jpg",  # Tu pourras changer l'image si tu en as une spécifique
+    "resume": "Comprenez les mécanismes du pricing dynamique pour déjouer les hausses de tarifs et savoir exactement quand réserver au meilleur prix.",
+    "details": """
+Vous avez sûrement déjà remarqué ce phénomène frustrant : vous consultez le prix d'une chambre d'hôtel le lundi, vous y retournez le mercredi, et le tarif a augmenté de 20 %. Est-ce un hasard ? **Absolument pas.**
+
+Derrière chaque écran de réservation se cachent des algorithmes complexes de *pricing dynamique*, conçus pour faire varier les prix en temps réel. En tant qu'utilisateurs de **HotelCompare**, comprendre ces mécanismes est votre meilleure arme pour payer le juste prix.
+
+Voici comment ces systèmes fonctionnent et, surtout, quand vous devez réserver pour faire de vraies économies.
+
+### 1. Comment les hôtels fixent (et font varier) leurs prix ?
+
+Contrairement aux billets d'avion, les prix des hôtels ne dépendent pas uniquement de la date de votre départ. Les algorithmes de gestion des revenus (*Revenue Management*) intègrent une multitude de variables en continu :
+
+*   **Le taux d'occupation en temps réel** : Plus un hôtel se remplit, plus l'algorithme augmente automatiquement les tarifs des chambres restantes pour maximiser le chiffre d'affaires.
+*   **L'effet de saisonnalité et du calendrier** : Les week-ends, les vacances scolaires, les jours fériés mais aussi les événements locaux (concerts, salons professionnels, matchs) déclenchent des hausses automatiques.
+*   **La vitesse de réservation (Booking Pace)** : Si un établissement se met à se remplir beaucoup plus vite que d'habitude à une date précise, le système interprète une forte demande et revoit les prix à la hausse de manière anticipée.
+
+### 2. Le grand dilemme : Réserver tôt ou parier sur la dernière minute ?
+
+C'est la question que tout le monde se pose. Faut-il jouer la carte de la sécurité ou tenter le coup de poker ? La réponse dépend entièrement de votre destination et de la période.
+
+*   **Option A : La réservation anticipée (Early Booking) – La sécurité**
+    *   *Pourquoi ?* Les hôtels lancent souvent leurs stocks avec des tarifs d'appel attractifs pour s'assurer un socle de remplissage.
+    *   *Le risque zéro :* Vous avez le plus large choix de chambres et vous évitez la flambée des prix de dernière minute.
+*   **Option B : La dernière minute – Le pari risqué**
+    *   *Quand est-ce que ça fonctionne ?* Pour les grandes métropoles en basse saison ou les hôtels d'affaires le week-end, les établissements préfèrent brader leurs chambres vides plutôt que de les laisser inoccupées.
+    *   *Le piège :* En haute saison ou dans les zones très touristiques, attendre la dernière minute signifie souvent qu'il ne reste que les chambres les plus chères (ou plus rien du tout).
+
+### 3. Les fausses bonnes idées et les pièges à éviter
+
+1.  **Le mythe de la navigation privée** : Contrairement aux idées reçues, les sites de réservation n'augmentent pas leurs prix en fonction de vos recherches répétées (cookies). Les variations de prix sont globales et s'appliquent à tous les utilisateurs.
+2.  **Attendre le jour J en pensant que les prix vont s'effondrer** : Si le taux d'occupation de l'hôtel est bon, l'algorithme ne baissera jamais les prix. Il continuera au contraire de les monter pour cibler les voyageurs de dernière minute "coincés".
+
+### En résumé : La stratégie gagnante avec HotelCompare
+
+Pour dénicher la meilleure offre sans stress, voici la marche à suivre :
+
+*   **Anticipez** dès que vous connaissez vos dates pour les périodes de forte affluence.
+*   **Surveillez** l'évolution des prix en amont pour repérer la tendance du marché.
+*   **Utilisez notre comparateur** sur HotelCompare pour visualiser en un coup d'œil les différentes options et identifier le moment où le rapport qualité-prix est optimal.
+
+**Ne subissez plus les algorithmes : apprenez à jouer avec eux pour voyager plus souvent et moins cher !**
+"""
+}
     ]
 
     if 'page_ouverte' not in st.session_state:
