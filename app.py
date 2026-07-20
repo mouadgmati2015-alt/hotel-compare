@@ -3,7 +3,12 @@ import os
 import json
 from streamlit_carousel import carousel
 from data.hotels_data import HOTELS_DATA
+import streamlit as st
+import streamlit.components.v1 as components
 
+# Injection de la balise de vérification Google Search Console
+google_tag = '<meta name="google-site-verification" content="UFPNwmAw5bpc..." />'
+components.html(google_tag, height=0, width=0)
 # Configuration de la page
 st.set_page_config(page_title="HotelCompare", layout="wide")
 
