@@ -29,8 +29,17 @@ st.markdown("""
     iframe {
         width: 100% !important;
     }
+    [data-testid="collapsedControl"]::after {
+        content: " Menu";
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+        vertical-align: middle;
+        margin-left: 5px;
+    }
     </style>
 """, unsafe_allow_html=True)
+
 # --- Navigation ---
 page = st.sidebar.radio("Navigation", ["Comparateur", "Blog"])
 
