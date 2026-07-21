@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 import json
-from streamlit_image_caroussel import caroussel
+from streamlit_image_carousel import carousel
 from data.hotels_data import HOTELS_DATA
 import streamlit as st
 import streamlit.components.v1 as components
