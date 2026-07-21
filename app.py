@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 import json
-from image_caroussel import caroussel
+st.image("images/image caroussel 2.png", use_container_width=True)
 from data.hotels_data import HOTELS_DATA
 import streamlit as st
 import streamlit.components.v1 as components
