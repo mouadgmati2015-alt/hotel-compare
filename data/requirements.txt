@@ -1,4 +1,4 @@
 streamlit
 requests
 pillow
-streamlit-carousel
+image_caroussel
