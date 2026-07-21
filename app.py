@@ -66,7 +66,7 @@ if page == "Comparateur":
         dict(title="", text="", img="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"),
         dict(title="", text="", img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2000")
     ]
-    carousel(items=test_items, width=1)
+    st.image("images/image caroussel 2.png", use_container_width=True)
    
     # --- Mode d'emploi ---
     
