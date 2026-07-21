@@ -30,7 +30,7 @@ HOTELS_DATA = {
             "style": "Complexe balnéaire classique de style club de vacances",
             "verdict": "Un excellent choix pour des vacances rythmées et pieds dans l'eau, à condition de ne pas chercher un design ultra-moderne."
         },
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 29 May 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 29 May 2026"
     },
     "Club Marmara Palm Beach Djerba": {
         "etoiles": "4 étoiles",
@@ -62,7 +62,7 @@ HOTELS_DATA = {
             "style": "Complexe balnéaire 4 étoiles avec plage privée et formule All Inclusive",
             "verdict": "Une excellente option si vous voyagez à plusieurs ou en groupe pour profiter de l'ambiance club et de la proximité immédiate de la plage."
         },
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Club Med Djerba Méridiana": {
         "etoiles": "4 étoiles",
@@ -94,7 +94,7 @@ HOTELS_DATA = {
             "style": "Village vacances de luxe à l'architecture inspirée des menzels djerbiens",
             "verdict": "L'option incontournable si vous cherchez le meilleur compromis entre services premium, sport et esprit club, quel que soit votre budget."
         },
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Dar Chich Yahia": {
         "etoiles": "Maison d'hôtes",
@@ -125,7 +125,7 @@ HOTELS_DATA = {
             "style": "Maison d'hôtes traditionnelle djerbienne avec vue sur mer",
             "verdict": "Une perle rare si vous fuyez les grands complexes hôteliers impersonnels et recherchez l'authenticité et le calme."
         },
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Dar Lola": {
         "etoiles": "Maison d'hôtes",
@@ -154,7 +154,7 @@ HOTELS_DATA = {
             "style": "Maison d'hôtes de charme au cœur de Houmt Souk",
             "verdict": "Une cachette secrète parfaite pour se reposer et s'imprégner de l'ambiance locale, à condition d'avoir un moyen de transport pour bouger vers la mer."
         },
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Dar Salem": {
         "etoiles": "Maison d'hôtes",
@@ -183,7 +183,7 @@ HOTELS_DATA = {
             "style": "Maison d'hôtes traditionnelle au confort moderne discret",
             "verdict": "Une valeur sûre si vous privilégiez la propreté, l'accueil aux petits soins et un cadre profondément reposant."
         },
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Djerba Golf Resort & Spa": {
         "etoiles": "4 étoiles",
@@ -215,7 +215,7 @@ HOTELS_DATA = {
             "style": "Hôtel de standing aux accents traditionnels et orientés loisirs de plein air",
             "verdict": "Une adresse incontournable si vous voulez combiner passion du golf, soins au spa et tranquillité loin de l'agitation des clubs festifs."
         },
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Djerba Holiday Beach": {
         "etoiles": "4 étoiles",
@@ -247,7 +247,7 @@ HOTELS_DATA = {
             "style": "Hôtel club de facture classique avec un bon rapport qualité-prix",
             "verdict": "Une bonne alternative économique si vous cherchez du tout-compris avec un accès direct à la mer, en acceptant quelques signes d'âge dans les installations."
         },
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Eden Village Djerba Mare": {
         "etoiles": "4 étoiles",
@@ -279,7 +279,7 @@ HOTELS_DATA = {
             "style": "Village club de vacances aux influences méditerranéennes",
             "verdict": "Parfait pour des vacances en famille axées sur le divertissement et la plage, avec une ambiance internationale dynamique."
         },
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Hotel Fiesta Beach Djerba": {
         "etoiles": "4 étoiles",
@@ -312,7 +312,7 @@ HOTELS_DATA = {
             "style": "Complexe hôtelier de style club de vacances méditerranéen",
             "verdict": "Un choix sûr et vivant pour des vacances tout compris rythmées, particulièrement adapté aux familles avec enfants."
         },
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Hari Club Beach Resort": {
         "etoiles": "3 étoiles",
@@ -342,7 +342,7 @@ HOTELS_DATA = {
             "style": "Club de vacances classique et sans fioritures",
             "verdict": "Une option abordable pour profiter de la plage sans se ruiner."
         },
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 29 May 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 29 May 2026"
     },
     "Hasdrubal Prestige Thalasso & Spa Djerba": {
         "etoiles": "5 étoiles",
@@ -373,7 +373,7 @@ HOTELS_DATA = {
             "style": "Hôtel 5 étoiles haut de gamme orienté bien-être",
             "verdict": "Le summum du luxe à Djerba pour un séjour entièrement dédié à la détente haut de gamme."
         },
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Hotel Riad Meninx": {
         "etoiles": "3 étoiles",
@@ -404,7 +404,7 @@ HOTELS_DATA = {
             "style": "Hôtel club 3 étoiles de station balnéaire",
             "verdict": "Un choix fonctionnel, vivant et très abordable pour profiter de vacances rythmées les pieds dans l'eau."
         },
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Hotel de charme et SPA Dar El Bhar": {
         "etoiles": "Maison d'hôtes / Charme",
@@ -433,7 +433,7 @@ HOTELS_DATA = {
             "style": "Maison d'hôtes de charme contemporaine",
             "verdict": "Une oasis de bien-être au design soigné pour un séjour en amoureux mémorable."
         },
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 29 May 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 29 May 2026"
     },
     "Hôtel Abir": {
         "etoiles": "2 étoiles",
@@ -462,7 +462,7 @@ HOTELS_DATA = {
             "style": "Hôtel urbain ou de passage économique",
             "verdict": "Parfait pour un court séjour utilitaire à bas coût."
         },
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Hôtel Haroun": {
         "etoiles": "3 étoiles",
@@ -492,7 +492,7 @@ HOTELS_DATA = {
             "style": "Hôtel de ville à dimension humaine",
             "verdict": "Un excellent choix si vous préférez la proximité de la ville à celle de la plage."
         },
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 29 May 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 29 May 2026"
     },
 "Verginia Sharm Resort & Aqua Park": {
         "etoiles": "4 étoiles",
@@ -524,7 +524,7 @@ HOTELS_DATA = {
             "style": "Complexe de vacances avec espaces aquatiques et jardins",
             "verdict": "Une excellente option axée sur les loisirs aquatiques pour profiter de Charm el-Cheikh en famille sans se ruiner."
         },
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Sun Holiday Beach Hotel": {
         "etoiles": "4 étoiles",
@@ -541,7 +541,7 @@ HOTELS_DATA = {
             "Équipements parfois un peu anciens",
             "Animation inégale selon la saison"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Laico Hammamet Hotel": {
         "etoiles": "4 étoiles",
@@ -558,7 +558,7 @@ HOTELS_DATA = {
             "Affluence importante en période estivale",
             "Service parfois ralenti à la réception"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Tui blue Palm Beach Hammamet": {
         "etoiles": "4 étoiles",
@@ -575,7 +575,7 @@ HOTELS_DATA = {
             "Tarifs un peu plus élevés",
             "Moins adapté aux familles avec enfants"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Aziza Thalasso Golf": {
         "etoiles": "4 étoiles",
@@ -592,7 +592,7 @@ HOTELS_DATA = {
             "Décoration classique",
             "Animation discrète"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Dalia": {
         "etoiles": "3 étoiles",
@@ -609,7 +609,7 @@ HOTELS_DATA = {
             "Confort simple",
             "Restauration basique"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Le Sultan": {
         "etoiles": "4 étoiles",
@@ -625,7 +625,7 @@ HOTELS_DATA = {
         "points_negatifs": [
             "Demande de réservation très en avance en haute saison"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Mediterranée Thalasso Golf": {
         "etoiles": "3 étoiles",
@@ -642,7 +642,7 @@ HOTELS_DATA = {
             "Infrastructures vieillissantes",
             "Chambres nécessitant des rénovations"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "La Badira": {
         "etoiles": "5 étoiles",
@@ -659,7 +659,7 @@ HOTELS_DATA = {
             "Prix très élevés",
             "Non adapté aux familles"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "L'ARABESK Hôtel": {
         "etoiles": "3 étoiles",
@@ -676,7 +676,7 @@ HOTELS_DATA = {
             "Équipements un peu limités",
             "Un peu en retrait de la plage"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "SENTIDO Aziza Beach": {
         "etoiles": "4 étoiles",
@@ -692,7 +692,7 @@ HOTELS_DATA = {
         "points_negatifs": [
             "Clientèle principalement adulte (moins d'animations bruyantes)"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Vincci Flora Park": {
         "etoiles": "4 étoiles",
@@ -709,7 +709,7 @@ HOTELS_DATA = {
             "Plage un peu éloignée",
             "Animation discrète"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Royal Tulip Taj Sultan": {
         "etoiles": "5 étoiles",
@@ -726,7 +726,7 @@ HOTELS_DATA = {
             "Affluence élevée en haute saison",
             "Service parfois un peu lent à la réception"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Lynda": {
         "etoiles": "3 étoiles",
@@ -743,7 +743,7 @@ HOTELS_DATA = {
             "Équipements vieillissants",
             "Choix limité au buffet"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Cypres": {
         "etoiles": "3 étoiles",
@@ -760,7 +760,7 @@ HOTELS_DATA = {
             "Confort rudimentaire",
             "Isolation phonique perfectible"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "L'Atrium": {
         "etoiles": "4 étoiles",
@@ -777,7 +777,7 @@ HOTELS_DATA = {
             "Pas d'accès direct à la plage",
             "Espaces extérieurs un peu restreints"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Dar Zakaria": {
         "etoiles": "Maison d'hôtes",
@@ -794,7 +794,7 @@ HOTELS_DATA = {
             "Capacité d'accueil limitée",
             "Services hôteliers classiques absents"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Mirage Beach Club": {
         "etoiles": "4 étoiles",
@@ -811,7 +811,7 @@ HOTELS_DATA = {
             "Chambres nécessitant un rafraîchissement",
             "Éloignement du centre-ville"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Eldorador Salammbô en Menzels": {
         "etoiles": "4 étoiles",
@@ -828,7 +828,7 @@ HOTELS_DATA = {
             "Certains logements demandent des rénovations",
             "Restauration répétitive"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "TUI SENSIMAR OCEANA RESORT AND SPA": {
         "etoiles": "5 étoiles",
@@ -845,7 +845,7 @@ HOTELS_DATA = {
             "Tarifs élevés",
             "Ambiance très feutrée (peu adaptée aux fêtards)"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Thalassa Shalimar Hotel": {
         "etoiles": "4 étoiles",
@@ -862,7 +862,7 @@ HOTELS_DATA = {
             "Mobilier un peu vieillot",
             "Wifi parfois instable"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "TUI Magic Life Africana": {
         "etoiles": "5 étoiles",
@@ -879,7 +879,7 @@ HOTELS_DATA = {
             "Fréquentation très dense en été",
             "Complexe étendu (beaucoup de marche)"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Iberostar Selection Mirage Hammamet": {
         "etoiles": "5 étoiles",
@@ -896,7 +896,7 @@ HOTELS_DATA = {
             "Prix parfois excessifs en haute saison",
             "Plage parfois encombrée"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Delfino Beach Resort & Spa": {
         "etoiles": "4 étoiles",
@@ -913,7 +913,7 @@ HOTELS_DATA = {
             "Certaines chambres mériteraient un rafraîchissement",
             "Buffet parfois bruyant"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Sindbad": {
         "etoiles": "5 étoiles",
@@ -930,7 +930,7 @@ HOTELS_DATA = {
             "Tarifs élevés",
             "Décoration peut-être trop classique pour certains"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Laico Hammamet Hotel": {
         "etoiles": "5 étoiles",
@@ -947,7 +947,7 @@ HOTELS_DATA = {
             "Entretien parfois insuffisant",
             "Service perfectible aux heures de pointe"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Tui blue Palm Beach Hammamet": {
         "etoiles": "4 étoiles",
@@ -964,7 +964,7 @@ HOTELS_DATA = {
             "Demande de réservation rapide pour les restaurants à la carte",
             "Un peu isolé"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Aziza Thalasso Golf": {
         "etoiles": "4 étoiles",
@@ -981,7 +981,7 @@ HOTELS_DATA = {
             "Style intérieur un peu classique",
             "Animation très limitée"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Dalia": {
         "etoiles": "3 étoiles",
@@ -998,7 +998,7 @@ HOTELS_DATA = {
             "Chambres basiques",
             "Équipements sportifs et de loisirs restreints"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Le Sultan": {
         "etoiles": "4 étoiles",
@@ -1015,7 +1015,7 @@ HOTELS_DATA = {
             "Supplément parfois demandé pour certaines prestations",
             "Wi-Fi parfois faible dans les chambres éloignées"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Mediterranée Thalasso Golf": {
         "etoiles": "3 étoiles",
@@ -1032,7 +1032,7 @@ HOTELS_DATA = {
             "Chambres vieillissantes",
             "Restauration standard"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "L'ARABESK Hôtel": {
         "etoiles": "3 étoiles",
@@ -1049,7 +1049,7 @@ HOTELS_DATA = {
             "Confort limité",
             "Isolation phonique perfectible"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "SENTIDO Aziza Beach": {
         "etoiles": "4 étoiles",
@@ -1066,7 +1066,7 @@ HOTELS_DATA = {
             "Animation très discrète",
             "Proche du centre mais nécessite un transport pour certaines zones"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hammamet Hotel Viertel": {
         "etoiles": "3 étoiles",
@@ -1083,7 +1083,7 @@ HOTELS_DATA = {
             "Prestations basiques",
             "Chambres un peu défraîchies"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Magic Life Manar": {
         "etoiles": "5 étoiles",
@@ -1100,7 +1100,7 @@ HOTELS_DATA = {
             "Très fréquenté en haute saison",
             "Bruyant autour des piscines principales"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Imperial Park": {
         "etoiles": "4 étoiles",
@@ -1117,7 +1117,7 @@ HOTELS_DATA = {
             "Un peu éloigné de la plage",
             "Décoration intérieure ancienne"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Marina Palace": {
         "etoiles": "4 étoiles",
@@ -1134,7 +1134,7 @@ HOTELS_DATA = {
             "Plage à traverser ou à distance de marche",
             "Chambres nécessitant quelques rénovations"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Houda Yasmine": {
         "etoiles": "4 étoiles",
@@ -1151,7 +1151,7 @@ HOTELS_DATA = {
             "Restauration parfois monotone",
             "Infrastructures vieillissantes"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "The Russelior Hotel & Spa": {
         "etoiles": "5 étoiles",
@@ -1168,7 +1168,7 @@ HOTELS_DATA = {
             "Pas un accès direct immédiat à la plage",
             "Tarifs élevés"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Neptune": {
         "etoiles": "3 étoiles",
@@ -1185,7 +1185,7 @@ HOTELS_DATA = {
             "Confort très simple",
             "Équipements limités"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hasdrubal Thalassa And Spa": {
         "etoiles": "5 étoiles",
@@ -1202,7 +1202,7 @@ HOTELS_DATA = {
             "Budget très élevé",
             "Ambiance très stricte/formelle"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Bravo Hammamet": {
         "etoiles": "4 étoiles",
@@ -1219,7 +1219,7 @@ HOTELS_DATA = {
             "Forte affluence en haute saison",
             "Chambres simples"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Basen Bahia Beach": {
         "etoiles": "3 étoiles",
@@ -1236,7 +1236,7 @@ HOTELS_DATA = {
             "Rénovation nécessaire",
             "Services limités"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel El Mouradi El Menzah": {
         "etoiles": "4 étoiles",
@@ -1253,7 +1253,7 @@ HOTELS_DATA = {
             "Fréquentation très dense et bruyante",
             "Restauration industrielle"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel El Olf Las Palmas": {
         "etoiles": "4 étoiles",
@@ -1270,7 +1270,7 @@ HOTELS_DATA = {
             "Propreté parfois inégale",
             "Chambres un peu défraîchies"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Excel": {
         "etoiles": "3 étoiles",
@@ -1287,7 +1287,7 @@ HOTELS_DATA = {
             "Prestations très basiques",
             "Cadre peu moderne"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Green Golf": {
         "etoiles": "3 étoiles",
@@ -1304,7 +1304,7 @@ HOTELS_DATA = {
             "Un peu éloigné de la plage",
             "Confort simple"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Majesty Golf": {
         "etoiles": "4 étoiles",
@@ -1321,7 +1321,7 @@ HOTELS_DATA = {
             "Un peu excentré",
             "Animation discrète"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Vincci Marillia": {
         "etoiles": "4 étoiles",
@@ -1338,7 +1338,7 @@ HOTELS_DATA = {
             "Buffet parfois très fréquenté",
             "Chambres familiales un peu exiguës"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Alhambra Thalasso Hammamet": {
         "etoiles": "5 étoiles",
@@ -1355,7 +1355,7 @@ HOTELS_DATA = {
             "Plage non immédiate (nécessite une courte marche ou navette)",
             "Décoration parfois jugée lourde"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Mechmoum": {
         "etoiles": "3 étoiles",
@@ -1372,7 +1372,7 @@ HOTELS_DATA = {
             "Équipements vétustes",
             "Restauration très simple"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Safa": {
         "etoiles": "3 étoiles",
@@ -1389,7 +1389,7 @@ HOTELS_DATA = {
             "Confort rudimentaire",
             "Manque d'activités"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Mahari": {
         "etoiles": "5 étoiles",
@@ -1406,7 +1406,7 @@ HOTELS_DATA = {
             "Nécessite quelques rénovations modernes",
             "Restauration inégale"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Sofitel Saphir Palace": {
         "etoiles": "5 étoiles",
@@ -1423,7 +1423,7 @@ HOTELS_DATA = {
             "Tarifs élevés",
             "Plage un peu éloignée de l'autre côté de la route"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Shell Beach": {
         "etoiles": "3 étoiles",
@@ -1440,7 +1440,7 @@ HOTELS_DATA = {
             "Chambres basiques",
             "Infrastructures limitées"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Lella Baya": {
         "etoiles": "4 étoiles",
@@ -1457,7 +1457,7 @@ HOTELS_DATA = {
             "Fréquentation dense en haute saison",
             "Chambres vieillissantes"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Yasmine Beach": {
         "etoiles": "4 étoiles",
@@ -1474,7 +1474,7 @@ HOTELS_DATA = {
             "Bruyant en période estivale",
             "Restauration de type industriel"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Zodiac": {
         "etoiles": "4 étoiles",
@@ -1491,7 +1491,7 @@ HOTELS_DATA = {
             "Chambres nécessitant un coup de neuf",
             "Wi-Fi faible dans certaines zones"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Chich Khan": {
         "etoiles": "4 étoiles",
@@ -1508,7 +1508,7 @@ HOTELS_DATA = {
             "Affluence importante",
             "Équipements parfois usés"
         ],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Solaria & Thalasso": {
         "etoiles": "",
@@ -1518,7 +1518,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Majesty Golf Hotel": {
         "etoiles": "",
@@ -1528,7 +1528,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Medence Hotel Sandra": {
         "etoiles": "",
@@ -1538,7 +1538,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "SplashWorld AQI Venus Beach": {
         "etoiles": "",
@@ -1548,7 +1548,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "La Couronne Hammamet": {
         "etoiles": "",
@@ -1558,7 +1558,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Le Hammamet Hotel & Spa": {
         "etoiles": "",
@@ -1568,7 +1568,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hotel Khayam Garden Beach & Spa Nabeul": {
         "etoiles": "",
@@ -1578,7 +1578,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Les Pyramides Hotel Club & Spa": {
         "etoiles": "",
@@ -1588,7 +1588,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Kheops": {
         "etoiles": "",
@@ -1598,7 +1598,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Club Med Hammamet": {
         "etoiles": "",
@@ -1608,7 +1608,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "El Mouradi Beach Hotel": {
         "etoiles": "",
@@ -1618,7 +1618,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Club El Fell": {
         "etoiles": "",
@@ -1628,7 +1628,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Royal Nozha": {
         "etoiles": "",
@@ -1638,7 +1638,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Vincci Nozha Beach & Spa": {
         "etoiles": "",
@@ -1648,7 +1648,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Paradis Palace": {
         "etoiles": "",
@@ -1658,7 +1658,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "L'Opera": {
         "etoiles": "",
@@ -1668,7 +1668,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Romène": {
         "etoiles": "",
@@ -1678,7 +1678,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Diar Erriadh": {
         "etoiles": "",
@@ -1688,7 +1688,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Diar Elbousten": {
         "etoiles": "",
@@ -1698,7 +1698,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Diar Sidi Bou Said": {
         "etoiles": "",
@@ -1708,7 +1708,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Radisson Blu Resort & Thalasso, Hammamet": {
         "etoiles": "",
@@ -1718,7 +1718,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Maison des Jeunes": {
         "etoiles": "",
@@ -1728,7 +1728,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Azur Plaza": {
         "etoiles": "",
@@ -1738,7 +1738,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Dar R'Bat": {
         "etoiles": "",
@@ -1748,7 +1748,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Byzance": {
         "etoiles": "",
@@ -1758,7 +1758,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Dar Oum El Khair": {
         "etoiles": "",
@@ -1768,7 +1768,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Les Vagues Home": {
         "etoiles": "",
@@ -1778,7 +1778,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Villa De Anes Ben Gabsia": {
         "etoiles": "",
@@ -1788,7 +1788,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Al Insaf": {
         "etoiles": "",
@@ -1798,7 +1798,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Costa Marina": {
         "etoiles": "",
@@ -1808,7 +1808,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Néapolis": {
         "etoiles": "",
@@ -1818,7 +1818,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hammamet Ela Apartments": {
         "etoiles": "",
@@ -1828,7 +1828,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Le Lagon De HAMMAMET": {
         "etoiles": "",
@@ -1838,7 +1838,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "LUXE Apartment": {
         "etoiles": "",
@@ -1848,7 +1848,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Espace Le Jardin": {
         "etoiles": "",
@@ -1858,7 +1858,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Ahmed": {
         "etoiles": "",
@@ -1868,7 +1868,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Mimosas": {
         "etoiles": "",
@@ -1878,7 +1878,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Dar Taieb": {
         "etoiles": "",
@@ -1888,7 +1888,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé à par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Dar Ennasr": {
         "etoiles": "",
@@ -1898,7 +1898,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Douja Apartment": {
         "etoiles": "",
@@ -1908,7 +1908,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Appartement Nabeul": {
         "etoiles": "",
@@ -1918,7 +1918,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Costa Marina": {
         "etoiles": "",
@@ -1928,7 +1928,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Espace La Cascade": {
         "etoiles": "",
@@ -1938,7 +1938,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "EZZAHRA": {
         "etoiles": "",
@@ -1948,7 +1948,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Riadh Andalus": {
         "etoiles": "",
@@ -1958,7 +1958,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Panorama": {
         "etoiles": "",
@@ -1968,7 +1968,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Côte d'Azur Hammamet": {
         "etoiles": "",
@@ -1978,7 +1978,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Hamilton": {
         "etoiles": "",
@@ -1988,7 +1988,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Palais Présidentiel de Hammamet": {
         "etoiles": "",
@@ -1998,7 +1998,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé ar IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Nahrawess Hotel & Spa Resort": {
         "etoiles": "",
@@ -2008,7 +2008,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Le Zénith": {
         "etoiles": "",
@@ -2018,7 +2018,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Yadis Hammamet Club": {
         "etoiles": "",
@@ -2028,7 +2028,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par l IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Albatros Hammamet": {
         "etoiles": "",
@@ -2038,7 +2038,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Club Président": {
         "etoiles": "",
@@ -2048,7 +2048,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Club Marmara Hammamet Beach": {
         "etoiles": "",
@@ -2058,7 +2058,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Sami": {
         "etoiles": "",
@@ -2068,7 +2068,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Delphin Jardin": {
         "etoiles": "",
@@ -2078,7 +2078,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Ceramic": {
         "etoiles": "",
@@ -2088,7 +2088,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "El Manara": {
         "etoiles": "",
@@ -2098,7 +2098,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Wafi": {
         "etoiles": "",
@@ -2108,7 +2108,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Diar Skander": {
         "etoiles": "",
@@ -2118,7 +2118,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Les Colombes": {
         "etoiles": "",
@@ -2128,7 +2128,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Dar Khayam Hôtel": {
         "etoiles": "",
@@ -2138,7 +2138,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé parl IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Les Citronniers Hammamet Tunisia": {
         "etoiles": "",
@@ -2148,7 +2148,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Les Orangers Garden Villas & Bungalows": {
         "etoiles": "",
@@ -2158,7 +2158,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Villa Sindbad": {
         "etoiles": "",
@@ -2168,7 +2168,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Les Palmiers Centre de Vacances": {
         "etoiles": "",
@@ -2178,7 +2178,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Villa Mahbouba": {
         "etoiles": "",
@@ -2188,7 +2188,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Dar Zahir": {
         "etoiles": "",
@@ -2198,7 +2198,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Ideal Apartment For Families": {
         "etoiles": "",
@@ -2208,7 +2208,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel SAMARIS": {
         "etoiles": "",
@@ -2218,7 +2218,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Garsaa": {
         "etoiles": "",
@@ -2228,7 +2228,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence La Perle De Hammamet": {
         "etoiles": "",
@@ -2238,7 +2238,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hammam Gharbi": {
         "etoiles": "",
@@ -2248,7 +2248,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Yasmine": {
         "etoiles": "",
@@ -2258,7 +2258,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Le Château": {
         "etoiles": "",
@@ -2268,7 +2268,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Espace El Yasmine": {
         "etoiles": "",
@@ -2278,7 +2278,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé à par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "La Maison du Golfe": {
         "etoiles": "",
@@ -2288,7 +2288,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "La Villa Omar": {
         "etoiles": "",
@@ -2298,7 +2298,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Dar Beldi": {
         "etoiles": "",
@@ -2308,7 +2308,7 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Dar Vignola": {
         "etoiles": "",
@@ -2318,6 +2318,70 @@ HOTELS_DATA = {
         "avis": "",
         "points_positifs": [],
         "points_negatifs": [],
-        "meta_avis": "Contenu résumé à l’aide de l’IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé à par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
+    "Chimelong Spaceship Hotel": {
+    "etoiles": "4 étoiles",
+    "lien": "https://kkday.tpx.li/V9JvnSgX",
+    "image": "https://hotels.staticroot.com/image/upload/v1767511280/chimelong_spaceship.jpg",
+    "description": "Situé au cœur du complexe Chimelong Ocean Kingdom à Zhuhai en Chine, le Chimelong Spaceship Hotel est un hôtel thématique unique au monde sur le thème de l'exploration spatiale et de l'océan. Conçu comme un gigantesque vaisseau spatial, il propose des chambres immersives futuristes et offre un accès direct à l'un des plus grands parcs à thème marin de la planète. L'établissement dispose d'infrastructures gigantesques et spectaculaires, comprenant des restaurants aux décors aquatiques immersifs, des espaces ludo-éducatifs pour les enfants et un design architectural époustouflant qui plonge immédiatement les visiteurs dans un autre univers.",
+    "prix_moyen": "200€ - 350€ / nuit",
+    "avis": "4.6/5",
+    "points_positifs": [
+        "Thématique spatiale et immersive incroyable pour les enfants",
+        "Accès direct et privilégié au parc Chimelong",
+        "Propreté irréprochable et chambres spacieuses"
+    ],
+    "points_negatifs": [
+        "Hôtel très fréquenté, particulièrement le week-end et pendant les vacances scolaires",
+        "Affluence importante dans les files d'attente et les restaurants"
+    ],
+    "equipements": [
+        "Wi-Fi gratuit",
+        "Restaurants thématiques",
+        "Boutiques de souvenirs du parc",
+        "Espaces de jeux pour enfants",
+        "Service de navette pour le complexe",
+        "Réception ouverte 24h/24"
+    ],
+    "pour_qui": {
+        "ambiance": "🚀 Fantastique, immersive, grandiose et familiale",
+        "public": "Parfait pour les familles avec enfants et les passionnés de parcs d'attractions et d'espace",
+        "style": "Hôtel à thème hautement immersif et futuriste",
+        "verdict": "Une expérience extraordinaire et magique pour les enfants, indispensable pour un séjour réussi au parc Chimelong."
+    },
+    "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 20 July 2026"
+},
+"Hôtel Les Palmes d'Or": {
+    "etoiles": "3 étoiles",
+    "lien": "https://klook.tpx.li/QNKtE567",
+    "image": "https://i.travelapi.com/lodging/22000000/21200000/21196900/21196874/f5675b15_z.jpg?impolicy=resizecrop&rw=1920&ra=fit",
+    "description": "Situé en plein centre-ville de Houmt Souk à Djerba, l'Hôtel Les Palmes d'Or offre un pied-à-terre idéal à deux pas du Musée du Patrimoine Traditionnel et de la médina. Cet établissement à taille humaine propose 23 chambres confortables dotées d'une literie de qualité supérieure et d'un balcon ou patio. L'hôtel dispose d'un agréable jardin, d'une terrasse, ainsi que de services pratiques incluant une réception ouverte 24h/24, un petit-déjeuner buffet inclus et une supérette de proximité sur place.",
+    "prix_moyen": "40€ - 99€ / nuit",
+    "avis": "4.2/5",
+    "points_positifs": [
+        "Personnel accueillant et aux petits soins",
+        "Emplacement central proche du centre-ville et des souks",
+        "Literie très confortable"
+    ],
+    "points_negatifs": [
+        "Bruit potentiel lié aux véhicules et aux rues environnantes pour les chambres sur rue",
+        "Petit-déjeuner parfois limité ou manquant de choix en produits frais selon la saison"
+    ],
+    "equipements": [
+        "Wi-Fi gratuit",
+        "Parking gratuit",
+        "Réception ouverte 24h/24",
+        "Jardin et terrasse",
+        "Épicerie / supérette sur place",
+        "Service de blanchisserie"
+    ],
+    "pour_qui": {
+        "ambiance": "🏙️ Urbain, chaleureux, calme et pratique",
+        "public": "Parfait pour les voyageurs d'affaires, les couples ou les touristes souhaitant explorer le cœur de Houmt Souk à pied",
+        "style": "Hôtel de ville intime et confortable",
+        "verdict": "Un excellent rapport qualité-prix en centre-ville, idéal pour un séjour authentique à Djerba grâce à un personnel particulièrement attentionné."
+    },
+    "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 21 July 2026"
+},
 }
