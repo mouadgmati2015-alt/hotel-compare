@@ -141,10 +141,10 @@ elif st.session_state.page == "Compagnies Aériennes":
     
     st.markdown("---")
     
-    noms_compagnies = list(AIRLINES_DATA.keys())
+    noms_compagnies = sorted(AIRLINES_DATA.keys())
     
     col_s1, col_s2 = st.columns([2, 1])
-    choix_cie = col_s1.selectbox("Choisissez une compagnie aérienne", [""] + noms_compagnies)
+    choix_cie = col_s1.selectbox("Choisissez une compagnie aérienne", noms_compagnies)
     
     if choix_cie:
         infos = AIRLINES_DATA[choix_cie]
