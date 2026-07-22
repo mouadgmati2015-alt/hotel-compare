@@ -2,13 +2,14 @@ AIRLINES_DATA = {
     "Air France": {
         "categorie": "Compagnie Nationale",
         "alliance": "SkyTeam",
-        "note": "4.2 / 5",
-        "resume": "Compagnie nationale française reconnue pour son confort, ses services long-courriers et son programme de fidélité.",
-        "bagages": "1 bagage cabine + accessoire inclus (soute payante selon tarif)",
-        "liaisons": ["Paris - Tunis", "Paris - New York", "Nice - Dubaï", "Marseille - Montréal"],
-        "histoire": "Fondée en 1933 issue de la fusion de plusieurs compagnies françaises, elle est devenue l'un des acteurs majeurs du transport aérien mondial et a fusionné avec KLM en 2004.",
-        "securite": "Excellente réputation globale en matière de sécurité, classée parmi les compagnies aériennes majeures les plus sûres d'Europe.",
-        "logo": "images/air_france.jpg",
+        "note": "4.0 / 5",
+        "resume": "Principal transporteur aérien français, proposant un vaste réseau mondial et un service de qualité supérieure.",
+        "bagages": "1 accessoire + 1 bagage cabine (12kg max) ; soute payante en tarif Light ou incluse selon tarif",
+        "liaisons": ["Paris - New York", "Paris - Tunis", "Paris - Tokyo", "Nice - Londres"],
+        "histoire": "Fondée en 1933, Air France est l'emblème historique de l'aviation française et un acteur mondial majeur du transport aérien.",
+        "securite": "Excellentes normes de sécurité, régulièrement classée parmi les compagnies les plus sûres d'Europe et du monde.",
+        "flotte": "Environ 220 appareils (Airbus A350, A330, A320/A321, et Boeing 777), avec un accent sur le renouvellement de la flotte long-courrier.",
+        "logo": "images/air_france.png",
         "lien": "https://www.travelpayouts.com/"
     },
     "Tunisair": {
@@ -20,6 +21,7 @@ AIRLINES_DATA = {
         "liaisons": ["Tunis - Paris", "Tunis - Lyon", "Tunis - Marseille", "Djerba - Genève"],
         "histoire": "Créée en 1948, Tunisair est la doyenne des compagnies aériennes en Tunisie, symbole de la liaison historique entre l'Afrique du Nord et l'Europe.",
         "securite": "Respecte les normes de sécurité internationales requises pour desservir l'espace aérien européen.",
+        "flotte": "Flotte d'environ 15 à 20 appareils composée d'Airbus A320, A319 et d'A330-200 pour le long-courrier.",
         "logo": "images/tunis_air.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -32,6 +34,7 @@ AIRLINES_DATA = {
         "liaisons": ["Paris - Dubaï", "Nice - Dubaï", "Dubaï - Bangkok", "Lyon - Sydney"],
         "histoire": "Fondée en 1985 par le gouvernement de Dubaï, la compagnie a connu une croissance fulgurante pour s'imposer comme un hub mondial incontournable.",
         "securite": "L'une des flottes les plus jeunes au monde et un bilan de sécurité quasi-impeccable.",
+        "flotte": "Plus de 260 gros-porteurs constitués exclusivement d'Airbus A380 et de Boeing 777.",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Emirates_logo.svg",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -44,9 +47,10 @@ AIRLINES_DATA = {
         "liaisons": ["Paris - Tunis", "Lyon - Marrakech", "Nantes - Porto", "Paris - Djerba"],
         "histoire": "Créée en 1965 aux Pays-Bas et développée fortement en France par le groupe Air France-KLM.",
         "securite": "Bénéficie des standards techniques rigoureux du groupe Air France.",
+        "flotte": "Flotte homogène d'environ 70 à 80 appareils composée exclusivement de Boeing 737-800 et d'introduction progressive d'Airbus A320neo.",
         "logo": "images/transavia.png",
         "lien": "https://www.travelpayouts.com/"
-        },
+    },
     "Ryanair": {
         "categorie": "Low-Cost",
         "alliance": "Indépendante",
@@ -56,6 +60,7 @@ AIRLINES_DATA = {
         "liaisons": ["Paris Beauvais - Rome", "Marseille - Londres", "Bruxelles - Milan", "Porto - Barcelone"],
         "histoire": "Fondée en 1984 en Irlande, Ryanair a révolutionné le transport aérien européen grâce au modèle low-cost.",
         "securite": "Excellente sécurité opérationnelle avec une flotte moderne de Boeing 737.",
+        "flotte": "Flotte massive de plus de 550 appareils, composée de Boeing 737-800 et de Boeing 737 Gamechanger (MAX 200).",
         "logo": "images/ryanair.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -68,9 +73,10 @@ AIRLINES_DATA = {
         "liaisons": ["Paris CDG - Genève", "Lyon - Londres", "Bâle-Mulhouse - Nice", "Milan - Berlin"],
         "histoire": "Fondée en 1995, easyJet s'est imposée comme le concurrent direct de Ryanair en privilégiant les aéroports principaux.",
         "securite": "Normes de sécurité strictes conformes à la réglementation européenne EASA.",
+        "flotte": "Plus de 300 appareils 100% Airbus (famille A320 : A319, A320, A320neo et A321neo).",
         "logo": "images/easyjet.png",
         "lien": "https://www.travelpayouts.com/"
-        },
+    },
     "Lufthansa": {
         "categorie": "Compagnie Nationale",
         "alliance": "Star Alliance",
@@ -80,9 +86,10 @@ AIRLINES_DATA = {
         "liaisons": ["Francfort - New York", "Munich - Paris", "Berlin - Tokyo", "Francfort - Tunis"],
         "histoire": "Fondée en 1953 (reprise d'une compagnie de 1926), Lufthansa est le pilier du groupe du même nom.",
         "securite": "Standards de sécurité extrêmement élevés et flotte régulièrement renouvelée.",
+        "flotte": "Environ 270 à 300 appareils combinant des Airbus (A320, A350, A380) et des Boeing (747-8, 777, 787).",
         "logo": "images/lufthansa.png",
         "lien": "https://www.travelpayouts.com/"
-        },
+    },
     "Qatar Airways": {
         "categorie": "Compagnie Nationale",
         "alliance": "oneworld",
@@ -92,6 +99,7 @@ AIRLINES_DATA = {
         "liaisons": ["Doha - Paris", "Doha - Tunis", "Doha - Sydney", "Doha - Londres"],
         "histoire": "Créée en 1993, elle a connu une croissance fulgurante pour s'imposer au sommet de l'industrie aérienne mondiale.",
         "securite": "Normes de sécurité rigoureuses et flotte moderne de pointe.",
+        "flotte": "Environ 230 à 250 aéronefs ultra-modernes incluant des Airbus A350, A380 et de nombreux Boeing 777 et 787 Dreamliner.",
         "logo": "images/qatar.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -104,6 +112,7 @@ AIRLINES_DATA = {
         "liaisons": ["Istanbul - Paris", "Istanbul - Tunis", "Istanbul - New York", "Istanbul - Tokyo"],
         "histoire": "Fondée en 1933, elle s'est développée de manière spectaculaire au 21e siècle pour devenir un carrefour mondial.",
         "securite": "Certification de sécurité rigoureuse et flotte moderne.",
+        "flotte": "Plus de 400 appareils (l'une des plus grandes flottes mixtes au monde : Airbus A321, A330, A350 et Boeing 737, 777, 787).",
         "logo": "images/turkish.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -116,6 +125,7 @@ AIRLINES_DATA = {
         "liaisons": ["Londres - New York", "Londres - Paris", "Londres - Dubaï", "Londres - Tunis"],
         "histoire": "Issue de la fusion de plusieurs compagnies britanniques historiques dans les années 1970.",
         "securite": "Haut niveau de sécurité et de maintenance aéronautique.",
+        "flotte": "Environ 250-280 appareils incluant des Airbus (A320, A350, A380) et des Boeing (777, 787).",
         "logo": "images/british_airways.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -128,6 +138,7 @@ AIRLINES_DATA = {
         "liaisons": ["Madrid - Buenos Aires", "Madrid - Paris", "Madrid - Mexico", "Barcelone - Madrid"],
         "histoire": "Fondée en 1927, Iberia est l'une des plus anciennes compagnies aériennes au monde.",
         "securite": "Membre du groupe IAG, respect strict des normes européennes.",
+        "flotte": "Environ 90 à 100 appareils tout-Airbus (famille A320 pour l'Europe et A330/A350 pour le long-courrier).",
         "logo": "images/iberia.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -140,6 +151,7 @@ AIRLINES_DATA = {
         "liaisons": ["Rome - New York", "Rome - Paris", "Milan - Tunis", "Rome - Tokyo"],
         "histoire": "Lancée fin 2021 pour remplacer Alitalia dans le giron public italien.",
         "securite": "Standards de sécurité européens certifiés.",
+        "flotte": "Environ 85 à 90 appareils en renouvellement rapide, axés sur les Airbus (A220, A320neo, A330neo, A350).",
         "logo": "images/ita_airways.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -152,6 +164,7 @@ AIRLINES_DATA = {
         "liaisons": ["Lisbonne - São Paulo", "Lisbonne - Paris", "Porto - New York", "Lisbonne - Marrakech"],
         "histoire": "Fondée en 1945, TAP relie historiquement le Portugal à ses anciennes colonies et aux Amériques.",
         "securite": "Conforme aux exigences rigoureuses de l'EASA.",
+        "flotte": "Flotte d'environ 95-100 appareils 100% Airbus (familles A320, A321LR et A330neo).",
         "logo": "images/tap_portugal.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -164,6 +177,7 @@ AIRLINES_DATA = {
         "liaisons": ["Amsterdam - New York", "Amsterdam - Paris", "Amsterdam - Tokyo", "Amsterdam - Dubai"],
         "histoire": "Fondée en 1919, c'est la plus ancienne compagnie aérienne au monde encore en activité sous son nom d'origine.",
         "securite": "Niveau de sécurité de premier plan mondial.",
+        "flotte": "Environ 110 à 120 appareils (Boeing 737, 777, 787 et Embraer E175/E190 pour KLM Cityhopper).",
         "logo": "images/klm.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -176,6 +190,7 @@ AIRLINES_DATA = {
         "liaisons": ["Barcelone - Paris", "Barcelone - Rome", "Paris Orly - Alger", "Lyon - Barcelone"],
         "histoire": "Fondée en 2004 en Espagne, elle fait aujourd'hui partie du géant IAG (British Airways, Iberia).",
         "securite": "Sécurité certifiée par les autorités aéronautiques espagnoles et européennes.",
+        "flotte": "Environ 125 appareils composés exclusivement d'Airbus de la famille A320 (A319, A320, A321).",
         "logo": "images/vueling.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -188,6 +203,7 @@ AIRLINES_DATA = {
         "liaisons": ["Budapest - Londres", "Varsovie - Rome", "Vienne - Tel-Aviv", "Katowice - Paris"],
         "histoire": "Créée en 2003 en Hongrie, elle dessert un vaste réseau à bas coûts à travers l'Europe et au-delà.",
         "securite": "Flotte très jeune composée d'Airbus récents, maintenance rigoureuse.",
+        "flotte": "Flotte en forte expansion de plus de 200 appareils 100% Airbus, principalement des A321ceo et A321neo.",
         "logo": "images/wizz_air.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -200,6 +216,7 @@ AIRLINES_DATA = {
         "liaisons": ["Oslo - Stockholm", "Copenhague - Nice", "Oslo - Londres", "Stockholm - Malaga"],
         "histoire": "Pionnière du low-cost long-courrier (activité arrêtée depuis) et référence en Scandinavie.",
         "securite": "Normes de sécurité nordiques strictes.",
+        "flotte": "Environ 80 à 90 appareils axés sur les court et moyen-courriers (Boeing 737-800 et 737 MAX 8).",
         "logo": "images/norwegian.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -212,6 +229,7 @@ AIRLINES_DATA = {
         "liaisons": ["Istanbul Sabiha - Paris", "Istanbul - Berlin", "Istanbul - Beyrouth", "Antalya - Londres"],
         "histoire": "Fondée en 1990, elle s'est transformée en transporteur low-cost performant au début des années 2000.",
         "securite": "Flotte moderne et respect des protocoles de sécurité de l'aviation civile turque.",
+        "flotte": "Flotte d'environ 100 appareils en modernisation rapide, basculant vers des Airbus A320neo et A321neo.",
         "logo": "images/pegasus.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -224,6 +242,7 @@ AIRLINES_DATA = {
         "liaisons": ["Sharjah - Le Caire", "Casablanca - Lyon", "Casablanca - Tunis", "Sharjah - Istanbul"],
         "histoire": "Fondée en 2003 aux Émirats arabes unis (Sharjah), elle possède plusieurs filiales régionales (Maroc, Égypte).",
         "securite": "Standards de sécurité rigoureux et flotte d'Airbus A320.",
+        "flotte": "Flotte d'environ 70 appareils composée exclusivement de la famille Airbus A320 et A321neo.",
         "logo": "images/air_arabia.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -236,6 +255,7 @@ AIRLINES_DATA = {
         "liaisons": ["Casablanca - Paris", "Casablanca - New York", "Casablanca - Tunis", "Marrakech - Londres"],
         "histoire": "Créée en 1953, c'est l'un des acteurs majeurs du transport aérien sur le continent africain.",
         "securite": "Membre de l'alliance oneworld, respect des normes internationales strictes.",
+        "flotte": "Environ 50 appareils (Boeing 737, 787 Dreamliner, et avions régionaux Embraer/ATR).",
         "logo": "images/royal_air_maroc.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -248,6 +268,7 @@ AIRLINES_DATA = {
         "liaisons": ["Le Caire - Paris", "Le Caire - Tunis", "Le Caire - New York", "Le Caire - Dubaï"],
         "histoire": "Fondée en 1932, c'est la septième compagnie aérienne créée au monde.",
         "securite": "Certifiée IOSA, respect des normes de sécurité de l'IATA.",
+        "flotte": "Environ 70 à 80 appareils (Boeing 737, 777, 787 et Airbus A220, A320neo, A330).",
         "logo": "images/egyptair.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -260,6 +281,7 @@ AIRLINES_DATA = {
         "liaisons": ["Djeddah - Paris", "Riyad - Le Caire", "Djeddah - Londres", "Riyad - Tunis"],
         "histoire": "Fondée en 1945, c'est l'une des plus anciennes compagnies du Moyen-Orient.",
         "securite": "Flotte modernisée et standards de sécurité élevés.",
+        "flotte": "Environ 140 à 150 appareils combinant des Airbus (A320, A330) et des Boeing (777, 787).",
         "logo": "images/saudia.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -272,6 +294,7 @@ AIRLINES_DATA = {
         "liaisons": ["Abou Dabi - Paris", "Abou Dabi - Londres", "Abou Dabi - New York", "Abou Dabi - Bangkok"],
         "histoire": "Fondée en 2003 par décret royal à Abou Dabi.",
         "securite": "Excellente réputation en matière de sécurité et de maintenance.",
+        "flotte": "Environ 80 à 90 appareils (Boeing 787 Dreamliner, 777 et Airbus A350, A380).",
         "logo": "images/etihad.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -284,6 +307,7 @@ AIRLINES_DATA = {
         "liaisons": ["Beyrouth - Paris", "Beyrouth - Nice", "Beyrouth - Dubai", "Beyrouth - Le Caire"],
         "histoire": "Fondée en 1945, la compagnie dessert un réseau clé reliant le Liban au reste du monde.",
         "securite": "Membre de SkyTeam, respect strict des normes européennes et internationales.",
+        "flotte": "Flotte homogène d'environ 20 à 24 appareils 100% Airbus (famille A320neo et A330).",
         "logo": "images/mea.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -296,6 +320,7 @@ AIRLINES_DATA = {
         "liaisons": ["Alger - Paris", "Alger - Marseille", "Oran - Lyon", "Alger - Tunis"],
         "histoire": "Fondée en 1947, Air Algérie possède une longue histoire dans le paysage aéronautique maghrébin.",
         "securite": "Certifiée IOSA, respecte les exigences de sécurité pour l'espace aérien international.",
+        "flotte": "Environ 55 appareils (Boeing 737-600/-700/-800, Airbus A330 et turbopropulseurs ATR 72).",
         "logo": "images/air_algerie.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -308,6 +333,7 @@ AIRLINES_DATA = {
         "liaisons": ["New York - Londres", "Miami - Paris", "Dallas - Tokyo", "Los Angeles - New York"],
         "histoire": "Fondée en 1926 à la suite de multiples fusions de transporteurs postaux américains.",
         "securite": "Flotte immense et respect strict des normes de la FAA.",
+        "flotte": "Flotte gigantesque de près de 1 000 avions (Airbus A320, A321 et Boeing 737, 777, 787).",
         "logo": "images/american_airlines.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -320,6 +346,7 @@ AIRLINES_DATA = {
         "liaisons": ["Atlanta - Paris", "New York - Rome", "Los Angeles - Tokyo", "Detroit - Amsterdam"],
         "histoire": "Fondée en 1924 en tant que service de traitement agricole avant de devenir une grande compagnie aérienne.",
         "securite": "Standards de sécurité de pointe aux États-Unis.",
+        "flotte": "Plus de 900 appareils (mélange de Boeing et d'Airbus, dont A321neo et A350).",
         "logo": "images/delta.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -332,6 +359,7 @@ AIRLINES_DATA = {
         "liaisons": ["New York - Francfort", "San Francisco - Tokyo", "Chicago - Paris", "Houston - Londres"],
         "histoire": "Racines remontant à 1926 avec Varney Air Lines, absorbant de nombreuses grandes compagnies par la suite.",
         "securite": "Conforme aux normes rigoureuses de la FAA et de l'IATA.",
+        "flotte": "Plus de 900 appareils composés majoritairement de Boeing (737, 757, 767, 777, 787) et d'Airbus.ኮ",
         "logo": "images/united.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -344,6 +372,7 @@ AIRLINES_DATA = {
         "liaisons": ["Montréal - Paris", "Toronto - Londres", "Vancouver - Tokyo", "Toronto - Rome"],
         "histoire": "Fondée en 1937 sous le nom de Trans-Canada Air Lines.",
         "securite": "Excellente réputation en matière de sécurité, notamment pour les conditions de vol hivernales.",
+        "flotte": "Environ 200 appareils (Boeing 777, 787, Airbus A220, A330 et Boeing 737 MAX).",
         "logo": "images/air_canada.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -356,6 +385,7 @@ AIRLINES_DATA = {
         "liaisons": ["Singapour - Londres", "Singapour - New York", "Singapour - Sydney", "Singapour - Paris"],
         "histoire": "Fondée en 1947 sous le nom de Malayan Airways, devenue Singapore Airlines en 1972.",
         "securite": "Parmi les flottes les plus sûres et modernes au monde.",
+        "flotte": "Environ 140 à 150 gros-porteurs très récents (Airbus A350, A380 et Boeing 777, 787).",
         "logo": "images/singapore_airlines.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -368,6 +398,7 @@ AIRLINES_DATA = {
         "liaisons": ["Hong Kong - Londres", "Hong Kong - Paris", "Hong Kong - New York", "Hong Kong - Tokyo"],
         "histoire": "Fondée en 1946 par un Américain et un Australien à Hong Kong.",
         "securite": "Standards rigoureux et excellent historique de sécurité.",
+        "flotte": "Environ 150 à 180 aéronefs long-courriers axés sur les Airbus (A330, A350) et les Boeing 777.",
         "logo": "images/cathay_pacific.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -380,6 +411,7 @@ AIRLINES_DATA = {
         "liaisons": ["Tokyo - Paris", "Tokyo - Londres", "Tokyo - New York", "Tokyo - Honolulu"],
         "histoire": "Fondée en 1951, JAL est l'historique compagnie nationale du Japon.",
         "securite": "Niveau de sécurité et de rigueur technique mondialement respecté.",
+        "flotte": "Environ 160 à 170 appareils (Boeing 737, 767, 777, 787 et introduction de l'Airbus A350).",
         "logo": "images/jal.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -392,6 +424,7 @@ AIRLINES_DATA = {
         "liaisons": ["Tokyo - Francfort", "Tokyo - New York", "Tokyo - Paris", "Tokyo - Londres"],
         "histoire": "Fondée en 1952, ANA est devenue la plus grande compagnie du Japon en termes de flotte.",
         "securite": "Excellence opérationnelle et standards de sécurité irréprochables.",
+        "flotte": "Environ 220 à 240 appareils (Boeing, premier client du 787, ainsi qu'Airbus A320neo et A380).",
         "logo": "images/ana.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -404,6 +437,7 @@ AIRLINES_DATA = {
         "liaisons": ["Séoul - Paris", "Séoul - New York", "Séoul - Los Angeles", "Séoul - Sydney"],
         "histoire": "Fondée en 1969 après la privatisation de Korean National Airlines.",
         "securite": "Modernisation poussée de la flotte et renforcement drastique des protocoles de sécurité.",
+        "flotte": "Environ 160 appareils (Airbus A330, A380, A220 et Boeing 737, 777, 747-8, 787).",
         "logo": "images/korean_air.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -416,6 +450,7 @@ AIRLINES_DATA = {
         "liaisons": ["Shanghai - Paris", "Shanghai - New York", "Shanghai - Rome", "Pékin - Shanghai"],
         "histoire": "Fondée en 1988, elle dessert un vaste réseau domestique et international depuis Shanghai.",
         "securite": "Flotte moderne et conforme aux normes de l'aviation civile chinoise et internationale.",
+        "flotte": "Plus de 600 appareils principalement composés d'Airbus (A320, A330, A350) et de Boeing 777/737.",
         "logo": "images/china_eastern.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -428,6 +463,7 @@ AIRLINES_DATA = {
         "liaisons": ["Pékin - Paris", "Pékin - Francfort", "Pékin - New York", "Pékin - Tokyo"],
         "histoire": "Issue de la restructuration de la CAAC historique en 1988.",
         "securite": "Normes de sécurité strictes et flotte d'appareils récents.",
+        "flotte": "Plus de 500 appareils mixtes (Airbus A320, A330, A350 et Boeing 737, 747, 777, 787).",
         "logo": "images/air_china.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -440,6 +476,7 @@ AIRLINES_DATA = {
         "liaisons": ["Sydney - Londres", "Melbourne - Los Angeles", "Sydney - Singapour", "Sydney - Auckland"],
         "histoire": "Fondée en 1920 dans le Queensland, c'est la deuxième plus ancienne compagnie au monde encore en activité.",
         "securite": "Réputation légendaire : aucun accident mortel sur les jets à réaction de son histoire moderne.",
+        "flotte": "Environ 125 à 135 appareils opérant des Boeing (737, 787) et des Airbus (A330, A380).",
         "logo": "images/qantas.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -452,6 +489,7 @@ AIRLINES_DATA = {
         "liaisons": ["Auckland - Los Angeles", "Auckland - Sydney", "Auckland - San Francisco", "Auckland - Singapour"],
         "histoire": "Fondée en 1940 sous le nom de Tasman Empire Airways Limited (TEAL).",
         "securite": "Plusieurs fois primée pour sa sécurité et son excellence opérationnelle.",
+        "flotte": "Environ 100 appareils (Boeing 777/787 pour le long-courrier et Airbus A320/A321 pour le court).",
         "logo": "images/air_new_zealand.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -464,6 +502,7 @@ AIRLINES_DATA = {
         "liaisons": ["Santiago - Miami", "São Paulo - Paris", "Lima - Buenos Aires", "Bogota - Madrid"],
         "histoire": "Formée en 2012 par le rapprochement du chilien LAN et du brésilien TAM.",
         "securite": "Standards de sécurité rigoureux conformes aux certifications internationales.",
+        "flotte": "Flotte d'environ 300 appareils combinant des Airbus A320 et des Boeing 767/777/787.",
         "logo": "images/latam.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -476,6 +515,7 @@ AIRLINES_DATA = {
         "liaisons": ["Mexico - Madrid", "Mexico - Paris", "Mexico - New York", "Mexico - Tokyo"],
         "histoire": "Fondée en 1934 sous le nom d'Aeronaves de México.",
         "securite": "Flotte moderne et respect des protocoles de sécurité de la FAA et de SkyTeam.",
+        "flotte": "Environ 150 appareils articulés autour de Boeing (737 MAX, 787 Dreamliner) et d'Embraer.",
         "logo": "images/aeromexico.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -488,6 +528,7 @@ AIRLINES_DATA = {
         "liaisons": ["Dallas - Los Angeles", "Chicago - Las Vegas", "Baltimore - Orlando", "Denver - Phoenix"],
         "histoire": "Fondée en 1967 au Texas, elle a inventé le concept moderne du transport aérien à bas coûts.",
         "securite": "Excellent historique de sécurité avec une flotte massive de Boeing 737.",
+        "flotte": "Plus de 800 appareils composés exclusivement de la famille Boeing 737.",
         "logo": "images/southwest.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -500,6 +541,7 @@ AIRLINES_DATA = {
         "liaisons": ["Delhi - Mumbai", "Bengaluru - Dubai", "Delhi - Singapour", "Chennai - Colombo"],
         "histoire": "Fondée en 2006, elle est devenue un mastodonte du transport low-cost en Asie du Sud.",
         "securite": "Flotte très jeune d'Airbus et de Boeing, maintenance rigoureuse.",
+        "flotte": "Plus de 350 appareils extrêmement jeunes, composés d'Airbus A320, A321neo et ATR 72.",
         "logo": "images/indigo.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -512,6 +554,7 @@ AIRLINES_DATA = {
         "liaisons": ["Kuala Lumpur - Singapour", "Bangkok - Bali", "Kuala Lumpur - Tokyo", "Jakarta - Singapour"],
         "histoire": "Relancée sous sa forme low-cost actuelle en 2001 par Tony Fernandes, elle a démocratisé le voyage en Asie.",
         "securite": "Normes de sécurité certifiées par l'autorité aéronautique malaise.",
+        "flotte": "Plus de 200 appareils 100% Airbus opérant des A320 et A321.",
         "logo": "images/airasia.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -524,6 +567,7 @@ AIRLINES_DATA = {
         "liaisons": ["New York - Boston", "Boston - Londres", "New York - Los Angeles", "Fort Lauderdale - San Juan"],
         "histoire": "Fondée en 1999, elle a introduit un service de qualité supérieure sur le marché américain à bas coûts.",
         "securite": "Flotte moderne et respect strict des normes de la FAA.",
+        "flotte": "Environ 280 appareils composés majoritairement d'Airbus (A320, A321, A220) et d'Embraer 190.",
         "logo": "images/jetblue.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -536,6 +580,7 @@ AIRLINES_DATA = {
         "liaisons": ["Jakarta - Bali", "Jakarta - Amsterdam", "Jakarta - Tokyo", "Sydney - Jakarta"],
         "histoire": "Fondée en 1949 au moment de l'indépendance de l'Indonésie.",
         "securite": "Transformation majeure de la sécurité au cours des 15 dernières années, désormais certifiée internationale.",
+        "flotte": "Environ 70 à 80 appareils (Boeing 737, Boeing 777 et Airbus A330).",
         "logo": "images/garuda.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -548,6 +593,7 @@ AIRLINES_DATA = {
         "liaisons": ["Hanoï - Paris", "Hô Chi Minh-Ville - Tokyo", "Hanoï - Séoul", "Da Nang - Singapour"],
         "histoire": "Créée en 1956, devenue une société moderne au début des années 1990.",
         "securite": "Standards de sécurité certifiés IOSA et EASA.",
+        "flotte": "Environ 100 appareils modernes (Airbus A321, A350 et Boeing 787).",
         "logo": "images/vietnam_airlines.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -560,6 +606,7 @@ AIRLINES_DATA = {
         "liaisons": ["Manille - Los Angeles", "Manille - Tokyo", "Manille - Sydney", "Manille - Londres"],
         "histoire": "Fondée en 1941, c'est le pionnier de l'aviation commerciale en Asie.",
         "securite": "Levée de toutes les restrictions européennes passées, standards de sécurité aux normes.",
+        "flotte": "Environ 80 appareils combinant des Airbus (A320, A330, A350) et des Boeing 777.",
         "logo": "images/philippine_airlines.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -572,6 +619,7 @@ AIRLINES_DATA = {
         "liaisons": ["Kuala Lumpur - Londres", "Kuala Lumpur - Sydney", "Kuala Lumpur - Tokyo", "Kuala Lumpur - Singapour"],
         "histoire": "Fondée en 1947 sous le nom de Malayan Airways.",
         "securite": "Membre de l'alliance oneworld, audits de sécurité internationaux validés.",
+        "flotte": "Environ 80 appareils (Boeing 737 pour le court-courrier et Airbus A330/A350 pour le long-courrier).",
         "logo": "images/malaysia_airlines.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -584,6 +632,7 @@ AIRLINES_DATA = {
         "liaisons": ["Nairobi - Paris", "Nairobi - Londres", "Nairobi - Johannesbourg", "Nairobi - Le Caire"],
         "histoire": "Fondée en 1977 après l'éclatement de East African Airways.",
         "securite": "Certifiée IOSA, respect des normes de sécurité de l'aviation civile internationale.",
+        "flotte": "Environ 35 appareils centrés autour des Boeing (737, 787 Dreamliner) et des Embraer 190.",
         "logo": "images/kenya_airways.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -596,6 +645,7 @@ AIRLINES_DATA = {
         "liaisons": ["Add-Abeba - Washington", "Add-Abeba - Paris", "Add-Abeba - Le Caire", "Add-Abeba - Johannesbourg"],
         "histoire": "Fondée en 1945 avec l'aide de TWA, elle est devenue le carrefour incontournable du trafic aérien africain.",
         "securite": "Flotte extrêmement moderne (notamment Boeing 787 et Airbus A350) et excellente sécurité.",
+        "flotte": "Plus de 140 appareils modernes opérant des Boeing (737, 777, 787) et des Airbus A350.",
         "logo": "images/ethiopian.png",
         "lien": "https://www.travelpayouts.com/"
     },
@@ -608,6 +658,7 @@ AIRLINES_DATA = {
         "liaisons": ["Johannesbourg - Le Cap", "Johannesbourg - Londres", "Johannesbourg - Sao Paulo", "Johannesbourg - Harare"],
         "histoire": "Fondée en 1934, c'est l'une des compagnies les plus anciennes d'Afrique.",
         "securite": "Historique solide et respect des réglementations aéronautiques internationales.",
+        "flotte": "Flotte restructurée d'une vingtaine d'appareils (Airbus A320, A330, A340).",
         "logo": "images/south_african.png",
         "lien": "https://www.travelpayouts.com/"
     }

@@ -150,38 +150,35 @@ elif st.session_state.page == "Compagnies Aériennes":
         infos = AIRLINES_DATA[choix_cie]
         st.markdown("---")
         
+        # En-tête de la compagnie
         col_c1, col_c2 = st.columns([1, 4])
         with col_c1:
-            logo_val = infos.get('logo', '')
-            if logo_val:
-                try:
-                    # Streamlit s'occupe de tout tout seul !
-                    st.image(logo_val, width=120)
-                except Exception as e:
-                    st.markdown("### ✈️")
+            try:
+                st.image(infos.get("logo", ""), width=100)
+            except:
+                st.write("✈️")
         with col_c2:
             st.subheader(choix_cie)
-            st.markdown(f"**Catégorie :** {infos.get('categorie', 'N/A')} | **Alliance :** {infos.get('alliance', 'N/A')}")
+            st.markdown(f"**Catégorie :** {infos['categorie']} | **Alliance :** {infos['alliance']}")
             st.markdown(f"**Note globale :** ⭐ {infos['note']}")
         
+        # Affichage complet des informations
         st.write(f"**Résumé :** {infos['resume']}")
-        st.write(f"**Politique bagages :** {infos.get('bagages', 'Non spécifié')}")
+        st.write(f"**Politique bagages :** {infos['bagages']}")
+        st.write(f"**Flotte :** {infos.get('flotte', 'Flotte moderne et variée')}")
         
-        st.write("**Principales liaisons :**")
-        for liaison in infos.get('liaisons', []):
-            st.write(f"- 🛫 {liaison}")
+        st.markdown("### Principales liaisons :")
+        for liaison in infos.get("liaisons", []):
+            st.write(f"- ✈️ {liaison}")
             
         with st.expander("📖 Histoire de la compagnie"):
-            st.write(infos.get('histoire', 'Information non disponible.'))
+            st.write(infos['histoire'])
             
-        with st.expander("🛡️ Sécurité et historique"):
-            st.write(infos.get('securite', 'Information non disponible.'))
-        
-        if infos.get("lien"):
-            st.markdown(f'<a href="{infos["lien"]}" target="_blank" style="text-decoration:none;"><button style="width:100%; padding:10px; background-color:#FF4B4B; color:white; border:none; border-radius:5px; cursor:pointer; margin-top:10px;">Réserver un vol avec {choix_cie}</button></a>', unsafe_allow_html=True)
+        with st.expander("🛡️ Sécurité et normes"):
+            st.write(infos.get('securite', 'Normes de sécurité internationales respectées.'))
             
-        else:
-         st.info("Veuillez sélectionner une compagnie aérienne dans le menu déroulant ci-dessus pour afficher sa fiche détaillée.")
+        st.markdown("---")
+        st.link_button(f"Réserver un vol avec {choix_cie}", infos.get('lien', 'https://www.travelpayouts.com/'))
 # ==============================================================================
 # SECTION 3 : LOUEURS DE VÉHICULES
 # ==============================================================================
