@@ -154,7 +154,7 @@ elif st.session_state.page == "Compagnies Aériennes":
         col_c1, col_c2 = st.columns([1, 4])
         with col_c1:
             try:
-                st.image(infos.get("logo", ""), width=100)
+                st.image("images/airbus_vol.jpg", width=120)
             except:
                 st.write("✈️")
         with col_c2:
