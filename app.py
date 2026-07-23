@@ -119,9 +119,11 @@ if st.session_state.page == "Comparateur Hôtels":
                             continue
                         st.write(f"**{cle.replace('_', ' ').capitalize()} :** {valeur}")
                     
-                    if lien:
-                        st.markdown(f'<a href="{lien}" target="_blank" style="text-decoration:none;"><button style="width:100%; padding:10px; background-color:#FF4B4B; color:white; border:none; border-radius:5px; cursor:pointer;">Réserver sur le site partenaire</button></a>', unsafe_allow_html=True)
-                        st.write("") 
+                    # Ton lien d'affiliation CJ officiel pour Booking
+                    lien_booking_cj = "https://www.kqzyfj.com/click-10182501-12677526"
+                    
+                    st.markdown(f'<a href="{lien_booking_cj}" target="_blank" style="text-decoration:none;"><button style="width:100%; padding:10px; background-color:#FF4B4B; color:white; border:none; border-radius:5px; cursor:pointer;">Réserver sur Booking</button></a>', unsafe_allow_html=True)
+                    st.write("") 
                     
                     st.info(f"**Verdict :** {d.get('pour_qui', {}).get('verdict', 'N/A')}")
                     
