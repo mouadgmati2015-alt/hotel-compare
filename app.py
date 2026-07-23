@@ -187,7 +187,7 @@ st.write("")
 # ==============================================================================
 # SECTION 3 : LOUEURS DE VÉHICULES
 # ==============================================================================
-elif st.session_state.page == "Loueurs Véhicules":
+if st.session_state.page == "Loueurs Véhicules":
     st.title("🚗 Comparateur & Agences de Location de Véhicules")
     st.write("Recherchez et comparez les meilleurs loueurs de voitures à travers le monde.")
     
