@@ -180,7 +180,7 @@ elif st.session_state.page == "Compagnies Aériennes":
             st.write(infos.get('securite', 'Normes de sécurité internationales respectées.'))
             
         st.markdown("---")
-        st.link_button(f"Réserver un vol avec {choix_cie}", infos.get('lien', 'https://www.travelpayouts.com/'))
+        st.link_button(f"Réserver un vol avec {choix_cie}", "https://www.anrdoezrs.net/click-10182501-17053227")
 # ==============================================================================
 # SECTION 3 : LOUEURS DE VÉHICULES
 # ==============================================================================
