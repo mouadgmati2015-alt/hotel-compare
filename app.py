@@ -119,8 +119,8 @@ if st.session_state.page == "Comparateur Hôtels":
                             continue
                         st.write(f"**{cle.replace('_', ' ').capitalize()} :** {valeur}")
                     
-                    # Ton lien d'affiliation CJ officiel pour Booking
-                    lien_booking_cj = "https://www.kqzyfj.com/click-10182501-12677526"
+                    # Lien universel propre vers l'accueil général de Booking avec ton ID CJ
+                    lien_booking_cj = "https://www.kqzyfj.com/click-10182501-12677526?url=https%3A%2F%2Fwww.booking.com%2Findex.fr.html"
                     
                     st.markdown(f'<a href="{lien_booking_cj}" target="_blank" style="text-decoration:none;"><button style="width:100%; padding:10px; background-color:#FF4B4B; color:white; border:none; border-radius:5px; cursor:pointer;">Réserver sur Booking</button></a>', unsafe_allow_html=True)
                     st.write("") 
