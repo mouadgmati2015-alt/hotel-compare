@@ -179,8 +179,11 @@ elif st.session_state.page == "Compagnies Aériennes":
         with st.expander("🛡️ Sécurité et normes"):
             st.write(infos.get('securite', 'Normes de sécurité internationales respectées.'))
             
-        st.markdown("---")
-        st.link_button("Réserver avec Booking.com", "https://www.anrdoezrs.net/click-10182501-17053227", use_container_width=True)
+        st.markdown(
+    '<a href="https://www.anrdoezrs.net/click-10182501-17053227" target="_blank" style="display: block; width: 100%; background-color: #0066cc; color: white; padding: 12px 20px; text-align: center; text-decoration: none; font-size: 16px; font-weight: bold; border-radius: 6px; box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">Réserver avec Booking.com</a>',
+    unsafe_allow_html=True
+)
+st.write("")
 # ==============================================================================
 # SECTION 3 : LOUEURS DE VÉHICULES
 # ==============================================================================
