@@ -4,6 +4,8 @@ import json
 from data.hotels_data import HOTELS_DATA
 from data.airlines_data import AIRLINES_DATA
 import streamlit.components.v1 as components
+import urllib.parse
+import base64
 
 # --- Configuration de la page ---
 st.set_page_config(page_title="HotelCompare", page_icon="images/favicon_io/favicon.ico", layout="wide")
@@ -78,7 +80,62 @@ st.markdown("---")
 # SECTION 1 : COMPARATEUR D'HÔTELS
 # ==============================================================================
 if st.session_state.page == "Comparateur Hôtels":
-    st.image("images/image caroussel 2.png", use_container_width=True)
+    
+    # --- Fonction et affichage du carrousel à 5 images ---
+    def get_img_as_base64(path):
+        if os.path.exists(path):
+            with open(path, "rb") as f:
+                return base64.b64encode(f.read()).decode()
+        return ""
+
+    img1 = get_img_as_base64("images/image caroussel 2.png")
+    img2 = get_img_as_base64("images/image_afrique.jpg")
+    img3 = get_img_as_base64("images/image_astuce.jpg")
+    img4 = get_img_as_base64("images/image_hotel.jpg")
+    img5 = get_img_as_base64("images/image_tunisie.jpg")
+
+    carousel_html = f"""
+    <style>
+    .carousel-container {{
+        width: 100%;
+        height: 280px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }}
+    .carousel-slide {{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        animation: sfade 15s infinite;
+        object-fit: cover;
+    }}
+    .carousel-slide:nth-child(1) {{ animation-delay: 0s; }}
+    .carousel-slide:nth-child(2) {{ animation-delay: 3s; }}
+    .carousel-slide:nth-child(3) {{ animation-delay: 6s; }}
+    .carousel-slide:nth-child(4) {{ animation-delay: 9s; }}
+    .carousel-slide:nth-child(5) {{ animation-delay: 12s; }}
+
+    @keyframes sfade {{
+        0% {{ opacity: 0; }}
+        6% {{ opacity: 1; }}
+        20% {{ opacity: 1; }}
+        26% {{ opacity: 0; }}
+        100% {{ opacity: 0; }}
+    }}
+    </style>
+
+    <div class="carousel-container">
+        <img class="carousel-slide" src="data:image/png;base64,{img1}">
+        <img class="carousel-slide" src="data:image/jpeg;base64,{img2}">
+        <img class="carousel-slide" src="data:image/jpeg;base64,{img3}">
+        <img class="carousel-slide" src="data:image/jpeg;base64,{img4}">
+        <img class="carousel-slide" src="data:image/jpeg;base64,{img5}">
+    </div>
+    """
+    st.markdown(carousel_html, unsafe_allow_html=True)
 
     st.subheader("💡 Comment comparer vos hôtels")
     st.markdown("""
@@ -88,18 +145,17 @@ if st.session_state.page == "Comparateur Hôtels":
     """)
     st.markdown("---")
     
-   # Recherche avec 4 colonnes : Premier hôtel, Deuxième hôtel, Bouton Comparer, Bouton Reset
+    # Recherche avec 4 colonnes
     noms_hotels = list(HOTELS_DATA.keys())
     c1, c2, c3, c4 = st.columns([2, 2, 1, 1])
     choix1 = c1.selectbox("Premier hôtel", [""] + noms_hotels)
     choix2 = c2.selectbox("Deuxième hôtel", [""] + noms_hotels)
     valider = c3.button("Comparer", type="primary", use_container_width=True)
-    
-    # Bouton Reset pour effacer la sélection (en bleu via HTML/CSS ou simple bouton)
     reset = c4.button("Reset", use_container_width=True)
 
     if reset:
         st.rerun()
+
     if valider:
         comparaison = [c for c in [choix1, choix2] if c != ""]
         if not comparaison:
@@ -110,30 +166,38 @@ if st.session_state.page == "Comparateur Hôtels":
                 d = HOTELS_DATA.get(nom)
                 with cols[i]:
                     st.subheader(nom)
-                    if d.get("image"): 
-                        st.image(d["image"], use_container_width=True)
                     
-                    lien = d.get("lien", "")
+                    # Image de l'hôtel à taille maîtrisée
+                    if d.get("image"):
+                        st.image(d.get("image"), width=350)
+                    
+                    # Caractéristiques de l'hôtel
                     for cle, valeur in d.items():
                         if cle in ["nom", "image", "points_positifs", "points_negatifs", "pour_qui", "lien"]:
                             continue
                         st.write(f"**{cle.replace('_', ' ').capitalize()} :** {valeur}")
                     
-                    # Lien universel propre vers l'accueil général de Booking avec ton ID CJ
-                    lien_booking_cj = "https://www.kqzyfj.com/click-10182501-12677526?url=https%3A%2F%2Fwww.booking.com%2Findex.fr.html"
-                    
-                    st.markdown(f'<a href="{lien_booking_cj}" target="_blank" style="text-decoration:none;"><button style="width:100%; padding:10px; background-color:#FF4B4B; color:white; border:none; border-radius:5px; cursor:pointer;">Réserver sur Booking</button></a>', unsafe_allow_html=True)
-                    st.write("") 
-                    
-                    st.info(f"**Verdict :** {d.get('pour_qui', {}).get('verdict', 'N/A')}")
-                    
-                    with st.expander("✅ Points Positifs"):
-                        for p in d.get("points_positifs", []):
-                            st.write(f"- {p}")
-                    with st.expander("⚠️ Points Négatifs"):
-                        for n in d.get("points_negatifs", []):
-                            st.write(f"- {n}")
+                    # Verdict
+                    if d.get("pour_qui"):
+                        st.info(f"**Verdict :** {d.get('pour_qui')}")
+                        
+                    # Points Positifs / Négatifs
+                    if d.get("points_positifs"):
+                        with st.expander("✅ Points Positifs"):
+                            for p in d.get("points_positifs"):
+                                st.write(f"- {p}")
+                                
+                    if d.get("points_negatifs"):
+                        with st.expander("⚠️ Points Négatifs"):
+                            for n in d.get("points_negatifs"):
+                                st.write(f"- {n}")
 
+                    # Lien dynamique de réservation Booking avec affiliation CJ
+                    lien_brut = d.get("lien", "https://www.booking.com/index.fr.html")
+                    lien_booking_cj = f"https://www.kqzyfj.com/click-10182501-12677526?url={urllib.parse.quote(lien_brut)}"
+                    
+                    st.markdown(f'<a href="{lien_booking_cj}" target="_blank" style="text-decoration:none;"><button style="background-color:#ff385c; color:white; padding:10px 20px; border:none; border-radius:5px; width:100%; cursor:pointer; font-weight:bold;">Réserver sur Booking</button></a>', unsafe_allow_html=True)
+                    st.write("")
 # ==============================================================================
 # SECTION 2 : COMPAGNIES AÉRIENNES
 # ==============================================================================
