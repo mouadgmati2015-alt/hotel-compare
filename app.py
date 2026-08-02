@@ -6,7 +6,7 @@ from data.airlines_data import AIRLINES_DATA
 import streamlit.components.v1 as components
 
 # --- Configuration de la page ---
-st.set_page_config(page_title="HotelCompare", layout="wide")
+st.set_page_config(page_title="HotelCompare", page_icon="images/favicon_io/favicon.ico", layout="wide")
 
 # Injection de la balise de vérification Google Search Console
 google_tag = '<meta name="google-site-verification" content="UFPNwmAw5bpc..." />'
