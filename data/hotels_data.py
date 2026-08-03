@@ -34,7 +34,7 @@ HOTELS_DATA = {
     },
     "Club Marmara Palm Beach Djerba": {
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/palm-beach-club-marmara.fr.html",
+        "lien": "https://www.booking.com/hotel/tn/palm-beach-club-marmara.fr.html?aid=818289",
         "image": "https://www.kayak.com/rimg/himg/6e/9f/5b/expedia_group-569713-125637046-333144.jpg?width=836&height=607&crop=true",
         "description": "Situé à Midoun à quelques pas de la plage de Mezraia, le Palm Beach Club Djerba propose une formule tout compris idéale pour un séjour les pieds dans l'eau. L'établissement dispose d'une superbe plage privée, de piscines extérieure et intérieure, d'un jardin tropical et d'un restaurant-bar convivial. Les chambres climatisées ouvrent toutes sur un balcon privatif et disposent du Wi-Fi gratuit. Côté situation, l'hôtel se trouve à seulement 4,8 km du Djerba Golf Club et à 21 km de l'aéroport international de Djerba-Zarzis.",
         "prix_moyen": "150€ - 250€ / nuit",
