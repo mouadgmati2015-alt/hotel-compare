@@ -192,16 +192,20 @@ if st.session_state.page == "Comparateur Hôtels":
                             for n in d.get("points_negatifs"):
                                 st.write(f"- {n}")
 
-                    # Lien dynamique de réservation Booking avec affiliation CJ
-                    lien_brut = d.get("lien", "https://www.booking.com/index.fr.html")
-                    lien_booking_cj = f"https://www.kqzyfj.com/click-10182501-12677526?url={urllib.parse.quote(lien_brut)}"
-                    
-                    st.markdown(f'<a href="{lien_booking_cj}" target="_blank" style="text-decoration:none;"><button style="background-color:#ff385c; color:white; padding:10px 20px; border:none; border-radius:5px; width:100%; cursor:pointer; font-weight:bold;">Réserver sur Booking</button></a>', unsafe_allow_html=True)
+                    # Lien direct de réservation Booking propre et fonctionnel
+                    url_hotel = d.get("lien", "https://www.booking.com/index.fr.html")
+
+                    st.markdown(
+                        f'<a href="{url_hotel}" target="_blank" style="text-decoration:none;">'
+                        f'<button style="background-color:#003580; color:white; padding:10px 20px; border:none; border-radius:5px; width:100%; cursor:pointer; font-weight:bold;">'
+                        f'Réserver sur Booking</button></a>',
+                        unsafe_allow_html=True
+                    )
                     st.write("")
 # ==============================================================================
 # SECTION 2 : COMPAGNIES AÉRIENNES
 # ==============================================================================
-elif st.session_state.page == "Compagnies Aériennes":
+if st.session_state.page == "Compagnies Aériennes":
     st.title("✈️ Comparateur & Avis - Compagnies Aériennes")
     st.write("Sélectionnez ou recherchez une compagnie aérienne pour consulter son résumé, ses avis et réserver au meilleur prix.")
     

@@ -219,7 +219,7 @@ HOTELS_DATA = {
     },
     "Djerba Holiday Beach": {
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/djerba-holiday-beach.fr",
+        "lien": "https://www.booking.com/hotel/tn/djerba-holiday-beach.fr.html?aid=304142&label=gen173nr-10CAso4gFCFGRqZXJiYS1ob2xpZGF5LWJlYWNoSDNYBGhNiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALVqcPTBsACAdICJDcxYWEyZDJjLTFhOTUtNGYwNi04NmIxLTkxMjQ3NTk5MDhlYtgCAeACAQ&sid=3aee24f300e193bfbd48b8c1d311f5dc&all_sr_blocks=17967802_0_2_1_0&checkin=2026-10-01&checkout=2026-10-08&dest_id=179678&dest_type=hotel&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=17967802_0_2_1_0&hpos=1&matching_block_id=17967802_0_2_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=17967802_0_2_1_0__49892&srepoch=1785779618&srpvid=57d37dcec0bd03e0&type=total&ucfs=1&",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/468647093.jpg?k=3d3c4e4625f1e67d744e5895475f5c2cbcf850bd5908d694a952ae5a340b0586&o=",
         "description": "Un hôtel balnéaire classique proposant une formule tout compris populaire pour un séjour orienté farniente. Doté d'une grande piscine extérieure et d'un accès direct à la plage, il mise sur des tarifs attractifs pour attirer les vacanciers désireux de profiter du soleil sans se ruiner.",
         "prix_moyen": "100€ - 160€ / nuit",
@@ -545,7 +545,7 @@ HOTELS_DATA = {
     },
     "Laico Hammamet Hotel": {
         "etoiles": "4 étoiles",
-        "lien": "https://www.expedia.fr/Hammamet-Hotel-Hotel-Laico-Hammamet.",
+        "lien": "https://www.expedia.fr/Hammamet-Hotel-Hotel-Laico-Hammamet.h125255385.Description-Hotel",
         "image": "https://images.trvl-media.com/lodging/126000000/125260000/125255400/125255385/9363e5c7.jpg?impolicy=resizecrop&rw=1200&ra=fit",
         "description": "Situé à Yasmine Hammamet, cet hôtel offre de beaux volumes et une proximité immédiate avec la marina et les animations.",
         "avis": "4.1/5",
@@ -562,7 +562,7 @@ HOTELS_DATA = {
     },
     "Tui blue Palm Beach Hammamet": {
         "etoiles": "4 étoiles",
-        "lien": "",
+        "lien": "https://www.booking.com/hotel/tn/tui-blue-palm-beach-hammamet.fr.html?aid=818289",
         "image": "",
         "description": "Un hôtel réservé aux adultes (ou orienté calme/bien-être), parfait pour les couples cherchant la tranquillité en bord de mer.",
         "avis": "4.5/5",
