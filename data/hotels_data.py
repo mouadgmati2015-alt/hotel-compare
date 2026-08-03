@@ -98,7 +98,7 @@ HOTELS_DATA = {
     },
     "Dar Chich Yahia": {
         "etoiles": "Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/tn/dar-chick-yahia-ile-de-djerba.fr.html",
+        "lien": "https://www.booking.com/hotel/tn/dar-chick-yahia-ile-de-djerba.fr.html?aid=818289",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfyl14Ynw4PPjjHrWRfZ-PkxX-VLxlDY2Zqci9m1HYgA&s=10",
         "description": "Niché à Mezrane sur l île de Djerba, Dar Chick Yahia vous invite à vivre une expérience authentique et relaxante avec vue sur la mer. Cette charmante maison d'hôtes propose une piscine extérieure, un jardin verdoyant, une terrasse ensoleillée et un parking privé gratuit. Parfait pour les couples en quête de calme, l'établissement propose des équipements tout confort (cuisine équipée, Wi-Fi gratuite) ainsi que de nombreuses activités sur place : randonnée, pêche, fléchettes, et services de location de vélos ou de voitures pour explorer les environs. Un accueil multilingue (français, anglais, arabe, espagnol) et une navette aéroport complètent cette offre très appréciée pour un séjour à deux.",
         "prix_moyen": "80€ - 130€ / nuit",
@@ -129,7 +129,7 @@ HOTELS_DATA = {
     },
     "Dar Lola": {
         "etoiles": "Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/tn/dar-lola-houmt-souk.fr.html",
+        "lien": "https://www.booking.com/hotel/tn/dar-lola-houmt-souk.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/207003284.jpg?k=643642b27e0df1ea66a63024b7bf5cd9ac546bb5469552680fe75b83cbf4a717&o=",
         "description": "Structure intimiste au cachet local prononcé située à Houmt Souk, idéale pour les voyageurs en quête de tranquillité et d'authenticité. Cette maison d'hôtes offre une atmosphère cosy, une décoration soignée et une sérénité remarquable, tout en étant ancrée dans le charme traditionnel djerbien.",
         "prix_moyen": "70€ - 120€ / nuit",
@@ -158,7 +158,7 @@ HOTELS_DATA = {
     },
     "Dar Salem": {
         "etoiles": "Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/tn/dar-salem-djerba2.fr.html?aid=304142&label=gen173nr-10CAsoQEIRZGFyLXNhbGVtLWNhc2JhaDFIDVgEaE2IAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4Aqf56NIGwAIB0gIkNWQ1OGU4ODItYzMwYy00MWFiLTgxMTQtNzdkNGM4ZTk5YTgy2AIB4AIB&sid=b44108bf8418c881d8ced84e5494b24a&all_sr_blocks=1233222304_419511618_0_40_0&checkin=2026-10-01&checkout=2026-10-08&dest_id=12332223&dest_type=hotel&dist=0&group_adults=3&group_children=0&hapos=1&highlighted_blocks=1233222304_419511618_0_40_0&hpos=1&matching_block_id=1233222304_419511618_0_40_0&no_rooms=1&req_adults=3&req_children=0&room1=A%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=1233222304_419511618_0_40_0__60890&srepoch=1784298705&srpvid=1ef966267f0f0802&type=total&ucfs=1&",
+        "lien": "https://www.booking.com/hotel/tn/dar-salem-djerba2.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/727504677.jpg?k=e6baf5bb626c3fb67d4084b52feed01a4acc6926e6b162f03cf0d63ee9d58414&o=",
         "description": "Une adresse charmante qui met en valeur l'art de vivre djerbien avec un confort moderne discret. Dotée d'un jardin reposant et d'une propreté irréprochable, cette maison d'hôtes se distingue par l'attention de son personnel, toujours aux petits soins pour garantir un séjour des plus ressourçants.",
         "prix_moyen": "75€ - 130€ / nuit",
@@ -219,7 +219,7 @@ HOTELS_DATA = {
     },
     "Djerba Holiday Beach": {
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/djerba-holiday-beach.fr.html?aid=304142&label=gen173nr-10CAso4gFCFGRqZXJiYS1ob2xpZGF5LWJlYWNoSDNYBGhNiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALVqcPTBsACAdICJDcxYWEyZDJjLTFhOTUtNGYwNi04NmIxLTkxMjQ3NTk5MDhlYtgCAeACAQ&sid=3aee24f300e193bfbd48b8c1d311f5dc&all_sr_blocks=17967802_0_2_1_0&checkin=2026-10-01&checkout=2026-10-08&dest_id=179678&dest_type=hotel&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=17967802_0_2_1_0&hpos=1&matching_block_id=17967802_0_2_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=17967802_0_2_1_0__49892&srepoch=1785779618&srpvid=57d37dcec0bd03e0&type=total&ucfs=1&",
+        "lien": "https://www.booking.com/hotel/tn/djerba-holiday-beach.fr.html??aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/468647093.jpg?k=3d3c4e4625f1e67d744e5895475f5c2cbcf850bd5908d694a952ae5a340b0586&o=",
         "description": "Un hôtel balnéaire classique proposant une formule tout compris populaire pour un séjour orienté farniente. Doté d'une grande piscine extérieure et d'un accès direct à la plage, il mise sur des tarifs attractifs pour attirer les vacanciers désireux de profiter du soleil sans se ruiner.",
         "prix_moyen": "100€ - 160€ / nuit",
@@ -316,7 +316,7 @@ HOTELS_DATA = {
     },
     "Hari Club Beach Resort": {
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/hari-club-beach-resort-ultra-all-inclusive.fr.html?aid=311089&label=palm-beach-club-marmara-rKAHJWwGkH%2AqmY4oHykBHAS466942315862%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-45519294976%3Alp9055974%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YfNeh-lbHkPZZDrBVOcopBI&sid=b44108bf8418c881d8ced84e5494b24a&all_sr_blocks=286144920_405074046_0_85_0&checkin=2026-10-01&checkout=2026-10-08&dest_id=2861449&dest_type=hotel&dist=0&group_adults=3&group_children=0&hapos=1&highlighted_blocks=286144920_405074046_0_85_0&hpos=1&matching_block_id=286144920_405074046_0_85_0&no_rooms=1&req_adults=3&req_children=0&room1=A%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=286144920_405074046_0_85_0__106092&srepoch=1784299093&srpvid=7e9766e8bd800077&type=total&ucfs=1&",
+        "lien": "https://www.booking.com/hotel/tn/hari-club-beach-resort-ultra-all-inclusive.fr.html??aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/120234281.jpg?k=32ffe31f10a511fb6dd082704b00db977eb09d2ed9c626d2411fcd809d53de7b&o=",
         "description": "Un complexe balnéaire familial orienté détente et loisirs simples, parfait pour les budgets modérés.",
         "prix_moyen": "90€ - 140€ / nuit",
@@ -346,7 +346,7 @@ HOTELS_DATA = {
     },
     "Hasdrubal Prestige Thalasso & Spa Djerba": {
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/hasdrubal-prestige-djerba-djerba.fr.html?aid=356980&label=gog235jc-10CAso4gFCIGhhc2RydWJhbC1wcmVzdGlnZS1kamVyYmEtZGplcmJhSA1YA2hNiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALY_-jSBsACAdICJDcwNWY0NGU3LTViNTctNDJjZi1hNTQ1LTAxMDliZGIyZWUwYdgCAeACAQ&sid=b44108bf8418c881d8ced84e5494b24a&all_sr_blocks=18007702_412725319_2_1_0%2C18007702_412725319_1_1_0&checkin=2026-10-01&checkout=2026-10-08&dest_id=-731684&dest_type=city&dist=0&group_adults=3&group_children=0&hapos=1&highlighted_blocks=18007702_412725319_2_1_0%2C18007702_412725319_1_1_0&hpos=1&matching_block_id=18007702_412725319_2_1_0&no_rooms=1&req_adults=3&req_children=0&room1=A%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=18007702_412725319_2_1_0__187110%2C18007702_412725319_1_1_0__124507&srepoch=1784299486&srpvid=174667ac52f807c2&type=total&ucfs=1&",
+        "lien": "https://www.booking.com/hotel/tn/hasdrubal-prestige-djerba-djerba.fr.html??aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/75701349.jpg?k=e92cae59d5ff63b2d4ac3eaa2ede6009e24f0f3ee243395ec026b1a7e7982984&o=",
         "description": "Véritable sanctuaire du raffinement sur l'île de Djerba, l'Hasdrubal Prestige Thalasso & Spa incarne l'excellence du luxe 5 étoiles. Cet établissement d'exception combine à la perfection une architecture somptueuse aux accents orientaux et contemporains, un service irréprochable et un centre de thalassothérapie parmi les plus prestigieux de la région. Entre ses piscines majestueuses, ses suites luxueuses, sa plage privée immaculée et ses tables gastronomiques, tout est réuni pour offrir une parenthèse de sérénité absolue et de bien-être haut de gamme.",
         "prix_moyen": "300€ - 550€ / nuit",
@@ -408,7 +408,7 @@ HOTELS_DATA = {
     },
     "Hotel de charme et SPA Dar El Bhar": {
         "etoiles": "Maison d'hôtes / Charme",
-        "lien": "https://www.booking.com/hotel/tn/dar-el-bhar.fr.html?aid=311089&label=palm-beach-club-marmara-rKAHJWwGkH%2AqmY4oHykBHAS466942315862%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-45519294976%3Alp9055974%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YfNeh-lbHkPZZDrBVOcopBI&sid=b44108bf8418c881d8ced84e5494b24a&all_sr_blocks=24737603_398744030_2_1_0%2C24737603_398744030_2_1_0&checkin=2026-10-01&checkout=2026-10-08&dest_id=247376&dest_type=hotel&dist=0&group_adults=3&group_children=0&hapos=1&highlighted_blocks=24737603_398744030_2_1_0%2C24737603_398744030_2_1_0&hpos=1&matching_block_id=24737603_398744030_2_1_0&no_rooms=1&req_adults=3&req_children=0&room1=A%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=24737603_398744030_2_1_0__71540%2C24737603_398744030_2_1_0__69020&srepoch=1784302348&srpvid=369e6d43e17202f5&type=total&ucfs=1&",
+        "lien": "https://www.booking.com/hotel/tn/dar-el-bhar.fr.html??aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/589357597.jpg?k=97b4ff1fa949ce731a09d5a145f277416e6ab8cc2aff29b949f5bbfcb3ae8d6d&o=",
         "description": "Une superbe adresse de charme alliant design contemporain et touches orientales, avec un espace spa intimiste. Le Dar El Bhar est un charmant hôtel situé à Houmt Souk, la principale ville de Djerba. Il dispose d'une plage privée et d'une connexion Wi-Fi gratuite. Le restaurant de l’hôtel Dar El Bhar sert une cuisine méditerranéenne et tunisienne. Vous pourrez vous détendre dans le spa de l'hôtel, qui dispose d'un hammam et propose des massages. Chaque chambre climatisée est équipée de la télévision par satellite, d'une salle de bains privée avec sèche-cheveux, d'un mini-bar et d'un coffre-fort. Sur place, un parking privé, des chaises longues et des parasols sont à votre disposition gratuitement.",
         "prix_moyen": "110€ - 170€ / nuit",
@@ -466,7 +466,7 @@ HOTELS_DATA = {
     },
     "Hôtel Haroun": {
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/haroun-djerba1.fr.html?aid=356980&label=gog235jc-10CAso4gFCDmhhcm91bi1kamVyYmExSA1YA2hNiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK9nunSBsACAdICJGU2ODZiMDdjLTEwNWUtNDRkNS1hMmU2LTFlNDM3MTZjNWY2OdgCAeACAQ&sid=b44108bf8418c881d8ced84e5494b24a&all_sr_blocks=1644988001_434574651_4_0_0&checkin=2026-10-01&checkout=2026-10-08&dest_id=900061168&dest_type=city&dist=0&group_adults=3&group_children=0&hapos=1&highlighted_blocks=1644988001_434574651_4_0_0&hpos=1&matching_block_id=1644988001_434574651_4_0_0&no_rooms=1&req_adults=3&req_children=0&room1=A%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=1644988001_434574651_4_0_0__30870&srepoch=1784303430&srpvid=06386f5e2c49028f&type=total&ucfs=1&#availability",
+        "lien": "https://www.booking.com/hotel/tn/haroun-djerba1.fr.html??aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/869446674.jpg?k=9fba69d092e53872ff0ce0ea69d70f4c681e7cd06ba3d95649b722ddece52475&o=",
         "description": "Un hôtel familial convivial, apprécié pour sa propreté et la gentillesse de son personnel à proximité de Houmt Souk.",
         "prix_moyen": "70€ - 120€ / nuit",
@@ -496,7 +496,7 @@ HOTELS_DATA = {
     },
 "Verginia Sharm Resort & Aqua Park": {
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/eg/verginia-sharm-resort.fr.html?aid=311089&label=palm-beach-club-marmara-rKAHJWwGkH%2AqmY4oHykBHAS466942315862%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-45519294976%3Alp9055974%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YfNeh-lbHkPZZDrBVOcopBI&sid=b44108bf8418c881d8ced84e5494b24a&all_sr_blocks=26389511_428902690_0_85_0_501459%2C26389510_428902690_0_85_0_501459&checkin=2026-10-01&checkout=2026-10-08&dest_id=263895&dest_type=hotel&dist=0&group_adults=3&group_children=0&hapos=1&highlighted_blocks=26389511_428902690_0_85_0_501459%2C26389510_428902690_0_85_0_501459&hpos=1&matching_block_id=26389511_428902690_0_85_0_501459&no_rooms=1&req_adults=3&req_children=0&room1=A%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=26389511_428902690_0_85_0_501459_75111%2C26389510_428902690_0_85_0_501459_58039&srepoch=1784298122&srpvid=d36c65046c140a53&type=total&ucfs=1&",
+        "lien": "https://www.booking.com/hotel/eg/verginia-sharm-resort.fr.html??aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/411594207.jpg?k=cac7bd93233ef7783d88dd78dfbbddedd884368c7fdadb0152868a4a865f0548&o=",
         "description": "Situé à Charm el-Cheikh dans la région du Sinaï Sud, le Verginia Sharm Resort & Aqua Park propose un cadre agréable pour des vacances familiales sous le signe de l'eau et de la détente. L'établissement dispose d'un parc aquatique avec toboggans, de piscines extérieures entourées de jardins tropicaux et de chambres climatisées confortables. Idéal pour profiter du soleil égyptien, il propose des animations et un accès facile aux sites de plongée de la Mer Rouge.",
         "prix_moyen": "70€ - 130€ / nuit",
