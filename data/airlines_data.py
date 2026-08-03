@@ -10,7 +10,7 @@ AIRLINES_DATA = {
         "securite": "Excellentes normes de sécurité, régulièrement classée parmi les compagnies les plus sûres d'Europe et du monde.",
         "flotte": "Environ 220 appareils (Airbus A350, A330, A320/A321, et Boeing 777), avec un accent sur le renouvellement de la flotte long-courrier.",
         "logo": "images/air_france.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Tunisair": {
         "categorie": "Compagnie Nationale",
@@ -23,7 +23,7 @@ AIRLINES_DATA = {
         "securite": "Respecte les normes de sécurité internationales requises pour desservir l'espace aérien européen.",
         "flotte": "Flotte d'environ 15 à 20 appareils composée d'Airbus A320, A319 et d'A330-200 pour le long-courrier.",
         "logo": "images/tunis_air.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Emirates": {
         "categorie": "Compagnie Internationale Long-Courrier",
@@ -36,7 +36,7 @@ AIRLINES_DATA = {
         "securite": "L'une des flottes les plus jeunes au monde et un bilan de sécurité quasi-impeccable.",
         "flotte": "Plus de 260 gros-porteurs constitués exclusivement d'Airbus A380 et de Boeing 777.",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Emirates_logo.svg",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Transavia": {
         "categorie": "Low-Cost",
@@ -49,7 +49,7 @@ AIRLINES_DATA = {
         "securite": "Bénéficie des standards techniques rigoureux du groupe Air France.",
         "flotte": "Flotte homogène d'environ 70 à 80 appareils composée exclusivement de Boeing 737-800 et d'introduction progressive d'Airbus A320neo.",
         "logo": "images/transavia.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Ryanair": {
         "categorie": "Low-Cost",
@@ -62,7 +62,7 @@ AIRLINES_DATA = {
         "securite": "Excellente sécurité opérationnelle avec une flotte moderne de Boeing 737.",
         "flotte": "Flotte massive de plus de 550 appareils, composée de Boeing 737-800 et de Boeing 737 Gamechanger (MAX 200).",
         "logo": "images/ryanair.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "easyJet": {
         "categorie": "Low-Cost",
@@ -75,7 +75,7 @@ AIRLINES_DATA = {
         "securite": "Normes de sécurité strictes conformes à la réglementation européenne EASA.",
         "flotte": "Plus de 300 appareils 100% Airbus (famille A320 : A319, A320, A320neo et A321neo).",
         "logo": "images/easyjet.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Lufthansa": {
         "categorie": "Compagnie Nationale",
@@ -88,7 +88,7 @@ AIRLINES_DATA = {
         "securite": "Standards de sécurité extrêmement élevés et flotte régulièrement renouvelée.",
         "flotte": "Environ 270 à 300 appareils combinant des Airbus (A320, A350, A380) et des Boeing (747-8, 777, 787).",
         "logo": "images/lufthansa.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Qatar Airways": {
         "categorie": "Compagnie Nationale",
@@ -101,7 +101,7 @@ AIRLINES_DATA = {
         "securite": "Normes de sécurité rigoureuses et flotte moderne de pointe.",
         "flotte": "Environ 230 à 250 aéronefs ultra-modernes incluant des Airbus A350, A380 et de nombreux Boeing 777 et 787 Dreamliner.",
         "logo": "images/qatar.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Turkish Airlines": {
         "categorie": "Compagnie Nationale",
@@ -114,7 +114,7 @@ AIRLINES_DATA = {
         "securite": "Certification de sécurité rigoureuse et flotte moderne.",
         "flotte": "Plus de 400 appareils (l'une des plus grandes flottes mixtes au monde : Airbus A321, A330, A350 et Boeing 737, 777, 787).",
         "logo": "images/turkish.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "British Airways": {
         "categorie": "Compagnie Nationale",
@@ -127,7 +127,7 @@ AIRLINES_DATA = {
         "securite": "Haut niveau de sécurité et de maintenance aéronautique.",
         "flotte": "Environ 250-280 appareils incluant des Airbus (A320, A350, A380) et des Boeing (777, 787).",
         "logo": "images/british_airways.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Iberia": {
         "categorie": "Compagnie Nationale",
@@ -140,7 +140,7 @@ AIRLINES_DATA = {
         "securite": "Membre du groupe IAG, respect strict des normes européennes.",
         "flotte": "Environ 90 à 100 appareils tout-Airbus (famille A320 pour l'Europe et A330/A350 pour le long-courrier).",
         "logo": "images/iberia.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "ITA Airways": {
         "categorie": "Compagnie Nationale",
@@ -153,7 +153,7 @@ AIRLINES_DATA = {
         "securite": "Standards de sécurité européens certifiés.",
         "flotte": "Environ 85 à 90 appareils en renouvellement rapide, axés sur les Airbus (A220, A320neo, A330neo, A350).",
         "logo": "images/ita_airways.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "TAP Air Portugal": {
         "categorie": "Compagnie Nationale",
@@ -166,7 +166,7 @@ AIRLINES_DATA = {
         "securite": "Conforme aux exigences rigoureuses de l'EASA.",
         "flotte": "Flotte d'environ 95-100 appareils 100% Airbus (familles A320, A321LR et A330neo).",
         "logo": "images/tap_portugal.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "KLM Royal Dutch Airlines": {
         "categorie": "Compagnie Nationale",
@@ -179,7 +179,7 @@ AIRLINES_DATA = {
         "securite": "Niveau de sécurité de premier plan mondial.",
         "flotte": "Environ 110 à 120 appareils (Boeing 737, 777, 787 et Embraer E175/E190 pour KLM Cityhopper).",
         "logo": "images/klm.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Vueling": {
         "categorie": "Low-Cost",
@@ -192,7 +192,7 @@ AIRLINES_DATA = {
         "securite": "Sécurité certifiée par les autorités aéronautiques espagnoles et européennes.",
         "flotte": "Environ 125 appareils composés exclusivement d'Airbus de la famille A320 (A319, A320, A321).",
         "logo": "images/vueling.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Wizz Air": {
         "categorie": "Low-Cost",
@@ -205,7 +205,7 @@ AIRLINES_DATA = {
         "securite": "Flotte très jeune composée d'Airbus récents, maintenance rigoureuse.",
         "flotte": "Flotte en forte expansion de plus de 200 appareils 100% Airbus, principalement des A321ceo et A321neo.",
         "logo": "images/wizz_air.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Norwegian": {
         "categorie": "Low-Cost",
@@ -218,7 +218,7 @@ AIRLINES_DATA = {
         "securite": "Normes de sécurité nordiques strictes.",
         "flotte": "Environ 80 à 90 appareils axés sur les court et moyen-courriers (Boeing 737-800 et 737 MAX 8).",
         "logo": "images/norwegian.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Pegasus Airlines": {
         "categorie": "Low-Cost",
@@ -231,7 +231,18 @@ AIRLINES_DATA = {
         "securite": "Flotte moderne et respect des protocoles de sécurité de l'aviation civile turque.",
         "flotte": "Flotte d'environ 100 appareils en modernisation rapide, basculant vers des Airbus A320neo et A321neo.",
         "logo": "images/pegasus.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525",
+        "points_positifs": [
+            "Avions récents",
+            "Ponctualité"
+        ],
+        "points_negatifs": [
+            "Personnel seulement bilingue turc et anglais quelle que soit la destination",
+            "Tarifs des options trop chers",
+            "Carte des consommations pauvre et manque de choix",
+            "Absence d'écrans",
+            "Sièges trop rapprochés, manque énorme de place"
+        ],
     },
     "Air Arabia": {
         "categorie": "Low-Cost",
@@ -244,7 +255,7 @@ AIRLINES_DATA = {
         "securite": "Standards de sécurité rigoureux et flotte d'Airbus A320.",
         "flotte": "Flotte d'environ 70 appareils composée exclusivement de la famille Airbus A320 et A321neo.",
         "logo": "images/air_arabia.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Royal Air Maroc": {
         "categorie": "Compagnie Nationale",
@@ -257,7 +268,7 @@ AIRLINES_DATA = {
         "securite": "Membre de l'alliance oneworld, respect des normes internationales strictes.",
         "flotte": "Environ 50 appareils (Boeing 737, 787 Dreamliner, et avions régionaux Embraer/ATR).",
         "logo": "images/royal_air_maroc.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "EgyptAir": {
         "categorie": "Compagnie Nationale",
@@ -270,7 +281,7 @@ AIRLINES_DATA = {
         "securite": "Certifiée IOSA, respect des normes de sécurité de l'IATA.",
         "flotte": "Environ 70 à 80 appareils (Boeing 737, 777, 787 et Airbus A220, A320neo, A330).",
         "logo": "images/egyptair.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Saudia": {
         "categorie": "Compagnie Nationale",
@@ -283,7 +294,7 @@ AIRLINES_DATA = {
         "securite": "Flotte modernisée et standards de sécurité élevés.",
         "flotte": "Environ 140 à 150 appareils combinant des Airbus (A320, A330) et des Boeing (777, 787).",
         "logo": "images/saudia.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Etihad Airways": {
         "categorie": "Compagnie Nationale",
@@ -296,7 +307,7 @@ AIRLINES_DATA = {
         "securite": "Excellente réputation en matière de sécurité et de maintenance.",
         "flotte": "Environ 80 à 90 appareils (Boeing 787 Dreamliner, 777 et Airbus A350, A380).",
         "logo": "images/etihad.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Middle East Airlines (MEA)": {
         "categorie": "Compagnie Nationale",
@@ -309,7 +320,7 @@ AIRLINES_DATA = {
         "securite": "Membre de SkyTeam, respect strict des normes européennes et internationales.",
         "flotte": "Flotte homogène d'environ 20 à 24 appareils 100% Airbus (famille A320neo et A330).",
         "logo": "images/mea.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Air Algérie": {
         "categorie": "Compagnie Nationale",
@@ -322,7 +333,7 @@ AIRLINES_DATA = {
         "securite": "Certifiée IOSA, respecte les exigences de sécurité pour l'espace aérien international.",
         "flotte": "Environ 55 appareils (Boeing 737-600/-700/-800, Airbus A330 et turbopropulseurs ATR 72).",
         "logo": "images/air_algerie.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "American Airlines": {
         "categorie": "Compagnie Nationale",
@@ -335,7 +346,7 @@ AIRLINES_DATA = {
         "securite": "Flotte immense et respect strict des normes de la FAA.",
         "flotte": "Flotte gigantesque de près de 1 000 avions (Airbus A320, A321 et Boeing 737, 777, 787).",
         "logo": "images/american_airlines.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Delta Air Lines": {
         "categorie": "Compagnie Nationale",
@@ -348,7 +359,7 @@ AIRLINES_DATA = {
         "securite": "Standards de sécurité de pointe aux États-Unis.",
         "flotte": "Plus de 900 appareils (mélange de Boeing et d'Airbus, dont A321neo et A350).",
         "logo": "images/delta.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "United Airlines": {
         "categorie": "Compagnie Nationale",
@@ -361,7 +372,7 @@ AIRLINES_DATA = {
         "securite": "Conforme aux normes rigoureuses de la FAA et de l'IATA.",
         "flotte": "Plus de 900 appareils composés majoritairement de Boeing (737, 757, 767, 777, 787) et d'Airbus.ኮ",
         "logo": "images/united.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Air Canada": {
         "categorie": "Compagnie Nationale",
@@ -374,7 +385,7 @@ AIRLINES_DATA = {
         "securite": "Excellente réputation en matière de sécurité, notamment pour les conditions de vol hivernales.",
         "flotte": "Environ 200 appareils (Boeing 777, 787, Airbus A220, A330 et Boeing 737 MAX).",
         "logo": "images/air_canada.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Singapore Airlines": {
         "categorie": "Compagnie Nationale",
@@ -387,7 +398,7 @@ AIRLINES_DATA = {
         "securite": "Parmi les flottes les plus sûres et modernes au monde.",
         "flotte": "Environ 140 à 150 gros-porteurs très récents (Airbus A350, A380 et Boeing 777, 787).",
         "logo": "images/singapore_airlines.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Cathay Pacific": {
         "categorie": "Compagnie Nationale",
@@ -400,7 +411,7 @@ AIRLINES_DATA = {
         "securite": "Standards rigoureux et excellent historique de sécurité.",
         "flotte": "Environ 150 à 180 aéronefs long-courriers axés sur les Airbus (A330, A350) et les Boeing 777.",
         "logo": "images/cathay_pacific.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Japan Airlines (JAL)": {
         "categorie": "Compagnie Nationale",
@@ -413,7 +424,7 @@ AIRLINES_DATA = {
         "securite": "Niveau de sécurité et de rigueur technique mondialement respecté.",
         "flotte": "Environ 160 à 170 appareils (Boeing 737, 767, 777, 787 et introduction de l'Airbus A350).",
         "logo": "images/jal.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "All Nippon Airways (ANA)": {
         "categorie": "Compagnie Nationale",
@@ -426,7 +437,7 @@ AIRLINES_DATA = {
         "securite": "Excellence opérationnelle et standards de sécurité irréprochables.",
         "flotte": "Environ 220 à 240 appareils (Boeing, premier client du 787, ainsi qu'Airbus A320neo et A380).",
         "logo": "images/ana.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Korean Air": {
         "categorie": "Compagnie Nationale",
@@ -439,7 +450,7 @@ AIRLINES_DATA = {
         "securite": "Modernisation poussée de la flotte et renforcement drastique des protocoles de sécurité.",
         "flotte": "Environ 160 appareils (Airbus A330, A380, A220 et Boeing 737, 777, 747-8, 787).",
         "logo": "images/korean_air.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "China Eastern Airlines": {
         "categorie": "Compagnie Nationale",
@@ -452,7 +463,7 @@ AIRLINES_DATA = {
         "securite": "Flotte moderne et conforme aux normes de l'aviation civile chinoise et internationale.",
         "flotte": "Plus de 600 appareils principalement composés d'Airbus (A320, A330, A350) et de Boeing 777/737.",
         "logo": "images/china_eastern.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Air China": {
         "categorie": "Compagnie Nationale",
@@ -465,7 +476,7 @@ AIRLINES_DATA = {
         "securite": "Normes de sécurité strictes et flotte d'appareils récents.",
         "flotte": "Plus de 500 appareils mixtes (Airbus A320, A330, A350 et Boeing 737, 747, 777, 787).",
         "logo": "images/air_china.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Qantas": {
         "categorie": "Compagnie Nationale",
@@ -478,7 +489,7 @@ AIRLINES_DATA = {
         "securite": "Réputation légendaire : aucun accident mortel sur les jets à réaction de son histoire moderne.",
         "flotte": "Environ 125 à 135 appareils opérant des Boeing (737, 787) et des Airbus (A330, A380).",
         "logo": "images/qantas.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Air New Zealand": {
         "categorie": "Compagnie Nationale",
@@ -491,7 +502,7 @@ AIRLINES_DATA = {
         "securite": "Plusieurs fois primée pour sa sécurité et son excellence opérationnelle.",
         "flotte": "Environ 100 appareils (Boeing 777/787 pour le long-courrier et Airbus A320/A321 pour le court).",
         "logo": "images/air_new_zealand.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "LATAM Airlines": {
         "categorie": "Compagnie Nationale",
@@ -504,7 +515,7 @@ AIRLINES_DATA = {
         "securite": "Standards de sécurité rigoureux conformes aux certifications internationales.",
         "flotte": "Flotte d'environ 300 appareils combinant des Airbus A320 et des Boeing 767/777/787.",
         "logo": "images/latam.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Aeromexico": {
         "categorie": "Compagnie Nationale",
@@ -517,7 +528,7 @@ AIRLINES_DATA = {
         "securite": "Flotte moderne et respect des protocoles de sécurité de la FAA et de SkyTeam.",
         "flotte": "Environ 150 appareils articulés autour de Boeing (737 MAX, 787 Dreamliner) et d'Embraer.",
         "logo": "images/aeromexico.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Southwest Airlines": {
         "categorie": "Low-Cost",
@@ -530,7 +541,7 @@ AIRLINES_DATA = {
         "securite": "Excellent historique de sécurité avec une flotte massive de Boeing 737.",
         "flotte": "Plus de 800 appareils composés exclusivement de la famille Boeing 737.",
         "logo": "images/southwest.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "IndiGo": {
         "categorie": "Low-Cost",
@@ -543,7 +554,7 @@ AIRLINES_DATA = {
         "securite": "Flotte très jeune d'Airbus et de Boeing, maintenance rigoureuse.",
         "flotte": "Plus de 350 appareils extrêmement jeunes, composés d'Airbus A320, A321neo et ATR 72.",
         "logo": "images/indigo.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "AirAsia": {
         "categorie": "Low-Cost",
@@ -556,7 +567,7 @@ AIRLINES_DATA = {
         "securite": "Normes de sécurité certifiées par l'autorité aéronautique malaise.",
         "flotte": "Plus de 200 appareils 100% Airbus opérant des A320 et A321.",
         "logo": "images/airasia.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "JetBlue Airways": {
         "categorie": "Low-Cost",
@@ -569,7 +580,7 @@ AIRLINES_DATA = {
         "securite": "Flotte moderne et respect strict des normes de la FAA.",
         "flotte": "Environ 280 appareils composés majoritairement d'Airbus (A320, A321, A220) et d'Embraer 190.",
         "logo": "images/jetblue.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Garuda Indonesia": {
         "categorie": "Compagnie Nationale",
@@ -582,7 +593,7 @@ AIRLINES_DATA = {
         "securite": "Transformation majeure de la sécurité au cours des 15 dernières années, désormais certifiée internationale.",
         "flotte": "Environ 70 à 80 appareils (Boeing 737, Boeing 777 et Airbus A330).",
         "logo": "images/garuda.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Vietnam Airlines": {
         "categorie": "Compagnie Nationale",
@@ -595,7 +606,7 @@ AIRLINES_DATA = {
         "securite": "Standards de sécurité certifiés IOSA et EASA.",
         "flotte": "Environ 100 appareils modernes (Airbus A321, A350 et Boeing 787).",
         "logo": "images/vietnam_airlines.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Philippine Airlines": {
         "categorie": "Compagnie Nationale",
@@ -608,7 +619,7 @@ AIRLINES_DATA = {
         "securite": "Levée de toutes les restrictions européennes passées, standards de sécurité aux normes.",
         "flotte": "Environ 80 appareils combinant des Airbus (A320, A330, A350) et des Boeing 777.",
         "logo": "images/philippine_airlines.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Malaysia Airlines": {
         "categorie": "Compagnie Nationale",
@@ -621,7 +632,7 @@ AIRLINES_DATA = {
         "securite": "Membre de l'alliance oneworld, audits de sécurité internationaux validés.",
         "flotte": "Environ 80 appareils (Boeing 737 pour le court-courrier et Airbus A330/A350 pour le long-courrier).",
         "logo": "images/malaysia_airlines.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Kenya Airways": {
         "categorie": "Compagnie Nationale",
@@ -634,7 +645,7 @@ AIRLINES_DATA = {
         "securite": "Certifiée IOSA, respect des normes de sécurité de l'aviation civile internationale.",
         "flotte": "Environ 35 appareils centrés autour des Boeing (737, 787 Dreamliner) et des Embraer 190.",
         "logo": "images/kenya_airways.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "Ethiopian Airlines": {
         "categorie": "Compagnie Nationale",
@@ -647,7 +658,7 @@ AIRLINES_DATA = {
         "securite": "Flotte extrêmement moderne (notamment Boeing 787 et Airbus A350) et excellente sécurité.",
         "flotte": "Plus de 140 appareils modernes opérant des Boeing (737, 777, 787) et des Airbus A350.",
         "logo": "images/ethiopian.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     },
     "South African Airways": {
         "categorie": "Compagnie Nationale",
@@ -660,6 +671,6 @@ AIRLINES_DATA = {
         "securite": "Historique solide et respect des réglementations aéronautiques internationales.",
         "flotte": "Flotte restructurée d'une vingtaine d'appareils (Airbus A320, A330, A340).",
         "logo": "images/south_african.png",
-        "lien": "https://www.travelpayouts.com/"
+        "lien": "https://www.dpbolvw.net/click-101825091-17060525"
     }
 }

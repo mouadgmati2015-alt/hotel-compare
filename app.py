@@ -243,11 +243,22 @@ elif st.session_state.page == "Compagnies Aériennes":
         with st.expander("🛡️ Sécurité et normes"):
             st.write(infos.get('securite', 'Normes de sécurité internationales respectées.'))
             
+        # --- AJOUT DES POINTS POSITIFS ET NÉGATIFS ---
+        if infos.get("points_positifs"):
+            with st.expander("✅ Points Positifs"):
+                for p in infos.get("points_positifs"):
+                    st.write(f"- {p}")
+                    
+        if infos.get("points_negatifs"):
+            with st.expander("⚠️ Points Négatifs"):
+                for n in infos.get("points_negatifs"):
+                    st.write(f"- {n}")
+
+        # --- BOUTON DE RÉSERVATION ---
         st.markdown(
-    '<a href="https://www.anrdoezrs.net/click-10182501-17053227" target="_blank" style="display: block; width: 100%; background-color: #0066cc; color: white; padding: 12px 20px; text-align: center; text-decoration: none; font-size: 16px; font-weight: bold; border-radius: 6px; box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">Réserver avec Booking.com</a>',
-    unsafe_allow_html=True
-)
-st.write("")
+            '<a href="https://www.anrdoezrs.net/click-10182501-17053227" target="_blank" style="display: block; width: 100%; background-color: #0066cc; color: white; padding: 12px 20px; text-align: center; text-decoration: none; font-size: 16px; font-weight: bold; border-radius: 6px; box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">Réserver le vol</a>',
+            unsafe_allow_html=True
+        )
 # ==============================================================================
 # SECTION 3 : LOUEURS DE VÉHICULES
 # ==============================================================================
@@ -350,6 +361,16 @@ elif st.session_state.page == "Blog":
 
     import json
     import os
+    from PIL import Image, ImageOps
+
+    # Fonction pour redresser automatiquement l'image selon son orientation EXIF
+    def get_corrected_image(img_path):
+        try:
+            img = Image.open(img_path)
+            img = ImageOps.exif_transpose(img)
+            return img
+        except Exception:
+            return img_path
 
     # 1. On charge d'abord les articles en haut de la page Blog
     try:
@@ -367,24 +388,58 @@ elif st.session_state.page == "Blog":
     if st.session_state.article_ouvert:
         art = st.session_state.article_ouvert
         st.header(art.get('titre', ''))
-        if 'image' in art and os.path.exists(art['image']):
-            st.image(art['image'], use_container_width=True)
-        st.markdown(art.get('details', "Contenu de l'article..."))
         
+        # --- ONGLETS CLIQUABLES : ARTICLE / GALERIE PHOTOS ---
+        onglet_texte, onglet_galerie = st.tabs(["📖 Lire l'article", "📸 Galerie photos"])
+        
+        with onglet_texte:
+            st.markdown(art.get('details', "Contenu de l'article..."))
+            
+        with onglet_galerie:
+            st.write("### 🖼️ Toutes les photos du voyage")
+            if 'images' in art and art['images']:
+                images_list = art['images']
+                
+                # Affichage natif propre avec gestion dynamique des lignes sans trous
+                valid_images = [img for img in images_list if os.path.exists(img)]
+                
+                if valid_images:
+                    for i in range(0, len(valid_images), 3):
+                        cols = st.columns(3)
+                        for j in range(3):
+                            idx = i + j
+                            if idx < len(valid_images):
+                                with cols[j]:
+                                    corrected_img = get_corrected_image(valid_images[idx])
+                                    st.image(corrected_img, use_container_width=True)
+                            else:
+                                with cols[j]:
+                                    st.write("") # Espace vide propre pour combler la fin de ligne
+                else:
+                    st.info("Aucune image valide trouvée.")
+            else:
+                st.info("Aucune galerie photo disponible pour cet article.")
+                
+        st.markdown("---")
         if st.button("⬅️ Retour au blog"):
             st.session_state.article_ouvert = None
             st.rerun()
             
     else:
-        # Affichage de la grille des articles
+        # Affichage de la grille des articles sur l'accueil du blog
         for i in range(0, len(articles), 3):
             cols = st.columns(3)
             for j in range(3):
                 if i + j < len(articles):
                     art = articles[i + j]
                     with cols[j]:
-                        if 'image' in art and os.path.exists(art['image']):
-                            st.image(art['image'], use_container_width=True)
+                        images_art = art.get('images', [])
+                        first_img = images_art[0] if images_art and os.path.exists(images_art[0]) else art.get('image', '')
+                        
+                        if first_img and os.path.exists(first_img):
+                            corrected_img = get_corrected_image(first_img)
+                            st.image(corrected_img, use_container_width=True)
+                            
                         st.subheader(art.get('titre', ''))
                         st.write(art.get('resume', ''))
                         if st.button("Lire la suite", key=f"art_{i}_{j}"):
