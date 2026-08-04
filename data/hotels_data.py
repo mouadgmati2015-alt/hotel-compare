@@ -4603,5 +4603,308 @@ HOTELS_DATA = {
             "verdict": "Un excellent rapport qualité-prix en centre-ville, idéal pour un séjour authentique à Djerba grâce à un personnel particulièrement attentionné."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 21 July 2026"
+    },
+    "Iberostar Selection Kuriat Palace": {
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/iberostar-kuriat-palace.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé en bord de mer, à Monastir, l'Iberostar Kuriat Palace possède une plage privée, une piscine extérieure, un spa et centre de bien-être, un jacuzzi, une équipe d'animation et une réception ouverte...",
+        "avis": "9.0/10",
+        "points_positifs": [
+            "Fabuleux",
+            "Plage privée et piscines",
+            "Spa et centre de bien-être"
+        ],
+        "points_negatifs": [
+            "Affluence possible en haute saison"
+        ],
+        "meta_avis": "Contenu résumé par IA sur la base de 1200+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+    },
+    "Marina Cap Monastir- Appart'Hôtel": {
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/marina-cap-monastir-appart-hotel.fr.html?aid=818289",
+        "image": "",
+        "description": "Le Marina Cap Monastir- Appart'Hôtel vous accueille à proximité du port de plaisance et de la plage. Situé à 5 minutes à pied du centre-ville, cet établissement est idéal pour un séjour de détente.",
+        "avis": "8.4/10",
+        "points_positifs": [
+            "Très bien",
+            "Proximité immédiate du port de plaisance et de la plage",
+            "À 5 minutes à pied du centre-ville"
+        ],
+        "points_negatifs": [
+            "Équipements parfois basiques selon les appartements"
+        ],
+        "meta_avis": "Contenu résumé par IA sur la base de 1900+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+    },
+    "Hotel el Fawz": {
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-fawz.fr.html?aid=818289",
+        "image": "",
+        "description": "Établissement situé à Monastir proposant des services adaptés aux voyageurs recherchant un séjour simple et abordable.",
+        "avis": "3.5/5",
+        "points_positifs": [
+            "Bon rapport qualité-prix",
+            "Personnel accueillant"
+        ],
+        "points_negatifs": [
+            "Prestations simples",
+            "Décoration vieillissante"
+        ],
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+    },
+    "Regency Hotel & Spa": {
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/regency-hotel-and-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Le Regency Hotel and Spa est situé à Monastir, à 5 minutes à pied du centre-ville, offrant un accès direct au front de mer.",
+        "avis": "4.0/5",
+        "points_positifs": [
+            "Proche du centre-ville",
+            "Espace spa et bien-être",
+            "Situation en front de mer"
+        ],
+        "points_negatifs": [
+            "Rénovation parfois nécessaire dans certaines zones",
+            "Service de restauration perfectible"
+        ],
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+    },
+    "City Business Monastir Center": {
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/monastir-center.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le centre-ville de Monastir, en Tunisie, cet hôtel propose des chambres avec balcon privé surplombant la piscine extérieure et la mer.",
+        "avis": "6.9/10",
+        "points_positifs": [
+            "Agréable",
+            "Chambres avec balcon privé et vue piscine/mer",
+            "Emplacement central"
+        ],
+        "points_negatifs": [
+            "Établissement un peu ancien",
+            "Isolation phonique parfois juste"
+        ],
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+    },
+    "Hotel Mezri": {
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/mezri.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à proximité du port de plaisance de Monastir, l'Hotel Mezri se trouve dans le magnifique site du vieux port, face à la mer, à seulement 10 km de l'aéroport.",
+        "avis": "7.0/10",
+        "points_positifs": [
+            "Bien",
+            "Vue imprenable face à la mer et sur le vieux port",
+            "Proximité de l'aéroport et du port de plaisance"
+        ],
+        "points_negatifs": [
+            "Chambres exigües pour certaines",
+            "Équipements limités"
+        ],
+        "meta_avis": "Contenu résumé par IA sur la base de 850+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+    },
+    "Hotel Les Palmiers": {
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/les-palmiers-monastir.fr.html?aid=818289",
+        "image": "",
+        "description": "L'Hotel les Palmiers est situé directement sur la plage de Skanes, à 5 minutes en voiture du centre-ville de Monastir.",
+        "avis": "6.4/10",
+        "points_positifs": [
+            "Agréable",
+            "Situation directe sur la plage de Skanes",
+            "Proche du centre-ville"
+        ],
+        "points_negatifs": [
+            "Confort des chambres basique",
+            "Wi-Fi parfois instable"
+        ],
+        "meta_avis": "Contenu résumé par IA sur la base de 400+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+    },
+    "TUI SUNEO Palm Beach Skanes - All Inclusive": {
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/palm-beach-skanes.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Monastir, l’établissement TUI SUNEO Palm Beach Skanes - All Inclusive comprend un jardin, une plage privée, une terrasse et un restaurant.",
+        "avis": "7.5/10",
+        "points_positifs": [
+            "Bien",
+            "Formule tout compris appréciée",
+            "Plage privée et grands espaces extérieurs"
+        ],
+        "points_negatifs": [
+            "Forte animation parfois bruyante",
+            "Buffet répétitif en haute saison"
+        ],
+        "meta_avis": "Contenu résumé par IA sur la base de 190+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+    },
+    "El Mouradi Skanes": {
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-mouradi-skanes.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la région de Skanès, l'El Mouradi propose des chambres et des suites avec balcon ou terrasse privée, disposant de 2 piscines et d'un hammam.",
+        "avis": "5.3/10",
+        "points_positifs": [
+            "Grandes piscines",
+            "Présence d'un hammam et centre de remise en forme",
+            "Grands volumes"
+        ],
+        "points_negatifs": [
+            "Passable selon les voyageurs",
+            "Nécessite des rénovations",
+            "Service client perfectible"
+        ],
+        "meta_avis": "Contenu résumé par IA sur la base de 430+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+    },
+    "Hôtel Archipel": {
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/archipel-monastir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Monastir en front de mer, l’établissement Hôtel Archipel possède un jardin, une plage privée, une terrasse bien exposée et une piscine.",
+        "avis": "7.6/10",
+        "points_positifs": [
+            "Bien",
+            "Cadre agréable en front de mer",
+            "Piscine et plage privée"
+        ],
+        "points_negatifs": [
+            "Structure de taille modeste",
+            "Animation limitée"
+        ],
+        "meta_avis": "Contenu résumé par IA sur la base de 50+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+    },
+    "Hilton Skanes Monastir Beach Resort": {
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/hilton-skanes-monastir-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "L’établissement Hilton Skanes Monastir Beach Resort se trouve à Monastir, à proximité du Golf Palm Links, offrant un cadre luxueux et moderne en front de mer.",
+        "avis": "8.1/10",
+        "points_positifs": [
+            "Très bien",
+            "Prestations haut de gamme et design moderne",
+            "Certificat de durabilité et excellents équipements"
+        ],
+        "points_negatifs": [
+            "Tarifs plus élevés",
+            "Éloigné du centre historique"
+        ],
+        "meta_avis": "Contenu résumé par IA sur la base de 1700+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+    },
+    "Royal Thalassa Monastir": {
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/royal-thalassa-monastir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans des jardins au bord de la plage de Skanes, le Royal Thalassa Monastir propose des chambres et suites luxueuses avec balcon et centre de thalassothérapie.",
+        "avis": "7.1/10",
+        "points_positifs": [
+            "Bien",
+            "Centre de thalassothérapie de qualité",
+            "Magnifiques jardins en bord de plage"
+        ],
+        "points_negatifs": [
+            "Rapport qualité-prix parfois discuté",
+            "Chambres demandant un rafraîchissement"
+        ],
+        "meta_avis": "Contenu résumé par IA sur la base de 500+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+    },
+    "Bella Vista Family Resort": {
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/bella-vista-monastir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé le long de la célèbre plage de Skanes, à proximité de parcours de golf, l'hôtel tout compris Bella Vista propose des bars et restaurants adaptés aux familles.",
+        "avis": "4.0/5",
+        "points_positifs": [
+            "Idéal pour les familles",
+            "Formule tout compris",
+            "Accès direct à la plage de Skanes"
+        ],
+        "points_negatifs": [
+            "Forte affluence en été",
+            "Espaces communs bruyants"
+        ],
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+    },
+    "Hotel El Habib Monastir": {
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-habib-monastir.fr.html?aid=818289",
+        "image": "",
+        "description": "L’établissement Hotel El Habib Monastir se situe à Monastir, à proximité de la plage Qaraiya, et possède un jardin, une terrasse et un restaurant.",
+        "avis": "3.8/5",
+        "points_positifs": [
+            "Proche de la plage et du centre",
+            "Jardin et terrasse agréables"
+        ],
+        "points_negatifs": [
+            "Équipements vieillissants",
+            "Service parfois lent"
+        ],
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+    },
+    "Shems Holiday Village & Aquapark": {
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/shems-holiday-village.fr.html?aid=818289",
+        "image": "",
+        "description": "Doté de piscines extérieure et intérieure et d'un parc aquatique, le Shems Holiday Village & Aquapark vous accueille à Monastir pour des vacances familiales.",
+        "avis": "3.7/5",
+        "points_positifs": [
+            "Présence d'un aquapark / toboggans",
+            "Formule club adaptée aux enfants",
+            "Grandes surfaces extérieures"
+        ],
+        "points_negatifs": [
+            "Restauration industrielle",
+            "Chambres sous forme de bungalows basiques"
+        ],
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+    },
+    "Aylimas Family Hotel": {
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/aylimas-family.fr.html?aid=818289",
+        "image": "",
+        "description": "L’établissement Aylimas Family Hotel vous accueille à Monastir, à proximité du Golf Palm Links, dans un cadre familial en front de mer.",
+        "avis": "3.6/5",
+        "points_positifs": [
+            "Ambiance familiale",
+            "Proche du golf"
+        ],
+        "points_negatifs": [
+            "Un peu éloigné du centre de Monastir",
+            "Prestations simples"
+        ],
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+    },
+    "Sahara Beach Aquapark Resort": {
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/sahara-beach.fr.html?aid=818289",
+        "image": "",
+        "description": "Le Sahara Beach se trouve à 10 minutes de l'aéroport de Monastir, bénéficie d'un accès direct à la plage et dispose de 3 piscines avec toboggans aquatiques.",
+        "avis": "3.8/5",
+        "points_positifs": [
+            "Superbe parc aquatique avec toboggans",
+            "Accès direct à la plage",
+            "Idéal pour les enfants"
+        ],
+        "points_negatifs": [
+            "Complexe très grand (beaucoup de monde)",
+            "Chambres simples et bruyantes en haute saison"
+        ],
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+    },
+    "One Resort Aqua Park": {
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/one-resort-aqua-park.fr.html?aid=818289",
+        "image": "",
+        "description": "Complexe hôtelier animé à Monastir, axé sur les loisirs aquatiques avec un grand parc aquatique et des prestations tout compris.",
+        "avis": "4.1/5",
+        "points_positifs": [
+            "Excellent parc aquatique",
+            "Animations dynamiques",
+            "Bonne offre de restauration"
+        ],
+        "points_negatifs": [
+            "Bruyant en période estivale",
+            "Espaces communs très fréquentés"
+        ],
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+
     }
 }
