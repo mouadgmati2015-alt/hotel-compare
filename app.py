@@ -232,7 +232,6 @@ if st.session_state.page == "Comparateur Hôtels":
                         url_reservation = url_hotel
                         texte_reservation = "Réserver sur Booking"
                     else:
-                        # Si l'hôtel n'est pas sur Booking, on renvoie vers la page d'accueil générale de Booking
                         url_reservation = "https://www.booking.com/index.fr.html"
                         texte_reservation = "Rechercher sur Booking.com"
 
@@ -244,14 +243,75 @@ if st.session_state.page == "Comparateur Hôtels":
                         unsafe_allow_html=True
                     )
                     st.write("")
+
+# ==============================================================================
+# SECTION 2 : COMPAGNIES AÉRIENNES (Remise en place !)
+# ==============================================================================
+elif st.session_state.page == "Compagnies Aériennes":
+    st.title("✈️ Comparateur & Avis - Compagnies Aériennes")
+    st.write("Sélectionnez ou recherchez une compagnie aérienne pour consulter son résumé, ses avis et réserver au meilleur prix.")
+    
+    st.markdown("---")
+    
+    noms_compagnies = sorted(AIRLINES_DATA.keys())
+    
+    col_s1, col_s2 = st.columns([2, 1])
+    choix_cie = col_s1.selectbox("Choisissez une compagnie aérienne", noms_compagnies)
+    
+    if choix_cie:
+        infos = AIRLINES_DATA[choix_cie]
+        st.markdown("---")
+        
+        col_c1, col_c2 = st.columns([1, 4])
+        with col_c1:
+            try:
+                st.image("images/airbus_vol.jpg", width=120)
+            except:
+                st.write("✈️")
+        with col_c2:
+            st.subheader(choix_cie)
+            st.markdown(f"**Catégorie :** {infos['categorie']} | **Alliance :** {infos['alliance']}")
+            st.markdown(f"**Note globale :** ⭐ {infos['note']}")
+        
+        st.write(f"**Résumé :** {infos['resume']}")
+        st.write(f"**Politique bagages :** {infos['bagages']}")
+        st.write(f"**Flotte :** {infos.get('flotte', 'Flotte moderne et variée')}")
+        
+        st.markdown("### Principales liaisons :")
+        for liaison in infos.get("liaisons", []):
+            st.write(f"- ✈️ {liaison}")
+            
+        with st.expander("📖 Histoire de la compagnie"):
+            st.write(infos['histoire'])
+            
+        with st.expander("🛡️ Sécurité et normes"):
+            st.write(infos.get('securite', 'Normes de sécurité internationales respectées.'))
+            
+        if infos.get("points_positifs"):
+            with st.expander("✅ Points Positifs"):
+                for p in infos.get("points_positifs"):
+                    st.write(f"- {p}")
+                    
+        if infos.get("points_negatifs"):
+            with st.expander("⚠️ Points Négatifs"):
+                for n in infos.get("points_negatifs"):
+                    st.write(f"- {n}")
+
+        if infos.get("pour_qui"):
+            st.info(f"**Verdict :** {infos.get('pour_qui')}")
+
+    st.markdown(
+        '<a href="https://www.anrdoezrs.net/click-10182501-17053227" target="_blank" style="display: block; width: 100%; background-color: #0066cc; color: white; padding: 12px 20px; text-align: center; text-decoration: none; font-size: 16px; font-weight: bold; border-radius: 6px; box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">Réserver le vol</a>',
+        unsafe_allow_html=True
+    )
+
 # ==============================================================================
 # SECTION 3 : LOUEURS DE VÉHICULES
 # ==============================================================================
-if st.session_state.page == "Loueurs Véhicules":
+elif st.session_state.page == "Loueurs Véhicules":
     st.title("🚗 Comparateur & Agences de Location de Véhicules")
     st.write("Recherchez et comparez les meilleurs loueurs de voitures à travers le monde.")
     
-    # Dictionnaire complet avec classement mondial (rang)
     LOUEURS_DATA = {
         "Enterprise": {
             "rang": "#1 Mondial",
@@ -300,12 +360,9 @@ if st.session_state.page == "Loueurs Véhicules":
         }
     }
 
-    # --- MENU DÉROULANT ---
-    # On ajoute une option par défaut "Sélectionnez un loueur..."
     liste_options = ["Sélectionnez un loueur..."] + list(LOUEURS_DATA.keys())
     choix_loueur = st.selectbox("Choisissez un loueur de véhicules :", liste_options)
 
-    # Si l'utilisateur choisit un vrai loueur (différent de l'option par défaut)
     if choix_loueur != "Sélectionnez un loueur...":
         infos_l = LOUEURS_DATA[choix_loueur]
         st.markdown("---")
@@ -325,11 +382,8 @@ if st.session_state.page == "Loueurs Véhicules":
         st.write(f"**Résumé des avis :** {infos_l['resume']}")
         st.markdown("---")
 
-    # --- INTÉGRATION DU WIDGET DE RECHERCHE MONDIAL ---
     st.markdown("---")
     st.subheader("Trouvez votre véhicule partout dans le monde")
-    
-    import streamlit.components.v1 as components
     
     widget_html = """
     <div style="width: 100%; min-height: 400px;">
@@ -338,26 +392,22 @@ if st.session_state.page == "Loueurs Véhicules":
     """
     
     components.html(widget_html, height=450, scrolling=True)
+
 # ==============================================================================
 # SECTION 4 : BLOG
 # ==============================================================================
 elif st.session_state.page == "Blog":
     st.title("📖 Notre Blog Voyage")
 
-    import json
-    import os
-    from PIL import Image, ImageOps
-
-    # Fonction pour redresser automatiquement l'image selon son orientation EXIF
     def get_corrected_image(img_path):
         try:
+            from PIL import Image, ImageOps
             img = Image.open(img_path)
             img = ImageOps.exif_transpose(img)
             return img
         except Exception:
             return img_path
 
-    # 1. On charge d'abord les articles en haut de la page Blog
     try:
         with open("blog_data.json", "r", encoding="utf-8") as f:
             articles = json.load(f)
@@ -365,16 +415,13 @@ elif st.session_state.page == "Blog":
         articles = []
         st.error(f"Erreur de chargement du JSON : {e}")
 
-    # 2. On initialise l'état de l'article ouvert s'il n'existe pas
     if 'article_ouvert' not in st.session_state:
         st.session_state.article_ouvert = None
 
-    # 3. On affiche soit l'article en détail, soit la liste complète
     if st.session_state.article_ouvert:
         art = st.session_state.article_ouvert
         st.header(art.get('titre', ''))
         
-        # --- ONGLETS CLIQUABLES : ARTICLE / GALERIE PHOTOS ---
         onglet_texte, onglet_galerie = st.tabs(["📖 Lire l'article", "📸 Galerie photos"])
         
         with onglet_texte:
@@ -384,8 +431,6 @@ elif st.session_state.page == "Blog":
             st.write("### 🖼️ Toutes les photos du voyage")
             if 'images' in art and art['images']:
                 images_list = art['images']
-                
-                # Affichage natif propre avec gestion dynamique des lignes sans trous
                 valid_images = [img for img in images_list if os.path.exists(img)]
                 
                 if valid_images:
@@ -399,7 +444,7 @@ elif st.session_state.page == "Blog":
                                     st.image(corrected_img, use_container_width=True)
                             else:
                                 with cols[j]:
-                                    st.write("") # Espace vide propre pour combler la fin de ligne
+                                    st.write("")
                 else:
                     st.info("Aucune image valide trouvée.")
             else:
@@ -411,7 +456,6 @@ elif st.session_state.page == "Blog":
             st.rerun()
             
     else:
-        # Affichage de la grille des articles sur l'accueil du blog
         for i in range(0, len(articles), 3):
             cols = st.columns(3)
             for j in range(3):
