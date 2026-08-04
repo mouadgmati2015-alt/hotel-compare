@@ -167,21 +167,53 @@ if st.session_state.page == "Comparateur Hôtels":
                 with cols[i]:
                     st.subheader(nom)
                     
-                    # Image de l'hôtel à taille maîtrisée
-                    if d.get("image"):
-                        st.image(d.get("image"), width=350)
+                    # 1. Le carré "Voir les photos" en vert
+                    url_hotel = d.get("lien", "https://www.booking.com/index.fr.html")
                     
-                    # Caractéristiques de l'hôtel
-                    for cle, valeur in d.items():
-                        if cle in ["nom", "image", "points_positifs", "points_negatifs", "pour_qui", "lien"]:
-                            continue
-                        st.write(f"**{cle.replace('_', ' ').capitalize()} :** {valeur}")
-                    
-                    # Verdict
-                    if d.get("pour_qui"):
-                        st.info(f"**Verdict :** {d.get('pour_qui')}")
+                    if "expedia" in url_hotel.lower():
+                        texte_bouton = "📸 Voir les photos sur Expedia"
+                    elif "booking" in url_hotel.lower():
+                        texte_bouton = "📸 Voir les photos sur Booking"
+                    else:
+                        texte_bouton = "📸 Voir les photos de l'hôtel"
+
+                    st.markdown(
+                        f"""
+                        <div style="margin-bottom: 15px;">
+                            <a href="{url_hotel}" target="_blank" style="text-decoration: none;">
+                                <div style="
+                                    border: 2px dashed #38a169; 
+                                    border-radius: 8px; 
+                                    padding: 25px 15px; 
+                                    text-align: center; 
+                                    background-color: #f0fff4;
+                                    transition: all 0.2s ease-in-out;
+                                ">
+                                    <span style="font-size: 16px; font-weight: bold; color: #22543d;">
+                                        {texte_bouton}
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                        """,
+                        unsafe_allow_html=True
+                    )
+
+                    # 2. Informations de l'hôtel
+                    if d.get("etoiles"):
+                        st.write(f"**Étoiles :** {d['etoiles']}")
+                    if d.get("prix_moyen"):
+                        st.write(f"**Prix moyen :** {d['prix_moyen']}")
+                    if d.get("avis"):
+                        st.write(f"**Avis :** {d['avis']}")
+                    if d.get("description"):
+                        st.write(f"**Description :** {d['description']}")
+
+                    # 3. Verdict
+                    if d.get("pour_qui") and isinstance(d.get("pour_qui"), dict):
+                        st.info(f"**Verdict :** {d.get('pour_qui').get('verdict', '')}")
                         
-                    # Points Positifs / Négatifs
+                    # 4. Points Positifs / Négatifs
                     if d.get("points_positifs"):
                         with st.expander("✅ Points Positifs"):
                             for p in d.get("points_positifs"):
@@ -192,81 +224,26 @@ if st.session_state.page == "Comparateur Hôtels":
                             for n in d.get("points_negatifs"):
                                 st.write(f"- {n}")
 
-                    # Lien direct de réservation Booking propre et fonctionnel
-                    url_hotel = d.get("lien", "https://www.booking.com/index.fr.html")
+                    if d.get("meta_avis"):
+                        st.caption(d['meta_avis'])
 
+                    # 5. Gestion du lien de réservation (si pas sur booking -> redirige vers l'accueil booking)
+                    if "booking" in url_hotel.lower():
+                        url_reservation = url_hotel
+                        texte_reservation = "Réserver sur Booking"
+                    else:
+                        # Si l'hôtel n'est pas sur Booking, on renvoie vers la page d'accueil générale de Booking
+                        url_reservation = "https://www.booking.com/index.fr.html"
+                        texte_reservation = "Rechercher sur Booking.com"
+
+                    # Bouton de réservation en bas
                     st.markdown(
-                        f'<a href="{url_hotel}" target="_blank" style="text-decoration:none;">'
+                        f'<a href="{url_reservation}" target="_blank" style="text-decoration:none;">'
                         f'<button style="background-color:#003580; color:white; padding:10px 20px; border:none; border-radius:5px; width:100%; cursor:pointer; font-weight:bold;">'
-                        f'Réserver sur Booking</button></a>',
+                        f'{texte_reservation}</button></a>',
                         unsafe_allow_html=True
                     )
                     st.write("")
-# ==============================================================================
-# SECTION 2 : COMPAGNIES AÉRIENNES
-# ==============================================================================
-if st.session_state.page == "Compagnies Aériennes":
-    st.title("✈️ Comparateur & Avis - Compagnies Aériennes")
-    st.write("Sélectionnez ou recherchez une compagnie aérienne pour consulter son résumé, ses avis et réserver au meilleur prix.")
-    
-    st.markdown("---")
-    
-    noms_compagnies = sorted(AIRLINES_DATA.keys())
-    
-    col_s1, col_s2 = st.columns([2, 1])
-    choix_cie = col_s1.selectbox("Choisissez une compagnie aérienne", noms_compagnies)
-    
-    if choix_cie:
-        infos = AIRLINES_DATA[choix_cie]
-        st.markdown("---")
-        
-        # En-tête de la compagnie
-        col_c1, col_c2 = st.columns([1, 4])
-        with col_c1:
-            try:
-                st.image("images/airbus_vol.jpg", width=120)
-            except:
-                st.write("✈️")
-        with col_c2:
-            st.subheader(choix_cie)
-            st.markdown(f"**Catégorie :** {infos['categorie']} | **Alliance :** {infos['alliance']}")
-            st.markdown(f"**Note globale :** ⭐ {infos['note']}")
-        
-        # Affichage complet des informations
-        st.write(f"**Résumé :** {infos['resume']}")
-        st.write(f"**Politique bagages :** {infos['bagages']}")
-        st.write(f"**Flotte :** {infos.get('flotte', 'Flotte moderne et variée')}")
-        
-        st.markdown("### Principales liaisons :")
-        for liaison in infos.get("liaisons", []):
-            st.write(f"- ✈️ {liaison}")
-            
-        with st.expander("📖 Histoire de la compagnie"):
-            st.write(infos['histoire'])
-            
-        with st.expander("🛡️ Sécurité et normes"):
-            st.write(infos.get('securite', 'Normes de sécurité internationales respectées.'))
-            
-        # --- AJOUT DES POINTS POSITIFS ET NÉGATIFS ---
-        if infos.get("points_positifs"):
-            with st.expander("✅ Points Positifs"):
-                for p in infos.get("points_positifs"):
-                    st.write(f"- {p}")
-                    
-        if infos.get("points_negatifs"):
-            with st.expander("⚠️ Points Négatifs"):
-                for n in infos.get("points_negatifs"):
-                    st.write(f"- {n}")
-        # Verdict / Pour qui
-        if infos.get("pour_qui"):
-                 st.info(f"**Verdict :** {infos.get('pour_qui')}")
-
-        # --- BOUTON DE RÉSERVATION ---
-    st.markdown(
-            '<a href="https://www.anrdoezrs.net/click-10182501-17053227" target="_blank" style="display: block; width: 100%; background-color: #0066cc; color: white; padding: 12px 20px; text-align: center; text-decoration: none; font-size: 16px; font-weight: bold; border-radius: 6px; box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">Réserver le vol</a>',
-            unsafe_allow_html=True
-        
-        )
 # ==============================================================================
 # SECTION 3 : LOUEURS DE VÉHICULES
 # ==============================================================================

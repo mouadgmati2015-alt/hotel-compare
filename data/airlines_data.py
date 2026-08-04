@@ -408,7 +408,7 @@ AIRLINES_DATA = {
         "resume": "Compagnie low-cost scandinave axée sur les liaisons européennes de qualité.",
         "bagages": "1 petit sac sous le siège inclus ; bagage cabine supérieur payant",
         "liaisons": ["Oslo - Stockholm", "Copenhague - Nice", "Oslo - Londres", "Stockholm - Malaga"],
-        "histoire": "Pionnière du low-cost long-courrier (activité arrêtée depuis) et référence en Scandinavie.",
+        "histoire": "Pionnière du low-cost long-courrier et référence en Scandinavie.",
         "securite": "Normes de sécurité nordiques strictes.",
         "flotte": "Environ 80 à 90 appareils axés sur les court et moyen-courriers (Boeing 737-800 et 737 MAX 8).",
         "logo": "images/norwegian.png",
