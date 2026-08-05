@@ -1,9 +1,11 @@
 HOTELS_DATA = {
     "Club Calimera Yati Beach": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
         "etoiles": "4 étoiles",
-        "lien": "https://www.yati.com.tn/",  
-        "image": "https://hotels.staticroot.com/image/upload/v1767511280/ddhlchh9yn6v3eead93q.jpg",
-        "description": "Idéalement situé au bord d'une très longue plage de sable fin, le Club Calimera Yati Beach constitue la destination parfaite pour des vacances balnéaires réussies sous le signe de la détente et du divertissement. Les amateurs de sports nautiques y trouvent pleinement leur bonheur, tandis que les familles profitent d'un cadre sécurisé où les enfants s'amusent en toute sérénité au miniclub. L'établissement propose des infrastructures complètes comprenant plusieurs piscines d'eau douce (extérieures et couvertes), un espace bien-être avec spa et massages, ainsi qu'un large choix de restaurants et de bars pour satisfaire toutes vos envies.",
+        "lien": "https://www.yati.com.tn/",
+        "image": "...",
+        "description": "...",
         "prix_moyen": "180€ - 280€ / nuit",
         "avis": "4.2/5",
         "points_positifs": [
@@ -14,25 +16,11 @@ HOTELS_DATA = {
         "points_negatifs": [
             "Buffet parfois répétitif en haute saison",
             "Chambres nécessitant quelques rafraîchissements"
-        ],
-        "equipements": [
-            "Aire de jeux",
-            "Salon de coiffure",
-            "Magasin",
-            "Wi-Fi gratuit",
-            "Piscines extérieures et intérieures",
-            "Centre Spa et massages",
-            "Terrains de tennis"
-        ],
-        "pour_qui": {
-            "ambiance": "🎉 Animé, familial et dynamique",
-            "public": "Idéal pour les familles avec enfants et les amateurs de sports de plage",
-            "style": "Complexe balnéaire classique de style club de vacances",
-            "verdict": "Un excellent choix pour des vacances rythmées et pieds dans l'eau, à condition de ne pas chercher un design ultra-moderne."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 29 May 2026"
+        ]
     },
     "Club Marmara Palm Beach Djerba": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/palm-beach-club-marmara.fr.html?aid=818289",
         "image": "https://www.kayak.com/rimg/himg/6e/9f/5b/expedia_group-569713-125637046-333144.jpg?width=836&height=607&crop=true",
@@ -46,7 +34,7 @@ HOTELS_DATA = {
             "Personnel multilingue (français, anglais, allemand)"
         ],
         "points_negatifs": [
-            "Affluence importante en haute saison autour des espaces communs"
+            "Affluence importante en haute saison autour des espaces communs",
         ],
         "equipements": [
             "Piscine extérieure et intérieure",
@@ -54,7 +42,7 @@ HOTELS_DATA = {
             "Wi-Fi gratuit",
             "Parking privé gratuit",
             "Restaurant et bar",
-            "Salle de jeux (ping-pong, fléchettes)"
+            "Salle de jeux (ping-pong, fléchettes)",
         ],
         "pour_qui": {
             "ambiance": "🎉 Animé, convivial et propice aux séjours entre amis",
@@ -62,9 +50,11 @@ HOTELS_DATA = {
             "style": "Complexe balnéaire 4 étoiles avec plage privée et formule All Inclusive",
             "verdict": "Une excellente option si vous voyagez à plusieurs ou en groupe pour profiter de l'ambiance club et de la proximité immédiate de la plage."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026",
     },
     "Club Med Djerba Méridiana": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
         "etoiles": "4 étoiles",
         "lien": "https://www.fram.fr/hotel-welcome-meridiana-tunisie-midoun-djerba-58549.html#1410917",  
         "image": "https://admin-voyamar.orchestra-platform.com/admin/TS/fckUserFiles/Image/AFRIQUE/TUNISIE/WELCOME_MERIDIANA/2.JPG",
@@ -97,6 +87,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Dar Chich Yahia": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
         "etoiles": "Maison d'hôtes",
         "lien": "https://www.booking.com/hotel/tn/dar-chick-yahia-ile-de-djerba.fr.html?aid=818289",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfyl14Ynw4PPjjHrWRfZ-PkxX-VLxlDY2Zqci9m1HYgA&s=10",
@@ -128,6 +120,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Dar Lola": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
         "etoiles": "Maison d'hôtes",
         "lien": "https://www.booking.com/hotel/tn/dar-lola-houmt-souk.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/207003284.jpg?k=643642b27e0df1ea66a63024b7bf5cd9ac546bb5469552680fe75b83cbf4a717&o=",
@@ -157,6 +151,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Dar Salem": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
         "etoiles": "Maison d'hôtes",
         "lien": "https://www.booking.com/hotel/tn/dar-salem-djerba2.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/727504677.jpg?k=e6baf5bb626c3fb67d4084b52feed01a4acc6926e6b162f03cf0d63ee9d58414&o=",
@@ -186,6 +182,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Djerba Golf Resort & Spa": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
         "etoiles": "4 étoiles",
         "lien": "https://djerbagolfresort.com/fr/",
         "image": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1020,q_auto,w_2000/hotelier-images/94/b6/58b54e6b085f709b0c70c5c8816eb8351c5c92ccd5ce0709652d7be4b062.jpeg",
@@ -218,6 +216,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Djerba Holiday Beach": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/djerba-holiday-beach.fr.html??aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/468647093.jpg?k=3d3c4e4625f1e67d744e5895475f5c2cbcf850bd5908d694a952ae5a340b0586&o=",
@@ -250,6 +250,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Eden Village Djerba Mare": {
+        "pays": "Tunisie",
+        "ville": "Zarzis",
         "etoiles": "4 étoiles",
         "lien": "https://www.fram.fr/hotel-plein-vent-selection-eden-star-tunisie-zarzis-56952.html",
         "image": "https://images.sembo.travel/ImageService/ImageHandler.ashx?service=url&nameOfImage=https%3A%2F%2Fi.travelapi.com%2Fhotels%2F27000000%2F26560000%2F26550500%2F26550484%2Fef053194_z.jpg&resizeMode=FitInside&semboApp=true",
@@ -282,6 +284,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Hotel Fiesta Beach Djerba": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
         "etoiles": "4 étoiles",
         "lien": "https://www.expedia.fr/Djerba-Midun-Hotel-Hotel-Fiesta-Beach-Djerba.h918750.Description-Hotel",
         "image": "https://images.trvl-media.com/lodging/1000000/920000/918800/918750/acc927b0.jpg?impolicy=resizecrop&rw=1200&ra=fit",
@@ -315,6 +319,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Hari Club Beach Resort": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/hari-club-beach-resort-ultra-all-inclusive.fr.html??aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/120234281.jpg?k=32ffe31f10a511fb6dd082704b00db977eb09d2ed9c626d2411fcd809d53de7b&o=",
@@ -345,6 +351,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 29 May 2026"
     },
     "Hasdrubal Prestige Thalasso & Spa Djerba": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/hasdrubal-prestige-djerba-djerba.fr.html??aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/75701349.jpg?k=e92cae59d5ff63b2d4ac3eaa2ede6009e24f0f3ee243395ec026b1a7e7982984&o=",
@@ -376,6 +384,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Hotel Riad Meninx": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
         "etoiles": "3 étoiles",
         "lien": "https://www.tui.fr/club-marmara-meninx-djerba_TNSDMEN/",
         "image": "https://photos.tui.fr/vmrm/ProduitPhoto/TNSDMEN-piscine-club-marmara-meninx-djerba-sejour-tunisie-djerba-tui.jpg?i10c=img.resize(width:849,height:566)",
@@ -407,6 +417,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Hotel de charme et SPA Dar El Bhar": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
         "etoiles": "Maison d'hôtes / Charme",
         "lien": "https://www.booking.com/hotel/tn/dar-el-bhar.fr.html??aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/589357597.jpg?k=97b4ff1fa949ce731a09d5a145f277416e6ab8cc2aff29b949f5bbfcb3ae8d6d&o=",
@@ -436,6 +448,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 29 May 2026"
     },
     "Hôtel Abir": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
         "etoiles": "2 étoiles",
         "lien": "https://www.tripadvisor.fr/LocationPhotoDirectLink-g297941-d1141960-i26279127-Hotel_Abir-Djerba_Island_Medenine_Governorate.html",
         "image": "https://media-cdn.tripadvisor.com/media/photo-s/01/98/e4/75/hotel-abir.jpg",
@@ -465,6 +479,7 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Hôtel Haroun": {
+        "pays": "Tunisie",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/haroun-djerba1.fr.html??aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/869446674.jpg?k=9fba69d092e53872ff0ce0ea69d70f4c681e7cd06ba3d95649b722ddece52475&o=",
@@ -494,7 +509,9 @@ HOTELS_DATA = {
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 29 May 2026"
     },
-"Verginia Sharm Resort & Aqua Park": {
+    "Verginia Sharm Resort & Aqua Park": {
+        "pays": "Égypte",
+        "ville": "Charm el-Cheikh",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/eg/verginia-sharm-resort.fr.html??aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/411594207.jpg?k=cac7bd93233ef7783d88dd78dfbbddedd884368c7fdadb0152868a4a865f0548&o=",
@@ -527,6 +544,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
     "Sun Holiday Beach Hotel": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.expedia.fr/Hammamet-Hotel-Sun-Holiday-Beach-Hotel.h50537374.Description-Hotel",
         "image": "https://images.trvl-media.com/lodging/51000000/50540000/50537400/50537374/6d595a6c.jpg?impolicy=resizecrop&rw=1200&ra=fit",
@@ -544,6 +563,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Laico Hammamet Hotel": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.expedia.fr/Hammamet-Hotel-Hotel-Laico-Hammamet.h125255385.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/123450987.jpg",
@@ -561,6 +582,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Tui blue Palm Beach Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/tui-blue-palm-beach-hammamet.fr.html?aid=818289",
         "image": "",
@@ -578,6 +601,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Aziza Thalasso Golf": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.dpbolvw.net/click-101825091-17060525",
         "image": "https://images.trvl-media.com/lodging/9000000/8740000/8738500/8738468/71468ca3.jpg?impolicy=resizecrop&rw=1200&ra=fit",
@@ -607,8 +632,9 @@ HOTELS_DATA = {
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    
     "Hôtel Dalia": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/dalia-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/869446674.jpg?k=9fba69d092e53872ff0ce0ea69d70f4c681e7cd06ba3d95649b722ddece52475&o=",
@@ -639,6 +665,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Le Sultan": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/le-sultan-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/252923055.jpg?k=3f2a5b8c9d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a&o=",
@@ -671,6 +699,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Mediterranée Thalasso Golf": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/mediterranee-thalasso-golf.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/198372645.jpg?k=1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b&o=",
@@ -701,6 +731,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "La Badira": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/la-badira-adults-only.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/112634509.jpg?k=4c3b2a1d0e9f8a7b6c5d4e3f2a1b0c9d8e7f6a5b4c3d2e1f0a9b8c7d6e5f4a3b&o=",
@@ -732,6 +764,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "L'ARABESK Hôtel": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/arabesk.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/345678123.jpg?k=9a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e0f9a8b&o=",
@@ -762,6 +796,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "SENTIDO Aziza Beach": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/sentido-aziza-beach.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/456789123.jpg?k=1f2e3d4c5b6a7f8e9d0c1b2a3f4e5d6c7b8a9f0e1d2c3b4a5f6e7d8c9b0a1f2e&o=",
@@ -792,6 +828,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Vincci Flora Park": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/vincci-flora-park.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/567891234.jpg?k=2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b&o=",
@@ -823,6 +861,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Royal Tulip Taj Sultan": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/royal-tulip-taj-sultan.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/678912345.jpg?k=3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c&o=",
@@ -854,6 +894,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Lynda": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/lynda-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/789123456.jpg?k=4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d&o=",
@@ -884,6 +926,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Cypres": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/cypres.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/891234567.jpg?k=5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e&o=",
@@ -914,6 +958,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "L'Atrium": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/l-atrium-yasmine-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/912345678.jpg?k=6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f&o=",
@@ -944,6 +990,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Dar Zakaria": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Maison d'hôtes",
         "lien": "https://www.booking.com/hotel/tn/dar-zakaria.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/123456789.jpg?k=7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a&o=",
@@ -974,6 +1022,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Mirage Beach Club": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/mirage-beach-club.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/234567890.jpg?k=8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b&o=",
@@ -1005,6 +1055,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Eldorador Salammbô en Menzels": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/eldorador-salammbo.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/345678901.jpg?k=9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c&o=",
@@ -1036,6 +1088,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "TUI SENSIMAR OCEANA RESORT AND SPA": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/tui-sensimar-oceana-resort-spa.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/456789012.jpg?k=0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d&o=",
@@ -1067,6 +1121,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Thalassa Shalimar Hotel": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/thalassa-shalimar.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/567890123.jpg?k=1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e&o=",
@@ -1098,6 +1154,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "TUI Magic Life Africana": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/tui-magic-life-africana.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/678901234.jpg?k=2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f&o=",
@@ -1129,6 +1187,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Iberostar Selection Mirage Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/iberostar-selection-mirage-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/789012345.jpg?k=3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a&o=",
@@ -1153,13 +1213,15 @@ HOTELS_DATA = {
         ],
         "pour_qui": {
             "ambiance": "⭐ Élégante, soignée et luxueuse",
-            "public": "Idéal pour les familles et couples exigeants recherchant la qualité de service d'une grande chaîne",
+            "public": "Idéal pour les familles et couples exigeants cherchant la qualité de service d'une grande chaîne",
             "style": "Hôtel de luxe moderne en bord de mer",
             "verdict": "Une garantie de qualité et de confort haut de gamme pour des vacances réussies."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Delfino Beach Resort & Spa": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/delfino-beach-resort-spa.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/890123456.jpg?k=4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b&o=",
@@ -1191,6 +1253,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Sindbad": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/sindbad-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/901234567.jpg?k=5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c&o=",
@@ -1221,38 +1285,9 @@ HOTELS_DATA = {
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Laico Hammamet Hotel": {
-        "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/laico-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/123450987.jpg?k=6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d&o=",
-        "description": "Situé à Yasmine Hammamet, cet établissement propose de grands volumes et des infrastructures adaptées aux séjours balnéaires et d'affaires.",
-        "prix_moyen": "80€ - 150€ / nuit",
-        "avis": "3.8/5",
-        "points_positifs": [
-            "Proche de la marina et des attractions",
-            "Grandes infrastructures",
-            "Piscine extérieure agréable"
-        ],
-        "points_negatifs": [
-            "Entretien parfois insuffisant",
-            "Service perfectible aux heures de pointe"
-        ],
-        "equipements": [
-            "Grandes piscines",
-            "Salles de conférence",
-            "Restaurants",
-            "Proche de la marina",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🏛️ Grandieuse, urbaine et spacieuse",
-            "public": "Adapté aux séjours de groupe, d'affaires ou aux voyageurs cherchant de grands volumes",
-            "style": "Grand hôtel de type urbain et balnéaire",
-            "verdict": "Une infrastructure impressionnante au cœur de Yasmine Hammamet."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
     "Tui blue Palm Beach Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/tui-blue-palm-beach.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/234509876.jpg?k=7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e&o=",
@@ -1284,6 +1319,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Aziza Thalasso Golf": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/aziza-thalasso-golf.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/345098765.jpg?k=8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f&o=",
@@ -1315,6 +1352,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hammamet Hotel Viertel": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/hammamet-viertel.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/450987654.jpg?k=9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a&o=",
@@ -1345,6 +1384,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Magic Life Manar": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/magic-life-manar.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/509876543.jpg?k=0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b&o=",
@@ -1376,6 +1417,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Imperial Park": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/imperial-park-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/609876543.jpg?k=1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c&o=",
@@ -1406,6 +1449,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Marina Palace": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/marina-palace.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/709876543.jpg?k=2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d&o=",
@@ -1437,6 +1482,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Houda Yasmine": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/houda-yasmine.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/809876543.jpg?k=3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e&o=",
@@ -1467,6 +1514,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "The Russelior Hotel & Spa": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/therusselior.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/909876543.jpg?k=4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f&o=",
@@ -1498,6 +1547,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Neptune": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/neptune-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/198273645.jpg?k=5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a&o=",
@@ -1528,6 +1579,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hasdrubal Thalassa And Spa": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/hasdrubal-thalassa-spa-yasmin-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/48192031.jpg?k=1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e&o=",
@@ -1559,6 +1612,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Bravo Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/bravo-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/293847561.jpg?k=6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b&o=",
@@ -1590,6 +1645,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Basen Bahia Beach": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/bahia-beach-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/394857612.jpg?k=7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c&o=",
@@ -1620,6 +1677,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel El Mouradi El Menzah": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/el-mouradi-el-menzah.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/495867231.jpg?k=8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d&o=",
@@ -1650,6 +1709,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel El Olf Las Palmas": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/el-olf.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/596978342.jpg?k=9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e&o=",
@@ -1680,6 +1741,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Excel": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/excel-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/697089453.jpg?k=0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f&o=",
@@ -1710,6 +1773,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Green Golf": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/green-golf.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/798190564.jpg?k=1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a&o=",
@@ -1740,6 +1805,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Majesty Golf": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/majesty-golf.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/899291675.jpg?k=2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b&o=",
@@ -1770,6 +1837,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Vincci Marillia": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/vincci-marillia.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/900392786.jpg?k=3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c&o=",
@@ -1801,6 +1870,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Alhambra Thalasso Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/alhambra-thalasso.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/101493827.jpg?k=4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d&o=",
@@ -1832,6 +1903,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Mechmoum": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/mechmoum.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/212594938.jpg?k=5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e&o=",
@@ -1862,6 +1935,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Safa": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/safa-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/323605049.jpg?k=6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f&o=",
@@ -1892,6 +1967,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Mahari": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/mahari-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/434716150.jpg?k=7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a&o=",
@@ -1923,6 +2000,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Sofitel Saphir Palace": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/sofitel-saphir-palace.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/545827261.jpg?k=8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b&o=",
@@ -1954,6 +2033,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Shell Beach": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/shell-beach.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/656938372.jpg?k=9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c&o=",
@@ -1984,6 +2065,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Lella Baya": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/lella-baya.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/768049483.jpg?k=0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d&o=",
@@ -2015,6 +2098,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Yasmine Beach": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/yasmine-beach.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/879150594.jpg?k=1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e&o=",
@@ -2046,6 +2131,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Zodiac": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/zodiac.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/980261605.jpg?k=2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f&o=",
@@ -2077,6 +2164,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Chich Khan": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/chich-khan.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/192837465.jpg?k=3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a&o=",
@@ -2108,6 +2197,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Solaria & Thalasso": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/iberostar-solaria.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/293948576.jpg?k=4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b&o=",
@@ -2139,6 +2230,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Majesty Golf Hotel": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/majesty-golf.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/394059687.jpg?k=5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c&o=",
@@ -2169,6 +2262,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Medence Hotel Sandra": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/sandra-club.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/495160798.jpg?k=6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d&o=",
@@ -2199,6 +2294,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "SplashWorld AQI Venus Beach": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/venus-beach.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/596271809.jpg?k=7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e&o=",
@@ -2230,6 +2327,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "La Couronne Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/la-couronne.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/697382910.jpg?k=8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f&o=",
@@ -2260,6 +2359,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Le Hammamet Hotel & Spa": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/le-hammamet-resort.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/798493021.jpg?k=9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a&o=",
@@ -2291,6 +2392,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hotel Khayam Garden Beach & Spa Nabeul": {
+        "pays": "Tunisie",
+        "ville": "Nabeul",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/khayam-garden-beach.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/899504132.jpg?k=0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b&o=",
@@ -2322,6 +2425,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Les Pyramides Hotel Club & Spa": {
+        "pays": "Tunisie",
+        "ville": "Nabeul",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/les-pyramides-nabeul.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/900615243.jpg?k=1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c&o=",
@@ -2353,6 +2458,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Kheops": {
+        "pays": "Tunisie",
+        "ville": "Nabeul",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/kheops-nabeul.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/101726354.jpg?k=2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d&o=",
@@ -2384,6 +2491,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Club Med Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/club-med-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/212837465.jpg?k=3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e&o=",
@@ -2415,6 +2524,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "El Mouradi Beach Hotel": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/el-mouradi-beach.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/323948576.jpg?k=4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f&o=",
@@ -2446,6 +2557,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Club El Fell": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/el-fell.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435059687.jpg?k=5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a&o=",
@@ -2477,6 +2590,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Royal Nozha": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/royal-nozha.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/546170798.jpg?k=6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b&o=",
@@ -2507,6 +2622,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Vincci Nozha Beach & Spa": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/vincci-nozha-beach.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/657281809.jpg?k=7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c&o=",
@@ -2538,6 +2655,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Paradis Palace": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/paradis-palace.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/768392910.jpg?k=8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d&o=",
@@ -2569,6 +2688,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "L'Opera": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/l-opera-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/879504021.jpg?k=9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e&o=",
@@ -2599,6 +2720,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Romène": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/residence-romene.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/980615132.jpg?k=0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f&o=",
@@ -2629,6 +2752,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Diar Erriadh": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/diar-erriadh.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/192738495.jpg?k=1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a&o=",
@@ -2659,6 +2784,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Diar Elbousten": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/diar-elbousten.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/293849506.jpg?k=2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b&o=",
@@ -2688,9 +2815,11 @@ HOTELS_DATA = {
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Diar Sidi Bou Said": {
+    "Dar Said": {
+        "pays": "Tunisie",
+        "ville": "Sidi Bou Saïd",
         "etoiles": "Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/tn/diar-sidi-bou-said.fr.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/tn/dar-said.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/394950617.jpg?k=3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c&o=",
         "description": "Une résidence inspirée de l'architecture iconique de Sidi Bou Saïd, offrant un cachet unique et une vue magnifique.",
         "prix_moyen": "70€ - 130€ / nuit",
@@ -2719,6 +2848,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Radisson Blu Resort & Thalasso, Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/radisson-blu-resort-thalasso-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/18723912.jpg?k=7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b&o=",
@@ -2750,6 +2881,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Maison des Jeunes": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Auberge",
         "lien": "https://www.booking.com/hotel/tn/maison-des-jeunes.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/596061728.jpg?k=4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d&o=",
@@ -2779,6 +2912,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Azur Plaza": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/azur-plaza.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/607172839.jpg?k=5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e&o=",
@@ -2809,6 +2944,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Dar R'Bat": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Maison d'hôtes",
         "lien": "https://www.booking.com/hotel/tn/dar-r-bat.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/718283940.jpg?k=6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f&o=",
@@ -2839,6 +2976,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Byzance": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/byzance-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/829394051.jpg?k=7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a&o=",
@@ -2869,6 +3008,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Dar Oum El Khair": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Maison d'hôtes",
         "lien": "https://www.booking.com/hotel/tn/dar-oum-el-khair.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/930405162.jpg?k=8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b&o=",
@@ -2899,6 +3040,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Les Vagues Home": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/les-vagues-home.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/141526374.jpg?k=9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c&o=",
@@ -2929,6 +3072,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Villa De Anes Ben Gabsia": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Villa / Maison d'hôtes",
         "lien": "https://www.booking.com/hotel/tn/villa-de-anes.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/252637485.jpg?k=0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d&o=",
@@ -2959,6 +3104,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Al Insaf": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/residence-al-insaf.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/363748596.jpg?k=1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e&o=",
@@ -2988,6 +3135,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Costa Marina": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/residence-costa-marina.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/474859607.jpg?k=2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f&o=",
@@ -3018,6 +3167,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Néapolis": {
+        "pays": "Tunisie",
+        "ville": "Nabeul",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/residence-neapolis.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/585960718.jpg?k=3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a&o=",
@@ -3047,6 +3198,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hammamet Ela Apartments": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Appartements",
         "lien": "https://www.booking.com/hotel/tn/hammamet-ela-apartments.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/696071829.jpg?k=4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b&o=",
@@ -3077,6 +3230,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Le Lagon De HAMMAMET": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence / Appartements",
         "lien": "https://www.booking.com/hotel/tn/le-lagon-de-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/707182930.jpg?k=5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c&o=",
@@ -3107,6 +3262,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "LUXE Apartment": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Appartement de standing",
         "lien": "https://www.booking.com/hotel/tn/luxe-apartment-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/818293041.jpg?k=6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d&o=",
@@ -3137,6 +3294,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Espace Le Jardin": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/espace-le-jardin.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/929304152.jpg?k=7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e&o=",
@@ -3167,6 +3326,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Ahmed": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/residence-ahmed.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/132435465.jpg?k=8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f&o=",
@@ -3196,6 +3357,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Mimosas": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/residence-mimosas.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/243546576.jpg?k=9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a&o=",
@@ -3226,6 +3389,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Dar Taieb": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Maison d'hôtes",
         "lien": "https://www.booking.com/hotel/tn/dar-taieb.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/354657687.jpg?k=0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b&o=",
@@ -3256,6 +3421,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Dar Ennasr": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Maison d'hôtes",
         "lien": "https://www.booking.com/hotel/tn/dar-ennasr.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/465768798.jpg?k=1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c&o=",
@@ -3286,6 +3453,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Douja Apartment": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Appartement",
         "lien": "https://www.booking.com/hotel/tn/douja-apartment.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/576879909.jpg?k=2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d&o=",
@@ -3315,6 +3484,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Appartement Nabeul": {
+        "pays": "Tunisie",
+        "ville": "Nabeul",
         "etoiles": "Appartement",
         "lien": "https://www.booking.com/hotel/tn/appartement-nabeul.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/687990012.jpg?k=3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e&o=",
@@ -3344,6 +3515,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Costa Marina": {
+        "pays": "Tunisie",
+        "ville": "Yasmine Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/costa-marina-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/798001123.jpg?k=4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f&o=",
@@ -3374,6 +3547,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Espace La Cascade": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/espace-la-cascade.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/809112234.jpg?k=5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a&o=",
@@ -3404,6 +3579,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "EZZAHRA": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/ezzahra.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/910223345.jpg?k=6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b&o=",
@@ -3433,6 +3610,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Riadh Andalus": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/riadh-andalus.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/121324356.jpg?k=7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c&o=",
@@ -3463,6 +3642,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Panorama": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/residence-panorama.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/232435467.jpg?k=8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d&o=",
@@ -3492,6 +3673,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Côte d'Azur Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/cote-d-azur-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/343546578.jpg?k=9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e&o=",
@@ -3522,6 +3705,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Hamilton": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/hamilton-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/454657689.jpg?k=0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f&o=",
@@ -3552,6 +3737,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Palais Présidentiel de Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Historique / Monument",
         "lien": "https://www.booking.com/hotel/tn/palais-presidentiel.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/565768790.jpg?k=1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a&o=",
@@ -3581,6 +3768,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Nahrawess Hotel & Spa Resort": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/nahrawess-hotel-spa.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/676879901.jpg?k=2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b&o=",
@@ -3612,6 +3801,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Le Zénith": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/le-zenith.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/787990012.jpg?k=3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c&o=",
@@ -3642,6 +3833,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Yadis Hammamet Club": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/yadis-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/898001123.jpg?k=4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d&o=",
@@ -3673,6 +3866,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Albatros Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/albatros-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/909112234.jpg?k=5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e&o=",
@@ -3703,6 +3898,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Club Président": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/club-president.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/112233445.jpg?k=6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f&o=",
@@ -3734,6 +3931,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Club Marmara Hammamet Beach": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/marmara-hammamet-beach.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/223344556.jpg?k=7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a&o=",
@@ -3765,6 +3964,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Sami": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/residence-sami.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/334455667.jpg?k=8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b&o=",
@@ -3794,6 +3995,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Delphin Jardin": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/delphin-jardin.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/445566778.jpg?k=9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c&o=",
@@ -3824,6 +4027,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Ceramic": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/ceramic-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/556677889.jpg?k=0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d&o=",
@@ -3854,6 +4059,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "El Manara": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence / Hôtel",
         "lien": "https://www.booking.com/hotel/tn/el-manara.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/667788990.jpg?k=1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e&o=",
@@ -3884,6 +4091,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence Wafi": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/residence-wafi.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/778899001.jpg?k=2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f&o=",
@@ -3913,6 +4122,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Diar Skander": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/diar-skander.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/889900112.jpg?k=3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a&o=",
@@ -3941,8 +4152,10 @@ HOTELS_DATA = {
             "verdict": "Un cadre spacieux et typique pour un séjour au calme."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
+        },
     "Hôtel Les Colombes": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/les-colombes.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/990011223.jpg?k=4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b&o=",
@@ -3960,19 +4173,19 @@ HOTELS_DATA = {
         ],
         "equipements": [
             "Accès direct à la plage",
-            "Piscine",
-            "Restaurant",
-            "Wi-Fi"
+            "Piscine"
         ],
         "pour_qui": {
-            "ambiance": "🌊 Conviviale, de plage et familiale",
-            "public": "Idéal pour les familles cherchant une plage accessible à petit prix",
-            "style": "Hôtel balnéaire traditionnel",
-            "verdict": "Un choix simple et balnéaire pour profiter de la mer sans se ruiner."
+            "ambiance": "🏖️ Balnéaire, familial et décontracté",
+            "public": "Parfait pour les vacanciers cherchant un accès direct à la plage à petit prix",
+            "style": "Hôtel de plage traditionnel",
+            "verdict": "Un choix économique idéal pour profiter de la mer sans chichis à Hammamet."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Dar Khayam Hôtel": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/dar-khayam.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/101112233.jpg?k=5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c&o=",
@@ -4004,6 +4217,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Les Citronniers Hammamet Tunisia": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/les-citronniers.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/212223344.jpg?k=6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d&o=",
@@ -4034,6 +4249,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Les Orangers Garden Villas & Bungalows": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/les-orangers-garden.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/323334455.jpg?k=7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e&o=",
@@ -4065,6 +4282,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Villa Sindbad": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Villa / Luxe",
         "lien": "https://www.booking.com/hotel/tn/villa-sindbad.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/434445566.jpg?k=8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f&o=",
@@ -4095,6 +4314,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Les Palmiers Centre de Vacances": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/les-palmiers-centre.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/545556677.jpg?k=9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a&o=",
@@ -4125,6 +4346,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Villa Mahbouba": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Maison d'hôtes / Villa",
         "lien": "https://www.booking.com/hotel/tn/villa-mahbouba.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/656667788.jpg?k=0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b&o=",
@@ -4155,6 +4378,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Dar Zahir": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Maison d'hôtes",
         "lien": "https://www.booking.com/hotel/tn/dar-zahir.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/767778899.jpg?k=1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c&o=",
@@ -4185,6 +4410,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Ideal Apartment For Families": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Appartement familial",
         "lien": "https://www.booking.com/hotel/tn/ideal-apartment-families.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/878889900.jpg?k=2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d&o=",
@@ -4213,8 +4440,10 @@ HOTELS_DATA = {
             "verdict": "La solution idéale en appartement pour les tribus familiales."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
+    },    
     "Hôtel SAMARIS": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/samaris.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/989990011.jpg?k=3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e&o=",
@@ -4245,6 +4474,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Garsaa": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/garsaa.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/199001122.jpg?k=4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f&o=",
@@ -4274,6 +4505,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Résidence La Perle De Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/la-perle-de-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/200112233.jpg?k=5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a&o=",
@@ -4303,6 +4536,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hammam Gharbi": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Établissement thermal",
         "lien": "https://www.booking.com/hotel/tn/hammam-gharbi.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/311223344.jpg?k=6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b&o=",
@@ -4332,6 +4567,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Yasmine": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Hôtel / Résidence",
         "lien": "https://www.booking.com/hotel/tn/yasmine-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422334455.jpg?k=7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c&o=",
@@ -4361,6 +4598,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Le Château": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Hôtel de charme",
         "lien": "https://www.booking.com/hotel/tn/le-chateau-hammamet.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/533445566.jpg?k=8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d&o=",
@@ -4391,6 +4630,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Espace El Yasmine": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Résidence",
         "lien": "https://www.booking.com/hotel/tn/espace-el-yasmine.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/644556677.jpg?k=9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e&o=",
@@ -4421,6 +4662,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "La Maison du Golfe": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Maison d'hôtes",
         "lien": "https://www.booking.com/hotel/tn/la-maison-du-golfe.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/755667788.jpg?k=0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f&o=",
@@ -4451,6 +4694,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "La Villa Omar": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Maison d'hôtes / Villa",
         "lien": "https://www.booking.com/hotel/tn/la-villa-omar.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/866778899.jpg?k=1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a&o=",
@@ -4481,6 +4726,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Dar Beldi": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Maison d'hôtes",
         "lien": "https://www.booking.com/hotel/tn/dar-beldi.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/977889900.jpg?k=2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b&o=",
@@ -4511,6 +4758,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Dar Vignola": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
         "etoiles": "Maison d'hôtes",
         "lien": "https://www.booking.com/hotel/tn/dar-vignola.fr.html?aid=818289",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/188990011.jpg?k=3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c&o=",
@@ -4541,6 +4790,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Chimelong Spaceship Hotel": {
+        "pays": "Chine",
+        "ville": "Zhuhai",
         "etoiles": "4 étoiles",
         "lien": "https://kkday.tpx.li/V9JvnSgX",
         "image": "https://hotels.staticroot.com/image/upload/v1767511280/chimelong_spaceship.jpg",
@@ -4573,6 +4824,8 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 20 July 2026"
     },
     "Hôtel Les Palmes d'Or": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
         "etoiles": "3 étoiles",
         "lien": "https://klook.tpx.li/QNKtE567",
         "image": "https://i.travelapi.com/lodging/22000000/21200000/21196900/21196874/f5675b15_z.jpg?impolicy=resizecrop&rw=1920&ra=fit",
@@ -4605,10 +4858,13 @@ HOTELS_DATA = {
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 21 July 2026"
     },
     "Iberostar Selection Kuriat Palace": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/iberostar-kuriat-palace.fr.html?aid=818289",
         "image": "",
         "description": "Situé en bord de mer, à Monastir, l'Iberostar Kuriat Palace possède une plage privée, une piscine extérieure, un spa et centre de bien-être, un jacuzzi, une équipe d'animation et une réception ouverte...",
+        "prix_moyen": "150€ - 300€ / nuit",
         "avis": "9.0/10",
         "points_positifs": [
             "Fabuleux",
@@ -4618,13 +4874,29 @@ HOTELS_DATA = {
         "points_negatifs": [
             "Affluence possible en haute saison"
         ],
+        "equipements": [
+            "Wi-Fi gratuit",
+            "Plage privée",
+            "Piscine extérieure et intérieure",
+            "Spa et centre de bien-être",
+            "Parking gratuit"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Luxueux, balnéaire et relaxant",
+            "public": "Idéal pour les familles et les couples cherchant le confort haut de gamme",
+            "style": "Palace balnéaire 5 étoiles",
+            "verdict": "Une valeur sûre pour un séjour d'exception les pieds dans l'eau à Monastir."
+        },
         "meta_avis": "Contenu résumé par IA sur la base de 1200+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Marina Cap Monastir- Appart'Hôtel": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/marina-cap-monastir-appart-hotel.fr.html?aid=818289",
         "image": "",
         "description": "Le Marina Cap Monastir- Appart'Hôtel vous accueille à proximité du port de plaisance et de la plage. Situé à 5 minutes à pied du centre-ville, cet établissement est idéal pour un séjour de détente.",
+        "prix_moyen": "50€ - 120€ / nuit",
         "avis": "8.4/10",
         "points_positifs": [
             "Très bien",
@@ -4634,13 +4906,27 @@ HOTELS_DATA = {
         "points_negatifs": [
             "Équipements parfois basiques selon les appartements"
         ],
+        "equipements": [
+            "Wi-Fi gratuit",
+            "Proximité plage et port",
+            "Appartements équipés"
+        ],
+        "pour_qui": {
+            "ambiance": "⛵ Marin, indépendant et pratique",
+            "public": "Parfait pour les voyageurs autonomes et les familles",
+            "style": "Appart'hôtel de port de plaisance",
+            "verdict": "Un emplacement exceptionnel sur le port pour un séjour en toute liberté."
+        },
         "meta_avis": "Contenu résumé par IA sur la base de 1900+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hotel el Fawz": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/el-fawz.fr.html?aid=818289",
         "image": "",
         "description": "Établissement situé à Monastir proposant des services adaptés aux voyageurs recherchant un séjour simple et abordable.",
+        "prix_moyen": "35€ - 70€ / nuit",
         "avis": "3.5/5",
         "points_positifs": [
             "Bon rapport qualité-prix",
@@ -4650,13 +4936,26 @@ HOTELS_DATA = {
             "Prestations simples",
             "Décoration vieillissante"
         ],
+        "equipements": [
+            "Wi-Fi gratuit",
+            "Réception ouverte 24h/24"
+        ],
+        "pour_qui": {
+            "ambiance": "💼 Simple, économique et fonctionnel",
+            "public": "Parfait pour les petits budgets et les courts séjours",
+            "style": "Hôtel urbain simple",
+            "verdict": "Une option économique pour un pied-à-terre sans chichis à Monastir."
+        },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Regency Hotel & Spa": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/regency-hotel-and-spa.fr.html?aid=818289",
         "image": "",
         "description": "Le Regency Hotel and Spa est situé à Monastir, à 5 minutes à pied du centre-ville, offrant un accès direct au front de mer.",
+        "prix_moyen": "70€ - 150€ / nuit",
         "avis": "4.0/5",
         "points_positifs": [
             "Proche du centre-ville",
@@ -4667,13 +4966,28 @@ HOTELS_DATA = {
             "Rénovation parfois nécessaire dans certaines zones",
             "Service de restauration perfectible"
         ],
+        "equipements": [
+            "Wi-Fi gratuit",
+            "Piscine extérieure",
+            "Spa et centre de bien-être",
+            "Accès direct plage"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Marin, relaxant et bien situé",
+            "public": "Idéal pour les couples cherchant à combiner détente et visites",
+            "style": "Hôtel spa en front de mer",
+            "verdict": "Un bon choix pour profiter du spa et de la proximité du centre."
+        },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "City Business Monastir Center": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/monastir-center.fr.html?aid=818289",
         "image": "",
         "description": "Situé dans le centre-ville de Monastir, en Tunisie, cet hôtel propose des chambres avec balcon privé surplombant la piscine extérieure et la mer.",
+        "prix_moyen": "60€ - 130€ / nuit",
         "avis": "6.9/10",
         "points_positifs": [
             "Agréable",
@@ -4684,13 +4998,28 @@ HOTELS_DATA = {
             "Établissement un peu ancien",
             "Isolation phonique parfois juste"
         ],
+        "equipements": [
+            "Wi-Fi gratuit",
+            "Piscine extérieure",
+            "Balcon privé",
+            "Parking gratuit"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central, urbain et animé",
+            "public": "Convient aux voyageurs d'affaires et touristes urbains",
+            "style": "Hôtel de centre-ville avec vue",
+            "verdict": "Pratique pour tout faire à pied au cœur de Monastir."
+        },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hotel Mezri": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/mezri.fr.html?aid=818289",
         "image": "",
         "description": "Situé à proximité du port de plaisance de Monastir, l'Hotel Mezri se trouve dans le magnifique site du vieux port, face à la mer, à seulement 10 km de l'aéroport.",
+        "prix_moyen": "40€ - 90€ / nuit",
         "avis": "7.0/10",
         "points_positifs": [
             "Bien",
@@ -4701,13 +5030,27 @@ HOTELS_DATA = {
             "Chambres exigües pour certaines",
             "Équipements limités"
         ],
+        "equipements": [
+            "Wi-Fi gratuit",
+            "Vue mer / vieux port",
+            "Proximité aéroport"
+        ],
+        "pour_qui": {
+            "ambiance": "⛵ Pittoresque, portuaire et simple",
+            "public": "Idéal pour les voyageurs solo ou en transit rapide",
+            "style": "Hôtel de port de plaisance",
+            "verdict": "Une vue superbe sur le port pour un budget maîtrisé."
+        },
         "meta_avis": "Contenu résumé par IA sur la base de 850+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hotel Les Palmiers": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/les-palmiers-monastir.fr.html?aid=818289",
         "image": "",
         "description": "L'Hotel les Palmiers est situé directement sur la plage de Skanes, à 5 minutes en voiture du centre-ville de Monastir.",
+        "prix_moyen": "45€ - 95€ / nuit",
         "avis": "6.4/10",
         "points_positifs": [
             "Agréable",
@@ -4718,13 +5061,27 @@ HOTELS_DATA = {
             "Confort des chambres basique",
             "Wi-Fi parfois instable"
         ],
+        "equipements": [
+            "Accès direct plage",
+            "Parking gratuit",
+            "Jardin"
+        ],
+        "pour_qui": {
+            "ambiance": "🏖️ Balnéaire simple et décontracté",
+            "public": "Parfait pour profiter de la plage de Skanes sans se ruiner",
+            "style": "Hôtel de plage 3 étoiles",
+            "verdict": "Un accès direct à la mer très appréciable à petit prix."
+        },
         "meta_avis": "Contenu résumé par IA sur la base de 400+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "TUI SUNEO Palm Beach Skanes - All Inclusive": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/palm-beach-skanes.fr.html?aid=818289",
         "image": "",
         "description": "Situé à Monastir, l’établissement TUI SUNEO Palm Beach Skanes - All Inclusive comprend un jardin, une plage privée, une terrasse et un restaurant.",
+        "prix_moyen": "90€ - 180€ / nuit",
         "avis": "7.5/10",
         "points_positifs": [
             "Bien",
@@ -4735,13 +5092,28 @@ HOTELS_DATA = {
             "Forte animation parfois bruyante",
             "Buffet répétitif en haute saison"
         ],
+        "equipements": [
+            "Formule All Inclusive",
+            "Plage privée",
+            "Piscine extérieure",
+            "Animations et club enfants"
+        ],
+        "pour_qui": {
+            "ambiance": "🎉 Animé, familial et festif",
+            "public": "Idéal pour les familles cherchant une formule tout compris clé en main",
+            "style": "Club de vacances all-inclusive",
+            "verdict": "Un club de vacances vivant et idéal pour ne se soucier de rien."
+        },
         "meta_avis": "Contenu résumé par IA sur la base de 190+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "El Mouradi Skanes": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/el-mouradi-skanes.fr.html?aid=818289",
         "image": "",
         "description": "Situé dans la région de Skanès, l'El Mouradi propose des chambres et des suites avec balcon ou terrasse privée, disposant de 2 piscines et d'un hammam.",
+        "prix_moyen": "70€ - 140€ / nuit",
         "avis": "5.3/10",
         "points_positifs": [
             "Grandes piscines",
@@ -4753,13 +5125,28 @@ HOTELS_DATA = {
             "Nécessite des rénovations",
             "Service client perfectible"
         ],
+        "equipements": [
+            "Grandes piscines",
+            "Hammam",
+            "Plage privée",
+            "Tennis"
+        ],
+        "pour_qui": {
+            "ambiance": "🏊 Grand complexe, familial et sportif",
+            "public": "Pour les familles cherchant de grands espaces aquatiques",
+            "style": "Grand hôtel club traditionnel",
+            "verdict": "De grands volumes et des infrastructures complètes malgré une décoration classique."
+        },
         "meta_avis": "Contenu résumé par IA sur la base de 430+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Archipel": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/archipel-monastir.fr.html?aid=818289",
         "image": "",
         "description": "Situé à Monastir en front de mer, l’établissement Hôtel Archipel possède un jardin, une plage privée, une terrasse bien exposée et une piscine.",
+        "prix_moyen": "50€ - 100€ / nuit",
         "avis": "7.6/10",
         "points_positifs": [
             "Bien",
@@ -4770,13 +5157,27 @@ HOTELS_DATA = {
             "Structure de taille modeste",
             "Animation limitée"
         ],
+        "equipements": [
+            "Piscine extérieure",
+            "Plage privée",
+            "Terrasse et jardin"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Calme, intime et balnéaire",
+            "public": "Parfait pour les couples recherchant du calme au bord de l'eau",
+            "style": "Hôtel de taille humaine en front de mer",
+            "verdict": "Une structure agréable et plus intime que les grands complexes."
+        },
         "meta_avis": "Contenu résumé par IA sur la base de 50+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hilton Skanes Monastir Beach Resort": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/hilton-skanes-monastir-beach-resort.fr.html?aid=818289",
         "image": "",
         "description": "L’établissement Hilton Skanes Monastir Beach Resort se trouve à Monastir, à proximité du Golf Palm Links, offrant un cadre luxueux et moderne en front de mer.",
+        "prix_moyen": "180€ - 350€ / nuit",
         "avis": "8.1/10",
         "points_positifs": [
             "Très bien",
@@ -4787,13 +5188,29 @@ HOTELS_DATA = {
             "Tarifs plus élevés",
             "Éloigné du centre historique"
         ],
+        "equipements": [
+            "Piscines multiples",
+            "Spa de luxe",
+            "Plage privée",
+            "Restaurants gastronomiques",
+            "Proche du golf"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, moderne et raffiné",
+            "public": "Pour les voyageurs exigeants et amateurs de design contemporain",
+            "style": "Resort 5 étoiles haut de gamme",
+            "verdict": "Le summum du confort moderne et du standing international à Monastir."
+        },
         "meta_avis": "Contenu résumé par IA sur la base de 1700+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Royal Thalassa Monastir": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/royal-thalassa-monastir.fr.html?aid=818289",
         "image": "",
         "description": "Situé dans des jardins au bord de la plage de Skanes, le Royal Thalassa Monastir propose des chambres et suites luxueuses avec balcon et centre de thalassothérapie.",
+        "prix_moyen": "130€ - 260€ / nuit",
         "avis": "7.1/10",
         "points_positifs": [
             "Bien",
@@ -4804,13 +5221,28 @@ HOTELS_DATA = {
             "Rapport qualité-prix parfois discuté",
             "Chambres demandant un rafraîchissement"
         ],
+        "equipements": [
+            "Centre de thalassothérapie",
+            "Piscine extérieure",
+            "Plage privée",
+            "Jardins luxuriants"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Bien-être, détente et élégance",
+            "public": "Idéal pour les cures de thalasso et les amateurs de calme",
+            "style": "Resort thermal et balnéaire",
+            "verdict": "Une excellente adresse pour un séjour axé sur les soins et la relaxation."
+        },
         "meta_avis": "Contenu résumé par IA sur la base de 500+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Bella Vista Family Resort": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/bella-vista-monastir.fr.html?aid=818289",
         "image": "",
         "description": "Situé le long de la célèbre plage de Skanes, à proximité de parcours de golf, l'hôtel tout compris Bella Vista propose des bars et restaurants adaptés aux familles.",
+        "prix_moyen": "80€ - 160€ / nuit",
         "avis": "4.0/5",
         "points_positifs": [
             "Idéal pour les familles",
@@ -4821,13 +5253,28 @@ HOTELS_DATA = {
             "Forte affluence en été",
             "Espaces communs bruyants"
         ],
+        "equipements": [
+            "Formule All Inclusive",
+            "Plage privée",
+            "Piscines",
+            "Clubs enfants"
+        ],
+        "pour_qui": {
+            "ambiance": "👨‍👩‍👧‍👦 Familial, animé et convivial",
+            "public": "Conçu spécialement pour les séjours avec des enfants",
+            "style": "Club familial de bord de mer",
+            "verdict": "Une bonne formule tout compris pour satisfaire toute la famille."
+        },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hotel El Habib Monastir": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/el-habib-monastir.fr.html?aid=818289",
         "image": "",
         "description": "L’établissement Hotel El Habib Monastir se situe à Monastir, à proximité de la plage Qaraiya, et possède un jardin, une terrasse et un restaurant.",
+        "prix_moyen": "60€ - 120€ / nuit",
         "avis": "3.8/5",
         "points_positifs": [
             "Proche de la plage et du centre",
@@ -4837,13 +5284,27 @@ HOTELS_DATA = {
             "Équipements vieillissants",
             "Service parfois lent"
         ],
+        "equipements": [
+            "Piscine",
+            "Jardin et terrasse",
+            "Proche plage"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Classique et bien placé",
+            "public": "Pour les voyageurs cherchant un hôtel proche de tout sans excès",
+            "style": "Hôtel urbain et balnéaire",
+            "verdict": "Un emplacement central intéressant pour rayonner dans Monastir."
+        },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Shems Holiday Village & Aquapark": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/shems-holiday-village.fr.html?aid=818289",
         "image": "",
         "description": "Doté de piscines extérieure et intérieure et d'un parc aquatique, le Shems Holiday Village & Aquapark vous accueille à Monastir pour des vacances familiales.",
+        "prix_moyen": "55€ - 110€ / nuit",
         "avis": "3.7/5",
         "points_positifs": [
             "Présence d'un aquapark / toboggans",
@@ -4854,13 +5315,28 @@ HOTELS_DATA = {
             "Restauration industrielle",
             "Chambres sous forme de bungalows basiques"
         ],
+        "equipements": [
+            "Parc aquatique / toboggans",
+            "Piscines",
+            "Bungalows",
+            "Animations"
+        ],
+        "pour_qui": {
+            "ambiance": "💦 Ludique, aquatique et familial",
+            "public": "Les familles et les enfants accros aux toboggans",
+            "style": "Village de bungalows avec aquapark",
+            "verdict": "Idéal pour les enfants grâce au parc aquatique, à petit prix."
+        },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Aylimas Family Hotel": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/aylimas-family.fr.html?aid=818289",
         "image": "",
         "description": "L’établissement Aylimas Family Hotel vous accueille à Monastir, à proximité du Golf Palm Links, dans un cadre familial en front de mer.",
+        "prix_moyen": "50€ - 100€ / nuit",
         "avis": "3.6/5",
         "points_positifs": [
             "Ambiance familiale",
@@ -4870,13 +5346,27 @@ HOTELS_DATA = {
             "Un peu éloigné du centre de Monastir",
             "Prestations simples"
         ],
+        "equipements": [
+            "Front de mer",
+            "Proche golf",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "⛳ Paisible et familial",
+            "public": "Golfeurs et familles recherchant le calme",
+            "style": "Hôtel familial de périphérie",
+            "verdict": "Un havre de paix simple à proximité des greens."
+        },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Sahara Beach Aquapark Resort": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/sahara-beach.fr.html?aid=818289",
         "image": "",
         "description": "Le Sahara Beach se trouve à 10 minutes de l'aéroport de Monastir, bénéficie d'un accès direct à la plage et dispose de 3 piscines avec toboggans aquatiques.",
+        "prix_moyen": "60€ - 130€ / nuit",
         "avis": "3.8/5",
         "points_positifs": [
             "Superbe parc aquatique avec toboggans",
@@ -4887,13 +5377,28 @@ HOTELS_DATA = {
             "Complexe très grand (beaucoup de monde)",
             "Chambres simples et bruyantes en haute saison"
         ],
+        "equipements": [
+            "3 piscines avec toboggans",
+            "Accès direct plage",
+            "Bars et restaurants",
+            "Activités enfants"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Géant, aquatique et animé",
+            "public": "Familles nombreuses et amateurs de parcs aquatiques",
+            "style": "Immense resort club de plage",
+            "verdict": "Une usine à loisirs aquatiques imbattable pour divertir les enfants."
+        },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "One Resort Aqua Park": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/one-resort-aqua-park.fr.html?aid=818289",
         "image": "",
         "description": "Complexe hôtelier animé à Monastir, axé sur les loisirs aquatiques avec un grand parc aquatique et des prestations tout compris.",
+        "prix_moyen": "90€ - 170€ / nuit",
         "avis": "4.1/5",
         "points_positifs": [
             "Excellent parc aquatique",
@@ -4904,7 +5409,18 @@ HOTELS_DATA = {
             "Bruyant en période estivale",
             "Espaces communs très fréquentés"
         ],
+        "equipements": [
+            "Grand parc aquatique",
+            "Formule tout compris",
+            "Piscines",
+            "Animations"
+        ],
+        "pour_qui": {
+            "ambiance": "🎈 Dynamique, fun et tout compris",
+            "public": "Familles et jeunes cherchant des animations non-stop",
+            "style": "Resort club 4 étoiles avec aquapark",
+            "verdict": "Une excellente option rythmée et aquatique pour des vacances réussies."
+        },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-
-    }
-}
+    },
+   } 

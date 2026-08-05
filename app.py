@@ -139,19 +139,40 @@ if st.session_state.page == "Comparateur Hôtels":
 
     st.subheader("💡 Comment comparer vos hôtels")
     st.markdown("""
-    1. **Sélectionnez** vos deux hôtels dans les menus déroulants ci-dessous.
+    1. **Sélectionnez** un pays, une ville, puis vos deux hôtels dans les menus déroulants ci-dessous.
     2. **Cliquez** sur le bouton rouge **Comparer**.
     3. **Découvrez** les points forts et points faibles pour faire votre choix !
     """)
     st.markdown("---")
     
-    # Recherche avec 4 colonnes
-    noms_hotels = list(HOTELS_DATA.keys())
-    c1, c2, c3, c4 = st.columns([2, 2, 1, 1])
-    choix1 = c1.selectbox("Premier hôtel", [""] + noms_hotels)
-    choix2 = c2.selectbox("Deuxième hôtel", [""] + noms_hotels)
-    valider = c3.button("Comparer", type="primary", use_container_width=True)
-    reset = c4.button("Reset", use_container_width=True)
+    # --- Logique de sélection Pays -> Ville -> Hôtels ---
+    # Nettoyage et normalisation pour éviter les erreurs de casse ou d'espaces
+    pays_disponibles = sorted(list(set(str(d.get("pays", "Autre")).strip() for d in HOTELS_DATA.values() if isinstance(d, dict))))
+    
+    c_pays, c_ville, c1, c2, c_btn1, c_btn2 = st.columns([2, 2, 2, 2, 1, 1])
+    
+    choix_pays = c_pays.selectbox("Pays", [""] + pays_disponibles)
+    
+    villes_disponibles = sorted(list(set(
+        str(d.get("ville", "Autre")).strip() for d in HOTELS_DATA.values() 
+        if isinstance(d, dict) and (not choix_pays or str(d.get("pays", "")).strip() == choix_pays)
+    )))
+    choix_ville = c_ville.selectbox("Ville", [""] + villes_disponibles)
+    
+    hotels_filtres = [
+        nom for nom, d in HOTELS_DATA.items() 
+        if isinstance(d, dict) 
+        and (not choix_pays or str(d.get("pays", "")).strip() == choix_pays)
+        and (not choix_ville or str(d.get("ville", "")).strip() == choix_ville)
+    ]
+    
+    choix1 = c1.selectbox("Premier hôtel", [""] + hotels_filtres)
+    
+    hotels_restants = [h for h in hotels_filtres if h != choix1]
+    choix2 = c2.selectbox("Deuxième hôtel", [""] + hotels_restants)
+    
+    valider = c_btn1.button("Comparer", type="primary", use_container_width=True)
+    reset = c_btn2.button("Reset", use_container_width=True)
 
     if reset:
         st.rerun()
@@ -243,7 +264,6 @@ if st.session_state.page == "Comparateur Hôtels":
                         unsafe_allow_html=True
                     )
                     st.write("")
-
 # ==============================================================================
 # SECTION 2 : COMPAGNIES AÉRIENNES (Remise en place !)
 # ==============================================================================
