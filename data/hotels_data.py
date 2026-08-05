@@ -5423,4 +5423,10341 @@ HOTELS_DATA = {
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
+    "Blend Elphistone Resort Marsa Alam": {
+        "pays": "Égypte",
+        "ville": "Marsa Alam",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/blend-elphistone-resort-marsa-alam.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Abu Dabab, le Blend Elphistone Resort Marsa Alam propose un cadre superbe avec piscine, plage et prestations tout compris.",
+        "prix_moyen": "990€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe",
+            "Confort de 9,0",
+            "Formule tout compris et piscine"
+        ],
+        "points_negatifs": [
+            "Affluence possible en haute saison"
+        ],
+        "equipements": [
+            "Wi-Fi",
+            "Piscine",
+            "Certificat de durabilité",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Balnéaire, détendu et marin",
+            "public": "Idéal pour les amateurs de plongée et de farniente à Abu Dabab",
+            "style": "Resort balnéaire",
+            "verdict": "Un excellent choix pour un séjour tout compris au bord de la Mer Rouge."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 020 expériences vécues · Mise à jour : 2026"
+    },
+    "Bel Air Azur Resort (Adults Only)": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/bel-air-azur-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Réservé aux adultes, le Bel Air Azur Resort à Hurghada offre un cadre paisible avec piscine et formule tout compris.",
+        "prix_moyen": "1 090€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe",
+            "Réservé aux adultes (calme)",
+            "Piscine et formule tout compris"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Piscine",
+            "Formule tout compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🍸 Calme, adulte et relaxant",
+            "public": "Parfait pour les couples ou voyageurs cherchant un hôtel sans enfants",
+            "style": "Resort adults only",
+            "verdict": "Une valeur sûre pour un séjour au calme à Hurghada."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 4 180 expériences vécues · Mise à jour : 2026"
+    },
+    "Pharaoh Azur Resort": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pharaoh-azur-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé sur la route des villages à Hurghada, le Pharaoh Azur Resort dispose d'un bel espace piscine et d'un accès direct.",
+        "prix_moyen": "1 001€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe",
+            "Confort de 9,1",
+            "Piscine extérieure"
+        ],
+        "points_negatifs": [
+            "Prestations classiques"
+        ],
+        "equipements": [
+            "Piscine",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Ensoleillé, spacieux et balnéaire",
+            "public": "Idéal pour les familles et les groupes",
+            "style": "Resort de vacances",
+            "verdict": "Un très bon rapport confort/prix sur la route des villages."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 369 expériences vécues · Mise à jour : 2026"
+    },
+    "Ananda Beach Camp": {
+        "pays": "Égypte",
+        "ville": "Nuweiba",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/ananda-beach-camp.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Nuweiba, l'Ananda Beach Camp propose une ambiance fabuleuse et détendue les pieds dans l'eau.",
+        "prix_moyen": "916€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux",
+            "Ambiance unique et authentique",
+            "Petit-déjeuner compris"
+        ],
+        "points_negatifs": [
+            "Structure rustique"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "⛺ Bohème, nature et décontractée",
+            "public": "Pour les voyageurs en quête d'authenticité et de calme à Nuweiba",
+            "style": "Campement de plage",
+            "verdict": "Une expérience unique et chaleureuse loin des grands complexes."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 7 expériences vécues · Mise à jour : 2026"
+    },
+    "Charmillion Gardens Aquapark": {
+        "pays": "Égypte",
+        "ville": "Charm el-Cheikh",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/charmillion-gardens-aquapark.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la baie de Nabq à Charm el-Cheikh, ce complexe propose un parc aquatique exceptionnel et une formule tout compris.",
+        "prix_moyen": "1 350€ / semaine",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Exceptionnel",
+            "Parc aquatique de grande qualité",
+            "Confort de 9,5"
+        ],
+        "points_negatifs": [
+            "Complexe très fréquenté"
+        ],
+        "equipements": [
+            "Parc aquatique / Piscine",
+            "Tout compris",
+            "Wi-Fi"
+        ],
+        "pour_qui": {
+            "ambiance": "🎢 Ludique, familial et luxueux",
+            "public": "Idéal pour les familles et les amateurs de toboggans aquatiques",
+            "style": "Resort aquatique 5 étoiles",
+            "verdict": "Un des meilleurs choix pour s'amuser en famille à Charm el-Cheikh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 897 expériences vécues · Mise à jour : 2026"
+    },
+    "Sunrise Solara Aqua park Resort": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sunrise-solara-aqua-park-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Al Ahyaa (Hurghada), cet établissement d'exception affiche une note remarquable de 9,8 avec un parc aquatique et un engagement écologique.",
+        "prix_moyen": "1 258€ / semaine",
+        "avis": "9,8/10",
+        "points_positifs": [
+            "Exceptionnel (9,8)",
+            "Certificat de durabilité",
+            "Parc aquatique et prestations haut de gamme"
+        ],
+        "points_negatifs": [
+            "Tarif élevé en haute saison"
+        ],
+        "equipements": [
+            "Piscine / Aquapark",
+            "Certificat de durabilité",
+            "Dîner compris",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🌟 Haut de gamme, moderne et familial",
+            "public": "Pour les voyageurs recherchant l'excellence et le confort absolu",
+            "style": "Resort de luxe éco-responsable",
+            "verdict": "Une qualité de service irréprochable et un score exceptionnel."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 400 expériences vécues · Mise à jour : 2026"
+    },
+    "Tropitel Dahab Oasis": {
+        "pays": "Égypte",
+        "ville": "Dahab",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/tropitel-dahab-oasis.fr.html?aid=818289",
+        "image": "",
+        "description": "Niché à Dahab, le Tropitel Dahab Oasis propose un cadre idyllique face à la mer avec une vue latérale et un confort exceptionnel.",
+        "prix_moyen": "982€ / semaine",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Exceptionnel",
+            "Vue latérale sur mer",
+            "Cadre relaxant et certifié durable"
+        ],
+        "points_negatifs": [
+            "Un peu isolé du centre"
+        ],
+        "equipements": [
+            "Piscine",
+            "Certificat de durabilité",
+            "Demi-pension (petit-déjeuner et dîner)"
+        ],
+        "pour_qui": {
+            "ambiance": "🐠 Marin, paisible et dépaysant",
+            "public": "Amateurs de plongée et de tranquillité à Dahab",
+            "style": "Hôtel de charme en bord de mer",
+            "verdict": "Un havre de paix exceptionnel pour un séjour balnéaire réussi."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 806 expériences vécues · Mise à jour : 2026"
+    },
+    "Three Corners Happy Life Beach Resort": {
+        "pays": "Égypte",
+        "ville": "Marsa Alam",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/three-corners-happy-life-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Abu Dabab, ce resort propose une formule tout compris et un cadre fabuleux très apprécié pour sa convivialité.",
+        "prix_moyen": "1 190€ / semaine",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Fabuleux",
+            "Proche des spots de plongée d'Abu Dabab",
+            "Piscine et tout compris"
+        ],
+        "points_negatifs": [
+            "Forte affluence"
+        ],
+        "equipements": [
+            "Piscine",
+            "Certificat de durabilité",
+            "Paiement sur place possible"
+        ],
+        "pour_qui": {
+            "ambiance": "🤿 Convivial, marin et familial",
+            "public": "Idéal pour les passionnés de snorkeling et de vie marine",
+            "style": "Resort de plage tout compris",
+            "verdict": "Une excellente option à Abu Dabab avec un service attentionné."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 527 expériences vécues · Mise à jour : 2026"
+    },
+    "MinaMark Beach Resort for Families and Couples Only": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/minamark-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé en plein Hurghada et réservé aux familles et couples, ce resort propose un très bon rapport qualité-prix en formule tout compris.",
+        "prix_moyen": "899€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien",
+            "Réservé aux familles et couples",
+            "Emplacement central à Hurghada"
+        ],
+        "points_negatifs": [
+            "Infrastructures classiques"
+        ],
+        "equipements": [
+            "Piscine",
+            "Tout compris",
+            "Plage privée"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Familial, central et animé",
+            "public": "Parfait pour les familles et les couples cherchant à s'animer en ville",
+            "style": "Resort balnéaire urbain",
+            "verdict": "Un choix économique et bien placé pour profiter d'Hurghada."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 233 expériences vécues · Mise à jour : 2026"
+    },
+    "Golden Beach Resort": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/golden-beach-resort-hurghada.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Al Ahyaa (Hurghada), le Golden Beach Resort est une option très populaire pour les familles en formule tout compris.",
+        "prix_moyen": "1 230€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe",
+            "Grandes infrastructures et piscines",
+            "Confort de 9,1"
+        ],
+        "points_negatifs": [
+            "Grand complexe parfois bruyant"
+        ],
+        "equipements": [
+            "Piscine",
+            "Tout compris",
+            "Plage"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Grand club de vacances, animé",
+            "public": "Familles cherchant de grands espaces et des animations",
+            "style": "Resort club",
+            "verdict": "Un grand classique pour des vacances animées à Hurghada."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 004 expériences vécues · Mise à jour : 2026"
+    },
+    "Rehana Pyramids Hotel": {
+        "pays": "Égypte",
+        "ville": "Gizeh",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/rehana-pyramids.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh, cet hôtel propose un tarif très attractif avec petit-déjeuner compris et proximité des sites historiques.",
+        "prix_moyen": "225€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien",
+            "Excellent rapport qualité-prix pour visiter les pyramides",
+            "Bar et petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Prestations simples"
+        ],
+        "equipements": [
+            "Bar",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel, pratique et économique",
+            "public": "Voyageurs voulant visiter les Pyramides de Gizeh sans se ruiner",
+            "style": "Hôtel urbain historique",
+            "verdict": "Un point de chute imbattable pour un petit budget près des monuments."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 368 expériences vécues · Mise à jour : 2026"
+    },
+    "Ghazala Gardens": {
+        "pays": "Égypte",
+        "ville": "Charm el-Cheikh",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/ghazala-gardens.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la baie de Naama à Charm el-Cheikh, le Ghazala Gardens propose une suite junior tout compris avec de superbes espaces aquatiques.",
+        "prix_moyen": "863€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Bien",
+            "Emplacement de choix dans la Baie de Naama",
+            "Formule tout compris"
+        ],
+        "points_negatifs": [
+            "Nécessite quelques rafraîchissements"
+        ],
+        "equipements": [
+            "Piscine",
+            "Tout compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Animé, festif et central",
+            "public": "Amateurs de vie nocturne et de centralité à Charm el-Cheikh",
+            "style": "Hôtel de centre de station balnéaire",
+            "verdict": "Idéalement situé au cœur de Naama Bay pour profiter de tout à pied."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 813 expériences vécues · Mise à jour : 2026"
+    },
+    "Mazaya Pyramids view inn": {
+        "pays": "Égypte",
+        "ville": "Gizeh",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/mazaya-pyramids-view-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh avec une note exceptionnelle de 9,8, cet établissement propose un bain à remous et une vue imprenable.",
+        "prix_moyen": "481€ / semaine",
+        "avis": "9,8/10",
+        "points_positifs": [
+            "Exceptionnel (9,8)",
+            "Bain à remous / jacuzzi",
+            "Petit-déjeuner compris et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Petite structure"
+        ],
+        "equipements": [
+            "Jacuzzi",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Vue unique, intime et luxueuse",
+            "public": "Couples et voyageurs cherchant une vue magique sur les Pyramides",
+            "style": "Boutique-guest house de charme",
+            "verdict": "Une adresse exceptionnelle avec des prestations haut de gamme."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 29 expériences vécues · Mise à jour : 2026"
+    },
+    "Strand Beach Resort": {
+        "pays": "Égypte",
+        "ville": "Taba",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/strand-beach-resort-taba.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Taba, le Strand Beach Resort offre un cadre luxueux en bord de mer avec de superbes suites et une formule tout compris.",
+        "prix_moyen": "1 521€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très bien",
+            "Suite junior avec vue mer et piscine",
+            "Prestations 5 étoiles"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "Piscine",
+            "Suite privée",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Luxueux, marin et exclusif",
+            "public": "Voyageurs recherchant le calme et un standing élevé à Taba",
+            "style": "Resort de luxe",
+            "verdict": "Un cadre somptueux pour un séjour relaxant en bord de mer."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 976 expériences vécues · Mise à jour : 2026"
+    },
+    "Ghazala Beach": {
+        "pays": "Égypte",
+        "ville": "Charm el-Cheikh",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/ghazala-beach-charm.fr.html?aid=818289",
+        "image": "",
+        "description": "Établissement doté de bungalows confortables dans la Baie de Naama à Charm el-Cheikh, parfait pour un séjour tout compris.",
+        "prix_moyen": "963€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Très bien",
+            "Bungalows privatifs",
+            "Emplacement central en bord de mer"
+        ],
+        "points_negatifs": [
+            "Style traditionnel"
+        ],
+        "equipements": [
+            "Bungalow entier",
+            "Piscine",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Tropical, détendu et central",
+            "public": "Familles et couples aimant loger en bungalow",
+            "style": "Village de bungalows balnéaire",
+            "verdict": "Une ambiance de village de vacances en plein cœur de Naama Bay."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 576 expériences vécues · Mise à jour : 2026"
+    },
+    "Al Dora Hotel & Spa": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/al-dora-hotel-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hurghada, cet hôtel avec spa propose un bon compromis économique avec piscine en formule tout compris.",
+        "prix_moyen": "561€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Bien",
+            "Présence d'un spa",
+            "Tarif très abordable en tout compris"
+        ],
+        "points_negatifs": [
+            "Confort simple"
+        ],
+        "equipements": [
+            "Piscine",
+            "Spa",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "💼 Économique et fonctionnel",
+            "public": "Petits budgets cherchant du tout compris à Hurghada",
+            "style": "Hôtel de catégorie intermédiaire",
+            "verdict": "Une option abordable pour profiter du soleil sans se ruiner."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 183 expériences vécues · Mise à jour : 2026"
+    },
+    "ClA Haven-Calma": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/cla-haven-calma.fr.html?aid=818289",
+        "image": "",
+        "description": "Hébergement géré par un particulier au Caire, proche du métro, idéal pour un séjour citadin confortable.",
+        "prix_moyen": "300€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe",
+            "Proche du métro au Caire",
+            "Petit-déjeuner compris et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Hébergement particulier"
+        ],
+        "equipements": [
+            "Proche métro",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain, pratique et authentique",
+            "public": "Voyageurs explorant Le Caire en transport en commun",
+            "style": "Appartement / hébergement urbain",
+            "verdict": "Pratique et bien situé pour se déplacer facilement dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 128 expériences vécues · Mise à jour : 2026"
+    },
+    "Hur Pyramids Inn": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/hur-pyramids-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la zone de Gizeh / Le Caire, cet hôtel propose un parking gratuit et un tarif très bas.",
+        "prix_moyen": "139€ / semaine",
+        "avis": "7,4/10",
+        "points_positifs": [
+            "Bien",
+            "Prix extrêmement bas",
+            "Parking gratuit et petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Prestations de base"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Très économique et pratique",
+            "public": "Backpackers et petits budgets",
+            "style": "Auberge / hôtel simple",
+            "verdict": "Imbattable pour les voyageurs ultra-économiques."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 138 expériences vécues · Mise à jour : 2026"
+    },
+    "Glow Pyramids View Hotel": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/glow-pyramids-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Superbe hébergement à Gizeh noté 9,3 avec bain à remous et petit-déjeuner inclus.",
+        "prix_moyen": "640€ / semaine",
+        "avis": "9,3/10",
+        "points_positifs": [
+            "Fabuleux (9,3)",
+            "Jacuzzi / bain à remous",
+            "Vue et confort exceptionnels"
+        ],
+        "points_negatifs": [
+            "Demande de réservation anticipée"
+        ],
+        "equipements": [
+            "Jacuzzi",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Confortable, chic et panoramique",
+            "public": "Pour les voyageurs voulant du standing face aux pyramides",
+            "style": "Boutique-hôtel",
+            "verdict": "Une excellente option de charme très bien notée."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 121 expériences vécues · Mise à jour : 2026"
+    },
+    "Dreams Beach Resort - Sharm El Sheikh": {
+        "pays": "Égypte",
+        "ville": "Charm el-Cheikh",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/dreams-beach-resort-sharm.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à El Hadaba (Charm el-Cheikh), ce grand resort 5 étoiles propose un cadre superbe avec piscine et certificat de durabilité.",
+        "prix_moyen": "993€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe",
+            "Confort de 9,0",
+            "Certificat de durabilité et grands jardins"
+        ],
+        "points_negatifs": [
+            "Fréquentation élevée"
+        ],
+        "equipements": [
+            "Piscine",
+            "Certificat de durabilité",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Vaste, marin et familial",
+            "public": "Amateurs de snorkeling et de grands complexes de charme",
+            "style": "Resort balnéaire",
+            "verdict": "Un super cadre à El Hadaba pour profiter de la Mer Rouge."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 762 expériences vécues · Mise à jour : 2026"
+    },
+    "Daniela Diving Resort Dahab": {
+        "pays": "Égypte",
+        "ville": "Dahab",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/daniela-diving-resort-dahab.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Dahab, cet établissement orienté plongée offre un cadre paisible avec piscine et petit-déjeuner inclus.",
+        "prix_moyen": "460€ / semaine",
+        "avis": "7,4/10",
+        "points_positifs": [
+            "Bien",
+            "Idéal pour les passionnés de plongée sous-marine",
+            "Cadre calme"
+        ],
+        "points_negatifs": [
+            "Style un peu rétro"
+        ],
+        "equipements": [
+            "Piscine",
+            "Centre de plongée",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🤿 Sportif, calme et simple",
+            "public": "Plongeurs et voyageurs cherchant la sérénité à Dahab",
+            "style": "Resort de plongée",
+            "verdict": "Un choix authentique et orienté nature."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 88 expériences vécues · Mise à jour : 2026"
+    },
+    "The View Delta Hotel": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/the-view-delta.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh / Le Caire, cet hôtel propose des chambres quadruples spacieuses avec balcon et piscine.",
+        "prix_moyen": "326€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien",
+            "Chambres quadruples idéales pour les familles ou groupes",
+            "Piscine"
+        ],
+        "points_negatifs": [
+            "Style simple"
+        ],
+        "equipements": [
+            "Piscine",
+            "Balcon",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "👨‍👩‍👧‍👦 Familial, pratique et spacieux",
+            "public": "Familles nombreuses visitant Le Caire",
+            "style": "Hôtel familial",
+            "verdict": "Un très bon choix pour loger tout le monde à bas coût."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 577 expériences vécues · Mise à jour : 2026"
+    },
+    "Veloria pyramids view Hotel": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/veloria-pyramids-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Nouvel établissement à Gizeh offrant une vue magnifique sur les montagnes et un grand confort.",
+        "prix_moyen": "199€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Nouveau sur Booking.com",
+            "Vue montagne et grand confort"
+        ],
+        "points_negatifs": [
+            "En phase de lancement"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏔️ Moderne, neuf et panoramique",
+            "public": "Voyageurs cherchant un hébergement récent et bien noté",
+            "style": "Hôtel de charme récent",
+            "verdict": "Une excellente affaire pour profiter d'un confort moderne à petit prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 10 expériences vécues · Mise à jour : 2026"
+    },
+    "King's Gate Royal View INN": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/kings-gate-royal-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Nouvel hébergement géré par un particulier à Gizeh avec une excellente note de confort (9,4).",
+        "prix_moyen": "754€ / semaine",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Fabuleux",
+            "Confort exceptionnel (9,4)",
+            "Chambre familiale spacieuse"
+        ],
+        "points_negatifs": [
+            "Tarif un peu plus élevé"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "👑 Spacieux, soigné et confortable",
+            "public": "Familles cherchant une qualité haut de gamme à Gizeh",
+            "style": "Guesthouse de standing",
+            "verdict": "Un confort remarquable pour un séjour sans compromis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 65 expériences vécues · Mise à jour : 2026"
+    },
+    "Pyramids Art Inn": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pyramids-art-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Hébergement artistique et chaleureux à Gizeh, très bien noté pour son accueil et sa proximité avec les monuments.",
+        "prix_moyen": "209€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe",
+            "Parking gratuit et petit-déjeuner",
+            "Ambiance conviviale"
+        ],
+        "points_negatifs": [
+            "Décoration atypique"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🎨 Artistique, culturel et accueillant",
+            "public": "Voyageurs curieux et amateurs d'art",
+            "style": "Boutique auberge",
+            "verdict": "Un endroit charmant et très abordable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 241 expériences vécues · Mise à jour : 2026"
+    },
+    "House Pyramids View Hotel": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/house-pyramids-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Hébergement très économique à Gizeh avec une note de 9,0 et petit-déjeuner compris.",
+        "prix_moyen": "98€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Prix défiant toute concurrence (98€ la semaine)",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Prestations rudimentaires"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "💰 Ultra économique, sympathique",
+            "public": "Petits budgets et routards",
+            "style": "Hôtel économique",
+            "verdict": "Le meilleur rapport qualité/prix absolu pour un petit budget."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 31 expériences vécues · Mise à jour : 2026"
+    },
+    "Saray El Omda - Egyptian Rural Village": {
+        "pays": "Égypte",
+        "ville": "Louxor",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/saray-el-omda.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé sur la rive ouest à Louxor, cet établissement propose une immersion dans un village rural égyptien avec piscine.",
+        "prix_moyen": "887€ / semaine",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Fabuleux",
+            "Immersion authentique et cadre paisible sur la rive ouest",
+            "Piscine et grand appartement"
+        ],
+        "points_negatifs": [
+            "Éloigné du centre animé de Louxor"
+        ],
+        "equipements": [
+            "Piscine",
+            "Appartement entier",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🌾 Authentique, calme et culturel",
+            "public": "Voyageurs cherchant le calme et la vraie vie égyptienne à Louxor",
+            "style": "Village de charme",
+            "verdict": "Une magnifique alternative aux hôtels standards pour visiter Louxor."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 227 expériences vécues · Mise à jour : 2026"
+    },
+    "Porto matrouh Magic sea": {
+        "pays": "Égypte",
+        "ville": "Marsa Matruh",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/porto-matrouh-magic-sea.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marsa Matruh, ce charmant chalet propose une piscine et tout le confort pour un séjour en bord de mer.",
+        "prix_moyen": "408€ / semaine",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Fabuleux",
+            "Chalet entier avec cuisine et salon",
+            "Piscine et proximité des plages paradisiaques"
+        ],
+        "points_negatifs": [
+            "Autonomie complète requise"
+        ],
+        "equipements": [
+            "Piscine",
+            "Cuisine équipée",
+            "Chalet entier"
+        ],
+        "pour_qui": {
+            "ambiance": "🏖️ Marin, indépendant et familial",
+            "public": "Familles souhaitant un logement autonome au bord de l'eau",
+            "style": "Chalet de vacances",
+            "verdict": "Parfait pour profiter des superbes plages de la côte nord."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 20 expériences vécues · Mise à jour : 2026"
+    },
+    "Pyramids Palace INN": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pyramids-palace-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Superbe hôtel à Gizeh doté d'un bain à remous et d'une vue spectaculaire.",
+        "prix_moyen": "563€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe",
+            "Bain à remous / jacuzzi",
+            "Confort de 9,2 et petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Jacuzzi",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Relaxant, chic et panoramique",
+            "public": "Couples cherchant le bien-être près des pyramides",
+            "style": "Hôtel de standing",
+            "verdict": "Un très bon choix pour se détendre après les visites."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 83 expériences vécues · Mise à jour : 2026"
+    },
+    "Venus Pyramids-Guest House": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/venus-pyramids-guest-house.fr.html?aid=818289",
+        "image": "",
+        "description": "Guesthouse très bien notée à Gizeh offrant une vue magnifique sur les pyramides et un jacuzzi.",
+        "prix_moyen": "171€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien",
+            "Vue directe sur les Pyramides",
+            "Jacuzzi et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Structure modeste"
+        ],
+        "equipements": [
+            "Jacuzzi",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌅 Convivial, pittoresque et abordable",
+            "public": "Voyageurs voulant admirer les pyramides depuis leur hôtel",
+            "style": "Guesthouse",
+            "verdict": "Un super rapport qualité/prix avec une vue imprenable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 342 expériences vécues · Mise à jour : 2026"
+    },
+    "Lotus Hotel - Golden Square": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/lotus-hotel-golden-square.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le Nouveau Caire, cet établissement récent propose un grand confort et un parking gratuit.",
+        "prix_moyen": "468€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien",
+            "Nouveau sur Booking.com dans le Nouveau Caire",
+            "Chambre triple de luxe"
+        ],
+        "points_negatifs": [
+            "Quartier moderne excentré des monuments historiques"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Moderne, calme et résidentiel",
+            "public": "Voyageurs d'affaires ou touristes explorant le Nouveau Caire",
+            "style": "Hôtel moderne",
+            "verdict": "Idéal pour séjourner dans les quartiers modernes de la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 169 expériences vécues · Mise à jour : 2026"
+    },
+    "Lavista Pyramids View Relax & Enjoy": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/lavista-pyramids-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Appartement / suite familiale à Gizeh avec bar et grand espace pour les familles.",
+        "prix_moyen": "219€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe",
+            "Suite familiale spacieuse",
+            "Bar et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Services limités"
+        ],
+        "equipements": [
+            "Bar",
+            "Suite familiale",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🥂 Convivial et relaxant",
+            "public": "Groupes d'amis ou familles cherchant un grand espace",
+            "style": "Suite / appartement",
+            "verdict": "Un pied-à-terre spacieux et économique au Caire."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 43 expériences vécues · Mise à jour : 2026"
+    },
+    "El Nabila Front Pyramids & Sphinx View": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/el-nabila-front-pyramids.fr.html?aid=818289",
+        "image": "",
+        "description": "Établissement fabuleux à Gizeh avec une note de 9,4 offrant une vue imprenable sur les Pyramides et le Sphinx.",
+        "prix_moyen": "476€ / semaine",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Fabuleux (9,4)",
+            "Vue directe sur le Sphinx et les Pyramides",
+            "Confort de 9,6"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌟 Spectaculaire, soigné et magique",
+            "public": "Voyageurs recherchant la plus belle vue possible sur le site",
+            "style": "Guesthouse de charme",
+            "verdict": "Une vue à couper le souffle pour un séjour inoubliable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 46 expériences vécues · Mise à jour : 2026"
+    },
+    "Suzana Pyramids hotel": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/suzana-pyramids.fr.html?aid=818289",
+        "image": "",
+        "description": "Hôtel à Gizeh proposant un parking gratuit et des chambres triples standard très abordables.",
+        "prix_moyen": "175€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe",
+            "Excellent rapport qualité-prix",
+            "Parking gratuit et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Décoration simple"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Paiement sur place",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Pratique et économique",
+            "public": "Petits groupes ou familles cherchant un hôtel simple près des sites",
+            "style": "Hôtel urbain",
+            "verdict": "Une option très économique et bien notée."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 117 expériences vécues · Mise à jour : 2026"
+    },
+    "Ma Maison Cleopatra DELUXE": {
+        "pays": "Égypte",
+        "ville": "Alexandrie",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/ma-maison-cleopatra-deluxe.fr.html?aid=818289",
+        "image": "",
+        "description": "Appartement exceptionnel noté 9,6 à Alexandrie avec une vue imprenable sur la mer.",
+        "prix_moyen": "324€ / semaine",
+        "avis": "9,6/10",
+        "points_positifs": [
+            "Exceptionnel (9,6)",
+            "Vue imprenable sur la mer à Alexandrie",
+            "Appartement immense de 115 m² tout équipé"
+        ],
+        "points_negatifs": [
+            "Autonomie (appartement)"
+        ],
+        "equipements": [
+            "Vue mer",
+            "Cuisine équipée",
+            "Appartement entier 115 m²"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Luxueux, marin et spacieux",
+            "public": "Familles ou groupes voulant le meilleur confort à Alexandrie",
+            "style": "Appartement de grand standing",
+            "verdict": "Une adresse exceptionnelle les pieds dans l'eau."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 66 expériences vécues · Mise à jour : 2026"
+    },
+    "MiRAGE PYRAMiDS HOTEL": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/mirage-pyramids.fr.html?aid=818289",
+        "image": "",
+        "description": "Hôtel à Gizeh équipé d'un bain à remous et proposant des chambres triples avec vue sur la ville.",
+        "prix_moyen": "114€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien",
+            "Bain à remous / jacuzzi",
+            "Prix très bas et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Prestations basiques"
+        ],
+        "equipements": [
+            "Jacuzzi",
+            "Paiement sur place",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🛁 Relaxant et économique",
+            "public": "Petits budgets cherchant une touche de confort (jacuzzi)",
+            "style": "Hôtel simple",
+            "verdict": "Un excellent plan petit budget avec jacuzzi."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 149 expériences vécues · Mise à jour : 2026"
+    },
+    "Casa Latina pyramids view": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/casa-latina-pyramids-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Établissement exceptionnel noté 9,6 à Gizeh avec parking gratuit et un grand confort.",
+        "prix_moyen": "181€ / semaine",
+        "avis": "9,6/10",
+        "points_positifs": [
+            "Exceptionnel (9,6)",
+            "Confort exceptionnel (9,8)",
+            "Parking gratuit et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Petite structure"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Paiement sur place",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Confortable, intime et soigné",
+            "public": "Voyageurs exigeants cherchant la perfection à petit prix",
+            "style": "Boutique guesthouse",
+            "verdict": "Un rapport qualité-prix extraordinaire (9,6/10)."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 11 expériences vécues · Mise à jour : 2026"
+    },
+    "Sahary Pyramids View Hotel": {
+        "pays": "Égypte",
+        "ville": "Gizeh",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sahary-pyramids-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Hôtel à Gizeh doté d'une piscine et d'un petit-déjeuner compris pour un séjour confortable.",
+        "prix_moyen": "1 088€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Bien",
+            "Présence d'une piscine (rare pour un petit hôtel à Gizeh)",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarif élevé pour la catégorie"
+        ],
+        "equipements": [
+            "Piscine",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏊 Piscine et proximité des monuments",
+            "public": "Voyageurs voulant profiter d'une piscine près des pyramides",
+            "style": "Hôtel avec piscine",
+            "verdict": "Pratique pour se rafraîchir après les visites de Gizeh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 42 expériences vécues · Mise à jour : 2026"
+    },
+    "Calmaa Kairo": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/calmaa-kairo.fr.html?aid=818289",
+        "image": "",
+        "description": "Superbe hébergement au Caire, proche du métro, avec petit-déjeuner inclus.",
+        "prix_moyen": "419€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe",
+            "Proche du métro au Caire",
+            "Petit-déjeuner inclus et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Style urbain"
+        ],
+        "equipements": [
+            "Proche métro",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🚇 Urbain, pratique et confortable",
+            "public": "Touristes voulant explorer la capitale facilement",
+            "style": "Hôtel de ville",
+            "verdict": "Un excellent point de départ pour visiter Le Caire."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 102 expériences vécues · Mise à jour : 2026"
+    },
+    "Basmatic Nubian Guest House": {
+        "pays": "Égypte",
+        "ville": "Assouan",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/basmatic-nubian-guest-house.fr.html?aid=818289",
+        "image": "",
+        "description": "Guesthouse nubienne authentique à Assouan, offrant un cadre magnifique avec jardin et vue.",
+        "prix_moyen": "308€ / semaine",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Fabuleux",
+            "Immersion dans la culture nubienne à Assouan",
+            "Appartement de 50 m² avec jardin"
+        ],
+        "points_negatifs": [
+            "Décoration traditionnelle très spécifique"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Jardin",
+            "Appartement 2 chambres"
+        ],
+        "pour_qui": {
+            "ambiance": "🏺 Culturel, chaleureux et dépaysant",
+            "public": "Amateurs d'authenticité et de traditions à Assouan",
+            "style": "Guesthouse nubienne",
+            "verdict": "Une expérience humaine et culturelle inoubliable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 648 expériences vécues · Mise à jour : 2026"
+    },
+    "Light-Home Boutique l Urban Comfort in the Heart of Cairo Downtown": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/light-home-boutique.fr.html?aid=818289",
+        "image": "",
+        "description": "Boutique-hôtel fabuleux en plein centre-ville du Caire, noté 9,2 avec un confort exceptionnel (9,6).",
+        "prix_moyen": "456€ / semaine",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Fabuleux",
+            "Confort exceptionnel (9,6) en plein centre-ville",
+            "Proche du métro et petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Animation urbaine"
+        ],
+        "equipements": [
+            "Proche métro",
+            "Petit-déjeuner inclus",
+            "Chambre quadruple"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Chic, urbain et confortable",
+            "public": "Voyageurs voulant loger au cœur du centre historique du Caire",
+            "style": "Boutique-hôtel urbain",
+            "verdict": "Le top du confort au centre-ville."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 37 expériences vécues · Mise à jour : 2026"
+    },
+    "Pyramids Skyline Hotel Cairo": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pyramids-skyline.fr.html?aid=818289",
+        "image": "",
+        "description": "Hôtel fabuleux à Gizeh avec parking gratuit, petit-déjeuner compris et superbes prestations.",
+        "prix_moyen": "372€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Chambre quadruple de luxe climatisée",
+            "Parking gratuit et petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Spacieux, moderne et confortable",
+            "public": "Familles visitant Le Caire et Gizeh",
+            "style": "Hôtel de standing",
+            "verdict": "Une excellente option familiale très bien notée."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 350 expériences vécues · Mise à jour : 2026"
+    },
+    "Horizon Pyramids Boutique": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/horizon-pyramids-boutique.fr.html?aid=818289",
+        "image": "",
+        "description": "Hôtel-boutique à Gizeh offrant une vue sur la montagne, parking gratuit et petit-déjeuner.",
+        "prix_moyen": "298€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Bien",
+            "Parking gratuit",
+            "Petit-déjeuner inclus et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Note un peu plus basse (7,7)"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "⛰️ Pratique et simple",
+            "public": "Petits budgets cherchant un parking et le petit-déjeuner",
+            "style": "Hôtel simple",
+            "verdict": "Une alternative correcte près des pyramides."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 110 expériences vécues · Mise à jour : 2026"
+    },
+    "Sharm Hills Azure Paradise": {
+        "pays": "Égypte",
+        "ville": "Charm el-Cheikh",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sharm-hills-azure-paradise.fr.html?aid=818289",
+        "image": "",
+        "description": "Grand complexe à Charm el-Cheikh avec piscine et configuration familiale géante (jusqu'à 5 lits).",
+        "prix_moyen": "750€ / semaine",
+        "avis": "6,0/10",
+        "points_positifs": [
+            "Très grands espaces (jusqu'à 5 lits)",
+            "Piscine",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Note générale plus faible (6,0)"
+        ],
+        "equipements": [
+            "Piscine",
+            "Chambre familiale géante",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "👨‍👩‍👧‍👦 Très grande capacité",
+            "public": "Familles nombreuses cherchant une grande surface à bas coût",
+            "style": "Appartement de vacances",
+            "verdict": "Pratique uniquement pour les très grands groupes."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 15 expériences vécues · Mise à jour : 2026"
+    },
+    "Seven Pyramids View Inn - Rooftop Breakfast": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/seven-pyramids-view-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Célèbre pour son petit-déjeuner sur le rooftop avec vue sur les pyramides à Gizeh.",
+        "prix_moyen": "599€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe",
+            "Rooftop avec vue incroyable pour le petit-déjeuner",
+            "Suite familiale de luxe"
+        ],
+        "points_negatifs": [
+            "Forte affluence sur le toit"
+        ],
+        "equipements": [
+            "Rooftop",
+            "Parking gratuit",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🌅 Panoramique, convivial et magique",
+            "public": "Amateurs de superbes photos et de petits-déjeuners inoubliables",
+            "style": "Guesthouse avec rooftop",
+            "verdict": "Une expérience incontournable pour un réveil face aux pyramides."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 692 expériences vécues · Mise à jour : 2026"
+    },
+    "Golden mask pyramids inn": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/golden-mask-pyramids-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Hôtel à Gizeh avec bain à remous, vue sur montagne et petit-déjeuner compris.",
+        "prix_moyen": "491€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe",
+            "Bain à remous / jacuzzi",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Prestations classiques"
+        ],
+        "equipements": [
+            "Jacuzzi",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🛁 Confortable et relaxant",
+            "public": "Voyageurs voulant se détendre après les excursions",
+            "style": "Hôtel de charme",
+            "verdict": "Un très bon choix avec jacuzzi à Gizeh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 131 expériences vécues · Mise à jour : 2026"
+    },
+    "Eco green pyramids hotel": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/eco-green-pyramids.fr.html?aid=818289",
+        "image": "",
+        "description": "Hôtel éco-responsable à Gizeh avec balcon et vue sur la ville.",
+        "prix_moyen": "344€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très bien",
+            "Démarche éco-responsable",
+            "Balcon et grand confort"
+        ],
+        "points_negatifs": [
+            "Style simple"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Balcon",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Vert, simple et bien placé",
+            "public": "Voyageurs sensibles à l'écologie",
+            "style": "Hôtel éco-responsable",
+            "verdict": "Une option éco-friendly très correcte."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 190 expériences vécues · Mise à jour : 2026"
+    },
+    "Princess Pyramids View Inn": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/princess-pyramids-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Établissement fabuleux noté 9,4 à Gizeh avec bar et chambres doubles standard.",
+        "prix_moyen": "239€ / semaine",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Fabuleux (9,4)",
+            "Confort de 9,5",
+            "Bar et superbes prestations"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Bar",
+            "Climatisation",
+            "Chambres doubles"
+        ],
+        "pour_qui": {
+            "ambiance": "🍸 Chic, élégant et très bien noté",
+            "public": "Couples cherchant un service de grande qualité",
+            "style": "Boutique guesthouse",
+            "verdict": "Une note de 9,4 qui garantit un séjour exceptionnel."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 64 expériences vécues · Mise à jour : 2026"
+    },
+    "Osiris City View Hotel": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/osiris-city-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Hôtel superbe situé en plein centre du Caire, proche du métro avec petit-déjeuner inclus.",
+        "prix_moyen": "423€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe",
+            "Proche du métro au Caire",
+            "Petit-déjeuner inclus et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Animation urbaine"
+        ],
+        "equipements": [
+            "Proche métro",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central, culturel et pratique",
+            "public": "Touristes voulant visiter les musées et quartiers centraux",
+            "style": "Hôtel de centre-ville",
+            "verdict": "Parfait pour rayonner dans Le Caire sans voiture."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 42 expériences vécues · Mise à jour : 2026"
+    },
+    "Al Masa Hotel El Sokhna": {
+        "pays": "Égypte",
+        "ville": "Ain Sokhna",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/al-masa-el-sokhna.fr.html?aid=818289",
+        "image": "",
+        "description": "Magnifique complexe 5 étoiles à Ain Sokhna avec piscine, bord de mer et demi-pension.",
+        "prix_moyen": "1 268€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien",
+            "Grande piscine et accès direct à la mer",
+            "Petit-déjeuner et dîner compris (demi-pension)"
+        ],
+        "points_negatifs": [
+            "Complexe très fréquenté le week-end"
+        ],
+        "equipements": [
+            "Piscine",
+            "Demi-pension",
+            "Plage privée"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire, détendu et luxueux",
+            "public": "Familles et couples cherchant une station balnéaire proche de la capitale",
+            "style": "Resort 5 étoiles",
+            "verdict": "La destination idéale pour s'évader d'Ain Sokhna."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 040 expériences vécues · Mise à jour : 2026"
+    },
+"Alba pyramids view": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/alba-pyramids-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Hébergement à Gizeh / Le Caire proposant une chambre familiale spacieuse avec parking gratuit et petit-déjeuner compris.",
+        "prix_moyen": "123€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien",
+            "Chambre familiale avec 4 lits simples",
+            "Parking gratuit, petit-déjeuner et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Prestations simples"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "👨‍👩‍👧‍👦 Familial et très économique",
+            "public": "Familles nombreuses cherchant un grand nombre de lits à bas coût",
+            "style": "Guesthouse familiale",
+            "verdict": "Un choix imbattable pour loger toute une famille près des pyramides."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 177 expériences vécues · Mise à jour : 2026"
+    },
+    "Spacious 3 Bedroom Sea View Apartment in Il Monte Galala": {
+        "pays": "Égypte",
+        "ville": "Ain Sokhna",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/spacious-3-bedroom-sea-view-apartment-in-il-monte-galala.fr.html?aid=818289",
+        "image": "",
+        "description": "Superbe chalet de 3 chambres avec vue sur mer à Il Monte Galala (Ain Sokhna), noté 9,1 avec un confort exceptionnel (9,9).",
+        "prix_moyen": "698€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux",
+            "Confort exceptionnel (9,9)",
+            "Grand chalet de 126 m² avec piscine et vue mer"
+        ],
+        "points_negatifs": [
+            "Autonomie complète (chalet entier)"
+        ],
+        "equipements": [
+            "Piscine",
+            "Chalet 3 chambres",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Luxueux, marin et spacieux",
+            "public": "Familles ou groupes recherchant le grand standing les pieds dans l'eau",
+            "style": "Chalet balnéaire de prestige",
+            "verdict": "Un confort frôlant la perfection pour un séjour d'exception à Ain Sokhna."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 6 expériences vécues · Mise à jour : 2026"
+    },
+    "Sol Pyramids Rooftop View Giza": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sol-pyramids-rooftop-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Établissement à Gizeh / Le Caire proposant une chambre familiale de 4 lits simples et un accès rooftop.",
+        "prix_moyen": "274€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien",
+            "Chambre familiale (4 lits simples)",
+            "Parking gratuit et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Prestations classiques"
+        ],
+        "equipements": [
+            "Rooftop",
+            "Parking gratuit",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌇 Pratique et adapté aux groupes",
+            "public": "Familles et petits groupes visitant Gizeh",
+            "style": "Hôtel avec rooftop",
+            "verdict": "Une bonne alternative pour loger plusieurs personnes ensemble."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 79 expériences vécues · Mise à jour : 2026"
+    },
+    "Ma Maison Stanley PREMIUM": {
+        "pays": "Égypte",
+        "ville": "Alexandrie",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/ma-maison-stanley-premium.fr.html?aid=818289",
+        "image": "",
+        "description": "Appartement de standing supérieur de 150 m² avec vue sur mer à Alexandrie, affichant une note de 9,4.",
+        "prix_moyen": "423€ / semaine",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Fabuleux (9,4)",
+            "Confort de 9,5 avec vue spectaculaire sur la mer à Alexandrie",
+            "Grand appartement de 3 chambres (150 m²)"
+        ],
+        "points_negatifs": [
+            "Autonomie (appartement)"
+        ],
+        "equipements": [
+            "Vue mer",
+            "Cuisine équipée",
+            "Appartement 150 m²"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Prestigieux, spacieux et marin",
+            "public": "Familles ou groupes cherchant un logement luxueux à Alexandrie",
+            "style": "Appartement de grand standing",
+            "verdict": "Une qualité d'hébergement remarquable face à la mer."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 90 expériences vécues · Mise à jour : 2026"
+    },
+    "Diamond Pyramids View Inn": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/diamond-pyramids-view-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Établissement exceptionnel noté 9,7 à Gizeh / Le Caire avec un confort irréprochable (9,7) et petit-déjeuner compris.",
+        "prix_moyen": "511€ / semaine",
+        "avis": "9,7/10",
+        "points_positifs": [
+            "Exceptionnel (9,7)",
+            "Confort exceptionnel (9,7)",
+            "Parking gratuit, petit-déjeuner et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Haut de gamme, soigné et intime",
+            "public": "Voyageurs exigeants cherchant la meilleure qualité de service à Gizeh",
+            "style": "Boutique guesthouse de luxe",
+            "verdict": "Une des meilleures notes de la région pour un séjour parfait."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 121 expériences vécues · Mise à jour : 2026"
+    },
+    "شاليهات بورتو مطروح فيو بحر Porto Matrouh Sea View Families Only": {
+        "pays": "Égypte",
+        "ville": "Marsa Matruh",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/porto-matrouh-sea-view-families.fr.html?aid=818289",
+        "image": "",
+        "description": "Studio spacieux de 75 m² réservé aux familles à Marsa Matruh, offrant une belle vue sur la piscine et les environs.",
+        "prix_moyen": "233€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe",
+            "Réservé exclusivement aux familles",
+            "Grand studio de 75 m² avec piscine et cuisine"
+        ],
+        "points_negatifs": [
+            "Réservé aux familles uniquement"
+        ],
+        "equipements": [
+            "Piscine",
+            "Cuisine équipée",
+            "Studio entier"
+        ],
+        "pour_qui": {
+            "ambiance": "👨‍👩‍👧‍👦 Familial, sécurisant et calme",
+            "public": "Familles cherchant un cadre reposant à Marsa Matruh",
+            "style": "Studio de vacances en résidence",
+            "verdict": "Un cadre idéal et rassurant pour des vacances en famille."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 92 expériences vécues · Mise à jour : 2026"
+    },
+    "Shellghada Blue Beach": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/shellghada-blue-beach.fr.html?aid=818289",
+        "image": "",
+        "description": "Hôtel à Hurghada proposant une formule tout compris et un accès direct à la plage avec parking gratuit.",
+        "prix_moyen": "433€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Bien",
+            "Formule tout compris",
+            "Parking gratuit et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Grand nombre d'expériences mais confort classique"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Tout compris",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire, simple et abordable",
+            "public": "Petits budgets cherchant le tout compris à Hurghada",
+            "style": "Hôtel de plage",
+            "verdict": "Une option économique pour profiter de la Mer Rouge sans se ruiner."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 187 expériences vécues · Mise à jour : 2026"
+    },
+    "Sunrise Alma Bay Resort": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sunrise-alma-bay-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé sur la route des villages à Hurghada, ce superbe resort 5 étoiles propose un certificat de durabilité et une formule tout compris de haut standing.",
+        "prix_moyen": "1 603€ / semaine",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Fabuleux (9,2)",
+            "Confort de 9,4 avec prestations 5 étoiles",
+            "Certificat de durabilité, piscine et tout compris"
+        ],
+        "points_negatifs": [
+            "Tarifs plus élevés"
+        ],
+        "equipements": [
+            "Piscine",
+            "Certificat de durabilité",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🌟 Luxueux, éco-responsable et animé",
+            "public": "Voyageurs exigeants cherchant le confort haut de gamme à Hurghada",
+            "style": "Resort 5 étoiles tout compris",
+            "verdict": "Une valeur sûre pour un séjour de luxe inoubliable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 244 expériences vécues · Mise à jour : 2026"
+    },
+    "Farsha Pyramids Inn": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/farsha-pyramids-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Hébergement à Gizeh / Le Caire avec piscine, petit-déjeuner compris et chambres triples confortables.",
+        "prix_moyen": "171€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très bien",
+            "Piscine et petit-déjeuner inclus",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Demande de réservation anticipée"
+        ],
+        "equipements": [
+            "Piscine",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Pratique, rafraîchissant et bien noté",
+            "public": "Voyageurs voulant profiter d'une piscine près des pyramides à bas coût",
+            "style": "Guesthouse avec piscine",
+            "verdict": "Une très belle affaire avec piscine à Gizeh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 263 expériences vécues · Mise à jour : 2026"
+    },
+    "Pyramids Temple Guest House": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pyramids-temple-guest-house.fr.html?aid=818289",
+        "image": "",
+        "description": "Guesthouse d'exception notée 9,5 à Gizeh / Le Caire avec bar et petit-déjeuner inclus.",
+        "prix_moyen": "253€ / semaine",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Exceptionnel (9,5)",
+            "Confort de 9,4",
+            "Bar et petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Bar",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Haut de gamme, soigné et chaleureux",
+            "public": "Pour les voyageurs exigeants cherchant une excellente note de service",
+            "style": "Boutique guesthouse",
+            "verdict": "Une qualité remarquable pour un séjour inoubliable au pied des pyramides."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 102 expériences vécues · Mise à jour : 2026"
+    },
+    "Villa 14 Suites": {
+        "pays": "Égypte",
+        "ville": "Ville du 6 Octobre",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/villa-14-suites.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Ville du 6 Octobre, cet établissement propose des chambres triples deluxe avec parking gratuit et demi-pension (dîner compris).",
+        "prix_moyen": "402€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Parking gratuit et paiement sur place",
+            "Petit-déjeuner et dîner compris (demi-pension)"
+        ],
+        "points_negatifs": [
+            "Situé dans la grande banlieue du Caire"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Demi-pension",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🍽️ Calme, résidentiel et pratique",
+            "public": "Voyageurs cherchant un cadre plus moderne hors du centre dense",
+            "style": "Apparthôtel / suites",
+            "verdict": "Un très bon confort avec la formule repas incluse."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 079 expériences vécues · Mise à jour : 2026"
+    },
+    "Abu Dabbab Lodge": {
+        "pays": "Égypte",
+        "ville": "Marsa Alam",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/abu-dabbab-lodge.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Abu Dabab (Marsa Alam), ce lodge propose une piscine et la formule pension complète (tous les repas compris).",
+        "prix_moyen": "1 144€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe",
+            "Proche des spots de plongée d'Abu Dabab",
+            "Tous les repas compris et piscine"
+        ],
+        "points_negatifs": [
+            "Isolé"
+        ],
+        "equipements": [
+            "Piscine",
+            "Tous les repas inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🤿 Marin, reposant et axé plongée",
+            "public": "Amateurs de snorkeling et de nature à Marsa Alam",
+            "style": "Lodge de plage",
+            "verdict": "Idéal pour profiter pleinement des fonds marins sans se soucier des repas."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 95 expériences vécues · Mise à jour : 2026"
+    },
+    "Baba Dool": {
+        "pays": "Égypte",
+        "ville": "Assouan",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/baba-dool.fr.html?aid=818289",
+        "image": "",
+        "description": "Établissement fabuleux noté 9,2 à Assouan avec suites familiales et petit-déjeuner compris.",
+        "prix_moyen": "381€ / semaine",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Fabuleux (9,2)",
+            "Confort de 9,1",
+            "Petit-déjeuner inclus et suites familiales"
+        ],
+        "points_negatifs": [
+            "Style traditionnel"
+        ],
+        "equipements": [
+            "Balcon",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏺 Chaleureux, culturel et authentique",
+            "public": "Familles et voyageurs visitant Assouan",
+            "style": "Guesthouse de charme",
+            "verdict": "Une adresse incontournable et très bien notée à Assouan."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 299 expériences vécues · Mise à jour : 2026"
+    },
+    "Flower Of Light Centre": {
+        "pays": "Égypte",
+        "ville": "Louxor",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/flower-of-light-centre.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé sur la rive ouest à Louxor, cet établissement propose une piscine, un cadre superbe et un petit-déjeuner inclus.",
+        "prix_moyen": "241€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe",
+            "Piscine sur la rive ouest de Louxor",
+            "Petit-déjeuner inclus et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Rive ouest (nécessite de traverser pour le centre-ville)"
+        ],
+        "equipements": [
+            "Piscine",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌾 Paisible, reposant et culturel",
+            "public": "Voyageurs cherchant le calme après la visite des temples de Louxor",
+            "style": "Centre d'hébergement de charme",
+            "verdict": "Un super rapport qualité/prix avec piscine au calme."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 221 expériences vécues · Mise à jour : 2026"
+    },
+    "2bed rooms 95m, Garden&sea view, first floor, Family only دور اول بمدخل مستقل": {
+        "pays": "Égypte",
+        "ville": "Alexandrie",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/2bed-rooms-95m-garden-sea-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Grand chalet de 95 m² avec vue sur jardin et mer à Al Mamurah (Alexandrie), réservé aux familles.",
+        "prix_moyen": "312€ / semaine",
+        "avis": "9,6/10",
+        "points_positifs": [
+            "Exceptionnel (9,6)",
+            "Confort exceptionnel (9,6)",
+            "Chalet de 95 m² avec vue mer et jardin, entrée indépendante"
+        ],
+        "points_negatifs": [
+            "Réservé strictement aux familles"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Vue mer et jardin",
+            "Cuisine équipée"
+        ],
+        "pour_qui": {
+            "ambiance": "👨‍👩‍👧‍👦 Familial, spacieux et marin",
+            "public": "Familles cherchant l'autonomie et un grand espace à Alexandrie",
+            "style": "Chalet indépendant",
+            "verdict": "Une note de 9,6 exceptionnelle pour un séjour familial en bord de mer."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 38 expériences vécues · Mise à jour : 2026"
+    },
+    "Crystal pyramid inn": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/crystal-pyramid-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Établissement fabuleux à Gizeh / Le Caire avec parking gratuit, offre à durée limitée et petit-déjeuner compris.",
+        "prix_moyen": "168€ / semaine",
+        "avis": "9,3/10",
+        "points_positifs": [
+            "Fabuleux (9,3)",
+            "Confort de 9,2 avec parking gratuit",
+            "Petit-déjeuner inclus à prix promotionnel"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Populaire, soigné et économique",
+            "public": "Voyageurs cherchant un excellent standing près des pyramides",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un rapport qualité/prix imbattable (9,3/10) avec réduction."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 448 expériences vécues · Mise à jour : 2026"
+    },
+    "Pyramids Gate Hotel": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pyramids-gate.fr.html?aid=818289",
+        "image": "",
+        "description": "Hôtel fabuleux à Gizeh / Le Caire avec parking gratuit et chambres familiales.",
+        "prix_moyen": "316€ / semaine",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Fabuleux (9,2)",
+            "Parking gratuit et paiement sur place",
+            "Chambres familiales"
+        ],
+        "points_negatifs": [
+            "Prestations classiques"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Paiement sur place",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Pratique, familial et bien noté",
+            "public": "Familles visitant Gizeh",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une valeur sûre très bien notée par les voyageurs."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 727 expériences vécues · Mise à jour : 2026"
+    },
+    "Mak Pyramids View": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/mak-pyramids-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Établissement superbe à Gizeh avec parking gratuit, petit-déjeuner compris et formule tout compris disponible.",
+        "prix_moyen": "196€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe",
+            "Parking gratuit",
+            "Petit-déjeuner inclus et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Chambres économiques"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Économique et bien situé",
+            "public": "Petits budgets cherchant un parking et les repas inclus",
+            "style": "Hôtel simple",
+            "verdict": "Un choix très abordable pour loger à Gizeh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 365 expériences vécues · Mise à jour : 2026"
+    },
+    "Al Dora Boutique Hotel": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/al-dora-boutique.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hurghada, cet hôtel-boutique propose une piscine et une formule tout compris.",
+        "prix_moyen": "498€ / semaine",
+        "avis": "7,5/10",
+        "points_positifs": [
+            "Bien",
+            "Piscine et formule tout compris",
+            "Chambre triple deluxe climatisée"
+        ],
+        "points_negatifs": [
+            "Note un peu plus basse (7,5)"
+        ],
+        "equipements": [
+            "Piscine",
+            "Tout compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Balnéaire et simple",
+            "public": "Petits budgets cherchant le tout compris à Hurghada",
+            "style": "Hôtel-boutique balnéaire",
+            "verdict": "Une option économique pour des vacances au soleil."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 85 expériences vécues · Mise à jour : 2026"
+    },
+    "Dahab Bay hotel": {
+        "pays": "Égypte",
+        "ville": "Dahab",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/dahab-bay.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Dahab, cet établissement propose une piscine, un petit-déjeuner compris et une ambiance tout compris.",
+        "prix_moyen": "359€ / semaine",
+        "avis": "7,6/10",
+        "points_positifs": [
+            "Bien",
+            "Piscine et petit-déjeuner inclus",
+            "Cadre agréable à Dahab"
+        ],
+        "points_negatifs": [
+            "Prestations classiques"
+        ],
+        "equipements": [
+            "Piscine",
+            "Petit-déjeuner inclus",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🐠 Marin, détendu et abordable",
+            "public": "Voyageurs voulant profiter de Dahab sans se ruiner",
+            "style": "Hôtel de bord de mer",
+            "verdict": "Un pied-à-terre correct pour explorer Dahab."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 163 expériences vécues · Mise à jour : 2026"
+    },
+    "Fantazia Resort Marsa Alam": {
+        "pays": "Égypte",
+        "ville": "Marsa Alam",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/fantazia-resort-marsa-alam.fr.html?aid=818289",
+        "image": "",
+        "description": "Superbe resort 5 étoiles à Marsa Alam avec piscine, confort de 9,0 et formule tout compris.",
+        "prix_moyen": "1 718€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe",
+            "Confort de 9,0 avec prestations haut de gamme",
+            "Piscine et formule tout compris sans prépaiement requis"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "Piscine",
+            "Tout compris",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Luxueux, marin et détendu",
+            "public": "Amateurs de plongée et de farniente cherchant le standing 5 étoiles",
+            "style": "Resort balnéaire de luxe",
+            "verdict": "Une magnifique infrastructure pour un séjour d'exception à Marsa Alam."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 195 expériences vécues · Mise à jour : 2026"
+    },
+    "Blue Nile House": {
+        "pays": "Égypte",
+        "ville": "Louxor",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/blue-nile-house.fr.html?aid=818289",
+        "image": "",
+        "description": "Appartement fabuleux noté 9,3 sur la rive ouest à Louxor, avec piscine et petit-déjeuner compris.",
+        "prix_moyen": "298€ / semaine",
+        "avis": "9,3/10",
+        "points_positifs": [
+            "Fabuleux (9,3)",
+            "Confort de 9,5 avec piscine",
+            "Appartement de 80 m² avec cuisine et petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Situé sur la rive ouest"
+        ],
+        "equipements": [
+            "Piscine",
+            "Appartement 80 m²",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🌾 Spacieux, calme et culturel",
+            "public": "Familles cherchant un appartement indépendant avec piscine à Louxor",
+            "style": "Appartement de standing",
+            "verdict": "Un choix exceptionnel pour un séjour autonome et confortable à Louxor."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 504 expériences vécues · Mise à jour : 2026"
+    },
+    "Dolphin Continental Hotel": {
+        "pays": "Égypte",
+        "ville": "Al-Qusair",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/dolphin-continental.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Al-Qusair, cet hôtel propose une piscine, des chambres triples avec vue sur mer et une annulation gratuite.",
+        "prix_moyen": "324€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Très bien",
+            "Confort de 8,6 avec vue mer",
+            "Piscine"
+        ],
+        "points_negatifs": [
+            "Région isolée"
+        ],
+        "equipements": [
+            "Piscine",
+            "Vue mer",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Marin, calme et préservé",
+            "public": "Voyageurs cherchant le calme de la Mer Rouge hors des sentiers battus",
+            "style": "Hôtel de côte",
+            "verdict": "Une étape paisible le long de la côte égyptienne."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 103 expériences vécues · Mise à jour : 2026"
+    },
+    "Sofia Pyramids Hotel": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sofia-pyramids.fr.html?aid=818289",
+        "image": "",
+        "description": "Hôtel à Gizeh doté d'une piscine, d'une suite deluxe spacieuse de 45 m² et d'un petit-déjeuner compris.",
+        "prix_moyen": "213€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Bien",
+            "Piscine (rare pour un petit budget à Gizeh)",
+            "Suite deluxe de 45 m² et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Style classique"
+        ],
+        "equipements": [
+            "Piscine",
+            "Suite privée",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🏊 Pratique, spacieux et économique",
+            "public": "Familles voulant une suite avec piscine près des pyramides",
+            "style": "Hôtel avec piscine",
+            "verdict": "Une option intéressante pour avoir une suite avec piscine à petit prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 470 expériences vécues · Mise à jour : 2026"
+    },
+    "Royal Day Plaza Hotel": {
+        "pays": "Égypte",
+        "ville": "Ville du 6 Octobre",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/royal-day-plaza.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Ville du 6 Octobre, cet hôtel propose une piscine, des chambres familiales deluxe et un petit-déjeuner compris.",
+        "prix_moyen": "844€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Bien",
+            "Confort de 8,2 avec piscine",
+            "Chambre familiale deluxe et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Tarif un peu élevé"
+        ],
+        "equipements": [
+            "Piscine",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Moderne et résidentiel",
+            "public": "Familles cherchant un bon niveau de confort dans la grande banlieue",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Un séjour confortable dans un quartier moderne."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 012 expériences vécues · Mise à jour : 2026"
+    },
+    "The Muse Pyramids INN": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/the-muse-pyramids-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Hôtel à Gizeh avec bain à remous/jacuzzi, chambres triples deluxe et petit-déjeuner compris.",
+        "prix_moyen": "222€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien",
+            "Bain à remous / jacuzzi",
+            "Confort de 8,6 et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Prestations classiques"
+        ],
+        "equipements": [
+            "Jacuzzi",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🛁 Relaxant et très bien placé",
+            "public": "Couples cherchant un jacuzzi après les visites de Gizeh",
+            "style": "Hôtel de charme",
+            "verdict": "Un super choix avec jacuzzi pour un petit prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 822 expériences vécues · Mise à jour : 2026"
+    },
+    "Pyramids Hotel": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pyramids-hotel.fr.html?aid=818289",
+        "image": "",
+        "description": "Établissement à Gizeh avec parking gratuit et formule demi-pension (petit-déjeuner et dîner compris).",
+        "prix_moyen": "437€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Bien",
+            "Parking gratuit",
+            "Petit-déjeuner et dîner compris (demi-pension)"
+        ],
+        "points_negatifs": [
+            "Style simple"
+        ],
+        "equipements": [
+            "Parking gratuit",
+            "Demi-pension",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🍽️ Pratique et économique",
+            "public": "Voyageurs voulant ne pas se soucier des dîners près des pyramides",
+            "style": "Hôtel classique",
+            "verdict": "Pratique avec la demi-pension incluse."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 175 expériences vécues · Mise à jour : 2026"
+    },
+    "Grand Museum with Pyramids view inn": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/grand-museum-pyramids-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Établissement superbe à Gizeh avec bar, chambres quadruples de luxe et superbes vues.",
+        "prix_moyen": "331€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe",
+            "Confort de 9,0 avec chambres quadruples spacieuses",
+            "Bar, petit-déjeuner inclus et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Bar",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🍸 Moderne, spacieux et panoramique",
+            "public": "Familles et groupes cherchant de grands espaces près du Grand Musée",
+            "style": "Guesthouse moderne",
+            "verdict": "Une excellente option moderne et très bien notée."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 83 expériences vécues · Mise à jour : 2026"
+    },
+    "Town Hotel Cairo": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/town-hotel-cairo.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Garden City au Caire, cet hôtel propose un accès proche du métro, un confort de 8,3 et un petit-déjeuner compris.",
+        "prix_moyen": "409€ / semaine",
+        "avis": "7,8/10",
+        "points_positifs": [
+            "Bien",
+            "Proche du métro à Garden City (Le Caire)",
+            "Confort de 8,3 avec petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Animation urbaine"
+        ],
+        "equipements": [
+            "Proche métro",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central, urbain et pratique",
+            "public": "Touristes voulant explorer Le Caire à pied et en métro",
+            "style": "Hôtel de centre-ville",
+            "verdict": "Un emplacement central très pratique pour visiter la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 852 expériences vécues · Mise à jour : 2026"
+    },
+    "Monarque El Fatimi Mahdia": {
+        "pays": "Tunisie",
+        "ville": "Mahdia",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/monarque-fatimi-mahdia-mahdia1.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Mahdia à seulement 100 mètres de la plage, le Monarque El Fatimi propose une piscine et une formule tout compris très appréciée.",
+        "prix_moyen": "882€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien",
+            "Proximité immédiate de la plage (100 m)",
+            "Piscine et formule tout compris"
+        ],
+        "points_negatifs": [
+            "À 4,6 km du centre-ville"
+        ],
+        "equipements": [
+            "Piscine",
+            "Plage à proximité",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire, détendu et maritime",
+            "public": "Familles et couples cherchant un accès direct à la plage à Mahdia",
+            "style": "Hôtel de plage tout compris",
+            "verdict": "Un très bon choix pour profiter de la mer à petit prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 78 expériences vécues · Mise à jour : 2026"
+    },
+    "Iberostar Selection Royal El Mansour": {
+        "pays": "Tunisie",
+        "ville": "Mahdia",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/royal-el-mansour.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé en front de mer à Mahdia, l'Iberostar Selection Royal El Mansour offre un cadre superbe 5 étoiles avec piscine, confort supérieur et formule tout compris.",
+        "prix_moyen": "1 603€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe",
+            "Confort de 8,9 en front de mer",
+            "Formule tout compris et paiement sur place possible"
+        ],
+        "points_negatifs": [
+            "Tarifs plus élevés"
+        ],
+        "equipements": [
+            "Piscine",
+            "Front de mer",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, élégant et balnéaire",
+            "public": "Voyageurs exigeants cherchant le standing international à Mahdia",
+            "style": "Resort 5 étoiles les pieds dans l'eau",
+            "verdict": "La référence haut de gamme pour un séjour d'exception à Mahdia."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 340 expériences vécues · Mise à jour : 2026"
+    },
+    "Mahdia Palace Thalasso": {
+        "pays": "Tunisie",
+        "ville": "Mahdia",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/golden-tulip-mahdia-palace.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé en front de mer à Mahdia, le Mahdia Palace Thalasso propose un espace bien-être, une grande piscine et un cadre idéal pour la détente.",
+        "prix_moyen": "1 086€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Bien",
+            "Confort de 8,4 avec centre de thalasso",
+            "Front de mer et petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Établissement nécessitant parfois quelques rafraîchissements"
+        ],
+        "equipements": [
+            "Piscine",
+            "Centre de thalassothérapie",
+            "Front de mer"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Bien-être, détente et relaxation",
+            "public": "Amateurs de cures thermales et de thalassothérapie en bord de mer",
+            "style": "Hôtel thermal et balnéaire",
+            "verdict": "Une bonne option axée sur le bien-être à Mahdia."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 259 expériences vécues · Mise à jour : 2026"
+    },
+    "El Mouradi Mahdia": {
+        "pays": "Tunisie",
+        "ville": "Mahdia",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-mouradi-mahdia.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé en front de mer à Mahdia, l'El Mouradi Mahdia propose une piscine, des chambres familiales et une formule tout compris.",
+        "prix_moyen": "866€ / semaine",
+        "avis": "6,0/10",
+        "points_positifs": [
+            "Situation en front de mer",
+            "Piscine extérieure",
+            "Formule tout compris"
+        ],
+        "points_negatifs": [
+            "Note globale modeste",
+            "Nécessite des rafraîchissements"
+        ],
+        "equipements": [
+            "Piscine",
+            "Front de mer",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Grand complexe balnéaire et animé",
+            "public": "Petits budgets recherchant un grand hôtel club en bord de mer",
+            "style": "Hôtel club traditionnel",
+            "verdict": "Un choix économique pour profiter de la plage à Mahdia."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 399 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Nour Palace Resort & Thalasso Mahdia": {
+        "pays": "Tunisie",
+        "ville": "Mahdia",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/nour-palace-resort-thalasso.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé en front de mer à Mahdia, le Nour Palace Resort & Thalasso propose un centre de thalassothérapie, une piscine et un cadre tout compris.",
+        "prix_moyen": "1 757€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Front de mer avec accès direct",
+            "Centre de thalassothérapie et bien-être",
+            "Confort de 8,2 avec piscine"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés en haute saison"
+        ],
+        "equipements": [
+            "Piscine",
+            "Centre de thalassothérapie",
+            "Tout compris",
+            "Dîner compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Luxueux, thermal et reposant",
+            "public": "Amateurs de détente, de soins et de grands espaces balnéaires",
+            "style": "Resort 5 étoiles avec thalasso",
+            "verdict": "Une belle infrastructure pour un séjour de bien-être à Mahdia."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 51 expériences vécues · Mise à jour : 2026"
+    },
+    "El Mouradi Cap Mahdia": {
+        "pays": "Tunisie",
+        "ville": "Mahdia",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-mouradi-cap-mahdia.fr.html?aid=818289",
+        "image": "",
+        "description": "Proche du centre de Mahdia et situé en front de mer, l'El Mouradi Cap Mahdia propose une piscine et une formule tout compris.",
+        "prix_moyen": "807€ / semaine",
+        "avis": "6,6/10",
+        "points_positifs": [
+            "Proche du centre-ville (0,8 km)",
+            "Situation directe en front de mer",
+            "Formule tout compris"
+        ],
+        "points_negatifs": [
+            "Infrastructures anciennes",
+            "Note modérée des voyageurs"
+        ],
+        "equipements": [
+            "Piscine",
+            "Front de mer",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🏖️ Balnéaire simple et accessible",
+            "public": "Voyageurs cherchant un club de vacances abordable près du centre",
+            "style": "Hôtel club 3 étoiles",
+            "verdict": "Une option économique pour un séjour les pieds dans l'eau."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 269 expériences vécues · Mise à jour : 2026"
+    },
+    "El Mehdi Beach Resort ex Primasol El Mehdi": {
+        "pays": "Tunisie",
+        "ville": "Mahdia",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/primasol-el-mehdi.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé en front de mer à Mahdia, cet important resort propose des piscines, de l'animation et une formule tout compris.",
+        "prix_moyen": "1 481€ / semaine",
+        "avis": "7,2/10",
+        "points_positifs": [
+            "Situation idéale en front de mer",
+            "Bon confort général (8,3)",
+            "Formule tout compris très animée"
+        ],
+        "points_negatifs": [
+            "Complexe très fréquenté en été"
+        ],
+        "equipements": [
+            "Piscine",
+            "Front de mer",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🎉 Animé, familial et festif",
+            "public": "Familles cherchant des clubs de vacances animés avec tout sur place",
+            "style": "Resort club familial",
+            "verdict": "Un grand classique vivant pour des vacances sans souci."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 30 expériences vécues · Mise à jour : 2026"
+    },
+    "Caribbean World Mahdia": {
+        "pays": "Tunisie",
+        "ville": "Mahdia",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/caribbean-world-mahdia.fr.html?aid=818289",
+        "image": "",
+        "description": "Complexe hôtelier à thème situé en front de mer à Mahdia, proposant de grands espaces aquatiques et extérieurs.",
+        "prix_moyen": "1 590€ / semaine",
+        "avis": "5,8/10",
+        "points_positifs": [
+            "Grandes piscines extérieures",
+            "Accès direct à la plage",
+            "Ambiance club"
+        ],
+        "points_negatifs": [
+            "Notes des clients mitigées",
+            "Nécessite une modernisation"
+        ],
+        "equipements": [
+            "Piscine",
+            "Front de mer",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Vaste et dépaysant",
+            "public": "Pour les amateurs de grands complexes de vacances",
+            "style": "Hôtel club thématique",
+            "verdict": "Un choix orienté sur les grands espaces aquatiques."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 28 expériences vécues · Mise à jour : 2026"
+    },
+    "Thapsus Beach Resort": {
+        "pays": "Tunisie",
+        "ville": "Mahdia",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/thapsus-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Hôtel de plage situé à Mahdia offrant un accès direct au front de mer, une piscine et une formule tout compris.",
+        "prix_moyen": "1 033€ / semaine",
+        "avis": "3,5/10",
+        "points_positifs": [
+            "Situation en front de mer",
+            "Piscine extérieure",
+            "Formule tout compris"
+        ],
+        "points_negatifs": [
+            "Notes clients faibles",
+            "Prestations très basiques"
+        ],
+        "equipements": [
+            "Piscine",
+            "Front de mer",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Simple et balnéaire",
+            "public": "Petits budgets cherchant un hôtel de plage sans exigence particulière",
+            "style": "Hôtel de côte économique",
+            "verdict": "Une option de dernier recours axée uniquement sur le prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 4 expériences vécues · Mise à jour : 2026"
+    },
+    "Thapsus Beach Resort": {
+        "pays": "Tunisie",
+        "ville": "Mahdia",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/thapsus-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Hôtel de plage situé à Mahdia offrant un accès direct au front de mer, une piscine et une formule tout compris.",
+        "prix_moyen": "1 033€ / semaine",
+        "avis": "3,5/10",
+        "points_positifs": [
+            "Situation en front de mer",
+            "Piscine extérieure",
+            "Formule tout compris"
+        ],
+        "points_negatifs": [
+            "Notes clients faibles",
+            "Prestations très basiques"
+        ],
+        "equipements": [
+            "Piscine",
+            "Front de mer",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Simple et balnéaire",
+            "public": "Petits budgets cherchant un hôtel de plage sans exigence particulière",
+            "style": "Hôtel de côte économique",
+            "verdict": "Une option de dernier recours axée uniquement sur le prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 4 expériences vécues · Mise à jour : 2026"
+    },
+    "Meliá El Mansour Mahdia": {
+        "pays": "Tunisie",
+        "ville": "Mahdia",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/melia-el-mansour-mahdia.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé en front de mer à Mahdia, le Meliá El Mansour propose des prestations luxueuses, de grands espaces piscines et une formule tout compris de qualité.",
+        "prix_moyen": "1 400€ - 1 800€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Prestations haut de gamme de la chaîne Meliá",
+            "Magnifique front de mer",
+            "Grandes piscines et espaces verts"
+        ],
+        "points_negatifs": [
+            "Tarifs plus élevés en haute saison"
+        ],
+        "equipements": [
+            "Piscine",
+            "Front de mer",
+            "Tout compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Élégant, luxueux et détendu",
+            "public": "Voyageurs recherchant un service international et soigné à Mahdia",
+            "style": "Resort 5 étoiles",
+            "verdict": "Une valeur sûre pour un séjour tout compris de standing à Mahdia."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base des retours voyageurs · Mise à jour : 2026"
+    },
+    "Mövenpick Resort & Marine Spa Sousse": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/movenpick-resort-marine-spa-sousse.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé en front de mer à Sousse, ce prestigieux resort 5 étoiles propose un centre de thalasso et de marine spa de premier plan.",
+        "prix_moyen": "736€ / semaine",
+        "avis": "7,5/10",
+        "points_positifs": [
+            "Front de mer avec accès direct",
+            "Certificat de durabilité",
+            "Marine spa et prestations luxueuses"
+        ],
+        "points_negatifs": [
+            "Forte affluence en haute saison"
+        ],
+        "equipements": [
+            "Piscine",
+            "Front de mer",
+            "Spa / Thalasso",
+            "Certificat de durabilité"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, marin et relaxant",
+            "public": "Voyageurs cherchant un standing international et un spa de qualité à Sousse",
+            "style": "Resort 5 étoiles",
+            "verdict": "Une adresse incontournable pour un séjour haut de gamme en front de mer."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 941 expériences vécues · Mise à jour : 2026"
+    },
+    "TUI BLUE Scheherazade Adults Only - All Inclusive": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/tui-blue-scheherazade-adults-only.fr.html?aid=818289",
+        "image": "",
+        "description": "Réservé exclusivement aux adultes et situé en front de mer à Sousse, cet hôtel propose une formule tout compris haut de gamme.",
+        "prix_moyen": "1 267€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Réservé aux adultes (cadre calme et reposant)",
+            "Situation directe en front de mer",
+            "Formule tout compris de qualité"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "Piscine",
+            "Front de mer",
+            "Tout compris",
+            "Adults Only"
+        ],
+        "pour_qui": {
+            "ambiance": "🍸 Calme, adulte et raffiné",
+            "public": "Couples et adultes cherchant un séjour balnéaire sans enfants",
+            "style": "Resort adults only",
+            "verdict": "L'endroit idéal pour se reposer au calme en bord de mer à Sousse."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 462 expériences vécues · Mise à jour : 2026"
+    },
+    "Occidental Sousse Marhaba": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/occidental-sousse-marhaba.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé en front de mer à Sousse, l'Occidental Sousse Marhaba offre un cadre très bien noté avec piscine et formule tout compris.",
+        "prix_moyen": "1 057€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Situation en front de mer",
+            "Annulation gratuite et paiement sur place possible"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Piscine",
+            "Front de mer",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire, vivant et confortable",
+            "public": "Familles et couples cherchant une valeur sûre en tout compris",
+            "style": "Resort club 4 étoiles",
+            "verdict": "Un excellent choix polyvalent pour des vacances réussies à Sousse."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 455 expériences vécues · Mise à jour : 2026"
+    },
+    "Riadh Palms- Resort & Spa": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/riadh-palms-resort-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé en front de mer à proximité du centre de Sousse, le Riadh Palms propose un grand complexe avec piscine, spa et petit-déjeuner inclus.",
+        "prix_moyen": "774€ / semaine",
+        "avis": "6,7/10",
+        "points_positifs": [
+            "Proche du centre (1,7 km)",
+            "Front de mer",
+            "Grandes infrastructures avec piscine et spa"
+        ],
+        "points_negatifs": [
+            "Hôtel très grand et très fréquenté"
+        ],
+        "equipements": [
+            "Piscine",
+            "Spa",
+            "Front de mer",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Animé, grand format et populaire",
+            "public": "Voyageurs cherchant un grand hôtel central à prix correct",
+            "style": "Hôtel club urbain",
+            "verdict": "Une option vivante et bien placée pour profiter de Sousse."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 677 expériences vécues · Mise à jour : 2026"
+    },
+    "Sousse Pearl Marriott Resort & Spa": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/sousse-pearl-marriott-resort-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Superbe resort 5 étoiles de la chaîne Marriott en front de mer à Sousse, offrant un confort exceptionnel et un spa.",
+        "prix_moyen": "1 182€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Standard international Marriott",
+            "Confort de 8,9 en front de mer",
+            "Piscine, spa et formule tout compris disponible"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "Piscine",
+            "Spa",
+            "Front de mer",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, moderne et soigné",
+            "public": "Clientèle exigeante et familles cherchant un service de grande qualité",
+            "style": "Resort international 5 étoiles",
+            "verdict": "Une adresse prestigieuse et très bien notée à Sousse."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 567 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Marhaba Beach": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/marhaba-beach.fr.html?aid=818289",
+        "image": "",
+        "description": "Très bien noté (9,0/10), l'Hotel Marhaba Beach propose un cadre fabuleux en front de mer avec une formule tout compris et un grand confort.",
+        "prix_moyen": "1 391€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel (9,2)",
+            "Situation en front de mer avec tout compris"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Piscine",
+            "Front de mer",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🌟 Haut de gamme, relaxant et marin",
+            "public": "Familles et couples cherchant l'un des meilleurs hôtels de la station",
+            "style": "Resort de plage de premier ordre",
+            "verdict": "Une excellente note de 9,0 qui garantit un séjour de qualité."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 994 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Soussana": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/soussana.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à seulement 500 mètres de la plage et proche du centre de Sousse, l'Hotel Soussana propose un tarif très abordable avec petit-déjeuner compris.",
+        "prix_moyen": "359€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Proche de la plage (500 m)",
+            "Très bon rapport qualité-prix",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Prestations simples"
+        ],
+        "equipements": [
+            "Plage à proximité",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Économique et pratique",
+            "public": "Petits budgets cherchant un hôtel correct près de la mer à Sousse",
+            "style": "Hôtel de tourisme simple",
+            "verdict": "Un choix malin pour profiter de Sousse sans se ruiner."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 391 expériences vécues · Mise à jour : 2026"
+    },
+    "Tour Khalef": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/tour-khalef.fr.html?aid=818289",
+        "image": "",
+        "description": "Grand hôtel club superbe situé en front de mer à Sousse, offrant un excellent confort (9,1) et une formule tout compris.",
+        "prix_moyen": "1 882€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort de 9,1 avec grands espaces verts",
+            "Front de mer et tout compris"
+        ],
+        "points_negatifs": [
+            "Tarifs plus élevés"
+        ],
+        "equipements": [
+            "Piscine",
+            "Front de mer",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🌳 Spacieux, verdoyant et balnéaire",
+            "public": "Familles cherchant un resort réputé avec de superbes parcs",
+            "style": "Hôtel club de renom",
+            "verdict": "Une valeur sûre très appréciée pour sa qualité de service."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 473 expériences vécues · Mise à jour : 2026"
+    },
+    "Sousse Palace Hotel & Spa": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/sousse-palace-hotel-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Idéalement situé à seulement 250 mètres du centre de Sousse et en front de mer, cet hôtel propose un spa et un accès direct.",
+        "prix_moyen": "962€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Emplacement central ultra pratique (250 m du centre)",
+            "Front de mer",
+            "Spa et chambres avec balcon"
+        ],
+        "points_negatifs": [
+            "Affluence urbaine"
+        ],
+        "equipements": [
+            "Piscine",
+            "Spa",
+            "Front de mer",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central, marin et confortable",
+            "public": "Voyageurs voulant combiner la plage et la vie du centre-ville de Sousse",
+            "style": "Hôtel de centre-ville balnéaire",
+            "verdict": "Parfait pour tout faire à pied entre la ville et la mer."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 501 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Ennassim": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/ennassim-sousse.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à 100 mètres de la plage et à 1 km du centre de Sousse, cet hôtel propose un petit-déjeuner compris très économique.",
+        "prix_moyen": "270€ / semaine",
+        "avis": "7,3/10",
+        "points_positifs": [
+            "Proximité immédiate de la plage (100 m)",
+            "Prix très bas",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Prestations basiques"
+        ],
+        "equipements": [
+            "Plage à proximité",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Simple, économique et balnéaire",
+            "public": "Petits budgets cherchant un hôtel au plus près de la plage",
+            "style": "Hôtel de côte",
+            "verdict": "Un plan très économique pour un accès rapide à la mer."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 344 expériences vécues · Mise à jour : 2026"
+    },
+    "El Ksar Resort & Spa- Family Hotel": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-ksar-resort-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé en front de mer à Sousse, cet hôtel familial propose une formule tout compris et des espaces de détente.",
+        "prix_moyen": "907€ / semaine",
+        "avis": "5,9/10",
+        "points_positifs": [
+            "Situation en front de mer",
+            "Formule tout compris",
+            "Piscine et espaces extérieurs"
+        ],
+        "points_negatifs": [
+            "Notes clients mitigées"
+        ],
+        "equipements": [
+            "Piscine",
+            "Front de mer",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Familial et vaste",
+            "public": "Petits budgets cherchant un grand resort tout compris",
+            "style": "Hôtel club",
+            "verdict": "Une option économique pour un séjour tout compris en bord de mer."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 180 expériences vécues · Mise à jour : 2026"
+    },
+    "HOTEL KAISER": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/kaiser-sousse.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à 550 mètres de la plage et à 1,9 km du centre, l'Hôtel Kaiser propose des chambres économiques avec petit-déjeuner.",
+        "prix_moyen": "356€ / semaine",
+        "avis": "6,8/10",
+        "points_positifs": [
+            "Proche de la plage",
+            "Tarif attractif",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Style ancien"
+        ],
+        "equipements": [
+            "Plage à proximité",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Simple et économique",
+            "public": "Voyageurs cherchant un hébergement sans prétention près de la plage",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une alternative basique pour un petit budget."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 156 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Paris": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/paris-sousse.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé en plein cœur de la Médina de Sousse, l'Hotel Paris offre un charme authentique à deux pas du centre et de la plage.",
+        "prix_moyen": "139€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2) pour sa catégorie",
+            "En plein cœur de la Médina",
+            "Prix extrêmement bas"
+        ],
+        "points_negatifs": [
+            "Salle de bains commune pour certaines chambres"
+        ],
+        "equipements": [
+            "Médina",
+            "Proche plage (400 m)",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel, authentique et très économique",
+            "public": "Routards et voyageurs voulant loger dans la Médina historique",
+            "style": "Auberge / hôtel historique",
+            "verdict": "Imbattable pour les petits budgets au cœur de la vieille ville."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 688 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Marabout - Families and Couples Only": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/marabout-sousse.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé en front de mer à Sousse et réservé aux familles et couples, cet hôtel propose un accès direct à la plage et un petit-déjeuner inclus.",
+        "prix_moyen": "406€ / semaine",
+        "avis": "5,3/10",
+        "points_positifs": [
+            "Situation directe en front de mer",
+            "Petit-déjeuner inclus",
+            "Réservé aux familles et couples"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Front de mer",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire et familial",
+            "public": "Petits budgets cherchant un hôtel de plage en formule famille/couple",
+            "style": "Hôtel de côte",
+            "verdict": "Une option économique en front de mer à Sousse."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 224 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Medina": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/medina-sousse.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à 200 mètres du centre dans la Médina de Sousse et proche de la plage, cet hôtel propose un cadre très bien noté avec petit-déjeuner.",
+        "prix_moyen": "284€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort de 8,5 au cœur de la Médina",
+            "Proche de la plage (450 m) et petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Style traditionnel urbain"
+        ],
+        "equipements": [
+            "Médina",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel, authentique et très bien noté",
+            "public": "Voyageurs voulant explorer la vieille ville et profiter d'un bon confort",
+            "style": "Hôtel de centre-ville",
+            "verdict": "Une excellente adresse au cœur de Sousse pour un tarif très raisonnable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 927 expériences vécues · Mise à jour : 2026"
+    },
+    "Cesar Palace Sousse": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/cesar-palace-sousse.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé en front de mer à Sousse, le Cesar Palace propose des chambres doubles climatisées avec un accès direct à la plage.",
+        "prix_moyen": "426€ / semaine",
+        "avis": "5,3/10",
+        "points_positifs": [
+            "Situation en front de mer",
+            "Proche des animations de la station",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Notes clients mitigées"
+        ],
+        "equipements": [
+            "Front de mer",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Festif et balnéaire",
+            "public": "Voyageurs cherchant un hôtel de front de mer accessible",
+            "style": "Hôtel club",
+            "verdict": "Une option de séjour simple les pieds dans l'eau."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 335 expériences vécues · Mise à jour : 2026"
+    },
+    "El Kantaoui Center": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-kantaoui-center.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à 7,6 km du centre de Sousse et à 300 mètres de la plage, cet hôtel propose un cadre confortable avec climatisation.",
+        "prix_moyen": "372€ / semaine",
+        "avis": "4,4/10",
+        "points_positifs": [
+            "Proche de la plage (300 m)",
+            "Tarif attractif",
+            "Chambre double standard climatisée"
+        ],
+        "points_negatifs": [
+            "Notes de satisfaction faibles"
+        ],
+        "equipements": [
+            "Plage à proximité",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏖️ Simple et économique",
+            "public": "Petits budgets cherchant un hôtel de zone côtière",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une solution de secours orientée sur le prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 14 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Royal Jinene Beach & Spa": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/royal-jinene-beach-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé en front de mer à 4,5 km du centre de Sousse, cet établissement dispose d'un spa, d'une piscine et d'un petit-déjeuner inclus.",
+        "prix_moyen": "883€ / semaine",
+        "avis": "6,0/10",
+        "points_positifs": [
+            "Situation en front de mer",
+            "Présence d'un spa",
+            "Petit-déjeuner inclus et paiement sur place possible"
+        ],
+        "points_negatifs": [
+            "Infrastructures classiques"
+        ],
+        "equipements": [
+            "Front de mer",
+            "Spa",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Balnéaire et relaxant",
+            "public": "Voyageurs cherchant un hôtel de plage avec services de bien-être",
+            "style": "Hôtel balnéaire",
+            "verdict": "Un choix correct pour combiner mer et détente."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 269 expériences vécues · Mise à jour : 2026"
+    },
+    "Kanta Resort and Spa": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/kanta-resort-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à 8,3 km du centre de Sousse et à 150 mètres de la plage, ce resort propose un espace spa et des chambres doubles confortables.",
+        "prix_moyen": "577€ / semaine",
+        "avis": "5,1/10",
+        "points_positifs": [
+            "Proche de la plage (150 m)",
+            "Espace spa et détente",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Notes clients mitigées"
+        ],
+        "equipements": [
+            "Spa",
+            "Plage à proximité",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Détente et proximité de la mer",
+            "public": "Voyageurs cherchant un hôtel spacieux un peu à l'écart du centre",
+            "style": "Resort de côte",
+            "verdict": "Une alternative abordable près de la plage."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 43 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Archipel": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/archipel-monastir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Monastir (à 9 km de Sousse) en front de mer, l'Hôtel Archipel offre un très bon confort (8,2) avec petit-déjeuner inclus.",
+        "prix_moyen": "396€ / semaine",
+        "avis": "7,6/10",
+        "points_positifs": [
+            "Très bon confort (8,2)",
+            "Situation directe en front de mer",
+            "Petit-déjeuner inclus et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Situé à Monastir (à l'écart de Sousse)"
+        ],
+        "equipements": [
+            "Front de mer",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Marin, calme et confortable",
+            "public": "Voyageurs flexibles sur l'emplacement cherchant un bon rapport qualité-prix en bord de mer",
+            "style": "Hôtel de côte",
+            "verdict": "Une excellente option proche de Monastir avec de très bons avis de confort."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 53 expériences vécues · Mise à jour : 2026"
+    },
+    "Iberostar Selection Diar El Andalous": {
+        "pays": "Tunisie",
+        "ville": "Port El-Kantaoui",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/iberostar-selection-diar-el-andalous.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Port El-Kantaoui (9,5 km de Sousse) en front de mer, cet hôtel 5 étoiles affiche une note fabuleuse de 9,1 avec un confort irréprochable (9,3).",
+        "prix_moyen": "1 348€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel (9,3)",
+            "Front de mer et formule tout compris haut de gamme"
+        ],
+        "points_negatifs": [
+            "Tarifs plus élevés"
+        ],
+        "equipements": [
+            "Piscine",
+            "Front de mer",
+            "Tout compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, élégant et soigné",
+            "public": "Clientèle exigeante cherchant le standing international 5 étoiles",
+            "style": "Resort de luxe tout compris",
+            "verdict": "Une adresse exceptionnelle pour un séjour de haut standing près de Sousse."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 940 expériences vécues · Mise à jour : 2026"
+    },
+    "Shems Holiday Village & Aquapark": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/shems-holiday-village.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Monastir (8,3 km de Sousse) en front de mer, ce village de vacances propose des bungalows, un parc aquatique et la demi-pension.",
+        "prix_moyen": "729€ / semaine",
+        "avis": "7,4/10",
+        "points_positifs": [
+            "Présence d'un parc aquatique / aquapark",
+            "Situation en front de mer",
+            "Petit-déjeuner et dîner compris (demi-pension)"
+        ],
+        "points_negatifs": [
+            "Éloigné de Sousse-centre"
+        ],
+        "equipements": [
+            "Parc aquatique",
+            "Front de mer",
+            "Demi-pension"
+        ],
+        "pour_qui": {
+            "ambiance": "🎢 Ludique, familial et aquatique",
+            "public": "Familles cherchant des toboggans et des loisirs sur place",
+            "style": "Village club avec aquapark",
+            "verdict": "Un super plan familial pour s'amuser dans l'eau."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 73 expériences vécues · Mise à jour : 2026"
+    },
+    "Golf Residence- Families and Couples Only": {
+        "pays": "Tunisie",
+        "ville": "Hammam Sousse",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/golf-residence-hammam-sousse.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammam Sousse (8,3 km de Sousse) et réservé aux familles et couples, cet hôtel propose un cadre proche de la plage avec demi-pension.",
+        "prix_moyen": "490€ / semaine",
+        "avis": "5,2/10",
+        "points_positifs": [
+            "Proche de la plage (150 m)",
+            "Réservé aux familles et couples",
+            "Petit-déjeuner et dîner compris (demi-pension)"
+        ],
+        "points_negatifs": [
+            "Notes clients modérées"
+        ],
+        "equipements": [
+            "Plage à proximité",
+            "Demi-pension",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Calme et familial",
+            "public": "Familles et couples cherchant un séjour avec repas inclus près de la plage",
+            "style": "Hôtel de côte",
+            "verdict": "Une option correcte avec demi-pension à Hammam Sousse."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 24 expériences vécues · Mise à jour : 2026"
+    },
+    "Blumar Resort & Spa": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/blumar-resort-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, le Blumar Resort & Spa propose un cadre très bien noté avec tous les repas compris (pension complète ou tout compris).",
+        "prix_moyen": "470€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Tous les repas compris",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Tous les repas compris",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Confortable, détendu et complet",
+            "public": "Voyageurs cherchant un séjour tout compris de qualité à Hammamet",
+            "style": "Resort balnéaire",
+            "verdict": "Un excellent rapport qualité-prix avec les repas inclus."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 325 expériences vécues · Mise à jour : 2026"
+    },
+    "Palm Beach Club Djerba - All Inclusive": {
+        "pays": "Tunisie",
+        "ville": "Midoun",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/palm-beach-club-djerba.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Midoun (Djerba), le Palm Beach Club propose une formule tout compris et des chambres avec vue sur jardin.",
+        "prix_moyen": "881€ / semaine",
+        "avis": "7,0/10",
+        "points_positifs": [
+            "Formule tout compris",
+            "Ambiance club de vacances",
+            "Cadre verdoyant à Djerba"
+        ],
+        "points_negatifs": [
+            "Notes clients mitigées"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Climatisation",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Club de vacances, animé",
+            "public": "Familles cherchant une formule tout compris à Djerba",
+            "style": "Club de vacances",
+            "verdict": "Une option classique pour des vacances animées sur l'île."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 84 expériences vécues · Mise à jour : 2026"
+    },
+    "TMK Flora Park by Turismark - Adults Only": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/tmk-flora-park-adults-only.fr.html?aid=818289",
+        "image": "",
+        "description": "Réservé aux adultes et situé à Hammamet, cet hôtel propose un cadre calme avec demi-pension (petit-déjeuner et dîner compris).",
+        "prix_moyen": "548€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Réservé aux adultes (cadre calme)",
+            "Demi-pension incluse",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Grand nombre d'expériences mais confort standard"
+        ],
+        "equipements": [
+            "Adults Only",
+            "Demi-pension",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🍸 Calme, adulte et reposant",
+            "public": "Couples cherchant un hôtel sans enfants à Hammamet",
+            "style": "Hôtel adults only",
+            "verdict": "Un choix agréable pour un séjour au calme."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 246 expériences vécues · Mise à jour : 2026"
+    },
+    "Al Jazira Beach & Spa- All Inclusive - Families and Couples Only": {
+        "pays": "Tunisie",
+        "ville": "Houmt Souk",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/al-jazira-beach-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Houmt Souk (Djerba) et réservé aux familles et couples, cet hôtel propose une formule tout compris et un espace spa.",
+        "prix_moyen": "638€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort de 8,8 avec spa",
+            "Formule tout compris, réservé aux familles et couples"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Spa",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Familial, chaleureux et tout compris",
+            "public": "Familles et couples cherchant un club bien noté à Djerba",
+            "style": "Club de vacances",
+            "verdict": "Une très bonne option tout compris sur l'île de Djerba."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 858 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Bel Azur Thalasso & Bungalows": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/bel-azur-thalasso-bungalows.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet avec un certificat de durabilité, cet hôtel propose des bungalows, un centre de thalasso et la demi-pension.",
+        "prix_moyen": "672€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Certificat de durabilité",
+            "Centre de thalassothérapie et bungalows"
+        ],
+        "points_negatifs": [
+            "Disponibilité limitée"
+        ],
+        "equipements": [
+            "Thalasso / Spa",
+            "Certificat de durabilité",
+            "Demi-pension"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Vert, deAteint et éco-responsable",
+            "public": "Amateurs de thalasso et de calme à Hammamet",
+            "style": "Resort de thalasso",
+            "verdict": "Une valeur sûre réputée pour ses soins et son cadre."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 665 expériences vécues · Mise à jour : 2026"
+    },
+    "The Mirage Resort & SPA": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/the-mirage-resort-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, The Mirage Resort & SPA propose des bungalows spacieux de 40 m² en formule tout compris.",
+        "prix_moyen": "1 069€ / semaine",
+        "avis": "7,8/10",
+        "points_positifs": [
+            "Confort de 8,2 avec bungalows privatifs",
+            "Formule tout compris",
+            "Cadre spacieux"
+        ],
+        "points_negatifs": [
+            "Tarifs plus élevés"
+        ],
+        "equipements": [
+            "Bungalow entier",
+            "Tout compris",
+            "Spa"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Spacieux et verdoyant",
+            "public": "Familles cherchant l'intimité d'un bungalow en tout compris",
+            "style": "Resort de bungalows",
+            "verdict": "Un superbe cadre de verdure pour un séjour tout compris."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 725 expériences vécues · Mise à jour : 2026"
+    },
+    "AQI Venus Beach": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/aqi-venus-beach.fr.html?aid=818289",
+        "image": "",
+        "description": "Très bien noté (9,2/10), l'AQI Venus Beach à Hammamet propose un cadre fabuleux en formule tout compris avec un excellent confort.",
+        "prix_moyen": "911€ / semaine",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Fabuleux (9,2)",
+            "Confort exceptionnel (9,0)",
+            "Formule tout compris de qualité"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌟 Haut de gamme, vivant et soigné",
+            "public": "Voyageurs cherchant l'un des meilleurs clubs de vacances de Hammamet",
+            "style": "Club de vacances 4 étoiles",
+            "verdict": "Une note de 9,2 qui garantit des vacances réussies."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 285 expériences vécues · Mise à jour : 2026"
+    },
+    "Sol Azur": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/sol-azur.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, le Sol Azur propose des chambres avec vue sur mer et un petit-déjeuner inclus.",
+        "prix_moyen": "602€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Chambres avec vue sur mer",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Dernières chambres disponibles à ce tarif"
+        ],
+        "equipements": [
+            "Vue mer",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Marin, classique et confortable",
+            "public": "Couples cherchant une belle vue mer à Hammamet",
+            "style": "Hôtel balnéaire",
+            "verdict": "Une option de choix pour profiter d'un panorama maritime."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 042 expériences vécues · Mise à jour : 2026"
+    },
+    "TUI BLUE Palm Beach Hammamet - All inclusive": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/tui-blue-palm-beach-hammamet.fr.html?aid=818289",
+        "image": "",
+        "description": "Superbe hôtel club (8,7/10) situé à Hammamet avec un confort de 9,2 et une formule tout compris haut de gamme.",
+        "prix_moyen": "1 345€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort de 9,2",
+            "Formule tout compris soignée"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Chic, moderne et détendu",
+            "public": "Voyageurs cherchant un standing supérieur en formule tout compris",
+            "style": "Resort club 4 étoiles",
+            "verdict": "Un des hôtels les plus recommandés pour son confort à Hammamet."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 188 expériences vécues · Mise à jour : 2026"
+    },
+    "TMK L'Atrium Yasmine by Turismark": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/tmk-latrium-yasmine.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet Yasmine, cet hôtel propose une formule tout compris avec annulation gratuite et paiement sur place.",
+        "prix_moyen": "649€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Formule tout compris",
+            "Paiement sur place possible"
+        ],
+        "points_negatifs": [
+            "Infrastructures classiques"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Animé et pratique",
+            "public": "Familles cherchant un tout compris bien placé à Yasmine Hammamet",
+            "style": "Hôtel club",
+            "verdict": "Un bon choix fonctionnel pour des vacances sans stress."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 289 expériences vécues · Mise à jour : 2026"
+    },
+    "Djerba Holiday Beach": {
+        "pays": "Tunisie",
+        "ville": "Midoun",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/djerba-holiday-beach.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Midoun (Djerba), le Djerba Holiday Beach propose une piscine, des chambres avec vue et un petit-déjeuner inclus.",
+        "prix_moyen": "662€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Chambres vue piscine",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Prestations de base"
+        ],
+        "equipements": [
+            "Piscine",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Ensoleillé et détendu",
+            "public": "Voyageurs cherchant un hôtel abordable à Djerba",
+            "style": "Hôtel de côte",
+            "verdict": "Une option correcte pour découvrir Djerba."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 455 expériences vécues · Mise à jour : 2026"
+    },
+    "Iberostar Waves Averroes": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/iberostar-waves-averroes.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet avec un certificat de durabilité, cet hôtel de la chaîne Iberostar propose une formule tout compris très appréciée.",
+        "prix_moyen": "1 127€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Standards de qualité Iberostar",
+            "Certificat de durabilité",
+            "Formule tout compris et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Tarifs plus élevés"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Certificat de durabilité",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Professionnel, soigné et qualitatif",
+            "public": "Familles et couples cherchant la garantie d'un grand groupe hôtelier",
+            "style": "Resort 4 étoiles",
+            "verdict": "Une valeur sûre pour un séjour tout compris sans mauvaise surprise."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 504 expériences vécues · Mise à jour : 2026"
+    },
+    "Eden Yasmine Resort & Spa": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/eden-yasmine-resort-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet Yasmine, l'Eden Yasmine Resort & Spa propose un espace bien-être et une formule tout compris.",
+        "prix_moyen": "632€ / semaine",
+        "avis": "7,5/10",
+        "points_positifs": [
+            "Présence d'un spa",
+            "Formule tout compris",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Notes clients moyennes"
+        ],
+        "equipements": [
+            "Spa",
+            "Tout compris",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Détente et loisirs",
+            "public": "Petits budgets cherchant un hôtel avec spa à Yasmine Hammamet",
+            "style": "Hôtel club avec spa",
+            "verdict": "Une alternative abordable pour combiner tout compris et détente."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 381 expériences vécues · Mise à jour : 2026"
+    },
+    "Golden Tulip Président Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/golden-tulip-president-hammamet.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, ce complexe propose des bungalows doubles avec vue sur jardin et un petit-déjeuner inclus.",
+        "prix_moyen": "528€ / semaine",
+        "avis": "7,4/10",
+        "points_positifs": [
+            "Bungalows privatifs avec vue sur jardin",
+            "Petit-déjeuner inclus",
+            "Cadre verdoyant"
+        ],
+        "points_negatifs": [
+            "Infrastructures traditionnelles"
+        ],
+        "equipements": [
+            "Bungalow double",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌳 Verdoyant, calme et simple",
+            "public": "Voyageurs cherchant l'ambiance d'un village de bungalows à Hammamet",
+            "style": "Village de bungalows",
+            "verdict": "Un séjour agréable au vert pour un budget modéré."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 448 expériences vécues · Mise à jour : 2026"
+    },
+    "Iberostar Selection Kantaoui Bay": {
+        "pays": "Tunisie",
+        "ville": "Port El-Kantaoui",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/iberostar-selection-kantaoui-bay.fr.html?aid=818289",
+        "image": "",
+        "description": "Superbe hôtel 5 étoiles situé à Port El-Kantaoui, affichant une note fabuleuse de 9,2 avec un confort exceptionnel de 9,4 en tout compris.",
+        "prix_moyen": "1 446€ / semaine",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Fabuleux (9,2)",
+            "Confort exceptionnel (9,4)",
+            "Prestations 5 étoiles en formule tout compris"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Piscine / Spa"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, raffiné et haut de gamme",
+            "public": "Clientèle exigeante cherchant le meilleur standing à Port El-Kantaoui",
+            "style": "Resort de luxe",
+            "verdict": "Une adresse d'exception pour un séjour parfait."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 654 expériences vécues · Mise à jour : 2026"
+    },
+    "Le Sultan": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/le-sultan-hammamet.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, l'hôtel Le Sultan propose un très bon confort (8,6) avec un cadre soigné et le petit-déjeuner inclus.",
+        "prix_moyen": "749€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Confort de 8,6",
+            "Petit-déjeuner inclus et cadre de qualité"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Charmant, soigné et élégant",
+            "public": "Couples et familles cherchant un hôtel réputé pour son service à Hammamet",
+            "style": "Hôtel de charme 4 étoiles",
+            "verdict": "Une valeur sûre très appréciée pour son atmosphère."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 885 expériences vécues · Mise à jour : 2026"
+    },
+    "Zodiac Hôtel & Aqua Park": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/zodiac-hotel-aqua-park.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, le Zodiac Hôtel dispose d'un parc aquatique et propose une formule avec tous les repas compris.",
+        "prix_moyen": "650€ / semaine",
+        "avis": "7,5/10",
+        "points_positifs": [
+            "Parc aquatique / toboggans",
+            "Tous les repas compris",
+            "Paiement sur place possible"
+        ],
+        "points_negatifs": [
+            "Notes clients moyennes"
+        ],
+        "equipements": [
+            "Parc aquatique",
+            "Tous les repas compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🎢 Ludique, familial et aquatique",
+            "public": "Familles cherchant des attractions aquatiques à petit prix",
+            "style": "Hôtel club avec aquapark",
+            "verdict": "Un choix amusant et abordable pour les enfants."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 27 expériences vécues · Mise à jour : 2026"
+    },
+    "TMK Marine Beach by Turismark": {
+        "pays": "Tunisie",
+        "ville": "Triffa",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/tmk-marine-beach.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Triffa, le TMK Marine Beach propose une formule tout compris avec annulation gratuite et paiement sur place.",
+        "prix_moyen": "793€ / semaine",
+        "avis": "6,8/10",
+        "points_positifs": [
+            "Formule tout compris",
+            "Annulation gratuite et paiement sur place",
+            "Chambres spacieuses"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire et accessible",
+            "public": "Petits budgets cherchant un tout compris sans contrainte",
+            "style": "Hôtel club",
+            "verdict": "Une option simple pour un séjour tout compris."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 084 expériences vécues · Mise à jour : 2026"
+    },
+    "Vincci Dar Midoun": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/vincci-dar-midoun.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Djerba, le Vincci Dar Midoun propose un cadre très bien noté avec demi-pension (petit-déjeuner et dîner compris).",
+        "prix_moyen": "892€ / semaine",
+        "avis": "7,8/10",
+        "points_positifs": [
+            "Standards de qualité de la chaîne Vincci",
+            "Demi-pension incluse",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Dernières chambres disponibles"
+        ],
+        "equipements": [
+            "Demi-pension",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Chaleureux, confortable et accueillant",
+            "public": "Familles et couples cherchant un hôtel fiable à Djerba",
+            "style": "Hôtel club 4 étoiles",
+            "verdict": "Une bonne option de milieu de gamme sur l'île de Djerba."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 337 expériences vécues · Mise à jour : 2026"
+    },
+    "TUI SUNEO Royal Kenz - All Inclusive": {
+        "pays": "Tunisie",
+        "ville": "Port El-Kantaoui",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/tui-suneo-royal-kenz.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Port El-Kantaoui, le TUI SUNEO Royal Kenz propose une formule tout compris et des chambres avec vue sur jardin très bien notées (8,2).",
+        "prix_moyen": "971€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Confort de 8,6",
+            "Formule tout compris et cadre verdoyant"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Dynamique, moderne et tout compris",
+            "public": "Voyageurs cherchant un club de vacances animé près de Port El-Kantaoui",
+            "style": "Hôtel club 4 étoiles",
+            "verdict": "Un choix très populaire et agréable pour des vacances sans souci."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 177 expériences vécues · Mise à jour : 2026"
+    },
+    "Alhambra Thalasso": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/alhambra-thalasso.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, l'Alhambra Thalasso propose un centre de thalassothérapie haut de gamme et la demi-pension.",
+        "prix_moyen": "765€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Confort de 8,5 avec centre de thalassothérapie",
+            "Architecture mauresque soignée",
+            "Demi-pension incluse"
+        ],
+        "points_negatifs": [
+            "Infrastructures classiques"
+        ],
+        "equipements": [
+            "Thalasso / Spa",
+            "Demi-pension",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Bien-être, thermal et luxueux",
+            "public": "Amateurs de cures, de massages et de calme à Hammamet",
+            "style": "Resort 5 étoiles avec thalasso",
+            "verdict": "Une belle adresse pour un séjour axé sur la détente et les soins."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 116 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Djerba Authentique - Au centre de Midoun": {
+        "pays": "Tunisie",
+        "ville": "Midoun",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/djerba-authentique.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre de Midoun (Djerba), cet hôtel fabuleux noté 9,0 offre un excellent confort (9,3) avec petit-déjeuner inclus.",
+        "prix_moyen": "347€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel (9,3)",
+            "Emplacement central à Midoun, petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Style traditionnel"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏺 Authentique, chaleureux et économique",
+            "public": "Voyageurs voulant loger au cœur de Midoun avec un très haut niveau de confort",
+            "style": "Hôtel de charme",
+            "verdict": "Un rapport qualité-prix remarquable (9,0/10)."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 355 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Continental": {
+        "pays": "Tunisie",
+        "ville": "Kairouan",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/continental-kairouan.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Kairouan, l'Hotel Continental propose un superbe confort (9,0) avec petit-déjeuner inclus et une flexibilité totale de paiement.",
+        "prix_moyen": "550€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort de 9,0",
+            "Petit-déjeuner inclus et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Situé à Kairouan (dans les terres)"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel, historique et confortable",
+            "public": "Voyageurs explorant le patrimoine de Kairouan",
+            "style": "Hôtel de ville historique",
+            "verdict": "La meilleure option pour séjourner confortablement à Kairouan."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 034 expériences vécues · Mise à jour : 2026"
+    },
+    "Iberostar Selection Kuriat Palace": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/iberostar-selection-kuriat-palace.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Monastir en front de mer, l'Iberostar Selection Kuriat Palace affiche une note fabuleuse de 9,0 avec un confort de 9,2 en formule tout compris.",
+        "prix_moyen": "1 522€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort de 9,2 avec prestations 5 étoiles",
+            "Formule tout compris et front de mer"
+        ],
+        "points_negatifs": [
+            "Tarifs plus élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Front de mer",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, moderne et marin",
+            "public": "Clientèle cherchant le haut de gamme à Monastir",
+            "style": "Resort de luxe",
+            "verdict": "Une valeur sûre exceptionnelle pour des vacances tout compris les pieds dans l'eau."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 224 expériences vécues · Mise à jour : 2026"
+    },
+    "Samira Club Family and couples only": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/samira-club-hammamet.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet et réservé aux familles et couples, le Samira Club propose des chambres climatisées et un petit-déjeuner inclus.",
+        "prix_moyen": "471€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Réservé aux familles et couples",
+            "Petit-déjeuner inclus",
+            "Ambiance club animée à petit prix"
+        ],
+        "points_negatifs": [
+            "Infrastructures de type club basique"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🎉 Animé, populaire et familial",
+            "public": "Petits budgets cherchant un club de vacances vivant à Hammamet",
+            "style": "Club de vacances",
+            "verdict": "Un grand classique très abordable pour les familles."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 207 expériences vécues · Mise à jour : 2026"
+    },
+    "TUI MAGIC LIFE Penelope Beach - Families & Couples": {
+        "pays": "Tunisie",
+        "ville": "Midoun",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/tui-magic-life-penelope-beach.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Midoun (Djerba) et réservé aux familles et couples, ce resort propose des bungalows en formule tout compris.",
+        "prix_moyen": "1 113€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Bungalows privatifs",
+            "Formule tout compris très riche en animations",
+            "Réservé aux familles et couples"
+        ],
+        "points_negatifs": [
+            "Tarifs plus élevés en haute saison"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Bungalow",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🎾 Sportif, animé et familial",
+            "public": "Familles et sportifs cherchant de multiples activités incluses à Djerba",
+            "style": "Club de vacances tout compris",
+            "verdict": "Un super club pour bouger et s'amuser en famille."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 558 expériences vécues · Mise à jour : 2026"
+    },
+    "TUI MAGIC LIFE Africana": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/tui-magic-life-africana.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, le TUI MAGIC LIFE Africana propose un standing supérieur 5 étoiles avec une formule tout compris très complète.",
+        "prix_moyen": "1 171€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Confort de 8,5",
+            "Formule tout compris haut de gamme",
+            "Nombreuses activités et piscines"
+        ],
+        "points_negatifs": [
+            "Complexe très vaste"
+        ],
+        "equipements": [
+            "Tout compris",
+            "5 étoiles",
+            "Piscine / Spa"
+        ],
+        "pour_qui": {
+            "ambiance": "🌟 Haut de gamme, actif et festif",
+            "public": "Voyageurs cherchant un club de standing international à Hammamet",
+            "style": "Resort club 5 étoiles",
+            "verdict": "Une excellente option pour allier confort supérieur et loisirs."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 314 expériences vécues · Mise à jour : 2026"
+    },
+    "Radisson Blu Resort & Thalasso Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/radisson-blu-resort-thalasso-hammamet.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé en front de mer à Hammamet, le Radisson Blu propose un centre de thalassothérapie et un grand confort avec petit-déjeuner inclus.",
+        "prix_moyen": "957€ / semaine",
+        "avis": "7,4/10",
+        "points_positifs": [
+            "Standards de la chaîne internationale Radisson Blu",
+            "Centre de thalasso et front de mer",
+            "Chambres avec balcon"
+        ],
+        "points_negatifs": [
+            "Notes clients partagées pour un 5 étoiles"
+        ],
+        "equipements": [
+            "Thalasso / Spa",
+            "Front de mer",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Chic, thermal et marin",
+            "public": "Amateurs de soins de thalasso et de prestations internationales",
+            "style": "Hôtel de luxe",
+            "verdict": "Un cadre prestigieux pour un séjour de bien-être."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 210 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel de charme et SPA Dar El Bhar": {
+        "pays": "Tunisie",
+        "ville": "Mezraya",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/dar-el-bhar-mezraya.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Mezraya (Djerba), cet hôtel de charme avec spa propose des suites prestige et un petit-déjeuner inclus.",
+        "prix_moyen": "715€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Confort de 8,5 avec suites privées",
+            "Spa et ambiance de charme"
+        ],
+        "points_negatifs": [
+            "Disponibilité très limitée"
+        ],
+        "equipements": [
+            "Spa",
+            "Petit-déjeuner inclus",
+            "Suite privée"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Intime, charmant et relaxant",
+            "public": "Couples cherchant une structure intimiste avec spa à Djerba",
+            "style": "Boutique-hôtel de charme",
+            "verdict": "Une magnifique alternative intimiste aux grands complexes."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 525 expériences vécues · Mise à jour : 2026"
+    },
+    "Hasdrubal Prestige Thalassa & Spa Djerba": {
+        "pays": "Tunisie",
+        "ville": "Triffa",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/hasdrubal-prestige-thalassa-spa-djerba.fr.html?aid=818289",
+        "image": "",
+        "description": "Palace 5 étoiles situé à Triffa (Djerba), l'Hasdrubal Prestige propose des suites junior luxueuses, un confort exceptionnel de 9,0 et un centre de thalasso d'élite.",
+        "prix_moyen": "1 689€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Confort exceptionnel (9,0)",
+            "Centre de thalassothérapie d'excellence",
+            "Suites spacieuses et prestations haut de gamme"
+        ],
+        "points_negatifs": [
+            "Tarifs très élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Thalasso / Spa",
+            "Suite privée"
+        ],
+        "pour_qui": {
+            "ambiance": "👑 Prestigieux, luxueux et reposant",
+            "public": "Clientèle fortunée cherchant le summum du bien-être et du luxe à Djerba",
+            "style": "Palace 5 étoiles",
+            "verdict": "L'un des hôtels les plus luxueux de l'île pour une cure de thalasso de rêve."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 399 expériences vécues · Mise à jour : 2026"
+    },
+    "Thabraca Thalasso & Diving": {
+        "pays": "Tunisie",
+        "ville": "Tabarka",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/thabraca-thalasso-diving.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tabarka, cet hôtel orienté plongée et thalasso propose une formule avec tous les repas compris.",
+        "prix_moyen": "1 123€ / semaine",
+        "avis": "7,0/10",
+        "points_positifs": [
+            "Centre de plongée et thalasso sur place",
+            "Tous les repas compris",
+            "Cadre boisé de Tabarka"
+        ],
+        "points_negatifs": [
+            "Note moyenne"
+        ],
+        "equipements": [
+            "Centre de plongée",
+            "Thalasso",
+            "Tous les repas compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🤿 Marin, nature et sportif",
+            "public": "Amateurs de plongée sous-marine et de paysages forestiers à Tabarka",
+            "style": "Resort de côte",
+            "verdict": "Une bonne base pour explorer les fonds marins du nord de la Tunisie."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 486 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel La Residence Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/la-residence-hammamet.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, cet hôtel très populaire propose des chambres avec kitchenette économique et une bonne note de confort (8,2).",
+        "prix_moyen": "327€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Très bien noté (8,0 avec plus de 4 000 avis)",
+            "Confort de 8,2",
+            "Prix très abordable"
+        ],
+        "points_negatifs": [
+            "Kitchenette sans matériel de cuisine fourni"
+        ],
+        "equipements": [
+            "Kitchenette",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Pratique, populaire et économique",
+            "public": "Voyageurs cherchant un logement simple et bien placé à Hammamet",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une valeur sûre très économique et plébiscitée."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 4 087 expériences vécues · Mise à jour : 2026"
+    },
+    "Amber El Fell- Boutique Hotel": {
+        "pays": "Tunisie",
+        "ville": "Hammamet Nord",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/amber-el-fell.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet Nord, cet hôtel-boutique propose un bon confort (8,3) et un petit-déjeuner inclus.",
+        "prix_moyen": "813€ / semaine",
+        "avis": "7,8/10",
+        "points_positifs": [
+            "Confort de 8,3",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs un peu élevés"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Boutique-hôtel, calme et soigné",
+            "public": "Voyageurs cherchant une structure à taille humaine à Hammamet Nord",
+            "style": "Boutique-hôtel",
+            "verdict": "Une alternative cosy aux grands complexes."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 93 expériences vécues · Mise à jour : 2026"
+    },
+    "Yadis Djerba Thalasso & Spa - All Inclusive": {
+        "pays": "Tunisie",
+        "ville": "Midoun",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/yadis-djerba-thalasso-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Midoun (Djerba), le Yadis Djerba Thalasso & Spa propose un centre de bien-être et une formule tout compris.",
+        "prix_moyen": "1 037€ / semaine",
+        "avis": "7,6/10",
+        "points_positifs": [
+            "Centre de thalassothérapie et spa",
+            "Formule tout compris",
+            "Cadre agréable à Djerba"
+        ],
+        "points_negatifs": [
+            "Tarifs variables en haute saison"
+        ],
+        "equipements": [
+            "Thalasso / Spa",
+            "Tout compris",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Bien-être, thermal et marin",
+            "public": "Amateurs de détente et de cures de thalasso à Djerba",
+            "style": "Resort de thalasso",
+            "verdict": "Une bonne option pour allier tout compris et soins corporels."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 175 expériences vécues · Mise à jour : 2026"
+    },
+    "Palm Beach Palace Tozeur": {
+        "pays": "Tunisie",
+        "ville": "Tozeur",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/palm-beach-palace-tozeur.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tozeur, le Palm Beach Palace Tozeur offre un cadre luxueux 5 étoiles avec un confort de 8,1 et une architecture saharienne.",
+        "prix_moyen": "788€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Confort de 8,1",
+            "Architecture et charme authentique à Tozeur",
+            "Petit-déjeuner inclus et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Climat saharien chaud en été"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Petit-déjeuner inclus",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Saharien, luxueux et dépaysant",
+            "public": "Voyageurs explorant le sud tunisien et les oasis",
+            "style": "Palace de l'oasis",
+            "verdict": "Une magnifique étape de grand standing pour visiter Tozeur."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 721 expériences vécues · Mise à jour : 2026"
+    },
+    "Zephir Hôtel & Spa": {
+        "pays": "Tunisie",
+        "ville": "Zarzis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/zephir-hotel-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Zarzis, le Zephir Hôtel & Spa propose un espace bien-être, une piscine et un petit-déjeuner inclus.",
+        "prix_moyen": "400€ / semaine",
+        "avis": "6,6/10",
+        "points_positifs": [
+            "Présence d'un spa",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Spa",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire et abordable",
+            "public": "Petits budgets cherchant un hôtel avec spa à Zarzis",
+            "style": "Hôtel de côte",
+            "verdict": "Une alternative économique dans le sud de la Tunisie."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 254 expériences vécues · Mise à jour : 2026"
+    },
+    "Le Hammamet Hôtel & Spa": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/le-hammamet-hotel-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, cet établissement dispose d'un spa et propose des chambres doubles climatisées.",
+        "prix_moyen": "521€ / semaine",
+        "avis": "6,8/10",
+        "points_positifs": [
+            "Espace spa et détente",
+            "Emplacement à Hammamet",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Prestations classiques"
+        ],
+        "equipements": [
+            "Spa",
+            "Climatisation",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Détente et soleil",
+            "public": "Voyageurs cherchant un hôtel accessible avec spa à Hammamet",
+            "style": "Hôtel balnéaire",
+            "verdict": "Un choix correct pour un séjour de repos."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 392 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Lescure Business and SPA": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/lescure-business-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, cet hôtel orienté affaires et bien-être propose un excellent confort (8,3) avec spa et petit-déjeuner inclus.",
+        "prix_moyen": "632€ / semaine",
+        "avis": "7,4/10",
+        "points_positifs": [
+            "Confort de 8,3",
+            "Espace spa / affaires de qualité",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Cadre urbain"
+        ],
+        "equipements": [
+            "Spa",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "💼 Urbain, professionnel et confortable",
+            "public": "Voyageurs d'affaires ou touristes urbains à Tunis",
+            "style": "Hôtel urbain moderne",
+            "verdict": "Une excellente option de confort pour séjourner à Tunis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 407 expériences vécues · Mise à jour : 2026"
+    },
+    "Hammamet Garden Resort and Spa": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/hammamet-garden-resort-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, ce resort dispose d'un spa et propose des chambres deluxe avec petit-déjeuner inclus ou formule tout compris.",
+        "prix_moyen": "854€ / semaine",
+        "avis": "6,6/10",
+        "points_positifs": [
+            "Cadre verdoyant avec jardin",
+            "Spa et piscine",
+            "Formule tout compris disponible"
+        ],
+        "points_negatifs": [
+            "Notes clients partagées"
+        ],
+        "equipements": [
+            "Spa",
+            "Tout compris",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Verdoyant et deAteint",
+            "public": "Familles cherchant un grand domaine avec piscine à Hammamet",
+            "style": "Resort club",
+            "verdict": "Une alternative de grand espace pour des vacances au vert."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 18 expériences vécues · Mise à jour : 2026"
+    },
+    "Medina Les Quatre Saisons Aqua Park Resort and Thalasso Djerba": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/medina-les-quatre-saisons.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Djerba, ce resort propose un parc aquatique, un centre de thalassothérapie et une formule tout compris.",
+        "prix_moyen": "708€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Parc aquatique (toboggans) pour les familles",
+            "Centre de thalassothérapie",
+            "Formule tout compris"
+        ],
+        "points_negatifs": [
+            "Complexe très fréquenté"
+        ],
+        "equipements": [
+            "Parc aquatique",
+            "Thalasso / Spa",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🎢 Ludique, familial et aquatique",
+            "public": "Familles cherchant à combiner toboggans et formule tout compris à Djerba",
+            "style": "Club de vacances avec aquapark",
+            "verdict": "Un super choix pour amuser les enfants sur l'île."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 207 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Carlton": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/carlton-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Idéalement situé au centre de Tunis, l'Hotel Carlton est très bien noté (8,5) avec un confort de 8,8.",
+        "prix_moyen": "562€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort exceptionnel de 8,8 en plein centre de Tunis",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Animation urbaine"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central, élégant et pratique",
+            "public": "Touristes et voyageurs d'affaires voulant loger au cœur de la capitale",
+            "style": "Hôtel de ville de charme",
+            "verdict": "L'une des meilleures adresses hôtelières au centre de Tunis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 187 expériences vécues · Mise à jour : 2026"
+    },
+    "Borj Dhiafa": {
+        "pays": "Tunisie",
+        "ville": "Sfax",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/borj-dhiafa-sfax.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sfax, le Borj Dhiafa affiche une note fabuleuse de 9,0 avec un confort remarquable de 9,4.",
+        "prix_moyen": "536€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel (9,4)",
+            "Paiement sur place et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Situé dans la ville d'affaires de Sfax"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, soigné et haut de gamme",
+            "public": "Voyageurs exigeants cherchant le meilleur standing à Sfax",
+            "style": "Hôtel de standing",
+            "verdict": "Une qualité de service irréprochable et la meilleure note de la ville."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 472 expériences vécues · Mise à jour : 2026"
+    },
+    "Mövenpick Hotel Gammarth Tunis": {
+        "pays": "Tunisie",
+        "ville": "Gammarth",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/movenpick-hotel-gammarth-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gammarth en front de mer, ce prestigieux hôtel 5 étoiles propose un certificat de durabilité et un confort de 8,9.",
+        "prix_moyen": "1 184€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort de 8,9 avec certificat de durabilité",
+            "Situation prestigieuse en front de mer à Gammarth"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Front de mer"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Prestigieux, chic et marin",
+            "public": "Clientèle haut de gamme cherchant le luxe à Gammarth",
+            "style": "Resort 5 étoiles",
+            "verdict": "Une adresse somptueuse pour un séjour de prestige près de Tunis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 869 expériences vécues · Mise à jour : 2026"
+    },
+    "Marigold Hotel": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/marigold-hotel-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, le Marigold Hotel propose un très bon confort (8,8) avec petit-déjeuner inclus et un excellent rapport qualité-prix.",
+        "prix_moyen": "562€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort supérieur de 8,8",
+            "Petit-déjeuner inclus et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Cadre urbain"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Moderne, confortable et pratique",
+            "public": "Voyageurs cherchant un hôtel récent et bien équipé à Tunis",
+            "style": "Hôtel urbain 4 étoiles",
+            "verdict": "Une excellente alternative moderne au centre de la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 388 expériences vécues · Mise à jour : 2026"
+    },
+    "TUI SUNEO Palm Beach Skanes - All Inclusive": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/tui-suneo-palm-beach-skanes.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Monastir (Skanes), ce club de vacances propose une formule tout compris et des chambres avec vue sur jardin.",
+        "prix_moyen": "1 015€ / semaine",
+        "avis": "7,5/10",
+        "points_positifs": [
+            "Formule tout compris animée",
+            "Situation en bord de mer à Skanes",
+            "Ambiance club de vacances"
+        ],
+        "points_negatifs": [
+            "Complexe très fréquenté"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Club de vacances, animé",
+            "public": "Familles cherchant des vacances tout compris sans soucis près de Monastir",
+            "style": "Hôtel club",
+            "verdict": "Un choix classique pour un séjour balnéaire tout compris."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 191 expériences vécues · Mise à jour : 2026"
+    },
+    "The Penthouse Suites Hotel": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/the-penthouse-suites.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, The Penthouse Suites Hotel propose de superbes suites avec un confort de 8,7.",
+        "prix_moyen": "626€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Confort élevé de 8,7 avec grands espaces en suite",
+            "Climatisation et suites spacieuses"
+        ],
+        "points_negatifs": [
+            "Tarifs un peu plus élevés"
+        ],
+        "equipements": [
+            "Suites spacieuses",
+            "Climatisation",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Spacieux, moderne et luxueux",
+            "public": "Familles et voyageurs cherchant de grands espaces d'appart-hôtel de luxe à Tunis",
+            "style": "Hôtel de suites",
+            "verdict": "Un excellent choix pour bénéficier de grands volumes à Tunis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 541 expériences vécues · Mise à jour : 2026"
+    },
+    "Iliade Aqua Park - All Inclusive": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/iliade-aqua-park.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Djerba, cet hôtel propose un parc aquatique complet et une formule tout compris très populaire auprès des familles.",
+        "prix_moyen": "1 060€ / semaine",
+        "avis": "7,8/10",
+        "points_positifs": [
+            "Parc aquatique (toboggans) inclus",
+            "Confort de 8,1",
+            "Formule tout compris"
+        ],
+        "points_negatifs": [
+            "Forte affluence estivale"
+        ],
+        "equipements": [
+            "Parc aquatique",
+            "Tout compris",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🎢 Ludique, familial et aquatique",
+            "public": "Familles avec enfants cherchant un hôtel avec toboggans à Djerba",
+            "style": "Hôtel club avec aquapark",
+            "verdict": "Une super option pour des vacances rythmées et aquatiques."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 114 expériences vécues · Mise à jour : 2026"
+    },
+    "Campanile El Mechtel Tunis": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/campanile-el-mechtel-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, le Campanile El Mechtel offre un très bon confort (8,4) et des prestations fonctionnelles.",
+        "prix_moyen": "510€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Confort de 8,4",
+            "Standards internationaux fiables"
+        ],
+        "points_negatifs": [
+            "Style classique d'affaires"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Piscine",
+            "Hôtel de chaîne"
+        ],
+        "pour_qui": {
+            "ambiance": "💼 Fonctionnel, propre et standardisé",
+            "public": "Voyageurs cherchant un repère hôtelier fiable et sans surprise à Tunis",
+            "style": "Hôtel de chaîne",
+            "verdict": "Une valeur sûre pour un séjour professionnel ou touristique à Tunis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 312 expériences vécues · Mise à jour : 2026"
+    },
+    "Yadis Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/yadis-hammamet.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, le Yadis Hammamet propose des chambres doubles climatisées avec petit-déjeuner inclus et annulation gratuite.",
+        "prix_moyen": "540€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Cadre agréable à Hammamet",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Faible nombre d'avis récents"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Ensoleillé et simple",
+            "public": "Voyageurs cherchant un hôtel de côte accessible à Hammamet",
+            "style": "Hôtel balnéaire",
+            "verdict": "Une alternative correcte pour un budget modéré."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 8 expériences vécues · Mise à jour : 2026"
+    },
+    "Campement Sahara Oasis Douz": {
+        "pays": "Tunisie",
+        "ville": "Douz",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/campement-sahara-oasis-douz.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Douz (la porte du désert), ce campement propose des chambres deluxe d'exception avec un confort de 8,0 en plein cœur des paysages sahariens.",
+        "prix_moyen": "411€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Immersion authentique dans le désert à Douz",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Isolé (en plein désert)"
+        ],
+        "equipements": [
+            "Immersion désert",
+            "Annulation gratuite",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "⛺ Dépaysant, magique et authentique",
+            "public": "Amateurs d'aventures, de dunes et de nuits sous les étoiles",
+            "style": "Campement de luxe / éco-lodge",
+            "verdict": "Une expérience saharienne inoubliable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 6 expériences vécues · Mise à jour : 2026"
+    },
+    "Le National": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/le-national-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre de Tunis, l'hôtel Le National propose un très bon confort (8,2) et un petit-déjeuner inclus à prix très doux.",
+        "prix_moyen": "453€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Confort très honorable de 8,2 pour un 2 étoiles",
+            "Emplacement central à Tunis",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Prestations simples"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Économique et central",
+            "public": "Petits budgets voulant loger au cœur de Tunis",
+            "style": "Hôtel de ville simple",
+            "verdict": "Un plan très économique et bien situé dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 195 expériences vécues · Mise à jour : 2026"
+    },
+    "Royal Thalassa Monastir": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/royal-thalassa-monastir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Monastir, le Royal Thalassa Monastir propose un centre de thalassothérapie, une piscine et des chambres avec vue sur jardin.",
+        "prix_moyen": "1 126€ / semaine",
+        "avis": "7,1/10",
+        "points_positifs": [
+            "Centre de thalasso et de bien-être",
+            "Piscine et jardins",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Notes clients partagées"
+        ],
+        "equipements": [
+            "Thalasso / Spa",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Bien-être et balnéaire",
+            "public": "Amateurs de cures thermales et de détente à Monastir",
+            "style": "Resort de thalasso",
+            "verdict": "Une option agréable pour profiter de soins relaxants au bord de l'eau."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 508 expériences vécues · Mise à jour : 2026"
+    },
+    "Golden Tulip El Mechtel": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/golden-tulip-el-mechtel.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, le Golden Tulip El Mechtel offre un très bon confort (8,5) avec des chambres business et un paiement flexible sur place.",
+        "prix_moyen": "907€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Confort élevé de 8,5",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Tarifs de type affaires"
+        ],
+        "equipements": [
+            "Hôtel de chaîne",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "💼 Urbain, professionnel et confortable",
+            "public": "Voyageurs d'affaires et touristes cherchant un grand hôtel fiable à Tunis",
+            "style": "Hôtel 4 étoiles international",
+            "verdict": "Une valeur sûre reconnue dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 883 expériences vécues · Mise à jour : 2026"
+    },
+    "نزل قايا Hôtel Gaïa": {
+        "pays": "Tunisie",
+        "ville": "Nabeul",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/hotel-gaia-nabeul.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Nabeul, l'Hôtel Gaïa propose un cadre simple et chaleureux avec petit-déjeuner inclus.",
+        "prix_moyen": "454€ / semaine",
+        "avis": "7,2/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Tarif abordable à Nabeul",
+            "Climatisation"
+        ],
+        "points_negatifs": [
+            "Prestations basiques"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Chambre double"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Simple et économique",
+            "public": "Petits budgets cherchant un hôtel à Nabeul",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option correcte pour un séjour simple dans la région de Nabeul."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 106 expériences vécues · Mise à jour : 2026"
+    },
+    "Tunis Grand Hotel": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/tunis-grand-hotel.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, le Tunis Grand Hotel propose des chambres supérieures spacieuses avec un grand lit king-size et un petit-déjeuner inclus.",
+        "prix_moyen": "779€ / semaine",
+        "avis": "7,4/10",
+        "points_positifs": [
+            "Chambres supérieures spacieuses",
+            "Petit-déjeuner inclus",
+            "Cadre élégant"
+        ],
+        "points_negatifs": [
+            "Un peu à l'écart du centre historique"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Spacieux, chic et calme",
+            "public": "Voyageurs cherchant un hôtel de standing avec de grands espaces à Tunis",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Un choix confortable pour séjourner au calme dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 375 expériences vécues · Mise à jour : 2026"
+    },
+    "Ksar El Jerid": {
+        "pays": "Tunisie",
+        "ville": "Tozeur",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/ksar-el-jerid.fr.html?aid=818289",
+        "image": "",
+        "description": "Nouvel établissement fabuleux à Tozeur noté 9,1 avec un confort exceptionnel de 9,5, proposant une immersion saharienne et un petit-déjeuner inclus.",
+        "prix_moyen": "612€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel (9,5)",
+            "Nouveau sur Booking.com avec petit-déjeuner inclus et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Saharien, somptueux et neuf",
+            "public": "Voyageurs cherchant le haut de gamme au cœur des oasis de Tozeur",
+            "style": "Hôtel de charme saharien",
+            "verdict": "Une adresse d'exception avec une excellente note pour visiter le sud tunisien."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 22 expériences vécues · Mise à jour : 2026"
+    },
+    "Sheraton Tunis Hotel": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/sheraton-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, le Sheraton Tunis Hotel propose un standing international 5 étoiles avec un excellent confort (8,8) et un paiement flexible sur place.",
+        "prix_moyen": "1 190€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort élevé de 8,8",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Tarifs de type palace urbain"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Piscine",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, professionnel et prestigieux",
+            "public": "Voyageurs d'affaires et touristes cherchant le luxe international à Tunis",
+            "style": "Hôtel 5 étoiles de chaîne",
+            "verdict": "Une référence absolue de confort dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 707 expériences vécues · Mise à jour : 2026"
+    },
+    "NN Residence Tabarka": {
+        "pays": "Tunisie",
+        "ville": "Tabarka",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/nn-residence-tabarka.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tabarka, cet établissement propose un très bon confort (8,8) avec petit-déjeuner inclus et un tarif attractif.",
+        "prix_moyen": "314€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort de 8,8",
+            "Petit-déjeuner inclus et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Dernière chambre disponible à ce tarif"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Chambre double"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Calme, soigné et économique",
+            "public": "Voyageurs cherchant un bon rapport qualité-prix à Tabarka",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une excellente option bien notée pour séjourner à Tabarka."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 444 expériences vécues · Mise à jour : 2026"
+    },
+    "Sufetula Hotel": {
+        "pays": "Tunisie",
+        "ville": "Sbeitla",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/sufetula-sbeitla.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sbeitla, le Sufetula Hotel propose un point de chute pratique pour visiter les sites historiques avec petit-déjeuner inclus.",
+        "prix_moyen": "500€ / semaine",
+        "avis": "7,4/10",
+        "points_positifs": [
+            "Idéalement situé pour visiter les ruines romaines de Sbeitla",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Prestations simples"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Historique, culturel et pratique",
+            "public": "Amateurs d'archéologie et de découvertes historiques",
+            "style": "Hôtel de ville",
+            "verdict": "L'étape idéale pour visiter les monuments de Sbeitla."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 409 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel le calife": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/le-calife-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Médina de Tunis, l'Hôtel le calife propose un hébergement authentique et très économique.",
+        "prix_moyen": "245€ / semaine",
+        "avis": "7,8/10",
+        "points_positifs": [
+            "En plein cœur de la Médina de Tunis",
+            "Prix très abordable",
+            "Confort correct de 8,0"
+        ],
+        "points_negatifs": [
+            "Prestations basiques"
+        ],
+        "equipements": [
+            "Médina",
+            "Climatisation",
+            "Chambre double"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Authentique, culturel et économique",
+            "public": "Routards et voyageurs voulant loger au cœur de la vieille ville",
+            "style": "Hôtel historique",
+            "verdict": "Un plan malin et pas cher pour dormir dans la Médina."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 168 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Royal ASBU Tunis": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/royal-asbu-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, l'Hotel Royal ASBU propose un grand confort (8,4) avec des chambres deluxe et un petit-déjeuner inclus.",
+        "prix_moyen": "1 071€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Confort élevé de 8,4",
+            "Chambres deluxe climatisées",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Piscine / Spa"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Moderne, chic et soigné",
+            "public": "Voyageurs cherchant un bon standing à Tunis",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Un très bon choix pour un séjour de qualité dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 704 expériences vécues · Mise à jour : 2026"
+    },
+    "Radisson Blu Hotel & Convention Center, Tunis": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/radisson-blu-hotel-convention-center-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Établissement superbe 5 étoiles à Tunis affichant un confort remarquable de 9,1 et des prestations haut de gamme.",
+        "prix_moyen": "1 097€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort exceptionnel de 9,1",
+            "Standards internationaux Radisson Blu"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Centre de congrès",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, moderne et professionnel",
+            "public": "Clientèle haut de gamme et d'affaires cherchant l'excellence à Tunis",
+            "style": "Hôtel de luxe international",
+            "verdict": "Une adresse prestigieuse et ultra-confortable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 282 expériences vécues · Mise à jour : 2026"
+    },
+    "Medina Solaria And Thalasso": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/medina-solaria-thalasso.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet (Yasmine Hammamet), ce resort 5 étoiles propose un centre de thalassothérapie et la formule demi-pension avec une note superbe de 8,9.",
+        "prix_moyen": "1 016€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort exceptionnel de 9,0",
+            "Centre de thalasso et demi-pension incluse"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Thalasso / Spa",
+            "Demi-pension"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Luxueux, thermal et animé",
+            "public": "Familles et couples cherchant un 5 étoiles de qualité à Yasmine Hammamet",
+            "style": "Resort 5 étoiles avec thalasso",
+            "verdict": "Une valeur sûre très bien notée pour des vacances tout confort."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 799 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Khella": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/khella-hammamet.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, l'Hotel Khella affiche une superbe note de 8,9 et un confort de 9,2 avec petit-déjeuner inclus.",
+        "prix_moyen": "408€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort exceptionnel de 9,2",
+            "Petit-déjeuner inclus et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Dernières chambres disponibles"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Charmant, soigné et économique",
+            "public": "Voyageurs cherchant un excellent standing à petit prix à Hammamet",
+            "style": "Hôtel de tourisme de charme",
+            "verdict": "Un rapport qualité-prix exceptionnel (8,9/10)."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 793 expériences vécues · Mise à jour : 2026"
+    },
+    "HOTEL PALAIS ROYAL": {
+        "pays": "Tunisie",
+        "ville": "Sfax",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/palai-royal-sfax.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sfax, l'Hotel Palais Royal propose un bon confort (8,4) et des chambres doubles climatisées.",
+        "prix_moyen": "512€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Confort de 8,4",
+            "Emplacement à Sfax",
+            "Climatisation"
+        ],
+        "points_negatifs": [
+            "Style classique"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Chambre double",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "💼 Pratique et confortable",
+            "public": "Voyageurs d'affaires ou de passage à Sfax",
+            "style": "Hôtel de ville",
+            "verdict": "Une étape correcte pour séjourner à Sfax."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 107 expériences vécues · Mise à jour : 2026"
+    },
+    "Ariha Hotel": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/ariha-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, l'Ariha Hotel propose un petit-déjeuner inclus avec annulation gratuite et paiement sur place.",
+        "prix_moyen": "425€ / semaine",
+        "avis": "7,2/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place",
+            "Tarif abordable à Tunis"
+        ],
+        "points_negatifs": [
+            "Prestations basiques"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Simple et économique",
+            "public": "Petits budgets cherchant un hôtel sans complications à Tunis",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option de secours abordable dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 185 expériences vécues · Mise à jour : 2026"
+    },
+    "Ibis Sfax": {
+        "pays": "Tunisie",
+        "ville": "Sfax",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/ibis-sfax.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sfax, l'Ibis Sfax propose un très bon confort (9,0) et un certificat de durabilité.",
+        "prix_moyen": "430€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort élevé de 9,0",
+            "Certificat de durabilité et standards de la chaîne Ibis"
+        ],
+        "points_negatifs": [
+            "Chambres standards"
+        ],
+        "equipements": [
+            "Certificat de durabilité",
+            "Hôtel de chaîne",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "💼 Moderne, propre et fiable",
+            "public": "Voyageurs cherchant un repère standardisé et de qualité à Sfax",
+            "style": "Hôtel de chaîne",
+            "verdict": "Une valeur sûre sans mauvaise surprise."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 516 expériences vécues · Mise à jour : 2026"
+    },
+    "Tunis Marriott Hotel": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/tunis-marriott.fr.html?aid=818289",
+        "image": "",
+        "description": "Superbe hôtel 5 étoiles à Tunis offrant un confort exceptionnel de 9,1 et des prestations luxueuses.",
+        "prix_moyen": "1 159€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Standard international Marriott",
+            "Confort exceptionnel de 9,1",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, moderne et irréprochable",
+            "public": "Clientèle d'affaires et touristes exigeants à Tunis",
+            "style": "Hôtel de luxe international",
+            "verdict": "Le summum du standing moderne dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 467 expériences vécues · Mise à jour : 2026"
+    },
+    "HOTEL LAFAYETTE": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/lafayette-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, l'HOTEL LAFAYETTE propose des chambres lits jumeaux avec petit-déjeuner inclus à un prix très compétitif.",
+        "prix_moyen": "377€ / semaine",
+        "avis": "7,6/10",
+        "points_positifs": [
+            "Emplacement central à Tunis",
+            "Petit-déjeuner inclus",
+            "Tarif économique"
+        ],
+        "points_negatifs": [
+            "Prestations classiques"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Chambre lits jumeaux"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Pratique et économique",
+            "public": "Petits budgets cherchant un hôtel bien placé pour visiter Tunis",
+            "style": "Hôtel de ville",
+            "verdict": "Un choix fonctionnel et abordable au cœur de Tunis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 095 expériences vécues · Mise à jour : 2026"
+    },
+    "Suites Hôtel Les Charmilles & Spa": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/les-charmilles-spa-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, cet hôtel propose de superbes appartements/suites de 50 m² avec espace spa et un confort de 8,5.",
+        "prix_moyen": "1 127€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Confort élevé de 8,5 avec suites spacieuses",
+            "Présence d'un espace spa",
+            "Appartement 1 chambre tout équipé"
+        ],
+        "points_negatifs": [
+            "Tarifs un peu plus élevés"
+        ],
+        "equipements": [
+            "Spa",
+            "Appartement 1 chambre",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Spacieux, relaxant et chic",
+            "public": "Familles ou voyageurs cherchant de grands volumes avec spa à Tunis",
+            "style": "Hôtel de suites avec spa",
+            "verdict": "Une excellente option haut de gamme pour se détendre à Tunis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 100 expériences vécues · Mise à jour : 2026"
+    },
+    "Palais Harran": {
+        "pays": "Tunisie",
+        "ville": "Kairouan",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/palais-harran-kairouan.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Kairouan, le Palais Harran offre une note fabuleuse de 9,1 avec un confort exceptionnel de 9,4 et un petit-déjeuner inclus.",
+        "prix_moyen": "741€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel (9,4)",
+            "Architecture de palais, petit-déjeuner inclus et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Majestueux, culturel et raffiné",
+            "public": "Voyageurs cherchant le plus beau cadre de séjour possible à Kairouan",
+            "style": "Hôtel de charme / palais",
+            "verdict": "Une adresse somptueuse et incontournable à Kairouan."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 86 expériences vécues · Mise à jour : 2026"
+    },
+    "Concorde Marco Polo": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/concorde-marco-polo.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, le Concorde Marco Polo propose un très bon confort (8,7) en formule tout compris.",
+        "prix_moyen": "1 024€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très bien noté (8,4)",
+            "Confort élevé de 8,7",
+            "Formule tout compris"
+        ],
+        "points_negatifs": [
+            "Tarifs variables en haute saison"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Confortable, animé et tout compris",
+            "public": "Familles et couples cherchant un hôtel de club fiable à Hammamet",
+            "style": "Resort club 4 étoiles",
+            "verdict": "Une valeur sûre pour des vacances tout compris sans soucis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 613 expériences vécues · Mise à jour : 2026"
+    },
+    "Radisson Blu Athénée Palace Resort & Thalasso, Djerba": {
+        "pays": "Tunisie",
+        "ville": "Houmt Souk",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/radisson-blu-athenee-palace-resort-thalasso-djerba.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Houmt Souk (Djerba), ce superbe resort 5 étoiles propose un centre de thalassothérapie, des chambres avec vue latérale sur mer et un petit-déjeuner inclus.",
+        "prix_moyen": "1 326€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Confort de 8,6 avec centre de thalasso",
+            "Chambres avec balcon et vue latérale sur mer"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés en haute saison"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Thalasso / Spa",
+            "Vue mer",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, thermal et marin",
+            "public": "Voyageurs cherchant le standing international et la thalasso à Djerba",
+            "style": "Resort 5 étoiles",
+            "verdict": "Une adresse prestigieuse pour un séjour de détente absolue."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 501 expériences vécues · Mise à jour : 2026"
+    },
+    "The Village Resort By Acquaviva Gammarth": {
+        "pays": "Tunisie",
+        "ville": "Gammarth",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/the-village-resort-acquaviva-gammarth.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gammarth, cet établissement propose un cadre verdoyant avec piscine, petit-déjeuner inclus et paiement flexible sur place.",
+        "prix_moyen": "279€ / semaine",
+        "avis": "6,4/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place",
+            "Tarif très accessible à Gammarth"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Paiement sur place",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Simple, vert et économique",
+            "public": "Petits budgets cherchant un hôtel de repos à Gammarth",
+            "style": "Hôtel de côte",
+            "verdict": "Une option abordable pour un séjour de repos sans prétention."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 50 expériences vécues · Mise à jour : 2026"
+    },
+    "Mövenpick Hotel du Lac Tunis": {
+        "pays": "Tunisie",
+        "ville": "Les Berges du Lac",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/movenpick-hotel-du-lac-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au bord du lac aux Berges du Lac (Tunis), ce prestigieux hôtel 5 étoiles propose un certificat de durabilité et un confort de 8,7.",
+        "prix_moyen": "1 450€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Standard international Mövenpick",
+            "Confort élevé de 8,7 avec certificat de durabilité",
+            "Vue imprenable sur le lac de Tunis"
+        ],
+        "points_negatifs": [
+            "Tarifs de type palace urbain"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Vue sur lac"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, moderne et soigné",
+            "public": "Clientèle d'affaires et touristes exigeants cherchant le top du standing à Tunis",
+            "style": "Hôtel de luxe 5 étoiles",
+            "verdict": "Une adresse somptueuse et incontournable au bord de l'eau."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 765 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Julius": {
+        "pays": "Tunisie",
+        "ville": "El Jem",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/hotel-julius-el-jem.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à El Jem, l'Hotel Julius propose un très bon confort (8,8) avec petit-déjeuner inclus pour visiter le célèbre amphithéâtre romain.",
+        "prix_moyen": "736€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort exceptionnel de 8,8",
+            "Emplacement idéal pour visiter El Jem, petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Petite structure urbaine"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Chambre double"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel, confortable et historique",
+            "public": "Amateurs d'histoire et de vestiges romains",
+            "style": "Hôtel de tourisme",
+            "verdict": "Le meilleur point de chute pour explorer El Jem en tout confort."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 351 expériences vécues · Mise à jour : 2026"
+    },
+    "Vincci Saphir Palace & Spa": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/vincci-saphir-palace-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, le Vincci Saphir Palace & Spa propose des prestations luxueuses, un espace bien-être et le petit-déjeuner inclus.",
+        "prix_moyen": "934€ / semaine",
+        "avis": "7,3/10",
+        "points_positifs": [
+            "Standards de la chaîne Vincci",
+            "Espace spa et piscine vue jardin/piscine",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Notes clients partagées pour un 5 étoiles"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Luxueux, relaxant et balnéaire",
+            "public": "Voyageurs cherchant un grand hôtel avec spa à Hammamet",
+            "style": "Resort 5 étoiles",
+            "verdict": "Un cadre spacieux pour un séjour de bien-être."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 27 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Matmata": {
+        "pays": "Tunisie",
+        "ville": "Matmata",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/hotel-matmata.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Matmata, cet hôtel propose un très bon confort (8,3) et constitue une étape authentique pour découvrir les fameuses habitations troglodytes.",
+        "prix_moyen": "385€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Confort de 8,3 en plein cœur de Matmata",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Prestations traditionnelles simples"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Annulation gratuite",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏜️ Authentique, troglodyte et dépaysant",
+            "public": "Voyageurs explorant le sud tunisien et les décors uniques de Matmata",
+            "style": "Hôtel régional",
+            "verdict": "Une étape incontournable et confortable pour visiter Matmata."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 63 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Djerba Erriadh": {
+        "pays": "Tunisie",
+        "ville": "Houmt Souk",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/djerba-erriadh.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Houmt Souk (Djerba), l'Hôtel Djerba Erriadh propose un cadre simple et climatisé avec annulation gratuite.",
+        "prix_moyen": "533€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Bien noté (7,7)",
+            "Emplacement pratique à Houmt Souk",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Prestations basiques"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Chambre double",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Simple, authentique et pratique",
+            "public": "Voyageurs cherchant un pied-à-terre abordable à Djerba",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option correcte pour un séjour simple sur l'île."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 182 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Alrawabi": {
+        "pays": "Tunisie",
+        "ville": "Nefza",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/alrawabi-nefza.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Nefza, l'Hotel Alrawabi propose un très bon confort (8,4) avec petit-déjeuner inclus et un tarif très accessible.",
+        "prix_moyen": "463€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Confort élevé de 8,4",
+            "Petit-déjeuner inclus",
+            "Chambre double climatisée"
+        ],
+        "points_negatifs": [
+            "Zone rurale isolée"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Chambre double"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Calme, nature et économique",
+            "public": "Voyageurs explorant la région de Nefza et le nord-ouest",
+            "style": "Hôtel de campagne",
+            "verdict": "Une bonne halte reposante dans cette région verdoyante."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 79 expériences vécues · Mise à jour : 2026"
+    },
+    "Novotel Tunis Lac": {
+        "pays": "Tunisie",
+        "ville": "Les Berges du Lac",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/novotel-tunis-lac.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé aux Berges du Lac à Tunis, le Novotel Tunis Lac propose un standing 4 étoiles avec certificat de durabilité et un confort de 8,9.",
+        "prix_moyen": "1 143€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort exceptionnel de 8,9",
+            "Certificat de durabilité et standards internationaux Novotel"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Certificat de durabilité",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Moderne, professionnel et soigné",
+            "public": "Voyageurs d'affaires et touristes cherchant le confort moderne aux Berges du Lac",
+            "style": "Hôtel international 4 étoiles",
+            "verdict": "Une valeur sûre irréprochable dans l'un des meilleurs quartiers de Tunis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 297 expériences vécues · Mise à jour : 2026"
+    },
+    "Plaza la marsa": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/plaza-la-marsa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à La Marsa (Tunis), cet établissement propose un petit-déjeuner inclus avec annulation gratuite et paiement sur place.",
+        "prix_moyen": "302€ / semaine",
+        "avis": "6,7/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Emplacement à La Marsa",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Urbain et accessible",
+            "public": "Petits budgets cherchant un hôtel de zone côtière à La Marsa",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une alternative économique pour loger à La Marsa."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 227 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel FLAMINGO BEACH": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/flamingo-beach-djerba.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Djerba, l'Hotel FLAMINGO BEACH propose un superbe confort (9,2) avec petit-déjeuner et dîner compris (demi-pension).",
+        "prix_moyen": "577€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort exceptionnel de 9,2",
+            "Demi-pension incluse (petit-déjeuner et dîner)"
+        ],
+        "points_negatifs": [
+            "Dernières chambres disponibles"
+        ],
+        "equipements": [
+            "Demi-pension",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Confortable, soigné et accueillant",
+            "public": "Voyageurs cherchant un excellent standing à prix doux à Djerba",
+            "style": "Hôtel de charme",
+            "verdict": "Un rapport qualité-prix remarquable (8,8/10) avec repas inclus."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 12 expériences vécues · Mise à jour : 2026"
+    },
+    "El Mouradi Djerba Menzel - Couple et Famille uniquement": {
+        "pays": "Tunisie",
+        "ville": "Midoun",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-mouradi-djerba-menzel.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Midoun (Djerba) et réservé aux familles et couples, ce grand resort propose une formule tout compris en bord de mer.",
+        "prix_moyen": "791€ / semaine",
+        "avis": "5,5/10",
+        "points_positifs": [
+            "Réservé strictement aux familles et couples",
+            "Formule tout compris",
+            "Architecture de style menzel djerbien"
+        ],
+        "points_negatifs": [
+            "Notes clients mitigées"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Familial et typique",
+            "public": "Familles cherchant un club tout compris dans un cadre djerbien traditionnel",
+            "style": "Hôtel club",
+            "verdict": "Une option économique de grande capacité à Djerba."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 882 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Romane": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/romane-hammamet.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, l'Hôtel Romane propose une formule avec tous les repas compris (pension complète) et annulation gratuite.",
+        "prix_moyen": "500€ / semaine",
+        "avis": "7,4/10",
+        "points_positifs": [
+            "Tous les repas compris (pension complète)",
+            "Annulation gratuite",
+            "Tarif économique"
+        ],
+        "points_negatifs": [
+            "Prestations simples"
+        ],
+        "equipements": [
+            "Tous les repas compris",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Pratique et économique",
+            "public": "Petits budgets voulant ne pas se soucier des repas à Hammamet",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un plan très abordable avec pension complète."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 67 expériences vécues · Mise à jour : 2026"
+    },
+    "Kyriad Prestige City Center Tunis": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/kyriad-prestige-city-center-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre de Tunis, le Kyriad Prestige propose un confort exceptionnel de 9,1 et des prestations haut de gamme.",
+        "prix_moyen": "717€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort exceptionnel de 9,1",
+            "Emplacement central à Tunis, paiement sur place"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Centre-ville",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Moderne, chic et central",
+            "public": "Voyageurs cherchant un standing supérieur en plein centre de Tunis",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Une adresse incontournable pour un séjour haut de gamme dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 732 expériences vécues · Mise à jour : 2026"
+    },
+    "Medina Belisaire And Thalasso": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/medina-belisaire-thalasso.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, le Medina Belisaire And Thalasso propose un centre de thalassothérapie, un certificat de durabilité et une excellente note de 8,7.",
+        "prix_moyen": "633€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort de 9,0 avec centre de thalassothérapie",
+            "Certificat de durabilité et petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Thalasso / Spa",
+            "Certificat de durabilité",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Thermal, vert et relaxant",
+            "public": "Amateurs de bien-être et de thalasso dans un cadre écologique à Hammamet",
+            "style": "Resort 4 étoiles avec thalasso",
+            "verdict": "Une superbe adresse pour prendre soin de soi au meilleur prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 496 expériences vécues · Mise à jour : 2026"
+    },
+    "Golf Royal Hotel": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/golf-royal-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre de Tunis, le Golf Royal Hotel offre un très bon confort (8,4) avec petit-déjeuner inclus.",
+        "prix_moyen": "546€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Très bien noté (8,0)",
+            "Confort élevé de 8,4 en plein centre de Tunis",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Animation urbaine"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central, propre et fonctionnel",
+            "public": "Touristes et voyageurs d'affaires voulant tout faire à pied à Tunis",
+            "style": "Hôtel de ville",
+            "verdict": "Une valeur sûre très appréciée pour son emplacement central."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 884 expériences vécues · Mise à jour : 2026"
+    },
+    "Riad Meninx": {
+        "pays": "Tunisie",
+        "ville": "Bin Rhilouf",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/riad-meninx.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Bin Rhilouf, le Riad Meninx propose un cadre très bien noté avec des chambres deluxe et une formule tout compris.",
+        "prix_moyen": "777€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort de 8,3 avec formule tout compris",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Faible nombre d'expériences récentes"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Chaleureux, détendu et tout compris",
+            "public": "Voyageurs cherchant un séjour tout compris accessible",
+            "style": "Hôtel club de charme",
+            "verdict": "Une option intéressante et bien notée pour un budget modéré."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 expériences vécues · Mise à jour : 2026"
+    },
+    "Royal Tulip Korbous Bay Thalasso & Springs": {
+        "pays": "Tunisie",
+        "ville": "Korbous",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/royal-tulip-korbous-bay-thalasso-springs.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Korbous, ce luxueux resort 5 étoiles propose un centre de thalassothérapie et de sources chaudes avec un confort exceptionnel de 9,0.",
+        "prix_moyen": "1 402€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Confort exceptionnel de 9,0",
+            "Centre de thalassothérapie et sources thermales naturelles",
+            "Prestations 5 étoiles haut de gamme"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Thalasso / Sources chaudes",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Luxueux, thermal et prestigieux",
+            "public": "Amateurs de bien-être haut de gamme et de cures thermales",
+            "style": "Resort thermal 5 étoiles",
+            "verdict": "Une adresse d'exception unique grâce à ses sources chaudes naturelles."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 764 expériences vécues · Mise à jour : 2026"
+    },
+    "Vincci Helios Beach": {
+        "pays": "Tunisie",
+        "ville": "Midoun",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/vincci-helios-beach.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Midoun (Djerba), le Vincci Helios Beach propose un certificat de durabilité, une formule tout compris et un cadre idéal en bord de mer.",
+        "prix_moyen": "1 240€ / semaine",
+        "avis": "7,5/10",
+        "points_positifs": [
+            "Standards de qualité de la chaîne Vincci",
+            "Certificat de durabilité",
+            "Formule tout compris et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Dernières chambres disponibles"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Certificat de durabilité",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Marin, éco-responsable et tout compris",
+            "public": "Familles cherchant un club fiable et certifié à Djerba",
+            "style": "Resort club 4 étoiles",
+            "verdict": "Une valeur sûre pour des vacances tout compris sur l'île."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 157 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Diar Yassine": {
+        "pays": "Tunisie",
+        "ville": "Midoun",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/diar-yassine-midoun.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Midoun (Djerba), l'Hotel Diar Yassine propose des chambres avec vue sur jardin et un petit-déjeuner inclus à petit prix.",
+        "prix_moyen": "314€ / semaine",
+        "avis": "7,3/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Prix très accessible",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Prestations simples"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Simple, économique et ensoleillé",
+            "public": "Petits budgets cherchant un hôtel convivial à Djerba",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option très économique pour profiter de Djerba."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 190 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Byzance": {
+        "pays": "Tunisie",
+        "ville": "Nabeul",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/byzance-nabeul.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Nabeul, l'Hotel Byzance propose des chambres doubles climatisées avec un petit-déjeuner inclus.",
+        "prix_moyen": "307€ / semaine",
+        "avis": "7,1/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Emplacement pratique à Nabeul",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Prestations basiques"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Chambre double"
+        ],
+        "pour_qui": {
+            "ambiance": "🏖️ Pratique et économique",
+            "public": "Voyageurs cherchant un pied-à-terre abordable à Nabeul",
+            "style": "Hôtel de ville",
+            "verdict": "Un choix fonctionnel pour un petit budget dans la région de Nabeul."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 905 expériences vécues · Mise à jour : 2026"
+    },
+    "TUI BLUE Manar": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/tui-blue-manar.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, le TUI BLUE Manar affiche une note fabuleuse de 9,3 avec un confort exceptionnel de 9,4 et une formule tout compris haut de gamme.",
+        "prix_moyen": "1 672€ / semaine",
+        "avis": "9,3/10",
+        "points_positifs": [
+            "Fabuleux (9,3)",
+            "Confort exceptionnel de 9,4 avec accès direct à la piscine depuis certaines chambres",
+            "Formule tout compris de premier ordre"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés en haute saison"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, moderne et exceptionnel",
+            "public": "Familles et couples cherchant l'un des meilleurs hôtels de standing à Hammamet",
+            "style": "Resort de luxe tout compris",
+            "verdict": "Une adresse incontournable pour des vacances somptueuses et sans compromis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 083 expériences vécues · Mise à jour : 2026"
+    },
+    "El Mouradi Cap Mahdia": {
+        "pays": "Tunisie",
+        "ville": "Mahdia",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-mouradi-cap-mahdia.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Mahdia, l'El Mouradi Cap Mahdia propose un club de vacances en bord de mer en formule tout compris.",
+        "prix_moyen": "592€ / semaine",
+        "avis": "6,6/10",
+        "points_positifs": [
+            "Formule tout compris",
+            "Situation en bord de mer à Mahdia",
+            "Tarif très abordable"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Balnéaire, animé et économique",
+            "public": "Petits budgets cherchant un club tout compris à Mahdia",
+            "style": "Hôtel club",
+            "verdict": "Une option économique pour un séjour les pieds dans l'eau."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 269 expériences vécues · Mise à jour : 2026"
+    },
+    "El Mouradi El Menzah": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-mouradi-el-menzah.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, l'El Mouradi El Menzah propose une formule tout compris avec un accès direct à la plage.",
+        "prix_moyen": "642€ / semaine",
+        "avis": "5,1/10",
+        "points_positifs": [
+            "Formule tout compris",
+            "Emplacement balnéaire à Hammamet",
+            "Infrastructures de loisirs"
+        ],
+        "points_negatifs": [
+            "Notes clients faibles"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Animé et populaire",
+            "public": "Voyageurs cherchant un tout compris économique à Hammamet",
+            "style": "Hôtel club",
+            "verdict": "Une alternative très basique pour les petits budgets."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 877 expériences vécues · Mise à jour : 2026"
+    },
+    "Radisson Hotel Tunis, City Center": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/radisson-hotel-tunis-city-center.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre de Tunis, le Radisson Hotel Tunis, City Center propose un standing supérieur avec un confort exceptionnel de 9,3.",
+        "prix_moyen": "912€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort exceptionnel de 9,3 au cœur de Tunis",
+            "Standards de la chaîne internationale Radisson"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Centre-ville",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, moderne et central",
+            "public": "Voyageurs d'affaires et touristes exigeants voulant le meilleur confort à Tunis",
+            "style": "Hôtel de luxe international",
+            "verdict": "Une adresse incontournable pour un séjour haut de gamme dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 751 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel AL KARMEL": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/al-karmel-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, l'Hotel AL KARMEL propose un petit-déjeuner inclus sans prépaiement requis.",
+        "prix_moyen": "319€ / semaine",
+        "avis": "7,1/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Paiement sur place sans prépaiement",
+            "Prix très accessible à Tunis"
+        ],
+        "points_negatifs": [
+            "Prestations basiques"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Économique et pratique",
+            "public": "Petits budgets cherchant un hôtel simple dans la capitale",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un point de chute fonctionnel et peu onéreux."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 441 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Lac Leman, LES BERGES DU LAC": {
+        "pays": "Tunisie",
+        "ville": "Les Berges du Lac",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/lac-leman.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé aux Berges du Lac à Tunis, cet hôtel propose des chambres supérieures avec un grand lit double dans un quartier d'affaires prisé.",
+        "prix_moyen": "687€ / semaine",
+        "avis": "6,9/10",
+        "points_positifs": [
+            "Emplacement prestigieux aux Berges du Lac",
+            "Chambres spacieuses",
+            "Proche de l'aéroport et des commodités"
+        ],
+        "points_negatifs": [
+            "Notes clients partagées"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Chambre double",
+            "Quartier d'affaires"
+        ],
+        "pour_qui": {
+            "ambiance": "💼 Urbain et calme",
+            "public": "Voyageurs d'affaires cherchant un emplacement stratégique au bord du lac",
+            "style": "Hôtel d'affaires",
+            "verdict": "Une option correcte pour un séjour professionnel aux Berges du Lac."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 475 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Hammamet Beach": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/hammamet-beach.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, cet établissement propose un petit-déjeuner inclus avec annulation gratuite et paiement sur place.",
+        "prix_moyen": "1 194€ / semaine",
+        "avis": "10/10",
+        "points_positifs": [
+            "Note exceptionnelle de 10/10 (sur premières expériences)",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Faible nombre d'avis récents"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Ensoleillé et accueillant",
+            "public": "Voyageurs curieux de tester une nouvelle adresse bien notée à Hammamet",
+            "style": "Hôtel balnéaire",
+            "verdict": "Une curiosité très bien notée pour un séjour à Hammamet."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 expériences vécues · Mise à jour : 2026"
+    },
+    "Capsa Thermal Oasis": {
+        "pays": "Tunisie",
+        "ville": "Gafsa",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/capsa-thermal-oasis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gafsa, ce complexe thermal propose un confort élevé de 9,1 avec petit-déjeuner inclus et source thermale.",
+        "prix_moyen": "397€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort exceptionnel de 9,1 avec eaux thermales",
+            "Petit-déjeuner inclus et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Situé dans le sud intérieur (Gafsa)"
+        ],
+        "equipements": [
+            "Source thermale",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Thermal, relaxant et authentique",
+            "public": "Amateurs de détente thermale et d'exploration du sud tunisien",
+            "style": "Hôtel thermal d'oasis",
+            "verdict": "Une magnifique surprise thermale à petit prix dans le sud."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 81 expériences vécues · Mise à jour : 2026"
+    },
+    "Les Orangers Garden Villas and Bungalows Ultra All inclusive": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/les-orangers-garden-villas-bungalows.fr.html?aid=818289",
+        "image": "",
+        "description": "Luxueux complexe 5 étoiles à Hammamet proposant des villas, des bungalows et une formule tout compris ultra-complète dans un grand parc arboré.",
+        "prix_moyen": "2 508€ / semaine",
+        "avis": "6,5/10",
+        "points_positifs": [
+            "Formule tout compris ultra haut de gamme",
+            "Cadre magnifique de villas et bungalows au milieu des orangers",
+            "Prestations 5 étoiles"
+        ],
+        "points_negatifs": [
+            "Tarifs très élevés",
+            "Notes clients partagées"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Ultra Tout Compris",
+            "Villas / Bungalows"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Luxueux, verdoyant et exclusif",
+            "public": "Clientèle aisée cherchant le grand luxe et l'intimité d'une villa en tout compris",
+            "style": "Resort de luxe",
+            "verdict": "Un cadre somptueux au milieu de la verdure pour un budget conséquent."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 676 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Résidence Le Consul": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/residence-le-consul.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, l'Hôtel Résidence Le Consul propose un bon confort (8,1) avec petit-déjeuner inclus et annulation gratuite.",
+        "prix_moyen": "582€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Confort de 8,1",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Style classique urbain"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Pratique et soigné",
+            "public": "Voyageurs cherchant un pied-à-terre confortable à Tunis",
+            "style": "Hôtel de ville",
+            "verdict": "Une alternative correcte pour séjourner dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 105 expériences vécues · Mise à jour : 2026"
+    },
+    "Le Corail Suites Hotel": {
+        "pays": "Tunisie",
+        "ville": "Les Berges du Lac",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/le-corail-suites.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé aux Berges du Lac à Tunis, Le Corail Suites Hotel propose un très bon confort (8,8) et des chambres standards de qualité supérieure.",
+        "prix_moyen": "1 352€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort élevé de 8,8",
+            "Emplacement de premier choix aux Berges du Lac"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Climatisation",
+            "Quartier d'affaires"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Moderne, chic et professionnel",
+            "public": "Voyageurs d'affaires et clients exigeants cherchant le standing aux Berges du Lac",
+            "style": "Hôtel de suites 4 étoiles",
+            "verdict": "Une adresse très réputée pour sa propreté et son service."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 118 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Nour Congress & Resort": {
+        "pays": "Tunisie",
+        "ville": "Bizerte",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/nour-congress-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Bizerte, cet hôtel-resort propose un bon confort (8,0) avec des chambres doubles ou lits jumeaux standards.",
+        "prix_moyen": "530€ / semaine",
+        "avis": "7,3/10",
+        "points_positifs": [
+            "Confort de 8,0",
+            "Infrastructures de congrès et de loisirs à Bizerte",
+            "Climatisation"
+        ],
+        "points_negatifs": [
+            "Prestations classiques"
+        ],
+        "equipements": [
+            "Piscine",
+            "Climatisation",
+            "Salles de réunion"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire et fonctionnel",
+            "public": "Voyageurs d'affaires ou familles cherchant un grand hôtel à Bizerte",
+            "style": "Hôtel resort & congrès",
+            "verdict": "Une bonne infrastructure pour un séjour professionnel ou familial à Bizerte."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 590 expériences vécues · Mise à jour : 2026"
+    },
+    "Dar Salem": {
+        "pays": "Tunisie",
+        "ville": "Djerba",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/dar-salem-djerba.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Djerba, l'établissement Dar Salem propose des chambres avec balcon et un cadre chaleureux très bien noté (8,2).",
+        "prix_moyen": "515€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Chambres avec balcon",
+            "Ambiance intimiste à Djerba"
+        ],
+        "points_negatifs": [
+            "Faible nombre d'avis récents"
+        ],
+        "equipements": [
+            "Balcon",
+            "Climatisation",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Charmant, calme et ensoleillé",
+            "public": "Couples cherchant un petit hôtel de charme reposant à Djerba",
+            "style": "Hôtel de charme",
+            "verdict": "Une option cosy et agréable pour fuir les grands complexes."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 10 expériences vécues · Mise à jour : 2026"
+    },
+    "Abou Sofiane Hotel": {
+        "pays": "Tunisie",
+        "ville": "Port El-Kantaoui",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/abou-sofiane.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Port El-Kantaoui, l'Abou Sofiane Hotel propose un cadre balnéaire avec petit-déjeuner inclus, annulation gratuite et paiement sur place.",
+        "prix_moyen": "569€ / semaine",
+        "avis": "7,6/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place",
+            "Proche de la marina de Port El-Kantaoui"
+        ],
+        "points_negatifs": [
+            "Prestations classiques"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "⛵ Marin, animé et abordable",
+            "public": "Familles cherchant un hôtel de côte bien placé près de Port El-Kantaoui",
+            "style": "Hôtel club 4 étoiles",
+            "verdict": "Un bon choix fonctionnel pour profiter de la région sans se ruiner."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 23 expériences vécues · Mise à jour : 2026"
+    },
+    "OCEANA Hotel & Spa": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/oceana-hotel-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Luxueux hôtel 5 étoiles réservé aux adultes à Hammamet, proposant un certificat de durabilité, des suites junior et un spa haut de gamme.",
+        "prix_moyen": "1 355€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort de 8,8 avec spa et certificat de durabilité",
+            "Hôtel réservé aux adultes (cadre très calme)"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Adults Only",
+            "Thalasso / Spa"
+        ],
+        "pour_qui": {
+            "ambiance": "🍸 Calme, luxueux et reposant",
+            "public": "Couples cherchant un 5 étoiles sans enfants axé sur la détente à Hammamet",
+            "style": "Resort de luxe adults only",
+            "verdict": "Une adresse prestigieuse et intime pour un séjour au calme."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 535 expériences vécues · Mise à jour : 2026"
+    },
+    "Sahara Douz": {
+        "pays": "Tunisie",
+        "ville": "Douz",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/sahara-douz.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Douz (la porte du désert), le Sahara Douz propose un bon confort (8,2) avec demi-pension (petit-déjeuner et dîner compris) au milieu des dunes.",
+        "prix_moyen": "729€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Confort de 8,2 au cœur de l'erg saharien",
+            "Demi-pension incluse (petit-déjeuner et dîner)",
+            "Immersion totale dans les paysages de Douz"
+        ],
+        "points_negatifs": [
+            "Climat désertique chaud"
+        ],
+        "equipements": [
+            "Demi-pension",
+            "Climatisation",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🏜️ Dépaysant, saharien et chaleureux",
+            "public": "Voyageurs explorant le grand sud et les dunes de Douz",
+            "style": "Hôtel d'oasis",
+            "verdict": "Une étape mythique et confortable pour visiter le désert tunisien."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 592 expériences vécues · Mise à jour : 2026"
+    },
+    "Nahrawess Resort & Thalasso": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/nahrawess-resort-thalasso.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, le Nahrawess Resort propose un grand centre de thalassothérapie et une formule tout compris avec annulation gratuite.",
+        "prix_moyen": "607€ / semaine",
+        "avis": "6,9/10",
+        "points_positifs": [
+            "Immense centre de thalassothérapie",
+            "Formule tout compris",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Notes clients moyennes"
+        ],
+        "equipements": [
+            "Thalasso / Spa",
+            "Tout compris",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Thermal, vaste et balnéaire",
+            "public": "Amateurs de cures thermales cherchant un grand complexe à petit prix à Hammamet",
+            "style": "Resort de thalasso",
+            "verdict": "Un choix axé sur les soins de bien-être à tarif abordable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 128 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel karim Tunis": {
+        "pays": "Tunisie",
+        "ville": "Médina, Tunis",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/karim-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Médina de Tunis, l'Hotel karim propose un superbe confort (8,9) avec annulation gratuite et paiement sur place à un prix imbattable.",
+        "prix_moyen": "248€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort exceptionnel de 8,9 en plein cœur de la Médina",
+            "Prix très économique, paiement sur place"
+        ],
+        "points_negatifs": [
+            "Structure traditionnelle simple"
+        ],
+        "equipements": [
+            "Médina",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Historique, culturel et économique",
+            "public": "Voyageurs voulant s'immerger dans la vieille ville de Tunis sans se ruiner",
+            "style": "Hôtel de charme traditionnel",
+            "verdict": "Une trouvaille exceptionnelle (8,7/10) pour un séjour ultra-économique dans la Médina."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 576 expériences vécues · Mise à jour : 2026"
+    },
+    "Golf Residence- Families and Couples Only": {
+        "pays": "Tunisie",
+        "ville": "Hammam Sousse",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/golf-residence-hammam-sousse.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammam Sousse et réservé aux familles et couples, cet hôtel propose la demi-pension (petit-déjeuner et dîner compris).",
+        "prix_moyen": "490€ / semaine",
+        "avis": "5,2/10",
+        "points_positifs": [
+            "Réservé strictement aux familles et couples",
+            "Demi-pension incluse",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Notes clients très mitigées"
+        ],
+        "equipements": [
+            "Demi-pension",
+            "Climatisation",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Familial et simple",
+            "public": "Petits budgets cherchant un hôtel réservé aux couples et familles près de Sousse",
+            "style": "Hôtel de côte",
+            "verdict": "Une option économique avec repas du soir inclus."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 24 expériences vécues · Mise à jour : 2026"
+    },
+    "Tamerza Palace By Odyssée": {
+        "pays": "Tunisie",
+        "ville": "Tamaghzah",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/tamerza-palace.fr.html?aid=818289",
+        "image": "",
+        "description": "Perché dans les montagnes de Tamerza (Tamaghzah), ce palais fabuleux noté 9,1 offre un confort exceptionnel de 9,3 avec vue sur les oasis de montagne.",
+        "prix_moyen": "756€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel de 9,3 dans un cadre de montagnes et d'oasis",
+            "Petit-déjeuner inclus et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Lieu isolé dans l'atlas tunisien"
+        ],
+        "equipements": [
+            "Vue montagne / oasis",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏔️ Majestueux, montagneux et dépaysant",
+            "public": "Amateurs de grands espaces sauvages et de canyons dans le sud",
+            "style": "Palace de montagne",
+            "verdict": "Une étape absolument magique et luxueuse dans les oasis de montagne."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 213 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Bougainvillier Djerba": {
+        "pays": "Tunisie",
+        "ville": "Taguermess",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/bougainvillier-djerba.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Taguermess (Djerba), cet hôtel propose un très bon confort (8,4) avec petit-déjeuner inclus et un cadre fleuri.",
+        "prix_moyen": "408€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Confort élevé de 8,4",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Prestations simples"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌺 Fleuri, calme et économique",
+            "public": "Voyageurs cherchant un hôtel charmant et pas cher à Djerba",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une très bonne adresse de charme pour un petit budget à Djerba."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 674 expériences vécues · Mise à jour : 2026"
+    },
+    "El Mouradi Port El Kantaoui": {
+        "pays": "Tunisie",
+        "ville": "Port El-Kantaoui",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-mouradi-port-el-kantaoui.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Port El-Kantaoui, cet hôtel club propose une formule avec tous les repas compris (pension complète ou tout compris).",
+        "prix_moyen": "636€ / semaine",
+        "avis": "5,7/10",
+        "points_positifs": [
+            "Tous les repas compris",
+            "Proche de la marina de Port El-Kantaoui",
+            "Grandes infrastructures de club"
+        ],
+        "points_negatifs": [
+            "Notes clients assez faibles"
+        ],
+        "equipements": [
+            "Tous les repas compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Animé et balnéaire",
+            "public": "Petits budgets cherchant un grand hôtel club près de Port El-Kantaoui",
+            "style": "Hôtel club",
+            "verdict": "Une solution de repli économique pour profiter de la station."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 423 expériences vécues · Mise à jour : 2026"
+    },
+    "Charme Hotel La Foret": {
+        "pays": "Tunisie",
+        "ville": "Aïn Draham",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/charme-la-foret-ain-draham.fr.html?aid=818289",
+        "image": "",
+        "description": "Niché au cœur de la forêt d'Aïn Draham, cet hôtel de charme fabuleux noté 9,0 offre un confort exceptionnel de 9,3 avec petit-déjeuner inclus.",
+        "prix_moyen": "809€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,3 en pleine nature forestière",
+            "Petit-déjeuner inclus et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Isolé dans les montagnes du nord"
+        ],
+        "equipements": [
+            "Cadre forestier",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌲 Forestier, frais et reposant",
+            "public": "Amateurs de nature, de randonnées et de fraîcheur dans les montagnes d'Aïn Draham",
+            "style": "Hôtel de charme montagnard",
+            "verdict": "Une oasis de verdure et de calme absolu loin de la chaleur de la côte."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 90 expériences vécues · Mise à jour : 2026"
+    },
+    "El Oumara Hotel": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-oumara.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre de Tunis, l'El Oumara Hotel propose un bon confort (8,1) avec petit-déjeuner inclus, annulation gratuite et paiement sur place.",
+        "prix_moyen": "306€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Confort de 8,1 en plein centre de Tunis",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Animation urbaine"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Pratique, central et économique",
+            "public": "Petits budgets cherchant un hôtel bien placé dans la capitale",
+            "style": "Hôtel de ville",
+            "verdict": "Un choix très économique et central à Tunis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 090 expériences vécues · Mise à jour : 2026"
+    },
+    "One Resort Aqua Park": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/one-resort-aqua-park.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Monastir, cet hôtel club propose un parc aquatique, des chambres avec terrasse et une formule tout compris.",
+        "prix_moyen": "941€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Parc aquatique / toboggans pour les familles",
+            "Formule tout compris et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Forte demande estivale"
+        ],
+        "equipements": [
+            "Parc aquatique",
+            "Tout compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🎢 Ludique, familial et aquatique",
+            "public": "Familles cherchant des attractions aquatiques et le tout compris à Monastir",
+            "style": "Hôtel club avec aquapark",
+            "verdict": "Une super option pour des vacances rythmées et amusantes."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 53 expériences vécues · Mise à jour : 2026"
+    },
+    "Caribbean World Mahdia": {
+        "pays": "Tunisie",
+        "ville": "Mahdia",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/caribbean-world-mahdia.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Mahdia en front de mer, le Caribbean World Mahdia propose un club de vacances animé.",
+        "prix_moyen": "1 135€ / semaine",
+        "avis": "5,8/10",
+        "points_positifs": [
+            "Situation en bord de mer à Mahdia",
+            "Ambiance club de vacances"
+        ],
+        "points_negatifs": [
+            "Notes clients mitigées"
+        ],
+        "equipements": [
+            "Piscine",
+            "Front de mer",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Animé et balnéaire",
+            "public": "Voyageurs cherchant un grand club de vacances à Mahdia",
+            "style": "Hôtel club",
+            "verdict": "Une alternative classique de grand format pour profiter de la plage."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 28 expériences vécues · Mise à jour : 2026"
+    },
+    "Sentido Bellevue Park": {
+        "pays": "Tunisie",
+        "ville": "Port El-Kantaoui",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/sentido-bellevue-park.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Port El-Kantaoui, le Sentido Bellevue Park 5 étoiles propose un certificat de durabilité, un grand confort de 8,9 et une formule tout compris.",
+        "prix_moyen": "1 634€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort élevé de 8,9 avec certificat de durabilité",
+            "Prestations 5 étoiles en tout compris"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, soigné et marin",
+            "public": "Clientèle exigeante cherchant un 5 étoiles de qualité à Port El-Kantaoui",
+            "style": "Resort 5 étoiles",
+            "verdict": "Une excellente adresse pour des vacances haut de gamme."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 846 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel El Habib Monastir": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-habib-monastir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Monastir, l'Hotel El Habib propose des chambres triples climatisées et la demi-pension (petit-déjeuner et dîner compris).",
+        "prix_moyen": "793€ / semaine",
+        "avis": "6,9/10",
+        "points_positifs": [
+            "Demi-pension incluse (petit-déjeuner et dîner)",
+            "Chambres triples disponibles",
+            "Situation à Monastir"
+        ],
+        "points_negatifs": [
+            "Notes clients moyennes"
+        ],
+        "equipements": [
+            "Demi-pension",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Balnéaire et classique",
+            "public": "Familles cherchant un hôtel avec dîner inclus à Monastir",
+            "style": "Hôtel de côte",
+            "verdict": "Un choix fonctionnel pour un séjour balnéaire abordable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 112 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel LE CONSUL": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/le-consul-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, cet hôtel propose un excellent confort (8,8) avec petit-déjeuner inclus et annulation gratuite.",
+        "prix_moyen": "735€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort élevé de 8,8",
+            "Petit-déjeuner inclus et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs un peu plus élevés pour un 3 étoiles"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Propre, calme et confortable",
+            "public": "Voyageurs cherchant un bon niveau de confort à Tunis",
+            "style": "Hôtel de ville",
+            "verdict": "Une valeur sûre pour un séjour qualitatif dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 227 expériences vécues · Mise à jour : 2026"
+    },
+    "Royal Azur Thalassa": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/royal-azur-thalassa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, le Royal Azur Thalassa affiche une note fabuleuse de 9,0 avec un confort exceptionnel de 9,3 et un centre de thalassothérapie.",
+        "prix_moyen": "1 136€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,3 avec centre de thalasso de premier plan",
+            "Petit-déjeuner inclus et prestations haut de gamme"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Thalasso / Spa",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Luxueux, thermal et raffiné",
+            "public": "Amateurs de thalasso et de prestations 5 étoiles à Hammamet",
+            "style": "Resort de luxe avec thalasso",
+            "verdict": "Une adresse prestigieuse incontournable pour se faire du bien."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 596 expériences vécues · Mise à jour : 2026"
+    },
+    "Iberostar Selection Eolia Djerba": {
+        "pays": "Tunisie",
+        "ville": "Midoun",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/iberostar-selection-eolia-djerba.fr.html?aid=818289",
+        "image": "",
+        "description": "Superbe hôtel 5 étoiles situé à Midoun (Djerba), l'Iberostar Selection Eolia propose un confort exceptionnel de 9,2 en formule tout compris.",
+        "prix_moyen": "1 893€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort exceptionnel de 9,2",
+            "Standards d'excellence Iberostar en formule tout compris"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Piscine / Spa"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, moderne et irréprochable",
+            "public": "Clientèle exigeante cherchant le meilleur standing tout compris à Djerba",
+            "style": "Resort de luxe tout compris",
+            "verdict": "Une qualité de service absolue pour des vacances de rêve."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 566 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel LES MIMOSAS TABARKA": {
+        "pays": "Tunisie",
+        "ville": "Tabarka",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/les-mimosas-tabarka.fr.html?aid=818289",
+        "image": "",
+        "description": "Perché sur les hauteurs de Tabarka, cet hôtel propose un cadre verdoyant avec une belle vue panoramique et un petit-déjeuner inclus.",
+        "prix_moyen": "368€ / semaine",
+        "avis": "7,1/10",
+        "points_positifs": [
+            "Vue panoramique exceptionnelle sur Tabarka et la mer",
+            "Cadre boisé et calme",
+            "Petit-déjeuner inclus et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Prestations traditionnelles simples"
+        ],
+        "equipements": [
+            "Vue panoramique",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌲 Panoramique, verdoyant et reposant",
+            "public": "Voyageurs cherchant un point de vue unique et du calme à Tabarka",
+            "style": "Hôtel de charme forestier",
+            "verdict": "Une halte pittoresque et abordable dans le nord de la Tunisie."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 473 expériences vécues · Mise à jour : 2026"
+    },
+    "Cap Bon Kelibia Beach Hotel & Spa": {
+        "pays": "Tunisie",
+        "ville": "Kelibia",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/cap-bon-kelibia-beach.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Kelibia en bord de l'une des plus belles plages de Tunisie, cet hôtel propose un centre de spa et la demi-pension.",
+        "prix_moyen": "1 463€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Situation de rêve face aux plages paradisiaques de Kelibia",
+            "Centre de spa et chambres vue mer",
+            "Demi-pension incluse (petit-déjeuner et dîner)"
+        ],
+        "points_negatifs": [
+            "Tarifs un peu élevés en haute saison"
+        ],
+        "equipements": [
+            "Front de mer",
+            "Spa",
+            "Demi-pension"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Marin, paradisiaque et relaxant",
+            "public": "Amateurs de plages de sable fin et d'eaux turquoise au Cap Bon",
+            "style": "Resort de plage",
+            "verdict": "Une superbe adresse pour profiter de la plus belle région côtière."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 117 expériences vécues · Mise à jour : 2026"
+    },
+    "TUI BLUE Palm Beach Palace Djerba - Adult Only": {
+        "pays": "Tunisie",
+        "ville": "Triffa",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/tui-blue-palm-beach-palace-djerba.fr.html?aid=818289",
+        "image": "",
+        "description": "Réservé aux adultes et situé à Djerba, ce resort 5 étoiles propose un confort de 8,9 en formule tout compris.",
+        "prix_moyen": "1 990€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Réservé aux adultes (cadre calme et reposant)",
+            "Confort élevé de 8,9",
+            "Formule tout compris de haut standing"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Adults Only",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🍸 Chic, adulte et paisible",
+            "public": "Couples cherchant un hôtel sans enfants haut de gamme en bord de mer à Djerba",
+            "style": "Resort adults only 5 étoiles",
+            "verdict": "Un havre de paix luxueux réservé aux adultes sur l'île."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 996 expériences vécues · Mise à jour : 2026"
+    },
+    "Thapsus Beach Resort": {
+        "pays": "Tunisie",
+        "ville": "Mahdia",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/thapsus-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Mahdia, le Thapsus Beach Resort propose une formule tout compris en bord de mer.",
+        "prix_moyen": "762€ / semaine",
+        "avis": "3,5/10",
+        "points_positifs": [
+            "Formule tout compris",
+            "Accès direct à la plage de Mahdia",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Notes clients très faibles"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Front de mer",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire et économique",
+            "public": "Petits budgets cherchant un club tout compris à bas prix",
+            "style": "Hôtel club",
+            "verdict": "Une option de dernier recours pour un tout compris économique."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 4 expériences vécues · Mise à jour : 2026"
+    },
+    "Fiesta Beach Djerba": {
+        "pays": "Tunisie",
+        "ville": "Midoun",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/fiesta-beach-djerba.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Midoun (Djerba), le Fiesta Beach Djerba propose un cadre très bien noté (8,0) avec un confort de 8,1 en formule tout compris.",
+        "prix_moyen": "1 367€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Très bien noté (8,0)",
+            "Confort de 8,1",
+            "Formule tout compris animée pour toute la famille"
+        ],
+        "points_negatifs": [
+            "Forte demande estivale"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Animé, festif et familial",
+            "public": "Familles cherchant un club de vacances vivant à Djerba",
+            "style": "Hôtel club 4 étoiles",
+            "verdict": "Une valeur sûre pour des vacances rythmées à Djerba."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 194 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Suisse Tunis": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/suisse-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre de Tunis, l'Hôtel Suisse propose un superbe confort (8,9) avec petit-déjeuner inclus et un excellent rapport qualité-prix.",
+        "prix_moyen": "442€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort élevé de 8,9 en plein centre de Tunis",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Animation urbaine"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central, propre et soigné",
+            "public": "Voyageurs voulant loger au cœur de Tunis avec un excellent niveau de confort",
+            "style": "Hôtel de ville",
+            "verdict": "L'un des meilleurs rapports qualité-prix hôteliers au centre de la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 925 expériences vécues · Mise à jour : 2026"
+    },
+    "Regency Tunis Hotel": {
+        "pays": "Tunisie",
+        "ville": "Gammarth",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/regency-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé en front de mer à Gammarth, le Regency Tunis Hotel propose un standing 5 étoiles avec un grand confort et le petit-déjeuner inclus.",
+        "prix_moyen": "808€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Confort de 8,3 avec plage privée à Gammarth",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs variables en haute saison"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Front de mer",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, marin et reposant",
+            "public": "Voyageurs cherchant un hôtel balnéaire de luxe près de Tunis",
+            "style": "Resort 5 étoiles",
+            "verdict": "Une belle adresse les pieds dans l'eau aux portes de la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 956 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel plaza corniche la marsa": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/plaza-corniche-la-marsa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé sur la corniche de La Marsa (Tunis), cet hôtel propose un petit-déjeuner inclus et un emplacement de choix en bord de mer.",
+        "prix_moyen": "351€ / semaine",
+        "avis": "6,5/10",
+        "points_positifs": [
+            "Emplacement privilégié sur la corniche de La Marsa",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Notes clients moyennes"
+        ],
+        "equipements": [
+            "Front de mer",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Marin et branché",
+            "public": "Voyageurs cherchant un pied-à-terre abordable sur la côte de La Marsa",
+            "style": "Hôtel de côte",
+            "verdict": "Une option stratégique pour profiter de l'ambiance de La Marsa à petit prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 147 expériences vécues · Mise à jour : 2026"
+    },
+    "Al Madina, traditional Riad": {
+        "pays": "Tunisie",
+        "ville": "Bizerte",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/al-madina-riad-bizerte.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la vieille ville de Bizerte, ce riad traditionnel fabuleux noté 9,0 offre un confort exceptionnel de 9,1 avec petit-déjeuner inclus.",
+        "prix_moyen": "288€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,1 dans un riad traditionnel",
+            "Petit-déjeuner inclus, annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Structure traditionnelle intimiste"
+        ],
+        "equipements": [
+            "Riad traditionnel",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Authentique, charmant et économique",
+            "public": "Amateurs d'architecture traditionnelle et de séjours de charme à Bizerte",
+            "style": "Riad de charme",
+            "verdict": "Une magnifique trouvaille culturelle et confortable au meilleur prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 328 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Sfax Palace by Plaza Hotels & Resorts": {
+        "pays": "Tunisie",
+        "ville": "Sfax",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/sfax-palace.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sfax, l'Hotel Sfax Palace propose un très bon confort (8,2) et des chambres lits jumeaux climatisées.",
+        "prix_moyen": "692€ / semaine",
+        "avis": "7,5/10",
+        "points_positifs": [
+            "Confort élevé de 8,2",
+            "Emplacement central à Sfax",
+            "Climatisation"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Climatisation",
+            "Chambre lits jumeaux"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain, professionnel et confortable",
+            "public": "Voyageurs d'affaires ou touristes cherchant un grand hôtel de référence à Sfax",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Une bonne option de standing pour séjourner à Sfax."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 149 expériences vécues · Mise à jour : 2026"
+    },
+    "The Orangers Beach Resort and Bungalows All Inclusive": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/the-orangers-beach-resort-bungalows.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, ce grand resort propose des bungalows avec vue sur jardin en formule tout compris, sans prépaiement requis.",
+        "prix_moyen": "1 277€ / semaine",
+        "avis": "6,6/10",
+        "points_positifs": [
+            "Formule tout compris",
+            "Bungalows au milieu d'un grand domaine verdoyant",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Notes clients partagées"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Bungalows",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Verdoyant, animé et tout compris",
+            "public": "Familles cherchant un resort les pieds dans l'eau à Hammamet",
+            "style": "Resort club 4 étoiles",
+            "verdict": "Un grand classique de Hammamet pour des vacances tout compris."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 416 expériences vécues · Mise à jour : 2026"
+    },
+    "Dar El Médina": {
+        "pays": "Tunisie",
+        "ville": "Médina, Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/dar-el-medina.fr.html?aid=818289",
+        "image": "",
+        "description": "Niché au cœur de la Médina de Tunis, ce superbe hôtel de charme noté 9,0 offre un confort exceptionnel de 9,0 avec petit-déjeuner inclus.",
+        "prix_moyen": "620€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,0 dans une magnifique demeure traditionnelle",
+            "Emplacement culturel unique au cœur de la Médina, petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Dernière chambre disponible"
+        ],
+        "equipements": [
+            "Médina",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Majestueux, historique et authentique",
+            "public": "Amateurs d'architecture traditionnelle et de séjours de charme à Tunis",
+            "style": "Hôtel de charme traditionnel",
+            "verdict": "Une adresse somptueuse pour vivre l'expérience authentique de la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 306 expériences vécues · Mise à jour : 2026"
+    },
+    "La Tour Blanche": {
+        "pays": "Tunisie",
+        "ville": "Gammarth",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/la-tour-blanche-gammarth.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gammarth, cet établissement propose de grandes suites junior de 40 m² avec petit-déjeuner inclus.",
+        "prix_moyen": "674€ / semaine",
+        "avis": "5,8/10",
+        "points_positifs": [
+            "Grandes suites junior spacieuses de 40 m²",
+            "Petit-déjeuner inclus",
+            "Cadre balnéaire à Gammarth"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Suite junior",
+            "Petit-déjeuner inclus",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Spacieux et abordable",
+            "public": "Voyageurs cherchant de grands espaces en suite près de la mer à Gammarth",
+            "style": "Hôtel de suites",
+            "verdict": "Une option intéressante pour disposer d'une grande suite à prix modéré."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 032 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Roma": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/roma-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, l'Hotel Roma propose un très bon confort (8,1) avec petit-déjeuner inclus, annulation gratuite et paiement sur place.",
+        "prix_moyen": "375€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Confort élevé de 8,1",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Nouvel établissement avec peu d'avis"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Pratique, propre et économique",
+            "public": "Petits budgets cherchant un hôtel récent et bien équipé à Tunis",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un choix fonctionnel et rassurant pour séjourner dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 46 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel KSAR DHIAFA by PLAZA HOTELS & RESORTS": {
+        "pays": "Tunisie",
+        "ville": "Sidi Bouzid",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/ksar-dhiafa-sidi-bouzid.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sidi Bouzid, cet hôtel propose un cadre confortable avec petit-déjeuner inclus, annulation gratuite et paiement sur place.",
+        "prix_moyen": "531€ / semaine",
+        "avis": "6,8/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place",
+            "Chambre double climatisée"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Pratique et simple",
+            "public": "Voyageurs de passage ou professionnels à Sidi Bouzid",
+            "style": "Hôtel de ville",
+            "verdict": "Une option fonctionnelle pour séjourner à Sidi Bouzid."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 54 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Mezri": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/mezri-monastir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Monastir, l'Hotel Mezri propose un cadre très bien noté avec petit-déjeuner inclus et un accès direct à proximité de la mer.",
+        "prix_moyen": "244€ / semaine",
+        "avis": "7,0/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Tarif très accessible à Monastir",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Prestations simples"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Économique et marin",
+            "public": "Petits budgets cherchant un hôtel correct près de la mer à Monastir",
+            "style": "Hôtel de côte",
+            "verdict": "Un choix malin pour profiter de Monastir sans se ruiner."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 850 expériences vécues · Mise à jour : 2026"
+    },
+    "Dar Dhiafa Paul Klee Kairouan": {
+        "pays": "Tunisie",
+        "ville": "Kairouan",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/dar-dhiafa-paul-klee-kairouan.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Kairouan, ce charmant établissement affiche une note fabuleuse de 9,2 avec un confort de 9,4 et un petit-déjeuner inclus.",
+        "prix_moyen": "552€ / semaine",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Fabuleux (9,2)",
+            "Confort exceptionnel de 9,4",
+            "Petit-déjeuner inclus, annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel, charmant et raffiné",
+            "public": "Voyageurs cherchant l'authenticité et le grand confort à Kairouan",
+            "style": "Maison d'hôtes / hôtel de charme",
+            "verdict": "Une adresse exceptionnelle pour un séjour culturel haut de gamme."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 173 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Belvédère Fourati": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/belvedere-fourati-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, l'Hôtel Belvédère Fourati propose un standing supérieur avec une note fabuleuse de 9,1 et un confort de 9,4.",
+        "prix_moyen": "769€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel de 9,4 à Tunis",
+            "Chambres doubles supérieures climatisées"
+        ],
+        "points_negatifs": [
+            "Cadre urbain"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Climatisation",
+            "Hôtel de ville"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Élégant, moderne et confortable",
+            "public": "Voyageurs d'affaires et touristes cherchant une excellente adresse dans la capitale",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Une valeur sûre très haut de gamme à Tunis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 795 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Tej El Medina": {
+        "pays": "Tunisie",
+        "ville": "El Kef",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/tej-el-medina-el-kef.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à El Kef, cet hôtel affiche une note exceptionnelle de 10/10 avec un confort parfait de 10 et un petit-déjeuner inclus.",
+        "prix_moyen": "1 076€ / semaine",
+        "avis": "10/10",
+        "points_positifs": [
+            "Note exceptionnelle de 10/10",
+            "Confort parfait de 10",
+            "Petit-déjeuner inclus, annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés pour la région"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Prestigieux, authentique et parfait",
+            "public": "Voyageurs cherchant le meilleur standing possible à El Kef",
+            "style": "Hôtel de charme",
+            "verdict": "Une qualité de service irréprochable et saluée par tous les voyageurs."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 13 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Matous": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/matous-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, l'Hôtel Matous propose un petit-déjeuner inclus avec annulation gratuite et paiement sur place.",
+        "prix_moyen": "332€ / semaine",
+        "avis": "1,0/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Notes clients extrêmement faibles"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Simple",
+            "public": "Hôtel de dernier recours",
+            "style": "Hôtel de ville",
+            "verdict": "Une option à éviter au vu des retours clients."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 expérience vécue · Mise à jour : 2026"
+    },
+    "DAR AMMAR": {
+        "pays": "Tunisie",
+        "ville": "El Jem",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/dar-ammar-el-jem.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à El Jem, le DAR AMMAR propose un très bon confort (8,9) avec des chambres triples, un petit-déjeuner inclus et un paiement sur place.",
+        "prix_moyen": "596€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Confort élevé de 8,9",
+            "Proche des monuments historiques d'El Jem",
+            "Petit-déjeuner inclus et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Style traditionnel"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel, chaleureux et confortable",
+            "public": "Familles et passionnés d'histoire visitant El Jem",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une très bonne étape pour séjourner confortablement près de l'amphithéâtre."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 231 expériences vécues · Mise à jour : 2026"
+    },
+    "Dar Baya Hotel Sfax": {
+        "pays": "Tunisie",
+        "ville": "Sfax",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/dar-baya-sfax.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sfax, le Dar Baya Hotel propose des chambres doubles supérieures avec petit-déjeuner inclus et une flexibilité totale de paiement.",
+        "prix_moyen": "420€ / semaine",
+        "avis": "7,0/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place",
+            "Emplacement à Sfax"
+        ],
+        "points_negatifs": [
+            "Prestations classiques"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Pratique et urbain",
+            "public": "Voyageurs d'affaires ou de passage à Sfax",
+            "style": "Hôtel de ville",
+            "verdict": "Une alternative correcte pour un séjour à Sfax."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 21 expériences vécues · Mise à jour : 2026"
+    },
+    "Touring Club MARHALA MATMATA": {
+        "pays": "Tunisie",
+        "ville": "Matmata",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/touring-club-marhala-matmata.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Matmata, ce club hôtelier très bien noté (8,5) propose un cadre authentique avec petit-déjeuner inclus.",
+        "prix_moyen": "229€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Immersion authentique dans l'architecture de Matmata",
+            "Petit-déjeuner inclus et prix très bas"
+        ],
+        "points_negatifs": [
+            "Confort traditionnel simple (8,1)"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Annulation gratuite",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏜️ Troglodyte, historique et économique",
+            "public": "Voyageurs voulant vivre l'expérience authentique de Matmata à petit prix",
+            "style": "Hôtel régional typique",
+            "verdict": "Une excellente adresse authentique et très abordable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 852 expériences vécues · Mise à jour : 2026"
+    },
+    "Sol Palmeras Beach - Family Hotel": {
+        "pays": "Tunisie",
+        "ville": "El Ahmar",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/sol-palmeras-beach.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à El Ahmar, cet hôtel familial propose un petit-déjeuner inclus avec annulation gratuite et paiement sur place.",
+        "prix_moyen": "352€ / semaine",
+        "avis": "5,4/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place",
+            "Tarif promotionnel"
+        ],
+        "points_negatifs": [
+            "Notes clients faibles"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Balnéaire et économique",
+            "public": "Petits budgets cherchant un hôtel de côte",
+            "style": "Hôtel de plage",
+            "verdict": "Une option de dernier recours axée uniquement sur le prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 19 expériences vécues · Mise à jour : 2026"
+    },
+    "Royal Victoria - Ex British Embassy": {
+        "pays": "Tunisie",
+        "ville": "Médina, Tunis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/royal-victoria-ex-british-embassy.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Médina de Tunis dans l'ancienne ambassade britannique, cet hôtel propose un très bon confort (8,6) et un cachet historique unique.",
+        "prix_moyen": "840€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort élevé de 8,6 dans un bâtiment historique d'exception",
+            "Emplacement central à la lisière de la Médina, petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs un peu plus élevés"
+        ],
+        "equipements": [
+            "Bâtiment historique",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Historique, majestueux et chic",
+            "public": "Amateurs d'architecture coloniale et d'histoire au cœur de Tunis",
+            "style": "Hôtel historique de prestige",
+            "verdict": "Une adresse chargée d'histoire et extrêmement élégante dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 192 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel EDHIAFA": {
+        "pays": "Tunisie",
+        "ville": "Médina, Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/edhiafa-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Médina de Tunis, l'Hôtel EDHIAFA propose des chambres lits jumeaux avec petit-déjeuner inclus, annulation gratuite et paiement sur place.",
+        "prix_moyen": "290€ / semaine",
+        "avis": "7,2/10",
+        "points_positifs": [
+            "Emplacement au cœur de la Médina",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Prestations traditionnelles simples"
+        ],
+        "equipements": [
+            "Médina",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Authentique, culturel et économique",
+            "public": "Voyageurs voulant loger dans la vieille ville sans se ruiner",
+            "style": "Hôtel traditionnel",
+            "verdict": "Un pied-à-terre pratique et abordable pour explorer la Médina."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 73 expériences vécues · Mise à jour : 2026"
+    },
+    "The Mora Sahara Tozeur": {
+        "pays": "Tunisie",
+        "ville": "Tozeur",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/the-mora-sahara-tozeur.fr.html?aid=818289",
+        "image": "",
+        "description": "Somptueux resort 5 étoiles à Tozeur, The Mora Sahara affiche une note fabuleuse de 9,1 avec un confort exceptionnel de 9,6 et des suites de luxe.",
+        "prix_moyen": "1 988€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel de 9,6",
+            "Prestations 5 étoiles luxueuses au cœur des oasis avec petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs très élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Suite Deluxe",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Saharien, somptueux et haut de gamme",
+            "public": "Clientèle exigeante cherchant le summum du luxe moderne dans le sud tunisien",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une adresse d'exception absolue pour un séjour prestigieux à Tozeur."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 499 expériences vécues · Mise à jour : 2026"
+    },
+    "Larimar Hôtel Sfax": {
+        "pays": "Tunisie",
+        "ville": "Sfax",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/larimar-sfax.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sfax, le Larimar Hôtel propose un très bon confort (8,9) avec petit-déjeuner inclus et annulation gratuite.",
+        "prix_moyen": "382€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Très bien noté (8,0)",
+            "Confort élevé de 8,9 à Sfax",
+            "Petit-déjeuner inclus et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Style urbain classique"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Moderne, propre et confortable",
+            "public": "Voyageurs d'affaires ou touristes cherchant une bonne adresse à Sfax",
+            "style": "Hôtel de ville",
+            "verdict": "Un choix qualitatif et très apprécié pour son confort à Sfax."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 61 expériences vécues · Mise à jour : 2026"
+    },
+    "Pacha hotel": {
+        "pays": "Tunisie",
+        "ville": "Sfax",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/pacha-sfax.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sfax, le Pacha hotel propose un petit-déjeuner inclus, une annulation gratuite et un paiement sur place sans prépaiement.",
+        "prix_moyen": "472€ / semaine",
+        "avis": "6,9/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Notes clients moyennes"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Pratique et urbain",
+            "public": "Voyageurs de passage cherchant un hôtel simple à Sfax",
+            "style": "Hôtel de ville",
+            "verdict": "Une alternative fonctionnelle pour séjourner à Sfax."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 57 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel la princesse": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/la-princesse-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, l'Hotel la princesse propose des chambres triples climatisées avec petit-déjeuner inclus et annulation gratuite étendue.",
+        "prix_moyen": "479€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Chambres triples disponibles",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite étendue"
+        ],
+        "points_negatifs": [
+            "Prestations basiques"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Chambre triple"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Familial et économique",
+            "public": "Petits groupes ou familles cherchant un logement abordable à Tunis",
+            "style": "Hôtel de ville",
+            "verdict": "Un choix correct pour loger plusieurs personnes à bon prix dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 115 expériences vécues · Mise à jour : 2026"
+    },
+    "ROBINSON DJERBA BAHIYA - All Inclusive": {
+        "pays": "Tunisie",
+        "ville": "Midoun",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/robinson-djerba-bahiya.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Midoun (Djerba), le Robinson Djerba Bahiya propose un confort élevé de 8,5, une vue sur mer et une formule tout compris de grande qualité.",
+        "prix_moyen": "2 436€ / semaine",
+        "avis": "7,6/10",
+        "points_positifs": [
+            "Confort de 8,5 avec vue sur mer",
+            "Formule tout compris haut de gamme",
+            "Standards de la marque Robinson"
+        ],
+        "points_negatifs": [
+            "Tarifs très élevés"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Vue mer",
+            "Piscine / Spa"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Sportif, chic et tout compris",
+            "public": "Voyageurs cherchant un club de vacances premium et dynamique à Djerba",
+            "style": "Resort club 4 étoiles",
+            "verdict": "Une option de standing supérieur pour des vacances actives et tout compris."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 121 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Dar Massmoudi": {
+        "pays": "Tunisie",
+        "ville": "Bab Bhar, Tunis",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/dar-massmoudi-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Bab Bhar (Tunis), cet établissement propose un hébergement climatisé avec salle de bains privative, annulation gratuite et paiement sur place.",
+        "prix_moyen": "181€ / semaine",
+        "avis": "4,2/10",
+        "points_positifs": [
+            "Emplacement central à Bab Bhar",
+            "Prix très bas",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Notes clients très faibles"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Très économique et central",
+            "public": "Petits budgets cherchant un pied-à-terre au plus bas coût à Tunis",
+            "style": "Hôtel de ville simple",
+            "verdict": "Une option de dernier recours axée uniquement sur le prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 5 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Amine": {
+        "pays": "Tunisie",
+        "ville": "Sfax",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/amine-sfax.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sfax, l'Hotel Amine propose un petit-déjeuner inclus à un tarif extrêmement compétitif, avec paiement flexible sur place.",
+        "prix_moyen": "215€ / semaine",
+        "avis": "7,3/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Prix très bas",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Prestations basiques"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Économique et fonctionnel",
+            "public": "Petits budgets cherchant un hôtel simple à Sfax",
+            "style": "Hôtel de ville",
+            "verdict": "Un plan très économique pour une halte rapide à Sfax."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 199 expériences vécues · Mise à jour : 2026"
+    },
+    "Rihana Hotel - Ain Draham": {
+        "pays": "Tunisie",
+        "ville": "Aïn Draham",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/rihana-ain-draham.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Aïn Draham, le Rihana Hotel propose un cadre montagnard avec petit-déjeuner inclus et annulation gratuite.",
+        "prix_moyen": "474€ / semaine",
+        "avis": "6,0/10",
+        "points_positifs": [
+            "Cadre verdoyant et frais à Aïn Draham",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Notes clients moyennes"
+        ],
+        "equipements": [
+            "Cadre montagnard",
+            "Petit-déjeuner inclus",
+            "Chambre double"
+        ],
+        "pour_qui": {
+            "ambiance": "🌲 Forestier et montagnard",
+            "public": "Voyageurs cherchant de la fraîcheur et de la verdure dans les hauteurs d'Aïn Draham",
+            "style": "Hôtel de montagne",
+            "verdict": "Une alternative pour séjourner dans la région boisée du nord."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 17 expériences vécues · Mise à jour : 2026"
+    },
+    "Concorde Sfax Centre": {
+        "pays": "Tunisie",
+        "ville": "Sfax",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/concorde-sfax-centre.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre de Sfax, le Concorde Sfax Centre propose de luxueuses suites, un confort de 8,1 et la demi-pension (petit-déjeuner et dîner compris).",
+        "prix_moyen": "1 446€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Confort élevé de 8,1 au cœur de Sfax",
+            "Demi-pension incluse (petit-déjeuner et dîner)",
+            "Suites présidentielles spacieuses"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "Demi-pension",
+            "Centre-ville",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Luxueux, central et soigné",
+            "public": "Voyageurs d'affaires et clients exigeants cherchant le meilleur standing à Sfax",
+            "style": "Hôtel 4 étoiles de prestige",
+            "verdict": "Une adresse de référence pour un séjour tout confort au centre de Sfax."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 430 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Dar Hi": {
+        "pays": "Tunisie",
+        "ville": "Nefta",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/dar-hi-nefta.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Nefta aux portes du désert, l'Hotel Dar Hi propose un design éco-architectural unique, un confort de 8,4 et la demi-pension.",
+        "prix_moyen": "1 270€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très bien noté (8,4)",
+            "Conception design et écologique exceptionnelle face aux oasis",
+            "Demi-pension incluse, annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Tarifs plus élevés"
+        ],
+        "equipements": [
+            "Design éco-responsable",
+            "Demi-pension",
+            "Piscine / Spa"
+        ],
+        "pour_qui": {
+            "ambiance": "🌵 Design, minimaliste et apaisant",
+            "public": "Amateurs d'architecture contemporaine et de retraites bien-être dans le sud",
+            "style": "Boutique-hôtel de design",
+            "verdict": "Une expérience hôtelière unique et haut de gamme au cœur des oasis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 85 expériences vécues · Mise à jour : 2026"
+    },
+    "Ksar Ouled Debbab": {
+        "pays": "Tunisie",
+        "ville": "Qaşr Awlād Dabbāb",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/ksar-ouled-debbab.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans un ksar historique fortifié, cet hôtel traditionnel propose une immersion authentique avec petit-déjeuner inclus.",
+        "prix_moyen": "953€ / semaine",
+        "avis": "7,4/10",
+        "points_positifs": [
+            "Cadre historique et architectural unique (ksar authentique)",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Lieu reculé dans le sud"
+        ],
+        "equipements": [
+            "Architecture historique",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Historique, troglodyte et dépaysant",
+            "public": "Amateurs de patrimoine et d'aventures sahariennes",
+            "style": "Hôtel historique fortifié",
+            "verdict": "Une nuit magique au cœur d'un authentique ksar tunisien."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 31 expériences vécues · Mise à jour : 2026"
+    },
+    "Concorde Paris": {
+        "pays": "Tunisie",
+        "ville": "Les Berges du Lac, Tunis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/concorde-paris-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé aux Berges du Lac à Tunis, le Concorde Paris propose un très bon confort (8,5) avec petit-déjeuner inclus.",
+        "prix_moyen": "831€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Confort élevé de 8,5 dans un quartier d'affaires prisé",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs d'affaires"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Moderne, chic et professionnel",
+            "public": "Voyageurs d'affaires et touristes cherchant un standing international aux Berges du Lac",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Une adresse fiable et élégante au bord de l'eau à Tunis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 108 expériences vécues · Mise à jour : 2026"
+    },
+    "Dar El Marsa Hotel & Spa": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/dar-el-marsa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à La Marsa (Tunis), le Dar El Marsa Hotel & Spa propose un superbe confort (8,8), un centre de bien-être et un petit-déjeuner inclus.",
+        "prix_moyen": "1 249€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort exceptionnel de 8,8 face à la mer à La Marsa",
+            "Spa, piscine et petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés en haute saison"
+        ],
+        "equipements": [
+            "Spa",
+            "Front de mer",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Chic, balnéaire et relaxant",
+            "public": "Voyageurs cherchant le meilleur standing sur la côte chic de La Marsa",
+            "style": "Boutique-hôtel de luxe 4 étoiles",
+            "verdict": "Une adresse côtière somptueuse et très recherchée."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 611 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Ayachi": {
+        "pays": "Tunisie",
+        "ville": "Médina, Tunis",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/ayachi-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au cœur de la Médina de Tunis, l'Hôtel Ayachi propose un hébergement très économique avec annulation gratuite et paiement sur place.",
+        "prix_moyen": "198€ / semaine",
+        "avis": "4,5/10",
+        "points_positifs": [
+            "Emplacement central dans la Médina",
+            "Prix extrêmement bas",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Notes clients faibles"
+        ],
+        "equipements": [
+            "Médina",
+            "Paiement sur place",
+            "Chambre double"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Très économique et central",
+            "public": "Routards et petits budgets cherchant un toit au plus bas coût dans la vieille ville",
+            "style": "Hôtel de ville simple",
+            "verdict": "Une option de dernier recours axée uniquement sur le prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 245 expériences vécues · Mise à jour : 2026"
+    },
+    "MONDIAL HOTEL": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/mondial-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, le MONDIAL HOTEL propose des chambres climatisées avec annulation gratuite pour un séjour économique dans la capitale.",
+        "prix_moyen": "332€ / semaine",
+        "avis": "5,7/10",
+        "points_positifs": [
+            "Emplacement central à Tunis",
+            "Annulation gratuite",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Notes clients moyennes"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Simple et urbain",
+            "public": "Petits budgets cherchant un hôtel standard sans prétention à Tunis",
+            "style": "Hôtel de ville",
+            "verdict": "Une alternative fonctionnelle et abordable dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 51 expériences vécues · Mise à jour : 2026"
+    },
+    "Le Grand Hotel Djerba": {
+        "pays": "Tunisie",
+        "ville": "Houmt Souk",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/le-grand-hotel-djerba.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Houmt Souk (Djerba), Le Grand Hotel Djerba propose un petit-déjeuner inclus, des chambres triples climatisées, une annulation gratuite et un paiement flexible sur place.",
+        "prix_moyen": "345€ / semaine",
+        "avis": "6,8/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place",
+            "Chambres triples disponibles"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Simple, pratique et économique",
+            "public": "Petits groupes ou familles cherchant un hôtel abordable à Djerba",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option économique pour un séjour simple sur l'île."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 89 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel El Layeli": {
+        "pays": "Tunisie",
+        "ville": "Sfax",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-layeli-sfax.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sfax, l'Hotel El Layeli offre un très bon confort (8,2) avec une vue sur la corniche, des grands lits doubles et le petit-déjeuner inclus.",
+        "prix_moyen": "290€ / semaine",
+        "avis": "7,0/10",
+        "points_positifs": [
+            "Confort élevé de 8,2",
+            "Vue sur la corniche de Sfax",
+            "Petit-déjeuner inclus et tarif très attractif"
+        ],
+        "points_negatifs": [
+            "Prestations classiques"
+        ],
+        "equipements": [
+            "Vue sur corniche",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Marin, urbain et économique",
+            "public": "Voyageurs cherchant un bon niveau de confort face à la mer à Sfax",
+            "style": "Hôtel de ville",
+            "verdict": "Un excellent rapport qualité-prix avec vue sur l'eau à Sfax."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 62 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Tiba": {
+        "pays": "Tunisie",
+        "ville": "Centre de Tunis, Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/tiba-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Idéalement situé au centre de Tunis, l'Hotel Tiba propose un très bon confort (8,5) avec petit-déjeuner inclus.",
+        "prix_moyen": "574€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Confort élevé de 8,5 en plein cœur de Tunis",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Animation urbaine"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central, propre et fonctionnel",
+            "public": "Touristes et voyageurs d'affaires voulant tout faire à pied dans la capitale",
+            "style": "Hôtel de ville",
+            "verdict": "Une valeur sûre très appréciée pour son emplacement ultra-central."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 930 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel el Fawz": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-fawz-monastir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Monastir, l'Hotel el Fawz propose des chambres doubles climatisées avec salle de bains privative à prix très doux.",
+        "prix_moyen": "227€ / semaine",
+        "avis": "6,6/10",
+        "points_positifs": [
+            "Prix extrêmement bas",
+            "Emplacement pratique à Monastir",
+            "Chambres avec salle de bains privative"
+        ],
+        "points_negatifs": [
+            "Prestations basiques"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Chambre double",
+            "Salle de bains privative"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Économique et simple",
+            "public": "Petits budgets cherchant un toit sans prétention à Monastir",
+            "style": "Hôtel de ville",
+            "verdict": "Une option de secours très abordable pour un petit budget."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 118 expériences vécues · Mise à jour : 2026"
+    },
+    "Les Jardins de Toumana": {
+        "pays": "Tunisie",
+        "ville": "Triffa",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/les-jardins-de-toumana.fr.html?aid=818289",
+        "image": "",
+        "description": "Superbe hôtel de charme noté 8,6 avec un confort de 8,9, Les Jardins de Toumana proposent un cadre verdoyant et paisible.",
+        "prix_moyen": "754€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort élevé de 8,9 dans un cadre verdoyant",
+            "Appartements / chambres spacieuses climatisées"
+        ],
+        "points_negatifs": [
+            "Tarifs un peu plus élevés"
+        ],
+        "equipements": [
+            "Cadre verdoyant",
+            "Climatisation",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Verdoyant, calme et charmant",
+            "public": "Voyageurs cherchant une atmosphère reposante et soignée",
+            "style": "Hôtel de charme",
+            "verdict": "Une magnifique adresse réputée pour sa tranquillité et son cadre de verdure."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 429 expériences vécues · Mise à jour : 2026"
+    },
+    "Djerba Castille- Couples and Families": {
+        "pays": "Tunisie",
+        "ville": "Aghir",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/djerba-castille.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Aghir (Djerba) et réservé aux couples et familles, cet hôtel propose une formule tout compris et un accès direct à la plage.",
+        "prix_moyen": "447€ / semaine",
+        "avis": "7,1/10",
+        "points_positifs": [
+            "Réservé strictement aux couples et familles",
+            "Formule tout compris disponible",
+            "Annulation gratuite et tarif économique"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Plage",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Balnéaire, familial et abordable",
+            "public": "Familles et couples cherchant un séjour tout compris à petit prix à Djerba",
+            "style": "Hôtel club",
+            "verdict": "Une option économique les pieds dans l'eau sur l'île."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 193 expériences vécues · Mise à jour : 2026"
+    },
+    "Iberostar Waves Mehari Djerba": {
+        "pays": "Tunisie",
+        "ville": "Taguermess",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/iberostar-mehari-djerba.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Taguermess (Djerba), cet hôtel de la chaîne Iberostar affiche une superbe note de 8,8 avec un confort élevé de 9,1 en formule tout compris.",
+        "prix_moyen": "1 475€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort exceptionnel de 9,1",
+            "Standards de qualité Iberostar en formule tout compris"
+        ],
+        "points_negatifs": [
+            "Dernière chambre disponible à ce tarif"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Haut de gamme, soigné et qualitatif",
+            "public": "Familles et couples cherchant un club de vacances irréprochable à Djerba",
+            "style": "Resort club 4 étoiles",
+            "verdict": "Une valeur sûre pour des vacances tout compris d'excellente qualité."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 939 expériences vécues · Mise à jour : 2026"
+    },
+    "Dar Saida Beya": {
+        "pays": "Tunisie",
+        "ville": "Tozeur",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/dar-saida-beya.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tozeur, cet établissement de charme affiche une superbe note de 8,7 avec un confort de 9,0 et un petit-déjeuner inclus.",
+        "prix_moyen": "1 040€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort élevé de 9,0",
+            "Petit-déjeuner inclus, annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Tarifs un peu plus élevés"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Charmant, authentique et raffiné",
+            "public": "Voyageurs cherchant une atmosphère traditionnelle et soignée à Tozeur",
+            "style": "Hôtel de charme",
+            "verdict": "Une magnifique adresse pour séjourner au cœur des oasis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 210 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Djerba Inn": {
+        "pays": "Tunisie",
+        "ville": "Midoun",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/djerba-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Midoun (Djerba), l'Hotel Djerba Inn propose un super confort de 9,2, un petit-déjeuner inclus et un tarif très compétitif.",
+        "prix_moyen": "276€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort exceptionnel de 9,2",
+            "Petit-déjeuner inclus et prix très accessible"
+        ],
+        "points_negatifs": [
+            "Dernière chambre disponible à ce tarif"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Confortable, propre et économique",
+            "public": "Petits budgets cherchant un excellent niveau de confort à Djerba",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un rapport qualité-prix remarquable (8,6/10) pour l'île."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 198 expériences vécues · Mise à jour : 2026"
+    },
+    "El Mouradi Palm Marina - Couple et Famille uniquement": {
+        "pays": "Tunisie",
+        "ville": "Tantana, Port El-Kantaoui",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-mouradi-palm-marina.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé près de Port El-Kantaoui et réservé strictement aux couples et familles, cet hôtel 5 étoiles propose une formule tout compris.",
+        "prix_moyen": "908€ / semaine",
+        "avis": "7,0/10",
+        "points_positifs": [
+            "Réservé strictement aux couples et familles",
+            "Formule tout compris",
+            "Situation balnéaire près de la marina"
+        ],
+        "points_negatifs": [
+            "Notes clients partagées pour un 5 étoiles"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Balnéaire, vaste et tout compris",
+            "public": "Familles et couples cherchant un grand resort près de Port El-Kantaoui",
+            "style": "Resort 5 étoiles",
+            "verdict": "Une option de grande capacité pour des vacances tout compris."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 284 expériences vécues · Mise à jour : 2026"
+    },
+    "Concorde Les Berges du Lac": {
+        "pays": "Tunisie",
+        "ville": "Les Berges du Lac, Tunis",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/concorde-les-berges-du-lac.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé aux Berges du Lac à Tunis, le Concorde Les Berges du Lac propose un standing 5 étoiles avec un confort de 8,5 et un petit-déjeuner inclus.",
+        "prix_moyen": "1 107€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Confort de 8,5 dans un quartier d'affaires prestigieux",
+            "Petit-déjeuner inclus et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, moderne et professionnel",
+            "public": "Clientèle d'affaires et touristes exigeants cherchant le haut de gamme à Tunis",
+            "style": "Hôtel 5 étoiles",
+            "verdict": "Une adresse de premier choix au bord du lac de Tunis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 153 expériences vécues · Mise à jour : 2026"
+    },
+    "Acropole Tunis": {
+        "pays": "Tunisie",
+        "ville": "Les Berges du Lac, Tunis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/acropole-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé aux Berges du Lac à Tunis, l'Acropole Tunis propose un bon confort (8,0) et des prestations fonctionnelles.",
+        "prix_moyen": "593€ / semaine",
+        "avis": "7,6/10",
+        "points_positifs": [
+            "Confort de 8,0 aux Berges du Lac",
+            "Emplacement stratégique proche de l'aéroport",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Style d'affaires classique"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Climatisation",
+            "Hôtel d'affaires"
+        ],
+        "pour_qui": {
+            "ambiance": "💼 Urbain et pratique",
+            "public": "Voyageurs d'affaires cherchant un bon emplacement à prix modéré",
+            "style": "Hôtel d'affaires 4 étoiles",
+            "verdict": "Un choix fonctionnel aux Berges du Lac."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 583 expériences vécues · Mise à jour : 2026"
+    },
+    "El Mouradi Hammam Bourguiba": {
+        "pays": "Tunisie",
+        "ville": "Aïn Draham",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-mouradi-hammam-bourguiba.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Aïn Draham au cœur de la station thermale de Hammam Bourguiba, cet hôtel propose un cadre verdoyant et le petit-déjeuner inclus.",
+        "prix_moyen": "668€ / semaine",
+        "avis": "6,9/10",
+        "points_positifs": [
+            "Station thermale reconnue au cœur des montagnes",
+            "Cadre forestier et verdoyant",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Infrastructures traditionnelles"
+        ],
+        "equipements": [
+            "Station thermale",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌲 Thermal, vert et reposant",
+            "public": "Amateurs de cures thermales et de fraîcheur dans les montagnes du nord",
+            "style": "Hôtel thermal et de montagne",
+            "verdict": "Une bonne option pour profiter des bienfaits thermaux d'Aïn Draham."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 599 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Best Beach- Family Only": {
+        "pays": "Tunisie",
+        "ville": "Chott Meriem",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/best-beach-chott-meriem.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Chott Meriem et réservé aux familles, cet hôtel de plage propose un petit-déjeuner inclus et l'annulation gratuite.",
+        "prix_moyen": "335€ / semaine",
+        "avis": "3,3/10",
+        "points_positifs": [
+            "Réservé aux familles",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Notes clients très faibles"
+        ],
+        "equipements": [
+            "Plage",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Économique et simple",
+            "public": "Petits budgets cherchant un hôtel familial de dernière minute",
+            "style": "Hôtel de plage",
+            "verdict": "Une option de dernier recours axée uniquement sur le prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 30 expériences vécues · Mise à jour : 2026"
+    },
+    "Dar Ben Turkia": {
+        "pays": "Tunisie",
+        "ville": "Médina, Tunis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/dar-ben-turkia.fr.html?aid=818289",
+        "image": "",
+        "description": "Niché au cœur de la Médina de Tunis, ce superbe riad de luxe affiche une note exceptionnelle de 9,7 et un confort quasi parfait de 9,9.",
+        "prix_moyen": "1 034€ / semaine",
+        "avis": "9,7/10",
+        "points_positifs": [
+            "Exceptionnel (9,7)",
+            "Confort parfait de 9,9 dans une demeure historique somptueusement restaurée",
+            "Suites spacieuses de 75 m² en plein cœur de la Médina"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés pour un riad"
+        ],
+        "equipements": [
+            "Médina",
+            "Suite supérieure",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Majestueux, luxueux et historique",
+            "public": "Voyageurs d'exception cherchant le summum de l'authenticité et du raffinement à Tunis",
+            "style": "Riad de luxe",
+            "verdict": "L'une des plus belles adresses de charme de toute la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 137 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Liberty Resort": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/liberty-resort-monastir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Monastir, l'Hotel Liberty Resort propose des chambres avec de très grands lits doubles, le petit-déjeuner inclus et l'annulation gratuite.",
+        "prix_moyen": "579€ / semaine",
+        "avis": "5,3/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Annulation gratuite",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Simple et balnéaire",
+            "public": "Petits budgets cherchant un hôtel avec piscine à Monastir",
+            "style": "Hôtel de côte",
+            "verdict": "Une alternative basique pour un séjour balnéaire."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 35 expériences vécues · Mise à jour : 2026"
+    },
+    "Khayam Garden Beach Resort & Spa": {
+        "pays": "Tunisie",
+        "ville": "Nabeul",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/khayam-garden-beach.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Nabeul, ce resort dispose d'un spa et propose la demi-pension (petit-déjeuner et dîner compris) avec un très bon confort (8,0).",
+        "prix_moyen": "848€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Confort élevé de 8,0",
+            "Centre de spa et de bien-être",
+            "Demi-pension incluse (petit-déjeuner et dîner)"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Spa",
+            "Demi-pension",
+            "Front de mer"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Marin, relaxant et soigné",
+            "public": "Familles cherchant un hôtel de plage confortable avec repas inclus à Nabeul",
+            "style": "Resort 4 étoiles avec spa",
+            "verdict": "Une excellente option pour profiter de Nabeul en demi-pension."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 184 expériences vécues · Mise à jour : 2026"
+    },
+    "Zenon Djerba": {
+        "pays": "Tunisie",
+        "ville": "Midoun",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/zenon-djerba.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Midoun (Djerba), le Zenon Djerba propose un petit-déjeuner inclus, la climatisation et l'annulation gratuite.",
+        "prix_moyen": "402€ / semaine",
+        "avis": "5,9/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Annulation gratuite",
+            "Tarif économique"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Simple et abordable",
+            "public": "Petits budgets cherchant un hôtel sans prétention à Djerba",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option économique pour un séjour simple sur l'île."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 26 expériences vécues · Mise à jour : 2026"
+    },
+    "The NINE Lifestyle Experience": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/the-nine-lifestyle-experience.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, cet hôtel lifestyle affiche une note fabuleuse de 9,1 avec un confort exceptionnel de 9,6 et un certificat de durabilité.",
+        "prix_moyen": "1 323€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel de 9,6",
+            "Certificat de durabilité, annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "Certificat de durabilité",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Tendance, éco-responsable et ultra-confortable",
+            "public": "Voyageurs cherchant un design moderne et un standing d'exception dans la capitale",
+            "style": "Boutique-hôtel lifestyle",
+            "verdict": "Une adresse ultra-tendance et irréprochable à Tunis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 339 expériences vécues · Mise à jour : 2026"
+    },
+    "Djerba Aqua Resort": {
+        "pays": "Tunisie",
+        "ville": "Midoun",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/djerba-aqua-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Midoun (Djerba), cet hôtel propose un parc aquatique et des chambres avec petit-déjeuner inclus.",
+        "prix_moyen": "626€ / semaine",
+        "avis": "6,0/10",
+        "points_positifs": [
+            "Présence d'un parc aquatique (toboggans)",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Notes clients moyennes"
+        ],
+        "equipements": [
+            "Parc aquatique",
+            "Petit-déjeuner inclus",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🎢 Ludique et familial",
+            "public": "Familles cherchant des attractions aquatiques à prix modéré à Djerba",
+            "style": "Hôtel club avec aquapark",
+            "verdict": "Un plan sympathique pour amuser les enfants dans l'eau."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 51 expériences vécues · Mise à jour : 2026"
+    },
+    "Cesar Thalasso": {
+        "pays": "Tunisie",
+        "ville": "Midoun",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/cesar-thalasso-djerba.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Midoun (Djerba), le Cesar Thalasso propose des bungalows privatifs, un centre de bien-être et le petit-déjeuner inclus.",
+        "prix_moyen": "652€ / semaine",
+        "avis": "7,2/10",
+        "points_positifs": [
+            "Bungalows privatifs",
+            "Centre de thalasso et de bien-être",
+            "Petit-déjeuner inclus et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Faible nombre d'avis récents"
+        ],
+        "equipements": [
+            "Thalasso / Spa",
+            "Bungalow",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Thermal, intime et ensoleillé",
+            "public": "Amateurs de bungalows et de soins de thalasso à Djerba",
+            "style": "Resort de bungalows avec thalasso",
+            "verdict": "Une alternative agréable en bungalow pour profiter de l'île."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 15 expériences vécues · Mise à jour : 2026"
+    },
+    "Monarque Club Rivage - VV": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/monarque-club-rivage.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Monastir, ce club propose des bungalows en formule tout compris avec annulation gratuite.",
+        "prix_moyen": "665€ / semaine",
+        "avis": "6,2/10",
+        "points_positifs": [
+            "Formule tout compris",
+            "Bungalows privatifs",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Bungalow",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Club et balnéaire",
+            "public": "Petits budgets cherchant un club de vacances en bungalow à Monastir",
+            "style": "Hôtel club",
+            "verdict": "Une option économique en formule tout compris."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 65 expériences vécues · Mise à jour : 2026"
+    },
+    "The Sindbad": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/the-sindbad-hammamet.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, The Sindbad affiche une superbe note de 8,7 avec un confort exceptionnel de 9,1 et des prestations 5 étoiles haut de gamme.",
+        "prix_moyen": "1 066€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort exceptionnel de 9,1",
+            "Prestations 5 étoiles raffinées avec petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Dernières chambres disponibles"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, élégant et de premier ordre",
+            "public": "Voyageurs exigeants cherchant un standing 5 étoiles réputé à Hammamet",
+            "style": "Hôtel de luxe 5 étoiles",
+            "verdict": "Une adresse prestigieuse incontournable sur la côte de Hammamet."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 415 expériences vécues · Mise à jour : 2026"
+    },
+    "Mediterranee Hammamet- Families and Couples Only": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/mediterranee-hammamet.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet et réservé strictement aux familles et couples, cet hôtel propose un bon confort (8,4) avec petit-déjeuner inclus.",
+        "prix_moyen": "733€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Réservé strictement aux familles et couples",
+            "Confort élevé de 8,4",
+            "Petit-déjeuner inclus et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs variables en haute saison"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Familial, calme et sécurisant",
+            "public": "Familles et couples cherchant une structure adaptée et bien notée à Hammamet",
+            "style": "Hôtel de côte",
+            "verdict": "Un très bon choix pour des vacances sereines en famille ou en couple."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 59 expériences vécues · Mise à jour : 2026"
+    },
+    "Club Palm Azur Families and Couples": {
+        "pays": "Tunisie",
+        "ville": "Midoun",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/club-palm-azur.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Midoun (Djerba) et réservé aux familles et couples, ce club propose un petit-déjeuner inclus avec annulation gratuite.",
+        "prix_moyen": "600€ / semaine",
+        "avis": "7,5/10",
+        "points_positifs": [
+            "Réservé strictement aux familles et couples",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Notes clients moyennes"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Familial et chaleureux",
+            "public": "Familles et couples cherchant un grand club accessible à Djerba",
+            "style": "Hôtel club",
+            "verdict": "Une option intéressante avec un bon tarif promotionnel."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 138 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Nesrine Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/nesrine-hammamet.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, l'Hotel Nesrine propose un petit-déjeuner inclus avec annulation gratuite et un tarif très accessible.",
+        "prix_moyen": "391€ / semaine",
+        "avis": "5,9/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Annulation gratuite",
+            "Tarif économique à Hammamet"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Simple et économique",
+            "public": "Petits budgets cherchant un hôtel avec piscine à Hammamet",
+            "style": "Hôtel de côte",
+            "verdict": "Une alternative basique pour profiter de Hammamet sans se ruiner."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 135 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Venice Beach- Families and Couples Only": {
+        "pays": "Tunisie",
+        "ville": "Triffa",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/venice-beach-triffa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Triffa et réservé aux familles et couples, cet hôtel propose un petit-déjeuner inclus, la climatisation et l'annulation gratuite.",
+        "prix_moyen": "442€ / semaine",
+        "avis": "6,7/10",
+        "points_positifs": [
+            "Réservé strictement aux familles et couples",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et tarif préférentiel"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Familial, calme et économique",
+            "public": "Petits budgets cherchant un hôtel réservé aux couples et familles",
+            "style": "Hôtel de côte",
+            "verdict": "Une option abordable pour un séjour sans mauvaise surprise."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 48 expériences vécues · Mise à jour : 2026"
+    },
+    "Hasdrubal Thalassa & Spa Port El Kantaoui": {
+        "pays": "Tunisie",
+        "ville": "Port El-Kantaoui",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/hasdrubal-thalassa-spa-port-el-kantaoui.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Port El-Kantaoui, cet hôtel 5 étoiles propose un superbe centre de thalassothérapie, un confort de 8,5 et un paiement flexible sur place.",
+        "prix_moyen": "873€ / semaine",
+        "avis": "7,5/10",
+        "points_positifs": [
+            "Confort élevé de 8,5",
+            "Centre de thalassothérapie d'excellence",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Thalasso / Spa",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Luxueux, thermal et prestigieux",
+            "public": "Amateurs de cures de thalasso et de grand standing à Port El-Kantaoui",
+            "style": "Resort 5 étoiles avec thalasso",
+            "verdict": "Une référence incontournable pour un séjour de bien-être absolu."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 171 expériences vécues · Mise à jour : 2026"
+    },
+    "Regency Hotel & Spa": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/regency-hotel-spa-monastir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Monastir, le Regency Hotel & Spa propose un centre de bien-être, un confort de 8,2 et le petit-déjeuner inclus.",
+        "prix_moyen": "736€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Confort de 8,2 avec espace spa",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Infrastructures classiques"
+        ],
+        "equipements": [
+            "Spa",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Balnéaire, détendu et soigné",
+            "public": "Voyageurs cherchant un hôtel avec spa bien placé à Monastir",
+            "style": "Hôtel balnéaire",
+            "verdict": "Un choix agréable pour combiner vacances au bord de l'eau et détente."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 462 expériences vécues · Mise à jour : 2026"
+    },
+    "El Mouradi Tozeur": {
+        "pays": "Tunisie",
+        "ville": "Tozeur",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-mouradi-tozeur.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tozeur, cet hôtel propose un grand complexe avec piscine, climatisation et petit-déjeuner inclus, avec un paiement flexible sur place.",
+        "prix_moyen": "655€ / semaine",
+        "avis": "7,5/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place",
+            "Architecture saharienne"
+        ],
+        "points_negatifs": [
+            "Climat chaud en été"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Saharien, vaste et accessible",
+            "public": "Voyageurs cherchant un grand hôtel fonctionnel pour visiter les oasis de Tozeur",
+            "style": "Hôtel club saharien",
+            "verdict": "Une option classique et bien placée pour explorer le sud."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 455 expériences vécues · Mise à jour : 2026"
+    },
+    "Steigenberger Marhaba Thalasso Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/steigenberger-marhaba-thalasso.fr.html?aid=818289",
+        "image": "",
+        "description": "Luxueux resort 5 étoiles à Hammamet disposant d'un certificat de durabilité, d'un centre de thalasso et de superbes bungalows en formule tout compris.",
+        "prix_moyen": "1 697€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très bien noté (8,4)",
+            "Confort élevé de 8,7 avec bungalows privatifs",
+            "Certificat de durabilité, thalasso et formule tout compris haut de gamme"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Thalasso / Spa",
+            "Bungalow",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, écologique et reposant",
+            "public": "Clientèle exigeante cherchant le standing international 5 étoiles à Hammamet",
+            "style": "Resort de luxe",
+            "verdict": "Une adresse prestigieuse et irréprochable pour un séjour de rêve."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 416 expériences vécues · Mise à jour : 2026"
+    },
+    "Downtown Tunis Hotel": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/downtown-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre de Tunis, le Downtown Tunis Hotel propose un très bon confort (8,4) avec climatisation et annulation gratuite.",
+        "prix_moyen": "309€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Confort élevé de 8,4 en plein centre de Tunis",
+            "Annulation gratuite et tarif très accessible"
+        ],
+        "points_negatifs": [
+            "Animation urbaine"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central, moderne et économique",
+            "public": "Voyageurs voulant loger au cœur de la capitale sans se ruiner",
+            "style": "Hôtel de ville",
+            "verdict": "Un excellent rapport qualité-prix en plein centre de Tunis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 223 expériences vécues · Mise à jour : 2026"
+    },
+    "Eden Star Resort": {
+        "pays": "Tunisie",
+        "ville": "Zarzis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/eden-star-resort-zarzis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Zarzis, l'Eden Star Resort propose un cadre balnéaire avec petit-déjeuner inclus et annulation gratuite.",
+        "prix_moyen": "515€ / semaine",
+        "avis": "6,8/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Annulation gratuite",
+            "Situation en bord de mer à Zarzis"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Front de mer",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire et abordable",
+            "public": "Petits budgets cherchant un hôtel de côte dans le sud",
+            "style": "Resort club",
+            "verdict": "Une alternative économique pour profiter de la mer à Zarzis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 45 expériences vécues · Mise à jour : 2026"
+    },
+    "La Cigale Tabarka": {
+        "pays": "Tunisie",
+        "ville": "Tabarka",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/la-cigale-tabarka.fr.html?aid=818289",
+        "image": "",
+        "description": "Prestigieux resort 5 étoiles à Tabarka, La Cigale Tabarka propose un confort exceptionnel de 9,3, des villas de golf et un centre de thalassothérapie de classe mondiale.",
+        "prix_moyen": "1 264€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort exceptionnel de 9,3 avec villas de golf",
+            "Centre de thalasso et de bien-être somptueux"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Thalasso / Spa",
+            "Villa de golf"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, forestier et thermal",
+            "public": "Clientèle haut de gamme cherchant le meilleur standing entre mer et forêt à Tabarka",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une adresse d'exception absolue pour un séjour prestigieux dans le nord."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 216 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Menara": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/menara-hammamet.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, l'Hotel Menara propose des chambres doubles avec un accès facile aux plages de la station.",
+        "prix_moyen": "542€ / semaine",
+        "avis": "6,5/10",
+        "points_positifs": [
+            "Emplacement à Hammamet",
+            "Chambres doubles spacieuses"
+        ],
+        "points_negatifs": [
+            "Notes clients moyennes"
+        ],
+        "equipements": [
+            "Piscine",
+            "Climatisation",
+            "Hôtel balnéaire"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Simple et balnéaire",
+            "public": "Voyageurs cherchant un hôtel de côte accessible à Hammamet",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option de séjour simple pour profiter de Hammamet."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 555 expériences vécues · Mise à jour : 2026"
+    },
+    "El Mouradi Douz": {
+        "pays": "Tunisie",
+        "ville": "Douz",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-mouradi-douz.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Douz (la porte du désert), l'El Mouradi Douz propose un grand complexe avec piscine, climatisation et petit-déjeuner inclus.",
+        "prix_moyen": "554€ / semaine",
+        "avis": "7,3/10",
+        "points_positifs": [
+            "Grandes infrastructures avec piscine au milieu des dunes",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "points_negatifs": [
+            "Style classique de grand resort saharien"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏜️ Saharien, vaste et fonctionnel",
+            "public": "Voyageurs et groupes explorant le grand sud et les dunes de Douz",
+            "style": "Hôtel club saharien",
+            "verdict": "Une structure de grande capacité très pratique pour visiter le désert."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 008 expériences vécues · Mise à jour : 2026"
+    },
+    "El Mouradi Hotel Africa Tunis": {
+        "pays": "Tunisie",
+        "ville": "Centre de Tunis, Tunis",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-mouradi-hotel-africa-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Hôtel emblématique 5 étoiles situé sur l'avenue Habib Bourguiba en plein centre de Tunis, offrant un confort de 8,0 et de superbes vues sur la ville.",
+        "prix_moyen": "711€ / semaine",
+        "avis": "7,6/10",
+        "points_positifs": [
+            "Emplacement numéro un en plein centre-ville de Tunis (Avenue Habib Bourguiba)",
+            "Confort élevé de 8,0",
+            "Chambres supérieures climatisées"
+        ],
+        "points_negatifs": [
+            "Animation urbaine constante"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Centre-ville",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Prestigieux, urbain et central",
+            "public": "Voyageurs d'affaires et touristes voulant loger au cœur névralgique de la capitale",
+            "style": "Hôtel de ville 5 étoiles",
+            "verdict": "Une adresse historique immanquable pour être au plus près de l'animation de Tunis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 915 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Les Palmiers": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/les-palmiers-monastir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Monastir, l'Hotel Les Palmiers propose des chambres lits jumeaux standards avec petit-déjeuner inclus.",
+        "prix_moyen": "408€ / semaine",
+        "avis": "6,4/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Proche de la mer à Monastir",
+            "Climatisation"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Chambre lits jumeaux"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Simple et balnéaire",
+            "public": "Petits budgets cherchant un hôtel correct à Monastir",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option de secours pour un séjour simple près de la plage."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 404 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Acquaviva Gammarth": {
+        "pays": "Tunisie",
+        "ville": "Gammarth",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/acquaviva-gammarth.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gammarth, l'Hôtel Acquaviva propose des chambres avec balcon, un petit-déjeuner inclus et l'annulation gratuite.",
+        "prix_moyen": "373€ / semaine",
+        "avis": "7,2/10",
+        "points_positifs": [
+            "Chambres avec balcon",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Prestations classiques"
+        ],
+        "equipements": [
+            "Balcon",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Marin et abordable",
+            "public": "Voyageurs cherchant un pied-à-terre simple près de la mer à Gammarth",
+            "style": "Hôtel de côte",
+            "verdict": "Un choix fonctionnel pour profiter de Gammarth sans se ruiner."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 664 expériences vécues · Mise à jour : 2026"
+    },
+    "Le Parisien Tunis": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/le-parisien-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, Le Parisien Tunis propose un très bon confort (8,3) avec annulation gratuite et paiement sur place.",
+        "prix_moyen": "292€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Confort élevé de 8,3",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Prestations simples"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Annulation gratuite",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Pratique, propre et économique",
+            "public": "Petits budgets cherchant un hôtel fiable et bien placé dans la capitale",
+            "style": "Hôtel de ville simple",
+            "verdict": "Une excellente option économique au cœur de Tunis."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 701 expériences vécues · Mise à jour : 2026"
+    },
+    "BUSINESS HOTEL SFAX": {
+        "pays": "Tunisie",
+        "ville": "Sfax",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/business-hotel-sfax.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sfax, le BUSINESS HOTEL SFAX propose un superbe confort (9,1) avec de très grands lits doubles et le petit-déjeuner inclus.",
+        "prix_moyen": "814€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort exceptionnel de 9,1 à Sfax",
+            "Petit-déjeuner inclus et chambres haut de gamme"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Moderne, luxueux et professionnel",
+            "public": "Voyageurs d'affaires et clients exigeants cherchant un confort irréprochable à Sfax",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "L'une des adresses les plus modernes et confortables de Sfax."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 903 expériences vécues · Mise à jour : 2026"
+    },
+    "Seabel Aladin Djerba": {
+        "pays": "Tunisie",
+        "ville": "Aghir",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/seabel-aladin-djerba.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Aghir (Djerba), le Seabel Aladin Djerba propose un cadre verdoyant avec un confort de 8,1 en formule tout compris.",
+        "prix_moyen": "962€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Confort de 8,1",
+            "Formule tout compris",
+            "Cadre agréable avec vue sur jardin"
+        ],
+        "points_negatifs": [
+            "Tarifs variables en haute saison"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Chaleureux, familial et tout compris",
+            "public": "Familles cherchant un club de vacances sympathique à Djerba",
+            "style": "Hôtel club",
+            "verdict": "Une valeur sûre pour des vacances tout compris sans souci sur l'île."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 63 expériences vécues · Mise à jour : 2026"
+    },
+    "The Residence Douz": {
+        "pays": "Tunisie",
+        "ville": "Douz",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/the-residence-douz.fr.html?aid=818289",
+        "image": "",
+        "description": "Somptueux resort 5 étoiles à Douz, The Residence Douz affiche une note fabuleuse de 9,3 avec un confort exceptionnel de 9,7 et des villas de luxe dans le désert.",
+        "prix_moyen": "1 470€ / semaine",
+        "avis": "9,3/10",
+        "points_positifs": [
+            "Fabuleux (9,3)",
+            "Confort exceptionnel de 9,7 (l'un des meilleurs scores)",
+            "Villas de luxe privatives aux portes du désert, petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs très élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Villa de luxe",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Saharien, ultra-luxueux et paradisiaque",
+            "public": "Clientèle fortunée cherchant le summum du raffinement au milieu des dunes",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une expérience hôtelière absolument magistrale et somptueuse dans le sud tunisien."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 385 expériences vécues · Mise à jour : 2026"
+    },
+    "La Villa Bleue-Sidi Bou Said": {
+        "pays": "Tunisie",
+        "ville": "Sidi Bou Saïd",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/la-villa-bleue-sidi-bou-said.fr.html?aid=818289",
+        "image": "",
+        "description": "Niché sur la falaise de Sidi Bou Saïd, ce boutique-hôtel 5 étoiles offre une vue panoramique époustouflante sur la mer, un confort de 8,9 et des suites de luxe.",
+        "prix_moyen": "1 324€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Vue panoramique spectaculaire sur la Méditerranée depuis le village mythique de Sidi Bou Saïd",
+            "Confort élevé de 8,9",
+            "Suites de luxe avec petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Vue mer panoramique",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Mythique, romantique et luxueux",
+            "public": "Couples et voyageurs cherchant la plus belle vue et le plus grand charme de la banlieue de Tunis",
+            "style": "Boutique-hôtel de luxe",
+            "verdict": "Une adresse romantique et légendaire incontournable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 415 expériences vécues · Mise à jour : 2026"
+    },
+    "El Hana International": {
+        "pays": "Tunisie",
+        "ville": "Centre de Tunis, Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-hana-international.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre de Tunis, l'El Hana International propose des chambres lits jumeaux avec annulation gratuite.",
+        "prix_moyen": "506€ / semaine",
+        "avis": "5,6/10",
+        "points_positifs": [
+            "Emplacement central à Tunis",
+            "Annulation gratuite",
+            "Chambres lits jumeaux"
+        ],
+        "points_negatifs": [
+            "Notes clients moyennes"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Annulation gratuite",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Simple et urbain",
+            "public": "Voyageurs cherchant un hôtel central sans prétention à Tunis",
+            "style": "Hôtel de ville",
+            "verdict": "Une alternative basique pour loger au cœur de la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 173 expériences vécues · Mise à jour : 2026"
+    },
+    "Saheb Ettabaa Tunis": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/saheb-ettabaa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis près des quartiers historiques, cet hôtel propose un hébergement climatisé avec annulation gratuite.",
+        "prix_moyen": "374€ / semaine",
+        "avis": "5,3/10",
+        "points_positifs": [
+            "Proche des sites historiques de Tunis",
+            "Annulation gratuite",
+            "Tarif abordable"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Annulation gratuite",
+            "Chambre double"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel et économique",
+            "public": "Petits budgets voulant explorer l'histoire de Tunis",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option économique pour un séjour culturel."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 104 expériences vécues · Mise à jour : 2026"
+    },
+    "El Mouradi Hammamet": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-mouradi-hammamet.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, l'El Mouradi Hammamet propose une formule tout compris avec un accès facile à la plage et aux animations de la station.",
+        "prix_moyen": "690€ / semaine",
+        "avis": "6,1/10",
+        "points_positifs": [
+            "Formule tout compris",
+            "Situation balnéaire à Hammamet",
+            "Infrastructures de loisirs et piscine"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Animé, balnéaire et économique",
+            "public": "Petits budgets cherchant un grand club tout compris à Hammamet",
+            "style": "Hôtel club 4 étoiles",
+            "verdict": "Une option classique et abordable pour des vacances les pieds dans l'eau."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 798 expériences vécues · Mise à jour : 2026"
+    },
+    "Meliá El Mansour Mahdia": {
+        "pays": "Tunisie",
+        "ville": "Mahdia",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/melia-el-mansour-mahdia.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Mahdia, le Meliá El Mansour propose un très bon confort (8,6), un cadre de premier ordre et une formule tout compris en bord de mer.",
+        "prix_moyen": "1 496€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort élevé de 8,6 avec vue sur jardin",
+            "Standards de qualité Meliá en formule tout compris"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Piscine / Spa"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, soigné et marin",
+            "public": "Familles et couples cherchant le standing international 5 étoiles à Mahdia",
+            "style": "Resort de luxe tout compris",
+            "verdict": "Une magnifique adresse pour profiter des superbes plages de Mahdia en tout confort."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 170 expériences vécues · Mise à jour : 2026"
+    },
+    "Riviera Hotel - Family only": {
+        "pays": "Tunisie",
+        "ville": "Port El-Kantaoui",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/riviera-port-el-kantaoui.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Port El-Kantaoui et réservé aux familles, le Riviera Hotel propose un séjour avec demi-pension (petit-déjeuner et dîner compris) et annulation gratuite.",
+        "prix_moyen": "565€ / semaine",
+        "avis": "5,0/10",
+        "points_positifs": [
+            "Réservé strictement aux familles",
+            "Demi-pension incluse (petit-déjeuner et dîner)",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Notes clients faibles"
+        ],
+        "equipements": [
+            "Demi-pension",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Familial et simple",
+            "public": "Familles cherchant un hôtel de côte abordable près de Port El-Kantaoui",
+            "style": "Hôtel de côte",
+            "verdict": "Une option économique avec repas du soir inclus."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 16 expériences vécues · Mise à jour : 2026"
+    },
+    "El Mouradi Club Kantaoui": {
+        "pays": "Tunisie",
+        "ville": "Port El-Kantaoui",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-mouradi-club-kantaoui.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Port El-Kantaoui, l'El Mouradi Club Kantaoui propose une formule avec tous les repas compris (pension complète ou tout compris).",
+        "prix_moyen": "656€ / semaine",
+        "avis": "5,0/10",
+        "points_positifs": [
+            "Tous les repas compris",
+            "Proche de la marina de Port El-Kantaoui",
+            "Grandes infrastructures de club"
+        ],
+        "points_negatifs": [
+            "Notes clients faibles"
+        ],
+        "equipements": [
+            "Tous les repas compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Animé et balnéaire",
+            "public": "Petits budgets cherchant un grand club de vacances près de Port El-Kantaoui",
+            "style": "Hôtel club",
+            "verdict": "Une solution économique pour des vacances sans se soucier des repas."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 219 expériences vécues · Mise à jour : 2026"
+    },
+    "El Mouradi Skanes": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-mouradi-skanes.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Monastir, l'El Mouradi Skanes propose une formule avec tous les repas compris dans un grand complexe hôtelier en bord de mer.",
+        "prix_moyen": "575€ / semaine",
+        "avis": "5,3/10",
+        "points_positifs": [
+            "Tous les repas compris",
+            "Accès direct à la plage de Monastir",
+            "Piscine et grands espaces"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Tous les repas compris",
+            "Front de mer",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire et économique",
+            "public": "Familles cherchant un grand hôtel club abordable à Monastir",
+            "style": "Hôtel club 4 étoiles",
+            "verdict": "Une alternative de grand format pour les petits budgets."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 434 expériences vécues · Mise à jour : 2026"
+    },
+    "El Mouradi Club Selima": {
+        "pays": "Tunisie",
+        "ville": "Port El-Kantaoui",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/el-mouradi-club-selima.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Port El-Kantaoui, l'El Mouradi Club Selima propose des bungalows avec tous les repas compris dans un vaste domaine verdoyant.",
+        "prix_moyen": "563€ / semaine",
+        "avis": "5,5/10",
+        "points_positifs": [
+            "Tous les repas compris",
+            "Bungalows au milieu d'un grand domaine",
+            "Ambiance club conviviale"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Tous les repas compris",
+            "Bungalow",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Verdoyant, animé et familial",
+            "public": "Petits budgets cherchant un club en bungalow près de Port El-Kantaoui",
+            "style": "Hôtel club de bungalows",
+            "verdict": "Un choix axé sur la convivialité et le prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 169 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Royal Jinene Beach & Spa": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/royal-jinene-beach-sousse.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sousse, l'Hotel Royal Jinene Beach & Spa propose un centre de bien-être, un petit-déjeuner inclus, une annulation gratuite et un paiement sur place.",
+        "prix_moyen": "883€ / semaine",
+        "avis": "6,0/10",
+        "points_positifs": [
+            "Centre de spa et de thalasso",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Notes clients moyennes"
+        ],
+        "equipements": [
+            "Spa",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire et relaxant",
+            "public": "Voyageurs cherchant un hôtel de plage avec spa à Sousse",
+            "style": "Hôtel de côte avec spa",
+            "verdict": "Une option pour profiter de la mer et de soins de bien-être."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 269 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel La Maison Blanche": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/la-maison-blanche-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, cet élégant hôtel 5 étoiles de style boutique propose de superbes suites junior climatisées et l'annulation gratuite.",
+        "prix_moyen": "494€ / semaine",
+        "avis": "6,6/10",
+        "points_positifs": [
+            "Suites junior spacieuses et raffinées",
+            "Emplacement central à Tunis",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Notes clients partagées pour un 5 étoiles"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Suite junior",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Chic, intimiste et urbain",
+            "public": "Voyageurs cherchant le standing d'une suite de luxe à prix promotionnel à Tunis",
+            "style": "Boutique-hôtel 5 étoiles",
+            "verdict": "Un excellent rapport qualité-prix pour loger dans une suite de standing."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 704 expériences vécues · Mise à jour : 2026"
+    },
+    "ADAM Hotel Suites": {
+        "pays": "Tunisie",
+        "ville": "Les Berges du Lac, Tunis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/adam-hotel-suites.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé aux Berges du Lac à Tunis, l'ADAM Hotel Suites affiche une note fabuleuse de 9,0 avec un confort exceptionnel de 9,2 et de grandes suites de 77 m².",
+        "prix_moyen": "1 346€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,2 avec des suites immenses de 77 m²",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "Suites spacieuses",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Ultra-moderne, luxueux et spacieux",
+            "public": "Voyageurs d'affaires et familles cherchant le summum du confort moderne aux Berges du Lac",
+            "style": "Hôtel de suites de luxe",
+            "verdict": "Une adresse somptueuse et irréprochable pour un séjour grand format."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 499 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Tunisie Confort": {
+        "pays": "Tunisie",
+        "ville": "Centre de Tunis, Tunis",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/tunisie-confort-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre de Tunis, l'Hotel Tunisie Confort propose un petit-déjeuner inclus, une offre privilège et l'annulation gratuite.",
+        "prix_moyen": "340€ / semaine",
+        "avis": "5,1/10",
+        "points_positifs": [
+            "Emplacement central à Tunis",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Simple et urbain",
+            "public": "Petits budgets cherchant un hôtel central à prix bas",
+            "style": "Hôtel de ville simple",
+            "verdict": "Une option fonctionnelle pour loger au centre sans se ruiner."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 86 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel du Parc": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/du-parc-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, l'Hotel du Parc propose un bon confort avec petit-déjeuner inclus et annulation gratuite.",
+        "prix_moyen": "506€ / semaine",
+        "avis": "7,5/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Annulation gratuite",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Prestations classiques"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Pratique et soigné",
+            "public": "Voyageurs cherchant un pied-à-terre correct à Tunis",
+            "style": "Hôtel de ville",
+            "verdict": "Un choix fiable et sans mauvaise surprise dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 136 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Ibn Khaldoun": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/ibn-khaldoun-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, l'Hotel Ibn Khaldoun propose des chambres doubles deluxe climatisées avec un grand lit double en plein centre de la capitale.",
+        "prix_moyen": "447€ / semaine",
+        "avis": "7,3/10",
+        "points_positifs": [
+            "Emplacement central à Tunis",
+            "Chambres doubles deluxe avec grand lit",
+            "Climatisation"
+        ],
+        "points_negatifs": [
+            "Style urbain traditionnel"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Climatisation",
+            "Chambre deluxe"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central et économique",
+            "public": "Voyageurs cherchant un hôtel simple et bien placé à Tunis",
+            "style": "Hôtel de ville",
+            "verdict": "Une alternative correcte pour séjourner au centre-ville."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 711 expériences vécues · Mise à jour : 2026"
+    },
+    "MAIA HOTEL SUITES": {
+        "pays": "Tunisie",
+        "ville": "Les Berges du Lac, Tunis",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/maia-hotel-suites.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé aux Berges du Lac à Tunis, le MAIA HOTEL SUITES affiche une superbe note de 8,7 avec un confort exceptionnel de 9,2 et le petit-déjeuner inclus.",
+        "prix_moyen": "765€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort exceptionnel de 9,2 dans un quartier prisé",
+            "Petit-déjeuner inclus et prestations haut de gamme"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Moderne, chic et irréprochable",
+            "public": "Voyageurs d'affaires et clients exigeants cherchant le standing aux Berges du Lac",
+            "style": "Hôtel de suites 4 étoiles",
+            "verdict": "Une excellente adresse réputée pour son confort et son service."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 382 expériences vécues · Mise à jour : 2026"
+    },
+    "City Business Monastir Center": {
+        "pays": "Tunisie",
+        "ville": "Monastir",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/monastir-center.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Monastir, le City Business Monastir Center propose des chambres doubles standard climatisées avec annulation gratuite.",
+        "prix_moyen": "342€ / semaine",
+        "avis": "6,9/10",
+        "points_positifs": [
+            "Emplacement central à Monastir",
+            "Annulation gratuite",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Notes clients moyennes"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Pratique et fonctionnel",
+            "public": "Voyageurs cherchant un hôtel urbain abordable à Monastir",
+            "style": "Hôtel de ville",
+            "verdict": "Une option correcte pour un séjour professionnel ou de passage."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 113 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Saint Georges Tunis": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/saint-georges-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tunis, l'Hotel Saint Georges propose un hébergement climatisé avec annulation gratuite pour un séjour économique dans la capitale.",
+        "prix_moyen": "261€ / semaine",
+        "avis": "5,9/10",
+        "points_positifs": [
+            "Emplacement central à Tunis",
+            "Annulation gratuite",
+            "Prix très accessible"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Économique et simple",
+            "public": "Petits budgets cherchant un toit basique au centre de Tunis",
+            "style": "Hôtel de ville simple",
+            "verdict": "Une option de secours pour les voyageurs fauchés."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 464 expériences vécues · Mise à jour : 2026"
+    },
+    "Kanta Resort and Spa": {
+        "pays": "Tunisie",
+        "ville": "Sousse",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/kanta-resort-spa-sousse.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sousse, le Kanta Resort and Spa propose des chambres climatisées avec un espace de bien-être et l'annulation gratuite.",
+        "prix_moyen": "577€ / semaine",
+        "avis": "5,1/10",
+        "points_positifs": [
+            "Espace spa et bien-être",
+            "Annulation gratuite",
+            "Climatisation"
+        ],
+        "points_negatifs": [
+            "Notes clients faibles"
+        ],
+        "equipements": [
+            "Spa",
+            "Piscine",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire et abordable",
+            "public": "Voyageurs cherchant un grand hôtel avec spa à petit prix près de Sousse",
+            "style": "Resort club",
+            "verdict": "Une alternative basique pour profiter des équipements de loisirs."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 43 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Transatlantique Tunis": {
+        "pays": "Tunisie",
+        "ville": "Centre de Tunis, Tunis",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/transatlantique-tunis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre de Tunis, l'Hotel Transatlantique propose des chambres lits jumeaux avec annulation gratuite au cœur de la capitale.",
+        "prix_moyen": "376€ / semaine",
+        "avis": "6,0/10",
+        "points_positifs": [
+            "Emplacement idéal au centre-ville de Tunis",
+            "Annulation gratuite",
+            "Chambres lits jumeaux"
+        ],
+        "points_negatifs": [
+            "Prestations traditionnelles simples"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Annulation gratuite",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central et économique",
+            "public": "Voyageurs voulant loger en plein centre de Tunis sans se ruiner",
+            "style": "Hôtel de ville",
+            "verdict": "Un point de chute pratique et central."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 178 expériences vécues · Mise à jour : 2026"
+    },
+    "Impavid Hotel": {
+        "pays": "Tunisie",
+        "ville": "Gabès",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/impavid-gabes.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gabès, l'Impavid Hotel propose un très bon confort (8,7) avec annulation gratuite étendue et paiement flexible sur place.",
+        "prix_moyen": "480€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très bien noté (8,4)",
+            "Confort élevé de 8,7 à Gabès",
+            "Annulation gratuite étendue et paiement sur place sans prépaiement"
+        ],
+        "points_negatifs": [
+            "Style urbain simple"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Annulation gratuite",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Confortable, propre et pratique",
+            "public": "Voyageurs d'affaires ou touristes explorant Gabès et le sud",
+            "style": "Hôtel de ville",
+            "verdict": "L'une des meilleures options de confort disponibles à Gabès."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 13 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Le Khalife": {
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/le-khalife-hammamet.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hammamet, l'Hotel Le Khalife propose des chambres doubles climatisées avec annulation gratuite à un tarif très économique.",
+        "prix_moyen": "242€ / semaine",
+        "avis": "6,4/10",
+        "points_positifs": [
+            "Prix extrêmement bas à Hammamet",
+            "Annulation gratuite",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Prestations basiques"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Annulation gratuite",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Économique et simple",
+            "public": "Petits budgets cherchant un hôtel avec piscine à Hammamet",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un plan très bon marché pour profiter de Hammamet."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 77 expériences vécues · Mise à jour : 2026"
+    },
+    "hotel arisha": {
+        "pays": "Tunisie",
+        "ville": "Houmt Souk",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/tn/arisha-houmt-souk.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Houmt Souk (Djerba), l'hotel arisha propose des chambres doubles avec salle de bains privative et grands lits doubles climatisés.",
+        "prix_moyen": "490€ / semaine",
+        "avis": "7,0/10",
+        "points_positifs": [
+            "Emplacement pratique à Houmt Souk",
+            "Chambres avec grands lits doubles et salle de bains privative",
+            "Climatisation"
+        ],
+        "points_negatifs": [
+            "Prestations simples"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Salle de bains privative",
+            "Chambre double"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Pratique et économique",
+            "public": "Voyageurs cherchant un logement simple au cœur de Houmt Souk à Djerba",
+            "style": "Hôtel de ville",
+            "verdict": "Une alternative correcte pour séjourner sur l'île de Djerba."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 16 expériences vécues · Mise à jour : 2026"
+    },
    } 
