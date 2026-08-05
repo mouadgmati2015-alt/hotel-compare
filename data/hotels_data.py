@@ -15760,4 +15760,7925 @@ HOTELS_DATA = {
         },
         "meta_avis": "Contenu résumé par IA sur la base de 16 expériences vécues · Mise à jour : 2026"
     },
-   } 
+    "Blend Elphistone Resort Marsa Alam": {
+        "pays": "Égypte",
+        "ville": "Marsa Alam (Abu Dabab)",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/blend-elphistone-resort-marsa-alam.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Abu Dabab (Marsa Alam), ce resort 4 étoiles propose un centre de durabilité, un confort de 9,0 et une formule tout compris en bord de mer.",
+        "prix_moyen": "610€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort élevé de 9,0 avec certificat de durabilité",
+            "Formule tout compris taxes et frais compris"
+        ],
+        "points_negatifs": [
+            "Dernières chambres disponibles"
+        ],
+        "equipements": [
+            "Certificat de durabilité",
+            "Tout compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Marin, éco-responsable et tout compris",
+            "public": "Amateurs de plongée et de récifs coralliens à Marsa Alam",
+            "style": "Resort balnéaire tout compris",
+            "verdict": "Une excellente option très bien notée à un tarif très attractif."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 020 expériences vécues · Mise à jour : 2026"
+    },
+    "Sunrise Solara Aqua park Resort": {
+        "pays": "Égypte",
+        "ville": "Hurghada (Al Ahyaa)",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sunrise-solara-aqua-park.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Al Ahyaa (Hurghada), ce resort exceptionnel propose un parc aquatique, un confort de 9,8 et une formule tout compris.",
+        "prix_moyen": "860€ / semaine",
+        "avis": "9,8/10",
+        "points_positifs": [
+            "Exceptionnel (9,8)",
+            "Confort exceptionnel de 9,8 avec parc aquatique",
+            "Certificat de durabilité, annulation gratuite et tout compris"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Parc aquatique",
+            "Certificat de durabilité",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🎢 Ludique, luxueux et familial",
+            "public": "Familles cherchant le nec plus ultra des parcs aquatiques et du tout compris à Hurghada",
+            "style": "Resort de luxe avec aquapark",
+            "verdict": "Une adresse somptueuse aux notes exceptionnelles."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 402 expériences vécues · Mise à jour : 2026"
+    },
+    "Charmillion Gardens Aquapark": {
+        "pays": "Égypte",
+        "ville": "Charm el-Cheikh (Baie de Nabq)",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/charmillion-gardens-aquapark.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Baie de Nabq à Charm el-Cheikh, ce complexe hôtelier propose un parc aquatique, un confort de 9,5 et la formule tout compris.",
+        "prix_moyen": "900€ / semaine",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Exceptionnel (9,5)",
+            "Confort de 9,5 avec parc aquatique",
+            "Annulation gratuite et formule tout compris"
+        ],
+        "points_negatifs": [
+            "Dernières chambres à ce tarif"
+        ],
+        "equipements": [
+            "Parc aquatique",
+            "Tout compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Aquatique, animé et prestigieux",
+            "public": "Familles et amateurs de sensations fortes à Charm el-Cheikh",
+            "style": "Resort club 5 étoiles",
+            "verdict": "Un choix fabuleux pour un séjour sous le signe du divertissement."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 897 expériences vécues · Mise à jour : 2026"
+    },
+    "Sunrise Aqua Joy Resort": {
+        "pays": "Égypte",
+        "ville": "Hurghada (Al Mamsha El Seyahi)",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sunrise-aqua-joy-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé sur la promenade d'Al Mamsha à Hurghada, ce resort propose un confort de 9,3, un certificat de durabilité et une formule tout compris.",
+        "prix_moyen": "1 040€ / semaine",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Fabuleux (9,2)",
+            "Confort élevé de 9,3",
+            "Emplacement central animé, certificat de durabilité et tout compris"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "Certificat de durabilité",
+            "Tout compris",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Animé, moderne et tout compris",
+            "public": "Voyageurs cherchant un établissement vivant et de grande qualité à Hurghada",
+            "style": "Resort club 4 étoiles",
+            "verdict": "Une valeur sûre très plébiscitée au bord de la Mer Rouge."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 5 458 expériences vécues · Mise à jour : 2026"
+    },
+    "Three Corners Happy Life Beach Resort": {
+        "pays": "Égypte",
+        "ville": "Marsa Alam (Abu Dabab)",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/three-corners-happy-life-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Abu Dabab (Marsa Alam), ce resort propose un confort de 9,5, un certificat de durabilité et une formule tout compris avec paiement sur place.",
+        "prix_moyen": "821€ / semaine",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Fabuleux (9,4)",
+            "Confort exceptionnel de 9,5",
+            "Formule tout compris, aucun prépaiement requis"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Certificat de durabilité",
+            "Tout compris",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Marin, détendu et tout compris",
+            "public": "Amateurs de snorkeling et de nature préservée à Marsa Alam",
+            "style": "Resort de plage 4 étoiles",
+            "verdict": "Une adresse fantastique pour profiter des fonds marins en toute sérénité."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 527 expériences vécues · Mise à jour : 2026"
+    },
+    "Bellagio Beach Resort & Spa": {
+        "pays": "Égypte",
+        "ville": "Hurghada (Al Ahyaa)",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/bellagio-beach-resort-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Al Ahyaa (Hurghada), le Bellagio Beach Resort & Spa propose un confort de 9,1 avec des chambres de luxe et une formule tout compris.",
+        "prix_moyen": "963€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort élevé de 9,1 avec vue sur piscine",
+            "Prestations 5 étoiles en tout compris"
+        ],
+        "points_negatifs": [
+            "Tarifs variables"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, balnéaire et soigné",
+            "public": "Voyageurs cherchant un grand hôtel 5 étoiles les pieds dans l'eau à Hurghada",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Un superbe complexe pour un séjour tout compris haut de gamme."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 747 expériences vécues · Mise à jour : 2026"
+    },
+    "Gemma Resort": {
+        "pays": "Égypte",
+        "ville": "Marsa Alam",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/gemma-resort-marsa-alam.fr.html?aid=818289",
+        "image": "",
+        "description": "Niché à Marsa Alam, le Gemma Resort affiche une note exceptionnelle de 9,9 avec un confort parfait de 9,9 en formule tout compris.",
+        "prix_moyen": "934€ / semaine",
+        "avis": "9,9/10",
+        "points_positifs": [
+            "Exceptionnel (9,9 - l'une des meilleures notes)",
+            "Confort quasi parfait de 9,9",
+            "Annulation gratuite et formule tout compris"
+        ],
+        "points_negatifs": [
+            "Disponibilité limitée"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Piscine / Plage"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Prestigieux, paradisiaque et exclusif",
+            "public": "Clientèle très exigeante cherchant le summum de la satisfaction à Marsa Alam",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une adresse d'exception absolue recommandée par les voyageurs."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 892 expériences vécues · Mise à jour : 2026"
+    },
+    "Pharaoh Azur Resort": {
+        "pays": "Égypte",
+        "ville": "Hurghada (Villages Road)",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pharaoh-azur-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé sur la route des villages à Hurghada, le Pharaoh Azur Resort propose un confort de 9,1 avec vue sur jardin en formule tout compris.",
+        "prix_moyen": "770€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort élevé de 9,1",
+            "Annulation gratuite, formule tout compris"
+        ],
+        "points_negatifs": [
+            "Dernières chambres disponibles"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Verdoyant, classique et tout compris",
+            "public": "Familles cherchant un grand resort fiable sur la côte d'Hurghada",
+            "style": "Resort club 4 étoiles",
+            "verdict": "Une option très solide et confortable au meilleur prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 370 expériences vécues · Mise à jour : 2026"
+    },
+    "Grand Oasis Resort": {
+        "pays": "Égypte",
+        "ville": "Charm el-Cheikh (Sharks Bay)",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/grand-oasis-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la célèbre baie de Sharks Bay à Charm el-Cheikh, ce resort propose un confort de 9,0 et une formule tout compris.",
+        "prix_moyen": "861€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort élevé de 9,0 à Sharks Bay (spot de plongée mondial)",
+            "Annulation gratuite et tout compris"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Plage",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Marin, animé et tout compris",
+            "public": "Amateurs de fonds marins et de vie nocturne à Sharks Bay",
+            "style": "Resort club 4 étoiles",
+            "verdict": "Un emplacement exceptionnel pour profiter des merveilles de la Mer Rouge."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 053 expériences vécues · Mise à jour : 2026"
+    },
+    "Bel Air Azur Resort (Adults Only)": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/bel-air-azur-resort-adults-only.fr.html?aid=818289",
+        "image": "",
+        "description": "Réservé aux adultes et situé à Hurghada, ce resort propose un confort de 8,9 en formule tout compris avec annulation gratuite étendue.",
+        "prix_moyen": "850€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Réservé aux adultes (cadre idéal pour un séjour calme)",
+            "Confort de 8,9 en bord de mer",
+            "Formule tout compris, annulation gratuite étendue"
+        ],
+        "points_negatifs": [
+            "Dernières chambres disponibles"
+        ],
+        "equipements": [
+            "Adults Only",
+            "Tout compris",
+            "Front de mer"
+        ],
+        "pour_qui": {
+            "ambiance": "🍸 Calme, adulte et reposant",
+            "public": "Couples cherchant un hôtel sans enfants tout compris à Hurghada",
+            "style": "Resort adults only",
+            "verdict": "Une très belle adresse côtière réservée aux adultes."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 4 180 expériences vécues · Mise à jour : 2026"
+    },
+    "Tropitel Dahab Oasis": {
+        "pays": "Égypte",
+        "ville": "Dahab",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/tropitel-dahab-oasis.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Dahab, ce resort éco-responsable affiche une note exceptionnelle de 9,5 avec un confort de 9,5 et la demi-pension incluse.",
+        "prix_moyen": "667€ / semaine",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Exceptionnel (9,5)",
+            "Confort de 9,5 avec certificat de durabilité",
+            "Vue latérale sur mer, petit-déjeuner et dîner compris"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Certificat de durabilité",
+            "Demi-pension",
+            "Vue mer"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Décontracté, écologique et sublime",
+            "public": "Amateurs de plongée, de charme bohème et de paysages montagneux à Dahab",
+            "style": "Resort de charme",
+            "verdict": "Une oasis incontournable à Dahab notée 9,5/10."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 806 expériences vécues · Mise à jour : 2026"
+    },
+    "Mövenpick Resort El Sokhna": {
+        "pays": "Égypte",
+        "ville": "Ain Sokhna",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/movenpick-resort-el-sokhna.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Ain Sokhna, cet hôtel 5 étoiles propose un certificat de durabilité, un confort de 8,5 et la demi-pension (petit-déjeuner et dîner compris).",
+        "prix_moyen": "1 082€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Standards de luxe Mövenpick",
+            "Confort élevé de 8,5 avec certificat de durabilité",
+            "Demi-pension incluse (proche du Caire)"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Demi-pension"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, moderne et soigné",
+            "public": "Voyageurs cherchant un week-end ou un séjour haut de gamme près de la mer",
+            "style": "Hôtel de luxe 5 étoiles",
+            "verdict": "Une valeur sûre d'excellente réputation à Ain Sokhna."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 578 expériences vécues · Mise à jour : 2026"
+    },
+    "Golden Beach Resort": {
+        "pays": "Égypte",
+        "ville": "Hurghada (Al Ahyaa)",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/golden-beach-resort-hurghada.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Al Ahyaa (Hurghada), le Golden Beach Resort propose un confort élevé de 9,1 en formule tout compris avec annulation gratuite.",
+        "prix_moyen": "830€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort de 9,1 en tout compris",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Prestations classiques"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Balnéaire et familial",
+            "public": "Familles cherchant un grand complexe de loisirs abordable à Hurghada",
+            "style": "Resort club",
+            "verdict": "Une bonne alternative pour un séjour tout compris au soleil."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 004 expériences vécues · Mise à jour : 2026"
+    },
+    "Strand Beach Resort": {
+        "pays": "Égypte",
+        "ville": "Taba",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/strand-beach-resort-taba.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Taba, ce resort 5 étoiles propose un cadre magnifique entre mer et montagne avec une formule tout compris et un confort de 8,5.",
+        "prix_moyen": "910€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Confort élevé de 8,5 face aux montagnes et à la mer",
+            "Formule tout compris",
+            "Prestations 5 étoiles"
+        ],
+        "points_negatifs": [
+            "Zone isolée (Taba)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Vue mer et montagne"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Majestueux, marin et sauvage",
+            "public": "Voyageurs cherchant un cadre spectaculaire et reposant à Taba",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Un superbe panorama pour un séjour 5 étoiles tout compris."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 977 expériences vécues · Mise à jour : 2026"
+    },
+    "Xperience Sea Breeze Resort": {
+        "pays": "Égypte",
+        "ville": "Charm el-Cheikh (Sharks Bay)",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/xperience-sea-breeze-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sharks Bay (Charm el-Cheikh), cet hôtel 5 étoiles propose un confort de 9,1 avec vue sur piscine et petit-déjeuner inclus.",
+        "prix_moyen": "768€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort élevé de 9,1 à Sharks Bay",
+            "Petit-déjeuner inclus, annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Dernières chambres à ce tarif"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Petit-déjeuner inclus",
+            "Vue piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Chic, marin et central",
+            "public": "Voyageurs cherchant un standing 5 étoiles bien placé à Charm el-Cheikh",
+            "style": "Hôtel de luxe 5 étoiles",
+            "verdict": "Une adresse prestigieuse offrant un excellent rapport qualité-prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 200 expériences vécues · Mise à jour : 2026"
+    },
+    "SRNTY Sea Reef - Ex Serenity Alpha Beach": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/serenity-alpha-beach.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hurghada, ce resort 5 étoiles affiche une note fabuleuse de 9,4 avec un confort exceptionnel de 9,6 en formule tout compris.",
+        "prix_moyen": "1 295€ / semaine",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Fabuleux (9,4)",
+            "Confort exceptionnel de 9,6",
+            "Formule tout compris et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Piscine / Spa"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, moderne et irréprochable",
+            "public": "Clientèle exigeante cherchant le plus haut niveau de confort à Hurghada",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une qualité d'hébergement exceptionnelle (9,6/10) pour un séjour idyllique."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 472 expériences vécues · Mise à jour : 2026"
+    },
+    "Amphoras Blu Ultra-All Inclusive Adults Only": {
+        "pays": "Égypte",
+        "ville": "Charm el-Cheikh (El Hadaba)",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/amphoras-blu-adults-only.fr.html?aid=818289",
+        "image": "",
+        "description": "Réservé aux adultes à El Hadaba (Charm el-Cheikh), ce resort propose une formule ultra tout compris avec un confort de 8,7.",
+        "prix_moyen": "845€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Réservé aux adultes (ambiance paisible et festive)",
+            "Formule ultra tout compris",
+            "Emplacement de choix à El Hadaba, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Adults Only",
+            "Ultra Tout Compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🍸 Chic, adulte et animé",
+            "public": "Couples et amis cherchant un tout compris sans enfants à Charm el-Cheikh",
+            "style": "Resort adults only",
+            "verdict": "Une superbe option réservée aux adultes en formule ultra tout compris."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 6 544 expériences vécues · Mise à jour : 2026"
+    },
+    "Pickalbatros Golf Beach Resort Aqua Park- All Inclusive": {
+        "pays": "Égypte",
+        "ville": "Charm el-Cheikh (Sharks Bay)",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pickalbatros-golf-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sharks Bay (Charm el-Cheikh), ce prestigieux resort 5 étoiles propose un parc aquatique, un confort de 9,0 et la formule tout compris.",
+        "prix_moyen": "1 055€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort élevé de 9,0 avec parc aquatique",
+            "Standards de la prestigieuse chaîne Pickalbatros en tout compris"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Parc aquatique",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, ludique et haut de gamme",
+            "public": "Familles et amateurs de golf/aquapark cherchant le meilleur standing à Sharks Bay",
+            "style": "Resort de luxe avec aquapark",
+            "verdict": "Une adresse prestigieuse et incontournable de la Mer Rouge."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 986 expériences vécues · Mise à jour : 2026"
+    },
+    "Sunrise Holidays Resort -Adults Only": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sunrise-holidays-resort-adults-only.fr.html?aid=818289",
+        "image": "",
+        "description": "Réservé aux adultes et situé à Hurghada, ce resort propose un fabuleux confort de 9,3, une vue sur mer et une formule tout compris avec taxes et frais compris.",
+        "prix_moyen": "1 245€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel de 9,3 réservé aux adultes",
+            "Formule tout compris avec taxes et frais compris, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "Adults Only",
+            "Tout compris",
+            "Vue mer"
+        ],
+        "pour_qui": {
+            "ambiance": "🍸 Chic, adulte et reposant",
+            "public": "Couples et voyageurs cherchant un 4 étoiles sans enfants haut de gamme à Hurghada",
+            "style": "Resort adults only",
+            "verdict": "Une adresse fabuleuse et très prisée pour un séjour au calme."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 571 expériences vécues · Mise à jour : 2026"
+    },
+    "Tropitel Sahl Hasheesh": {
+        "pays": "Égypte",
+        "ville": "Sahl Hasheesh, Hurghada",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/tropitel-sahl-hasheesh.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sahl Hasheesh (Hurghada), cet hôtel 5 étoiles propose un certificat de durabilité, un fabuleux confort de 9,3 et la demi-pension.",
+        "prix_moyen": "1 079€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,3 avec certificat de durabilité",
+            "Petit-déjeuner et dîner compris, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Demi-pension"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, moderne et balnéaire",
+            "public": "Voyageurs cherchant le standing de Sahl Hasheesh",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une magnifique option 5 étoiles dans l'une des plus belles baies d'Égypte."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 468 expériences vécues · Mise à jour : 2026"
+    },
+    "Amphoras Beach - Ultra All Inclusive": {
+        "pays": "Égypte",
+        "ville": "El Hadaba, Charm el-Cheikh",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/amphoras-beach.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à El Hadaba (Charm el-Cheikh), cet hôtel propose un superbe confort de 8,9 en formule tout compris avec taxes et frais inclus.",
+        "prix_moyen": "880€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort élevé de 8,9",
+            "Formule tout compris, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs variables en haute saison"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Marin, vaste et tout compris",
+            "public": "Familles et plongeurs cherchant un grand resort à El Hadaba",
+            "style": "Resort 5 étoiles",
+            "verdict": "Un choix très fiable pour profiter de la Mer Rouge."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 6 475 expériences vécues · Mise à jour : 2026"
+    },
+    "MinaMark Beach Resort for Families and Couples Only": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/minamark-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hurghada et réservé aux familles et couples, ce resort propose un très bon confort de 8,6 en formule tout compris.",
+        "prix_moyen": "598€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort élevé de 8,6",
+            "Réservé strictement aux familles et couples, formule tout compris"
+        ],
+        "points_negatifs": [
+            "Chambres économiques sans balcon"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Familial, animé et abordable",
+            "public": "Familles et couples cherchant un tout compris économique à Hurghada",
+            "style": "Hôtel club 4 étoiles",
+            "verdict": "Un excellent rapport qualité-prix pour un séjour tout compris."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 233 expériences vécues · Mise à jour : 2026"
+    },
+    "Regency Plaza Aqua Park and Spa Resort": {
+        "pays": "Égypte",
+        "ville": "Baie de Nabq, Charm el-Cheikh",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/regency-plaza-aqua-park-and-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Baie de Nabq à Charm el-Cheikh, ce resort dispose d'un parc aquatique et d'un spa en formule tout compris.",
+        "prix_moyen": "711€ / semaine",
+        "avis": "7,5/10",
+        "points_positifs": [
+            "Parc aquatique et spa",
+            "Formule tout compris",
+            "Aucun prépaiement requis, paiement sur place"
+        ],
+        "points_negatifs": [
+            "Notes clients moyennes"
+        ],
+        "equipements": [
+            "Parc aquatique",
+            "Spa",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🎢 Ludique et familial",
+            "public": "Familles cherchant des toboggans et le tout compris à prix modéré",
+            "style": "Hôtel club avec aquapark",
+            "verdict": "Une option ludique pour les familles à Charm el-Cheikh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 004 expériences vécues · Mise à jour : 2026"
+    },
+    "Meraki Resort - Adults Only": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/meraki-resort-adults-only.fr.html?aid=818289",
+        "image": "",
+        "description": "Réservé aux adultes et situé à Hurghada, le Meraki Resort affiche un fabuleux confort de 9,2, un certificat de durabilité et une formule tout compris bohème-chic.",
+        "prix_moyen": "1 502€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel de 9,2 réservé aux adultes",
+            "Certificat de durabilité, design branché et tout compris"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "Adults Only",
+            "Certificat de durabilité",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Tendance, festif et adulte",
+            "public": "Jeunes adultes et couples cherchant une ambiance branchée et sans enfants",
+            "style": "Resort lifestyle adults only",
+            "verdict": "L'un des hôtels adultes les plus branchés et mieux notés d'Hurghada."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 833 expériences vécues · Mise à jour : 2026"
+    },
+    "Charmillion Sea Life Resort": {
+        "pays": "Égypte",
+        "ville": "Baie de Nabq, Charm el-Cheikh",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/charmillion-sea-life-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Baie de Nabq (Charm el-Cheikh), ce resort exceptionnel affiche une note de 9,6 avec un confort de 9,6 en formule tout compris.",
+        "prix_moyen": "923€ / semaine",
+        "avis": "9,6/10",
+        "points_positifs": [
+            "Exceptionnel (9,6 - score remarquable)",
+            "Confort exceptionnel de 9,6",
+            "Formule tout compris, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Dernières places disponibles"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Plage",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, marin et exceptionnel",
+            "public": "Voyageurs cherchant un standing irréprochable et des prestations haut de gamme",
+            "style": "Resort club 4 étoiles",
+            "verdict": "Une adresse extraordinaire plébiscitée par tous les voyageurs."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 681 expériences vécues · Mise à jour : 2026"
+    },
+    "Al Masa Hotel El Sokhna": {
+        "pays": "Égypte",
+        "ville": "Ain Sokhna",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/al-masa-hotel-el-sokhna.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Ain Sokhna, cet hôtel 5 étoiles propose un confort élevé de 8,8 avec la demi-pension (petit-déjeuner et dîner compris).",
+        "prix_moyen": "787€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort de 8,8 avec prestations 5 étoiles",
+            "Demi-pension incluse (idéal près du Caire)"
+        ],
+        "points_negatifs": [
+            "Infrastructures classiques"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Demi-pension",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire, spacieux et pratique",
+            "public": "Familles cherchant un grand 5 étoiles accessible pour s'évader d'El Cairo",
+            "style": "Resort 5 étoiles",
+            "verdict": "Une excellente halte balnéaire à courte distance de la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 041 expériences vécues · Mise à jour : 2026"
+    },
+    "Al Dora Hotel & Spa": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/al-dora-hotel-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hurghada, l'Al Dora Hotel & Spa propose un bon confort de 8,1 en formule tout compris à un prix extrêmement économique.",
+        "prix_moyen": "312€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Formule tout compris à prix imbattable",
+            "Espace spa",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Prestations basiques"
+        ],
+        "equipements": [
+            "Spa",
+            "Tout compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Économique et tout compris",
+            "public": "Petits budgets cherchant un séjour tout compris sans se ruiner à Hurghada",
+            "style": "Hôtel de tourisme avec spa",
+            "verdict": "Le tout compris le moins cher de la sélection."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 183 expériences vécues · Mise à jour : 2026"
+    },
+    "Pickalbatros Royal Grand Sharm - Adults Friendly 16 Years Plus": {
+        "pays": "Égypte",
+        "ville": "El Hadaba, Charm el-Cheikh",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pickalbatros-royal-grand-sharm.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à El Hadaba (Charm el-Cheikh) et adapté aux adultes (16+), ce resort 5 étoiles affiche une note de 9,3 avec un confort de 9,5 en formule tout compris.",
+        "prix_moyen": "1 245€ / semaine",
+        "avis": "9,3/10",
+        "points_positifs": [
+            "Fabuleux (9,3)",
+            "Confort exceptionnel de 9,5 (adultes de 16 ans et plus)",
+            "Formule tout compris, paiement sur place sans prépaiement"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Adults Friendly (16+)",
+            "Tout compris",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, paisible et haut de gamme",
+            "public": "Couples et voyageurs cherchant un cadre serein et sophistiqué en Mer Rouge",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une adresse somptueuse aux prestations irréprochables."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 7 144 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Novotel Sharm El-Sheikh": {
+        "pays": "Égypte",
+        "ville": "Baie de Neama, Charm el-Cheikh",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/novotel-sharm-el-sheikh.fr.html?aid=818289",
+        "image": "",
+        "description": "Idéalement situé dans la Baie de Neama à Charm el-Cheikh, le Novotel propose un certificat de durabilité, un fabuleux confort de 9,3 et un accès direct à la plage.",
+        "prix_moyen": "723€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel de 9,3 au cœur de la Baie de Neama",
+            "Certificat de durabilité et standards internationaux Novotel"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Plage"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Moderne, chic et central",
+            "public": "Voyageurs cherchant un standing international 5 étoiles dans l'animation de Naama Bay",
+            "style": "Hôtel international 5 étoiles",
+            "verdict": "Une valeur sûre incontournable à Charm el-Cheikh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 4 299 expériences vécues · Mise à jour : 2026"
+    },
+    "B&W Sahara Sky Hotel": {
+        "pays": "Égypte",
+        "ville": "Bawiti",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/b-w-sahara-sky.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Bawiti (oasis de Baharia), cet hôtel propose une expérience unique en tente tout confort avec tous les repas compris (pension complète).",
+        "prix_moyen": "641€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort élevé de 9,1 en tente saharienne climatisée",
+            "Tous les repas compris et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Lieu isolé dans le désert"
+        ],
+        "equipements": [
+            "Tente de luxe",
+            "Tous les repas compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏜️ Dépaysant, saharien et magique",
+            "public": "Amateurs d'aventures dans le désert et de nuits étoilées dans les oasis",
+            "style": "Campement de luxe / écolodge",
+            "verdict": "Une expérience saharienne extraordinaire notée 9,1/10."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 18 expériences vécues · Mise à jour : 2026"
+    },
+    "Shams Alam Beach Resort": {
+        "pays": "Égypte",
+        "ville": "Marsa Alam",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/shams-alam-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le sud préservé de Marsa Alam, ce resort propose une formule tout compris face à des plages sauvages et des récifs coralliens.",
+        "prix_moyen": "1 011€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort de 8,8 dans une zone naturelle protégée",
+            "Formule tout compris, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Isolement géographique"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Plage sauvage",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Sauvage, marin et reposant",
+            "public": "Plongeurs et amoureux de nature sauvage loin du tourisme de masse",
+            "style": "Resort de plage 4 étoiles",
+            "verdict": "Un havre de paix exceptionnel pour les amoureux de la nature sous-marine."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 477 expériences vécues · Mise à jour : 2026"
+    },
+    "AJIRA Boutique Hotel Hurghada Marina": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/ajira-boutique-hurghada-marina.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé près de la marina d'Hurghada, cet élégant boutique-hôtel propose un confort de 8,4 avec de grands lits queen-size.",
+        "prix_moyen": "431€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Confort élevé de 8,4",
+            "Emplacement privilégié à deux pas de la marina d'Hurghada"
+        ],
+        "points_negatifs": [
+            "Pas de formule tout compris incluse"
+        ],
+        "equipements": [
+            "Boutique-hôtel",
+            "Climatisation",
+            "Chambre queen-size"
+        ],
+        "pour_qui": {
+            "ambiance": "⛵ Marin, chic et urbain",
+            "public": "Voyageurs voulant profiter de l'animation de la marina et des restaurants à pied",
+            "style": "Boutique-hôtel",
+            "verdict": "Une alternative moderne et stylée aux grands complexes hôteliers."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 258 expériences vécues · Mise à jour : 2026"
+    },
+    "The Grand Hotel, Hurghada": {
+        "pays": "Égypte",
+        "ville": "Al Mamsha El Seyahi, Hurghada",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/the-grand-hotel-hurghada.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé sur la promenade d'Al Mamsha à Hurghada, The Grand Hotel propose un fabuleux complexe en formule tout compris.",
+        "prix_moyen": "827€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Confort de 8,3 avec un grand domaine tropical",
+            "Formule tout compris"
+        ],
+        "points_negatifs": [
+            "Infrastructures classiques"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Vaste, animé et tout compris",
+            "public": "Familles cherchant un grand hôtel club historique bien placé à Hurghada",
+            "style": "Hôtel club 4 étoiles",
+            "verdict": "Un grand classique indémodable de la destination."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 351 expériences vécues · Mise à jour : 2026"
+    },
+    "The View Delta Hotel": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/the-view-delta-cairo.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose des chambres triples avec vue sur ville, un petit-déjeuner inclus et une flexibilité totale de paiement.",
+        "prix_moyen": "236€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort de 8,6 avec vue sur la ville au Caire",
+            "Petit-déjeuner inclus, annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Animation urbaine"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain, pratique et économique",
+            "public": "Voyageurs cherchant un pied-à-terre confortable pour visiter les Pyramides et Le Caire",
+            "style": "Hôtel de ville",
+            "verdict": "Une option très économique et bien notée proche des sites historiques."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 576 expériences vécues · Mise à jour : 2026"
+    },
+    "Calimera Blend Paradise": {
+        "pays": "Égypte",
+        "ville": "Hurghada (Villages Road)",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/calimera-blend-paradise.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé sur la route des villages à Hurghada, le Calimera Blend Paradise propose un certificat de durabilité, un confort de 8,8 et une formule tout compris.",
+        "prix_moyen": "927€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort élevé de 8,8 avec certificat de durabilité",
+            "Formule tout compris"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Certificat de durabilité",
+            "Tout compris",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Familial, éco-responsable et tout compris",
+            "public": "Familles cherchant un resort qualitatif et engagé à Hurghada",
+            "style": "Resort club 4 étoiles",
+            "verdict": "Une excellente option axée sur le confort familial et le tout compris."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 520 expériences vécues · Mise à jour : 2026"
+    },
+    "Hur Pyramids Inn": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/hur-pyramids-inn-cairo.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose des chambres triples standard avec petit-déjeuner inclus et annulation gratuite.",
+        "prix_moyen": "139€ / semaine",
+        "avis": "7,3/10",
+        "points_positifs": [
+            "Prix extrêmement bas au Caire",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et proximité des Pyramides"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Historique et ultra-économique",
+            "public": "Petits budgets voulant loger au plus près des Pyramides de Gizeh",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un plan imbattable pour un budget minimaliste près des merveilles antiques."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 137 expériences vécues · Mise à jour : 2026"
+    },
+    "JAZ Neo Reef Marsa": {
+        "pays": "Égypte",
+        "ville": "Coraya Bay",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/jaz-neo-reef-marsa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Coraya Bay (Marsa Alam), cet hôtel propose un fabuleux confort de 9,4 avec vue sur piscine en formule tout compris.",
+        "prix_moyen": "854€ / semaine",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Fabuleux (9,2)",
+            "Confort exceptionnel de 9,4",
+            "Formule tout compris, annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, marin et tout compris",
+            "public": "Voyageurs cherchant le standing de Coraya Bay",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une adresse exceptionnelle pour un séjour de grande qualité."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 435 expériences vécues · Mise à jour : 2026"
+    },
+    "Continental Plaza Beach Resort": {
+        "pays": "Égypte",
+        "ville": "Garden Bay, Charm el-Cheikh",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/continental-plaza-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Garden Bay (Charm el-Cheikh), ce resort 5 étoiles propose un bon confort de 8,6 dans un cadre balnéaire prisé.",
+        "prix_moyen": "618€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très bien noté (8,4)",
+            "Confort de 8,6 à Garden Bay",
+            "Prestations 5 étoiles"
+        ],
+        "points_negatifs": [
+            "Infrastructures classiques"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Plage",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Marin, vaste et abordable",
+            "public": "Familles cherchant un 5 étoiles à prix doux en Mer Rouge",
+            "style": "Resort 5 étoiles",
+            "verdict": "Une option intéressante pour profiter de Charm el-Cheikh sans se ruiner."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 402 expériences vécues · Mise à jour : 2026"
+    },
+    "Sunrise Anjum Resort": {
+        "pays": "Égypte",
+        "ville": "Marsa Alam",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sunrise-anjum-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marsa Alam, ce resort 5 étoiles affiche un fabuleux confort de 9,5, un certificat de durabilité et une formule tout compris.",
+        "prix_moyen": "1 329€ / semaine",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Fabuleux (9,4)",
+            "Confort exceptionnel de 9,5 avec certificat de durabilité",
+            "Formule tout compris, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, écologique et tout compris",
+            "public": "Clientèle exigeante cherchant le plus haut standing à Marsa Alam",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une qualité de service remarquable (9,5/10) pour des vacances d'exception."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 712 expériences vécues · Mise à jour : 2026"
+    },
+    "Saray El Omda - Egyptian Rural Village": {
+        "pays": "Égypte",
+        "ville": "West Bank, Louxor",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/saray-el-omda-louxor.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé sur la rive ouest de Louxor, cet établissement de charme propose des appartements climatisés avec vue sur jardin et petit-déjeuner inclus.",
+        "prix_moyen": "716€ / semaine",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Fabuleux (9,4)",
+            "Confort exceptionnel de 9,4 dans un village rural authentique",
+            "Petit-déjeuner inclus et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Situé sur la rive ouest (nécessite une traversée pour le centre)"
+        ],
+        "equipements": [
+            "Appartement de charme",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel, authentique et paisible",
+            "public": "Amateurs d'histoire et de calme cherchant un séjour typique à Louxor",
+            "style": "Village rural / écolodge",
+            "verdict": "Une immersion culturelle fabuleuse loin des foules."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 227 expériences vécues · Mise à jour : 2026"
+    },
+    "Novotel Marsa Alam Beach Resort": {
+        "pays": "Égypte",
+        "ville": "Al-Qusair",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/novotel-marsa-alam.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Al-Qusair (Marsa Alam), le Novotel propose un certificat de durabilité, un confort de 9,0 et la demi-pension.",
+        "prix_moyen": "896€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort élevé de 9,0 avec certificat de durabilité",
+            "Standards internationaux Novotel, petit-déjeuner et dîner compris"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Demi-pension"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Moderne, balnéaire et soigné",
+            "public": "Voyageurs cherchant un hôtel 5 étoiles fiable et confortable à Al-Qusair",
+            "style": "Hôtel de luxe 5 étoiles",
+            "verdict": "Une valeur sûre reconnue pour sa qualité de service."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 472 expériences vécues · Mise à jour : 2026"
+    },
+    "Lotus Hotel - Golden Square": {
+        "pays": "Égypte",
+        "ville": "Nouveau Caire, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/lotus-hotel-golden-square-cairo.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le Nouveau Caire, ce nouvel hôtel propose un confort de 8,6 avec petit-déjeuner inclus, annulation gratuite et paiement sur place.",
+        "prix_moyen": "380€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort de 8,6 dans un quartier moderne du Caire",
+            "Petit-déjeuner inclus, paiement sur place sans prépaiement"
+        ],
+        "points_negatifs": [
+            "Quartier moderne décentré du vieux Caire"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Moderne, propre et pratique",
+            "public": "Voyageurs d'affaires ou touristes cherchant le calme du Nouveau Caire",
+            "style": "Hôtel urbain",
+            "verdict": "Une option moderne et fonctionnelle dans un quartier récent."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 165 expériences vécues · Mise à jour : 2026"
+    },
+    "GA Cairo Hotel Downtown": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/ga-cairo-hotel-downtown.fr.html?aid=818289",
+        "image": "",
+        "description": "Idéalement situé au centre-ville du Caire et proche du métro, cet hôtel propose un excellent confort de 8,9 avec petit-déjeuner inclus.",
+        "prix_moyen": "435€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Confort élevé de 8,9 en plein centre-ville",
+            "Proche du métro, petit-déjeuner inclus, paiement sur place"
+        ],
+        "points_negatifs": [
+            "Animation urbaine"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Proche métro",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central, urbain et pratique",
+            "public": "Voyageurs cherchant à explorer Le Caire facilement en transports",
+            "style": "Hôtel de ville",
+            "verdict": "Un pied-à-terre central très confortable pour visiter la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 87 expériences vécues · Mise à jour : 2026"
+    },
+    "Movenpick Resort Sharm El Sheikh": {
+        "pays": "Égypte",
+        "ville": "Baie de Neama, Charm el-Cheikh",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/movenpick-sharm-el-sheikh.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Baie de Neama à Charm el-Cheikh, ce resort 5 étoiles propose un fabuleux confort de 9,2 avec vue partielle sur la mer et petit-déjeuner inclus.",
+        "prix_moyen": "1 044€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,2 dans la Baie de Neama",
+            "Petit-déjeuner inclus, standards de luxe Mövenpick"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Petit-déjeuner inclus",
+            "Vue mer"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, animé et prestigieux",
+            "public": "Voyageurs cherchant l'excellence et l'emplacement numéro un à Naama Bay",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une adresse incontournable pour un séjour somptueux à Charm el-Cheikh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 577 expériences vécues · Mise à jour : 2026"
+    },
+    "SRNTY Sahl Hasheesh - Ex Serenity Sky Arc": {
+        "pays": "Égypte",
+        "ville": "Sahl Hasheesh, Hurghada",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/serenity-sky-arc.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sahl Hasheesh (Hurghada), cet établissement exceptionnel affiche une note de 9,7 avec un confort de 9,8 en formule tout compris.",
+        "prix_moyen": "1 597€ / semaine",
+        "avis": "9,7/10",
+        "points_positifs": [
+            "Exceptionnel (9,7 - l'une des meilleures notes)",
+            "Confort quasi parfait de 9,8",
+            "Formule tout compris, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Piscine / Spa"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Paradisiaque, somptueux et irréprochable",
+            "public": "Clientèle recherchant le summum absolu du luxe et du service en Mer Rouge",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une perfection hôtelière recommandée pour un séjour inoubliable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 615 expériences vécues · Mise à jour : 2026"
+    },
+    "Cardina Resort": {
+        "pays": "Égypte",
+        "ville": "Marsa Alam",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/cardina-resort-marsa-alam.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marsa Alam, le Cardina Resort propose un séjour en formule tout compris avec un bon confort et une annulation gratuite.",
+        "prix_moyen": "478€ / semaine",
+        "avis": "7,8/10",
+        "points_positifs": [
+            "Formule tout compris à prix très attractif",
+            "Confort de 8,1",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Prestations classiques"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Balnéaire et économique",
+            "public": "Petits budgets cherchant un resort tout compris au soleil à Marsa Alam",
+            "style": "Resort club 4 étoiles",
+            "verdict": "Une option économique pour profiter de la mer sans se ruiner."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 284 expériences vécues · Mise à jour : 2026"
+    },
+    "Golden-Cairo Hotel": {
+        "pays": "Égypte",
+        "ville": "Downtown Cairo, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/golden-cairo.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre-ville du Le Caire et proche du métro, cet hôtel affiche une note exceptionnelle de 9,5 avec un confort de 9,6 et petit-déjeuner inclus.",
+        "prix_moyen": "891€ / semaine",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Exceptionnel (9,5)",
+            "Confort remarquable de 9,6 en plein centre-ville",
+            "Proche du métro, petit-déjeuner inclus, paiement sur place"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés pour un 3 étoiles"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Proche métro",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Chic, central et irréprochable",
+            "public": "Voyageurs cherchant un confort de premier ordre en plein cœur du Caire",
+            "style": "Hôtel urbain haut de gamme",
+            "verdict": "Une qualité d'hébergement urbain exceptionnelle au centre de la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 17 expériences vécues · Mise à jour : 2026"
+    },
+    "Sharm Grand Plaza Resort - Families and Couples Only": {
+        "pays": "Égypte",
+        "ville": "Baie de Nabq, Charm el-Cheikh",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sharm-grand-plaza-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Baie de Nabq à Charm el-Cheikh et réservé aux familles et couples, ce resort 5 étoiles affiche un fabuleux confort de 9,3 en formule tout compris.",
+        "prix_moyen": "1 048€ / semaine",
+        "avis": "9,3/10",
+        "points_positifs": [
+            "Fabuleux (9,3)",
+            "Confort exceptionnel de 9,3",
+            "Réservé strictement aux familles et couples, formule tout compris, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Piscine / Plage"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, familial et sécurisant",
+            "public": "Familles et couples cherchant un grand club 5 étoiles tout compris en Mer Rouge",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une adresse fabuleuse et très bien notée pour des vacances sereines."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 984 expériences vécues · Mise à jour : 2026"
+    },
+    "True Beach Resort": {
+        "pays": "Égypte",
+        "ville": "Marsa Alam",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/true-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marsa Alam, le True Beach Resort propose un fabuleux confort de 9,4 avec vue latérale sur mer en formule tout compris.",
+        "prix_moyen": "1 060€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,4",
+            "Formule tout compris avec taxes et frais compris"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Vue mer",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, marin et tout compris",
+            "public": "Voyageurs cherchant un standing élevé au bord de la Mer Rouge à Marsa Alam",
+            "style": "Resort de plage 4 étoiles",
+            "verdict": "Une magnifique option tout compris avec un excellent niveau de confort."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 134 expériences vécues · Mise à jour : 2026"
+    },
+    "Giza Palace Pyramids View": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/giza-palace-pyramids-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose un très bon confort de 8,3 avec petit-déjeuner inclus et annulation gratuite.",
+        "prix_moyen": "258€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Confort de 8,3 à proximité des Pyramides",
+            "Petit-déjeuner inclus et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Infrastructures traditionnelles"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Pratique, culturel et abordable",
+            "public": "Voyageurs voulant loger face aux monuments avec un bon niveau de confort",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une bonne alternative pour un séjour touristique au pied des Pyramides."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 254 expériences vécues · Mise à jour : 2026"
+    },
+    "The Muse Pyramids Lodge": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/the-muse-pyramids-lodge.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), The Muse Pyramids Lodge propose des chambres deluxe climatisées avec un très grand lit double, petit-déjeuner inclus et paiement sur place.",
+        "prix_moyen": "172€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort élevé de 8,5 avec très grand lit double",
+            "Petit-déjeuner inclus, annulation gratuite étendue et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Style classique de lodge"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Chaleureux, confortable et économique",
+            "public": "Petits budgets cherchant un excellent rapport qualité-prix près des Pyramides",
+            "style": "Lodge touristique",
+            "verdict": "Un choix très économique et chaleureux au pied des sites historiques."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 427 expériences vécues · Mise à jour : 2026"
+    },
+    "Flower Pyramids Inn": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/flower-pyramids-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), le Flower Pyramids Inn propose un superbe confort de 8,9 avec petit-déjeuner inclus.",
+        "prix_moyen": "325€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort élevé de 8,9",
+            "Petit-déjeuner inclus et emplacement idéal"
+        ],
+        "points_negatifs": [
+            "Dernières chambres disponibles"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Chambre double / lits jumeaux"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Soigné, agréable et bien placé",
+            "public": "Voyageurs cherchant une adresse fiable et bien notée près de Gizeh",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une valeur sûre très appréciée pour sa proximité avec les Pyramides."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 441 expériences vécues · Mise à jour : 2026"
+    },
+    "Suzana Pyramids hotel": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/suzana-pyramids.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), le Suzana Pyramids hotel propose des chambres lits jumeaux climatisées avec annulation gratuite et paiement flexible sur place.",
+        "prix_moyen": "140€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort élevé de 8,9",
+            "Prix très bas, annulation gratuite étendue et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Prestations basiques"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Annulation gratuite",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Économique et pratique",
+            "public": "Petits budgets cherchant un hôtel correct au plus près de Gizeh",
+            "style": "Hôtel de ville",
+            "verdict": "Un plan très économique pour loger à deux pas des sites historiques."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 117 expériences vécues · Mise à jour : 2026"
+    },
+    "Lotus Tahrir Sq Hotel l Downtown Cairo": {
+        "pays": "Égypte",
+        "ville": "Downtown Cairo, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/lotus-tahrir-sq.fr.html?aid=818289",
+        "image": "",
+        "description": "Idéalement situé sur la place Tahrir au centre du Caire, cet hôtel propose un fabuleux confort de 9,3, le petit-déjeuner inclus et la proximité du métro.",
+        "prix_moyen": "346€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel de 9,3 en plein centre-ville (Place Tahrir)",
+            "Proche du métro, petit-déjeuner inclus, paiement sur place"
+        ],
+        "points_negatifs": [
+            "Animation urbaine constante"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Proche métro",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central, historique et très confortable",
+            "public": "Voyageurs voulant tout faire à pied ou en métro au cœur de la capitale",
+            "style": "Hôtel de ville",
+            "verdict": "Une adresse urbaine incontournable et extrêmement bien notée au centre du Caire."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 65 expériences vécues · Mise à jour : 2026"
+    },
+    "Grensha Pyramids inn": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/grensha-pyramids-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose des chambres lits jumeaux avec vue sur la montagne, un petit-déjeuner inclus et un paiement flexible sur place.",
+        "prix_moyen": "183€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort de 8,5 avec vue sur la montagne et les environs de Gizeh",
+            "Petit-déjeuner inclus, annulation gratuite étendue et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Structure traditionnelle simple"
+        ],
+        "equipements": [
+            "Vue montagne",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Pittoresque, économique et bien situé",
+            "public": "Voyageurs cherchant un panorama agréable et un tarif doux près des Pyramides",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option très charmante et abordable face au relief de Gizeh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 49 expériences vécues · Mise à jour : 2026"
+    },
+    "Nile View Inn": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/nile-view-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au Caire avec une vue imprenable sur le Nil, cet hôtel propose de grandes suites junior familiales, le petit-déjeuner inclus et un très bon confort.",
+        "prix_moyen": "363€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort élevé de 8,6 avec superbes vues sur le Nil",
+            "Suites familiales spacieuses, petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Dernière chambre disponible à ce tarif"
+        ],
+        "equipements": [
+            "Vue sur le Nil",
+            "Suite familiale",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Fluvial, familial et relaxant",
+            "public": "Familles cherchant à admirer le Nil depuis leur hôtel au Caire",
+            "style": "Hôtel de charme fluvial",
+            "verdict": "Une alternative agréable pour profiter du fleuve mythique sans loger dans un 5 étoiles de luxe."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 957 expériences vécues · Mise à jour : 2026"
+    },
+    "Rehana Pyramids Hotel": {
+        "pays": "Égypte",
+        "ville": "Giza, Giza",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/rehana-pyramids.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh, le Rehana Pyramids Hotel propose des chambres deluxe climatisées, un petit-déjeuner inclus et l'annulation gratuite.",
+        "prix_moyen": "188€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Confort de 8,2 à Gizeh",
+            "Petit-déjeuner inclus, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Infrastructures classiques"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Pratique et abordable",
+            "public": "Voyageurs cherchant un hôtel standard et bien équipé près des Pyramides",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Un choix fonctionnel et très bon marché pour visiter Gizeh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 368 expériences vécues · Mise à jour : 2026"
+    },
+    "Saloumy pyramids hotel": {
+        "pays": "Égypte",
+        "ville": "Giza, Nazlat as Sammān",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/saloumy-pyramids.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Nazlat as Sammān (Gizeh), cet établissement affiche une note exceptionnelle de 9,9 avec un confort parfait de 10 et un petit-déjeuner inclus.",
+        "prix_moyen": "321€ / semaine",
+        "avis": "9,9/10",
+        "points_positifs": [
+            "Exceptionnel (9,9 - l'une des meilleures notes absolues)",
+            "Confort parfait de 10",
+            "Petit-déjeuner inclus, annulation gratuite étendue et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Dernière chambre disponible à ce tarif"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Prestigieux, parfait et authentique",
+            "public": "Voyageurs cherchant la perfection absolue du service et de la vue au pied des Pyramides",
+            "style": "Hôtel de charme",
+            "verdict": "Une note unanime (9,9/10) qui garantit une expérience inoubliable face aux merveilles de Gizeh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 18 expériences vécues · Mise à jour : 2026"
+    },
+    "Helnan Mamoura Hotel & Events Center": {
+        "pays": "Égypte",
+        "ville": "Al Mamurah, Alexandrie",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/helnan-mamoura.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Al Mamurah (Alexandrie), cet hôtel affiche un fabuleux confort de 9,4 avec vue sur piscine et petit-déjeuner inclus.",
+        "prix_moyen": "693€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,4 avec vue sur piscine",
+            "Petit-déjeuner inclus, annulation gratuite et taxes comprises"
+        ],
+        "points_negatifs": [
+            "Réservé aux ressortissants égyptiens (selon mention de l'offre)"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Chic, balnéaire et soigné",
+            "public": "Voyageurs cherchant un standing de premier ordre à Alexandrie",
+            "style": "Hôtel de tourisme 4 étoiles",
+            "verdict": "Une adresse prestigieuse et très bien notée sur la côte d'Alexandrie."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 539 expériences vécues · Mise à jour : 2026"
+    },
+    "Roone pyramids view inn": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/roone-pyramids-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose un très bon confort de 8,3 avec un grand lit double, petit-déjeuner inclus et paiement sur place.",
+        "prix_moyen": "224€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort de 8,3 près des Pyramides",
+            "Petit-déjeuner inclus, annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Prestations simples"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Pratique et économique",
+            "public": "Voyageurs cherchant un point de chute correct et proche des sites de Gizeh",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un choix fonctionnel et abordable au pied des monuments."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 196 expériences vécues · Mise à jour : 2026"
+    },
+    "Garden El Tahrir Downtown Hotel": {
+        "pays": "Égypte",
+        "ville": "Downtown Cairo, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/garden-el-tahrir-downtown.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre-ville du Caire et proche du métro, cet hôtel récent propose un confort de 8,3 avec balcon, petit-déjeuner inclus et paiement sur place.",
+        "prix_moyen": "465€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Confort de 8,3 au centre de la capitale",
+            "Proche du métro, chambres avec balcon",
+            "Petit-déjeuner inclus, annulation gratuite étendue et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Nouvel établissement avec peu d'historique global"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Proche métro",
+            "Balcon",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central, moderne et pratique",
+            "public": "Voyageurs voulant loger au cœur du Caire avec un accès facile au métro",
+            "style": "Hôtel de ville",
+            "verdict": "Une option moderne très bien située pour explorer le centre."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 102 expériences vécues · Mise à jour : 2026"
+    },
+    "Concorde Moreen Beach Resort": {
+        "pays": "Égypte",
+        "ville": "Abu Dabab, Marsa Alam",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/concorde-moreen-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Abu Dabab (Marsa Alam), ce resort 5 étoiles propose un certificat de durabilité, un fabuleux confort de 9,1 en front de mer avec formule tout compris.",
+        "prix_moyen": "1 177€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,1 en front de mer à Abu Dabab",
+            "Certificat de durabilité, formule tout compris et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Tout compris",
+            "Front de mer"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, marin et écologique",
+            "public": "Amateurs de plongée et de complexes 5 étoiles haut de gamme en Mer Rouge",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une adresse somptueuse pour profiter des plus beaux fonds marins de Marsa Alam."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 154 expériences vécues · Mise à jour : 2026"
+    },
+    "The Kaktus Somabay": {
+        "pays": "Égypte",
+        "ville": "Soma Bay, Hurghada",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/the-kaktus-somabay.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Soma Bay (Hurghada), cet hôtel propose un superbe confort de 9,3 avec vue sur les montagnes et petit-déjeuner inclus.",
+        "prix_moyen": "629€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort exceptionnel de 9,3 à Soma Bay",
+            "Vue sur montagnes, petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Formule tout compris non incluse dans cette offre"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Vue montagne"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Marin, calme et soigné",
+            "public": "Voyageurs cherchant un cadre reposant et de grande qualité à Soma Bay",
+            "style": "Hôtel resort 4 étoiles",
+            "verdict": "Une excellente alternative pour séjourner dans la magnifique baie de Soma."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 273 expériences vécues · Mise à jour : 2026"
+    },
+    "Tolip Resort El Galala Hills": {
+        "pays": "Égypte",
+        "ville": "Ain Sokhna",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/tolip-resort-el-galala-hills.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Ain Sokhna, ce resort propose un bon confort de 8,1 avec des formules en demi-pension.",
+        "prix_moyen": "720€ / semaine",
+        "avis": "7,6/10",
+        "points_positifs": [
+            "Confort de 8,1",
+            "Petit-déjeuner et dîner compris",
+            "Tarif attractif avec taxes et frais inclus"
+        ],
+        "points_negatifs": [
+            "Note globale un peu en retrait (7,6)",
+            "Certaines offres peuvent être restreintes aux résidents"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Demi-pension",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire et abordable",
+            "public": "Voyageurs cherchant un resort en demi-pension sur la côte d'Ain Sokhna",
+            "style": "Resort balnéaire",
+            "verdict": "Un complexe abordable pour profiter de la mer avec les repas inclus."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 404 expériences vécues · Mise à jour : 2026"
+    },
+    "Sentido Naga Bay - adults friendly": {
+        "pays": "Égypte",
+        "ville": "Soma Bay, Hurghada",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sentido-naga-bay.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Soma Bay (Hurghada), ce luxueux resort orienté pour les adultes affiche un fabuleux confort de 9,6, un certificat de durabilité et une formule tout compris.",
+        "prix_moyen": "1 675€ / semaine",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Fabuleux (9,2)",
+            "Confort exceptionnel de 9,6",
+            "Certificat de durabilité, tout compris et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Certificat de durabilité"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, paisible et éco-responsable",
+            "public": "Couples et adultes cherchant calme, luxe et standing élevé à Soma Bay",
+            "style": "Resort 5 étoiles (Adults friendly)",
+            "verdict": "Une adresse exceptionnelle pour une retraite balnéaire prestigieuse et tranquille."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 231 expériences vécues · Mise à jour : 2026"
+    },
+    "Shellghada Blue Beach": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/shellghada-blue-beach.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hurghada, cet hôtel offre un très bon confort de 8,3 avec des vues sur la montagne, petit-déjeuner inclus et un paiement flexible sur place.",
+        "prix_moyen": "417€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Confort de 8,3 à prix doux",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite étendue et paiement sur place sans prépaiement"
+        ],
+        "points_negatifs": [
+            "Prestations plus standardisées"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Économique et pratique",
+            "public": "Voyageurs à petit budget cherchant un hôtel balnéaire fonctionnel à Hurghada",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une solution très économique et flexible pour un séjour au soleil."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 188 expériences vécues · Mise à jour : 2026"
+    },
+    "Elysees Dream Beach Hotel-By AMARINA Hotels & Resorts": {
+        "pays": "Égypte",
+        "ville": "Al Mamsha El Seyahi, Hurghada",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/elysees-dream-beach.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé sur la promenade animée d'Hurghada, cet établissement propose un confort de 8,5 avec formule demi-pension et annulation gratuite.",
+        "prix_moyen": "397€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Très bien noté (8,0)",
+            "Confort de 8,5 dans un quartier prisé",
+            "Petit-déjeuner et dîner compris à un tarif très compétitif, paiement sur place"
+        ],
+        "points_negatifs": [
+            "Zone animée pouvant être bruyante"
+        ],
+        "equipements": [
+            "Demi-pension",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Animé, balnéaire et abordable",
+            "public": "Voyageurs cherchant un bon rapport qualité-prix en demi-pension à Hurghada",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Une très belle affaire (demi-pension) extrêmement bien située."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 219 expériences vécues · Mise à jour : 2026"
+    },
+    "Baron Resort Sharm El Sheikh": {
+        "pays": "Égypte",
+        "ville": "Charm el-Cheikh",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/baron-resort-sharm-el-sheikh.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Charm el-Cheikh, ce prestigieux resort 5 étoiles affiche un superbe confort de 9,1, un engagement durable et propose la demi-pension.",
+        "prix_moyen": "1 525€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort exceptionnel de 9,1",
+            "Certificat de durabilité, petit-déjeuner et dîner compris, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Demi-pension"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, écologique et élégant",
+            "public": "Clientèle exigeante recherchant le grand standing traditionnel de Charm el-Cheikh",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une institution de renommée avec des services de très haute volée."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 461 expériences vécues · Mise à jour : 2026"
+    },
+    "Grand Museum Pyramids": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/grand-museum-pyramids.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh, cet hôtel bien noté propose des chambres confortables (8,7), l'annulation gratuite étendue et le paiement flexible sur place.",
+        "prix_moyen": "259€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort solide de 8,7 à proximité du futur Grand Musée",
+            "Annulation gratuite et aucun prépaiement requis"
+        ],
+        "points_negatifs": [
+            "Prestations classiques sans repas inclus par défaut"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Annulation gratuite",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Pratique et culturel",
+            "public": "Voyageurs cherchant un point de chute très bien placé pour visiter le nouveau musée et les pyramides",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un choix stratégique, abordable et confortable pour un séjour culturel."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 93 expériences vécues · Mise à jour : 2026"
+    },
+    "Sunrise Alma Bay Resort": {
+        "pays": "Égypte",
+        "ville": "Villages Road, Hurghada",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sunrise-alma-bay-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé sur la route des villages à Hurghada, ce resort 5 étoiles propose un certificat de durabilité, un fabuleux confort de 9,4 et une formule tout compris.",
+        "prix_moyen": "1 094€ / semaine",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Fabuleux (9,2)",
+            "Confort exceptionnel de 9,4 avec certificat de durabilité",
+            "Formule tout compris avec taxes et frais compris, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, éco-responsable et tout compris",
+            "public": "Familles et voyageurs cherchant un standing de premier ordre à Hurghada",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une adresse fabuleuse et très bien notée en bord de Mer Rouge."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 243 expériences vécues · Mise à jour : 2026"
+    },
+    "Three Corners Equinox Beach Resort": {
+        "pays": "Égypte",
+        "ville": "Abu Dabab, Marsa Alam",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/three-corners-equinox-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Abu Dabab (Marsa Alam), ce resort propose un très bon confort de 8,9 en formule tout compris avec paiement sur place.",
+        "prix_moyen": "776€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort élevé de 8,9 avec vue sur jardin",
+            "Formule tout compris, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Infrastructures classiques"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Paiement sur place",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Marin, détendu et tout compris",
+            "public": "Amateurs de snorkeling et de nature préservée à Marsa Alam",
+            "style": "Resort de plage 4 étoiles",
+            "verdict": "Une excellente option flexible et confortable pour profiter des fonds marins."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 185 expériences vécues · Mise à jour : 2026"
+    },
+    "Sunrise Crystal Bay Resort -Grand Select": {
+        "pays": "Égypte",
+        "ville": "Villages Road, Hurghada",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sunrise-crystal-bay-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé sur la route des villages à Hurghada, ce resort 5 étoiles Grand Select affiche un fabuleux confort de 9,5 en formule tout compris.",
+        "prix_moyen": "1 484€ / semaine",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Fabuleux (9,4)",
+            "Confort exceptionnel de 9,5",
+            "Formule tout compris de luxe, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Piscine / Spa"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, prestigieux et tout compris",
+            "public": "Clientèle exigeante cherchant le meilleur standing hôtelier à Hurghada",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une qualité de service remarquable (9,4/10) pour un séjour d'exception."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 235 expériences vécues · Mise à jour : 2026"
+    },
+    "Matarma Beach Residence": {
+        "pays": "Égypte",
+        "ville": "Ras Sudr",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/matarma-beach-residence.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Ras Sudr, cet établissement propose de grands studios de 50 m² avec une formule demi-pension (petit-déjeuner et dîner compris).",
+        "prix_moyen": "1 021€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Confort de 8,7 avec studios spacieux de 50 m²",
+            "Demi-pension incluse, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs variables"
+        ],
+        "equipements": [
+            "Demi-pension",
+            "Studio",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Marin, spacieux et calme",
+            "public": "Amateurs de sports nautiques et de tranquillité à Ras Sudr",
+            "style": "Résidence hôtelière",
+            "verdict": "Une alternative spacieuse et confortable pour un séjour balnéaire axé sur la détente."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 153 expériences vécues · Mise à jour : 2026"
+    },
+    "Sol Pyramids Rooftop View Giza": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sol-pyramids-rooftop.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose des chambres lits jumeaux deluxe, un petit-déjeuner inclus et une vue panoramique depuis le toit.",
+        "prix_moyen": "198€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Confort solide de 8,4 avec vue imprenable",
+            "Petit-déjeuner inclus et tarif très attractif"
+        ],
+        "points_negatifs": [
+            "Dernière chambre disponible à ce tarif"
+        ],
+        "equipements": [
+            "Rooftop",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Panoramique, culturel et économique",
+            "public": "Voyageurs cherchant une belle vue sur les Pyramides à petit prix",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un super plan économique pour admirer les monuments depuis la terrasse."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 79 expériences vécues · Mise à jour : 2026"
+    },
+    "Villa 14 Suites": {
+        "pays": "Égypte",
+        "ville": "Ville du 6 Octobre",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/villa-14-suites.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Ville du 6 Octobre (région du Caire), cet établissement propose un fabuleux confort de 9,1 avec vue sur jardin et petit-déjeuner inclus.",
+        "prix_moyen": "388€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,1 avec vue sur jardin",
+            "Petit-déjeuner inclus, annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Situation en banlieue résidentielle (Ville du 6 Octobre)"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Calme, résidentiel et raffiné",
+            "public": "Voyageurs cherchant une ambiance paisible et un grand confort hors du tumulte du centre-ville",
+            "style": "Boutique-hôtel / Suites",
+            "verdict": "Une adresse très haut de gamme et reposante dans l'agglomération cairote."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 079 expériences vécues · Mise à jour : 2026"
+    },
+    "Wadi Lahmy Azur Resort - Soft All-Inclusive": {
+        "pays": "Égypte",
+        "ville": "Râs Banâs",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/wadi-lahmy-azur-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la région isolée et préservée de Râs Banâs (sud de la Mer Rouge), ce resort propose une formule soft tout compris avec un confort de 9,3.",
+        "prix_moyen": "484€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,3 avec vue latérale sur mer",
+            "Formule soft tout compris à prix très doux"
+        ],
+        "points_negatifs": [
+            "Isolement géographique prononcé"
+        ],
+        "equipements": [
+            "Soft All-Inclusive",
+            "Plage",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Sauvage, marin et paisible",
+            "public": "Plongeurs et amoureux de nature sauvage cherchant un resort isolé et abordable",
+            "style": "Resort club 4 étoiles",
+            "verdict": "Un paradis pour les plongeurs loin de tout, avec un excellent rapport qualité-prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 793 expériences vécues · Mise à jour : 2026"
+    },
+    "Steigenberger Alcazar": {
+        "pays": "Égypte",
+        "ville": "Baie de Nabq, Charm el-Cheikh",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/steigenberger-alcazar.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la magnifique baie de Nabq à Charm el-Cheikh, ce prestigieux complexe 5 étoiles offre un niveau d'exception avec un confort de 9,7 en formule tout compris.",
+        "prix_moyen": "1 776€ / semaine",
+        "avis": "9,6/10",
+        "points_positifs": [
+            "Exceptionnel (9,6)",
+            "Confort inégalé de 9,7",
+            "Formule tout compris de grand luxe, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Budget élevé"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Piscines / Spa",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Somptueux, haut de gamme et tout compris",
+            "public": "Familles et voyageurs exigeants cherchant l'un des meilleurs resorts de Charm el-Cheikh",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une prestation hors norme (9,6/10) pour des vacances d'exception au bord de la Mer Rouge."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 4 177 expériences vécues · Mise à jour : 2026"
+    },
+    "Sataya Resort Marsa Alam": {
+        "pays": "Égypte",
+        "ville": "Marsa Alam",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sataya-resort-marsa-alam.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marsa Alam, ce resort propose des chambres premium avec vue sur piscine en formule tout compris et un niveau de confort très élevé de 9,2.",
+        "prix_moyen": "908€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort élevé de 9,2 avec vue sur piscine",
+            "Formule tout compris, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarif intermédiaire"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire, moderne et relaxant",
+            "public": "Voyageurs cherchant un resort tout compris d'un très bon standing à Marsa Alam",
+            "style": "Resort 5 étoiles",
+            "verdict": "Un excellent rapport qualité-prix pour profiter du soleil et des infrastructures de Marsa Alam."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 820 expériences vécues · Mise à jour : 2026"
+    },
+    "Sentido Akassia Beach Resort": {
+        "pays": "Égypte",
+        "ville": "Al-Qusair",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sentido-akassia-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le secteur paisible d'Al-Qusair, ce resort 5 étoiles propose un confort de 8,9 en formule tout compris avec chambres supérieures vue piscine.",
+        "prix_moyen": "1 175€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort solide de 8,9 dans un cadre préservé",
+            "Formule tout compris"
+        ],
+        "points_negatifs": [
+            "Nécessite souvent une réservation anticipée"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Piscine",
+            "Plage"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Balnéaire, convivial et haut de gamme",
+            "public": "Vacanciers et plongeurs voulant un grand resort au calme vers Al-Qusair",
+            "style": "Resort 5 étoiles",
+            "verdict": "Un complexe magnifique et paisible pour déconnecter totalement au bord de l'eau."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 25 expériences vécues · Mise à jour : 2026"
+    },
+    "Sharm El Naga Resort and Diving Center": {
+        "pays": "Égypte",
+        "ville": "Soma Bay, Hurghada",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sharm-el-naga-resort-and-diving-center.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la baie de Soma Bay près d'Hurghada, ce resort axé sur la plongée propose une formule en pension complète (tous les repas compris) à un prix extrêmement avantageux.",
+        "prix_moyen": "498€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort de 8,8 dans une baie réputée pour la plongée",
+            "Pension complète (tous repas compris), aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Cadre principalement orienté autour des activités nautiques"
+        ],
+        "equipements": [
+            "Pension complète",
+            "Centre de plongée",
+            "Annulation gratuite",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🛟 Plongée, nature et pension complète",
+            "public": "Passionnés de plongée et de récifs coralliens recherchant une expérience immersive et abordable",
+            "style": "Resort & Club de plongée",
+            "verdict": "Le choix rêvé pour les amateurs de fonds marins : récif direct, pension complète et tarif imbattable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 330 expériences vécues · Mise à jour : 2026"
+    },
+    "Pyramids Gate Hotel": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pyramids-gate.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel très populaire propose un bon confort de 8,9, l'annulation gratuite étendue et le paiement flexible sur place.",
+        "prix_moyen": "226€ / semaine",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Fabuleux (9,2)",
+            "Confort de 8,9 à proximité immédiate des Pyramides",
+            "Annulation gratuite étendue, aucun prépaiement requis"
+        ],
+        "points_negatifs": [
+            "Repas non systématiquement inclus dans les tarifs de base"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Annulation gratuite",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel, fonctionnel et abordable",
+            "public": "Voyageurs cherchant un hôtel moderne et très bien noté au plus près des monuments de Gizeh",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une adresse incontournable bénéficiant d'un taux de satisfaction remarquable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 727 expériences vécues · Mise à jour : 2026"
+    },
+    "Fantazia Resort Marsa Alam": {
+        "pays": "Égypte",
+        "ville": "Marsa Alam",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/fantazia-resort-marsa-alam.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marsa Alam, ce resort 5 étoiles propose un superbe confort de 9,0 avec vue sur mer en formule tout compris, annulation gratuite et paiement sur place.",
+        "prix_moyen": "1 104€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort élevé de 9,0 avec vue sur mer",
+            "Formule tout compris, annulation gratuite et paiement sur place sans prépaiement"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Vue mer",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, marin et tout compris",
+            "public": "Voyageurs cherchant un cadre idyllique au bord de la Mer Rouge à Marsa Alam",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une magnifique option tout compris avec une flexibilité totale de paiement."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 195 expériences vécues · Mise à jour : 2026"
+    },
+    "Sentido Reef Oasis Suakin Resort": {
+        "pays": "Égypte",
+        "ville": "Marsa Alam",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sentido-reef-oasis-suakin.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marsa Alam, ce resort 5 étoiles affiche un fabuleux confort de 9,5 en formule tout compris avec des chambres deluxe spacieuses.",
+        "prix_moyen": "1 158€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel de 9,5",
+            "Formule tout compris de haute qualité"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Piscine / Spa"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Prestigieux, moderne et tout compris",
+            "public": "Clientèle exigeante cherchant le très haut standing hôtelier à Marsa Alam",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une qualité d'hébergement remarquable (9,5/10) pour un séjour inoubliable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 781 expériences vécues · Mise à jour : 2026"
+    },
+    "Al Dora Boutique Hotel": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/al-dora-boutique.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hurghada, l'Al Dora Boutique Hotel propose des chambres deluxe doubles en formule tout compris à un tarif très économique.",
+        "prix_moyen": "259€ / semaine",
+        "avis": "7,5/10",
+        "points_positifs": [
+            "Formule tout compris à prix très bas",
+            "Annulation gratuite",
+            "Chambres deluxe climatisées"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Économique et tout compris",
+            "public": "Petits budgets cherchant un séjour balnéaire sans se soucier des repas à Hurghada",
+            "style": "Boutique-hôtel de tourisme",
+            "verdict": "Une alternative très bon marché pour un tout compris."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 86 expériences vécues · Mise à jour : 2026"
+    },
+    "Steigenberger Aqua Magic, All inclusive": {
+        "pays": "Égypte",
+        "ville": "Al Mamsha El Seyahi, Hurghada",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/steigenberger-aqua-magic.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé sur la promenade d'Al Mamsha à Hurghada, ce resort 5 étoiles de renom dispose d'un certificat de durabilité, d'un confort de 9,3 et d'une formule tout compris.",
+        "prix_moyen": "1 247€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel de 9,3 avec certificat de durabilité",
+            "Standards de la prestigieuse chaîne Steigenberger en tout compris"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Tout compris",
+            "Parc aquatique"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, ludique et éco-responsable",
+            "public": "Familles et voyageurs cherchant le meilleur standing 5 étoiles avec parc aquatique à Hurghada",
+            "style": "Resort de luxe 5 étoiles avec aquapark",
+            "verdict": "Une référence incontournable de la Mer Rouge pour un séjour fabuleux."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 599 expériences vécues · Mise à jour : 2026"
+    },
+    "Eagles Pyramids View": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/eagles-pyramids-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose un très bon confort de 8,9 avec petit-déjeuner inclus, annulation gratuite étendue et paiement sur place.",
+        "prix_moyen": "145€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort solide de 8,9 à proximité des Pyramides",
+            "Petit-déjeuner inclus, annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Infrastructures classiques"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel, pratique et très économique",
+            "public": "Voyageurs cherchant un hébergement de qualité à petit prix au pied des monuments",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un excellent rapport qualité-prix (9,0/10) pour visiter Gizeh sans se ruiner."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 373 expériences vécues · Mise à jour : 2026"
+    },
+    "Reef Oasis Blue Bay Resort & Spa": {
+        "pays": "Égypte",
+        "ville": "Garden Bay, Charm el-Cheikh",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/reef-oasis-blue-bay-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Garden Bay (Charm el-Cheikh), ce resort 5 étoiles propose un fabuleux confort de 9,2 avec vue sur jardin en formule tout compris et annulation gratuite.",
+        "prix_moyen": "1 390€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel de 9,2 à Garden Bay",
+            "Formule tout compris de luxe, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Spa",
+            "Plage"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, marin et relaxant",
+            "public": "Voyageurs cherchant un grand resort 5 étoiles avec spa et récifs coralliens à Charm el-Cheikh",
+            "style": "Resort de luxe 5 étoiles avec spa",
+            "verdict": "Une magnifique adresse pour s'offrir un séjour tout compris haut de gamme."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 271 expériences vécues · Mise à jour : 2026"
+    },
+    "Pickalbatros Blu Spa Resort - Adults Friendly 16 Years Plus- Ultra All-Inclusive": {
+        "pays": "Égypte",
+        "ville": "Al Mamsha El Seyahi, Hurghada",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pickalbatros-blu-spa-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Al Mamsha (Hurghada) et réservé aux adultes (16+), ce resort 5 étoiles exceptionnel affiche un confort quasi parfait de 9,8 en formule ultra tout compris.",
+        "prix_moyen": "1 633€ / semaine",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Exceptionnel (9,5)",
+            "Confort remarquable de 9,8 (adultes 16 ans et plus)",
+            "Formule ultra tout compris de la prestigieuse chaîne Pickalbatros, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Adults Friendly (16+)",
+            "Ultra Tout Compris",
+            "Spa de luxe"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Somptueux, adulte et relaxant",
+            "public": "Couples et adultes cherchant un standing de classe mondiale axé sur le bien-être et le calme",
+            "style": "Resort de luxe adults friendly",
+            "verdict": "Le summum du raffinement et de la détente en Mer Rouge (confort 9,8/10)."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 804 expériences vécues · Mise à jour : 2026"
+    },
+    "Al Dora Resort Hurghada": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/al-dora-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hurghada, l'Al Dora Resort propose des chambres doubles standard en formule tout compris à un tarif extrêmement compétitif.",
+        "prix_moyen": "253€ / semaine",
+        "avis": "7,6/10",
+        "points_positifs": [
+            "Formule tout compris à prix imbattable",
+            "Annulation gratuite",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Économique et tout compris",
+            "public": "Petits budgets cherchant un séjour balnéaire tout compris au meilleur prix à Hurghada",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option ultra-économique pour des vacances sous le soleil égyptien."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 313 expériences vécues · Mise à jour : 2026"
+    },
+    "The Grand Hotel Sharm El Sheikh": {
+        "pays": "Égypte",
+        "ville": "El Hadaba, Charm el-Cheikh",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/the-grand-hotel-sharm-el-sheikh.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à El Hadaba (Charm el-Cheikh), The Grand Hotel propose un superbe confort de 8,9 avec vue sur jardin en formule tout compris.",
+        "prix_moyen": "884€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort élevé de 8,9",
+            "Formule tout compris avec taxes et frais compris"
+        ],
+        "points_negatifs": [
+            "Tarifs variables en haute saison"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Balnéaire, vaste et tout compris",
+            "public": "Familles et voyageurs cherchant un grand hôtel 5 étoiles bien établi à Charm el-Cheikh",
+            "style": "Resort 5 étoiles",
+            "verdict": "Une valeur sûre très appréciée pour un séjour tout compris en Mer Rouge."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 788 expériences vécues · Mise à jour : 2026"
+    },
+    "Sentido Caribbean World Soma Bay": {
+        "pays": "Égypte",
+        "ville": "Soma Bay, Hurghada",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sentido-caribbean-world-soma-bay.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Soma Bay (Hurghada), cet hôtel 5 étoiles affiche un superbe confort de 9,1 en formule tout compris avec paiement flexible sur place.",
+        "prix_moyen": "1 005€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort exceptionnel de 9,1",
+            "Formule tout compris, annulation gratuite et paiement sur place sans prépaiement"
+        ],
+        "points_negatifs": [
+            "Dernières chambres disponibles"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, marin et tout compris",
+            "public": "Voyageurs cherchant le standing de Soma Bay avec une flexibilité de paiement",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une magnifique adresse pour profiter de l'une des plus belles baies d'Égypte."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 800 expériences vécues · Mise à jour : 2026"
+    },
+    "Villa Nile House Luxor": {
+        "pays": "Égypte",
+        "ville": "West Bank, Louxor",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/villa-nile-house-luxor.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé sur la rive ouest de Louxor, cet établissement fabuleux propose des chambres spacieuses, le petit-déjeuner inclus et un paiement sur place.",
+        "prix_moyen": "299€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort élevé de 8,7 au bord du Nil",
+            "Petit-déjeuner inclus, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Situé sur la rive ouest (nécessite une traversée)"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Fluvial, authentique et reposant",
+            "public": "Amateurs d'histoire et de calme cherchant un charme intime à Louxor",
+            "style": "Maison d'hôtes / Lodge de charme",
+            "verdict": "Une superbe adresse chaleureuse pour découvrir les trésors de Louxor."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 213 expériences vécues · Mise à jour : 2026"
+    },
+    "Sunrise Remal Resort": {
+        "pays": "Égypte",
+        "ville": "Charm el-Cheikh",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sunrise-remal-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Charm el-Cheikh, ce resort propose un certificat de durabilité, un confort exceptionnel de 9,5 en formule tout compris avec paiement sur place.",
+        "prix_moyen": "972€ / semaine",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Exceptionnel (9,5)",
+            "Confort exceptionnel de 9,5 avec certificat de durabilité",
+            "Formule tout compris, annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Certificat de durabilité",
+            "Tout compris",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, éco-responsable et tout compris",
+            "public": "Voyageurs cherchant un standing irréprochable et un service de haute qualité à Charm el-Cheikh",
+            "style": "Resort club 4 étoiles",
+            "verdict": "Une adresse fabuleuse notée 9,5/10 pour des vacances parfaites en Mer Rouge."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 207 expériences vécues · Mise à jour : 2026"
+    },
+    "Indiana Hotel": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/indiana-cairo.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au Caire, l'Indiana Hotel propose des chambres climatisées avec petit-déjeuner inclus, annulation gratuite étendue et paiement sur place.",
+        "prix_moyen": "279€ / semaine",
+        "avis": "5,5/10",
+        "points_positifs": [
+            "Emplacement pratique au Caire",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite étendue et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Simple et urbain",
+            "public": "Petits budgets cherchant un hôtel central abordable au Caire",
+            "style": "Hôtel de ville",
+            "verdict": "Une option fonctionnelle pour un séjour économique dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 384 expériences vécues · Mise à jour : 2026"
+    },
+    "Xperience Kiroseiz AquaPark Premier-Naama Bay": {
+        "pays": "Égypte",
+        "ville": "Baie de Neama, Charm el-Cheikh",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/xperience-kiroseiz-aquapark.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Baie de Neama à Charm el-Cheikh, ce resort 5 étoiles propose un parc aquatique, un confort de 9,1 avec petit-déjeuner inclus et paiement sur place.",
+        "prix_moyen": "693€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort élevé de 9,1 avec parc aquatique",
+            "Petit-déjeuner inclus, annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Formule tout compris non incluse dans cette offre de base"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Parc aquatique",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🎢 Ludique, familial et animé",
+            "public": "Familles cherchant des toboggans et un grand complexe près de Naama Bay",
+            "style": "Resort 5 étoiles avec aquapark",
+            "verdict": "Un excellent choix pour s'amuser en famille à Charm el-Cheikh à prix modéré."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 802 expériences vécues · Mise à jour : 2026"
+    },
+    "Pickalbatros Villaggio Aqua Park - Portofino Marsa Alam": {
+        "pays": "Égypte",
+        "ville": "Marsa Alam",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pickalbatros-villaggio-aqua-park.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marsa Alam, ce resort 5 étoiles exceptionnel affiche un confort quasi parfait de 9,9, un certificat de durabilité et une formule tout compris.",
+        "prix_moyen": "1 103€ / semaine",
+        "avis": "9,8/10",
+        "points_positifs": [
+            "Exceptionnel (9,8)",
+            "Confort exceptionnel de 9,9 avec parc aquatique",
+            "Certificat de durabilité, tout compris et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Parc aquatique",
+            "Certificat de durabilité",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, ludique et exceptionnel",
+            "public": "Familles et voyageurs cherchant le summum du confort et des loisirs aquatiques à Marsa Alam",
+            "style": "Resort de luxe 5 étoiles avec aquapark",
+            "verdict": "Une note et un niveau de confort (9,9/10) qui garantissent des vacances idylliques."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 912 expériences vécues · Mise à jour : 2026"
+    },
+    "Panorama Ramsis Hotel & Cafe": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/panorama-ramsis-hotel-cafe.fr.html?aid=818289",
+        "image": "",
+        "description": "Idéalement situé au Caire à proximité du métro, ce très bon hôtel propose des chambres deluxe, le petit-déjeuner inclus et un tarif très accessible.",
+        "prix_moyen": "232€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Très bien noté (8,0)",
+            "Confort de 8,3 au centre de la capitale",
+            "Proche du métro, petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Animation urbaine"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Proche métro",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central, pratique et urbain",
+            "public": "Voyageurs cherchant un point de chute bien desservi pour visiter Le Caire",
+            "style": "Hôtel de ville",
+            "verdict": "Une option fiable et économique au cœur de la ville."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 475 expériences vécues · Mise à jour : 2026"
+    },
+    "Royal Brayka Beach Resort": {
+        "pays": "Égypte",
+        "ville": "Marsa Alam",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/royal-brayka-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marsa Alam, ce resort 5 étoiles propose un superbe confort de 8,9 en formule tout compris avec annulation gratuite étendue.",
+        "prix_moyen": "1 095€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort élevé de 8,9 en bord de mer",
+            "Formule tout compris, annulation gratuite étendue"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Plage",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Balnéaire, vaste et tout compris",
+            "public": "Familles et amateurs de farniente cherchant un grand 5 étoiles à Marsa Alam",
+            "style": "Resort 5 étoiles",
+            "verdict": "Une excellente alternative pour profiter des plages de la Mer Rouge."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 98 expériences vécues · Mise à jour : 2026"
+    },
+    "Pyramids Glory Inn": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pyramids-glory-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose un fabuleux confort de 9,2 avec vue sur jardin, petit-déjeuner inclus et paiement sur place.",
+        "prix_moyen": "227€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,2",
+            "Petit-déjeuner inclus, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Infrastructures traditionnelles"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel, confortable et économique",
+            "public": "Voyageurs cherchant une très bonne qualité d'hébergement au pied des Pyramides",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un rapport qualité-prix remarquable (confort 9,2/10) pour visiter Gizeh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 363 expériences vécues · Mise à jour : 2026"
+    },
+    "Golden mask pyramids inn": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/golden-mask-pyramids-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose de superbes chambres avec très grand lit double et vue sur la montagne, petit-déjeuner inclus et paiement sur place.",
+        "prix_moyen": "468€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort de 8,6 avec très grand lit double",
+            "Petit-déjeuner inclus, paiement sur place sans prépaiement"
+        ],
+        "points_negatifs": [
+            "Style classique"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Pittoresque et pratique",
+            "public": "Voyageurs voulant loger près des monuments avec de bonnes prestations",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un choix solide et bien noté pour un séjour touristique."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 131 expériences vécues · Mise à jour : 2026"
+    },
+    "The location Hotel": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/the-location.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au Caire et proche du métro, cet hôtel propose des chambres lits jumeaux spacieuses avec vue sur la ville et petit-déjeuner inclus.",
+        "prix_moyen": "132€ / semaine",
+        "avis": "7,2/10",
+        "points_positifs": [
+            "Emplacement central proche du métro",
+            "Petit-déjeuner inclus",
+            "Tarif très économique, annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Notes clients modestes"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Proche métro",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Urbain et ultra-économique",
+            "public": "Petits budgets cherchant un point de chute central et bien desservi",
+            "style": "Hôtel de ville simple",
+            "verdict": "Une option de secours très bon marché pour visiter la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 141 expériences vécues · Mise à jour : 2026"
+    },
+    "Miramar Green Hotel I Talaat Harb I museum": {
+        "pays": "Égypte",
+        "ville": "Downtown Cairo, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/miramar-green-talaat-harb.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre-ville du Caire près du musée et du métro, cet hôtel propose un séjour avec petit-déjeuner inclus et annulation gratuite.",
+        "prix_moyen": "167€ / semaine",
+        "avis": "7,4/10",
+        "points_positifs": [
+            "Emplacement central exceptionnel près du musée et du métro",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Prestations de base"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Proche métro",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central et historique",
+            "public": "Voyageurs voulant visiter le musée égyptien à pied depuis leur hôtel",
+            "style": "Hôtel de ville",
+            "verdict": "Un point de chute stratégique et très abordable pour les passionnés d'histoire."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 854 expériences vécues · Mise à jour : 2026"
+    },
+    "GAS Cairo Hotel Downtown": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/gas-cairo-hotel-downtown.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre-ville du Caire et proche du métro, cet hôtel affiche un excellent confort de 9,1 avec petit-déjeuner inclus et paiement sur place.",
+        "prix_moyen": "505€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort élevé de 9,1 au centre de la capitale",
+            "Proche du métro, petit-déjeuner inclus, aucun prépaiement requis"
+        ],
+        "points_negatifs": [
+            "Tarifs variables"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Proche métro",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central, propre et confortable",
+            "public": "Voyageurs cherchant un hébergement de qualité supérieure en plein cœur du Caire",
+            "style": "Hôtel urbain",
+            "verdict": "Une très bonne adresse urbaine combinant emplacement central et grand confort."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 136 expériences vécues · Mise à jour : 2026"
+    },
+    "Malak Palace Cairo Hotel": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/malak-palace-cairo.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au Caire, le Malak Palace propose des chambres deluxe climatisées avec un confort exceptionnel de 9,5, annulation gratuite et paiement sur place.",
+        "prix_moyen": "522€ / semaine",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Fabuleux (9,2)",
+            "Confort remarquable de 9,5",
+            "Annulation gratuite étendue et paiement sur place sans prépaiement"
+        ],
+        "points_negatifs": [
+            "Petit-déjeuner non inclus dans cette formule"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Chic, moderne et soigné",
+            "public": "Voyageurs cherchant un standing supérieur au Caire",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Une excellente option pour profiter d'un confort haut de gamme dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 43 expériences vécues · Mise à jour : 2026"
+    },
+    "Amon Ra Hotel": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/amon-ra-giza.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose un super confort de 9,0 avec petit-déjeuner inclus et annulation gratuite.",
+        "prix_moyen": "145€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort élevé de 9,0 près des Pyramides",
+            "Petit-déjeuner inclus et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Disponibilité limitée"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel, accueillant et très économique",
+            "public": "Voyageurs cherchant un pied-à-terre confortable et pas cher à Gizeh",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un super plan économique très bien noté par les voyageurs."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 69 expériences vécues · Mise à jour : 2026"
+    },
+    "Isis Pyramids View inn": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/isis-pyramids-view-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose des chambres triples avec vue, petit-déjeuner inclus, annulation gratuite et paiement sur place.",
+        "prix_moyen": "168€ / semaine",
+        "avis": "7,8/10",
+        "points_positifs": [
+            "Confort de 8,2 avec chambres triples vue sur les monuments",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite et paiement sur place sans prépaiement"
+        ],
+        "points_negatifs": [
+            "Prestations simples"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Chambre triple",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Convivial et économique",
+            "public": "Petits groupes ou familles cherchant une chambre triple pas chère près de Gizeh",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une alternative abordable et bien située pour les petits groupes."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 137 expériences vécues · Mise à jour : 2026"
+    },
+    "Ghazala Beach": {
+        "pays": "Égypte",
+        "ville": "Baie de Neama, Charm el-Cheikh",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/ghazala-beach.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Baie de Neama à Charm el-Cheikh, cet hôtel propose des bungalows tout confort en formule tout compris au cœur de la station balnéaire.",
+        "prix_moyen": "642€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Très bien noté (8,0)",
+            "Formule tout compris dans la célèbre Baie de Neama",
+            "Bungalows privatifs de 25 m²"
+        ],
+        "points_negatifs": [
+            "Infrastructures traditionnelles"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Bungalow",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Animé, marin et tout compris",
+            "public": "Voyageurs cherchant un club de vacances abordable et central à Naama Bay",
+            "style": "Resort de bungalows 4 étoiles",
+            "verdict": "Une option de choix pour profiter de la vie nocturne et des plages de Charm el-Cheikh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 575 expériences vécues · Mise à jour : 2026"
+    },
+    "Meraki Resort Sharm El Sheikh Adults only": {
+        "pays": "Égypte",
+        "ville": "Charm el-Cheikh",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/meraki-resort-sharm-el-sheikh-adults-only.fr.html?aid=818289",
+        "image": "",
+        "description": "Réservé aux adultes et situé à Charm el-Cheikh, ce somptueux resort 5 étoiles affiche un confort exceptionnel de 9,6 en formule tout compris.",
+        "prix_moyen": "2 085€ / semaine",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Exceptionnel (9,5)",
+            "Confort remarquable de 9,6 réservé aux adultes",
+            "Formule tout compris de luxe, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Adults Only",
+            "Tout compris",
+            "Piscines / Plage"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Tendance, festif et adulte",
+            "public": "Couples et jeunes adultes cherchant une ambiance branchée, haut de gamme et sans enfants en Mer Rouge",
+            "style": "Resort lifestyle 5 étoiles adults only",
+            "verdict": "Une adresse d'exception (confort 9,6/10) pour des vacances festives et luxueuses."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 5 704 expériences vécues · Mise à jour : 2026"
+    },
+    "Royal Town Hotel": {
+        "pays": "Égypte",
+        "ville": "Downtown Cairo, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/royal-town-cairo.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre-ville du Caire et proche du métro, le Royal Town Hotel affiche un fabuleux confort de 9,4 avec petit-déjeuner inclus.",
+        "prix_moyen": "316€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel de 9,4 en plein centre-ville",
+            "Proche du métro, petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Forte demande (plus que 3 disponibles à ce tarif)"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Proche métro",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Chic, central et irréprochable",
+            "public": "Voyageurs cherchant un standing urbain très élevé au cœur de la capitale",
+            "style": "Hôtel urbain haut de gamme",
+            "verdict": "Une adresse urbaine remarquable combinant emplacement stratégique et grand confort."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 36 expériences vécues · Mise à jour : 2026"
+    },
+    "Elite hotel": {
+        "pays": "Égypte",
+        "ville": "Sheikh Zayed",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/elite-sheikh-zayed.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sheikh Zayed (banlieue du Caire), cet hôtel propose des chambres lits jumeaux climatisées avec un fabuleux confort de 9,3 et une annulation gratuite.",
+        "prix_moyen": "359€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,3",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Situé en zone résidentielle excentrée"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Annulation gratuite",
+            "Chambre lits jumeaux"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Calme, moderne et propre",
+            "public": "Voyageurs cherchant un hébergement de qualité hors de l'agitation du centre-ville",
+            "style": "Hôtel de ville moderne",
+            "verdict": "Un choix de premier ordre pour séjourner au calme dans l'ouest du Caire."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 80 expériences vécues · Mise à jour : 2026"
+    },
+    "Elegance Tower": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/elegance-tower-cairo.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au Caire, l'Elegance Tower affiche une note exceptionnelle de 9,5 avec un confort de 9,5, des chambres climatisées et l'annulation gratuite.",
+        "prix_moyen": "278€ / semaine",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Exceptionnel (9,5 - l'une des meilleures notes)",
+            "Confort exceptionnel de 9,5",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Disponibilité limitée"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, soigné et exceptionnel",
+            "public": "Voyageurs cherchant une qualité d'hébergement irréprochable au Caire à prix doux",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Une adresse extraordinaire recommandée par les voyageurs pour son rapport qualité-prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 272 expériences vécues · Mise à jour : 2026"
+    },
+    "Olivia Hotel": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/olivia-cairo.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au Caire à proximité du métro, l'Olivia Hotel propose des chambres king-size deluxe, un petit-déjeuner inclus et un paiement flexible sur place.",
+        "prix_moyen": "240€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort élevé de 8,9",
+            "Proche du métro, petit-déjeuner inclus, aucun prépaiement requis"
+        ],
+        "points_negatifs": [
+            "Disponibilité restreinte"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Proche métro",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain, pratique et confortable",
+            "public": "Voyageurs cherchant un bon compromis entre emplacement central et budget modéré",
+            "style": "Hôtel de ville",
+            "verdict": "Une excellente option centrale et très bien notée."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 69 expériences vécues · Mise à jour : 2026"
+    },
+    "Gafy Resort Aqua Park": {
+        "pays": "Égypte",
+        "ville": "Baie de Neama, Charm el-Cheikh",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/gafy-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Baie de Neama à Charm el-Cheikh, ce resort propose un certificat de durabilité, un parc aquatique et une formule en pension complète (tous les repas compris).",
+        "prix_moyen": "722€ / semaine",
+        "avis": "7,6/10",
+        "points_positifs": [
+            "Certificat de durabilité et parc aquatique",
+            "Tous les repas compris (pension complète)",
+            "Emplacement de choix dans la Baie de Neama"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,6)"
+        ],
+        "equipements": [
+            "Parc aquatique",
+            "Certificat de durabilité",
+            "Tous les repas compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🎢 Ludique, marin et animé",
+            "public": "Familles cherchant des toboggans et les repas inclus à Naama Bay",
+            "style": "Resort club 4 étoiles avec aquapark",
+            "verdict": "Une option de loisirs très divertissante en famille à Charm el-Cheikh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 655 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel pyramids inn": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/hotel-pyramids-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose de superbes chambres familiales avec un confort de 9,4 et un petit-déjeuner inclus.",
+        "prix_moyen": "632€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,4",
+            "Petit-déjeuner inclus et chambres familiales adaptées"
+        ],
+        "points_negatifs": [
+            "Tarifs un peu plus élevés que les auberges voisines"
+        ],
+        "equipements": [
+            "Chambre familiale",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Familial, culturel et confortable",
+            "public": "Familles cherchant un hébergement de grande qualité au plus près des Pyramides",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un choix idéal et très confortable pour les familles visitant Gizeh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 4 expériences vécues · Mise à jour : 2026"
+    },
+    "Pyramids moon Tower": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pyramids-moon-tower.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose des chambres doubles climatisées avec un superbe confort de 8,8, petit-déjeuner inclus et annulation gratuite étendue.",
+        "prix_moyen": "171€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort élevé de 8,8",
+            "Petit-déjeuner inclus, annulation gratuite étendue"
+        ],
+        "points_negatifs": [
+            "Disponibilité limitée"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Pratique, économique et agréable",
+            "public": "Voyageurs cherchant une solution confortable et pas chère près des Pyramides",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une alternative très intéressante pour un budget maîtrisé à Gizeh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 40 expériences vécues · Mise à jour : 2026"
+    },
+    "Town Hotel Cairo": {
+        "pays": "Égypte",
+        "ville": "Garden City, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/town-hotel-cairo.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier de Garden City au Caire et proche du métro, cet hôtel propose un confort de 8,3 avec petit-déjeuner inclus.",
+        "prix_moyen": "269€ / semaine",
+        "avis": "7,8/10",
+        "points_positifs": [
+            "Confort de 8,3 dans un quartier central et résidentiel du Caire",
+            "Proche du métro",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Infrastructures classiques"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Proche métro",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain, calme et bien situé",
+            "public": "Voyageurs cherchant un pied-à-terre central mais paisible au Caire",
+            "style": "Hôtel de ville",
+            "verdict": "Un point de chute pratique et bien desservi pour explorer la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 852 expériences vécues · Mise à jour : 2026"
+    },
+    "Pyramids Mystery Inn": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pyramids-mystery-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose des chambres économiques avec deux grands lits doubles, un excellent confort de 9,0 et l'annulation gratuite.",
+        "prix_moyen": "129€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très bien noté (8,4)",
+            "Confort élevé de 9,0",
+            "Tarif extrêmement bas pour des chambres spacieuses, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Repas non inclus par défaut"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Annulation gratuite",
+            "Chambre double économique"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Spacieux et ultra-économique",
+            "public": "Petits budgets et familles cherchant de grands lits à petit prix près des Pyramides",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un plan imbattable pour un grand espace de couchage à bas coût."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 32 expériences vécues · Mise à jour : 2026"
+    },
+    "Casablanca Pyramids View": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/casablanca-pyramids-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose des chambres deluxe pouvant accueillir jusqu'à 3 lits, un petit-déjeuner inclus, l'annulation gratuite et le paiement sur place.",
+        "prix_moyen": "481€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Confort de 8,5 avec configurations familiales (3 lits)",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite étendue et paiement sur place sans prépaiement"
+        ],
+        "points_negatifs": [
+            "Tarifs variables"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Familial, pratique et flexible",
+            "public": "Petites familles cherchant une chambre triple confortable près des sites historiques",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option adaptée aux petits groupes avec une grande souplesse de réservation."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 152 expériences vécues · Mise à jour : 2026"
+    },
+    "Grand Pyramids In": {
+        "pays": "Égypte",
+        "ville": "Giza, Giza",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/grand-pyramids-in.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh, le Grand Pyramids In propose des chambres doubles climatisées, un petit-déjeuner inclus, l'annulation gratuite et le paiement sur place.",
+        "prix_moyen": "135€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Confort de 8,1",
+            "Petit-déjeuner inclus, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Prestations simples"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Économique et fonctionnel",
+            "public": "Petits budgets cherchant un hébergement de base bien situé à Gizeh",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une excellente affaire pour loger à bas coût au pied des monuments."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 230 expériences vécues · Mise à jour : 2026"
+    },
+    "Lacasa Residence": {
+        "pays": "Égypte",
+        "ville": "Nasr City, Le Caire",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/lacasa-residence-nasr-city.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Nasr City (Le Caire), cet établissement propose un fabuleux confort de 9,7 avec balcon, annulation gratuite et paiement sur place.",
+        "prix_moyen": "420€ / semaine",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Fabuleux (9,4)",
+            "Confort exceptionnel de 9,7 avec très grand lit double et balcon",
+            "Annulation gratuite et paiement sur place sans prépaiement"
+        ],
+        "points_negatifs": [
+            "Situé dans un quartier résidentiel de l'est du Caire (Nasr City)"
+        ],
+        "equipements": [
+            "Balcon",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Moderne, luxueux et spacieux",
+            "public": "Voyageurs cherchant un standing hôtelier très élevé en dehors du centre historique",
+            "style": "Résidence hôtelière 4 étoiles",
+            "verdict": "Une qualité de confort remarquable (9,7/10) pour un séjour moderne au Caire."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 488 expériences vécues · Mise à jour : 2026"
+    },
+    "Royal Grand Hotel Cairo": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/royal-grand-hotel-cairo.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au Caire à proximité du métro, ce grand hôtel propose des chambres deluxe, un petit-déjeuner inclus, l'annulation gratuite et le paiement sur place.",
+        "prix_moyen": "148€ / semaine",
+        "avis": "6,3/10",
+        "points_positifs": [
+            "Proche du métro au centre du Caire",
+            "Petit-déjeuner inclus",
+            "Tarif très économique, aucun prépaiement requis"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (6,3)"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Proche métro",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Central et très bon marché",
+            "public": "Petits budgets cherchant un hôtel de ville basique et bien desservi",
+            "style": "Hôtel de ville",
+            "verdict": "Une solution de repli très économique pour les voyageurs peu exigeants."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 31 expériences vécues · Mise à jour : 2026"
+    },
+    "Pyramids sunrise inn": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pyramids-sunrise-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose un très bon confort de 9,1 avec petit-déjeuner inclus et des chambres deluxe variées.",
+        "prix_moyen": "589€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort élevé de 9,1",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs variables en haute saison"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Chambre deluxe"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Chaleureux, confortable et bien noté",
+            "public": "Voyageurs cherchant une valeur sûre très appréciée au pied des Pyramides",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un choix de qualité plébiscité par de nombreux visiteurs."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 050 expériences vécues · Mise à jour : 2026"
+    },
+    "opal legacy luxor": {
+        "pays": "Égypte",
+        "ville": "East bank, Louxor",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/opal-legacy-luxor.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé sur la rive est de Louxor, cet hôtel propose un superbe confort de 9,1 avec salle de bains privative et annulation gratuite étendue.",
+        "prix_moyen": "917€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort élevé de 9,1 sur la rive est (proche des temples)",
+            "Annulation gratuite étendue"
+        ],
+        "points_negatifs": [
+            "Repas non inclus dans cette offre de base"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Annulation gratuite",
+            "Chambre double avec salle de bains"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel, moderne et idéalement situé",
+            "public": "Voyageurs voulant explorer facilement les temples de Karnak et de Louxor à pied",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une adresse moderne et très confortable du côté animé de Louxor."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 26 expériences vécues · Mise à jour : 2026"
+    },
+    "Glory Pyramids Inn": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/glory-pyramids-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), le Glory Pyramids Inn propose des chambres lits jumeaux avec vue sur jardin, un superbe confort de 9,2 et un petit-déjeuner inclus.",
+        "prix_moyen": "329€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort élevé de 9,2 avec vue sur jardin",
+            "Petit-déjeuner inclus et tarif promotionnel attractif"
+        ],
+        "points_negatifs": [
+            "Tarifs variables en haute saison"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Vue sur jardin"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel, confortable et agréable",
+            "public": "Voyageurs cherchant une adresse fiable et très bien notée près de Gizeh",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une très belle option pour un séjour confortable au pied des Pyramides."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 203 expériences vécues · Mise à jour : 2026"
+    },
+    "Eldorado Lodge and Restaurant": {
+        "pays": "Égypte",
+        "ville": "Dahab",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/eldorado-lodge-and-restaurant.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Dahab, cet établissement propose un très bon confort (8,2) avec des chambres doubles ou lits jumeaux climatisées à un prix attractif.",
+        "prix_moyen": "367€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort de 8,2 à Dahab",
+            "Chambres climatisées, tarif promotionnel"
+        ],
+        "points_negatifs": [
+            "Prestations de lodge traditionnel"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Restaurant sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Décontracté, bohème et économique",
+            "public": "Voyageurs cherchant un pied-à-terre convivial et abordable à Dahab",
+            "style": "Lodge / Hôtel de charme",
+            "verdict": "Une excellente option pour profiter de l'ambiance unique de Dahab sans se ruiner."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 83 expériences vécues · Mise à jour : 2026"
+    },
+    "Sunrise Mamlouk Palace Resort": {
+        "pays": "Égypte",
+        "ville": "Villages Road, Hurghada",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/sunrise-mamlouk-palace-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé sur la route des villages à Hurghada, ce resort 5 étoiles d'exception affiche un confort remarquable de 9,6 en formule tout compris.",
+        "prix_moyen": "1 404€ / semaine",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Exceptionnel (9,5)",
+            "Confort exceptionnel de 9,6",
+            "Formule tout compris de luxe, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Piscines / Spa"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, somptueux et tout compris",
+            "public": "Familles et voyageurs exigeants cherchant le summum du standing hôtelier à Hurghada",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une adresse prestigieuse (confort 9,6/10) pour un séjour inoubliable en Mer Rouge."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 663 expériences vécues · Mise à jour : 2026"
+    },
+    "Villa Mango Hotel, near the American University in Cairo, AUC, New Cairo": {
+        "pays": "Égypte",
+        "ville": "Nouveau Caire, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/villa-mango-new-cairo.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le Nouveau Caire près de l'université américaine, cet hôtel propose un superbe confort de 8,5 avec chambres climatisées et annulation gratuite.",
+        "prix_moyen": "649€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort élevé de 8,5",
+            "Emplacement pratique près du Nouveau Caire, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Quartier moderne résidentiel excentré du centre historique"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Moderne, propre et calme",
+            "public": "Voyageurs d'affaires ou touristes cherchant un hébergement de qualité dans les quartiers récents du Caire",
+            "style": "Hôtel de tourisme / Villa hôtelière",
+            "verdict": "Une alternative moderne et très bien notée hors des sentiers battus du centre."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 17 expériences vécues · Mise à jour : 2026"
+    },
+    "Florya Pyramids Hotel": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/florya-pyramids.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose des chambres deluxe avec vue sur la ville, un fabuleux confort de 9,3 et une annulation gratuite.",
+        "prix_moyen": "192€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel de 9,3",
+            "Annulation gratuite et tarif très bas"
+        ],
+        "points_negatifs": [
+            "Petit-déjeuner non inclus par défaut"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Annulation gratuite",
+            "Chambre deluxe"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Confortable, moderne et très économique",
+            "public": "Voyageurs cherchant un haut niveau de confort à petit prix près des Pyramides",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un rapport qualité-prix remarquable (confort 9,3/10) pour séjourner à Gizeh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 74 expériences vécues · Mise à jour : 2026"
+    },
+    "Seven Seas Jolie Bay - Ultra All Inclusive": {
+        "pays": "Égypte",
+        "ville": "Soma Bay, Hurghada",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/seven-seas-jolie-bay.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Soma Bay (Hurghada), ce resort 5 étoiles propose un confort de 9,1 en formule ultra tout compris dans l'une des plus belles baies de la Mer Rouge.",
+        "prix_moyen": "1 230€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort élevé de 9,1",
+            "Formule ultra tout compris de haute qualité"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Ultra Tout Compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, marin et tout compris",
+            "public": "Voyageurs cherchant le standing de Soma Bay en formule ultra tout compris",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une splendide option pour profiter pleinement de la Mer Rouge sans compter."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 588 expériences vécues · Mise à jour : 2026"
+    },
+    "Osiris Cairo Hotel Downtown": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/osiris-cairo-hotel.fr.html?aid=818289",
+        "image": "",
+        "description": "Idéalement situé au centre-ville du Caire et proche du métro, cet hôtel affiche une note parfaite de 10/10 avec un confort maximal, petit-déjeuner inclus et paiement sur place.",
+        "prix_moyen": "891€ / semaine",
+        "avis": "10/10",
+        "points_positifs": [
+            "Exceptionnel (10/10 - note maximale)",
+            "Confort parfait de 10 au centre-ville",
+            "Proche du métro, petit-déjeuner inclus, aucun prépaiement requis"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés pour un hôtel de catégorie standard"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Proche métro",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Central, irréprochable et unique",
+            "public": "Voyageurs exigeants cherchant l'accueil et la satisfaction absolue en plein cœur du Caire",
+            "style": "Hôtel de ville de charme",
+            "verdict": "Une note unanime de 10/10 qui garantit une expérience urbaine hors du commun."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 26 expériences vécues · Mise à jour : 2026"
+    },
+    "Novis Boutique Hotel Sahl Hasheesh": {
+        "pays": "Égypte",
+        "ville": "Sahl Hasheesh, Hurghada",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/novis-boutique-sahl-hasheesh.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sahl Hasheesh (Hurghada), ce boutique-hôtel propose un confort exceptionnel de 9,4 avec balcon et annulation gratuite à un tarif très accessible.",
+        "prix_moyen": "202€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort exceptionnel de 9,4 avec balcon",
+            "Emplacement de choix à Sahl Hasheesh, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Petit-déjeuner non inclus dans cette offre de base"
+        ],
+        "equipements": [
+            "Boutique-hôtel",
+            "Balcon",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Chic, intime et moderne",
+            "public": "Voyageurs cherchant le standing de Sahl Hasheesh dans un boutique-hôtel intime à prix doux",
+            "style": "Boutique-hôtel",
+            "verdict": "Un rapport qualité-prix incroyable (confort 9,4/10) dans l'une des plus belles stations."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 67 expériences vécues · Mise à jour : 2026"
+    },
+    "Pyramids top success result": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pyramids-top-success.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose des chambres triples confortables, un superbe confort de 8,7 et une annulation gratuite.",
+        "prix_moyen": "337€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort de 8,7 avec chambres triples",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Repas non compris"
+        ],
+        "equipements": [
+            "Chambre triple",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Pratique et économique",
+            "public": "Petits groupes ou familles cherchant un hébergement triplé bien noté près des Pyramides",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une bonne option fonctionnelle pour un séjour à plusieurs à Gizeh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 154 expériences vécues · Mise à jour : 2026"
+    },
+    "Nile Villa Hotel": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/nile-villa-hotel.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au Caire, le Nile Villa Hotel propose un très bon confort de 8,9 avec vue sur jardin, petit-déjeuner inclus et un tarif très compétitif.",
+        "prix_moyen": "409€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort élevé de 8,9 avec vue sur jardin",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Vue jardin"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Paisible, verdoyant et abordable",
+            "public": "Voyageurs cherchant un havre de paix confortable au Caire",
+            "style": "Hôtel de charme",
+            "verdict": "Une excellente alternative verdoyante pour séjourner sereinement dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 011 expériences vécues · Mise à jour : 2026"
+    },
+    "Quantum Pyramids View INN": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/quantum-pyramids-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose des chambres deluxe avec un petit-déjeuner inclus et une offre privilège à prix réduit.",
+        "prix_moyen": "308€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort de 8,1",
+            "Petit-déjeuner inclus et tarif promotionnel"
+        ],
+        "points_negatifs": [
+            "Infrastructures traditionnelles"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Chambre double deluxe"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Pratique et culturel",
+            "public": "Voyageurs cherchant un pied-à-terre correct avec petit-déjeuner près de Gizeh",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option simple et bien située pour un séjour touristique."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 30 expériences vécues · Mise à jour : 2026"
+    },
+    "Top Princess Pyramids View": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/top-princess-pyramids-view.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel affiche une note parfaite de 10/10 avec un confort de 9,6, un petit-déjeuner inclus, une annulation gratuite et un paiement sur place.",
+        "prix_moyen": "151€ / semaine",
+        "avis": "10/10",
+        "points_positifs": [
+            "Exceptionnel (10/10 - note maximale)",
+            "Confort exceptionnel de 9,6",
+            "Petit-déjeuner inclus, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Disponibilité très limitée (plus que 1 disponible à ce tarif)"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Prestigieux, parfait et économique",
+            "public": "Voyageurs cherchant la satisfaction absolue et un confort irréprochable au pied des Pyramides",
+            "style": "Hôtel de tourisme de charme",
+            "verdict": "Une note unanime de 10/10 pour un tarif exceptionnellement bas."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 6 expériences vécues · Mise à jour : 2026"
+    },
+    "ONE GATE Pyramids View INN": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/one-gate-pyramids-view-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose de superbes suites deluxe avec baignoire spa, un fabuleux confort de 9,6, un petit-déjeuner inclus et un paiement sur place.",
+        "prix_moyen": "1 498€ / semaine",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Fabuleux (9,4)",
+            "Confort exceptionnel de 9,6 avec baignoire spa",
+            "Petit-déjeuner inclus, annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés pour un hébergement de cette catégorie"
+        ],
+        "equipements": [
+            "Baignoire spa",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, romantique et relaxant",
+            "public": "Couples cherchant une suite somptueuse avec baignoire spa et vue près des Pyramides",
+            "style": "Hôtel de tourisme haut de gamme",
+            "verdict": "Une suite de grand luxe pour un séjour inoubliable à Gizeh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 116 expériences vécues · Mise à jour : 2026"
+    },
+    "Tamaya Hotel, Fifth Settlement, New Cairo": {
+        "pays": "Égypte",
+        "ville": "Nouveau Caire, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/tamaya-fifth-settlement.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le Cinquième Arrondissement du Nouveau Caire, le Tamaya Hotel propose des studios king-size avec un confort remarquable de 9,5.",
+        "prix_moyen": "301€ / semaine",
+        "avis": "9,3/10",
+        "points_positifs": [
+            "Fabuleux (9,3)",
+            "Confort exceptionnel de 9,5 avec studios tout équipés",
+            "Emplacement dans un quartier moderne et sécurisé"
+        ],
+        "points_negatifs": [
+            "Éloigné du centre historique du Caire"
+        ],
+        "equipements": [
+            "Studio",
+            "Climatisation",
+            "Lit king-size"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Moderne, calme et propre",
+            "public": "Voyageurs cherchant un studio tout confort dans les quartiers résidentiels récents",
+            "style": "Apparthôtel / Studio",
+            "verdict": "Une excellente option moderne et très bien notée à l'est de la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 102 expériences vécues · Mise à jour : 2026"
+    },
+    "Pyramids Land Hotel": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pyramids-land-hotel.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose de superbes chambres lits jumeaux avec baignoire, un confort de 8,9, le petit-déjeuner inclus et une annulation gratuite.",
+        "prix_moyen": "140€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort élevé de 8,9",
+            "Petit-déjeuner inclus, annulation gratuite et tarif promotionnel"
+        ],
+        "points_negatifs": [
+            "Dernières chambres disponibles"
+        ],
+        "equipements": [
+            "Baignoire",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Pratique, confortable et très économique",
+            "public": "Voyageurs cherchant un hôtel de qualité avec baignoire près des Pyramides",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un super plan économique très apprécié des visiteurs de Gizeh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 162 expériences vécues · Mise à jour : 2026"
+    },
+    "Grand Makadi - Couples and Families Only": {
+        "pays": "Égypte",
+        "ville": "Hurghada",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/grand-makadi.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Hurghada et réservé exclusivement aux couples et familles, ce resort 5 étoiles propose un superbe confort de 8,8 en formule tout compris.",
+        "prix_moyen": "1 256€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort de 8,8 dans une baie prisée d'Hurghada",
+            "Réservé strictement aux familles et couples, formule tout compris"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Balnéaire, sécurisant et tout compris",
+            "public": "Familles et couples cherchant un grand resort 5 étoiles sans mauvaise surprise à Hurghada",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une valeur sûre pour des vacances tout compris en toute tranquillité."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 706 expériences vécues · Mise à jour : 2026"
+    },
+    "Pyramids Planet Hotel": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pyramids-planet-hotel.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose un fabuleux confort de 9,1 avec salle de bains privative, chambres climatisées et annulation gratuite.",
+        "prix_moyen": "171€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel de 9,1 avec très grand lit double",
+            "Annulation gratuite et tarif très attractif"
+        ],
+        "points_negatifs": [
+            "Petit-déjeuner non inclus dans cette offre de base"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Annulation gratuite",
+            "Salle de bains privative"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Moderne, confortable et économique",
+            "public": "Voyageurs cherchant une excellente literie et un service de qualité à petit prix près des Pyramides",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option fabuleuse (confort 9,1/10) pour un budget très serré à Gizeh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 186 expériences vécues · Mise à jour : 2026"
+    },
+    "Pyramids Land Palace": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pyramids-land-palace.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose des chambres lits jumeaux avec offre privilège, un confort de 8,7 et un petit-déjeuner inclus.",
+        "prix_moyen": "260€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort élevé de 8,7",
+            "Petit-déjeuner inclus et tarif promotionnel"
+        ],
+        "points_negatifs": [
+            "Infrastructures classiques"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Chambre lits jumeaux"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Pratique et culturel",
+            "public": "Voyageurs cherchant un pied-à-terre correct avec petit-déjeuner au pied des sites",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une alternative simple et bien notée pour un séjour touristique."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 275 expériences vécues · Mise à jour : 2026"
+    },
+    "Horizon Pyramids View inn": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/horizon-pyramids-view-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose des chambres doubles standard équipées d'un jacuzzi, avec un superbe confort de 9,0 et un petit-déjeuner inclus.",
+        "prix_moyen": "375€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort élevé de 9,0 avec jacuzzi privatif",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Dernière chambre disponible à ce tarif"
+        ],
+        "equipements": [
+            "Jacuzzi",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Romantique, original et confortable",
+            "public": "Couples cherchant une touche de bien-être (jacuzzi) près des Pyramides",
+            "style": "Hôtel de charme",
+            "verdict": "Un choix original avec jacuzzi pour se détendre après les visites."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 136 expériences vécues · Mise à jour : 2026"
+    },
+    "New White Pyramids Inn": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/new-white-pyramids-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose des suites deluxe avec baignoire spa, un superbe confort de 8,9 et un petit-déjeuner inclus.",
+        "prix_moyen": "437€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort de 8,9 avec baignoire spa",
+            "Petit-déjeuner inclus, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Disponibilité très limitée"
+        ],
+        "equipements": [
+            "Baignoire spa",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Chic, relaxant et bien placé",
+            "public": "Voyageurs cherchant des prestations bien-être (baignoire spa) près de Gizeh",
+            "style": "Hôtel de tourisme de charme",
+            "verdict": "Une belle option pour s'offrir un moment de détente face aux monuments."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 101 expériences vécues · Mise à jour : 2026"
+    },
+    "New Museum Guest House, Pyramids View": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/new-museum-guest-house.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet établissement propose des chambres doubles deluxe avec balcon, un excellent confort de 9,0, un petit-déjeuner inclus et l'annulation gratuite.",
+        "prix_moyen": "383€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort élevé de 9,0 avec balcon et vue sur les environs du musée",
+            "Petit-déjeuner inclus, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Dernière chambre disponible à ce tarif"
+        ],
+        "equipements": [
+            "Balcon",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel, lumineux et agréable",
+            "public": "Voyageurs cherchant un balcon avec vue pour admirer le secteur du nouveau musée et des pyramides",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une très belle adresse dotée d'un confort supérieur (9,0/10)."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 313 expériences vécues · Mise à jour : 2026"
+    },
+    "Pyramids Gold Sand INN": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/pyramids-gold-sand-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose des chambres lits jumeaux climatisées, un très bon confort de 8,7, le petit-déjeuner inclus et un paiement sur place.",
+        "prix_moyen": "98€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort élevé de 8,7 à proximité de Gizeh",
+            "Petit-déjeuner inclus, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Disponibilité limitée (plus que 2 disponibles à ce tarif)"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel, pratique et ultra-économique",
+            "public": "Petits budgets cherchant un hébergement de qualité supérieure au pied des Pyramides",
+            "style": "Hôtel de tourisme",
+            "verdict": "Un rapport qualité-prix exceptionnel pour visiter Gizeh à bas coût."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 53 expériences vécues · Mise à jour : 2026"
+    },
+    "Marvel Stone Hotel": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/marvel-stone-hotel.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), le Marvel Stone Hotel propose des chambres deluxe, un petit-déjeuner inclus, l'annulation gratuite et le paiement sur place.",
+        "prix_moyen": "457€ / semaine",
+        "avis": "7,6/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Annulation gratuite, aucun prépaiement requis (paiement sur place)",
+            "Proximité immédiate des Pyramides"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,6)"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Pratique et traditionnel",
+            "public": "Voyageurs cherchant un hôtel standard bien situé pour explorer Gizeh en toute flexibilité",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option classique et flexible pour un séjour au pied des monuments."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 563 expériences vécues · Mise à jour : 2026"
+    },
+    "Abdeen Cairo Hostel": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/abdeen-cairo-hostel.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au Caire à proximité du métro, cet établissement propose des chambres doubles avec salle de bains privative, petit-déjeuner inclus et paiement sur place.",
+        "prix_moyen": "181€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Confort de 8,4 en plein centre-ville",
+            "Proche du métro, petit-déjeuner inclus, aucun prépaiement requis"
+        ],
+        "points_negatifs": [
+            "Prestations d'auberge / hôtel économique"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Proche métro",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Central, urbain et très économique",
+            "public": "Petits budgets et routards cherchant un point de chute central et bien desservi au Caire",
+            "style": "Hostel / Hôtel économique",
+            "verdict": "Une option très abordable et bien située pour explorer la capitale à pied ou en métro."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 479 expériences vécues · Mise à jour : 2026"
+    },
+    "Artika Wadi Kiki Hotel": {
+        "pays": "Égypte",
+        "ville": "Assouan",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/artika-wadi-kiki.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Assouan, cet hôtel propose un fabuleux confort de 9,1 avec un très grand lit king-size, un petit-déjeuner inclus et une annulation gratuite.",
+        "prix_moyen": "526€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel de 9,1 avec lit king-size",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Disponibilité limitée"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Lit king-size"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel, charmant et confortable",
+            "public": "Voyageurs cherchant un hébergement de grande qualité et bien noté à Assouan",
+            "style": "Hôtel de charme",
+            "verdict": "Une adresse fabuleuse (9,1/10) pour un séjour reposant au bord du Nil."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 569 expériences vécues · Mise à jour : 2026"
+    },
+    "Shiny Pyramids Boutique Hotel": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/shiny-pyramids-boutique.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), ce boutique-hôtel affiche une note exceptionnelle de 9,7 avec un confort de 9,8, un petit-déjeuner inclus et un paiement flexible sur place.",
+        "prix_moyen": "369€ / semaine",
+        "avis": "9,7/10",
+        "points_positifs": [
+            "Exceptionnel (9,7 - score remarquable)",
+            "Confort exceptionnel de 9,8",
+            "Petit-déjeuner inclus, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Dernière chambre disponible à ce tarif"
+        ],
+        "equipements": [
+            "Boutique-hôtel",
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Prestigieux, irréprochable et culturel",
+            "public": "Voyageurs cherchant le summum du confort et de l'accueil au pied des Pyramides",
+            "style": "Boutique-hôtel de charme",
+            "verdict": "Une qualité d'hébergement extraordinaire (confort 9,8/10) pour un séjour mémorables à Gizeh."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 19 expériences vécues · Mise à jour : 2026"
+    },
+    "Central Cairo Inn": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/central-cairo-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre-ville du Caire et proche du métro, cet établissement propose un très bon confort de 8,6 avec petit-déjeuner inclus et annulation gratuite.",
+        "prix_moyen": "179€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort élevé de 8,6 en plein centre-ville",
+            "Proche du métro, petit-déjeuner inclus, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Prestations d'auberge ou hôtel économique"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Proche métro",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🎒 Central, urbain et économique",
+            "public": "Petits budgets cherchant un point de chute central et bien desservi pour explorer la capitale",
+            "style": "Hôtel économique de ville",
+            "verdict": "Une option idéale pour visiter Le Caire à pied ou en métro sans se ruiner."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 25 expériences vécues · Mise à jour : 2026"
+    },
+    "Royal Inn Residence New Cairo": {
+        "pays": "Égypte",
+        "ville": "Nouveau Caire, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/royal-inn-residence-new-cairo.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le Nouveau Caire, cet établissement propose des studios deluxe tout équipés avec un bon confort de 8,4 et l'annulation gratuite.",
+        "prix_moyen": "323€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Confort de 8,4 dans un quartier moderne et calme",
+            "Studios deluxe, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Éloigné des sites historiques du centre"
+        ],
+        "equipements": [
+            "Studio",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Moderne, spacieux et résidentiel",
+            "public": "Voyageurs cherchant un studio de qualité dans les quartiers est de l'agglomération",
+            "style": "Résidence hôtelière",
+            "verdict": "Une alternative moderne, fonctionnelle et bien notée dans l'est du Caire."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 957 expériences vécues · Mise à jour : 2026"
+    },
+    "View Pyramids Inn": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/view-pyramids-inn.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose des chambres avec balcon, un fabuleux confort de 9,1, un petit-déjeuner inclus et une vue magnifique.",
+        "prix_moyen": "526€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort exceptionnel de 9,1 avec balcon et vue sur les Pyramides",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Disponibilité limitée"
+        ],
+        "equipements": [
+            "Balcon",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel, panoramique et très confortable",
+            "public": "Voyageurs cherchant une superbe vue sur les monuments depuis leur chambre ou leur balcon",
+            "style": "Hôtel de tourisme de charme",
+            "verdict": "Une adresse fabuleuse pour s'émerveiller face aux Pyramides."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 9 expériences vécues · Mise à jour : 2026"
+    },
+    "Maria Pyramids House": {
+        "pays": "Égypte",
+        "ville": "Giza, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/maria-pyramids-house.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Gizeh (Le Caire), cet hôtel propose des chambres doubles ou lits jumeaux avec un superbe confort de 9,0 et des prestations soignées.",
+        "prix_moyen": "564€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort élevé de 9,0 à proximité immédiate des sites",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Dernière chambre disponible à ce tarif"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Chambre double / lits jumeaux"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Chaleureux, pratique et bien noté",
+            "public": "Voyageurs cherchant une atmosphère de maison d'hôtes confortable près de Gizeh",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option de qualité pour un séjour touristique réussi au pied des Pyramides."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 194 expériences vécues · Mise à jour : 2026"
+    },
+    "lotus view El tahrir": {
+        "pays": "Égypte",
+        "ville": "Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/lotus-view-el-tahrir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au Caire à proximité du métro et de la place Tahrir, cet hôtel propose des chambres deluxe, un très bon confort de 8,4 avec annulation gratuite et paiement sur place.",
+        "prix_moyen": "354€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort de 8,4 en plein centre-ville",
+            "Proche du métro, annulation gratuite, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Petit-déjeuner non inclus dans cette offre de base"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Proche métro",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central, urbain et pratique",
+            "public": "Voyageurs cherchant un point de chute très bien desservi pour explorer Le Caire",
+            "style": "Hôtel de ville",
+            "verdict": "Une option centrale et flexible pour un séjour urbain réussi."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 99 expériences vécues · Mise à jour : 2026"
+    },
+    "فندق اقمار مدينة نصر Aqmar Hotel Nasr City": {
+        "pays": "Égypte",
+        "ville": "Nasr City, Le Caire",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/eg/aqmar-nasr-city.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Nasr City (Le Caire), cet hôtel propose des chambres deluxe spacieuses, un fabuleux confort de 9,4 et une annulation gratuite.",
+        "prix_moyen": "328€ / semaine",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Fabuleux (9,4)",
+            "Confort exceptionnel de 9,4",
+            "Adapté aux familles (2 adultes + 1 enfant), annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Quartier résidentiel de l'est du Caire, excentré du centre historique"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Chambre familiale",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Moderne, familial et très confortable",
+            "public": "Familles cherchant un hébergement de grande qualité hors du tumulte du centre-ville",
+            "style": "Hôtel de ville moderne",
+            "verdict": "Une adresse fabuleuse (9,4/10) offrant un confort remarquable à un tarif doux."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 174 expériences vécues · Mise à jour : 2026"
+    },
+    "Lixus Beach Resort - All Inclusive": {
+        "pays": "Maroc",
+        "ville": "Larache",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/lixus-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Larache, ce resort propose une formule tout compris avec des chambres standard et un bon confort de 8,0.",
+        "prix_moyen": "785€ / semaine",
+        "avis": "7,6/10",
+        "points_positifs": [
+            "Formule tout compris",
+            "Confort de 8,0",
+            "Tarif promotionnel attractif"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,6)"
+        ],
+        "equipements": [
+            "Tout compris",
+            "Climatisation",
+            "Piscine / Plage"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire et économique",
+            "public": "Familles cherchant un resort tout compris abordable sur la côte atlantique",
+            "style": "Resort club 4 étoiles",
+            "verdict": "Une option de vacances tout compris accessible pour profiter de la région de Larache."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 925 expériences vécues · Mise à jour : 2026"
+    },
+    "Kabila Hotel & Spa": {
+        "pays": "Maroc",
+        "ville": "M'diq",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/kabila-hotel-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à M'diq, cet hôtel avec spa propose un bon confort de 8,0 avec vue sur le jardin et petit-déjeuner inclus.",
+        "prix_moyen": "541€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Confort de 8,0 à M'diq",
+            "Petit-déjeuner inclus, annulation gratuite",
+            "Présence d'un spa"
+        ],
+        "points_negatifs": [
+            "Prestations classiques"
+        ],
+        "equipements": [
+            "Spa",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire et relaxant",
+            "public": "Voyageurs cherchant un hôtel avec spa sur la côte méditerranéenne marocaine",
+            "style": "Hôtel balnéaire 4 étoiles",
+            "verdict": "Un pied-à-terre correct pour profiter des plages du nord."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 905 expériences vécues · Mise à jour : 2026"
+    },
+    "Kasbah Agounsane Hotel & Spa": {
+        "pays": "Maroc",
+        "ville": "Ourika",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/kasbah-agounsane-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la vallée de l'Ourika, cet établissement de charme allie superbe confort (9,2), spa, petit-déjeuner inclus et annulation gratuite.",
+        "prix_moyen": "510€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort exceptionnel de 9,2 dans un cadre naturel magnifique",
+            "Petit-déjeuner inclus, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Situé en retrait dans la vallée"
+        ],
+        "equipements": [
+            "Spa",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Montagnard, luxueux et paisible",
+            "public": "Amateurs de nature et de calme cherchant un séjour ressourçant près de Marrakech",
+            "style": "Kasbah hôtelière de charme",
+            "verdict": "Une magnifique kasbah pour déconnecter dans la vallée de l'Ourika."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 505 expériences vécues · Mise à jour : 2026"
+    },
+    "Pickalbatros The Stadium & SPA - All Inclusive": {
+        "pays": "Maroc",
+        "ville": "Marrakech",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/pickalbatros-the-stadium-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marrakech, ce resort 5 étoiles propose un superbe confort de 9,1 avec un spa et une formule tout compris de grande qualité.",
+        "prix_moyen": "1 455€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort élevé de 9,1 avec spa",
+            "Formule tout compris, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Spa"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, sportif et tout compris",
+            "public": "Voyageurs cherchant un resort 5 étoiles tout équipé à Marrakech",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une adresse moderne et haut de gamme pour un séjour sans soucis dans la ville ocre."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 184 expériences vécues · Mise à jour : 2026"
+    },
+    "Dunes d'Or Ocean Club": {
+        "pays": "Maroc",
+        "ville": "Baie d'Agadir, Agadir",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/dunes-d-or-ocean-club.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la baie d'Agadir, cet établissement propose un très bon confort de 8,4 avec un accès direct à la plage et le petit-déjeuner inclus.",
+        "prix_moyen": "748€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Très bien noté (8,0)",
+            "Confort de 8,4 face à la mer",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Forte affluence touristique"
+        ],
+        "equipements": [
+            "Front de mer",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire, animé et pratique",
+            "public": "Familles cherchant un club de vacances réputé sur le front de mer d'Agadir",
+            "style": "Resort balnéaire 4 étoiles",
+            "verdict": "Une valeur sûre pour profiter des plages ensoleillées d'Agadir."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 835 expériences vécues · Mise à jour : 2026"
+    },
+    "Boutique Hotel Katia": {
+        "pays": "Maroc",
+        "ville": "El Harkat",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/boutique-katia.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à El Harkat, ce boutique-hôtel offre un superbe confort de 8,8 avec un petit-déjeuner inclus et l'annulation gratuite.",
+        "prix_moyen": "543€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort de 8,8",
+            "Petit-déjeuner inclus, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Dernières chambres disponibles"
+        ],
+        "equipements": [
+            "Boutique-hôtel",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Intime, soigné et charmant",
+            "public": "Voyageurs cherchant une atmosphère de boutique-hôtel raffinée",
+            "style": "Boutique-hôtel",
+            "verdict": "Une alternative élégante et très bien notée."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 379 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Riu Tikida Palmeraie - All Inclusive": {
+        "pays": "Maroc",
+        "ville": "La Palmeraie, Marrakech",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/riu-tikida-palmeraie.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Palmeraie de Marrakech, ce resort 4 étoiles propose un certificat de durabilité, un confort de 8,3 en formule tout compris avec paiement sur place.",
+        "prix_moyen": "1 573€ / semaine",
+        "avis": "7,8/10",
+        "points_positifs": [
+            "Certificat de durabilité",
+            "Formule tout compris",
+            "Annulation gratuite, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Note globale moyenne (7,8)"
+        ],
+        "equipements": [
+            "Certificat de durabilité",
+            "Tout compris",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Verdoyant, tout compris et familial",
+            "public": "Voyageurs cherchant un club de vacances tout compris dans le cadre paisible de la Palmeraie",
+            "style": "Resort club 4 étoiles",
+            "verdict": "Un grand classique de la formule tout compris à Marrakech."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 981 expériences vécues · Mise à jour : 2026"
+    },
+    "One Hotel Casablanca": {
+        "pays": "Maroc",
+        "ville": "Sidi Belyout, Casablanca",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/one-hotel-casablanca.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sidi Belyout (Casablanca), cet hôtel propose des chambres deluxe avec très grand lit double, petit-déjeuner inclus et paiement sur place.",
+        "prix_moyen": "462€ / semaine",
+        "avis": "7,3/10",
+        "points_positifs": [
+            "Emplacement central à Casablanca",
+            "Petit-déjeuner inclus, aucun prépaiement requis (paiement sur place)",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,3)"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain et pratique",
+            "public": "Voyageurs d'affaires ou touristes cherchant un hôtel standard bien placé à Casablanca",
+            "style": "Hôtel de ville",
+            "verdict": "Une option fonctionnelle pour un séjour urbain économique."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 934 expériences vécues · Mise à jour : 2026"
+    },
+    "Palais Jena Hotel & Spa": {
+        "pays": "Maroc",
+        "ville": "Marrakech",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/palais-jena-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marrakech, cet hôtel 5 étoiles propose de vastes suites avec balcon, un confort élevé de 8,7, un spa, le petit-déjeuner inclus et un paiement sur place.",
+        "prix_moyen": "799€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Confort de 8,7 avec suites spacieuses de 40 m²",
+            "Spa, petit-déjeuner inclus, paiement sur place sans prépaiement"
+        ],
+        "points_negatifs": [
+            "Infrastructures de type resort urbain"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, spacieux et relaxant",
+            "public": "Voyageurs cherchant un hôtel 5 étoiles avec spa et de grands espaces à Marrakech",
+            "style": "Hôtel de luxe 5 étoiles",
+            "verdict": "Une belle option de grand standing à prix modéré pour la ville ocre."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 762 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Riu Tikida Beach - Adults Only - All inclusive": {
+        "pays": "Maroc",
+        "ville": "Founty, Agadir",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/riu-tikida-beach-adults-only.fr.html?aid=818289",
+        "image": "",
+        "description": "Réservé aux adultes et situé dans le quartier de Founty à Agadir, ce resort propose un certificat de durabilité, un confort de 8,6 en formule tout compris.",
+        "prix_moyen": "1 883€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Confort de 8,6 réservé aux adultes",
+            "Certificat de durabilité, formule tout compris, paiement sur place"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "Adults Only",
+            "Certificat de durabilité",
+            "Tout compris",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire, adulte et tout compris",
+            "public": "Couples cherchant un séjour balnéaire au calme sans enfants à Agadir",
+            "style": "Resort club 4 étoiles adults only",
+            "verdict": "Une valeur sûre pour des vacances tout compris détendues face à l'océan."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 028 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Farah Tanger": {
+        "pays": "Maroc",
+        "ville": "Tanger",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/farah-tanger.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tanger, cet hôtel propose des bungalows privatifs, un bon confort de 8,4 avec petit-déjeuner inclus et annulation gratuite.",
+        "prix_moyen": "1 114€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Très bien noté (8,0)",
+            "Confort de 8,4 avec formule en bungalows",
+            "Petit-déjeuner inclus, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "Bungalow",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Marin, spacieux et soigné",
+            "public": "Voyageurs cherchant un hébergement de style club avec bungalows à Tanger",
+            "style": "Hôtel resort 4 étoiles",
+            "verdict": "Une option agréable pour profiter de la kasbah et du détroit de Gibraltar."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 824 expériences vécues · Mise à jour : 2026"
+    },
+    "Palais Mirage d'Atlas, Hôtel & Spa": {
+        "pays": "Maroc",
+        "ville": "La Palmeraie, Marrakech",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/palais-mirage-d-atlas.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Palmeraie de Marrakech, cet établissement 5 étoiles propose un superbe confort de 9,0 avec des suites familiales et un spa.",
+        "prix_moyen": "1 034€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort élevé de 9,0",
+            "Suites spacieuses, spa et cadre prestigieux dans la Palmeraie"
+        ],
+        "points_negatifs": [
+            "Dernière suite disponible à ce tarif"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa",
+            "Suite familiale",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, somptueux et paisible",
+            "public": "Familles et voyageurs cherchant un palais traditionnel haut de gamme à Marrakech",
+            "style": "Hôtel de luxe 5 étoiles",
+            "verdict": "Un cadre somptueux et reposant pour un séjour de charme dans la ville ocre."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 273 expériences vécues · Mise à jour : 2026"
+    },
+    "Hilton Tangier Al Houara Resort & Spa": {
+        "pays": "Maroc",
+        "ville": "Al Houara",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/hilton-tangier-al-houara.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Al Houara (Tanger), ce resort 5 étoiles de la chaîne Hilton propose un certificat de durabilité, un confort de 8,9 et le petit-déjeuner inclus.",
+        "prix_moyen": "1 155€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort exceptionnel de 8,9 avec certificat de durabilité",
+            "Standards internationaux Hilton, petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Spa / Golf",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, moderne et éco-responsable",
+            "public": "Voyageurs exigeants cherchant le confort irréprochable d'un grand resort international au bord de l'océan",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une valeur sûre de grand standing pour un séjour balnéaire soigné."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 649 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Kasbah Le Mirage & Spa": {
+        "pays": "Maroc",
+        "ville": "La Palmeraie, Marrakech",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/kasbah-le-mirage.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Palmeraie de Marrakech, cet hôtel de style kasbah propose un spa, le petit-déjeuner inclus et un cadre authentique.",
+        "prix_moyen": "326€ / semaine",
+        "avis": "7,5/10",
+        "points_positifs": [
+            "Cadre traditionnel de kasbah",
+            "Spa sur place, petit-déjeuner inclus",
+            "Tarif très accessible"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,5)"
+        ],
+        "equipements": [
+            "Spa",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Dépaysant, traditionnel et abordable",
+            "public": "Petits budgets cherchant une kasbah avec piscine et spa dans la Palmeraie",
+            "style": "Kasbah hôtelière 4 étoiles",
+            "verdict": "Une option charmante et économique pour s'immerger dans l'ambiance marocaine."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 841 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Atlas Day": {
+        "pays": "Maroc",
+        "ville": "Azilal",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/atlas-day-azilal.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Azilal, cet hôtel offre un superbe confort de 9,1 avec vue sur la montagne et petit-déjeuner inclus.",
+        "prix_moyen": "512€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très bien noté (8,4)",
+            "Confort élevé de 9,1 avec vue panoramique sur les montagnes de l'Atlas",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Situation en zone montagneuse isolée"
+        ],
+        "equipements": [
+            "Vue montagne",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏔️ Montagnard, pittoresque et reposant",
+            "public": "Randonneurs et amoureux de nature cherchant un pied-à-terre confortable dans l'Atlas",
+            "style": "Hôtel de montagne",
+            "verdict": "Une belle halte confortable pour explorer les paysages d'Azilal."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 217 expériences vécues · Mise à jour : 2026"
+    },
+    "Zephyr Agadir": {
+        "pays": "Maroc",
+        "ville": "Founty, Agadir",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/zephyr-agadir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Founty (Agadir), cet établissement propose des appartements tout confort de 42 m² avec un très haut niveau de confort (9,1) et l'annulation gratuite.",
+        "prix_moyen": "397€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort exceptionnel de 9,1 avec appartements spacieux",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Appartement",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Moderne, spacieux et pratique",
+            "public": "Familles cherchant l'autonomie d'un appartement avec les services d'un hôtel à Agadir",
+            "style": "Apparthôtel 4 étoiles",
+            "verdict": "Un excellent rapport qualité-prix (confort 9,1/10) pour un séjour en toute liberté."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 4 588 expériences vécues · Mise à jour : 2026"
+    },
+    "Surf One Hotel": {
+        "pays": "Maroc",
+        "ville": "Agadir",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/surf-one-agadir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Agadir, cet hôtel propose des chambres doubles deluxe avec balcon, un excellent confort de 9,0, l'annulation gratuite et le paiement sur place.",
+        "prix_moyen": "434€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort élevé de 9,0 avec balcon",
+            "Annulation gratuite, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Petit-déjeuner non inclus dans cette offre de base"
+        ],
+        "equipements": [
+            "Balcon",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏄 Marin, moderne et décontracté",
+            "public": "Surfeurs et voyageurs cherchant un pied-à-terre confortable et flexible à Agadir",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option moderne et très bien notée pour profiter de l'océan."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 765 expériences vécues · Mise à jour : 2026"
+    },
+    "Mercure Quemado Al-Hoceima Resort": {
+        "pays": "Maroc",
+        "ville": "Al Hoceïma",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/mercure-quemado-al-hoceima.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Al Hoceïma face à l'océan, le resort Mercure propose des chambres lits jumeaux avec balcon côté océan.",
+        "prix_moyen": "444€ / semaine",
+        "avis": "7,1/10",
+        "points_positifs": [
+            "Vue et emplacement côté océan avec balcon",
+            "Standards de la chaîne internationale Mercure",
+            "Cadre balnéaire privilégié sur la Méditerranée"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,1)"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Vue mer / océan",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire, marin et simple",
+            "public": "Voyageurs cherchant un hôtel de chaîne fiable sur la côte d'Al Hoceïma",
+            "style": "Resort 4 étoiles",
+            "verdict": "Une option correcte pour profiter de l'une des plus belles baies de la région."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 828 expériences vécues · Mise à jour : 2026"
+    },
+    "Occidental Tanger": {
+        "pays": "Maroc",
+        "ville": "Tanger",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/occidental-tanger.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tanger, l'Occidental Tanger propose des chambres supérieures climatisées avec un très bon confort de 8,5.",
+        "prix_moyen": "532€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Confort élevé de 8,5 à Tanger",
+            "Chambres supérieures climatisées",
+            "Tarif promotionnel actuel"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Urbain, marin et moderne",
+            "public": "Voyageurs cherchant un hôtel 4 étoiles de grande marque au cœur de Tanger",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Une option fiable et très confortable pour un séjour dans la ville du détroit."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 514 expériences vécues · Mise à jour : 2026"
+    },
+    "Suite Hotel Tilila": {
+        "pays": "Maroc",
+        "ville": "Centre-ville, Agadir",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/suite-tilila-agadir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre-ville d'Agadir, cet établissement propose des studios avec balcon, un confort de 8,3, l'annulation gratuite et le paiement sur place.",
+        "prix_moyen": "466€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Très bien noté (8,0)",
+            "Confort de 8,3 au centre d'Agadir",
+            "Studios avec balcon, annulation gratuite, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Infrastructures de type apparthôtel"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Balcon",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central, pratique et autonome",
+            "public": "Voyageurs cherchant un studio tout équipé au cœur d'Agadir",
+            "style": "Apparthôtel de ville",
+            "verdict": "Un pied-à-terre fonctionnel et bien situé pour un séjour urbain et balnéaire."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 167 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Everest, Séjour Balnéaire à Saïdia": {
+        "pays": "Maroc",
+        "ville": "Saïdia",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/everest-saidia.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Saïdia, cet hôtel propose des studios standard de 30 m² avec un excellent confort de 9,1 et l'annulation gratuite.",
+        "prix_moyen": "392€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort exceptionnel de 9,1",
+            "Studios de 30 m² climatisés, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Disponibilité limitée"
+        ],
+        "equipements": [
+            "Studio",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire, spacieux et économique",
+            "public": "Voyageurs cherchant un studio confortable pour profiter des plages de Saïdia",
+            "style": "Résidence hôtelière / Studios",
+            "verdict": "Une option très qualitative et bien notée pour un séjour au soleil."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 74 expériences vécues · Mise à jour : 2026"
+    },
+    "Stylish hôtel": {
+        "pays": "Maroc",
+        "ville": "Marrakech",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/stylish-hotel-marrakech.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marrakech, cet hôtel propose des chambres deluxe avec vue sur jardin, un superbe confort de 9,0, un petit-déjeuner inclus et une annulation gratuite.",
+        "prix_moyen": "620€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort élevé de 9,0 avec très grand lit double",
+            "Petit-déjeuner inclus, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs variables"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Vue sur jardin"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Tendance, élégant et reposant",
+            "public": "Voyageurs cherchant un design moderne et un grand confort à Marrakech",
+            "style": "Boutique-hôtel 4 étoiles",
+            "verdict": "Une adresse chic et très agréable pour un séjour tout en style."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 156 expériences vécues · Mise à jour : 2026"
+    },
+    "Rose Aqua Park Hotel": {
+        "pays": "Maroc",
+        "ville": "L’Hivernage, Marrakech",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/rose-aqua-park-marrakech.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier huppé de L’Hivernage à Marrakech, cet hôtel propose un parc aquatique, le petit-déjeuner inclus et l'annulation gratuite.",
+        "prix_moyen": "850€ / semaine",
+        "avis": "7,4/10",
+        "points_positifs": [
+            "Présence d'un parc aquatique",
+            "Quartier prisé de L’Hivernage",
+            "Petit-déjeuner inclus, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,4)"
+        ],
+        "equipements": [
+            "Parc aquatique",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🎢 Ludique, familial et animé",
+            "public": "Familles cherchant des toboggans et un emplacement central à Marrakech",
+            "style": "Resort 4 étoiles avec aquapark",
+            "verdict": "Une option divertissante pour les familles voyageant avec des enfants."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 523 expériences vécues · Mise à jour : 2026"
+    },
+    "Amadil Ocean Club": {
+        "pays": "Maroc",
+        "ville": "Baie d'Agadir, Agadir",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/amadil-ocean-club.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la baie d'Agadir face à l'océan, cet établissement propose un très bon confort de 8,9 avec vue sur piscine et petit-déjeuner inclus.",
+        "prix_moyen": "838€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort élevé de 8,9 en front de mer",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Forte affluence touristique"
+        ],
+        "equipements": [
+            "Front de mer",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire, animé et confortable",
+            "public": "Familles et vacanciers cherchant un grand hôtel de bord de mer à Agadir",
+            "style": "Resort balnéaire 4 étoiles",
+            "verdict": "Une valeur sûre très appréciée pour profiter des plages d'Agadir."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 4 961 expériences vécues · Mise à jour : 2026"
+    },
+    "Radisson Blu Resort Taghazout Bay Surf Village": {
+        "pays": "Maroc",
+        "ville": "Taghazout",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/radisson-blu-taghazout-surf.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Taghazout, ce resort 5 étoiles propose un certificat de durabilité, de superbes bungalows avec terrasse vue jardin et le petit-déjeuner inclus.",
+        "prix_moyen": "1 272€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Confort élevé de 8,3 avec certificat de durabilité",
+            "Bungalows privatifs, petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Bungalow",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "🏄 Marin, éco-responsable et sportif",
+            "public": "Amateurs de surf et de grands espaces haut de gamme à Taghazout",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Un complexe exceptionnel orienté vers la glisse et le confort moderne."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 737 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Riu Palace Tikida Taghazout - All Inclusive": {
+        "pays": "Maroc",
+        "ville": "Taghazout",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/riu-palace-tikida-taghazout.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Taghazout, ce somptueux resort 5 étoiles propose un certificat de durabilité, un confort de 8,5 en formule tout compris avec paiement sur place.",
+        "prix_moyen": "2 209€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Certificat de durabilité",
+            "Formule tout compris de grand luxe",
+            "Annulation gratuite, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Budget élevé"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Tout compris",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Somptueux, marin et tout compris",
+            "public": "Voyageurs cherchant le summum du tout compris 5 étoiles les pieds dans l'eau à Taghazout",
+            "style": "Resort de luxe 5 étoiles tout compris",
+            "verdict": "Une adresse prestigieuse pour un séjour balnéaire ultra-confortable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 424 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel La Casa Blanca": {
+        "pays": "Maroc",
+        "ville": "Tétouan",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/la-casa-blanca-tetouan.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tétouan, cet hôtel propose des chambres deluxe doubles ou lits jumeaux avec un très bon confort de 8,7 et l'annulation gratuite.",
+        "prix_moyen": "177€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Confort élevé de 8,7 à Tétouan",
+            "Annulation gratuite et tarif très attractif"
+        ],
+        "points_negatifs": [
+            "Petit-déjeuner non inclus dans cette offre de base"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Urbain, andalou et économique",
+            "public": "Voyageurs cherchant un pied-à-terre confortable et abordable pour visiter Tétouan",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une excellente affaire pour découvrir la colombe blanche du nord du Maroc."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 497 expériences vécues · Mise à jour : 2026"
+    },
+    "Courtyard by Marriott Casablanca Downtown": {
+        "pays": "Maroc",
+        "ville": "Maârif, Casablanca",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/courtyard-by-marriott-casablanca-downtown.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier de Maârif à Casablanca, cet hôtel propose un superbe confort de 9,0, le dîner compris, l'annulation gratuite et le paiement sur place.",
+        "prix_moyen": "637€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort exceptionnel de 9,0",
+            "Dîner compris, annulation gratuite, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Dîner compris",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Chic, moderne et pratique",
+            "public": "Voyageurs d'affaires et touristes cherchant les standards internationaux Marriott au cœur de Casablanca",
+            "style": "Hôtel de luxe 4 étoiles",
+            "verdict": "Une valeur sûre de grand standing idéalement située dans le quartier animé de Maârif."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 194 expériences vécues · Mise à jour : 2026"
+    },
+    "Auberge des Cascades Imouzzer - Paradise Valley": {
+        "pays": "Maroc",
+        "ville": "Imouzzer",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/auberge-des-cascades-imouzzer.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Imouzzer près de Paradise Valley, cet établissement propose un bon confort de 8,0 avec climatisation et annulation gratuite.",
+        "prix_moyen": "332€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Très bien noté (8,0)",
+            "Cadre naturel spectaculaire près de Paradise Valley",
+            "Chambres climatisées, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Prestations rustiques de montagne"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Naturel, pittoresque et reposant",
+            "public": "Randonneurs et amoureux de nature cherchant une halte près des cascades d'Imouzzer",
+            "style": "Auberge de montagne",
+            "verdict": "Une halte parfaite pour explorer Paradise Valley et les paysages de l'Atlas."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 349 expériences vécues · Mise à jour : 2026"
+    },
+    "MH HOTEL LA CASA": {
+        "pays": "Maroc",
+        "ville": "Laâyoune",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/mh-hotel-la-casa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Laâyoune, cet hôtel propose des chambres doubles supérieures avec un excellent confort de 9,1, l'annulation gratuite et le paiement sur place.",
+        "prix_moyen": "456€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort élevé de 9,1",
+            "Annulation gratuite, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Petit-déjeuner non inclus par défaut"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Annulation gratuite",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Moderne, propre et soigné",
+            "public": "Voyageurs cherchant un hébergement de qualité supérieure à Laâyoune",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option très confortable et flexible dans le sud du pays."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 150 expériences vécues · Mise à jour : 2026"
+    },
+    "Manzil Hotel": {
+        "pays": "Maroc",
+        "ville": "Roches Noires, Casablanca",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/manzil-casablanca.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier des Roches Noires à Casablanca, cet hôtel propose des chambres doubles climatisées à un tarif très économique.",
+        "prix_moyen": "262€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très bien noté (8,4)",
+            "Confort de 8,6 avec chambres climatisées",
+            "Tarif très accessible"
+        ],
+        "points_negatifs": [
+            "Petit-déjeuner non inclus"
+        ],
+        "equipements": [
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain et économique",
+            "public": "Petits budgets cherchant un hôtel fonctionnel et bien noté à Casablanca",
+            "style": "Hôtel de ville",
+            "verdict": "Une excellente option économique pour un séjour dans la capitale économique."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 719 expériences vécues · Mise à jour : 2026"
+    },
+    "Tanger Miramonte - Resort Seaside Suites & Double Rooms": {
+        "pays": "Maroc",
+        "ville": "Tanger",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/tanger-miramonte.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tanger, ce resort en bord de mer propose des chambres triples avec vue sur montagne, un grand confort de 9,0 et le petit-déjeuner inclus.",
+        "prix_moyen": "865€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très bien noté (8,4)",
+            "Confort exceptionnel de 9,0 avec vue sur montagne",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Dernière chambre disponible à ce tarif"
+        ],
+        "equipements": [
+            "Front de mer",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Marin, panoramique et soigné",
+            "public": "Voyageurs cherchant un cadre balnéaire de qualité à Tanger",
+            "style": "Resort balnéaire 4 étoiles",
+            "verdict": "Une belle adresse pour profiter des panoramas uniques de Tanger."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 225 expériences vécues · Mise à jour : 2026"
+    },
+    "Mira Palace Hotel": {
+        "pays": "Maroc",
+        "ville": "Al Hoceïma",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/mira-palace-al-hoceima.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Al Hoceïma, ce palais hôtelier propose des chambres doubles supérieures climatisées, un confort de 8,6 et le petit-déjeuner inclus.",
+        "prix_moyen": "509€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très bien noté (8,4)",
+            "Confort élevé de 8,6",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs variables en haute saison"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire et élégant",
+            "public": "Voyageurs cherchant un standing supérieur sur la côte méditerranéenne d'Al Hoceïma",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Une option de choix pour un séjour soigné en bord de mer."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 528 expériences vécues · Mise à jour : 2026"
+    },
+    "Jnane Ayam Atlas": {
+        "pays": "Maroc",
+        "ville": "Ourika",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/jnane-ayam-atlas.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la vallée de l'Ourika, cet établissement propose des chambres doubles climatisées, un bon confort de 8,5 et le petit-déjeuner inclus.",
+        "prix_moyen": "580€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort de 8,5 dans un cadre naturel préservé",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Disponibilité limitée"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Montagnard, calme et verdoyant",
+            "public": "Amateurs de nature cherchant un havre de paix au pied de l'Atlas",
+            "style": "Hôtel de charme / Kasbah",
+            "verdict": "Un superbe cadre dépaysant pour se ressourcer dans la vallée."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 123 expériences vécues · Mise à jour : 2026"
+    },
+    "Auberge Palacio Sidi Hamza": {
+        "pays": "Maroc",
+        "ville": "Tazrouft",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/palacio-sidi-hamza.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tazrouft, cet établissement fabuleux propose un confort de 8,6 avec des lits doubles, le petit-déjeuner inclus et l'annulation gratuite.",
+        "prix_moyen": "339€ / semaine",
+        "avis": "9,1/10",
+        "points_positifs": [
+            "Fabuleux (9,1)",
+            "Confort élevé de 8,6 dans un cadre unique",
+            "Petit-déjeuner inclus, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Isolement géographique"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏜️ Dépaysant, historique et authentique",
+            "public": "Voyageurs cherchant une étape de charme authentique dans le sud marocain",
+            "style": "Auberge de charme / Kasbah",
+            "verdict": "Une adresse chaleureuse et très bien notée pour une immersion culturelle."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 200 expériences vécues · Mise à jour : 2026"
+    },
+    "MAGNIFIQUE HOTEL": {
+        "pays": "Maroc",
+        "ville": "Nador",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/magnifique-nador.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Nador, cet hôtel propose des chambres doubles climatisées, un bon confort de 8,3, un petit-déjeuner inclus et le paiement sur place sans prépaiement.",
+        "prix_moyen": "428€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Très bien noté (8,0)",
+            "Confort de 8,3 à Nador",
+            "Petit-déjeuner inclus, annulation gratuite étendue, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Infrastructures classiques"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Pratique, urbain et flexible",
+            "public": "Voyageurs cherchant une étape confortable et bien située à Nador",
+            "style": "Hôtel de ville",
+            "verdict": "Un choix sûr et flexible pour un séjour dans le nord-est du Maroc."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 438 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Leonor": {
+        "pays": "Maroc",
+        "ville": "Had Beni Chiker",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/leonor-had-beni-chiker.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Had Beni Chiker, cet hôtel propose des chambres doubles avec balcon, un très bon confort de 8,2 et le petit-déjeuner inclus.",
+        "prix_moyen": "313€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Confort de 8,2 avec balcon et lit king-size",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Situation en zone rurale/périphérique"
+        ],
+        "equipements": [
+            "Balcon",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Calme, simple et accueillant",
+            "public": "Voyageurs cherchant un point de chute propre et confortable hors des sentiers battus",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option chaleureuse et économique pour explorer la région du Rif."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 140 expériences vécues · Mise à jour : 2026"
+    },
+    "Radisson Blu Resort Saidia Beach": {
+        "pays": "Maroc",
+        "ville": "Saïdia",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/radisson-blu-resort-saidia-beach.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Saïdia, ce resort 5 étoiles propose des chambres supérieures avec balcon et vue sur jardin, le petit-déjeuner inclus et un tarif promotionnel.",
+        "prix_moyen": "1 153€ / semaine",
+        "avis": "7,8/10",
+        "points_positifs": [
+            "Standards de la chaîne internationale Radisson Blu",
+            "Chambres supérieures avec balcon et vue jardin",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Note globale moyenne (7,8)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Balcon",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire, moderne et soigné",
+            "public": "Voyageurs cherchant un resort 5 étoiles de grande marque sur la côte méditerranéenne",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une option fiable et confortable pour un séjour balnéaire à Saïdia."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 649 expériences vécues · Mise à jour : 2026"
+    },
+    "JEMAA EL FNA Suites & Spa": {
+        "pays": "Maroc",
+        "ville": "Médina, Marrakech",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/jemaa-el-fna-suites-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Médina de Marrakech, cet hôtel propose de superbes suites junior avec spa, un confort élevé de 9,2 et un emplacement idéal.",
+        "prix_moyen": "1 078€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort exceptionnel de 9,2",
+            "Emplacement de choix dans la Médina avec spa"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "Spa",
+            "Suite junior",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Traditionnel, luxueux et central",
+            "public": "Voyageurs cherchant un havre de paix haut de gamme en plein cœur de la Médina",
+            "style": "Hôtel-boutique / Riad de luxe",
+            "verdict": "Une adresse magnifique pour s'immerger dans l'atmosphère de Marrakech tout en profitant d'un grand confort."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 828 expériences vécues · Mise à jour : 2026"
+    },
+    "NOMMOS Beach RESORT & POOL CLUB": {
+        "pays": "Maroc",
+        "ville": "Marrakech",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/nommos-beach-resort-pool-club.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marrakech, ce resort de luxe propose de superbes villas privées avec piscine, un confort exceptionnel de 9,4 et le petit-déjeuner inclus.",
+        "prix_moyen": "2 777€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,4 avec villa et piscine privée de 320 m²",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Budget très élevé"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Piscine privée",
+            "Villa entière",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Exclusif, festif et somptueux",
+            "public": "Clientèle très aisée cherchant l'intimité d'une villa avec piscine privée à Marrakech",
+            "style": "Resort de luxe / Villas privées",
+            "verdict": "Le summum du standing et de l'exclusivité pour un séjour d'exception."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 60 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Miramonte": {
+        "pays": "Maroc",
+        "ville": "Souika, Chefchaouen",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/miramonte-chefchaouen.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier de Souika à Chefchaouen, cet hôtel propose des chambres lits jumeaux avec vue sur la montagne et un très bon confort de 8,6.",
+        "prix_moyen": "381€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très bien noté (8,4)",
+            "Confort élevé de 8,6 avec vue sur la montagne",
+            "Emplacement pittoresque à Chefchaouen"
+        ],
+        "points_negatifs": [
+            "Disponibilité limitée"
+        ],
+        "equipements": [
+            "Vue montagne",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "⛰️ Pittoresque, coloré et charmant",
+            "public": "Voyageurs cherchant un point de chute confortable pour explorer la ville bleue",
+            "style": "Hôtel de tourisme de charme",
+            "verdict": "Une très belle option pour admirer les paysages montagneux du Rif."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 336 expériences vécues · Mise à jour : 2026"
+    },
+    "Ennakhil Marrakech Hotel & SPA": {
+        "pays": "Maroc",
+        "ville": "Marrakech",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/ennakhil-marrakech-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marrakech, cet hôtel avec spa propose des chambres avec vue sur piscine, le petit-déjeuner inclus et un tarif abordable.",
+        "prix_moyen": "663€ / semaine",
+        "avis": "7,2/10",
+        "points_positifs": [
+            "Présence d'un spa et d'une piscine",
+            "Petit-déjeuner inclus",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,2)"
+        ],
+        "equipements": [
+            "Spa",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Reposant et économique",
+            "public": "Voyageurs cherchant un hôtel avec spa à prix modéré à Marrakech",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Une alternative correcte pour profiter des bienfaits d'un spa sans se ruiner."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 664 expériences vécues · Mise à jour : 2026"
+    },
+    "Fes Heritage Boutique luxury Hotel": {
+        "pays": "Maroc",
+        "ville": "Fès el-Bali, Fès",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/fes-heritage-boutique-luxury.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la médina historique de Fès el-Bali, ce luxueux boutique-hôtel affiche un confort exceptionnel quasi-parfait de 9,8 avec annulation gratuite.",
+        "prix_moyen": "2 030€ / semaine",
+        "avis": "9,8/10",
+        "points_positifs": [
+            "Exceptionnel (9,8 - l'une des meilleures notes)",
+            "Confort exceptionnel de 9,8 au cœur de Fès",
+            "Annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Budget très élevé"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Boutique-hôtel de luxe",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Somptueux, historique et raffiné",
+            "public": "Voyageurs cherchant le summum du raffinement et du service haut de gamme dans la médina de Fès",
+            "style": "Riad / Boutique-hôtel de luxe 5 étoiles",
+            "verdict": "Une adresse d'exception (confort 9,8/10) pour un séjour inoubliable au cœur de l'histoire marocaine."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 420 expériences vécues · Mise à jour : 2026"
+    },
+    "Palais Rhoul Dakhla": {
+        "pays": "Maroc",
+        "ville": "Dakhla",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/palais-rhoul-dakhla.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Dakhla, ce palais hôtelier propose de superbes suites avec vue sur mer, un confort élevé de 9,3 et le petit-déjeuner inclus.",
+        "prix_moyen": "2 696€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,3 avec vue sur mer",
+            "Suites spacieuses de 50 m², petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs très élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Vue mer",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Luxueux, marin et prestigieux",
+            "public": "Voyageurs cherchant un standing hôtelier exclusif face aux lagunes de Dakhla",
+            "style": "Palais / Resort de luxe 5 étoiles",
+            "verdict": "Un cadre somptueux et paisible pour un séjour d'exception dans le grand sud."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 88 expériences vécues · Mise à jour : 2026"
+    },
+    "Le Palazzo": {
+        "pays": "Maroc",
+        "ville": "Kasbah, Essaouira",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/le-palazzo-essaouira.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier de la Kasbah à Essaouira, cet établissement de charme propose de somptueuses suites master, un confort exceptionnel de 9,6 et le petit-déjeuner inclus.",
+        "prix_moyen": "1 836€ / semaine",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Fabuleux (9,2)",
+            "Confort remarquable de 9,6",
+            "Suite master spacieuse de 47 m², petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Budget élevé"
+        ],
+        "equipements": [
+            "Suite master",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Élégant, artistique et historique",
+            "public": "Voyageurs cherchant un hébergement de grande classe dans la médina d'Essaouira",
+            "style": "Riad / Boutique-hôtel de luxe",
+            "verdict": "Une magnifique demeure pour allier charme balnéaire et confort absolu."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 916 expériences vécues · Mise à jour : 2026"
+    },
+    "Corner Residence by GoodMove - Casablanca": {
+        "pays": "Maroc",
+        "ville": "Maârif, Casablanca",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/corner-residence-goodmove-casablanca.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier animé de Maârif à Casablanca, cet établissement propose des suites standard climatisées avec un excellent confort de 9,0.",
+        "prix_moyen": "478€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très bien noté (8,4)",
+            "Confort élevé de 9,0",
+            "Emplacement de premier choix dans le quartier de Maârif"
+        ],
+        "points_negatifs": [
+            "Petit-déjeuner non inclus dans cette offre de base"
+        ],
+        "equipements": [
+            "Suite standard",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Moderne, urbain et confortable",
+            "public": "Voyageurs cherchant des suites soignées dans un quartier dynamique de Casablanca",
+            "style": "Apparthôtel / Suites urbaines",
+            "verdict": "Une option moderne et très confortable pour un séjour urbain réussi."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 17 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Menzeh Dalia": {
+        "pays": "Maroc",
+        "ville": "Meknès",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/menzeh-dalia-meknes.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Meknès, cet hôtel propose des chambres lits jumeaux climatisées, le petit-déjeuner inclus et un tarif promotionnel attractif.",
+        "prix_moyen": "460€ / semaine",
+        "avis": "7,0/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Chambres climatisées",
+            "Tarif promotionnel actuel"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,0)"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Culturel et fonctionnel",
+            "public": "Voyageurs cherchant un grand hôtel classique pour visiter la ville impériale de Meknès",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Une option de base commode pour explorer les monuments historiques de Meknès."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 546 expériences vécues · Mise à jour : 2026"
+    },
+"Hotel Riu Tikida Dunas - All inclusive": {
+        "pays": "Maroc",
+        "ville": "Founty, Agadir",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/riu-tikida-dunas.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la baie d'Agadir, ce resort 4 étoiles propose un certificat de durabilité, des chambres vue mer en formule tout compris, l'annulation gratuite et le paiement sur place.",
+        "prix_moyen": "1 964€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Très bien noté (8,0)",
+            "Confort élevé de 8,4 avec vue sur mer",
+            "Certificat de durabilité, formule tout compris, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Certificat de durabilité",
+            "Tout compris",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire, animé et tout compris",
+            "public": "Familles et voyageurs cherchant un club de vacances tout compris de premier plan face à l'océan à Agadir",
+            "style": "Resort club 4 étoiles",
+            "verdict": "Une excellente référence tout compris pour profiter pleinement des plages d'Agadir en toute flexibilité."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 871 expériences vécues · Mise à jour : 2026"
+    },
+    "Maison Kenoosha Boutique Hotel & Spa": {
+        "pays": "Maroc",
+        "ville": "Marrakech",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/maison-kenoosha-boutique-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marrakech, ce somptueux boutique-hôtel avec spa affiche un confort exceptionnel de 9,8 avec des chambres deluxe pourvues d'une baignoire.",
+        "prix_moyen": "3 857€ / semaine",
+        "avis": "9,6/10",
+        "points_positifs": [
+            "Exceptionnel (9,6 - score remarquable)",
+            "Confort exceptionnel de 9,8 avec spa et baignoire de luxe",
+            "Prestations haut de gamme"
+        ],
+        "points_negatifs": [
+            "Budget très élevé"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Boutique-hôtel de luxe",
+            "Spa",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Somptueux, intime et raffiné",
+            "public": "Voyageurs exigeants cherchant l'excellence et l'intimité d'un boutique-hôtel de luxe à Marrakech",
+            "style": "Boutique-hôtel 5 étoiles avec spa",
+            "verdict": "Une adresse d'exception absolue (confort 9,8/10) pour un séjour somptueux dans la ville ocre."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 69 expériences vécues · Mise à jour : 2026"
+    },
+    "Mercure Shéhérazade Rabat": {
+        "pays": "Maroc",
+        "ville": "Hassan, Rabat",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/mercure-sheherazade-rabat.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier Hassan à Rabat, cet hôtel propose un bon confort de 8,3 avec petit-déjeuner inclus, annulation gratuite étendue et paiement sur place.",
+        "prix_moyen": "677€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Standards de la chaîne internationale Mercure",
+            "Confort de 8,3 au cœur de Rabat",
+            "Petit-déjeuner inclus, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Tarifs variables"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Centre-ville",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain, fiable et pratique",
+            "public": "Voyageurs d'affaires et touristes cherchant un hôtel de chaîne fiable et central à Rabat",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Une option sûre et bien située pour un séjour professionnel ou touristique dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 434 expériences vécues · Mise à jour : 2026"
+    },
+    "Almaha Marrakech Restaurant & SPA": {
+        "pays": "Maroc",
+        "ville": "Kasbah, Marrakech",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/almaha-marrakech-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier de la Kasbah à Marrakech, cet hôtel de luxe propose de superbes suites junior avec terrasse privée, un spa et le petit-déjeuner inclus.",
+        "prix_moyen": "3 705€ / semaine",
+        "avis": "9,3/10",
+        "points_positifs": [
+            "Fabuleux (9,3)",
+            "Confort exceptionnel de 9,4 avec suites dotées d'une terrasse privée",
+            "Spa de classe mondiale, petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Budget très élevé"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa",
+            "Terrasse privée",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Prestigieux, artistique et intime",
+            "public": "Voyageurs cherchant un riad-palais de grand luxe avec spa au cœur de Marrakech",
+            "style": "Riad-boutique de luxe 5 étoiles",
+            "verdict": "Une oasis de raffinement absolu pour un séjour somptueux et paisible dans la Médina."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 426 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Dar Zitoune Taroudant": {
+        "pays": "Maroc",
+        "ville": "Taroudant",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/dar-zitoune-taroudant.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Taroudant, cet établissement propose de superbes bungalows climatisés avec un confort exceptionnel de 9,5, le petit-déjeuner inclus et l'annulation gratuite.",
+        "prix_moyen": "729€ / semaine",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Fabuleux (9,2)",
+            "Confort exceptionnel de 9,5 avec bungalows privatifs",
+            "Petit-déjeuner inclus, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Disponibilité limitée"
+        ],
+        "equipements": [
+            "Bungalow",
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Luxueux, verdoyant et reposant",
+            "public": "Voyageurs cherchant un havre de paix haut de gamme au cœur des remparts de Taroudant",
+            "style": "Hôtel-boutique / Bungalows de charme",
+            "verdict": "Une adresse somptueuse et très bien notée (confort 9,5/10) pour un séjour inoubliable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 290 expériences vécues · Mise à jour : 2026"
+    },
+    "Royal Tulip City Center": {
+        "pays": "Maroc",
+        "ville": "Tanger",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/royal-tulip-city-center-tanger.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tanger, cet hôtel 5 étoiles propose un superbe confort de 9,1 avec un petit-déjeuner inclus, l'annulation gratuite et le paiement sur place.",
+        "prix_moyen": "1 032€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort élevé de 9,1",
+            "Standards de la chaîne Royal Tulip, petit-déjeuner inclus, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Centre-ville",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, moderne et pratique",
+            "public": "Voyageurs d'affaires et touristes exigeants cherchant un grand 5 étoiles bien situé à Tanger",
+            "style": "Hôtel de luxe 5 étoiles",
+            "verdict": "Une option de grand standing idéale pour un séjour tout confort dans la ville du détroit."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 4 075 expériences vécues · Mise à jour : 2026"
+    },
+    "Hilton Garden Inn Tanger City Center": {
+        "pays": "Maroc",
+        "ville": "Tanger",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/hilton-garden-inn-tanger.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tanger, cet hôtel 4 étoiles propose un certificat de durabilité, un confort de 8,7 et la formule avec dîner compris.",
+        "prix_moyen": "635€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Certificat de durabilité et standards de la chaîne Hilton",
+            "Confort élevé de 8,7",
+            "Formule avec dîner compris"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Certificat de durabilité",
+            "Dîner compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Moderne, fiable et éco-responsable",
+            "public": "Voyageurs cherchant un hôtel international moderne et bien desservi à Tanger",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Une valeur sûre de grande marque pour un séjour urbain sans souci."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 407 expériences vécues · Mise à jour : 2026"
+    },
+    "Riad Dar Amazonia": {
+        "pays": "Maroc",
+        "ville": "Kasbah, Marrakech",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/riad-dar-amazonia.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier de la Kasbah à Marrakech, ce riad propose de superbes chambres double deluxe, un confort de 9,2 et le petit-déjeuner inclus.",
+        "prix_moyen": "710€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort exceptionnel de 9,2 dans la Médina",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Dernière chambre disponible à ce tarif"
+        ],
+        "equipements": [
+            "Riad de charme",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Traditionnel, chaleureux et intime",
+            "public": "Voyageurs cherchant l'authenticité d'un riad de charme bien noté à Marrakech",
+            "style": "Riad traditionnel",
+            "verdict": "Une magnifique adresse pour vivre l'expérience marocaine dans un cadre très confortable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 74 expériences vécues · Mise à jour : 2026"
+    },
+    "El Olivar Palace Marrakech All Inclusive, Aquapark & SPA": {
+        "pays": "Maroc",
+        "ville": "Marrakech",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/el-olivar-palace-marrakech.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marrakech, ce grand resort 5 étoiles propose un parc aquatique, un spa, un confort de 8,6 en formule tout compris et l'annulation gratuite.",
+        "prix_moyen": "1 380€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Confort élevé de 8,6 avec parc aquatique et spa",
+            "Formule tout compris, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Parc aquatique",
+            "Spa",
+            "Tout compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🎢 Ludique, familial et tout compris",
+            "public": "Familles cherchant un grand complexe avec toboggans et formule tout compris à Marrakech",
+            "style": "Resort de luxe 5 étoiles avec aquapark",
+            "verdict": "Un choix idéal pour des vacances familiales rythmées et sans contrainte dans la ville ocre."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 625 expériences vécues · Mise à jour : 2026"
+    },
+    "SBN Suite Hôtel": {
+        "pays": "Maroc",
+        "ville": "Tanger",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/sbn-suite-tanger.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tanger, cet établissement propose de spacieuses suites standard de 45 m², un superbe confort de 8,8, le petit-déjeuner inclus et l'annulation gratuite.",
+        "prix_moyen": "755€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort élevé de 8,8 avec de grands espaces (suites de 45 m²)",
+            "Petit-déjeuner inclus, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Disponibilité limitée"
+        ],
+        "equipements": [
+            "Suite standard",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Spacieux, moderne et soigné",
+            "public": "Familles ou voyageurs cherchant de grands volumes tout confort à Tanger",
+            "style": "Apparthôtel / Suites hôtelières",
+            "verdict": "Une option très confortable pour profiter de Tanger avec un espace de vie généreux."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 611 expériences vécues · Mise à jour : 2026"
+    },
+    "Ibis Casablanca City Center": {
+        "pays": "Maroc",
+        "ville": "Sidi Belyout, Casablanca",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/ibis-casablanca-city-center.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier de Sidi Belyout au centre de Casablanca, cet hôtel propose des chambres lits jumeaux standard climatisées.",
+        "prix_moyen": "321€ / semaine",
+        "avis": "7,8/10",
+        "points_positifs": [
+            "Standards de la chaîne internationale Ibis",
+            "Emplacement central à Sidi Belyout (Casablanca)",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Petit-déjeuner non inclus par défaut"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain, fonctionnel et économique",
+            "public": "Voyageurs d'affaires ou touristes cherchant un pied-à-terre simple, propre et central à Casablanca",
+            "style": "Hôtel économique de chaîne",
+            "verdict": "Une valeur sûre ultra-standardisée pour un séjour sans mauvaise surprise."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 4 695 expériences vécues · Mise à jour : 2026"
+    },
+    "Ibis Fes": {
+        "pays": "Maroc",
+        "ville": "Fès",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/ibis-fes.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Fès, l'Ibis Fes propose des chambres double standard climatisées à un tarif très abordable.",
+        "prix_moyen": "338€ / semaine",
+        "avis": "7,2/10",
+        "points_positifs": [
+            "Standards fiables de la chaîne Ibis",
+            "Chambres climatisées",
+            "Tarif économique"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,2)",
+            "Petit-déjeuner non inclus"
+        ],
+        "equipements": [
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain et économique",
+            "public": "Petits budgets cherchant un hôtel standard et propre pour une étape à Fès",
+            "style": "Hôtel économique de chaîne",
+            "verdict": "Un choix de secours pratique et sans fioritures pour visiter la ville spirituelle."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 805 expériences vécues · Mise à jour : 2026"
+    },
+    "Silver Suites Hotel Casablanca": {
+        "pays": "Maroc",
+        "ville": "Sidi Belyout, Casablanca",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/silver-suites-casablanca.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sidi Belyout (Casablanca), cet établissement propose des suites junior climatisées avec un très bon confort de 8,0.",
+        "prix_moyen": "398€ / semaine",
+        "avis": "7,3/10",
+        "points_positifs": [
+            "Confort de 8,0 au centre de Casablanca",
+            "Suites junior spacieuses avec climatisation",
+            "Tarif promotionnel actuel"
+        ],
+        "points_negatifs": [
+            "Note globale moyenne (7,3)"
+        ],
+        "equipements": [
+            "Suite junior",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain et spacieux",
+            "public": "Voyageurs cherchant de grands espaces (suites) à prix modéré à Casablanca",
+            "style": "Apparthôtel / Suites de ville",
+            "verdict": "Une alternative intéressante pour bénéficier d'une suite économique en centre-ville."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 432 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Suite Martil": {
+        "pays": "Maroc",
+        "ville": "Martil",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/suite-martil.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Martil, cet établissement propose des chambres doubles avec terrasse, un bon confort de 8,2 et le petit-déjeuner inclus.",
+        "prix_moyen": "411€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Confort de 8,2 avec terrasse",
+            "Petit-déjeuner inclus, annulation gratuite",
+            "Tarif promotionnel actuel"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,9)"
+        ],
+        "equipements": [
+            "Terrasse",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire et pratique",
+            "public": "Voyageurs cherchant un pied-à-terre confortable avec terrasse à Martil",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option agréable pour profiter de la station balnéaire du nord."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 853 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Riu Palace Tikida Agadir - All Inclusive": {
+        "pays": "Maroc",
+        "ville": "Baie d'Agadir, Agadir",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/riu-palace-tikida-agadir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la baie d'Agadir, ce resort 5 étoiles de luxe propose un certificat de durabilité, des chambres avec balcon en formule tout compris et le paiement sur place.",
+        "prix_moyen": "2 245€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Confort élevé de 8,8 avec balcon",
+            "Certificat de durabilité, formule tout compris, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Tout compris",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, marin et tout compris",
+            "public": "Voyageurs cherchant le summum du tout compris 5 étoiles face à l'océan à Agadir",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une magnifique adresse pour un séjour balnéaire prestigieux et sans le moindre souci."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 581 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Tamuda Beach": {
+        "pays": "Maroc",
+        "ville": "M'diq",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/tamuda-beach-m-diq.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à M'diq, cet hôtel propose un superbe confort de 8,7 avec un très grand lit double, le petit-déjeuner inclus et une annulation gratuite.",
+        "prix_moyen": "612€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Confort exceptionnel de 8,7",
+            "Petit-déjeuner inclus, annulation gratuite",
+            "Chambres spacieuses avec très grand lit double"
+        ],
+        "points_negatifs": [
+            "Disponibilité limitée"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire et confortable",
+            "public": "Familles et couples cherchant un bon niveau de confort sur la côte méditerranéenne",
+            "style": "Hôtel balnéaire 4 étoiles",
+            "verdict": "Une option de choix pour profiter des plages de M'diq dans de bonnes conditions."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 451 expériences vécues · Mise à jour : 2026"
+    },
+    "Kyriad Residence Casablanca": {
+        "pays": "Maroc",
+        "ville": "Roches Noires, Casablanca",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/kyriad-residence-casablanca.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier des Roches Noires à Casablanca, cet établissement propose des studios standard de 28 m², l'annulation gratuite et le paiement sur place.",
+        "prix_moyen": "335€ / semaine",
+        "avis": "7,5/10",
+        "points_positifs": [
+            "Standards de la chaîne internationale Kyriad",
+            "Studios de 28 m² climatisés",
+            "Aucun prépaiement requis, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Petit-déjeuner non inclus par défaut"
+        ],
+        "equipements": [
+            "Studio",
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain, pratique et autonome",
+            "public": "Voyageurs d'affaires ou touristes cherchant un studio fonctionnel et flexible à Casablanca",
+            "style": "Apparthôtel 3 étoiles",
+            "verdict": "Une option simple et économique pour un séjour en toute autonomie."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 711 expériences vécues · Mise à jour : 2026"
+    },
+    "Be Live Collection Saïdia": {
+        "pays": "Maroc",
+        "ville": "Saïdia",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/be-live-collection-saidia.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Saïdia, ce resort 5 étoiles propose un confort exceptionnel de 9,3 en formule tout compris avec des chambres doubles supérieures.",
+        "prix_moyen": "933€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,3",
+            "Formule tout compris de haute qualité"
+        ],
+        "points_negatifs": [
+            "Forte demande en haute saison"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Balnéaire, somptueux et tout compris",
+            "public": "Voyageurs cherchant un resort 5 étoiles haut de gamme en formule tout compris à Saïdia",
+            "style": "Resort de luxe 5 étoiles tout compris",
+            "verdict": "Une excellente adresse (confort 9,3/10) pour des vacances inoubliables sur la Méditerranée."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 758 expériences vécues · Mise à jour : 2026"
+    },
+    "Hapimag Resort Marrakesh": {
+        "pays": "Maroc",
+        "ville": "La Palmeraie, Marrakech",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/hapimag-resort-marrakesh.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la Palmeraie de Marrakech, ce resort propose un superbe confort de 9,1 avec un très grand lit double, le petit-déjeuner inclus et une annulation gratuite.",
+        "prix_moyen": "1 092€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort élevé de 9,1 dans la paisible Palmeraie",
+            "Petit-déjeuner inclus, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Disponibilité limitée"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Verdoyant, calme et soigné",
+            "public": "Voyageurs cherchant un cadre hôtelier reposant et de grande qualité dans la Palmeraie",
+            "style": "Resort 4 étoiles",
+            "verdict": "Un havre de paix élégant pour profiter de Marrakech à l'écart de l'agitation."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 89 expériences vécues · Mise à jour : 2026"
+    },
+    "Radisson Blu Hotel Casablanca City Center": {
+        "pays": "Maroc",
+        "ville": "Sidi Belyout, Casablanca",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/radisson-blu-casablanca-city-center.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé au centre de Casablanca (Sidi Belyout), cet hôtel 5 étoiles propose un confort de 8,7 avec des chambres skyline, l'annulation gratuite et un tarif promotionnel.",
+        "prix_moyen": "899€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très bien noté (8,4)",
+            "Confort élevé de 8,7 au cœur de la métropole",
+            "Standards de la chaîne Radisson Blu, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Petit-déjeuner non inclus dans cette offre de base"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Centre-ville",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Urbain, moderne et luxueux",
+            "public": "Voyageurs d'affaires et touristes cherchant un 5 étoiles design et central à Casablanca",
+            "style": "Hôtel de luxe 5 étoiles",
+            "verdict": "Une adresse urbaine irréprochable pour un séjour grand confort."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 108 expériences vécues · Mise à jour : 2026"
+    },
+    "Taghazout Bay Marriott Resort": {
+        "pays": "Maroc",
+        "ville": "Taghazout",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/taghazout-bay-marriott-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Taghazout, ce resort 5 étoiles propose un confort exceptionnel de 9,2 avec balcon, le petit-déjeuner inclus et un paiement flexible sur place.",
+        "prix_moyen": "1 947€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très bien noté (8,4)",
+            "Confort exceptionnel de 9,2 avec balcon et vue",
+            "Standards internationaux Marriott, petit-déjeuner inclus, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Balcon",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, marin et moderne",
+            "public": "Voyageurs exigeants cherchant le standing international Marriott au bord de l'océan à Taghazout",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une splendide option balnéaire haut de gamme pour un séjour irréprochable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 22 expériences vécues · Mise à jour : 2026"
+    },
+    "Kasbah Hotel Ziz Palace Rissani": {
+        "pays": "Maroc",
+        "ville": "Moulay Ali Chérif",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/kasbah-ziz-palace-rissani.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Rissani, cet hôtel propose de superbes suites junior deluxe, un bon confort de 8,2, le petit-déjeuner inclus et le paiement sur place.",
+        "prix_moyen": "441€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Cadre traditionnel de kasbah avec suites junior spacieuses (30 m²)",
+            "Petit-déjeuner inclus, aucun prépaiement requis (paiement sur place)"
+        ],
+        "points_negatifs": [
+            "Isolement géographique dans le sud"
+        ],
+        "equipements": [
+            "Suite junior",
+            "Petit-déjeuner inclus",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏜️ Dépaysant, traditionnel et authentique",
+            "public": "Voyageurs cherchant une étape confortable et de style kasbah aux portes du désert",
+            "style": "Kasbah hôtelière 4 étoiles",
+            "verdict": "Une halte parfaite pour s'imprégner de l'ambiance saharienne avec tout le confort moderne."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 485 expériences vécues · Mise à jour : 2026"
+    },
+    "Hilton Tanger City Center": {
+        "pays": "Maroc",
+        "ville": "Tanger",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/hilton-tanger-city-center.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tanger, cet hôtel 5 étoiles propose un certificat de durabilité, un confort élevé de 8,9 avec des chambres lit king-size et un emplacement stratégique.",
+        "prix_moyen": "912€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort élevé de 8,9 avec certificat de durabilité",
+            "Standards de la chaîne internationale Hilton"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Centre-ville",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Urbain, moderne et éco-responsable",
+            "public": "Voyageurs d'affaires et touristes cherchant le confort international d'un Hilton au centre de Tanger",
+            "style": "Hôtel de luxe 5 étoiles",
+            "verdict": "Une valeur sûre haut de gamme pour un séjour urbain parfaitement rodé."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 615 expériences vécues · Mise à jour : 2026"
+    },
+    "Studiotel Afoud": {
+        "pays": "Maroc",
+        "ville": "Agadir",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/studiotel-afoud.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Agadir, cet établissement propose des chambres triples climatisées, un très bon confort de 8,4, le petit-déjeuner inclus et un tarif promotionnel.",
+        "prix_moyen": "429€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très bien noté (8,4)",
+            "Confort de 8,4 adapté aux petits groupes ou familles (chambres triples)",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Infrastructures classiques"
+        ],
+        "equipements": [
+            "Chambre triple",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Pratique, familial et abordable",
+            "public": "Petites familles ou groupes d'amis cherchant un hébergement triple bien noté à Agadir",
+            "style": "Apparthôtel / Hôtel de tourisme",
+            "verdict": "Une excellente option économique et fonctionnelle pour séjourner à plusieurs."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 116 expériences vécues · Mise à jour : 2026"
+    },
+    "Grand Mogador Sea View & Spa": {
+        "pays": "Maroc",
+        "ville": "Tanger",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/grand-mogador-sea-view-tanger.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tanger face à la mer, cet hôtel 5 étoiles avec spa propose des chambres doubles supérieures avec vue sur montagne, le petit-déjeuner inclus et le dîner compris.",
+        "prix_moyen": "684€ / semaine",
+        "avis": "7,3/10",
+        "points_positifs": [
+            "Présence d'un spa et cadre face à la mer",
+            "Petit-déjeuner inclus et dîner compris (demi-pension)",
+            "Tarif promotionnel attractif"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,3)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa",
+            "Demi-pension (dîner compris)",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Marin, vaste et complet",
+            "public": "Voyageurs cherchant un grand hôtel 5 étoiles avec demi-pension à Tanger",
+            "style": "Hôtel resort 5 étoiles",
+            "verdict": "Une formule complète et avantageuse pour profiter de Tanger les pieds dans l'eau."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 562 expériences vécues · Mise à jour : 2026"
+    },
+    "Hampton By Hilton Ben Guerir": {
+        "pays": "Maroc",
+        "ville": "Benguerir",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/hampton-by-hilton-ben-guerir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Benguerir, cet hôtel propose des chambres lits jumeaux climatisées, un confort exceptionnel de 9,4 et le petit-déjeuner inclus.",
+        "prix_moyen": "396€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort exceptionnel de 9,4",
+            "Standards de la chaîne Hilton, petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "3 étoiles",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Moderne, fiable et propre",
+            "public": "Voyageurs d'affaires ou de passage cherchant le confort irréprochable d'un Hilton à Benguerir",
+            "style": "Hôtel de tourisme international",
+            "verdict": "Une adresse moderne, très bien notée et d'un excellent rapport qualité-prix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 148 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Oudaya & Spa": {
+        "pays": "Maroc",
+        "ville": "Guéliz, Marrakech",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/hotel-oudaya-marrakech.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier de Guéliz à Marrakech, cet hôtel avec spa propose des chambres double supérieures, un petit-déjeuner inclus et un tarif promotionnel.",
+        "prix_moyen": "657€ / semaine",
+        "avis": "7,3/10",
+        "points_positifs": [
+            "Emplacement central dans le quartier animé de Guéliz",
+            "Présence d'un spa, petit-déjeuner inclus",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,3)"
+        ],
+        "equipements": [
+            "Spa",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain, central et animé",
+            "public": "Voyageurs cherchant un hôtel avec spa dans la ville nouvelle de Marrakech",
+            "style": "Hôtel de ville 3 étoiles",
+            "verdict": "Un pied-à-terre pratique pour profiter des boutiques et cafés de Guéliz."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 498 expériences vécues · Mise à jour : 2026"
+    },
+    "La Paix Hôtel , Restaurant": {
+        "pays": "Maroc",
+        "ville": "Taghazout",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/la-paix-taghazout.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Taghazout, cet hôtel avec restaurant propose des chambres climatisées, un très bon confort de 8,7 et l'annulation gratuite.",
+        "prix_moyen": "307€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort élevé de 8,7 à Taghazout",
+            "Restaurant sur place, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Petit-déjeuner non inclus par défaut"
+        ],
+        "equipements": [
+            "Restaurant sur place",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏄 Marin, décontracté et abordable",
+            "public": "Surfeurs et voyageurs cherchant un hébergement confortable et bien noté face à l'océan",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une option de choix et très économique pour profiter de la vibe de Taghazout."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 225 expériences vécues · Mise à jour : 2026"
+    },
+    "The View Agadir": {
+        "pays": "Maroc",
+        "ville": "Baie d'Agadir, Agadir",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/the-view-agadir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la baie d'Agadir, ce luxueux resort 5 étoiles propose un confort exceptionnel de 9,3 avec des chambres lit king-size deluxe et le petit-déjeuner inclus.",
+        "prix_moyen": "1 564€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort exceptionnel de 9,3 face à l'océan",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Front de mer",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, marin et prestigieux",
+            "public": "Voyageurs exigeants cherchant un design moderne et un service de premier ordre sur le front de mer d'Agadir",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une adresse d'exception (confort 9,3/10) pour un séjour balnéaire haut de gamme."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 962 expériences vécues · Mise à jour : 2026"
+    },
+    "Dar HISANE": {
+        "pays": "Maroc",
+        "ville": "Marrakech",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/dar-hisane.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marrakech, cet établissement propose de somptueuses suites exécutives avec un confort parfait de 10/10, le petit-déjeuner inclus et un tarif promotionnel.",
+        "prix_moyen": "845€ / semaine",
+        "avis": "9,6/10",
+        "points_positifs": [
+            "Exceptionnel (9,6)",
+            "Confort absolu de 10/10 (note maximale)",
+            "Suites privatives climatisées, petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Disponibilité très limitée (plus que 1 disponible à ce tarif)"
+        ],
+        "equipements": [
+            "Suite exécutive",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Prestigieux, intime et parfait",
+            "public": "Voyageurs cherchant un riad ou une maison d'hôtes de luxe au confort irréprochable à Marrakech",
+            "style": "Riad de charme / Boutique-hôtel",
+            "verdict": "Un niveau de confort exceptionnel (10/10) pour un séjour mémorable dans la ville ocre."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 22 expériences vécues · Mise à jour : 2026"
+    },
+    "Suite Loc Suite & Spa": {
+        "pays": "Maroc",
+        "ville": "Sidi Belyout, Casablanca",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/suite-loc-spa-casablanca.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier de Gauthier (Sidi Belyout) à Casablanca, cet hôtel propose un spa, des chambres double deluxe, l'annulation gratuite et le petit-déjeuner inclus.",
+        "prix_moyen": "482€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Très bien noté (8,0)",
+            "Quartier prisé et central de Gauthier à Casablanca",
+            "Présence d'un spa, petit-déjeuner inclus, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "Spa",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Chic, central et relaxant",
+            "public": "Voyageurs cherchant un pied-à-terre avec spa dans le quartier branché de Gauthier",
+            "style": "Hôtel-boutique 4 étoiles",
+            "verdict": "Une excellente adresse citadine alliant détente et emplacement stratégique."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 765 expériences vécues · Mise à jour : 2026"
+    },
+    "Sillage Palace Sky & Spa": {
+        "pays": "Maroc",
+        "ville": "Marrakech",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/sillage-palace-sky-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marrakech, cet hôtel de luxe propose de superbes suites junior avec spa, un confort élevé de 9,3 et le petit-déjeuner inclus.",
+        "prix_moyen": "1 509€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort exceptionnel de 9,3 avec spa",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa",
+            "Suite junior",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, raffiné et relaxant",
+            "public": "Voyageurs cherchant un riad ou palais hôtelier de haut standing avec spa à Marrakech",
+            "style": "Hôtel de luxe 5 étoiles",
+            "verdict": "Une magnifique option pour combiner bien-être et prestige dans la ville ocre."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 705 expériences vécues · Mise à jour : 2026"
+    },
+    "Almounia Hotel & Spa": {
+        "pays": "Maroc",
+        "ville": "Taroudant",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/almounia-taroudant.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Taroudant, cet hôtel avec spa propose des chambres double standard climatisées, le petit-déjeuner inclus et l'annulation gratuite.",
+        "prix_moyen": "388€ / semaine",
+        "avis": "7,2/10",
+        "points_positifs": [
+            "Présence d'un spa",
+            "Petit-déjeuner inclus, annulation gratuite",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,2)"
+        ],
+        "equipements": [
+            "Spa",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Traditionnel et relaxant",
+            "public": "Voyageurs cherchant une étape confortable avec spa pour visiter Taroudant",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Une option pratique pour profiter des bienfaits d'un spa lors d'un séjour dans le Souss."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 135 expériences vécues · Mise à jour : 2026"
+    },
+    "DOMAINE DU DOUAR": {
+        "pays": "Maroc",
+        "ville": "Marrakech",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/domaine-du-douar.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marrakech, cet établissement propose de superbes chambres doubles avec terrasse, un confort de 8,4, le petit-déjeuner inclus et une annulation gratuite.",
+        "prix_moyen": "664€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Très bien noté (8,2)",
+            "Confort élevé de 8,4 avec terrasse privative",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Dernières chambres disponibles"
+        ],
+        "equipements": [
+            "Terrasse",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Verdoyant, paisible et charmant",
+            "public": "Voyageurs cherchant un domaine au calme avec terrasse pour se détendre près de Marrakech",
+            "style": "Hôtel de charme / Domaine",
+            "verdict": "Un cadre verdoyant et très agréable pour un séjour ressourçant."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 570 expériences vécues · Mise à jour : 2026"
+    },
+    "Ibis Meknès": {
+        "pays": "Maroc",
+        "ville": "Meknès",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/ibis-meknes.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Meknès, l'Ibis Meknès propose des chambres lits jumeaux standard climatisées aux standards de la marque.",
+        "prix_moyen": "323€ / semaine",
+        "avis": "7,2/10",
+        "points_positifs": [
+            "Standards fiables de la chaîne internationale Ibis",
+            "Chambres climatisées",
+            "Tarif économique"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,2)",
+            "Petit-déjeuner non inclus"
+        ],
+        "equipements": [
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain, simple et économique",
+            "public": "Petits budgets cherchant un hôtel propre et standardisé pour une étape à Meknès",
+            "style": "Hôtel économique de chaîne",
+            "verdict": "Une option de base sans surprise pour visiter la ville impériale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 459 expériences vécues · Mise à jour : 2026"
+    },
+    "Ibis Abdelmoumen Casa Centre": {
+        "pays": "Maroc",
+        "ville": "Maârif, Casablanca",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/ibis-abdelmoumen-casa-centre.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier de Maârif à Casablanca, cet hôtel Ibis propose des chambres lits jumeaux climatisées idéalement situées.",
+        "prix_moyen": "325€ / semaine",
+        "avis": "7,3/10",
+        "points_positifs": [
+            "Emplacement central dans le quartier animé de Maârif",
+            "Standards de la chaîne Ibis",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Petit-déjeuner non inclus par défaut"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain, pratique et économique",
+            "public": "Voyageurs d'affaires et touristes cherchant un pied-à-terre fonctionnel à Casablanca",
+            "style": "Hôtel économique de chaîne",
+            "verdict": "Une valeur sûre très bien située pour un séjour urbain maîtrisé."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 178 expériences vécues · Mise à jour : 2026"
+    },
+    "Hôtel Texuda": {
+        "pays": "Maroc",
+        "ville": "Quartier de l'Océan, Rabat",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/texuda-rabat.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le Quartier de l'Océan à Rabat, cet hôtel propose des chambres lits jumeaux climatisées, le petit-déjeuner inclus et l'annulation gratuite.",
+        "prix_moyen": "494€ / semaine",
+        "avis": "7,2/10",
+        "points_positifs": [
+            "Emplacement dans le Quartier de l'Océan à Rabat",
+            "Petit-déjeuner inclus, annulation gratuite",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,2)"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Urbain, marin et simple",
+            "public": "Voyageurs cherchant un hôtel traditionnel proche de l'océan à Rabat",
+            "style": "Hôtel de ville",
+            "verdict": "Une option correcte pour séjourner près de la mer dans la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 146 expériences vécues · Mise à jour : 2026"
+    },
+    "Novotel Mohammedia": {
+        "pays": "Maroc",
+        "ville": "Mohammédia",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/novotel-mohammedia.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Mohammédia, cet hôtel 4 étoiles propose des chambres double standard avec vue sur mer ou sur le parc.",
+        "prix_moyen": "590€ / semaine",
+        "avis": "7,0/10",
+        "points_positifs": [
+            "Standards de la chaîne internationale Novotel",
+            "Vue sur mer ou sur le parc",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Note globale moyenne (7,0)"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Vue mer",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Marin, fiable et familial",
+            "public": "Voyageurs cherchant un hôtel de chaîne confortable entre Casablanca et Rabat",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Une halte reposante et standardisée au bord de l'eau."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 663 expériences vécues · Mise à jour : 2026"
+    },
+    "Delta Hotels by Marriott Marrakech Eden Andalou": {
+        "pays": "Maroc",
+        "ville": "Marrakech",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/eden-andalou-suites-aqua-park.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marrakech, ce resort 5 étoiles de la chaîne Marriott propose de superbes chambres familiales deluxe, un confort de 9,0 en formule tout compris.",
+        "prix_moyen": "1 551€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort élevé de 9,0",
+            "Standards de la chaîne Marriott, formule tout compris, chambres familiales spacieuses"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Tout compris",
+            "Chambre familiale",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, familial et tout compris",
+            "public": "Familles cherchant le standing international Marriott en formule tout compris à Marrakech",
+            "style": "Resort de luxe 5 étoiles",
+            "verdict": "Une excellente option de grande marque pour des vacances tout confort en famille."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 614 expériences vécues · Mise à jour : 2026"
+    },
+    "Cesar Resort & Spa": {
+        "pays": "Maroc",
+        "ville": "L'Agdal, Marrakech",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/cesar-resort-spa-marrakech.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier de L'Agdal à Marrakech, cet hôtel 5 étoiles propose de superbes suites deluxe avec spa, un confort de 9,0 et le petit-déjeuner inclus.",
+        "prix_moyen": "985€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe (8,6)",
+            "Confort élevé de 9,0 avec spa et suites deluxe",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Chic, moderne et relaxant",
+            "public": "Voyageurs cherchant un hôtel 5 étoiles avec spa dans le quartier résidentiel de l'Agdal",
+            "style": "Hôtel de luxe 5 étoiles",
+            "verdict": "Une belle adresse pour allier détente au spa et grand standing à Marrakech."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 674 expériences vécues · Mise à jour : 2026"
+    },
+    "Doubletree By Hilton Ben Guerir Hotel & Residences": {
+        "pays": "Maroc",
+        "ville": "Benguerir",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/doubletree-by-hilton-ben-guerir.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Benguerir, cet établissement propose un certificat de durabilité, des chambres lits jumeaux climatisées et un superbe confort de 9,2.",
+        "prix_moyen": "488€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort exceptionnel de 9,2 avec certificat de durabilité",
+            "Standards de la chaîne internationale Hilton"
+        ],
+        "points_negatifs": [
+            "Forte demande"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Certificat de durabilité",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Moderne, éco-responsable et irréprochable",
+            "public": "Voyageurs cherchant le confort moderne et soigné d'un DoubleTree by Hilton à Benguerir",
+            "style": "Hôtel 4 étoiles international",
+            "verdict": "Une valeur sûre de grande qualité pour un séjour parfaitement rodé."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 273 expériences vécues · Mise à jour : 2026"
+    },
+    "Soho Boutique Tetuán": {
+        "pays": "Maroc",
+        "ville": "Tétouan",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/soho-boutique-tetuan.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tétouan, ce boutique-hôtel propose un superbe confort de 9,0, le petit-déjeuner inclus et l'annulation gratuite.",
+        "prix_moyen": "586€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Très bien noté (8,5)",
+            "Confort exceptionnel de 9,0",
+            "Petit-déjeuner inclus, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs variables"
+        ],
+        "equipements": [
+            "Boutique-hôtel",
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Élégant, moderne et soigné",
+            "public": "Voyageurs cherchant un boutique-hôtel de haut standing à Tétouan",
+            "style": "Boutique-hôtel 4 étoiles",
+            "verdict": "Une option de grande qualité et très confortable dans le nord du pays."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 307 expériences vécues · Mise à jour : 2026"
+    },
+    "Campanile Casablanca Centre Ville": {
+        "pays": "Maroc",
+        "ville": "Roches Noires, Casablanca",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/campanile-casablanca-centre-ville.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier des Roches Noires à Casablanca, cet hôtel propose des chambres double climatisées, l'annulation gratuite et le paiement sur place.",
+        "prix_moyen": "297€ / semaine",
+        "avis": "7,0/10",
+        "points_positifs": [
+            "Standards de la chaîne Campanile",
+            "Chambres climatisées",
+            "Aucun prépaiement requis, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,0)"
+        ],
+        "equipements": [
+            "Climatisation",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain, simple et économique",
+            "public": "Voyageurs cherchant un hôtel de chaîne fonctionnel et abordable à Casablanca",
+            "style": "Hôtel économique de chaîne",
+            "verdict": "Une solution de base économique et flexible pour un court séjour."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 467 expériences vécues · Mise à jour : 2026"
+    },
+    "Aruba Casablanca City Center": {
+        "pays": "Maroc",
+        "ville": "Sidi Belyout, Casablanca",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/aruba-casablanca-city-center.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier de Sidi Belyout au centre de Casablanca, cet établissement propose de superbes chambres lits jumeaux deluxe, le petit-déjeuner inclus et l'annulation gratuite.",
+        "prix_moyen": "709€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort exceptionnel de 9,1 au centre-ville",
+            "Petit-déjeuner inclus, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Central, moderne et confortable",
+            "public": "Voyageurs cherchant un standing hôtelier soigné en plein cœur de Casablanca",
+            "style": "Hôtel de ville supérieur",
+            "verdict": "Une adresse centrale très bien notée pour un séjour urbain haut de gamme."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 209 expériences vécues · Mise à jour : 2026"
+    },
+    "Sofitel Casablanca Tour Blanche": {
+        "pays": "Maroc",
+        "ville": "Sidi Belyout, Casablanca",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/sofitel-casablanca-tour-blanche.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier de Sidi Belyout à Casablanca, ce prestigieux hôtel 5 étoiles propose des chambres classiques avec lit king-size et un service de grand standing.",
+        "prix_moyen": "1 172€ / semaine",
+        "avis": "7,5/10",
+        "points_positifs": [
+            "Standards de luxe de la chaîne Sofitel",
+            "Chambres classiques climatisées avec grand lit double",
+            "Emplacement central dans la métropole"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,5) au regard du standing"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Centre-ville",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, design et citadin",
+            "public": "Voyageurs cherchant l'élégance française et le haut de gamme au cœur de Casablanca",
+            "style": "Hôtel de luxe 5 étoiles",
+            "verdict": "Une adresse emblématique pour un séjour prestigieux dans la capitale économique."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 506 expériences vécues · Mise à jour : 2026"
+    },
+    "Mövenpick Hotel Casablanca": {
+        "pays": "Maroc",
+        "ville": "Sidi Belyout, Casablanca",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/movenpick-hotel-casablanca.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Casablanca, cet hôtel 5 étoiles propose un certificat de durabilité, des chambres lits jumeaux classiques climatisées et un confort élevé.",
+        "prix_moyen": "892€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Certificat de durabilité et standards de la chaîne Mövenpick",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Moderne, fiable et éco-responsable",
+            "public": "Voyageurs cherchant le confort international d'un grand hôtel 5 étoiles à Casablanca",
+            "style": "Hôtel de luxe 5 étoiles",
+            "verdict": "Une valeur sûre de grande marque pour un séjour soigné et professionnel."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 003 expériences vécues · Mise à jour : 2026"
+    },
+    "Hilton Taghazout Bay Beach Resort & Spa": {
+        "pays": "Maroc",
+        "ville": "Taghazout",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/hilton-taghazout-bay-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Taghazout, ce somptueux resort 5 étoiles propose un certificat de durabilité, des chambres doubles avec deux lits doubles, un spa et le petit-déjeuner inclus.",
+        "prix_moyen": "1 862€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Confort élevé de 8,6 avec certificat de durabilité et spa",
+            "Standards internationaux Hilton, petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Spa",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, marin et relaxant",
+            "public": "Voyageurs cherchant un resort 5 étoiles de grande classe en bord de mer à Taghazout",
+            "style": "Resort de luxe 5 étoiles avec spa",
+            "verdict": "Une adresse prestigieuse pour un séjour balnéaire haut de gamme associant bien-être et grand confort."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 241 expériences vécues · Mise à jour : 2026"
+    },
+    "Radisson Hotel Casablanca Gauthier La Citadelle": {
+        "pays": "Maroc",
+        "ville": "Sidi Belyout, Casablanca",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/radisson-casablanca-gauthier.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier branché de Gauthier à Casablanca, cet hôtel 5 étoiles propose un superbe confort de 9,2 avec des chambres standard climatisées.",
+        "prix_moyen": "916€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort exceptionnel de 9,2",
+            "Emplacement de premier choix dans le quartier de Gauthier, tarif promotionnel"
+        ],
+        "points_negatifs": [
+            "Petit-déjeuner non inclus dans cette offre de base"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Centre-ville",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Chic, moderne et central",
+            "public": "Voyageurs cherchant un standing hôtelier très élevé dans l'un des quartiers les plus animés de Casablanca",
+            "style": "Hôtel de luxe 5 étoiles",
+            "verdict": "Une excellente option citadine alliant emplacement stratégique et confort remarquable (9,2/10)."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 899 expériences vécues · Mise à jour : 2026"
+    },
+    "Amani Hotel Suites & Spa": {
+        "pays": "Maroc",
+        "ville": "L’Hivernage, Marrakech",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/amani-hotel-suites-spa.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier huppé de L’Hivernage à Marrakech, cet hôtel propose de superbes suites senior avec spa, un confort de 8,4 et le petit-déjeuner inclus.",
+        "prix_moyen": "869€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Confort de 8,4 avec de grands espaces (suites senior)",
+            "Présence d'un spa, petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs variables en haute saison"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Spa",
+            "Suite senior",
+            "Petit-déjeuner inclus"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Chic, spacieux et relaxant",
+            "public": "Voyageurs cherchant de grands volumes et un spa dans le quartier recherché de L'Hivernage",
+            "style": "Hôtel 4 étoiles avec spa",
+            "verdict": "Une très belle alternative pour séjourner confortablement près des animations de Marrakech."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 715 expériences vécues · Mise à jour : 2026"
+    },
+    "Executive Boutique Hotel Rabat": {
+        "pays": "Maroc",
+        "ville": "Agdal, Rabat",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/executive-boutique-rabat.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier de l'Agdal à Rabat, ce boutique-hôtel propose un superbe confort de 9,1, le petit-déjeuner inclus et l'annulation gratuite.",
+        "prix_moyen": "784€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort exceptionnel de 9,1",
+            "Emplacement idéal dans le quartier animé de l'Agdal, petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "Boutique-hôtel",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Élégant, moderne et soigné",
+            "public": "Voyageurs d'affaires et touristes cherchant un boutique-hôtel de haut standing dans la capitale",
+            "style": "Boutique-hôtel 4 étoiles",
+            "verdict": "Une adresse de grande qualité alliant design raffiné et emplacement central à Rabat."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 954 expériences vécues · Mise à jour : 2026"
+    },
+    "Hilton Garden Inn Casablanca Sud": {
+        "pays": "Maroc",
+        "ville": "Aïn Chock, Casablanca",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/hilton-garden-inn-casablanca-sud.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sidi Maarouf (Aïn Chock) à Casablanca, cet hôtel propose un certificat de durabilité, des chambres king-size climatisées et un confort élevé de 8,6.",
+        "prix_moyen": "713€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Certificat de durabilité et standards de la chaîne Hilton",
+            "Confort élevé de 8,6",
+            "Chambres spacieuses avec très grand lit double"
+        ],
+        "points_negatifs": [
+            "Situé dans un quartier d'affaires excentré du centre historique"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Certificat de durabilité",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Moderne, professionnel et éco-responsable",
+            "public": "Voyageurs d'affaires cherchant un hôtel international moderne dans le pôle d'affaires de Casablanca Sud",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Une option fonctionnelle et très confortable pour un séjour professionnel."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 511 expériences vécues · Mise à jour : 2026"
+    },
+    "ferme by Ikalimo": {
+        "pays": "Maroc",
+        "ville": "Ourika",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/ferme-by-ikalimo.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la vallée de l'Ourika, cet établissement propose un superbe confort de 9,2 avec des chambres doubles dotées d'un balcon, le petit-déjeuner inclus et l'annulation gratuite.",
+        "prix_moyen": "469€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort exceptionnel de 9,2 dans un cadre naturel",
+            "Petit-déjeuner inclus, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Disponibilité limitée"
+        ],
+        "equipements": [
+            "Balcon",
+            "Petit-déjeuner inclus",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Campagne, paisible et charmant",
+            "public": "Voyageurs cherchant un havre de paix verdoyant et tout confort dans la vallée de l'Ourika",
+            "style": "Ferme hôtelière / Maison de charme",
+            "verdict": "Une magnifique option dépaysante pour se ressourcer au plus près de la nature."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 146 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel El Djenina": {
+        "pays": "Maroc",
+        "ville": "Tanger",
+        "etoiles": "2 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/el-djenina-tanger.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Tanger, cet hôtel propose des chambres lits jumeaux climatisées avec un très bon confort de 8,5 à un tarif très économique.",
+        "prix_moyen": "485€ / semaine",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Très bien noté (8,1)",
+            "Confort élevé de 8,5",
+            "Chambres climatisées"
+        ],
+        "points_negatifs": [
+            "Petit-déjeuner non inclus par défaut"
+        ],
+        "equipements": [
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain, simple et pratique",
+            "public": "Voyageurs cherchant un pied-à-terre central et bien noté à Tanger",
+            "style": "Hôtel économique de ville",
+            "verdict": "Une option fiable et abordable pour un séjour urbain dans la ville du détroit."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 4 427 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Majorelle": {
+        "pays": "Maroc",
+        "ville": "Marrakech",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/hotel-majorelle-marrakech.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Marrakech, cet hôtel propose des chambres climatisées, le petit-déjeuner inclus et un tarif promotionnel attractif.",
+        "prix_moyen": "436€ / semaine",
+        "avis": "7,4/10",
+        "points_positifs": [
+            "Petit-déjeuner inclus",
+            "Chambres climatisées",
+            "Tarif promotionnel actuel"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,4)"
+        ],
+        "equipements": [
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain et économique",
+            "public": "Voyageurs cherchant un hôtel simple et bien situé pour visiter Marrakech",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une alternative fonctionnelle et économique pour un séjour dans la ville ocre."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 652 expériences vécues · Mise à jour : 2026"
+    },
+    "Novotel Casablanca City Center": {
+        "pays": "Maroc",
+        "ville": "Sidi Belyout, Casablanca",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/novotel-casablanca-city-center.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Sidi Belyout (Casablanca), cet hôtel 4 étoiles propose des chambres standard climatisées adaptées pour accueillir jusqu'à 3 personnes.",
+        "prix_moyen": "571€ / semaine",
+        "avis": "7,4/10",
+        "points_positifs": [
+            "Standards fiables de la chaîne internationale Novotel",
+            "Emplacement central à Casablanca",
+            "Chambres climatisées avec espace salon"
+        ],
+        "points_negatifs": [
+            "Note globale modeste (7,4)"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Centre-ville",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Urbain, fonctionnel et central",
+            "public": "Voyageurs d'affaires et touristes cherchant un grand hôtel de chaîne au cœur de Casablanca",
+            "style": "Hôtel 4 étoiles",
+            "verdict": "Une valeur sûre très bien placée pour un séjour professionnel ou touristique."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 203 expériences vécues · Mise à jour : 2026"
+    },
+    "The View Bouznika": {
+        "pays": "Maroc",
+        "ville": "Bouznika",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/the-view-bouznika.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Bouznika, ce somptueux resort 5 étoiles propose un confort exceptionnel de 9,2 avec des chambres double supérieures offrant une vue sur le golf.",
+        "prix_moyen": "1 526€ / semaine",
+        "avis": "8,9/10",
+        "points_positifs": [
+            "Superbe (8,9)",
+            "Confort exceptionnel de 9,2 avec vue sur le golf",
+            "Prestations de grand luxe"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Vue golf",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, sportif et verdoyant",
+            "public": "Amateurs de golf et voyageurs exigeants cherchant le standing 5 étoiles entre Rabat et Casablanca",
+            "style": "Resort de luxe 5 étoiles / Golf",
+            "verdict": "Une adresse d'exception (confort 9,2/10) pour un séjour raffiné au vert et au bord de l'eau."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 829 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Jadali & Spa": {
+        "pays": "Maroc",
+        "ville": "L’Hivernage, Marrakech",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/hotel-jadali-spa-marrakech.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier de L’Hivernage à Marrakech, cet hôtel 5 étoiles propose un confort exceptionnel de 9,3 avec spa, petit-déjeuner inclus et vue sur la ville.",
+        "prix_moyen": "1 633€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe (8,8)",
+            "Confort exceptionnel de 9,3 avec spa haut de gamme",
+            "Petit-déjeuner inclus, emplacement très prisé"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Chic, luxueux et relaxant",
+            "public": "Voyageurs cherchant un hôtel 5 étoiles branché avec spa dans le quartier huppé de L'Hivernage",
+            "style": "Hôtel de luxe 5 étoiles avec spa",
+            "verdict": "Une magnifique option pour allier raffinement, bien-être et emplacement central à Marrakech."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 346 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel des Oudaias": {
+        "pays": "Maroc",
+        "ville": "Médina, Rabat",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/hotel-des-oudaias.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans la médina de Rabat, cet hôtel propose un superbe confort de 8,8 avec des chambres double deluxe, le petit-déjeuner inclus et l'annulation gratuite.",
+        "prix_moyen": "666€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe (8,7)",
+            "Confort élevé de 8,8 au cœur de la médina",
+            "Petit-déjeuner inclus, annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Tarifs variables"
+        ],
+        "equipements": [
+            "Centre-ville",
+            "Petit-déjeuner inclus",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Historique, charmant et central",
+            "public": "Voyageurs cherchant un pied-à-terre de qualité dans le quartier historique de Rabat",
+            "style": "Hôtel de charme",
+            "verdict": "Une adresse idéale et très bien notée pour découvrir la capitale culturelle."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 633 expériences vécues · Mise à jour : 2026"
+    },
+    "Royal Hideaway Casablanca": {
+        "pays": "Maroc",
+        "ville": "Sidi Belyout, Casablanca",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/royal-hideaway-casablanca.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé dans le quartier de Sidi Belyout à Casablanca, cet hôtel 5 étoiles de luxe propose des chambres deluxe climatisées avec un confort exceptionnel de 9,8.",
+        "prix_moyen": "1 310€ / semaine",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Exceptionnel (9,5)",
+            "Confort exceptionnel quasi-parfait de 9,8",
+            "Prestations hôtelières de grand luxe au centre de Casablanca"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Centre-ville",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Somptueux, ultra-confortable et moderne",
+            "public": "Voyageurs exigeants cherchant le summum du standing 5 étoiles à Casablanca",
+            "style": "Hôtel de luxe 5 étoiles",
+            "verdict": "Une adresse d'exception absolue (confort 9,8/10) pour un séjour haut de gamme dans la métropole."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 148 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Dakhla Ville": {
+        "pays": "Maroc",
+        "ville": "Dakhla",
+        "etoiles": "3 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/dakhla-ville.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Dakhla, cet hôtel propose un superbe confort de 9,2 avec des chambres doubles vue mer et le petit-déjeuner inclus.",
+        "prix_moyen": "495€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Fabuleux (9,0)",
+            "Confort exceptionnel de 9,2 avec vue sur mer",
+            "Petit-déjeuner inclus"
+        ],
+        "points_negatifs": [
+            "Dernières chambres disponibles"
+        ],
+        "equipements": [
+            "Vue mer",
+            "Petit-déjeuner inclus",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Marin, lumineux et accueillant",
+            "public": "Voyageurs cherchant un excellent rapport qualité-prix face à la mer à Dakhla",
+            "style": "Hôtel de tourisme",
+            "verdict": "Une valeur sûre très bien notée pour un séjour réussi dans le sud."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 237 expériences vécues · Mise à jour : 2026"
+    },
+    "Fes Marriott Hotel Jnan Palace": {
+        "pays": "Maroc",
+        "ville": "Fès",
+        "etoiles": "5 étoiles",
+        "lien": "https://www.booking.com/hotel/ma/jnan-palace-fes.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à Fès, ce grand resort 5 étoiles de la chaîne Marriott propose des chambres deluxe avec lit king-size, balcon et vue sur jardin, associant un confort élevé de 8,8.",
+        "prix_moyen": "1 614€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bien noté (8,3)",
+            "Confort élevé de 8,8 avec standards Marriott",
+            "Chambres deluxe avec balcon et vue jardin"
+        ],
+        "points_negatifs": [
+            "Tarifs de type supérieur"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Balcon",
+            "Vue jardin",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Prestigieux, verdoyant et international",
+            "public": "Voyageurs cherchant le service et le confort d'un grand 5 étoiles international à Fès",
+            "style": "Hôtel de luxe 5 étoiles",
+            "verdict": "Un choix incontournable pour un séjour tout confort dans la ville spirituelle."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 455 expériences vécues · Mise à jour : 2026"
+    },
+} 
