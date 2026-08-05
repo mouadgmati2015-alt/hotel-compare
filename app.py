@@ -1,11 +1,26 @@
 import streamlit as st
 import os
 import json
-from data.hotels_data import HOTELS_DATA
 from data.airlines_data import AIRLINES_DATA
 import streamlit.components.v1 as components
 import urllib.parse
 import base64
+
+# --- Chargement dynamique de tous les hôtels depuis le dossier data/ ---
+HOTELS_DATA = {}
+data_dir = "data"
+
+if os.path.exists(data_dir):
+    for fichier in os.listdir(data_dir):
+        if fichier.endswith(".json") or fichier.endswith(".geojson"):
+            chemin_fichier = os.path.join(data_dir, fichier)
+            try:
+                with open(chemin_fichier, "r", encoding="utf-8") as f:
+                    donnees_pays = json.load(f)
+                    if isinstance(donnees_pays, dict):
+                        HOTELS_DATA.update(donnees_pays)
+            except Exception as e:
+                print(f"Erreur lors du chargement de {fichier}: {e}")
 
 # --- Configuration de la page ---
 st.set_page_config(page_title="HotelCompare", page_icon="images/favicon_io/favicon.ico", layout="wide")
