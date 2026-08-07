@@ -13,6 +13,50 @@ import contact
 if "page" not in st.session_state:
     st.session_state.page = "Comparateur Hôtels"
 
+# --- Style CSS Global pour le mode sombre ---
+st.markdown("""
+    <style>
+    /* 1. Fond général sombre */
+    .stApp { 
+        background-color: #0B132B !important; 
+        color: #FFFFFF !important;
+    }
+    
+    [data-testid="stSidebar"] { 
+        min-width: 150px; 
+        max-width: 150px; 
+    }
+    .block-container { 
+        padding-top: 1rem !important; 
+    }
+    iframe { 
+        width: 100% !important; 
+    }
+    
+    /* 2. Textes généraux et libellés en blanc */
+    h1, h2, h3, h4, h5, h6, p, label, .stMarkdown p {
+        color: #FFFFFF !important;
+    }
+
+    /* 3. Texte des boutons du haut en NOIR */
+    .stButton button, .stButton button p, .stButton button span {
+        color: #0B132B !important;
+        font-weight: 600 !important;
+    }
+
+    /* 4. Classe dédiée et infaillible pour les cartes d'avis (fond blanc, texte noir) */
+    .review-card {
+        background-color: #ffffff !important;
+        border: 1px solid #e0e0e0 !important;
+        border-radius: 8px !important;
+        padding: 15px !important;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.02) !important;
+    }
+    .review-card p, .review-card span {
+        color: #000000 !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
 # Passerelle pour lier les liens HTML du footer sombre à la session
 query_params = st.query_params
 if "page" in query_params:
@@ -63,25 +107,48 @@ components.html(google_tag, height=0, width=0)
 # --- Style CSS ---
 st.markdown("""
     <style>
-    .stApp { background-color: #F8F9FA; }
-    [data-testid="stSidebar"] { min-width: 150px; max-width: 150px; }
-    .block-container { padding-top: 1rem !important; }
-    iframe { width: 100% !important; }
-    .hotel-card {
-        background-color: #ffffff;
-        border: 1px solid #e0e0e0;
+    /* Fond général de l'application (très sombre et élégant) */
+    .stApp { 
+        background-color: #0B132B !important; 
+        color: #FFFFFF !important;
+    }
+    
+    [data-testid="stSidebar"] { 
+        min-width: 150px; 
+        max-width: 150px; 
+    }
+    .block-container { 
+        padding-top: 1rem !important; 
+    }
+    iframe { 
+        width: 100% !important; 
+    }
+    
+    /* Forcer TOUTES les lignes, libellés et textes généraux en BLANC */
+    p, span, label, h1, h2, h3, h4, h5, h6, 
+    .stMarkdown, div[data-baseweb="select"] span {
+        color: #FFFFFF !important;
+    }
+
+    /* Forcer le texte des boutons (onglets du haut) en NOIR */
+    .stButton button, .stButton button p, .stButton button span {
+        color: #0B132B !important;
+        font-weight: 600 !important;
+    }
+
+    /* Cartes d'hôtels adaptées au fond sombre */
+    .hotel-card { 
+        background-color: #1C2541 !important; 
+        border: 1px solid #3A506B;
         border-radius: 12px;
         padding: 20px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-        margin-bottom: 20px;
+        color: #FFFFFF !important;
     }
-    .badge-note {
-        background-color: #003580;
-        color: white;
-        padding: 5px 10px;
-        border-radius: 6px;
-        font-weight: bold;
-        font-size: 1.1em;
+
+    /* --- CORRECTION POUR LES AVIS (TEXTE EN NOIR SUR FOND CLAIR) --- */
+    div[data-testid="column"] div.stMarkdown p, 
+    div[data-testid="column"] div.stMarkdown span {
+        color: #0B132B !important;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -269,57 +336,56 @@ if st.session_state.page == "Comparateur Hôtels":
     
     with col_a1:
         st.markdown(
-            """
-            <div style="background-color: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-                <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px;">⭐⭐⭐⭐⭐</p>
-                <p style="font-style: italic; font-size: 0.95em;">"Grâce au comparateur, j'ai trouvé l'hôtel idéal à Djerba pour notre groupe d'amis au meilleur prix. Super interface !"</p>
-                <div style="display: flex; align-items: center; margin-top: 12px;">
-                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
-                    <div>
-                        <p style="font-weight: bold; font-size: 0.85em; color: #333; margin: 0;">Thomas M.</p>
-                        <p style="font-size: 0.75em; color: #777; margin: 0;">Séjour à Djerba</p>
-                    </div>
-                </div>
+    """
+    <div class="review-card">
+        <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px;">⭐⭐⭐⭐⭐</p>
+        <p style="font-style: italic; font-size: 0.95em;">"Grâce au comparateur, j'ai trouvé l'hôtel idéal à Djerba pour notre groupe d'amis au meilleur prix. Super interface !"</p>
+        <div style="display: flex; align-items: center; margin-top: 12px;">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+            <div>
+                <p style="font-weight: bold; font-size: 0.85em; margin: 0;">Thomas M.</p>
+                <p style="font-size: 0.75em; color: #555555; margin: 0;">Séjour à Djerba</p>
             </div>
-            """,
-            unsafe_allow_html=True
-        )
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
         
     with col_a2:
         st.markdown(
-            """
-            <div style="background-color: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-                <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px;">⭐⭐⭐⭐⭐</p>
-                <p style="font-style: italic; font-size: 0.95em;">"Les points forts et négatifs résumés par IA m'ont fait gagner un temps fou. Je recommande à 100%."</p>
-                <div style="display: flex; align-items: center; margin-top: 12px;">
-                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
-                    <div>
-                        <p style="font-weight: bold; font-size: 0.85em; color: #333; margin: 0;">Sarah L.</p>
-                        <p style="font-size: 0.75em; color: #777; margin: 0;">Voyage en famille</p>
-                    </div>
+        """
+        <div class="review-card">
+            <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px;">⭐⭐⭐⭐⭐</p>
+            <p style="font-style: italic; font-size: 0.95em;">"Super application, très pratique pour comparer les hôtels rapidement. Je recommande !"</p>
+            <div style="display: flex; align-items: center; margin-top: 12px;">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+                <div>
+                    <p style="font-weight: bold; font-size: 0.85em; margin: 0;">Sarah L.</p>
+                    <p style="font-size: 0.75em; color: #555555; margin: 0;">Voyage en famille</p>
                 </div>
             </div>
-            """,
-            unsafe_allow_html=True
-        )
-        
+        </div>
+        """,
+        unsafe_allow_html=True
+    )        
     with col_a3:
         st.markdown(
-            """
-            <div style="background-color: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-                <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px;">⭐⭐⭐⭐⭐</p>
-                <p style="font-style: italic; font-size: 0.95em;">"Simple, rapide et très clair pour comparer les compagnies aériennes et les hôtels en même temps."</p>
-                <div style="display: flex; align-items: center; margin-top: 12px;">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
-                    <div>
-                        <p style="font-weight: bold; font-size: 0.85em; color: #333; margin: 0;">Karim B.</p>
-                        <p style="font-size: 0.75em; color: #777; margin: 0;">Voyageur régulier</p>
-                    </div>
+        """
+        <div class="review-card">
+            <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px;">⭐⭐⭐⭐⭐</p>
+            <p style="font-style: italic; font-size: 0.95em;">"Le comparateur m'a permis d'économiser pas mal sur mon séjour. Interface fluide et propre."</p>
+            <div style="display: flex; align-items: center; margin-top: 12px;">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+                <div>
+                    <p style="font-weight: bold; font-size: 0.85em; margin: 0;">Karim B.</p>
+                    <p style="font-size: 0.75em; color: #555555; margin: 0;">Voyageur régulier</p>
                 </div>
             </div>
-            """,
-            unsafe_allow_html=True
-        )
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 # ==============================================================================
 # SECTION 2 : COMPAGNIES AÉRIENNES (Remise en place !)
 # ==============================================================================

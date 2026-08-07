@@ -19,8 +19,8 @@ def afficher_page():
         st.markdown("---")
         st.subheader("Suivez-nous")
         st.write("Restez informé des nouveautés sur nos réseaux sociaux.")
-        # Vous pouvez ajouter des liens cliquables ici
-        st.markdown("[LinkedIn](https://linkedin.com) | [Instagram](https://instagram.com)")
+        # Lien Facebook mis à jour
+        st.markdown("[Facebook](https://www.facebook.com/profile.php?id=61591545557027)")
 
     with col2:
         st.subheader("Envoyez-nous un message")
