@@ -179,7 +179,7 @@
         "pays": "Espagne",
         "ville": "Lloret de Mar",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/es/la-palmera-spa.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/la-palmera-lloret-de-mar.fr.html?aid=818289",
         "image": "",
         "description": "Implanté en plein cœur de l'animation de Lloret de Mar, cet hôtel 3 étoiles mise sur sa situation centrale et ses équipements de bien-être pour séduire les voyageurs soucieux de leur budget. Il propose des chambres fonctionnelles dotées d'une climatisation efficace et d'une politique d'annulation gratuite.",
         "prix_moyen": "407€ / semaine",
@@ -214,7 +214,7 @@
         "pays": "Espagne",
         "ville": "Portocolom",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/grupotel-cala-marsal.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/club-cala-marsal.html?aid=818289",
         "image": "",
         "description": "Situé dans le cadre enchanteur de Portocolom à Majorque, ce complexe hôtelier met l'accent sur le respect de l'environnement et la quiétude. Il propose des hébergements doubles modernes pourvus de la climatisation, récompensés par un certificat de durabilité, avec en prime la possibilité de régler directement sur place.",
         "prix_moyen": "815€ / semaine",
@@ -284,7 +284,7 @@
         "pays": "Espagne",
         "ville": "Salou",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/best-negresco.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/negresco.fr.html?aid=818289",
         "image": "",
         "description": "Situé à Salou sur la dynamique Costa Daurada, cet hôtel 4 étoiles est une référence bien établie pour les familles et les couples. Il propose des chambres doubles climatisées, un certificat de durabilité environnementale et la tranquillité d'une politique d'annulation gratuite.",
         "prix_moyen": "686€ / semaine",
@@ -319,7 +319,7 @@
         "pays": "Espagne",
         "ville": "Motril",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/elba-motril.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/granhotelelbamotril.html?aid=818289",
         "image": "",
         "description": "Idéalement positionné à Motril, cet établissement polyvalent s'adresse aussi bien aux voyageurs d'affaires qu'aux adeptes de farniente balnéaire. Il propose des chambres doubles climatisées haut de gamme, incluant un petit-déjeuner copieux ainsi que la commodité d'un paiement direct sur place.",
         "prix_moyen": "689€ / semaine",
@@ -354,7 +354,7 @@
         "pays": "Espagne",
         "ville": "Sant Feliu de Guíxols",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/es/montjoi.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/bellevue.html?aid=818289",
         "image": "",
         "description": "Niché à Sant Feliu de Guíxols sur la Costa Brava, cet hôtel 3 étoiles propose une offre à durée limitée particulièrement attractive sur des chambres économiques climatisées. Il se distingue par un score de confort exceptionnel de 9,0, rivalisant sans complexe avec des établissements de catégorie supérieure.",
         "prix_moyen": "432€ / semaine",
@@ -384,76 +384,6 @@
             "verdict": "Une véritable affaire en or au vu de son score de confort remarquable et de son tarif promotionnel."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 3 639 expériences vécues · Mise à jour : 2026"
-    },
-    "ALEGRIA Maripins": {
-        "pays": "Espagne",
-        "ville": "Malgrat de Mar",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/alegria-maripins.html?aid=818289",
-        "image": "",
-        "description": "Installé à Malgrat de Mar, cet hôtel 4 étoiles met l'avant-scène sur un tourisme moderne et écoresponsable. Il propose des chambres doubles ou lits jumeaux climatisées, dotées d'un certificat de durabilité, idéales pour des vacances en couple ou en famille alliant modernité et respect de l'environnement.",
-        "prix_moyen": "469€ / semaine",
-        "avis": "8,3/10",
-        "points_positifs": [
-            "Très bonne note de 8,3 saluant la qualité des services",
-            "Indice de confort élevé de 8,7",
-            "Certificat de durabilité environnementale",
-            "Annulation gratuite pour planifier en toute sérénité"
-        ],
-        "points_negatifs": [
-            "Disponibilité très limitée au tarif promotionnel affiché",
-            "Espaces communs très fréquentés en haute saison"
-        ],
-        "equipements": [
-            "4 étoiles",
-            "Certificat de durabilité",
-            "Climatisation",
-            "Annulation gratuite",
-            "Piscine extérieure",
-            "Proximité de la plage"
-        ],
-        "pour_qui": {
-            "ambiance": "✨ Moderne, éco-engagé, lumineux et convivial",
-            "public": "Familles et couples cherchant un pied-à-terre écoresponsable à Malgrat de Mar",
-            "style": "Hôtel 4 étoiles éco-engagé",
-            "verdict": "Un choix très correct et durable pour profiter de la côte sous le signe de l'engagement vert."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 279 expériences vécues · Mise à jour : 2026"
-    },
-    "Hotel Servigroup Koral Beach 4 Sup": {
-        "pays": "Espagne",
-        "ville": "Oropesa del Mar",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/servigroup-koral-beach.html?aid=818289",
-        "image": "",
-        "description": "Situé à Oropesa del Mar, cet établissement 4 étoiles supérieur se positionne comme une référence d'excellence. Il propose des chambres climatisées raffinées avec un petit-déjeuner compris d'exception, le tout couronné par un score de confort exceptionnel de 9,2.",
-        "prix_moyen": "663€ / semaine",
-        "avis": "8,6/10",
-        "points_positifs": [
-            "Superbe note de 8,6 reflétant des prestations haut de gamme",
-            "Confort exceptionnel et rare évalué à 9,2",
-            "Petit-déjeuner compris d'une grande richesse",
-            "Design moderne et finitions soignées"
-        ],
-        "points_negatifs": [
-            "Absence d'option d'annulation gratuite mentionnée sur ce tarif spécifique",
-            "Demande importante pour cette catégorie supérieure"
-        ],
-        "equipements": [
-            "4 étoiles supérieur",
-            "Petit-déjeuner compris",
-            "Climatisation",
-            "Piscine sur le toit / rooftop",
-            "Design contemporain",
-            "Wi-Fi haut débit"
-        ],
-        "pour_qui": {
-            "ambiance": "✨ Haut de gamme, moderne, raffiné et exclusif",
-            "public": "Voyageurs exigeants cherchant le summum du confort moderne à Oropesa del Mar",
-            "style": "Hôtel 4 étoiles Supérieur",
-            "verdict": "Un choix incontournable et luxueux pour les amateurs de prestations soignées et de design contemporain."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 813 expériences vécues · Mise à jour : 2026"
     },
     "Hotel Alba Seleqtta": {
         "pays": "Espagne",
@@ -599,7 +529,7 @@
         "pays": "Espagne",
         "ville": "Platja d'Aro",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/htop-caleta-palace.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/caleta-palace.html?aid=818289",
         "image": "",
         "description": "Implanté à Platja d'Aro sur la Costa Brava, cet hôtel 4 étoiles propose des chambres lits jumeaux standard fonctionnelles et climatisées. Il met l'accent sur la simplicité d'accès au littoral et la tranquillité d'esprit grâce à une formule avec annulation gratuite.",
         "prix_moyen": "626€ / semaine",
@@ -663,108 +593,6 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 2 451 expériences vécues · Mise à jour : 2026"
     },
-    "Hotel Aromar": {
-        "pays": "Espagne",
-        "ville": "Platja d'Aro",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/aromar.html?aid=818289",
-        "image": "",
-        "description": "Bénéficiant d'un emplacement privilégié à Platja d'Aro, cet hôtel 4 étoiles propose des chambres doubles avec balcon privatif et climatisation. Il met l'accent sur le réveil face à la mer grâce à un petit-déjeuner compris et une démarche éco-responsable certifiée.",
-        "prix_moyen": "576€ / semaine",
-        "avis": "8,3/10",
-        "points_positifs": [
-            "Très bonne note de 8,3",
-            "Balcon privatif dans les chambres pour profiter de l'air marin",
-            "Petit-déjeuner compris inclus de bonne facture",
-            "Certificat de durabilité environnementale"
-        ],
-        "points_negatifs": [
-            "Disponibilité très restreinte (plus que 2 chambres au tarif indiqué)",
-            "Forte demande pour les chambres avec vue"
-        ],
-        "equipements": [
-            "4 étoiles",
-            "Balcon privatif",
-            "Petit-déjeuner compris",
-            "Certificat de durabilité",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "✨ Vue, air marin, charme et détente",
-            "public": "Amateurs de balcons avec vue et de petits déjeuners face à la mer sur la Costa Brava",
-            "style": "Hôtel 4 étoiles face mer",
-            "verdict": "Un choix plein de charme et idéalement situé pour savourer la douceur de vivre catalane."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 3 684 expériences vécues · Mise à jour : 2026"
-    },
-    "SOL by Meliá Costa Daurada": {
-        "pays": "Espagne",
-        "ville": "Salou",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/sol-costa-daurada.html?aid=818289",
-        "image": "",
-        "description": "Portant la signature reconnue de la chaîne hôtelière Meliá, cet établissement de Salou propose des chambres doubles climatisées conçues pour garantir un séjour sans fausse note. Il dispose d'une politique d'annulation gratuite pour une organisation en toute quiétude.",
-        "prix_moyen": "515€ / semaine",
-        "avis": "8,2/10",
-        "points_positifs": [
-            "Très bonne note de 8,2",
-            "Standards de qualité et de service garantis par la marque Meliá",
-            "Annulation gratuite pour une flexibilité maximale",
-            "Emplacement central pratique à Salou"
-        ],
-        "points_negatifs": [
-            "Dernière opportunité disponible à ce prix attractif",
-            "Structure hôtelière de grande envergure"
-        ],
-        "equipements": [
-            "4 étoiles",
-            "Standards de chaîne internationale",
-            "Climatisation",
-            "Annulation gratuite",
-            "Piscine extérieure"
-        ],
-        "pour_qui": {
-            "ambiance": "✨ Confiant, dynamique, central et structuré",
-            "public": "Voyageurs recherchant la sécurité et le sérieux d'une grande enseigne internationale à Salou",
-            "style": "Hôtel 4 étoiles de chaîne",
-            "verdict": "Une valeur sûre de la Costa Daurada qui garantit un niveau de prestation standardisé et qualitatif."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 3 016 expériences vécues · Mise à jour : 2026"
-    },
-    "Hotel Planamar by Escampa Hotels": {
-        "pays": "Espagne",
-        "ville": "Platja d'Aro",
-        "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/es/planamar.html?aid=818289",
-        "image": "",
-        "description": "Situé à Platja d'Aro, cet hôtel 3 étoiles surperforme sa catégorie avec un score de confort remarquable de 9,1 et une note globale de 8,7. Il propose des chambres doubles avec balcon et climatisation, associées à un certificat de durabilité et à la facilité d'un paiement sur place.",
-        "prix_moyen": "580€ / semaine",
-        "avis": "8,7/10",
-        "points_positifs": [
-            "Superbe note globale de 8,7",
-            "Score de confort exceptionnel de 9,1 pour un 3 étoiles",
-            "Aucun prépaiement requis : paiement direct sur place",
-            "Balcon privatif et certificat de durabilité environnementale"
-        ],
-        "points_negatifs": [
-            "Disponibilité restreinte en raison de sa forte popularité",
-            "Demande accrue en haute saison"
-        ],
-        "equipements": [
-            "3 étoiles",
-            "Balcon privatif",
-            "Certificat de durabilité",
-            "Paiement sur place sans prépaiement",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "✨ Chaleureux, écoresponsable, confortable et idéalement positionné",
-            "public": "Voyageurs cherchant un super confort avec paiement sur place sur la Costa Brava",
-            "style": "Hôtel 3 étoiles haut de gamme",
-            "verdict": "L'un des tout meilleurs 3 étoiles de la sélection, combinant un confort exceptionnel et une flexibilité totale."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 3 149 expériences vécues · Mise à jour : 2026"
-    },
     "Hotel del Port": {
         "pays": "Espagne",
         "ville": "Sant Carles de la Ràpita",
@@ -799,46 +627,11 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 2 137 expériences vécues · Mise à jour : 2026"
     },
-    "Elba Costa Ballena Beach & Thalasso Resort": {
-        "pays": "Espagne",
-        "ville": "Costa Ballena",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/elba-costa-ballena.html?aid=818289",
-        "image": "",
-        "description": "Situé dans la station exclusive de Costa Ballena, ce grand resort met à l'honneur les bienfaits marins grâce à son centre de thalasso. Il propose des chambres doubles avec petit-déjeuner compris, un confort soigné de 8,7 et la liberté d'un paiement sur place.",
-        "prix_moyen": "845€ / semaine",
-        "avis": "8,4/10",
-        "points_positifs": [
-            "Très bonne note de 8,4",
-            "Centre de thalasso et de bien-être intégré",
-            "Petit-déjeuner compris copieux",
-            "Aucun prépaiement requis : payez sur place"
-        ],
-        "points_negatifs": [
-            "Budget hebdomadaire élevé",
-            "Grand complexe hôtelier nécessitant de la marche au sein de la structure"
-        ],
-        "equipements": [
-            "4 étoiles",
-            "Centre Thalasso & Spa",
-            "Petit-déjeuner compris",
-            "Paiement sur place",
-            "Climatisation",
-            "Piscines extérieures"
-        ],
-        "pour_qui": {
-            "ambiance": "✨ Thalasso, grand resort, océan et relaxation",
-            "public": "Amateurs de détente aquatique, de soins marins et de grands espaces andalous",
-            "style": "Resort Thalasso 4 étoiles",
-            "verdict": "Une magnifique infrastructure pour se ressourcer en profondeur grâce aux bienfaits de l'océan Atlantique."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 4 530 expériences vécues · Mise à jour : 2026"
-    },
     "4R Gran Europe": {
         "pays": "Espagne",
         "ville": "Coma-ruga",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/es/4r-gran-europe.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/4-r-gran-europe.html?aid=818289",
         "image": "",
         "description": "Implanté à Coma-ruga, cet hôtel 3 étoiles propose des chambres avec vue latérale sur mer, climatisation et petit-déjeuner compris. Il intègre également un certificat de durabilité et une politique d'annulation gratuite.",
         "prix_moyen": "599€ / semaine",
@@ -873,7 +666,7 @@
         "pays": "Espagne",
         "ville": "Guardamar del Segura",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/es/playas-de-guardamar.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/campomar-guardamar-del-segura.html?aid=818289",
         "image": "",
         "description": "Implanté à Guardamar del Segura, cet hôtel 3 étoiles se distingue par un accès direct aux dunes et aux plages de sable fin. Il propose des chambres doubles ou lits jumeaux climatisées, un certificat de durabilité et une politique d'annulation gratuite.",
         "prix_moyen": "475€ / semaine",
@@ -907,7 +700,7 @@
         "pays": "Espagne",
         "ville": "Cala Ratjada",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/flacalco-hotel-apartments.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/apartamentos-flacalco-park.html?aid=818289",
         "image": "",
         "description": "Situé à Cala Ratjada à Majorque, cet établissement propose des chambres avec balcon et climatisation. Il offre une formule flexible avec des options d'appartements pour les voyageurs recherchant plus d'autonomie insulaire.",
         "prix_moyen": "640€ / semaine",
@@ -941,7 +734,7 @@
         "pays": "Espagne",
         "ville": "Lloret de Mar",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/ght-aquarium-spa.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/hotel-aquarium.fr.html?aid=818289",
         "image": "",
         "description": "Établi à Lloret de Mar, cet hôtel 4 étoiles propose une formule tout compris très pratique incluant des chambres climatisées avec balcon et l'accès à un espace spa dédié à la relaxation.",
         "prix_moyen": "516€ / semaine",
@@ -976,7 +769,7 @@
         "pays": "Espagne",
         "ville": "Calas de Mallorca",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/palia-maria-eugenia.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/palia-ma-eugenia.html?aid=818289",
         "image": "",
         "description": "Situé à Calas de Mallorca, cet hôtel 4 étoiles propose des chambres standard classiques en formule tout compris, associant une superbe note de 8,8 et un confort élevé de 9,0, avec la commodité d'un paiement sur place.",
         "prix_moyen": "1 166€ / semaine",
@@ -1006,46 +799,11 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 166 expériences vécues · Mise à jour : 2026"
     },
-    "Hotel Cala Font": {
-        "pays": "Espagne",
-        "ville": "Salou",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/cala-font.html?aid=818289",
-        "image": "",
-        "description": "Niché près de superbes criques à Salou, cet hôtel 4 étoiles propose des chambres lits jumeaux climatisées, un petit-déjeuner compris de qualité, un certificat de durabilité et une politique d'annulation gratuite.",
-        "prix_moyen": "577€ / semaine",
-        "avis": "8,2/10",
-        "points_positifs": [
-            "Très bonne note de 8,2",
-            "Petit-déjeuner compris inclus",
-            "Certificat de durabilité environnementale",
-            "Annulation gratuite et proximité immédiate des plages"
-        ],
-        "points_negatifs": [
-            "Forte demande estivale sur cette zone côtière prisée",
-            "Affluence dans les espaces de restauration"
-        ],
-        "equipements": [
-            "4 étoiles",
-            "Petit-déjeuner compris",
-            "Certificat de durabilité",
-            "Climatisation",
-            "Annulation gratuite",
-            "Proximité des criques"
-        ],
-        "pour_qui": {
-            "ambiance": "✨ Côtier, éco-engagé, agréable et balnéaire",
-            "public": "Amateurs de belles criques et de baignades à Salou",
-            "style": "Hôtel 4 étoiles les pieds dans l'eau",
-            "verdict": "Un choix idéal et bien situé pour profiter pleinement de la mer et de la côte."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 4 762 expériences vécues · Mise à jour : 2026"
-    },
     "Hotel RH Gijón & Spa": {
         "pays": "Espagne",
         "ville": "Gandía",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/rh-gijon.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/gijon-gandia.html?aid=818289",
         "image": "",
         "description": "Établi à Gandía, cet hôtel 4 étoiles propose des chambres doubles avec balcon privatif, un petit-déjeuner compris soigné, un centre de spa relaxant et un certificat de durabilité, avec un confort solide de 8,9.",
         "prix_moyen": "741€ / semaine",
@@ -1080,7 +838,7 @@
         "pays": "Espagne",
         "ville": "L'Hospitalet de l'Infant",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/es/medplaya-hotel-vistamar.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/hotelvistamar.html?aid=818289",
         "image": "",
         "description": "Situé à L'Hospitalet de l'Infant, cet hôtel 3 étoiles propose des chambres doubles au rez-de-chaussée, un petit-déjeuner compris abordable et la flexibilité d'une annulation gratuite.",
         "prix_moyen": "443€ / semaine",
@@ -1148,7 +906,7 @@
         "pays": "Espagne",
         "ville": "Salou",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/num-salou.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/regentearagon.html?aid=818289",
         "image": "",
         "description": "Situé en plein centre urbain de Salou, cet hôtel 4 étoiles propose des chambres doubles ou lits jumeaux climatisées, offrant un emplacement idéal pour profiter de l'animation citadine et des plages.",
         "prix_moyen": "466€ / semaine",
@@ -1214,7 +972,7 @@
         "pays": "Espagne",
         "ville": "Lloret de Mar",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/es/htop-palm-beach.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/ancla.html?aid=818289",
         "image": "",
         "description": "Situé à Lloret de Mar, cet hôtel 3 étoiles propose des chambres lits jumeaux supérieures climatisées, un accès spa et une politique d'annulation gratuite, le tout à un tarif très économique.",
         "prix_moyen": "399€ / semaine",
@@ -1278,42 +1036,7 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 736 expériences vécues · Mise à jour : 2026"
     },
-    "Protur Roquetas Hotel & Spa": {
-        "pays": "Espagne",
-        "ville": "Roquetas de Mar",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/protur-roquetas.html?aid=818289",
-        "image": "",
-        "description": "Situé à Roquetas de Mar en Andalousie, ce resort 4 étoiles propose des chambres familiales spacieuses, une formule demi-pension, un certificat de durabilité et la commodité d'un paiement sur place.",
-        "prix_moyen": "1 208€ / semaine",
-        "avis": "8,6/10",
-        "points_positifs": [
-            "Superbe note de 8,6",
-            "Confort remarquable évalué à 9,1",
-            "Demi-pension (petit-déjeuner et dîner compris)",
-            "Certificat de durabilité et paiement sur place"
-        ],
-        "points_negatifs": [
-            "Budget important pour la saison",
-            "Grande structure de villégiature"
-        ],
-        "equipements": [
-            "4 étoiles",
-            "Centre de Spa",
-            "Demi-pension",
-            "Certificat de durabilité",
-            "Paiement sur place",
-            "Piscines lagon"
-        ],
-        "pour_qui": {
-            "ambiance": "✨ Haut de gamme, familial, relaxant et éco-engagé",
-            "public": "Familles cherchant des prestations luxueuses et éco-engagées en Andalousie",
-            "style": "Resort Spa 4 étoiles",
-            "verdict": "Une expérience somptueuse et complète pour toute la famille avec des prestations de très haute volée."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 618 expériences vécues · Mise à jour : 2026"
-    },
-    "Hotel Rosamar Garden Resort 4*": {
+        "Hotel Rosamar Garden Resort 4*": {
         "pays": "Espagne",
         "ville": "Lloret de Mar",
         "etoiles": "4 étoiles",
@@ -1351,7 +1074,7 @@
         "pays": "Espagne",
         "ville": "Gandía",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/rh-riviera-adults-only.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/rh-riviera.html?aid=818289",
         "image": "",
         "description": "Situé à Gandía et réservé exclusivement aux adultes, cet hôtel 4 étoiles propose des terrasses privatives ensoleillées, une formule tout compris et un niveau de confort soigné de 8,8, le tout couronné par une superbe note de 8,6.",
         "prix_moyen": "824€ / semaine",
@@ -1386,7 +1109,7 @@
         "pays": "Espagne",
         "ville": "Calas de Mallorca",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/alua-calas-de-mallorca.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/sol-calas-de-mallorca-all-incluisve.html?aid=818289",
         "image": "",
         "description": "Implanté à Calas de Mallorca, ce grand resort 4 étoiles offre un panorama spectaculaire avec des hébergements doubles disposant d'une vue frontale sur la mer Méditerranée, le tout en formule tout compris.",
         "prix_moyen": "1 276€ / semaine",
@@ -1421,7 +1144,7 @@
         "pays": "Espagne",
         "ville": "Palamós",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/es/vostra-llar.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/hostal-vostra-llar.html?aid=818289",
         "image": "",
         "description": "Situé à Palamós sur la Costa Brava, cet hôtel 3 étoiles se distingue par un score de confort élevé et remarquable de 9,1 et une superbe note de 8,9. Il propose des chambres standard avec lit queen-size, un petit-déjeuner compris et un paiement sur place.",
         "prix_moyen": "537€ / semaine",
@@ -1560,7 +1283,7 @@
         "pays": "Espagne",
         "ville": "Salou",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/carabela-club.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/es/h10salauris.html?aid=818289",
         "image": "",
         "description": "Implanté au cœur du centre-ville de Salou, l'H10 Salauris Palace est un établissement de référence qui conjugue dynamisme urbain et plaisirs de la station balnéaire. Appartenant à la prestigieuse chaîne H10, cet hôtel 4 étoiles garantit des standards élevés en matière d'accueil et de confort moderne. Il met à disposition des chambres lits jumeaux parfaitement climatisées, assurant un espace intime et reposant après une journée riche en animations. Les vacanciers profitent de superbes piscines extérieures, d'animations variées et d'un espace de détente adapté à toute la famille. Le petit-déjeuner compris, réputé pour sa grande variété, ravit les gourmands dès le lever du soleil. Engagé dans une démarche écologique, l'hôtel dispose également d'un certificat de durabilité environnementale certifié. Avec une excellente note de 8,6 et un indice de confort solide de 8,9, il représente une alternative de premier plan sur la Costa Daurada.",
         "prix_moyen": "514€ / semaine",
@@ -1624,6 +1347,926 @@
             "verdict": "Idéal pour un séjour en famille réussi, alliant confort, animations et sérénité grâce aux standards H10."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 1 248 expériences vécues · Mise à jour : 2026"
-       
+    },
+    "Vincci Resort Costa Golf": {
+        "pays": "Espagne",
+        "ville": "Chiclana de la Frontera",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/resortcostagolf.html?aid=818289",
+        "image": "",
+        "description": "Niché dans le cadre privilégié de Novo Sancti Petri à Chiclana de la Frontera, le Vincci Resort Costa Golf s'impose comme une véritable oasis de luxe et de tranquillité sous le soleil andalou. Cet établissement 4 étoiles d'exception se distingue par une élégance architecturale raffinée et un confort de tout premier plan, illustré par une superbe note globale de 8,7 et un indice de confort remarquable de 9,0. L'hôtel propose de splendides suites juniors de 45 m² parfaitement agencées, comprenant une chambre spacieuse, un salon indépendant propice à la détente ainsi qu'une terrasse ou salle de bains tout confort. Les vacanciers profitent de vastes espaces extérieurs verdoyants, de piscines étincelantes et d'une atmosphère générale résolument sereine, idéale pour s'évader du quotidien. Très soucieux de son impact environnemental, l'établissement détient un certificat de durabilité officiel garantissant des pratiques écoresponsables rigoureuses. Côté logistique, tout est pensé pour simplifier le séjour grâce à une flexibilité totale incluant l'annulation gratuite et un paiement direct sur place sans aucun prépaiement. C'est l'adresse absolue pour les voyageurs exigeants en quête de grands espaces, de prestations haut de gamme et d'un séjour de rêve sur la Costa de la Luz.",
+        "prix_moyen": "733€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Excellente note globale de 8,7 et indice de confort remarquable de 9,0",
+            "Vaste Suite Junior de 45 m² avec salon indépendant",
+            "Certificat de durabilité garantissant un engagement écologique",
+            "Conditions flexibles : annulation gratuite et paiement sur place sans prépaiement"
+        ],
+        "points_negatifs": [
+            "Demande importante nécessitant une réservation anticipée",
+            "Domaine étendu demandant parfois de la marche pour rejoindre les infrastructures"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Certificat de durabilité",
+            "Suite Junior 45 m²",
+            "Climatisation",
+            "Annulation gratuite",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Élégant, spacieux, luxueux et reposant",
+            "public": "Couples et voyageurs en quête de grands espaces et de confort supérieur en Andalousie",
+            "style": "Resort et Suites haut de gamme",
+            "verdict": "Une valeur sûre pour s'offrir une suite luxueuse et spacieuse avec un confort absolu."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 895 expériences vécues · Mise à jour : 2026"
+    },
+    "Alua Golf Trinidad": {
+        "pays": "Espagne",
+        "ville": "Roquetas de Mar",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/alua-golf-trinidad.html?aid=818289",
+        "image": "",
+        "description": "Idéalement implanté en bord de mer à Roquetas de Mar, l'Alua Golf Trinidad procure un cadre enchanteur et reposant pour des vacances réussies sous le soleil andalou. L'établissement bénéficie d'une solide note de 7,5 et met à disposition des clients de superbes chambres doubles pourvues d'une magnifique vue sur la mer et de la climatisation. Chaque matin, un savoureux petit-déjeuner compris est servi pour bien débuter la journée avant de partir à la découverte des plages de la région. Pour garantir une sérénité totale, l'hôtel propose une flexibilité maximale avec l'annulation gratuite et un paiement sur place sans aucun prépaiement exigé. Les infrastructures conviviales et l'ambiance chaleureuse en font une option de choix pour concilier plaisirs nautiques et budget parfaitement maîtrisé. C'est la destination parfaite pour les couples et les familles souhaitant s'offrir une escapade côtière sans le moindre stress organisationnel.",
+        "prix_moyen": "591€ / semaine",
+        "avis": "7,5/10",
+        "points_positifs": [
+            "Magnifique chambre Double avec vue sur la mer",
+            "Petit-déjeuner compris inclus dans l'offre",
+            "Conditions très flexibles : annulation gratuite et paiement sur place",
+            "Situation privilégiée à Roquetas de Mar"
+        ],
+        "points_negatifs": [
+            "Animation importante dans les parties communes en haute saison",
+            "Décoration classique nécessitant parfois une mise au goût du jour"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Vue sur mer",
+            "Petit-déjeuner compris",
+            "Climatisation",
+            "Annulation gratuite",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire, détendu, convivial et face à la mer",
+            "public": "Vacanciers et couples recherchant un séjour les pieds dans l'eau avec petit-déjeuner inclus",
+            "style": "Hôtel de plage familial",
+            "verdict": "Un choix idéal et sans stress pour profiter de la mer et du soleil de Roquetas."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 980 expériences vécues · Mise à jour : 2026"
+    },
+    "Ohtels Les Oliveres": {
+        "pays": "Espagne",
+        "ville": "El Perelló",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/les-oliveres-beach-resort.fr.html?aid=818289",
+        "image": "",
+        "description": "Situé à El Perelló, l'hôtel Ohtels Les Oliveres s'impose comme une valeur sûre pour des vacances placées sous le signe de la détente et de la convivialité. Il séduit d'emblée grâce à une excellente note de 8,4 et un indice de confort très satisfaisant de 8,6 validé par de nombreux voyageurs. L'établissement met en avant des chambres triples spacieuses et climatisées, parfaitement configurées pour accueillir confortablement les familles et les petits groupes. Afin de faciliter l'organisation du voyage, l'offre intègre l'annulation gratuite ainsi qu'un règlement direct sur place sans aucun prépaiement préalable. Ses équipements axés sur le loisir et son rapport qualité-prix remarquable en font une halte hautement attractive sur la côte. C'est l'adresse idéale pour profiter pleinement de la région tout en bénéficiant de prestations de qualité à un tarif très doux.",
+        "prix_moyen": "470€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Très belle note de 8,4 avec un confort noté 8,6",
+            "Chambre triple idéale pour les séjours en famille ou petits groupes",
+            "Flexibilité totale : annulation gratuite et paiement sur place",
+            "Tarif très attractif pour les prestations proposées"
+        ],
+        "points_negatifs": [
+            "Disponibilité limitée avec un succès rapide sur les tarifs de base",
+            "Situation un peu plus isolée nécessitant idéalement un véhicule"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Chambre Triple",
+            "Climatisation",
+            "Annulation gratuite",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Familial, calme, reposant et accessible",
+            "public": "Familles et voyageurs recherchant le confort à prix doux sur la côte",
+            "style": "Resort balnéaire familial",
+            "verdict": "Une excellente option économique et confortable pour un séjour en famille."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 150 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Best Roquetas": {
+        "pays": "Espagne",
+        "ville": "Roquetas de Mar",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/playaluna.html?aid=818289",
+        "image": "",
+        "description": "Véritable institution à Roquetas de Mar, l'Hotel Best Roquetas recueille les suffrages de plus de 3 400 clients conquis, s'illustrant par une solide note de 8,2 et un confort évalué à 8,4. L'établissement propose des chambres doubles spacieuses et climatisées, équipées de deux grands lits doubles pour garantir des nuits d'un confort absolu. Soucieux de l'environnement, l'hôtel dispose d'un certificat de durabilité qui atteste de ses pratiques écoresponsables au quotidien. Les voyageurs profitent en outre d'une grande flexibilité grâce à l'annulation gratuite et à une tarification promotionnelle très avantageuse. Sa proximité immédiate avec les plages et ses services soignés en font une destination de choix pour des vacances lumineuses et insouciantes. C'est l'adresse par excellence pour allier le plaisir du littoral andalou à des prestations hôtelières de grande fiabilité.",
+        "prix_moyen": "547€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Note globale de 8,2 et confort apprécié à 8,4",
+            "Chambres doubles spacieuses avec lits doubles confortables",
+            "Certificat de durabilité environnementale",
+            "Annulation gratuite et tarif promotionnel attractif"
+        ],
+        "points_negatifs": [
+            "Forte affluence estivale dans les espaces communs",
+            "Ambiance animée en haute saison"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Certificat de durabilité",
+            "Chambre Double",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Vivant, chaleureux, balnéaire et confortable",
+            "public": "Couples et familles à la recherche d'un hôtel fiable et bien situé à Roquetas",
+            "style": "Hôtel de bord de mer 4 étoiles",
+            "verdict": "Un choix sûr et de qualité pour profiter pleinement de la côte andalouse."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 462 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Planamar by Escampa Hotels": {
+        "pays": "Espagne",
+        "ville": "Platja d'Aro",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/planamar.html?aid=818289",
+        "image": "",
+        "description": "Établissement de premier plan situé au cœur de Platja d'Aro, l'Hotel Planamar by Escampa Hotels brille par une superbe note de 8,7 et un indice de confort exceptionnel de 9,1. Il propose de superbes chambres doubles climatisées dotées d'un balcon privatif, offrant une grande souplesse quant au choix des couchages. Fort d'un certificat de durabilité officiel, l'hôtel s'engage activement pour le respect de l'environnement tout en garantissant un standing irréprochable. Côté réservation, les clients bénéficient de conditions optimales comprenant l'annulation gratuite ainsi qu'un paiement directement sur place sans aucun versement d'avance. Son emplacement central de choix permet d'accéder instantanément aux animations, commerces et plages de la Costa Brava. C'est la promesse d'un séjour élégant, lumineux et hautement confortable pour tous les amoureux de la Méditerranée.",
+        "prix_moyen": "580€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Excellente note de 8,7 et indice de confort de 9,1",
+            "Chambre double avec balcon privatif et climatisation",
+            "Certificat de durabilité garantissant des pratiques écoresponsables",
+            "Flexibilité totale : annulation gratuite et paiement sur place"
+        ],
+        "points_negatifs": [
+            "Forte demande limitant les disponibilités de dernière minute",
+            "Situation centrale pouvant s'accompagner d'animation extérieure"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Certificat de durabilité",
+            "Chambre avec Balcon",
+            "Climatisation",
+            "Annulation gratuite",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Raffiné, central, confortable et lumineux",
+            "public": "Voyageurs exigeants cherchant le charme et le confort au cœur de Platja d'Aro",
+            "style": "Hôtel de charme et de bord de mer",
+            "verdict": "Une adresse incontournable sur la Costa Brava alliant grand confort et emplacement de choix."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 148 expériences vécues · Mise à jour : 2026"
+    },
+    "ALEGRIA Maripins": {
+        "pays": "Espagne",
+        "ville": "Malgrat de Mar",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/alegria-maripins.html?aid=818289",
+        "image": "",
+        "description": "Implanté dans la station animée de Malgrat de Mar, l'ALEGRIA Maripins propose une expérience de séjour chaleureuse et très appréciée, couronnée par une note de 8,3 et un confort de 8,7. L'établissement met à l'honneur des chambres doubles ou lits jumeaux climatisées, dotées de configurations modulables pour s'adapter à tous les profils de voyageurs. Certifié pour sa démarche écoresponsable grâce à un label de durabilité, il conjugue harmonieusement plaisir des vacances et conscience écologique. Les clients profitent en outre d'une flexibilité remarquable avec l'annulation gratuite, ainsi que d'un tarif promotionnel particulièrement attractif. Ses infrastructures accueillantes et son atmosphère conviviale en font un pied-à-terre privilégié pour explorer les trésors du littoral catalan. C'est le choix malin par excellence pour des vacances réussies en bord de mer.",
+        "prix_moyen": "469€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bonne note globale de 8,3 et confort de 8,7",
+            "Certificat de durabilité environnementale",
+            "Conditions flexibles avec annulation gratuite",
+            "Tarif promotionnel très intéressant"
+        ],
+        "points_negatifs": [
+            "Stock limité à ce tarif préférentiel",
+            "Animation estivale prononcée dans la station balnéaire"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Certificat de durabilité",
+            "Climatisation",
+            "Annulation gratuite",
+            "Chambres modulables"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Chaleureux, dynamique, accueillant et moderne",
+            "public": "Couples et familles à la recherche d'un séjour balnéaire de qualité à Malgrat",
+            "style": "Hôtel de côte 4 étoiles",
+            "verdict": "Un excellent rapport qualité-prix pour un séjour en bord de mer en Catalogne."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 277 expériences vécues · Mise à jour : 2026"
+    },
+    "Elba Costa Ballena Beach & Thalasso Resort": {
+        "pays": "Espagne",
+        "ville": "Costa Ballena",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/costa-ballena-beach-golf-thalasso-convention.html?aid=818289",
+        "image": "",
+        "description": "Véritable havre de paix et de régénération à Costa Ballena, l'Elba Costa Ballena Beach & Thalasso Resort séduit immédiatement par sa note de 8,4 et son indice de confort de 8,7. Cet établissement prestigieux propose des chambres doubles parfaitement adaptées (2 adultes et 1 enfant) pourvues de la climatisation, accompagnées chaque matin d'un délicieux petit-déjeuner compris d'une grande finesse. L'atout maître de ce complexe réside dans son centre de thalassothérapie et de bien-être haut de gamme, idéal pour déconnecter totalement du quotidien. Côté organisation, l'établissement garantit une liberté totale grâce à l'annulation gratuite et au paiement direct sur place sans le moindre prépaiement. C'est l'adresse absolue pour les voyageurs désireux de fondre vacances balnéaires et rituels de relaxation profonde. Un choix d'exception pour un séjour revitalisant sous le signe de l'apaisement.",
+        "prix_moyen": "845€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Excellente note de 8,4 et indice de confort élevé de 8,7",
+            "Petit-déjeuner compris inclus dans l'offre",
+            "Centre de thalasso et de bien-être de premier plan",
+            "Annulation gratuite et paiement sur place sans prépaiement"
+        ],
+        "points_negatifs": [
+            "Tarif plus élevé justifié par les prestations thalasso",
+            "Nécessite d'anticiper les réservations pour les soins"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Centre Thalasso & Spa",
+            "Petit-déjeuner compris",
+            "Climatisation",
+            "Annulation gratuite",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Relaxant, luxueux, marin et bien-être",
+            "public": "Amateurs de détente, de spa et de séjours haut de gamme au bord de l'océan",
+            "style": "Resort & Thalasso 4 étoiles",
+            "verdict": "Le choix parfait pour un séjour axé sur la relaxation, la mer et le bien-être."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 4 533 expériences vécues · Mise à jour : 2026"
+    },
+    "Aparthotel Ciutat de Palol": {
+        "pays": "Espagne",
+        "ville": "Platja d'Aro",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/aparthotel-ciutat-de-palol.html?aid=818289",
+        "image": "",
+        "description": "Véritable coup de cœur sur la Costa Brava, l'Aparthotel Ciutat de Palol s'illustre par une note fabuleuse de 9,0 et un confort exceptionnel évalué à 9,1. L'établissement met à disposition de superbes appartements d'une chambre de 41 m² entièrement équipés, comprenant une cuisine privative, un salon chaleureux, une salle de bains moderne et la climatisation. Conçu pour concilier l'indépendance d'un logement personnel et le standing des services hôteliers, il offre un cadre verdoyant, paisible et idéalement situé près des plages. Les vacanciers profitent en outre d'une flexibilité maximale grâce à l'annulation gratuite et à une réduction substantielle sur le tarif initial. C'est l'option rêvée pour les familles ou les couples souhaitant s'octroyer de grands volumes et une liberté totale d'organisation. Une adresse d'une qualité remarquable pour un séjour tout confort sous le soleil catalan.",
+        "prix_moyen": "723€ / semaine",
+        "avis": "9,0/10",
+        "points_positifs": [
+            "Note exceptionnelle de 9,0 et indice de confort de 9,1",
+            "Appartement spacieux de 41 m² avec cuisine et salon privatifs",
+            "Cadre verdoyant et paisible proche des plages",
+            "Annulation gratuite et réduction substantielle sur le tarif initial"
+        ],
+        "points_negatifs": [
+            "Forte demande en haute saison",
+            "Formule appartement impliquant une gestion autonome des repas"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Appartement avec cuisine",
+            "Climatisation",
+            "Annulation gratuite",
+            "Espaces verts et piscine"
+        ],
+        "pour_qui": {
+            "ambiance": "🏡 Spacieux, indépendant, haut de gamme et serein",
+            "public": "Familles et couples recherchant le confort d'un appartement avec les services d'un hôtel",
+            "style": "Aparthotel de standing",
+            "verdict": "Une qualité remarquable pour ceux qui souhaitent de l'espace et de l'autonomie."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 967 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Best Cambrils": {
+        "pays": "Espagne",
+        "ville": "Cambrils",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/best-cambrils.html?aid=818289",
+        "image": "",
+        "description": "Apprécié pour son grand sérieux et la régularité de ses prestations, l'Hotel Best Cambrils s'établit solidement à Cambrils avec une belle note de 8,0 et un confort noté 8,2. L'établissement propose des chambres lits jumeaux fonctionnelles et entièrement climatisées, garantissant un espace de repos optimal après une journée de découvertes. Les clients bénéficient d'un excellent niveau de flexibilité grâce à l'annulation gratuite, ainsi qu'une réduction tarifaire très appréciable par rapport au prix initial. Sa localisation stratégique permet de rayonner facilement pour profiter des charmes maritimes et culturels de la Costa Daurada. C'est un choix parfaitement équilibré et sans mauvaise surprise pour des vacances balnéaires réussies en toute sérénité. Une adresse sûre qui répond aux attentes des voyageurs pragmatiques et exigeants.",
+        "prix_moyen": "550€ / semaine",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Très bonne note de 8,0 et confort solide noté 8,2",
+            "Chambres fonctionnelles et climatisées",
+            "Annulation gratuite et tarif promotionnel attractif",
+            "Situation idéale dans la station balnéaire de Cambrils"
+        ],
+        "points_negatifs": [
+            "Affluence importante en période estivale",
+            "Décoration d'intérieur classique"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Chambre Lits Jumeaux",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Balnéaire, classique, fonctionnel et convivial",
+            "public": "Vacanciers recherchant un hôtel bien implanté et abordable à Cambrils",
+            "style": "Hôtel de côte 4 étoiles",
+            "verdict": "Un rapport qualité-prix très correct pour des vacances réussies à la mer."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 461 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Aromar": {
+        "pays": "Espagne",
+        "ville": "Platja d'Aro",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/aromar.html?aid=818289",
+        "image": "",
+        "description": "Niché face au littoral à Platja d'Aro, l'Hotel Aromar procure une expérience de séjour hautement qualitative, validée par une note de 8,3 et un confort évalué à 8,5. L'établissement met à disposition de superbes chambres doubles pourvues d'un balcon privatif et de la climatisation, permettant d'admirer de superbes vues. Chaque matin, un copieux petit-déjeuner compris est proposé pour faire le plein d'énergie avant d'explorer les environs côtiers. Engagé dans une démarche écoresponsable, l'hôtel détient un certificat de durabilité qui garantit le respect de normes environnementales strictes. Son immense popularité se traduit par un stock de chambres rapidement pris d'assaut, bénéficiant par ailleurs d'une tarification promotionnelle très attractive. C'est l'adresse idéale pour fusionner emplacement d'exception, prestations soignées et douceur de vivre sur la Costa Brava.",
+        "prix_moyen": "576€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bonne note globale de 8,3 et confort de 8,5",
+            "Chambre double avec balcon et climatisation",
+            "Petit-déjeuner compris inclus dans l'offre",
+            "Certificat de durabilité environnementale"
+        ],
+        "points_negatifs": [
+            "Disponibilité restreinte avec peu de chambres restantes à ce tarif",
+            "Forte animation dans les environs directs en été"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Certificat de durabilité",
+            "Petit-déjeuner compris",
+            "Balcon privatif",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Marin, lumineux, confortable et vivant",
+            "public": "Couples et voyageurs cherchant un hôtel de qualité avec balcon face à la mer",
+            "style": "Hôtel de front de mer 4 étoiles",
+            "verdict": "Un excellent choix pour combiner emplacement exceptionnel et prestations soignées."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 687 expériences vécues · Mise à jour : 2026"
+    },
+    "SOL by Meliá Costa Daurada": {
+        "pays": "Espagne",
+        "ville": "Salou",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/sol-costa-daurada.html?aid=818289",
+        "image": "",
+        "description": "Fidèle aux standards d'excellence de la prestigieuse enseigne Meliá à Salou, le SOL by Meliá Costa Daurada constitue une valeur sûre, auréolée d'une note de 8,2 et d'un confort de 8,5. L'hôtel propose des chambres doubles entièrement climatisées aux configurations modulables, s'ajustant parfaitement aux attentes de chaque voyageur. Pour plus de quiétude, l'établissement intègre l'annulation gratuite ainsi qu'une réduction tarifaire très intéressante par rapport au prix initial. Sa situation géographique stratégique permet de profiter pleinement des attractions phares et des plages magnifiques de la station balnéaire. La rigueur des services hôteliers conjuguée à une ambiance chaleureuse garantit un séjour placé sous le signe de la quiétude. C'est l'option idéale pour s'assurer des vacances reposantes et réussies sans le moindre compromis sur la qualité.",
+        "prix_moyen": "515€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Note de 8,2 et indice de confort solide de 8,5",
+            "Standards de qualité assurés par la marque Meliá",
+            "Annulation gratuite et réduction tarifaire intéressante",
+            "Emplacement stratégique à Salou"
+        ],
+        "points_negatifs": [
+            "Forte affluence en haute saison estivale",
+            "Ambiance très animée propre à la station"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Chambre Double",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Dynamique, soigné, plaisant et central",
+            "public": "Familles et couples souhaitant le sérieux d'une grande chaîne hôtelière à Salou",
+            "style": "Hôtel de loisirs 4 étoiles",
+            "verdict": "Une valeur sûre pour un séjour balnéaire sans mauvaises surprises."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 020 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Cala Font": {
+        "pays": "Espagne",
+        "ville": "Salou",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/cala-font.html?aid=818289",
+        "image": "",
+        "description": "Niché au cœur d'un cadre paysager idyllique à Salou, l'Hotel Cala Font séduit les voyageurs avec une note de 8,2 et un confort apprécié à 8,5. L'établissement met à l'honneur des chambres lits jumeaux climatisées et modulables, complétées par un délicieux petit-déjeuner compris qui ravira les gourmands. Certifié pour son engagement en faveur du développement durable, l'hôtel met en œuvre des pratiques écoresponsables rigoureuses. Les clients profitent également d'une grande souplesse grâce à l'annulation gratuite et à une réduction notable sur son tarif initial. Sa proximité immédiate avec de sublimes criques aux eaux cristallines en fait un lieu de villégiature hautement recherché. C'est la destination parfaite pour s'offrir une immersion totale dans la beauté sauvage du littoral catalan dans un confort absolu.",
+        "prix_moyen": "577€ / semaine",
+        "avis": "8,2/10",
+        "points_positifs": [
+            "Note de 8,2 et confort apprécié à 8,5",
+            "Petit-déjeuner compris inclus dans l'offre",
+            "Certificat de durabilité garantissant des pratiques écoresponsables",
+            "Annulation gratuite et réduction sur le tarif initial"
+        ],
+        "points_negatifs": [
+            "Forte demande sur les périodes estivales",
+            "Espaces communs très fréquentés en saison"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Certificat de durabilité",
+            "Petit-déjeuner compris",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Côtier, paisible, agréable et ensoleillé",
+            "public": "Amateurs de belles criques et de séjours balnéaires qualitatifs",
+            "style": "Hôtel de plage 4 étoiles",
+            "verdict": "Un choix parfait pour un séjour les pieds dans l'eau près des plus belles criques de Salou."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 4 766 expériences vécues · Mise à jour : 2026"
+    },
+    "Alua Gran Camp de Mar": {
+        "pays": "Espagne",
+        "ville": "Camp de Mar",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/camp-de-mar.html?aid=818289",
+        "image": "",
+        "description": "Installé dans le décor spectaculaire de Camp de Mar à Majorque, l'Alua Gran Camp de Mar incarne le raffinement et l'évasion avec une note de 8,5 et un confort de 8,8. Il propose de superbes chambres doubles climatisées aux options modulables, accompagnées chaque matin d'un petit-déjeuner compris d'une exquise fraîcheur. Porteur d'un certificat de durabilité, l'établissement allie habilement prestations haut de gamme et conscience écologique respectueuse de l'île. Les clients bénéficient en outre d'une réduction substantielle sur le tarif initial, rendant cette expérience de standing plus accessible. Son atmosphère paisible et son panorama enchanteur en font une adresse privilégiée pour les voyageurs en quête de sérénité. C'est l'investissement de choix pour savourer des vacances luxueuses dans un cadre insulaire absolument paradisiaque.",
+        "prix_moyen": "1 007€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Excellente note de 8,5 et confort élevé de 8,8",
+            "Petit-déjeuner compris inclus dans l'offre",
+            "Certificat de durabilité environnementale",
+            "Cadre enchanteur et paisible à Camp de Mar"
+        ],
+        "points_negatifs": [
+            "Budget supérieur lié au standing de l'île et de l'hôtel",
+            "Forte demande nécessitant une réservation anticipée"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Certificat de durabilité",
+            "Petit-déjeuner compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Luxueux, calme, marin et raffiné",
+            "public": "Voyageurs en quête d'un séjour haut de gamme et reposant à Majorque",
+            "style": "Resort balnéaire 4 étoiles supérieur",
+            "verdict": "Un investissement de choix pour s'offrir des vacances luxueuses dans un cadre idyllique."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 434 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Best Oasis Tropical": {
+        "pays": "Espagne",
+        "ville": "Mojácar",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/best-oasis-tropical.html?aid=818289",
+        "image": "",
+        "description": "Implanté à Mojácar, l'Hotel Best Oasis Tropical s'impose comme une référence incontournable de la côte d'Almería, salué par une superbe note globale de 8,6 et un indice de confort de 8,9. L'établissement met à disposition des voyageurs des chambres doubles spacieuses, pourvues de deux grands lits doubles et d'une climatisation performante. Très engagé pour la protection de la nature, l'hôtel détient un certificat de durabilité qui certifie la qualité de sa gestion environnementale. Côté organisationnel, tout est pensé pour faciliter le séjour grâce à l'annulation gratuite et au paiement direct sur place sans aucun prépaiement. Ses infrastructures de loisirs et sa localisation privilégiée garantissent des vacances à la fois actives et profondément reposantes. C'est une valeur sûre hautement recommandée pour profiter pleinement des attraits de Mojácar dans d'excellentes conditions.",
+        "prix_moyen": "603€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe note globale de 8,6 et confort remarquable de 8,9",
+            "Chambres doubles spacieuses avec deux lits doubles",
+            "Certificat de durabilité environnementale",
+            "Annulation gratuite et paiement sur place sans prépaiement"
+        ],
+        "points_negatifs": [
+            "Forte affluence estivale dans l'établissement",
+            "Animation importante en haute saison"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Certificat de durabilité",
+            "Chambre Double",
+            "Climatisation",
+            "Annulation gratuite",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Chaleureux, confortable, vivant et accueillant",
+            "public": "Familles et couples cherchant le confort supérieur et la proximité de la mer à Mojácar",
+            "style": "Hôtel de bord de mer 4 étoiles",
+            "verdict": "Un choix hautement recommandé pour profiter pleinement de Mojácar dans d'excellentes conditions."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 489 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Punta Bermeja Premium": {
+        "pays": "Espagne",
+        "ville": "El Puerto de Santa María",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/punta-bermeja-premium.html?aid=818289",
+        "image": "",
+        "description": "Véritable pépite hôtelière à El Puerto de Santa María, l'Hotel Punta Bermeja Premium se distingue par des performances exceptionnelles, illustrées par une note de 9,3 et un confort au sommet évalué à 9,7. Il propose de superbes chambres doubles avec vue sur les pins, équipées d'un très grand lit double et de la climatisation, ainsi qu'un petit-déjeuner compris d'une finesse remarquable. L'établissement propose en outre une réduction avantageuse sur son tarif initial pour s'offrir un séjour grand standing. Son atmosphère intimiste, prestigieuse et profondément reposante en fait un havre de paix unique en Andalousie. C'est l'adresse absolue pour les voyageurs exigeants à la recherche d'un niveau de service et de confort hors du commun. Un choix d'exception pour vivre une parenthèse enchantée empreinte de calme et d'élégance.",
+        "prix_moyen": "657€ / semaine",
+        "avis": "9,3/10",
+        "points_positifs": [
+            "Note exceptionnelle de 9,3 et indice de confort au sommet à 9,7",
+            "Chambre double élégante avec vue sur les pins et très grand lit",
+            "Petit-déjeuner compris d'excellente qualité",
+            "Cadre intimiste, prestigieux et reposant"
+        ],
+        "points_negatifs": [
+            "Forte demande en raison de ses excellents retours clients",
+            "Nécessite d'anticiper la réservation"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Vue sur pin",
+            "Très grand lit double",
+            "Petit-déjeuner compris",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Prestigieux, intime, luxueux et paisible",
+            "public": "Voyageurs exigeants et couples recherchant le summum du confort andalou",
+            "style": "Hôtel boutique premium 4 étoiles",
+            "verdict": "Une adresse d'exception offrant un niveau de confort et de service hors du commun."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 287 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Servigroup Koral Beach 4 Sup": {
+        "pays": "Espagne",
+        "ville": "Oropesa del Mar",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/koral.html?aid=818289",
+        "image": "",
+        "description": "Situé à Oropesa del Mar, l'Hotel Servigroup Koral Beach 4 Sup propose des prestations haut de gamme couronnées par une superbe note de 8,6 et un indice de confort de 9,2. Il met à disposition des chambres doubles ou lits jumeaux climatisées et modulables, accompagnées d'un petit-déjeuner compris soigné. Une adresse de choix pour un séjour de qualité sur la côte valencienne.",
+        "prix_moyen": "663€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe note de 8,6 et indice de confort élevé de 9,2",
+            "Petit-déjeuner compris inclus dans l'offre",
+            "Prestations modernes et service hôtelier soigné",
+            "Situation idéale à Oropesa del Mar"
+        ],
+        "points_negatifs": [
+            "Forte affluence en période estivale",
+            "Tarif reflétant le haut standing de l'établissement"
+        ],
+        "equipements": [
+            "4 étoiles supérieur",
+            "Petit-déjeuner compris",
+            "Climatisation",
+            "Chambres modulables"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Moderne, élégant, confortable et soigné",
+            "public": "Voyageurs recherchant le standing supérieur d'une grande marque hôtelière",
+            "style": "Hôtel 4 étoiles supérieur",
+            "verdict": "Un gage de qualité et de grand confort pour des vacances sans fausse note."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 812 expériences vécues · Mise à jour : 2026"
+    },
+    "ALEGRIA El Mar & Spa 4 SUP": {
+        "pays": "Espagne",
+        "ville": "Santa Susanna",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/hotel-alegria-el-mar.html?aid=818289",
+        "image": "",
+        "description": "Implanté à Santa Susanna, l'ALEGRIA El Mar & Spa 4 SUP allie détente et raffinement avec une superbe note de 8,6 et un indice de confort de 9,0. Il propose des chambres doubles standard climatisées avec un lit double, accompagnées d'un petit-déjeuner compris. Doté d'un espace spa, l'établissement propose l'annulation gratuite et un tarif préférentiel. Une adresse parfaite pour combiner bien-être et vacances à la mer.",
+        "prix_moyen": "605€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Excellente note de 8,6 et confort remarquable évalué à 9,0",
+            "Espace Spa dédié à la détente et au bien-être",
+            "Petit-déjeuner compris inclus",
+            "Annulation gratuite et tarif promotionnel intéressant"
+        ],
+        "points_negatifs": [
+            "Disponibilité limitée avec peu de chambres restantes à ce tarif",
+            "Forte animation dans la station en été"
+        ],
+        "equipements": [
+            "4 étoiles supérieur",
+            "Espace Spa",
+            "Petit-déjeuner compris",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Relaxant, moderne, chic et marin",
+            "public": "Couples et amateurs de bien-être cherchant un hôtel avec spa sur la côte",
+            "style": "Hôtel & Spa 4 étoiles supérieur",
+            "verdict": "Une magnifique option pour allier le plaisir de la plage aux bienfaits d'un spa."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 576 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Tahití Playa & Suites 4Sup": {
+        "pays": "Espagne",
+        "ville": "Santa Susanna",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/tahiti-playa.html?aid=818289",
+        "image": "",
+        "description": "Situé à Santa Susanna, l'Hotel Tahití Playa & Suites 4Sup propose un cadre familial et chaleureux avec une note de 7,8. Il met à disposition des chambres lits jumeaux supérieures (2 adultes + 1 enfant) climatisées et pourvues de deux lits doubles. Certifié pour sa durabilité, l'établissement bénéficie d'un tarif promotionnel attractif avec une dernière chambre disponible à ce prix. Une formule idéale pour les familles en quête de soleil.",
+        "prix_moyen": "565€ / semaine",
+        "avis": "7,8/10",
+        "points_positifs": [
+            "Chambre supérieure spacieuse adaptée pour 2 adultes et 1 enfant",
+            "Certificat de durabilité environnementale",
+            "Climatisation et lits doubles confortables",
+            "Tarif promotionnel attractif"
+        ],
+        "points_negatifs": [
+            "Disponibilité très limitée (dernière chambre au tarif préférentiel)",
+            "Ambiance très animée en période estivale"
+        ],
+        "equipements": [
+            "4 étoiles supérieur",
+            "Certificat de durabilité",
+            "Chambre Familiale Supérieure",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Familial, vivant, animé et chaleureux",
+            "public": "Familles recherchant un grand hôtel de bord de mer à Santa Susanna",
+            "style": "Resort familial 4 étoiles",
+            "verdict": "Un choix pratique et adapté pour les familles souhaitant profiter pleinement de la plage."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 116 expériences vécues · Mise à jour : 2026"
+    },
+    "Senator Gandia": {
+        "pays": "Espagne",
+        "ville": "Gandía",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/senator-gandia-spa.html?aid=818289",
+        "image": "",
+        "description": "Idéalement situé à Gandía, le Senator Gandia s'impose comme une adresse prisée pour des vacances tout compris d'exception sous le soleil de la côte valencienne. Cet établissement 4 étoiles se distingue par une superbe note globale de 8,7 et un indice de confort remarquable de 9,1, salué par plus de 8 500 voyageurs. Il propose de superbes chambres doubles climatisées dotées d'un grand lit double, garantissant un repos absolu et un bien-être au quotidien. Très soucieux de l'environnement, l'hôtel bénéficie d'un certificat de durabilité qui atteste de son engagement écoresponsable rigoureux. La formule tout compris permet de profiter pleinement et sereinement de chaque instant sans se soucier de l'intendance. C'est l'adresse idéale pour conjuguer plaisirs de la plage, confort supérieur et insouciance totale lors d'un séjour inoubliable.",
+        "prix_moyen": "595€ / semaine",
+        "avis": "8,7/10",
+        "points_positifs": [
+            "Superbe note de 8,7 et indice de confort élevé de 9,1",
+            "Formule tout compris pour un séjour totalement serein",
+            "Certificat de durabilité garantissant un engagement écologique",
+            "Tarif promotionnel attractif par rapport au prix initial"
+        ],
+        "points_negatifs": [
+            "Forte demande en période de haute saison estivale",
+            "Espaces de restauration très fréquentés aux heures de pointe"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Tout compris",
+            "Certificat de durabilité",
+            "Climatisation",
+            "Grand lit double"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Animé, confortable, tout compris et reposant",
+            "public": "Couples et vacanciers recherchant une formule tout compris de grande qualité à Gandía",
+            "style": "Hôtel balnéaire 4 étoiles",
+            "verdict": "Une valeur sûre pour s'offrir des vacances 100% détendues avec un confort irréprochable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 8 521 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Caprice Sa Coma Park": {
+        "pays": "Espagne",
+        "ville": "Sa Coma",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/caprice-sa-coma-park.html?aid=818289",
+        "image": "",
+        "description": "Niché dans le cadre enchanteur de Sa Coma à Majorque, l'Hotel Caprice Sa Coma Park procure un cadre de séjour très agréable avec une note de 8,4 et un confort évalué à 8,7. L'établissement met à disposition des chambres doubles avec vue sur la piscine, pourvues de la climatisation et de deux lits simples pour un repos optimal. Pensé pour offrir une insouciance complète, il propose une formule tout compris très appréciée des vacanciers en quête de détente. Son stock ultra-limité avec une dernière disponibilité à ce tarif témoigne de son fort succès auprès des voyageurs. C'est un pied-à-terre chaleureux et idéalement configuré pour profiter des splendeurs de l'île baléare. Une magnifique option pour un séjour tout inclus placé sous le signe du soleil et de la déconnexion.",
+        "prix_moyen": "876€ / semaine",
+        "avis": "8,4/10",
+        "points_positifs": [
+            "Chambre double lumineuse avec agréable vue sur la piscine",
+            "Formule tout compris pour des vacances sans contrainte",
+            "Indice de confort très satisfaisant de 8,7",
+            "Cadre magnifique sur l'île de Majorque"
+        ],
+        "points_negatifs": [
+            "Disponibilité extrêmement limitée (dernière chambre au tarif affiché)",
+            "Budget lié au standing insulaire"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Tout compris",
+            "Vue sur piscine",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Ensoleillé, convivial, relaxant et tout compris",
+            "public": "Familles et couples souhaitant profiter de Majorque en formule tout inclus",
+            "style": "Resort balnéaire 4 étoiles",
+            "verdict": "Un choix parfait pour un séjour tout inclus réussi sous le soleil majorquin."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 42 expériences vécues · Mise à jour : 2026"
+    },
+    "Hostería del Mar": {
+        "pays": "Espagne",
+        "ville": "Peñiscola",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/hosteria-del-mar.html?aid=818289",
+        "image": "",
+        "description": "Bénéficiant d'un emplacement privilégié à Peñiscola, l'Hostería del Mar s'impose comme une adresse d'excellence couronnée par une superbe note de 8,8 et un confort exceptionnel de 9,1. L'établissement propose de superbes chambres lits jumeaux avec vue sur la montagne, dotées de trois lits simples et de la climatisation pour un espace généreux. Chaque matin, un petit-déjeuner compris d'une grande finesse est servi pour bien commencer la journée. Les clients profitent d'une flexibilité totale grâce à l'annulation gratuite, bien que la disponibilité soit désormais très restreinte. Son atmosphère élégante et son cachet unique en font une halte incontournable le long de la côte. C'est l'adresse idéale pour allier charme historique, paysages sombres et confort hôtelier de tout premier plan.",
+        "prix_moyen": "890€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Superbe note globale de 8,8 et indice de confort au sommet à 9,1",
+            "Chambre spacieuse avec trois lits simples et vue sur la montagne",
+            "Petit-déjeuner compris inclus dans l'offre",
+            "Conditions flexibles avec annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Disponibilité très restreinte (plus qu'1 seule chambre à ce tarif)",
+            "Tarif supérieur reflétant le cachet unique de l'établissement"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Vue sur montagne",
+            "Petit-déjeuner compris",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Charmant, prestigieux, panoramique et reposant",
+            "public": "Voyageurs exigeants cherchant le cachet et le grand confort à Peñiscola",
+            "style": "Hôtel de charme 4 étoiles",
+            "verdict": "Une magnifique adresse de caractère offrant un confort et des vues remarquables."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 158 expériences vécues · Mise à jour : 2026"
+    },
+    "Protur Roquetas Hotel & Spa": {
+        "pays": "Espagne",
+        "ville": "Roquetas de Mar",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/hlg-portobello.html?aid=818289",
+        "image": "",
+        "description": "Véritable oasis de bien-être à Roquetas de Mar, le Protur Roquetas Hotel & Spa séduit par ses prestations haut de gamme validées par une superbe note de 8,6 et un confort de 9,1. Cet établissement propose de vastes chambres familiales climatisées équipées de trois lits (lits simples et canapé-lit) pour un accueil sur mesure. La formule proposée inclut à la fois le petit-déjeuner et le dîner compris, garantissant un confort culinaire absolu tout au long du séjour. Très soucieux de l'environnement, l'hôtel détient un certificat de durabilité officiel. Côté logistique, il offre une flexibilité totale avec l'annulation gratuite et l'avantage d'un paiement sur place sans aucun prépaiement. C'est le lieu de villégiature parfait pour allier détente au spa, plaisirs de la table et vacances en famille sous le soleil andalou.",
+        "prix_moyen": "1 208€ / semaine",
+        "avis": "8,6/10",
+        "points_positifs": [
+            "Superbe note de 8,6 et indice de confort remarquable de 9,1",
+            "Formule demi-pension avec petit-déjeuner et dîner compris",
+            "Chambre familiale spacieuse et adaptée",
+            "Certificat de durabilité environnementale et paiement sur place sans prépaiement"
+        ],
+        "points_negatifs": [
+            "Budget conséquent justifié par les prestations demi-pension et spa",
+            "Forte demande en saison estivale"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Centre Spa",
+            "Demi-pension (Petit-déjeuner et dîner compris)",
+            "Certificat de durabilité",
+            "Climatisation",
+            "Annulation gratuite",
+            "Paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Luxueux, familial, relaxant et gourmand",
+            "public": "Familles et couples recherchant un resort avec spa et demi-pension de haut standing",
+            "style": "Resort & Spa 4 étoiles",
+            "verdict": "Un investissement de choix pour s'offrir un séjour d'exception associant bien-être et gastronomie."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 618 expériences vécues · Mise à jour : 2026"
+    },
+    "htop Platja Park - Bliss": {
+        "pays": "Espagne",
+        "ville": "Platja d'Aro",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/platja-park.html?aid=818289",
+        "image": "",
+        "description": "Situé à Platja d'Aro, l'htop Platja Park - Bliss propose une formule de séjour accessible et fonctionnelle, saluée par une note de 7,7 et plus de 1 700 avis de voyageurs. L'établissement met à disposition des chambres doubles économiques climatisées et pourvues de deux lits simples, idéales pour un séjour sans superflu. Afin de garantir une tranquillité d'organisation optimale, l'hôtel propose l'annulation gratuite ainsi qu'une réduction attractive par rapport au tarif initial. Sa localisation permet de profiter pleinement des animations et des plages de la magnifique Costa Brava à moindre coût. C'est l'option idéale pour les voyageurs souhaitant maîtriser leur budget tout en s'assurant un pied-à-terre bien situé. Un choix pragmatique et malin pour des vacances réussies sous le soleil catalan.",
+        "prix_moyen": "450€ / semaine",
+        "avis": "7,7/10",
+        "points_positifs": [
+            "Tarif économique très compétitif avec réduction sur le prix initial",
+            "Chambre double fonctionnelle avec climatisation",
+            "Conditions flexibles incluant l'annulation gratuite",
+            "Situation idéale à Platja d'Aro"
+        ],
+        "points_negatifs": [
+            "Confort plus simple par rapport aux resorts de luxe",
+            "Forte affluence estivale dans la station"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Chambre Double Économique",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "☀️ Pratique, économique, vivant et accessible",
+            "public": "Voyageurs au budget maîtrisé cherchant un hôtel bien placé sur la Costa Brava",
+            "style": "Hôtel balnéaire fonctionnel",
+            "verdict": "Un excellent rapport qualité-prix pour profiter de Platja d'Aro sans se ruiner."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 751 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel RH Vinaros Playa & Spa 4* Sup": {
+        "pays": "Espagne",
+        "ville": "Vinaròs",
+        "etoiles": "4 étoiles supérieur",
+        "lien": "https://www.booking.com/hotel/es/vinaros-playa.html?aid=818289",
+        "image": "",
+        "description": "Implanté à Vinaròs, l'Hotel RH Vinaros Playa & Spa 4* Sup conjugue élégance et détente, porté par une solide note de 8,5 et un indice de confort de 9,0. Il propose de superbes chambres triples avec terrasse (adaptées pour 2 adultes et 1 enfant) dotées de la climatisation et de configurations modulables. Chaque matin, un délicieux petit-déjeuner compris est servi pour bien commencer la journée. Engagé dans une démarche écoresponsable, l'établissement dispose d'un certificat de durabilité officiel. Les clients profitent en outre d'une flexibilité totale grâce à l'annulation gratuite. Son espace spa et ses prestations soignées en font une destination privilégiée pour les familles. C'est l'adresse idéale pour allier plaisirs de la mer et bien-être sur la côte valencienne.",
+        "prix_moyen": "548€ / semaine",
+        "avis": "8,5/10",
+        "points_positifs": [
+            "Excellente note de 8,5 et indice de confort élevé de 9,0",
+            "Chambre triple avec terrasse privative et climatisation",
+            "Petit-déjeuner compris inclus dans l'offre",
+            "Certificat de durabilité et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Forte demande en saison estivale",
+            "Espace spa parfois très fréquenté aux heures de pointe"
+        ],
+        "equipements": [
+            "4 étoiles supérieur",
+            "Espace Spa",
+            "Chambre avec Terrasse",
+            "Petit-déjeuner compris",
+            "Certificat de durabilité",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Confortable, moderne, familial et relaxant",
+            "public": "Familles et couples cherchant un hôtel avec spa et terrasse à Vinaròs",
+            "style": "Hôtel & Spa 4 étoiles supérieur",
+            "verdict": "Une valeur sûre pour un séjour tout confort associant détente et découvertes."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 027 expériences vécues · Mise à jour : 2026"
+    },
+    "GHT Oasis Tossa & Spa": {
+        "pays": "Espagne",
+        "ville": "Tossa de Mar",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/hotel-oasis-tossa.html?aid=818289",
+        "image": "",
+        "description": "Niché dans la magnifique cité balnéaire de Tossa de Mar, le GHT Oasis Tossa & Spa procure une parenthèse de sérénité couronnée par une note de 8,3 et un confort de 8,7. L'établissement met à l'honneur des chambres doubles ou lits jumeaux pourvues d'un balcon et de la climatisation, offrant une belle flexibilité sur les types de lits. Doté d'un espace spa dédié à la détente, il propose des conditions de réservation très souples incluant l'annulation gratuite. Sa situation privilégiée permet de découvrir facilement l'une des plus belles villes côtières de la Catalogne tout en profitant de prestations de qualité. C'est une destination de choix pour les voyageurs en quête de charme, de bien-être et d'authenticité méditerranéenne. Une adresse hautement recommandée pour un séjour ressourçant.",
+        "prix_moyen": "495€ / semaine",
+        "avis": "8,3/10",
+        "points_positifs": [
+            "Très bonne note de 8,3 et confort solide noté 8,7",
+            "Chambre avec balcon privatif et climatisation",
+            "Espace spa intégré pour des moments de relaxation",
+            "Flexibilité totale avec l'annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Forte affluence estivale dans la station",
+            "Demande importante nécessitant d'anticiper la réservation"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Espace Spa",
+            "Balcon privatif",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Relaxant, charmant, pittoresque et marin",
+            "public": "Couples et amateurs de détente cherchant un hôtel avec spa à Tossa de Mar",
+            "style": "Hôtel & Spa 4 étoiles",
+            "verdict": "Un choix parfait pour allier le charme historique de Tossa aux bienfaits d'un spa."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 896 expériences vécues · Mise à jour : 2026"
+    },
+    "htop Pineda Palace SPA 4Sup - Bliss - Adults Only Plus 18": {
+        "pays": "Espagne",
+        "ville": "Pineda de Mar",
+        "etoiles": "4 étoiles supérieur",
+        "lien": "https://www.booking.com/hotel/es/pineda-palace.html?aid=818289",
+        "image": "",
+        "description": "Réservé exclusivement aux adultes (Adults Only Plus 18), l'htop Pineda Palace SPA à Pineda de Mar offre un cadre intimiste et reposant, salué par une note de 7,9 et un confort de 8,4. L'établissement propose des chambres lits jumeaux climatisées équipées de deux lits simples, idéales pour un séjour au calme. Les clients profitent d'un espace spa dédié au bien-être ainsi que d'une excellente flexibilité grâce à l'annulation gratuite. Son positionnement en dernière disponibilité à ce tarif attractif en fait une opportunité à saisir rapidement. C'est le refuge parfait pour les couples ou les duos d'adultes souhaitant s'échapper de l'effervescence familiale. Une adresse de choix pour savourer un séjour complice et détendu sur la côte catalane.",
+        "prix_moyen": "565€ / semaine",
+        "avis": "7,9/10",
+        "points_positifs": [
+            "Concept Adults Only (+18) garantissant calme et tranquillité",
+            "Espace spa et bien-être intégré",
+            "Chambre lits jumeaux climatisée",
+            "Annulation gratuite et réduction sur le tarif initial"
+        ],
+        "points_negatifs": [
+            "Disponibilité très restreinte (plus qu'1 seule chambre au tarif promo)",
+            "Réservé exclusivement aux adultes"
+        ],
+        "equipements": [
+            "4 étoiles supérieur",
+            "Réservé aux adultes (+18)",
+            "Espace Spa",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Calme, adulte, intime, reposant et chic",
+            "public": "Couples et adultes recherchant un hôtel sans enfants avec spa",
+            "style": "Hôtel Adults Only 4 étoiles supérieur",
+            "verdict": "L'adresse idéale pour des vacances au calme entre adultes, axées sur la détente."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 853 expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel RH Portocristo & Wellness": {
+        "pays": "Espagne",
+        "ville": "Peñiscola",
+        "etoiles": "4 étoiles",
+        "lien": "https://www.booking.com/hotel/es/rh-portocristo.html?aid=818289",
+        "image": "",
+        "description": "Véritable fleuron hôtelier à Peñiscola, l'Hotel RH Portocristo & Wellness s'impose au sommet avec une superbe note de 8,8 et un indice de confort exceptionnel de 9,1. Il propose des chambres doubles économiques climatisées dotées d'un lit double, accompagnées chaque matin d'un petit-déjeuner compris d'une grande fraîcheur. Très attaché à l'environnement, l'établissement détient un certificat de durabilité officiel. Les clients bénéficient d'une flexibilité remarquable grâce à l'annulation gratuite, bien que le stock s'épuise rapidement avec seulement deux chambres restantes à ce tarif. Son centre de bien-être (Wellness) et ses prestations haut de gamme garantissent un séjour mémorable. C'est l'adresse absolue pour les voyageurs exigeants en quête de standing et de sérénité au pied du château de Peñiscola.",
+        "prix_moyen": "871€ / semaine",
+        "avis": "8,8/10",
+        "points_positifs": [
+            "Note remarquable de 8,8 et indice de confort au sommet à 9,1",
+            "Centre de bien-être (Wellness) de grande qualité",
+            "Petit-déjeuner compris inclus dans l'offre",
+            "Certificat de durabilité et annulation gratuite"
+        ],
+        "points_negatifs": [
+            "Disponibilité très limitée (plus que 2 chambres à ce tarif)",
+            "Budget reflétant le très haut standing de l'établissement"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Centre Wellness & Spa",
+            "Petit-déjeuner compris",
+            "Certificat de durabilité",
+            "Climatisation",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Prestigieux, relaxant, luxueux et raffiné",
+            "public": "Voyageurs exigeants et couples à la recherche d'un hôtel bien-être d'exception à Peñiscola",
+            "style": "Hôtel Wellness & Spa 4 étoiles",
+            "verdict": "Une adresse prestigieuse incontournable pour un séjour axé sur le bien-être absolu."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 899 expériences vécues · Mise à jour : 2026"
     }
-} 
+}

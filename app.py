@@ -5,22 +5,53 @@ from data.airlines_data import AIRLINES_DATA
 import streamlit.components.v1 as components
 import urllib.parse
 import base64
+import apropos
+import confidentialite
+import contact
 
-# --- Chargement dynamique de tous les hôtels depuis le dossier data/ ---
-HOTELS_DATA = {}
-data_dir = "data"
+# Initialisation de la page par défaut
+if "page" not in st.session_state:
+    st.session_state.page = "Comparateur Hôtels"
 
-if os.path.exists(data_dir):
-    for fichier in os.listdir(data_dir):
-        if fichier.endswith(".json") or fichier.endswith(".geojson"):
-            chemin_fichier = os.path.join(data_dir, fichier)
-            try:
-                with open(chemin_fichier, "r", encoding="utf-8") as f:
-                    donnees_pays = json.load(f)
-                    if isinstance(donnees_pays, dict):
-                        HOTELS_DATA.update(donnees_pays)
-            except Exception as e:
-                print(f"Erreur lors du chargement de {fichier}: {e}")
+# Passerelle pour lier les liens HTML du footer sombre à la session
+query_params = st.query_params
+if "page" in query_params:
+    p = query_params["page"]
+    if p == "apropos":
+        st.session_state.page = "À propos"
+    elif p == "confidentialite":
+        st.session_state.page = "Politique de confidentialité"
+    elif p == "contact":
+        st.session_state.page = "Contact"
+    elif p == "accueil":
+        st.session_state.page = "Comparateur Hôtels"
+
+# Gestion de l'affichage des pages du menu
+if st.session_state.page == "À propos":
+    apropos.afficher_page()
+
+elif st.session_state.page == "Politique de confidentialité":
+    confidentialite.afficher_page()
+
+elif st.session_state.page == "Contact":
+    contact.afficher_page()
+
+else:
+    # --- Chargement dynamique de tous les hôtels depuis le dossier data/ ---
+    HOTELS_DATA = {}
+    data_dir = "data"
+
+    if os.path.exists(data_dir):
+        for fichier in os.listdir(data_dir):
+            if fichier.endswith(".json") or fichier.endswith(".geojson"):
+                chemin_fichier = os.path.join(data_dir, fichier)
+                try:
+                    with open(chemin_fichier, "r", encoding="utf-8") as f:
+                        donnees_pays = json.load(f)
+                        if isinstance(donnees_pays, dict):
+                            HOTELS_DATA.update(donnees_pays)
+                except Exception as e:
+                    print(f"Erreur lors du chargement de {fichier}: {e}")
 
 # --- Configuration de la page ---
 st.set_page_config(page_title="HotelCompare", page_icon="images/favicon_io/favicon.ico", layout="wide")
@@ -32,26 +63,25 @@ components.html(google_tag, height=0, width=0)
 # --- Style CSS ---
 st.markdown("""
     <style>
-    .stApp {
-        background-color: #F8F9FA;
+    .stApp { background-color: #F8F9FA; }
+    [data-testid="stSidebar"] { min-width: 150px; max-width: 150px; }
+    .block-container { padding-top: 1rem !important; }
+    iframe { width: 100% !important; }
+    .hotel-card {
+        background-color: #ffffff;
+        border: 1px solid #e0e0e0;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        margin-bottom: 20px;
     }
-    [data-testid="stSidebar"] { 
-        min-width: 150px; 
-        max-width: 150px; 
-    }
-    .block-container {
-        padding-top: 1rem !important;
-    }
-    iframe {
-        width: 100% !important;
-    }
-    [data-testid="collapsedControl"]::after {
-        content: " Menu";
-        font-size: 14px;
+    .badge-note {
+        background-color: #003580;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 6px;
         font-weight: bold;
-        color: #333;
-        vertical-align: middle;
-        margin-left: 5px;
+        font-size: 1.1em;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -60,7 +90,7 @@ st.markdown("""
 if 'page' not in st.session_state:
     st.session_state.page = "Comparateur Hôtels"
 
-# --- En-tête Global : Logo et Titre sur la même ligne ---
+# --- En-tête Global ---
 col_logo, col_titre = st.columns([1, 8])
 with col_logo:
     if os.path.exists("logo_4.png"):
@@ -70,24 +100,20 @@ with col_titre:
 
 st.markdown("---")
 
-# --- 4 Boutons de Navigation ---
+# --- Boutons de Navigation ---
 b1, b2, b3, b4 = st.columns(4)
-with b1:
-    if st.button("🏨 Hôtels", use_container_width=True):
-        st.session_state.page = "Comparateur Hôtels"
-        st.rerun()
-with b2:
-    if st.button("✈️ Compagnies Aériennes", use_container_width=True):
-        st.session_state.page = "Compagnies Aériennes"
-        st.rerun()
-with b3:
-    if st.button("🚗 Loueurs de Véhicules", use_container_width=True):
-        st.session_state.page = "Loueurs Véhicules"
-        st.rerun()
-with b4:
-    if st.button("📖 Blog", use_container_width=True):
-        st.session_state.page = "Blog"
-        st.rerun()
+if b1.button("🏨 Hôtels", use_container_width=True):
+    st.session_state.page = "Comparateur Hôtels"
+    st.rerun()
+if b2.button("✈️ Compagnies Aériennes", use_container_width=True):
+    st.session_state.page = "Compagnies Aériennes"
+    st.rerun()
+if b3.button("🚗 Loueurs de Véhicules", use_container_width=True):
+    st.session_state.page = "Loueurs Véhicules"
+    st.rerun()
+if b4.button("📖 Blog", use_container_width=True):
+    st.session_state.page = "Blog"
+    st.rerun()
 
 st.markdown("---")
 
@@ -96,102 +122,81 @@ st.markdown("---")
 # ==============================================================================
 if st.session_state.page == "Comparateur Hôtels":
     
-    # --- Fonction et affichage du carrousel à 5 images ---
+    # --- Style CSS pour les cartes et images ---
+    st.markdown("""
+    <style>
+        .hotel-card {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+        }
+        .badge-note {
+            background-color: #003580;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        /* Ciblage direct des images Streamlit à l'intérieur des cartes */
+    .hotel-card div[data-testid="stImage"] img {
+        height: 150px !important;
+        object-fit: cover !important;
+        width: 100% !important;
+        border-radius: 8px !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
+    # --- Carrousel ---
     def get_img_as_base64(path):
         if os.path.exists(path):
             with open(path, "rb") as f:
                 return base64.b64encode(f.read()).decode()
         return ""
 
-    img1 = get_img_as_base64("images/image caroussel 2.png")
-    img2 = get_img_as_base64("images/image_afrique.jpg")
-    img3 = get_img_as_base64("images/image_astuce.jpg")
-    img4 = get_img_as_base64("images/image_hotel.jpg")
-    img5 = get_img_as_base64("images/image_tunisie.jpg")
+    img_paths = ["images/image caroussel 2.png", "images/image_afrique.jpg", "images/image_astuce.jpg", "images/image_hotel.jpg", "images/image_tunisie.jpg"]
+    imgs_base64 = [get_img_as_base64(p) for p in img_paths]
 
     carousel_html = f"""
-    <style>
-    .carousel-container {{
-        width: 100%;
-        height: 280px;
-        position: relative;
-        overflow: hidden;
-        border-radius: 8px;
-        margin-bottom: 20px;
-    }}
-    .carousel-slide {{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        animation: sfade 15s infinite;
-        object-fit: cover;
-    }}
-    .carousel-slide:nth-child(1) {{ animation-delay: 0s; }}
-    .carousel-slide:nth-child(2) {{ animation-delay: 3s; }}
-    .carousel-slide:nth-child(3) {{ animation-delay: 6s; }}
-    .carousel-slide:nth-child(4) {{ animation-delay: 9s; }}
-    .carousel-slide:nth-child(5) {{ animation-delay: 12s; }}
-
-    @keyframes sfade {{
-        0% {{ opacity: 0; }}
-        6% {{ opacity: 1; }}
-        20% {{ opacity: 1; }}
-        26% {{ opacity: 0; }}
-        100% {{ opacity: 0; }}
-    }}
-    </style>
-
-    <div class="carousel-container">
-        <img class="carousel-slide" src="data:image/png;base64,{img1}">
-        <img class="carousel-slide" src="data:image/jpeg;base64,{img2}">
-        <img class="carousel-slide" src="data:image/jpeg;base64,{img3}">
-        <img class="carousel-slide" src="data:image/jpeg;base64,{img4}">
-        <img class="carousel-slide" src="data:image/jpeg;base64,{img5}">
+    <div style="width: 100%; height: 280px; position: relative; overflow: hidden; border-radius: 8px; margin-bottom: 20px;">
+        <style>
+        .slide {{ position: absolute; width: 100%; height: 100%; opacity: 0; animation: fade 15s infinite; object-fit: cover; }}
+        @keyframes fade {{ 0% {{ opacity: 0; }} 6% {{ opacity: 1; }} 20% {{ opacity: 1; }} 26% {{ opacity: 0; }} 100% {{ opacity: 0; }} }}
+        </style>
+        <img class="slide" src="data:image/png;base64,{imgs_base64[0]}" style="animation-delay: 0s;">
+        <img class="slide" src="data:image/jpeg;base64,{imgs_base64[1]}" style="animation-delay: 3s;">
+        <img class="slide" src="data:image/jpeg;base64,{imgs_base64[2]}" style="animation-delay: 6s;">
+        <img class="slide" src="data:image/jpeg;base64,{imgs_base64[3]}" style="animation-delay: 9s;">
+        <img class="slide" src="data:image/jpeg;base64,{imgs_base64[4]}" style="animation-delay: 12s;">
     </div>
     """
     st.markdown(carousel_html, unsafe_allow_html=True)
 
     st.subheader("💡 Comment comparer vos hôtels")
-    st.markdown("""
-    1. **Sélectionnez** un pays, une ville, puis vos deux hôtels dans les menus déroulants ci-dessous.
-    2. **Cliquez** sur le bouton rouge **Comparer**.
-    3. **Découvrez** les points forts et points faibles pour faire votre choix !
-    """)
-    st.markdown("---")
+    st.markdown("1. Sélectionnez pays et ville. 2. Choisissez deux hôtels. 3. Cliquez sur Comparer.")
     
-    # --- Logique de sélection Pays -> Ville -> Hôtels ---
-    # Nettoyage et normalisation pour éviter les erreurs de casse ou d'espaces
+    # --- Menus de sélection ---
     pays_disponibles = sorted(list(set(str(d.get("pays", "Autre")).strip() for d in HOTELS_DATA.values() if isinstance(d, dict))))
-    
     c_pays, c_ville, c1, c2, c_btn1, c_btn2 = st.columns([2, 2, 2, 2, 1, 1])
     
     choix_pays = c_pays.selectbox("Pays", [""] + pays_disponibles)
-    
-    villes_disponibles = sorted(list(set(
-        str(d.get("ville", "Autre")).strip() for d in HOTELS_DATA.values() 
-        if isinstance(d, dict) and (not choix_pays or str(d.get("pays", "")).strip() == choix_pays)
-    )))
+    villes_disponibles = sorted(list(set(str(d.get("ville", "Autre")).strip() for d in HOTELS_DATA.values() if isinstance(d, dict) and (not choix_pays or str(d.get("pays", "")).strip() == choix_pays))))
     choix_ville = c_ville.selectbox("Ville", [""] + villes_disponibles)
     
-    hotels_filtres = [
-        nom for nom, d in HOTELS_DATA.items() 
-        if isinstance(d, dict) 
-        and (not choix_pays or str(d.get("pays", "")).strip() == choix_pays)
-        and (not choix_ville or str(d.get("ville", "")).strip() == choix_ville)
-    ]
+    hotels_filtres = [nom for nom, d in HOTELS_DATA.items() if isinstance(d, dict) and (not choix_pays or str(d.get("pays", "")).strip() == choix_pays) and (not choix_ville or str(d.get("ville", "")).strip() == choix_ville)]
     
     choix1 = c1.selectbox("Premier hôtel", [""] + hotels_filtres)
-    
     hotels_restants = [h for h in hotels_filtres if h != choix1]
     choix2 = c2.selectbox("Deuxième hôtel", [""] + hotels_restants)
     
     valider = c_btn1.button("Comparer", type="primary", use_container_width=True)
-    reset = c_btn2.button("Reset", use_container_width=True)
+    if c_btn2.button("Reset"): st.rerun()
 
-    if reset:
-        st.rerun()
-
+    # --- Affichage des résultats ---
     if valider:
         comparaison = [c for c in [choix1, choix2] if c != ""]
         if not comparaison:
@@ -201,84 +206,120 @@ if st.session_state.page == "Comparateur Hôtels":
             for i, nom in enumerate(comparaison):
                 d = HOTELS_DATA.get(nom)
                 with cols[i]:
+                    st.markdown('<div class="hotel-card">', unsafe_allow_html=True)
+                    
+                    # Image
+                    img_src = d.get("image")
+                    if img_src and img_src != "...":
+                     st.image(img_src, width=350)
+                        
                     st.subheader(nom)
                     
-                    # 1. Le carré "Voir les photos" en vert
-                    url_hotel = d.get("lien", "https://www.booking.com/index.fr.html")
-                    
-                    if "expedia" in url_hotel.lower():
-                        texte_bouton = "📸 Voir les photos sur Expedia"
-                    elif "booking" in url_hotel.lower():
-                        texte_bouton = "📸 Voir les photos sur Booking"
-                    else:
-                        texte_bouton = "📸 Voir les photos de l'hôtel"
-
-                    st.markdown(
-                        f"""
-                        <div style="margin-bottom: 15px;">
-                            <a href="{url_hotel}" target="_blank" style="text-decoration: none;">
-                                <div style="
-                                    border: 2px dashed #38a169; 
-                                    border-radius: 8px; 
-                                    padding: 25px 15px; 
-                                    text-align: center; 
-                                    background-color: #f0fff4;
-                                    transition: all 0.2s ease-in-out;
-                                ">
-                                    <span style="font-size: 16px; font-weight: bold; color: #22543d;">
-                                        {texte_bouton}
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-                        """,
-                        unsafe_allow_html=True
-                    )
-
-                    # 2. Informations de l'hôtel
-                    if d.get("etoiles"):
-                        st.write(f"**Étoiles :** {d['etoiles']}")
-                    if d.get("prix_moyen"):
-                        st.write(f"**Prix moyen :** {d['prix_moyen']}")
+                    # Note
                     if d.get("avis"):
-                        st.write(f"**Avis :** {d['avis']}")
+                        st.markdown(f"Note : <span class='badge-note'>{d['avis']}</span>", unsafe_allow_html=True)
+                    
+                    st.write("")
+                    if d.get("etoiles"): st.write(f"⭐ **{d['etoiles']}**")
+                    if d.get("prix_moyen"): st.write(f"💰 {d['prix_moyen']}")
+                    
+                    st.write("---")
+                    
+                    # Description
                     if d.get("description"):
                         st.write(f"**Description :** {d['description']}")
+                    
+                    # Équipements
+                    if d.get("equipements"):
+                        with st.expander("🛠️ Équipements"):
+                            st.write(", ".join(d['equipements']))
 
-                    # 3. Verdict
-                    if d.get("pour_qui") and isinstance(d.get("pour_qui"), dict):
-                        st.info(f"**Verdict :** {d.get('pour_qui').get('verdict', '')}")
-                        
-                    # 4. Points Positifs / Négatifs
+                    # Points Positifs / Négatifs
                     if d.get("points_positifs"):
                         with st.expander("✅ Points Positifs"):
-                            for p in d.get("points_positifs"):
-                                st.write(f"- {p}")
-                                
+                            for p in d.get("points_positifs"): st.write(f"• {p}")
                     if d.get("points_negatifs"):
                         with st.expander("⚠️ Points Négatifs"):
-                            for n in d.get("points_negatifs"):
-                                st.write(f"- {n}")
+                            for n in d.get("points_negatifs"): st.write(f"• {n}")
+                    
+                    # Verdict (pour_qui)
+                    if d.get("pour_qui") and isinstance(d.get("pour_qui"), dict):
+                        st.markdown("---")
+                        st.info(f"**Verdict :** {d['pour_qui'].get('verdict', '')}")
+                        with st.expander("🤔 Pour qui ?"):
+                            for cle, val in d['pour_qui'].items():
+                                if cle != 'verdict':
+                                    st.write(f"**{cle.capitalize()} :** {val}")
 
+                    # Meta Avis
                     if d.get("meta_avis"):
                         st.caption(d['meta_avis'])
-
-                    # 5. Gestion du lien de réservation (si pas sur booking -> redirige vers l'accueil booking)
-                    if "booking" in url_hotel.lower():
-                        url_reservation = url_hotel
-                        texte_reservation = "Réserver sur Booking"
-                    else:
-                        url_reservation = "https://www.booking.com/index.fr.html"
-                        texte_reservation = "Rechercher sur Booking.com"
-
-                    # Bouton de réservation en bas
-                    st.markdown(
-                        f'<a href="{url_reservation}" target="_blank" style="text-decoration:none;">'
-                        f'<button style="background-color:#003580; color:white; padding:10px 20px; border:none; border-radius:5px; width:100%; cursor:pointer; font-weight:bold;">'
-                        f'{texte_reservation}</button></a>',
-                        unsafe_allow_html=True
-                    )
+                    
                     st.write("")
+                    url_hotel = d.get("lien", "https://www.booking.com/index.fr.html")
+                    st.markdown(f'<a href="{url_hotel}" target="_blank" style="text-decoration:none;"><div style="background-color:#003580; color:white; padding:12px; text-align:center; border-radius:6px; font-weight:bold;">Voir les offres</div></a>', unsafe_allow_html=True)
+                    st.markdown('</div>', unsafe_allow_html=True)
+# ==============================================================================
+    # SECTION 5 : AVIS CLIENTS
+# ==============================================================================
+    st.markdown("---")
+    st.subheader("💬 Ce que pensent nos voyageurs")
+    
+    col_a1, col_a2, col_a3 = st.columns(3)
+    
+    with col_a1:
+        st.markdown(
+            """
+            <div style="background-color: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+                <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px;">⭐⭐⭐⭐⭐</p>
+                <p style="font-style: italic; font-size: 0.95em;">"Grâce au comparateur, j'ai trouvé l'hôtel idéal à Djerba pour notre groupe d'amis au meilleur prix. Super interface !"</p>
+                <div style="display: flex; align-items: center; margin-top: 12px;">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+                    <div>
+                        <p style="font-weight: bold; font-size: 0.85em; color: #333; margin: 0;">Thomas M.</p>
+                        <p style="font-size: 0.75em; color: #777; margin: 0;">Séjour à Djerba</p>
+                    </div>
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+        
+    with col_a2:
+        st.markdown(
+            """
+            <div style="background-color: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+                <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px;">⭐⭐⭐⭐⭐</p>
+                <p style="font-style: italic; font-size: 0.95em;">"Les points forts et négatifs résumés par IA m'ont fait gagner un temps fou. Je recommande à 100%."</p>
+                <div style="display: flex; align-items: center; margin-top: 12px;">
+                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+                    <div>
+                        <p style="font-weight: bold; font-size: 0.85em; color: #333; margin: 0;">Sarah L.</p>
+                        <p style="font-size: 0.75em; color: #777; margin: 0;">Voyage en famille</p>
+                    </div>
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+        
+    with col_a3:
+        st.markdown(
+            """
+            <div style="background-color: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+                <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px;">⭐⭐⭐⭐⭐</p>
+                <p style="font-style: italic; font-size: 0.95em;">"Simple, rapide et très clair pour comparer les compagnies aériennes et les hôtels en même temps."</p>
+                <div style="display: flex; align-items: center; margin-top: 12px;">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+                    <div>
+                        <p style="font-weight: bold; font-size: 0.85em; color: #333; margin: 0;">Karim B.</p>
+                        <p style="font-size: 0.75em; color: #777; margin: 0;">Voyageur régulier</p>
+                    </div>
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 # ==============================================================================
 # SECTION 2 : COMPAGNIES AÉRIENNES (Remise en place !)
 # ==============================================================================
@@ -509,3 +550,51 @@ elif st.session_state.page == "Blog":
                         if st.button("Lire la suite", key=f"art_{i}_{j}"):
                             st.session_state.article_ouvert = art
                             st.rerun()
+# ==============================================================================
+# PIED DE PAGE SOMBRE ET HARMONIEUX
+# ==============================================================================
+st.markdown("---")
+
+footer_html = """
+<style>
+.footer-bg {
+    background-color: #1e293b;
+    color: #f8fafc;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+.footer-links {
+    margin-bottom: 15px;
+}
+.footer-links a {
+    color: #38bdf8;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    font-size: 0.95em;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+.footer-copy {
+    color: #94a3b8;
+    font-size: 0.85em;
+    margin: 0;
+}
+</style>
+
+<div class="footer-bg">
+    <div class="footer-links">
+        <a href="/?page=accueil" target="_self">Accueil</a>
+        <a href="/?page=apropos" target="_self">À propos</a>
+        <a href="/?page=confidentialite" target="_self">Politique de confidentialité</a>
+        <a href="/?page=contact" target="_self">Contact</a>
+    </div>
+    <p class="footer-copy">© 2026 MyHotelCompare. Tous droits réservés. Propulsé par l'IA.</p>
+</div>
+"""
+
+st.markdown(footer_html, unsafe_allow_html=True)
