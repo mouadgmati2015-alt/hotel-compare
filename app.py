@@ -12,7 +12,50 @@ import contact
 # Initialisation de la page par défaut
 if "page" not in st.session_state:
     st.session_state.page = "Comparateur Hôtels"
+# --- Style CSS Global pour le mode sombre ---
+st.markdown("""
+    <style>
+    /* 1. Fond général sombre */
+    .stApp { 
+        background-color: #0B132B !important; 
+        color: #FFFFFF !important;
+    }
+    
+    [data-testid="stSidebar"] { 
+        min-width: 150px; 
+        max-width: 150px; 
+    }
+    .block-container { 
+        padding-top: 1rem !important; 
+    }
+    iframe { 
+        width: 100% !important; 
+    }
+    
+    /* 2. Textes généraux et libellés en blanc */
+    h1, h2, h3, h4, h5, h6, p, label, .stMarkdown p {
+        color: #FFFFFF !important;
+    }
 
+    /* 3. Texte des boutons du haut en NOIR */
+    .stButton button, .stButton button p, .stButton button span {
+        color: #0B132B !important;
+        font-weight: 600 !important;
+    }
+
+    /* 4. Classe dédiée et infaillible pour les cartes d'avis (fond blanc, texte noir) */
+    .review-card {
+        background-color: #ffffff !important;
+        border: 1px solid #e0e0e0 !important;
+        border-radius: 8px !important;
+        padding: 15px !important;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.02) !important;
+    }
+    .review-card p, .review-card span {
+        color: #000000 !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
 # --- Style CSS Global pour le mode sombre ---
 st.markdown("""
     <style>
@@ -208,13 +251,12 @@ if st.session_state.page == "Comparateur Hôtels":
             font-weight: bold;
             font-size: 1.1em;
         }
-        /* Ciblage direct des images Streamlit à l'intérieur des cartes */
-    .hotel-card div[data-testid="stImage"] img {
-        height: 150px !important;
-        object-fit: cover !important;
-        width: 100% !important;
-        border-radius: 8px !important;
-    }
+        .hotel-card div[data-testid="stImage"] img {
+            height: 150px !important;
+            object-fit: cover !important;
+            width: 100% !important;
+            border-radius: 8px !important;
+        }
     </style>
     """, unsafe_allow_html=True)
 
@@ -263,7 +305,7 @@ if st.session_state.page == "Comparateur Hôtels":
     valider = c_btn1.button("Comparer", type="primary", use_container_width=True)
     if c_btn2.button("Reset"): st.rerun()
 
-    # --- Affichage des résultats ---
+    # --- Affichage des résultats (bien indenté à l'intérieur du bloc Hôtels) ---
     if valider:
         comparaison = [c for c in [choix1, choix2] if c != ""]
         if not comparaison:
@@ -272,15 +314,24 @@ if st.session_state.page == "Comparateur Hôtels":
             cols = st.columns(len(comparaison))
             for i, nom in enumerate(comparaison):
                 d = HOTELS_DATA.get(nom)
+                if not d:
+                    continue
                 with cols[i]:
                     st.markdown('<div class="hotel-card">', unsafe_allow_html=True)
                     
                     # Image
                     img_src = d.get("image")
                     if img_src and img_src != "...":
-                     st.image(img_src, width=350)
+                        st.image(img_src, width=350)
                         
+                    # Nom de l'hôtel
                     st.subheader(nom)
+                    
+                    # Ville et pays sous le nom de l'hôtel
+                    ville_hotel = d.get("ville", "")
+                    pays_hotel = d.get("pays", "")
+                    if ville_hotel or pays_hotel:
+                        st.markdown(f"<p style='color: #94a3b8; font-size: 0.9em; margin-top: -10px; margin-bottom: 10px;'>📍 {ville_hotel}, {pays_hotel}</p>", unsafe_allow_html=True)
                     
                     # Note
                     if d.get("avis"):
@@ -389,7 +440,7 @@ if st.session_state.page == "Comparateur Hôtels":
 # ==============================================================================
 # SECTION 2 : COMPAGNIES AÉRIENNES (Remise en place !)
 # ==============================================================================
-elif st.session_state.page == "Compagnies Aériennes":
+if st.session_state.page == "Compagnies Aériennes":
     st.title("✈️ Comparateur & Avis - Compagnies Aériennes")
     st.write("Sélectionnez ou recherchez une compagnie aérienne pour consulter son résumé, ses avis et réserver au meilleur prix.")
     
@@ -433,7 +484,7 @@ elif st.session_state.page == "Compagnies Aériennes":
             with st.expander("✅ Points Positifs"):
                 for p in infos.get("points_positifs"):
                     st.write(f"- {p}")
-                    
+                
         if infos.get("points_negatifs"):
             with st.expander("⚠️ Points Négatifs"):
                 for n in infos.get("points_negatifs"):
@@ -442,10 +493,10 @@ elif st.session_state.page == "Compagnies Aériennes":
         if infos.get("pour_qui"):
             st.info(f"**Verdict :** {infos.get('pour_qui')}")
 
-    st.markdown(
-        '<a href="https://www.anrdoezrs.net/click-10182501-17053227" target="_blank" style="display: block; width: 100%; background-color: #0066cc; color: white; padding: 12px 20px; text-align: center; text-decoration: none; font-size: 16px; font-weight: bold; border-radius: 6px; box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">Réserver le vol</a>',
-        unsafe_allow_html=True
-    )
+        st.markdown(
+            '<a href="https://www.anrdoezrs.net/click-10182501-17053227" target="_blank" style="display: block; width: 100%; background-color: #0066cc; color: white; padding: 12px 20px; text-align: center; text-decoration: none; font-size: 16px; font-weight: bold; border-radius: 6px; box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">Réserver le vol</a>',
+            unsafe_allow_html=True
+        )
 
 # ==============================================================================
 # SECTION 3 : LOUEURS DE VÉHICULES
