@@ -12,6 +12,11 @@ import contact
 # Initialisation de la page par défaut
 if "page" not in st.session_state:
     st.session_state.page = "Comparateur Hôtels"
+    # --- AJOUT DU SCRIPT DE TRACKING CJ AFFILIATE ---
+st.markdown(
+    '<script src="https://www.anrdoezrs.net/am/10182501/include/allCJ/impressions/page/am.js"></script>',
+    unsafe_allow_html=True
+)
 # --- Style CSS Global pour le mode sombre ---
 st.markdown("""
     <style>
@@ -305,7 +310,7 @@ if st.session_state.page == "Comparateur Hôtels":
     valider = c_btn1.button("Comparer", type="primary", use_container_width=True)
     if c_btn2.button("Reset"): st.rerun()
 
-    # --- Affichage des résultats (bien indenté à l'intérieur du bloc Hôtels) ---
+    # --- Affichage des résultats ---
     if valider:
         comparaison = [c for c in [choix1, choix2] if c != ""]
         if not comparaison:
@@ -374,9 +379,42 @@ if st.session_state.page == "Comparateur Hôtels":
                         st.caption(d['meta_avis'])
                     
                     st.write("")
-                    url_hotel = d.get("lien", "https://www.booking.com/index.fr.html")
-                    st.markdown(f'<a href="{url_hotel}" target="_blank" style="text-decoration:none;"><div style="background-color:#003580; color:white; padding:12px; text-align:center; border-radius:6px; font-weight:bold;">Voir les offres</div></a>', unsafe_allow_html=True)
-                    st.markdown('</div>', unsafe_allow_html=True)
+                    
+                    # --- COMPARATIF DES PRIX PAR TOUR-OPÉRATEUR ---
+                    tarifs = d.get("tarifs_operateurs", {})
+                    if tarifs:
+                        st.markdown("<h4 style='color: #1e293b !important;'>🏷️ Comparatif des prix</h4>", unsafe_allow_html=True)
+                        tarifs_valides = {k: v for k, v in tarifs.items() if isinstance(v, dict) and "prix" in v}
+                        
+                        if tarifs_valides:
+                            meilleur_operateur = min(tarifs_valides, key=lambda k: tarifs_valides[k]["prix"])
+                            
+                            for operateur, infos in tarifs_valides.items():
+                                prix_actuel = infos["prix"]
+                                detail_actuel = infos.get("detail", "Séjour standard")
+                                lien_actuel = infos.get("lien", "https://www.booking.com/index.fr.html")
+                                
+                                col_p1, col_p2, col_p3 = st.columns([3, 2, 1])
+                                
+                                with col_p1:
+                                    if operateur == meilleur_operateur:
+                                        st.markdown(f"<span style='color: #1e293b !important; font-weight: bold;'>{operateur}</span> 🟢 <span style='background-color:#34a853; color:white; padding:2px 6px; border-radius:4px; font-size:0.8em;'>Meilleur prix</span>", unsafe_allow_html=True)
+                                    else:
+                                        st.markdown(f"<span style='color: #1e293b !important; font-weight: bold;'>{operateur}</span>", unsafe_allow_html=True)
+                                    st.markdown(f"<span style='color: #64748b !important; font-size: 0.85em;'>{detail_actuel}</span>", unsafe_allow_html=True)
+                                        
+                                with col_p2:
+                                    st.markdown(f"<div style='text-align: right; font-weight: bold; font-size: 1.1em; color: #1e293b !important;'>{prix_actuel} €</div>", unsafe_allow_html=True)
+                                    
+                                with col_p3:
+                                    st.markdown(f"<div style='text-align: right;'><a href='{lien_actuel}' target='_blank' style='background-color:#003580; color:white; padding:5px 10px; text-decoration:none; border-radius:4px; font-size:0.85em; font-weight:bold; display:inline-block;'>Voir</a></div>", unsafe_allow_html=True)
+                                
+                                st.markdown("<hr style='margin: 5px 0; border: 0; border-top: 1px solid #e2e8f0;'>", unsafe_allow_html=True)
+                        else:
+                            st.warning("Tarifs opérateurs non disponibles.")
+                    else:
+                        url_hotel = d.get("lien", "https://www.booking.com/index.fr.html")
+                        st.markdown(f'<a href="{url_hotel}" target="_blank" style="text-decoration:none;"><div style="background-color:#003580; color:white; padding:12px; text-align:center; border-radius:6px; font-weight:bold;">Voir les offres</div></a>', unsafe_allow_html=True)
 # ==============================================================================
     # SECTION 5 : AVIS CLIENTS
 # ==============================================================================
