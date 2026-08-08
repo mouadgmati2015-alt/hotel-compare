@@ -1,44 +1,23 @@
 import streamlit as st
+import streamlit.components.v1 as components
 
 def afficher_page():
-    st.write("")  # Petit espace pour ne pas coller en haut
     st.title("📞 Contactez-nous")
-    st.write("Une question, une suggestion ou un partenariat ? Nous sommes à votre écoute.")
-    
     st.markdown("---")
-    
-    # Utilisation de colonnes pour séparer les infos et le formulaire
-    col1, col2 = st.columns([1, 1])
-    
-    with col1:
-        st.subheader("Nos coordonnées")
-        st.write("📧 **Email :** contact@myhotelcompare.com")
-        st.write("📍 **Localisation :** France")
-        st.write("🕒 **Réponse :** Sous 24h-48h ouvrées")
+
+    # Composant HTML totalement indépendant pour forcer le design du bloc et du bouton
+    html_code = """
+    <div style="background-color: #1C2541; border: 1px solid #3A506B; border-radius: 12px; padding: 40px; text-align: center; font-family: sans-serif;">
+        <h3 style="color: #FFFFFF; margin-bottom: 15px; font-size: 24px;">💬 Un besoin, une question ou une suggestion ?</h3>
+        <p style="font-size: 16px; color: #FFFFFF; margin-bottom: 10px; line-height: 1.5;">
+            Pour mieux vous répondre et assurer un suivi personnalisé, nous communiquons exclusivement par <b>message privé sur notre page Facebook</b>.
+        </p>
+        <p style="color: #94a3b8; font-size: 14px; margin-bottom: 30px;">Notre équipe vous répondra dans les plus brefs délais !</p>
         
-        st.markdown("---")
-        st.subheader("Suivez-nous")
-        st.write("Restez informé des nouveautés sur nos réseaux sociaux.")
-        # Lien Facebook mis à jour
-        st.markdown("[Facebook](https://www.facebook.com/profile.php?id=61591545557027)")
-
-    with col2:
-        st.subheader("Envoyez-nous un message")
-        with st.form("form_contact"):
-            nom = st.text_input("Nom complet")
-            email = st.text_input("Adresse e-mail")
-            objet = st.selectbox("Objet de votre message", ["Support technique", "Partenariat", "Suggestion", "Autre"])
-            message = st.text_area("Votre message")
-            
-            envoyer = st.form_submit_button("Envoyer le message")
-            
-            if envoyer:
-                if nom and email and message:
-                    st.success("Merci ! Votre message a bien été envoyé. Nous vous répondrons rapidement.")
-                    # Note : Dans une vraie application, vous ajouteriez ici 
-                    # une fonction pour envoyer réellement l'email (ex: smtplib)
-                else:
-                    st.error("Veuillez remplir tous les champs obligatoires.")
-
-    st.write("")
-    st.caption("© 2026 MyHotelCompare — Tous droits réservés.")
+        <a href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" style="background-color: #1877f2; color: #ffffff !important; padding: 14px 28px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.3);">
+            💬 Envoyer un message sur Facebook
+        </a>
+    </div>
+    """
+    
+    components.html(html_code, height=280, scrolling=False)

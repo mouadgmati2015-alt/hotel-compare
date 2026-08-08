@@ -1,108 +1,11 @@
 
 {
-    "Club Marmara Palm Beach Djerba": {
-        "pays": "Tunisie",
-        "ville": "Djerba",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/palm-beach-club-marmara.fr.html?aid=818289",
-        "image": "https://www.kayak.com/rimg/himg/6e/9f/5b/expedia_group-569713-125637046-333144.jpg?width=836&height=607&crop=true",
-        "description": "Situé à Midoun à quelques pas de la plage de Mezraia, le Palm Beach Club Djerba propose une formule tout compris idéale pour un séjour les pieds dans l'eau. L'établissement dispose d'une superbe plage privée, de piscines extérieure et intérieure, d'un jardin tropical et d'un restaurant-bar convivial. Les chambres climatisées ouvrent toutes sur un balcon privatif et disposent du Wi-Fi gratuit. Côté situation, l'hôtel se trouve à seulement 4,8 km du Djerba Golf Club et à 21 km de l'aéroport international de Djerba-Zarzis.",
-        "prix_moyen": "150€ - 250€ / nuit",
-        "avis": "8.0/5 (Groupes) / 4.0/5",
-        "points_positifs": [
-            "Emplacement privilégié à quelques pas de la plage de Mezraia",
-            "Très apprécié par les groupes d'amis",
-            "Piscines extérieure et intérieure",
-            "Personnel multilingue (français, anglais, allemand)"
-        ],
-        "points_negatifs": [
-            "Affluence importante en haute saison autour des espaces communs"
-        ],
-        "equipements": [
-            "Piscine extérieure et intérieure",
-            "Plage privée",
-            "Wi-Fi gratuit",
-            "Parking privé gratuit",
-            "Restaurant et bar",
-            "Salle de jeux (ping-pong, fléchettes)"
-        ],
-        "pour_qui": {
-            "ambiance": "🎉 Animé, convivial et propice aux séjours entre amis",
-            "public": "Idéal pour les groupes, les tribus et les vacanciers cherchant une ambiance club dynamique",
-            "style": "Complexe balnéaire 4 étoiles avec plage privée et formule All Inclusive",
-            "verdict": "Une excellente option si vous voyagez à plusieurs ou en groupe pour profiter de l'ambiance club et de la proximité immédiate de la plage."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
-    },
-    "Dar Chich Yahia": {
-        "pays": "Tunisie",
-        "ville": "Djerba",
-        "etoiles": "Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/tn/dar-chick-yahia-ile-de-djerba.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/100557083.jpg?k=f8d7e6f78dcb6210e47b85a7bd40fd92a1cc63076c8be8ba24c7ccf49b817268&o=",
-        "description": "Niché à Mezrane sur l île de Djerba, Dar Chick Yahia vous invite à vivre une expérience authentique et relaxante avec vue sur la mer. Cette charmante maison d'hôtes propose une piscine extérieure, un jardin verdoyant, une terrasse ensoleillée et un parking privé gratuit. Parfait pour les couples en quête de calme, l'établissement propose des équipements tout confort (cuisine équipée, Wi-Fi gratuite) ainsi que de nombreuses activités sur place : randonnée, pêche, fléchettes, et services de location de vélos ou de voitures pour explorer les environs. Un accueil multilingue (français, anglais, arabe, espagnol) et une navette aéroport complètent cette offre très appréciée pour un séjour à deux.",
-        "prix_moyen": "80€ - 130€ / nuit",
-        "avis": "4.7/5",
-        "points_positifs": [
-            "Calme absolu et atmosphère intimiste",
-            "Architecture traditionnelle pleine de charme",
-            "Accueil chaleureux et personnalisé"
-        ],
-        "points_negatifs": [
-            "Moins d'infrastructures de loisirs de type grand hôtel"
-        ],
-        "equipements": [
-            "Piscine extérieure",
-            "Jardin et terrasse",
-            "Wi-Fi gratuit",
-            "Parking privé gratuit",
-            "Location de vélos et voitures",
-            "Navette aéroport"
-        ],
-        "pour_qui": {
-            "ambiance": "🧘 Calme, feutrée, intimiste et authentique",
-            "public": "Idéal pour les couples et les voyageurs en quête de sérénité et de déconnexion",
-            "style": "Maison d'hôtes traditionnelle djerbienne avec vue sur mer",
-            "verdict": "Une perle rare si vous fuyez les grands complexes hôteliers impersonnels et recherchez l'authenticité et le calme."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
-    },
-    "Dar Lola": {
-        "pays": "Tunisie",
-        "ville": "Djerba",
-        "etoiles": "Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/tn/dar-lola-houmt-souk.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/207003284.jpg?k=643642b27e0df1ea66a63024b7bf5cd9ac546bb5469552680fe75b83cbf4a717&o=",
-        "description": "Structure intimiste au cachet local prononcé située à Houmt Souk, idéale pour les voyageurs en quête de tranquillité et d'authenticité. Cette maison d'hôtes offre une atmosphère cosy, une décoration soignée et une sérénité remarquable, tout en étant ancrée dans le charme traditionnel djerbien.",
-        "prix_moyen": "70€ - 120€ / nuit",
-        "avis": "4.6/5",
-        "points_positifs": [
-            "Atmosphère cosy et chaleureuse",
-            "Décoration soignée et locale",
-            "Sérénité absolue des lieux"
-        ],
-        "points_negatifs": [
-            "Éloigné de la plage et des zones balnéaires animées"
-        ],
-        "equipements": [
-            "Wi-Fi gratuit",
-            "Jardin / Patio",
-            "Espaces de détente",
-            "Chambres climatisées"
-        ],
-        "pour_qui": {
-            "ambiance": "🌿 Cosy, paisible, intimiste et artistique",
-            "public": "Idéal pour les couples et les amateurs de calme et d'immersion culturelle",
-            "style": "Maison d'hôtes de charme au cœur de Houmt Souk",
-            "verdict": "Une cachette secrète parfaite pour se reposer et s'imprégner de l'ambiance locale, à condition d'avoir un moyen de transport pour bouger vers la mer."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
-    },
+
     "Dar Salem": {
         "pays": "Tunisie",
         "ville": "Djerba",
         "etoiles": "Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/tn/dar-salem-djerba2.fr.html?aid=818289",
+        "lien": "https://www.booking.com/hotel/tn/dar-salem-djerba2.fr.html?aid=8012379",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/727504677.jpg?k=e6baf5bb626c3fb67d4084b52feed01a4acc6926e6b162f03cf0d63ee9d58414&o=",
         "description": "Une adresse charmante qui met en valeur l'art de vivre djerbien avec un confort moderne discret. Dotée d'un jardin reposant et d'une propreté irréprochable, cette maison d'hôtes se distingue par l'attention de son personnel, toujours aux petits soins pour garantir un séjour des plus ressourçants.",
         "prix_moyen": "75€ - 130€ / nuit",
@@ -236,7 +139,7 @@
         "pays": "Tunisie",
         "ville": "Djerba",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/hari-club-beach-resort-ultra-all-inclusive.fr.html??aid=818289",
+        "lien": "https://www.booking.com/hotel/tn/hari-club-beach-resort-ultra-all-inclusive.fr.html?",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/120234281.jpg?k=32ffe31f10a511fb6dd082704b00db977eb09d2ed9c626d2411fcd809d53de7b&o=",
         "description": "Un complexe balnéaire familial orienté détente et loisirs simples, parfait pour les budgets modérés.",
         "prix_moyen": "90€ - 140€ / nuit",
@@ -4765,31 +4668,35 @@
         "pays": "Tunisie",
         "ville": "Mahdia",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/royal-el-mansour.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/499676260.jpg?k=f6366652270037c77447ec9c1b2a131f013ef43b3b0bcb7571ba32a7acc57ce8&o=",
-        "description": "Situé en front de mer à Mahdia, l'Iberostar Selection Royal El Mansour offre un cadre superbe 5 étoiles avec piscine, confort supérieur et formule tout compris.",
-        "prix_moyen": "1 603€ / semaine",
-        "avis": "8,6/10",
-        "points_positifs": [
-            "Superbe",
-            "Confort de 8,9 en front de mer",
-            "Formule tout compris et paiement sur place possible"
-        ],
-        "points_negatifs": [
-            "Tarifs plus élevés"
-        ],
-        "equipements": [
-            "Piscine",
-            "Front de mer",
-            "Tout compris"
-        ],
+        "avis": "8.8/10",
+        "prix_moyen": "À partir de 950 €",
+        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
+        "description": "Situé en bord de mer à Mahdia, cet hôtel 5 étoiles propose un spa luxueux, des piscines extérieures et un service tout compris de qualité.",
+        "equipements": ["Wi-Fi gratuit", "Piscine", "Spa", "All Inclusive", "Plage privée"],
+        "points_positifs": ["Plage magnifique", "Animation dynamique", "Chambres spacieuses"],
+        "points_negatifs": ["Wi-Fi parfois lent dans les chambres"],
         "pour_qui": {
-            "ambiance": "✨ Luxueux, élégant et balnéaire",
-            "public": "Voyageurs exigeants cherchant le standing international à Mahdia",
-            "style": "Resort 5 étoiles les pieds dans l'eau",
-            "verdict": "La référence haut de gamme pour un séjour d'exception à Mahdia."
+            "verdict": "Idéal pour un séjour balnéaire en famille ou en couple.",
+            "familles": "Clubs enfants bien encadrés et espaces aquatiques.",
+            "couples": "Espaces de bien-être et ambiance relaxante."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 340 expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Très recommandé pour son rapport qualité-prix en formule tout compris.",
+        "lien": "https://www.booking.com/hotel/tn/royal-el-mansour.fr.html?aid=818289",
+        "tarifs_operateurs": {
+    "Booking": {
+        "prix": 1050,
+        "detail": "7 nuits - Tout compris",
+        "lien": "https://www.booking.com/hotel/tn/royal-el-mansour.fr.html?aid=818289"
+    },
+    "Expedia": {
+        "prix": 980,
+        "detail": "7 nuits - Vol + Hôtel",
+        "lien": "https://www.expedia.fr/Mahdia-Hotel-Iberostar-Selection-Royal-El-Mansour.h3697070.Description-Hotel"
+    },
+    "TUI": {
+        "prix": 1020,
+        "detail": "7 nuits - Formule Club",
+        "lien": "https://www.tui.ch/fr/hotels/iberostar-selection-royal-el-mansour-197245/hotelinformation/"
     },
     "Mahdia Palace Thalasso": {
         "pays": "Tunisie",
@@ -12034,5 +11941,6 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 16 expériences vécues · Mise à jour : 2026"
     }
-    
+        }
+    }
 }
