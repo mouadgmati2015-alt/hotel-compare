@@ -1,7 +1,6 @@
 import streamlit as st
 import os
 import json
-from data.airlines_data import AIRLINES_DATA
 import streamlit.components.v1 as components
 import urllib.parse
 import base64
@@ -21,6 +20,51 @@ def update_booking_aid(url, new_aid="8012379"):
 
 # Configuration de la page
 st.set_page_config(page_title="HotelCompare", page_icon="images/favicon_io/favicon.ico", layout="wide")
+
+import streamlit as st
+# ... autres imports ...
+
+# 1. Configuration obligatoire en premier
+st.set_page_config(page_title="Hotelcompare", layout="wide")
+
+# 2. Le style CSS global (masquage de la sidebar, de l'en-tête et mode sombre)
+st.markdown("""
+    <style>
+    /* Masquer tous les types d'en-têtes et barres Streamlit possibles */
+    header, [data-testid="stHeader"], [data-testid="stDecoration"], .stApp > header {
+        display: none !important;
+        height: 0px !important;
+    }
+    
+    /* Cacher le menu latéral */
+    [data-testid="stSidebar"] {
+        display: none !important;
+    }
+    
+    /* Fond général sombre et suppression de tout espace en haut */
+    .stApp { 
+        background-color: #0B132B !important; 
+        color: #FFFFFF !important;
+    }
+    
+    .block-container { 
+        padding-top: 0rem !important; 
+        margin-top: 0px !important;
+    }
+    
+    /* Textes généraux en blanc */
+    p, span, label, h1, h2, h3, h4, h5, h6, 
+    .stMarkdown, div[data-baseweb="select"] span {
+        color: #FFFFFF !important;
+    }
+
+    /* Couleur du texte à l'intérieur des boutons du haut */
+    .stButton button, .stButton button p, .stButton button span {
+        color: #0B132B !important;
+        font-weight: 700 !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
 # Injection de la balise de vérification Google Search Console
 google_tag = '<meta name="google-site-verification" content="UFPNwmAw5bpc..." />'
@@ -124,25 +168,26 @@ with col_titre:
 
 st.markdown("---")
 
-# --- Boutons de Navigation ---
+# --- Boutons de Navigation (Redirection vers les pages multipages) ---
 b1, b2, b3, b4 = st.columns(4)
-if b1.button("🏨 Hôtels", use_container_width=True):
-    st.session_state.page = "Comparateur Hôtels"
-    st.rerun()
-if b2.button("✈️ Compagnies Aériennes", use_container_width=True):
-    st.session_state.page = "Compagnies Aériennes"
-    st.rerun()
-if b3.button("🚗 Loueurs de Véhicules", use_container_width=True):
-    st.session_state.page = "Loueurs Véhicules"
-    st.rerun()
-if b4.button("📖 Blog", use_container_width=True):
-    st.session_state.page = "Blog"
-    st.rerun()
+with b1:
+    if st.button("🏨 Hôtels", use_container_width=True):
+        st.session_state.page = "Comparateur Hôtels"
+        st.rerun()
+with b2:
+    if st.button("✈️ Compagnies Aériennes", use_container_width=True):
+        st.switch_page("pages/1_Compagnies_Aeriennes.py")
+with b3:
+    if st.button("🚗 Loueurs de Véhicules", use_container_width=True):
+        st.switch_page("pages/2_Loueurs_Vehicules.py")
+with b4:
+    if st.button("📖 Blog", use_container_width=True):
+        st.switch_page("pages/3_Blog.py")
 
 st.markdown("---")
 
 # ==============================================================================
-# GESTION DE L'AFFICHAGE DES PAGES (ROUTAGE PRINCIPAL)
+# GESTION DE L'AFFICHAGE DES PAGES SECONDAIRES (Footer links)
 # ==============================================================================
 
 if st.session_state.page == "À propos":
@@ -153,228 +198,6 @@ elif st.session_state.page == "Politique de confidentialité":
 
 elif st.session_state.page == "Contact":
     contact.afficher_page()
-
-elif st.session_state.page == "Compagnies Aériennes":
-    st.title("✈️ Comparateur & Avis - Compagnies Aériennes")
-    st.write("Sélectionnez ou recherchez une compagnie aérienne pour consulter son résumé, ses avis et réserver au meilleur prix.")
-    
-    st.markdown("---")
-    
-    noms_compagnies = sorted(AIRLINES_DATA.keys())
-    
-    col_s1, col_s2 = st.columns([2, 1])
-    choix_cie = col_s1.selectbox("Choisissez une compagnie aérienne", noms_compagnies)
-    
-    if choix_cie:
-        infos = AIRLINES_DATA[choix_cie]
-        st.markdown("---")
-        
-        col_c1, col_c2 = st.columns([1, 4])
-        with col_c1:
-            try:
-                st.image("images/airbus_vol.jpg", width=120)
-            except:
-                st.write("✈️")
-        with col_c2:
-            st.subheader(choix_cie)
-            st.markdown(f"**Catégorie :** {infos['categorie']} | **Alliance :** {infos['alliance']}")
-            st.markdown(f"**Note globale :** ⭐ {infos['note']}")
-        
-        st.write(f"**Résumé :** {infos['resume']}")
-        st.write(f"**Politique bagages :** {infos['bagages']}")
-        st.write(f"**Flotte :** {infos.get('flotte', 'Flotte moderne et variée')}")
-        
-        st.markdown("### Principales liaisons :")
-        for liaison in infos.get("liaisons", []):
-            st.write(f"- ✈️ {liaison}")
-            
-        with st.expander("📖 Histoire de la compagnie"):
-            st.write(infos['histoire'])
-            
-        with st.expander("🛡️ Sécurité et normes"):
-            st.write(infos.get('securite', 'Normes de sécurité internationales respectées.'))
-            
-        if infos.get("points_positifs"):
-            with st.expander("✅ Points Positifs"):
-                for p in infos.get("points_positifs"):
-                    st.write(f"- {p}")
-                
-        if infos.get("points_negatifs"):
-            with st.expander("⚠️ Points Négatifs"):
-                for n in infos.get("points_negatifs"):
-                    st.write(f"- {n}")
-
-        if infos.get("pour_qui"):
-            st.info(f"**Verdict :** {infos.get('pour_qui')}")
-
-        st.markdown(
-            '<a href="https://www.anrdoezrs.net/click-10182501-17053227" target="_blank" style="display: block; width: 100%; background-color: #0066cc; color: white; padding: 12px 20px; text-align: center; text-decoration: none; font-size: 16px; font-weight: bold; border-radius: 6px; box-shadow: 0px 2px 5px rgba(0,0,0,0.2);">Réserver le vol</a>',
-            unsafe_allow_html=True
-        )
-
-elif st.session_state.page == "Loueurs Véhicules":
-    st.title("🚗 Comparateur & Agences de Location de Véhicules")
-    st.write("Recherchez et comparez les meilleurs loueurs de voitures à travers le monde.")
-    
-    LOUEURS_DATA = {
-        "Enterprise": {
-            "rang": "#1 Mondial",
-            "note": "4.4 / 5",
-            "resume": "Leader mondial de la location, excellent service client, très présent dans les aéroports et les centres-villes."
-        },
-        "Hertz": {
-            "rang": "#2 Mondial",
-            "note": "4.0 / 5",
-            "resume": "Présent dans le monde entier, grand choix de véhicules récents et service client fiable."
-        },
-        "Avis": {
-            "rang": "#3 Mondial",
-            "note": "4.1 / 5",
-            "resume": "L'un des pionniers de la location, reconnu pour son service professionnel et ses programmes de fidélité."
-        },
-        "Sixt": {
-            "rang": "#4 Mondial",
-            "note": "4.3 / 5",
-            "resume": "Flotte moderne, véhicules haut de gamme souvent disponibles et agences très bien placées."
-        },
-        "Europcar": {
-            "rang": "#5 Mondial",
-            "note": "3.9 / 5",
-            "resume": "Réseau très étendu en Europe et formules de location flexibles adaptées aux voyageurs internationaux."
-        },
-        "Alamo": {
-            "rang": "#6 Mondial",
-            "note": "4.2 / 5",
-            "resume": "Très populaire auprès des vacanciers, notamment pour ses options de choix de véhicule sur place."
-        },
-        "Budget": {
-            "rang": "#7 Mondial",
-            "note": "3.8 / 5",
-            "resume": "Idéal pour les petits budgets, offre un très bon rapport qualité-prix sur une large gamme de véhicules."
-        },
-        "Dollar": {
-            "rang": "#8 Mondial",
-            "note": "3.7 / 5",
-            "resume": "Tarifs souvent très compétitifs pour les locations de vacances en famille."
-        },
-        "Thrifty": {
-            "rang": "#9 Mondial",
-            "note": "3.7 / 5",
-            "resume": "Solutions économiques et pratiques pour les voyageurs à la recherche de bons plans."
-        }
-    }
-
-    liste_options = ["Sélectionnez un loueur..."] + list(LOUEURS_DATA.keys())
-    choix_loueur = st.selectbox("Choisissez un loueur de véhicules :", liste_options)
-
-    if choix_loueur != "Sélectionnez un loueur...":
-        infos_l = LOUEURS_DATA[choix_loueur]
-        st.markdown("---")
-        col_l1, col_l2 = st.columns([1, 4])
-        with col_l1:
-            st.markdown(
-                f"""
-                <div style="background-color: #3b82f6; color: white; padding: 12px; border-radius: 8px; text-align: center; font-weight: bold; font-size: 16px;">
-                    {infos_l['rang']}
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-        with col_l2:
-            st.subheader(choix_loueur)
-            st.markdown(f"**Note globale :** ⭐ {infos_l['note']}")
-        st.write(f"**Résumé des avis :** {infos_l['resume']}")
-        st.markdown("---")
-
-    st.markdown("---")
-    st.subheader("Trouvez votre véhicule partout dans le monde")
-    
-    widget_html = """
-    <div style="width: 100%; min-height: 400px;">
-        <script async src="https://tpemd.com/content?trs=552839&shmarker=751055&locale=fr&powered_by=true&border_radius=4&plain=true&show_logo=false&color_background=%23ffca28&color_button=%2355a539&color_text=%23000000&color_input_text=%23000000&color_button_text=%23ffffff&promo_id=4480&campaign_id=10" charset="utf-8"></script>
-    </div>
-    """
-    
-    components.html(widget_html, height=450, scrolling=True)
-
-elif st.session_state.page == "Blog":
-    st.title("📖 Notre Blog Voyage")
-
-    def get_corrected_image(img_path):
-        try:
-            from PIL import Image, ImageOps
-            img = Image.open(img_path)
-            img = ImageOps.exif_transpose(img)
-            return img
-        except Exception:
-            return img_path
-
-    try:
-        with open("blog_data.json", "r", encoding="utf-8") as f:
-            articles = json.load(f)
-    except Exception as e:
-        articles = []
-        st.error(f"Erreur de chargement du JSON : {e}")
-
-    if 'article_ouvert' not in st.session_state:
-        st.session_state.article_ouvert = None
-
-    if st.session_state.article_ouvert:
-        art = st.session_state.article_ouvert
-        st.header(art.get('titre', ''))
-        
-        onglet_texte, onglet_galerie = st.tabs(["📖 Lire l'article", "📸 Galerie photos"])
-        
-        with onglet_texte:
-            st.markdown(art.get('details', "Contenu de l'article..."))
-            
-        with onglet_galerie:
-            st.write("### 🖼️ Toutes les photos du voyage")
-            if 'images' in art and art['images']:
-                images_list = art['images']
-                valid_images = [img for img in images_list if os.path.exists(img)]
-                
-                if valid_images:
-                    for i in range(0, len(valid_images), 3):
-                        cols = st.columns(3)
-                        for j in range(3):
-                            idx = i + j
-                            if idx < len(valid_images):
-                                with cols[j]:
-                                    corrected_img = get_corrected_image(valid_images[idx])
-                                    st.image(corrected_img, use_container_width=True)
-                            else:
-                                with cols[j]:
-                                    st.write("")
-                else:
-                    st.info("Aucune image valide trouvée.")
-            else:
-                st.info("Aucune galerie photo disponible pour cet article.")
-            
-        st.markdown("---")
-        if st.button("⬅️ Retour au blog"):
-            st.session_state.article_ouvert = None
-            st.rerun()
-            
-    else:
-        for i in range(0, len(articles), 3):
-            cols = st.columns(3)
-            for j in range(3):
-                if i + j < len(articles):
-                    art = articles[i + j]
-                    with cols[j]:
-                        images_art = art.get('images', [])
-                        first_img = images_art[0] if images_art and os.path.exists(images_art[0]) else art.get('image', '')
-                        
-                        if first_img and os.path.exists(first_img):
-                            corrected_img = get_corrected_image(first_img)
-                            st.image(corrected_img, use_container_width=True)
-                            
-                        st.subheader(art.get('titre', ''))
-                        st.write(art.get('resume', ''))
-                        if st.button("Lire la suite", key=f"art_{i}_{j}"):
-                            st.session_state.article_ouvert = art
-                            st.rerun()
 
 else:
     # ==============================================================================
