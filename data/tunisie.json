@@ -1240,44 +1240,12 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Medence Hotel Sandra": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/sandra-club.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/495160798.jpg?k=6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d&o=",
-        "description": "Un hôtel club simple et familial offrant une formule abordable pour des vacances ensoleillées à Hammamet.",
-        "prix_moyen": "40€ - 80€ / nuit",
-        "avis": "3.6/5",
-        "points_positifs": [
-            "Ambiance conviviale et détendue",
-            "Tarifs très accessibles",
-            "Grands espaces extérieurs"
-        ],
-        "points_negatifs": [
-            "Infrastructures vieillissantes",
-            "Restauration basique"
-        ],
-        "equipements": [
-            "Piscine extérieure",
-            "Jardins",
-            "Restaurant",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "☀️ Simple, décontractée et familiale",
-            "public": "Parfait pour les voyageurs à petit budget cherchant un club simple",
-            "style": "Hôtel club économique",
-            "verdict": "Un choix économique pour profiter du soleil sans se ruiner."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
     "SplashWorld AQI Venus Beach": {
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/venus-beach.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/596271809.jpg?k=7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e&o=",
+        "lien": "https://www.booking.com/hotel/tn/club-venus.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/206351150.jpg?k=941cbb89ae6141369ed4f4d185fa5fd5cdbeadbba1c93c6fc0c1edb88e74c11f&o=",
         "description": "Un hôtel club tout compris avec parc aquatique intégré, parfait pour des vacances familiales rythmées et ludiques.",
         "prix_moyen": "70€ - 130€ / nuit",
         "avis": "4.0/5",
@@ -1309,8 +1277,8 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/la-couronne.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/697382910.jpg?k=8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f&o=",
+        "lien": "https://www.agoda.com/fr-fr/hotel-la-couronne/hotel/hammamet-tn.html?",
+        "image": "https://pix8.agoda.net/hotelImages/159/159627/159627_14061223200019822367.jpg?ca=2&ce=1&s=1024x",
         "description": "Un hôtel de plage simple et convivial, idéal pour un séjour balnéaire décontracté à petit prix.",
         "prix_moyen": "40€ - 75€ / nuit",
         "avis": "3.6/5",
@@ -1341,8 +1309,8 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/le-hammamet-resort.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/798493021.jpg?k=9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a&o=",
+        "lien": "https://www.booking.com/hotel/tn/le-hammamet-amp-spa-hammamet.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/502722311.jpg?k=706da5eac997d9a233ff7b3b434076793c2fa25a699ab5b26ebe0714b448bc5d&o=",
         "description": "Un hôtel club doté d'un spa, offrant un cadre verdoyant et de belles prestations pour des vacances relaxantes.",
         "prix_moyen": "55€ - 100€ / nuit",
         "avis": "3.8/5",
@@ -1374,8 +1342,8 @@
         "pays": "Tunisie",
         "ville": "Nabeul",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/khayam-garden-beach.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/899504132.jpg?k=0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b&o=",
+        "lien": "https://www.booking.com/hotel/tn/khayam-garden.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/399307400.jpg?k=ffdcd788aae9d0f11787f7a8921ef979d4dda8cc6ed326665fd9c38c41d28ec3&o=",
         "description": "Situé à Nabeul, ce resort moderne dispose d'un accès direct à la plage, d'un spa et d'infrastructures familiales de qualité.",
         "prix_moyen": "70€ - 130€ / nuit",
         "avis": "4.2/5",
@@ -1407,8 +1375,8 @@
         "pays": "Tunisie",
         "ville": "Nabeul",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/les-pyramides-nabeul.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/900615243.jpg?k=1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c&o=",
+        "lien": "https://www.agoda.com/fr-fr/les-pyramides-nabeul/hotel/nabeul-tn.html?",
+        "image": "https://pix8.agoda.net/hotelImages/166448/0/dde95267daadf002657c3a13b3144ebb.jpeg?s=1024x",
         "description": "Un hôtel club convivial situé à Nabeul, proposant de nombreuses animations et un accès direct à la plage.",
         "prix_moyen": "45€ - 85€ / nuit",
         "avis": "3.7/5",
@@ -1440,8 +1408,8 @@
         "pays": "Tunisie",
         "ville": "Nabeul",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/kheops-nabeul.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/101726354.jpg?k=2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d&o=",
+        "lien": "https://www.agoda.com/fr-fr/kheops-hotel/hotel/nabeul-tn.html?",
+        "image": "https://pix8.agoda.net/hotelImages/166450/0/197b45171a7817fc55993a3ff75b3544.jpeg?s=1024x",
         "description": "Un grand classique à Nabeul offrant de grands espaces, une immense piscine et un accès direct à la plage.",
         "prix_moyen": "40€ - 80€ / nuit",
         "avis": "3.6/5",
@@ -1469,45 +1437,12 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Club Med Hammamet": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/club-med-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/212837465.jpg?k=3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e&o=",
-        "description": "Un village vacances légendaire tout compris, niché dans un magnifique parc au bord d'une plage de sable fin.",
-        "prix_moyen": "140€ - 260€ / nuit",
-        "avis": "4.5/5",
-        "points_positifs": [
-            "Esprit Club Med et encadrement sportif hors pair",
-            "Cadre naturel et paysager exceptionnel",
-            "Restauration de qualité supérieure"
-        ],
-        "points_negatifs": [
-            "Tarifs élevés",
-            "Forte demande en saison"
-        ],
-        "equipements": [
-            "Formule All Inclusive haut de gamme",
-            "Sports nautiques et terrestres encadrés",
-            "Plage privée",
-            "Piscines",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🌴 Festive, sportive et légendaire",
-            "public": "Parfait pour les familles et sportifs cherchant l'expérience haut de gamme du Club Med",
-            "style": "Village vacances tout compris de renom",
-            "verdict": "L'expérience incontournable du Club Med pour des vacances tout compris d'exception."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
     "El Mouradi Beach Hotel": {
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/el-mouradi-beach.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/323948576.jpg?k=4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f&o=",
+        "lien": "https://www.booking.com/hotel/tn/el-mouradi-hammamet.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/104144966.jpg?k=6c6332f54f701091ff56de7048718daef9142b37758e6a4ec36ab0df6269d845&o=",
         "description": "Un hôtel de bord de mer simple et populaire, idéal pour des vacances économiques en formule tout compris.",
         "prix_moyen": "40€ - 75€ / nuit",
         "avis": "3.6/5",
@@ -1540,7 +1475,7 @@
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/el-fell.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/435059687.jpg?k=5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a&o=",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/31582535.jpg?k=c1de48d4a8f21450a5c2aaa9891b8618cdb639169e984c987e31add074d12202&o=",
         "description": "Un hôtel club convivial situé directement sur l'une des plus belles plages de la région, très apprécié des familles.",
         "prix_moyen": "45€ - 85€ / nuit",
         "avis": "3.8/5",
@@ -1573,7 +1508,7 @@
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/royal-nozha.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/546170798.jpg?k=6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b&o=",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/899919284.jpg?k=c81e9154e093b657db3afd88b05d757760c89cf03c5270edc1672a2980a45374&o=",
         "description": "Un hôtel familial chaleureux situé entre Hammamet et Nabeul, offrant un cadre calme et verdoyant.",
         "prix_moyen": "50€ - 95€ / nuit",
         "avis": "3.8/5",
@@ -1600,110 +1535,12 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Vincci Nozha Beach & Spa": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/vincci-nozha-beach.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/657281809.jpg?k=7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c&o=",
-        "description": "Un hôtel de la chaîne Vincci situé en bord de mer, combinant animations, centre de spa et prestations soignées.",
-        "prix_moyen": "65€ - 120€ / nuit",
-        "avis": "4.1/5",
-        "points_positifs": [
-            "Standards de qualité Vincci",
-            "Centre de spa et bien-être",
-            "Accès direct à la plage"
-        ],
-        "points_negatifs": [
-            "Certains espaces demandent un rafraîchissement",
-            "Affluence estivale"
-        ],
-        "equipements": [
-            "Spa et thalasso",
-            "Plage privée",
-            "Piscines",
-            "Restaurants",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🌊 Balnéaire, soignée et relaxante",
-            "public": "Parfait pour les familles et couples cherchant le confort Vincci au bord de l'eau",
-            "style": "Hôtel de plage avec spa",
-            "verdict": "Une très bonne option pour allier plaisirs de la plage et détente au spa."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Paradis Palace": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/paradis-palace.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/768392910.jpg?k=8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d&o=",
-        "description": "Un complexe balnéaire réputé pour son grand parc, sa superbe plage et ses bungalows de style mauresque.",
-        "prix_moyen": "70€ - 130€ / nuit",
-        "avis": "4.1/5",
-        "points_positifs": [
-            "Magnifique plage de sable fin",
-            "Jardins luxuriants et bungalows charmants",
-            "Bonne ambiance générale"
-        ],
-        "points_negatifs": [
-            "Chambres principales un peu anciennes",
-            "Restauration standard"
-        ],
-        "equipements": [
-            "Plage privée",
-            "Piscines",
-            "Bungalows",
-            "Restaurants",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🌴 Tropicale, charmante et balnéaire",
-            "public": "Idéal pour les familles et couples cherchant un cadre de bungalows verdoyant en bord de mer",
-            "style": "Resort de bungalows en bord de mer",
-            "verdict": "Un cadre idyllique en bungalows au milieu de jardins luxuriants face à la mer."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "L'Opera": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/l-opera-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/879504021.jpg?k=9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e&o=",
-        "description": "Un hôtel moderne et intimiste offrant un pied-à-terre confortable pour un séjour abordable.",
-        "prix_moyen": "45€ - 85€ / nuit",
-        "avis": "3.8/5",
-        "points_positifs": [
-            "Décoration moderne",
-            "Ambiance calme",
-            "Bon accueil"
-        ],
-        "points_negatifs": [
-            "Un peu éloigné de la plage",
-            "Services limités"
-        ],
-        "equipements": [
-            "Piscine",
-            "Restaurant",
-            "Wi-Fi",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "✨ Moderne, calme et intime",
-            "public": "Idéal pour les voyageurs cherchant un petit hôtel propre et au design moderne",
-            "style": "Hôtel de charme contemporain",
-            "verdict": "Une alternative moderne et propre pour un séjour au calme."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Résidence Romène": {
+    "Résidence Romane": {
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/residence-romene.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/980615132.jpg?k=0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f&o=",
+        "lien": "https://www.booking.com/hotel/tn/romane.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/507627075.jpg?k=e0df89ef927228dadc5f18cc528e1fe5c477d238e28a6aa318d8d602d160da7c&o=",
         "description": "Des appartements de type résidence hôtelière offrant autonomie et confort pour des séjours en toute liberté.",
         "prix_moyen": "40€ - 80€ / nuit",
         "avis": "3.9/5",
@@ -1734,8 +1571,8 @@
         "pays": "Tunisie",
         "ville": "Djerba",
         "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/diar-erriadh.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/192738495.jpg?k=1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a&o=",
+        "lien": "https://www.booking.com/hotel/tn/dar-sofiene.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/847501055.jpg?k=9315c11e714c9f2020c425ed091221164c82ceeacc2acdc86187d83515e1f940&o=",
         "description": "Une résidence charmante de style traditionnel tunisien offrant un cadre paisible et familial.",
         "prix_moyen": "45€ - 85€ / nuit",
         "avis": "4.0/5",
@@ -1766,8 +1603,8 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/diar-elbousten.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/293849506.jpg?k=2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b&o=",
+        "lien": "https://www.booking.com/hotel/tn/apartment222-2-rooms-al-bousten-hammamet.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/787996173.jpg?k=2559f0adcc4df2b6e27195670ff7fe8b48aee8d1f9e567a8b178ce26f679514a&o=",
         "description": "Une résidence de vacances verdoyante composée de villas et d'appartements au calme.",
         "prix_moyen": "50€ - 90€ / nuit",
         "avis": "3.9/5",
@@ -1799,7 +1636,7 @@
         "ville": "Sidi Bou Saïd",
         "etoiles": "Maison d'hôtes",
         "lien": "https://www.booking.com/hotel/tn/dar-said.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/394950617.jpg?k=3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c&o=",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/233951479.jpg?k=3c2d0b4e1b7b08d5fda3df180f672faa401996214cfdb9dd1dfee8db489fbbfe&o=",
         "description": "Une résidence inspirée de l'architecture iconique de Sidi Bou Saïd, offrant un cachet unique et une vue magnifique.",
         "prix_moyen": "70€ - 130€ / nuit",
         "avis": "4.3/5",
@@ -1830,8 +1667,8 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/radisson-blu-resort-thalasso-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/18723912.jpg?k=7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b&o=",
+        "lien": "https://www.booking.com/hotel/tn/radisson-blu-resort-amp-thalasso-hammamet.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/373130581.jpg?k=f1df5800440566a2162f7c9fa3fc40b7b246d7430ad404547d21760e73689c1b&o=",
         "description": "Un complexe 5 étoiles luxueux de la chaîne Radisson Blu, alliant design contemporain, plage privée et thalassothérapie d'élite.",
         "prix_moyen": "130€ - 250€ / nuit",
         "avis": "4.6/5",
@@ -1859,43 +1696,12 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Maison des Jeunes": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Auberge",
-        "lien": "https://www.booking.com/hotel/tn/maison-des-jeunes.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/596061728.jpg?k=4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d&o=",
-        "description": "Un hébergement ultra-économique et associatif destiné aux jeunes voyageurs et aux budgets serrés.",
-        "prix_moyen": "15€ - 30€ / nuit",
-        "avis": "3.3/5",
-        "points_positifs": [
-            "Prix imbattables",
-            "Ambiance jeune et sociale",
-            "Emplacement central"
-        ],
-        "points_negatifs": [
-            "Confort très rudimentaire et spartiate",
-            "Services minimes"
-        ],
-        "equipements": [
-            "Espaces communs",
-            "Chambres partagées ou simples",
-            "Wi-Fi basique"
-        ],
-        "pour_qui": {
-            "ambiance": "🎒 Spartiate, jeune et sociale",
-            "public": "Parfait pour les routards et très petits budgets",
-            "style": "Auberge de jeunesse / centre associatif",
-            "verdict": "Le choix le plus économique possible pour les voyageurs solitaires et routards."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
     "Azur Plaza": {
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/azur-plaza.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/607172839.jpg?k=5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e&o=",
+        "lien": "https://www.expedia.fr/Hammamet-Hotel-Hotel-Hammamet-Azur-Plaza.h19364013.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/20000000/19370000/19364100/19364013/b3576070.jpg?impolicy=resizecrop&rw=1200&ra=fit",
         "description": "Un hôtel simple et fonctionnel offrant un accès rapide aux commodités et à la plage.",
         "prix_moyen": "40€ - 75€ / nuit",
         "avis": "3.6/5",
@@ -1926,8 +1732,8 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/tn/dar-r-bat.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/718283940.jpg?k=6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f&o=",
+        "lien": "https://www.booking.com/hotel/tn/dar-r-39-bat.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max300/159494925.jpg?k=11e071c396f5e01c627ece9c17b35f830b3d14bead5182d99c61947710be0ec0&o=",
         "description": "Une charmante maison d'hôtes traditionnelle nichée dans les environs authentiques, idéale pour un séjour intime.",
         "prix_moyen": "55€ - 100€ / nuit",
         "avis": "4.4/5",
@@ -1958,8 +1764,8 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/byzance-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/829394051.jpg?k=7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a&o=",
+        "lien": "https://www.booking.com/hotel/tn/byzance.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/37913330.jpg?k=4385a7d17d934193c34162838b8ba74399bd4941cfd5af880fd14082623b7cbd&o=",
         "description": "Un hôtel citadin et balnéaire simple, apprécié pour sa proximité avec le centre-ville et la plage.",
         "prix_moyen": "40€ - 75€ / nuit",
         "avis": "3.6/5",
@@ -1990,8 +1796,8 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/tn/dar-oum-el-khair.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/930405162.jpg?k=8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b&o=",
+        "lien": "https://www.booking.com/hotel/ma/residence-oum-el-kheir-meuble-neuf.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/898775490.jpg?k=f99fe9c0fa6bbda5748248eae0c69b8454c8dd107b4f7b74dad18d8a608a686a&o=",
         "description": "Une maison d'hôtes chaleureuse offrant un cadre familial et un avant-goût de la vie locale.",
         "prix_moyen": "50€ - 90€ / nuit",
         "avis": "4.2/5",
@@ -2018,107 +1824,12 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Les Vagues Home": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/les-vagues-home.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/141526374.jpg?k=9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c&o=",
-        "description": "Des appartements modernes en bord de mer, parfaits pour un séjour en toute autonomie face aux vagues.",
-        "prix_moyen": "55€ - 100€ / nuit",
-        "avis": "4.1/5",
-        "points_positifs": [
-            "Proche de la mer",
-            "Appartements propres et modernes",
-            "Autonomie complète"
-        ],
-        "points_negatifs": [
-            "Pas de services hôteliers complets",
-            "Disponibilité limitée"
-        ],
-        "equipements": [
-            "Cuisine équipée",
-            "Wi-Fi",
-            "Proche de la plage",
-            "Balcon / Terrasse"
-        ],
-        "pour_qui": {
-            "ambiance": "🌊 Moderne, maritime et autonome",
-            "public": "Idéal pour les couples ou petites familles cherchant un appartement près de la plage",
-            "style": "Appartements de vacances modernes",
-            "verdict": "Une excellente option moderne et indépendante face à la mer."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Villa De Anes Ben Gabsia": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Villa / Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/tn/villa-de-anes.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/252637485.jpg?k=0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d&o=",
-        "description": "Une superbe villa transformée en maison d'hôtes de charme, offrant intimité et cadre privilégié.",
-        "prix_moyen": "80€ - 150€ / nuit",
-        "avis": "4.6/5",
-        "points_positifs": [
-            "Cadre exclusif et luxueux",
-            "Piscine et jardin privés superbes",
-            "Hôtes particulièrement attentifs"
-        ],
-        "points_negatifs": [
-            "Tarifs plus élevés",
-            "Réservation obligatoire bien à l'avance"
-        ],
-        "equipements": [
-            "Piscine extérieure",
-            "Jardin privé",
-            "Wi-Fi haut débit",
-            "Prestations haut de gamme"
-        ],
-        "pour_qui": {
-            "ambiance": "🏡 Exclusive, luxueuse et intime",
-            "public": "Parfait pour les voyageurs cherchant une villa intimiste de haut standing",
-            "style": "Villa de charme exclusive",
-            "verdict": "Une alternative luxueuse et intime aux grands hôtels pour un séjour d'exception."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Résidence Al Insaf": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/residence-al-insaf.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/363748596.jpg?k=1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e&o=",
-        "description": "Une résidence simple proposant des appartements fonctionnels pour un séjour économique en toute indépendance.",
-        "prix_moyen": "35€ - 70€ / nuit",
-        "avis": "3.6/5",
-        "points_positifs": [
-            "Prix très abordables",
-            "Autonomie des appartements",
-            "Calme"
-        ],
-        "points_negatifs": [
-            "Confort rudimentaire",
-            "Éloignement des plages principales"
-        ],
-        "equipements": [
-            "Appartements équipés",
-            "Parking",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🏡 Simple, calme et économique",
-            "public": "Idéal pour les petits budgets recherchant un logement autonome",
-            "style": "Résidence d'appartements économiques",
-            "verdict": "Un choix économique pour un séjour indépendant sans fioritures."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
     "Résidence Costa Marina": {
         "pays": "Tunisie",
         "ville": "Yasmine Hammamet",
         "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/residence-costa-marina.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/474859607.jpg?k=2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f&o=",
+        "lien": "https://www.booking.com/hotel/tn/costa-marina-212.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/262737288.jpg?k=65b8e2201243ca90d84ddf6b9ba3c558b1084d5cc66afc5c81cade02d9dd58a7&o=",
         "description": "Une résidence moderne située près de la marina, offrant des appartements confortables pour les vacanciers.",
         "prix_moyen": "50€ - 95€ / nuit",
         "avis": "4.0/5",
@@ -2145,75 +1856,12 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Résidence Néapolis": {
-        "pays": "Tunisie",
-        "ville": "Nabeul",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/residence-neapolis.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/585960718.jpg?k=3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a&o=",
-        "description": "Une résidence située à Nabeul, proposant des logements fonctionnels proches des plages et du centre.",
-        "prix_moyen": "40€ - 75€ / nuit",
-        "avis": "3.7/5",
-        "points_positifs": [
-            "Bon emplacement à Nabeul",
-            "Appartements pratiques",
-            "Tarifs abordables"
-        ],
-        "points_negatifs": [
-            "Décoration basique",
-            "Services hôteliers réduits"
-        ],
-        "equipements": [
-            "Appartements équipés",
-            "Wi-Fi",
-            "Proche de la plage"
-        ],
-        "pour_qui": {
-            "ambiance": "🏙️ Pratique, simple et balnéaire",
-            "public": "Idéal pour les familles cherchant un appartement économique à Nabeul",
-            "style": "Résidence hôtelière de centre-ville",
-            "verdict": "Un pied-à-terre pratique et abordable pour explorer Nabeul en autonomie."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Hammamet Ela Apartments": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Appartements",
-        "lien": "https://www.booking.com/hotel/tn/hammamet-ela-apartments.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/696071829.jpg?k=4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b&o=",
-        "description": "Des appartements modernes et bien équipés pour un séjour en toute liberté à Hammamet.",
-        "prix_moyen": "45€ - 85€ / nuit",
-        "avis": "4.1/5",
-        "points_positifs": [
-            "Appartements récents et propres",
-            "Bon équipement",
-            "Propriétaires accueillants"
-        ],
-        "points_negatifs": [
-            "Emplacement nécessitant un véhicule",
-            "Pas de services de restauration sur place"
-        ],
-        "equipements": [
-            "Cuisine moderne",
-            "Wi-Fi haut débit",
-            "Climatisation",
-            "Parking"
-        ],
-        "pour_qui": {
-            "ambiance": "✨ Moderne, confortable et indépendante",
-            "public": "Parfait pour les couples ou familles cherchant un logement récent tout équipé",
-            "style": "Appartements modernes de vacances",
-            "verdict": "Un très bon choix d'appartement moderne pour un séjour en toute liberté."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
     "Le Lagon De HAMMAMET": {
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "Résidence / Appartements",
-        "lien": "https://www.booking.com/hotel/tn/le-lagon-de-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/707182930.jpg?k=5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c&o=",
+        "lien": "https://www.booking.com/hotel/tn/le-lagon-de-hammamet.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/446290378.jpg?k=880b85884c4d21a49ab3a169252a8b5b7e0639f530716a145aa7c14405089a5d&o=",
         "description": "Une résidence agréable offrant un cadre aquatique et des logements confortables proches de l'eau.",
         "prix_moyen": "50€ - 95€ / nuit",
         "avis": "4.0/5",
@@ -2240,518 +1888,12 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "LUXE Apartment": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Appartement de standing",
-        "lien": "https://www.booking.com/hotel/tn/luxe-apartment-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/818293041.jpg?k=6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d&o=",
-        "description": "Un appartement haut de gamme offrant des prestations luxueuses et un design contemporain soigné.",
-        "prix_moyen": "80€ - 150€ / nuit",
-        "avis": "4.5/5",
-        "points_positifs": [
-            "Standing et design luxueux",
-            "Équipements haut de gamme",
-            "Propreté impeccable"
-        ],
-        "points_negatifs": [
-            "Tarifs élevés pour un appartement",
-            "Disponibilité restreinte"
-        ],
-        "equipements": [
-            "Cuisine haut de gamme",
-            "Wi-Fi haut débit",
-            "Climatisation centralisée",
-            "Décoration de standing"
-        ],
-        "pour_qui": {
-            "ambiance": "✨ Luxueuse, moderne et exclusive",
-            "public": "Parfait pour les voyageurs exigeants voulant le confort d'un appartement de luxe",
-            "style": "Appartement contemporain haut de gamme",
-            "verdict": "Le confort absolu d'un logement de standing en toute autonomie."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Espace Le Jardin": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/espace-le-jardin.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/929304152.jpg?k=7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e&o=",
-        "description": "Une résidence de vacances verdoyante propice à la détente au milieu d'un grand jardin arboré.",
-        "prix_moyen": "45€ - 85€ / nuit",
-        "avis": "3.8/5",
-        "points_positifs": [
-            "Immersion dans la verdure",
-            "Ambiance très calme",
-            "Piscine agréable"
-        ],
-        "points_negatifs": [
-            "Infrastructures simples",
-            "Nécessite un moyen de transport"
-        ],
-        "equipements": [
-            "Jardins luxuriants",
-            "Piscine",
-            "Appartements / studios",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🌿 Verdoyante, calme et reposante",
-            "public": "Idéal pour les amateurs de nature et de calme absolu",
-            "style": "Résidence de tourisme au vert",
-            "verdict": "Un écrin de verdure idéal pour se reposer loin de l'agitation."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Résidence Ahmed": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/residence-ahmed.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/132435465.jpg?k=8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f&o=",
-        "description": "Une résidence familiale simple proposant des appartements pratiques et économiques.",
-        "prix_moyen": "35€ - 65€ / nuit",
-        "avis": "3.6/5",
-        "points_positifs": [
-            "Prix très économiques",
-            "Accueil chaleureux",
-            "Propreté correcte"
-        ],
-        "points_negatifs": [
-            "Confort basique",
-            "Mobilier ancien"
-        ],
-        "equipements": [
-            "Appartements simples",
-            "Parking",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🏡 Simple, familiale et économique",
-            "public": "Idéal pour les petits budgets cherchant un hébergement sans prétention",
-            "style": "Résidence économique",
-            "verdict": "Un choix fonctionnel et très abordable."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Résidence Mimosas": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/residence-mimosas.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/243546576.jpg?k=9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a&o=",
-        "description": "Une résidence paisible entourée de mimosas, offrant un cadre fleuri et reposant pour les vacances.",
-        "prix_moyen": "45€ - 85€ / nuit",
-        "avis": "3.9/5",
-        "points_positifs": [
-            "Cadre fleuri et agréable",
-            "Atmosphère calme",
-            "Bons équipements"
-        ],
-        "points_negatifs": [
-            "Un peu excentré",
-            "Véhicule recommandé"
-        ],
-        "equipements": [
-            "Jardins fleuris",
-            "Piscine",
-            "Appartements équipés",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🌸 Fleuri, calme et reposant",
-            "public": "Parfait pour les couples ou familles cherchant un cadre fleuri et paisible",
-            "style": "Résidence de tourisme verdoyante",
-            "verdict": "Un cadre charmant et fleuri pour un séjour au calme."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Dar Taieb": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/tn/dar-taieb.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/354657687.jpg?k=0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b&o=",
-        "description": "Une maison d'hôtes de caractère offrant un accueil chaleureux et une immersion dans l'art de vivre local.",
-        "prix_moyen": "55€ - 100€ / nuit",
-        "avis": "4.3/5",
-        "points_positifs": [
-            "Charme traditionnel",
-            "Accueil attentionné",
-            "Cuisine faite maison"
-        ],
-        "points_negatifs": [
-            "Capacité d'accueil restreinte",
-            "Services hôteliers limités"
-        ],
-        "equipements": [
-            "Patio",
-            "Petit-déjeuner inclus",
-            "Wi-Fi",
-            "Salon traditionnel"
-        ],
-        "pour_qui": {
-            "ambiance": "🏡 Chaleureuse, traditionnelle et intime",
-            "public": "Idéal pour les voyageurs en quête d'authenticité et de convivialité",
-            "style": "Maison d'hôtes traditionnelle",
-            "verdict": "Une belle adresse authentique pour un séjour empreint de convivialité."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Dar Ennasr": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/tn/dar-ennasr.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/465768798.jpg?k=1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c&o=",
-        "description": "Une maison d'hôtes paisible et authentique, idéale pour se ressourcer dans un cadre typique.",
-        "prix_moyen": "50€ - 95€ / nuit",
-        "avis": "4.2/5",
-        "points_positifs": [
-            "Calme absolu",
-            "Décoration typique soignée",
-            "Accueil chaleureux"
-        ],
-        "points_negatifs": [
-            "Éloigné des grands axes sans voiture",
-            "Prestations simples"
-        ],
-        "equipements": [
-            "Terrasse",
-            "Jardin",
-            "Petit-déjeuner",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🌿 Paisible, authentique et reposante",
-            "public": "Parfait pour les amateurs de calme et de traditions locales",
-            "style": "Maison d'hôtes de charme",
-            "verdict": "Un havre de paix idéal pour couper du quotidien."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Douja Apartment": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Appartement",
-        "lien": "https://www.booking.com/hotel/tn/douja-apartment.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/576879909.jpg?k=2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d&o=",
-        "description": "Un appartement fonctionnel et propre pour un séjour en toute autonomie.",
-        "prix_moyen": "40€ - 75€ / nuit",
-        "avis": "3.8/5",
-        "points_positifs": [
-            "Propre et fonctionnel",
-            "Bon rapport qualité-prix",
-            "Autonomie"
-        ],
-        "points_negatifs": [
-            "Décoration standard",
-            "Services absents"
-        ],
-        "equipements": [
-            "Cuisine équipée",
-            "Wi-Fi",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🏡 Pratique, simple et autonome",
-            "public": "Idéal pour les voyageurs cherchant un pied-à-terre fonctionnel",
-            "style": "Appartement indépendant",
-            "verdict": "Un appartement pratique pour un séjour en toute liberté."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Appartement Nabeul": {
-        "pays": "Tunisie",
-        "ville": "Nabeul",
-        "etoiles": "Appartement",
-        "lien": "https://www.booking.com/hotel/tn/appartement-nabeul.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/687990012.jpg?k=3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e&o=",
-        "description": "Un appartement bien situé à Nabeul pour profiter de la ville et des plages en toute liberté.",
-        "prix_moyen": "40€ - 80€ / nuit",
-        "avis": "3.8/5",
-        "points_positifs": [
-            "Bien situé à Nabeul",
-            "Espace privatif",
-            "Tarifs abordables"
-        ],
-        "points_negatifs": [
-            "Équipements parfois basiques",
-            "Pas de réception permanente"
-        ],
-        "equipements": [
-            "Cuisine",
-            "Wi-Fi",
-            "Proche des plages de Nabeul"
-        ],
-        "pour_qui": {
-            "ambiance": "🏙️ Pratique, urbaine et autonome",
-            "public": "Idéal pour découvrir Nabeul en appartement",
-            "style": "Appartement de centre-ville",
-            "verdict": "Un bon choix d'appartement pour vivre au rythme de Nabeul."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Costa Marina": {
-        "pays": "Tunisie",
-        "ville": "Yasmine Hammamet",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/costa-marina-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/798001123.jpg?k=4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f&o=",
-        "description": "Une résidence hôtelière proche de la marina offrant des logements pratiques et bien situés.",
-        "prix_moyen": "50€ - 95€ / nuit",
-        "avis": "3.9/5",
-        "points_positifs": [
-            "Proche du port de plaisance",
-            "Appartements fonctionnels",
-            "Bonne accessibilité"
-        ],
-        "points_negatifs": [
-            "Mobilier classique",
-            "Animations limitées"
-        ],
-        "equipements": [
-            "Appartements",
-            "Piscine",
-            "Wi-Fi",
-            "Proche de la marina"
-        ],
-        "pour_qui": {
-            "ambiance": "⛵ Portuaire, pratique et autonome",
-            "public": "Parfait pour les voyageurs voulant résider près de la marina en appartement",
-            "style": "Résidence proche du port",
-            "verdict": "Un emplacement pratique près de la marina pour un séjour libre."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Espace La Cascade": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/espace-la-cascade.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/809112234.jpg?k=5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a&o=",
-        "description": "Une résidence de vacances dotée d'aménagements aquatiques et de verdure.",
-        "prix_moyen": "45€ - 85€ / nuit",
-        "avis": "3.8/5",
-        "points_positifs": [
-            "Cadre agréable avec cascade/piscine",
-            "Calme",
-            "Prix doux"
-        ],
-        "points_negatifs": [
-            "Excentré",
-            "Services réduits"
-        ],
-        "equipements": [
-            "Piscine / cascade",
-            "Espaces verts",
-            "Appartements",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🌊 Fraîche, calme et verdoyante",
-            "public": "Idéal pour les familles cherchant un cadre original et reposant",
-            "style": "Résidence de tourisme",
-            "verdict": "Un cadre rafraîchissant et calme pour des vacances reposantes."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "EZZAHRA": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/ezzahra.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/910223345.jpg?k=6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b&o=",
-        "description": "Une résidence simple proposant des hébergements économiques pour un séjour sans prétention.",
-        "prix_moyen": "35€ - 70€ / nuit",
-        "avis": "3.5/5",
-        "points_positifs": [
-            "Tarifs très bas",
-            "Calme",
-            "Autonomie"
-        ],
-        "points_negatifs": [
-            "Confort spartiate",
-            "Équipements anciens"
-        ],
-        "equipements": [
-            "Logements simples",
-            "Wi-Fi",
-            "Parking"
-        ],
-        "pour_qui": {
-            "ambiance": "🏡 Simple, calme et économique",
-            "public": "Idéal pour les petits budgets stricts",
-            "style": "Résidence économique de base",
-            "verdict": "Une solution de repli très économique."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Riadh Andalus": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/riadh-andalus.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/121324356.jpg?k=7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c&o=",
-        "description": "Une résidence d'inspiration andalouse offrant un cadre charmant et pittoresque.",
-        "prix_moyen": "50€ - 90€ / nuit",
-        "avis": "3.9/5",
-        "points_positifs": [
-            "Architecture andalouse charmante",
-            "Jardins et patios",
-            "Ambiance reposante"
-        ],
-        "points_negatifs": [
-            "Un peu isolé",
-            "Confort classique"
-        ],
-        "equipements": [
-            "Piscine",
-            "Architecture andalouse",
-            "Appartements",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🏛️ Andalouse, pittoresque et calme",
-            "public": "Parfait pour les amateurs d'architecture traditionnelle et de tranquillité",
-            "style": "Résidence de style andalou",
-            "verdict": "Un cachet architectural agréable pour un séjour au calme."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Résidence Panorama": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/residence-panorama.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/232435467.jpg?k=8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d&o=",
-        "description": "Une résidence offrant des vues dégagées et des appartements fonctionnels pour des vacances en toute liberté.",
-        "prix_moyen": "45€ - 85€ / nuit",
-        "avis": "3.8/5",
-        "points_positifs": [
-            "Belles vues dégagées",
-            "Appartements lumineux",
-            "Prix accessibles"
-        ],
-        "points_negatifs": [
-            "Véhicule conseillé",
-            "Services hôteliers limités"
-        ],
-        "equipements": [
-            "Appartements avec vue",
-            "Wi-Fi",
-            "Parking"
-        ],
-        "pour_qui": {
-            "ambiance": "🌅 Lumineuse, panoramique et autonome",
-            "public": "Idéal pour les vacanciers cherchant de la vue et de l'indépendance",
-            "style": "Résidence avec vue panoramique",
-            "verdict": "Des appartements lumineux offrant de belles perspectives."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Résidence Côte d'Azur Hammamet": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/cote-d-azur-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/343546578.jpg?k=9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e&o=",
-        "description": "Une résidence aux airs méditerranéens située à proximité de la côte.",
-        "prix_moyen": "50€ - 95€ / nuit",
-        "avis": "3.9/5",
-        "points_positifs": [
-            "Proche de la mer",
-            "Cadre agréable",
-            "Appartements confortables"
-        ],
-        "points_negatifs": [
-            "Forte demande en été",
-            "Espaces communs restreints"
-        ],
-        "equipements": [
-            "Appartements équipés",
-            "Piscine",
-            "Wi-Fi",
-            "Proche plage"
-        ],
-        "pour_qui": {
-            "ambiance": "🌊 Méditerranéenne, balnéaire et pratique",
-            "public": "Idéal pour les familles cherchant un logement proche de la côte",
-            "style": "Résidence balnéaire",
-            "verdict": "Une option agréable et proche de la côte pour les vacanciers."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Hôtel Hamilton": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/hamilton-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/454657689.jpg?k=0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f&o=",
-        "description": "Un hôtel urbain simple et central, idéal pour les voyageurs mobiles à petit budget.",
-        "prix_moyen": "40€ - 75€ / nuit",
-        "avis": "3.6/5",
-        "points_positifs": [
-            "Emplacement central",
-            "Tarifs doux",
-            "Personnel aimable"
-        ],
-        "points_negatifs": [
-            "Confort de base",
-            "Bruyant côté rue"
-        ],
-        "equipements": [
-            "Restaurant",
-            "Bar",
-            "Wi-Fi",
-            "Proche des commodités"
-        ],
-        "pour_qui": {
-            "ambiance": "🏙️ Urbaine, centrale et simple",
-            "public": "Idéal pour les voyageurs d'affaires ou de passage cherchant un hôtel de ville abordable",
-            "style": "Hôtel citadin économique",
-            "verdict": "Un pied-à-terre urbain central et économique."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Palais Présidentiel de Hammamet": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Historique / Monument",
-        "lien": "https://www.booking.com/hotel/tn/palais-presidentiel.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/565768790.jpg?k=1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a&o=",
-        "description": "Site historique emblématique de Hammamet, davantage connu pour son patrimoine que pour un hébergement touristique classique.",
-        "prix_moyen": "Non hébergement / Visite",
-        "avis": "4.5/5",
-        "points_positifs": [
-            "Valeur historique majeure",
-            "Cadre présidentiel unique",
-            "Immense domaine"
-        ],
-        "points_negatifs": [
-            "Non accessible ou limité pour l'hébergement grand public",
-            "Site institutionnel"
-        ],
-        "equipements": [
-            "Domaine historique",
-            "Sécurité",
-            "Parc immense"
-        ],
-        "pour_qui": {
-            "ambiance": "🏛️ Historique, institutionnelle et prestigieuse",
-            "public": "Curieux d'histoire et de patrimoine",
-            "style": "Site historique d'exception",
-            "verdict": "Un site d'intérêt patrimonial plus que touristique hôtelier."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
     "Nahrawess Hotel & Spa Resort": {
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/nahrawess-hotel-spa.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/676879901.jpg?k=2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b&o=",
+        "lien": "https://www.booking.com/hotel/tn/nahrawess-thalasso-hammamet.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/596016866.jpg?k=be7e8a5cb1e42c4ad57cb1a650e52f7995b84cc918af7415185b9ccee3d2f41e&o=",
         "description": "Un vaste complexe hôtelier doté d'un immense centre de thalassothérapie et de grandes infrastructures familiales.",
         "prix_moyen": "60€ - 120€ / nuit",
         "avis": "3.8/5",
@@ -2779,44 +1921,12 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Le Zénith": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/le-zenith.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/787990012.jpg?k=3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c&o=",
-        "description": "Un hôtel club simple et économique, apprécié des groupes et des petits budgets pour son ambiance décontractée.",
-        "prix_moyen": "40€ - 75€ / nuit",
-        "avis": "3.6/5",
-        "points_positifs": [
-            "Formule économique",
-            "Grands espaces extérieurs",
-            "Ambiance festive"
-        ],
-        "points_negatifs": [
-            "Chambres basiques et fatiguées",
-            "Restauration de type cantine"
-        ],
-        "equipements": [
-            "Piscine extérieure",
-            "Jardin",
-            "Restaurant",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🎉 Simple, économique et collective",
-            "public": "Idéal pour les groupes et les petits budgets en quête de vacances simples",
-            "style": "Hôtel club économique",
-            "verdict": "Un choix axé sur le prix pour des séjours de groupes ou petits budgets."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
     "Yadis Hammamet Club": {
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/yadis-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/898001123.jpg?k=4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d&o=",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/880434330.jpg?k=d92d5e23f37542d2beae28de3b92ee4be814dbc6b6c4f31f36836c8598750e9d&o=",
         "description": "Un club de vacances de style berbère niché dans un superbe domaine verdoyant au bord de l'eau.",
         "prix_moyen": "60€ - 110€ / nuit",
         "avis": "3.9/5",
@@ -2844,44 +1954,12 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Hôtel Albatros Hammamet": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/albatros-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/909112234.jpg?k=5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e&o=",
-        "description": "Un établissement simple offrant le confort nécessaire pour un séjour balnéaire abordable.",
-        "prix_moyen": "40€ - 75€ / nuit",
-        "avis": "3.6/5",
-        "points_positifs": [
-            "Tarifs doux",
-            "Personnel accueillant",
-            "Ambiance calme"
-        ],
-        "points_negatifs": [
-            "Prestations basiques",
-            "Éloignement relatif de la plage"
-        ],
-        "equipements": [
-            "Piscine",
-            "Restaurant",
-            "Wi-Fi",
-            "Parking"
-        ],
-        "pour_qui": {
-            "ambiance": "☀️ Simple, calme et économique",
-            "public": "Idéal pour les voyageurs cherchant le repos à petit prix",
-            "style": "Hôtel économique classique",
-            "verdict": "Une alternative simple et économique pour un séjour tranquille."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
     "Hôtel Club Président": {
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/club-president.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/112233445.jpg?k=6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f&o=",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/216837734.jpg?k=198008486f9a35cf53336dcb5c6315ac53ea21b1a31f488f061d2035f1621783&o=",
         "description": "Un club de vacances familial axé sur le sport et le divertissement au bord de la mer.",
         "prix_moyen": "45€ - 85€ / nuit",
         "avis": "3.7/5",
@@ -2909,140 +1987,12 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Club Marmara Hammamet Beach": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/marmara-hammamet-beach.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/223344556.jpg?k=7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a&o=",
-        "description": "Un club de vacances francophone très populaire, offrant une formule tout compris et des animations adaptées à tous.",
-        "prix_moyen": "65€ - 120€ / nuit",
-        "avis": "4.0/5",
-        "points_positifs": [
-            "Animation francophone de qualité",
-            "Formule tout compris complète",
-            "Situation idéale en bord de plage"
-        ],
-        "points_negatifs": [
-            "Ambiance très rythmée (peu adapté au calme absolu)",
-            "Chambres standards"
-        ],
-        "equipements": [
-            "Formule All Inclusive",
-            "Animations francophones",
-            "Plage privée",
-            "Piscines",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🎉 Festive, francophone et animée",
-            "public": "Parfait pour les familles et couples cherchant un club animé en français",
-            "style": "Hôtel club francophone tout compris",
-            "verdict": "La formule idéale pour des vacances en club 100% animées et sans souci."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Résidence Sami": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/residence-sami.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/334455667.jpg?k=8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b&o=",
-        "description": "Une résidence intime proposant des appartements fonctionnels pour un séjour économique.",
-        "prix_moyen": "35€ - 65€ / nuit",
-        "avis": "3.6/5",
-        "points_positifs": [
-            "Prix très doux",
-            "Calme",
-            "Autonomie"
-        ],
-        "points_negatifs": [
-            "Confort rudimentaire",
-            "Services limités"
-        ],
-        "equipements": [
-            "Appartements",
-            "Parking",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🏡 Simple, calme et économique",
-            "public": "Idéal pour les petits budgets cherchant l'indépendance",
-            "style": "Résidence d'appartements simples",
-            "verdict": "Un pied-à-terre économique et autonome."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Delphin Jardin": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/delphin-jardin.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/445566778.jpg?k=9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c&o=",
-        "description": "Un hôtel de charme entouré de jardins luxuriants, offrant un cadre reposant et convivial.",
-        "prix_moyen": "55€ - 100€ / nuit",
-        "avis": "3.9/5",
-        "points_positifs": [
-            "Jardins magnifiques et verdoyants",
-            "Atmosphère paisible",
-            "Bon accueil"
-        ],
-        "points_negatifs": [
-            "Un peu éloigné de la plage",
-            "Décoration classique"
-        ],
-        "equipements": [
-            "Jardins",
-            "Piscine extérieure",
-            "Restaurant",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🌿 Verdoyante, paisible et conviviale",
-            "public": "Idéal pour les vacanciers cherchant le calme au milieu de la verdure",
-            "style": "Hôtel de jardin",
-            "verdict": "Un cadre verdoyant et reposant pour un séjour nature."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Hôtel Ceramic": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/ceramic-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/556677889.jpg?k=0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d&o=",
-        "description": "Un établissement simple aux accents artistiques et locaux, parfait pour un séjour économique.",
-        "prix_moyen": "40€ - 75€ / nuit",
-        "avis": "3.6/5",
-        "points_positifs": [
-            "Décoration artisanale originale",
-            "Tarifs abordables",
-            "Personnel sympathique"
-        ],
-        "points_negatifs": [
-            "Équipements de base",
-            "Prestations limitées"
-        ],
-        "equipements": [
-            "Piscine",
-            "Restaurant",
-            "Wi-Fi",
-            "Parking"
-        ],
-        "pour_qui": {
-            "ambiance": "🎨 Artistique, simple et économique",
-            "public": "Idéal pour les voyageurs cherchant un hôtel original à petit prix",
-            "style": "Hôtel thématique économique",
-            "verdict": "Une touche d'originalité artisanale pour un budget maîtrisé."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
     "El Manara": {
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "Résidence / Hôtel",
-        "lien": "https://www.booking.com/hotel/tn/el-manara.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/667788990.jpg?k=1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e&o=",
+        "lien": "https://www.booking.com/hotel/tn/lilas.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/83819411.jpg?k=51947d4efe1adb1d32c004f8ced9c27462a0153adfbe772685ae7c67732dfee0&o=",
         "description": "Un établissement offrant un hébergement confortable de style local, proche des commodités.",
         "prix_moyen": "45€ - 85€ / nuit",
         "avis": "3.8/5",
@@ -3069,75 +2019,12 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Résidence Wafi": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/residence-wafi.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/778899001.jpg?k=2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f&o=",
-        "description": "Une résidence moderne offrant des appartements propres et fonctionnels.",
-        "prix_moyen": "40€ - 75€ / nuit",
-        "avis": "3.8/5",
-        "points_positifs": [
-            "Propreté des appartements",
-            "Prix attractifs",
-            "Calme"
-        ],
-        "points_negatifs": [
-            "Éloigné de la plage",
-            "Services minimes"
-        ],
-        "equipements": [
-            "Appartements équipés",
-            "Wi-Fi",
-            "Parking"
-        ],
-        "pour_qui": {
-            "ambiance": "🏡 Propre, calme et fonctionnelle",
-            "public": "Parfait pour les voyageurs autonomes cherchant un appartement propre à petit prix",
-            "style": "Résidence moderne",
-            "verdict": "Un appartement propre et fonctionnel pour un séjour en toute liberté."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Diar Skander": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/diar-skander.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/889900112.jpg?k=3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a&o=",
-        "description": "Une résidence de style traditionnel proposant des appartements confortables au calme.",
-        "prix_moyen": "45€ - 85€ / nuit",
-        "avis": "3.9/5",
-        "points_positifs": [
-            "Architecture traditionnelle",
-            "Cadre paisible",
-            "Bons volumes"
-        ],
-        "points_negatifs": [
-            "Nécessite un véhicule",
-            "Équipements classiques"
-        ],
-        "equipements": [
-            "Appartements",
-            "Piscine",
-            "Jardin",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🏺 Traditionnelle, calme et spacieuse",
-            "public": "Idéal pour les familles cherchant de l'espace dans un cadre typique",
-            "style": "Résidence traditionnelle",
-            "verdict": "Un cadre spacieux et typique pour un séjour au calme."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-        },
     "Hôtel Les Colombes": {
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/les-colombes.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/990011223.jpg?k=4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b&o=",
+        "lien": "https://www.booking.com/hotel/tn/club-les-colombes-hammamet.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/694995399.jpg?k=f0b12edd8bf5c51f135f4e28afd5f65e9af7bb7dcd0c07c724051891fd29caef&o=",
         "description": "Un hôtel de plage familial et convivial, très apprécié pour sa situation les pieds dans l'eau.",
         "prix_moyen": "45€ - 85€ / nuit",
         "avis": "3.7/5",
@@ -3166,8 +2053,8 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/dar-khayam.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/101112233.jpg?k=5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c&o=",
+        "lien": "https://www.booking.com/hotel/tn/dar-khayam.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/822381968.jpg?k=e668a620c69db50887b5fa731282937149f5674a2c247ef50adb239a306f4c10&o=",
         "description": "Un hôtel club familial réputé pour son ambiance chaleureuse et son accès direct à une belle plage de sable.",
         "prix_moyen": "50€ - 95€ / nuit",
         "avis": "3.9/5",
@@ -3199,8 +2086,8 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/les-citronniers.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/212223344.jpg?k=6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d&o=",
+        "lien": "https://www.booking.com/hotel/tn/les-citronniers-hammamet.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/687600433.jpg?k=de64b4fda47fe8f17ae62a138125f95ba1c526bfdc9a7d86c0f6c1d4c005420b&o=",
         "description": "Un charmant hôtel entouré de plantations de citronniers, offrant une atmosphère typique et relaxante.",
         "prix_moyen": "45€ - 80€ / nuit",
         "avis": "3.8/5",
@@ -3231,8 +2118,8 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/les-orangers-garden.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/323334455.jpg?k=7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e&o=",
+        "lien": "https://www.booking.com/hotel/tn/lti-les-orangers-garden-villas-and-bungalows.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/256531166.jpg?k=de3cdd92f2a24c095f1ba761e590d6037d51dce6236b947b48461dd1ef495af4&o=",
         "description": "Un resort de luxe d'exception composé de villas et bungalows haut de gamme au milieu de vastes orangeraies en bord de mer.",
         "prix_moyen": "150€ - 300€ / nuit",
         "avis": "4.7/5",
@@ -3259,549 +2146,7 @@
             "verdict": "Une perle rare de luxe et de nature pour un séjour inoubliable."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Villa Sindbad": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Villa / Luxe",
-        "lien": "https://www.booking.com/hotel/tn/villa-sindbad.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/434445566.jpg?k=8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f&o=",
-        "description": "Une villa privative luxueuse offrant des prestations exclusives et un cadre intime d'exception.",
-        "prix_moyen": "200€ - 400€ / nuit",
-        "avis": "4.8/5",
-        "points_positifs": [
-            "Intimité et luxe total",
-            "Prestations haut de gamme",
-            "Cadre exclusif"
-        ],
-        "points_negatifs": [
-            "Prix très exclusifs",
-            "Disponibilité très rare"
-        ],
-        "equipements": [
-            "Piscine privée",
-            "Jardin exclusif",
-            "Service personnalisé",
-            "Wi-Fi haut débit"
-        ],
-        "pour_qui": {
-            "ambiance": "👑 Exclusive, ultra-privée et luxueuse",
-            "public": "Idéal pour les familles ou groupes cherchant une villa de grand standing en toute intimité",
-            "style": "Villa privative de luxe",
-            "verdict": "Le summum de l'intimité et du luxe pour un séjour sur mesure."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Les Palmiers Centre de Vacances": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/les-palmiers-centre.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/545556677.jpg?k=9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a&o=",
-        "description": "Un centre de vacances familial et convivial entouré de palmiers, idéal pour des séjours abordables.",
-        "prix_moyen": "40€ - 75€ / nuit",
-        "avis": "3.6/5",
-        "points_positifs": [
-            "Ambiance familiale",
-            "Cadre arboré de palmiers",
-            "Prix très accessibles"
-        ],
-        "points_negatifs": [
-            "Infrastructures simples",
-            "Confort de base"
-        ],
-        "equipements": [
-            "Piscine",
-            "Espaces verts",
-            "Restaurant",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🌴 Conviviale, simple et familiale",
-            "public": "Idéal pour les groupes et familles à petit budget",
-            "style": "Centre de vacances familial",
-            "verdict": "Un centre de vacances simple et chaleureux pour petits budgets."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Villa Mahbouba": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Maison d'hôtes / Villa",
-        "lien": "https://www.booking.com/hotel/tn/villa-mahbouba.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/656667788.jpg?k=0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b&o=",
-        "description": "Une villa de charme élégante offrant un service personnalisé et un cadre intime.",
-        "prix_moyen": "70€ - 130€ / nuit",
-        "avis": "4.5/5",
-        "points_positifs": [
-            "Charme et élégance de la villa",
-            "Accueil personnalisé et chaleureux",
-            "Jardin et piscine intimes"
-        ],
-        "points_negatifs": [
-            "Capacité limitée",
-            "Nécessite de réserver à l'avance"
-        ],
-        "equipements": [
-            "Piscine",
-            "Jardin privé",
-            "Wi-Fi",
-            "Petit-déjeuner soigné"
-        ],
-        "pour_qui": {
-            "ambiance": "🏡 Intime, élégante et chaleureuse",
-            "public": "Parfait pour les couples en quête de charme et de tranquillité",
-            "style": "Villa d'hôtes de charme",
-            "verdict": "Une superbe villa intimiste pour un séjour cocooning."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Dar Zahir": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/tn/dar-zahir.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/767778899.jpg?k=1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c&o=",
-        "description": "Une maison d'hôtes de style authentique offrant un havre de paix et une décoration soignée.",
-        "prix_moyen": "60€ - 110€ / nuit",
-        "avis": "4.4/5",
-        "points_positifs": [
-            "Décoration traditionnelle raffinée",
-            "Calme absolu",
-            "Accueil attentionné"
-        ],
-        "points_negatifs": [
-            "Emplacement excentré",
-            "Services hôteliers réduits"
-        ],
-        "equipements": [
-            "Terrasse",
-            "Piscine",
-            "Wi-Fi",
-            "Petit-déjeuner traditionnel"
-        ],
-        "pour_qui": {
-            "ambiance": "🏺 Authentique, paisible et raffinée",
-            "public": "Idéal pour les amateurs d'authenticité et de calme",
-            "style": "Maison d'hôtes traditionnelle",
-            "verdict": "Un lieu plein de charme pour se reposer en toute sérénité."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Ideal Apartment For Families": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Appartement familial",
-        "lien": "https://www.booking.com/hotel/tn/ideal-apartment-families.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/878889900.jpg?k=2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d&o=",
-        "description": "Un grand appartement spécialement agencé et équipé pour le confort des familles.",
-        "prix_moyen": "50€ - 95€ / nuit",
-        "avis": "4.2/5",
-        "points_positifs": [
-            "Grands volumes adaptés aux familles",
-            "Bien équipé",
-            "Propriétaires accueillants"
-        ],
-        "points_negatifs": [
-            "Pas de services de hôtel club",
-            "Emplacement selon disponibilité"
-        ],
-        "equipements": [
-            "Cuisine complète",
-            "Espaces familiaux",
-            "Wi-Fi",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "👨‍👩‍👧‍👦 Spacieuse, pratique et familiale",
-            "public": "Parfait pour les familles avec enfants cherchant de l'espace",
-            "style": "Appartement familial tout équipé",
-            "verdict": "La solution idéale en appartement pour les tribus familiales."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },    
-    "Hôtel SAMARIS": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/samaris.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/989990011.jpg?k=3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e&o=",
-        "description": "Un hôtel simple et fonctionnel offrant un bon point de chute pour les voyageurs à budget modéré.",
-        "prix_moyen": "40€ - 75€ / nuit",
-        "avis": "3.6/5",
-        "points_positifs": [
-            "Prix attractifs",
-            "Propreté correcte",
-            "Personnel aimable"
-        ],
-        "points_negatifs": [
-            "Prestations basiques",
-            "Infrastructures anciennes"
-        ],
-        "equipements": [
-            "Piscine",
-            "Restaurant",
-            "Wi-Fi",
-            "Parking"
-        ],
-        "pour_qui": {
-            "ambiance": "☀️ Simple, fonctionnelle et économique",
-            "public": "Idéal pour les voyageurs cherchant un hôtel simple sans se ruiner",
-            "style": "Hôtel économique",
-            "verdict": "Un choix fonctionnel et économique pour un séjour de passage."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Hôtel Garsaa": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/garsaa.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/199001122.jpg?k=4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f&o=",
-        "description": "Un établissement simple offrant un hébergement économique et un accueil chaleureux.",
-        "prix_moyen": "35€ - 70€ / nuit",
-        "avis": "3.5/5",
-        "points_positifs": [
-            "Tarifs très doux",
-            "Accueil sympathique",
-            "Ambiance calme"
-        ],
-        "points_negatifs": [
-            "Confort de base",
-            "Services limités"
-        ],
-        "equipements": [
-            "Restaurant",
-            "Wi-Fi",
-            "Parking"
-        ],
-        "pour_qui": {
-            "ambiance": "🏡 Simple, calme et économique",
-            "public": "Idéal pour les petits budgets stricts",
-            "style": "Hôtel économique de base",
-            "verdict": "Un choix économique pour un séjour de courte durée."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Résidence La Perle De Hammamet": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/la-perle-de-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/200112233.jpg?k=5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a&o=",
-        "description": "Une résidence agréable proposant des appartements bien situés pour profiter de Hammamet.",
-        "prix_moyen": "45€ - 85€ / nuit",
-        "avis": "3.9/5",
-        "points_positifs": [
-            "Appartements agréables et lumineux",
-            "Situation pratique",
-            "Bon rapport qualité-prix"
-        ],
-        "points_negatifs": [
-            "Services hôteliers restreints",
-            "Décoration simple"
-        ],
-        "equipements": [
-            "Appartements équipés",
-            "Wi-Fi",
-            "Parking"
-        ],
-        "pour_qui": {
-            "ambiance": "🏡 Lumineuse, pratique et agréable",
-            "public": "Idéal pour les vacanciers cherchant un appartement confortable à prix correct",
-            "style": "Résidence d'appartements",
-            "verdict": "Un logement indépendant agréable et bien situé."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Hammam Gharbi": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Établissement thermal",
-        "lien": "https://www.booking.com/hotel/tn/hammam-gharbi.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/311223344.jpg?k=6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b&o=",
-        "description": "Un établissement thermal traditionnel axé sur les soins par l'eau et le bien-être.",
-        "prix_moyen": "35€ - 70€ / nuit",
-        "avis": "3.7/5",
-        "points_positifs": [
-            "Eaux thermales bienfaisantes",
-            "Cadre traditionnel",
-            "Soins relaxants"
-        ],
-        "points_negatifs": [
-            "Infrastructures anciennes",
-            "Confort spartiate"
-        ],
-        "equipements": [
-            "Bains thermaux",
-            "Salles de soins",
-            "Hébergement simple"
-        ],
-        "pour_qui": {
-            "ambiance": "💧 Thermale, traditionnelle et curative",
-            "public": "Idéal pour les amateurs de cures thermales traditionnelles",
-            "style": "Établissement thermal",
-            "verdict": "Une destination axée sur les bienfaits des eaux thermales."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Yasmine": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Hôtel / Résidence",
-        "lien": "https://www.booking.com/hotel/tn/yasmine-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/422334455.jpg?k=7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c&o=",
-        "description": "Un établissement simple portant le nom de la célèbre station, offrant des prestations de base.",
-        "prix_moyen": "40€ - 75€ / nuit",
-        "avis": "3.6/5",
-        "points_positifs": [
-            "Emplacement central",
-            "Tarifs abordables",
-            "Accueil aimable"
-        ],
-        "points_negatifs": [
-            "Prestations basiques",
-            "Décoration datée"
-        ],
-        "equipements": [
-            "Piscine",
-            "Restaurant",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "☀️ Simple, centrale et économique",
-            "public": "Idéal pour les voyageurs cherchant un pied-à-terre économique à Yasmine",
-            "style": "Hôtel simple de station",
-            "verdict": "Un choix économique pour un séjour sans chichis."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Le Château": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Hôtel de charme",
-        "lien": "https://www.booking.com/hotel/tn/le-chateau-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/533445566.jpg?k=8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d&o=",
-        "description": "Un établissement atypique à l'architecture de château, offrant un cadre original et singulier.",
-        "prix_moyen": "55€ - 100€ / nuit",
-        "avis": "3.8/5",
-        "points_positifs": [
-            "Architecture originale en forme de château",
-            "Cadre atypique",
-            "Calme"
-        ],
-        "points_negatifs": [
-            "Un peu excentré",
-            "Décoration intérieure particulière"
-        ],
-        "equipements": [
-            "Piscine",
-            "Architecture atypique",
-            "Restaurant",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🏰 Atypique, originale et calme",
-            "public": "Curieux cherchant un hôtel au design insolite",
-            "style": "Hôtel architectural insolite",
-            "verdict": "Un design de château surprenant pour un séjour hors du commun."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Espace El Yasmine": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/espace-el-yasmine.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/644556677.jpg?k=9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e&o=",
-        "description": "Une résidence paisible proposant des appartements fonctionnels pour des vacances en famille.",
-        "prix_moyen": "40€ - 80€ / nuit",
-        "avis": "3.8/5",
-        "points_positifs": [
-            "Cadre calme",
-            "Appartements spacieux",
-            "Prix doux"
-        ],
-        "points_negatifs": [
-            "Services limités",
-            "Véhicule nécessaire"
-        ],
-        "equipements": [
-            "Appartements",
-            "Jardin",
-            "Wi-Fi",
-            "Parking"
-        ],
-        "pour_qui": {
-            "ambiance": "🏡 Calme, simple et familiale",
-            "public": "Idéal pour les familles cherchant de l'espace à petit prix",
-            "style": "Résidence d'appartements",
-            "verdict": "Un espace calme et fonctionnel pour un séjour en famille."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "La Maison du Golfe": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/tn/la-maison-du-golfe.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/755667788.jpg?k=0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f&o=",
-        "description": "Une maison d'hôtes intimiste offrant une vue imprenable sur le golfe et un cadre de charme.",
-        "prix_moyen": "65€ - 120€ / nuit",
-        "avis": "4.4/5",
-        "points_positifs": [
-            "Vue magnifique sur le golfe",
-            "Atmosphère intime et reposante",
-            "Décoration soignée"
-        ],
-        "points_negatifs": [
-            "Capacité d'accueil réduite",
-            "Tarifs plus soutenus"
-        ],
-        "equipements": [
-            "Terrasses panoramiques",
-            "Petit-déjeuner inclus",
-            "Wi-Fi",
-            "Salon cosy"
-        ],
-        "pour_qui": {
-            "ambiance": "🌅 Panoramique, intime et charmante",
-            "public": "Parfait pour les couples en quête de vues superbes et de tranquillité",
-            "style": "Maison d'hôtes face à la mer",
-            "verdict": "Une vue imprenable et un charme intimiste pour un séjour mémorable."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "La Villa Omar": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Maison d'hôtes / Villa",
-        "lien": "https://www.booking.com/hotel/tn/la-villa-omar.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/866778899.jpg?k=1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a&o=",
-        "description": "Une villa de prestige transformée en maison d'hôtes raffinée, idéale pour un séjour exclusif.",
-        "prix_moyen": "80€ - 150€ / nuit",
-        "avis": "4.6/5",
-        "points_positifs": [
-            "Prestations élégantes et haut de gamme",
-            "Piscine et jardin privatifs superbes",
-            "Accueil sur mesure"
-        ],
-        "points_negatifs": [
-            "Tarifs élevés",
-            "Disponibilité limitée"
-        ],
-        "equipements": [
-            "Piscine",
-            "Jardin paysager",
-            "Wi-Fi haut débit",
-            "Chambres de standing"
-        ],
-        "pour_qui": {
-            "ambiance": "🏡 Luxueuse, intime et raffinée",
-            "public": "Idéal pour les couples cherchant une villa de charme haut de gamme",
-            "style": "Villa d'hôtes de prestige",
-            "verdict": "Un lieu exclusif et raffiné pour un séjour d'exception."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Dar Beldi": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/tn/dar-beldi.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/977889900.jpg?k=2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b&o=",
-        "description": "Une maison d'hôtes authentique mettant à l'honneur le patrimoine et l'art de vivre tunisien traditionnel.",
-        "prix_moyen": "55€ - 100€ / nuit",
-        "avis": "4.3/5",
-        "points_positifs": [
-            "Architecture traditionnelle authentique",
-            "Cuisine locale savoureuse",
-            "Ambiance chaleureuse"
-        ],
-        "points_negatifs": [
-            "Services hôteliers traditionnels absents",
-            "Capacité restreinte"
-        ],
-        "equipements": [
-            "Patio",
-            "Salon marocain/tunisien",
-            "Petit-déjeuner inclus",
-            "Wi-Fi"
-        ],
-        "pour_qui": {
-            "ambiance": "🏺 Authentique, culturelle et chaleureuse",
-            "public": "Parfait pour les amoureux de traditions et d'authenticité locale",
-            "style": "Maison d'hôtes traditionnelle",
-            "verdict": "Une magnifique immersion culturelle dans une 'dar' traditionnelle."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Dar Vignola": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/tn/dar-vignola.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/188990011.jpg?k=3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c&o=",
-        "description": "Une maison d'hôtes de charme nichée dans un environnement verdoyant, idéale pour les amateurs de calme.",
-        "prix_moyen": "60€ - 110€ / nuit",
-        "avis": "4.4/5",
-        "points_positifs": [
-            "Cadre verdoyant et reposant",
-            "Décoration soignée",
-            "Accueil personnalisé"
-        ],
-        "points_negatifs": [
-            "Légèrement isolé",
-            "Nombre de chambres limité"
-        ],
-        "equipements": [
-            "Jardin",
-            "Piscine",
-            "Wi-Fi",
-            "Petit-déjeuner soigné"
-        ],
-        "pour_qui": {
-            "ambiance": "🌿 Verdoyante, calme et intime",
-            "public": "Idéal pour les couples en quête de sérénité au vert",
-            "style": "Maison d'hôtes de charme",
-            "verdict": "Un havre de paix verdoyant et intime pour un séjour relaxant."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Chimelong Spaceship Hotel": {
-        "pays": "Chine",
-        "ville": "Zhuhai",
-        "etoiles": "4 étoiles",
-        "lien": "https://kkday.tpx.li/V9JvnSgX",
-        "image": "https://hotels.staticroot.com/image/upload/v1767511280/chimelong_spaceship.jpg",
-        "description": "Situé au cœur du complexe Chimelong Ocean Kingdom à Zhuhai en Chine, le Chimelong Spaceship Hotel est un hôtel thématique unique au monde sur le thème de l'exploration spatiale et de l'océan. Conçu comme un gigantesque vaisseau spatial, il propose des chambres immersives futuristes et offre un accès direct à l'un des plus grands parcs à thème marin de la planète. L'établissement dispose d'infrastructures gigantesques et spectaculaires, comprenant des restaurants aux décors aquatiques immersifs, des espaces ludo-éducatifs pour les enfants et un design architectural époustouflant qui plonge immédiatement les visiteurs dans un autre univers.",
-        "prix_moyen": "200€ - 350€ / nuit",
-        "avis": "4.6/5",
-        "points_positifs": [
-            "Thématique spatiale et immersive incroyable pour les enfants",
-            "Accès direct et privilégié au parc Chimelong",
-            "Propreté irréprochable et chambres spacieuses"
-        ],
-        "points_negatifs": [
-            "Hôtel très fréquenté, particulièrement le week-end et pendant les vacances scolaires",
-            "Affluence importante dans les files d'attente et les restaurants"
-        ],
-        "equipements": [
-            "Wi-Fi gratuit",
-            "Restaurants thématiques",
-            "Boutiques de souvenirs du parc",
-            "Espaces de jeux pour enfants",
-            "Service de navette pour le complexe",
-            "Réception ouverte 24h/24"
-        ],
-        "pour_qui": {
-            "ambiance": "🚀 Fantastique, immersive, grandiose et familiale",
-            "public": "Parfait pour les familles avec enfants et les passionnés de parcs d'attractions et d'espace",
-            "style": "Hôtel à thème hautement immersif et futuriste",
-            "verdict": "Une expérience extraordinaire et magique pour les enfants, indispensable pour un séjour réussi au parc Chimelong."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 20 July 2026"
-    },
     "Hôtel Les Palmes d'Or": {
         "pays": "Tunisie",
         "ville": "Djerba",
@@ -3840,8 +2185,8 @@
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/marina-cap-monastir-appart-hotel.fr.html?aid=818289",
-        "image": "",
+        "lien": "https://www.booking.com/hotel/tn/marina-cap-monastir.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/322696949.jpg?k=ed842bf66117195266fee1604de0cf2e277e32e029c24be7dd6d1ff237c138de&o=",
         "description": "Le Marina Cap Monastir- Appart'Hôtel vous accueille à proximité du port de plaisance et de la plage. Situé à 5 minutes à pied du centre-ville, cet établissement est idéal pour un séjour de détente.",
         "prix_moyen": "50€ - 120€ / nuit",
         "avis": "8.4/10",
@@ -3871,7 +2216,7 @@
         "ville": "Monastir",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/el-fawz.fr.html?aid=818289",
-        "image": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/680245849.jpg?k=eb44a2a0f13b587c0febf2d4a2e229a0b96257fb5f90098343d7398e47b46f0c&o=",
         "description": "Établissement situé à Monastir proposant des services adaptés aux voyageurs recherchant un séjour simple et abordable.",
         "prix_moyen": "35€ - 70€ / nuit",
         "avis": "3.5/5",
@@ -3899,8 +2244,8 @@
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/regency-hotel-and-spa.fr.html?aid=818289",
-        "image": "",
+        "lien": "https://www.booking.com/hotel/tn/ha-tel-regency.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/17909721.jpg?k=0be99d66b9da45d9a721019b97f26c39fc2842a0298de7602c660f4deb36e8ba&o=",
         "description": "Le Regency Hotel and Spa est situé à Monastir, à 5 minutes à pied du centre-ville, offrant un accès direct au front de mer.",
         "prix_moyen": "70€ - 150€ / nuit",
         "avis": "4.0/5",
@@ -3932,7 +2277,7 @@
         "ville": "Monastir",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/monastir-center.fr.html?aid=818289",
-        "image": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/277908860.jpg?k=026bf0fed289832b65ca13d81027a7a89f2ce73e5e50767ecddf377d7455ef35&o=",
         "description": "Situé dans le centre-ville de Monastir, en Tunisie, cet hôtel propose des chambres avec balcon privé surplombant la piscine extérieure et la mer.",
         "prix_moyen": "60€ - 130€ / nuit",
         "avis": "6.9/10",
@@ -3963,8 +2308,8 @@
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/les-palmiers-monastir.fr.html?aid=818289",
-        "image": "",
+        "lien": "https://www.booking.com/hotel/tn/les-palmiers-club-monastir.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/120302817.jpg?k=f6e350456b53245bc259b42c7331df86ba35b77220f14658b16857d791388c0e&o=",
         "description": "L'Hotel les Palmiers est situé directement sur la plage de Skanes, à 5 minutes en voiture du centre-ville de Monastir.",
         "prix_moyen": "45€ - 95€ / nuit",
         "avis": "6.4/10",
@@ -3995,7 +2340,7 @@
         "ville": "Monastir",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/el-mouradi-skanes.fr.html?aid=818289",
-        "image": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/106984651.jpg?k=09d84ac07c3012d4b953d13a86c65e9b26053a429c9e379f52c6c7c4fc2ec709&o=",
         "description": "Situé dans la région de Skanès, l'El Mouradi propose des chambres et des suites avec balcon ou terrasse privée, disposant de 2 piscines et d'un hammam.",
         "prix_moyen": "70€ - 140€ / nuit",
         "avis": "5.3/10",
@@ -4028,7 +2373,7 @@
         "ville": "Monastir",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/hilton-skanes-monastir-beach-resort.fr.html?aid=818289",
-        "image": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/882962583.jpg?k=718a5029630c3a00debadcc940df46ca3970ca643d53fe2a2ca5d2b889e6b23e&o=",
         "description": "L’établissement Hilton Skanes Monastir Beach Resort se trouve à Monastir, à proximité du Golf Palm Links, offrant un cadre luxueux et moderne en front de mer.",
         "prix_moyen": "180€ - 350€ / nuit",
         "avis": "8.1/10",
@@ -4060,8 +2405,8 @@
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/bella-vista-monastir.fr.html?aid=818289",
-        "image": "",
+        "lien": "https://www.booking.com/hotel/tn/allegro-bella-vista.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/675589234.jpg?k=855bb110eb2825f4f7fdf53bd4ffe2f6f449230cac6286dc642c97cd7735ffa7&o=",
         "description": "Situé le long de la célèbre plage de Skanes, à proximité de parcours de golf, l'hôtel tout compris Bella Vista propose des bars et restaurants adaptés aux familles.",
         "prix_moyen": "80€ - 160€ / nuit",
         "avis": "4.0/5",
@@ -4092,8 +2437,8 @@
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/el-habib-monastir.fr.html?aid=818289",
-        "image": "",
+        "lien": "https://www.booking.com/hotel/tn/delphin-ribat.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/815358161.jpg?k=2674986b6fa37e319afd7e4d6febd7ead02bb050b964f0119963c8b8b1cbb4bc&o=",
         "description": "L’établissement Hotel El Habib Monastir se situe à Monastir, à proximité de la plage Qaraiya, et possède un jardin, une terrasse et un restaurant.",
         "prix_moyen": "60€ - 120€ / nuit",
         "avis": "3.8/5",
@@ -4122,8 +2467,8 @@
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/aylimas-family.fr.html?aid=818289",
-        "image": "",
+        "lien": "https://www.booking.com/hotel/tn/chiraz-club.fr.html?",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/159379081.jpg?k=09507dbdbd509e3dfac00bf356344f29868da9713613b17d9af72ac898b6a4b8&o=",
         "description": "L’établissement Aylimas Family Hotel vous accueille à Monastir, à proximité du Golf Palm Links, dans un cadre familial en front de mer.",
         "prix_moyen": "50€ - 100€ / nuit",
         "avis": "3.6/5",
@@ -4153,7 +2498,7 @@
         "ville": "Monastir",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/sahara-beach.fr.html?aid=818289",
-        "image": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/94825466.jpg?k=bb9051676fd93acbe52d924e707253ec6188bc29a622b1ebb6be0a89e1a1f7e5&o=",
         "description": "Le Sahara Beach se trouve à 10 minutes de l'aéroport de Monastir, bénéficie d'un accès direct à la plage et dispose de 3 piscines avec toboggans aquatiques.",
         "prix_moyen": "60€ - 130€ / nuit",
         "avis": "3.8/5",
@@ -4185,7 +2530,7 @@
         "ville": "Monastir",
         "etoiles": "4 étoiles",
         "lien": "https://www.booking.com/hotel/tn/one-resort-aqua-park.fr.html?aid=818289",
-        "image": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/810311896.jpg?k=cc33323c63400d5ff0ac1f61b7b42d802559788a20c4cb01b2f25880153a61bd&o=",
         "description": "Complexe hôtelier animé à Monastir, axé sur les loisirs aquatiques avec un grand parc aquatique et des prestations tout compris.",
         "prix_moyen": "90€ - 170€ / nuit",
         "avis": "4.1/5",
@@ -4260,29 +2605,14 @@
             "couples": "Espaces de bien-être et ambiance relaxante."
         },
         "meta_avis": "Très recommandé pour son rapport qualité-prix en formule tout compris.",
-        "lien": "https://www.booking.com/hotel/tn/royal-el-mansour.fr.html?aid=818289",
-        "tarifs_operateurs": {
-    "Booking": {
-        "prix": 1050,
-        "detail": "7 nuits - Tout compris",
         "lien": "https://www.booking.com/hotel/tn/royal-el-mansour.fr.html?aid=818289"
-    },
-    "Expedia": {
-        "prix": 980,
-        "detail": "7 nuits - Vol + Hôtel",
-        "lien": "https://www.expedia.fr/Mahdia-Hotel-Iberostar-Selection-Royal-El-Mansour.h3697070.Description-Hotel"
-    },
-    "TUI": {
-        "prix": 1020,
-        "detail": "7 nuits - Formule Club",
-        "lien": "https://www.tui.ch/fr/hotels/iberostar-selection-royal-el-mansour-197245/hotelinformation/"
     },
     "Mahdia Palace Thalasso": {
         "pays": "Tunisie",
         "ville": "Mahdia",
         "etoiles": "5 étoiles",
         "lien": "https://www.booking.com/hotel/tn/golden-tulip-mahdia-palace.fr.html?aid=818289",
-        "image": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/500996848.jpg?k=cddc964763c5c4fce1263be23e56d9d887233686c70dc94131def08d5e5729d0&o=",
         "description": "Situé en front de mer à Mahdia, le Mahdia Palace Thalasso propose un espace bien-être, une grande piscine et un cadre idéal pour la détente.",
         "prix_moyen": "1 086€ / semaine",
         "avis": "7,7/10",
@@ -11521,5 +9851,4 @@
         "meta_avis": "Contenu résumé par IA sur la base de 16 expériences vécues · Mise à jour : 2026"
     }
         }
-    }
-}
+    
