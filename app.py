@@ -21,6 +21,34 @@ def update_booking_aid(url, new_aid="8012379"):
 # Configuration de la page
 st.set_page_config(page_title="HotelCompare", page_icon="images/favicon_io/favicon.ico", layout="wide")
 
+import streamlit as st
+
+# Injection des balises Open Graph pour l'aperçu Facebook
+st.markdown("""
+    <script>
+        function setMetaTag(property, content) {
+            let element = document.querySelector(`meta[property='${property}']`) || document.querySelector(`meta[name='${property}']`);
+            if (!element) {
+                element = document.createElement('meta');
+                if (property.startsWith('og:')) {
+                    element.setAttribute('property', property);
+                } else {
+                    element.setAttribute('name', property);
+                }
+                document.head.appendChild(element);
+            }
+            element.setAttribute('content', content);
+        }
+
+        // Personnalise ces informations selon ton site
+        setMetaTag('og:title', 'HotelCompare - Comparateur d’hôtels');
+        setMetaTag('og:description', 'Trouve et compare les meilleures offres d’hôtels facilement.');
+        setMetaTag('og:image', 'https://myhotelcompare.com/media/c139095b96abe4e5e4fc4ea931714e10.png'); // Mets le lien direct vers une image JPG/PNG
+        setMetaTag('og:url', 'https://myhotelcompare.com/Blog');
+        setMetaTag('og:type', 'website');
+    </script>
+""", unsafe_allow_html=True)
+
 # Le style CSS global (masquage de la sidebar, de l'en-tête et mode sombre)
 st.markdown("""
     <style>
