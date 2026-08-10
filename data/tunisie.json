@@ -1,6 +1,4 @@
-
 {
-
     "Dar Salem": {
         "pays": "Tunisie",
         "ville": "Djerba",
@@ -2146,7 +2144,7 @@
             "verdict": "Une perle rare de luxe et de nature pour un séjour inoubliable."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },    
+    },
     "Hôtel Les Palmes d'Or": {
         "pays": "Tunisie",
         "ville": "Djerba",
@@ -2556,8 +2554,7 @@
             "verdict": "Une excellente option rythmée et aquatique pour des vacances réussies."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    
-  },
+    },
     "Monarque El Fatimi Mahdia": {
         "pays": "Tunisie",
         "ville": "Mahdia",
@@ -2596,9 +2593,21 @@
         "prix_moyen": "À partir de 950 €",
         "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
         "description": "Situé en bord de mer à Mahdia, cet hôtel 5 étoiles propose un spa luxueux, des piscines extérieures et un service tout compris de qualité.",
-        "equipements": ["Wi-Fi gratuit", "Piscine", "Spa", "All Inclusive", "Plage privée"],
-        "points_positifs": ["Plage magnifique", "Animation dynamique", "Chambres spacieuses"],
-        "points_negatifs": ["Wi-Fi parfois lent dans les chambres"],
+        "equipements": [
+            "Wi-Fi gratuit",
+            "Piscine",
+            "Spa",
+            "All Inclusive",
+            "Plage privée"
+        ],
+        "points_positifs": [
+            "Plage magnifique",
+            "Animation dynamique",
+            "Chambres spacieuses"
+        ],
+        "points_negatifs": [
+            "Wi-Fi parfois lent dans les chambres"
+        ],
         "pour_qui": {
             "verdict": "Idéal pour un séjour balnéaire en famille ou en couple.",
             "familles": "Clubs enfants bien encadrés et espaces aquatiques.",
@@ -4749,7 +4758,7 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 2 388 expériences vécues · Mise à jour : 2026"
     },
-     "Iliade Aqua Park - All Inclusive": {
+    "Iliade Aqua Park - All Inclusive": {
         "pays": "Tunisie",
         "ville": "Djerba",
         "etoiles": "4 étoiles",
@@ -7066,7 +7075,7 @@
         "ville": "Tunis",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/tn/plaza-la-marsa.html?aid=818289",
-    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/586326055.jpg?k=1aa554381f79b0d438491359cdc1455c1099147f2402910f9f0f5857391477ae&o=",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/586326055.jpg?k=1aa554381f79b0d438491359cdc1455c1099147f2402910f9f0f5857391477ae&o=",
         "description": "Situé sur la corniche de La Marsa (Tunis), cet hôtel propose un petit-déjeuner inclus et un emplacement de choix en bord de mer.",
         "prix_moyen": "351€ / semaine",
         "avis": "6,5/10",
@@ -9580,7 +9589,7 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 1 382 expériences vécues · Mise à jour : 2026"
     },
-        "Hotel Saint Georges Tunis": {
+    "Hotel Saint Georges Tunis": {
         "pays": "Tunisie",
         "ville": "Tunis",
         "etoiles": "2 étoiles",
@@ -9730,5 +9739,4 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 16 expériences vécues · Mise à jour : 2026"
     }
-        }
-    
+}
