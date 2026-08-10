@@ -270,14 +270,25 @@ with col_promo:
                 with open(chemin_promo, "r", encoding="utf-8") as f:
                     promo = json.load(f)
                     if isinstance(promo, dict):
+                        # 1. Image
                         if promo.get("image"):
                             st.markdown(f'<img src="{promo["image"]}" style="width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 8px;">', unsafe_allow_html=True)
+                        
+                        # 2. Titre
                         st.markdown(f"**{promo.get('titre', '')}**")
+                        
+                        # 3. Ligne Pays et Ville
+                        ville = promo.get("ville", "")
+                        pays = promo.get("pays", "")
+                        if ville or pays:
+                            st.markdown(f"<p style='color: #94a3b8; font-size: 0.85em; margin-top: -8px; margin-bottom: 6px;'>📍 {ville}{', ' if ville and pays else ''}{pays}</p>", unsafe_allow_html=True)
+                        
+                        # 4. Description
                         st.write(promo.get("description", ""))
                         
+                        # 5. Bouton
                         if promo.get("lien"):
                             lien_final = update_booking_aid(promo["lien"])
-                            # Bouton bleu personnalisé
                             st.markdown(f"""
                                 <a href="{lien_final}" target="_blank" 
                                    style="display: block; background-color: #003580; color: white; 
