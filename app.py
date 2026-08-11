@@ -373,26 +373,65 @@ if valider:
             with cols[i]:
                 st.markdown('<div class="hotel-card">', unsafe_allow_html=True)
                 
-                img_src = d.get("image")
-                if img_src and img_src != "...":
-                    st.image(img_src, width=350)
+                # --- STRUCTURE EN 2 COLONNES ---
+                col_gauche, col_droite = st.columns([1.2, 1], gap="medium")
+                
+                with col_gauche:
+                    img_src = d.get("image")
+                    if img_src and img_src != "...":
+                        st.image(img_src, use_container_width=True)
+                        
+                    st.subheader(nom)
+                    ville_hotel = d.get("ville", "")
+                    pays_hotel = d.get("pays", "")
+                    if ville_hotel or pays_hotel:
+                        st.markdown(f"<p style='color: #94a3b8; font-size: 0.9em; margin-top: -10px; margin-bottom: 10px;'>📍 {ville_hotel}, {pays_hotel}</p>", unsafe_allow_html=True)
                     
-                st.subheader(nom)
+                    if d.get("avis"):
+                        st.markdown(f"Note : <span class='badge-note'>{d['avis']}</span>", unsafe_allow_html=True)
+                    
+                    st.write("")
+                    if d.get("etoiles"): st.write(f"⭐ **{d['etoiles']}**")
+                    if d.get("prix_moyen"): st.write(f"💰 {d['prix_moyen']}")
                 
-                ville_hotel = d.get("ville", "")
-                pays_hotel = d.get("pays", "")
-                if ville_hotel or pays_hotel:
-                    st.markdown(f"<p style='color: #94a3b8; font-size: 0.9em; margin-top: -10px; margin-bottom: 10px;'>📍 {ville_hotel}, {pays_hotel}</p>", unsafe_allow_html=True)
-                
-                if d.get("avis"):
-                    st.markdown(f"Note : <span class='badge-note'>{d['avis']}</span>", unsafe_allow_html=True)
-                
-                st.write("")
-                if d.get("etoiles"): st.write(f"⭐ **{d['etoiles']}**")
-                if d.get("prix_moyen"): st.write(f"💰 {d['prix_moyen']}")
-                
+                with col_droite:
+                    st.markdown("<p style='font-weight: bold; margin-bottom: 8px;'>Réserver avec :</p>", unsafe_allow_html=True)
+                    
+                    # 1. Gestion du bouton Booking (cherche "lien_booking", sinon l'ancien "lien", sinon une page par défaut)
+                    lien_brut = d.get("lien_booking") or d.get("lien", "https://www.booking.com/index.fr.html")
+                    lien_booking = update_booking_aid(lien_brut)
+                    
+                    st.markdown(f"""
+                        <a href='{lien_booking}' target='_blank' 
+                           style='display: block; background-color: #003580; color: white; padding: 10px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin-bottom: 8px;'>
+                            Réserver sur Booking
+                        </a>
+                    """, unsafe_allow_html=True)
+                    
+                    # 2. Gestion du bouton Expedia (cherche "lien_expedia", sinon met le lien général par défaut)
+                    lien_expedia = d.get("lien_expedia", "https://www.anrdoezrs.net/click-8012379-13854902?url=https://www.expedia.fr/")
+                    
+                    st.markdown(f"""
+                        <a href='{lien_expedia}' target='_blank' 
+                           style='display: block; background-color: #ffcc00; color: #000000; padding: 10px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin-bottom: 8px;'>
+                            Réserver sur Expedia
+                        </a>
+                    """, unsafe_allow_html=True)
+
+                    # 3. Carte géographique
+                    lieu_recherche = f"{nom}, {ville_hotel}, {pays_hotel}"
+                    lieu_encode = urllib.parse.quote(lieu_recherche)
+                    map_html = f"""
+                    <iframe width="100%" height="180" style="border:0; border-radius: 8px; margin-top: 10px;" loading="lazy" src="https://maps.google.com/maps?q={lieu_encode}&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                    """
+                    components.html(map_html, height=190)
+
+                # --- PARTIE BASSE ---
                 st.write("---")
-                
+                # ... (reste de votre code pour la description, équipements, etc.)
+
+                # --- PARTIE BASSE : Description, équipements et avis (reste inchangée) ---
+                st.write("---")
                 desc_finale = d.get("description_ia") or d.get("description")
                 if desc_finale:
                      st.write(f"**✨ Description :** {desc_finale}")
@@ -419,39 +458,7 @@ if valider:
                 if d.get("meta_avis"):
                     st.caption(d['meta_avis'])
                 
-                st.write("")
-                
-                tarifs = d.get("tarifs_operateurs", {})
-                if tarifs:
-                    st.markdown("<h4 style='color: #1e293b !important;'>🏷️ Comparatif des prix</h4>", unsafe_allow_html=True)
-                    tarifs_valides = {k: v for k, v in tarifs.items() if isinstance(v, dict) and "prix" in v}
-                    
-                    if tarifs_valides:
-                        meilleur_operateur = min(tarifs_valides, key=lambda k: tarifs_valides[k]["prix"])
-                        
-                        for operateur, infos in tarifs_valides.items():
-                            prix_actuel = infos["prix"]
-                            detail_actuel = infos.get("detail", "Séjour standard")
-                            lien_actuel = update_booking_aid(infos.get("lien", "https://www.booking.com/index.fr.html"))
-                            
-                            col_p1, col_p2, col_p3 = st.columns([3, 2, 1])
-                            with col_p1:
-                                if operateur == meilleur_operateur:
-                                    st.markdown(f"<span style='color: #1e293b !important; font-weight: bold;'>{operateur}</span> 🟢 <span style='background-color:#34a853; color:white; padding:2px 6px; border-radius:4px; font-size:0.8em;'>Meilleur prix</span>", unsafe_allow_html=True)
-                                else:
-                                    st.markdown(f"<span style='color: #1e293b !important; font-weight: bold;'>{operateur}</span>", unsafe_allow_html=True)
-                                st.markdown(f"<span style='color: #64748b !important; font-size: 0.85em;'>{detail_actuel}</span>", unsafe_allow_html=True)
-                            with col_p2:
-                                st.markdown(f"<div style='text-align: right; font-weight: bold; font-size: 1.1em; color: #1e293b !important;'>{prix_actuel} €</div>", unsafe_allow_html=True)
-                            with col_p3:
-                                st.markdown(f"<div style='text-align: right;'><a href='{lien_actuel}' target='_blank' style='background-color:#003580; color:white; padding:5px 10px; text-decoration:none; border-radius:4px; font-size:0.85em; font-weight:bold; display:inline-block;'>Voir</a></div>", unsafe_allow_html=True)
-                            
-                            st.markdown("<hr style='margin: 5px 0; border: 0; border-top: 1px solid #e2e8f0;'>", unsafe_allow_html=True)
-                    else:
-                        st.warning("Tarifs opérateurs non disponibles.")
-                else:
-                    url_hotel = update_booking_aid(d.get("lien", "https://www.booking.com/index.fr.html"))
-                    st.markdown(f'<a href="{url_hotel}" target="_blank" style="text-decoration:none;"><div style="background-color:#003580; color:white; padding:12px; text-align:center; border-radius:6px; font-weight:bold;">Voir les offres</div></a>', unsafe_allow_html=True)    # ==============================================================================
+                st.markdown('</div>', unsafe_allow_html=True)
 # SECTION 2 : RECHERCHE D'HÔTEL PAR CRITÈRES (SÉCURISÉE)
 # ==============================================================================
 st.markdown("---")

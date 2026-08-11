@@ -3,8 +3,7 @@
         "pays": "Tunisie",
         "ville": "Djerba",
         "etoiles": "Maison d'hôtes",
-        "lien_booking": "https://www.booking.com/hotel/tn/dar-salem-djerba2.fr.html?",
-        "lien_expedia":"https://www.expedia.fr/Hotel-Search?destination=Dar%20Salem%2C%20Midoun%2C%20Gouvernorat%20de%20M%C3%A9denine%2C%20Tunisie&regionId=500579&latLong=33.864252%2C10.971321&propertyId=33152683&selected=33152683&hotelId=33152683&flexibility=0_DAY&d1=2026-08-12&startDate=2026-08-12&d2=2026-08-18&endDate=2026-08-18&adults=2&rooms=1&typeaheadCollationId=e6b94ffb-6163-4133-b34c-003798f6281d&sort=RECOMMENDED&theme=&userIntent=&semdtl=&categorySearch=&useRewards=false?",
+        "lien": "https://www.booking.com/hotel/tn/dar-salem-djerba2.fr.html?",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/727504677.jpg?k=e6baf5bb626c3fb67d4084b52feed01a4acc6926e6b162f03cf0d63ee9d58414&o=",
         "description": "Une adresse charmante qui met en valeur l'art de vivre djerbien avec un confort moderne discret. Dotée d'un jardin reposant et d'une propreté irréprochable, cette maison d'hôtes se distingue par l'attention de son personnel, toujours aux petits soins pour garantir un séjour des plus ressourçants.",
         "prix_moyen": "75€ - 130€ / nuit",
@@ -35,8 +34,7 @@
         "pays": "Tunisie",
         "ville": "Djerba",
         "etoiles": "4 étoiles",
-        "lien_booking": "https://djerbagolfresort.com/fr/",
-        "lien_expedia": "https://www.expedia.fr/Djerba-Midun-Hotel-Djerba-Golf-Resort-Spa.h35853473.Description-Hotel?",
+        "lien": "https://djerbagolfresort.com/fr/",
         "image": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1020,q_auto,w_2000/hotelier-images/94/b6/58b54e6b085f709b0c70c5c8816eb8351c5c92ccd5ce0709652d7be4b062.jpeg",
         "description": "Idéalement situé à proximité immédiate du parcours de golf, cet hôtel cible particulièrement les amateurs de green et de détente. Il propose des chambres spacieuses, de superbes prestations de spa ainsi qu'un cadre propice au repos et à la pratique sportive.",
         "prix_moyen": "140€ - 220€ / nuit",
@@ -70,7 +68,7 @@
         "pays": "Tunisie",
         "ville": "Zarzis",
         "etoiles": "4 étoiles",
-        "lien_booking": "https://www.fram.fr/hotel-plein-vent-selection-eden-star-tunisie-zarzis-56952.html",
+        "lien": "https://www.fram.fr/hotel-plein-vent-selection-eden-star-tunisie-zarzis-56952.html",
         "image": "https://images.sembo.travel/ImageService/ImageHandler.ashx?service=url&nameOfImage=https%3A%2F%2Fi.travelapi.com%2Fhotels%2F27000000%2F26560000%2F26550500%2F26550484%2Fef053194_z.jpg&resizeMode=FitInside&semboApp=true",
         "description": "Un club de vacances chaleureux proposant une ambiance italienne et internationale, idéal pour les familles. Doté d'une grande piscine extérieure, d'une équipe d'animation sympathique et d'un accès direct à la plage, il garantit des séjours rythmés et conviviaux.",
         "prix_moyen": "120€ - 190€ / nuit",
@@ -104,8 +102,7 @@
         "pays": "Tunisie",
         "ville": "Djerba",
         "etoiles": "4 étoiles",
-        "lien_booking": "https://www.expedia.fr/Djerba-Midun-Hotel-Hotel-Fiesta-Beach-Djerba.h918750.Description-Hotel",
-        "lien_expedia": "https://www.expedia.fr/Djerba-Midun-Hotel-Hotel-Fiesta-Beach-Djerba.h918750.Description-Hotel?",
+        "lien": "https://www.expedia.fr/Djerba-Midun-Hotel-Hotel-Fiesta-Beach-Djerba.h918750.Description-Hotel",
         "image": "https://images.trvl-media.com/lodging/1000000/920000/918800/918750/acc927b0.jpg?impolicy=resizecrop&rw=1200&ra=fit",
         "description": "Un grand complexe club de vacances convivial et animé, situé à Midun au bord d'une belle plage de sable. Très prisé pour ses nombreuses activités, ses piscines et son ambiance familiale, il propose une formule tout compris idéale pour un séjour dynamique et détendu.",
         "prix_moyen": "110€ - 180€ / nuit",
@@ -140,8 +137,7 @@
         "pays": "Tunisie",
         "ville": "Djerba",
         "etoiles": "3 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/tn/hari-club-beach-resort-ultra-all-inclusive.fr.html?",
-        "lien_expedia":"https://www.expedia.fr/Aghir-Hotel-Smy-Hari-Club-Djerba.h21360003.Description-Hotel?",
+        "lien": "https://www.booking.com/hotel/tn/hari-club-beach-resort-ultra-all-inclusive.fr.html?",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/120234281.jpg?k=32ffe31f10a511fb6dd082704b00db977eb09d2ed9c626d2411fcd809d53de7b&o=",
         "description": "Un complexe balnéaire familial orienté détente et loisirs simples, parfait pour les budgets modérés.",
         "prix_moyen": "90€ - 140€ / nuit",
@@ -201,6 +197,15 @@
             "verdict": "Le summum du luxe à Djerba pour un séjour entièrement dédié à la détente haut de gamme."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
+        },
+        "tarifs_operateurs": {
+            "Booking": {
+            "prix": "140€ - 220€",
+            "lien": "https://www.booking.com/hotel/..."
+        },
+            "Expedia": {
+            "prix": "135€ - 210€",
+            "lien": "https://www.anrdoezrs.net/click-8012379-13854902?url=https://www.expedia.fr/..."
         }, 
     "Hotel Riad Meninx": {
         "pays": "Tunisie",
@@ -9741,7 +9746,7 @@
             "style": "Hôtel de ville",
             "verdict": "Une alternative correcte pour séjourner sur l'île de Djerba."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 16 expériences vécues · Mise à jour : 2026."
+        "meta_avis": "Contenu résumé par IA sur la base de 16 expériences vécues · Mise à jour : 2026"
+        }
     }
-} 
-    
+    }
