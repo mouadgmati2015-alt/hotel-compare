@@ -107,9 +107,43 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Injection de la balise de vérification Google Search Console
-google_tag = '<meta name="google-site-verification" content="UFPNwmAw5bpc..." />'
-components.html(google_tag, height=0, width=0)
+# Votre code de vérification Google Search Console
+google_verification_content = "UFPNwmAw5bpc..."
+
+# Script JS pour remonter et insérer la balise dans le <head> principal
+google_tag_script = f"""
+<script>
+    const parentHead = window.parent.document.head;
+    
+    // Vérifie si la balise n'existe pas déjà pour éviter les doublons
+    if (!parentHead.querySelector('meta[name="google-site-verification"]')) {{
+        const metaTag = document.createElement('meta');
+        metaTag.name = 'google-site-verification';
+        metaTag.content = '{google_verification_content}';
+        parentHead.appendChild(metaTag);
+    }}
+</script>
+"""
+
+# Exécution du composant (dimensions à 0 car il n'y a rien d'affiché visuellement)
+components.html(google_tag_script, height=0, width=0)
+# --- AJOUTEZ CE BLOC ICI ---
+canonical_url = "https://www.myhotelcompare.com/"
+canonical_script = f"""
+<script>
+    const parentHead = window.parent.document.head;
+    // Supprime une ancienne balise canonical pour éviter les doublons
+    const existingCanonical = parentHead.querySelector('link[rel="canonical"]');
+    if (existingCanonical) {{ existingCanonical.remove(); }}
+    // Ajoute la nouvelle
+    const linkTag = document.createElement('link');
+    linkTag.rel = 'canonical';
+    linkTag.href = '{canonical_url}';
+    parentHead.appendChild(linkTag);
+</script>
+"""
+components.html(canonical_script, height=0, width=0)
+# ---------------------------
 
 # --- AJOUT DU SCRIPT DE TRACKING CJ AFFILIATE ---
 st.markdown(
