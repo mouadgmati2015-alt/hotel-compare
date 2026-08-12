@@ -704,3 +704,47 @@ footer_html = """
 """
 
 st.markdown(footer_html, unsafe_allow_html=True)
+# --- CSS pour rendre le bouton du formulaire vert ---
+st.markdown("""
+    <style>
+    div.stFormSubmitButton > button {
+        background-color: #10b981;
+        color: white;
+        border-radius: 6px;
+        font-weight: bold;
+        border: none;
+    }
+    div.stFormSubmitButton > button:hover {
+        background-color: #059669;
+        color: white;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+# --- FORMULAIRE DE FEEDBACK DANS LE FOOTER ---
+st.markdown("---")
+st.markdown("<h3 style='text-align: center; color: white;'>💬 Votre avis nous intéresse</h3>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: #94a3b8; font-size: 0.9em;'>Le site est en cours de construction. Aidez-nous à l'améliorer !</p>", unsafe_allow_html=True)
+
+col_f1, col_f2, col_f3 = st.columns([1, 2, 1])
+with col_f2:
+    with st.form("form_feedback_footer"):
+        nom_visiteur = st.text_input("Votre nom ou prénom (facultatif)")
+        message_avis = st.text_area("Vos remarques, bugs ou conseils :")
+        submit_avis = st.form_submit_button("Envoyer mon avis", use_container_width=True)
+        
+        if submit_avis:
+            if message_avis.strip() != "":
+                with open("retours_utilisateurs.txt", "a", encoding="utf-8") as f:
+                    f.write(f"De: {nom_visiteur if nom_visiteur else 'Anonyme'} | Message: {message_avis}\n---\n")
+                st.success("Merci ! Votre retour a bien été enregistré. 🙏")
+            else:
+                st.warning("Veuillez écrire un message avant d'envoyer.")
+
+# --- VOTRE FOOTER ACTUEL ---
+st.markdown("""
+    <div style='text-align: center; padding: 20px; color: #94a3b8;'>
+        <p>Accueil &nbsp;|&nbsp; À propos &nbsp;|&nbsp; Politique de confidentialité &nbsp;|&nbsp; Contact</p>
+        <p>© 2026 MonHôtelCompare. Tous droits réservés. Propulsé par l'IA.</p>
+    </div>
+""", unsafe_allow_html=True)
