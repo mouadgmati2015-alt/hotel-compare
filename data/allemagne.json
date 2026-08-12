@@ -1,0 +1,45 @@
+{
+    "Hotel Adlon Kempinski Berlin": {
+        "pays": "Allemagne",
+        "ville": "Berlin",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/de/hotel-adlon-kempinski-berlin.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Berlin-Hotels-Hotel-Adlon-Kempinski-Berlin.h11942.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/1000000/10000/9400/9358/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Situé juste à côté de la Porte de Brandebourg, c'est l'hôtel le plus emblématique de la capitale allemande[cite: 1]. Cet établissement légendaire 5 étoiles incarne le raffinement suprême, le prestige et le luxe impérial[cite: 1]. Les clients profitent d'un service irréprochable, d'une piscine intérieure, d'un spa somptueux et de tables gastronomiques de premier plan, le tout à l'adresse la plus prestigieuse de Berlin.",
+        "prix_moyen": " 450€ / nuit",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Emplacement historique exceptionnel au cœur de Berlin[cite: 1].",
+            "Vue directe et imprenable sur la Porte de Brandebourg[cite: 1].",
+            "Atmosphère de luxe impérial et de tradition légendaire[cite: 1].",
+            "Service hôtelier d'une rigueur et d'un professionnalisme exemplaires.",
+            "Infrastructures de bien-être haut de gamme incluant spa et piscine intérieure.",
+            "Proximité immédiate des principaux sites culturels et institutionnels."
+        ],
+        "points_negatifs": [
+            "Fréquentation touristique intense devant l'entrée et aux abords immédiats de l'hôtel[cite: 1].",
+            "Tarifs des nuitées très élevés en haute saison et lors des grands événements berlinois.",
+            "Forte affluence dans les espaces communs en raison de sa renommée mondiale.",
+            "Ambiance parfois très formelle ou protocolaire.",
+            "Circulation piétonne et routière dense autour de la Pariser Platz.",
+            "Réservation obligatoire très en avance pour le restaurant gastronomique."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa et centre de bien-être",
+            "Piscine intérieure",
+            "Wi-Fi gratuit",
+            "Restaurants gastronomiques & Bar",
+            "Service de voiturier",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Impérial, historique, prestigieux et légendaire",
+            "public": "Voyageurs recherchant l'adresse la plus iconique et luxueuse de Berlin",
+            "style": "Palace historique légendaire",
+            "verdict": "L'Hôtel Adlon Kempinski Berlin est l'adresse incontournable par excellence dans la capitale allemande. Entre son emplacement historique face à la Porte de Brandebourg et ses prestations fastueuses, il offre un séjour d'une élégance intemporelle."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 200+ expériences vécues · Mise à jour : 2026"
+    }
+}

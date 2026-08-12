@@ -1,0 +1,45 @@
+{
+    "The Peninsula Shanghai": {
+        "pays": "Chine",
+        "ville": "Shanghai",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/cn/the-peninsula-shanghai.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Shanghai-Hotels-The-Peninsula-Shanghai.h3146433.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/3000000/2110000/2103300/2103254/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Idéalement situé sur le célèbre Bund de Shanghai, The Peninsula offre une vue spectaculaire sur les gratte-ciels futuristes de Pudong et la rivière Huangpu. Cet établissement prestigieux allie le glamour de l'Art déco des années 1920 et le summum de la technologie moderne. Les clients profitent d'un service légendaire, de sa flotte de Rolls-Royce classiques, d'un spa de classe mondiale, d'une piscine intérieure somptueuse et de tables gastronomiques récompensées, dont un restaurant cantonais étoilé au guide Michelin.",
+        "prix_moyen": " 400€ / nuit",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Emplacement légendaire directement sur le Bund avec vue sur Pudong.",
+            "Flotte de Rolls-Royce historiques réservée aux transferts des clients.",
+            "Restaurant gastronomique étoilé au guide Michelin sur place.",
+            "Service attentionné et aux normes d'excellence de la marque Peninsula.",
+            "Spa somptueux et magnifique piscine intérieure.",
+            "Chambres spacieuses dotées d'une technologie de pointe."
+        ],
+        "points_negatifs": [
+            "Trafic dense sur le Bund aux heures de pointe.",
+            "Tarifs des nuitées très élevés en haute saison.",
+            "Forte affluence touristique dans les environs immédiats.",
+            "Ambiance très formelle dans les espaces communs.",
+            "Nécessite de réserver les tables de restaurant plusieurs semaines à l'avance.",
+            "Coûts annexes importants pour les services de conciergerie privée."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa de classe mondiale",
+            "Piscine intérieure",
+            "Flotte de Rolls-Royce",
+            "Wi-Fi gratuit",
+            "Restaurant étoilé Michelin",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Art déco, prestigieux, futuriste, luxueux et fluvial",
+            "public": "Voyageurs recherchant le meilleur de l'élégance internationale et chinoise à Shanghai",
+            "style": "Palace urbain au bord du Bund",
+            "verdict": "The Peninsula Shanghai est une adresse de premier plan. Entre son emplacement magique sur le Bund, son service d'exception et son raffinement Art déco, il garantit un séjour inoubliable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 100+ expériences vécues · Mise à jour : 2026"
+    }
+}

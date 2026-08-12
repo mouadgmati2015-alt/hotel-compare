@@ -1,0 +1,45 @@
+{
+    "The Grand Mark Prague": {
+        "pays": "République tchèque",
+        "ville": "Prague",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/cz/the-grand-mark-prague.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Prague-Hotels-The-Grand-Mark-Prague.h6116279.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/4000000/3530000/3525300/3525281/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Installé dans un palais résidentiel du XVIIe siècle au cœur de Prague, cet hôtel de luxe 5 étoiles offre un mariage harmonieux entre l'histoire baroque et le design contemporain le plus élégant. Entouré d'un magnifique jardin privé paysager de deux hectares (un véritable havre de paix au centre-ville), l'établissement propose des suites spacieuses dotées d'équipements somptueux. Les clients profitent d'un spa haut de gamme, d'un service de conciergerie irréprochable et de tables gastronomiques raffinées, à quelques minutes seulement de la place de la Vieille-Ville.",
+        "prix_moyen": " 300€ / nuit",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Magnifique jardin privé paysager de deux hectares, rarissime au cœur de Prague.",
+            "Architecture et héritage d'un palais résidentiel du XVIIe siècle restauré avec faste.",
+            "Suites spacieuses et élégantes mêlant design moderne et touches historiques.",
+            "Service attentionné, discret et aux standards de l'hôtellerie de luxe internationale.",
+            "Proximité immédiate des principaux monuments historiques de la capitale tchèque.",
+            "Espace de bien-être et spa propices à la relaxation après les visites."
+        ],
+        "points_negatifs": [
+            "Trafic piétonnier et animation urbaine soutenue aux abords du centre historique.",
+            "Tarifs des nuitées et des prestations élevés en haute saison touristique.",
+            "Forte demande nécessitant de réserver plusieurs mois à l'avance.",
+            "Ambiance parfois très feutrée dans les salons intérieurs.",
+            "Stationnement en centre-ville restreint nécessitant l'utilisation du service voiturier.",
+            "Disponibilité limitée pour les suites donnant directement sur les jardins intérieurs."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Jardin privé de deux hectares",
+            "Spa et centre de bien-être",
+            "Wi-Fi gratuit",
+            "Restaurant gastronomique & Bar",
+            "Service de voiturier",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏰 Baroque, palatial, verdoyant, prestigieux et raffiné",
+            "public": "Voyageurs en quête d'un havre de paix luxueux au cœur de l'histoire pragoise",
+            "style": "Palais historique du XVIIe siècle avec jardin",
+            "verdict": "The Grand Mark Prague est une adresse d'exception. Entre son somptueux palais baroque, son immense jardin secret et son standing 5 étoiles, il garantit un séjour inoubliable dans la cité des cent clochers."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 850+ expériences vécues · Mise à jour : 2026"
+    }
+}

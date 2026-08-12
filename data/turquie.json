@@ -1,0 +1,122 @@
+{
+    "The Marni Hotel & Spa - Adults Only 12 Plus": {
+        "pays": "Turquie",
+        "ville": "Antalya",
+        "etoiles": "4 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/tr/the-marni.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Antalya-Hotel-The-Marni-Hotel.h125470773.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/857598977.jpg?k=c53ff272c0a3804cf10e09b0c0e32248de360fb60d6310710446f5a4da7cda8c&o=",
+        "description": "Situé à Antalya dans le quartier de Çağlayan (Muratpaşa), l'établissement The Marni Hotel & Spa - Adults Only 12 Plus s'impose avec une note fabuleuse de 9,4 et un emplacement géographique remarquable noté 9,2. Réservé aux adultes de plus de 12 ans, cet hôtel 4 étoiles moderne et récent propose des chambres climatisées ultra-confortables dotées d'une machine à café, d'un minibar et de la télévision avec Netflix. Les voyageurs profitent d'une piscine extérieure en saison, d'un jardin, d'un restaurant, ainsi que d'un espace bien-être comprenant un sauna et un bain turc en accès gratuit, le tout sublimé par un service client exceptionnel.",
+        "prix_moyen": "90€ - 170€ / nuit",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Note fabuleuse de 9,4 et situation géographique idéale notée 9,2",
+            "Espace bien-être gratuit avec sauna et bain turc (hammam)",
+            "Propreté irréprochable et chambres modernes, spacieuses et très confortables",
+            "Personnel d'une gentillesse exceptionnelle, accueillant et aux petits soins",
+            "Piscine extérieure, jardin agréable et petites attentions (café, gâteaux au lobby)"
+        ],
+        "points_negatifs": [
+            "Établissement réservé aux adultes et enfants de plus de 12 ans (Adults Only 12+)",
+            "Espace piscine de taille relativement modeste mais très agréable"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Adults Only (12+)",
+            "Spa et centre de bien-être (Sauna / Hammam)",
+            "Piscine extérieure",
+            "Wi-Fi gratuit",
+            "Parking gratuit",
+            "Climatisation",
+            "Restaurant & Bar",
+            "Réception 24h/24"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Moderne, relaxant, élégant, feutré et chaleureux",
+            "public": "Couples et voyageurs en quête de calme, de modernité et de prestations bien-être haut de gamme sans enfants en bas âge",
+            "style": "Hôtel design 4 étoiles avec spa et concept Adults Only",
+            "verdict": "Une adresse incontournable et ultra-moderne à Antalya pour un séjour tout confort alliant détente au spa, calme absolu et services irréprochables."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 145 expériences vécues · Mise à jour : 2026"
+    },
+    "Crystal Waterworld Aqua Collection - Ultimate All Inclusive": {
+        "pays": "Turquie",
+        "ville": "Belek",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/tr/crystal-waterworld-resort-amp-spa.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Belek-Hotel-Crystal-Waterworld-Resort-Spa-All-Inclusive.h8124532.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/9000000/8130000/8124600/8124532/e586a1ba.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Bénéficiant d'un emplacement privilégié en bord de mer à Belek avec une plage de sable privée de 500 mètres, le Crystal Waterworld Aqua Collection s'impose avec une belle note de 8,1 et un certificat de durabilité officiel. Ce vaste complexe tout compris propose des chambres élégantes dotées de parquet, de la climatisation, d'un minibar et d'un balcon (avec vue latérale sur la mer pour certaines). Les voyageurs profitent de trois piscines extérieures, d'un superbe parc aquatique avec toboggans, d'un centre de spa complet (bain turc, sauna, hammam), ainsi que d'options de restauration variées disponibles 24h/24 avec plusieurs restaurants à la carte.",
+        "prix_moyen": "180€ - 320€ / nuit",
+        "avis": "8,1/10",
+        "points_positifs": [
+            "Immense plage de sable privée de 500 mètres de long en accès direct",
+            "Parc aquatique fantastique avec toboggans, très apprécié des familles",
+            "Offre de restauration et collations très riche disponible 24h/24",
+            "Centre de spa complet avec bain turc, sauna et hammam",
+            "Établissement engagé détenant un certificat de durabilité (Green Key)"
+        ],
+        "points_negatifs": [
+            "Affluence importante en haute saison avec de nombreuses familles",
+            "Taille du complexe nécessitant un peu de marche selon l'emplacement de la chambre"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Formule Tout Compris (All Inclusive)",
+            "Plage privée",
+            "Parc aquatique & Piscines extérieures",
+            "Spa et centre de bien-être",
+            "Certificat de durabilité",
+            "Wi-Fi gratuit",
+            "Parking gratuit",
+            "Centre de remise en forme"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Animé, familial, aquatique, généreux et tout compris",
+            "public": "Familles et couples recherchant un complexe balnéaire complet les pieds dans l'eau avec animations et parc aquatique",
+            "style": "Resort 5 étoiles tout compris en bord de mer avec toboggans et spa",
+            "verdict": "Une destination idéale pour des vacances en famille sans se soucier de rien, combinant immense plage privée, parc aquatique et prestations ultra-généreuses."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 63 expériences vécues · Mise à jour : 2026"
+    },
+    "Sentido Luna Vista Belek Hotel": {
+        "pays": "Turquie",
+        "ville": "Belek",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/tr/luna-vista-belek.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Belek-Hotel-Throne-Seagate-Belek-Hotel.h8043868.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/9000000/8050000/8043900/8043868/420d4ca6.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Situé à Belek à quelques pas de la plage de Bogazkent, le Sentido Luna Vista Belek Hotel s'impose avec une note fabuleuse de 9,4 et un excellent emplacement noté 9,1. Cet établissement 5 étoiles neuf et parfaitement entretenu propose des chambres climatisées ultra-confortables dotées d'un balcon, d'une machine à café et d'un minibar. Les voyageurs profitent d'un choix impressionnant de 6 piscines, d'un parc aquatique, d'une piscine intérieure, d'un centre de spa complet (hammam, sauna), ainsi que de programmes d'animation passionnants et d'un service irréprochable.",
+        "prix_moyen": "140€ - 260€ / nuit",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Note fabuleuse de 9,4 et situation géographique idéale notée 9,1 en bord de plage",
+            "Établissement entièrement neuf, extrêmement propre et bien entretenu",
+            "Offre aquatique exceptionnelle avec 6 piscines et un parc aquatique",
+            "Personnel d'une gentillesse remarquable et service attentionné noté 10/10",
+            "Centre de bien-être complet avec sauna, hammam et piscine intérieure"
+        ],
+        "points_negatifs": [
+            "Nombre d'avis encore restreint (établissement récent)",
+            "Situation un peu en retrait des centres-animentés de Belek"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "En bord de plage & Plage privée",
+            "6 piscines & Parc aquatique",
+            "Spa et centre de bien-être (Sauna / Hammam)",
+            "Piscine intérieure",
+            "Wi-Fi gratuit",
+            "Parking privé gratuit",
+            "Climatisation",
+            "Restaurant & Bar"
+        ],
+        "pour_qui": {
+            "ambiance": "✨ Neuf, luxueux, animé, aquatique, familial et haut de gamme",
+            "public": "Familles et couples en quête d'un resort 5 étoiles flambant neuf avec un choix de piscines immense et des prestations irréprochables",
+            "style": "Resort balnéaire 5 étoiles avec parc aquatique et spa",
+            "verdict": "Une adresse somptueuse et ultra-récente pour des vacances de rêve en formule grand confort, alliant plaisirs de l'eau et service d'excellence."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 6 expériences vécues · Mise à jour : 2026"
+    }
+}

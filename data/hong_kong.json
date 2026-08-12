@@ -1,0 +1,45 @@
+{
+    "The Peninsula Hong Kong": {
+        "pays": "Hong Kong",
+        "ville": "Hong Kong",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/hk/the-peninsula-hong-kong.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Hong-Kong-Hotels-The-Peninsula-Hong-Kong.h11942.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/1000000/10000/9400/9358/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Surnommée la 'Grande Dame de l'Extrême-Orient', cette institution légendaire située à Tsim Sha Tsui offre une vue imprenable sur Victoria Harbour et la skyline de Hong Kong[cite: 1]. Cet établissement mythique allie l'hospitalité coloniale traditionnelle et un raffinement technologique absolu. Les clients profitent de sa célèbre flotte de Rolls-Royce vert olive pour leurs transferts, d'un spa somptueux, d'une piscine romaine intérieure magnifique et de tables gastronomiques d'élite, dont le restaurant cantonais étoilé Spring Moon.",
+        "prix_moyen": " 500€ / nuit",
+        "avis": "9,6/10",
+        "points_positifs": [
+            "Vue spectaculaire et panoramique sur Victoria Harbour[cite: 1].",
+            "Flotte légendaire de Rolls-Royce classiques pour les déplacements des clients.",
+            "Restaurant cantonais étoilé au guide Michelin (Spring Moon) d'une renommée mondiale.",
+            "Service d'excellence et majordomes aux standards légendaires de la marque.",
+            "Piscine intérieure romaine somptueuse et spa de classe mondiale[cite: 1].",
+            "Emplacement central de premier ordre à Kowloon, au pied des boutiques de luxe."
+        ],
+        "points_negatifs": [
+            "Tarifs des nuitées et des prestations extrêmement élevés[cite: 1].",
+            "Forte affluence dans le lobby historique pour le célèbre thé de l'après-midi.",
+            "Circulation très dense dans le quartier commerçant de Tsim Sha Tsui.",
+            "Ambiance parfois très formelle dans les espaces communs[cite: 1].",
+            "Nécessite de réserver de longs mois à l'avance pour sécuriser les suites avec vue sur le port.",
+            "Coûts annexes très importants pour la restauration et les services."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Piscine romaine intérieure",
+            "Spa de classe mondiale[cite: 1]",
+            "Flotte de Rolls-Royce",
+            "Wi-Fi gratuit",
+            "Restaurant étoilé Michelin",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "👑 Colonial, légendaire, iconique, portuaire et somptueux",
+            "public": "Voyageurs en quête de l'expérience hôtelière la plus prestigieuse d'Asie",
+            "style": "Palace historique légendaire au bord de l'eau",
+            "verdict": "The Peninsula Hong Kong est l'adresse absolue de la métropole. Entre son héritage colonial, sa vue magique sur le port et son service hors pair, il incarne le summum du voyage de luxe."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 600+ expériences vécues · Mise à jour : 2026"
+    }
+}

@@ -10,13 +10,26 @@ import contact
 
 # --- FONCTION DE MISE À JOUR DES LIENS ---
 def update_booking_aid(url, new_aid="8012379"):
-    if not url: return ""
+    if not url:
+        return ""
+    # Nettoyage automatique du ? en fin de lien
+    url = url.rstrip('?')
     clean_url = url.replace("??", "?")
     parsed = urllib.parse.urlparse(clean_url)
     query_params = dict(urllib.parse.parse_qsl(parsed.query, keep_blank_values=True))
     query_params["aid"] = new_aid
     new_query = urllib.parse.urlencode(query_params)
     return urllib.parse.urlunparse(parsed._replace(query=new_query))
+
+def update_expedia_link(url):
+    if not url:
+        return "https://www.anrdoezrs.net/click-8012379-13854902?url=https://www.expedia.fr/"
+    # Nettoyage automatique du ? en fin de lien
+    url = url.rstrip('?')
+    if "anrdoezrs.net" in url:
+        return url
+    encoded_url = urllib.parse.quote(url, safe='')
+    return f"https://www.anrdoezrs.net/click-8012379-13854902?url={encoded_url}"
 
 # Configuration de la page
 st.set_page_config(page_title="HotelCompare", page_icon="images/favicon_io/favicon.ico", layout="wide")
@@ -397,24 +410,26 @@ if valider:
                 with col_droite:
                     st.markdown("<p style='font-weight: bold; margin-bottom: 8px;'>Réserver avec :</p>", unsafe_allow_html=True)
                     
-                    # 1. Gestion du bouton Booking (cherche "lien_booking", sinon l'ancien "lien", sinon une page par défaut)
+                    prix_affiche = d.get("prix_moyen", "Meilleurs prix")
+
                     lien_brut = d.get("lien_booking") or d.get("lien", "https://www.booking.com/index.fr.html")
                     lien_booking = update_booking_aid(lien_brut)
-                    
+
                     st.markdown(f"""
                         <a href='{lien_booking}' target='_blank' 
-                           style='display: block; background-color: #003580; color: white; padding: 10px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin-bottom: 8px;'>
-                            Réserver sur Booking
+                        style='display: block; background-color: #003580; color: white; padding: 12px 10px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin-bottom: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.2);'>
+                            Réserver sur Booking<br>
+                            <span style='font-size: 13px; font-weight: normal; opacity: 0.9;'>À partir de {prix_affiche}</span>
                         </a>
                     """, unsafe_allow_html=True)
-                    
-                    # 2. Gestion du bouton Expedia (cherche "lien_expedia", sinon met le lien général par défaut)
+
                     lien_expedia = d.get("lien_expedia", "https://www.anrdoezrs.net/click-8012379-13854902?url=https://www.expedia.fr/")
-                    
+
                     st.markdown(f"""
                         <a href='{lien_expedia}' target='_blank' 
-                           style='display: block; background-color: #ffcc00; color: #000000; padding: 10px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin-bottom: 8px;'>
-                            Réserver sur Expedia
+                        style='display: block; background-color: #ffcc00; color: #000000; padding: 12px 10px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin-bottom: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.2);'>
+                            Réserver sur Expedia<br>
+                            <span style='font-size: 13px; font-weight: normal; opacity: 0.8;'>À partir de {prix_affiche}</span>
                         </a>
                     """, unsafe_allow_html=True)
 
@@ -646,16 +661,21 @@ else:
             unsafe_allow_html=True
         )
 
-    # --- BANNIÈRE PARTENAIRE BOOKING SOUS LES AVIS ---
-    st.markdown("""
-    <div style="text-align: center; padding: 20px; background-color: #1C2541; border: 1px solid #3A506B; border-radius: 10px; margin-top: 20px;">
-        <p style="color: #94a3b8; font-size: 14px; margin-bottom: 8px;">En partenariat officiel avec</p>
-        <a href="https://www.booking.com" target="_blank" style="color: #38bdf8; font-size: 18px; font-weight: bold; text-decoration: none;">
-            Booking.com <span style="font-size: 0.8em;">🔗</span>
-        </a>
-    </div>
-    """, unsafe_allow_html=True)
+st.markdown("---")
+st.markdown("<p style='text-align: center; color: white; font-size: 15px; font-weight: bold; margin-bottom: 10px;'>APPROUVÉ PAR LES VOYAGEURS QUI RÉSERVENT SUR</p>", unsafe_allow_html=True)
 
+html_partenaires = """
+<div style="text-align: center; margin-bottom: 15px; display: flex; justify-content: center; align-items: center; gap: 30px;">
+    <span style="background-color: #003580; color: white; padding: 8px 20px; border-radius: 6px; font-weight: 900; font-size: 18px; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">Booking.com</span>
+    <a href="https://www.tkqlhce.com/click-101825091-14521545" target="_blank" style="background-color: white; padding: 6px 14px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.2); display: inline-flex; align-items: center; text-decoration: none;">
+        <img src="https://www.awltovhc.com/image-101825091-14521545" alt="Expedia" style="height: 52px; display: block;">
+    </a>
+</div>
+"""
+st.markdown(html_partenaires, unsafe_allow_html=True)
+
+st.markdown("<p style='text-align: center; color: #888; font-size: 11px;'>Comparaison de plus de 1000 hôtels &nbsp;&bull;&nbsp; 10 destinations incontournables &nbsp;&bull;&nbsp; 2 sites de réservation vérifiés</p>", unsafe_allow_html=True)
+st.markdown("---")
 # ==============================================================================
 # PIED DE PAGE SOMBRE ET HARMONIEUX
 # ==============================================================================

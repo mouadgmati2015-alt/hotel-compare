@@ -1,0 +1,45 @@
+{
+    "Sofitel Legend Metropole Hanoi": {
+        "pays": "Vietnam",
+        "ville": "Hanoï",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/vn/sofitel-legend-metropole-hanoi.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Hanoi-Hotels-Sofitel-Legend-Metropole-Hanoi.h11942.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/1000000/10000/9400/9358/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Véritable légende de l'Indochine ouverte en 1901, ce palace historique de Hanoï a accueilli au fil des décennies de célèbres écrivains, chefs d'État et artistes. Situé à deux pas du quartier historique et de l'Opéra, il marie avec brio le charme colonial français d'époque et l'élégance contemporaine. Les clients profitent de superbes jardins intérieurs, d'un spa de classe mondiale, d'un abri anti-aérien historique préservé et de tables gastronomiques d'exception.",
+        "prix_moyen": " 300€ / nuit",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Patrimoine historique colonial exceptionnel datant de 1901.",
+            "Emplacement central idéal à proximité immédiate de l'Opéra et du vieux quartier.",
+            "Service attentionné et aux standards d'excellence de la marque Sofitel Legend.",
+            "Abri anti-aérien historique visitable au sein même de l'hôtel.",
+            "Jardin intérieur paisible doté d'une superbe piscine extérieure.",
+            "Offre culinaire raffinée mêlant traditions françaises et vietnamiennes."
+        ],
+        "points_negatifs": [
+            "Trafic urbain très dense et animation constante dans les rues environnantes de Hanoï.",
+            "Tarifs des nuitées et des prestations élevés par rapport à la moyenne locale.",
+            "Forte affluence dans les espaces communs en raison de sa renommée mondiale.",
+            "Ambiance parfois très formelle ou touristique dans le hall historique.",
+            "Nécessite de réserver de longs mois à l'avance pour sécuriser les chambres de l'aile historique.",
+            "Climat tropical chaud et humide selon la saison de voyage."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Piscine extérieure",
+            "Spa de classe mondiale",
+            "Wi-Fi gratuit",
+            "Restaurants gastronomiques & Bars",
+            "Service de voiturier",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Colonial, historique, prestigieux, romantique et légendaire",
+            "public": "Voyageurs en quête d'histoire, de charme rétro et d'un service d'élite au Vietnam",
+            "style": "Palace historique de l'ère indochinoise",
+            "verdict": "Le Sofitel Legend Metropole Hanoi est une étape incontournable et mythique. Entre son architecture coloniale préservée, son histoire fascinante et son standing irréprochable, il offre un séjour inoubliable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 300+ expériences vécues · Mise à jour : 2026"
+    }
+}

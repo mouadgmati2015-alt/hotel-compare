@@ -1,0 +1,45 @@
+{
+    "The Savoy London": {
+        "pays": "Royaume-Uni",
+        "ville": "Londres",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/gb/the-savoy.fr.html",
+        "lien_expedia": "https://www.expedia.fr/London-Hotels-The-Savoy.h11942.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/1000000/10000/9400/9358/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "L'un des hôtels les plus célèbres au monde, idéalement situé sur le Strand à Londres[cite: 1], The Savoy propose un mariage parfait entre la tradition britannique intemporelle et le confort moderne le plus absolu. Depuis son ouverture historique, il a accueilli les plus grandes personnalités, artistes et têtes couronnées. Ses chambres élégantes, ses superbes vues sur la Tamise, ses bars légendaires comme l'American Bar et sa gastronomie signée par de grands chefs en font une icône incontestée de l'hôtellerie de luxe londonienne.",
+        "prix_moyen": " 700£ / nuit",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Emplacement central de premier choix sur le Strand, au cœur de Londres[cite: 1].",
+            "Histoire théâtrale et riche héritage culturel ancré dans l'histoire de la capitale[cite: 1].",
+            "Service légendaire, attentionné et fidèle aux traditions de l'hospitalité britannique[cite: 1].",
+            "Bars iconiques mondialement réputés pour l'art du cocktail.",
+            "Superbes vues panoramiques sur la rivière et les ponts de Londres depuis les suites.",
+            "Piscine intérieure magnifique logée dans un espace de bien-être privatif."
+        ],
+        "points_negatifs": [
+            "Trafic intense et circulation dense aux abords immédiats de l'hôtel[cite: 1].",
+            "Tarifs des nuitées et des prestations annexes extrêmement élevés[cite: 1].",
+            "Forte affluence dans les espaces communs en raison de sa renommée mondiale.",
+            "Nécessite des réservations très anticipées pour espérer obtenir une table dans ses bars ou restaurants.",
+            "Ambiance parfois très formelle dans les couloirs et le hall historique.",
+            "Politiques de réservation rigoureuses inhérentes à un établissement de ce standing."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Piscine intérieure",
+            "Spa et centre de bien-être",
+            "Wi-Fi gratuit",
+            "Bars légendaires & Restaurants gastronomiques",
+            "Service de voiturier",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🇬🇧 Britannique, historique, théâtral, prestigieux et luxueux",
+            "public": "Voyageurs recherchant l'expérience ultime de l'élégance londonienne",
+            "style": "Palace historique légendaire",
+            "verdict": "The Savoy est une légende vivante de Londres. Entre tradition britannique, emplacement central de premier ordre et service légendaire, il garantit un séjour absolument mémorable au cœur de la capitale."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 400+ expériences vécues · Mise à jour : 2026"
+    }
+}

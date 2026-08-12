@@ -1,0 +1,45 @@
+{
+    "The Taj Mahal Palace Mumbai": {
+        "pays": "Inde",
+        "ville": "Mumbai",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/in/the-taj-mahal-palace-mumbai.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Mumbai-Hotels-The-Taj-Mahal-Palace.h11942.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/1000000/10000/9400/9358/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Véritable icône architecturale ouverte en 1903, le Taj Mahal Palace fait face à la mer d'Oman et au célèbre monument de la Porte de l'Inde[cite: 1]. Cet hôtel légendaire allie l'histoire royale indienne, des influences mauresques et florentines, et le luxe contemporain le plus absolu[cite: 1]. Les clients profitent de superbes chambres richement décorées, d'un service de majordome d'une attention remarquable, d'une magnifique piscine extérieure, d'un spa de classe mondiale et de tables gastronomiques primées qui font référence dans tout le pays.",
+        "prix_moyen": " 300€ / nuit",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Emplacement légendaire et spectaculaire face à la mer d'Oman et à la Porte de l'Inde[cite: 1].",
+            "Architecture somptueuse mêlant traditions indiennes et influences européennes[cite: 1].",
+            "Service légendaire empreint de l'hospitalité royale indienne[cite: 1].",
+            "Offre culinaire exceptionnelle avec plusieurs restaurants de renommée internationale.",
+            "Piscine extérieure et spa de classe mondiale pour un repos total[cite: 1].",
+            "Proximité immédiate des quartiers historiques et culturels de Mumbai."
+        ],
+        "points_negatifs": [
+            "Trafic urbain très dense et animation constante aux abords immédiats du palace[cite: 1].",
+            "Tarifs des nuitées et des prestations élevés en haute saison touristique[cite: 1].",
+            "Forte affluence dans les espaces communs en raison de sa renommée mondiale[cite: 1].",
+            "Ambiance parfois très formelle ou protocolaire dans les salons historiques.",
+            "Nécessite de réserver de longs mois à l'avance pour sécuriser les suites avec vue sur mer.",
+            "Mesures de sécurité strictes aux entrées inhérentes au standing de l'établissement."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Piscine extérieure",
+            "Spa de classe mondiale[cite: 1]",
+            "Wi-Fi gratuit",
+            "Restaurants gastronomiques de premier plan",
+            "Service de voiturier",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "👑 Palatial, historique, somptueux, marin et légendaire",
+            "public": "Voyageurs en quête d'histoire, de faste architectural et d'hospitalité royale en Inde[cite: 1]",
+            "style": "Palace historique face à la mer d'Oman[cite: 1]",
+            "verdict": "Le Taj Mahal Palace Mumbai est une destination en soi. Entre son architecture majestueuse, son histoire fascinante et son service hors pair face à la mer, il garantit un séjour absolument inoubliable[cite: 1]."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 600+ expériences vécues · Mise à jour : 2026"
+    }
+}

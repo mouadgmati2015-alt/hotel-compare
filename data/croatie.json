@@ -1,0 +1,45 @@
+{
+    "Hotel Excelsior Dubrovnik": {
+        "pays": "Croatie",
+        "ville": "Dubrovnik",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/hr/excelsior-dubrovnik.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Dubrovnik-Hotels-Hotel-Excelsior.h11942.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/1000000/10000/9400/9358/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "L'adresse la plus célèbre de Dubrovnik, offrant une vue frontale spectaculaire sur les remparts de la vieille ville et l'immensité bleue de la mer Adriatique[cite: 1]. Cet hôtel 5 étoiles de légende combine habilement un bâtiment historique chargé d'histoire et une aile moderne au design contemporain épuré. Les clients profitent d'un accès direct à la mer, d'une plage privée aménagée, d'un spa de classe mondiale et de restaurants gastronomiques primés. C'est le point de départ rêvé pour conjuguer exploration culturelle et farniente luxueux face à la 'perle de l'Adriatique'.",
+        "prix_moyen": " 350€ / nuit",
+        "avis": "9,3/10",
+        "points_positifs": [
+            "Vue iconique et saisissante sur les remparts de la vieille ville de Dubrovnik[cite: 1]",
+            "Accès mer privatif et plage de galets aménagée pour se détendre en toute intimité[cite: 1]",
+            "Proximité immédiate à pied des portes historiques des remparts[cite: 1]",
+            "Service de conciergerie haut de gamme et attentionné",
+            "Restaurants raffinés offrant des panoramas marins exceptionnels lors des dîners",
+            "Spa luxueux équipé pour des instants de relaxation profonde"
+        ],
+        "points_negatifs": [
+            "Très forte demande touristique rendant les réservations estivales complexes[cite: 1]",
+            "Escaliers nombreux à emprunter pour accéder à certaines zones ou terrasses en raison de la configuration de la falaise[cite: 1]",
+            "Tarifs très élevés en haute saison estivale",
+            "Circulation piétonne dense aux abords immédiats des remparts",
+            "Espace de stationnement très limité dans ce secteur historique",
+            "Affluence notable dans les espaces communs aux heures de pointe"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Accès mer privatif[cite: 1]",
+            "Spa et centre de bien-être",
+            "Wi-Fi gratuit",
+            "Restaurants gastronomiques & Bar",
+            "Service de voiturier",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏰 Historique, panoramique, marin et luxueux",
+            "public": "Voyageurs recherchant la plus belle vue sur Dubrovnik avec un standing 5 étoiles",
+            "style": "Hôtel de luxe face à la vieille ville",
+            "verdict": "L'Hôtel Excelsior est l'adresse absolue pour admirer Dubrovnik. Son panorama direct sur les remparts et ses prestations haut de gamme en font un choix inoubliable sur l'Adriatique."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 100+ expériences vécues · Mise à jour : 2026"
+    }
+}

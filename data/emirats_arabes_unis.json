@@ -1,0 +1,88 @@
+{
+    "Burj Al Arab Jumeirah": {
+        "pays": "Émirats arabes unis",
+        "ville": "Dubaï",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/ae/burj-al-arab.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Dubai-Hotels-Burj-Al-Arab.h11942.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/1000000/10000/9400/9358/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Reconnu mondialement comme l'hôtel le plus luxueux au monde et juché sur sa propre île artificielle, le Burj Al Arab est l'emblème architectural de Dubaï avec sa silhouette en forme de voile de bateau. Cet établissement d'exception propose exclusivement des suites somptueuses en duplex dotées de vues spectaculaires sur le golfe Persique. Les clients profitent d'un service de majordome personnel attitré 24h/24, d'une flotte de Rolls-Royce avec chauffeur, d'une plage privée exclusive, d'immenses piscines à débordement et de tables gastronomiques de classe mondiale.",
+        "prix_moyen": " 1 500€ / nuit",
+        "avis": "9,3/10",
+        "points_positifs": [
+            "Architecture iconique mondiale en forme de voile de navire sur une île privée.",
+            "Service de majordome personnel dédié à chaque suite 24h/24.",
+            "Flotte de Rolls-Royce haut de gamme pour les transferts des clients.",
+            "Plage privée exclusive et superbes terrasses avec piscines à débordement.",
+            "Restaurants gastronomiques d'élite, dont certains suspendus au-dessus de la mer.",
+            "Suites en duplex immenses offrant des finitions d'un faste absolu."
+        ],
+        "points_negatifs": [
+            "Tarifs des nuitées et des prestations parmi les plus élevés de la planète.",
+            "Forte affluence touristique et curiosité du public aux abords de l'île.",
+            "Ambiance très ostentatoire et luxueuse qui peut ne pas convenir à tous les voyageurs.",
+            "Nécessite de réserver de longs mois à l'avance pour sécuriser les suites.",
+            "Code vestimentaire strict exigé dans les espaces communs et restaurants.",
+            "Frais annexes très importants pour la restauration et les expériences."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Plage privée exclusive",
+            "Service de majordome 24h/24",
+            "Flotte de Rolls-Royce",
+            "Wi-Fi gratuit",
+            "Restaurants gastronomiques étoilés",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "👑 Iconique, somptueux, spectaculaire, ostentatoire et ultramoderne",
+            "public": "Voyageurs en quête de l'expérience de luxe ultime et démesurée à Dubaï",
+            "style": "Palace insulaire en forme de voile",
+            "verdict": "Le Burj Al Arab Jumeirah est le symbole planétaire de la démesure et du luxe. Entre son architecture unique au monde, ses majordomes dédiés et son standing royal, il offre un séjour hors norme."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 800+ expériences vécues · Mise à jour : 2026"
+    },
+    "Bab Al Shams, A Rare Finds Desert Resort": {
+        "pays": "Émirats arabes unis",
+        "ville": "Dubaï /(Région désertique)",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/ae/bab-al-shams-desert-resort-and-spa.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Dubai-Hotel-Bab-Al-Shams-Desert-Resort-Dubai.h1162761.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/548612097.jpg?k=dfde95f822bb931fc890b39b09a703c65e58badec8bff1a99bca5b66c2731ccd&o=",
+        "description": "Niché au cœur des dunes dorées du désert d'Arabie, ce luxueux sanctuaire évoque un village fortifié traditionnel de style arabe. Offrant une immersion spectaculaire dans la nature sauvage, l'hôtel combine un design architectural authentique et un confort somptueux. Les clients profitent de piscines à débordement avec vue sur le désert, d'un spa de classe mondiale, de balades à chameau et d'expériences culinaires sous les étoiles aux accents du Moyen-Orient.",
+        "prix_moyen": " 500€ / nuit",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Décor et architecture inspirés d'une forteresse arabe traditionnelle au milieu des dunes.",
+            "Expériences uniques dans le désert (dîners sous les étoiles, spectacles équestres et fauconnerie).",
+            "Piscines à débordement spectaculaires offrant un panorama magique sur le désert.",
+            "Spa luxueux proposant des soins relaxants haut de gamme.",
+            "Service attentionné et hospitalité traditionnelle Emirati et arabe.",
+            "Calme absolu et dépaysement total loin de l'agitation urbaine."
+        ],
+        "points_negatifs": [
+            "Isolement géographique nécessitant un trajet en voiture depuis la ville la plus proche.",
+            "Températures désertiques très élevées durant les mois d'été.",
+            "Tarifs des nuitées et des activités du désert onéreux.",
+            "Nécessite de réserver les expériences spécifiques bien à l'avance.",
+            "Climat sec et sableux inhérent à l'environnement du désert.",
+            "Coûts annexes élevés pour la restauration sur place."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Piscines à débordement dans le désert",
+            "Spa de classe mondiale",
+            "Wi-Fi gratuit",
+            "Restaurants thématiques",
+            "Activités désertiques (chameaux, fauconnerie)",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏜️ Désertique, traditionnel, luxueux, magique et dépaysant",
+            "public": "Voyageurs en quête d'une expérience authentique de luxe au milieu des dunes",
+            "style": "Forteresse de luxe dans le désert",
+            "verdict": "Une oasis somptueuse au cœur des paysages émirati. Entre traditions arabes, décors de dunes infinies et confort absolu, il garantit un séjour magique et hors du temps."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 800+ expériences vécues · Mise à jour : 2026"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "Four Seasons Hotel Gresham Palace Budapest": {
+        "pays": "Hongrie",
+        "ville": "Budapest",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/hu/fourseasonsbudapest.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Budapest-Hotels-Four-Seasons-Hotel-Gresham-Palace.h11942.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/1000000/10000/9400/9358/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Chef-d'œuvre architectural de l'Art nouveau, ce palais légendaire est idéalement situé face au célèbre pont des Chaînes et au Danube à Budapest[cite: 1]. Il offre un panorama spectaculaire sur le château de Buda et les rives du fleuve[cite: 1]. Alliant le faste historique de l'Empire austro-hongrois à un confort contemporain absolu, l'établissement propose des chambres et suites somptueusement décorées, un spa de classe mondiale, une piscine intérieure baignée de lumière et des tables gastronomiques de premier plan[cite: 1].",
+        "prix_moyen": " 450€ / nuit",
+        "avis": "9,6/10",
+        "points_positifs": [
+            "Emplacement légendaire et vue imprenable sur le Danube et le pont des Chaînes[cite: 1].",
+            "Architecture Art nouveau somptueuse et richement restaurée[cite: 1].",
+            "Service Four Seasons d'une attention et d'un professionnalisme exemplaires[cite: 1].",
+            "Spa de classe mondiale et magnifique piscine intérieure[cite: 1].",
+            "Proximité immédiate des principaux monuments historiques et culturels de Budapest[cite: 1].",
+            "Chambres et suites spacieuses dotées d'un design élégant[cite: 1]."
+        ],
+        "points_negatifs": [
+            "Trafic urbain dense et circulation importante aux abords du pont des Chaînes[cite: 1].",
+            "Tarifs des nuitées et des prestations très élevés en haute saison[cite: 1].",
+            "Forte affluence dans les espaces communs en raison de sa renommée mondiale[cite: 1].",
+            "Ambiance parfois très formelle ou protocolaire dans le grand lobby[cite: 1].",
+            "Nécessite de réserver plusieurs mois à l'avance pour sécuriser les suites avec vue sur le fleuve[cite: 1].",
+            "Coûts annexes importants pour les services de restauration et de bien-être[cite: 1]."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa de classe mondiale[cite: 1]",
+            "Piscine intérieure[cite: 1]",
+            "Wi-Fi gratuit",
+            "Restaurants gastronomiques & Bar[cite: 1]",
+            "Service de voiturier[cite: 1]",
+            "Climatisation[cite: 1]"
+        ],
+        "pour_qui": {
+            "ambiance": "👑 Art nouveau, palatial, historique, fluvial et somptueux[cite: 1]",
+            "public": "Voyageurs en quête d'histoire, de raffinement architectural et d'un service d'élite à Budapest[cite: 1]",
+            "style": "Palace Art nouveau historique face au Danube[cite: 1]",
+            "verdict": "Le Four Seasons Gresham Palace est l'adresse incontournable par excellence en Hongrie[cite: 1]. Entre son architecture Art nouveau unique, sa vue magique sur le Danube et son service irréprochable, il garantit un séjour absolument inoubliable[cite: 1]."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 400+ expériences vécues · Mise à jour : 2026"
+    }
+}

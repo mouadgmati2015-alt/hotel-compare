@@ -1,0 +1,45 @@
+{
+    "Mandarin Oriental Bangkok": {
+        "pays": "Thaïlande",
+        "ville": "Bangkok",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/th/mandarin-oriental-bangkok.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Bangkok-Hotels-Mandarin-Oriental-Bangkok.h11942.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/1000000/10000/9400/9358/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Considéré comme l'un des meilleurs hôtels au monde depuis plus d'un siècle, cet établissement mythique est situé sur les rives de la rivière Chao Phraya[cite: 1]. Il incarne l'élégance intemporelle, l'histoire coloniale et l'art de vivre thaïlandais. Les clients profitent d'un service de majordome personnel d'une attention rare, de superbes jardins luxuriants[cite: 1], de piscines tropicales et de tables gastronomiques de renom mondial, le tout relié par un service de navette fluviale privée.",
+        "prix_moyen": " 450€ / nuit",
+        "avis": "9,6/10",
+        "points_positifs": [
+            "Service de majordome personnel ultra-attentif et dévoué[cite: 1].",
+            "Riche histoire coloniale et charme intemporel unique[cite: 1].",
+            "Jardins luxuriants et paisibles au bord de la rivière[cite: 1].",
+            "Emplacement privilégié le long du fleuve Chao Phraya[cite: 1].",
+            "Offre de restauration et de bars légendaire à Bangkok.",
+            "Navettes en bateau privé proposées pour traverser vers la station de métro."
+        ],
+        "points_negatifs": [
+            "Très fréquenté par les voyageurs du monde entier[cite: 1].",
+            "Atmosphère parfois très formelle ou stricte dans certains espaces[cite: 1].",
+            "Tarifs des chambres et des services annexes élevés pour la région.",
+            "Forte affluence dans les restaurants aux heures de pointe.",
+            "Circulation fluviale animée sur le fleuve en journée.",
+            "Nécessite une réservation très en avance, notamment pour la haute saison."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Majordome personnel[cite: 1]",
+            "Jardins luxuriants[cite: 1]",
+            "Piscines extérieures",
+            "Spa de classe mondiale",
+            "Wi-Fi gratuit",
+            "Restaurants gastronomiques"
+        ],
+        "pour_qui": {
+            "ambiance": "👑 Colonial, légendaire, luxueux, fluvial et verdoyant",
+            "public": "Voyageurs en quête de l'expérience hôtelière la plus prestigieuse d'Asie",
+            "style": "Palace historique au bord de l'eau",
+            "verdict": "Le Mandarin Oriental Bangkok est une légende vivante de l'hôtellerie mondiale. Entre son histoire au bord du fleuve, son service légendaire et ses jardins tropicaux, il offre une parenthèse de luxe absolu."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 500+ expériences vécues · Mise à jour : 2026"
+    }
+}

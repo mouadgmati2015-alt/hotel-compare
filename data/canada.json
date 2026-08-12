@@ -1,0 +1,45 @@
+{
+    "Fairmont Banff Springs": {
+        "pays": "Canada",
+        "ville": "Banff (Alberta)",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/ca/fairmont-banff-springs.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Banff-Hotels-Fairmont-Banff-Springs.h11942.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/1000000/10000/9400/9358/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Surnommé le 'Château des Rocheuses', cet hôtel historique offre une expérience montagnarde unique au Canada[cite: 1]. Construit dans le style d'un château écossais au cœur du parc national de Banff (classé à l'UNESCO), il domine des paysages naturels d'une beauté époustouflante[cite: 1]. Les clients profitent d'un parcours de golf de renommée mondiale[cite: 1], de piscines intérieures et extérieures chauffées, d'un spa de classe mondiale (Willow Stream Spa) et de multiples restaurants gastronomiques entourés par les sommets enneigés.",
+        "prix_moyen": " 450$ CAD / nuit",
+        "avis": "9,2/10",
+        "points_positifs": [
+            "Architecture de château spectaculaire et emblématique[cite: 1].",
+            "Cadre naturel époustouflant au cœur des montagnes Rocheuses[cite: 1].",
+            "Terrain de golf de renommée internationale sur place[cite: 1].",
+            "Spa de classe mondiale et superbes piscines chauffées panoramiques.",
+            "Proximité immédiate des sentiers de randonnée et des pistes de ski de Banff.",
+            "Service hôtelier historique et attentionné."
+        ],
+        "points_negatifs": [
+            "Très grande taille de l'établissement pouvant donner une impression moins intimiste.",
+            "Affluence massive en haute saison touristique (hiver et été)[cite: 1].",
+            "Tarifs des nuitées et des services annexes très élevés.",
+            "Nécessite de réserver les restaurants et les activités de plein air de longs mois à l'avance.",
+            "Circulation et stationnement réglementés dans l'enceinte du parc national.",
+            "Ambiance parfois très animée dans les grands espaces communs."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Golf de renommée mondiale[cite: 1]",
+            "Willow Stream Spa",
+            "Piscines intérieures et extérieures",
+            "Wi-Fi gratuit",
+            "Restaurants gastronomiques",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏔️ Alpin, majestueux, historique, grandiose et montagnard",
+            "public": "Voyageurs en quête de grands espaces, de golf d'exception et d'architecture de château",
+            "style": "Château hôtelier historique des Rocheuses",
+            "verdict": "Le Fairmont Banff Springs est une légende vivante au Canada. Entre son architecture de château écossais et son décor grandiose au milieu des Rocheuses, il offre un séjour montagnard absolument inoubliable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 400+ expériences vécues · Mise à jour : 2026"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "Hotel Copernicus Kraków": {
+        "pays": "Pologne",
+        "ville": "Cracovie",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/pl/copernicus.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Krakow-Hotels-Hotel-Copernicus.h11942.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/1000000/10000/9400/9358/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Situé dans l'une des plus anciennes rues de Cracovie (la rue Kanonicza), cet hôtel de charme 5 étoiles occupe un bâtiment historique du XIVe siècle qui a autrefois accueilli Nicolas Copernic[cite: 1]. Il allie avec un raffinement exceptionnel le patrimoine gothique et Renaissance (fresques murales d'époque, plafonds à caissons en bois) et le confort moderne le plus absolu[cite: 1]. Les clients profitent d'un spa intime, d'une magnifique piscine intérieure voûtée en sous-sol et d'un restaurant gastronomique primé offrant une vue imprenable sur le château de Wawel depuis sa terrasse sur le toit[cite: 1].",
+        "prix_moyen": " 250€ / nuit",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Emplacement historique unique au cœur de la vieille ville de Cracovie, à deux pas du château de Wawel[cite: 1].",
+            "Architecture gothique et Renaissance authentique préservée avec des fresques murales d'époque[cite: 1].",
+            "Piscine intérieure voûtée unique aménagée dans les caves historiques[cite: 1].",
+            "Restaurant gastronomique de premier plan doté d'une terrasse panoramique sur le toit[cite: 1].",
+            "Service attentionné, discret et personnalisé d'une grande élégance[cite: 1].",
+            "Chambres et suites décorées d'antiquités précieuses offrant une atmosphère intimiste[cite: 1]."
+        ],
+        "points_negatifs": [
+            "Quartier piétonnier historique impliquant des restrictions d'accès direct en voiture[cite: 1].",
+            "Nombre de chambres limité, entraînant une forte exclusivité et une rareté des disponibilités[cite: 1].",
+            "Tarifs des nuitées et des prestations élevés par rapport à la moyenne locale[cite: 1].",
+            "Agencements parfois atypiques en raison de la structure architecturale ancienne du bâtiment[cite: 1].",
+            "Forte affluence touristique dans les rues environnantes en haute saison[cite: 1].",
+            "Nécessite de réserver de longs mois à l'avance pour les suites principales[cite: 1]."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Piscine intérieure voûtée",
+            "Spa et centre de bien-être",
+            "Wi-Fi gratuit",
+            "Restaurant gastronomique & Terrasse sur le toit",
+            "Service de conciergerie",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏰 Historique, gothique, intime, culturel et prestigieux",
+            "public": "Voyageurs en quête d'histoire, d'architecture ancienne et de romantisme au cœur de la Pologne[cite: 1]",
+            "style": "Boutique-hôtel de luxe dans une demeure historique du XIVe siècle[cite: 1]",
+            "verdict": "L'Hotel Copernicus est une adresse rare et précieuse. Entre son héritage médiéval, ses fresques préservées et son service irréprochable au pied du château de Wawel, il offre une immersion royale et inoubliable à Cracovie[cite: 1]."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 800+ expériences vécues · Mise à jour : 2026"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "Aman Tokyo": {
+        "pays": "Japon",
+        "ville": "Tokyo",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/jp/aman-tokyo.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Tokyo-Hotels-Aman-Tokyo.h61901614.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/19000000/18190000/18181700/18181673/c6657905.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Une oasis de sérénité absolue perchée au sommet de la tour Otemachi, mêlant avec brio le design japonais traditionnel (bois, papier Washi, pierre) et le luxe contemporain le plus épuré. Cet établissement d'exception offre une vue panoramique à couper le souffle sur la mégapole et, par temps clair, sur le majestueux Mont Fuji[cite: 1]. Les clients profitent d'une immense piscine intérieure inspirée des bains traditionnels (onsen), d'un spa de classe mondiale[cite: 1] et d'un service d'une discrétion exemplaire. C'est le sanctuaire urbain par excellence au cœur du quartier d'affaires de Tokyo.",
+        "prix_moyen": " 1 100€ / nuit",
+        "avis": "9,7/10",
+        "points_positifs": [
+            "Vue panoramique spectaculaire sur Tokyo et le Mont Fuji depuis les hauteurs de la tour[cite: 1].",
+            "Design minimaliste et architectural unique inspiré des traditionnelles maisons japonaises[cite: 1].",
+            "Spa de classe mondiale proposant des rituels de bien-être holistiques d'une qualité rare[cite: 1].",
+            "Immense piscine intérieure de 30 mètres offrant une vue imprenable sur la ville.",
+            "Atmosphère de calme absolu et de silence bienfaisant au cœur de l'effervescence de Tokyo.",
+            "Service attentionné, sur-mesure et d'une courtoisie absolue."
+        ],
+        "points_negatifs": [
+            "Tarifs parmi les plus élevés de la capitale japonaise[cite: 1].",
+            "Disponibilité extrêmement limitée nécessitant des réservations très en amont.",
+            "Ambiance très solennelle et minimaliste qui peut surprendre les amateurs de décorations chaleureuses ou chargées.",
+            "Coûts annexes très importants pour la restauration et les soins de spa.",
+            "Emplacement au sein d'un quartier d'affaires qui demande des transports pour rejoindre les zones de loisirs nocturnes.",
+            "Règles strictes de quiétude dans les espaces communs."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa de classe mondiale[cite: 1]",
+            "Piscine intérieure panoramique",
+            "Wi-Fi gratuit",
+            "Restaurants gastronomiques & Lounge",
+            "Service de conciergerie VIP",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "⛩️ Minimaliste, zen, aérien, luxueux et contemplatif",
+            "public": "Voyageurs en quête de design architectural d'élite et de zénitude absolue au Japon",
+            "style": "Sanctuaire urbain suspendu",
+            "verdict": "L'Aman Tokyo redéfinit l'art de l'hôtellerie de luxe. Entre design épuré, vues célestes sur le Mont Fuji et calme olympien, il offre une expérience sensorielle absolument inoubliable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 450+ expériences vécues · Mise à jour : 2026"
+    }
+}

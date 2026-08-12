@@ -1,0 +1,45 @@
+{
+    "The Morpheus Macao": {
+        "pays": "Macao",
+        "ville": "Macao",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/mo/morpheus-city-of-dreams-macau.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Macau-Hotels-Morpheus.h24997.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/24000000/23300000/23293800/23293774/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Véritable chef-d'œuvre architectural futuriste conçu par la célèbre architecte Zaha Hadid, le Morpheus est l'hôtel le plus audacieux de Macao. Caractérisé par sa structure extérieure en exosquelette ajouré unique au monde, il redéfinit les codes du luxe moderne. Les clients profitent de chambres somptueuses, d'une piscine à débordement suspendue à couper le souffle au sommet de la tour, de spas ultramodernes et de tables gastronomiques d'exception, dont des collaborations avec le chef multi-étoilé Alain Ducasse.",
+        "prix_moyen": " 450€ / nuit",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Architecture futuriste révolutionnaire signée Zaha Hadid.",
+            "Piscine à débordement suspendue spectaculaire en hauteur.",
+            "Tables gastronomiques d'élite dirigées par de grands chefs internationaux.",
+            "Design intérieur high-tech et mobilier ultra-contemporain sur-mesure.",
+            "Service de conciergerie personnalisé haut de gamme.",
+            "Intégration au sein du complexe de divertissement de premier plan City of Dreams."
+        ],
+        "points_negatifs": [
+            "Ambiance très moderne et futuriste qui peut moins séduire les amateurs de décors classiques.",
+            "Tarifs des nuitées et des prestations très élevés.",
+            "Forte affluence dans les espaces de divertissement adjacents du complexe.",
+            "Nécessite de réserver très en avance pour les tables gastronomiques étoilées.",
+            "Taille immense du complexe pouvant nécessiter un temps d'orientation.",
+            "Coûts annexes importants pour les services de luxe."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Piscine à débordement suspendue",
+            "Spa ultramoderne",
+            "Wi-Fi gratuit",
+            "Restaurants gastronomiques de chefs étoilés",
+            "Service de voiturier",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌐 Futuriste, architectural, spectaculaire, luxueux et avant-gardiste",
+            "public": "Voyageurs passionnés de design contemporain et d'hôtellerie de pointe",
+            "style": "Palace architectural exosquelette",
+            "verdict": "Le Morpheus est une claque visuelle et un sommet de confort moderne. Entre son design d'architecte hors du commun et sa gastronomie de haut vol, il offre une expérience unique à Macao."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 800+ expériences vécues · Mise à jour : 2026"
+    }
+}

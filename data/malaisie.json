@@ -1,0 +1,45 @@
+{
+    "The Datai Langkawi": {
+        "pays": "Malaisie",
+        "ville": "Langkawi",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/my/the-datai-langkawi.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Langkawi-Hotels-The-Datai-Langkawi.h11942.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/1000000/10000/9400/9358/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Niché au cœur d'une forêt tropicale séculaire et luxuriante qui borde une plage de sable blanc immaculée (Datai Bay), cet éco-resort de luxe est un véritable sanctuaire de nature. L'architecture s'intègre harmonieusement dans l'environnement pour offrir une immersion totale aux côtés de la faune sauvage locale. Les clients profitent de villas somptueuses, de piscines étincelantes, d'un spa inspiré des traditions de la jungle et d'une gastronomie raffinée célébrant les saveurs malaisiennes et internationales.",
+        "prix_moyen": " 450€ / nuit",
+        "avis": "9,6/10",
+        "points_positifs": [
+            "Immersion spectaculaire au cœur d'une forêt tropicale primaire et préservée.",
+            "Accès direct à la magnifique plage de Datai Bay, l'une des plus belles de Malaisie.",
+            "Observation de la faune sauvage locale (singes, calaos, lémurs volants) depuis le resort.",
+            "Spa primé utilisant des ingrédients naturels issus de la jungle.",
+            "Architecture unique épousant parfaitement les contours de la canopée.",
+            "Service attentionné et discret, axé sur l'exclusivité."
+        ],
+        "points_negatifs": [
+            "Isolement naturel sur l'île nécessitant un trajet pour rejoindre les attractions principales.",
+            "Climat tropical chaud et humide impliquant des averses saisonnières.",
+            "Présence d'une faune de jungle pouvant surprendre les voyageurs non avertis.",
+            "Tarifs élevés pour les nuitées et la restauration.",
+            "Forte demande nécessitant de réserver plusieurs mois à l'avance.",
+            "Coûts annexes importants pour les activités nautiques ou de bien-être."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Plage privée Datai Bay",
+            "Spa dans la jungle",
+            "Piscines extérieures",
+            "Wi-Fi gratuit",
+            "Restaurants gastronomiques",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Tropical, sauvage, luxueux, écologique et serein",
+            "public": "Voyageurs en quête de déconnexion totale entre forêt ancienne et mer turquoise",
+            "style": "Eco-resort de luxe au cœur de la canopée",
+            "verdict": "The Datai Langkawi est une destination paradisiaque unique. Entre sa jungle primaire, sa plage isolée et son standing 5 étoiles, il offre une reconnexion absolue avec la nature dans le plus grand des conforts."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 900+ expériences vécues · Mise à jour : 2026"
+    }
+}

@@ -1,0 +1,88 @@
+ {
+    "Four Seasons Hotel Ritz Lisbon": {
+        "pays": "Portugal",
+        "ville": "Lisbonne",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/pt/four-seasons-hotel-ritz-lisbon.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Lisbon-Hotels-Four-Seasons-Hotel-Ritz-Lisbon.h11956.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/1000000/20000/12000/11956/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Situé au sommet d'une des sept collines de Lisbonne, cet hôtel offre une vue imprenable sur le parc Eduardo VII et le Tage[cite: 1]. Il est un symbole du luxe classique portugais[cite: 1]. Avec son architecture art déco distinctive, ses vastes espaces baignés de lumière et sa collection d'art contemporain disséminée dans tout l'établissement, il propose une expérience sophistiquée. Les clients profitent d'une magnifique piscine extérieure, d'une piste de course sur le toit et d'un spa de classe mondiale pour une détente totale au cœur de la capitale[cite: 1].",
+        "prix_moyen": " 500€ / nuit",
+        "avis": "9,4/10",
+        "points_positifs": [
+            "Décoration et architecture art déco remarquables[cite: 1]",
+            "Service légendaire et attentionné digne d'un grand palace[cite: 1]",
+            "Spa de classe mondiale avec des installations de pointe[cite: 1]",
+            "Vues panoramiques superbes sur le parc Eduardo VII et le Tage[cite: 1]",
+            "Piste de course extérieure privée sur le toit avec vue à 360 degrés",
+            "Collection d'œuvres d'art portugais historiques intégrée au décor"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés en haute saison touristique[cite: 1]",
+            "Situé un peu au-dessus du centre historique, nécessitant de marcher ou de prendre un transport[cite: 1]",
+            "Ambiance générale très classique et formelle",
+            "Forte demande nécessitant de réserver très en amont",
+            "Coûts annexes de restauration importants",
+            "Circulation dense aux alentours aux heures de pointe"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa de classe mondiale[cite: 1]",
+            "Piscine intérieure et extérieure",
+            "Piste de course sur le toit",
+            "Wi-Fi gratuit",
+            "Restaurant gastronomique & Bar",
+            "Service de voiturier"
+        ],
+        "pour_qui": {
+            "ambiance": "👑 Prestigieux, artistique, classique et panoramique",
+            "public": "Voyageurs en quête du summum du luxe traditionnel à Lisbonne",
+            "style": "Palace urbain historique",
+            "verdict": "Une adresse incontournable pour s'imprégner de l'élégance portugaise dans un cadre somptueux."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 800+ expériences vécues · Mise à jour : 2026"
+    },
+    "Vila Vita Parc Resort & Spa": {
+        "pays": "Portugal",
+        "ville": "Algarve",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/pt/vila-vita-parc-resort-spa.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Algarve-Hotels-Vila-Vita-Parc-Resort-Spa.h14631.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/2000000/10000/11000/10932/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Un domaine spectaculaire juché sur les falaises dorées de l'Algarve, offrant un accès direct à des criques isolées et une gastronomie d'exception[cite: 1]. Ce resort de luxe propose des jardins subtropicaux luxuriants qui s'étendent à perte de vue vers l'océan Atlantique[cite: 1]. Les clients peuvent séjourner dans des suites élégantes ou des villas ultra-luxueuses[cite: 1], profiter de multiples piscines, d'un spa Sisley de renom et de restaurants de classe mondiale dont un doublement étoilé au guide Michelin[cite: 1]. Un véritable paradis balnéaire et méditerranéen.",
+        "prix_moyen": "À partir de 450€ / nuit",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Jardins subtropicaux immenses et magnifiquement entretenus[cite: 1]",
+            "Accès direct à des criques isolées et à une plage de sable fin[cite: 1]",
+            "Villas ultra-luxueuses offrant une intimité absolue[cite: 1]",
+            "Offre gastronomique d'élite incluant une table étoilée Michelin[cite: 1]",
+            "Spa Sisley proposant des protocoles de soins exclusifs",
+            "Infrastructures de loisirs exceptionnelles pour les familles et les couples"
+        ],
+        "points_negatifs": [
+            "Domaine très vaste nécessitant parfois l'utilisation de navettes internes[cite: 1]",
+            "Tarifs particulièrement élevés en période estivale",
+            "Forte affluence familiale durant les vacances scolaires",
+            "Nécessite une location de voiture pour explorer le reste de l'Algarve",
+            "Réservation obligatoire très en avance pour les tables gastronomiques",
+            "Ambiance de grand resort qui peut manquer d'intimité dans les zones de piscines principales"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Accès plage privée & Criques[cite: 1]",
+            "Spa Sisley",
+            "Multiples piscines extérieures et intérieures",
+            "Restaurants étoilés Michelin[cite: 1]",
+            "Wi-Fi gratuit",
+            "Terrains de sport"
+        ],
+        "pour_qui": {
+            "ambiance": "🌴 Tropical, océanique, gastronomique et exclusif",
+            "public": "Amateurs de farniente haut de gamme, de falaises spectaculaires et de haute cuisine",
+            "style": "Resort de luxe en bord de mer",
+            "verdict": "La quintessence du séjour balnéaire luxueux en Algarve, entre nature flamboyante et services d'élite."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 950+ expériences vécues · Mise à jour : 2026"
+    }
+}

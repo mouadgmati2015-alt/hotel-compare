@@ -1,0 +1,45 @@
+{
+    "Waldorf Astoria Amsterdam": {
+        "pays": "Pays-Bas",
+        "ville": "Amsterdam",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/nl/waldorf-astoria-amsterdam.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Amsterdam-Hotels-Waldorf-Astoria-Amsterdam.h6116279.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/8000000/7230000/7229500/7229431/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Installé le long du grand canal Herengracht (classé à l'UNESCO), cet établissement d'exception s'étend sur six superbes palais du XVIIe et du XVIIIe siècle. Il représente le sommet du luxe et de l'élégance à Amsterdam, mêlant la grandeur de l'Âge d'or néerlandais à un confort contemporain absolu. Les clients profitent de superbes suites avec vue sur les canaux, d'un jardin paysager privé paisible, d'un spa de classe mondiale et de tables gastronomiques d'élite, dont le restaurant doublement étoilé Spectrum.",
+        "prix_moyen": " 750€ / nuit",
+        "avis": "9,5/10",
+        "points_positifs": [
+            "Architecture unique composée de six palais historiques restaurés le long des canaux.",
+            "Jardin intérieur privé, l'un des plus grands et calmes du centre-ville.",
+            "Restaurant gastronomique doublement étoilé au guide Michelin (Spectrum).",
+            "Service de conciergerie et de majordome d'une attention remarquable.",
+            "Spa de classe mondiale avec piscine intérieure et installations de bien-être haut de gamme.",
+            "Proximité immédiate des musées et des plus beaux quartiers commerçants."
+        ],
+        "points_negatifs": [
+            "Tarifs extrêmement élevés, parmi les plus onéreux de la destination.",
+            "Forte demande nécessitant de réserver plusieurs mois à l'avance.",
+            "Ambiance très haut de gamme qui peut s'avérer formelle.",
+            "Stationnement en centre historique complexe (nécessite le service voiturier).",
+            "Espaces historiques parfois caractérisés par des agencements atypiques.",
+            "Disponibilité très restreinte pour les suites avec vue directe sur le canal."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa et piscine intérieure",
+            "Jardin privé paysager",
+            "Wi-Fi gratuit",
+            "Restaurant étoilé Michelin",
+            "Service de voiturier",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🌷 Historique, somptueux, canalier, prestigieux et raffiné",
+            "public": "Voyageurs en quête de l'expérience hôtelière la plus exclusive et majestueuse d'Amsterdam",
+            "style": "Ensemble de palais du siècle d'or",
+            "verdict": "Le Waldorf Astoria Amsterdam est l'adresse ultime du luxe néerlandais. Entre ses palais le long des canaux classés et son service royal, il garantit un séjour absolument inoubliable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 900+ expériences vécues · Mise à jour : 2026"
+    }
+}

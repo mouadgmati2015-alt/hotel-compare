@@ -1,0 +1,50 @@
+{
+    "Novotel Riyadh Al Anoud": {
+        "pays": "Arabie saoudite",
+        "ville": "Riyad",
+        "etoiles": "4 étoiles",
+        "prix_moyen": "120€ / nuit",
+        "liens": {
+            "booking": "https://www.booking.com/hotel/sa/novotel-alanoud.fr.html",
+            "expedia": "https://www.expedia.fr/Riyadh-Hotel-Novotel-Riyadh-Al-Anoud.h2232437.Description-Hotel"
+        },
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/875000889.jpg?k=246c16d69990e3c6e884dee57cd60d50e4003015ebea9ead6d2890521090aa29&o=",
+        "description": "Cet hôtel de style contemporain occupe la troisième plus haute tour du quartier d'affaires Al-Olaya de Riyadh, sur la célèbre King Fahad Road. Il propose une piscine intérieure design dotée de chaises longues high-tech, un centre de remise en forme bien équipé, un sauna, un bain turc et un bain à remous. Le restaurant La Croisette y sert des spécialités internationales dans un cadre élégant, complété par un café-salon ouvert toute la journée et un service d'étage assuré 24h/24.",
+        "avis": "8,8/10 (Superbe - basés sur 631 expériences vécues)",
+        "points_positifs": [
+            "Emplacement exceptionnel noté 9,2/10 au cœur du quartier d'affaires Al-Olaya.",
+            "Personnel extrêmement aimable, serviable et aux petits soins (notamment salué pour son professionnalisme).",
+            "Piscine intérieure chauffée, bain à remous, sauna et bain turc de grande qualité.",
+            "Propreté irréprochable des chambres et des espaces communs.",
+            "Très bon petit-déjeuner proposé sous forme de buffet continental, végétarien et halal.",
+            "Parking privé sur place gratuit et service de voiturier apprécié."
+        ],
+        "points_negatifs": [
+            "Manque parfois de variété quotidienne ou de choix dans les options de viennoiseries/restauration environnante selon certains clients.",
+            "Affluence dans les espaces communs aux heures de pointe.",
+            "Tarifs pouvant fluctuer selon la période de l'année et la demande d'affaires.",
+            "Nécessite une liaison routière pour rejoindre l'aéroport King Khalid situé à environ 30 km.",
+            "Ambiance d'affaires parfois un peu formelle dans les grands espaces.",
+            "Demande forte nécessitant d'anticiper la réservation des suites familiales."
+        ],
+        "equipements": [
+            "Piscine intérieure chauffée",
+            "Centre de remise en forme (Fitness)",
+            "Sauna et bain turc",
+            "Bain à remous",
+            "Wi-Fi gratuit dans tout l'établissement",
+            "Restaurant (La Croisette) & Bar / Café-salon",
+            "Parking privé gratuit sur place",
+            "Navette aéroport & Service de voiturier",
+            "Chambres familiales et non-fumeurs",
+            "Salon de coiffure et boutique de souvenirs"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Contemporain, d'affaires, élégant, urbain et relaxant",
+            "public": "Voyageurs d'affaires, couples (noté 9,3 pour les séjours à deux) et familles en quête de confort au cœur de Riyadh",
+            "style": "Hôtel de tour contemporain avec spa et bien-être",
+            "verdict": "Le Novotel Riyadh Al Anoud offre un point de chute prestigieux et idéalement situé dans la tour d'Al-Olaya. Entre ses équipements de bien-être, son service irréprochable et son excellent emplacement, il garantit un séjour des plus agréables."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 631+ expériences vécues · Mise à jour : 2026"
+    }
+}
