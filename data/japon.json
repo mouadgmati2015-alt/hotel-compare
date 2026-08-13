@@ -1,45 +1,48 @@
 {
-    "Aman Tokyo": {
+    "The Peninsula Tokyo": {
         "pays": "Japon",
         "ville": "Tokyo",
         "etoiles": "5 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/jp/aman-tokyo.fr.html",
-        "lien_expedia": "https://www.expedia.fr/Tokyo-Hotels-Aman-Tokyo.h61901614.Description-Hotel",
-        "image": "https://images.trvl-media.com/lodging/19000000/18190000/18181700/18181673/c6657905.jpg?impolicy=resizecrop&rw=1200&ra=fit",
-        "description": "Une oasis de sérénité absolue perchée au sommet de la tour Otemachi, mêlant avec brio le design japonais traditionnel (bois, papier Washi, pierre) et le luxe contemporain le plus épuré. Cet établissement d'exception offre une vue panoramique à couper le souffle sur la mégapole et, par temps clair, sur le majestueux Mont Fuji[cite: 1]. Les clients profitent d'une immense piscine intérieure inspirée des bains traditionnels (onsen), d'un spa de classe mondiale[cite: 1] et d'un service d'une discrétion exemplaire. C'est le sanctuaire urbain par excellence au cœur du quartier d'affaires de Tokyo.",
-        "prix_moyen": " 1 100€ / nuit",
-        "avis": "9,7/10",
+        "lien_booking": "https://www.booking.com/hotel/jp/the-peninsula-tokyo.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Tokyo-Hotel-The-Peninsula-Tokyo.h1631412.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/11793355.jpg?k=f33d1a8026a22cc261db7dec1fca97995481da019f941d84ebdd35bedf016269&o=",
+        "description": "The Peninsula Tokyo gâte ses clients avec un centre de spa et un club de fitness doté d'une piscine et de chaises longues, surplombant les jardins du Palais impérial. Situé à 3 minutes à pied du quartier commerçant de Ginza, il propose des services de conciergerie. La gare de Tokyo se trouve à seulement 5 minutes en voiture. Arborant un design aux influences japonaises traditionnelles, les chambres luxueuses disposent d'un coin salon avec des canapés et une télévision grand écran, d'une chambre avec des commandes de rideaux près du lit et d'une salle de bains en marbre avec télévision à écran plat intégrée. Elles comprennent également un dressing, un éclairage d'ambiance et une connexion Wi-Fi gratuite.",
+        "prix_moyen": "650€ / nuit",
+        "avis": "9,3/10",
         "points_positifs": [
-            "Vue panoramique spectaculaire sur Tokyo et le Mont Fuji depuis les hauteurs de la tour[cite: 1].",
-            "Design minimaliste et architectural unique inspiré des traditionnelles maisons japonaises[cite: 1].",
-            "Spa de classe mondiale proposant des rituels de bien-être holistiques d'une qualité rare[cite: 1].",
-            "Immense piscine intérieure de 30 mètres offrant une vue imprenable sur la ville.",
-            "Atmosphère de calme absolu et de silence bienfaisant au cœur de l'effervescence de Tokyo.",
-            "Service attentionné, sur-mesure et d'une courtoisie absolue."
+            "Situé en plein cœur de Tokyo, avec une excellente note de 9,7 pour sa situation géographique",
+            "Piscine intérieure et centre de remise en forme surplombant les jardins du Palais impérial",
+            "Proximité immédiate du quartier commerçant de Ginza et de la station de métro Hibiya",
+            "Chambres luxueuses aux influences japonaises traditionnelles avec salle de bains en marbre et télévision intégrée",
+            "Restaurants variés proposant des cuisines japonaise, cantonaise et occidentale, ainsi que le bar Peter au 24ème étage avec vue panoramique",
+            "Services haut de gamme incluant conciergerie, navette en limousine Rolls-Royce et spa de classe mondiale"
         ],
         "points_negatifs": [
-            "Tarifs parmi les plus élevés de la capitale japonaise[cite: 1].",
-            "Disponibilité extrêmement limitée nécessitant des réservations très en amont.",
-            "Ambiance très solennelle et minimaliste qui peut surprendre les amateurs de décorations chaleureuses ou chargées.",
-            "Coûts annexes très importants pour la restauration et les soins de spa.",
-            "Emplacement au sein d'un quartier d'affaires qui demande des transports pour rejoindre les zones de loisirs nocturnes.",
-            "Règles strictes de quiétude dans les espaces communs."
+            "Tarifs très élevés en haute saison",
+            "Forte affluence touristique dans le quartier de Ginza et aux alentours",
+            "Certains services de transport ou de bien-être sont proposés en supplément",
+            "Demande très forte nécessitant des réservations bien à l'avance",
+            "Grand établissement pouvant présenter une affluence notable dans les espaces communs",
+            "Immense métropole nécessitant de l'organisation pour les déplacements vers les sites éloignés"
         ],
         "equipements": [
-            "5 étoiles",
-            "Spa de classe mondiale[cite: 1]",
-            "Piscine intérieure panoramique",
+            "Piscine intérieure",
+            "Spa et centre de bien-être",
             "Wi-Fi gratuit",
-            "Restaurants gastronomiques & Lounge",
-            "Service de conciergerie VIP",
-            "Climatisation"
+            "Parking privé",
+            "9 restaurants & Bar",
+            "Centre de remise en forme",
+            "Navette aéroport",
+            "Chambres non-fumeurs",
+            "Chambres familiales",
+            "Plateau/bouilloire dans tous les hébergements"
         ],
         "pour_qui": {
-            "ambiance": "⛩️ Minimaliste, zen, aérien, luxueux et contemplatif",
-            "public": "Voyageurs en quête de design architectural d'élite et de zénitude absolue au Japon",
-            "style": "Sanctuaire urbain suspendu",
-            "verdict": "L'Aman Tokyo redéfinit l'art de l'hôtellerie de luxe. Entre design épuré, vues célestes sur le Mont Fuji et calme olympien, il offre une expérience sensorielle absolument inoubliable."
+            "ambiance": "🌸 Luxueux, traditionnel, panoramique et urbain",
+            "public": "Voyageurs recherchant le raffinement ultime, un service d'excellence et un emplacement idéal face aux jardins du Palais impérial",
+            "style": "Grand hôtel de luxe au cœur de Tokyo",
+            "verdict": "The Peninsula Tokyo offre une expérience d'hospitalité hors du commun, combinant un emplacement exceptionnel, des vues imprenables et un sens du détail inégalé."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 450+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 425 expériences vécues · Mise à jour : 2026"
     }
 }

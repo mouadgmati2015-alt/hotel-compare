@@ -97,6 +97,11 @@ st.markdown("""
         color: #FFFFFF !important;
     }
 
+    /* --- REDUCTION DES ESPACES ENTRE LES ELEMENTS --- */
+    div.stMarkdown {
+        margin-bottom: -10px !important; /* Rapproche les éléments textuels les uns des autres */
+    }
+
     /* Texte des boutons du haut en NOIR */
     .stButton button, .stButton button p, .stButton button span {
         color: #0B132B !important;
