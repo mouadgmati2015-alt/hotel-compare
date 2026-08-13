@@ -1,46 +1,51 @@
 {
-    "Burj Al Arab Jumeirah": {
+    "Jumeirah Beach Hotel Dubai": {
         "pays": "Émirats arabes unis",
         "ville": "Dubaï",
         "etoiles": "5 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/ae/burj-al-arab.fr.html",
-        "lien_expedia": "https://www.expedia.fr/Dubai-Hotels-Burj-Al-Arab.h11942.Description-Hotel",
-        "image": "https://images.trvl-media.com/lodging/1000000/10000/9400/9358/8040b284.jpg?impolicy=resizecrop&rw=1200&ra=fit",
-        "description": "Reconnu mondialement comme l'hôtel le plus luxueux au monde et juché sur sa propre île artificielle, le Burj Al Arab est l'emblème architectural de Dubaï avec sa silhouette en forme de voile de bateau. Cet établissement d'exception propose exclusivement des suites somptueuses en duplex dotées de vues spectaculaires sur le golfe Persique. Les clients profitent d'un service de majordome personnel attitré 24h/24, d'une flotte de Rolls-Royce avec chauffeur, d'une plage privée exclusive, d'immenses piscines à débordement et de tables gastronomiques de classe mondiale.",
-        "prix_moyen": " 1 500€ / nuit",
-        "avis": "9,3/10",
+        "prix_moyen": "450€ / nuit",
+        "liens": {
+            "booking": "https://www.booking.com/hotel/ae/jumeirah-beach.fr.html",
+            "expedia": "https://www.expedia.fr/Dubai-Hotel-Jumeirah-Beach-Hotel-Dubai.h527498.Description-Hotel"
+        },
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/538737679.jpg?k=fd2b8bc9d51d908eafe4959f8e2210152f1fa21dfacfca9e0b3846b131ccf87b&o=",
+        "description": "Établissement 5 étoiles de luxe emblématique situé à Dubaï, le Jumeirah Beach Hotel dispose d'une plage privée exclusive, de 5 piscines et de 10 restaurants et bars. Ses chambres, suites et villas spacieuses possèdent toutes des baies vitrées offrant une vue spectaculaire sur le golfe Persique et le célèbre Jumeirah Burj Al Arab. L'hôtel a récemment bénéficié de rénovations complètes de ses espaces et chambres pour offrir un confort absolu, à seulement 10 minutes à pied du souk Madinat Jumeirah.",
+        "avis": "8,9/10 (Superbe - basés sur 3 747 expériences vécues)",
         "points_positifs": [
-            "Architecture iconique mondiale en forme de voile de navire sur une île privée.",
-            "Service de majordome personnel dédié à chaque suite 24h/24.",
-            "Flotte de Rolls-Royce haut de gamme pour les transferts des clients.",
-            "Plage privée exclusive et superbes terrasses avec piscines à débordement.",
-            "Restaurants gastronomiques d'élite, dont certains suspendus au-dessus de la mer.",
-            "Suites en duplex immenses offrant des finitions d'un faste absolu."
+            "Situation géographique exceptionnelle notée 9,5/10 par les voyageurs, idéale pour les couples et les familles.",
+            "Vue imprenable et directe sur le Burj Al Arab, la mer et les magnifiques couchers de soleil.",
+            "Plage privée exclusive et 5 piscines soigneusement aménagées.",
+            "Service irréprochable et personnel aux petits soins, salué pour ses nombreuses attentions personnalisées.",
+            "Chambres spacieuses, extrêmement confortables et dotées de superbes équipements (télévision interactive, Wi-Fi gratuit, service de préparation à la nuit).",
+            "Offre culinaire riche et variée avec de nombreux restaurants internationaux, français et britanniques primés, ainsi qu'un superbe petit-déjeuner buffet."
         ],
         "points_negatifs": [
-            "Tarifs des nuitées et des prestations parmi les plus élevés de la planète.",
-            "Forte affluence touristique et curiosité du public aux abords de l'île.",
-            "Ambiance très ostentatoire et luxueuse qui peut ne pas convenir à tous les voyageurs.",
-            "Nécessite de réserver de longs mois à l'avance pour sécuriser les suites.",
-            "Code vestimentaire strict exigé dans les espaces communs et restaurants.",
-            "Frais annexes très importants pour la restauration et les expériences."
+            "Forte affluence en haute saison touristique dans les espaces communs.",
+            "Tarifs des nuitées et des prestations élevés en raison du standing de l'établissement.",
+            "Demande très forte nécessitant de réserver plusieurs mois à l'avance, notamment pour les chambres avec vue mer.",
+            "Ambiance parfois très animée en raison de la popularité de l'hôtel auprès des familles.",
+            "Coûts annexes importants pour la restauration et les services de bien-être.",
+            "Distance de l'aéroport international de Dubaï d'environ 20 km nécessitant une liaison routière."
         ],
         "equipements": [
-            "5 étoiles",
+            "5 piscines extérieures",
             "Plage privée exclusive",
-            "Service de majordome 24h/24",
-            "Flotte de Rolls-Royce",
-            "Wi-Fi gratuit",
-            "Restaurants gastronomiques étoilés",
-            "Climatisation"
+            "Spa et centre de bien-être",
+            "Centre de remise en forme (Fitness)",
+            "Wi-Fi gratuit dans tout l'établissement",
+            "10 restaurants et bars (dont le bar Floor 24)",
+            "Parking privé gratuit sur place",
+            "Navette aéroport",
+            "Chambres familiales, non-fumeurs et avec balcon",
+            "Court de tennis et salle de jeux"
         ],
         "pour_qui": {
-            "ambiance": "👑 Iconique, somptueux, spectaculaire, ostentatoire et ultramoderne",
-            "public": "Voyageurs en quête de l'expérience de luxe ultime et démesurée à Dubaï",
-            "style": "Palace insulaire en forme de voile",
-            "verdict": "Le Burj Al Arab Jumeirah est le symbole planétaire de la démesure et du luxe. Entre son architecture unique au monde, ses majordomes dédiés et son standing royal, il offre un séjour hors norme."
+            "ambiance": "🌊 Balnéaire, luxueux, spectaculaire, familial et raffiné",
+            "public": "Couples (noté 9,5 pour les séjours à deux), familles et voyageurs en quête d'un séjour balnéaire haut de gamme à Dubaï",
+            "style": "Palace de luxe en bord de mer avec plage privée",
+            "verdict": "Le Jumeirah Beach Hotel Dubai est une valeur sûre incontournable aux Émirats. Alliant un emplacement parfait face au Burj Al Arab, des prestations balnéaires somptueuses et un service d'excellence, il garantit un séjour mémorable."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 800+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 3 747+ expériences vécues · Mise à jour : 2026"
     },
     "Bab Al Shams, A Rare Finds Desert Resort": {
         "pays": "Émirats arabes unis",
