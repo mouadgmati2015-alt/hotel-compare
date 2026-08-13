@@ -743,6 +743,16 @@ st.markdown("""
 
 # --- FORMULAIRE DE FEEDBACK DANS LE FOOTER ---
 st.markdown("---")
+
+# Style CSS pour forcer le texte saisi en noir dans les champs
+st.markdown("""
+    <style>
+    textarea, input {
+        color: #000000 !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 st.markdown("<h3 style='text-align: center; color: white;'>💬 Votre avis nous intéresse</h3>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #94a3b8; font-size: 0.9em;'>Le site est en cours de construction. Aidez-nous à l'améliorer !</p>", unsafe_allow_html=True)
 
