@@ -31,6 +31,8 @@ def update_expedia_link(url):
     encoded_url = urllib.parse.quote(url, safe='')
     return f"https://www.anrdoezrs.net/click-8012379-13854902?url={encoded_url}"
 
+# --- Configuration de la page ---
+st.set_page_config(page_title="HotelCompare", page_icon="images/favicon_io/favicon.ico", layout="wide")
 # Configuration de la page
 st.set_page_config(page_title="HotelCompare", page_icon="images/favicon_io/favicon.ico", layout="wide")
 
