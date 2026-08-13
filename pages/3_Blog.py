@@ -73,44 +73,58 @@ except Exception as e:
     articles = []
     st.error(f"Erreur de chargement du JSON : {e}")
 
-if 'article_ouvert' not in st.session_state:
-    st.session_state.article_ouvert = None
+# --- LOGIQUE DE NAVIGATION PAR URL UNIQUE ---
+params = st.query_params
+article_title = params.get("article")
 
-if st.session_state.article_ouvert:
-    art = st.session_state.article_ouvert
-    st.header(art.get('titre', ''))
-    
-    onglet_texte, onglet_galerie = st.tabs(["📖 Lire l'article", "📸 Galerie photos"])
-    
-    with onglet_texte:
-        st.markdown(art.get('details', "Contenu de l'article..."))
+def trouver_article(titre_recherche):
+    for art in articles:
+        if art.get('titre') == titre_recherche:
+            return art
+    return None
+
+if article_title:
+    art = trouver_article(article_title)
+    if art:
+        st.header(art.get('titre', ''))
         
-    with onglet_galerie:
-        st.write("### 🖼️ Toutes les photos du voyage")
-        if 'images' in art and art['images']:
-            images_list = art['images']
-            valid_images = [img for img in images_list if os.path.exists(img)]
+        onglet_texte, onglet_galerie = st.tabs(["📖 Lire l'article", "📸 Galerie photos"])
+        
+        with onglet_texte:
+            st.markdown(art.get('details', "Contenu de l'article..."), unsafe_allow_html=True)
             
-            if valid_images:
-                for i in range(0, len(valid_images), 3):
-                    cols = st.columns(3)
-                    for j in range(3):
-                        idx = i + j
-                        if idx < len(valid_images):
-                            with cols[j]:
-                                corrected_img = get_corrected_image(valid_images[idx])
-                                st.image(corrected_img, use_container_width=True)
+        with onglet_galerie:
+            st.write("### 🖼️ Toutes les photos du voyage")
+            if 'images' in art and art['images']:
+                images_list = art['images']
+                valid_images = [img for img in images_list if os.path.exists(img)]
+                
+                if valid_images:
+                    for i in range(0, len(valid_images), 3):
+                        cols = st.columns(3)
+                        for j in range(3):
+                            idx = i + j
+                            if idx < len(valid_images):
+                                with cols[j]:
+                                    corrected_img = get_corrected_image(valid_images[idx])
+                                    st.image(corrected_img, use_container_width=True)
+                else:
+                    st.info("Aucune image valide trouvée.")
             else:
-                st.info("Aucune image valide trouvée.")
-        else:
-            st.info("Aucune galerie photo disponible pour cet article.")
-        
-    st.markdown("---")
-    if st.button("⬅️ Retour au blog"):
-        st.session_state.article_ouvert = None
-        st.rerun()
+                st.info("Aucune galerie photo disponible pour cet article.")
+            
+        st.markdown("---")
+        if st.button("⬅️ Retour au blog"):
+            st.query_params.clear()
+            st.rerun()
+    else:
+        st.error("Article non trouvé.")
+        if st.button("⬅️ Retour au blog"):
+            st.query_params.clear()
+            st.rerun()
         
 else:
+    # --- VUE LISTE (PAGE D'ACCUEIL DU BLOG) ---
     for i in range(0, len(articles), 3):
         cols = st.columns(3)
         for j in range(3):
@@ -126,6 +140,8 @@ else:
                         
                     st.subheader(art.get('titre', ''))
                     st.write(art.get('resume', ''))
+                    
+                    # Chaque bouton modifie l'URL avec le titre de l'article
                     if st.button("Lire la suite", key=f"art_{i}_{j}"):
-                        st.session_state.article_ouvert = art
+                        st.query_params["article"] = art['titre']
                         st.rerun()
