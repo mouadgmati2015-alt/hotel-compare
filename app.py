@@ -744,7 +744,7 @@ st.markdown("""
 # --- FORMULAIRE DE FEEDBACK DANS LE FOOTER ---
 st.markdown("---")
 
-# Style CSS pour forcer le texte saisi en noir dans les champs
+# Style CSS pour forcer le texte saisi en noir
 st.markdown("""
     <style>
     textarea, input {
@@ -758,20 +758,17 @@ st.markdown("<p style='text-align: center; color: #94a3b8; font-size: 0.9em;'>Le
 
 col_f1, col_f2, col_f3 = st.columns([1, 2, 1])
 with col_f2:
-    with st.form("form_feedback_footer"):
-        nom_visiteur = st.text_input("Votre nom ou prénom (facultatif)")
-        message_avis = st.text_area("Vos remarques, bugs ou conseils :")
-        submit_avis = st.form_submit_button("Envoyer mon avis", use_container_width=True)
-        
-        if submit_avis:
-            if message_avis.strip() != "":
-                with open("retours_utilisateurs.txt", "a", encoding="utf-8") as f:
-                    f.write(f"De: {nom_visiteur if nom_visiteur else 'Anonyme'} | Message: {message_avis}\n---\n")
-                st.success("Merci ! Votre retour a bien été enregistré. 🙏")
-            else:
-                st.warning("Veuillez écrire un message avant d'envoyer.")
+    formspree_url = "https://formspree.io/f/xaewjazy"
+    
+    st.markdown(f"""
+        <form action="{formspree_url}" method="POST" style="display: flex; flex-direction: column; gap: 10px;">
+            <input type="text" name="nom" placeholder="Votre nom ou prénom (facultatif)" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc; color: #000;">
+            <textarea name="message" placeholder="Vos remarques, bugs ou conseils..." rows="4" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc; color: #000;" required></textarea>
+            <button type="submit" style="background-color: #10B981; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">Envoyer mon avis</button>
+        </form>
+    """, unsafe_allow_html=True)
 
-# --- VOTRE FOOTER ACTUEL ---
+# --- VOTRE FOOTER ---
 st.markdown("""
     <div style='text-align: center; padding: 20px; color: #94a3b8;'>
         <p>Accueil &nbsp;|&nbsp; À propos &nbsp;|&nbsp; Politique de confidentialité &nbsp;|&nbsp; Contact</p>
