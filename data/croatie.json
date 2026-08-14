@@ -41,5 +41,232 @@
             "verdict": "L'Hôtel Excelsior est l'adresse absolue pour admirer Dubrovnik. Son panorama direct sur les remparts et ses prestations haut de gamme en font un choix inoubliable sur l'Adriatique."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 1 100+ expériences vécues · Mise à jour : 2026"
+        },
+    "DoubleTree by Hilton Zagreb": {
+        "pays": "Croatie",
+        "ville": "Zagreb",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/hr/double-tree-by-hilton-zagreb.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Zagreb-Hotel-DoubleTree-By-Hilton-Zagreb.h5209510.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/484101662.jpg?k=3cbceb3f375633400ead0923197b8361ddcf9aad51b11d6386fc2ce5cc925ffb&o=",
+        "description": "Un hôtel moderne et haut de gamme, idéalement situé dans le centre d'affaires de Zagreb. Cet établissement de luxe propose des chambres spacieuses et extrêmement confortables, un jardin, une piscine intérieure relaxante, ainsi que des soins de spa de qualité. Il abrite également le célèbre restaurant OXBO qui met à l'honneur une cuisine raffinée.",
+        "prix_moyen": " 170€ / nuit",
+        "avis": "9,0/10 Fabuleux d'après les avis clients",
+        "notes_categories": {
+            "personnel": "9,3/10",
+            "equipements": "9,1/10",
+            "proprete": "9,4/10",
+            "confort": "9,3/10",
+            "rapport_qualite_prix": "8,7/10",
+            "situation_geographique": "8,8/10",
+            "connexion_wifi_gratuite": "9,1/10"
+        },
+        "points_positifs": [
+            "Chambres spacieuses, modernes et d'un grand confort.",
+            "Piscine intérieure agréable et prestations de spa relaxantes.",
+            "Personnel extrêmement amical, professionnel et aux petits soins.",
+            "Restaurant de haut standing sur place (OXBO)."
+        ],
+        "points_negatifs": [
+            "Situé dans le quartier d'affaires, légèrement excentré de la vieille ville historique (nécessite un court trajet en tramway ou taxi).",
+            "Tarifs élevés en haute saison."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Piscine intérieure",
+            "Spa et centre de bien-être",
+            "Restaurant (OXBO) et bar",
+            "Centre de remise en forme",
+            "Connexion Wi-Fi gratuite",
+            "Boutiques sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "💼 Chic, contemporain, luxueux et relaxant",
+            "public": "Voyageurs d'affaires et touristes exigeants recherchant un confort 5 étoiles moderne",
+            "style": "Hôtel urbain haut de gamme",
+            "verdict": "Le DoubleTree by Hilton Zagreb est une valeur sûre pour allier confort de premier ordre, détente grâce à sa piscine et un service irréprochable dans la capitale croate."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base des expériences voyageurs · Mise à jour : 2026"
+    },
+    "AC Hotel Split": {
+        "pays": "Croatie",
+        "ville": "Split",
+        "etoiles": "4 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/hr/ac-by-marriott-split.fr.html",
+        "lien_expedia": "https://www.expedia.fr/The-Hague-Hotel-AC-Hotel-By-Marriott-Split.h81730165.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/643810463.jpg?k=afc282b5fb857cf669287ca0c8065ea16ba0c6118bae93d87a833260afbbc4d6&o=",
+        "description": "Établissement contemporain et design situé à Split, cet hôtel 4 étoiles est parfait pour découvrir la ville et la côte dalmate. Il offre de superbes vues sur la mer, des infrastructures entièrement neuves comprenant une piscine intérieure, un spa complet et une table de restaurant gastronomique de grande qualité.",
+        "prix_moyen": " 210€ / nuit",
+        "avis": "9,3/10 Fabuleux d'après plus de 2 100 avis",
+        "notes_categories": {
+            "personnel": "9,4/10",
+            "equipements": "9,4/10",
+            "proprete": "9,6/10",
+            "confort": "9,6/10",
+            "rapport_qualite_prix": "9,0/10",
+            "situation_geographique": "9,0/10",
+            "connexion_wifi_gratuite": "9,2/10"
+        },
+        "points_positifs": [
+            "Propreté irréprochable et installations entièrement modernes et neuves.",
+            "Vue imprenable et panoramique sur la mer.",
+            "Espace spa, fitness et piscine intérieure très agréables.",
+            "Personnel extrêmement professionnel, accueillant et de bon conseil.",
+            "Excellent petit-déjeuner et restaurant de qualité sur place."
+        ],
+        "points_negatifs": [
+            "Éloigné d'environ 2 kilomètres du centre historique, nécessitant une petite marche ou un transport.",
+            "Accès au spa et à la piscine soumis à des restrictions d'âge (16 ans et plus)."
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Piscine intérieure",
+            "Spa et centre de bien-être",
+            "Restaurant et bar",
+            "Parking souterrain privé",
+            "Connexion Wi-Fi gratuite",
+            "Chambres familiales"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Design, épuré, élégant et tourné vers la mer",
+            "public": "Couples et voyageurs recherchant le summum du design contemporain et du bien-être près de Split",
+            "style": "Hôtel urbain design et spa",
+            "verdict": "L'AC Hotel Split brille par son niveau d'excellence exceptionnel. Entre ses vues spectaculaires, ses équipements flambants neufs et son service irréprochable, c'est une adresse de premier choix en Dalmatie."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 161+ expériences vécues · Mise à jour : 2026"
+    },
+    "City Hotel Dubrovnik": {
+        "pays": "Croatie",
+        "ville": "Dubrovnik",
+        "etoiles": "4 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/hr/city-dubrovnik.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Dubrovnik-Hotel-City-Hotel-Dubrovnik.h84282909.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/398838400.jpg?k=601d79e43674e58de92d7cd168881f9452768c04dc6ff8bb0aced5b60e3cd54b&o=",
+        "description": "Confortable hôtel 4 étoiles idéalement positionné à Dubrovnik, offrant un accès facile aux remparts historiques, au port de Gruž et à proximité immédiate de la belle plage de Bellevue. C'est un point de chute moderne et parfaitement équipé pour explorer la perle de l'Adriatique.",
+        "prix_moyen": " 190€ / nuit",
+        "avis": "8,6/10 Superbe",
+        "notes_categories": {
+            "personnel": "8,9/10",
+            "equipements": "8,5/10",
+            "proprete": "9,0/10",
+            "confort": "8,8/10",
+            "rapport_qualite_prix": "8,2/10",
+            "situation_geographique": "9,1/10",
+            "connexion_wifi_gratuite": "8,8/10"
+        },
+        "points_positifs": [
+            "Emplacement stratégique à quelques pas de la plage de Bellevue et proche du port.",
+            "Réception ouverte 24h/24 avec un personnel réactif et serviable.",
+            "Chambres modernes, fonctionnelles et très propres.",
+            "Accès aisé aux transports pour rejoindre la vieille ville de Dubrovnik."
+        ],
+        "points_negatifs": [
+            "Stationnement parfois complexe en raison de la forte affluence dans la zone.",
+            "Espaces communs de taille modeste."
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Réception 24h/24",
+            "Chambres non-fumeurs",
+            "Connexion Wi-Fi gratuite",
+            "Service de navette",
+            "Climatisation"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Urbain, pratique, confortable et chaleureux",
+            "public": "Voyageurs voulant combiner la découverte des remparts historiques et la proximité de la mer",
+            "style": "Hôtel citadin moderne",
+            "verdict": "Le City Hotel Dubrovnik combine un emplacement très pratique près de la mer et des prestations 4 étoiles confortables pour visiter la région en toute sérénité."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base des expériences voyageurs · Mise à jour : 2026"
+    },
+    "Hotel Delfin": {
+        "pays": "Croatie",
+        "ville": "Zadar",
+        "etoiles": "3 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/hr/pansion-vista.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Zadar-Hotel-Hotel-Delfin.h4436522.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/142099041.jpg?k=e777e0e43defb48b9f745422791188880a8a139c466765306934702c7ce7bf23&o=",
+        "description": "Hôtel convivial et chaleureux à gestion humaine, situé directement au bord de la mer dans la région de Zadar. Il offre de magnifiques vues panoramiques sur la mer et les îles depuis sa terrasse couverte, ainsi qu'un accès direct au littoral pour de superbes balades romantiques.",
+        "prix_moyen": " 110€ / nuit",
+        "avis": "8,8/10 Excellent",
+        "notes_categories": {
+            "personnel": "9,5/10",
+            "equipements": "8,8/10",
+            "proprete": "9,0/10",
+            "confort": "9,0/10",
+            "rapport_qualite_prix": "8,7/10",
+            "situation_geographique": "9,1/10",
+            "connexion_wifi_gratuite": "8,5/10"
+        },
+        "points_positifs": [
+            "Situation exceptionnelle les pieds dans l'eau avec un accès immédiat à la mer.",
+            "Personnel aux petits soins, extrêmement bienveillant et professionnel.",
+            "Restaurant proposant des plats dalmates typiques avec une vue panoramique splendide.",
+            "Cadre très calme, intime et reposant."
+        ],
+        "points_negatifs": [
+            "Structure de taille plus modeste (environ 27 chambres), ce qui nécessite de réserver tôt.",
+            "Éloigné de quelques kilomètres du centre historique de Zadar (nécessite un véhicule ou un transport)."
+        ],
+        "equipements": [
+            "3 étoiles",
+            "Situation en bord de mer",
+            "Restaurant avec terrasse panoramique",
+            "Chambres avec balcon et vue mer",
+            "Connexion Wi-Fi gratuite",
+            "Parking"
+        ],
+        "pour_qui": {
+            "ambiance": "🌅 Marin, intime, convivial, pittoresque et reposant",
+            "public": "Couples et voyageurs recherchant la tranquillité d'un hôtel familial face à la mer Adriatique",
+            "style": "Hôtel de charme côtier",
+            "verdict": "L'Hotel Delfin à Zadar séduit par son ambiance intime en bord de mer, sa cuisine locale généreuse et la bienveillance remarquable de son équipe."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base des expériences voyageurs · Mise à jour : 2026"
+    },
+    "Hotel Galija": {
+        "pays": "Croatie",
+        "ville": "Pula",
+        "etoiles": "3 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/hr/hotelgalijapula.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Pula-Hotel-Hotel-Galija.h4678944.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/159022743.jpg?k=2564b64943b89ca54047a071bbd170d654fb91794a1ffd4b35df9b2db93fd616&o=",
+        "description": "Charmant hôtel à gestion familiale situé au cœur de la ville historique de Pula en Istrie. L'établissement allie un confort moderne à un emplacement privilégié à proximité immédiate des monuments antiques, notamment le célèbre amphithéâtre romain. Il dispose d'un restaurant réputé spécialisé dans les fruits de mer et la gastronomie istrienne.",
+        "prix_moyen": " 95€ / nuit",
+        "avis": "7,8/10 Bien / Recommandé pour sa localisation",
+        "notes_categories": {
+            "personnel": "8,8/10",
+            "equipements": "8,0/10",
+            "proprete": "8,5/10",
+            "confort": "8,2/10",
+            "rapport_qualite_prix": "8,4/10",
+            "situation_geographique": "9,6/10",
+            "connexion_wifi_gratuite": "8,5/10"
+        },
+        "points_positifs": [
+            "Emplacement central exceptionnel en plein cœur de la vieille ville, à quelques minutes à pied des arènes et du front de mer.",
+            "Restaurant renommé sur place proposant d'excellentes spécialités d'Istrie et des fruits de mer.",
+            "Accueil familial chaleureux, personnel très aimable et serviable.",
+            "Chambres propres, climatisées et dotées d'une literie confortable."
+        ],
+        "points_negatifs": [
+            "Bâtiment historique ne disposant pas toujours de toutes les commodités modernes des grands resorts (pas d'ascenseur dans certaines sections, nécessitant de porter les bagages).",
+            "Stationnement en centre-ville parfois restreint."
+        ],
+        "equipements": [
+            "3 étoiles",
+            "Restaurant renommé avec grande terrasse",
+            "Climatisation",
+            "Connexion Wi-Fi gratuite",
+            "Réductions partenaires (soins et boutiques)"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Historique, authentique, chaleureux et gourmand",
+            "public": "Passionnés d'histoire, couples et voyageurs curieux de découvrir le patrimoine antique de Pula à pied",
+            "style": "Hôtel de charme historique",
+            "verdict": "L'Hotel Galija est le pied-à-terre idéal pour s'imprégner de l'histoire de Pula. Sa situation ultra-centrale, son hospitalité familiale et sa table gastronomique en font une étape incontournable en Istrie."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de plus de 2 000 expériences vécues · Mise à jour : 2026"
     }
 }

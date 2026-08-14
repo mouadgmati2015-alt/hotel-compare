@@ -41,5 +41,369 @@
             "verdict": "Le Four Seasons Gresham Palace est l'adresse incontournable par excellence en Hongrie. Entre son architecture Art nouveau unique, sa vue magique sur le Danube et son service irréprochable, il garantit un séjour absolument inoubliable."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 1 400+ expériences vécues · Mise à jour : 2026"
+         },
+    "Danubius Hotel Annabella": {
+        "pays": "Hongrie",
+        "ville": "Balatonfüred",
+        "etoiles": "3 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/hu/annabella.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Balatonfured-Hotel-Danubius-Hotel-Annabella.h1086307.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/207506374.jpg?k=dd83c4950c77d1ee9a8cc2b079df01429b42cfc431a78350a32f1df1eb9ba3bc&o=",
+        "description": "Situé à Balatonfüred, le Danubius Hotel Annabella est un établissement très apprécié offrant une vue imprenable et un cadre reposant. Proposant des chambres confortables et climatisées telles que la Chambre Premium avec lit double, il garantit un séjour placé sous le signe de la détente avec la formule comprenant le petit-déjeuner et le dîner. Ses prestations de qualité et sa situation idéale séduisent de nombreux voyageurs en quête de calme et de grand air au bord de l'eau.",
+        "prix_moyen": " 831€ / semaine",
+        "avis": "8,4/10 Très bien d'après 2 900 expériences vécues",
+        "notes_categories": {
+            "confort": "8,5/10"
+        },
+        "points_positifs": [
+            "Cadre idéal et relaxant à Balatonfüred.",
+            "Formule demi-pension incluant le petit-déjeuner et le dîner.",
+            "Chambre Premium climatisée et confortable.",
+            "Conditions de réservation flexibles avec annulation gratuite."
+        ],
+        "points_negatifs": [
+            "Forte affluence en haute saison estivale autour du lac Balaton."
+        ],
+        "equipements": [
+            "2 piscines",
+            "Très bon petit-déjeuner",
+            "Connexion Wi-Fi gratuite",
+            "Service de navette",
+            "Parking privé",
+            "Restaurant",
+            "Chambres non-fumeurs",
+            "Animaux domestiques admis",
+            "Balcon",
+            "Chambres familiales",
+            "Climatisation",
+            "Chambre Premium avec grand lit double",
+            "Petit-déjeuner et dîner compris",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌊 Reposant, charmant, balnéaire et convivial",
+            "public": "Couples et vacanciers recherchant un séjour tout confort au bord du lac Balaton",
+            "style": "Hôtel de villégiature classique",
+            "verdict": "Le Danubius Hotel Annabella est une excellente option pour profiter des charmes de Balatonfüred avec un très bon niveau de confort et une formule demi-pension idéale pour des vacances sans contrainte."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 900 expériences vécues · Mise à jour : 2026"
+    },
+    "Dorothea Hotel, Budapest, Autograph Collection": {
+        "pays": "Hongrie",
+        "ville": "Budapest",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/hu/dorothea-budapest-autograph-collection.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Budapest-Hotel-Dorothea-Hotel.h99655873.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/643178469.jpg?k=92f0bd5a991576cb60b8d9aa7bfb1fc518f2b193c6d03c793a31117432b4a4e7&o=",
+        "description": "Niché dans le quartier historique de Belváros - Lipótváros en plein cœur de Budapest, le Dorothea Hotel, membre de la prestigieuse Autograph Collection de Marriott, incarne le luxe et l'élégance à l'état pur. Cet établissement 5 étoiles éco-responsable dispose d'un certificat de durabilité et propose des chambres somptueuses, telles que la Chambre Lits Jumeaux Atrium avec balcon, alliant design contemporain et architecture d'époque. Sa localisation ultra-centrale à proximité immédiate du métro permet de rayonner facilement dans la capitale hongroise tout en profitant de prestations hôtelières d'un standing exceptionnel.",
+        "prix_moyen": " 2 945€ / semaine",
+        "avis": "9,2/10 Fabuleux d'après 1 370 expériences vécues",
+        "notes_categories": {
+            "confort": "9,5/10"
+        },
+        "points_positifs": [
+            "Emplacement central prestigieux dans le quartier de Belváros - Lipótváros à Budapest.",
+            "Certificat de durabilité garantissant des pratiques hôtelières respectueuses de l'environnement.",
+            "Chambre Lits Jumeaux Atrium somptueuse, climatisée et dotée d'un balcon.",
+            "Proximité immédiate du réseau de métro pour un accès facilité à toute la ville."
+        ],
+        "points_negatifs": [
+            "Tarifs élevés en raison du positionnement de luxe de l'établissement.",
+            "Disponibilité très limitée pour certaines catégories de chambres d'exception."
+        ],
+        "equipements": [
+            "Piscine intérieure",
+            "Superbe petit-déjeuner",
+            "Connexion Wi-Fi gratuite",
+            "Spa et centre de bien-être",
+            "Navette aéroport",
+            "3 restaurants",
+            "Chambres non-fumeurs",
+            "Animaux domestiques admis",
+            "Centre de remise en forme",
+            "Balcon",
+            "5 étoiles",
+            "Certificat de durabilité",
+            "Climatisation",
+            "Chambre Lits Jumeaux Atrium avec balcon",
+            "Proche du métro"
+        ],
+        "pour_qui": {
+            "ambiance": "🏛️ Luxueux, raffiné, prestigieux, élégant et éco-responsable",
+            "public": "Voyageurs exigeants et touristes à la recherche d'une adresse de grand luxe au cœur de Budapest",
+            "style": "Hôtel de luxe contemporain et historique",
+            "verdict": "Le Dorothea Hotel, Budapest, Autograph Collection s'impose comme une adresse incontournable du grand standing dans la capitale. Alliant design d'exception, engagement durable et emplacement privilégié, il garantit un séjour somptueux."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 370 expériences vécues · Mise à jour : 2026"
+    },
+    "Ensana Grand Margaret Island": {
+        "pays": "Hongrie",
+        "ville": "Budapest",
+        "etoiles": "4 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/hu/margitszigetgrand.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Budapest-Hotel-Ensana-Grand-Margaret-Island.h918754.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/780009623.jpg?k=9b550efe11a1587acc308e953e879aef46d0354afa0dfd498b40c00a683cc81f&o=",
+        "description": "Situé dans le paisible 13e arrondissement d'Angyalföld sur la magnifique île Marguerite à Budapest, l'Ensana Grand Margaret Island est un havre de paix historique et thermal. Entouré de verdure tout en restant proche du centre-ville, cet établissement propose de superbes prestations incluant la Chambre Lits Jumeaux Deluxe avec un accès privilégié au centre de bien-être et à la salle de sport. Les voyageurs profitent d'un cadre enchanteur, d'un petit-déjeuner inclus de qualité et de conditions de réservation très flexibles sans prépaiement.",
+        "prix_moyen": " 1 015€ / semaine",
+        "avis": "8,9/10 Superbe d'après 6 547 expériences vécues",
+        "notes_categories": {
+            "confort": "9,1/10"
+        },
+        "points_positifs": [
+            "Cadre naturel et exceptionnel sur l'île Marguerite, à l'écart de l'agitation urbaine.",
+            "Accès inclus au centre de bien-être et à la salle de sport.",
+            "Petit-déjeuner compris et formule flexible sans prépaiement.",
+            "Chambre Deluxe climatisée avec un grand confort de literie."
+        ],
+        "points_negatifs": [
+            "Nécessite d'emprunter les transports ou de marcher pour rejoindre les attractions du centre de Budapest.",
+            "Forte demande nécessitant d'anticiper la réservation."
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Centre de bien-être et spa",
+            "Salle de sport",
+            "Climatisation",
+            "Petit-déjeuner compris",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🌿 Verdoyant, thermal, serein, historique et relaxant",
+            "public": "Couples et amateurs de bien-être recherchant le calme d'une île tout en visitant Budapest",
+            "style": "Hôtel thermal et historique de charme",
+            "verdict": "L'Ensana Grand Margaret Island offre une expérience unique à Budapest, combinant l'accès à un spa d'exception, un cadre bucolique sur l'île Marguerite et un confort hôtelier irréprochable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 6 547 expériences vécues · Mise à jour : 2026"
+    },
+    "Petnehazy Aparthotel": {
+        "pays": "Hongrie",
+        "ville": "Budapest",
+        "etoiles": "3 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/hu/petnhehazy-clubhotel.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Budapest-Hotel-Petnehazy-Aparthotel.h34709.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/149050033.jpg?k=808386df4390ce311db3d72a5bea6bcd0fea3ad5e9fbf9c6832ee60cdce5ebb5&o=",
+        "description": "Niché dans les hauteurs verdoyantes de Budapest, le Petneházy Aparthotel propose une escapade idéale en pleine nature tout en restant rattaché à la capitale. Cet établissement de type appart-hôtel dispose de la Chambre Double Standard climatisée avec grand lit double dans le cadre d'une offre saisonnière très avantageuse. Apprécié pour son calme et son excellent rapport qualité-prix, il permet de se ressourcer dans un environnement boisé tout en bénéficiant de l'annulation gratuite.",
+        "prix_moyen": " 285€ / semaine",
+        "avis": "8,4/10 Très bien d'après 2 922 expériences vécues",
+        "notes_categories": {
+            "confort": "8,3/10"
+        },
+        "points_positifs": [
+            "Environnement boisé, calme et verdoyant dans les collines de Budapest.",
+            "Offre saisonnière très compétitive avec un tarif attractif.",
+            "Chambre Double Standard climatisée et confortable.",
+            "Flexibilité avec l'annulation gratuite."
+        ],
+        "points_negatifs": [
+            "Éloigné du centre-ville, l'utilisation d'un véhicule ou des transports est recommandée.",
+            "Infrastructures de type appart-hôtel plus rustiques."
+        ],
+        "equipements": [
+            "Aparthotel 3 étoiles",
+            "Climatisation",
+            "Chambre Double Standard",
+            "Annulation gratuite",
+            "Offre saisonnière",
+            "4 piscines",
+            "Équipements pour les personnes handicapées",
+            "Plage privée",
+            "Connexion Wi-Fi gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🌲 Boisé, paisible, économique et nature",
+            "public": "Familles et voyageurs motorisés cherchant le calme de la nature proche de Budapest",
+            "style": "Appart-hôtel de nature",
+            "verdict": "Le Petneházy Aparthotel est un choix malin et économique pour un séjour au vert aux portes de Budapest, parfait pour allier découverte de la ville et repos en forêt."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 922 expériences vécues · Mise à jour : 2026"
+    },
+    "Viktoria apartmanok": {
+        "pays": "Hongrie",
+        "ville": "Zalakaros",
+        "etoiles": "Appartement indépendant",
+        "lien_booking": "https://www.booking.com/hotel/hu/viktoria-apartmanok-zalakaros.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Zalakaros-Appartements-Viktoria-Apartmanok.h112233.Description-Hotel",
+        "image": "",
+        "description": "Situé à Zalakaros, station thermale réputée, l'établissement Viktória apartmanok est un hébergement indépendant géré par un particulier qui a obtenu des notes exceptionnelles. Il propose l'Appartement 1 Chambre avec Terrasse, comprenant un espace de vie complet avec une chambre, un salon et une salle de bains ainsi qu'un très grand lit double. Avec son confort absolu noté au maximum et ses conditions très souples sans prépaiement, c'est un pied-à-terre parfait pour un séjour thermal intime.",
+        "prix_moyen": " 343€ / semaine",
+        "avis": "9,5/10 Exceptionnel d'après 4 expériences vécues",
+        "notes_categories": {
+            "confort": "10/10"
+        },
+        "points_positifs": [
+            "Appartement entier très spacieux comprenant une chambre, un salon et une terrasse.",
+            "Niveau de confort exceptionnel noté 10/10 par les voyageurs.",
+            "Gestion indépendante offrant une atmosphère intime et chaleureuse.",
+            "Flexibilité totale avec l'annulation gratuite et le paiement sur place."
+        ],
+        "points_negatifs": [
+            "Nombre d'avis clients encore restreint (4 expériences vécues).",
+            "Disponibilité très limitée avec seulement 2 appartements restants à ce tarif."
+        ],
+        "equipements": [
+            "Appartement entier 1 chambre",
+            "Salon et salle de bains",
+            "Grande terrasse",
+            "Très grand lit double",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "🏡 Intime, tout équipé, confortable et thermal",
+            "public": "Couples et voyageurs en quête d'indépendance et de détente à Zalakaros",
+            "style": "Appartement de particulier haut de gamme",
+            "verdict": "Le Viktoria apartmanok garantit un séjour en toute autonomie avec un niveau de confort irréprochable au cœur de la station thermale de Zalakaros."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 4 expériences vécues · Mise à jour : 2026"
+    },
+    "Heviz Villa Familia": {
+        "pays": "Hongrie",
+        "ville": "Hévíz",
+        "etoiles": "Villa / Hébergement indépendant",
+        "lien_booking": "https://www.booking.com/hotel/hu/heviz-villa-familia.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Heviz-Hotels-Heviz-Villa-Familia.h445566.Description-Hotel",
+        "image": "",
+        "description": "Implanté à Hévíz, célèbre pour son lac thermal unique au monde, l'établissement Hévíz Villa Familia est géré par un particulier et recueille des notes exceptionnelles. Dans le cadre d'une offre saisonnière attractive, il propose la Chambre Double ou Lits Jumeaux climatisée, idéale pour un séjour de détente. L'établissement met en avant des conditions d'accueil flexibles avec annulation gratuite et paiement sur place sans aucun prépaiement.",
+        "prix_moyen": " 446€ / semaine",
+        "avis": "9,6/10 Exceptionnel d'après 80 expériences vécues",
+        "notes_categories": {
+            "confort": "9,5/10"
+        },
+        "points_positifs": [
+            "Proximité de la station thermale et du célèbre lac de Hévíz.",
+            "Atmosphère chaleureuse et attentionnée d'un hébergement géré par un particulier.",
+            "Offre saisonnière avantageuse réduisant le tarif initial.",
+            "Flexibilité totale sans prépaiement et annulation gratuite."
+        ],
+        "points_negatifs": [
+            "Disponibilité extrêmement limitée (plus qu'1 seul hébergement disponible à ce tarif).",
+            "Structure de taille intime limitant les services hôteliers de grande envergure."
+        ],
+        "equipements": [
+            "Climatisation",
+            "Chambre Double ou Lits Jumeaux",
+            "Annulation gratuite",
+            "Paiement sur place sans prépaiement",
+            "Offre saisonnière"
+        ],
+        "pour_qui": {
+            "ambiance": "🌸 Chaleureux, intime, thermal et accueillant",
+            "public": "Curistes et couples désireux de profiter des bienfaits des bains d'Hévíz dans un cadre familial",
+            "style": "Villa de charme indépendante",
+            "verdict": "L'Heviz Villa Familia combine un accueil d'une qualité rare, noté 9,6/10, et un emplacement de choix pour découvrir les sources thermales d'Hévíz en toute sérénité."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 80 expériences vécues · Mise à jour : 2026"
+    },
+    "Royal Club Hotel": {
+        "pays": "Hongrie",
+        "ville": "Visegrád",
+        "etoiles": "4 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/hu/royal-club-hotel-visegrad.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Visegrad-Hotels-Royal-Club-Hotel.h777666.Description-Hotel",
+        "image": "",
+        "description": "Situé dans la ville historique de Visegrád, surplombant le Danube, le Royal Club Hotel est un établissement 4 étoiles superbe et réputé. Il propose la Chambre Double ou Lits Jumeaux Deluxe avec balcon et climatisation, offrant un cadre somptueux pour un séjour tout confort. La formule inclut le petit-déjeuner et le dîner, permettant de savourer pleinement les plaisirs de la table dans cette région pittoresque de la Hongrie.",
+        "prix_moyen": " 1 135€ / semaine",
+        "avis": "8,9/10 Superbe d'après 956 expériences vécues",
+        "notes_categories": {
+            "confort": "9,2/10"
+        },
+        "points_positifs": [
+            "Situation historique remarquable à Visegrád, avec vue sur les paysages du Danube.",
+            "Chambre Deluxe spacieuse dotée d'un balcon et de la climatisation.",
+            "Formule demi-pension comprenant le petit-déjeuner et le dîner.",
+            "Excellentes prestations de confort notées 9,2/10."
+        ],
+        "points_negatifs": [
+            "Forte demande avec plus qu'1 seule chambre disponible à ce tarif promotionnel."
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Chambre Double ou Lits Jumeaux Deluxe avec balcon",
+            "Climatisation",
+            "Petit-déjeuner et dîner compris"
+        ],
+        "pour_qui": {
+            "ambiance": "🏰 Historique, panoramique, confortable et gourmand",
+            "public": "Amateurs d'histoire, de paysages fluviaux et de séjours bien-être en demi-pension",
+            "style": "Hôtel de standing avec vue panoramique",
+            "verdict": "Le Royal Club Hotel à Visegrád est une destination de choix pour s'imprégner de l'histoire royale de la Hongrie tout en profitant d'un confort 4 étoiles supérieur et d'une restauration complète."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 956 expériences vécues · Mise à jour : 2026"
+    },
+    "Viktoria Inn Tihany": {
+        "pays": "Hongrie",
+        "ville": "Tihany",
+        "etoiles": "3 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/hu/viktoria-inn-tihany.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Tihany-Hotels-Viktoria-Inn-Tihany.h333222.Description-Hotel",
+        "image": "",
+        "description": "Niché sur la magnifique presqu'île de Tihany au bord du lac Balaton, le Viktoria Inn Tihany est un établissement fabuleux proposant des appartements tout confort. L'Appartement Standard d'une superficie de 16 m² dispose d'une chambre, d'une salle de bains, de la climatisation ainsi que d'une cuisine privative entièrement équipée. Le séjour inclut un délicieux petit-déjeuner et bénéficie d'une flexibilité totale grâce à l'annulation gratuite, le tout dans un cadre pittoresque inoubliable.",
+        "prix_moyen": " 609€ / semaine",
+        "avis": "9,3/10 Fabuleux d'après 525 expériences vécues",
+        "notes_categories": {
+            "confort": "9,2/10"
+        },
+        "points_positifs": [
+            "Emplacement idyllique sur la presqu'île volcanique et historique de Tihany.",
+            "Appartement privatif doté d'une cuisine fonctionnelle et de la climatisation.",
+            "Petit-déjeuner compris de grande qualité.",
+            "Conditions avantageuses avec l'annulation gratuite."
+        ],
+        "points_negatifs": [
+            "Superficie de l'appartement compacte (16 m²), idéale pour un couple mais nécessitant de l'organisation.",
+            "Forte popularité de la région limitant les disponibilités."
+        ],
+        "equipements": [
+            "Appartement entier 1 chambre",
+            "Cuisine équipée",
+            "Climatisation",
+            "Petit-déjeuner compris",
+            "Annulation gratuite"
+        ],
+        "pour_qui": {
+            "ambiance": "🍇 Pittoresque, charmant, romantique et authentique",
+            "public": "Couples à la recherche d'un séjour de charme au calme sur les hauteurs du Balaton",
+            "style": "Appart-hôtel de charme insulaire",
+            "verdict": "Le Viktoria Inn Tihany conjugue l'indépendance d'un appartement tout équipé et le charme unique de la presqu'île de Tihany pour un séjour fabuleux au bord de l'eau."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 525 expériences vécues · Mise à jour : 2026"
+    },
+    "Park Inn by Radisson Sarvar Resort & Spa - All Inclusive": {
+        "pays": "Hongrie",
+        "ville": "Sárvár",
+        "etoiles": "4 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/hu/park-inn-by-radisson-sarvar-resort-spa.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Sarvar-Hotels-Park-Inn-By-Radisson-Sarvar.h666555.Description-Hotel",
+        "image": "",
+        "description": "Situé à Sárvár, station thermale renommée de l'ouest de la Hongrie, le Park Inn by Radisson Sarvar Resort & Spa est un complexe 4 étoiles d'envergure internationale proposant une formule Tout Compris (All Inclusive). Doté d'une Chambre Standard climatisée avec lit double, l'établissement garantit un séjour de détente absolue sans le moindre souci logistique. Ses installations de premier ordre et sa flexibilité totale avec l'annulation gratuite et le paiement sur place en font une référence incontournable pour les amateurs de vacances thermales et de loisirs en famille.",
+        "prix_moyen": " 1 759€ / semaine",
+        "avis": "9,0/10 Fabuleux d'après 7 055 expériences vécues",
+        "notes_categories": {
+            "confort": "9,0/10"
+        },
+        "points_positifs": [
+            "Formule Tout Compris (All Inclusive) idéale pour un séjour entièrement pris en charge.",
+            "Accès direct aux infrastructures thermales et de loisirs de Sárvár.",
+            "Chambre Standard climatisée confortable et moderne.",
+            "Grande souplesse avec l'annulation gratuite et le paiement sur place."
+        ],
+        "points_negatifs": [
+            "Complexe de grande capacité pouvant être très fréquenté pendant les vacances scolaires.",
+            "Tarif plus élevé justifié par la formule tout compris et l'accès au spa."
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Formule Tout Compris (All Inclusive)",
+            "Accès au complexe thermal et spa",
+            "Climatisation",
+            "Chambre Standard",
+            "Annulation gratuite et paiement sur place"
+        ],
+        "pour_qui": {
+            "ambiance": "💧 Thermal, familial, tout inclus, dynamique et relaxant",
+            "public": "Familles et voyageurs recherchant la formule tout compris parfaite associée aux bienfaits des thermes",
+            "style": "Resort thermal international",
+            "verdict": "Le Park Inn by Radisson Sarvar Resort & Spa - All Inclusive représente le choix suprême pour des vacances 100% détendues à Sárvár, où tout est pensé pour le bien-être et le confort des résidents."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 7 055 expériences vécues · Mise à jour : 2026"
     }
 }

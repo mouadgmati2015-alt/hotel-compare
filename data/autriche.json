@@ -41,5 +41,55 @@
             "verdict": "L'Hotel Sacher Wien est l'adresse incontournable par excellence à Vienne. Entre son emplacement magique face à l'Opéra et son héritage pâtissier légendaire, il offre un séjour d'un romantisme et d'un prestige incomparables."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 1 200+ expériences vécues · Mise à jour : 2026"
+        },
+    "Inntaler Hof": {
+        "pays": "Autriche",
+        "ville": "Seefeld in Tirol",
+        "etoiles": "4 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/at/inntalerhof.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Telfs-Hotel-HOTEL-INNTALER-HOF.h90673988.Description-Hotel",
+        "image": "https://images.trvl-media.com/lodging/91000000/90680000/90674000/90673988/c176c3cb.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Situé dans le charmant petit village de Mösern, au sein de la région olympique de Seefeld, l'Inntaler Hof est un hôtel familial offrant des vues panoramiques imprenables sur la vallée de l'Inn. Idéalement placé pour les amateurs de nature, l'établissement propose un espace bien-être complet avec piscine intérieure, saunas et bains de vapeur, ainsi qu'une formule demi-pension étendue comprenant un copieux buffet de petit-déjeuner, un déjeuner léger, des collations l'après-midi avec boissons sans alcool gratuites, et un dîner raffiné à 4 plats.",
+        "prix_moyen": " 250€ / nuit",
+        "avis": "8,3/10 Très bien d'après 69 expériences vécues",
+        "notes_categories": {
+            "personnel": "8,9/10",
+            "equipements": "8,4/10",
+            "proprete": "8,9/10",
+            "confort": "8,8/10",
+            "rapport_qualite_prix": "7,6/10",
+            "situation_geographique": "9,0/10",
+            "connexion_wifi_gratuite": "10/10"
+        },
+        "points_positifs": [
+            "Situation géographique exceptionnelle notée 9/10, offrant un cadre calme, verdoyant et des vues panoramiques spectaculaires sur la vallée et les montagnes.",
+            "Accueil chaleureux, attentionné et personnel incroyablement professionnel, salué pour sa capacité à choyer les clients et les groupes.",
+            "Espace spa et bien-être de grande qualité comprenant une piscine intérieure, plusieurs saunas, des bains de vapeur et un très joli jardin panoramique.",
+            "Formule de restauration 'demi-pension étendue' très appréciée, incluant un excellent petit-déjeuner, des collations l'après-midi et des dîners variés à 4 plats.",
+            "Proximité immédiate des pistes de ski de fond et des sentiers de randonnée, avec un accès direct depuis l'hôtel et un ski-bus gratuit.",
+            "Propreté irréprochable, confort optimal des chambres et literie de qualité supérieure."
+        ],
+        "points_negatifs": [
+            "Tarifs globaux relativement élevés, reflétant le coût de la vie et des prestations dans la région de Tyrol.",
+            "Rapport qualité/prix légèrement plus bas selon l'appréciation de certains voyageurs en raison des prix pratiqués en haute saison."
+        ],
+        "equipements": [
+            "Piscine intérieure",
+            "Spa et centre de bien-être (saunas, bains de vapeur)",
+            "Chambres non-fumeurs",
+            "Centre de remise en forme",
+            "Équipements pour les personnes handicapées",
+            "Connexion Wi-Fi gratuite haut débit",
+            "2 restaurants",
+            "Service d'étage et bar",
+            "Jardin panoramique et grande terrasse bien exposée"
+        ],
+        "pour_qui": {
+            "ambiance": "🏔️ Alpin, panoramique, familial, relaxant et chaleureux",
+            "public": "Amoureux de nature, randonneurs, fondeurs, couples et familles en quête de détente et de grand air",
+            "style": "Hôtel de bien-être alpin traditionnel",
+            "verdict": "L'Inntaler Hof s'impose comme une halte idéale au cœur du Tyrol pour un séjour alliant bien-être, gastronomie généreuse et paysages alpins à couper le souffle. Grâce à son service attentionné, son spa relaxant et son emplacement de choix pour le ski et la randonnée, il garantit une expérience hautement mémorable."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 69 expériences vécues · Mise à jour : 2026"
     }
 }

@@ -41,5 +41,46 @@
             "verdict": "L'Hôtel Adlon Kempinski Berlin est l'adresse incontournable par excellence dans la capitale allemande. Entre son emplacement historique face à la Porte de Brandebourg et ses prestations fastueuses, il offre un séjour d'une élégance intemporelle."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 1 200+ expériences vécues · Mise à jour : 2026"
+    },
+    "Hotel Hasselhof Garni Vier Sterne": {
+        "pays": "Allemagne",
+        "ville": "Braunlage",
+        "etoiles": "4 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/de/hasselhof.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Braunlage-Hotel-Hotel-Hasselhof-Garni-4-Sterne.h128250758.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/259728462.jpg?k=78a1d49fc304841ce04fec683e33a62fb9ebe8c9d5883a3971443a333b7b3e16&o=",
+        "description": "Offrant une piscine intérieure, un jardin et des chambres spacieuses dotées d'un balcon ou d'une terrasse, cet hôtel 4 étoiles situé dans la station thermale de Braunlage se trouve à proximité de nombreux sentiers de randonnée et de pistes de ski. Il bénéficie d'un emplacement paisible, à l'écart de la rue.",
+        "prix_moyen": " 120€ / nuit",
+        "avis": "8,2/10    Très bien d'après 724 expériences vécues",
+        "points_positifs": [
+            "Situation calme en périphérie de la ville, idéale pour se ressourcer dans un cadre très paisible.",
+            "Proximité immédiate des sentiers de randonnée et des pistes de ski dans les montagnes du Harz.",
+            "Superbe petit-déjeuner buffet copieux, varié et magnifiquement présenté par des hôtes attentionnés.",
+            "Personnel extrêmement aimable, serviable et parlant bien anglais, offrant un accueil chaleureux et familial.",
+            "Chambres spacieuses, propres et confortables, toutes orientées au sud-ouest avec un balcon ou une terrasse et une vue sur le jardin.",
+            "Présence d'une piscine intérieure et d'un espace de détente très apprécié des voyageurs."
+        ],
+        "points_negatifs": [
+            "Ne convient pas pour organiser de grandes fêtes ou célébrations exubérantes.",
+            "Politique stricte refusant les réservations de groupe (plus de 2 chambres ou 4 personnes) pour préserver la tranquillité des lieux.",
+            "Éloigné de l'animation urbaine directe, ce qui peut ne pas convenir aux voyageurs cherchant du bruit ou des sorties nocturnes animées."
+        ],
+        "equipements": [
+            "4 étoiles",
+            "2 piscines",
+            "Spa et centre de bien-être",
+            "Chambres non-fumeurs",
+            "Parking privé",
+            "Connexion Wi-Fi gratuite",
+            "Ski",
+            "Superbe petit-déjeuner"
+        ],
+        "pour_qui": {
+            "ambiance": "🌲 Calme, reposant, chaleureux et familial",
+            "public": "Couples et voyageurs en quête de tranquillité, de nature, de randonnée et de détente",
+            "style": "Hôtel de bien-être et de nature",
+            "verdict": "L'Hotel Hasselhof Garni Vier Sterne est l'adresse parfaite pour les voyageurs recherchant le calme, la sérénité et le confort dans les montagnes du Harz. Grâce à ses hôtes aux petits soins, sa piscine intérieure, ses chambres lumineuses avec balcon et son excellent petit-déjeuner, il garantit un séjour chaleureux et profondément relaxant, particulièrement apprécié des couples."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 724 expériences vécues · Mise à jour : 2026"
     }
 }

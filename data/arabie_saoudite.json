@@ -3,7 +3,7 @@
         "pays": "Arabie saoudite",
         "ville": "Riyad",
         "etoiles": "4 étoiles",
-        "prix_moyen": "120€ / nuit",
+        "prix_moyen": "1400€ / nuit",
         "liens": {
             "booking": "https://www.booking.com/hotel/sa/novotel-alanoud.fr.html",
             "expedia": "https://www.expedia.fr/Riyadh-Hotel-Novotel-Riyadh-Al-Anoud.h2232437.Description-Hotel"
@@ -46,5 +46,57 @@
             "verdict": "Le Novotel Riyadh Al Anoud offre un point de chute prestigieux et idéalement situé dans la tour d'Al-Olaya. Entre ses équipements de bien-être, son service irréprochable et son excellent emplacement, il garantit un séjour des plus agréables."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 631+ expériences vécues · Mise à jour : 2026"
+        },
+    "The Ritz-Carlton Jeddah": {
+        "pays": "Arabie saoudite",
+        "ville": "Djeddah",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/sa/the-ritz-carlton-jeddah.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Jeddah-Hotel-The-Ritz-Carlton.h16339476.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/597000969.jpg?k=4fce1860bc732a2f575c59a3eb624c609927a5ae060f23ee1603bf6b4a1bd976&o=",
+        "description": "Situé dans le quartier prestigieux d'Al Hamra sur la Corniche Sud de Djeddah, l'établissement The Ritz-Carlton Jeddah offre une expérience somptueuse et royale. Proche de la Corniche de Djeddah et du Jet d'eau du roi Fahd, cet hôtel somptueux propose des chambres et suites magnifiquement décorées avec vue sur la mer ou sur la ville, un service d'étage irréprochable, ainsi que des infrastructures de bien-être haut de gamme incluant spa, sauna, bain à remous et centre de remise en forme.",
+        "prix_moyen": " 1580€ / nuit",
+        "avis": "8,8/10 Superbe d'après 2 147 expériences vécues",
+        "notes_categories": {
+            "personnel": "9,1/10",
+            "equipements": "8,9/10",
+            "proprete": "9,1/10",
+            "confort": "9,2/10",
+            "rapport_qualite_prix": "8,4/10",
+            "situation_geographique": "9,3/10",
+            "connexion_wifi_gratuite": "8,9/10"
+        },
+        "points_positifs": [
+            "Situation géographique exceptionnelle notée 9,3/10, idéalement placée sur la Corniche d'Al Hamra et proche des attractions majeures.",
+            "Service d'une qualité extraordinaire offrant une véritable 'expérience royale' grâce à un personnel aux petits soins, professionnel et chaleureux (mentions spéciales relevées pour Mme Moulouk, Mr Omar Logmani, Mr Abdullah et le personnel attentionné).",
+            "Décoration intérieure absolument splendide, somptueuse et élégante qui séduit immédiatement les voyageurs.",
+            "Propreté irréprochable et remarquable dans l'ensemble de l'établissement et des chambres.",
+            "Petit-déjeuner exceptionnel, extrêmement copieux et varié, proposant un large choix (continental, végétarien, halal, américain, etc.) avec des touches humaines très appréciées (comme des boissons chaudes préparées sur mesure en cas de besoin).",
+            "Confort exceptionnel de la literie et des chambres, garantissant des nuits de sommeil de grande qualité.",
+            "Superbes équipements de bien-être incluant spa, sauna, bain à remous, piscine et une salle de sport bien équipée."
+        ],
+        "points_negatifs": [
+            "Système de climatisation parfois difficile à régler intuitivement pour les clients non habitués, nécessitant l'aide du personnel pour éviter d'avoir trop froid dans les suites.",
+            "Tarifs élevés inhérents au positionnement ultra-luxe de la marque, bien que le confort et les prestations soient au rendez-vous."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa et centre de bien-être",
+            "Sauna et bain à remous",
+            "Centre de remise en forme",
+            "2 restaurants",
+            "Navette aéroport",
+            "Parking sur place gratuit",
+            "Connexion Wi-Fi gratuite",
+            "Chambres non-fumeurs et familiales",
+            "Équipements pour personnes handicapées"
+        ],
+        "pour_qui": {
+            "ambiance": "👑 Royale, somptueuse, élégante, chaleureuse et prestigieuse",
+            "public": "Voyageurs de luxe, couples en quête d'un séjour mémorable et clients exigeants recherchant un service irréprochable",
+            "style": "Palace de grand standing au bord de la mer",
+            "verdict": "The Ritz-Carlton Jeddah s'impose comme une adresse d'exception à Djeddah. Porté par une situation géographique remarquable sur la Corniche, des décors somptueux et un sens de l'hospitalité unanimement salué par les clients, cet hôtel garantit un séjour royal, mémorable et empreint d'un confort absolu."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 2 147 expériences vécues · Mise à jour : 2026"
     }
 }

@@ -41,5 +41,55 @@
             "verdict": "Le Fairmont Banff Springs est une légende vivante au Canada. Entre son architecture de château écossais et son décor grandiose au milieu des Rocheuses, il offre un séjour montagnard absolument inoubliable."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 1 400+ expériences vécues · Mise à jour : 2026"
+    },
+    "Hyatt Centric Montreal": {
+        "pays": "Canada",
+        "ville": "Montréal",
+        "etoiles": "4 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/ca/hyatt-centric-ville-marie-montreal.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Montreal-Hotel-Hyatt-Centric-Old-Montreal.h73567320.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/517459074.jpg?k=627cb06c37dc0c2a141f4b37460ad746afd5b57ba67526a9ea04beb445ac232c&o=",
+        "description": "Situé à Montréal, à proximité du Vieux-Montréal, de la station de métro Champ-de-Mars et à 900 mètres de la Plage de l'Horloge, l'établissement Hyatt Centric Montreal propose un hébergement moderne et raffiné. Il dispose d'une superbe piscine extérieure sur le toit (rooftop) avec vue sur la ville, d'une salle de sport très bien équipée, d'un restaurant, d'un bar et d'une terrasse bien exposée.",
+        "prix_moyen": " 260€ / nuit",
+        "avis": "8,7/10 Superbe d'après 1 534 expériences vécues",
+        "notes_categories": {
+            "personnel": "9,0/10",
+            "equipements": "9,0/10",
+            "proprete": "9,2/10",
+            "confort": "9,3/10",
+            "rapport_qualite_prix": "8,4/10",
+            "situation_geographique": "9,2/10",
+            "connexion_wifi_gratuite": "8,4/10"
+        },
+        "points_positifs": [
+            "Situation géographique exceptionnelle notée 9,2/10, idéale pour visiter le Vieux-Montréal à pied et proche du métro Champ-de-Mars.",
+            "Superbe piscine extérieure sur le toit offrant une vue imprenable sur la skyline et la rivière.",
+            "Personnel et direction extrêmement accueillants, professionnels, à l'écoute et de très bon conseil pour les voyageurs.",
+            "Propreté irréprochable et chambres spacieuses, modernes et très propres.",
+            "Confort exceptionnel de la literie et des équipements de la chambre (belle salle de bain, climatisation, bureau, plateau/bouilloire).",
+            "Centre de remise en forme très bien équipé et restaurant/bar de qualité sur place."
+        ],
+        "points_negatifs": [
+            "Petit-déjeuner non systématiquement inclus dans de certains tarifs de base (proposé en option payante).",
+            "Forte affluence possible autour du rooftop et de la piscine en période estivale en raison de son succès."
+        ],
+        "equipements": [
+            "Piscine extérieure (rooftop)",
+            "Chambres non-fumeurs",
+            "Centre de remise en forme",
+            "Équipements pour les personnes handicapées",
+            "Restaurant et Bar",
+            "Service d'étage",
+            "Parking privé",
+            "Connexion Wi-Fi gratuite",
+            "Terrasse bien exposée"
+        ],
+        "pour_qui": {
+            "ambiance": "🏙️ Moderne, urbain, branché, chic et accueillant",
+            "public": "Couples, touristes et voyageurs d'affaires cherchant à explorer le Vieux-Montréal tout en profitant d'un confort haut de gamme",
+            "style": "Hôtel design contemporain avec rooftop",
+            "verdict": "Le Hyatt Centric Montreal est le pied-à-terre parfait pour découvrir Montréal. Alliant un emplacement de premier choix à deux pas du Vieux-Port, un design moderne, un service irréprochable et une magnifique piscine sur le toit, il garantit un séjour mémorable et des plus confortables."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 534 expériences vécues · Mise à jour : 2026"
     }
 }
