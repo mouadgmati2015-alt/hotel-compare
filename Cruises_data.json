@@ -1,0 +1,142 @@
+{
+    "Costa Croisières - Merveilles de la Méditerranée": {
+        "compagnie": "Costa Croisières",
+        "region": "Méditerranée Occidentale",
+        "duree": "8 jours / 7 nuits",
+        "depart": "Marseille (France)",
+        "prix_moyen": "750€ / personne",
+        "avis": "8,5/10 Très bien",
+        "image": "https://www.costacroisieres.fr/map/itineraries/CIV07ACQ/images/fr_FR_CIV07ACQ_landscape_sd_1x.jpg",
+        "lien_reservation": "https://www.costacroisieres.fr/cruises/CIV07ACQ/PA07261114.html",
+        "description": "Une magnifique échappée ensoleillée à la découverte des plus beaux joyaux de la Méditerranée, combinant confort à bord et escales culturelles inoubliables.",
+        "points_positifs": [
+            "Itinéraire complet entre l'Italie, l'Espagne et la France.",
+            "Animations variées pour toute la famille."
+        ],
+        "equipements": [
+            "Piscines et jacuzzis",
+            "Restaurants et buffets à volonté",
+            "Théâtre et spectacles"
+        ],
+        "itineraire_detaille": [
+            "Jour 1 : Embarquement à Marseille (Départ à 18h)",
+            "Jour 2 : Savone (Italie) - Visite de la ville et détente",
+            "Jour 3 : Civitavecchia / Rome - Excursion historique",
+            "Jour 4 : Cagliari (Sardaigne) - Profonde immersion insulaire",
+            "Jour 5 : Palma de Majorque (Espagne) - Escale nocturne",
+            "Jour 6 : Valence (Espagne) - Découverte de la cité des arts",
+            "Jour 7 : Journée en mer - Profiter des activités du navire",
+            "Jour 8 : Retour à Marseille et débarquement"
+        ],
+        "pour_qui": {
+            "verdict": "Idéal pour des vacances rythmées alliant découvertes et farniente."
+        }
+    },
+    "Costa Smeralda - Merveilles de la Méditerranée": {
+        "compagnie": "Costa Croisières",
+        "region": "Italie, France, Espagne",
+        "duree": "6 jours / 5 nuits",
+        "depart": "Civitavecchia | Rome",
+        "prix_moyen": "918€ / 2 passagers",
+        "avis": "Exceptionnel (4/5)",
+        "image": "https://www.costacroisieres.fr/map/itineraries/CIV05A19/images/fr_FR_CIV05A19_landscape_sd_1x.jpg",
+        "lien_reservation": "https://www.costacroisieres.fr/cruises/CIV05A19/SM05261106.html",
+        "description": "Mini-Croisières de 6 jours en Méditerranée à bord du Costa Smeralda. Profitez d'une formule modifiable sans frais, de promotions exclusives et d'un cadre exceptionnel.",
+        "points_positifs": [
+            "Formule modifiable sans frais et bon de réduction C|Club 25%",
+            "10 000 points C|Club supplémentaires",
+            "Pension complète incluse"
+        ],
+        "equipements": [
+            "1.550 Cabines avec balcon",
+            "13 Piscines et jacuzzis",
+            "11 Restaurants et snack-bars",
+            "19 Bar & Lounge"
+        ],
+        "itineraire_detaille": [
+            "Jour 1 (ven. 6 nov. 26) : Civitavecchia | Rome - Départ à 19:00",
+            "Jour 2 (sam. 7 nov. 26) : Savone - Arrivée: 08:30 | Départ: 17:30",
+            "Jour 3 (dim. 8 nov. 26) : Marseille - Arrivée: 08:30 | Départ: 18:00",
+            "Jour 4 (lun. 9 nov. 26) : Barcelone - Arrivée: 08:00 | Départ: 18:00",
+            "Jour 5 (mar. 10 nov. 26) : En navigation",
+            "Jour 6 (mer. 11 nov. 26) : Civitavecchia | Rome - Arrivée: 08:30 (Débarquement)"
+        ],
+        "experiences_bord": [
+            "🏛️ **Colosseo** : Le cœur du navire avec des spectacles variés et des bars thématiques.",
+            "🌿 **Beauty Spa Solemio** : Coiffure, soins du visage, épilation et manucure.",
+            "🍣 **Sushino at Costa** : Premier bistrot à sushis sur la mer (nigiri, maki, sashimi).",
+            "🍳 **Food LAB** : École de cuisine à bord pour créer l'apéritif parfait.",
+            "🍕 **Pummid'Oro Pizzeria** : Pizzas artisanales, acrobaties des pizzaiolos et ambiance festive.",
+            "🍹 **Aperol Spritz Bar** : Musique lounge et coucher de soleil sur la mer.",
+            "🌊 **Aqua Park & Solarium** : Toboggans, piscines et transats pour un ensoleillement optimal."
+        ],
+        "gastronomie_luxe": [
+            "✨ **Archipelago – Edition I** : Menu unique Mer & Terre par Bruno Barbieri, Hélène Darroze et Ángel León (12 plats, 3 visions gastronomiques)."
+        ],
+        "tarifs_details": {
+            "periode": "06 nov. 26 - 11 nov. 26",
+            "passagers": "2 Adultes",
+            "prix_total": "918 €",
+            "prix_par_personne": "459 €",
+            "frais_supplementaires": "Forfait de séjour obligatoire non inclus dans le prix : Adultes 11€ / nuit."
+        },
+        "pour_qui": {
+            "verdict": "Une des destinations les plus aimées de nos clients pour allier confort d'un navire moderne, haute gastronomie et escales inoubliables."
+        }
+    },
+    "Costa Fascinosa - Caraïbes et Antilles": {
+        "compagnie": "Costa Croisières",
+        "region": "Caraïbes et Antilles, 8 jours",
+        "duree": "8 jours / 7 nuits",
+        "depart": "La Romana / Saint-Domingue",
+        "prix_moyen": "918€ / 2 passagers",
+        "avis": "Exceptionnel (4/5)",
+        "image": "https://www.costacroisieres.fr/map/itineraries/LRM07A20/images/fr_FR_LRM07A20_landscape_sd_1x.jpg",
+        "lien_reservation": "https://www.costacroisieres.fr/cruises/LRM07A20/FS07270117.html",
+        "description": "Une croisière paradisiaque de 8 jours à travers les Caraïbes et les Antilles à bord du Costa Fascinosa (République Dominicaine, Martinique, Barbade, Guadeloupe, Saint-Christophe-et-Niévès, Îles Vierges britanniques). Profitez d'une formule modifiable sans frais et d'avantages exclusifs.",
+        "points_positifs": [
+            "Formule modifiable sans frais et bon de réduction C|Club 25%",
+            "10 000 points C|Club supplémentaires",
+            "Pension complète incluse"
+        ],
+        "equipements": [
+            "524 Cabines avec balcon",
+            "9 Piscines et jacuzzis",
+            "6 Restaurants et snack-bars",
+            "12 Bar & Lounge"
+        ],
+        "itineraire_detaille": [
+            "Jour 1 (dim. 17 janv. 27) : La Romana / Saint-Domingue - Départ: 23:59",
+            "Jour 2 (lun. 18 janv. 27) : Point le plus sombre de la mer des Caraïbes (Sea Destination) - De: 23:00 à: 23:59",
+            "Jour 3 (mar. 19 janv. 27) : Martinique - Arrivée: 09:00 | Départ: 19:00",
+            "Jour 4 (mer. 20 janv. 27) : Barbade - Arrivée: 07:00 | Départ: 18:00",
+            "Jour 5 (jeu. 21 janv. 27) : Guadeloupe - Arrivée: 09:00 | Départ: 23:00 / Baie de Guadeloupe (Sea Destination) - De: 23:30 à: 02:00",
+            "Jour 6 (ven. 22 janv. 27) : Basseterre | Saint-Kitts - Arrivée: 09:00 | Départ: 19:00",
+            "Jour 7 (sam. 23 janv. 27) : Road Harbour | Tortola - Arrivée: 07:00 | Départ: 15:00",
+            "Jour 8 (dim. 24 janv. 27) : La Romana / Saint-Domingue - Arrivée: 09:00 (Débarquement)"
+        ],
+        "experiences_bord": [
+            "🎭 **Théâtre** : Spectacles grandioses chaque soir (comédies musicales, acrobates, jeux).",
+            "🌿 **Beauty Spa Solemio** : Coiffure, soins du visage, épilation et manucure.",
+            "🍣 **Sushino at Costa** : Premier bistrot à sushis sur la mer (nigiri, maki, sashimi, mochi).",
+            "🍔 **The Salty Beach Street Food** : Hamburgers et focaccie farcies au bord de la piscine.",
+            "🍕 **Pummid'Oro Pizzeria** : Pizza 100% made in Italy avec pâte à levée lente.",
+            "🍹 **Aperol Spritz Bar** : Musique lounge et coucher de soleil sur la mer.",
+            "🍷 **Bar Amarcord** : Produits et marques italiennes authentiques.",
+            "🌊 **Solarium** : L'endroit idéal pour bronzer, boire un cocktail et admirer le sillage du navire."
+        ],
+        "gastronomie_luxe": [
+            "✨ **Archipelago – Edition I** : Menu unique Mer & Terre par Bruno Barbieri, Hélène Darroze et Ángel León (12 plats, 3 visions gastronomiques)."
+        ],
+        "tarifs_details": {
+            "periode": "17 janv. 27 - 24 janv. 27",
+            "passagers": "2 Adultes",
+            "prix_total": "918 €",
+            "prix_par_personne": "459 €",
+            "frais_supplementaires": "Forfait de séjour obligatoire non inclus dans le prix : Adultes 12€ / nuit."
+        },
+        "pour_qui": {
+            "verdict": "Une des destinations les plus aimées pour s'évader sous le soleil des Caraïbes et des Antilles avec tout le confort et le divertissement à bord."
+        }
+    }
+}

@@ -215,7 +215,8 @@ with col_titre:
 st.markdown("---")
 
 # --- Boutons de Navigation (Redirection vers les pages multipages) ---
-b1, b2, b3, b4 = st.columns(4)
+b1, b2, b3, b4, b5 = st.columns(5)
+
 with b1:
     if st.button("🏨 Hôtels", use_container_width=True):
         st.session_state.page = "Comparateur Hôtels"
@@ -227,8 +228,12 @@ with b3:
     if st.button("🚗 Loueurs de Véhicules", use_container_width=True):
         st.switch_page("pages/2_Loueurs_Vehicules.py")
 with b4:
+    # --- CHANGEMENT ICI : Nom "Croisières" et redirection vers cruises.py ---
+    if st.button("🚢 Croisières", use_container_width=True):
+        st.switch_page("pages/3_Cruises.py")
+with b5:
     if st.button("📖 Blog", use_container_width=True):
-        st.switch_page("pages/3_Blog.py")
+        st.switch_page("pages/4_Blog.py")
 
 st.markdown("---")
 
