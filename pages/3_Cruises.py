@@ -94,7 +94,7 @@ with b4:
     pass
 with b5:
   if st.button("📖 Blog", use_container_width=True):
-    st.switch_page("pages/3_Blog.py")
+    st.switch_page("pages/4_Blog.py")
 
 st.markdown("---")
 
