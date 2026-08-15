@@ -79,7 +79,8 @@
             "Centre de fitness / Salle de sport",
             "Réception ouverte 24h/24",
             "Service de bagagerie",
-            "Salles de réunion et séminaires"
+            "Salles de réunion et séminaires",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Urbain, branché, rooftop et découverte",
@@ -124,7 +125,8 @@
             "Restaurants gastronomiques & Bars",
             "Service de voiturier et parking",
             "Conciergerie 24h/24",
-            "Salles de conférences de standing"
+            "Salles de conférences de standing",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxe moderne, élégance et détente urbaine",
@@ -169,7 +171,8 @@
             "Climatisation réversible",
             "Parking gratuit pour les clients",
             "Réception ouverte 24h/24",
-            "Terrasses solarium aménagées"
+            "Terrasses solarium aménagées",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Marin, paisible et confortable",
@@ -214,7 +217,8 @@
             "Navette régulière vers la plage",
             "Restaurants gastronomiques & Bars",
             "Court de tennis et salle de fitness",
-            "Parking privé gratuit"
+            "Parking privé gratuit",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🍸 Adulte, calme, romantique et luxueux",
@@ -259,7 +263,8 @@
             "Wi-Fi gratuit",
             "Restaurants et bars thématiques",
             "Parking privé gratuit",
-            "Espaces de jeux pour enfants"
+            "Espaces de jeux pour enfants",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Grand air, détente et accessibilité",
@@ -304,7 +309,8 @@
             "Wi-Fi gratuit",
             "Centre de bien-être et massages",
             "Installations sportives (tennis, fitness)",
-            "Parking privé gratuit"
+            "Parking privé gratuit",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌿 Verdoyant, spectaculaire, paisible et haut de gamme",
@@ -349,7 +355,8 @@
             "Restaurants et bars branchés",
             "Salles de sport et remise en forme",
             "Parking privé",
-            "Réception multilingue 24h/24"
+            "Réception multilingue 24h/24",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏖️ Chic, balnéaire, ensoleillé et stratégique",
@@ -574,7 +581,8 @@
             "Restaurants gastronomiques privatifs",
             "Soins de bien-être exclusifs en chambre",
             "Transferts héliport / aéroport VIP",
-            "Terrasses privées solarium"
+            "Terrasses privées solarium",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "💎 Prestigieux, exceptionnel, romantique et exclusif",
@@ -664,7 +672,8 @@
             "Climatisation intégrale",
             "Parking privé gratuit",
             "Service de conciergerie VIP",
-            "Espaces de yoga et bien-être"
+            "Espaces de yoga et bien-être",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Tendance, design, exclusif et lumineux",
@@ -709,7 +718,8 @@
             "Wi-Fi gratuit haut débit",
             "Centre de fitness haut de gamme",
             "Service de voiturier et parking",
-            "Salles de congrès et banquets"
+            "Salles de congrès et banquets",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Thalasso, luxe iconique, bien-être et prestige",

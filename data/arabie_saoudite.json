@@ -37,7 +37,8 @@
             "Parking privé gratuit sur place",
             "Navette aéroport & Service de voiturier",
             "Chambres familiales et non-fumeurs",
-            "Salon de coiffure et boutique de souvenirs"
+            "Salon de coiffure et boutique de souvenirs",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Contemporain, d'affaires, élégant, urbain et relaxant",
@@ -46,7 +47,7 @@
             "verdict": "Le Novotel Riyadh Al Anoud offre un point de chute prestigieux et idéalement situé dans la tour d'Al-Olaya. Entre ses équipements de bien-être, son service irréprochable et son excellent emplacement, il garantit un séjour des plus agréables."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 631+ expériences vécues · Mise à jour : 2026"
-        },
+    },
     "The Ritz-Carlton Jeddah": {
         "pays": "Arabie saoudite",
         "ville": "Djeddah",
@@ -89,7 +90,8 @@
             "Parking sur place gratuit",
             "Connexion Wi-Fi gratuite",
             "Chambres non-fumeurs et familiales",
-            "Équipements pour personnes handicapées"
+            "Équipements pour personnes handicapées",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "👑 Royale, somptueuse, élégante, chaleureuse et prestigieuse",

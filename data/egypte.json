@@ -20,7 +20,8 @@
             "Wi-Fi",
             "Piscine",
             "Certificat de durabilité",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Balnéaire, détendu et marin",
@@ -46,7 +47,7 @@
         ],
         "points_negatifs": [
             "Forte demande"
-            ],
+        ],
         "equipements": [
             "Piscine",
             "Formule tout compris",
@@ -149,7 +150,8 @@
             "Parking gratuit",
             "Bar",
             "Plage privée",
-            "Superbe petit-déjeuner"
+            "Superbe petit-déjeuner",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎢 Ludique, familial et luxueux",
@@ -180,7 +182,8 @@
             "Piscine / Aquapark",
             "Certificat de durabilité",
             "Dîner compris",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌟 Haut de gamme, moderne et familial",
@@ -210,7 +213,8 @@
         "equipements": [
             "Piscine",
             "Certificat de durabilité",
-            "Demi-pension (petit-déjeuner et dîner)"
+            "Demi-pension (petit-déjeuner et dîner)",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🐠 Marin, paisible et dépaysant",
@@ -240,7 +244,8 @@
         "equipements": [
             "Piscine",
             "Certificat de durabilité",
-            "Paiement sur place possible"
+            "Paiement sur place possible",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🤿 Convivial, marin et familial",
@@ -270,7 +275,8 @@
         "equipements": [
             "Piscine",
             "Tout compris",
-            "Plage privée"
+            "Plage privée",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "☀️ Familial, central et animé",
@@ -279,7 +285,7 @@
             "verdict": "Un choix économique, chaleureux et idéalement placé pour profiter pleinement de l'énergie d'Hurghada. Son positionnement exclusif pour les familles et les couples assure une atmosphère conviviale et sereine tout au long de la semaine. C'est une solution futée pour des vacances réussies sans se ruiner."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 1 233 expériences vécues · Mise à jour : 2026"
-      },  
+    },
     "Golden Beach Resort": {
         "pays": "Égypte",
         "ville": "Hurghada",
@@ -300,7 +306,8 @@
         "equipements": [
             "Piscine",
             "Tout compris",
-            "Plage"
+            "Plage",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Grand club de vacances, animé",
@@ -390,7 +397,8 @@
         "equipements": [
             "Jacuzzi",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Vue unique, intime et luxueuse",
@@ -420,7 +428,8 @@
         "equipements": [
             "Piscine",
             "Suite privée",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Luxueux, marin et exclusif",
@@ -450,7 +459,8 @@
         "equipements": [
             "Bungalow entier",
             "Piscine",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Tropical, détendu et central",
@@ -480,7 +490,8 @@
         "equipements": [
             "Piscine",
             "Spa",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "💼 Économique et fonctionnel",
@@ -600,7 +611,8 @@
         "equipements": [
             "Piscine",
             "Certificat de durabilité",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Vaste, marin et familial",
@@ -630,7 +642,8 @@
         "equipements": [
             "Piscine",
             "Centre de plongée",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🤿 Sportif, calme et simple",
@@ -660,7 +673,8 @@
         "equipements": [
             "Piscine",
             "Balcon",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "👨‍👩‍👧‍👦 Familial, pratique et spacieux",
@@ -690,7 +704,8 @@
         "equipements": [
             "Parking gratuit",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏔️ Moderne, neuf et panoramique",
@@ -750,7 +765,8 @@
         "equipements": [
             "Parking gratuit",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎨 Artistique, culturel et accueillant",
@@ -780,7 +796,8 @@
         "equipements": [
             "Parking gratuit",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "💰 Ultra économique, sympathique",
@@ -810,7 +827,8 @@
         "equipements": [
             "Piscine",
             "Appartement entier",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌾 Authentique, calme et culturel",
@@ -840,7 +858,8 @@
         "equipements": [
             "Piscine",
             "Cuisine équipée",
-            "Chalet entier"
+            "Chalet entier",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏖️ Marin, indépendant et familial",
@@ -900,7 +919,8 @@
         "equipements": [
             "Jacuzzi",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌅 Convivial, pittoresque et abordable",
@@ -930,7 +950,8 @@
         "equipements": [
             "Parking gratuit",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Moderne, calme et résidentiel",
@@ -960,7 +981,8 @@
         "equipements": [
             "Bar",
             "Suite familiale",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🥂 Convivial et relaxant",
@@ -1050,7 +1072,8 @@
         "equipements": [
             "Vue mer",
             "Cuisine équipée",
-            "Appartement entier 115 m²"
+            "Appartement entier 115 m²",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Luxueux, marin et spacieux",
@@ -1140,7 +1163,8 @@
         "equipements": [
             "Piscine",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏊 Piscine et proximité des monuments",
@@ -1170,7 +1194,8 @@
         "equipements": [
             "Proche métro",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🚇 Urbain, pratique et confortable",
@@ -1200,7 +1225,8 @@
         "equipements": [
             "Parking gratuit",
             "Jardin",
-            "Appartement 2 chambres"
+            "Appartement 2 chambres",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏺 Culturel, chaleureux et dépaysant",
@@ -1230,7 +1256,8 @@
         "equipements": [
             "Proche métro",
             "Petit-déjeuner inclus",
-            "Chambre quadruple"
+            "Chambre quadruple",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Chic, urbain et confortable",
@@ -1260,7 +1287,8 @@
         "equipements": [
             "Parking gratuit",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Spacieux, moderne et confortable",
@@ -1290,7 +1318,8 @@
         "equipements": [
             "Parking gratuit",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "⛰️ Pratique et simple",
@@ -1320,7 +1349,8 @@
         "equipements": [
             "Piscine",
             "Chambre familiale géante",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "👨‍👩‍👧‍👦 Très grande capacité",
@@ -1350,7 +1380,8 @@
         "equipements": [
             "Rooftop",
             "Parking gratuit",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌅 Panoramique, convivial et magique",
@@ -1380,7 +1411,8 @@
         "equipements": [
             "Jacuzzi",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🛁 Confortable et relaxant",
@@ -1410,7 +1442,8 @@
         "equipements": [
             "Parking gratuit",
             "Balcon",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌿 Vert, simple et bien placé",
@@ -1440,7 +1473,8 @@
         "equipements": [
             "Proche métro",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Central, culturel et pratique",
@@ -1470,7 +1504,8 @@
         "equipements": [
             "Piscine",
             "Demi-pension",
-            "Plage privée"
+            "Plage privée",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Balnéaire, détendu et luxueux",
@@ -1500,7 +1535,8 @@
         "equipements": [
             "Parking gratuit",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "👨‍👩‍👧‍👦 Familial et très économique",
@@ -1560,7 +1596,8 @@
         "equipements": [
             "Rooftop",
             "Parking gratuit",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌇 Pratique et adapté aux groupes",
@@ -1590,7 +1627,8 @@
         "equipements": [
             "Vue mer",
             "Cuisine équipée",
-            "Appartement 150 m²"
+            "Appartement 150 m²",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Prestigieux, spacieux et marin",
@@ -1620,7 +1658,8 @@
         "equipements": [
             "Parking gratuit",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Haut de gamme, soigné et intime",
@@ -1650,7 +1689,8 @@
         "equipements": [
             "Piscine",
             "Cuisine équipée",
-            "Studio entier"
+            "Studio entier",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "👨‍👩‍👧‍👦 Familial, sécurisant et calme",
@@ -1680,7 +1720,8 @@
         "equipements": [
             "Parking gratuit",
             "Tout compris",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Balnéaire, simple et abordable",
@@ -1710,7 +1751,8 @@
         "equipements": [
             "Piscine",
             "Certificat de durabilité",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌟 Luxueux, éco-responsable et animé",
@@ -1800,7 +1842,8 @@
         "equipements": [
             "Parking gratuit",
             "Demi-pension",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🍽️ Calme, résidentiel et pratique",
@@ -1830,7 +1873,8 @@
         "equipements": [
             "Piscine",
             "Tous les repas inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🤿 Marin, reposant et axé plongée",
@@ -1920,7 +1964,8 @@
         "equipements": [
             "Parking gratuit",
             "Vue mer et jardin",
-            "Cuisine équipée"
+            "Cuisine équipée",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "👨‍👩‍👧‍👦 Familial, spacieux et marin",
@@ -2010,7 +2055,8 @@
         "equipements": [
             "Parking gratuit",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎒 Économique et bien situé",
@@ -2070,7 +2116,8 @@
         "equipements": [
             "Piscine",
             "Petit-déjeuner inclus",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🐠 Marin, détendu et abordable",
@@ -2100,7 +2147,8 @@
         "equipements": [
             "Piscine",
             "Tout compris",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Luxueux, marin et détendu",
@@ -2130,7 +2178,8 @@
         "equipements": [
             "Piscine",
             "Appartement 80 m²",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌾 Spacieux, calme et culturel",
@@ -2190,7 +2239,8 @@
         "equipements": [
             "Piscine",
             "Suite privée",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏊 Pratique, spacieux et économique",
@@ -2220,7 +2270,8 @@
         "equipements": [
             "Piscine",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Moderne et résidentiel",
@@ -2250,7 +2301,8 @@
         "equipements": [
             "Jacuzzi",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🛁 Relaxant et très bien placé",
@@ -2295,7 +2347,7 @@
         "ville": "Le Caire",
         "etoiles": "3 étoiles",
         "lien": "https://www.booking.com/hotel/eg/snug-pyramid-lodge.fr.html?",
-"image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/902904426.jpg?k=3e4d1f1433411bc9f262b67435f10d58a188fb8f7f98e1ddefd023fc894ae3c0&o=",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/902904426.jpg?k=3e4d1f1433411bc9f262b67435f10d58a188fb8f7f98e1ddefd023fc894ae3c0&o=",
         "description": "Idéalement positionné à Gizeh à proximité du nouveau musée, cet établissement superbe propose de vastes chambres quadruples de luxe. Il dispose d'un bar accueillant, d'un niveau de confort évalué à 9,0 et d'un petit-déjeuner compris de qualité. Les conditions de règlement direct sur place apportent la souplesse financière idéale pour les voyages en groupe. L'atmosphère moderne et l'espace généreux des suites garantissent un séjour des plus agréables.",
         "prix_moyen": "331€ / semaine",
         "avis": "8,9/10",
@@ -2310,7 +2362,8 @@
         "equipements": [
             "Bar",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🍸 Moderne, spacieux et panoramique",
@@ -2374,7 +2427,8 @@
             "Centre de bien-être et spa",
             "Restaurants et bars",
             "Wi-Fi",
-            "Navette pour la plage"
+            "Navette pour la plage",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Familial, ludique, détendu et ensoleillé",
@@ -2385,5 +2439,3 @@
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     }
 }
-
- 

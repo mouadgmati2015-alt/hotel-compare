@@ -41,7 +41,7 @@
             "verdict": "L'Hotel Sacher Wien est l'adresse incontournable par excellence à Vienne. Entre son emplacement magique face à l'Opéra et son héritage pâtissier légendaire, il offre un séjour d'un romantisme et d'un prestige incomparables."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 1 200+ expériences vécues · Mise à jour : 2026"
-        },
+    },
     "Inntaler Hof": {
         "pays": "Autriche",
         "ville": "Seefeld in Tirol",
@@ -82,7 +82,8 @@
             "Connexion Wi-Fi gratuite haut débit",
             "2 restaurants",
             "Service d'étage et bar",
-            "Jardin panoramique et grande terrasse bien exposée"
+            "Jardin panoramique et grande terrasse bien exposée",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏔️ Alpin, panoramique, familial, relaxant et chaleureux",

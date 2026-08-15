@@ -42,7 +42,7 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 1 600+ expériences vécues · Mise à jour : 2026"
     },
- "Joey's Hostel Jaipur": {
+    "Joey's Hostel Jaipur": {
         "pays": "Inde",
         "ville": "Jaipur",
         "etoiles": "Auberge de jeunesse",
@@ -75,7 +75,8 @@
             "Salon commun",
             "Réception ouverte 24h/24",
             "Installations pour barbecue",
-            "Chambres familiales et dortoirs"
+            "Chambres familiales et dortoirs",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎒 Conviviale, sociale, animée, chaleureuse et décontractée",
@@ -85,7 +86,7 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 637 expériences vécues · Mise à jour : 2026"
     },
-        "Conrad Pune": {
+    "Conrad Pune": {
         "pays": "Inde",
         "ville": "Pune",
         "etoiles": "5 étoiles",
@@ -120,7 +121,8 @@
             "7 restaurants et bars",
             "Centre de remise en forme 24h/24",
             "Navette aéroport",
-            "Chambres familiales et non-fumeurs"
+            "Chambres familiales et non-fumeurs",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "💼 Luxueux, moderne, élégant, professionnel et raffiné",
@@ -130,7 +132,7 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 615 expériences vécues · Mise à jour : 2026"
     },
-        "Vivanta Coimbatore": {
+    "Vivanta Coimbatore": {
         "pays": "Inde",
         "ville": "Coimbatore",
         "etoiles": "5 étoiles",
@@ -165,7 +167,8 @@
             "3 restaurants et bars",
             "Centre de remise en forme 24h/24",
             "Navette aéroport",
-            "Chambres non-fumeurs et familiales"
+            "Chambres non-fumeurs et familiales",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Urbain, moderne, dynamique, élégant et chaleureux",
@@ -175,5 +178,4 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 1 034 expériences vécues · Mise à jour : 2026"
     }
-  }
-
+}

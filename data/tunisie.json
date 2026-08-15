@@ -4,7 +4,7 @@
         "ville": "Djerba",
         "etoiles": "Maison d'hôtes",
         "lien_booking": "https://www.booking.com/hotel/tn/dar-salem-djerba2.fr.html?",
-        "lien_expedia":"https://www.expedia.fr/Hotel-Search?destination=Dar%20Salem%2C%20Midoun%2C%20Gouvernorat%20de%20M%C3%A9denine%2C%20Tunisie&regionId=500579&latLong=33.864252%2C10.971321&propertyId=33152683&selected=33152683&hotelId=33152683&flexibility=0_DAY&d1=2026-08-12&startDate=2026-08-12&d2=2026-08-18&endDate=2026-08-18&adults=2&rooms=1&typeaheadCollationId=e6b94ffb-6163-4133-b34c-003798f6281d&sort=RECOMMENDED&theme=&userIntent=&semdtl=&categorySearch=&useRewards=false?",
+        "lien_expedia": "https://www.expedia.fr/Hotel-Search?destination=Dar%20Salem%2C%20Midoun%2C%20Gouvernorat%20de%20M%C3%A9denine%2C%20Tunisie&regionId=500579&latLong=33.864252%2C10.971321&propertyId=33152683&selected=33152683&hotelId=33152683&flexibility=0_DAY&d1=2026-08-12&startDate=2026-08-12&d2=2026-08-18&endDate=2026-08-18&adults=2&rooms=1&typeaheadCollationId=e6b94ffb-6163-4133-b34c-003798f6281d&sort=RECOMMENDED&theme=&userIntent=&semdtl=&categorySearch=&useRewards=false?",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/727504677.jpg?k=e6baf5bb626c3fb67d4084b52feed01a4acc6926e6b162f03cf0d63ee9d58414&o=",
         "description": "Une adresse charmante qui met en valeur l'art de vivre djerbien avec un confort moderne discret. Dotée d'un jardin reposant et d'une propreté irréprochable, cette maison d'hôtes se distingue par l'attention de son personnel, toujours aux petits soins pour garantir un séjour des plus ressourçants.",
         "prix_moyen": "75€ - 130€ / nuit",
@@ -21,7 +21,8 @@
             "Wi-Fi gratuit",
             "Jardin et terrasse",
             "Chambres climatisées",
-            "Service de chambre attentionné"
+            "Service de chambre attentionné",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌿 Sereine, chaleureuse, soignée et reposante",
@@ -56,7 +57,8 @@
             "Accès direct aux services liés au golf",
             "Restaurants et bars",
             "Wi-Fi gratuit",
-            "Parking"
+            "Parking",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "⛳ Calme, sportive, axée sur le bien-être et la détente",
@@ -90,7 +92,8 @@
             "Animation internationale et club enfants",
             "Restaurants et bars",
             "Wi-Fi",
-            "Parking"
+            "Parking",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎉 Animé, international, convivial et familial",
@@ -126,7 +129,8 @@
             "Restaurants et bars",
             "Club enfants et animations",
             "Wi-Fi",
-            "Parking"
+            "Parking",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎉 Animé, festif, familial et chaleureux",
@@ -141,7 +145,7 @@
         "ville": "Djerba",
         "etoiles": "3 étoiles",
         "lien_booking": "https://www.booking.com/hotel/tn/hari-club-beach-resort-ultra-all-inclusive.fr.html?",
-        "lien_expedia":"https://www.expedia.fr/Aghir-Hotel-Smy-Hari-Club-Djerba.h21360003.Description-Hotel?",
+        "lien_expedia": "https://www.expedia.fr/Aghir-Hotel-Smy-Hari-Club-Djerba.h21360003.Description-Hotel?",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/120234281.jpg?k=32ffe31f10a511fb6dd082704b00db977eb09d2ed9c626d2411fcd809d53de7b&o=",
         "description": "Un complexe balnéaire familial orienté détente et loisirs simples, parfait pour les budgets modérés.",
         "prix_moyen": "90€ - 140€ / nuit",
@@ -159,7 +163,8 @@
             "Piscine extérieure",
             "Plage",
             "Restaurant",
-            "Wi-Fi (lobby)"
+            "Wi-Fi (lobby)",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Simple, familial et décontracté",
@@ -192,7 +197,8 @@
             "Piscines intérieures et extérieures",
             "Restaurants gastronomiques",
             "Plage privée",
-            "Wi-Fi gratuit"
+            "Wi-Fi gratuit",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, calme, feutré et prestigieux",
@@ -201,7 +207,7 @@
             "verdict": "Le summum du luxe à Djerba pour un séjour entièrement dédié à la détente haut de gamme."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
-        }, 
+    },
     "Hotel Riad Meninx": {
         "pays": "Tunisie",
         "ville": "Djerba",
@@ -225,7 +231,8 @@
             "Plage à proximité",
             "Restaurants et bars",
             "Animations et club enfants",
-            "Wi-Fi dans les espaces communs"
+            "Wi-Fi dans les espaces communs",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Convivial, animé, simple et familial",
@@ -256,7 +263,8 @@
         "equipements": [
             "Chambres basiques",
             "Accueil simple",
-            "Proximité des commodités urbaines"
+            "Proximité des commodités urbaines",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Simple, économique et de passage",
@@ -287,7 +295,8 @@
             "Piscine extérieure",
             "Restaurant",
             "Wi-Fi",
-            "Proximité Houmt Souk"
+            "Proximité Houmt Souk",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Chaleureux, urbain et convivial",
@@ -319,7 +328,8 @@
             "Accès direct à la plage",
             "Piscine extérieure",
             "Restaurant",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Balnéaire, détendue et conviviale",
@@ -351,7 +361,8 @@
             "Grandes piscines extérieures",
             "Proximité marina",
             "Restaurants et bars",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "☀️ Animée, centrale et spacieuse",
@@ -383,7 +394,8 @@
             "Piscine extérieure",
             "Accès direct plage",
             "Spa et bien-être",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌿 Paisible, adulte et reposante",
@@ -415,7 +427,8 @@
             "Centre de thalassothérapie",
             "Piscine extérieure et couverte",
             "Accès direct à la plage",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Calme, feutré et orienté bien-être",
@@ -447,7 +460,8 @@
             "Piscine extérieure",
             "Accès direct à la plage",
             "Restaurant",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Conviviale, club et animée",
@@ -480,7 +494,8 @@
             "Spa et centre de bien-être",
             "Plage privée",
             "Restaurants gastronomiques",
-            "Wi-Fi haut débit"
+            "Wi-Fi haut débit",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueuse, intime, rétro-chic et sophistiquée",
@@ -513,7 +528,8 @@
             "Jardin arboré",
             "Restaurant",
             "Bar",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌲 Verdoyante, calme et reposante",
@@ -546,7 +562,8 @@
             "Grandes piscines extérieures et intérieures",
             "Spa",
             "Restaurants multiples",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏰 Grandieuse, luxueuse et animée",
@@ -578,7 +595,8 @@
             "Piscine extérieure",
             "Restaurant",
             "Wi-Fi",
-            "Proche de la marina"
+            "Proche de la marina",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Moderne, urbaine et élégante",
@@ -610,7 +628,8 @@
             "Patio traditionnel",
             "Wi-Fi",
             "Petit-déjeuner inclus",
-            "Salon commun"
+            "Salon commun",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏡 Authentique, intime et chaleureuse",
@@ -643,7 +662,8 @@
             "Piscines",
             "Sports nautiques",
             "Restaurants et bars",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌳 Verdoyante, club et familiale",
@@ -676,7 +696,8 @@
             "Spa et thalassothérapie",
             "Piscines",
             "Restaurants raffinés",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🕊️ Feutrée, relaxante et haut de gamme",
@@ -709,7 +730,8 @@
             "Installations sportives variées",
             "Piscines",
             "Plage privée",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "⚽ Sportive, dynamique et haut de gamme",
@@ -742,7 +764,8 @@
             "Parc luxuriant",
             "Restaurants gastronomiques",
             "Piscines",
-            "Spa"
+            "Spa",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Prestigieuse, intime et intemporelle",
@@ -775,7 +798,8 @@
             "Formule All Inclusive",
             "Plage privée",
             "Piscines",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎢 Aquatique, festive et familiale",
@@ -807,7 +831,8 @@
             "Piscine extérieure",
             "Jardins",
             "Restaurant",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌳 Verdoyante, calme et classique",
@@ -840,7 +865,8 @@
             "Piscine",
             "Restaurant",
             "Wi-Fi",
-            "Proche des commerces"
+            "Proche des commerces",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "⛵ Portuaire, animée et confortable",
@@ -872,7 +898,8 @@
             "Piscine extérieure",
             "Restaurant",
             "Animations",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "👨‍👩‍👧‍👦 Familiale, simple et centrale",
@@ -905,7 +932,8 @@
             "Jardin tropical",
             "Piscines",
             "Restaurants gastronomiques",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌿 Luxueuse, tropicale et sophistiquée",
@@ -938,7 +966,8 @@
             "Plage privée",
             "Piscines somptueuses",
             "Restaurants gastronomiques",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "👑 Prestigieuse, somptueuse et reposante",
@@ -970,7 +999,8 @@
             "Piscine",
             "Proche de la plage",
             "Restaurant",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "☀️ Décontractée, simple et économique",
@@ -1002,7 +1032,8 @@
             "Toboggans aquatiques / piscines",
             "Animations familiales",
             "Restaurant",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "👨‍👩‍👧‍👦 Animée, familiale et ludique",
@@ -1034,7 +1065,8 @@
             "Jardins verdoyants",
             "Piscine",
             "Proche des terrains de golf",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "⛳ Calme, verdoyante et sportive (golf)",
@@ -1067,7 +1099,8 @@
             "Grande piscine extérieure",
             "Beaux jardins",
             "Restaurants et bars",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌺 Lumineuse, soignée et balnéaire",
@@ -1100,7 +1133,8 @@
             "Piscines somptueuses",
             "Architecture mauresque",
             "Restaurants raffinés",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🕌 Majestueuse, luxueuse et relaxante",
@@ -1133,7 +1167,8 @@
             "Spa luxueux",
             "Restaurants gastronomiques",
             "Vue sur la marina",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Prestigieuse, française et raffinée",
@@ -1166,7 +1201,8 @@
             "Beaux jardins",
             "Proche de la plage",
             "Restaurant",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌺 Verdoyante, conviviale et chaleureuse",
@@ -1199,7 +1235,8 @@
             "Piscine",
             "Animations",
             "Restaurant",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎭 Animée, locale et festive",
@@ -1232,7 +1269,8 @@
             "Plage privée",
             "Piscines extérieures et intérieures",
             "Restaurants gastronomiques",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌟 Luxueuse, élégante et relaxante",
@@ -1265,7 +1303,8 @@
             "Formule All Inclusive",
             "Plage privée",
             "Animations",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Aquatique, festive et familiale",
@@ -1297,7 +1336,8 @@
             "Piscine",
             "Accès plage",
             "Restaurant",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏖️ Simple, conviviale et balnéaire",
@@ -1330,7 +1370,8 @@
             "Piscine extérieure",
             "Jardins",
             "Restaurant",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌿 Verdoyante, relaxante et club",
@@ -1363,7 +1404,8 @@
             "Spa et bien-être",
             "Piscines",
             "Restaurants",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Moderne, balnéaire et familiale",
@@ -1396,7 +1438,8 @@
             "Piscine",
             "Animations",
             "Restaurant",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎉 Animée, club et conviviale",
@@ -1429,7 +1472,8 @@
             "Plage privée",
             "Restaurant",
             "Tennis",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏛️ Vaste, classique et économique",
@@ -1462,7 +1506,8 @@
             "Accès plage",
             "Piscine",
             "Restaurant",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏖️ Simple, balnéaire et économique",
@@ -1495,7 +1540,8 @@
             "Piscine extérieure",
             "Animations club",
             "Restaurant",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎉 Conviviale, festive et de plage",
@@ -1527,7 +1573,8 @@
             "Piscine extérieure",
             "Jardins",
             "Restaurant",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌳 Calme, verdoyante et familiale",
@@ -1559,7 +1606,8 @@
             "Appartements équipés",
             "Piscine",
             "Wi-Fi",
-            "Parking"
+            "Parking",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏡 Autonome, calme et pratique",
@@ -1591,7 +1639,8 @@
             "Piscine extérieure",
             "Jardin",
             "Appartements / studios",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏺 Traditionnelle, calme et pittoresque",
@@ -1623,7 +1672,8 @@
             "Piscine",
             "Jardins",
             "Logements autonomes",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌺 Verdoyante, paisible et familiale",
@@ -1655,7 +1705,8 @@
             "Piscine",
             "Décoration typique",
             "Terrasses panoramiques",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎨 Artistique, pittoresque et élégante",
@@ -1688,7 +1739,8 @@
             "Plage privée",
             "Piscines multiples",
             "Restaurants raffinés",
-            "Wi-Fi haut débit"
+            "Wi-Fi haut débit",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "💎 Contemporaine, luxueuse et relaxante",
@@ -1720,7 +1772,8 @@
             "Piscine",
             "Restaurant",
             "Wi-Fi",
-            "Parking"
+            "Parking",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Simple, fonctionnelle et accessible",
@@ -1752,7 +1805,8 @@
             "Patio traditionnel",
             "Petit-déjeuner inclus",
             "Wi-Fi",
-            "Espaces de détente"
+            "Espaces de détente",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏡 Intime, authentique et chaleureuse",
@@ -1784,7 +1838,8 @@
             "Piscine",
             "Restaurant",
             "Wi-Fi",
-            "Proche des commerces"
+            "Proche des commerces",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Simple, centrale et pratique",
@@ -1816,7 +1871,8 @@
             "Jardin",
             "Terrasse",
             "Wi-Fi",
-            "Petit-déjeuner maison"
+            "Petit-déjeuner maison",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏡 Familiale, chaleureuse et locale",
@@ -1848,7 +1904,8 @@
             "Appartements équipés",
             "Piscine",
             "Wi-Fi",
-            "Proche du port"
+            "Proche du port",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "⛵ Animée, moderne et pratique",
@@ -1880,7 +1937,8 @@
             "Piscine / lagon",
             "Appartements équipés",
             "Jardins",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Relaxante, aquatique et paisible",
@@ -1913,7 +1971,8 @@
             "Piscines multiples",
             "Restaurants",
             "Tennis",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Vaste, thalasso et familiale",
@@ -1946,7 +2005,8 @@
             "Piscine",
             "Bungalows berbères",
             "Animations",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Berbère, verdoyante et club",
@@ -1979,7 +2039,8 @@
             "Piscine",
             "Accès plage",
             "Formule All Inclusive",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "⚽ Sportive, animée et familiale",
@@ -2011,7 +2072,8 @@
             "Piscine",
             "Restaurant",
             "Wi-Fi",
-            "Jardin"
+            "Jardin",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏡 Chaleureuse, pratique et locale",
@@ -2041,7 +2103,8 @@
         ],
         "equipements": [
             "Accès direct à la plage",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏖️ Balnéaire, familial et décontracté",
@@ -2074,7 +2137,8 @@
             "Piscines",
             "Formule All Inclusive",
             "Animations",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎉 Familiale, club et balnéaire",
@@ -2106,7 +2170,8 @@
             "Jardins de citronniers",
             "Piscine extérieure",
             "Restaurant",
-            "Wi-Fi"
+            "Wi-Fi",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🍋 Verdoyante, calme et parfumée",
@@ -2139,7 +2204,8 @@
             "Villas et bungalows de luxe",
             "Spa d'exception",
             "Restaurants gastronomiques",
-            "Wi-Fi haut débit"
+            "Wi-Fi haut débit",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🍊 Luxueuse, végétale et prestigieuse",
@@ -2173,7 +2239,8 @@
             "Réception ouverte 24h/24",
             "Jardin et terrasse",
             "Épicerie / supérette sur place",
-            "Service de blanchisserie"
+            "Service de blanchisserie",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Urbain, chaleureux, calme et pratique",
@@ -2203,7 +2270,8 @@
         "equipements": [
             "Wi-Fi gratuit",
             "Proximité plage et port",
-            "Appartements équipés"
+            "Appartements équipés",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "⛵ Marin, indépendant et pratique",
@@ -2232,7 +2300,8 @@
         ],
         "equipements": [
             "Wi-Fi gratuit",
-            "Réception ouverte 24h/24"
+            "Réception ouverte 24h/24",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "💼 Simple, économique et fonctionnel",
@@ -2264,7 +2333,8 @@
             "Wi-Fi gratuit",
             "Piscine extérieure",
             "Spa et centre de bien-être",
-            "Accès direct plage"
+            "Accès direct plage",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Marin, relaxant et bien situé",
@@ -2296,7 +2366,8 @@
             "Wi-Fi gratuit",
             "Piscine extérieure",
             "Balcon privé",
-            "Parking gratuit"
+            "Parking gratuit",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Central, urbain et animé",
@@ -2327,7 +2398,8 @@
         "equipements": [
             "Accès direct plage",
             "Parking gratuit",
-            "Jardin"
+            "Jardin",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏖️ Balnéaire simple et décontracté",
@@ -2360,7 +2432,8 @@
             "Grandes piscines",
             "Hammam",
             "Plage privée",
-            "Tennis"
+            "Tennis",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏊 Grand complexe, familial et sportif",
@@ -2393,7 +2466,8 @@
             "Spa de luxe",
             "Plage privée",
             "Restaurants gastronomiques",
-            "Proche du golf"
+            "Proche du golf",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, moderne et raffiné",
@@ -2425,7 +2499,8 @@
             "Formule All Inclusive",
             "Plage privée",
             "Piscines",
-            "Clubs enfants"
+            "Clubs enfants",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "👨‍👩‍👧‍👦 Familial, animé et convivial",
@@ -2455,7 +2530,8 @@
         "equipements": [
             "Piscine",
             "Jardin et terrasse",
-            "Proche plage"
+            "Proche plage",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Classique et bien placé",
@@ -2485,7 +2561,8 @@
         "equipements": [
             "Front de mer",
             "Proche golf",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "⛳ Paisible et familial",
@@ -2517,7 +2594,8 @@
             "3 piscines avec toboggans",
             "Accès direct plage",
             "Bars et restaurants",
-            "Activités enfants"
+            "Activités enfants",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Géant, aquatique et animé",
@@ -2549,7 +2627,8 @@
             "Grand parc aquatique",
             "Formule tout compris",
             "Piscines",
-            "Animations"
+            "Animations",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎈 Dynamique, fun et tout compris",
@@ -2579,7 +2658,8 @@
         "equipements": [
             "Piscine",
             "Plage à proximité",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Balnéaire, détendu et maritime",
@@ -2602,7 +2682,8 @@
             "Piscine",
             "Spa",
             "All Inclusive",
-            "Plage privée"
+            "Plage privée",
+            "Climatisation"
         ],
         "points_positifs": [
             "Plage magnifique",
@@ -2640,7 +2721,8 @@
         "equipements": [
             "Piscine",
             "Centre de thalassothérapie",
-            "Front de mer"
+            "Front de mer",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌸 Bien-être, détente et relaxation",
@@ -2671,7 +2753,8 @@
         "equipements": [
             "Piscine",
             "Front de mer",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Grand complexe balnéaire et animé",
@@ -2702,7 +2785,8 @@
             "Piscine",
             "Centre de thalassothérapie",
             "Tout compris",
-            "Dîner compris"
+            "Dîner compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌸 Luxueux, thermal et reposant",
@@ -2732,7 +2816,8 @@
         "equipements": [
             "Piscine",
             "Front de mer",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎉 Animé, familial et festif",
@@ -2794,7 +2879,8 @@
         "equipements": [
             "Piscine",
             "Front de mer",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Simple et balnéaire",
@@ -2856,7 +2942,8 @@
             "Piscine",
             "Front de mer",
             "Spa / Thalasso",
-            "Certificat de durabilité"
+            "Certificat de durabilité",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, marin et relaxant",
@@ -2887,7 +2974,8 @@
             "Piscine",
             "Front de mer",
             "Tout compris",
-            "Adults Only"
+            "Adults Only",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🍸 Calme, adulte et raffiné",
@@ -2917,7 +3005,8 @@
         "equipements": [
             "Piscine",
             "Front de mer",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Balnéaire, vivant et confortable",
@@ -2948,7 +3037,8 @@
             "Piscine",
             "Spa",
             "Front de mer",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Animé, grand format et populaire",
@@ -2979,7 +3069,8 @@
             "Piscine",
             "Spa",
             "Front de mer",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, moderne et soigné",
@@ -3009,7 +3100,8 @@
         "equipements": [
             "Piscine",
             "Front de mer",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌟 Haut de gamme, relaxant et marin",
@@ -3069,7 +3161,8 @@
         "equipements": [
             "Piscine",
             "Front de mer",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌳 Spacieux, verdoyant et balnéaire",
@@ -3100,7 +3193,8 @@
             "Piscine",
             "Spa",
             "Front de mer",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Central, marin et confortable",
@@ -3160,7 +3254,8 @@
         "equipements": [
             "Piscine",
             "Front de mer",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Familial et vaste",
@@ -3370,7 +3465,8 @@
         "equipements": [
             "Front de mer",
             "Spa",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌸 Balnéaire et relaxant",
@@ -3491,7 +3587,8 @@
         "equipements": [
             "Parc aquatique",
             "Front de mer",
-            "Demi-pension"
+            "Demi-pension",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎢 Ludique, familial et aquatique",
@@ -3671,7 +3768,8 @@
         "equipements": [
             "Thalasso / Spa",
             "Certificat de durabilité",
-            "Demi-pension"
+            "Demi-pension",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌿 Vert, deAteint et éco-responsable",
@@ -3701,7 +3799,8 @@
         "equipements": [
             "Bungalow entier",
             "Tout compris",
-            "Spa"
+            "Spa",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Spacieux et verdoyant",
@@ -3881,7 +3980,8 @@
         "equipements": [
             "Tout compris",
             "Certificat de durabilité",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Professionnel, soigné et qualitatif",
@@ -3911,7 +4011,8 @@
         "equipements": [
             "Spa",
             "Tout compris",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌸 Détente et loisirs",
@@ -3971,7 +4072,8 @@
         "equipements": [
             "5 étoiles",
             "Tout compris",
-            "Piscine / Spa"
+            "Piscine / Spa",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, raffiné et haut de gamme",
@@ -4242,7 +4344,8 @@
             "5 étoiles",
             "Tout compris",
             "Front de mer",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, moderne et marin",
@@ -4302,7 +4405,8 @@
         "equipements": [
             "Tout compris",
             "Bungalow",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎾 Sportif, animé et familial",
@@ -4332,7 +4436,8 @@
         "equipements": [
             "Spa",
             "Petit-déjeuner inclus",
-            "Suite privée"
+            "Suite privée",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌸 Intime, charmant et relaxant",
@@ -4362,7 +4467,8 @@
         "equipements": [
             "Centre de plongée",
             "Thalasso",
-            "Tous les repas compris"
+            "Tous les repas compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🤿 Marin, nature et sportif",
@@ -4452,7 +4558,8 @@
         "equipements": [
             "Thalasso / Spa",
             "Tout compris",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌸 Bien-être, thermal et marin",
@@ -4482,7 +4589,8 @@
         "equipements": [
             "5 étoiles",
             "Petit-déjeuner inclus",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Saharien, luxueux et dépaysant",
@@ -4602,7 +4710,8 @@
         "equipements": [
             "Spa",
             "Tout compris",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Verdoyant et deAteint",
@@ -4632,7 +4741,8 @@
         "equipements": [
             "Parc aquatique",
             "Thalasso / Spa",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎢 Ludique, familial et aquatique",
@@ -4722,7 +4832,8 @@
         "equipements": [
             "5 étoiles",
             "Certificat de durabilité",
-            "Front de mer"
+            "Front de mer",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Prestigieux, chic et marin",
@@ -4782,7 +4893,8 @@
         "equipements": [
             "Parc aquatique",
             "Tout compris",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎢 Ludique, familial et aquatique",
@@ -4872,7 +4984,8 @@
         "equipements": [
             "Immersion désert",
             "Annulation gratuite",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "⛺ Dépaysant, magique et authentique",
@@ -5233,7 +5346,8 @@
         "equipements": [
             "5 étoiles",
             "Thalasso / Spa",
-            "Demi-pension"
+            "Demi-pension",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌸 Luxueux, thermal et animé",
@@ -5534,7 +5648,8 @@
             "5 étoiles",
             "Thalasso / Spa",
             "Vue mer",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, thermal et marin",
@@ -5594,7 +5709,8 @@
         "equipements": [
             "5 étoiles",
             "Certificat de durabilité",
-            "Vue sur lac"
+            "Vue sur lac",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, moderne et soigné",
@@ -5654,7 +5770,8 @@
         "equipements": [
             "5 étoiles",
             "Spa",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌸 Luxueux, relaxant et balnéaire",
@@ -5954,7 +6071,8 @@
         "equipements": [
             "Thalasso / Spa",
             "Certificat de durabilité",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌸 Thermal, vert et relaxant",
@@ -6074,7 +6192,8 @@
         "equipements": [
             "Tout compris",
             "Certificat de durabilité",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Marin, éco-responsable et tout compris",
@@ -6164,7 +6283,8 @@
         "equipements": [
             "5 étoiles",
             "Tout compris",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, moderne et exceptionnel",
@@ -6524,7 +6644,8 @@
         "equipements": [
             "5 étoiles",
             "Adults Only",
-            "Thalasso / Spa"
+            "Thalasso / Spa",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🍸 Calme, luxueux et reposant",
@@ -6584,7 +6705,8 @@
         "equipements": [
             "Thalasso / Spa",
             "Tout compris",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌸 Thermal, vaste et balnéaire",
@@ -6644,7 +6766,8 @@
         "equipements": [
             "Vue montagne / oasis",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏔️ Majestueux, montagneux et dépaysant",
@@ -6794,7 +6917,8 @@
         "equipements": [
             "5 étoiles",
             "Certificat de durabilité",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, soigné et marin",
@@ -6854,7 +6978,8 @@
         "equipements": [
             "5 étoiles",
             "Thalasso / Spa",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌸 Luxueux, thermal et raffiné",
@@ -6884,7 +7009,8 @@
         "equipements": [
             "5 étoiles",
             "Tout compris",
-            "Piscine / Spa"
+            "Piscine / Spa",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, moderne et irréprochable",
@@ -6944,7 +7070,8 @@
         "equipements": [
             "Front de mer",
             "Spa",
-            "Demi-pension"
+            "Demi-pension",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Marin, paradisiaque et relaxant",
@@ -6974,7 +7101,8 @@
         "equipements": [
             "5 étoiles",
             "Adults Only",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🍸 Chic, adulte et paisible",
@@ -7064,7 +7192,8 @@
         "equipements": [
             "5 étoiles",
             "Front de mer",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, marin et reposant",
@@ -7124,7 +7253,8 @@
         "equipements": [
             "Riad traditionnel",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏛️ Authentique, charmant et économique",
@@ -7184,7 +7314,8 @@
         "equipements": [
             "Tout compris",
             "Bungalows",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Verdoyant, animé et tout compris",
@@ -7244,7 +7375,8 @@
         "equipements": [
             "Suite junior",
             "Petit-déjeuner inclus",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Spacieux et abordable",
@@ -7513,7 +7645,8 @@
         "equipements": [
             "Petit-déjeuner inclus",
             "Annulation gratuite",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏜️ Troglodyte, historique et économique",
@@ -7603,7 +7736,8 @@
         "equipements": [
             "Médina",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏛️ Authentique, culturel et économique",
@@ -7633,7 +7767,8 @@
         "equipements": [
             "5 étoiles",
             "Suite Deluxe",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Saharien, somptueux et haut de gamme",
@@ -7753,7 +7888,8 @@
         "equipements": [
             "Tout compris",
             "Vue mer",
-            "Piscine / Spa"
+            "Piscine / Spa",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Sportif, chic et tout compris",
@@ -7843,7 +7979,8 @@
         "equipements": [
             "Cadre montagnard",
             "Petit-déjeuner inclus",
-            "Chambre double"
+            "Chambre double",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌲 Forestier et montagnard",
@@ -7903,7 +8040,8 @@
         "equipements": [
             "Design éco-responsable",
             "Demi-pension",
-            "Piscine / Spa"
+            "Piscine / Spa",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌵 Design, minimaliste et apaisant",
@@ -7963,7 +8101,8 @@
         "equipements": [
             "Spa",
             "Front de mer",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Chic, balnéaire et relaxant",
@@ -7993,7 +8132,8 @@
         "equipements": [
             "Médina",
             "Paiement sur place",
-            "Chambre double"
+            "Chambre double",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎒 Très économique et central",
@@ -8293,7 +8433,8 @@
         "equipements": [
             "5 étoiles",
             "Tout compris",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Balnéaire, vaste et tout compris",
@@ -8503,7 +8644,8 @@
         "equipements": [
             "Spa",
             "Demi-pension",
-            "Front de mer"
+            "Front de mer",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌸 Marin, relaxant et soigné",
@@ -8593,7 +8735,8 @@
         "equipements": [
             "Parc aquatique",
             "Petit-déjeuner inclus",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎢 Ludique et familial",
@@ -8623,7 +8766,8 @@
         "equipements": [
             "Thalasso / Spa",
             "Bungalow",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌸 Thermal, intime et ensoleillé",
@@ -8894,7 +9038,8 @@
             "5 étoiles",
             "Thalasso / Spa",
             "Bungalow",
-            "Tout compris"
+            "Tout compris",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, écologique et reposant",
@@ -8984,7 +9129,8 @@
         "equipements": [
             "5 étoiles",
             "Thalasso / Spa",
-            "Villa de golf"
+            "Villa de golf",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, forestier et thermal",
@@ -9133,7 +9279,8 @@
         "equipements": [
             "Centre-ville",
             "Annulation gratuite",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Pratique, propre et économique",
@@ -9223,7 +9370,8 @@
         "equipements": [
             "5 étoiles",
             "Villa de luxe",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Saharien, ultra-luxueux et paradisiaque",
@@ -9253,7 +9401,8 @@
         "equipements": [
             "5 étoiles",
             "Vue mer panoramique",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Mythique, romantique et luxueux",
@@ -9403,7 +9552,8 @@
         "equipements": [
             "Tous les repas compris",
             "Bungalow",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Verdoyant, animé et familial",
@@ -9743,5 +9893,4 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 16 expériences vécues · Mise à jour : 2026."
     }
-} 
-    
+}

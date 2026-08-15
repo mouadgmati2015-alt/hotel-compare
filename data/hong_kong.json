@@ -41,7 +41,7 @@
             "verdict": "The Peninsula Hong Kong est l'adresse absolue de la métropole. Entre son héritage colonial, sa vue magique sur le port et son service hors pair, il incarne le summum du voyage de luxe."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 1 600+ expériences vécues · Mise à jour : 2026"
-        },
+    },
     "Best Western Plus Hotel Hong Kong": {
         "pays": "Hong Kong",
         "ville": "Hong Kong",
@@ -77,7 +77,8 @@
             "Centre de fitness",
             "Chambres non-fumeurs",
             "Connexion Wi-Fi gratuite",
-            "Réception 24h/24"
+            "Réception 24h/24",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏮 Authentique, vivant, pratique et confortable",
@@ -122,7 +123,8 @@
             "Service de navette gratuite",
             "Chambres non-fumeurs",
             "Connexion Wi-Fi gratuite",
-            "Espace fitness"
+            "Espace fitness",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎨 Tendance, coloré, design, créatif et chaleureux",
@@ -167,7 +169,8 @@
             "Centre de fitness",
             "Chambres non-fumeurs",
             "Connexion Wi-Fi haut débit gratuite",
-            "Réception et conciergerie"
+            "Réception et conciergerie",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "💼 Moderne, connecté, élégant, minimaliste et urbain",
@@ -212,7 +215,8 @@
             "Chambres non-fumeurs",
             "Connexion Wi-Fi gratuite",
             "Réception ouverte 24h/24",
-            "Service de change"
+            "Service de change",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🛍️ Central, animé, ultra-pratique et dynamique",
@@ -257,7 +261,8 @@
             "Plusieurs restaurants et bars",
             "Centre de remise en forme",
             "Chambres non-fumeurs",
-            "Connexion Wi-Fi gratuite"
+            "Connexion Wi-Fi gratuite",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌟 Confortable, complet, animé, accueillant et réputé",
@@ -302,7 +307,8 @@
             "Centre de fitness haut de gamme",
             "Chambres non-fumeurs",
             "Connexion Wi-Fi haut débit gratuite",
-            "Service de conciergerie VIP"
+            "Service de conciergerie VIP",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎨 Artistique, luxueux, branché, spectaculaire et exclusif",
@@ -347,7 +353,8 @@
             "Chambres non-fumeurs",
             "Connexion Wi-Fi gratuite",
             "Réception 24h/24",
-            "Service de change"
+            "Service de change",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🚶 Économique, central, simple, pratique et animé",
@@ -392,7 +399,8 @@
             "Connexion Wi-Fi haut débit gratuite",
             "Climatisation sophistiquée",
             "Sécurité par badge",
-            "Espaces communs propres"
+            "Espaces communs propres",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🚀 Futuriste, minimaliste, high-tech, jeune et ultra-central",
@@ -403,4 +411,3 @@
         "meta_avis": "Contenu résumé par IA sur la base des expériences voyageurs · Mise à jour : 2026"
     }
 }
-    

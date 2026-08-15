@@ -41,7 +41,7 @@
             "verdict": "The Peninsula Shanghai est une adresse de premier plan. Entre son emplacement magique sur le Bund, son service d'exception et son raffinement Art déco, il garantit un séjour inoubliable."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 1 100+ expériences vécues · Mise à jour : 2026"
-        },
+    },
     "East Beijing Hotel": {
         "pays": "Chine",
         "ville": "Beijing",
@@ -77,7 +77,8 @@
             "Centre de remise en forme",
             "Restaurant et bar",
             "Connexion Wi-Fi gratuite",
-            "Chambres non-fumeurs"
+            "Chambres non-fumeurs",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌟 Moderne, branché, dynamique et élégant",
@@ -87,7 +88,7 @@
         },
         "meta_avis": "Contenu résumé par IA · Mise à jour : 2026"
     },
-        "Gran Melia Xian": {
+    "Gran Melia Xian": {
         "pays": "Chine",
         "ville": "Xi'an",
         "etoiles": "5 étoiles",
@@ -122,7 +123,8 @@
             "Spa et centre de bien-être",
             "Jardin et terrasse",
             "Restaurants",
-            "Connexion Wi-Fi gratuite"
+            "Connexion Wi-Fi gratuite",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌿 Luxueux, serein, historique et verdoyant",
@@ -167,7 +169,8 @@
             "Centre de remise en forme",
             "Restaurants",
             "Salles de réunion",
-            "Connexion Wi-Fi gratuite"
+            "Connexion Wi-Fi gratuite",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "💼 Professionnel, confortable, accueillant et fonctionnel",
@@ -212,7 +215,8 @@
             "Spa et centre de bien-être",
             "Grand jardin paysager",
             "Plusieurs restaurants gastronomiques",
-            "Connexion Wi-Fi gratuite"
+            "Connexion Wi-Fi gratuite",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌺 Prestigieux, tropical, raffiné et chaleureux",
@@ -222,4 +226,4 @@
         },
         "meta_avis": "Contenu résumé par IA · Mise à jour : 2026"
     }
-    }
+}

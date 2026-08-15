@@ -218,21 +218,21 @@ st.markdown("---")
 b1, b2, b3, b4, b5 = st.columns(5)
 
 with b1:
-    if st.button("🏨 Hôtels", use_container_width=True):
+    if st.button("Hôtels", icon=":material/hotel:", use_container_width=True):
         st.session_state.page = "Comparateur Hôtels"
         st.rerun()
 with b2:
-    if st.button("✈️ Compagnies Aériennes", use_container_width=True):
+    if st.button("Compagnies Aériennes", icon=":material/flight:", use_container_width=True):
         st.switch_page("pages/1_Compagnies_Aeriennes.py")
 with b3:
-    if st.button("🚗 Loueurs de Véhicules", use_container_width=True):
+    if st.button("Location de Véhicules", icon=":material/directions_car:", use_container_width=True):
         st.switch_page("pages/2_Loueurs_Vehicules.py")
 with b4:
-    # --- CHANGEMENT ICI : Nom "Croisières" et redirection vers cruises.py ---
-    if st.button("🚢 Croisières", use_container_width=True):
+    if st.button("Croisières", icon=":material/directions_boat:", use_container_width=True):
         st.switch_page("pages/3_Cruises.py")
+
 with b5:
-    if st.button("📖 Blog", use_container_width=True):
+    if st.button("Blog", icon=":material/article:", use_container_width=True):
         st.switch_page("pages/4_Blog.py")
 
 st.markdown("---")
@@ -256,24 +256,28 @@ else:
     # ==============================================================================
     
     # --- Style CSS pour les badges et images ---
-    st.markdown("""
+    st.markdown(
+    """
     <style>
-        .badge-note {
-            background-color: #003580;
-            color: white;
-            padding: 5px 10px;
-            border-radius: 6px;
-            font-weight: bold;
-            font-size: 1.1em;
-        }
-        .hotel-card div[data-testid="stImage"] img {
-            height: 150px !important;
-            object-fit: cover !important;
-            width: 100% !important;
-            border-radius: 8px !important;
-        }
+    /* Cible spécifiquement le bouton de lien st.link_button */
+    [data-testid="stLinkButton"] a {
+        background-color: #003580 !important;
+        color: #FFFFFF !important;
+        border: none !important;
+        border-radius: 8px !important;
+        font-weight: 600 !important;
+    }
+    
+    /* Force le texte interne du lien en blanc */
+    [data-testid="stLinkButton"] a div, 
+    [data-testid="stLinkButton"] a p, 
+    [data-testid="stLinkButton"] a span {
+        color: #FFFFFF !important;
+    }
     </style>
-    """, unsafe_allow_html=True)
+""",
+    unsafe_allow_html=True,
+)
 
 # ==============================================================================
 # SECTION 1 : CAROUSEL & PROMO CÔTE À CÔTE (HAUT DE PAGE)
@@ -364,26 +368,76 @@ with col_promo:
 # ==============================================================================
 st.markdown("---")
 st.subheader("💡 Comment comparer vos hôtels")
-st.markdown("1. Sélectionnez pays et ville. 2. Choisissez deux hôtels. 3. Cliquez sur Comparer.")
+st.markdown(
+    "1. Sélectionnez pays et ville. 2. Choisissez deux hôtels. 3. Cliquez sur"
+    " Comparer."
+)
 
 # --- Menus de sélection du Comparateur ---
-pays_disponibles = sorted(list(set(str(d.get("pays", "Autre")).strip() for d in HOTELS_DATA.values() if isinstance(d, dict))))
-c_pays, c_ville, c1, c2, c_btn1, c_btn2 = st.columns([2, 2, 2.5, 2.5, 1.8, 1.2])
+pays_disponibles = sorted(
+    list(
+        set(
+            str(d.get("pays", "Autre")).strip()
+            for d in HOTELS_DATA.values()
+            if isinstance(d, dict)
+        )
+    )
+)
+c_pays, c_ville, c1, c2, c_btn1, c_btn2 = st.columns(
+    [2, 2, 2.5, 2.5, 1.8, 1.2]
+)
 
-choix_pays = c_pays.selectbox("Pays", [""] + pays_disponibles, key="comp_pays")
-villes_disponibles_comp = sorted(list(set(str(d.get("ville", "Autre")).strip() for d in HOTELS_DATA.values() if isinstance(d, dict) and (not choix_pays or str(d.get("pays", "")).strip() == choix_pays))))
-choix_ville = c_ville.selectbox("Ville", [""] + villes_disponibles_comp, key="comp_ville")
+choix_pays = c_pays.selectbox(
+    "Pays",
+    pays_disponibles,
+    index=None,
+    placeholder="Choisissez un pays",
+    key="comp_pays",
+)
 
-hotels_filtres_comp = [nom for nom, d in HOTELS_DATA.items() if isinstance(d, dict) and (not choix_pays or str(d.get("pays", "")).strip() == choix_pays) and (not choix_ville or str(d.get("ville", "")).strip() == choix_ville)]
+villes_disponibles_comp = sorted(
+    list(
+        set(
+            str(d.get("ville", "Autre")).strip()
+            for d in HOTELS_DATA.values()
+            if isinstance(d, dict)
+            and (not choix_pays or str(d.get("pays", "")).strip() == choix_pays)
+        )
+    )
+)
+choix_ville = c_ville.selectbox(
+    "Ville",
+    villes_disponibles_comp,
+    index=None,
+    placeholder="Choisissez une ville",
+    key="comp_ville",
+)
 
-choix1 = c1.selectbox("Premier hôtel", [""] + hotels_filtres_comp)
+hotels_filtres_comp = [
+    nom
+    for nom, d in HOTELS_DATA.items()
+    if isinstance(d, dict)
+    and (not choix_pays or str(d.get("pays", "")).strip() == choix_pays)
+    and (not choix_ville or str(d.get("ville", "")).strip() == choix_ville)
+]
+
+choix1 = c1.selectbox(
+    "Premier hôtel",
+    hotels_filtres_comp,
+    index=None,
+    placeholder="Choisissez un 1er hébergement",
+)
 hotels_restants = [h for h in hotels_filtres_comp if h != choix1]
-choix2 = c2.selectbox("Deuxième hôtel", [""] + hotels_restants)
+choix2 = c2.selectbox(
+    "Deuxième hôtel",
+    hotels_restants,
+    index=None,
+    placeholder="Choisissez un 2nd hébergement",
+)
 
 valider = c_btn1.button("Comparer", type="primary", use_container_width=True)
 if c_btn2.button("Reset", use_container_width=True):
-    st.rerun()
-
+  st.rerun()
 # --- Affichage des résultats du Comparateur ---
 if valider:
     comparaison = [c for c in [choix1, choix2] if c != ""]
@@ -488,6 +542,24 @@ if valider:
                 st.markdown('</div>', unsafe_allow_html=True)
 # SECTION 2 : RECHERCHE D'HÔTEL PAR CRITÈRES (SÉCURISÉE)
 # ==============================================================================
+st.markdown(
+    """
+    <style>
+    /* Correction pour les tags sélectionnés dans le multiselect */
+    .stMultiSelect [data-baseweb="tag"] {
+        background-color: #ff4b4b !important; /* Fond rouge */
+    }
+    .stMultiSelect [data-baseweb="tag"] span {
+        color: #ffffff !important; /* Texte blanc */
+    }
+    /* Garde le texte de la zone de saisie visible */
+    .stMultiSelect div[data-baseweb="select"] span {
+        color: #ffffff !important; 
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 st.markdown("---")
 st.subheader("🎯 Recherche d'hôtel par critères")
 st.write("Filtrez précisément selon vos envies ci-dessous 👇")
@@ -522,68 +594,78 @@ filtre_equipements_multi = st.multiselect(
         "Parking", 
         "Petit-déjeuner inclus"
     ],
+    placeholder="Choisissez un ou plusieurs équipements",
     key="crit_equip_multi"
 )
 
 # --- SÉCURITÉ : Vérification si l'utilisateur a fait au moins un choix ---
 aucun_filtre_actif = (
-    filtre_pays_crit == "Tous" and 
-    filtre_ville_crit == "Toutes" and 
-    filtre_etoiles_crit == "Tous" and 
-    not filtre_equipements_multi
+    not filtre_pays_crit
+    and not filtre_ville_crit
+    and not filtre_etoiles_crit
+    and not filtre_equipements_multi
 )
 
 if aucun_filtre_actif:
-    st.info("👆 Veuillez sélectionner au moins un critère ci-dessus (Pays, Ville, Standing ou Équipement) pour afficher les hôtels correspondants.")
+    st.info(
+        "👆 Veuillez sélectionner au moins un critère ci-dessus (Pays, Ville, Standing ou Équipement) pour afficher les hôtels correspondants."
+    )
 else:
-    # --- Filtrage combiné ---
     hotels_filtres_crit = []
 
+    # --- Filtrage combiné (ET strict pour les équipements) ---
     for nom, info in HOTELS_DATA.items():
         if not isinstance(info, dict):
             continue
-            
-        pays_hotel = str(info.get("pays", ""))
-        ville_hotel = str(info.get("ville", ""))
-        etoiles_hotel = str(info.get("etoiles", ""))
-        
-        equipements_str = " ".join(info.get('equipements', []))
-        texte_complet = f"{nom} {pays_hotel} {ville_hotel} {info.get('description', '')} {' '.join(info.get('points_positifs', []))} {equipements_str}".lower()
-        
-        # Filtre Pays
-        if filtre_pays_crit != "Tous" and filtre_pays_crit.lower() not in pays_hotel.lower():
+
+        pays_hotel = str(info.get("pays", "")).strip().lower()
+        ville_hotel = str(info.get("ville", "")).strip().lower()
+        etoiles_hotel = str(info.get("etoiles", "")).strip().lower()
+
+        equipements_str = " ".join(info.get("equipements", []))
+        texte_complet = (
+            f"{nom} {pays_hotel} {ville_hotel} {info.get('description', '')}"
+            f" {' '.join(info.get('points_positifs', []))} {equipements_str}"
+        ).lower()
+
+        # Filtre Pays (ignoré si "Tous" ou vide)
+        if filtre_pays_crit and filtre_pays_crit != "Tous" and filtre_pays_crit.strip().lower() not in pays_hotel:
             continue
             
-        # Filtre Ville
-        if filtre_ville_crit != "Toutes" and filtre_ville_crit.lower() not in ville_hotel.lower():
+        # Filtre Ville (ignoré si "Toutes" ou vide)
+        if filtre_ville_crit and filtre_ville_crit != "Toutes" and filtre_ville_crit.strip().lower() not in ville_hotel:
             continue
             
-        # Filtre Étoiles
-        if filtre_etoiles_crit != "Tous" and filtre_etoiles_crit.lower() not in etoiles_hotel.lower():
+        # Filtre Étoiles / Standing (ignoré si "Tous" ou vide)
+        if filtre_etoiles_crit and filtre_etoiles_crit != "Tous" and filtre_etoiles_crit.strip().lower() not in etoiles_hotel:
             continue
-            
-        # Filtres Équipements
+
         if filtre_equipements_multi:
-            match_un_equipement = False
+            tous_les_criteres_sont_presents = True
             for eq in filtre_equipements_multi:
+                match_cet_equipement = False
                 if eq == "Piscine" and any(m in texte_complet for m in ["piscine", "bassin"]):
-                    match_un_equipement = True
+                    match_cet_equipement = True
                 elif eq == "Centre-ville" and any(m in texte_complet for m in ["centre", "habib", "bourguiba", "emplacement"]):
-                    match_un_equipement = True
+                    match_cet_equipement = True
                 elif eq == "Parc aquatique / Toboggans" and any(m in texte_complet for m in ["aquatique", "toboggan"]):
-                    match_un_equipement = True
+                    match_cet_equipement = True
                 elif eq == "Spa / Bien-être" and any(m in texte_complet for m in ["spa", "bien-être", "thalasso"]):
-                    match_un_equipement = True
+                    match_cet_equipement = True
                 elif eq == "Climatisation" and any(m in texte_complet for m in ["climatisation", "climatisé"]):
-                    match_un_equipement = True
+                    match_cet_equipement = True
                 elif eq == "Vue mer" and any(m in texte_complet for m in ["vue mer", "front de mer", "mer", "plage"]):
-                    match_un_equipement = True
+                    match_cet_equipement = True
                 elif eq == "Parking" and any(m in texte_complet for m in ["parking", "stationnement"]):
-                    match_un_equipement = True
+                    match_cet_equipement = True
                 elif eq == "Petit-déjeuner inclus" and any(m in texte_complet for m in ["petit-déjeuner", "petit déjeuner", "inclus"]):
-                    match_un_equipement = True
-            
-            if not match_un_equipement:
+                    match_cet_equipement = True
+
+                if not match_cet_equipement:
+                    tous_les_criteres_sont_presents = False
+                    break
+
+            if not tous_les_criteres_sont_presents:
                 continue
 
         hotels_filtres_crit.append((nom, info))
@@ -603,76 +685,107 @@ else:
                     st.image(image_url, use_container_width=True)
             with col2:
                 st.subheader(nom)
-                st.write(f"📍 **{info.get('ville', '')}, {info.get('pays', '')}** | ⭐ {info.get('etoiles', 'N/C')}")
+                st.write(
+                    f"📍 **{info.get('ville', '')}, {info.get('pays', '')}** | ⭐"
+                    f" {info.get('etoiles', 'N/C')}"
+                )
                 st.write(f"💰 **{info.get('prix_moyen', 'Sur demande')}**")
-                points = info.get('points_positifs', [])
+                points = info.get("points_positifs", [])
                 if points:
                     st.markdown(f"**Points forts :** {', '.join(points)}")
-                
-                lien = update_booking_aid(info.get('lien', '#'))
-                st.link_button("Réserver sur Booking", lien)
-                
-            st.markdown("---")
-    # ==============================================================================
-    # SECTION 3 : AVIS CLIENTS
-    # ==============================================================================
-    st.subheader("💬 Ce que pensent nos voyageurs")
-    
-    col_a1, col_a2, col_a3 = st.columns(3)
-    
-    with col_a1:
-        st.markdown(
-            """
-            <div class="hotel-card" style="background-color: #1C2541 !important;">
-                <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px;">⭐⭐⭐⭐⭐</p>
-                <p style="font-style: italic; font-size: 0.95em;">"Grâce au comparateur, j'ai trouvé l'hôtel idéal à Djerba pour notre groupe d'amis au meilleur prix. Super interface !"</p>
-                <div style="display: flex; align-items: center; margin-top: 12px;">
-                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
-                    <div>
-                        <p style="font-weight: bold; font-size: 0.85em; margin: 0;">Thomas M.</p>
-                        <p style="font-size: 0.75em; color: #94a3b8; margin: 0;">Séjour à Djerba</p>
-                    </div>
-                </div>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-        
-    with col_a2:
-        st.markdown(
-            """
-            <div class="hotel-card" style="background-color: #1C2541 !important;">
-                <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px;">⭐⭐⭐⭐⭐</p>
-                <p style="font-style: italic; font-size: 0.95em;">"Super application, très pratique pour comparer les hôtels rapidement. Je recommande !"</p>
-                <div style="display: flex; align-items: center; margin-top: 12px;">
-                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
-                    <div>
-                        <p style="font-weight: bold; font-size: 0.85em; margin: 0;">Sarah L.</p>
-                        <p style="font-size: 0.75em; color: #94a3b8; margin: 0;">Voyage en famille</p>
-                    </div>
-                </div>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )         
-    with col_a3:
-        st.markdown(
-            """
-            <div class="hotel-card" style="background-color: #1C2541 !important;">
-                <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px;">⭐⭐⭐⭐⭐</p>
-                <p style="font-style: italic; font-size: 0.95em;">"Le comparateur m'a permis d'économiser pas mal sur mon séjour. Interface fluide et propre."</p>
-                <div style="display: flex; align-items: center; margin-top: 12px;">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
-                    <div>
-                        <p style="font-weight: bold; font-size: 0.85em; margin: 0;">Karim B.</p>
-                        <p style="font-size: 0.75em; color: #94a3b8; margin: 0;">Voyageur régulier</p>
-                    </div>
-                </div>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
 
+                lien_booking = update_booking_aid(info.get("lien_booking", "#"))
+                if not lien_booking:
+                    lien_booking = "#"
+                lien_expedia = info.get("lien_expedia", "#")
+                if not lien_expedia:
+                    lien_expedia = "#"
+
+                col_b1, col_b2 = st.columns(2)
+                with col_b1:
+                    st.markdown(
+                        f'<a href="{lien_booking}" target="_blank" style="display: flex;'
+                        ' justify-content: center; align-items: center; background-color:'
+                        ' #003580; text-align: center; padding: 0.38rem 1rem;'
+                        ' border-radius: 0.5rem; font-weight: 600; text-decoration:'
+                        ' none; height: 38px; box-sizing: border-box; width: 100%;"><span'
+                        ' style="color: #ffffff !important;">Réserver sur'
+                        ' Booking</span></a>',
+                        unsafe_allow_html=True,
+                    )
+                with col_b2:
+                    st.markdown(
+                        f'<a href="{lien_expedia}" target="_blank" style="display: flex;'
+                        ' justify-content: center; align-items: center; background-color:'
+                        ' #FFC107; text-align: center; padding: 0.38rem 1rem;'
+                        ' border-radius: 0.5rem; font-weight: 600; text-decoration:'
+                        ' none; height: 38px; box-sizing: border-box; width: 100%;"><span'
+                        ' style="color: #000000 !important;">Réserver sur'
+                        ' Expedia</span></a>',
+                        unsafe_allow_html=True,
+                    )
+
+            st.markdown("---")
+
+# ==============================================================================
+# SECTION EXTÉRIEURE (HORS DE LA BOUCLE DES HÔTELS)
+# ==============================================================================
+st.subheader("💬 Ce que pensent nos voyageurs")
+
+col_a1, col_a2, col_a3 = st.columns(3)
+
+with col_a1:
+    st.markdown(
+        """
+        <div class="hotel-card" style="background-color: #1C2541 !important;">
+            <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px;">⭐⭐⭐⭐⭐</p>
+            <p style="font-style: italic; font-size: 0.95em;">"Grâce au comparateur, j'ai trouvé l'hôtel idéal pour mes vacances en un clin d'œil !"</p>
+            <div style="display: flex; align-items: center; margin-top: 12px;">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+                <div>
+                    <p style="font-weight: bold; font-size: 0.85em; margin: 0;">Marc D.</p>
+                    <p style="font-size: 0.75em; color: #94a3b8; margin: 0;">Voyageur solo</p>
+                </div>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+        
+with col_a2:
+    st.markdown(
+        """
+        <div class="hotel-card" style="background-color: #1C2541 !important;">
+            <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px;">⭐⭐⭐⭐⭐</p>
+            <p style="font-style: italic; font-size: 0.95em;">"Super application, très pratique pour comparer les hôtels rapidement. Je recommande !"</p>
+            <div style="display: flex; align-items: center; margin-top: 12px;">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+                <div>
+                    <p style="font-weight: bold; font-size: 0.85em; margin: 0;">Sarah L.</p>
+                    <p style="font-size: 0.75em; color: #94a3b8; margin: 0;">Voyage en famille</p>
+                </div>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )        
+with col_a3:
+    st.markdown(
+        """
+        <div class="hotel-card" style="background-color: #1C2541 !important;">
+            <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px;">⭐⭐⭐⭐⭐</p>
+            <p style="font-style: italic; font-size: 0.95em;">"Le comparateur m'a permis d'économiser pas mal sur mon séjour. Interface fluide et propre."</p>
+            <div style="display: flex; align-items: center; margin-top: 12px;">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+                <div>
+                    <p style="font-weight: bold; font-size: 0.85em; margin: 0;">Karim B.</p>
+                    <p style="font-size: 0.75em; color: #94a3b8; margin: 0;">Voyageur régulier</p>
+                </div>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 st.markdown("---")
 st.markdown("<p style='text-align: center; color: white; font-size: 15px; font-weight: bold; margin-bottom: 10px;'>APPROUVÉ PAR LES VOYAGEURS QUI RÉSERVENT SUR</p>", unsafe_allow_html=True)
 
@@ -688,11 +801,10 @@ st.markdown(html_partenaires, unsafe_allow_html=True)
 
 st.markdown("<p style='text-align: center; color: #888; font-size: 11px;'>Comparaison de plus de 1000 hôtels &nbsp;&bull;&nbsp; 10 destinations incontournables &nbsp;&bull;&nbsp; 2 sites de réservation vérifiés</p>", unsafe_allow_html=True)
 st.markdown("---")
-# ==============================================================================
-# PIED DE PAGE SOMBRE ET HARMONIEUX
-# ==============================================================================
-st.markdown("---")
 
+# ==============================================================================
+# PIED DE PAGE ET FORMULAIRE DE FEEDBACK
+# ==============================================================================
 footer_html = """
 <style>
 .footer-bg {
@@ -736,42 +848,14 @@ footer_html = """
 """
 
 st.markdown(footer_html, unsafe_allow_html=True)
-# --- CSS pour rendre le bouton du formulaire vert ---
-st.markdown("""
-    <style>
-    div.stFormSubmitButton > button {
-        background-color: #10b981;
-        color: white;
-        border-radius: 6px;
-        font-weight: bold;
-        border: none;
-    }
-    div.stFormSubmitButton > button:hover {
-        background-color: #059669;
-        color: white;
-    }
-    </style>
-""", unsafe_allow_html=True)
 
-# --- FORMULAIRE DE FEEDBACK DANS LE FOOTER ---
 st.markdown("---")
-
-# Style CSS pour forcer le texte saisi en noir
-st.markdown("""
-    <style>
-    textarea, input {
-        color: #000000 !important;
-    }
-    </style>
-""", unsafe_allow_html=True)
-
 st.markdown("<h3 style='text-align: center; color: white;'>💬 Votre avis nous intéresse</h3>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #94a3b8; font-size: 0.9em;'>Le site est en cours de construction. Aidez-nous à l'améliorer !</p>", unsafe_allow_html=True)
 
 col_f1, col_f2, col_f3 = st.columns([1, 2, 1])
 with col_f2:
     formspree_url = "https://formspree.io/f/xaewjazy"
-    
     st.markdown(f"""
         <form action="{formspree_url}" method="POST" style="display: flex; flex-direction: column; gap: 10px;">
             <input type="text" name="nom" placeholder="Votre nom ou prénom (facultatif)" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc; color: #000;">
@@ -779,11 +863,3 @@ with col_f2:
             <button type="submit" style="background-color: #10B981; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">Envoyer mon avis</button>
         </form>
     """, unsafe_allow_html=True)
-
-# --- VOTRE FOOTER ---
-st.markdown("""
-    <div style='text-align: center; padding: 20px; color: #94a3b8;'>
-        <p>Accueil &nbsp;|&nbsp; À propos &nbsp;|&nbsp; Politique de confidentialité &nbsp;|&nbsp; Contact</p>
-        <p>© 2026 MonHôtelCompare. Tous droits réservés. Propulsé par l'IA.</p>
-    </div>
-""", unsafe_allow_html=True)

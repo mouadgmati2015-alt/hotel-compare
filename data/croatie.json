@@ -41,7 +41,7 @@
             "verdict": "L'Hôtel Excelsior est l'adresse absolue pour admirer Dubrovnik. Son panorama direct sur les remparts et ses prestations haut de gamme en font un choix inoubliable sur l'Adriatique."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 1 100+ expériences vécues · Mise à jour : 2026"
-        },
+    },
     "DoubleTree by Hilton Zagreb": {
         "pays": "Croatie",
         "ville": "Zagreb",
@@ -78,7 +78,8 @@
             "Restaurant (OXBO) et bar",
             "Centre de remise en forme",
             "Connexion Wi-Fi gratuite",
-            "Boutiques sur place"
+            "Boutiques sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "💼 Chic, contemporain, luxueux et relaxant",
@@ -125,7 +126,8 @@
             "Restaurant et bar",
             "Parking souterrain privé",
             "Connexion Wi-Fi gratuite",
-            "Chambres familiales"
+            "Chambres familiales",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Design, épuré, élégant et tourné vers la mer",
@@ -215,7 +217,8 @@
             "Restaurant avec terrasse panoramique",
             "Chambres avec balcon et vue mer",
             "Connexion Wi-Fi gratuite",
-            "Parking"
+            "Parking",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌅 Marin, intime, convivial, pittoresque et reposant",

@@ -109,7 +109,8 @@
         "equipements": [
             "5 étoiles",
             "Tout compris",
-            "Spa"
+            "Spa",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, sportif et tout compris",
@@ -199,7 +200,8 @@
         "equipements": [
             "Certificat de durabilité",
             "Tout compris",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Verdoyant, tout compris et familial",
@@ -229,7 +231,8 @@
         "equipements": [
             "Centre-ville",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Urbain et pratique",
@@ -260,7 +263,8 @@
             "5 étoiles",
             "Spa",
             "Petit-déjeuner inclus",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, spacieux et relaxant",
@@ -291,7 +295,8 @@
             "Adults Only",
             "Certificat de durabilité",
             "Tout compris",
-            "Paiement sur place"
+            "Paiement sur place",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Balnéaire, adulte et tout compris",
@@ -383,7 +388,8 @@
             "5 étoiles",
             "Certificat de durabilité",
             "Spa / Golf",
-            "Petit-déjeuner inclus"
+            "Petit-déjeuner inclus",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, moderne et éco-responsable",
@@ -594,7 +600,8 @@
             "Centre-ville",
             "Balcon",
             "Paiement sur place",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Central, pratique et autonome",
@@ -748,7 +755,8 @@
             "Certificat de durabilité",
             "Bungalow",
             "Petit-déjeuner inclus",
-            "Piscine / Plage"
+            "Piscine / Plage",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏄 Marin, éco-responsable et sportif",
@@ -780,7 +788,8 @@
             "Certificat de durabilité",
             "Tout compris",
             "Paiement sur place",
-            "Piscine"
+            "Piscine",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Somptueux, marin et tout compris",
@@ -1049,7 +1058,8 @@
         ],
         "equipements": [
             "Petit-déjeuner inclus",
-            "Annulation gratuite"
+            "Annulation gratuite",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏜️ Dépaysant, historique et authentique",
@@ -1141,7 +1151,8 @@
             "Balcon",
             "Petit-déjeuner inclus",
             "Climatisation",
-            "Front de mer","Piscine / Plage",
+            "Front de mer",
+            "Piscine / Plage",
             "Spa",
             "Navette Aéroport"
         ],
@@ -1208,7 +1219,8 @@
             "Piscine privée",
             "Villa entière",
             "Petit-déjeuner inclus",
-            "Piscine extèrieur"
+            "Piscine extèrieur",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Exclusif, festif et somptueux",
@@ -1371,7 +1383,8 @@
             "Spa",
             "Connexion Wi-Fi gratuite",
             "Navette Aéroport",
-            "Service d'étage"
+            "Service d'étage",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Élégant, artistique et historique",
@@ -1448,7 +1461,7 @@
         },
         "meta_avis": "L'évaluation de cet hôtel repose sur l'analyse de cinq cent quarante-six avis d'utilisateurs.\nCette synthèse permet de nuancer la note globale tout en soulignant la commodité de l'emplacement.\nL'ensemble est actualisé pour l'année 2026 afin de vous fournir des indications exactes."
     },
-"Hotel Riu Tikida Dunas - All inclusive": {
+    "Hotel Riu Tikida Dunas - All inclusive": {
         "pays": "Maroc",
         "ville": "Founty, Agadir",
         "etoiles": "4 étoiles",
@@ -1474,7 +1487,8 @@
             "En bord de plage",
             "Spa et centre de bien-être",
             "4 restaurants",
-            "Centre de remise en forme"
+            "Centre de remise en forme",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌊 Balnéaire, animé et tout compris",
@@ -1542,7 +1556,8 @@
             "Petit-déjeuner inclus",
             "Paiement sur place",
             "Service d'étage",
-            "Connexion Wi-Fi gratuite"
+            "Connexion Wi-Fi gratuite",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Urbain, fiable et pratique",
@@ -1577,7 +1592,8 @@
             "Spa et centre de bien-être",
             "Navette Aéroport",
             "Centre de remise en forme",
-            "3 restaurants"
+            "3 restaurants",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Prestigieux, artistique et intime",
@@ -1650,7 +1666,8 @@
             "Connexion Wi-Fi gratuite",
             "Spa et centre de bien-être",
             "Centre de remise en forme",
-            "Navette Aéroport"
+            "Navette Aéroport",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, moderne et pratique",
@@ -1753,7 +1770,8 @@
             "Connexion Wi-Fi gratuite",
             "Spa et centre de bien-être",
             "Navette Aéroport",
-            "Centre de remise en forme"
+            "Centre de remise en forme",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🎢 Ludique, familial et tout compris",
@@ -1954,7 +1972,8 @@
             "En bord de plage",
             "Spa et centre de bien-être",
             "Centre de remise en forme",
-            "5 restaurants"
+            "5 restaurants",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, marin et tout compris",
@@ -2167,7 +2186,8 @@
             "Connexion Wi-Fi gratuite",
             "Navette Aéroport",
             "Centre de remise en forme",
-            "2 restaurants"
+            "2 restaurants",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, marin et moderne",
@@ -2201,7 +2221,8 @@
             "2 piscines",
             "Navette Aéroport",
             "Équipements pour les personnes handicapées",
-            "Connexion Wi-Fi gratuite"
+            "Connexion Wi-Fi gratuite",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏜️ Dépaysant, traditionnel et authentique",
@@ -2509,7 +2530,8 @@
             "Connexion Wi-Fi gratuite",
             "Navette Aéroport",
             "Spa et centre de bien-être",
-            "Service d'étage"
+            "Service d'étage",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Chic, central et relaxant",
@@ -2544,7 +2566,8 @@
             "Piscine extèrieur",
             "Connexion Wi-Fi gratuite",
             "Navette Aéroport",
-            "Service d'étage"
+            "Service d'étage",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, raffiné et relaxant",
@@ -2712,7 +2735,6 @@
             "Spa et centre de bien-être",
             "2 restaurants",
             "Centre de remise en forme"
-
         ],
         "pour_qui": {
             "ambiance": "🌊 Urbain, marin et simple",
@@ -3057,7 +3079,8 @@
             "Navette Aéroport",
             "Centre de remise en forme",
             "En bord de plage",
-            "Équipements pour les personnes handicapées"
+            "Équipements pour les personnes handicapées",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Luxueux, marin et relaxant",
@@ -3129,7 +3152,8 @@
             "Navette Aéroport",
             "Connexion Wi-Fi gratuite",
             "Service d'étage",
-            "Terrasse"
+            "Terrasse",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "✨ Chic, spacieux et relaxant",
@@ -3197,7 +3221,8 @@
             "Navette Aéroport",
             "Centre de remise en forme",
             "Équipements pour les personnes handicapées",
-            "Connexion Wi-Fi gratuite","Service d'étage"
+            "Connexion Wi-Fi gratuite",
+            "Service d'étage"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Moderne, professionnel et éco-responsable",
@@ -3435,7 +3460,8 @@
             "Annulation gratuite",
             "Navette Aéroport",
             "Connexion Wi-Fi gratuite",
-            "Service d'étage"
+            "Service d'étage",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏛️ Historique, charmant et central",

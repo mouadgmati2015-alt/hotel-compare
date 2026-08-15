@@ -6,20 +6,20 @@
         "lien_booking": "https://www.booking.com/hotel/ca/fairmont-banff-srpings.fr.html",
         "lien_expedia": "https://www.expedia.fr/Banff-Hotel-Fairmont-Banff-Springs.h13652.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/904308843.jpg?k=5d4625a6ac77c5b3ec1a8ac816157ed96594ff95f51a89ea7c559c9ce0a0193f&o=",
-        "description": "Surnommé le 'Château des Rocheuses', cet hôtel historique offre une expérience montagnarde unique au Canada[cite: 1]. Construit dans le style d'un château écossais au cœur du parc national de Banff (classé à l'UNESCO), il domine des paysages naturels d'une beauté époustouflante[cite: 1]. Les clients profitent d'un parcours de golf de renommée mondiale[cite: 1], de piscines intérieures et extérieures chauffées, d'un spa de classe mondiale (Willow Stream Spa) et de multiples restaurants gastronomiques entourés par les sommets enneigés.",
+        "description": "Surnommé le 'Château des Rocheuses', cet hôtel historique offre une expérience montagnarde unique au Canada. Construit dans le style d'un château écossais au cœur du parc national de Banff (classé à l'UNESCO), il domine des paysages naturels d'une beauté époustouflante. Les clients profitent d'un parcours de golf de renommée mondiale, de piscines intérieures et extérieures chauffées, d'un spa de classe mondiale (Willow Stream Spa) et de multiples restaurants gastronomiques entourés par les sommets enneigés.",
         "prix_moyen": " 450$ CAD / nuit",
         "avis": "9,2/10",
         "points_positifs": [
-            "Architecture de château spectaculaire et emblématique[cite: 1].",
-            "Cadre naturel époustouflant au cœur des montagnes Rocheuses[cite: 1].",
-            "Terrain de golf de renommée internationale sur place[cite: 1].",
+            "Architecture de château spectaculaire et emblématique.",
+            "Cadre naturel époustouflant au cœur des montagnes Rocheuses.",
+            "Terrain de golf de renommée internationale sur place.",
             "Spa de classe mondiale et superbes piscines chauffées panoramiques.",
             "Proximité immédiate des sentiers de randonnée et des pistes de ski de Banff.",
             "Service hôtelier historique et attentionné."
         ],
         "points_negatifs": [
             "Très grande taille de l'établissement pouvant donner une impression moins intimiste.",
-            "Affluence massive en haute saison touristique (hiver et été)[cite: 1].",
+            "Affluence massive en haute saison touristique (hiver et été).",
             "Tarifs des nuitées et des services annexes très élevés.",
             "Nécessite de réserver les restaurants et les activités de plein air de longs mois à l'avance.",
             "Circulation et stationnement réglementés dans l'enceinte du parc national.",
@@ -27,7 +27,7 @@
         ],
         "equipements": [
             "5 étoiles",
-            "Golf de renommée mondiale[cite: 1]",
+            "Golf de renommée mondiale",
             "Willow Stream Spa",
             "Piscines intérieures et extérieures",
             "Wi-Fi gratuit",
@@ -82,7 +82,8 @@
             "Service d'étage",
             "Parking privé",
             "Connexion Wi-Fi gratuite",
-            "Terrasse bien exposée"
+            "Terrasse bien exposée",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🏙️ Moderne, urbain, branché, chic et accueillant",

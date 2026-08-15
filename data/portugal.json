@@ -1,4 +1,4 @@
- {
+{
     "Four Seasons Hotel Ritz Lisbon": {
         "pays": "Portugal",
         "ville": "Lisbonne",
@@ -32,7 +32,8 @@
             "Piste de course sur le toit",
             "Wi-Fi gratuit",
             "Restaurant gastronomique & Bar",
-            "Service de voiturier"
+            "Service de voiturier",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "👑 Prestigieux, artistique, classique et panoramique",
@@ -75,7 +76,8 @@
             "Multiples piscines extérieures et intérieures",
             "Restaurants étoilés Michelin",
             "Wi-Fi gratuit",
-            "Terrains de sport"
+            "Terrains de sport",
+            "Climatisation"
         ],
         "pour_qui": {
             "ambiance": "🌴 Tropical, océanique, gastronomique et exclusif",
