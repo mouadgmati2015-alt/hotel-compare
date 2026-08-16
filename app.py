@@ -600,9 +600,9 @@ filtre_equipements_multi = st.multiselect(
 
 # --- SÉCURITÉ : Vérification si l'utilisateur a fait au moins un choix ---
 aucun_filtre_actif = (
-    not filtre_pays_crit
-    and not filtre_ville_crit
-    and not filtre_etoiles_crit
+    filtre_pays_crit == "Tous"
+    and filtre_ville_crit == "Toutes"
+    and filtre_etoiles_crit == "Tous"
     and not filtre_equipements_multi
 )
 
