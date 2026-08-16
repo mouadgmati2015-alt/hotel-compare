@@ -529,12 +529,13 @@ if valider:
                     with st.expander("⚠️ Points Négatifs"):
                         for n in d.get("points_negatifs"): st.write(f"• {n}")
                 
-                if d.get("Nomad, vous en dit plus"):
-                    st.markdown("---")
-                    st.success(f"🗣️ **Nomad, vous en dit plus :** {d['Nomad, vous en dit plus']}")
-
                 if d.get("pour_qui") and isinstance(d.get("pour_qui"), dict):
                     st.markdown("---")
+                    st.info(f"**Verdict :** {d['pour_qui'].get('verdict', '')}")
+                    with st.expander("🤔 Pour qui ?"):
+                        for cle, val in d['pour_qui'].items():
+                            if cle != 'verdict':
+                                st.write(f"**{cle.capitalize()} :** {val}")
 
                 if d.get("meta_avis"):
                     st.caption(d['meta_avis'])

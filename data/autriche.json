@@ -10,30 +10,37 @@
         "prix_moyen": " 450€ / nuit",
         "avis": "9,3/10  Exceptionnel ",
         "points_positifs": [
-            "Emplacement historique de premier plan face à l'Opéra de Vienne.",
-            "Culture gastronomique unique abritant la création de la célèbre Sacher-Torte.",
-            "Cadre impérial somptueux et élégance traditionnelle préservée.",
-            "Service attentionné fidèle aux grandes heures de l'hôtellerie autrichienne.",
-            "Proximité immédiate des musées, des palais et des plus beaux boulevards viennois.",
-            "Salon de thé légendaire très prisé des voyageurs et des locaux."
+            "Accueil et service jugés exceptionnels, régulièrement décrits comme irréprochables. (Booking.com)",
+            "Équipe de conciergerie très qualifiée et chaleureuse, comme reçu dans une maison privée. (TripAdvisor)",
+            "Petit-déjeuner salué comme un temps fort du séjour, cadre élégant et spécialités de qualité. (Expedia)",
+            "Emplacement central exceptionnel face à l'Opéra de Vienne, unanimement plébiscité. (Trip.com)",
+            "Chambres élégantes et confortables, propreté irréprochable. (Booking.com)",
+            "Spa boutique haut de gamme avec sauna finlandais et salle de vapeur au sel. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Très prisé des touristes, ce qui amène une forte animation dans le café et le hall.",
-            "Ambiance classique traditionnelle qui peut paraître très formelle.",
-            "Tarifs élevés des nuitées et des services en haute saison.",
-            "Forte demande nécessitant de réserver de longs mois à l'avance.",
-            "Espaces parfois étroits en raison de la structure historique du bâtiment ancien.",
-            "Circulation piétonne et calèches très denses devant l'entrée principale."
+            "Environs parfois jugés très animés en raison de l'emplacement central très prisé. (Booking.com)",
+            "Chambres parfois notées un peu petites ou avec des équipements limités selon certains clients. (TripAdvisor)",
+            "Tarifs élevés et réservations difficiles à obtenir en haute saison. (Expedia)",
+            "Cas ponctuels de difficultés au check-in signalés en période de forte affluence (avril-mai). (TripAdvisor)",
+            "Petit-déjeuner non inclus par défaut, proposé en supplément. (Booking.com)"
         ],
         "equipements": [
             "5 étoiles",
-            "Spa et centre de bien-être",
+            "Sacher Boutique Spa (5e étage) : sauna finlandais, salle de vapeur au sel, circuit thermal",
+            "Centre de remise en forme ouvert 24h/24",
+            "Cours de yoga sur place",
+            "2 restaurants gastronomiques (dont Rote Bar)",
             "Café Sacher historique",
-            "Wi-Fi gratuit",
-            "Restaurants gastronomiques",
+            "Boutiques de créateurs sur place",
+            "Service de pressing/blanchisserie",
+            "Animaux acceptés (chiens et chats)",
+            "Navette aéroport 24h/24",
             "Service de voiturier",
+            "Wi-Fi gratuit",
+            "Petit-déjeuner disponible avec supplément (non inclus)",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Les avis réels confirment que l'Hotel Sacher Wien est une véritable institution viennoise, combinant le faste de l'histoire autrichienne, un service irréprochable et la gourmandise de sa célèbre Sacher-Torte. Les points de vigilance restent mineurs et correspondent aux exigences et à l'effervescence naturelle d'un palace iconique situé au cœur de la capitale.",
         "pour_qui": {
             "ambiance": "🍰 Impérial, historique, gastronomique, élégant et viennois",
             "public": "Voyageurs en quête d'histoire, de tradition culturelle et de douceurs viennoises",
@@ -62,29 +69,37 @@
             "connexion_wifi_gratuite": "10/10"
         },
         "points_positifs": [
-            "Situation géographique exceptionnelle notée 9/10, offrant un cadre calme, verdoyant et des vues panoramiques spectaculaires sur la vallée et les montagnes.",
-            "Accueil chaleureux, attentionné et personnel incroyablement professionnel, salué pour sa capacité à choyer les clients et les groupes.",
-            "Espace spa et bien-être de grande qualité comprenant une piscine intérieure, plusieurs saunas, des bains de vapeur et un très joli jardin panoramique.",
-            "Formule de restauration 'demi-pension étendue' très appréciée, incluant un excellent petit-déjeuner, des collations l'après-midi et des dîners variés à 4 plats.",
-            "Proximité immédiate des pistes de ski de fond et des sentiers de randonnée, avec un accès direct depuis l'hôtel et un ski-bus gratuit.",
-            "Propreté irréprochable, confort optimal des chambres et literie de qualité supérieure."
+            "Accueil et service jugés exceptionnels, régulièrement décrits comme irréprochables. (Booking.com)",
+            "Équipe de conciergerie très qualifiée et chaleureuse, comme reçu dans une maison privée. (TripAdvisor)",
+            "Petit-déjeuner salué comme un temps fort du séjour, cadre élégant et spécialités de qualité. (Expedia)",
+            "Emplacement central exceptionnel face à l'Opéra de Vienne, unanimement plébiscité. (Trip.com)",
+            "Chambres élégantes et confortables, propreté irréprochable. (Booking.com)",
+            "Spa boutique haut de gamme avec sauna finlandais et salle de vapeur au sel. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs globaux relativement élevés, reflétant le coût de la vie et des prestations dans la région de Tyrol.",
-            "Rapport qualité/prix légèrement plus bas selon l'appréciation de certains voyageurs en raison des prix pratiqués en haute saison."
+            "Environs parfois jugés très animés en raison de l'emplacement central très prisé. (Booking.com)",
+            "Chambres parfois notées un peu petites ou avec des équipements limités selon certains clients. (TripAdvisor)",
+            "Tarifs élevés et réservations difficiles à obtenir en haute saison. (Expedia)",
+            "Cas ponctuels de difficultés au check-in signalés en période de forte affluence (avril-mai). (TripAdvisor)",
+            "Petit-déjeuner non inclus par défaut, proposé en supplément. (Booking.com)"
         ],
         "equipements": [
-            "Piscine intérieure",
-            "Spa et centre de bien-être (saunas, bains de vapeur)",
-            "Chambres non-fumeurs",
-            "Centre de remise en forme",
-            "Équipements pour les personnes handicapées",
-            "Connexion Wi-Fi gratuite haut débit",
-            "2 restaurants",
-            "Service d'étage et bar",
-            "Jardin panoramique et grande terrasse bien exposée",
+            "5 étoiles",
+            "Sacher Boutique Spa (5e étage) : sauna finlandais, salle de vapeur au sel, circuit thermal",
+            "Centre de remise en forme ouvert 24h/24",
+            "Cours de yoga sur place",
+            "2 restaurants gastronomiques (dont Rote Bar)",
+            "Café Sacher historique",
+            "Boutiques de créateurs sur place",
+            "Service de pressing/blanchisserie",
+            "Animaux acceptés (chiens et chats)",
+            "Navette aéroport 24h/24",
+            "Service de voiturier",
+            "Wi-Fi gratuit",
+            "Petit-déjeuner disponible avec supplément (non inclus)",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Les avis réels confirment que l'Hotel Sacher Wien est une véritable institution viennoise, combinant le faste de l'histoire autrichienne, un service irréprochable et la gourmandise de sa célèbre Sacher-Torte. Les points de vigilance restent mineurs et correspondent aux exigences et à l'effervescence naturelle d'un palace iconique situé au cœur de la capitale.",
         "pour_qui": {
             "ambiance": "🏔️ Alpin, panoramique, familial, relaxant et chaleureux",
             "public": "Amoureux de nature, randonneurs, fondeurs, couples et familles en quête de détente et de grand air",

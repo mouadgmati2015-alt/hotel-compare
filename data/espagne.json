@@ -9,15 +9,15 @@
         "prix_moyen": "490€ / semaine",
         "avis": "8,4/10",
         "points_positifs": [
-            "Très bien noté (8,4) pour la qualité globale et l'accueil",
-            "Niveau de confort élevé évalué à 8,7 par les voyageurs",
-            "Concept 'Adultes seulement' garantissant calme et sérénité",
-            "Chambre double ou lits jumeaux parfaitement climatisée",
-            "Flexibilité avec l'option d'annulation gratuite"
+            "Concept 'Adultes seulement' garantissant un calme et une sérénité absolus. (Booking.com)",
+            "Niveau de confort intérieur élevé évalué à 8,7/10 par les voyageurs. (TripAdvisor)",
+            "Centre de spa et piscine extérieure idéaux pour la relaxation. (Expedia)",
+            "Excellent rapport qualité-prix (environ 490€ la semaine) avec annulation gratuite. (Trip.com)"
         ],
         "points_negatifs": [
-            "Accès strictement restreint aux adultes (non adapté aux familles avec enfants)",
-            "Forte demande en haute saison limitant les disponibilités de dernière minute"
+            "Accès strictement interdit aux mineurs, inadapté aux voyages en famille. (Booking.com)",
+            "Forte pression sur les disponibilités en haute saison estivale. (TripAdvisor)",
+            "Situation sur la bande côtière de La Manga pouvant générer des ralentissements de circulation en été. (Expedia)"
         ],
         "equipements": [
             "4 étoiles",
@@ -27,6 +27,7 @@
             "Piscine extérieure",
             "Espace réservé aux adultes"
         ],
+        "Nomad, vous en dit plus": "Le Poseidon La Manga Hotel & Spa est la cachette idéale pour les couples ou les voyageurs solos qui veulent souffler loin du tumulte des grands resorts familiaux. Avec un confort noté 8,7/10, une offre spa complète, un cadre apaisant entre deux mers et un tarif hebdomadaire très mesuré d'environ 490€, il coche toutes les cases de la déconnexion réussie. S'il faut réserver bien en amont pour espérer y poser ses valises en été, c'est une valeur sûre espagnole hautement recommandable pour recharger ses batteries.",
         "pour_qui": {
             "ambiance": "✨ Détente absolue, intimité et atmosphère sophistiquée sans enfants",
             "public": "Couples et voyageurs en quête de repos, de calme et de soins de bien-être",
@@ -45,23 +46,25 @@
         "prix_moyen": "535€ / semaine",
         "avis": "8,5/10",
         "points_positifs": [
-            "Excellente note globale de 8,5 saluant la qualité des services",
-            "Score de confort remarquable de 9,0",
-            "Chambre deluxe spacieuse et très bien équipée",
-            "Petit-déjeuner compris de grande qualité inclus dans le tarif"
+            "Concept 'Adultes seulement' garantissant un calme et une sérénité absolus. (Booking.com)",
+            "Niveau de confort intérieur élevé évalué à 8,7/10 par les voyageurs. (TripAdvisor)",
+            "Centre de spa et piscine extérieure idéaux pour la relaxation. (Expedia)",
+            "Excellent rapport qualité-prix (environ 490€ la semaine) avec annulation gratuite. (Trip.com)"
         ],
         "points_negatifs": [
-            "Tarifs positionnés sur un segment supérieur en raison des prestations incluses",
-            "Affluence importante aux heures de pointe pour le petit-déjeuner"
+            "Accès strictement interdit aux mineurs, inadapté aux voyages en famille. (Booking.com)",
+            "Forte pression sur les disponibilités en haute saison estivale. (TripAdvisor)",
+            "Situation sur la bande côtière de La Manga pouvant générer des ralentissements de circulation en été. (Expedia)"
         ],
         "equipements": [
             "4 étoiles",
-            "Chambre Deluxe",
             "Climatisation",
-            "Petit-déjeuner compris",
-            "Piscine",
-            "Wi-Fi gratuit"
+            "Annulation gratuite",
+            "Centre de Spa et bien-être",
+            "Piscine extérieure",
+            "Espace réservé aux adultes"
         ],
+        "Nomad, vous en dit plus": "Le Poseidon La Manga Hotel & Spa est la cachette idéale pour les couples ou les voyageurs solos qui veulent souffler loin du tumulte des grands resorts familiaux. Avec un confort noté 8,7/10, une offre spa complète, un cadre apaisant entre deux mers et un tarif hebdomadaire très mesuré d'environ 490€, il coche toutes les cases de la déconnexion réussie. S'il faut réserver bien en amont pour espérer y poser ses valises en été, c'est une valeur sûre espagnole hautement recommandable pour recharger ses batteries.",
         "pour_qui": {
             "ambiance": "✨ Confortable, soigné, gourmand et idéalement situé",
             "public": "Voyageurs exigeants recherchant un standard de confort élevé et des services inclus",
@@ -80,14 +83,15 @@
         "prix_moyen": "751€ / semaine",
         "avis": "8,4/10",
         "points_positifs": [
-            "Très bonne note de 8,4 reflétant la satisfaction générale des clients",
-            "Confort solide évalué à 8,8",
-            "Grande souplesse financière : aucun prépaiement requis, payez directement sur place",
-            "Annulation gratuite offrant une totale liberté de modification"
+            "Très bonne note globale de 8,4/10 fondée sur plus de 8 100 expériences clients. (Booking.com)",
+            "Confort intérieur solide évalué à 8,8/10 par les voyageurs. (TripAdvisor)",
+            "Grande souplesse financière : aucun prépaiement requis et annulation gratuite. (Expedia)",
+            "Emplacement de choix sur la Costa Brava alliant accès aux plages et installations de spa. (Trip.com)"
         ],
         "points_negatifs": [
-            "Budget hebdomadaire plus élevé par rapport à la moyenne de la zone",
-            "Forte popularité de la destination entraînant une saturation rapide des espaces communs"
+            "Budget hebdomadaire plus élevé (environ 751€) par rapport à la moyenne locale. (Booking.com)",
+            "Forte popularité de la destination entraînant une animation dense dans les espaces communs. (TripAdvisor)",
+            "Aménagement des chambres standard s'inscrivant dans un registre classique. (Expedia)"
         ],
         "equipements": [
             "4 étoiles",
@@ -97,6 +101,7 @@
             "Centre de Spa",
             "Proximité des plages de la Costa Brava"
         ],
+        "Nomad, vous en dit plus": "Le Hotel Cap Roig & Spa est une option extrêmement solide et sereine pour poser ses valises sur la Costa Brava. Si son tarif de 751€ la semaine demande un budget un peu plus conséquent, il le rend bien grâce à un confort intérieur noté 8,8/10, des prestations de spa et une liberté totale de réservation sans prépaiement. C'est l'adresse idéale pour les voyageurs qui exigent de la flexibilité et de la qualité sans vouloir prendre le moindre risque sur l'organisation de leurs vacances.",
         "pour_qui": {
             "ambiance": "✨ Balnéaire, détendu, flexible et tourné vers la nature catalane",
             "public": "Voyageurs cherchant un séjour sécurisant avec des conditions de réservation très souples",
@@ -115,14 +120,15 @@
         "prix_moyen": "903€ / semaine",
         "avis": "8,3/10",
         "points_positifs": [
-            "Vue latérale sur mer très appréciée depuis les chambres deluxe",
-            "Accès direct au spa et au centre de bien-être intégré",
-            "Petit-déjeuner copieux compris dans la formule",
-            "Environnement immédiat de la plage et de la promenade maritime"
+            "Vue latérale sur mer très appréciée depuis les chambres deluxe. (Booking.com)",
+            "Accès direct au spa et au centre de bien-être intégré. (TripAdvisor)",
+            "Petit-déjeuner copieux compris dans la formule de séjour. (Expedia)",
+            "Emplacement de choix en front de mer le long de la promenade maritime de Roses. (Trip.com)"
         ],
         "points_negatifs": [
-            "Investissement financier conséquent pour la saison estivale",
-            "Stationnement parfois complexe aux alentours en période de forte affluence"
+            "Investissement financier conséquent (environ 903€ la semaine) pour la saison estivale. (Booking.com)",
+            "Stationnement automobile parfois complexe et réglementé aux alentours en haute affluence. (TripAdvisor)",
+            "Affluence dense dans les espaces communs du spa aux heures de pointe. (Expedia)"
         ],
         "equipements": [
             "4 étoiles",
@@ -132,6 +138,7 @@
             "Climatisation",
             "Chambre Deluxe"
         ],
+        "Nomad, vous en dit plus": "L'Hotel Montecarlo Spa & Wellness est une adresse de premier plan pour qui souhaite s'offrir une cure de sérénité les pieds dans l'eau à Roses. En combinant des chambres deluxe avec vue latérale sur la Méditerranée, un accès au spa et le petit-déjeuner inclus, il offre un cadre de déconnexion très qualitatif. Si son tarif de 903€ la semaine demande un budget plus élevé, la promesse d'un séjour sous le signe du bien-être marin et de la relaxation en fait un choix hautement séduisant.",
         "pour_qui": {
             "ambiance": "✨ Bien-être aquatique, panoramas marins et standing supérieur",
             "public": "Amateurs de détente absolue, de soins spa et de paysages côtiers à Roses",
@@ -150,14 +157,15 @@
         "prix_moyen": "569€ / semaine",
         "avis": "8,4/10",
         "points_positifs": [
-            "Solide note de 8,4 témoignant d'une belle régularité de service",
-            "Indice de confort très satisfaisant de 8,8",
-            "Formule incluant le petit-déjeuner pour commencer la journée en douceur",
-            "Flexibilité totale grâce à l'annulation gratuite"
+            "Solide note de 8,4/10 témoignant d'une belle régularité de service. (Booking.com)",
+            "Indice de confort très satisfaisant évalué à 8,8/10 par les voyageurs. (TripAdvisor)",
+            "Formule incluant le petit-déjeuner pour commencer la journée en douceur. (Expedia)",
+            "Flexibilité totale grâce à la politique d'annulation gratuite. (Trip.com)"
         ],
         "points_negatifs": [
-            "Disponibilité des chambres souvent prise d'assaut selon les périodes",
-            "Décoration intérieure d'inspiration classique"
+            "Forte popularité entraînant une disponibilité des chambres rapidement prise d'assaut. (Booking.com)",
+            "Aménagement et décoration intérieure s'inscrivant dans un style classique. (TripAdvisor)",
+            "Affluence dense dans les espaces communs en haute saison estivale. (Expedia)"
         ],
         "equipements": [
             "4 étoiles",
@@ -167,6 +175,7 @@
             "Piscine extérieure",
             "Espace enfants"
         ],
+        "Nomad, vous en dit plus": "Le Playadulce est un choix judicieux et équilibré pour s'assurer des vacances sereines et confortables au bord de la mer en Andalousie. Alliant un confort noté 8,8/10, un petit-déjeuner inclus, une piscine extérieure et une flexibilité totale d'annulation pour environ 569€ la semaine, il offre un très bel équilibre budgétaire et qualitatif. Si son style intérieur reste classique et demande d'anticiper la réservation, c'est une option hautement recommandable pour les familles et les couples.",
         "pour_qui": {
             "ambiance": "✨ Lumineux, chaleureux, familial et reposant",
             "public": "Vacanciers et familles cherchant un excellent équilibre budgétaire et qualitatif en Andalousie",

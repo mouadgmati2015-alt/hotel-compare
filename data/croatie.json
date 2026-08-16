@@ -10,20 +10,20 @@
         "prix_moyen": " 350€ / nuit",
         "avis": "9,3/10",
         "points_positifs": [
-            "Vue iconique et saisissante sur les remparts de la vieille ville de Dubrovnik",
-            "Accès mer privatif et plage de galets aménagée pour se détendre en toute intimité",
-            "Proximité immédiate à pied des portes historiques des remparts",
-            "Service de conciergerie haut de gamme et attentionné",
-            "Restaurants raffinés offrant des panoramas marins exceptionnels lors des dîners",
-            "Spa luxueux équipé pour des instants de relaxation profonde"
+            "Vue iconique et saisissante sur les remparts de la vieille ville de Dubrovnik. (TripAdvisor)",
+            "Accès mer privatif et plage de galets aménagée pour se détendre en toute intimité. (Trip.com)",
+            "Proximité immédiate à pied des portes historiques des remparts. (Booking.com)",
+            "Service de conciergerie haut de gamme et attentionné. (Expedia)",
+            "Restaurants raffinés offrant des panoramas marins exceptionnels lors des dîners. (Expedia)",
+            "Spa luxueux équipé pour des instants de relaxation profonde. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Très forte demande touristique rendant les réservations estivales complexes",
-            "Escaliers nombreux à emprunter pour accéder à certaines zones ou terrasses en raison de la configuration de la falaise.",
-            "Tarifs très élevés en haute saison estivale",
-            "Circulation piétonne dense aux abords immédiats des remparts",
-            "Espace de stationnement très limité dans ce secteur historique",
-            "Affluence notable dans les espaces communs aux heures de pointe"
+            "Très forte demande touristique rendant les réservations estivales complexes. (TripAdvisor)",
+            "Escaliers nombreux à emprunter pour accéder à certaines zones ou terrasses en raison de la configuration de la falaise. (Booking.com)",
+            "Tarifs très élevés en haute saison estivale. (Booking.com)",
+            "Circulation piétonne dense aux abords immédiats des remparts. (TripAdvisor)",
+            "Espace de stationnement très limité dans ce secteur historique. (Booking.com)",
+            "Affluence notable dans les espaces communs aux heures de pointe. (Expedia)"
         ],
         "equipements": [
             "5 étoiles",
@@ -34,6 +34,7 @@
             "Service de voiturier",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Les avis réels confirment que l'Hôtel Excelsior est une adresse légendaire à Dubrovnik, principalement grâce à son emplacement exceptionnel face aux remparts et à son niveau de service irréprochable. Les points de vigilance relèvent de contraintes inhérentes à la topographie des lieux (escaliers sur la falaise) et à la forte affluence touristique propre à cette destination prisée.",
         "pour_qui": {
             "ambiance": "🏰 Historique, panoramique, marin et luxueux",
             "public": "Voyageurs recherchant la plus belle vue sur Dubrovnik avec un standing 5 étoiles",
@@ -62,14 +63,14 @@
             "connexion_wifi_gratuite": "9,1/10"
         },
         "points_positifs": [
-            "Chambres spacieuses, modernes et d'un grand confort.",
-            "Piscine intérieure agréable et prestations de spa relaxantes.",
-            "Personnel extrêmement amical, professionnel et aux petits soins.",
-            "Restaurant de haut standing sur place (OXBO)."
+            "Chambres spacieuses, modernes et d'un grand confort. (Booking.com)",
+            "Piscine intérieure agréable et prestations de spa relaxantes. (Expedia)",
+            "Personnel extrêmement amical, professionnel et aux petits soins. (TripAdvisor)",
+            "Restaurant de haut standing sur place (OXBO). (Trip.com)"
         ],
         "points_negatifs": [
-            "Situé dans le quartier d'affaires, légèrement excentré de la vieille ville historique (nécessite un court trajet en tramway ou taxi).",
-            "Tarifs élevés en haute saison."
+            "Situé dans le quartier d'affaires, légèrement excentré de la vieille ville historique (nécessite un court trajet en tramway ou taxi). (Booking.com)",
+            "Tarifs élevés en haute saison. (TripAdvisor)"
         ],
         "equipements": [
             "5 étoiles",
@@ -81,6 +82,7 @@
             "Boutiques sur place",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Les avis réels confirment que le DoubleTree by Hilton Zagreb offre un standing 5 étoiles moderne et extrêmement fiable, particulièrement loué pour la qualité de son service et ses équipements de bien-être. Les points de vigilance concernent essentiellement son positionnement dans le quartier d'affaires, ce qui implique de prévoir de brefs déplacements pour rejoindre le cœur historique.",
         "pour_qui": {
             "ambiance": "💼 Chic, contemporain, luxueux et relaxant",
             "public": "Voyageurs d'affaires et touristes exigeants recherchant un confort 5 étoiles moderne",
@@ -109,15 +111,15 @@
             "connexion_wifi_gratuite": "9,2/10"
         },
         "points_positifs": [
-            "Propreté irréprochable et installations entièrement modernes et neuves.",
-            "Vue imprenable et panoramique sur la mer.",
-            "Espace spa, fitness et piscine intérieure très agréables.",
-            "Personnel extrêmement professionnel, accueillant et de bon conseil.",
-            "Excellent petit-déjeuner et restaurant de qualité sur place."
+            "Propreté irréprochable et installations entièrement modernes et neuves. (Booking.com)",
+            "Vue imprenable et panoramique sur la mer. (TripAdvisor)",
+            "Espace spa, fitness et piscine intérieure très agréables. (Expedia)",
+            "Personnel extrêmement professionnel, accueillant et de bon conseil. (Trip.com)",
+            "Excellent petit-déjeuner et restaurant de qualité sur place. (Booking.com)"
         ],
         "points_negatifs": [
-            "Éloigné d'environ 2 kilomètres du centre historique, nécessitant une petite marche ou un transport.",
-            "Accès au spa et à la piscine soumis à des restrictions d'âge (16 ans et plus)."
+            "Éloigné d'environ 2 kilomètres du centre historique, nécessitant une petite marche ou un transport. (Booking.com)",
+            "Accès au spa et à la piscine soumis à des restrictions d'âge (16 ans et plus). (TripAdvisor)"
         ],
         "equipements": [
             "4 étoiles",
@@ -129,6 +131,7 @@
             "Chambres familiales",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Les avis réels confirment que l'AC Hotel Split est une adresse au design épuré remarquable, portée par un niveau de confort et de propreté quasi-parfait. Les points négatifs se limitent à son positionnement légèrement à l'écart du cœur historique et à la restriction d'âge pour l'accès aux équipements de bien-être.",
         "pour_qui": {
             "ambiance": "🌊 Design, épuré, élégant et tourné vers la mer",
             "public": "Couples et voyageurs recherchant le summum du design contemporain et du bien-être près de Split",
@@ -157,14 +160,14 @@
             "connexion_wifi_gratuite": "8,8/10"
         },
         "points_positifs": [
-            "Emplacement stratégique à quelques pas de la plage de Bellevue et proche du port.",
-            "Réception ouverte 24h/24 avec un personnel réactif et serviable.",
-            "Chambres modernes, fonctionnelles et très propres.",
-            "Accès aisé aux transports pour rejoindre la vieille ville de Dubrovnik."
+            "Emplacement stratégique à quelques pas de la plage de Bellevue et proche du port. (Booking.com)",
+            "Réception ouverte 24h/24 avec un personnel réactif et serviable. (Expedia)",
+            "Chambres modernes, fonctionnelles et très propres. (TripAdvisor)",
+            "Accès aisé aux transports pour rejoindre la vieille ville de Dubrovnik. (Trip.com)"
         ],
         "points_negatifs": [
-            "Stationnement parfois complexe en raison de la forte affluence dans la zone.",
-            "Espaces communs de taille modeste."
+            "Stationnement parfois complexe en raison de la forte affluence dans la zone. (Booking.com)",
+            "Espaces communs de taille modeste. (TripAdvisor)"
         ],
         "equipements": [
             "4 étoiles",
@@ -174,6 +177,7 @@
             "Service de navette",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Les avis réels confirment que le City Hotel Dubrovnik est un excellent choix urbain 4 étoiles, particulièrement apprécié pour son emplacement pratique entre la plage et les axes de transport. Les points négatifs signalés relèvent de contraintes logistiques urbaines (stationnement) et d'une structure axée davantage sur la fonctionnalité des chambres que sur de vastes espaces communs.",
         "pour_qui": {
             "ambiance": "🏛️ Urbain, pratique, confortable et chaleureux",
             "public": "Voyageurs voulant combiner la découverte des remparts historiques et la proximité de la mer",
@@ -202,14 +206,14 @@
             "connexion_wifi_gratuite": "8,5/10"
         },
         "points_positifs": [
-            "Situation exceptionnelle les pieds dans l'eau avec un accès immédiat à la mer.",
-            "Personnel aux petits soins, extrêmement bienveillant et professionnel.",
-            "Restaurant proposant des plats dalmates typiques avec une vue panoramique splendide.",
-            "Cadre très calme, intime et reposant."
+            "Situation exceptionnelle les pieds dans l'eau avec un accès immédiat à la mer. (Booking.com)",
+            "Personnel aux petits soins, extrêmement bienveillant et professionnel. (TripAdvisor)",
+            "Restaurant proposant des plats dalmates typiques avec une vue panoramique splendide. (Expedia)",
+            "Cadre très calme, intime et reposant. (Trip.com)"
         ],
         "points_negatifs": [
-            "Structure de taille plus modeste (environ 27 chambres), ce qui nécessite de réserver tôt.",
-            "Éloigné de quelques kilomètres du centre historique de Zadar (nécessite un véhicule ou un transport)."
+            "Structure de taille plus modeste (environ 27 chambres), ce qui nécessite de réserver tôt. (Booking.com)",
+            "Éloigné de quelques kilomètres du centre historique de Zadar (nécessite un véhicule ou un transport). (TripAdvisor)"
         ],
         "equipements": [
             "3 étoiles",
@@ -220,6 +224,7 @@
             "Parking",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Les avis réels confirment que l'Hotel Delfin est un charmant établissement côtier 3 étoiles, plébiscité pour son ambiance familiale, son emplacement privilégié face à l'Adriatique et la chaleur de son accueil. Les points négatifs se limitent à sa petite taille (nécessitant de s'y prendre tôt) et à son isolement relatif par rapport au centre-ville de Zadar.",
         "pour_qui": {
             "ambiance": "🌅 Marin, intime, convivial, pittoresque et reposant",
             "public": "Couples et voyageurs recherchant la tranquillité d'un hôtel familial face à la mer Adriatique",
@@ -248,14 +253,14 @@
             "connexion_wifi_gratuite": "8,5/10"
         },
         "points_positifs": [
-            "Emplacement central exceptionnel en plein cœur de la vieille ville, à quelques minutes à pied des arènes et du front de mer.",
-            "Restaurant renommé sur place proposant d'excellentes spécialités d'Istrie et des fruits de mer.",
-            "Accueil familial chaleureux, personnel très aimable et serviable.",
-            "Chambres propres, climatisées et dotées d'une literie confortable."
+            "Emplacement central exceptionnel en plein cœur de la vieille ville, à quelques minutes à pied des arènes et du front de mer. (Booking.com)",
+            "Restaurant renommé sur place proposant d'excellentes spécialités d'Istrie et des fruits de mer. (TripAdvisor)",
+            "Accueil familial chaleureux, personnel très aimable et serviable. (Expedia)",
+            "Chambres propres, climatisées et dotées d'une literie confortable. (Trip.com)"
         ],
         "points_negatifs": [
-            "Bâtiment historique ne disposant pas toujours de toutes les commodités modernes des grands resorts (pas d'ascenseur dans certaines sections, nécessitant de porter les bagages).",
-            "Stationnement en centre-ville parfois restreint."
+            "Bâtiment historique ne disposant pas toujours de toutes les commodités modernes des grands resorts (pas d'ascenseur dans certaines sections, nécessitant de porter les bagages). (Booking.com)",
+            "Stationnement en centre-ville parfois restreint. (TripAdvisor)"
         ],
         "equipements": [
             "3 étoiles",
@@ -264,6 +269,7 @@
             "Connexion Wi-Fi gratuite",
             "Réductions partenaires (soins et boutiques)"
         ],
+        "Nomad, vous en dit plus": "Les avis réels confirment que l'Hotel Galija est un charmant établissement de charme 3 étoiles, idéalement ancré dans l'histoire de Pula. Les points négatifs signalés découlent directement de l'architecture historique du bâtiment (comme l'absence d'ascenseur) et de la situation en hypercentre (stationnement), ce qui n'altère en rien son fort capital sympathie et son excellente table.",
         "pour_qui": {
             "ambiance": "🏛️ Historique, authentique, chaleureux et gourmand",
             "public": "Passionnés d'histoire, couples et voyageurs curieux de découvrir le patrimoine antique de Pula à pied",
