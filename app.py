@@ -164,6 +164,29 @@ canonical_script = f"""
 """
 components.html(canonical_script, height=0, width=0)
 # ---------------------------
+# --- GOOGLE ANALYTICS (gtag.js) ---
+google_analytics_script = """
+<script>
+    const parentHead = window.parent.document.head;
+    if (!parentHead.querySelector('script[data-ga-injected]')) {
+        const gtagScript = document.createElement('script');
+        gtagScript.async = true;
+        gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-RKPRX66Z4N';
+        gtagScript.setAttribute('data-ga-injected', 'true');
+        parentHead.appendChild(gtagScript);
+
+        const inlineScript = document.createElement('script');
+        inlineScript.text = `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RKPRX66Z4N');
+        `;
+        parentHead.appendChild(inlineScript);
+    }
+</script>
+"""
+components.html(google_analytics_script, height=0, width=0)
 
 # --- AJOUT DU SCRIPT DE TRACKING CJ AFFILIATE ---
 st.markdown(
