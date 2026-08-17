@@ -377,7 +377,7 @@ with col_promo:
                         if promo.get("lien"):
                             lien_final = update_booking_aid(promo["lien"])
                             st.markdown(f"""
-                                <a href="{lien_final}" target="_blank" 
+                                <a href="{lien_final}" target="_blank" rel="nofollow sponsored" rel="nofollow sponsored" rel="nofollow sponsored" rel="nofollow sponsored" rel="nofollow sponsored" rel="nofollow sponsored" 
                                    style="display: block; background-color: #003580; color: white; 
                                    padding: 10px; text-align: center; text-decoration: none; 
                                    border-radius: 6px; font-weight: bold; font-family: sans-serif;">
@@ -506,7 +506,7 @@ if valider:
                     lien_booking = update_booking_aid(lien_brut)
 
                     st.markdown(f"""
-                        <a href='{lien_booking}' target='_blank' 
+                        <a href='{lien_booking}' target='_blank' rel='nofollow sponsored' rel='nofollow sponsored' rel='nofollow sponsored' rel='nofollow sponsored' rel='nofollow sponsored' 
                         style='display: block; background-color: #003580; color: white; padding: 12px 10px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin-bottom: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.2);'>
                             Réserver sur Booking<br>
                             <span style='font-size: 13px; font-weight: normal; opacity: 0.9;'>À partir de {prix_affiche}</span>
@@ -516,7 +516,7 @@ if valider:
                     lien_expedia = d.get("lien_expedia", "https://www.anrdoezrs.net/click-8012379-13854902?url=https://www.expedia.fr/")
 
                     st.markdown(f"""
-                        <a href='{lien_expedia}' target='_blank' 
+                        <a href='{lien_expedia}' target='_blank' rel='nofollow sponsored' rel='nofollow sponsored' rel='nofollow sponsored' 
                         style='display: block; background-color: #ffcc00; color: #000000; padding: 12px 10px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin-bottom: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.2);'>
                             Réserver sur Expedia<br>
                             <span style='font-size: 13px; font-weight: normal; opacity: 0.8;'>À partir de {prix_affiche}</span>
@@ -558,11 +558,16 @@ if valider:
 
                 if d.get("pour_qui") and isinstance(d.get("pour_qui"), dict):
                     st.markdown("---")
-
+                    st.info(f"**Verdict :** {d['pour_qui'].get('verdict', '')}")
+                    with st.expander("🤔 Pour qui ?"):
+                        for cle, val in d['pour_qui'].items():
+                           if cle != 'verdict':
+                            st.write(f"**{cle.capitalize()} :** {val}")
+                
                 if d.get("meta_avis"):
                     st.caption(d['meta_avis'])
-                
-                st.markdown('</div>', unsafe_allow_html=True)
+                                
+                    st.markdown('</div>', unsafe_allow_html=True)
 # SECTION 2 : RECHERCHE D'HÔTEL PAR CRITÈRES (SÉCURISÉE)
 # ==============================================================================
 st.markdown(
@@ -727,7 +732,7 @@ else:
                 col_b1, col_b2 = st.columns(2)
                 with col_b1:
                     st.markdown(
-                        f'<a href="{lien_booking}" target="_blank" style="display: flex;'
+                        f'<a href="{lien_booking}" target="_blank" rel="nofollow sponsored" style="display: flex;'
                         ' justify-content: center; align-items: center; background-color:'
                         ' #003580; text-align: center; padding: 0.38rem 1rem;'
                         ' border-radius: 0.5rem; font-weight: 600; text-decoration:'
@@ -738,7 +743,7 @@ else:
                     )
                 with col_b2:
                     st.markdown(
-                        f'<a href="{lien_expedia}" target="_blank" style="display: flex;'
+                        f'<a href="{lien_expedia}" target="_blank" rel="nofollow sponsored" style="display: flex;'
                         ' justify-content: center; align-items: center; background-color:'
                         ' #FFC107; text-align: center; padding: 0.38rem 1rem;'
                         ' border-radius: 0.5rem; font-weight: 600; text-decoration:'
@@ -815,7 +820,7 @@ st.markdown("<p style='text-align: center; color: white; font-size: 15px; font-w
 html_partenaires = """
 <div style="text-align: center; margin-bottom: 15px; display: flex; justify-content: center; align-items: center; gap: 30px;">
     <span style="background-color: #003580; color: white; padding: 8px 20px; border-radius: 6px; font-weight: 900; font-size: 18px; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">Booking.com</span>
-    <a href="https://www.tkqlhce.com/click-101825091-14521545" target="_blank" style="background-color: white; padding: 6px 14px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.2); display: inline-flex; align-items: center; text-decoration: none;">
+    <a href="https://www.tkqlhce.com/click-101825091-14521545" target="_blank" rel="nofollow sponsored" style="background-color: white; padding: 6px 14px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.2); display: inline-flex; align-items: center; text-decoration: none;">
         <img src="https://www.awltovhc.com/image-101825091-14521545" alt="Expedia" style="height: 52px; display: block;">
     </a>
 </div>

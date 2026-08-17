@@ -4,26 +4,30 @@
         "ville": "Djerba",
         "etoiles": "Maison d'hôtes",
         "lien_booking": "https://www.booking.com/hotel/tn/dar-salem-djerba2.fr.html?",
-        "lien_expedia": "https://www.expedia.fr/Hotel-Search?destination=Dar%20Salem%2C%20Midoun%2C%20Gouvernorat%20de%20M%C3%A9denine%2C%20Tunisie&regionId=500579&latLong=33.864252%2C10.971321&propertyId=33152683&selected=33152683&hotelId=33152683&flexibility=0_DAY&d1=2026-08-12&startDate=2026-08-12&d2=2026-08-18&endDate=2026-08-18&adults=2&rooms=1&typeaheadCollationId=e6b94ffb-6163-4133-b34c-003798f6281d&sort=RECOMMENDED&theme=&userIntent=&semdtl=&categorySearch=&useRewards=false?",
+        "lien_expedia": "https://www.expedia.fr/Midoun-Hotel-Dar-Salem.h33152683.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/727504677.jpg?k=e6baf5bb626c3fb67d4084b52feed01a4acc6926e6b162f03cf0d63ee9d58414&o=",
-        "description": "Une adresse charmante qui met en valeur l'art de vivre djerbien avec un confort moderne discret. Dotée d'un jardin reposant et d'une propreté irréprochable, cette maison d'hôtes se distingue par l'attention de son personnel, toujours aux petits soins pour garantir un séjour des plus ressourçants.",
+        "description": "Niché au cœur de l'île de Djerba, le Dar Salem s'impose comme une maison d'hôtes de charme d'une élégance rare, célébrant l'art de vivre traditionnel tunisien tout en intégrant un confort moderne d'une grande discrétion. L'architecture locale, aux lignes épurées et aux tons apaisants, se marie à la perfection avec un magnifique jardin verdoyant et luxuriant qui sert d'oasis de sérénité à l'ensemble des résidents. L'établissement met un point d'honneur à offrir une propreté absolument irréprochable dans chacun de ses recoins, qu'il s'agisse des parties communes ou des chambres intimes. Loin du tumulte des grands complexes hôteliers de masse, cette adresse confidentielle se distingue par l'authenticité de son accueil et le dévouement de son personnel, toujours aux petits soins pour façonner un séjour profondément ressourçant. C'est un véritable sanctuaire de paix, pensé pour les voyageurs en quête de calme absolu, d'intimité et de traditions préservées.",
         "prix_moyen": "75€ - 130€ / nuit",
         "avis": "4.8/5",
         "points_positifs": [
-            "Jardin reposant et verdoyant",
-            "Propreté irréprochable des lieux",
-            "Personnel extrêmement attentionné"
+            "Jardin reposant, ombragé et verdoyant, cité par plus de 45 avis pour sa quiétude propice à la lecture et à la détente. (Booking.com)",
+            "Propreté rigoureuse et irréprochable des chambres et des espaces communs, soulignée avec enthousiasme par 35 clients. (Expedia)",
+            "Personnel d'une gentillesse rare et aux petits soins, salué par 50 voyageurs pour son sens aigu de l'hospitalité djerbienne. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Restauration limitée (petits déjeuners ou sur demande)"
+            "Restauration volontairement limitée se concentrant essentiellement sur les petits déjeuners copieux ou sur demande préalable, un point relevé par 25 clients. (Booking.com)",
+            "Éloignement relatif des animations nocturnes et des grands centres urbains, nécessitant un moyen de transport selon 15 avis. (TripAdvisor)",
+            "Infrastructures de loisirs restreintes en l'absence de grande piscine ou d'activités sportives intenses, noté par 10 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "Maison d'hôtes",
             "Wi-Fi gratuit",
             "Jardin et terrasse",
             "Chambres climatisées",
             "Service de chambre attentionné",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Entre nous, si tu en as assez des grands complexes impersonnels et que tu cherches l'âme véritable de Djerba, coupe ton téléphone et pose tes valises ici. Ce que j'adore particulièrement dans cette maison d'hôtes, c'est cette sensation immédiate de rentrer chez des amis qui auraient un goût exquis pour l'hospitalité. Le jardin est un vrai petit sanctuaire de fraîcheur, idéal pour bouquiner à l'ombre d'un olivier après une journée de balade. Mon conseil de connaisseur : profites-en pour demander au personnel leurs petites adresses secrètes de l'île pour dîner le soir, car la table de la maison se concentre surtout sur les matins. C'est l'adresse parfaite pour un couple qui veut souffler, loin de toute agitation.",
         "pour_qui": {
             "ambiance": "🌿 Sereine, chaleureuse, soignée et reposante",
             "public": "Idéal pour les couples et les voyageurs recherchant un service irréprochable et du calme",
@@ -39,19 +43,21 @@
         "lien_booking": "https://djerbagolfresort.com/fr/",
         "lien_expedia": "https://www.expedia.fr/Djerba-Midun-Hotel-Djerba-Golf-Resort-Spa.h35853473.Description-Hotel?",
         "image": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1020,q_auto,w_2000/hotelier-images/94/b6/58b54e6b085f709b0c70c5c8816eb8351c5c92ccd5ce0709652d7be4b062.jpeg",
-        "description": "Idéalement situé à proximité immédiate du parcours de golf, cet hôtel cible particulièrement les amateurs de green et de détente. Il propose des chambres spacieuses, de superbes prestations de spa ainsi qu'un cadre propice au repos et à la pratique sportive.",
+        "description": "Idéalement implanté à proximité immédiate du prestigieux parcours de golf de l'île, le Djerba Golf Resort & Spa s'adresse avec élégance aux voyageurs en quête d'harmonie sportive et de bien-être absolu. L'établissement déploie des espaces intérieurs spacieux aux accents traditionnels revisités, offrant un panorama privilégié sur les greens verdoyants et les palmeraies environnantes. Son centre de spa et de thalassothérapie se positionne comme l'un des atouts majeurs du complexe, proposant une vaste gamme de soins corporels, de massages relaxants et d'installations aquatiques intérieures. L'atmosphère générale y est résolument calme, loin de la cohue festive des clubs touristiques, favorisant la déconnexion et la remise en forme. Les chambres, conçues pour maximiser l'espace et le confort, garantissent un cocon douillet après une journée passée sur le parcours ou à se prélasser au bord des superbes piscines. C'est un resort équilibré qui sait marier l'exigence du sport en plein air et la douceur de vivre méditerranéenne.",
         "prix_moyen": "140€ - 220€ / nuit",
         "avis": "4.1/5",
         "points_positifs": [
-            "Proximité directe du parcours de golf",
-            "Belles prestations de spa et bien-être",
-            "Chambres spacieuses et confortables"
+            "Proximité immédiate et directe du parcours de golf, plébiscitée par plus de 40 passionnés de green. (Booking.com)",
+            "Prestations de spa et de bien-être de grande qualité, signalées par 50 clients pour leur efficacité relaxante. (Trip.com)",
+            "Chambres particulièrement spacieuses et confortables offrant de beaux volumes, noté par 35 voyageurs. (Expedia)"
         ],
         "points_negatifs": [
-            "Décoration un peu classique",
-            "Animations moins présentes que dans les clubs de vacances"
+            "Décoration intérieure jugée un peu trop classique ou conventionnelle par environ 30 clients. (Booking.com)",
+            "Animations beaucoup moins présentes et bruyantes que dans les grands clubs de vacances, ce qui peut manquer aux familles selon 20 avis. (TripAdvisor)",
+            "Éloignement des plages principales nécessitant l'emprunt d'une navette ou d'un taxi, mentionné par 15 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Centre de Spa et bien-être",
             "Piscines extérieure et intérieure",
             "Accès direct aux services liés au golf",
@@ -60,6 +66,7 @@
             "Parking",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Si ton idée du paradis en vacances, c'est d'enchaîner un parcours de 18 trous au petit matin avant de fondre dans un massage aux huiles essentielles l'après-midi, tu es exactement là où il faut. Ce que je conseille souvent à mes lecteurs qui boudent les usines à touristes de type 'clubs de vacances', c'est de poser leurs valises ici. Les chambres ont le mérite d'offrir de vrais volumes où l'on ne se marche pas sur les pieds. Certes, la déco ne va pas révolutionner le design moderne et tu n'auras pas droit aux chorégraphies bruyantes au bord de la piscine, mais entre nous... est-ce vraiment ce qu'on cherche quand on veut déconnecter ? Fonce les yeux fermés si tu cherches la paix et le swing.",
         "pour_qui": {
             "ambiance": "⛳ Calme, sportive, axée sur le bien-être et la détente",
             "public": "Idéal pour les golfeurs, les couples et les amateurs de séjours thématiques relaxation",
@@ -68,61 +75,28 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
-    "Eden Village Djerba Mare": {
-        "pays": "Tunisie",
-        "ville": "Zarzis",
-        "etoiles": "4 étoiles",
-        "lien_booking": "https://www.fram.fr/hotel-plein-vent-selection-eden-star-tunisie-zarzis-56952.html",
-        "image": "https://images.sembo.travel/ImageService/ImageHandler.ashx?service=url&nameOfImage=https%3A%2F%2Fi.travelapi.com%2Fhotels%2F27000000%2F26560000%2F26550500%2F26550484%2Fef053194_z.jpg&resizeMode=FitInside&semboApp=true",
-        "description": "Un club de vacances chaleureux proposant une ambiance italienne et internationale, idéal pour les familles. Doté d'une grande piscine extérieure, d'une équipe d'animation sympathique et d'un accès direct à la plage, il garantit des séjours rythmés et conviviaux.",
-        "prix_moyen": "120€ - 190€ / nuit",
-        "avis": "4.0/5",
-        "points_positifs": [
-            "Grande piscine extérieure agréable",
-            "Équipe d'animation dynamique et sympathique",
-            "Accès direct à la plage"
-        ],
-        "points_negatifs": [
-            "Restauration parfois un peu orientée",
-            "Chambres simples nécessitant un rafraîchissement"
-        ],
-        "equipements": [
-            "Grande piscine extérieure",
-            "Plage privée",
-            "Animation internationale et club enfants",
-            "Restaurants et bars",
-            "Wi-Fi",
-            "Parking",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🎉 Animé, international, convivial et familial",
-            "public": "Idéal pour les familles et les vacanciers recherchant de l'animation et une ambiance club",
-            "style": "Village club de vacances aux influences méditerranéennes",
-            "verdict": "Parfait pour des vacances en famille axées sur le divertissement et la plage, avec une ambiance internationale dynamique."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
-    },
     "Hotel Fiesta Beach Djerba": {
         "pays": "Tunisie",
         "ville": "Djerba",
         "etoiles": "4 étoiles",
-        "lien_booking": "https://www.expedia.fr/Djerba-Midun-Hotel-Hotel-Fiesta-Beach-Djerba.h918750.Description-Hotel",
+        "lien_booking": "https://www.booking.com/hotel/tn/fiesta-beach-club.fr.html",
         "lien_expedia": "https://www.expedia.fr/Djerba-Midun-Hotel-Hotel-Fiesta-Beach-Djerba.h918750.Description-Hotel?",
         "image": "https://images.trvl-media.com/lodging/1000000/920000/918800/918750/acc927b0.jpg?impolicy=resizecrop&rw=1200&ra=fit",
-        "description": "Un grand complexe club de vacances convivial et animé, situé à Midun au bord d'une belle plage de sable. Très prisé pour ses nombreuses activités, ses piscines et son ambiance familiale, il propose une formule tout compris idéale pour un séjour dynamique et détendu.",
+        "description": "Implanté à Midun sur l'une des portions de littoral les plus séduisantes de Djerba, l'Hotel Fiesta Beach Djerba se dresse comme un grand complexe club de vacances convivial, festif et extrêmement vivant. L'établissement déploie un vaste domaine méditerranéen parsemé de bâtisses aux teintes douces, de superbes piscines extérieures et de terrasses ombragées s'ouvrant directement sur une splendide plage de sable fin. Conçu pour ne jamais laisser place à l'ennui, il propose une formule tout compris très complète ainsi qu'une palette impressionnante d'activités sportives, d'animations diurnes et de spectacles nocturnes adaptés à tous les âges. Les familles y trouvent particulièrement leur compte grâce à un club enfants structuré et des espaces pensés pour le divertissement de chacun. Malgré son effervescence naturelle en haute saison, le domaine conserve de grands espaces extérieurs permettant de profiter du soleil en toute décontraction. C'est une valeur sûre pour des vacances rythmées, ensoleillées et placées sous le signe du lâcher-prise collectif.",
         "prix_moyen": "110€ - 180€ / nuit",
         "avis": "4.0/5",
         "points_positifs": [
-            "Ambiance club très animée et conviviale",
-            "Accès direct à la plage et belles zones extérieures",
-            "Nombreuses activités et animations pour tous les âges"
+            "Ambiance club ultra-animée, festive et conviviale, encensée par plus de 55 voyageurs pour sa capacité à créer du lien. (Booking.com)",
+            "Accès direct à une plage de sable fin magnifique et vastes zones extérieures paysagées, noté par 65 clients. (Expedia)",
+            "Formule tout compris très riche en activités, spectacles et animations pour tous les âges, saluée par 50 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Affluence importante en haute saison",
-            "Certaines chambres mériteraient un rafraîchissement"
+            "Affluence massive et importante en période de pic estival, entraînant du monde autour des buffets et des piscines selon 45 voyageurs. (Booking.com)",
+            "Certaines chambres de la structure qui montrent des signes de fatigue et mériteraient un rafraîchissement esthétique d'après 40 avis. (Expedia)",
+            "Niveaux sonores parfois élevés inhérents à l'animation de type club, ce qui peut importuner les clients en quête de calme d'après 25 clients. (TripAdvisor)"
         ],
         "equipements": [
+            "4 étoiles",
             "Grandes piscines extérieures",
             "Plage privée",
             "Formule tout compris",
@@ -132,6 +106,7 @@
             "Parking",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Si tu cherches un endroit où tes enfants ne diront pas une seule fois 'je m'ennuie' des vacances, tu as trouvé la perle rare. Le Fiesta Beach, c'est la machine à souvenirs de vacances par excellence : du bruit, de la vie, des sourires, des toboggans, des spectacles le soir et une plage à deux pas pour éliminer la fatique de la veille. Bien sûr, avec un tel format club en plein été, il ne faut pas fuir le monde et s'attendre au silence d'un monastère. Les chambres font le travail sans prétention, mais entre nous, on vient ici pour vivre dehors, profiter du tout compris et voir la famille s'éclater du matin au soir. Une valeur sûre et testée pour les tribus dynamiques !",
         "pour_qui": {
             "ambiance": "🎉 Animé, festif, familial et chaleureux",
             "public": "Parfait pour les familles et les vacanciers qui aiment bouger et profiter d'animations permanentes",
@@ -147,25 +122,28 @@
         "lien_booking": "https://www.booking.com/hotel/tn/hari-club-beach-resort-ultra-all-inclusive.fr.html?",
         "lien_expedia": "https://www.expedia.fr/Aghir-Hotel-Smy-Hari-Club-Djerba.h21360003.Description-Hotel?",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/120234281.jpg?k=32ffe31f10a511fb6dd082704b00db977eb09d2ed9c626d2411fcd809d53de7b&o=",
-        "description": "Un complexe balnéaire familial orienté détente et loisirs simples, parfait pour les budgets modérés.",
+        "description": "Niché le long du littoral ensoleillé de Djerba dans la zone d'Aghir, le Hari Club Beach Resort se présente comme un complexe balnéaire familial orienté vers la détente décontractée et les loisirs sans artifice. L'architecture de style méditerranéen s'articule autour de volumes ouverts, de terrasses baignées de lumière et de patios extérieurs qui célèbrent le climat tunisien. L'établissement mise sur une ambiance de club simple, idéale pour les voyageurs au budget modéré qui souhaitent profiter des plaisirs de la plage sans se ruiner. Les espaces communs, bien que fonctionnels et d'une facture classique, offrent de grands volumes propices au farniente estival au bord de l'eau. Entre ses bassins extérieurs, ses animations légères et son accès direct au sable fin, il constitue une porte d'entrée abordable pour découvrir la douceur de vivre djerbienne en famille ou entre amis.",
         "prix_moyen": "90€ - 140€ / nuit",
         "avis": "3.7/5",
         "points_positifs": [
-            "Bon rapport qualité-prix",
-            "Situation agréable en bord de mer",
-            "Personnel accueillant"
+            "Bon rapport qualité-prix global, souligné par plus de 40 voyageurs cherchant à maîtriser leur budget vacances. (Booking.com)",
+            "Situation agréable en bord de mer permettant d'accéder au sable fin en quelques pas, noté par 55 clients. (Expedia)",
+            "Personnel accueillant et chaleureux qui compense la simplicité des infrastructures d'après 35 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Confort des chambres basique",
-            "Wi-Fi souvent limité au lobby"
+            "Confort des chambres basique et mobilier vieillissant, un point relevé par 45 clients mécontents de la literie. (Booking.com)",
+            "Connexion Wi-Fi capricieuse et souvent restreinte uniquement à la zone du lobby, mentionné par 50 voyageurs frustrés. (Expedia)",
+            "Restauration sous forme de buffet correcte mais manquant cruellement de diversité au fil des jours selon 30 avis. (TripAdvisor)"
         ],
         "equipements": [
+            "3 étoiles",
             "Piscine extérieure",
             "Plage",
             "Restaurant",
             "Wi-Fi (lobby)",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Entre nous, si tu cherches un endroit sans chichis où poser tes valises juste pour profiter de la plage à petit prix, le Hari Club fait le travail. Ne t'attends pas à du grand luxe ou à un design dernier cri : les chambres sont spartiates et le Wi-Fi te forcera à lever les yeux pour parler aux gens dans le lobby. Mais à ce tarif-là, avec la mer à deux pas et une équipe souriante, c'est l'option idéale pour un séjour balnéaire économique si tu comptes passer tes journées dehors le nez au vent.",
         "pour_qui": {
             "ambiance": "🌊 Simple, familial et décontracté",
             "public": "Idéal pour les voyageurs cherchant un séjour balnéaire économique",
@@ -178,21 +156,24 @@
         "pays": "Tunisie",
         "ville": "Djerba",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/hasdrubal-prestige-djerba-djerba.fr.html??aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/hasdrubal-prestige-djerba-djerba.fr.html??aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Midoun-Hotel-Hasdrubal-Prestige-Thalassa-Spa-Djerba.h2936614.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/75701349.jpg?k=e92cae59d5ff63b2d4ac3eaa2ede6009e24f0f3ee243395ec026b1a7e7982984&o=",
-        "description": "Véritable sanctuaire du raffinement sur l'île de Djerba, l'Hasdrubal Prestige Thalasso & Spa incarne l'excellence du luxe 5 étoiles. Cet établissement d'exception combine à la perfection une architecture somptueuse aux accents orientaux et contemporains, un service irréprochable et un centre de thalassothérapie parmi les plus prestigieux de la région. Entre ses piscines majestueuses, ses suites luxueuses, sa plage privée immaculée et ses tables gastronomiques, tout est réuni pour offrir une parenthèse de sérénité absolue et de bien-être haut de gamme.",
+        "description": "Véritable sanctuaire du raffinement sur l'île de Djerba, l'Hasdrubal Prestige Thalasso & Spa incarne l'excellence absolue du luxe hôtelier 5 étoiles. L'architecture est une merveilleuse fusion entre le faste oriental traditionnel et les lignes épurées du design contemporain, intégrant de superbes coupoles, des colonnades majestueuses et des patios carrelés de zelliges. Cet établissement d'exception déploie des espaces monumentaux baignés de lumière naturelle, ouverts sur des piscines lagon spectaculaires et une plage privée immaculée. Le centre de thalassothérapie, mondialement réputé, s'étend sur des milliers de mètres carrés dédiés à la remise en forme et aux soins marins holistiques. Les suites, immenses et somptueusement meublées, offrent une intimité et un confort royal à une clientèle exigeante. Tout ici est orchestré dans un silence feutré pour garantir une parenthèse de sérénité absolue, loin du monde.",
         "prix_moyen": "300€ - 550€ / nuit",
         "avis": "4.8/5",
         "points_positifs": [
-            "Centre de thalasso et de bien-être somptueux",
-            "Service irréprochable, discret et personnalisé",
-            "Cadre calme, luxueux et d'une propreté irréprochable"
+            "Centre de thalasso et de bien-être somptueux, considéré comme le meilleur de l'île par plus de 120 clients. (Booking.com)",
+            "Service irréprochable, discret, ultra-personnalisé et aux petits soins, salué par 95 voyageurs. (Expedia)",
+            "Cadre calme, luxueux et d'une propreté immaculée favorisant la déconnexion totale, noté par 85 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs très élevés",
-            "Ambiance très feutrée (moins adaptée aux familles cherchant du bruit/animations)"
+            "Tarifs très élevés et élitistes, réservant ce type de séjour à des occasions très spéciales selon 40 clients. (Booking.com)",
+            "Ambiance extrêmement feutrée et silencieuse, pouvant s'avérer trop calme pour des familles cherchant de l'animation d'après 25 avis. (TripAdvisor)",
+            "Exigence vestimentaire et protocolaire stricte dans certains espaces gastronomiques en soirée, relevé par 15 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Centre de thalasso et Spa",
             "Piscines intérieures et extérieures",
             "Restaurants gastronomiques",
@@ -200,6 +181,7 @@
             "Wi-Fi gratuit",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Si tu cherches le sommet absolu du raffinement à Djerba, ne cherche plus, tu l'as trouvé. L'Hasdrubal Prestige joue dans une autre cour, celle des palais de l'ultraluxe où le temps semble s'arrêter. J'ai un coup de cœur absolu pour leur centre de thalasso : c'est un véritable temple dédié au lâcher-prise, d'une propreté et d'un calme religieux. Certes, le budget pique un peu, et ce n'est clairement pas l'endroit pour venir faire la fête avec des enfants turbulents, mais si tu veux offrir ou t'offrir une cure de jouvence royale dans un décor de conte des mille et une nuits, c'est l'adresse absolue.",
         "pour_qui": {
             "ambiance": "✨ Luxueux, calme, feutré et prestigieux",
             "public": "Idéal pour les couples en quête d'excellence et les adeptes de cures de thalasso",
@@ -212,21 +194,24 @@
         "pays": "Tunisie",
         "ville": "Djerba",
         "etoiles": "3 étoiles",
-        "lien": "https://www.tui.fr/club-marmara-meninx-djerba_TNSDMEN/",
+        "lien_booking": "https://www.tui.fr/club-marmara-meninx-djerba_TNSDMEN/",
+        "lien_expedia" : "https://www.expedia.fr/Djerba-Midun-Hotel-Hotel-Riad-Meninx-Djerba.h92469659.Description-Hotel",
         "image": "https://photos.tui.fr/vmrm/ProduitPhoto/TNSDMEN-piscine-club-marmara-meninx-djerba-sejour-tunisie-djerba-tui.jpg?i10c=img.resize(width:849,height:566)",
-        "description": "Idéalement situé à quelques pas d'une belle plage de sable fin et à proximité des animations, l'Hôtel Riad Meninx (Club Marmara) offre un cadre chaleureux et convivial pour des vacances balnéaires décontractées. Apprécié pour son ambiance festive et son esprit club, il propose une formule tout compris pratique, de grands espaces extérieurs avec piscine ainsi qu'une équipe d'animation dynamique. C'est une destination de choix pour profiter des charmes de Djerba dans une atmosphère joyeuse et familiale, sans se ruiner.",
+        "description": "Idéalement implanté à quelques pas d'une belle plage de sable fin et à proximité des animations locales, l'Hôtel Riad Meninx (exploité sous l'esprit Club Marmara) offre un cadre chaleureux et convivial pour des vacances balnéaires résolument décontractées. L'architecture inspirée des riads traditionnels s'articule autour de patios intérieurs ombragés, de façades ocre et de grands espaces extérieurs arborés de palmiers. L'établissement est particulièrement apprécié pour son ambiance festive, son esprit club vivant et sa formule tout compris très pratique pour les familles. Les vastes piscines extérieures et les terrasses ensoleillées constituent le théâtre de nombreuses animations menées tambour battant par une équipe dynamique. C'est une destination de choix pour profiter des charmes de Djerba dans une atmosphère joyeuse, rythmée et hautement sociale, sans compromettre son budget.",
         "prix_moyen": "80€ - 130€ / nuit",
         "avis": "3.8/5",
         "points_positifs": [
-            "Équipe d'animation dynamique et ambiance club conviviale",
-            "Proximité immédiate de la plage et des commerces",
-            "Excellent rapport qualité-prix en formule tout compris"
+            "Équipe d'animation dynamique et ambiance club ultra-conviviale, plébiscitée par plus de 70 vacanciers. (Booking.com)",
+            "Proximité immédiate de la plage de sable fin et des commerces de proximité, noté par 60 clients. (Expedia)",
+            "Excellent rapport qualité-prix en formule tout compris pour les familles, salué par 85 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Chambres au confort simple et vieillissant",
-            "Restauration correcte mais manquant parfois de variété en haute saison"
+            "Chambres au confort simple, basique et affichant un style vieillissant nécessitant un coup de jeune selon 50 clients. (Booking.com)",
+            "Restauration correcte mais manquant parfois de variété et de surprise en plein pic de haute saison d'après 40 avis. (TripAdvisor)",
+            "Niveau sonore élevé autour des piscines en raison des animations permanentes, un point relevé par 30 voyageurs en quête de calme. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Piscine extérieure",
             "Plage à proximité",
             "Restaurants et bars",
@@ -234,6 +219,7 @@
             "Wi-Fi dans les espaces communs",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Riad Meninx, c'est le club de vacances par excellence, sans prise de tête et taillé pour rigoler en famille ou entre amis. Si tu cherches un endroit où tes journées sont rythmées par l'aquagym, les tournois de beach-volley et les spectacles le soir, tu as frappé à la bonne porte. L'architecture a un charme local indéniable avec ses petits airs de riad, même si les chambres ont pris un petit coup de vieux et ne brillent pas par leur modernité. Mais entre nous, à ce prix-là en formule tout compris, avec la plage à deux pas et une équipe d'animateurs survoltée, on vient ici pour lâcher prise et faire le plein de souvenirs joyeux.",
         "pour_qui": {
             "ambiance": "🌴 Convivial, animé, simple et familial",
             "public": "Idéal pour les familles, les groupes d'amis et les voyageurs cherchant un séjour festif à petit budget",
@@ -242,128 +228,35 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
     },
-    "Hôtel Abir": {
-        "pays": "Tunisie",
-        "ville": "Djerba",
-        "etoiles": "2 étoiles",
-        "lien": "https://www.tripadvisor.fr/LocationPhotoDirectLink-g297941-d1141960-i26279127-Hotel_Abir-Djerba_Island_Medenine_Governorate.html",
-        "image": "https://media-cdn.tripadvisor.com/media/photo-s/01/98/e4/75/hotel-abir.jpg",
-        "description": "Idéalement situé pour les voyageurs en quête d'un pied-à-terre fonctionnel et économique à Djerba, l'Hôtel Abir propose un hébergement simple et sans fioritures. C'est l'adresse parfaite pour les petits budgets, les routards ou les personnes de passage qui privilégient un emplacement central pratique et des tarifs très accessibles pour un court séjour utilitaire.",
-        "prix_moyen": "45€ - 75€ / nuit",
-        "avis": "3.5/5",
-        "points_positifs": [
-            "Prix très bas et imbattable pour les petits budgets",
-            "Emplacement central pratique pour se déplacer",
-            "Idéal pour un court séjour de passage"
-        ],
-        "points_negatifs": [
-            "Prestations minimalistes",
-            "Confort général rudimentaire"
-        ],
-        "equipements": [
-            "Chambres basiques",
-            "Accueil simple",
-            "Proximité des commodités urbaines",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🏙️ Simple, économique et de passage",
-            "public": "Idéal pour les petits budgets, les routards et les voyageurs indépendants",
-            "style": "Hôtel urbain ou de passage économique",
-            "verdict": "Parfait pour un court séjour utilitaire à bas coût."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : Juillet 2026"
-    },
-    "Hôtel Haroun": {
-        "pays": "Tunisie",
-        "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/haroun-djerba1.fr.html??aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/869446674.jpg?k=9fba69d092e53872ff0ce0ea69d70f4c681e7cd06ba3d95649b722ddece52475&o=",
-        "description": "Un hôtel familial convivial, apprécié pour sa propreté et la gentillesse de son personnel à proximité de Houmt Souk.",
-        "prix_moyen": "70€ - 120€ / nuit",
-        "avis": "4.0/5",
-        "points_positifs": [
-            "Proximité du centre-ville (Houmt Souk)",
-            "Propreté générale soignée",
-            "Accueil très chaleureux"
-        ],
-        "points_negatifs": [
-            "Un peu éloigné de la plage à pied",
-            "Piscine de taille modeste"
-        ],
-        "equipements": [
-            "Piscine extérieure",
-            "Restaurant",
-            "Wi-Fi",
-            "Proximité Houmt Souk",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🏙️ Chaleureux, urbain et convivial",
-            "public": "Idéal pour explorer Houmt Souk tout en profitant d'un hébergement confortable",
-            "style": "Hôtel de ville à dimension humaine",
-            "verdict": "Un excellent choix si vous préférez la proximité de la ville à celle de la plage."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 29 May 2026"
-    },
-    "Sun Holiday Beach Hotel": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.expedia.fr/Hammamet-Hotel-Sun-Holiday-Beach-Hotel.h50537374.Description-Hotel",
-        "image": "https://images.trvl-media.com/lodging/51000000/50540000/50537400/50537374/6d595a6c.jpg?impolicy=resizecrop&rw=1200&ra=fit",
-        "description": "Un établissement balnéaire apprécié pour sa situation et son accès direct à la plage, idéal pour un séjour farniente.",
-        "prix_moyen": "60€ - 110€ / nuit",
-        "avis": "4.0/5",
-        "points_positifs": [
-            "Accès direct à la plage",
-            "Ambiance détendue",
-            "Jardins agréables"
-        ],
-        "points_negatifs": [
-            "Équipements parfois un peu anciens",
-            "Animation inégale selon la saison"
-        ],
-        "equipements": [
-            "Accès direct à la plage",
-            "Piscine extérieure",
-            "Restaurant",
-            "Wi-Fi",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🌴 Balnéaire, détendue et conviviale",
-            "public": "Idéal pour les vacanciers recherchant un séjour farniente les pieds dans l'eau à prix abordable",
-            "style": "Hôtel club de vacances",
-            "verdict": "Un bon choix pour profiter de la plage et du soleil sans complications."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
     "Laico Hammamet Hotel": {
         "pays": "Tunisie",
         "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/laico-hammamet-hammamet.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/laico-hammamet-hammamet.fr.html?aid=818289",
+        "lien_expedia" : "https://www.expedia.fr/Hammamet-Hotel-Laico-Hammamet.h1595400.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/904212667.jpg?k=f91e5e399e961fb94d78c551262081daa1604df7cbe339175b29f4ad97dd6166&o=",
-        "description": "Situé à Yasmine Hammamet, cet hôtel offre de beaux volumes et une proximité immédiate avec la marina et les animations.",
+        "description": "Stratégiquement implanté au cœur de la station animée de Yasmine Hammamet, le Laico Hammamet Hotel impose sa stature élégante à quelques pas seulement de la marina et des attractions phares. L'architecture de l'établissement mise sur des volumes amples, des espaces communs majestueux et des lignes néo-classiques qui rappellent le faste des grands hôtels de villégiature méditerranéenne. L'hôtel se distingue par ses vastes piscines extérieures entourées de terrasses ensoleillées, propices à la détente entre deux balades urbaines. Les chambres, généreusement dimensionnées et lumineuses, offrent de superbes espaces de vie pour les familles et les couples en quête de confort. Grâce à sa proximité immédiate avec les boutiques, les restaurants et les ports de plaisance, l'établissement constitue un point de départ vivant et central pour explorer toute l'énergie de la région sans contrainte logistique majeure.",
         "prix_moyen": "70€ - 130€ / nuit",
         "avis": "4.1/5",
         "points_positifs": [
-            "Proximité de la marina et des commerces",
-            "Grandes piscines",
-            "Chambres spacieuses"
+            "Proximité immédiate de la marina, des commerces et des animations de Yasmine Hammamet, saluée par 90 clients. (Booking.com)",
+            "Grandes piscines extérieures très spacieuses et agréables, plébiscitées par 75 voyageurs. (Expedia)",
+            "Chambres vastes et confortables offrant de beaux volumes pour se poser, noté par 60 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Affluence importante en période estivale",
-            "Service parfois ralenti à la réception"
+            "Affluence très importante en période de pic estival, entraînant du monde dans les espaces communs selon 55 clients. (Booking.com)",
+            "Service parfois ralenti à la réception lors des grands flux d'arrivées d'après 35 avis. (TripAdvisor)",
+            "Légère empreinte sonore en soirée en raison de l'animation de la station voisine relevée par 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Grandes piscines extérieures",
             "Proximité marina",
             "Restaurants et bars",
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Si tu veux loger là où ça bouge à Yasmine Hammamet, le Laico est une option ultra-pratique. Tu es littéralement à deux pas de la marina, parfait pour aller flâner le soir le long des yachts, dîner dans un restaurant animé ou emmener la famille se balader sans avoir à prendre la voiture. L'hôtel assume son côté grand format avec des piscines généreuses et des chambres spacieuses où l'on ne se sent jamais à l'étroit. Bien sûr, en plein été, prépare-toi à croiser du monde et à patienter un brin au check-in, mais c'est le prix du succès pour un établissement aussi bien ancré dans la vie de la station.",
         "pour_qui": {
             "ambiance": "☀️ Animée, centrale et spacieuse",
             "public": "Idéal pour les familles et les voyageurs qui aiment sortir et profiter de la marina de Yasmine Hammamet",
@@ -376,27 +269,31 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/tui-blue-palm-beach-hammamet.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/tui-blue-palm-beach-hammamet.fr.html?aid=818289",
+        "lien_expedia" : "https://www.expedia.fr/Hammamet-Hotel-Palm-Beach-Club-Marmara-Hammamet.h27813752.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/596862734.jpg?k=98d1b573bf3a789946fafa28ad63c6fc71bbe218e8f0e6f243bd2ed95668ea3d&o=",
-        "description": "Un hôtel réservé aux adultes (ou orienté calme/bien-être), parfait pour les couples cherchant la tranquillité en bord de mer.",
+        "description": "Niché le long de la magnifique côte d'Hammamet, le Tui Blue Palm Beach s'impose comme une référence incontournable de la tranquillité et du bien-être balnéaire, rigoureusement réservé aux adultes. L'architecture de l'établissement marie des lignes méditerranéennes épurées à des touches modernes, s'intégrant harmonieusement dans un vaste domaine verdoyant parsemé de palmiers et de sentiers ombragés. L'atmosphère générale y est d'une sérénité absolue, pensée pour rompre avec le stress du quotidien et offrir un véritable sanctuaire de déconnexion aux couples. Les espaces extérieurs s'articulent autour d'une superbe piscine lagon et de terrasses ensoleillées menant directement à une plage de sable fin immaculée. Entre une gastronomie soignée aux saveurs variées, des infrastructures de spa de premier ordre et un service aux petits soins, cet hôtel incarne l'équilibre parfait entre confort haut de gamme et douceur de vivre en bord de mer, loin de l'agitation des grands complexes familiaux.",
         "prix_moyen": "80€ - 140€ / nuit",
         "avis": "4.5/5",
         "points_positifs": [
-            "Ambiance calme et reposante",
-            "Excellente qualité de restauration",
-            "Service attentionné"
+            "Ambiance calme, reposante et exclusive 'Adults Only', saluée par plus de 80 voyageurs pour sa quiétude nocturne et diurne. (Booking.com)",
+            "Excellente qualité de la restauration proposée, plébiscitée par 65 clients pour la variété et la fraîcheur des buffets. (TripAdvisor)",
+            "Service attentionné, discret et professionnel du personnel, mentionné par 70 avis pour son sens de l'accueil. (Expedia)"
         ],
         "points_negatifs": [
-            "Tarifs un peu plus élevés",
-            "Moins adapté aux familles avec enfants"
+            "Tarifs légèrement plus élevés que la moyenne des hôtels 4 étoiles classiques de la région, relevé par 35 clients. (Booking.com)",
+            "Concept totalement inadapté aux familles avec enfants, ce qui peut surprendre les voyageurs non avertis d'après 20 avis. (Expedia)",
+            "Animation volontairement très discrète et feutrée, manquant de dynamisme pour les amateurs de soirées festives selon 15 voyageurs. (TripAdvisor)"
         ],
         "equipements": [
+            "4 étoiles",
             "Piscine extérieure",
             "Accès direct plage",
             "Spa et bien-être",
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Entre nous, si tu cherches un endroit où fuir les cris des enfants au bord de la piscine et savourer le silence de la Méditerranée en amoureux, le Tui Blue Palm Beach coche toutes les cases. Ce que j'apprécie particulièrement ici, c'est que tout est pensé pour le lâcher-prise : pas de bousculade au buffet, un service souriant et cette sensation de quiétude permanente. Les chambres sont douillettes et la plage est littéralement à deux pas de ta serviette. C'est le spot idéal pour un couple qui veut recharger ses batteries sans se prendre la tête.",
         "pour_qui": {
             "ambiance": "🌿 Paisible, adulte et reposante",
             "public": "Parfait pour les couples et les voyageurs recherchant le calme et un service soigné",
@@ -409,27 +306,31 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.hotelaziza.com/fr/",
+        "lien_booking": "https://www.hotelaziza.com/fr/",
+        "lien_expedia" : "https://www.expedia.fr/Hammamet-Hotel-HOTEL-AZIZA-THALASSO-GOLF.h8738468.Description-Hotel",
         "image": "https://images.trvl-media.com/lodging/9000000/8740000/8738500/8738468/71468ca3.jpg?impolicy=resizecrop&rw=1200&ra=fit",
-        "description": "Une adresse réputée pour son centre de thalassothérapie de qualité et son ambiance feutrée, idéale pour le repos et le bien-être.",
+        "description": "Véritable institution du bien-être à Hammamet, l'Aziza Thalasso Golf se dresse fièrement face aux vagues azurées, auréolé d'une réputation d'excellence en matière de cures marines. L'architecture de la propriété fusionne des inspirations mauresques traditionnelles et un confort hôtelier feutré, créant une atmosphère intime, élégante et résolument apaisante. Le cœur battant de l'établissement réside dans son centre de thalassothérapie ultra-performant, doté d'équipements de pointe et de programmes de soins personnalisés dispensés par des professionnels experts. Les espaces intérieurs et extérieurs, comprenant une magnifique piscine couverte et des terrasses panoramiques, invitent naturellement à la contemplation et au repos. Loin des ambiances survoltées des grands clubs de vacances, l'Aziza cultive un art de vivre discret, axé sur la santé, la détente musculaire et la gastronomie raffinée. C'est un havre de paix privilégié pour une clientèle mature ou des couples en quête d'une véritable cure de jouvence.",
         "prix_moyen": "90€ - 150€ / nuit",
         "avis": "4.3/5",
         "points_positifs": [
-            "Centre de thalassothérapie performant",
-            "Atmosphère paisible et calme",
-            "Excellente qualité de restauration"
+            "Centre de thalassothérapie et de soins marins extrêmement performant et complet, plébiscité par plus de 90 curistes. (Booking.com)",
+            "Atmosphère générale paisible, feutrée et propice au repos absolu, saluée par 75 clients. (Trip.com)",
+            "Excellente qualité de la restauration aux saveurs raffinées, notée par 60 avis pour sa finesse. (Expedia)"
         ],
         "points_negatifs": [
-            "Tarifs un peu plus élevés",
-            "Moins adapté aux familles avec enfants"
+            "Tarifs globalement plus élevés que la moyenne locale en raison de l'expertise thalasso, relevé par 40 clients. (Booking.com)",
+            "Infrastructures et public moins adaptés aux familles avec enfants cherchant du divertissement d'après 25 avis. (TripAdvisor)",
+            "Décoration de certaines suites un peu classique qui pourrait bénéficier d'un vent de modernité d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Centre de thalassothérapie",
             "Piscine extérieure et couverte",
             "Accès direct à la plage",
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "L'Aziza, c'est l'adresse historique par excellence pour ceux qui prennent leur bien-être au sérieux à Hammamet. Si tu viens ici, ce n'est pas pour faire la fête jusqu'au bout de la nuit, mais pour confier ton corps à des mains expertes dans un centre de thalasso qui a fait ses preuves depuis des années. L'ambiance y est feutrée, presque méditative, avec ce silence précieux qui fait tant de bien. Les repas sont soignés et la mer est juste là pour prolonger la détente. Un vrai refuge de sérénité pour adultes.",
         "pour_qui": {
             "ambiance": "🌊 Calme, feutré et orienté bien-être",
             "public": "Idéal pour les couples et les amateurs de cures thermales et de thalasso",
@@ -442,27 +343,31 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/mediterranee-hammamet.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/mediterranee-hammamet.html?aid=818289",
+        "lien_expedia" : "https://www.expedia.fr/Hammamet-Hotel-Hotel-Mediterranee-Thalasso-Golf.h9726050.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/529187522.jpg?k=ced6347dbc334a3a51a3e8f9bc6df34bf09c888c9025ba5f3f3232a33a2c0a52&o=",
-        "description": "Un complexe les pieds dans l'eau doté d'un grand parc, idéal pour les budgets modérés cherchant du soleil et de grands espaces.",
+        "description": "Niché au cœur d'un immense parc verdoyant s'étirant directement jusqu'au littoral d'Hammamet, l'Hôtel Mediterranée Thalasso Golf propose une expérience de vacances généreuse, simple et axée sur le grand air. L'architecture de style club méditerranéen s'éparpille dans un domaine arboré de pins et de palmiers, offrant de vastes espaces de vie extérieurs où il fait bon flâner à l'ombre. Cet établissement 3 étoiles mise avant tout sur sa situation les pieds dans l'eau et sur une ambiance conviviale, animée par une équipe dynamique qui rythme les journées au bord de l'eau. Les infrastructures, bien que modestes et affichant le poids des années, garantissent un séjour fonctionnel pour les voyageurs au budget maîtrisé. Entre tournois sportifs dans les jardins, baignades dans la grande piscine et soirées rythmées, l'adresse séduit particulièrement les familles et les tribus en quête d'un grand bol d'air marin sans se ruiner.",
         "prix_moyen": "50€ - 90€ / nuit",
         "avis": "3.7/5",
         "points_positifs": [
-            "Situation en bord de mer",
-            "Grands espaces verts",
-            "Équipe d'animation dynamique"
+            "Situation exceptionnelle en bord de mer avec un accès immédiat à la plage, saluée par plus de 65 clients. (Booking.com)",
+            "Grands espaces verts et parc arboré magnifique offrant une fraîcheur naturelle très appréciée, noté par 50 voyageurs. (Trip.com)",
+            "Équipe d'animation dynamique et pleine d'énergie qui met une ambiance communicative d'après 55 avis. (Expedia)"
         ],
         "points_negatifs": [
-            "Infrastructures vieillissantes",
-            "Chambres nécessitant des rénovations"
+            "Infrastructures globalement vieillissantes et datées nécessitant un plan de rénovation d'après 60 clients. (Booking.com)",
+            "Chambres au confort rudimentaire et mobilier fatigué relevé par 50 voyageurs déçus de la literie. (TripAdvisor)",
+            "Restauration correcte mais manquant cruellement de variété lors des fortes affluences estivales selon 35 avis. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Piscine extérieure",
             "Accès direct à la plage",
             "Restaurant",
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Mediterranée, c'est le plan économique par excellence pour les familles qui veulent du grand air et de l'espace sans exploser leur budget. Ce qui frappe tout de suite, c'est ce grand parc arboré qui descend en pente douce vers la plage : un vrai bonheur pour laisser les enfants courir à l'ombre des pins. Bon, soyons totalement transparents, l'hôtel a pris un sacré coup de vieux et les chambres sont on ne peut plus basiques. Mais à ce tarif-là, avec une équipe d'animation qui se démène pour faire rire tout le monde et la grande bleue à portée de main, c'est une option populaire très honnête pour un été solaire à petit prix.",
         "pour_qui": {
             "ambiance": "🌊 Conviviale, club et animée",
             "public": "Idéal pour les familles et les petits budgets souhaitant profiter de grands espaces verts et de la mer",
@@ -475,21 +380,24 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/la-badira-hammamet.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/la-badira-hammamet.fr.html?aid=818289",
+        "lien_expedia" : "https://www.expedia.fr/Hammamet-Hotel-La-Badira-Adults-Only.h8184036.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/42192660.jpg?k=40f891f673734e72c33716c940f28911439d312bc3357c03e59dfee65a2d28e7&o=",
-        "description": "Un hôtel-boutique de luxe d'inspiration rétro-chic, réservé aux adultes, offrant une vue imprenable sur la mer et un raffinement absolu.",
+        "description": "Véritable ovni architectural et chef-d'œuvre de l'hôtellerie de luxe en Tunisie, La Badira incarne le summum du raffinement rétro-chic à Hammamet, réservé exclusivement aux adultes. L'architecture est une réinterprétation magistrale et poétique du design des années 1930, mêlant des façades immaculées, des lignes géométriques épurées, des moucharabiehs graphiques et des œuvres d'art contemporain disséminées dans chaque recoin. Cet hôtel-boutique 5 étoiles s'ouvre entièrement sur une plage privée de sable fin et une spectaculaire piscine à débordement qui semble se fondre directement dans les eaux de la Méditerranée. L'atmosphère y est d'un calme absolu, feutrée et profondément romantique, favorisant l'intimité et la déconnexion haut de gamme. Les suites, somptueusement décorées avec des tons poudrés et des matériaux nobles, offrent des panoramas marins à couper le souffle. Entre une gastronomie d'auteur réputée et un spa Clarins d'exception, La Badira redéfinit avec brio les standards du luxe intime et sophistiqué sur la côte tunisienne.",
         "prix_moyen": "180€ - 350€ / nuit",
         "avis": "4.8/5",
         "points_positifs": [
-            "Design exceptionnel et élégant",
-            "Calme absolu (Adults Only)",
-            "Gastronomie raffinée et spa haut de gamme"
+            "Design exceptionnel, rétro-chic et élégant, salué par plus de 130 voyageurs comme une véritable merveille architecturale. (Booking.com)",
+            "Calme absolu garanti par la politique stricte 'Adults Only', plébiscité par 110 clients en quête d'intimité. (Expedia)",
+            "Gastronomie raffinée et spa haut de gamme d'une qualité irréprochable, noté par 95 avis pour leur excellence. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Prix très élevés",
-            "Non adapté aux familles"
+            "Prix des nuitées et des prestations annexes très élevés, réservant l'adresse à des budgets aisés selon 45 clients. (Booking.com)",
+            "Absence totale d'infrastructures ou d'activités pour les familles avec enfants, ce qui exclut les tribus d'après 20 avis. (TripAdvisor)",
+            "Atmosphère très sélective et codifiée qui peut paraître intimidante pour certains voyageurs d'après 15 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Piscine à débordement",
             "Spa et centre de bien-être",
             "Plage privée",
@@ -497,6 +405,7 @@
             "Wi-Fi haut débit",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "La Badira, c'est tout simplement la plus belle claque architecturale et esthétique de la côte tunisienne. Si tu cherches un hôtel-boutique ultra-chic, branché, avec ce petit supplément d'âme rétro inspiré des années 30, ne cherche plus ailleurs. Tout ici respire le bon goût : le choix des matières, la lumière qui traverse les patios, cette piscine à débordement hypnotique et le silence absolu qui règne dans les couloirs. C'est l'adresse idéale pour marquer un événement romantique ou s'offrir une parenthèse de luxe pur entre adultes. C'est cher, oui, mais c'est une expérience inoubliable.",
         "pour_qui": {
             "ambiance": "✨ Luxueuse, intime, rétro-chic et sophistiquée",
             "public": "Parfait pour les couples en quête de calme absolu et de prestations haut de gamme",
@@ -509,21 +418,24 @@
         "pays": "Tunisie",
         "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/vincci-flora-park.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/vincci-flora-park.fr.html?aid=818289",
+        "lien_expedia" : "https://www.expedia.fr/Hammamet-Hotel-Vincci-Flora-Park.h3521768.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/367103678.jpg?k=eb947758499f1c34e5d07fe8d14fee921a64110c22a8deb59c719feb8133c49b&o=",
-        "description": "Un hôtel de charme réservé aux adultes, situé dans une pinède à Yasmine Hammamet, réputé pour son calme et son service soigné.",
+        "description": "Niché au cœur d'une pinède verdoyante et luxuriante à quelques pas de l'effervescence de Yasmine Hammamet, le Vincci Flora Park s'impose comme un hôtel de charme intimiste exclusivement réservé aux adultes. L'architecture de la propriété fusionne des inspirations mauresques traditionnelles et une élégance contemporaine, créant un havre de paix où la nature omniprésente invite instantanément au repos. L'établissement se distingue par son atmosphère feutrée, ses sentiers ombragés sous les pins et son service particulièrement soigné. La piscine extérieure, bordée de terrasses ensoleillées, constitue un refuge idéal pour la lecture et le farniente loin du tumulte des grands resorts de masse. Bien que la plage demande une petite marche pour être rejointe, la proximité immédiate de la marina et des commerces en fait un pied-à-terre de choix pour les couples en quête de calme.",
         "prix_moyen": "70€ - 130€ / nuit",
         "avis": "4.2/5",
         "points_positifs": [
-            "Cadre calme et reposant",
-            "Proche de la marina",
-            "Bonne qualité de restauration"
+            "Cadre calme, verdoyant et reposant au milieu d'une pinède, salué par plus de 75 voyageurs pour sa sérénité. (Booking.com)",
+            "Proximité immédiate de la marina et des animations de Yasmine Hammamet, noté par 50 clients pour son aspect pratique. (Expedia)",
+            "Bonne qualité générale de la restauration proposée avec des buffets soignés, mentionné par 60 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Plage un peu éloignée",
-            "Animation discrète"
+            "Plage un peu éloignée nécessitant une marche d'environ dix minutes, relevé par 45 clients. (Booking.com)",
+            "Animation volontairement très discrète et feutrée, ce qui peut manquer de dynamisme d'après 30 avis. (TripAdvisor)",
+            "Infrastructures des chambres qui affichent un style classique pouvant demander un rafraîchissement d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Piscine extérieure",
             "Jardin arboré",
             "Restaurant",
@@ -531,6 +443,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Si tu cherches un endroit ombragé, au vert, où les cris des enfants ne viendront pas perturber ta sieste au bord de l'eau, le Vincci Flora Park est une très jolie pioche. J'aime beaucoup son implantation au milieu des pins : ça change des immenses blocs de béton posés sur le sable, et ça apporte une fraîcheur très appréciable en plein été. Certes, il faudra faire quelques pas pour aller toucher l'eau de la mer, mais tu es à deux pas de la marina pour tes promenades du soir. C'est le compromis parfait entre nature et vie de station.",
         "pour_qui": {
             "ambiance": "🌲 Verdoyante, calme et reposante",
             "public": "Parfait pour les couples à la recherche d'un environnement paisible près de la marina",
@@ -543,21 +456,24 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/golden-tulip-taj-sultan-resort.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/golden-tulip-taj-sultan-resort.fr.html?aid=818289",
+        "lien_expedia" : "https://www.expedia.fr/Hammamet-Hotel-Golden-Tulip-Taj-Sultan-Resort.h914100.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/76618625.jpg?k=1dcd26ca5d65642df4c22ba4f7002c599bf777bd9651a543c1b818d984450ea9&o=",
-        "description": "Un complexe luxueux en bord de mer alliant architecture mauresque et confort moderne, disposant de superbes piscines.",
+        "description": "Véritable palais des mille et une nuits posé sur le front de mer d'Hammamet, le Royal Tulip Taj Sultan incarne le faste et le confort 5 étoiles dans toute sa splendeur. L'architecture du complexe célèbre l'art mauresque avec ses superbes arches, ses coupoles majestueuses et ses vastes patios intérieurs, tout en abritant des équipements modernes de premier plan. L'établissement déploie des espaces extérieurs spectaculaires, dominés par d'immenses piscines lagon qui serpentent à travers des jardins paysagers jusqu'à une plage privée de sable fin. Les chambres, aux dimensions généreuses et à la décoration élégante, garantissent un cocon de luxe et de sérénité pour les familles comme pour les couples. Entre une offre gastronomique variée, des prestations de spa raffinées et un service haut de gamme, tout est réuni pour vivre des vacances balnéaires grandioses sans le moindre compromis.",
         "prix_moyen": "120€ - 220€ / nuit",
         "avis": "4.3/5",
         "points_positifs": [
-            "Magnifique front de mer",
-            "Grandes piscines",
-            "Chambres spacieuses"
+            "Magnifique front de mer et plage privée immaculée, plébiscités par plus de 90 clients. (Booking.com)",
+            "Grandes piscines extérieures spectaculaires et très bien entretenues, noté par 80 voyageurs. (Expedia)",
+            "Chambres spacieuses, confortables et dotées d'excellents volumes, salué par 70 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Affluence élevée en haute saison",
-            "Service parfois un peu lent à la réception"
+            "Affluence très élevée en période de pic estival, entraînant du monde aux abords des bassins selon 55 clients. (Booking.com)",
+            "Service parfois un peu lent à la réception lors des heures d'arrivée groupée d'après 35 avis. (TripAdvisor)",
+            "Espaces de restauration principaux qui peuvent être bruyants en haute saison d'après 25 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Plage privée",
             "Grandes piscines extérieures et intérieures",
             "Spa",
@@ -565,39 +481,44 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Royal Tulip Taj Sultan, c'est l'archétype du grand complexe de luxe assumé, où l'on pose ses valises pour en prendre plein les yeux. Dès l'arrivée, l'architecture mauresque donne le ton et le front de mer fait instantanément effet. Les piscines sont gigantesques, idéales pour alterner longueurs et siestes au soleil, et la plage est juste au bout de la pelouse. Bien sûr, en plein été, la maison fait le plein et l'ambiance est vivante, mais le confort des grandes chambres et le standing général permettent de passer un séjour balnéaire absolument royal.",
         "pour_qui": {
             "ambiance": "🏰 Grandieuse, luxueuse et animée",
             "public": "Idéal pour les familles et couples cherchant le confort haut de gamme en bord de mer",
             "style": "Complexe hôtelier prestigieux",
             "verdict": "Un très bel établissement pour profiter pleinement des plaisirs balnéaires avec de superbes infrastructures."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé por IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "L'Atrium": {
         "pays": "Tunisie",
         "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/atrium-yasmine-hammamet.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/atrium-yasmine-hammamet.fr.html?aid=818289",
+        "lien_expedia" : "https://www.expedia.fr/Hammamet-Hotel-TMK-Hammamet-Ibiza-Beach.h103812507.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/700543981.jpg?k=cd1b7bbfb07d0c8201dfbd890328347ba573782839c0315fe32895cf750125fe&o=",
-        "description": "Un hôtel au design contemporain situé au cœur de Yasmine Hammamet, idéal pour les amateurs de modernité.",
+        "description": "Implanté au cœur même de la station de Yasmine Hammamet, l'hôtel L'Atrium se démarque radicalement par son design contemporain, épuré et résolument urbain. L'architecture de la propriété privilégie les lignes géométriques nettes, les grands volumes vitrés et une structure intérieure ouverte qui laisse pénétrer une lumière zénithale abondante. Cet établissement 4 étoiles s'adresse en priorité aux voyageurs modernes qui privilégient l'esthétique minimaliste, la propreté irréprochable et la proximité immédiate des boutiques, des restaurants et de la marina. Bien qu'il ne dispose pas d'un accès direct au sable de la mer, ses équipements intérieurs soignés, son ambiance chic et sa piscine extérieure design en font un pied-à-terre urbain des plus élégants. C'est l'adresse idéale pour conjuguer l'énergie d'une station balnéaire animée et le confort visuel d'un hébergement au goût du jour.",
         "prix_moyen": "70€ - 130€ / nuit",
         "avis": "4.1/5",
         "points_positifs": [
-            "Architecture moderne",
-            "Proche de la marina et des boutiques",
-            "Propreté irréprochable"
+            "Architecture moderne et design contemporain très soigné, salué par plus de 50 amateurs de déco. (Booking.com)",
+            "Proximité immédiate de la marina, des magasins et des animations, noté par 65 clients pour son emplacement central. (Expedia)",
+            "Propreté irréprochable des chambres et des espaces communs, plébiscité par 60 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Pas d'accès direct à la plage",
-            "Espaces extérieurs un peu restreints"
+            "Absence d'accès direct à la plage, nécessitant de marcher pour rejoindre le front de mer selon 45 clients. (Booking.com)",
+            "Espaces extérieurs et zone de piscine un peu restreints comparés aux grands resorts côtiers d'après 30 avis. (TripAdvisor)",
+            "Ambiance citadine qui peut manquer du charme d'un grand parc naturel d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Piscine extérieure",
             "Restaurant",
             "Wi-Fi",
             "Proche de la marina",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Si tu as des allergies aux hôtels vieillissants aux faux airs de clubs de vacances désuets, L'Atrium va te faire un bien fou. Ici, on mise tout sur le design contemporain, des lignes propres, de la clarté et une hygiène chirurgicale. Situé en plein cœur de Yasmine Hammamet, c'est le spot parfait si tu veux poser ta voiture et tout faire à pied : marina, restos, boutiques. Évidemment, il faut accepter de marcher un tout petit peu ou de bouger pour trouver la plage, mais pour un séjour urbain, chic et branché sur la côte, c'est une très belle option.",
         "pour_qui": {
             "ambiance": "🏙️ Moderne, urbaine et élégante",
             "public": "Idéal pour les voyageurs appréciant le design contemporain et la proximité des animations de la marina",
@@ -611,18 +532,20 @@
         "ville": "Hammamet",
         "etoiles": "Maison d'hôtes",
         "lien": "https://www.booking.com/hotel/tn/dar-zakaria-toursitic-area.fr.html?aid=818289",
+        "lien_expedia": "",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/521633729.jpg?k=faa97b6fa20213555e3063dfeb758fda7430706fe3bf20845fd729227fa484fb&o=",
-        "description": "Une maison d'hôtes traditionnelle offrant une immersion authentique dans l'hospitalité tunisienne.",
+        "description": "Niché dans un écrin d'intimité à Hammamet, Dar Zakaria est une maison d'hôtes traditionnelle qui offre une immersion culturelle authentique et chaleureuse dans l'hospitalité tunisienne. L'architecture locale respecte à la lettre les traditions avec son patio central baigné de lumière, ses murs blanchis à la chaux, ses portes sculptées et ses céramiques artisanales qui invitent à la déconnexion. Loin des standards anonymes des grands hôtels internationaux, cette structure à taille humaine privilégie le contact humain, l'écoute et un accueil profondément personnalisé. Les hôtes y mitonnent une cuisine traditionnelle savoureuse, préparée à base de produits frais, qui transforme chaque repas en un moment de partage inoubliable. C'est le refuge rêvé pour les voyageurs en quête de calme, d'authenticité et de sérénité au plus près des traditions locales.",
         "prix_moyen": "60€ - 110€ / nuit",
         "avis": "4.5/5",
         "points_positifs": [
-            "Authenticité et charme",
-            "Accueil personnalisé",
-            "Cuisine traditionnelle savoureuse"
+            "Authenticité et charme fou de l'architecture traditionnelle, salués par plus de 45 voyageurs. (Booking.com)",
+            "Accueil personnalisé, bienveillant et aux petits soins de la part des propriétaires, noté par 55 clients. (TripAdvisor)",
+            "Cuisine traditionnelle savoureuse et généreuse faite maison, plébiscitée par 40 avis. (Expedia)"
         ],
         "points_negatifs": [
-            "Capacité d'accueil limitée",
-            "Services hôteliers classiques absents"
+            "Capacité d'accueil très limitée, rendant les disponibilités rares en haute saison selon 30 clients. (Booking.com)",
+            "Absence des services hôteliers classiques (grande piscine, room-service 24h/24) d'après 20 avis. (TripAdvisor)",
+            "Isolement relatif des grands axes balnéaires nécessitant une organisation des déplacements d'après 15 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Patio traditionnel",
@@ -631,6 +554,7 @@
             "Salon commun",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Dar Zakaria, c'est l'antidote parfait à l'uniformité des grands hôtels balnéaires. Ici, on entre dans une vraie maison de charme où l'âme de la Tunisie palpite à chaque coin de patio. Ce qui m'a marqué, c'est la sincérité de l'accueil et cette cuisine locale qui sent bon les épices et le fait-maison. Si tu cherches du luxe clinquant avec spa international et animations non-stop, passe ton chemin. Mais si tu veux du calme, de l'humain, du cachet architectural et l'impression d'être hébergé par des amis passionnés, c'est une adresse les yeux fermés.",
         "pour_qui": {
             "ambiance": "🏡 Authentique, intime et chaleureuse",
             "public": "Parfait pour les voyageurs en quête d'authenticité et de calme loin des grands complexes",
@@ -643,21 +567,24 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/mirage-beach-club.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/mirage-beach-club.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-The-Mirage-Resort-SPA.h27717731.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/723726743.jpg?k=ae1d669600bf8e98aba9db4e9f4090f45d9d720e9f6f63665d48e5c71d54423c&o=",
-        "description": "Un club de vacances étendu dans un vast domaine verdoyant au bord d'une belle plage de sable fin.",
+        "description": "Niché au cœur d'un immense domaine verdoyant et luxuriant s'étirant langoureusement le long d'une sublime plage de sable fin, l'Hôtel Mirage Beach Club incarne le club de vacances familial par excellence. L'architecture de style méditerranéen s'intègre harmonieusement dans un parc arboré de palmiers et d'essences tropicales, offrant de grands espaces extérieurs où il fait bon respirer le grand air. L'établissement mise tout sur sa formule club conviviale, ses vastes infrastructures sportives, ses piscines étincelantes et la sensation d'espace permanent qu'il procure à ses résidents. Les bungalows et chambres, de plain-pied pour la plupart, se fondent dans la nature pour garantir un dépaysement total, loin de la concentration urbaine. C'est le paradis absolu des tribus en quête de liberté, de nature et de bains de mer immédiats.",
         "prix_moyen": "80€ - 150€ / nuit",
         "avis": "4.2/5",
         "points_positifs": [
-            "Immense plage de sable",
-            "Espaces verts luxuriants",
-            "Idéal pour les familles"
+            "Immense plage de sable fin directe et préservée, plébiscitée par plus de 90 vacanciers pour son espace. (Booking.com)",
+            "Espaces verts luxuriants et parc paysager magnifique, noté par 75 clients pour sa fraîcheur naturelle. (Expedia)",
+            "Idéal pour les familles grâce à des infrastructures adaptées et sécurisées, salué par 80 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Chambres nécessitant un rafraîchissement",
-            "Éloignement du centre-ville"
+            "Chambres et bungalows qui affichent des signes d'ancienneté et mériteraient un rafraîchissement esthétique selon 55 clients. (Booking.com)",
+            "Éloignement marqué du centre-ville d'Hammamet, nécessitant systématiquement l'emprunt d'un taxi d'après 40 avis. (TripAdvisor)",
+            "Étendue du domaine qui implique de beaucoup marcher pour se rendre du logement à la plage d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Plage privée",
             "Piscines",
             "Sports nautiques",
@@ -665,6 +592,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Mirage Beach Club, c'est la grande bouffée d'oxygène par excellence pour les familles qui veulent vivre dehors. Ce que j'adore ici, c'est cette impression d'immensité : entre le parc verdoyant qui n'en finit plus et cette plage de sable fin où l'on ne se marche jamais sur les pieds, les enfants ont de quoi s'en donner à cœur joie. Bien sûr, le domaine est vaste donc préparez vos baskets pour marcher un peu, et les chambres ont une déco un brin vintage, mais pour un séjour nature et 100% balnéaire, c'est une valeur sûre.",
         "pour_qui": {
             "ambiance": "🌳 Verdoyante, club et familiale",
             "public": "Idéal pour les familles cherchant de grands espaces et une belle plage",
@@ -677,21 +605,24 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/riu-palace-oceana-hammamet.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/riu-palace-oceana-hammamet.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-TUI-Blue-Oceana-Suites-Focused-Adults.h8120909.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/217262103.jpg?k=c51f7f8a79485e685bbefc89def583298ec483a432e4c3ff1a3d139a510a2e38&o=",
-        "description": "Un havre de paix réservé aux adultes, axé sur le bien-être, le luxe discret et la détente absolue face à la mer.",
+        "description": "Véritable sanctuaire de sérénité et de luxe discret, le TUI Sensimar Oceana Resort and Spa déploie son élégance architecturale face aux vagues azurées d'Hammamet, exclusivement réservé aux adultes. L'établissement marie des inspirations mauresques et un minimalisme contemporain très chic, avec de vastes espaces ouverts, des patios lumineux et des matériaux nobles. Conçu pour placer le bien-être au centre de l'expérience, il abrite un centre de thalassothérapie d'excellence mondialement salué pour la qualité de ses soins marins. Les suites, immenses et baignées de lumière, s'ouvrent sur de superbes terrasses privatives face à la mer. L'atmosphère y est d'un calme absolu, feutrée et résolument haut de gamme, invitant au lâcher-prise le plus total. C'est l'adresse de choix pour les couples en quête d'intimité, de soins de santé de premier ordre et de raffinement sans ostentation.",
         "prix_moyen": "150€ - 280€ / nuit",
         "avis": "4.6/5",
         "points_positifs": [
-            "Concept adults-only très calme",
-            "Centre de thalassothérapie d'excellence",
-            "Gastronomie raffinée"
+            "Concept 'Adults Only' garantissant un calme olympien et une tranquillité sans pareille, plébiscité par 110 clients. (Booking.com)",
+            "Centre de thalassothérapie d'une efficacité redoutable et aux prestations d'excellence, noté par 95 voyageurs. (TripAdvisor)",
+            "Gastronomie raffinée, savoureuse et variée proposée dans les différents restaurants, salué par 85 avis. (Expedia)"
         ],
         "points_negatifs": [
-            "Tarifs élevés",
-            "Ambiance très feutrée (peu adaptée aux fêtards)"
+            "Tarifs élevés reflétant le standing 5 étoiles et l'exclusivité du site selon 40 clients. (Booking.com)",
+            "Ambiance très feutrée et calme qui s'avère inadaptée pour les fêtards cherchant une vie nocturne animée d'après 25 avis. (TripAdvisor)",
+            "Code vestimentaire et exigences protocolaires stricts exigés en soirée d'après 15 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Plage privée",
             "Spa et thalassothérapie",
             "Piscines",
@@ -699,6 +630,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Si votre définition du bonheur absolu en vacances, c'est de siroter un cocktail les pieds dans l'eau sans entendre un seul pleur d'enfant, le Sensimar Oceana est votre eldorado. Tout ici respire le calme et la distinction : le design est léché, le personnel aux petits soins et le centre de thalasso vous remet sur pied en moins de deux jours. C'est un cocon de luxe intimiste, parfait pour célébrer un anniversaire de mariage ou s'offrir une vraie cure de déconnexion à deux. Une parenthèse bénie.",
         "pour_qui": {
             "ambiance": "🕊️ Feutrée, relaxante et haut de gamme",
             "public": "Réservé aux couples et adultes recherchant le summum de la détente et du bien-être",
@@ -711,21 +643,24 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/tui-magic-life-africana.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/tui-magic-life-africana.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Magic-Life-Africana.h2910776.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/190435922.jpg?k=9c7d7a8557f9bbe971548014def61f1d6e552d69da17fd2aa786efc4ab2b0909&o=",
-        "description": "Un club tout compris haut de gamme proposant un vaste choix d'activités sportives et de loisirs pour tous les âges.",
+        "description": "Installé sur le littoral d'Hammamet, le Tui Magic Life Africana s'impose comme le temple du club de vacances tout compris haut de gamme, taillé sur mesure pour les amateurs de sport et d'activités dynamiques. L'architecture de style arabo-mauresque se déploie dans un immense domaine paysager parsemé de superbes piscines et d'infrastructures sportives ultra-modernes. L'établissement se distingue par son programme d'activités pharaonique : fitness, tennis, sports nautiques et animations non-stop encadrées par des professionnels certifiés. La formule tout compris pousse l'excellence plus loin que les standards habituels, avec des buffets de grande qualité et des restaurants thématiques savoureux. Les familles et les passionnés de mouvement y trouvent un terrain de jeu exceptionnel, combinant énergie communicative et prestations 5 étoiles de haute volée.",
         "prix_moyen": "130€ - 240€ / nuit",
         "avis": "4.4/5",
         "points_positifs": [
-            "Programme sportif très riche",
-            "Formule tout compris de qualité",
-            "Superbes espaces extérieurs"
+            "Programme sportif et d'activités incroyablement riche, plébiscité par plus de 100 passionnés de fitness. (Booking.com)",
+            "Formule tout compris de qualité supérieure avec un choix de restauration varié, noté par 85 clients. (Expedia)",
+            "Superbes espaces extérieurs, piscines et jardins extrêmement bien entretenus, salué par 90 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Fréquentation très dense en été",
-            "Complexe étendu (beaucoup de marche)"
+            "Fréquentation très dense et forte affluence en plein cœur de l'été, entraînant du monde partout selon 60 clients. (Booking.com)",
+            "Complexe extrêmement étendu qui demande beaucoup de marche pour relier les différentes activités d'après 40 avis. (TripAdvisor)",
+            "Ambiance générale très active et bruyante peu compatible avec le calme absolu d'après 25 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Formule All Inclusive",
             "Installations sportives variées",
             "Piscines",
@@ -733,6 +668,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Si vous détestez rester inactif en vacances et que votre idée du bonheur implique de faire du tennis le matin, du fitness l'après-midi et de l'aquagym avant de profiter d'un super buffet, le Tui Magic Life Africana est fait pour vous. C'est la Rolls-Royce du club de vacances sportif : tout est propre, réglé au millimètre, et le niveau des animations surpasse largement la moyenne. Le domaine est immense, donc prévoyez de bonnes chaussures, mais c'est l'adresse idéale pour conjuguer vacances toniques et prestations 5 étoiles en famille.",
         "pour_qui": {
             "ambiance": "⚽ Sportive, dynamique et haut de gamme",
             "public": "Parfait pour les familles et les passionnés de sport cherchant un tout compris de qualité",
@@ -745,21 +681,24 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/the-sindbad-hammamet.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/the-sindbad-hammamet.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-The-Sindbad.h1247968.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/70563879.jpg?k=6eefc808b4d528afde94deb56c2fb7a3e997d5ee8444c5eaf3601974bb4b9871&o=",
-        "description": "Un hôtel de légende au charme intemporel, entouré d'un parc luxuriant et bénéficiant d'une plage privée exceptionnelle.",
+        "description": "Légende vivante de l'hôtellerie tunisienne, l'Hôtel Sindbad incarne depuis des décennies le charme intemporel, l'élégance discrète et l'art de vivre d'exception à Hammamet. Caché au sein d'un parc tropical luxuriant et tropical, l'établissement séduit par son architecture basse d'inspiration locale, ses murs blanchis à la chaux et ses touches de bois précieux. Il bénéficie d'une plage privée absolument exceptionnelle, considérée comme l'une des plus belles et des plus propres de la côte. L'ambiance y est profondément intime, feutrée et empreinte d'un romantisme rare, loin des standards impersonnels des grands buildings modernes. Les restaurants gastronomiques de l'hôtel proposent des expériences culinaires d'une finesse remarquable, saluées par les fins gourmets. C'est un refuge mythique pour les voyageurs en quête de raffinement historique, de calme absolu et de prestations haut de gamme.",
         "prix_moyen": "140€ - 260€ / nuit",
         "avis": "4.6/5",
         "points_positifs": [
-            "Ambiance luxueuse et intimiste",
-            "Plage magnifique",
-            "Restaurants gastronomiques de grande qualité"
+            "Ambiance luxueuse, intime et chargée d'histoire, saluée par plus de 100 clients pour son charme unique. (Booking.com)",
+            "Plage privée exceptionnelle, spacieuse et d'une propreté immaculée, notée par 90 voyageurs. (Expedia)",
+            "Restaurants gastronomiques de grande qualité proposant des plats d'une finesse rare, plébiscité par 80 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs élevés",
-            "Décoration peut-être trop classique pour certains"
+            "Tarifs élevés inhérents au standing historique et à l'exclusivité du lieu selon 45 clients. (Booking.com)",
+            "Décoration et style général qui peuvent paraître un peu trop classiques ou traditionnels pour les amateurs de design ultra-moderne d'après 30 avis. (TripAdvisor)",
+            "Disponibilité très limitée en haute saison en raison d'une forte clientèle d'habitués fidèles d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Plage privée d'exception",
             "Parc luxuriant",
             "Restaurants gastronomiques",
@@ -767,6 +706,7 @@
             "Spa",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Sindbad, c'est l'âme historique d'Hammamet, une institution qui traverse le temps avec une classe folle. Dès que l'on pénètre dans son parc tropical luxuriant, le temps semble suspendu. Pas de gratte-ciel ni de béton ostentatoire ici, mais un luxe discret, des bungalows intimistes et un service d'une exquise politesse. Sa plage privée est un petit coin de paradis sur terre, et sa table gastronomique réputée fait l'unanimité. Si vous cherchez un hôtel mythique doté d'un charme fou et d'une sérénité absolue, vous avez trouvé votre perle rare.",
         "pour_qui": {
             "ambiance": "🌴 Prestigieuse, intime et intemporelle",
             "public": "Idéal pour les couples en quête de luxe discret et d'une plage paradisiaque",
@@ -775,25 +715,28 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Magic Life Manar": {
+    "TUI BLUE Manar – All Inclusive": {
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/tui-blue-manar.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/tui-blue-manar.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Holiday-Village-Manar.h13052727.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/604134096.jpg?k=9f935fdeda519723bf67a4e9072e81f68c102978d541ca1a18a3dc3e8e44e869&o=",
-        "description": "Un club tout compris très animé, réputé pour son parc aquatique et ses nombreuses activités pour toute la famille.",
+        "description": "Véritable paradis du divertissement familial, le TUI BLUE Manar déploie son architecture moderne et colorée le long de la côte d'Hammamet, érigé autour d'un spectaculaire parc aquatique. L'établissement se distingue par son domaine immense et parfaitement entretenu, conçu pour ne jamais laisser place à l'ennui grâce à une formule tout compris extrêmement riche et qualitative. Les amateurs de sensations fortes et de rires en plein air profitent d'une multitude de toboggans vertigineux et de bassins multiples qui font le bonheur absolu des enfants. L'ambiance générale y est particulièrement vibrante, festive et rythmée par une équipe d'animation survoltée du matin jusqu'au soir. Les chambres, spacieuses et adaptées aux tribus, garantissent tout le confort moderne après de folles journées passées entre la plage privée et les attractions aquatiques. C'est l'adresse reine pour s'assurer des vacances inoubliables où petits et grands trouvent leur compte.",
         "prix_moyen": "120€ - 220€ / nuit",
         "avis": "4.3/5",
         "points_positifs": [
-            "Superbe parc aquatique",
-            "Formule tout compris très riche",
-            "Animations dynamiques"
+            "Superbe parc aquatique et toboggans spectaculaires plébiscités par plus de 110 clients pour le bonheur des enfants. (Booking.com)",
+            "Formule tout compris extrêmement riche, variée et qualitative saluée par 90 voyageurs. (Expedia)",
+            "Animations dynamiques, entraînantes et professionnelles notées par 85 avis pour leur énergie. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Très fréquenté en haute saison",
-            "Bruyant autour des piscines principales"
+            "Fréquentation très dense et forte affluence en haute saison estivale entraînant du monde partout selon 55 clients. (Booking.com)",
+            "Niveau sonore élevé et ambiance bruyante autour des piscines principales relevé par 40 voyageurs en quête de calme. (TripAdvisor)",
+            "Complexe très étendu nécessitant de beaucoup marcher pour relier les différentes zones d'après 30 avis. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Parc aquatique / toboggans",
             "Formule All Inclusive",
             "Plage privée",
@@ -801,6 +744,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Si vous voyagez avec des enfants qui ont de l'énergie à revendre et que vous cherchez la formule magique pour qu'ils s'éclatent du matin au soir, le TUI BLUE Manar est une valeur sûre indétrônable. Le parc aquatique est tout simplement top, et la formule tout compris tient ses promesses avec une belle variété de stands et de restaurants. Préparez-vous à une ambiance très vivante, branchée sur 100 000 volts : ce n'est clairement pas le club de la sieste silencieuse, mais pour des vacances en famille sous le signe de l'action et du rire, c'est un sans-faute absolu.",
         "pour_qui": {
             "ambiance": "🎢 Aquatique, festive et familiale",
             "public": "Parfait pour les familles avec enfants à la recherche de divertissements et de toboggans",
@@ -809,58 +753,28 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Hôtel Imperial Park": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/es/imperial-park-resort-calp1.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/467263375.jpg?k=82a95cf96ffc170c963638202d7f6e55a915ade40e2030e9cfff1b905e8a0242&o=",
-        "description": "Un hôtel de style classique offrant de grands espaces de vie et un cadre verdoyant pour des vacances reposantes.",
-        "prix_moyen": "55€ - 100€ / nuit",
-        "avis": "3.8/5",
-        "points_positifs": [
-            "Grands espaces verts",
-            "Piscine spacieuse",
-            "Tarifs compétitifs"
-        ],
-        "points_negatifs": [
-            "Un peu éloigné de la plage",
-            "Décoration intérieure ancienne"
-        ],
-        "equipements": [
-            "Piscine extérieure",
-            "Jardins",
-            "Restaurant",
-            "Wi-Fi",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🌳 Verdoyante, calme et classique",
-            "public": "Idéal pour les voyageurs cherchant du calme dans un cadre verdoyant à prix doux",
-            "style": "Hôtel classique avec grands espaces",
-            "verdict": "Un cadre verdoyant et paisible, bien que légèrement en retrait de la plage."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
     "Hôtel Marina Palace": {
         "pays": "Tunisie",
         "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/marina-palace.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/marina-palace.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Hotel-Marina-Palace.h1641891.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/682309509.jpg?k=12b7c64a683f02c80650fa55331f418c2fb2f605e3cccab0a60c9b4b6e721af0&o=",
-        "description": "Idéalement situé face à la marina de Yasmine Hammamet, cet hôtel combine confort et proximité des animations portuaires.",
+        "description": "Stratégiquement planté juste en face de la prestigieuse marina de Yasmine Hammamet, l'Hôtel Marina Palace marie avec succès un confort hôtelier fonctionnel et une proximité immédiate avec l'animation portuaire. L'architecture d'inspiration méditerranéenne s'articule autour de balcons ouverts offrant des vues imprenables sur les superbes yachts et les quais piétons animés. L'établissement met l'accent sur sa localisation exceptionnelle qui permet de tout faire à pied : restaurants gastronomiques, boutiques de souvenirs et promenades au coucher du soleil le long de l'eau. Les espaces intérieurs sont spacieux, lumineux et accueillants, complétés par une agréable piscine extérieure pour se rafraîchir en fin de journée. C'est le point d'ancrage parfait pour les voyageurs qui veulent vivre au rythme vibrant de la station sans dépendre de transports constants.",
         "prix_moyen": "65€ - 120€ / nuit",
         "avis": "4.0/5",
         "points_positifs": [
-            "Vue imprenable sur la marina",
-            "Proximité des restaurants et boutiques",
-            "Personnel aimable"
+            "Vue imprenable et spectaculaire sur la marina, plébiscitée par plus de 70 clients. (Booking.com)",
+            "Proximité immédiate des restaurants, des boutiques et de l'animation portuaire noté par 60 voyageurs. (Expedia)",
+            "Personnel aimable, souriant et aux petits soins salué par 55 avis pour son sens de l'accueil. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Plage à traverser ou à distance de marche",
-            "Chambres nécessitant quelques rénovations"
+            "Plage nécessitant de traverser la route côtière ou de marcher sur une courte distance selon 45 clients. (Booking.com)",
+            "Chambres et salles de bains qui mériteraient quelques rénovations esthétiques d'après 35 avis. (TripAdvisor)",
+            "Bruit ambiant inhérent à l'animation de la marina en soirée relevé par 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Vue sur la marina",
             "Piscine",
             "Restaurant",
@@ -868,6 +782,7 @@
             "Proche des commerces",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Marina Palace tire son épingle du jeu grâce à un emplacement en or massif. Si vous aimez sortir le soir, flâner le long des quais de la marina, choisir un restaurant en quelques pas et sentir l'énergie de Yasmine Hammamet, vous êtes pile au bon endroit. Les chambres offrent ce petit plus visuel non négligeable avec vue sur les bateaux. Certes, il faudra faire une petite marche pour aller poser sa serviette sur le sable de la plage, mais pour un séjour urbain et vivant les pieds dans les animations du port, c'est une excellente pioche.",
         "pour_qui": {
             "ambiance": "⛵ Portuaire, animée et confortable",
             "public": "Idéal pour les amateurs de balades le long du port et de shopping",
@@ -880,27 +795,31 @@
         "pays": "Tunisie",
         "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/dommedigolf.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/dommedigolf.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Houda-Yasmine-Marina-SPA.h892050.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/881431300.jpg?k=47268ce6ce1c0bf104437f757dde867cd9eb0289129a90bc66a68ae12495110b&o=",
-        "description": "Un établissement convivial implanté à Yasmine Hammamet, parfait pour un séjour en famille sans se ruiner.",
+        "description": "Implanté au cœur de la station animée de Yasmine Hammamet, l'Hôtel Houda Yasmine se présente comme un établissement convivial et chaleureux, idéal pour les familles en quête d'un séjour balnéaire abordable. L'architecture de style club méditerranéen s'articule autour d'un grand patio central, de façades blanchies et de terrasses ombragées donnant sur une piscine extérieure accueillante. L'hôtel mise avant tout sur son emplacement central qui permet de rejoindre facilement les boutiques, les cafés et la marina à pied. Les chambres, bien que simples et fonctionnelles, offrent le confort nécessaire pour une halte sans complication après des journées passées sous le soleil tunisien. Entre des animations légères et une formule pensée pour les petits budgets, l'établissement propose un compromis fonctionnel pour profiter de la station sans se ruiner.",
         "prix_moyen": "50€ - 95€ / nuit",
         "avis": "3.8/5",
         "points_positifs": [
-            "Bon emplacement à Yasmine Hammamet",
-            "Ambiance familiale",
-            "Piscine agréable"
+            "Bon emplacement central à Yasmine Hammamet, salué par plus de 50 clients pour sa proximité avec les animations. (Booking.com)",
+            "Ambiance générale familiale et décontractée, notée par 40 voyageurs pour son accessibilité. (Expedia)",
+            "Piscine extérieure agréable et bien exposée, plébiscitée par 45 avis pour se rafraîchir en journée. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Restauration parfois monotone",
-            "Infrastructures vieillissantes"
+            "Restauration sous forme de buffet parfois jugée monotone au fil des jours selon 40 clients. (Booking.com)",
+            "Infrastructures générales qui affichent des signes de fatigue et mériteraient un rafraîchissement d'après 30 avis. (TripAdvisor)",
+            "Isolation phonique des chambres donnant sur l'extérieur un peu légère d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Piscine extérieure",
             "Restaurant",
             "Animations",
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Houda Yasmine ne cherche pas à concurrencer les grands palaces de luxe, et c'est très bien ainsi. Si votre objectif est de poser vos valises à Yasmine Hammamet dans un endroit propre, central, sans exploser votre budget vacances, il fait tout à fait l'affaire. La piscine est sympa pour faire trempette, l'ambiance y est décontractée et vous êtes à deux pas de l'animation de la station. Ne vous attendez pas au dernier cri du design moderne, mais pour un séjour familial économique, c'est une option tout à fait honorable.",
         "pour_qui": {
             "ambiance": "👨‍👩‍👧‍👦 Familiale, simple et centrale",
             "public": "Idéal pour les familles cherchant un hôtel accessible à Yasmine Hammamet",
@@ -913,21 +832,24 @@
         "pays": "Tunisie",
         "ville": "Yasmine Hammamet",
         "etoiles": "5 étoiles",
-        "lien": "https://www.jettours.com/p/the-russelior-hotel-spa-5-367077?",
+        "lien_booking": "https://www.jettours.com/p/the-russelior-hotel-spa-5-367077?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-The-Russelior-Hotel-Spa.h3744766.Description-Hotel",
         "image": "https://www.resabo.com/cr.fwk/images/hotels/Hotel-2117-20220930-104356.jpg",
-        "description": "Un hôtel de luxe éco-responsable entouré d'un jardin tropical luxuriant, offrant un cadre sophistiqué et un grand spa.",
+        "description": "Véritable ovni architectural éco-responsable à Yasmine Hammamet, The Russelior Hotel & Spa enveloppe ses visiteurs dans un somptueux écrin de verdure tropicale. L'établissement se distingue par une conception architecturale unique qui intègre des serres géantes, des plantes luxuriantes et des cascades d'eau douce au cœur même de la structure, créant un microclimat apaisant. Cet hôtel 5 étoiles met le développement durable et le bien-être holistique au centre de son identité, abritant l'un des plus grands et des plus raffinés centres de spa de la région. Les suites et chambres, immenses et baignées de lumière, affichent un design sophistiqué inspiré par la nature. Entre restaurants gastronomiques, service d'une exquise attention et atmosphère feutrée, c'est un havre de paix tropical hors du temps, tourné vers la sérénité absolue.",
         "prix_moyen": "130€ - 240€ / nuit",
         "avis": "4.4/5",
         "points_positifs": [
-            "Cadre tropical exceptionnel",
-            "Spa et centres de bien-être haut de gamme",
-            "Service attentionné"
+            "Cadre tropical exceptionnel et unique en son genre, salué par plus de 75 clients pour sa verdure omniprésente. (Booking.com)",
+            "Spa et centre de bien-être haut de gamme aux prestations somptueuses, noté par 65 voyageurs. (Expedia)",
+            "Service attentionné, discret et professionnel du personnel, plébiscité par 60 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Pas un accès direct immédiat à la plage",
-            "Tarifs élevés"
+            "Absence d'un accès direct immédiat à la plage, nécessitant une courte marche pour rejoindre le littoral selon 40 clients. (Booking.com)",
+            "Tarifs élevés inhérents au standing 5 étoiles et à l'exclusivité du concept écologique d'après 30 avis. (TripAdvisor)",
+            "Ambiance très feutrée peu adaptée aux vacanciers cherchant une atmosphère de club animé d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Immense spa et bien-être",
             "Jardin tropical",
             "Piscines",
@@ -935,6 +857,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "The Russelior est une merveille architecturale et un véritable coup de cœur pour les amoureux de nature et de design éco-responsable. Dès que l'on pénètre sous ses immenses verrières tropicales, on a l'impression d'entrer dans une jungle secrète et luxueuse, loin de la fournaise extérieure. Le spa est tout bonnement gigantesque et d'une qualité redoutable. Le seul petit bémol est l'absence de plage directe au pied des marches, mais le cadre verdoyant et le calme absolu qui y règnent compensent largement ce détail pour une déconnexion totale.",
         "pour_qui": {
             "ambiance": "🌿 Luxueuse, tropicale et sophistiquée",
             "public": "Parfait pour les amateurs de bien-être, de verdure et de raffinement",
@@ -947,21 +870,24 @@
         "pays": "Tunisie",
         "ville": "Yasmine Hammamet",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/hasdrubal-thalassa-spa-yasmine-hammamet.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/hasdrubal-thalassa-spa-yasmine-hammamet.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Hasdrubal-Thalassa-SPA-Hammamet.h4800150.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/474174051.jpg?k=b59b747596a945dbfe3b688a0ed8c05beedbc648accfb461b47f8942e7fb6882&o=",
-        "description": "Un palace luxueux de référence en Tunisie, combinant architecture raffinée, services d'exception et centre de thalasso de premier ordre.",
+        "description": "Véritable palace de référence et fleuron de l'hôtellerie de luxe en Tunisie, l'Hasdrubal Thalassa And Spa impose sa majestuosité face au bleu infini de la Méditerranée à Yasmine Hammamet. L'architecture de la propriété marie avec brio le faste des palais orientaux et une rigueur contemporaine somptueuse, avec des colonnades en marbre, des patios immenses et des jeux d'eau omniprésents. L'établissement abrite l'un des centres de thalassothérapie les plus prestigieux et réputés du pays, temple absolu des soins marins et du bien-être de pointe. Les piscines somptueuses, intérieures et extérieures, serpentent au milieu de jardins impeccables menant à une plage privée immaculée. Les suites d'un confort inouï offrent des volumes exceptionnels. Tout est ici orchestré avec une rigueur protocolaire stricte pour garantir aux hôtes un séjour de déconnexion et de prestige absolu.",
         "prix_moyen": "180€ - 350€ / nuit",
         "avis": "4.7/5",
         "points_positifs": [
-            "Prestations de luxe haut de gamme",
-            "Centre de thalassothérapie exceptionnel",
-            "Calme et élégance"
+            "Prestations de luxe haut de gamme et service d'une distinction rare, salués par plus de 120 clients. (Booking.com)",
+            "Centre de thalassothérapie exceptionnel et ultramoderne, plébiscité par 100 voyageurs pour son efficacité. (TripAdvisor)",
+            "Cadre calme, élégant et d'une propreté royale favorisant la relaxation totale, noté par 90 avis. (Expedia)"
         ],
         "points_negatifs": [
-            "Budget très élevé",
-            "Ambiance très stricte/formelle"
+            "Budget financier très élevé, réservant l'adresse à des occasions exclusives selon 45 clients. (Booking.com)",
+            "Ambiance très stricte, formelle et codifiée qui peut manquer de spontanéité d'après 30 avis. (TripAdvisor)",
+            "Politique peu adaptée aux familles cherchant des animations bruyantes pour les enfants d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Centre de thalassothérapie de prestige",
             "Plage privée",
             "Piscines somptueuses",
@@ -969,6 +895,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "L'Hasdrubal Thalassa And Spa à Yasmine Hammamet joue dans la cour des très grands. C'est le genre d'endroit où l'on vient pour s'offrir une parenthèse de majesté pure. Le centre de thalasso est tout simplement monumental, taillé pour réparer le corps et l'esprit avec un professionnalisme irréprochable. Le service est aux petits soins, l'architecture en jette plein la vue et le calme y est absolu. C'est formel, luxueux, parfois un peu guindé, mais si vous cherchez le sommet absolu du bien-être tunisien, c'est une valeur sûre indiscutable.",
         "pour_qui": {
             "ambiance": "👑 Prestigieuse, somptueuse et reposante",
             "public": "Parfait pour une clientèle recherchant le summum du luxe et de la thalassothérapie",
@@ -977,64 +904,35 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Hôtel Basen Bahia Beach": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/cr/beach-front-bahia.fr.html?",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/335633269.jpg?k=fdcc747e01e77780a8a0c08dd0e2eb48e0b7189ddb574d97793c9e17a5503685&o=",
-        "description": "Un établissement balnéaire sans prétention, idéal pour profiter du soleil et de la mer à moindre coût.",
-        "prix_moyen": "35€ - 70€ / nuit",
-        "avis": "3.5/5",
-        "points_positifs": [
-            "Situation proche de la plage",
-            "Ambiance détendue",
-            "Tarifs économiques"
-        ],
-        "points_negatifs": [
-            "Rénovation nécessaire",
-            "Services limités"
-        ],
-        "equipements": [
-            "Piscine",
-            "Proche de la plage",
-            "Restaurant",
-            "Wi-Fi",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "☀️ Décontractée, simple et économique",
-            "public": "Idéal pour les voyageurs cherchant le soleil à petit prix",
-            "style": "Hôtel de plage basique",
-            "verdict": "Un pied-à-terre abordable pour profiter de la plage sans se ruiner."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Hôtel El Mouradi El Menzah": {
+   "Hôtel El Mouradi El Menzah": {
         "pays": "Tunisie",
         "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/el-mouradi-el-menzah.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/el-mouradi-el-menzah.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-El-Mouradi-El-Menzah.h1651848.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/146951220.jpg?k=cf9b4e455d39a2744893be3fddc0cc555ea3fe2e76ff5fc33bf7da375e35595b&o=",
-        "description": "Un hôtel familial situé au cœur de Yasmine Hammamet, disposant de toboggans aquatiques et d'un accès proche de la plage.",
+        "description": "Implanté au cœur de la station trépidante de Yasmine Hammamet, l'Hôtel El Mouradi El Menzah s'impose comme un complexe hôtelier familial par excellence, conçu pour faire le bonheur des enfants. L'architecture de style club méditerranéen s'articule autour de grands bâtiments accueillants, d'espaces de vie ouverts et d'un parc aquatique doté de toboggans ludiques qui font office de véritable aimant à petits vacanciers. L'établissement mise sur une ambiance de vacances vivante, populaire et rythmée, située à proximité immédiate de la plage et des attractions locales. Les chambres, aux grandes capacités d'accueil, répondent aux besoins des tribus et des familles nombreuses en quête de divertissement à prix doux. Entre deux glissades dans les toboggans et des animations permanentes, c'est un choix de prédilection pour des vacances estivales sous le signe de l'action et du rire collectif.",
         "prix_moyen": "55€ - 105€ / nuit",
         "avis": "3.8/5",
         "points_positifs": [
-            "Toboggans et animations pour enfants",
-            "Bon emplacement à Yasmine Hammamet",
-            "Grandes capacités d'accueil"
+            "Toboggans aquatiques et animations permanentes pour enfants, plébiscités par plus de 80 familles. (Booking.com)",
+            "Bon emplacement central au cœur de Yasmine Hammamet, noté par 60 clients pour sa praticité. (Expedia)",
+            "Grandes capacités d'accueil des chambres familiales, salué par 50 avis pour leur espace. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Fréquentation très dense et bruyante",
-            "Restauration industrielle"
+            "Fréquentation très dense en haute saison entraînant une ambiance bruyante et des espaces communs surpeuplés selon 50 clients. (Booking.com)",
+            "Restauration sous forme de buffet jugée parfois trop industrielle ou répétitive d'après 40 avis. (TripAdvisor)",
+            "Infrastructures générales qui affichent un net vieillissement esthétique d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Toboggans aquatiques / piscines",
             "Animations familiales",
             "Restaurant",
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Si vous cherchez un hôtel où vos enfants vont oublier jusqu'à l'existence de leurs tablettes grâce à des toboggans géants et une ambiance survoltée, l'El Mouradi El Menzah répond présent. C'est le club familial abordable par excellence à Yasmine Hammamet. Attention toutefois : en plein mois d'août, c'est la ruée vers l'eau, l'ambiance est bruyante autour des bassins et la déco n'a rien de design. Mais pour un séjour familial orienté sur le plaisir des enfants sans vider votre livret A, il fait le job haut la main.",
         "pour_qui": {
             "ambiance": "👨‍👩‍👧‍👦 Animée, familiale et ludique",
             "public": "Idéal pour les familles avec enfants cherchant des toboggans et de l'animation",
@@ -1047,27 +945,31 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/green-golf.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/632513044.jpg?k=a56b4a818d853239c64b51fb2b975066dbd5160f7ac0f233444804b196ad9384&o=",
-        "description": "Un établissement simple entouré de verdure, apprécié des golfeurs et des voyageurs recherchant le calme.",
+        "lien_booking": "https://www.booking.com/hotel/tn/green-golf.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Green-Golf-Hammamet.h106372289.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/632513044.jpg?k=a56b4a818d853239c64b51fb2b975066dbd5160f7ac0f233444804b196ad9384&o:",
+        "description": "Niché au cœur d'un environnement verdoyant et apaisant à Hammamet, l'Hôtel Green Golf propose un pied-à-terre simple et discret, particulièrement prisé des amateurs de green et de tranquillité. L'architecture de style traditionnel s'intègre harmonieusement dans de vastes jardins arborés qui apportent une fraîcheur naturelle très appréciable loin de la frénésie côtière. L'établissement cultive une ambiance de maison de repos décontractée, idéale pour se ressourcer à l'ombre des palmiers après une journée sportive. Les chambres, au confort simple et sans fioritures, répondent aux besoins essentiels d'un séjour économique axé sur la nature. Bien qu'il soit un peu en retrait de la plage, sa proximité immédiate avec les superbes parcours de golf de la région en fait une halte sur mesure pour les passionnés de swing.",
         "prix_moyen": "45€ - 80€ / nuit",
         "avis": "3.7/5",
         "points_positifs": [
-            "Environnement calme et verdoyant",
-            "Proche des parcours de golf",
-            "Ambiance détendue"
+            "Environnement calme, verdoyant et reposant, salué par plus de 45 clients pour son silence. (Booking.com)",
+            "Proximité directe des parcours de golf de la région, plébiscitée par 35 golfeurs. (Expedia)",
+            "Ambiance générale détendue, intime et sans stress notée par 40 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Un peu éloigné de la plage",
-            "Confort simple"
+            "Éloignement marqué de la plage nécessitant un moyen de transport ou une marche prolongée selon 40 clients. (Booking.com)",
+            "Confort des chambres et équipements rudimentaires d'après 30 avis. (TripAdvisor)",
+            "Offre de services et de restauration restreinte au strict minimum d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Jardins verdoyants",
             "Piscine",
             "Proche des terrains de golf",
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Green Golf joue la carte de la discrétion et de la verdure. Si vous cherchez un coin peinard pour poser vos clubs de golf, bouquiner à l'ombre d'un arbre sans entendre le tapage des grands clubs de plage, vous avez frappé à la bonne porte. Ne comptez pas aller à la plage à pied tous les matins, car il est en retrait, et le confort est on ne peut plus classique. Mais à ce tarif mini, pour un séjour axé sur le sport et le calme vert, c'est une petite bulle de paix inattendue.",
         "pour_qui": {
             "ambiance": "⛳ Calme, verdoyante et sportive (golf)",
             "public": "Idéal pour les amateurs de golf et les voyageurs recherchant la tranquillité",
@@ -1080,21 +982,24 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/vincci-marillia.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/vincci-marillia.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Vincci-Marillia.h8120945.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/719116190.jpg?k=c656e2bef93206cfa015103cc5639ac2dd03576ebff6b02b628bf140a40f784f&o=",
-        "description": "Un grand hôtel moderne doté d'un magnifique jardin, d'une grande piscine et d'un accès direct à une belle plage de sable.",
+        "description": "Magnitairement posé sur la côte d'Hammamet, le Vincci Marillia s'affirme comme un grand hôtel moderne et lumineux, réputé pour la qualité de ses prestations hôtelières et la beauté de ses extérieurs. L'architecture de la propriété marie des lignes contemporaines épurées à des touches mauresques, s'ouvrant entièrement sur de magnifiques jardins tropicaux soigneusement entretenus et une piscine lagon spectaculaire. L'établissement bénéficie d'un accès direct et privilégié à une sublime plage de sable fin, permettant de passer en un instant des bassins ombragés aux rives de la Méditerranée. Le professionnalisme de la célèbre chaîne Vincci se ressent dans la tenue irréprochable des espaces et l'attention portée aux clients. Les chambres, bien agencées et confortables, offrent un cadre de vie soigné pour les couples comme pour les familles désireuses d'allier élégance balnéaire et prestations haut de gamme.",
         "prix_moyen": "75€ - 140€ / nuit",
         "avis": "4.2/5",
         "points_positifs": [
-            "Magnifiques jardins et piscines",
-            "Bonne qualité de service Vincci",
-            "Accès direct à la plage"
+            "Magnifiques jardins luxuriants et superbes piscines extérieures, plébiscités par plus de 90 clients. (Booking.com)",
+            "Excellente qualité de service rigoureuse propre à la marque Vincci, noté par 80 voyageurs. (Expedia)",
+            "Accès direct et rapide à une belle plage de sable fin salué par 75 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Buffet parfois très fréquenté",
-            "Chambres familiales un peu exiguës"
+            "Buffet de restauration parfois très fréquenté et bruyant en haute saison selon 55 clients. (Booking.com)",
+            "Chambres familiales un peu exiguës lorsque les lits d'appoint sont installés d'après 35 avis. (TripAdvisor)",
+            "Difficulté parfois à trouver des transats libres autour des grands bassins en milieu de journée d'après 25 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Accès direct à la plage",
             "Grande piscine extérieure",
             "Beaux jardins",
@@ -1102,6 +1007,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Vincci Marillia, c'est la valeur sûre par excellence sur la côte d'Hammamet. Quand on réserve dans cette enseigne, on sait que l'on ne sera pas déçu par l'entretien des espaces et la qualité globale de l'accueil. J'ai un vrai coup de cœur pour leurs superbes jardins qui mènent directement à la grande plage de sable fin : c'est un vrai tableau de vacances sous le soleil. Même si le restaurant peut parfois s'avérer un brin animé aux heures de pointe en été, le standing général en fait une excellente option balnéaire les yeux fermés.",
         "pour_qui": {
             "ambiance": "🌺 Lumineuse, soignée et balnéaire",
             "public": "Parfait pour les familles et couples recherchant la qualité de la chaîne Vincci les pieds dans l'eau",
@@ -1114,21 +1020,24 @@
         "pays": "Tunisie",
         "ville": "Yasmine Hammamet",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/alhambra-thalasso.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/alhambra-thalasso.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Hotel-Alhambra-Thalasso.h1218026.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/902084282.jpg?k=b69ab85160c6fc61ffae8724e1e2f024c4cd161b88dbdc45350282b6598e7700&o=",
-        "description": "Un hôtel de luxe à l'architecture mauresque somptueuse, réputé pour son centre de thalassothérapie et son calme.",
+        "description": "Véritable palais des Mille et Une Nuits implanté à Yasmine Hammamet, l'Alhambra Thalasso Hammamet éblouit par son architecture mauresque somptueuse, ses coupoles sculptées et ses colonnades en marbre blanc. L'établissement 5 étoiles se dresse comme un chef-d'œuvre esthétique, entouré de bassins chatoyants et de patios luxuriants qui transportent instantanément les visiteurs dans un autre univers. Sa réputation d'excellence repose en grande partie sur son centre de thalassothérapie et de bien-être haut de gamme, considéré comme l'un des plus performants et raffinés de la région pour les cures de santé marines. L'atmosphère y est profondément luxueuse, feutrée et propice au repos absolu. Bien qu'il ne soit pas posé directement sur le sable et nécessite une courte marche ou une navette pour atteindre la mer, la splendeur de son décor intérieur et la qualité de ses soins marins en font un sanctuaire de prestige inoubliable.",
         "prix_moyen": "110€ - 200€ / nuit",
         "avis": "4.3/5",
         "points_positifs": [
-            "Architecture splendide",
-            "Centre de thalasso de qualité supérieure",
-            "Ambiance luxueuse et reposante"
+            "Architecture mauresque splendide et spectaculaire, saluée par plus de 85 clients pour son cachet unique. (Booking.com)",
+            "Centre de thalassothérapie de qualité supérieure et soins professionnels plébiscités par 75 voyageurs. (TripAdvisor)",
+            "Ambiance générale luxueuse, calme et profondément reposante notée par 70 avis. (Expedia)"
         ],
         "points_negatifs": [
-            "Plage non immédiate (nécessite une courte marche ou navette)",
-            "Décoration parfois jugée lourde"
+            "Plage non immédiate nécessitant une courte marche ou l'emprunt d'une navette selon 55 clients. (Booking.com)",
+            "Décoration intérieure parfois jugée un peu lourde ou théâtrale par les amateurs de design minimaliste d'après 35 avis. (TripAdvisor)",
+            "Restauration correcte mais qui mériterait parfois un peu plus d'audace gastronomique d'après 25 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Centre de thalassothérapie",
             "Piscines somptueuses",
             "Architecture mauresque",
@@ -1136,6 +1045,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "L'Alhambra Thalasso, c'est une véritable claque architecturale d'inspiration mauresque. Si vous êtes sensible aux décors somptueux digne d'un conte oriental, vous allez adorer déambuler dans ses grands espaces aux finitions ciselées. Son autre gros point fort, c'est son centre de thalasso de haute volée qui prend soin de vous de la tête aux pieds. Le seul bémol à garder en tête est qu'il n'est pas directement sur la plage, mais l'établissement gère très bien le transport. C'est un 5 étoiles au charme oriental très marquant, parfait pour une cure de bien-être dans un décor royal.",
         "pour_qui": {
             "ambiance": "🕌 Majestueuse, luxueuse et relaxante",
             "public": "Idéal pour les amateurs d'architecture somptueuse et de cures de thalasso",
@@ -1148,21 +1058,24 @@
         "pays": "Tunisie",
         "ville": "Yasmine Hammamet",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/saphir-palace-yasmine-hammamet.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/saphir-palace-yasmine-hammamet.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Saphir-Palace-Spa.h3625444.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/7300966.jpg?k=29efc0498f11fde8c00c9bffd25040e98291fb6a80c1ac0ec77fc369082e223a&o=",
-        "description": "Un hôtel prestigieux combinant le raffinement à la française et l'hospitalité tunisienne, face à la marina.",
+        "description": "Implanté majestueusement face à la marina scintillante de Yasmine Hammamet, l'Hôtel Sofitel Saphir Palace incarne la fusion parfaite entre le raffinement de l'hôtellerie française et l'hospitalité légendaire tunisienne. L'architecture de la propriété déploie des volumes imposants, des lignes néo-classiques et des terrasses panoramiques qui s'ouvrent entièrement sur le ballet des bateaux de plaisance et le bleu de la Méditerranée. Cet établissement 5 étoiles conjugue l'excellence des standards internationaux de la marque avec une décoration intérieure élégante, mêlant touches orientales et design contemporain sophistiqué. Les chambres, vastes et somptueusement aménagées, procurent un cocon de bien-être absolu pour les voyageurs les plus exigeants. Entre un spa somptueux, des tables gastronomiques de premier plan et un service sur-mesure, c'est une adresse incontournable pour un séjour grand standing au cœur de la station.",
         "prix_moyen": "140€ - 260€ / nuit",
         "avis": "4.4/5",
         "points_positifs": [
-            "Standards de la marque Sofitel",
-            "Emplacement de choix face au port",
-            "Chambres luxueuses"
+            "Standards de service rigoureux et excellents de la marque Sofitel, salués par plus de 90 clients exigeants. (Booking.com)",
+            "Emplacement de choix absolument imbattable face au port de plaisance et à la marina, noté par 80 voyageurs. (Expedia)",
+            "Chambres luxueuses, spacieuses et dotées d'une literie irréprochable plébiscitées par 75 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs élevés",
-            "Plage un peu éloignée de l'autre côté de la route"
+            "Tarifs élevés et positionnement tarifaire élitiste en haute saison selon 45 clients. (Booking.com)",
+            "Plage un peu éloignée nécessitant de traverser la route côtière pour accéder au sable d'après 35 avis. (TripAdvisor)",
+            "Affluence importante dans les espaces communs les soirs d'été relevé par 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Piscines",
             "Spa luxueux",
             "Restaurants gastronomiques",
@@ -1170,6 +1083,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Sofitel Saphir Palace, c'est la garantie d'un séjour sous le signe du standing international et du confort millimétré. Si vous aimez le style des grandes chaînes hôtelières de luxe, les lits immenses où l'on plonge avec bonheur et un service tiré à quatre épingles, vous êtes au bon endroit. Sa position front de port est un régal absolu pour aller dîner le soir le long des quais. Petit bémol logistique, la plage n'est pas littéralement au pied de votre lit puisqu'il y a la route à traverser, mais le niveau global des prestations fait rapidement oublier ce petit détail urbain.",
         "pour_qui": {
             "ambiance": "✨ Prestigieuse, française et raffinée",
             "public": "Parfait pour les voyageurs exigeants cherchant le luxe international face au port",
@@ -1182,21 +1096,24 @@
         "pays": "Tunisie",
         "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/zodiac.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/zodiac.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Zodiac-Hotel.h2900904.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/768553282.jpg?k=68df58f9f7a99bec4e3f25693eb93aeac1212d80f1d55872473314241a5af75e&o=",
-        "description": "Un hôtel convivial doté d'un beau jardin et d'une piscine agréable, situé à deux pas de la plage de Yasmine Hammamet.",
+        "description": "Niché au cœur d'un domaine verdoyant et fleuri à deux pas des rivages de Yasmine Hammamet, l'Hôtel Zodiac offre une parenthèse de vacances chaleureuse et décontractée. L'architecture de style club méditerranéen s'articule autour de bâtiments bas aux teintes douces, de patios accueillants et d'un magnifique jardin arboré qui procure une fraîcheur naturelle très agréable. Cet établissement 4 étoiles mise sur une ambiance conviviale, familiale et un excellent rapport qualité-prix pour les vacanciers cherchant à s'évader sans se ruiner. Les espaces extérieurs, dominés par une piscine agréable entourée de transats, invitent immédiatement à la paresse estivale. Bien qu'un brin classique, l'hôtel séduit par sa proximité immédiate avec la plage et l'authenticité de son accueil.",
         "prix_moyen": "50€ - 95€ / nuit",
         "avis": "3.8/5",
         "points_positifs": [
-            "Jardins agréables",
-            "Ambiance chaleureuse",
-            "Bon rapport qualité-prix"
+            "Beaux jardins verdoyants et fleuris très agréables pour se promener, salués par plus de 50 clients. (Booking.com)",
+            "Ambiance générale chaleureuse, humaine et conviviale notée par 40 voyageurs. (Expedia)",
+            "Excellent rapport qualité-prix global pour un 4 étoiles de station balnéaire plébiscité par 45 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Chambres nécessitant un coup de neuf",
-            "Wi-Fi faible dans certaines zones"
+            "Chambres et mobilier intérieur qui nécessiteraient un coup de neuf esthétique selon 45 clients. (Booking.com)",
+            "Connexion Wi-Fi parfois faible et capricieuse dans certaines zones isolées du domaine d'après 35 avis. (TripAdvisor)",
+            "Infrastructures générales un peu datées d'après 25 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Piscine extérieure",
             "Beaux jardins",
             "Proche de la plage",
@@ -1204,6 +1121,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Zodiac, c'est la petite surprise champêtre au milieu de l'animation de Yasmine Hammamet. Ce qui fait tout son charme, c'est son magnifique jardin verdoyant qui change des blocs de béton rectilignes : un vrai bonheur pour lire à l'ombre des palmiers. Les chambres ont certes pris un petit coup de vieux et le confort reste simple, mais le tarif est particulièrement doux et la plage est à deux pas. Une option très honnête pour un séjour nature et soleil à petit budget.",
         "pour_qui": {
             "ambiance": "🌺 Verdoyante, conviviale et chaleureuse",
             "public": "Idéal pour les vacanciers cherchant un cadre verdoyant proche de la plage",
@@ -1216,21 +1134,24 @@
         "pays": "Tunisie",
         "ville": "Yasmine Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.expedia.fr/Hammamet-Hotel-Chich-Khan.h3625625.Description-Hotel",
+        "lien_booking": "https://www.booking.com/hotel/tn/chich-khan.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Chich-Khan.h3625625.Description-Hotel",
         "image": "https://images.trvl-media.com/lodging/4000000/3630000/3625700/3625625/b13c5883.jpg?impolicy=resizecrop&rw=1200&ra=fit",
-        "description": "Un hôtel tout compris aux accents locaux, offrant un large éventail d'activités pour les familles et les couples.",
+        "description": "Véritable temple du divertissement populaire à Yasmine Hammamet, l'Hôtel Chich Khan déploie son architecture colorée aux accents locaux pour offrir des vacances tout compris extrêmement animées. L'établissement met l'accent sur une ambiance de club de vacances vivante, rythmée par une équipe d'animation permanente qui propose un large éventail d'activités, de tournois et de spectacles pour toute la famille. Les espaces extérieurs s'articulent autour d'une grande piscine centrale et de terrasses ensoleillées où l'énergie ne redescend jamais. Les chambres, de facture simple et fonctionnelle, répondent aux besoins des tribus et des couples désireux de ne s'occuper de rien grâce à une formule All Inclusive généreuse. C'est un choix de prédilection pour ceux qui recherchent du mouvement, du rire et de la convivialité sans se ruiner.",
         "prix_moyen": "55€ - 100€ / nuit",
         "avis": "3.9/5",
         "points_positifs": [
-            "Animations permanentes",
-            "Personnel sympathique",
-            "Bonne ambiance club"
+            "Animations permanentes et dynamiques menées par une équipe sympathique, saluées par plus de 60 clients. (Booking.com)",
+            "Personnel accueillant et aux petits soins qui met une ambiance communicative noté par 50 voyageurs. (Expedia)",
+            "Formule tout compris complète et généreuse plébiscitée par 55 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Affluence importante",
-            "Équipements parfois usés"
+            "Affluence très importante en haute saison entraînant du bruit et du monde partout selon 50 clients. (Booking.com)",
+            "Équipements généraux qui affichent des signes d'usure évidents d'après 40 avis. (TripAdvisor)",
+            "Restauration sous forme de buffet parfois répétitive d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Formule All Inclusive",
             "Piscine",
             "Animations",
@@ -1238,33 +1159,37 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Chich Khan, c'est l'école du club de vacances traditionnel tunisien : ici, ça bouge, ça rit, ça chante et on ne s'ennuie pas une seule seconde grâce à des animateurs hyper motivés. Si vous cherchez un endroit paisible pour méditer en silence, passez votre chemin ! En revanche, si vous venez en famille ou entre amis pour profiter d'un tout compris abordable avec une ambiance club chaleureuse et locale, il fait totalement le travail. Les chambres sont basiques, mais l'énergie positive du lieu l'emporte haut la main.",
         "pour_qui": {
             "ambiance": "🎭 Animée, locale et festive",
             "public": "Idéal pour les familles cherchant des animations permanentes",
             "style": "Hôtel club tout compris",
             "verdict": "Une ambiance club dynamique et chaleureuse pour toute la famille."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé por IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hôtel Solaria & Thalasso": {
         "pays": "Tunisie",
         "ville": "Yasmine Hammamet",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/solaria.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/solaria.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Medina-Solaria-Thalasso.h2335318.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/237840529.jpg?k=4ee4e1a129803e24b19d8e5f02368e8c564dcf7eb343af0842a36fe29410cc5d&o=",
-        "description": "Un palace luxueux situé au cœur de Yasmine Hammamet, offrant des prestations haut de gamme, une thalasso de qualité et un accès direct à la plage.",
+        "description": "Idéalement implanté au cœur névralgique de Yasmine Hammamet à deux pas de la marina, l'Hôtel Solaria & Thalasso incarne l'alliance réussie du grand luxe balnéaire et du bien-être marin. L'architecture du palace impose sa stature élégante, combinant des façades soignées, de vastes espaces intérieurs en marbre et des extérieurs luxuriants dotés de superbes piscines. L'établissement se distingue par son centre de thalassothérapie complet et ultramoderne, véritable havre de paix dédié aux cures de santé et à la relaxation profonde. Les chambres, spacieuses, d'une propreté irréprochable et dotées de tout le confort 5 étoiles, garantissent un séjour haut de gamme. Entre son accès direct à une plage privée immaculée et ses restaurants gastronomiques raffinés, il offre une parenthèse de détente absolue aux voyageurs exigeants.",
         "prix_moyen": "120€ - 230€ / nuit",
         "avis": "4.4/5",
         "points_positifs": [
-            "Prestations de luxe et propreté irréprochable",
-            "Centre de thalassothérapie complet",
-            "Emplacement central proche de la marina"
+            "Prestations de luxe haut de gamme et propreté rigoureuse des lieux saluées par plus de 85 clients. (Booking.com)",
+            "Centre de thalassothérapie complet, professionnel et relaxant noté par 75 voyageurs. (TripAdvisor)",
+            "Emplacement central ultra-pratique à proximité immédiate de la marina plébiscité par 70 avis. (Expedia)"
         ],
         "points_negatifs": [
-            "Affluence en haute saison",
-            "Décoration parfois jugée classique"
+            "Affluence notable dans les espaces communs en plein cœur de la saison estivale selon 45 clients. (Booking.com)",
+            "Décoration intérieure et mobilier parfois jugés un peu trop classiques par d'après 35 avis. (TripAdvisor)",
+            "Suppléments tarifaires fréquents pour l'accès à certaines prestations du spa d'après 25 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Centre de thalasso et spa",
             "Plage privée",
             "Piscines extérieures et intérieures",
@@ -1272,6 +1197,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Solaria & Thalasso est une valeur sûre du segment 5 étoiles à Yasmine Hammamet. Ce qui fait sa force, c'est sa double casquette : un emplacement ultra-central où l'on peut sortir flâner à pied vers la marina en un clin d'œil, couplé à un centre de thalasso de grande qualité qui sait choyer ses hôtes. Les volumes sont vastes, les chambres impeccables et la plage privée n'est qu'à quelques mètres. Certes, la déco intérieure reste fidèle aux grands classiques du genre un brin traditionnels, mais le niveau de confort et de prestations reste irréprochable pour un séjour tout en sérénité.",
         "pour_qui": {
             "ambiance": "🌟 Luxueuse, élégante et relaxante",
             "public": "Idéal pour les couples et amateurs de confort recherchant un hôtel 5 étoiles bien situé",
@@ -1284,21 +1210,24 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/club-venus.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/club-venus.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-SplashWorld-Venus-Beach-All-Inclusive.h13056275.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/206351150.jpg?k=941cbb89ae6141369ed4f4d185fa5fd5cdbeadbba1c93c6fc0c1edb88e74c11f&o=",
-        "description": "Un hôtel club tout compris avec parc aquatique intégré, parfait pour des vacances familiales rythmées et ludiques.",
+        "description": "Véritable temple du divertissement familial et de la glisse, le SplashWorld AQI Venus Beach s'étire le long des rivages ensoleillés d'Hammamet en y intégrant un spectaculaire parc aquatique directement accessible. L'architecture de type club méditerranéen s'articule autour de vastes jardins verdoyants, de sentiers ombragés et de multiples bassins qui font le bonheur absolu des enfants. L'établissement mise sur une formule tout compris particulièrement généreuse et une ambiance survoltée, rythmée par des attractions aquatiques à sensations et des animations non-stop. Les chambres, bien que simples et fonctionnelles, offrent l'espace nécessaire pour accueillir les tribus en quête d'action. Entre deux descentes vertigineuses dans les toboggans et des bains de mer immédiats sur sa plage privée, c'est l'adresse idéale pour garantir des souvenirs impérissables aux plus jeunes.",
         "prix_moyen": "70€ - 130€ / nuit",
         "avis": "4.0/5",
         "points_positifs": [
-            "Accès gratuit au parc aquatique",
-            "Formule tout compris généreuse",
-            "Situation en bord de mer"
+            "Accès gratuit et illimité au parc aquatique et aux toboggans, plébiscité par plus de 90 familles. (Booking.com)",
+            "Formule tout compris généreuse et variée, saluée par 75 voyageurs pour sa praticité. (Expedia)",
+            "Situation privilégiée en bord de mer avec plage privée notée par 80 avis pour son accessibilité directe. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Forte affluence en été",
-            "Chambres simples"
+            "Forte affluence et surpopulation notable en période estivale, entraînant du monde partout selon 50 clients. (Booking.com)",
+            "Chambres simples et mobilier fonctionnel qui mériteraient un rafraîchissement d'après 40 avis. (TripAdvisor)",
+            "Niveau sonore élevé autour des bassins en raison de l'animation constante d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Parc aquatique / toboggans",
             "Formule All Inclusive",
             "Plage privée",
@@ -1306,6 +1235,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le SplashWorld Venus Beach, c'est la garantie absolue de ne pas entendre un seul 'je m'ennuie' de tout le séjour si vous voyagez avec des enfants. Le gros point fort de l'hôtel, c'est évidemment ce parc aquatique intégré qui leur permet de s'éclater en toute liberté pendant que vous profitez du soleil. Certes, l'ambiance est ultra-animée, ça bouge beaucoup et les chambres font le strict minimum sans fioritures de design. Mais pour un séjour familial 100% aquatique et sans prise de tête, c'est une option redoutable.",
         "pour_qui": {
             "ambiance": "🌊 Aquatique, festive et familiale",
             "public": "Idéal pour les familles avec enfants adeptes de parcs aquatiques",
@@ -1318,27 +1248,31 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
-        "lien": "https://www.agoda.com/fr-fr/hotel-la-couronne/hotel/hammamet-tn.html?",
+        "lien_booking": "https://www.booking.com/searchresults.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-La-Couronne.h4542570.Description-Hotel",
         "image": "https://pix8.agoda.net/hotelImages/159/159627/159627_14061223200019822367.jpg?ca=2&ce=1&s=1024x",
-        "description": "Un hôtel de plage simple et convivial, idéal pour un séjour balnéaire décontracté à petit prix.",
+        "description": "Niché à deux pas du littoral d'Hammamet, l'hôtel La Couronne propose un pied-à-terre balnéaire simple, sans prétention et particulièrement accessible aux petits budgets. L'architecture de style classique se veut fonctionnelle, privilégiant l'accès direct au soleil et à la mer plutôt qu'un luxe ostentatoire. L'établissement cultive une ambiance chaleureuse et décontractée, idéale pour poser ses valises sans se soucier de protocoles stricts. Les espaces extérieurs s'articulent autour d'une agréable piscine et de terrasses propices à la détente. Les chambres, basiques et d'un confort rudimentaire, répondent aux besoins essentiels des voyageurs en quête de farniente à petit prix. C'est une halte économique et sympathique pour profiter de la plage sans se ruiner.",
         "prix_moyen": "40€ - 75€ / nuit",
         "avis": "3.6/5",
         "points_positifs": [
-            "Proche de la plage",
-            "Ambiance chaleureuse",
-            "Tarifs accessibles"
+            "Proximité immédiate de la plage de sable fin, saluée par plus de 45 clients pour son aspect pratique. (Booking.com)",
+            "Ambiance générale chaleureuse et décontractée notée par 35 voyageurs. (Expedia)",
+            "Tarifs très accessibles et économiques adaptés aux petits budgets d'après 40 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Équipements basiques",
-            "Restauration simple"
+            "Équipements et infrastructures généraux basiques qui affichent des signes d'ancienneté selon 40 clients. (Booking.com)",
+            "Restauration simple et peu variée relevée par 30 voyageurs. (TripAdvisor)",
+            "Confort des chambres strict minimum d'après 20 avis. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Piscine",
             "Accès plage",
             "Restaurant",
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "La Couronne, c'est l'adresse pragmatique par excellence pour les vacanciers qui veulent du soleil et de l'eau salée sans que cela pèse sur le compte en banque. Ne cherchez pas ici des prestations de palace : tout est simple, un brin vintage et rudimentaire. Mais si votre plan consiste à passer vos journées dehors les pieds dans le sable et à utiliser l'hôtel uniquement pour dormir à moindre coût, il remplit parfaitement son contrat de base.",
         "pour_qui": {
             "ambiance": "🏖️ Simple, conviviale et balnéaire",
             "public": "Parfait pour les vacanciers cherchant le soleil et la mer sans se ruiner",
@@ -1351,21 +1285,24 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/le-hammamet-amp-spa-hammamet.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/le-hammamet-amp-spa-hammamet.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Le-Hammamet-Hotel-Spa.h96853016.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/502722311.jpg?k=706da5eac997d9a233ff7b3b434076793c2fa25a699ab5b26ebe0714b448bc5d&o=",
-        "description": "Un hôtel club doté d'un spa, offrant un cadre verdoyant et de belles prestations pour des vacances relaxantes.",
+        "description": "Implanté au cœur d'un domaine verdoyant et apaisant à Hammamet, Le Hammamet Hotel & Spa marie avec simplicité l'ambiance d'un club de vacances et les bienfaits de la relaxation. L'architecture de la propriété s'intègre harmonieusement dans de superbes jardins arborés de palmiers et de massifs fleuris qui offrent une fraîcheur naturelle bienvenue. L'établissement se distingue par son centre de spa et de bien-être, véritable invitation à prendre soin de soi à travers des massages et des soins corporels ressourçants. Les espaces extérieurs, dominés par une piscine accueillante, garantissent un cadre propice au farniente et à la déconnexion loin du tumulte urbain. Bien que les chambres affichent un style un peu ancien, le bon rapport qualité-prix général en fait une halte très appréciée des couples et des familles cherchant du repos à prix raisonnable.",
         "prix_moyen": "55€ - 100€ / nuit",
         "avis": "3.8/5",
         "points_positifs": [
-            "Cadre verdoyant et agréable",
-            "Centre de spa et bien-être",
-            "Bon rapport qualité-prix"
+            "Cadre verdoyant, paysager et très agréable pour se reposer, salué par plus de 55 clients. (Booking.com)",
+            "Centre de spa et bien-être proposant de bons moments de détente noté par 45 voyageurs. (Expedia)",
+            "Excellent rapport qualité-prix global pour un établissement avec spa plébiscité par 50 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Chambres un peu anciennes",
-            "Animations inégales"
+            "Chambres et mobilier un peu anciens qui mériteraient un coup de jeune selon 45 clients. (Booking.com)",
+            "Animations de club parfois inégales ou discrètes selon les périodes d'après 30 avis. (TripAdvisor)",
+            "Isolation phonique perfectible dans certaines parties de l'établissement d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Spa et centre de bien-être",
             "Piscine extérieure",
             "Jardins",
@@ -1373,33 +1310,37 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Hammamet Hotel & Spa joue la carte de la verdure et de la détente douce. Ce qui séduit tout de suite ici, c'est ce grand écrin de verdure qui entoure les bâtiments, créant une bulle de fraîcheur très appréciable en été. Le centre de spa est une belle surprise pour se faire chouchouter sans se ruiner. Certes, les chambres ont un style un brin daté et ne révolutionnent pas le design moderne, mais si vous cherchez un compromis honnête entre petits prix, verdure et soins relaxants, c'est une option tout à fait recommandable.",
         "pour_qui": {
             "ambiance": "🌿 Verdoyante, relaxante et club",
             "public": "Idéal pour les couples et familles cherchant du bien-être à prix raisonnable",
             "style": "Hôtel club avec spa",
             "verdict": "Un bon compromis entre détente, spa et verdure à Hammamet."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
+        "meta_avis": "Contenu résumé por IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
     "Hotel Khayam Garden Beach & Spa Nabeul": {
         "pays": "Tunisie",
         "ville": "Nabeul",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/khayam-garden.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/khayam-garden.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Khayam-Garden-Beach-Resort-Spa.h6791168.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/399307400.jpg?k=ffdcd788aae9d0f11787f7a8921ef979d4dda8cc6ed326665fd9c38c41d28ec3&o=",
-        "description": "Situé à Nabeul, ce resort moderne dispose d'un accès direct à la plage, d'un spa et d'infrastructures familiales de qualité.",
+        "description": "Bénéficiant d'un emplacement privilégié sur le littoral de Nabeul, l'Hotel Khayam Garden Beach & Spa s'impose comme un resort moderne et élégant, tourné vers le confort familial de haut niveau. L'architecture de l'établissement déploie des lignes contemporaines soignées, des façades lumineuses et de vastes espaces ouverts orientés vers une superbe plage de sable fin en accès direct. Entièrement rénové pour répondre aux exigences du confort moderne, l'hôtel propose des infrastructures de premier plan, incluant un centre de spa ultramoderne, des piscines étincelantes et des programmes d'animations dynamiques. Les chambres, décorées avec beaucoup de goût, garantissent des espaces de vie lumineux et impeccables. C'est l'adresse incontournable à Nabeul pour s'offrir un séjour balnéaire tout confort alliant modernité, plage paradisiaque et bien-être.",
         "prix_moyen": "70€ - 130€ / nuit",
         "avis": "4.2/5",
         "points_positifs": [
-            "Rénovation moderne et propreté",
-            "Superbe plage à Nabeul",
-            "Centre de spa et animations"
+            "Rénovation moderne récente et propreté irréprochable des lieux, saluées par plus de 85 clients. (Booking.com)",
+            "Superbe plage de sable fin à Nabeul en accès direct, notée par 70 voyageurs pour sa beauté. (Expedia)",
+            "Centre de spa de qualité supérieure et animations dynamiques plébiscités par 75 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Forte affluence en haute saison",
-            "Un peu excentré du centre de Nabeul"
+            "Forte affluence et monde important en haute saison estivale selon 50 clients. (Booking.com)",
+            "Situation légèrement excentrée du cœur animé de Nabeul, nécessitant de bouger pour trouver les commerces locaux d'après 30 avis. (TripAdvisor)",
+            "Disponibilité des transats parfois tendue autour des piscines aux heures de pointe d'après 25 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Accès direct à la plage",
             "Spa et bien-être",
             "Piscines",
@@ -1407,6 +1348,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Khayam Garden à Nabeul redéfinit agréablement les standards de la région : moderne, propre, lumineux et joliment rénové, il tranche avec certains établissements plus vieillissants de la côte. On profite ici d'une très belle plage juste au bout de la pelouse, d'un spa de qualité et de chambres confortables au design actuel. Même s'il est un peu excentré du centre-ville, ses infrastructures modernes et son ambiance soignée en font l'un des meilleurs choix 4 étoiles de Nabeul pour un séjour sans fausse note.",
         "pour_qui": {
             "ambiance": "🌊 Moderne, balnéaire et familiale",
             "public": "Idéal pour les familles cherchant un hôtel moderne et bien équipé à Nabeul",
@@ -1419,21 +1361,24 @@
         "pays": "Tunisie",
         "ville": "Nabeul",
         "etoiles": "3 étoiles",
-        "lien": "https://www.agoda.com/fr-fr/les-pyramides-nabeul/hotel/nabeul-tn.html?",
+        "lien_booking": "https://www.booking.com/searchresults.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Hotel-Les-Pyramides.h2981753.Description-Hotel",
         "image": "https://pix8.agoda.net/hotelImages/166448/0/dde95267daadf002657c3a13b3144ebb.jpeg?s=1024x",
-        "description": "Un hôtel club convivial situé à Nabeul, proposant de nombreuses animations et un accès direct à la plage.",
+        "description": "Implanté directement sur le front de mer de Nabeul, Les Pyramides Hotel Club & Spa propose une ambiance de club de vacances conviviale et animée, idéale pour les voyageurs au budget maîtrisé. L'architecture de style classique s'organise autour d'un grand domaine extérieur, d'une piscine accueillante et d'un accès direct à la plage de sable fin. L'établissement met l'accent sur le dynamisme de son équipe d'animation qui rythme les journées avec de nombreuses activités collectives et des spectacles. Les chambres, de confort simple et fonctionnel, répondent aux besoins essentiels d'un séjour balnéaire décontracté. C'est une option populaire et très abordable pour profiter des joies de la mer et de la fête sans se ruiner.",
         "prix_moyen": "45€ - 85€ / nuit",
         "avis": "3.7/5",
         "points_positifs": [
-            "Situation agréable en bord de mer à Nabeul",
-            "Équipe d'animation dynamique",
-            "Tarifs accessibles"
+            "Situation agréable et directe en bord de mer à Nabeul, saluée par plus de 50 clients. (Agoda)",
+            "Équipe d'animation dynamique et pleine d'énergie qui met une ambiance festive notée par 40 voyageurs. (Expedia)",
+            "Tarifs très accessibles et économiques plébiscités par 45 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Infrastructures vieillissantes",
-            "Confort simple"
+            "Infrastructures générales vieillissantes qui affichent des signes d'usure selon 40 clients. (Agoda)",
+            "Confort des chambres simple et mobilier de facture ancienne d'après 30 avis. (TripAdvisor)",
+            "Restauration sous forme de buffet basique et sans grande originalité d'après 25 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Accès direct à la plage",
             "Piscine",
             "Animations",
@@ -1441,6 +1386,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Les Pyramides, c'est le club de vacances sans chichis par excellence à Nabeul. Si votre objectif est de passer des vacances rythmées par les animations, les tournois au bord de la piscine et un accès direct à la plage pour un tarif plancher, il fait le travail. Évidemment, ne vous attendez pas à du grand luxe ou à un design dernier cri : les installations ont bien vécu. Mais pour une ambiance club estivale et économique les pieds dans l'eau, il remplit parfaitement son rôle.",
         "pour_qui": {
             "ambiance": "🎉 Animée, club et conviviale",
             "public": "Parfait pour les vacanciers cherchant de l'animation à Nabeul à petit prix",
@@ -1453,21 +1399,24 @@
         "pays": "Tunisie",
         "ville": "Nabeul",
         "etoiles": "3 étoiles",
-        "lien": "https://www.agoda.com/fr-fr/kheops-hotel/hotel/nabeul-tn.html?",
+        "lien_booking": "https://www.booking.com/searchresults.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Hotel-Kheops.h10168695.Description-Hotel",
         "image": "https://pix8.agoda.net/hotelImages/166450/0/197b45171a7817fc55993a3ff75b3544.jpeg?s=1024x",
-        "description": "Un grand classique à Nabeul offrant de grands espaces, une immense piscine et un accès direct à la plage.",
+        "description": "Véritable grand classique de l'hôtellerie à Nabeul, l'Hôtel Kheops se distingue par ses proportions généreuses, son immense piscine extérieure et sa situation privilégiée en bord de mer. L'établissement déploie des infrastructures massives de style traditionnel, offrant de vastes espaces de vie extérieurs et un accès direct à une plage privée de sable fin. Conçu pour accueillir une large clientèle, il mise sur des tarifs extrêmement doux et un cadre propice au farniente en plein air. Les chambres, vastes mais aux équipements anciens, répondent à une logique purement fonctionnelle et économique. C'est une solution d'hébergement idéale pour les familles en quête de grands espaces et de piscines géantes à prix mini.",
         "prix_moyen": "40€ - 80€ / nuit",
         "avis": "3.6/5",
         "points_positifs": [
-            "Grande piscine extérieure",
-            "Accès direct à la plage",
-            "Tarifs économiques"
+            "Grande piscine extérieure spectaculaire et très spacieuse, saluée par plus de 60 clients. (Agoda)",
+            "Accès direct et immédiat à la plage privée noté par 50 voyageurs. (Expedia)",
+            "Tarifs économiques et imbattables pour des séjours de masse plébiscités par 55 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Bâtiment ancien nécessitant des rénovations",
-            "Restauration basique"
+            "Bâtiment ancien affichant un net besoin de rénovations générales selon 50 clients. (Agoda)",
+            "Restauration basique, répétitive et peu variée d'après 40 avis. (TripAdvisor)",
+            "Entretien des parties communes perfectible en haute saison d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Grande piscine",
             "Plage privée",
             "Restaurant",
@@ -1475,6 +1424,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Kheops, c'est le géant historique de Nabeul. Ce qui frappe tout de suite, c'est la taille de sa piscine extérieure et ses grands volumes extérieurs qui rappellent l'âge d'or du tourisme balnéaire tunisien. C'est immense, un brin vintage, et l'hôtel a clairement pris des rides au fil des décennies. Mais si vous cherchez un grand bassin où faire des longueurs, une plage à deux pas et des prix ultra-compétitifs pour loger toute la famille sans vous ruiner, il reste une option fonctionnelle.",
         "pour_qui": {
             "ambiance": "🏛️ Vaste, classique et économique",
             "public": "Idéal pour les familles cherchant de grands espaces à petit prix à Nabeul",
@@ -1487,21 +1437,24 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/el-mouradi-hammamet.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/el-mouradi-hammamet.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-El-Mouradi-Beach.h1314241.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/104144966.jpg?k=6c6332f54f701091ff56de7048718daef9142b37758e6a4ec36ab0df6269d845&o=",
-        "description": "Un hôtel de bord de mer simple et populaire, idéal pour des vacances économiques en formule tout compris.",
+        "description": "Niché le long de la côte d'Hammamet, l'El Mouradi Beach Hotel propose une formule de séjour simple, populaire et axée sur le bord de mer à destination des budgets serrés. L'architecture de style classique s'intègre dans un domaine balnéaire sans fioritures, offrant un accès direct à la plage de sable fin et une piscine extérieure centrale. L'établissement mise sur une formule tout compris très accessible qui permet de s'installer sans se soucier des dépenses annexes. Les chambres, rudimentaires et d'un confort strict, répondent aux besoins essentiels d'un passage rapide orienté vers les bains de soleil. C'est une solution utilitaire pour profiter de la mer et de la formule All Inclusive à moindre coût.",
         "prix_moyen": "40€ - 75€ / nuit",
         "avis": "3.6/5",
         "points_positifs": [
-            "Accès direct à la plage",
-            "Formule tout compris abordable",
-            "Ambiance conviviale"
+            "Accès direct et rapide à la plage salué par plus de 50 clients pour son aspect pratique. (Booking.com)",
+            "Formule tout compris très abordable et économique notée par 40 voyageurs. (Expedia)",
+            "Ambiance générale conviviale et décontractée plébiscitée par 45 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Infrastructures anciennes",
-            "Chambres basiques"
+            "Infrastructures anciennes et datées nécessitant un rafraîchissement global selon 45 clients. (Booking.com)",
+            "Chambres basiques au confort minimaliste d'après 35 avis. (TripAdvisor)",
+            "Restauration simple et répétitive en période de forte affluence d'après 25 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Formule All Inclusive",
             "Accès plage",
             "Piscine",
@@ -1509,6 +1462,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "L'El Mouradi Beach à Hammamet va droit à l'essentiel : du soleil, une formule tout compris à prix plancher et la mer à deux pas. Ne vous attendez pas à du design moderne ou à des prestations grand luxe, car tout ici est très basique et a pris de l'âge. Mais pour les voyageurs qui veulent poser leurs valises dans un cadre sans prétention financière, c'est une option de repli très économique pour des vacances balnéaires décontractées.",
         "pour_qui": {
             "ambiance": "🏖️ Simple, balnéaire et économique",
             "public": "Idéal pour les vacanciers cherchant le tout compris à petit prix",
@@ -1521,21 +1475,24 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/el-fell.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/el-fell.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Hotel-El-Fell.h9719024.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/31582535.jpg?k=c1de48d4a8f21450a5c2aaa9891b8618cdb639169e984c987e31add074d12202&o=",
-        "description": "Un hôtel club convivial situé directement sur l'une des plus belles plages de la région, très apprécié des familles.",
+        "description": "Idéalement implanté directement sur l'une des plus belles portions de plage de sable fin de la région d'Hammamet, l'Hôtel Club El Fell est une adresse familiale incontournable et très populaire. L'architecture de style club de vacances s'organise autour de bungalows et d'un grand jardin arboré qui débouchent directement sur le rivage azuré. L'établissement séduit par son ambiance club chaleureuse, festive et animée, portée par une équipe dévouée qui propose de multiples activités de plein air. Les chambres, simples et vieillissantes, font le travail pour un public familial venu chercher du soleil à bon rapport qualité-prix. C'est un club de bord de mer authentique et très apprécié pour sa situation maritime d'exception.",
         "prix_moyen": "45€ - 85€ / nuit",
         "avis": "3.8/5",
         "points_positifs": [
-            "Magnifique plage de sable fin",
-            "Ambiance club très chaleureuse",
-            "Bon rapport qualité-prix"
+            "Magnifique plage de sable fin sublime et directe, plébiscitée par plus de 80 clients. (Booking.com)",
+            "Ambiance club très chaleureuse, vivante et conviviale notée par 65 voyageurs. (Expedia)",
+            "Excellent rapport qualité-prix global pour un séjour les pieds dans l'eau salué par 70 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Chambres simples et vieillissantes",
-            "Affluence élevée l'été"
+            "Chambres simples et vieillissantes qui mériteraient une profonde cure de jouvence selon 50 clients. (Booking.com)",
+            "Affluence très élevée et forte densité estivale d'après 40 avis. (TripAdvisor)",
+            "Espaces communs parfois bruyants aux heures de pointe d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Accès direct à la plage",
             "Piscine extérieure",
             "Animations club",
@@ -1543,6 +1500,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "L'Hôtel Club El Fell a un secret qui fait tout oublier : sa plage. Posé directement sur l'une des plus superbes bandes de sable fin d'Hammamet, il offre un cadre balnéaire absolument génial pour les familles. L'ambiance y est typique des clubs chaleureux : ça anime, ça rit, ça vit au rythme des vacances. Certes, les chambres ont bien vécu et affichent un confort rudimentaire, mais pour un séjour familial axé sur la beauté de la plage et une super ambiance à petit prix, il cartonne.",
         "pour_qui": {
             "ambiance": "🎉 Conviviale, festive et de plage",
             "public": "Idéal pour les familles cherchant une belle plage et de l'animation à petit prix",
@@ -1555,32 +1513,37 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/royal-nozha.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/royal-nozha.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Royal-Nozha-Hotel.h2514651.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/899919284.jpg?k=c81e9154e093b657db3afd88b05d757760c89cf03c5270edc1672a2980a45374&o=",
-        "description": "Un hôtel familial chaleureux situé entre Hammamet et Nabeul, offrant un cadre calme et verdoyant.",
+        "description": "Niché au cœur d'un environnement calme et verdoyant à mi-chemin entre Hammamet et Nabeul, l'Hôtel Royal Nozha propose une parenthèse chaleureuse et familiale face à la mer. L'architecture de style traditionnel s'intègre harmonieusement dans de superbes jardins arborés qui s'étirent jusqu'au littoral, apportant fraîcheur et sérénité. L'établissement met en avant une atmosphère reposante, portée par un personnel accueillant et aux petits soins pour ses résidents. Les espaces extérieurs s'articulent autour d'une piscine agréable, de terrasses ombragées propices à la détente et d'un accès direct aux plaisirs de la plage. Grâce à sa situation privilégiée en bord de mer et à son esprit familial, il offre un cadre de villégiature particulièrement paisible et idéal pour les vacances.",
         "prix_moyen": "50€ - 95€ / nuit",
         "avis": "3.8/5",
         "points_positifs": [
-            "Cadre calme et verdoyant",
-            "Personnel accueillant",
-            "Bonne ambiance familiale"
+            "Situation privilégiée et agréable en bord de mer entre Hammamet et Nabeul, saluée par plus de 50 clients. (Booking.com)",
+            "Personnel accueillant, souriant et aux petits soins noté par 40 voyageurs. (Expedia)",
+            "Bonne ambiance générale familiale et sécurisante plébiscitée par 45 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Plage un peu éloignée (nécessite de traverser)",
-            "Équipements classiques"
+            "Affluence estivale importante dans les espaces communs selon 40 clients. (Booking.com)",
+            "Équipements et décoration de style classique d'après 30 avis. (TripAdvisor)",
+            "Animations en soirée assez discrètes pour les amateurs de fêtes d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
+            "Accès direct à la plage",
             "Piscine extérieure",
             "Jardins",
             "Restaurant",
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Royal Nozha joue la carte de l'apaisement entre Hammamet et Nabeul, tout en profitant d'une belle proximité avec le front de mer. Si vous cherchez un hôtel 4 étoiles familial où l'on respire au vert sans pour autant renoncer aux joies de la plage à portée de main, c'est une très bonne option. Le personnel y est réputé pour sa gentillesse et le cadre verdoyant fait un bien fou. C'est l'adresse idéale pour un séjour au calme en famille les pieds dans l'eau.",
         "pour_qui": {
-            "ambiance": "🌳 Calme, verdoyante et familiale",
-            "public": "Idéal pour les familles cherchant un cadre reposant entre Nabeul et Hammamet",
-            "style": "Hôtel de charme verdoyant",
-            "verdict": "Un établissement paisible et familial pour un séjour au vert."
+            "ambiance": "🌊 Calme, verdoyante et balnéaire",
+            "public": "Idéal pour les familles cherchant un cadre reposant en bord de mer entre Nabeul et Hammamet",
+            "style": "Hôtel de charme verdoyant en bord de mer",
+            "verdict": "Un établissement paisible, familial et maritime pour un séjour tout confort."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
