@@ -110,6 +110,20 @@ st.markdown("""
         font-weight: 600 !important;
     }
 
+    /* Bouton "Comparer" (primary) en vert */
+    button[kind="primary"] {
+        background-color: #10B981 !important;
+        border-color: #10B981 !important;
+    }
+    button[kind="primary"]:hover {
+        background-color: #0d9668 !important;
+        border-color: #0d9668 !important;
+    }
+    button[kind="primary"] p, 
+    button[kind="primary"] span {
+        color: #FFFFFF !important;
+    }
+
     /* Cartes d'hôtels adaptées au fond sombre */
     .hotel-card { 
         background-color: #1C2541 !important; 
