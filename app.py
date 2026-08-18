@@ -8,6 +8,18 @@ import base64
 import apropos
 import confidentialite
 import contact
+
+# 1. Configuration globale de la page (Doit être la première commande Streamlit)
+st.set_page_config(
+    page_title="MyHotelCompare - Comparateur d'hôtels",
+    page_icon="🏨",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
+# 2. Le reste de votre code commence ici
+st.title("Bienvenue sur MyHotelCompare")
+st.write("Comparez les les hôtels avec Nomad notre IA pour trover l'hôtel qui vous convient")
  
 # --- FONCTION DE MISE À JOUR DES LIENS ---
 def update_booking_aid(url, new_aid="8012379"):
