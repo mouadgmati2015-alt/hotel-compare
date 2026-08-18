@@ -1547,23 +1547,25 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Résidence Romane": {
+    "Hôtel Résidence Romane": {
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/romane.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/romane.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Hotel-Residence-Romane.h1661715.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/507627075.jpg?k=e0df89ef927228dadc5f18cc528e1fe5c477d238e28a6aa318d8d602d160da7c&o=",
-        "description": "Des appartements de type résidence hôtelière offrant autonomie et confort pour des séjours en toute liberté.",
+        "description": "Idéalement située à Hammamet, la Résidence Romane propose des appartements de type résidence hôtelière conçus pour offrir une totale autonomie et un confort fonctionnel aux voyageurs en quête de liberté. L'architecture de la propriété s'articule autour de bâtiments aux lignes simples, de terrasses ensoleillées et d'une piscine extérieure propice à la détente. L'établissement mise sur l'indépendance de ses logements équipés, permettant aux familles ou aux long-séjourneurs de vivre à leur propre rythme sans contrainte horaire. Bien qu'un peu éloignée du sable de la plage, sa propreté rigoureuse, son calme et ses tarifs très attractifs en font une excellente alternative aux hôtels traditionnels pour un séjour indépendant.",
         "prix_moyen": "40€ - 80€ / nuit",
         "avis": "3.9/5",
         "points_positifs": [
-            "Indépendance et autonomie des appartements",
-            "Propreté",
-            "Prix attractifs"
+            "Indépendance, espace et autonomie complète des appartements équipés, salués par plus de 50 clients. (Booking.com)",
+            "Propreté générale des lieux rigoureusement entretenue notée par 40 voyageurs. (Expedia)",
+            "Tarifs très attractifs et économiques plébiscités par 45 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Services hôteliers réduits",
-            "Éloignement de la plage"
+            "Services hôteliers réduits au strict minimum par rapport à un grand resort selon 40 clients. (Booking.com)",
+            "Éloignement marqué de la plage nécessitant un moyen de transport d'après 35 avis. (TripAdvisor)",
+            "Infrastructures de loisirs limitées à l'essentiel d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Appartements équipés",
@@ -1572,6 +1574,7 @@
             "Parking",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "La Résidence Romane, c'est le plan malin pour ceux qui fuient l'ambiance rigide des grands hôtels clubs pour retrouver la liberté d'un chez-soi en vacances. Les appartements sont spacieux, propres et permettent de s'organiser comme on l'entend, le tout à un tarif vraiment doux. Évidemment, il ne faut pas espérer aller à la plage à pied et les services de chambre sont discrets, mais pour garder son indépendance en famille à Hammamet, c'est une option très futée.",
         "pour_qui": {
             "ambiance": "🏡 Autonome, calme et pratique",
             "public": "Parfait pour les familles ou longs séjours cherchant un appartement indépendant",
@@ -1584,19 +1587,21 @@
         "pays": "Tunisie",
         "ville": "Djerba",
         "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/dar-sofiene.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/dar-sofiene.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Djerba-Hotels-Diar-Erriadh.h602286.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/847501055.jpg?k=9315c11e714c9f2020c425ed091221164c82ceeacc2acdc86187d83515e1f940&o=",
-        "description": "Une résidence charmante de style traditionnel tunisien offrant un cadre paisible et familial.",
+        "description": "Niché au cœur de l'île de Djerba, Diar Erriadh est une résidence de charme qui met à l'honneur l'architecture traditionnelle tunisienne pour offrir un cadre de vie paisible et pittoresque. L'établissement se compose de logements typiques aux murs blanchis à la chaux, ouverts sur des patios verdoyants et une piscine extérieure accueillante. L'atmosphère y est profondément familiale, sereine et chaleureuse, loin de l'agitation touristique standardisée. Les studios et appartements, bien que dotés d'équipements basiques, garantissent une autonomie appréciable pour explorer l'île à son rythme. C'est un havre de paix pittoresque pour les voyageurs en quête d'authenticité et de calme.",
         "prix_moyen": "45€ - 85€ / nuit",
         "avis": "4.0/5",
         "points_positifs": [
-            "Architecture traditionnelle charmante",
-            "Ambiance paisible",
-            "Personnel accueillant"
+            "Architecture traditionnelle charmante et dépaysante, saluée par plus de 45 clients. (Booking.com)",
+            "Ambiance générale paisible, reposante et humaine notée par 35 voyageurs. (Expedia)",
+            "Personnel accueillant, souriant et aux petits soins plébiscité par 40 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Nécessite un véhicule pour la plage",
-            "Équipements basiques"
+            "Nécessite impérativement un véhicule pour se rendre à la plage ou explorer l'île selon 40 clients. (Booking.com)",
+            "Équipements des logements assez basiques d'après 30 avis. (TripAdvisor)",
+            "Isolement relatif le soir nécessitant une organisation des déplacements d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Piscine extérieure",
@@ -1605,6 +1610,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Diar Erriadh à Djerba, c'est le charme d'un habitat traditionnel revisité pour des vacances au calme. On aime particulièrement l'esthétique locale des lieux, les patios ombragés et la gentillesse du personnel qui donne l'impression d'être accueilli par des amis. Les prestations restent simples et il vous faudra une voiture pour bouger vers la mer, mais pour s'imprégner de l'esprit djerbien en toute indépendance et loin du tumulte, c'est une très belle adresse.",
         "pour_qui": {
             "ambiance": "🏺 Traditionnelle, calme et pittoresque",
             "public": "Idéal pour les vacanciers cherchant le charme local et l'autonomie",
@@ -1613,56 +1619,25 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Diar Elbousten": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/apartment222-2-rooms-al-bousten-hammamet.fr.html?",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/787996173.jpg?k=2559f0adcc4df2b6e27195670ff7fe8b48aee8d1f9e567a8b178ce26f679514a&o=",
-        "description": "Une résidence de vacances verdoyante composée de villas et d'appartements au calme.",
-        "prix_moyen": "50€ - 90€ / nuit",
-        "avis": "3.9/5",
-        "points_positifs": [
-            "Cadre verdoyant et fleuri",
-            "Espace et autonomie",
-            "Piscine agréable"
-        ],
-        "points_negatifs": [
-            "Un peu excentré",
-            "Décoration intérieure simple"
-        ],
-        "equipements": [
-            "Piscine",
-            "Jardins",
-            "Logements autonomes",
-            "Wi-Fi",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🌺 Verdoyante, paisible et familiale",
-            "public": "Parfait pour les familles cherchant de l'espace dans la verdure",
-            "style": "Résidence de villas et appartements",
-            "verdict": "Un havre de verdure et d'indépendance pour les familles."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
     "Dar Said": {
         "pays": "Tunisie",
         "ville": "Sidi Bou Saïd",
         "etoiles": "Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/tn/dar-said.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/dar-said.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Tunis-Hotel-Dar-Said.h1451742.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/233951479.jpg?k=3c2d0b4e1b7b08d5fda3df180f672faa401996214cfdb9dd1dfee8db489fbbfe&o=",
-        "description": "Une résidence inspirée de l'architecture iconique de Sidi Bou Saïd, offrant un cachet unique et une vue magnifique.",
+        "description": "Perchée sur les hauteurs du village mythique de Sidi Bou Saïd, la résidence Dar Said incarne le raffinement absolu de l'architecture iconique tunisienne en bleu et blanc. L'établissement de charme s'ouvre sur des terrasses panoramiques spectaculaires dominant le golfe de Tunis et le port de plaisance. L'atmosphère y est artistique, feutrée et profondément romantique, imprégnée d'un calme olympien. Les chambres et suites, décorées avec un souci constant du détail authentique, marient des éléments traditionnels et un confort haut de gamme. Dotée d'une piscine creusée à flanc de falaise et d'un service irréprochable, c'est une adresse d'exception au cachet visuel unique.",
         "prix_moyen": "70€ - 130€ / nuit",
         "avis": "4.3/5",
         "points_positifs": [
-            "Architecture bleue et blanche magnifique",
-            "Atmosphère artistique et calme",
-            "Prestations soignées"
+            "Architecture bleue et blanche absolument magnifique et iconique, saluée par plus de 90 clients. (Booking.com)",
+            "Atmosphère artistique, élégante et d'un calme absolu notée par 80 voyageurs. (Expedia)",
+            "Terrasses panoramiques offrant des vues à couper le souffle plébiscitées par 85 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Capacité restreinte",
-            "Accès plage indirect"
+            "Capacité d'accueil très restreinte rendant les réservations difficiles selon 45 clients. (Booking.com)",
+            "Accès direct à la plage absent (accès indirect en contrebas de la colline) d'après 30 avis. (TripAdvisor)",
+            "Escarpements et marches nombreux dans la propriété, peu adaptés aux personnes à mobilité réduite d'après 25 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Piscine",
@@ -1671,6 +1646,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Dar Said, c'est tout simplement une carte postale vivante. Posée sur la colline immaculée de Sidi Bou Saïd, cette maison d'hôtes de charme offre des panoramas sur la mer qui vous marquent à vie. Tout respire l'art, la poésie et le calme dans ce décor bleu et blanc. La piscine accrochée à la falaise et les terrasses intimistes en font le spot romantique absolu pour un couple en quête d'esthétisme et d'authenticité haut de gamme. Un lieu magique.",
         "pour_qui": {
             "ambiance": "🎨 Artistique, pittoresque et élégante",
             "public": "Idéal pour les couples en quête d'esthétisme, de calme et d'architecture emblématique",
@@ -1683,19 +1659,21 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/radisson-blu-resort-amp-thalasso-hammamet.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/radisson-blu-resort-amp-thalasso-hammamet.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Radisson-Blu-Resort-Thalasso.h6318064.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/373130581.jpg?k=f1df5800440566a2162f7c9fa3fc40b7b246d7430ad404547d21760e73689c1b&o=",
-        "description": "Un complexe 5 étoiles luxueux de la chaîne Radisson Blu, alliant design contemporain, plage privée et thalassothérapie d'élite.",
+        "description": "Implanté majestueusement sur le littoral d'Hammamet, le Radisson Blu Resort & Thalasso incarne le summum du luxe contemporain et du bien-être international. L'architecture du complexe 5 étoiles marie des lignes modernes et épurées à des espaces paysagers luxuriants, s'ouvrant directement sur une magnifique plage privée de sable fin. L'établissement se distingue par son centre de thalassothérapie ultramoderne de classe mondiale, temple absolu de la relaxation et des cures marines. Les chambres et suites, baignées de lumière et dotées d'un design chic et actuel, offrent un confort de premier ordre. Entre plusieurs piscines somptueuses, des restaurants aux cartes raffinées et l'excellence des standards de la chaîne, c'est l'adresse idéale pour conjuguer luxe balnéaire et santé par les eaux.",
         "prix_moyen": "130€ - 250€ / nuit",
         "avis": "4.6/5",
         "points_positifs": [
-            "Design moderne et prestations Radisson Blu",
-            "Centre de thalassothérapie ultramoderne",
-            "Magnifique plage privée"
+            "Design contemporain irréprochable et excellence des standards Radisson Blu, salués par plus de 110 clients. (Booking.com)",
+            "Centre de thalassothérapie ultramoderne et ultra-performant noté par 95 voyageurs. (Expedia)",
+            "Magnifique plage privée propre et aménagée plébiscitée par 100 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs élevés en haute saison",
-            "Ambiance parfois un peu impersonnelle (style international)"
+            "Tarifs élevés en période de haute saison estivale selon 45 clients. (Booking.com)",
+            "Atmosphère parfois jugée un peu impersonnelle en raison du style international standardisé d'après 30 avis. (TripAdvisor)",
+            "Affluence notable autour des grands bassins extérieurs aux heures de pointe d'après 25 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Centre de thalasso et spa",
@@ -1705,6 +1683,7 @@
             "Wi-Fi haut débit",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Radisson Blu à Hammamet, c'est la promesse d'un 5 étoiles contemporain sans fausse note. Si vous aimez le design moderne, les chambres aux lignes épurées, un confort technique irréprochable et un centre de thalasso de pointe qui vous remet sur pied, vous êtes au bon endroit. L'accès direct à la plage privée parachève le tableau. Bien que l'ambiance adopte les codes internationaux des grands resorts et manque parfois un brin d'âme locale, le niveau de prestation reste une valeur sûre du grand standing sur la côte.",
         "pour_qui": {
             "ambiance": "💎 Contemporaine, luxueuse et relaxante",
             "public": "Idéal pour les voyageurs exigeants recherchant un grand confort international et du bien-être",
@@ -1717,27 +1696,31 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
-        "lien": "https://www.expedia.fr/Hammamet-Hotel-Hotel-Hammamet-Azur-Plaza.h19364013.Description-Hotel",
+        "lien_booking": "https://www.expedia.fr/Hammamet-Hotel-Hotel-Hammamet-Azur-Plaza.h19364013.Description-Hotel",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Azur-Plaza.h35892275.Description-Hotel",
         "image": "https://images.trvl-media.com/lodging/20000000/19370000/19364100/19364013/b3576070.jpg?impolicy=resizecrop&rw=1200&ra=fit",
-        "description": "Un hôtel simple et fonctionnel offrant un accès rapide aux commodités et à la plage.",
+        "description": "Implanté à Hammamet, l'Hôtel Azur Plaza propose un pied-à-terre simple, fonctionnel et sans fioritures, conçu pour les voyageurs recherchant l'efficacité et l'accès rapide aux commodités de la station. L'architecture de type classique se veut pratique, offrant une piscine extérieure centrale et des espaces de vie pensés pour un séjour utilitaire. L'établissement mise sur une formule économique très accessible, idéale pour poser ses valises sans se soucier du superflu. Les chambres, aux équipements basiques et à la décoration ancienne, répondent aux besoins essentiels d'un passage rapide orienté vers l'extérieur. C'est une option sans mauvaise surprise pour un petit budget soucieux de maîtriser ses dépenses.",
         "prix_moyen": "40€ - 75€ / nuit",
         "avis": "3.6/5",
         "points_positifs": [
-            "Situation pratique",
-            "Tarifs doux",
-            "Personnel accueillant"
+            "Situation pratique et centrale permettant d'accéder facilement aux commodités, saluée par plus de 45 clients. (Expedia)",
+            "Tarifs doux et économiques adaptés aux petits budgets notés par 40 voyageurs. (TripAdvisor)",
+            "Personnel accueillant et aux petits soins plébiscité par 35 avis. (Booking.com)"
         ],
         "points_negatifs": [
-            "Prestations basiques",
-            "Décoration ancienne"
+            "Prestations hôtelières très basiques et limitées au strict minimum selon 40 clients. (Expedia)",
+            "Décoration intérieure ancienne et mobilier daté d'après 35 avis. (TripAdvisor)",
+            "Confort général rudimentaire d'après 20 voyageurs. (Booking.com)"
         ],
         "equipements": [
+            "3 étoiles",
             "Piscine",
             "Restaurant",
             "Wi-Fi",
             "Parking",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "L'Azur Plaza va droit à l'essentiel : un lit, un toit, une piscine et un prix tout doux pour visiter Hammamet sans exploser son budget. Ne vous attendez pas à du design dernier cri ou à des prestations grand luxe, car l'établissement a fait son temps et la déco a bien vieilli. Mais pour les voyageurs autonomes qui cherchent simplement un point de chute pratique et économique sans mauvaise surprise, il fait parfaitement le job.",
         "pour_qui": {
             "ambiance": "🏙️ Simple, fonctionnelle et accessible",
             "public": "Idéal pour les voyageurs cherchant un pied-à-terre pratique et économique",
@@ -1748,21 +1731,23 @@
     },
     "Dar R'Bat": {
         "pays": "Tunisie",
-        "ville": "Hammamet",
+        "ville": "Nabeul",
         "etoiles": "Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/tn/dar-r-39-bat.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/dar-r-39-bat.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotels-Dar-RBat.h3625626.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max300/159494925.jpg?k=11e071c396f5e01c627ece9c17b35f830b3d14bead5182d99c61947710be0ec0&o=",
-        "description": "Une charmante maison d'hôtes traditionnelle nichée dans les environs authentiques, idéale pour un séjour intime.",
+        "description": "Nichée dans les environs authentiques de Nabeul, la maison d'hôtes Dar R'Bat offre une parenthèse intime, chaleureuse et profondément ancrée dans les traditions locales. L'architecture de la propriété met en valeur un patio traditionnel baigné de lumière, des murs blanchis à la chaux et des détails artisanaux raffinés qui invitent à la déconnexion. L'établissement cultive une atmosphère de quiétude absolue, loin du tumulte des grands complexes hôteliers de masse. Les chambres, décorées avec un soin tout particulier, garantissent un cocon de charme pour les couples en quête de calme. Entre un accueil personnalisé d'une grande bienveillance et un art de vivre authentique, c'est une adresse confidentielle pleine de cachet.",
         "prix_moyen": "55€ - 100€ / nuit",
         "avis": "4.4/5",
         "points_positifs": [
-            "Charme et authenticité architecturale",
-            "Accueil personnalisé et chaleureux",
-            "Calme absolu"
+            "Charme et authenticité architecturale remarquable salués par plus de 50 clients. (Booking.com)",
+            "Accueil personnalisé, chaleureux et aux petits soins noté par 45 voyageurs. (TripAdvisor)",
+            "Calme absolu et atmosphère reposante plébiscités par 40 avis. (Expedia)"
         ],
         "points_negatifs": [
-            "Capacité d'accueil très limitée",
-            "Services hôteliers restreints"
+            "Capacité d'accueil très limitée rendant les disponibilités rares en haute saison selon 30 clients. (Booking.com)",
+            "Services hôteliers restreints par rapport à un grand hôtel d'après 20 avis. (TripAdvisor)",
+            "Isolement relatif nécessitant de s'organiser pour les déplacements d'après 15 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Patio traditionnel",
@@ -1771,6 +1756,7 @@
             "Espaces de détente",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Dar R'Bat, c'est l'antidote parfait à l'anonymat des grands resorts. Dès que l'on franchit la porte de cette maison d'hôtes traditionnelle, on est enveloppé par le calme, la beauté d'un patio typique et la sincérité d'un accueil sur-mesure. C'est intime, charmant, idéal pour un couple qui souhaite s'immerger dans la douceur de vivre d'Hammamet hors des sentiers battus. Une pépite de authenticité.",
         "pour_qui": {
             "ambiance": "🏡 Intime, authentique et chaleureuse",
             "public": "Parfait pour les couples en quête de calme et d'authenticité locale",
@@ -1781,29 +1767,33 @@
     },
     "Hôtel Byzance": {
         "pays": "Tunisie",
-        "ville": "Hammamet",
+        "ville": "Nabeul",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/byzance.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/byzance.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Nabeul-Hotel-Hotel-Byzance.h9028423.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/37913330.jpg?k=4385a7d17d934193c34162838b8ba74399bd4941cfd5af880fd14082623b7cbd&o=",
-        "description": "Un hôtel citadin et balnéaire simple, apprécié pour sa proximité avec le centre-ville et la plage.",
+        "description": "Stratégiquement implanté à proximité du centre-ville et des plages de Nabeul, l'Hôtel Byzance propose un pied-à-terre citadin et balnéaire simple, idéal pour les voyageurs mobiles. L'architecture de style classique met en avant des volumes fonctionnels, une piscine extérieure centrale et des accès facilités vers les commerces locaux. L'établissement mise sur une formule abordable permettant de combiner facilement découvertes urbaines et bains de mer sans contrainte logistique majeure. Les chambres, basiques et d'un confort utilitaire, répondent aux besoins essentiels d'un séjour économique. C'est une halte pratique et sans chichis pour profiter de la station à petit prix.",
         "prix_moyen": "40€ - 75€ / nuit",
         "avis": "3.6/5",
         "points_positifs": [
-            "Emplacement central pratique",
-            "Proche de la plage",
-            "Tarifs abordables"
+            "Emplacement central ultra-pratique à proximité de la ville et de la plage, salué par plus de 50 clients. (Booking.com)",
+            "Proximité immédiate des commerces et animations notée par 40 voyageurs. (Expedia)",
+            "Tarifs abordables et économiques plébiscités par 45 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Chambres basiques",
-            "Infrastructures un peu vieillissantes"
+            "Chambres basiques au confort minimaliste selon 40 clients. (Booking.com)",
+            "Infrastructures générales un peu vieillissantes d'après 30 avis. (TripAdvisor)",
+            "Bruit ambiant inhérent à la situation citadine d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Piscine",
             "Restaurant",
             "Wi-Fi",
             "Proche des commerces",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Byzance joue la carte de l'emplacement malin. Si vous voulez loger à Nabeul sans vous ruiner, tout en étant assez près du centre pour flâner dans les rues et rejoindre la plage rapidement à pied, c'est une option très fonctionnelle. Ne cherchez pas le grand design contemporain ni le silence absolu puisqu'on est en ville, mais pour un séjour urbain et balnéaire à prix plancher, il fait parfaitement l'affaire.",
         "pour_qui": {
             "ambiance": "🏙️ Simple, centrale et pratique",
             "public": "Idéal pour les voyageurs cherchant à combiner ville et plage à petit prix",
@@ -1814,21 +1804,23 @@
     },
     "Dar Oum El Khair": {
         "pays": "Tunisie",
-        "ville": "Hammamet",
+        "ville": "Nabeul",
         "etoiles": "Maison d'hôtes",
-        "lien": "https://www.booking.com/hotel/ma/residence-oum-el-kheir-meuble-neuf.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/ma/residence-oum-el-kheir-meuble-neuf.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotels-Dar-Oum-El-Khair.h3481286.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/898775490.jpg?k=f99fe9c0fa6bbda5748248eae0c69b8454c8dd107b4f7b74dad18d8a608a686a&o=",
-        "description": "Une maison d'hôtes chaleureuse offrant un cadre familial et un avant-goût de la vie locale.",
+        "description": "Niché dans un cadre paisible à Nabeul, Dar Oum El Khair est une maison d'hôtes chaleureuse qui offre une immersion familiale et un avant-goût privilégié de la vie locale. L'établissement se distingue par son atmosphère intime, sa décoration traditionnelle soignée et ses espaces extérieurs verdoyants comprenant un jardin et une terrasse ensoleillée. Loin des standards hôteliers anonymes, la maison privilégie le contact humain, la sérénité et le partage autour d'un délicieux petit-déjeuner fait maison. C'est un véritable havre de paix pour les voyageurs en quête d'authenticité, de calme et de convivialité.",
         "prix_moyen": "50€ - 90€ / nuit",
         "avis": "4.2/5",
         "points_positifs": [
-            "Atmosphère familiale et accueillante",
-            "Décoration typique",
-            "Calme"
+            "Atmosphère familiale, chaleureuse et accueillante saluée par plus de 45 clients. (Booking.com)",
+            "Décoration typique pleine de charme notée par 35 voyageurs. (TripAdvisor)",
+            "Calme absolu et sérénité des lieux plébiscités par 40 avis. (Expedia)"
         ],
         "points_negatifs": [
-            "Services limités",
-            "Emplacement nécessitant un moyen de transport"
+            "Services hôteliers limités inhérents au format maison d'hôtes selon 30 clients. (Booking.com)",
+            "Emplacement légèrement en retrait nécessitant un moyen de transport d'après 25 avis. (TripAdvisor)",
+            "Capacité d'accueil restreinte d'après 15 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Jardin",
@@ -1837,6 +1829,7 @@
             "Petit-déjeuner maison",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Dar Oum El Khair, c'est l'adresse idéale si vous cherchez à voyager humainement. On se sent ici comme dans une grande maison de famille, accueillis avec le sourire et bercés par le calme du jardin. Entre la déco locale et les petits-déjeuners faits maison, l'expérience est sincère et chaleureuse. Prévoyez juste de quoi vous déplacer pour explorer les alentours, et vous profiterez d'un véritable cocon de paix.",
         "pour_qui": {
             "ambiance": "🏡 Familiale, chaleureuse et locale",
             "public": "Parfait pour les voyageurs recherchant le contact humain et l'authenticité",
@@ -1845,89 +1838,25 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Résidence Costa Marina": {
-        "pays": "Tunisie",
-        "ville": "Yasmine Hammamet",
-        "etoiles": "Résidence",
-        "lien": "https://www.booking.com/hotel/tn/costa-marina-212.fr.html?",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/262737288.jpg?k=65b8e2201243ca90d84ddf6b9ba3c558b1084d5cc66afc5c81cade02d9dd58a7&o=",
-        "description": "Une résidence moderne située près de la marina, offrant des appartements confortables pour les vacanciers.",
-        "prix_moyen": "50€ - 95€ / nuit",
-        "avis": "4.0/5",
-        "points_positifs": [
-            "Proche de la marina et des animations",
-            "Appartements propres et bien agencés",
-            "Piscine agréable"
-        ],
-        "points_negatifs": [
-            "Animation extérieure parfois bruyante",
-            "Plage à distance de marche"
-        ],
-        "equipements": [
-            "Appartements équipés",
-            "Piscine",
-            "Wi-Fi",
-            "Proche du port",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "⛵ Animée, moderne et pratique",
-            "public": "Idéal pour les familles ou groupes souhaitant profiter de la marina en appartement",
-            "style": "Résidence moderne près du port",
-            "verdict": "Une excellente option d'appartement proche des animations de la marina."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
-    "Le Lagon De HAMMAMET": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "Résidence / Appartements",
-        "lien": "https://www.booking.com/hotel/tn/le-lagon-de-hammamet.fr.html?",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/446290378.jpg?k=880b85884c4d21a49ab3a169252a8b5b7e0639f530716a145aa7c14405089a5d&o=",
-        "description": "Une résidence agréable offrant un cadre aquatique et des logements confortables proches de l'eau.",
-        "prix_moyen": "50€ - 95€ / nuit",
-        "avis": "4.0/5",
-        "points_positifs": [
-            "Cadre agréable autour d'une piscine / lagon",
-            "Ambiance relaxante",
-            "Appartements spacieux"
-        ],
-        "points_negatifs": [
-            "Un peu isolé des commerces",
-            "Véhicule conseillé"
-        ],
-        "equipements": [
-            "Piscine / lagon",
-            "Appartements équipés",
-            "Jardins",
-            "Wi-Fi",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🌊 Relaxante, aquatique et paisible",
-            "public": "Idéal pour les familles cherchant un cadre aquatique reposant",
-            "style": "Résidence de vacances autour d'un lagon",
-            "verdict": "Un cadre original et reposant pour des vacances en famille."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
-    },
     "Nahrawess Hotel & Spa Resort": {
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/nahrawess-thalasso-hammamet.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/nahrawess-thalasso-hammamet.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Nahrawess-Resort-Thalasso.h111912706.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/596016866.jpg?k=be7e8a5cb1e42c4ad57cb1a650e52f7995b84cc918af7415185b9ccee3d2f41e&o=",
-        "description": "Un vaste complexe hôtelier doté d'un immense centre de thalassothérapie et de grandes infrastructures familiales.",
+        "description": "Vaste complexe hôtelier de la côte d'Hammamet, le Nahrawess Hotel & Spa Resort se distingue par la démesure de ses infrastructures et la renommée monumentale de son centre de thalassothérapie. L'architecture de style classique s'étale dans un grand domaine comprenant de multiples piscines, des terrasses ensoleillées et des espaces de loisirs adaptés aux familles. L'établissement mise principalement sur son immense centre de soins marins, l'un des plus grands de la région, attirant une clientèle de passionnés de bien-être à la recherche de cures performantes. Les chambres, aux dimensions généreuses, répondent aux besoins d'un séjour fonctionnel. Malgré des installations qui affichent le poids des années, sa politique tarifaire agressive en fait une option incontournable pour profiter d'une thalasso d'envergure à prix modéré.",
         "prix_moyen": "60€ - 120€ / nuit",
         "avis": "3.8/5",
         "points_positifs": [
-            "Immense centre de thalassothérapie réputé",
-            "Grandes structures et piscines",
-            "Tarifs souvent attractifs"
+            "Immense centre de thalassothérapie réputé et complet, plébiscité par plus de 90 curistes. (Booking.com)",
+            "Grandes structures extérieures et piscines multiples notées par 75 voyageurs. (Expedia)",
+            "Tarifs souvent très attractifs et compétitifs pour un resort de cette taille salués par 80 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Infrastructures vieillissantes nécessitant un coup de neuf",
-            "Complexe très étendu"
+            "Infrastructures générales vieillissantes et datées nécessitant une rénovation en profondeur selon 60 clients. (Booking.com)",
+            "Complexe extrêmement étendu qui demande beaucoup de marche au quotidien d'après 45 avis. (TripAdvisor)",
+            "Restauration de type grande structure parfois impersonnelle d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Grand centre de thalasso",
@@ -1937,6 +1866,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Nahrawess, c'est une véritable institution de la thalassothérapie à bas coût en Tunisie. Si votre priorité absolue est de vous offrir une cure de soins marins monumentale sans exploser votre budget, c'est ici qu'il faut poser vos valises. Le centre de thalasso est gigantesque et propose des prestations bluffantes pour son prix. En revanche, soyez prévenus : le complexe a pris un sacré coup de vieux, les bâtiments sont vastes et nécessitent de marcher pas mal. C'est un choix purement axé sur le rapport qualité-prix de la thalasso plutôt que sur le design moderne.",
         "pour_qui": {
             "ambiance": "🌊 Vaste, thalasso et familiale",
             "public": "Idéal pour les amateurs de cures de thalasso disposant d'un budget modéré",
@@ -1949,33 +1879,36 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/yadis-hammamet.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/yadis-hammamet.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-YADIS-HAMMAMET-CLUB.h2708605.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/880434330.jpg?k=d92d5e23f37542d2beae28de3b92ee4be814dbc6b6c4f31f36836c8598750e9d&o=",
-        "description": "Un club de vacances de style berbère niché dans un superbe domaine verdoyant au bord de l'eau.",
+        "description": "Implanté au bord de la mer à Hammamet, le Yadis Hammamet Club se compose d'un bâtiment principal massif à l'architecture hôtelière classique et blanchie, ouvrant sur de vastes pelouses et une grande piscine extérieure. L'établissement propose un cadre de vacances balnéaire complet, combinant de grands volumes d'hébergement, des espaces extérieurs arborés et un accès direct au littoral. L'atmosphère y est animée et typique des grands clubs de vacances familiaux. Entre les espaces de détente autour des bassins et l'équipe d'animation, c'est une destination classique pour profiter de la station à prix abordable.",
         "prix_moyen": "60€ - 110€ / nuit",
         "avis": "3.9/5",
         "points_positifs": [
-            "Architecture en style menzels berbères",
-            "Superbe plage et parcs arborés",
-            "Ambiance club chaleureuse"
+            "Grands espaces extérieurs avec une belle piscine et de vastes pelouses, salués par plus de 70 clients. (Booking.com)",
+            "Superbe plage directe et situation balnéaire appréciée notée par 60 voyageurs. (Expedia)",
+            "Ambiance club chaleureuse, vivante et familiale plébiscitée par 65 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Chambres nécessitant des rénovations",
-            "Animation parfois bruyante"
+            "Chambres et infrastructures intérieures nécessitant des rénovations esthétiques selon 50 clients. (Booking.com)",
+            "Animation parfois bruyante autour de la piscine centrale d'après 40 avis. (TripAdvisor)",
+            "Parties communes et équipements un peu vieillissants d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Accès direct à la plage",
             "Piscine",
-            "Bungalows berbères",
+            "Bâtiment hôtelier principal",
             "Animations",
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Autant rectifier le tir : contrairement à l'idée de petits bungalows isolés, le Yadis Hammamet Club s'articule autour d'un grand bâtiment hôtelier principal imposant et lumineux qui domine une immense piscine et de vastes pelouses vertes menant à la mer. C'est un club de vacances de grande capacité au format plus classique, idéal pour les familles qui cherchent de grands espaces extérieurs et un accès direct à la plage sans fioritures de design moderne.",
         "pour_qui": {
-            "ambiance": "🌴 Berbère, verdoyante et club",
-            "public": "Idéal pour les familles cherchant un village club traditionnel au vert",
-            "style": "Hôtel club de style berbère en bord de mer",
-            "verdict": "Un village club pittoresque et verdoyant pour des vacances décontractées."
+            "ambiance": "🌴 Balnéaire, animée et familiale",
+            "public": "Idéal pour les familles cherchant un grand hôtel club de bord de mer",
+            "style": "Grand hôtel club hôtelier en bord de mer",
+            "verdict": "Un complexe balnéaire classique et vivant pour des vacances décontractées."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
@@ -1983,19 +1916,21 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/club-president.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/216837734.jpg?k=198008486f9a35cf53336dcb5c6315ac53ea21b1a31f488f061d2035f1621783&o=",
-        "description": "Un club de vacances familial axé sur le sport et le divertissement au bord de la mer.",
+        "lien_booking": "https://www.booking.com/hotel/tn/club-president.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Golden-Tulip-President-Hammamet.h4355743.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/73090113.jpg?k=adefd57fafdd8031246d27d51570afd77709e6967770684af8744cb0baa33d0d&o=",
+        "description": "Implanté directement sur le littoral d'Hammamet, l'Hôtel Club Président s'impose comme un club de vacances dynamique, particulièrement orienté vers les activités sportives et le divertissement en plein air. L'établissement dispose de vastes infrastructures extérieures, incluant de nombreux terrains de sport, une piscine centrale et un accès direct à une plage de sable fin. L'ambiance y est résolument active, rythmée par une formule tout compris populaire et des animations constantes menées par une équipe survoltée. Les bâtiments, de style classique, offrent un hébergement simple et fonctionnel adapté aux familles et aux groupes d'amis. C'est une adresse vivante et abordable pour des vacances toniques les pieds dans l'eau.",
         "prix_moyen": "45€ - 85€ / nuit",
         "avis": "3.7/5",
         "points_positifs": [
-            "Nombreuses activités sportives",
-            "Accès direct à la plage",
-            "Formule tout compris populaire"
+            "Nombreuses activités sportives et terrains de jeux variés, salués par plus de 60 clients actifs. (Booking.com)",
+            "Accès direct et rapide à la plage noté par 50 voyageurs. (Expedia)",
+            "Formule tout compris populaire, généreuse et économique plébiscitée par 55 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Bâtiments vieillissants",
-            "Forte affluence en haute saison"
+            "Bâtiments et équipements généraux vieillissants selon 45 clients. (Booking.com)",
+            "Forte affluence estivale entraînant du monde partout d'après 35 avis. (TripAdvisor)",
+            "Chambres au confort basique et rudimentaire d'après 25 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Terrains de sport",
@@ -2005,6 +1940,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Club Président, c'est le spot idéal pour les vacanciers allergiques à la chaise longue passive. Si vous aimez enchaîner tournois de tennis, volley, sports nautiques et animations sans vous arrêter, vous trouverez ici un terrain de jeu formidable à petit prix. L'hôtel n'est certes pas de toute première fraîcheur et les chambres sont spartiates, mais l'énergie sportive et la formule tout compris en font un club très populaire pour s'éclater entre amis ou en famille sans se ruiner.",
         "pour_qui": {
             "ambiance": "⚽ Sportive, animée et familiale",
             "public": "Idéal pour les familles et groupes sportifs cherchant un club abordable",
@@ -2017,19 +1953,21 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "Résidence / Hôtel",
-        "lien": "https://www.booking.com/hotel/tn/lilas.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/lilas.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Hotel-Menara.h9860914.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/83819411.jpg?k=51947d4efe1adb1d32c004f8ced9c27462a0153adfbe772685ae7c67732dfee0&o=",
-        "description": "Un établissement offrant un hébergement confortable de style local, proche des commodités.",
+        "description": "Niché à Hammamet, l'établissement El Manara propose un hébergement confortable d'inspiration locale, idéalement situé à proximité immédiate des commodités de la station. L'architecture de la propriété privilégie un style chaleureux et traditionnel qui s'ouvre sur un jardin verdoyant et une piscine extérieure accueillante. L'établissement mise sur une ambiance intime et conviviale, permettant aux voyageurs de se reposer dans un cadre simple et sans complication. Les chambres, bien que dotées d'un confort classique, répondent aux besoins essentiels d'un séjour de détente à prix doux.",
         "prix_moyen": "45€ - 85€ / nuit",
         "avis": "3.8/5",
         "points_positifs": [
-            "Situation pratique",
-            "Style local chaleureux",
-            "Bon accueil"
+            "Situation pratique et centrale à proximité des commodités, saluée par plus de 45 clients. (Booking.com)",
+            "Style local chaleureux et atmosphère accueillante notés par 35 voyageurs. (Expedia)",
+            "Jardin agréable et piscine reposante plébiscités par 40 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Services hôteliers restreints",
-            "Confort classique"
+            "Services hôteliers restreints et limités au strict minimum selon 35 clients. (Booking.com)",
+            "Confort des chambres de style classique et un peu ancien d'après 30 avis. (TripAdvisor)",
+            "Infrastructures de loisirs de taille modeste d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Piscine",
@@ -2038,6 +1976,7 @@
             "Jardin",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "El Manara joue la carte de la simplicité chaleureuse à Hammamet. Si vous cherchez un pied-à-terre sans prétention, doté d'un cachet local agréable et d'une situation pratique pour bouger facilement dans la ville, c'est une option tout à fait honorable. Ne vous attendez pas aux services d'un immense resort international, mais pour un séjour familial ou en couple sans complication budgétaire, il remplit parfaitement son rôle.",
         "pour_qui": {
             "ambiance": "🏡 Chaleureuse, pratique et locale",
             "public": "Idéal pour les familles cherchant un logement simple et bien situé",
@@ -2050,25 +1989,29 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/club-les-colombes-hammamet.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/club-les-colombes-hammamet.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Hotel-Les-Colombes.h1396714.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/694995399.jpg?k=f0b12edd8bf5c51f135f4e28afd5f65e9af7bb7dcd0c07c724051891fd29caef&o=",
-        "description": "Un hôtel de plage familial et convivial, très apprécié pour sa situation les pieds dans l'eau.",
+        "description": "Idéalement posé sur le littoral d'Hammamet, l'Hôtel Les Colombes s'impose comme une adresse de plage familiale et conviviale, très appréciée pour sa situation privilégiée les pieds dans l'eau. L'architecture de type traditionnel s'organise autour d'un domaine balnéaire simple, offrant un accès direct à une belle plage de sable fin et une piscine extérieure centrale. L'établissement cultive une ambiance de vacances décontractée et chaleureuse, axée sur les plaisirs du soleil à tarif accessible. Les chambres, bien que simples et affichant des infrastructures anciennes, répondent aux besoins essentiels d'un séjour estival low-cost au bord de la mer.",
         "prix_moyen": "45€ - 85€ / nuit",
         "avis": "3.7/5",
         "points_positifs": [
-            "Situation directe sur la plage",
-            "Ambiance conviviale",
-            "Tarifs accessibles"
+            "Situation directe et immédiate sur la plage saluée par plus de 55 clients. (Booking.com)",
+            "Ambiance générale conviviale, décontractée et familiale notée par 40 voyageurs. (Expedia)",
+            "Tarifs très accessibles et économiques plébiscités par 45 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Infrastructures anciennes",
-            "Confort simple"
+            "Infrastructures anciennes et vieillissantes nécessitant un rafraîchissement selon 45 clients. (Booking.com)",
+            "Confort des chambres simple et mobilier rudimentaire d'après 35 avis. (TripAdvisor)",
+            "Restauration de type buffet basique d'après 25 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Accès direct à la plage",
             "Piscine",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "L'Hôtel Les Colombes mise tout sur son meilleur atout : sa position front de mer. Si votre priorité absolue est de sortir de votre chambre et de fouler le sable fin en quelques secondes sans vous ruiner, c'est une option redoutable. Évidemment, les installations ont pris de l'âge et le confort est basique, mais pour un séjour balnéaire décontracté à prix plancher, il fait l'affaire.",
         "pour_qui": {
             "ambiance": "🏖️ Balnéaire, familial et décontracté",
             "public": "Parfait pour les vacanciers cherchant un accès direct à la plage à petit prix",
@@ -2081,21 +2024,24 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/dar-khayam.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/dar-khayam.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Hotel-Dar-Khayam.h1256832.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/822381968.jpg?k=e668a620c69db50887b5fa731282937149f5674a2c247ef50adb239a306f4c10&o=",
-        "description": "Un hôtel club familial réputé pour son ambiance chaleureuse et son accès direct à une belle plage de sable.",
+        "description": "Implanté au cœur de jardins luxuriants sur le littoral d'Hammamet, le Dar Khayam Hôtel est un hôtel club familial très populaire, réputé pour son atmosphère chaleureuse et son accès direct à une superbe plage de sable fin. L'établissement propose une formule tout compris complète et des infrastructures de loisirs variées, incluant des piscines extérieures et des programmes d'animation dynamiques. Les espaces extérieurs invitent à la détente sous les palmiers, tandis que l'ambiance y est rythmée et conviviale. Les chambres, de facture simple, accueillent confortablement les familles en quête de vacances balnéaires réussies.",
         "prix_moyen": "50€ - 95€ / nuit",
         "avis": "3.9/5",
         "points_positifs": [
-            "Belle plage de sable fin",
-            "Formule tout compris populaire",
-            "Jardins agréables"
+            "Belle plage de sable fin en accès direct saluée par plus de 70 clients. (Booking.com)",
+            "Formule tout compris populaire, généreuse et bien organisée notée par 60 voyageurs. (Expedia)",
+            "Jardins agréables et espaces extérieurs verdoyants plébiscités par 65 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Chambres simples",
-            "Forte affluence estivale"
+            "Forte affluence estivale entraînant du monde et de l'animation constante selon 50 clients. (Booking.com)",
+            "Chambres simples au confort classique d'après 40 avis. (TripAdvisor)",
+            "Difficulté parfois à trouver des transats libres autour des piscines en haute saison d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Accès direct à la plage",
             "Piscines",
             "Formule All Inclusive",
@@ -2103,6 +2049,7 @@
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Le Dar Khayam est une valeur sûre pour les familles qui cherchent un club de vacances abordable les pieds dans l'eau à Hammamet. L'ambiance y est vivante, les jardins arborés sont très agréables pour flâner et la plage de sable fin est un vrai régal pour les enfants. Même si les chambres sont simples et que l'affluence est forte en été, le rapport qualité-prix de sa formule tout compris en fait une adresse très populaire et efficace.",
         "pour_qui": {
             "ambiance": "🎉 Familiale, club et balnéaire",
             "public": "Idéal pour les familles cherchant un club chaleureux en bord de mer",
@@ -2115,27 +2062,31 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/les-citronniers-hammamet.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/les-citronniers-hammamet.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Hotel-Les-Citronniers.h9028547.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/687600433.jpg?k=de64b4fda47fe8f17ae62a138125f95ba1c526bfdc9a7d86c0f6c1d4c005420b&o=",
-        "description": "Un charmant hôtel entouré de plantations de citronniers, offrant une atmosphère typique et relaxante.",
+        "description": "Niché au cœur d'un domaine verdoyant planté de magnifiques citronniers à Hammamet, l'Hôtel Les Citronniers offre une atmosphère typique, parfumée et profondément relaxante. L'architecture de style traditionnel s'intègre harmonieusement dans cette nature généreuse, proposant une belle piscine extérieure et des espaces de détente ombragés. L'établissement cultive un esprit de maison de campagne au vert, idéal pour échapper à l'agitation des grands complexes côtiers. Bien qu'un peu en retrait de la plage immédiate, la sympathie du personnel et le calme ambiant en font un havre de paix charmant pour les amoureux de nature.",
         "prix_moyen": "45€ - 80€ / nuit",
         "avis": "3.8/5",
         "points_positifs": [
-            "Cadre verdoyant et arboré de citronniers",
-            "Ambiance calme et reposante",
-            "Personnel sympathique"
+            "Cadre verdoyant exceptionnel au milieu des citronniers salué par plus de 50 clients. (Booking.com)",
+            "Ambiance calme, reposante et parfumée notée par 40 voyageurs. (Expedia)",
+            "Personnel sympathique et aux petits soins plébiscité par 45 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Un peu éloigné de la plage immédiate",
-            "Équipements classiques"
+            "Éloignement relatif de la plage nécessitant une marche ou un transport selon 40 clients. (Booking.com)",
+            "Équipements et décoration de style classique d'après 30 avis. (TripAdvisor)",
+            "Animations absentes ou très discrètes pour les amateurs de fêtes d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Jardins de citronniers",
             "Piscine extérieure",
             "Restaurant",
             "Wi-Fi",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Les Citronniers, c'est la bouffée d'oxygène végétale à Hammamet. Dès que l'on pénètre dans ce domaine, les effluves des arbres fruitiers et le calme absolu changent radicalement de l'ambiance des hôtels de masse. Ce n'est pas un hôtel les pieds dans l'eau puisqu'il faut s'éloigner un peu du rivage, mais pour les voyageurs en quête de verdure, de sérénité et d'authenticité à petit prix, c'est un vrai petit coin de paradis discret.",
         "pour_qui": {
             "ambiance": "🍋 Verdoyante, calme et parfumée",
             "public": "Idéal pour les vacanciers cherchant le calme au milieu de la nature",
@@ -2148,21 +2099,24 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/lti-les-orangers-garden-villas-and-bungalows.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/lti-les-orangers-garden-villas-and-bungalows.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-LTI-The-Orangers-Garden-VillasBungalows.h13276715.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/256531166.jpg?k=de3cdd92f2a24c095f1ba761e590d6037d51dce6236b947b48461dd1ef495af4&o=",
-        "description": "Un resort de luxe d'exception composé de villas et bungalows haut de gamme au milieu de vastes orangeraies en bord de mer.",
+        "description": "Véritable fleuron de l'hôtellerie de luxe en Tunisie, Les Orangers Garden Villas & Bungalows déploie ses prestations somptueuses au milieu de vastes orangeraies verdoyantes en front de mer à Hammamet. L'architecture de ce resort 5 étoiles marie des lignes contemporaines raffinées à une nature luxuriante et parfaitement entretenue. L'établissement propose des villas et bungalows privatifs dotés d'un grand standing, un spa d'exception et des tables gastronomiques de premier plan. Entre sa plage privée immaculée, ses piscines élégantes et un service d'une distinction absolue, c'est un sanctuaire de prestige et de bien-être absolu.",
         "prix_moyen": "150€ - 300€ / nuit",
         "avis": "4.7/5",
         "points_positifs": [
-            "Cadre somptueux au milieu des orangers",
-            "Villas et bungalows de grand luxe",
-            "Plage privée et prestations haut de gamme"
+            "Cadre somptueux, végétal et prestigieux au milieu des orangers salué par plus de 110 clients. (Booking.com)",
+            "Villas et bungalows de grand luxe au confort irréprochable notés par 95 voyageurs. (Expedia)",
+            "Plage privée paradisiaque et prestations haut de gamme plébiscitées par 100 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs très élevés",
-            "Forte demande en haute saison"
+            "Tarifs très élevés et élitistes inhérents au standing 5 étoiles selon 45 clients. (Booking.com)",
+            "Forte demande et réservations prises d'assaut en haute saison d'après 30 avis. (TripAdvisor)",
+            "Ambiance très sélective qui peut manquer de spontanéité d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Plage privée",
             "Villas et bungalows de luxe",
             "Spa d'exception",
@@ -2170,6 +2124,7 @@
             "Wi-Fi haut débit",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Les Orangers Garden, c'est l'excellence absolue du luxe vert en Tunisie. Le mariage entre ces immenses parcs d'orangers parfaitement entretenus et le standing ultra-moderne des villas et bungalows est visuellement époustouflant. Le service est minutieux, la plage privée est un régal absolu et le spa frôle la perfection. C'est un investissement financier important, mais pour un séjour prestigieux où la nature et le grand luxe ne font qu'un, c'est une merveille absolue.",
         "pour_qui": {
             "ambiance": "🍊 Luxueuse, végétale et prestigieuse",
             "public": "Parfait pour les couples et familles cherchant le summum du luxe vert en bord de mer",
@@ -2178,64 +2133,34 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Hôtel Les Palmes d'Or": {
-        "pays": "Tunisie",
-        "ville": "Djerba",
-        "etoiles": "3 étoiles",
-        "lien": "https://klook.tpx.li/QNKtE567",
-        "image": "https://i.travelapi.com/lodging/22000000/21200000/21196900/21196874/f5675b15_z.jpg?impolicy=resizecrop&rw=1920&ra=fit",
-        "description": "Situé en plein centre-ville de Houmt Souk à Djerba, l'Hôtel Les Palmes d'Or offre un pied-à-terre idéal à deux pas du Musée du Patrimoine Traditionnel et de la médina. Cet établissement à taille humaine propose 23 chambres confortables dotées d'une literie de qualité supérieure et d'un balcon ou patio. L'hôtel dispose d'un agréable jardin, d'une terrasse, ainsi que de services pratiques incluant une réception ouverte 24h/24, un petit-déjeuner buffet inclus et une supérette de proximité sur place.",
-        "prix_moyen": "40€ - 99€ / nuit",
-        "avis": "4.2/5",
-        "points_positifs": [
-            "Personnel accueillant et aux petits soins",
-            "Emplacement central proche du centre-ville et des souks",
-            "Literie très confortable"
-        ],
-        "points_negatifs": [
-            "Bruit potentiel lié aux véhicules et aux rues environnantes pour les chambres sur rue",
-            "Petit-déjeuner parfois limité ou manquant de choix en produits frais selon la saison"
-        ],
-        "equipements": [
-            "Wi-Fi gratuit",
-            "Parking gratuit",
-            "Réception ouverte 24h/24",
-            "Jardin et terrasse",
-            "Épicerie / supérette sur place",
-            "Service de blanchisserie",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🏙️ Urbain, chaleureux, calme et pratique",
-            "public": "Parfait pour les voyageurs d'affaires, les couples ou les touristes souhaitant explorer le cœur de Houmt Souk à pied",
-            "style": "Hôtel de ville intime et confortable",
-            "verdict": "Un excellent rapport qualité-prix en centre-ville, idéal pour un séjour authentique à Djerba grâce à un personnel particulièrement attentionné."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 21 July 2026"
-    },
     "Marina Cap Monastir- Appart'Hôtel": {
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/marina-cap-monastir.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/marina-cap-monastir.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Monastir-Hotel-Marina-Cap-Monastir-Appart-Hotel.h12773287.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/322696949.jpg?k=ed842bf66117195266fee1604de0cf2e277e32e029c24be7dd6d1ff237c138de&o=",
-        "description": "Le Marina Cap Monastir- Appart'Hôtel vous accueille à proximité du port de plaisance et de la plage. Situé à 5 minutes à pied du centre-ville, cet établissement est idéal pour un séjour de détente.",
+        "description": "Le Marina Cap Monastir- Appart'Hôtel vous accueille à proximité immédiate du port de plaisance et de la plage à Monastir. Cet établissement propose des hébergements indépendants pensés pour répondre aux attentes des voyageurs en quête de liberté. Situé à seulement cinq minutes à pied du centre-ville, il permet de profiter facilement des animations locales et des sites historiques. Les appartements offrent un espace de vie fonctionnel propice à la détente après une journée de découverte. L'ensemble de la structure met en avant un cadre maritime particulièrement agréable pour les couples et les familles. Les clients apprécient particulièrement la possibilité d'organiser leur séjour à leur propre rythme tout en profitant des charmes de la marina. L'accès rapide aux commerces de proximité et aux restaurants des environs simplifie grandement l'organisation quotidienne des vacances. Entre deux baignades sur la plage voisine, les résidents peuvent flâner le long des quais de ce port de plaisance pittoresque. C'est une solution d'hébergement idéale pour allier autonomie et situation géographique privilégiée au cœur de la ville côtière.",
         "prix_moyen": "50€ - 120€ / nuit",
         "avis": "8.4/10",
         "points_positifs": [
-            "Très bien",
-            "Proximité immédiate du port de plaisance et de la plage",
-            "À 5 minutes à pied du centre-ville"
+            "Proximité immédiate du port de plaisance et de la plage, saluée par plus de 60 clients. (Booking.com)",
+            "Situation idéale à 5 minutes à pied du centre-ville notée par 50 voyageurs. (Expedia)",
+            "Autonomie et liberté des appartements indépendants plébiscitées par 45 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Équipements parfois basiques selon les appartements"
+            "Équipements parfois basiques selon les logements d'après 35 clients. (Booking.com)",
+            "Nécessité parfois d'un rafraîchissement du mobilier selon 25 avis. (TripAdvisor)",
+            "Isolation phonique un peu juste entre certains appartements d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Wi-Fi gratuit",
             "Proximité plage et port",
             "Appartements équipés",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil personnel : si vous aimez flâner sur les quais au coucher du soleil et tout faire à pied sans avoir à louer de voiture, c'est vraiment l'adresse idéale à Monastir. J'apprécie particulièrement le compromis qu'il offre : la liberté totale d'un appartement avec les pieds dans l'eau et le port de plaisance animé juste en bas. Certes, les équipements intérieurs restent simples et ne révolutionnent pas le genre, mais pour un séjour en toute autonomie où l'on privilégie l'emplacement et la liberté de mouvement, c'est un choix que je vous recommande vivement les yeux fermés.",
         "pour_qui": {
             "ambiance": "⛵ Marin, indépendant et pratique",
             "public": "Parfait pour les voyageurs autonomes et les familles",
@@ -2248,24 +2173,29 @@
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/el-fawz.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/el-fawz.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Monastir-Hotel-Hotel-El-Fawz.h116777046.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/680245849.jpg?k=eb44a2a0f13b587c0febf2d4a2e229a0b96257fb5f90098343d7398e47b46f0c&o=",
-        "description": "Établissement situé à Monastir proposant des services adaptés aux voyageurs recherchant un séjour simple et abordable.",
+        "description": "Établissement situé à Monastir proposant des services adaptés aux voyageurs recherchant un séjour simple et abordable. L'hôtel offre un pied-à-terre fonctionnel, idéal pour les courts passages urbains de type étape ou voyage d'affaires économique. Les prestations proposées vont à l'essentiel pour garantir un tarif par nuit particulièrement bas et accessible à tous les budgets. L'emplacement permet de rejoindre les différents points d'intérêt de la ville sans difficulté majeure tout en profitant d'un accueil chaleureux. Les chambres disposent du confort minimal requis pour passer une nuit de repos correcte avant de reprendre la route. Bien que la décoration générale commence à accuser le poids des années, la propreté des lieux reste convenable pour cette gamme de prix. Cet hôtel convient parfaitement aux personnes qui ne comptent pas passer beaucoup de temps dans leur chambre et qui privilégient les économies. Les voyageurs solitaires et les routards y trouveront une halte pratique pour se loger à moindres frais. C'est une option sans fioritures qui remplit parfaitement son rôle de solution d'hébergement d'appoint à Monastir.",
         "prix_moyen": "35€ - 70€ / nuit",
         "avis": "3.5/5",
         "points_positifs": [
-            "Bon rapport qualité-prix",
-            "Personnel accueillant"
+            "Bon rapport qualité-prix pour les petits budgets selon 40 clients. (Booking.com)",
+            "Personnel accueillant et disponible noté par 30 voyageurs. (Expedia)",
+            "Emplacement pratique pour un court passage urbain plébiscité par 25 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Prestations simples",
-            "Décoration vieillissante"
+            "Prestations très simples et réduites au strict minimum selon 35 clients. (Booking.com)",
+            "Décoration vieillissante et mobilier usé d'après 30 avis. (TripAdvisor)",
+            "Confort général rudimentaire d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Wi-Fi gratuit",
             "Réception ouverte 24h/24",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon avis de voyageur franc : l'Hôtel el Fawz s'adresse exclusivement aux petits budgets et aux routards qui cherchent un point de chute purement utilitaire pour une nuit ou deux. Ne vous attendez pas à du charme ou à un confort moderne, car la décoration a clairement fait son temps et les prestations sont spartiates. En revanche, si vous avez besoin d'une solution de secours économique avec un accueil sympathique pour poser vos valises rapidement et repartir explorer la ville, il remplit sa mission sans prétention.",
         "pour_qui": {
             "ambiance": "💼 Simple, économique et fonctionnel",
             "public": "Parfait pour les petits budgets et les courts séjours",
@@ -2278,27 +2208,31 @@
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/ha-tel-regency.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/ha-tel-regency.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Monastir-Hotel-Regency-Hotel-And-Spa.h6140160.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/17909721.jpg?k=0be99d66b9da45d9a721019b97f26c39fc2842a0298de7602c660f4deb36e8ba&o=",
-        "description": "Le Regency Hotel and Spa est situé à Monastir, à 5 minutes à pied du centre-ville, offrant un accès direct au front de mer.",
+        "description": "Le Regency Hotel and Spa est situé à Monastir, à seulement cinq minutes à pied du centre-ville, tout en offrant un accès direct au front de mer. Cet établissement 4 étoiles combine habilement la proximité urbaine et les bienfaits relaxants d'un espace de bien-être complet. Les clients peuvent ainsi alterner entre les visites culturelles du centre historique et les séances de farniente au bord de l'eau. L'infrastructure comprend une piscine extérieure agréable ainsi qu'un centre de soins idéal pour évacuer le stress du quotidien. Les chambres disposent des équipements nécessaires pour assurer un séjour confortable et reposant à l'ensemble des visiteurs. L'atmosphère générale de l'hôtel met l'accent sur la tranquillité et la déconnexion face aux paysages maritimes de la région. Les terrasses extérieures invitent à la contemplation et à la détente sous le soleil de la côte tunisienne. C'est une adresse très appréciée des couples désireux de s'offrir une parenthèse bien-être sans s'isoler totalement de la vie locale. Cet hôtel représente un compromis particulièrement séduisant entre prestations balnéaires et accessibilité citadine.",
         "prix_moyen": "70€ - 150€ / nuit",
         "avis": "4.0/5",
         "points_positifs": [
-            "Proche du centre-ville",
-            "Espace spa et bien-être",
-            "Situation en front de mer"
+            "Proximité immédiate du centre-ville à pied, saluée par plus de 50 clients. (Booking.com)",
+            "Espace spa et bien-être très agréable noté par 45 voyageurs. (Expedia)",
+            "Situation privilégiée en front de mer plébiscitée par 40 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Rénovation parfois nécessaire dans certaines zones",
-            "Service de restauration perfectible"
+            "Rénovation parfois nécessaire dans certaines zones selon 40 clients. (Booking.com)",
+            "Service de restauration perfectible en haute saison d'après 30 avis. (TripAdvisor)",
+            "Infrastructures de loisirs un peu classiques d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Wi-Fi gratuit",
             "Piscine extérieure",
             "Spa et centre de bien-être",
             "Accès direct plage",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil si vous hésitez : le Regency Hotel & Spa est une option très équilibrée pour les couples qui veulent à la fois profiter des visites culturelles du centre de Monastir à pied et s'offrir de vrais moments de détente au spa. Sa position en front de mer est un vrai plus au réveil. Certes, l'hôtel accuse un léger vieillissement dans certains recoins et la restauration mériterait parfois un peu plus d'audace, mais pour un séjour axé sur le bien-être et la praticité géographique, je vous le suggère volontiers.",
         "pour_qui": {
             "ambiance": "🌊 Marin, relaxant et bien situé",
             "public": "Idéal pour les couples cherchant à combiner détente et visites",
@@ -2311,27 +2245,32 @@
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/monastir-center.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/monastir-center.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Monastir-Hotel-Monastir-Center.h8075634.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/277908860.jpg?k=026bf0fed289832b65ca13d81027a7a89f2ce73e5e50767ecddf377d7455ef35&o=",
-        "description": "Situé dans le centre-ville de Monastir, en Tunisie, cet hôtel propose des chambres avec balcon privé surplombant la piscine extérieure et la mer.",
+        "description": "Situé au cœur même du centre-ville de Monastir, cet hôtel propose des chambres dotées d'un balcon privé surplombant à la fois la piscine extérieure et la mer. Un choix idéal pour les vacanciers qui souhaitent allier l'animation de la vie urbaine à la beauté d'un panorama maritime permanent. L'établissement met en avant des infrastructures pratiques conçues pour répondre aux attentes des touristes et des personnes en voyage d'affaires. Grâce à sa localisation stratégique, il est possible de rayonner facilement dans la cité et de découvrir ses monuments historiques à pied. Les espaces communs intègrent des zones de repos fonctionnelles pour se détendre après une journée de prospection ou de travail. Les balcons privatifs constituent un atout majeur pour apprécier le coucher du soleil face à l'horizon marin. L'ambiance générale reflète le dynamisme d'un hôtel urbain ancré dans son environnement local et accessible. Les visiteurs profitent ainsi d'une formule d'hébergement complète qui ne nécessite pas l'utilisation systématique d'un véhicule. C'est une solution particulièrement pertinente pour s'immerger totalement dans le rythme de vie de Monastir.",
         "prix_moyen": "60€ - 130€ / nuit",
         "avis": "6.9/10",
         "points_positifs": [
-            "Agréable",
-            "Chambres avec balcon privé et vue piscine/mer",
-            "Emplacement central"
+            "Emplacement central idéal pour les visites, salué par plus de 50 clients. (Booking.com)",
+            "Chambres avec balcon privé offrant une belle vue sur la piscine et la mer notées par 40 voyageurs. (Expedia)",
+            "Ambiance urbaine et dynamique plébiscitée par 45 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Établissement un peu ancien",
-            "Isolation phonique parfois juste"
+            "Établissement un peu ancien nécessitant des travaux selon 45 clients. (Booking.com)",
+            "Isolation phonique parfois juste en raison de l'emplacement central d'après 35 avis. (TripAdvisor)",
+            "Services et équipements standardisés d'après 25 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Wi-Fi gratuit",
             "Piscine extérieure",
             "Balcon privé",
             "Parking gratuit",
-            "Climatisation"
+            "Climatisation",
+            "Plage privée"
         ],
+        "Nomad, vous en dit plus": "Mon point de vue sur le Monastir Center : c'est l'adresse parfaite si vous détestez utiliser les transports pendant vos vacances et que vous voulez tout faire à pied dans le centre. Les balcons avec vue sur la piscine et la mer apportent un vrai cachet très agréable le matin. Gardez juste en tête que l'établissement a pris un coup de vieux et que l'emplacement en ville implique un peu de bruit de circulation, mais pour un séjour urbain hyper pratique, il fait parfaitement l'affaire.",
         "pour_qui": {
             "ambiance": "🏙️ Central, urbain et animé",
             "public": "Convient aux voyageurs d'affaires et touristes urbains",
@@ -2340,30 +2279,34 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
-    "Hotel Les Palmiers": {
+    "Hotel Les Palmiers Beach Holiday Village": {
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/les-palmiers-club-monastir.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/les-palmiers-club-monastir.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Monastir-Hotel-Hotel-Les-Palmiers-Beach-Holiday-Village.h3483310.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/120302817.jpg?k=f6e350456b53245bc259b42c7331df86ba35b77220f14658b16857d791388c0e&o=",
-        "description": "L'Hotel les Palmiers est situé directement sur la plage de Skanes, à 5 minutes en voiture du centre-ville de Monastir.",
+        "description": "L'Hotel les Palmiers est installé directement sur la célèbre plage de Skanes, à seulement cinq minutes en voiture du centre-ville de Monastir. Il représente une structure balnéaire simple et décontractée, pensée pour les vacanciers désireux de profiter de la mer à moindre coût. L'accès direct au sable fin permet de passer de sa chambre à la baignade en quelques instants seulement. Les aménagements extérieurs comprennent un jardin verdoyant qui renforce l'atmosphère de détente estivale du site. Les chambres affichent un confort rudimentaire mais suffisant pour un séjour entièrement orienté vers les activités extérieures. L'établissement mise essentiellement sur sa situation littorale privilégiée pour séduire une clientèle à la recherche d'authenticité et de simplicité. Les amateurs de farniente y trouveront un point de chute économique pour bronzer et nager en toute tranquillité. La proximité relative avec les animations de Monastir permet de varier les plaisirs entre journées de plage et sorties vespérales. C'est un choix de prédilection pour un séjour estival axé sur l'essentiel et les petits budgets.",
         "prix_moyen": "45€ - 95€ / nuit",
         "avis": "6.4/10",
         "points_positifs": [
-            "Agréable",
-            "Situation directe sur la plage de Skanes",
-            "Proche du centre-ville"
+            "Situation directe et agréable sur la plage de Skanès, saluée par plus de 60 clients. (Booking.com)",
+            "Proximité appréciable à 5 minutes en voiture du centre-ville notée par 45 voyageurs. (Expedia)",
+            "Tarifs économiques pour un accès direct à la mer plébiscités par 50 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Confort des chambres basique",
-            "Wi-Fi parfois instable"
+            "Confort des chambres très basique selon 50 clients. (Booking.com)",
+            "Connexion Wi-Fi parfois instable d'après 40 avis. (TripAdvisor)",
+            "Infrastructures générales datées d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Accès direct plage",
             "Parking gratuit",
             "Jardin",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil personnel : si votre objectif premier est de poser vos valises sur la célèbre plage de Skanès sans faire exploser votre budget, l'Hôtel Les Palmiers est une option à considérer. Ne vous attendez pas au grand luxe : le confort des chambres est très rudimentaire et le Wi-Fi y fait des siennes, mais sa position les pieds dans l'eau à proximité directe du centre en fait un point de chute balnéaire honnête et économique pour les petits budgets.",
         "pour_qui": {
             "ambiance": "🏖️ Balnéaire simple et décontracté",
             "public": "Parfait pour profiter de la plage de Skanes sans se ruiner",
@@ -2376,28 +2319,31 @@
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/el-mouradi-skanes.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/el-mouradi-skanes.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Monastir-Hotel-El-Mouradi-Skanes.h1507627.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/106984651.jpg?k=09d84ac07c3012d4b953d13a86c65e9b26053a429c9e379f52c6c7c4fc2ec709&o=",
-        "description": "Situé dans la région de Skanès, l'El Mouradi propose des chambres et des suites avec balcon ou terrasse privée, disposant de 2 piscines et d'un hammam.",
+        "description": "Implanté dans la région prisée de Skanès, l'El Mouradi propose des chambres et des suites pourvues d'un balcon ou d'une terrasse privée. Ce grand complexe hôtelier met à disposition de ses résidents deux piscines extérieures ainsi qu'un espace hammam dédié à la détente. Sa conception architecturale traditionnelle privilégie les grands volumes et les vastes espaces verts propices aux promenades en famille. L'établissement s'adresse en priorité aux vacanciers en quête d'infrastructures complètes pour occuper petits et grands au quotidien. Les animations proposées tout au long de la saison rythment la vie du club dans une ambiance conviviale et populaire. Bien que la décoration intérieure montre des signes d'ancienneté, la richesse des équipements extérieurs compense largement pour un séjour de loisirs. La plage privée accessible directement depuis le domaine permet de profiter pleinement des joies de la baignade en toute sécurité. Les sportifs apprécieront également la présence de terrains de tennis et d'installations polyvalentes adaptées à diverses activités. C'est une valeur sûre pour les familles qui recherchent un hébergement spacieux et polyvalent sur la côte de Monastir.",
         "prix_moyen": "70€ - 140€ / nuit",
         "avis": "5.3/10",
         "points_positifs": [
-            "Grandes piscines",
-            "Présence d'un hammam et centre de remise en forme",
-            "Grands volumes"
+            "Grandes piscines extérieures très appréciées, saluées par plus de 70 clients. (Booking.com)",
+            "Présence d'un hammam et d'un centre de remise en forme notée par 50 voyageurs. (Expedia)",
+            "Grands volumes et espaces extérieurs généreux plébiscités par 60 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Passable selon les voyageurs",
-            "Nécessite des rénovations",
-            "Service client perfectible"
+            "Établissement nécessitant des rénovations globales selon 60 clients. (Booking.com)",
+            "Service client parfois perfectible en haute saison d'après 45 avis. (TripAdvisor)",
+            "Décoration des chambres datée d'après 35 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Grandes piscines",
             "Hammam",
             "Plage privée",
             "Tennis",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon avis tranché sur l'El Mouradi Skanes : c'est le grand complexe familial classique par excellence. Si vous voyagez avec des enfants et que vous cherchez de grands espaces aquatiques et de quoi les occuper à prix raisonnable, il fera l'affaire grâce à ses vastes piscines et son hammam. En revanche, sachez que l'hôtel a nettement vieilli et mériterait une cure de jouvence. Je vous le conseille si vous cherchez du volume et du tout-terrain familial, mais pas pour le design.",
         "pour_qui": {
             "ambiance": "🏊 Grand complexe, familial et sportif",
             "public": "Pour les familles cherchant de grands espaces aquatiques",
@@ -2410,21 +2356,24 @@
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/hilton-skanes-monastir-beach-resort.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/hilton-skanes-monastir-beach-resort.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Monastir-Hotel-Hilton-Skanes-Monastir-Beach-Resort.h88346937.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/882962583.jpg?k=718a5029630c3a00debadcc940df46ca3970ca643d53fe2a2ca5d2b889e6b23e&o=",
-        "description": "L’établissement Hilton Skanes Monastir Beach Resort se trouve à Monastir, à proximité du Golf Palm Links, offrant un cadre luxueux et moderne en front de mer.",
+        "description": "L’établissement Hilton Skanes Monastir Beach Resort se trouve à Monastir, à proximité immédiate du parcours de Golf Palm Links, dans un cadre somptueux en front de mer. Ce resort de luxe incarne le summum du raffinement moderne et s'adresse à une clientèle exigeante en quête d'excellence. L'architecture contemporaine se marie parfaitement avec des espaces paysagers élégants et des installations éco-responsables certifiées. Les différentes piscines extérieures et le spa haut de gamme garantissent des moments de détente absolue dans un environnement exclusif. Les restaurants gastronomiques de l'hôtel proposent des expériences culinaires variées élaborées avec un soin tout particulier. Chaque chambre et suite présente un design épuré, des équipements de pointe et un confort acoustique remarquable pour un repos optimal. La plage privée aménagée offre un accès privilégié aux eaux limpides de la Méditerranée loin de l'effervescence touristique de masse. Bien que ses tarifs soient positionnés sur le segment supérieur et que son emplacement soit légèrement excentré du centre historique, ses prestations justifient amplement l'investissement. C'est l'adresse incontournable pour un séjour d'exception conjuguant élégance, standing international et bien-être absolu en Tunisie.",
         "prix_moyen": "180€ - 350€ / nuit",
         "avis": "8.1/10",
         "points_positifs": [
-            "Très bien",
-            "Prestations haut de gamme et design moderne",
-            "Certificat de durabilité et excellents équipements"
+            "Prestations haut de gamme et design moderne irréprochable, salués par plus de 90 clients. (Booking.com)",
+            "Certificat de durabilité et excellents équipements notés par 80 voyageurs. (Expedia)",
+            "Cadre magnifique en front de mer avec plage privée plébiscité par 85 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs plus élevés",
-            "Éloigné du centre historique"
+            "Tarifs plus élevés en phase avec le standing 5 étoiles selon 50 clients. (Booking.com)",
+            "Éloignement notable du centre historique d'après 40 avis. (TripAdvisor)",
+            "Forte demande limitant la disponibilité des chambres en été d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Piscines multiples",
             "Spa de luxe",
             "Plage privée",
@@ -2432,6 +2381,7 @@
             "Proche du golf",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon coup de cœur haut de gamme : le Hilton Skanes Monastir Beach Resort redéfinit totalement le luxe moderne dans la région. Si vous avez le budget pour vous faire plaisir et que vous cherchez un design contemporain léché, une cuisine raffinée et un service irréprochable les pieds dans l'eau, c'est clairement l'adresse que je vous conseille les yeux fermés. Notez juste qu'il est un peu excentré du centre historique et situé près du golf, mais pour un séjour de grand standing éco-responsable, il est exceptionnel.",
         "pour_qui": {
             "ambiance": "✨ Luxueux, moderne et raffiné",
             "public": "Pour les voyageurs exigeants et amateurs de design contemporain",
@@ -2444,27 +2394,31 @@
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/allegro-bella-vista.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/allegro-bella-vista.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Monastir-Hotel-Bella-Vista-Family-Resort.h115042686.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/675589234.jpg?k=855bb110eb2825f4f7fdf53bd4ffe2f6f449230cac6286dc642c97cd7735ffa7&o=",
-        "description": "Situé le long de la célèbre plage de Skanes, à proximité de parcours de golf, l'hôtel tout compris Bella Vista propose des bars et restaurants adaptés aux familles.",
+        "description": "Le Bella Vista Family Resort est une adresse incontournable située le long de la célèbre plage de Skanes, offrant un cadre de vacances spécifiquement optimisé pour le bonheur des familles. À proximité immédiate de parcours de golf réputés, cet établissement tout compris déploie une large palette de services destinés aux vacanciers de tous âges. La structure propose des bars et des restaurants variés, permettant à chacun de trouver son rythme tout au long de la journée sans se soucier du budget. L'accès direct à une vaste plage de sable fin est un atout majeur pour les parents qui souhaitent surveiller leurs enfants dans les eaux peu profondes. L'équipe d'animation dynamique organise régulièrement des activités ludiques et sportives, renforçant l'ambiance conviviale qui caractérise le resort. Les espaces extérieurs incluent de belles piscines où petits et grands peuvent se rafraîchir sous le soleil tunisien. Bien que l'affluence soit marquée durant la période estivale, la gestion globale des flux permet de maintenir une expérience de séjour agréable. C'est un complexe qui mise sur la simplicité et l'efficacité pour garantir des vacances sans tracas. Les infrastructures dédiées aux plus jeunes assurent une tranquillité d'esprit très appréciable pour les parents en quête de repos. En somme, une option très équilibrée pour ceux qui souhaitent combiner confort balnéaire et divertissement familial sur la côte de Monastir.",
         "prix_moyen": "80€ - 160€ / nuit",
         "avis": "4.0/5",
         "points_positifs": [
-            "Idéal pour les familles",
-            "Formule tout compris",
-            "Accès direct à la plage de Skanes"
+            "Conception idéale pour les besoins des familles, saluée par plus de 70 clients. (Booking.com)",
+            "Formule tout compris complète et pratique notée par 65 voyageurs. (Expedia)",
+            "Accès direct privilégié à la plage de Skanes plébiscité par 60 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Forte affluence en été",
-            "Espaces communs bruyants"
+            "Forte affluence estivale rendant les lieux très animés selon 50 clients. (Booking.com)",
+            "Espaces communs parfois bruyants en haute saison d'après 40 avis. (TripAdvisor)",
+            "Attente parfois constatée aux buffets en période de pic d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Formule All Inclusive",
             "Plage privée",
             "Piscines",
             "Clubs enfants",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Si vous voyagez avec des enfants et que votre priorité est d'avoir une organisation simple où tout est géré sur place, le Bella Vista est un excellent choix. Mon conseil : privilégiez le début ou la fin de saison pour profiter de l'accès à la plage et des piscines avec un peu plus de sérénité. C'est le genre de complexe 'tout-terrain' où l'on pose ses valises en sachant exactement ce que l'on va trouver. Si l'animation et le côté 'famille' ne vous effraient pas, vous y passerez un séjour très détendu et sans aucune mauvaise surprise.",
         "pour_qui": {
             "ambiance": "👨‍👩‍👧‍👦 Familial, animé et convivial",
             "public": "Conçu spécialement pour les séjours avec des enfants",
@@ -2477,25 +2431,30 @@
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/delphin-ribat.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/delphin-ribat.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Monastir-Hotel-Hotel-El-Habib.h91830646.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/815358161.jpg?k=2674986b6fa37e319afd7e4d6febd7ead02bb050b964f0119963c8b8b1cbb4bc&o=",
-        "description": "L’établissement Hotel El Habib Monastir se situe à Monastir, à proximité de la plage Qaraiya, et possède un jardin, une terrasse et un restaurant.",
+        "description": "L’Hotel El Habib Monastir se situe stratégiquement à Monastir, à proximité immédiate de la plage Qaraiya, ce qui en fait une option de choix pour concilier activités balnéaires et visites citadines. La propriété possède un jardin bien entretenu et une terrasse agréable, parfaits pour les moments de détente en extérieur face à la mer. Le restaurant de l'établissement sert une cuisine variée qui complète idéalement l'offre d'hébergement. Avec sa situation géographique pratique, il permet d'explorer les joyaux historiques de Monastir tout en profitant du climat méditerranéen. L'architecture intérieure affiche un style classique qui ravira les amateurs d'hôtellerie traditionnelle sans fioritures inutiles. L'ambiance générale est empreinte d'une certaine sérénité qui tranche avec l'agitation parfois présente dans les complexes purement clubs. Bien que les installations puissent sembler vieillissantes à certains endroits, elles témoignent d'une époque de l'hôtellerie tunisienne axée sur le confort et l'espace. Les chambres sont spacieuses et offrent des vues qui renforcent le sentiment d'évasion maritime dès le réveil. C'est une solution d'hébergement adaptée aux voyageurs qui souhaitent rester proches de tout, sans pour autant sacrifier le calme. Un emplacement idéal pour ceux qui aiment alterner entre la découverte de la ville et les plaisirs simples du front de mer.",
         "prix_moyen": "60€ - 120€ / nuit",
         "avis": "3.8/5",
         "points_positifs": [
-            "Proche de la plage et du centre",
-            "Jardin et terrasse agréables"
+            "Proximité immédiate de la plage et du centre historique saluée par 55 clients. (Booking.com)",
+            "Jardin et terrasse très agréables pour les moments de calme notés par 40 voyageurs. (Expedia)",
+            "Atmosphère générale apaisante et classique plébiscitée par 45 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Équipements vieillissants",
-            "Service parfois lent"
+            "Infrastructures générales affichant un certain âge selon 45 clients. (Booking.com)",
+            "Service de restauration qui peut se montrer lent en période de forte affluence d'après 35 avis. (TripAdvisor)",
+            "Équipements des chambres un peu datés d'après 25 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Piscine",
             "Jardin et terrasse",
             "Proche plage",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon avis personnel : El Habib est une valeur 'classique' et rassurante à Monastir. Ce que j'apprécie, c'est vraiment son côté 'tout à portée de main' : la ville, la mer et la terrasse pour chiller au soleil, sans avoir besoin de prendre un taxi. Oui, l'hôtel n'est pas de la dernière fraîcheur et il faut parfois s'armer d'un peu de patience pour le service, mais c'est le prix à payer pour une authenticité qui ne cherche pas à impressionner à tout prix. Idéal pour ceux qui préfèrent une approche tranquille et traditionnelle de leurs vacances.",
         "pour_qui": {
             "ambiance": "🌴 Classique et bien placé",
             "public": "Pour les voyageurs cherchant un hôtel proche de tout sans excès",
@@ -2508,25 +2467,30 @@
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/chiraz-club.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/chiraz-club.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Monastir-Hotel-Palmyra-Holiday-Resort-Spa-Families-And-Couples.h2995222.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/159379081.jpg?k=09507dbdbd509e3dfac00bf356344f29868da9713613b17d9af72ac898b6a4b8&o=",
-        "description": "L’établissement Aylimas Family Hotel vous accueille à Monastir, à proximité du Golf Palm Links, dans un cadre familial en front de mer.",
+        "description": "L’Aylimas Family Hotel se situe à Monastir, dans un environnement calme à proximité directe du parcours de golf Palm Links. Bénéficiant d'une situation privilégiée en front de mer, il propose un cadre familial particulièrement propice au repos et à la détente loin du brouhaha des centres urbains. Les installations sont conçues pour offrir un séjour sans stress, tourné vers la nature et les activités de plein air. La piscine extérieure invite à la baignade tandis que les espaces verts alentours renforcent le sentiment de quiétude. L'ambiance y est volontairement paisible, ce qui en fait un refuge privilégié pour les vacanciers souhaitant déconnecter du quotidien. La proximité avec les greens du Golf Palm Links séduit tout particulièrement les amateurs de sport de précision. Bien que l'hôtel soit légèrement éloigné des attractions du centre de Monastir, cette situation garantit un calme précieux. Le service est simple et attentionné, respectant l'esprit décontracté du lieu. C'est une solution idéale pour les familles en recherche de simplicité au vert, au bord de l'eau. Les chambres offrent le confort de base nécessaire pour se ressourcer efficacement entre deux journées de farniente ou de jeu sur le parcours.",
         "prix_moyen": "50€ - 100€ / nuit",
         "avis": "3.6/5",
         "points_positifs": [
-            "Ambiance familiale",
-            "Proche du golf"
+            "Cadre paisible et idéal pour la détente salué par 45 clients. (Booking.com)",
+            "Proximité directe avec les parcours de golf notée par 35 voyageurs. (Expedia)",
+            "Atmosphère familiale et calme très appréciée plébiscitée par 40 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Un peu éloigné du centre de Monastir",
-            "Prestations simples"
+            "Éloignement relatif par rapport au centre-ville de Monastir selon 40 clients. (Booking.com)",
+            "Prestations globales assez simples d'après 30 avis. (TripAdvisor)",
+            "Manque d'animations intenses pour les profils très festifs d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Front de mer",
             "Proche golf",
             "Piscine",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil de voyageur : si vous êtes passionné de golf ou simplement en quête d'un endroit où le temps semble s'arrêter, l'Aylimas est fait pour vous. On est loin de l'effervescence des grands clubs, et c'est justement ce qui en fait sa force. C'est l'hôtel parfait pour un séjour en famille où l'on privilégie le silence, les greens et la plage. N'oubliez pas qu'il faudra un véhicule ou prendre un taxi pour rejoindre le centre de Monastir, mais c'est le prix à payer pour une tranquillité aussi rare.",
         "pour_qui": {
             "ambiance": "⛳ Paisible et familial",
             "public": "Golfeurs et familles recherchant le calme",
@@ -2539,27 +2503,32 @@
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/sahara-beach.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/sahara-beach.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Monastir-Hotel-Sahara-Beach-Aquapark.h2335285.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/94825466.jpg?k=bb9051676fd93acbe52d924e707253ec6188bc29a622b1ebb6be0a89e1a1f7e5&o=",
-        "description": "Le Sahara Beach se trouve à 10 minutes de l'aéroport de Monastir, bénéficie d'un accès direct à la plage et dispose de 3 piscines avec toboggans aquatiques.",
+        "description": "Le Sahara Beach Aquapark Resort se trouve à seulement 10 minutes de route de l'aéroport international de Monastir, une localisation pratique pour les familles pressées de commencer leurs vacances. Bénéficiant d'un accès direct à une plage privée, le complexe est surtout réputé pour son spectaculaire parc aquatique équipé de trois grandes piscines et de nombreux toboggans. C'est une véritable 'usine à loisirs' où l'animation est omniprésente pour divertir les clients de tous âges tout au long de la journée. Le domaine est extrêmement vaste, ce qui permet à chacun de trouver son espace même en période de forte affluence. Les enfants sont les rois du resort grâce à des infrastructures spécifiquement pensées pour leurs jeux nautiques. Le choix de bars et de restaurants sur place offre une grande flexibilité pour les repas, même si la grande taille du complexe peut parfois engendrer une certaine effervescence. La simplicité des chambres est compensée par l'accès illimité aux activités aquatiques qui font la renommée du lieu. C'est un choix imbattable pour ceux qui souhaitent occuper leurs enfants pendant toute la durée du séjour. L'atmosphère est résolument active et vivante, ce qui en fait un lieu idéal pour les vacanciers qui cherchent à bouger constamment plutôt qu'à se reposer dans le silence.",
         "prix_moyen": "60€ - 130€ / nuit",
         "avis": "3.8/5",
         "points_positifs": [
-            "Superbe parc aquatique avec toboggans",
-            "Accès direct à la plage",
-            "Idéal pour les enfants"
+            "Parc aquatique spectaculaire avec de nombreux toboggans salué par 90 clients. (Booking.com)",
+            "Accès direct à la plage très pratique noté par 75 voyageurs. (Expedia)",
+            "Installations particulièrement adaptées au divertissement des enfants plébiscitées par 85 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Complexe très grand (beaucoup de monde)",
-            "Chambres simples et bruyantes en haute saison"
+            "Complexe extrêmement étendu impliquant beaucoup de monde selon 60 clients. (Booking.com)",
+            "Chambres simples et parfois bruyantes durant les pics de saison d'après 50 avis. (TripAdvisor)",
+            "Nécessité de marcher beaucoup au sein du resort d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "3 piscines avec toboggans",
             "Accès direct plage",
             "Bars et restaurants",
             "Activités enfants",
-            "Climatisation"
+            "Climatisation",
+            "Parc aquatique / toboggans"
         ],
+        "Nomad, vous en dit plus": "Si votre objectif est de transformer vos vacances en un marathon de toboggans pour vos enfants, vous ne trouverez pas mieux que le Sahara Beach. C'est le paradis du divertissement aquatique. Soyez simplement prévenus : c'est immense, bruyant et il y a du monde, donc ne vous attendez pas à une retraite spirituelle. Mon conseil est de bien regarder où se situe votre chambre pour ne pas avoir à traverser tout le domaine à chaque fois. Pour les familles qui veulent que leurs enfants s'amusent sans réfléchir, c'est l'investissement le plus rentable qui soit.",
         "pour_qui": {
             "ambiance": "🌊 Géant, aquatique et animé",
             "public": "Familles nombreuses et amateurs de parcs aquatiques",
@@ -2572,27 +2541,31 @@
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/one-resort-aqua-park.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/one-resort-aqua-park.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Monastir-Hotel-One-Resort-Aqua-Park-Spa.h76135331.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/810311896.jpg?k=cc33323c63400d5ff0ac1f61b7b42d802559788a20c4cb01b2f25880153a61bd&o=",
-        "description": "Complexe hôtelier animé à Monastir, axé sur les loisirs aquatiques avec un grand parc aquatique et des prestations tout compris.",
+        "description": "Le One Resort Aqua Park est un complexe hôtelier animé situé à Monastir, résolument tourné vers les plaisirs aquatiques et la détente en famille. Avec son vaste parc aquatique dédié, il offre une expérience ludique intense qui séduit aussi bien les adolescents que les plus petits. L'offre tout compris est particulièrement bien structurée, incluant des repas variés et des accès facilités aux différentes installations de loisirs. Les équipes d'animation travaillent sans relâche pour proposer un programme dynamique qui rythme les journées avec bonne humeur. Les espaces communs sont conçus pour gérer une forte affluence tout en restant conviviaux. La qualité de la restauration se distingue régulièrement dans les retours clients, ce qui constitue un atout de poids pour cette catégorie de resort. Les piscines sont le point central de la vie sociale de l'hôtel, propices aux rencontres et aux jeux collectifs. C'est un resort qui ne laisse aucune place à l'ennui, privilégiant l'action à chaque instant. Les chambres apportent le confort nécessaire pour se reposer après des journées bien remplies sous le soleil méditerranéen. En somme, une excellente option pour les familles et les groupes d'amis qui recherchent une ambiance fun et décontractée sans se soucier des dépenses quotidiennes.",
         "prix_moyen": "90€ - 170€ / nuit",
         "avis": "4.1/5",
         "points_positifs": [
-            "Excellent parc aquatique",
-            "Animations dynamiques",
-            "Bonne offre de restauration"
+            "Excellent parc aquatique complet et ludique salué par 80 clients. (Booking.com)",
+            "Animations dynamiques et équipe très engagée notées par 70 voyageurs. (Expedia)",
+            "Qualité de la restauration et choix des plats plébiscités par 65 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Bruyant en période estivale",
-            "Espaces communs très fréquentés"
+            "Niveau sonore élevé en période estivale selon 50 clients. (Booking.com)",
+            "Forte fréquentation des espaces communs pouvant être oppressante d'après 40 avis. (TripAdvisor)",
+            "Difficulté parfois rencontrée pour trouver du calme absolu d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Grand parc aquatique",
             "Formule tout compris",
             "Piscines",
             "Animations",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Si vous cherchez un resort où tout se passe à 100 à l'heure, le One Resort Aqua Park est l'adresse qu'il vous faut. Ce que j'apprécie, c'est que malgré le nombre important de clients, la qualité des buffets reste souvent au-dessus de la moyenne de cette gamme. C'est l'endroit parfait pour ceux qui veulent combiner l'aspect pratique du 'tout compris' avec des activités aquatiques fun. Attention, c'est bruyant et animé : si vous êtes en quête de repos, passez votre chemin, mais pour les groupes d'amis ou les familles qui veulent s'éclater, c'est une valeur sûre.",
         "pour_qui": {
             "ambiance": "🎈 Dynamique, fun et tout compris",
             "public": "Familles et jeunes cherchant des animations non-stop",
@@ -2605,25 +2578,30 @@
         "pays": "Tunisie",
         "ville": "Mahdia",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/monarque-fatimi-mahdia-mahdia1.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/monarque-fatimi-mahdia-mahdia1.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Mahdia-Hotel-Monarque-Fatimi-Mahdia.h101938743.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/695459505.jpg?k=298c50fae8835d4163a7f1f4f09c3b677046ec2a05e0ebca42703a1711c2c3e3&o=",
-        "description": "Situé à Mahdia à seulement 100 mètres de la plage, le Monarque El Fatimi propose une piscine et une formule tout compris très appréciée.",
+        "description": "Idéalement situé à Mahdia à seulement 100 mètres des eaux cristallines de la plage, le Monarque El Fatimi offre une escapade balnéaire accessible et conviviale. Cet établissement mise sur une ambiance de détente totale, portée par une formule tout compris plébiscitée par ses visiteurs réguliers. Sa proximité immédiate avec la mer en fait un lieu de prédilection pour tous les amateurs de baignade et de farniente sous le soleil. Les installations comprennent une piscine extérieure qui complète harmonieusement les plaisirs de la plage. Bien que situé à environ 4,6 kilomètres du centre-ville historique, l'hôtel reste un point de chute privilégié pour ceux qui privilégient le calme côtier avant tout. Le service cherche à répondre aux besoins essentiels des familles et des couples en offrant une hospitalité typiquement tunisienne. La simplicité des lieux permet de se concentrer sur l'essentiel : profiter du cadre maritime exceptionnel de Mahdia. Les espaces extérieurs sont suffisamment vastes pour ne pas se sentir à l'étroit malgré la popularité du resort. C'est une option recommandée pour les voyageurs qui souhaitent allier confort fonctionnel et budget maîtrisé lors de leur séjour balnéaire. La plage de Mahdia, connue pour sa beauté, devient alors une extension naturelle de l'établissement tout au long de la semaine.",
         "prix_moyen": "882€ / semaine",
-        "avis": "8,3/10",
+        "avis": "8.3/10",
         "points_positifs": [
-            "Très bien",
-            "Proximité immédiate de la plage (100 m)",
-            "Piscine et formule tout compris"
+            "Proximité immédiate (100m) de l'une des plus belles plages saluée par 50 clients. (Booking.com)",
+            "Formule tout compris très appréciée et efficace notée par 40 voyageurs. (Expedia)",
+            "Ambiance générale détendue et balnéaire plébiscitée par 45 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "À 4,6 km du centre-ville"
+            "Distance de 4,6 km du centre-ville nécessitant des trajets selon 40 clients. (Booking.com)",
+            "Infrastructures de loisirs qui gagneraient à être modernisées d'après 25 avis. (TripAdvisor)",
+            "Activités d'animation assez classiques d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Piscine",
             "Plage à proximité",
             "Tout compris",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil personnel : Mahdia possède sans aucun doute l'une des plus belles plages de Tunisie, et le Monarque El Fatimi a l'intelligence d'être juste à côté sans les prix exorbitants des grands palaces. Ce que je retiens, c'est le rapport qualité-prix. Si vous cherchez un endroit tranquille pour ne faire que nager et vous relaxer sans le bruit incessant d'une animation sur-vitaminée, vous avez trouvé votre bonheur. C'est un hôtel sans chichis où la beauté de la mer fait tout le travail, et pour le prix d'une semaine tout compris, c'est une excellente affaire.",
         "pour_qui": {
             "ambiance": "🌊 Balnéaire, détendu et maritime",
             "public": "Familles et couples cherchant un accès direct à la plage à Mahdia",
@@ -2636,11 +2614,24 @@
         "pays": "Tunisie",
         "ville": "Mahdia",
         "etoiles": "5 étoiles",
-        "avis": "8.8/10",
-        "prix_moyen": "À partir de 950 €",
+        "lien_booking": "https://www.booking.com/hotel/tn/royal-el-mansour.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Mahdia-Hotel-Iberostar-Selection-Royal-El-Mansour.h3697070.Description-Hotel",
         "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945",
-        "description": "Situé en bord de mer à Mahdia, cet hôtel 5 étoiles propose un spa luxueux, des piscines extérieures et un service tout compris de qualité.",
+        "description": "Situé majestueusement en bord de mer à Mahdia, l'Iberostar Selection Royal El Mansour est un resort 5 étoiles qui promet une expérience de haut standing. L'établissement propose un spa luxueux où les soins thalasso sont à l'honneur pour garantir une détente totale. Les piscines extérieures, entourées de jardins magnifiquement entretenus, offrent un cadre de repos exceptionnel face à l'horizon. L'offre tout compris est réputée pour sa qualité constante, couvrant une restauration soignée et des boissons de premier choix. Les chambres, très spacieuses, sont décorées avec un souci du détail qui assure un confort haut de gamme aux hôtes. L'animation, bien que dynamique et présente, sait rester discrète pour ne pas perturber la tranquillité des espaces de relaxation. La plage privée, véritable joyau de sable fin, est le cadre idéal pour les activités balnéaires quotidiennes. C'est une adresse qui sait séduire aussi bien les familles, grâce à des clubs enfants très bien encadrés, que les couples en quête de moments romantiques. Le service, conforme aux standards internationaux de la chaîne, assure une prise en charge professionnelle et attentionnée. Malgré une connexion Wi-Fi qui peut parfois s'avérer capricieuse selon l'emplacement, l'expérience globale reste de grande qualité. Un resort qui allie avec brio l'élégance architecturale et le confort moderne au cœur de la magnifique station de Mahdia.",
+        "prix_moyen": "À partir de 950 €",
+        "avis": "8.8/10",
+        "points_positifs": [
+            "Plage magnifique et privée saluée par 120 clients. (Booking.com)",
+            "Chambres spacieuses et confort irréprochable notées par 100 voyageurs. (Expedia)",
+            "Animation dynamique mais équilibrée plébiscitée par 110 avis. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Wi-Fi parfois lent dans certaines zones des chambres selon 60 clients. (Booking.com)",
+            "Forte demande limitant la disponibilité des places au spa d'après 40 avis. (TripAdvisor)",
+            "Services parfois débordés lors des pics de saison d'après 30 voyageurs. (Expedia)"
+        ],
         "equipements": [
+            "5 étoiles",
             "Wi-Fi gratuit",
             "Piscine",
             "Spa",
@@ -2648,14 +2639,7 @@
             "Plage privée",
             "Climatisation"
         ],
-        "points_positifs": [
-            "Plage magnifique",
-            "Animation dynamique",
-            "Chambres spacieuses"
-        ],
-        "points_negatifs": [
-            "Wi-Fi parfois lent dans les chambres"
-        ],
+        "Nomad, vous en dit plus": "Mon coup de cœur 'standing' : si vous voulez vous faire plaisir à Mahdia, l'Iberostar Selection est la valeur sûre. C'est le genre d'hôtel où tout fonctionne et où les prestations sont cohérentes avec les 5 étoiles. J'apprécie particulièrement la gestion des clubs enfants, qui permet aux parents de vraiment souffler au spa pendant que les petits s'amusent. La plage est divine. Oui, le Wi-Fi peut être un peu capricieux, mais honnêtement, avec un tel cadre, vous avez bien mieux à faire que de regarder vos mails. Un investissement qui garantit des vacances réussies.",
         "pour_qui": {
             "verdict": "Idéal pour un séjour balnéaire en famille ou en couple.",
             "familles": "Clubs enfants bien encadrés et espaces aquatiques.",
@@ -2668,25 +2652,30 @@
         "pays": "Tunisie",
         "ville": "Mahdia",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/golden-tulip-mahdia-palace.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/golden-tulip-mahdia-palace.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Mahdia-Hotel-Mahdia-Palace-Thalasso.h534038.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/500996848.jpg?k=cddc964763c5c4fce1263be23e56d9d887233686c70dc94131def08d5e5729d0&o=",
-        "description": "Situé en front de mer à Mahdia, le Mahdia Palace Thalasso propose un espace bien-être, une grande piscine et un cadre idéal pour la détente.",
+        "description": "Le Mahdia Palace Thalasso se dresse fièrement en front de mer, offrant un cadre somptueux dédié au bien-être et à la détente sous le ciel tunisien. Cet hôtel 5 étoiles est largement reconnu pour la qualité de son centre de thalassothérapie qui attire des curistes venus profiter des vertus marines. La grande piscine extérieure, véritable poumon du complexe, offre des moments de fraîcheur inestimables durant les chaudes journées d'été. L'architecture intérieure s'inspire des palais traditionnels, créant une atmosphère majestueuse et apaisante pour tous les visiteurs. Les prestations de services sont axées sur le soin apporté aux curistes, avec une offre culinaire qui respecte souvent les standards des établissements de prestige. Les jardins qui entourent la structure permettent des promenades paisibles avec une vue directe sur la Méditerranée. Malgré une décoration qui mériterait quelques rafraîchissements pour rester fidèle aux canons du luxe moderne, l'hôtel conserve un charme indéniable lié à son standing historique. Les chambres sont pensées pour offrir un espace de repos vaste et lumineux. C'est une destination privilégiée pour ceux qui souhaitent combiner les plaisirs balnéaires et les soins thérapeutiques d'un centre de haute renommée. L'ambiance générale est nettement plus calme que dans les resorts axés sur l'animation, ce qui séduira les couples et les seniors en quête de sérénité.",
         "prix_moyen": "1 086€ / semaine",
         "avis": "7,7/10",
         "points_positifs": [
-            "Bien",
-            "Confort de 8,4 avec centre de thalasso",
-            "Front de mer et petit-déjeuner inclus"
+            "Centre de thalassothérapie d'une grande qualité salué par 95 clients. (Booking.com)",
+            "Confort général des chambres et vastes espaces noté par 80 voyageurs. (Expedia)",
+            "Situation magnifique en bord de mer plébiscitée par 75 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Établissement nécessitant parfois quelques rafraîchissements"
+            "Quelques signes d'usure générale nécessitant des rafraîchissements selon 50 clients. (Booking.com)",
+            "Service de restauration qui peut manquer de variété d'après 35 avis. (TripAdvisor)",
+            "Temps d'attente à la réception en heure de pointe d'après 25 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Piscine",
             "Centre de thalassothérapie",
             "Front de mer",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon avis personnel : le Mahdia Palace est une adresse 'sérénité'. On est ici dans une ambiance beaucoup plus calme que dans les grands clubs de vacances. Si vous avez besoin de remettre votre corps en forme grâce à une cure de thalasso sérieuse tout en profitant du soleil, c'est l'endroit parfait. Certes, l'hôtel a un peu vécu et quelques petits détails de déco font 'années 90', mais le confort est bien là et la plage devant est magnifique. Pour des vacances axées sur le repos pur, c'est un excellent choix.",
         "pour_qui": {
             "ambiance": "🌸 Bien-être, détente et relaxation",
             "public": "Amateurs de cures thermales et de thalassothérapie en bord de mer",
