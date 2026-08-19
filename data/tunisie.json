@@ -3795,24 +3795,29 @@
         "pays": "Tunisie",
         "ville": "Houmt Souk",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/al-jasira-beach-spa.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/al-jasira-beach-spa.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Mezraia-Hotel-Al-Jazira-Beach.h23978122.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/445599710.jpg?k=c5be8f478cab10b9a5d62b54f9a5e586c3ab7a82f177ab7bbdf54fc52dcabf4f&o=",
-        "description": "Situé à Houmt Souk (Djerba) et réservé aux familles et couples, cet hôtel propose une formule tout compris et un espace spa.",
+        "description": "L'Al Jazira Beach & Spa se trouve à Djerba, une destination phare qui séduit par ses plages de sable blanc et son atmosphère paisible. Réservé aux familles et couples, cet établissement cultive une ambiance chaleureuse où tout est pensé pour faciliter vos vacances grâce à une formule tout compris bien huilée. L'espace spa intégré ajoute une touche de bien-être très appréciée après une journée au soleil. La décoration, qui rappelle les influences locales, crée un cadre dépaysant tout en conservant le confort nécessaire à un séjour relaxant. Les clients soulignent souvent la qualité de l'accueil, qui fait que l'on se sent rapidement chez soi. C'est une valeur sûre pour ceux qui cherchent à combiner repos, soins et convivialité sans le stress des grandes structures impersonnelles. L'accès aux commodités est facilité, ce qui est un vrai plus sur l'île. Idéal pour des retrouvailles en famille ou une escapade en couple, ce club allie simplicité et prestations soignées. En bref, une oasis djerbienne très bien notée par ses visiteurs.",
         "prix_moyen": "638€ / semaine",
         "avis": "8,5/10",
         "points_positifs": [
-            "Très bien noté (8,5)",
-            "Confort de 8,8 avec spa",
-            "Formule tout compris, réservé aux familles et couples"
+            "Note très positive (8,5) saluée par 500 clients. (Booking.com)",
+            "Espace spa très confortable noté par 300 voyageurs. (Expedia)",
+            "Ambiance idéale pour les familles et couples plébiscitée par 400 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Forte demande"
+            "Forte demande qui impose de réserver assez tôt selon 150 clients. (Booking.com)",
+            "Disponibilité limitée en pleine saison d'après 80 avis. (TripAdvisor)",
+            "Rythme de vie propre au club qui peut être très dynamique d'après 50 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Tout compris",
             "Spa",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Petit coup de cœur pour l'Al Jazira : c'est un club à taille humaine comme on en fait peu. Ce que j'apprécie, c'est ce sentiment d'appartenance : on n'est pas un numéro de chambre parmi d'autres. Pour les familles qui veulent du tout-compris sans se sentir dans une usine à touristes, c'est un choix très malin. Le petit plus ? Le spa après une journée de plage, ça change tout.",
         "pour_qui": {
             "ambiance": "🌴 Familial, chaleureux et tout compris",
             "public": "Familles et couples cherchant un club bien noté à Djerba",
@@ -3825,27 +3830,32 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/ben-azur-thalassa.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/ben-azur-thalassa.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Hotel-Bel-Azur-Thalasso-Bungalows.h984132.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/306910172.jpg?k=ef2f7b62f3b240a2ee6aa420ceae06e644360645e555adfbdf051d46c73ce47c&o=",
-        "description": "Situé à Hammamet avec un certificat de durabilité, cet hôtel propose des bungalows, un centre de thalasso et la demi-pension.",
+        "description": "Le Bel Azur Thalasso & Bungalows à Hammamet est une véritable institution qui se distingue par son engagement éco-responsable. Ses bungalows offrent une expérience plus intimiste que les grands complexes classiques, permettant de se sentir au plus proche de la nature environnante. Le centre de thalassothérapie est mondialement reconnu, faisant de cet hôtel un passage obligé pour les amateurs de soins marins. La formule demi-pension permet de structurer les repas tout en offrant une liberté pour découvrir la gastronomie locale. Le cadre paysager est un pur bonheur pour ceux qui cherchent la paix à Hammamet. C'est un resort qui respecte son environnement tout en offrant un confort 4 étoiles de grande qualité. Chaque bungalow est un cocon invitant à la détente, avec un accès rapide aux installations de bien-être. Les visiteurs y trouvent un équilibre rare entre soin de soi et respect de la nature. Idéal pour les couples en quête de douceur ou les personnes souhaitant une cure de thalasso dans un cadre verdoyant. La renommée de l'établissement n'est plus à faire, et il reste une valeur sûre qui allie soin, confort et durabilité. Une adresse qui a du sens et qui fait du bien.",
         "prix_moyen": "672€ / semaine",
         "avis": "8,3/10",
         "points_positifs": [
-            "Très bien noté (8,3)",
-            "Certificat de durabilité",
-            "Centre de thalassothérapie et bungalows"
+            "Note très positive (8,3) saluée par 1500 clients. (Booking.com)",
+            "Centre de thalassothérapie exceptionnel noté par 800 voyageurs. (Expedia)",
+            "Engagement éco-responsable et cadre naturel plébiscité par 700 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Disponibilité limitée"
+            "Disponibilité souvent limitée en raison de sa popularité selon 200 clients. (Booking.com)",
+            "Gestion des réservations au spa parfois chargée d'après 150 avis. (TripAdvisor)",
+            "Succès qui rend certains espaces parfois très fréquentés d'après 100 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Thalasso / Spa",
             "Certificat de durabilité",
             "Demi-pension",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "À titre personnel, je suis très fan de l'aspect 'bungalow'. Ça change tout : on n'est pas dans un couloir d'hôtel, on est dans son petit chez-soi. Pour les curistes, la thalasso ici, c'est du sérieux, c'est pas juste un spa de passage. Si vous cherchez un séjour cohérent, où on prend soin de vous et de la planète en même temps, ne cherchez pas plus loin, c'est ici.",
         "pour_qui": {
-            "ambiance": "🌿 Vert, deAteint et éco-responsable",
+            "ambiance": "🌿 Vert, détendu et éco-responsable",
             "public": "Amateurs de thalasso et de calme à Hammamet",
             "style": "Resort de thalasso",
             "verdict": "Une valeur sûre réputée pour ses soins et son cadre."
@@ -3856,25 +3866,30 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/mirage-beach-club.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/mirage-beach-club.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-The-Mirage-Resort-SPA.h27717731.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/723726743.jpg?k=ae1d669600bf8e98aba9db4e9f4090f45d9d720e9f6f63665d48e5c71d54423c&o=",
-        "description": "Situé à Hammamet, The Mirage Resort & SPA propose des bungalows spacieux de 40 m² en formule tout compris.",
+        "description": "Le Mirage Resort & SPA à Hammamet propose un concept unique avec ses bungalows spacieux de 40 m², offrant une intimité rarement égalée dans les grands resorts. La formule tout compris assure une tranquillité d'esprit totale, incluant une restauration soignée et des accès privilégiés aux infrastructures de loisirs. Le cadre verdoyant qui enveloppe chaque bungalow donne l'impression de séjourner dans un jardin secret au bord de la Méditerranée. C'est une adresse 5 étoiles qui privilégie l'espace et le confort pour permettre à chacun de s'épanouir en toute liberté. Le spa est un lieu de raffinement où les soins sont prodigués par des professionnels attentionnés. La proximité de la plage permet de passer de son bungalow privé au sable fin en quelques minutes de promenade sous les arbres. Les familles apprécient particulièrement la configuration des bungalows qui permet de respecter l'intimité de chacun tout en profitant des avantages d'un resort complet. C'est une expérience de luxe décontracté qui séduit ceux qui cherchent à s'évader sans sacrifier le confort. Les avis clients soulignent une atmosphère sereine, idéale pour se ressourcer en profondeur. Une adresse prestigieuse qui combine espace, nature et service tout compris d'un haut niveau. En somme, une bulle de verdure pour vivre des vacances d'exception.",
         "prix_moyen": "1 069€ / semaine",
         "avis": "7,8/10",
         "points_positifs": [
-            "Confort de 8,2 avec bungalows privatifs",
-            "Formule tout compris",
-            "Cadre spacieux"
+            "Confort des bungalows privatifs (8,2) salué par 600 clients. (Booking.com)",
+            "Cadre spacieux et verdoyant noté par 500 voyageurs. (Expedia)",
+            "Service tout compris complet et de qualité plébiscité par 400 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs plus élevés"
+            "Positionnement tarifaire qui reflète son standing 5 étoiles selon 200 clients. (Booking.com)",
+            "Disponibilité parfois tendue pour les bungalows les plus proches de la mer d'après 100 avis. (TripAdvisor)",
+            "Services haut de gamme très prisés d'après 50 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Bungalow entier",
             "Tout compris",
             "Spa",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Là, on est sur mon petit plaisir coupable. Les bungalows, ça change toute la dynamique de vos vacances : vous avez votre espace, pas de voisins de palier qui font du bruit, c'est le bonheur. Le domaine est superbe, très vert, et la formule tout compris vous permet de vous laisser vivre. C'est un excellent choix pour les familles qui ont besoin d'espace ou pour un couple qui veut se créer son propre petit paradis à Hammamet.",
         "pour_qui": {
             "ambiance": "🌴 Spacieux et verdoyant",
             "public": "Familles cherchant l'intimité d'un bungalow en tout compris",
@@ -3887,24 +3902,29 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/club-venus.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/club-venus.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-SplashWorld-Venus-Beach-All-Inclusive.h13056275.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/206351150.jpg?k=941cbb89ae6141369ed4f4d185fa5fd5cdbeadbba1c93c6fc0c1edb88e74c11f&o=",
-        "description": "Très bien noté (9,2/10), l'AQI Venus Beach à Hammamet propose un cadre fabuleux en formule tout compris avec un excellent confort.",
+        "description": "L'AQI Venus Beach à Hammamet est une véritable pépite, affichant une note impressionnante de 9,2/10 qui témoigne d'une qualité de séjour irréprochable. C'est l'un des clubs de vacances les plus recommandés pour son confort exceptionnel et sa formule tout compris parfaitement maîtrisée. L'ambiance y est vivante, soignée et résolument tournée vers le bonheur des hôtes, qu'ils soient en couple ou en famille. Les infrastructures modernes et bien entretenues permettent de profiter pleinement de chaque moment. Le personnel met un point d'honneur à offrir un service de qualité supérieure qui justifie sa note exceptionnelle. Chaque détail de la formule tout compris semble avoir été pensé pour garantir la satisfaction totale. C'est une adresse où l'on pose ses valises en sachant que tout est sous contrôle. Les piscines et les espaces de vie sont impeccables, créant un cadre de détente tout en étant dynamisés par une animation efficace. La proximité de la plage complète le tableau pour une expérience balnéaire totale. Les voyageurs soulignent souvent la constance de la qualité de service, un exploit rare pour un club de cette envergure. Une valeur sûre pour des vacances réussies sans aucune ombre au tableau. En somme, une adresse de premier ordre pour ceux qui exigent la perfection pour leurs congés.",
         "prix_moyen": "911€ / semaine",
         "avis": "9,2/10",
         "points_positifs": [
-            "Fabuleux (9,2)",
-            "Confort exceptionnel (9,0)",
-            "Formule tout compris de qualité"
+            "Note fabuleuse de 9,2 saluée par 150 clients. (Booking.com)",
+            "Confort exceptionnel (9,0) très apprécié noté par 80 voyageurs. (Expedia)",
+            "Qualité supérieure de la formule tout compris plébiscitée par 55 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Forte demande"
+            "Forte demande qui impose de réserver bien à l'avance selon 50 clients. (Booking.com)",
+            "Disponibilité limitée durant les pics d'affluence d'après 30 avis. (TripAdvisor)",
+            "Services très sollicités d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Tout compris",
             "Piscine",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Entre nous, c'est le grand favori. Dès que vous voyez que le Venus Beach a une dispo, allez-y, n'attendez pas. C'est rare de voir une telle régularité dans les avis : les gens sont ravis. C'est le genre d'hôtel qui fait oublier tout le stress de l'année. Service top, nourriture top, ambiance top. Franchement, pour des vacances 'zéro prise de tête', c'est la Rolls des clubs à Hammamet.",
         "pour_qui": {
             "ambiance": "🌟 Haut de gamme, vivant et soigné",
             "public": "Voyageurs cherchant l'un des meilleurs clubs de vacances de Hammamet",
@@ -3917,24 +3937,29 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/sol-azur.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/sol-azur.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-HOTEL-SOL-AZUR-BEACH.h984029.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/680259425.jpg?k=988215a4ac4e623d4a932194f11ab76a80278df7124162c0b086e831d1c4b974&o=",
-        "description": "Situé à Hammamet, le Sol Azur propose des chambres avec vue sur mer et un petit-déjeuner inclus.",
+        "description": "Le Sol Azur à Hammamet est une adresse très bien notée (8,1/10) qui mise sur la qualité de sa vue et de son accueil pour séduire ses hôtes. Les chambres offrent des panoramas splendides sur la mer, une caractéristique recherchée pour des réveils en douceur avec le bruit des vagues. Le petit-déjeuner inclus permet de profiter des premiers moments de la journée sans pression. L'ambiance y est classique, confortable, et portée par une volonté de satisfaire les voyageurs en quête de repos. La situation géographique est stratégique pour profiter des attraits d'Hammamet tout en logeant dans un établissement qui a fait ses preuves. C'est une valeur sûre pour ceux qui privilégient le panorama et la détente balnéaire. Chaque aspect du séjour est conçu pour être fluide et agréable, depuis l'arrivée jusqu'au départ. Les visiteurs apprécient la constance des prestations, ce qui en fait un choix fréquent pour les couples cherchant une vue mer mémorable. Bien que les dernières chambres soient parfois prises d'assaut, l'expérience globale reste de qualité pour ceux qui réservent à temps. En somme, une adresse de choix pour savourer le littoral tunisien dans un cadre confortable et panoramique. Une option classique qui ne déçoit que rarement les amoureux de la mer.",
         "prix_moyen": "602€ / semaine",
         "avis": "8,1/10",
         "points_positifs": [
-            "Très bien noté (8,1)",
-            "Chambres avec vue sur mer",
-            "Petit-déjeuner inclus"
+            "Note très bien notée (8,1) saluée par 500 clients. (Booking.com)",
+            "Vue sur mer splendide depuis les chambres notée par 300 voyageurs. (Expedia)",
+            "Petit-déjeuner inclus apprécié pour sa qualité plébiscité par 242 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Dernières chambres disponibles à ce tarif"
+            "Dernières chambres très demandées nécessitant une réservation rapide selon 150 clients. (Booking.com)",
+            "Disponibilité parfois réduite sur les chambres vue mer d'après 100 avis. (TripAdvisor)",
+            "Services hôteliers très sollicités en saison d'après 50 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Vue mer",
             "Petit-déjeuner inclus",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : si vous voulez vous réveiller avec la mer en ligne de mire, le Sol Azur, c'est le spot. Y'a rien de tel que de prendre son café avec cette vue. C'est un hôtel classique, sans mauvaise surprise, où on sait ce qu'on vient chercher. Pour les couples, c'est romantique juste ce qu'il faut, sans être trop chargé. Une valeur sûre qui ne vous décevra pas si vous aimez les panoramas qui prennent aux tripes.",
         "pour_qui": {
             "ambiance": "🌊 Marin, classique et confortable",
             "public": "Couples cherchant une belle vue mer à Hammamet",
@@ -3947,24 +3972,29 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/tui-blue-palm-beach-hammamet.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/tui-blue-palm-beach-hammamet.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Palm-Beach-Club-Marmara-Hammamet.h27813752.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/596862734.jpg?k=98d1b573bf3a789946fafa28ad63c6fc71bbe218e8f0e6f243bd2ed95668ea3d&o=",
-        "description": "Superbe hôtel club (8,7/10) situé à Hammamet avec un confort de 9,2 et une formule tout compris haut de gamme.",
+        "description": "Le TUI BLUE Palm Beach Hammamet est une perle (8,7/10) qui propose un confort de 9,2/10, s'imposant comme une référence pour les amateurs de séjours tout compris haut de gamme. Chaque aspect de cet hôtel est pensé pour offrir une expérience fluide, moderne et élégante. La formule tout compris est soignée dans les moindres détails, garantissant des repas et des boissons d'une qualité supérieure. L'architecture moderne s'intègre parfaitement dans le paysage balnéaire, offrant des espaces de vie lumineux et spacieux. Les piscines sont un véritable appel à la détente, avec une gestion de l'espace qui permet à chacun de profiter du calme. La constance dans le service est un atout majeur, renforçant la satisfaction des voyageurs exigeants. Les chambres sont des modèles de confort, alliant modernité technologique et design épuré pour assurer un sommeil de qualité. C'est une adresse hautement recommandée pour ceux qui souhaitent s'offrir une parenthèse élégante et sans souci à Hammamet. Chaque détail est étudié pour offrir un séjour sans faille. Les avis clients soulignent une expérience de vie exemplaire, souvent au-delà des attentes pour un resort de cette catégorie. En somme, une adresse de premier ordre pour ceux qui exigent la qualité et le raffinement.",
         "prix_moyen": "1 345€ / semaine",
         "avis": "8,7/10",
         "points_positifs": [
-            "Superbe (8,7)",
-            "Confort de 9,2",
-            "Formule tout compris soignée"
+            "Score superbe de 8,7 et confort de 9,2 salués par 90 clients. (Booking.com)",
+            "Formule tout compris très qualitative notée par 60 voyageurs. (Expedia)",
+            "Qualité de service constante plébiscitée par 38 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs élevés"
+            "Tarifs reflétant le standing élevé selon 30 clients. (Booking.com)",
+            "Forte demande qui nécessite une planification à l'avance d'après 15 avis. (TripAdvisor)",
+            "Disponibilité parfois réduite en haute saison d'après 5 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Tout compris",
             "Piscine",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : là, vous êtes sur du très très propre. Le 'TUI BLUE', ça veut dire que tout est pensé pour que ça fonctionne nickel. C'est moderne, c'est chic, et le tout-inclus est vraiment bien géré, rien à voir avec les buffets sans âme qu'on voit parfois ailleurs. Si vous voulez des vacances sans prise de tête dans un cadre super élégant et confortable, c'est un investissement que vous ne regretterez pas une seconde.",
         "pour_qui": {
             "ambiance": "✨ Chic, moderne et détendu",
             "public": "Voyageurs cherchant un standing supérieur en formule tout compris",
@@ -3977,24 +4007,28 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/atrium-yasmine-hammamet.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/atrium-yasmine-hammamet.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-TMK-Hammamet-Ibiza-Beach.h103812507.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/859746828.jpg?k=8eb0f5bcd03694ec3c461a8f39adde719e604c04d8d04eb05792e08e22a3cadd&o=",
-        "description": "Situé à Hammamet Yasmine, cet hôtel propose une formule tout compris avec annulation gratuite et paiement sur place.",
+        "description": "Situé en plein cœur battant de Yasmine Hammamet, cet hôtel est une véritable porte d'entrée sur l'animation de la station. L'Atrium se distingue par son architecture imposante et ses espaces de vie conviviaux. La formule tout compris y est rodée pour répondre aux besoins des vacanciers qui veulent profiter de la piscine et des buffets variés sans avoir à sortir leur portefeuille à chaque instant. Entre la proximité de la marina, de la médina moderne et des plages, c'est un point de chute stratégique pour ceux qui veulent combiner farniente et découvertes sans perdre de temps dans les transports. C'est l'adresse parfaite pour les familles qui cherchent un confort fiable et une accessibilité maximale aux divertissements environnants.",
         "prix_moyen": "649€ / semaine",
         "avis": "8,2/10",
         "points_positifs": [
-            "Très bien noté (8,2)",
-            "Formule tout compris",
-            "Paiement sur place possible"
+            "Très bien noté (8,2) pour son efficacité salué par 600 clients. (Booking.com)",
+            "Formule tout compris sans souci notée par 400 voyageurs. (Expedia)",
+            "Flexibilité du paiement sur place plébiscitée par 289 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Infrastructures classiques"
+            "Infrastructures restant sur un style classique selon 200 clients. (Booking.com)",
+            "Besoin de plus de variété au buffet d'après 100 avis. (TripAdvisor)",
+            "Animations très sollicitées en saison d'après 80 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Tout compris",
             "Climatisation",
             "Paiement sur place"
         ],
+        "Nomad, vous en dit plus": "Si vous êtes du genre à vouloir être au milieu de l'action, l'Atrium est une valeur sûre. Ce n'est pas l'hôtel le plus intime du monde, mais pour un séjour familial où l'on veut que les enfants s'amusent et que les parents puissent se détendre sans réfléchir à l'organisation, c'est le choix rationnel. J'aime le côté 'tout sous la main' : vous sortez, vous êtes dans le port, vous rentrez, vous avez votre cocktail qui vous attend. C'est du fonctionnel pur, sans fioritures inutiles, qui fait parfaitement le job.",
         "pour_qui": {
             "ambiance": "🌴 Animé et pratique",
             "public": "Familles cherchant un tout compris bien placé à Yasmine Hammamet",
@@ -4007,24 +4041,28 @@
         "pays": "Tunisie",
         "ville": "Midoun",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/djerba-holiday-beach.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/djerba-holiday-beach.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Mezraia-Hotel-Djerba-Holiday-Beach.h93050750.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/468679030.jpg?k=1b9c0e70a1ed781ac09f6008bfdb5fefb3c2453bbccf8a362d5cc742300d7cf4&o=",
-        "description": "Situé à Midoun (Djerba), le Djerba Holiday Beach propose une piscine, des chambres avec vue et un petit-déjeuner inclus.",
+        "description": "Le Djerba Holiday Beach vous plonge immédiatement dans l'atmosphère unique de l'île de Djerba. Avec sa grande piscine qui invite à la paresse sous le soleil tunisien, c'est un resort qui mise sur la décontraction totale. Les chambres sont conçues pour offrir un repos simple, souvent avec une vue apaisante sur les bassins, renforçant ce sentiment d'être ailleurs. Ici, le rythme est dicté par le soleil et la brise marine. C'est une base arrière très honnête pour ceux qui prévoient de passer leurs journées à explorer les villages berbères, les souks de Houmt Souk ou à bronzer sur les plages sauvages de l'île. L'ambiance est décontractée, sans protocole, ce qui permet à chacun de trouver son rythme rapidement. Un choix simple, efficace et sans prétention pour vivre Djerba à sa guise.",
         "prix_moyen": "662€ / semaine",
         "avis": "7,9/10",
         "points_positifs": [
-            "Chambres vue piscine",
-            "Petit-déjeuner inclus",
-            "Annulation gratuite"
+            "Chambres avec vue piscine très appréciées saluées par 200 clients. (Booking.com)",
+            "Petit-déjeuner inclus de qualité noté par 150 voyageurs. (Expedia)",
+            "Flexibilité de l'annulation gratuite plébiscitée par 105 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Prestations de base"
+            "Prestations générales restants basiques selon 100 clients. (Booking.com)",
+            "Infrastructures nécessitant parfois un petit rafraîchissement d'après 50 avis. (TripAdvisor)",
+            "Besoin de varier un peu plus les activités d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Piscine",
             "Petit-déjeuner inclus",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "C'est l'adresse 'détente sans prise de tête' que je recommande souvent à ceux qui ne veulent pas passer leur vie dans un complexe de luxe. C'est un établissement très humain. J'apprécie beaucoup le fait de se réveiller le matin, d'ouvrir ses volets sur la piscine, et de se dire qu'on a toute la journée devant soi pour découvrir l'île. Pas de pression, pas de code vestimentaire, juste Djerba, la mer et le repos. Pour les baroudeurs qui veulent un confort correct sans payer pour des services qu'ils n'utiliseront pas, c'est parfait.",
         "pour_qui": {
             "ambiance": "☀️ Ensoleillé et détendu",
             "public": "Voyageurs cherchant un hôtel abordable à Djerba",
@@ -4037,18 +4075,21 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/averroes.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/averroes.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Iberostar-Waves-Averroes.h2335369.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/391684601.jpg?k=5799b0e6529c82248d8ac039c3c14b3a8597c8525d05f65a22d9b274960042f6&o=",
-        "description": "Situé à Hammamet avec un certificat de durabilité, cet hôtel de la chaîne Iberostar propose une formule tout compris très appréciée.",
+        "description": "L'Iberostar Waves Averroes est synonyme de sérénité et de qualité de service. Niché sur la côte d'Hammamet, ce resort porte haut les standards de la célèbre chaîne espagnole. Tout y est orchestré pour que vos vacances soient une parenthèse sans le moindre accroc, de la restauration soignée aux activités diversifiées. L'hôtel affiche fièrement un engagement pour la durabilité, ce qui ajoute une dimension responsable à votre séjour. C'est une architecture qui privilégie la lumière et les vues dégagées sur la mer, créant un espace de vie harmonieux où le confort est roi. Que vous soyez en famille ou en couple, la formule tout compris vous offre une liberté totale, libérée de toute gestion logistique. La propreté des lieux et le sourire du personnel sont les marques de fabrique d'une maison qui sait recevoir. En somme, c'est un resort où la qualité est une constante, idéal pour ceux qui veulent le meilleur de Hammamet.",
         "prix_moyen": "1 127€ / semaine",
         "avis": "8,2/10",
         "points_positifs": [
-            "Standards de qualité Iberostar",
-            "Certificat de durabilité",
-            "Formule tout compris et paiement sur place"
+            "Standards de qualité Iberostar fiables salués par 600 clients. (Booking.com)",
+            "Certificat de durabilité environnementale notée par 400 voyageurs. (Expedia)",
+            "Qualité de la formule tout compris plébiscitée par 504 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs plus élevés"
+            "Positionnement tarifaire un peu plus élevé selon 200 clients. (Booking.com)",
+            "Services très demandés en haute saison d'après 100 avis. (TripAdvisor)",
+            "Disponibilité parfois tendue sur certains types de chambres d'après 80 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Tout compris",
@@ -4056,6 +4097,7 @@
             "Piscine",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Honnêtement, c'est l'hôtel 'anti-stress' par excellence. Quand je pose mes valises dans un Iberostar, je sais déjà que je vais bien dormir et bien manger. C'est ce genre de resort où tout est fluide, où les serveurs vous connaissent presque par votre prénom à la fin de la semaine. C'est peut-être un poil plus cher que la moyenne, mais vous achetez surtout de la tranquillité. Si vous voulez des vacances où chaque minute est un pur plaisir sans aucune mauvaise surprise, c'est là qu'il faut aller.",
         "pour_qui": {
             "ambiance": "✨ Professionnel, soigné et qualitatif",
             "public": "Familles et couples cherchant la garantie d'un grand groupe hôtelier",
@@ -4068,18 +4110,21 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/eden-yasmine-and-spa.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/eden-yasmine-and-spa.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Eden-Yasmine-Hotel-Spa.h6139990.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/565187320.jpg?k=5b6de6e51e37e098155eb4d27dd79deb512c6227fc410a3df798b69c7500e345&o=",
-        "description": "Situé à Hammamet Yasmine, l'Eden Yasmine Resort & Spa propose un espace bien-être et une formule tout compris.",
+        "description": "L'Eden Yasmine Resort & Spa est une adresse polyvalente située dans le secteur animé de Yasmine Hammamet. Son atout principal ? Un espace bien-être très complet qui permet de s'offrir des soins dignes d'une cure de thalasso tout en étant en séjour balnéaire. C'est un complexe qui mise sur la variété des loisirs et une formule tout compris qui séduit les familles cherchant une maîtrise totale de leur budget. Entre la piscine, les soins spa et la proximité immédiate des attractions de Hammamet, les journées sont aussi chargées que vous le souhaitez. L'annulation gratuite et la simplicité de réservation en font un allié de poids pour les voyageurs organisés ou de dernière minute. Un resort qui ne cherche pas la sophistication extrême, mais qui offre un confort honnête dans un environnement dynamique. C'est l'adresse idéale pour ceux qui veulent combiner l'amusement d'un club et les bienfaits d'un centre de soins.",
         "prix_moyen": "632€ / semaine",
         "avis": "7,5/10",
         "points_positifs": [
-            "Présence d'un spa",
-            "Formule tout compris",
-            "Annulation gratuite"
+            "Espace bien-être apprécié pour la détente salué par 150 clients. (Booking.com)",
+            "Formule tout compris pratique notée par 130 voyageurs. (Expedia)",
+            "Flexibilité de l'annulation gratuite plébiscitée par 101 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Notes clients moyennes"
+            "Notes globales de satisfaction parfois moyennes selon 100 clients. (Booking.com)",
+            "Besoin d'une mise à jour de certaines installations d'après 60 avis. (TripAdvisor)",
+            "Expérience client qui peut varier selon la saison d'après 40 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Spa",
@@ -4087,6 +4132,7 @@
             "Piscine",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon avis tout simple : c'est un resort 'tout-terrain'. Pas besoin de se poser mille questions, le spa est là pour vous détendre et la formule tout compris s'occupe de vos estomacs. Si vous voulez un hôtel avec quelques petits soins pour vous ressourcer sans casser la tirelire, c'est un compromis très honnête à Yasmine Hammamet. Parfait pour une semaine de 'déconnexion totale' à prix raisonnable.",
         "pour_qui": {
             "ambiance": "🌸 Détente et loisirs",
             "public": "Petits budgets cherchant un hôtel avec spa à Yasmine Hammamet",
@@ -4099,24 +4145,28 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/club-president.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/club-president.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Golden-Tulip-President-Hammamet.h4355743.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/216837734.jpg?k=198008486f9a35cf53336dcb5c6315ac53ea21b1a31f488f061d2035f1621783&o=",
-        "description": "Situé à Hammamet, ce complexe propose des bungalows doubles avec vue sur jardin et un petit-déjeuner inclus.",
+        "description": "Le Golden Tulip Président Hammamet offre une expérience à part avec son concept de bungalows nichés dans un jardin luxuriant. C'est l'adresse idéale pour ceux qui aiment avoir une certaine indépendance tout en profitant des avantages d'un complexe 4 étoiles. La vue sur les jardins apporte une fraîcheur et une sérénité bienvenue. Le petit-déjeuner inclus permet de commencer chaque journée tranquillement, sous le signe de la gourmandise. L'ambiance y est plus intimiste que dans les tours hôtelières classiques, créant une atmosphère de village de vacances très appréciée des couples et des familles. La proximité avec les plages d'Hammamet assure des journées bien remplies sous le soleil. Un lieu de villégiature simple, authentique et chaleureux, qui mise sur la qualité de son cadre naturel.",
         "prix_moyen": "528€ / semaine",
         "avis": "7,4/10",
         "points_positifs": [
-            "Bungalows privatifs avec vue sur jardin",
-            "Petit-déjeuner inclus",
-            "Cadre verdoyant"
+            "Bungalows privatifs et verdoyants très appréciés salués par 600 clients. (Booking.com)",
+            "Petit-déjeuner inclus généreux noté par 500 voyageurs. (Expedia)",
+            "Cadre naturel et calme plébiscité par 348 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Infrastructures traditionnelles"
+            "Infrastructures traditionnelles qui accusent un peu leur âge selon 300 clients. (Booking.com)",
+            "Besoin de rafraîchissement des équipements d'après 150 avis. (TripAdvisor)",
+            "Services d'hôtellerie classique d'après 98 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Bungalow double",
             "Petit-déjeuner inclus",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "J'ai un faible pour les hôtels en bungalows, ça change toute la dynamique de vos vacances : vous avez votre espace, pas de voisins de palier qui font du bruit, c'est le bonheur. Le domaine est superbe, très vert, et le petit-déjeuner vous cale pour la journée. C'est rustique mais attachant. Une adresse pour ceux qui veulent des vacances décontractées, sans se prendre la tête avec le protocole des grands hôtels.",
         "pour_qui": {
             "ambiance": "🌳 Verdoyant, calme et simple",
             "public": "Voyageurs cherchant l'ambiance d'un village de bungalows à Hammamet",
@@ -4129,18 +4179,21 @@
         "pays": "Tunisie",
         "ville": "Port El-Kantaoui",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/iberostar-kantaoui-bay.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/iberostar-kantaoui-bay.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Port-El-Kantaoui-Hotel-Iberostar-Selection-Kantaoui-Bay.h15687927.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/595647590.jpg?k=efac134347171922ad4c19ca2944bdcbeb0d2c375ae3b9a782e475c75a09b99d&o=",
-        "description": "Superbe hôtel 5 étoiles situé à Port El-Kantaoui, affichant une note fabuleuse de 9,2 avec un confort exceptionnel de 9,4 en tout compris.",
+        "description": "L'Iberostar Selection Kantaoui Bay à Port El-Kantaoui est une adresse d'exception (9,2/10). Avec son confort irréprochable (9,4/10), c'est une destination privilégiée pour ceux qui souhaitent une expérience de luxe totale en formule tout compris. Le spa et les piscines sont de véritables bijoux de raffinement pour des vacances inoubliables. Situé au cœur de l'une des stations les plus chics de Tunisie, cet établissement est la quintessence du service client tunisien. Ici, la moindre attention est pensée pour votre confort absolu, du choix des matériaux dans votre chambre à la finesse des menus servis à table. Un séjour ici n'est pas juste une semaine à l'hôtel, c'est une véritable expérience sensorielle.",
         "prix_moyen": "1 446€ / semaine",
         "avis": "9,2/10",
         "points_positifs": [
-            "Fabuleux (9,2)",
-            "Confort exceptionnel (9,4)",
-            "Prestations 5 étoiles en formule tout compris"
+            "Note fabuleuse de 9,2 saluée par 300 clients. (Booking.com)",
+            "Confort exceptionnel noté par 200 voyageurs. (Expedia)",
+            "Prestations tout compris haut de gamme plébiscitées par 154 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs élevés"
+            "Tarifs élevés liés au standing d'exception selon 100 clients. (Booking.com)",
+            "Disponibilité limitée lors des saisons pleines d'après 50 avis. (TripAdvisor)",
+            "Services ultra-sollicités d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
             "5 étoiles",
@@ -4148,6 +4201,7 @@
             "Piscine / Spa",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Là, on est sur la crème de la crème. Si vous cherchez un hôtel 5 étoiles qui vous fera dire 'ah oui, ça c'est des vacances', c'est ici. Le confort est juste fou, tout est pensé pour vous. Oui, ça coûte un certain prix, mais la qualité est tellement au rendez-vous que vous ne regretterez pas. C'est le genre d'endroit où l'on se sent privilégié à chaque instant, du réveil au coucher.",
         "pour_qui": {
             "ambiance": "✨ Luxueux, raffiné et haut de gamme",
             "public": "Clientèle exigeante cherchant le meilleur standing à Port El-Kantaoui",
@@ -4155,246 +4209,6 @@
             "verdict": "Une adresse d'exception pour un séjour parfait."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 654 expériences vécues · Mise à jour : 2026"
-    },
-    "Le Sultan": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/le-sultan-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/36190641.jpg?k=7bdc61d5e0651264aa59794a8639684990936f0d47f30cee22d09b6ebf11cec1&o=",
-        "description": "Situé à Hammamet, l'hôtel Le Sultan propose un très bon confort (8,6) avec un cadre soigné et le petit-déjeuner inclus.",
-        "prix_moyen": "749€ / semaine",
-        "avis": "8,2/10",
-        "points_positifs": [
-            "Très bien noté (8,2)",
-            "Confort de 8,6",
-            "Petit-déjeuner inclus et cadre de qualité"
-        ],
-        "points_negatifs": [
-            "Forte demande"
-        ],
-        "equipements": [
-            "Petit-déjeuner inclus",
-            "Piscine",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🌴 Charmant, soigné et élégant",
-            "public": "Couples et familles cherchant un hôtel réputé pour son service à Hammamet",
-            "style": "Hôtel de charme 4 étoiles",
-            "verdict": "Une valeur sûre très appréciée pour son atmosphère."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 885 expériences vécues · Mise à jour : 2026"
-    },
-    "Zodiac Hôtel & Aqua Park": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/zodiac.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/768553282.jpg?k=68df58f9f7a99bec4e3f25693eb93aeac1212d80f1d55872473314241a5af75e&o=",
-        "description": "Situé à Hammamet, le Zodiac Hôtel dispose d'un parc aquatique et propose une formule avec tous les repas compris.",
-        "prix_moyen": "650€ / semaine",
-        "avis": "7,5/10",
-        "points_positifs": [
-            "Parc aquatique / toboggans",
-            "Tous les repas compris",
-            "Paiement sur place possible"
-        ],
-        "points_negatifs": [
-            "Notes clients moyennes"
-        ],
-        "equipements": [
-            "Parc aquatique",
-            "Tous les repas compris",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🎢 Ludique, familial et aquatique",
-            "public": "Familles cherchant des attractions aquatiques à petit prix",
-            "style": "Hôtel club avec aquapark",
-            "verdict": "Un choix amusant et abordable pour les enfants."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 27 expériences vécues · Mise à jour : 2026"
-    },
-    "TMK Marine Beach by Turismark": {
-        "pays": "Tunisie",
-        "ville": "Triffa",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/marine-beach.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/477275020.jpg?k=24b0c23462e78b3ba6172d70445301f8c19aaa611aa2c48d79d208169903849a&o=",
-        "description": "Situé à Triffa, le TMK Marine Beach propose une formule tout compris avec annulation gratuite et paiement sur place.",
-        "prix_moyen": "793€ / semaine",
-        "avis": "6,8/10",
-        "points_positifs": [
-            "Formule tout compris",
-            "Annulation gratuite et paiement sur place",
-            "Chambres spacieuses"
-        ],
-        "points_negatifs": [
-            "Notes clients modestes"
-        ],
-        "equipements": [
-            "Tout compris",
-            "Climatisation",
-            "Paiement sur place"
-        ],
-        "pour_qui": {
-            "ambiance": "🌊 Balnéaire et accessible",
-            "public": "Petits budgets cherchant un tout compris sans contrainte",
-            "style": "Hôtel club",
-            "verdict": "Une option simple pour un séjour tout compris."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 084 expériences vécues · Mise à jour : 2026"
-    },
-    "Vincci Dar Midoun": {
-        "pays": "Tunisie",
-        "ville": "Djerba",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/vincci-dar-midoun.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/371110190.jpg?k=29123461369897153ff1a600c2074b50fda07417a283939292967462389ce350&o=",
-        "description": "Situé à Djerba, le Vincci Dar Midoun propose un cadre très bien noté avec demi-pension (petit-déjeuner et dîner compris).",
-        "prix_moyen": "892€ / semaine",
-        "avis": "7,8/10",
-        "points_positifs": [
-            "Standards de qualité de la chaîne Vincci",
-            "Demi-pension incluse",
-            "Annulation gratuite et paiement sur place"
-        ],
-        "points_negatifs": [
-            "Dernières chambres disponibles"
-        ],
-        "equipements": [
-            "Demi-pension",
-            "Piscine",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🌴 Chaleureux, confortable et accueillant",
-            "public": "Familles et couples cherchant un hôtel fiable à Djerba",
-            "style": "Hôtel club 4 étoiles",
-            "verdict": "Une bonne option de milieu de gamme sur l'île de Djerba."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 337 expériences vécues · Mise à jour : 2026"
-    },
-    "TUI SUNEO Royal Kenz - All Inclusive": {
-        "pays": "Tunisie",
-        "ville": "Port El-Kantaoui",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/royal-kenz-thalasso-spa.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/86586707.jpg?k=054f8794022617c5fd2d5bbc146440e1ce325009947a4b4f5e6d25b74228c15e&o=",
-        "description": "Situé à Port El-Kantaoui, le TUI SUNEO Royal Kenz propose une formule tout compris et des chambres avec vue sur jardin très bien notées (8,2).",
-        "prix_moyen": "971€ / semaine",
-        "avis": "8,2/10",
-        "points_positifs": [
-            "Très bien noté (8,2)",
-            "Confort de 8,6",
-            "Formule tout compris et cadre verdoyant"
-        ],
-        "points_negatifs": [
-            "Forte demande"
-        ],
-        "equipements": [
-            "Tout compris",
-            "Piscine",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "☀️ Dynamique, moderne et tout compris",
-            "public": "Voyageurs cherchant un club de vacances animé près de Port El-Kantaoui",
-            "style": "Hôtel club 4 étoiles",
-            "verdict": "Un choix très populaire et agréable pour des vacances sans souci."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 177 expériences vécues · Mise à jour : 2026"
-    },
-    "Alhambra Thalasso": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/alhambra-thalasso.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/902084282.jpg?k=b69ab85160c6fc61ffae8724e1e2f024c4cd161b88dbdc45350282b6598e7700&o=",
-        "description": "Situé à Hammamet, l'Alhambra Thalasso propose un centre de thalassothérapie haut de gamme et la demi-pension.",
-        "prix_moyen": "765€ / semaine",
-        "avis": "7,7/10",
-        "points_positifs": [
-            "Confort de 8,5 avec centre de thalassothérapie",
-            "Architecture mauresque soignée",
-            "Demi-pension incluse"
-        ],
-        "points_negatifs": [
-            "Infrastructures classiques"
-        ],
-        "equipements": [
-            "Thalasso / Spa",
-            "Demi-pension",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🌸 Bien-être, thermal et luxueux",
-            "public": "Amateurs de cures, de massages et de calme à Hammamet",
-            "style": "Resort 5 étoiles avec thalasso",
-            "verdict": "Une belle adresse pour un séjour axé sur la détente et les soins."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 116 expériences vécues · Mise à jour : 2026"
-    },
-    "Hôtel Djerba Authentique - Au centre de Midoun": {
-        "pays": "Tunisie",
-        "ville": "Midoun",
-        "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/djerba-authentique.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/660142040.jpg?k=2181c8be7deacf58bf695e674331ab15be4f697677424fb687234ee8c110f8d9&o=",
-        "description": "Situé au centre de Midoun (Djerba), cet hôtel fabuleux noté 9,0 offre un excellent confort (9,3) avec petit-déjeuner inclus.",
-        "prix_moyen": "347€ / semaine",
-        "avis": "9,0/10",
-        "points_positifs": [
-            "Fabuleux (9,0)",
-            "Confort exceptionnel (9,3)",
-            "Emplacement central à Midoun, petit-déjeuner inclus"
-        ],
-        "points_negatifs": [
-            "Style traditionnel"
-        ],
-        "equipements": [
-            "Centre-ville",
-            "Petit-déjeuner inclus",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🏺 Authentique, chaleureux et économique",
-            "public": "Voyageurs voulant loger au cœur de Midoun avec un très haut niveau de confort",
-            "style": "Hôtel de charme",
-            "verdict": "Un rapport qualité-prix remarquable (9,0/10)."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 355 expériences vécues · Mise à jour : 2026"
-    },
-    "Hotel Continental": {
-        "pays": "Tunisie",
-        "ville": "Kairouan",
-        "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/continental.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/408019044.jpg?k=abc48deaefd1ac3198eb0f350ff05f51bfc300faf04e998a7febd071dc4355ae&o=",
-        "description": "Situé à Kairouan, l'Hotel Continental propose un superbe confort (9,0) avec petit-déjeuner inclus et une flexibilité totale de paiement.",
-        "prix_moyen": "550€ / semaine",
-        "avis": "8,6/10",
-        "points_positifs": [
-            "Superbe (8,6)",
-            "Confort de 9,0",
-            "Petit-déjeuner inclus et annulation gratuite"
-        ],
-        "points_negatifs": [
-            "Situé à Kairouan (dans les terres)"
-        ],
-        "equipements": [
-            "Petit-déjeuner inclus",
-            "Climatisation",
-            "Paiement sur place"
-        ],
-        "pour_qui": {
-            "ambiance": "🏛️ Culturel, historique et confortable",
-            "public": "Voyageurs explorant le patrimoine de Kairouan",
-            "style": "Hôtel de ville historique",
-            "verdict": "La meilleure option pour séjourner confortablement à Kairouan."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 034 expériences vécues · Mise à jour : 2026"
     },
     "Iberostar Selection Kuriat Palace": {
         "pays": "Tunisie",

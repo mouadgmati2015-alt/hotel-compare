@@ -44,7 +44,7 @@ def slugify(texte):
     texte = re.sub(r'[^a-z0-9]+', '-', texte)
     return texte.strip('-')
 
-# Injection des balises Open Graph
+# Injection des balises Open Graph et SEO Google
 st.markdown("""
     <script>
         function setMetaTag(property, content) {
@@ -60,6 +60,10 @@ st.markdown("""
             }
             element.setAttribute('content', content);
         }
+        // Ajout de la description officielle pour Google
+        setMetaTag('description', 'Comparez les meilleurs hôtels, tarifs et destinations du monde entier sur MyHotelCompare. Trouvez votre séjour idéal au meilleur prix.');
+        
+        // Vos balises Open Graph existantes
         setMetaTag('og:title', 'HotelCompare - Comparateur d’hôtels');
         setMetaTag('og:description', 'Trouve et compare les meilleures offres d’hôtels facilement.');
         setMetaTag('og:image', 'https://myhotelcompare.com/media/c139095b96abe4e5e4fc4ea931714e10.png');

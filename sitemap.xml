@@ -101,11 +101,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.myhotelcompare.com/Alhambra-Thalasso</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://www.myhotelcompare.com/Alhambra-Thalasso-Hammamet</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -986,11 +981,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.myhotelcompare.com/H%C3%B4tel-Djerba-Authentique---Au-centre-de-Midoun</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://www.myhotelcompare.com/H%C3%B4tel-Djerba-Erriadh</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -1392,11 +1382,6 @@
     </url>
     <url>
         <loc>https://www.myhotelcompare.com/Hotel-Centrale-Miramare</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.myhotelcompare.com/Hotel-Continental</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -2107,11 +2092,6 @@
     </url>
     <url>
         <loc>https://www.myhotelcompare.com/Le-Parisien-Tunis</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.myhotelcompare.com/Le-Sultan</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -2936,11 +2916,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.myhotelcompare.com/TMK-Marine-Beach-by-Turismark</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://www.myhotelcompare.com/TUI-BLUE-Manar</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -2977,11 +2952,6 @@
     </url>
     <url>
         <loc>https://www.myhotelcompare.com/TUI-SENSIMAR-OCEANA-RESORT-AND-SPA</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.myhotelcompare.com/TUI-SUNEO-Royal-Kenz---All-Inclusive</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -3226,11 +3196,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.myhotelcompare.com/Vincci-Dar-Midoun</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://www.myhotelcompare.com/Vincci-EverEden</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -3317,11 +3282,6 @@
     </url>
     <url>
         <loc>https://www.myhotelcompare.com/Zeus-Essence-Ramada-by-Wyndham-Athens</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.myhotelcompare.com/Zodiac-H%C3%B4tel-et-Aqua-Park</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
