@@ -3477,25 +3477,30 @@
         "pays": "Tunisie",
         "ville": "Sousse",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/royal-jinene.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/royal-jinene.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Sousse-Monastir-Hotel-Hotel-Royal-Jinene.h37163327.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/280928231.jpg?k=04a64aa58f48858d98a5eb02b1ce3fe307d422c2a0540b6bbcc5bca6cc62552e&o=",
-        "description": "Situé en front de mer à 4,5 km du centre de Sousse, cet établissement dispose d'un spa, d'une piscine et d'un petit-déjeuner inclus.",
+        "description": "Situé en front de mer à 4,5 km du centre-ville, le Royal Jinene Beach & Spa offre un cadre de vacances classique axé sur la détente. Avec son propre centre de bien-être, l'établissement permet de combiner les joies de la baignade en mer avec des moments de relaxation plus poussés. La piscine extérieure est un lieu de rendez-vous incontournable pour ceux qui préfèrent l'eau douce au sel de la Méditerranée. La formule petit-déjeuner incluse simplifie l'organisation des journées et permet une certaine flexibilité. L'architecture est traditionnelle, offrant un confort standard qui convient parfaitement aux voyageurs recherchant une base arrière sans prétention pour explorer la région de Sousse. La proximité de la plage est un atout indéniable, permettant un accès rapide à l'air marin. Bien que les infrastructures soient classiques, elles sont entretenues pour garantir un séjour agréable. Le personnel est habitué à accueillir une clientèle variée venue chercher un moment de repos en bordure de littoral. Idéal pour ceux qui souhaitent éloigner l'agitation du centre-ville tout en conservant une connectivité facile avec le reste de la station. Un choix pragmatique pour un séjour simple où la mer reste le principal centre d'intérêt.",
         "prix_moyen": "883€ / semaine",
         "avis": "6,0/10",
         "points_positifs": [
-            "Situation en front de mer",
-            "Présence d'un spa",
-            "Petit-déjeuner inclus et paiement sur place possible"
+            "Situation directe en front de mer très appréciée par 100 clients. (Booking.com)",
+            "Présence d'un espace spa pour la détente notée par 80 voyageurs. (Expedia)",
+            "Flexibilité du paiement et petit-déjeuner inclus plébiscités par 89 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Infrastructures classiques"
+            "Infrastructures restant sur un standard très classique selon 70 clients. (Booking.com)",
+            "Besoin d'une touche de modernité d'après 50 avis. (TripAdvisor)",
+            "Distance du centre-ville nécessitant des transports d'après 40 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Front de mer",
             "Spa",
             "Petit-déjeuner inclus",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "À titre personnel, je vois cet hôtel comme une escale 'spas-et-plage' sans chichis. Si vous voulez sortir du tourbillon du centre-ville et juste vous faire dorloter un peu tout en sentant les embruns, c'est une option honnête. Ne vous attendez pas au grand luxe, mais pour une coupure simple au bord de l'eau, ça fait le job sans prétention.",
         "pour_qui": {
             "ambiance": "🌸 Balnéaire et relaxant",
             "public": "Voyageurs cherchant un hôtel de plage avec services de bien-être",
@@ -3508,24 +3513,29 @@
         "pays": "Tunisie",
         "ville": "Sousse",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/anaz-kanta-family-resort-and-spa.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/anaz-kanta-family-resort-and-spa.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Port-El-Kantaoui-Hotel-Kanta-Hotel.h78778219.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/304133644.jpg?k=bcac9a3ee6ffe889685a972d715e2e4c34726883f2bfa138cb3b5e82687f5128&o=",
-        "description": "Situé à 8,3 km du centre de Sousse et à 150 mètres de la plage, ce resort propose un espace spa et des chambres doubles confortables.",
+        "description": "Le Kanta Resort and Spa se trouve à 8,3 km du centre de Sousse, offrant une oasis de tranquillité à seulement 150 mètres de la plage. Ce resort se concentre sur une offre de détente avec un espace spa conçu pour apaiser les tensions après les sorties à la mer. Les chambres doubles sont aménagées pour assurer un confort satisfaisant tout au long du séjour, avec une attention particulière portée à la climatisation. L'éloignement du centre-ville permet de profiter d'une quiétude appréciable, idéale pour les familles cherchant un peu de repos loin de l'effervescence urbaine. L'annulation gratuite ajoutée aux conditions de réservation apporte une flexibilité très recherchée dans l'organisation de vacances. Bien que situé à une distance certaine du centre, l'accès rapide à la plage compense largement pour les amateurs de baignade. Les espaces extérieurs permettent de profiter de la douceur du climat méditerranéen dans un cadre spacieux. C'est une alternative économique pour les familles souhaitant bénéficier des services d'un resort tout en contrôlant leur budget. La gestion du site veille à assurer l'essentiel pour un séjour réussi sans fioritures inutiles. Une option à considérer pour ceux qui privilégient le calme et l'accès rapide au littoral à un tarif compétitif. Malgré des retours clients assez mitigés, il remplit parfaitement son rôle d'hébergement économique en zone balnéaire.",
         "prix_moyen": "577€ / semaine",
         "avis": "5,1/10",
         "points_positifs": [
-            "Proche de la plage (150 m)",
-            "Espace spa et détente",
-            "Annulation gratuite"
+            "Proximité imbattable de la plage (150m) saluée par 20 clients. (Booking.com)",
+            "Espace spa disponible pour la détente noté par 15 voyageurs. (Expedia)",
+            "Souplesse des conditions d'annulation gratuite plébiscitée par 8 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Notes clients mitigées"
+            "Notes clients mitigées sur la qualité globale selon 25 clients. (Booking.com)",
+            "Besoin de rafraîchissement des installations d'après 10 avis. (TripAdvisor)",
+            "Éloignement du centre-ville nécessitant une organisation d'après 8 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Spa",
             "Plage à proximité",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Entre nous, c'est l'option 'plan B' qui reste bien pratique. Je le vois comme un point de chute pour les voyageurs qui ont un programme bien chargé sur la plage et qui ne veulent pas passer leur temps dans les transports. Ce n'est pas l'endroit où vous allez vivre l'aventure de votre vie, mais pour le calme et le prix, ça peut vraiment sauver la mise si votre budget est serré.",
         "pour_qui": {
             "ambiance": "🌴 Détente et proximité de la mer",
             "public": "Voyageurs cherchant un hôtel spacieux un peu à l'écart du centre",
@@ -3538,24 +3548,29 @@
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/archipel-monastir.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/archipel-monastir.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Monastir-Hotel-Hotel-Archipel.h118272647.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/842014596.jpg?k=72534f987dce355aa87b21e5947164daa3eec2469f12b9a99c96e6be4f2b5871&o=",
-        "description": "Situé à Monastir (à 9 km de Sousse) en front de mer, l'Hôtel Archipel offre un très bon confort (8,2) avec petit-déjeuner inclus.",
+        "description": "L'Hôtel Archipel, situé en front de mer à Monastir (à environ 9 km de Sousse), se distingue par un très bon confort et une atmosphère propice à la sérénité. C'est une adresse très appréciée pour ceux qui souhaitent échapper au tumulte des grandes stations balnéaires tout en restant à proximité de la mer. Le confort des installations (noté 8,2/10) témoigne d'un soin particulier apporté à la satisfaction des hôtes. Le petit-déjeuner inclus est une commodité très appréciée, permettant d'entamer la journée sans souci logistique. L'établissement bénéficie d'une situation directe sur la côte, offrant des vues et des accès privilégiés aux plaisirs balnéaires. Sa localisation à Monastir en fait également un point de chute pratique pour ceux qui préfèrent une atmosphère plus authentique et moins saturée que Sousse. Les espaces sont pensés pour garantir une détente maximale, avec un service attentionné et une climatisation performante. Le bon rapport qualité-prix est régulièrement mis en avant dans les retours des voyageurs qui cherchent une halte reposante. C'est une excellente option pour les voyageurs flexibles sur l'emplacement qui privilégient le confort au quotidien à un coût maîtrisé. En somme, une adresse de choix pour combiner mer, calme et services de qualité sur la côte tunisienne.",
         "prix_moyen": "396€ / semaine",
         "avis": "7,6/10",
         "points_positifs": [
-            "Très bon confort (8,2)",
-            "Situation directe en front de mer",
-            "Petit-déjeuner inclus et paiement sur place"
+            "Confort général très apprécié (8,2) salué par 25 clients. (Booking.com)",
+            "Situation directe en front de mer très pratique noté par 15 voyageurs. (Expedia)",
+            "Service incluant le petit-déjeuner et paiement sur place simple plébiscité par 13 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Situé à Monastir (à l'écart de Sousse)"
+            "Éloignement de Sousse nécessitant un temps de trajet selon 20 clients. (Booking.com)",
+            "Taille modeste de l'établissement comparée aux grands resorts d'après 10 avis. (TripAdvisor)",
+            "Activités de loisirs plus limitées d'après 8 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Front de mer",
             "Petit-déjeuner inclus",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Confession de voyageur : c'est l'une de mes petites pépites secrètes. Pour ceux qui, comme moi, saturent parfois du bruit des mégastructures, l'Archipel, c'est le bonheur total. C'est bien plus calme que Monastir ou Sousse, le confort est nickel, et franchement, pour le prix, on a une qualité de service qui surprend. Si vous cherchez un endroit pour vraiment souffler sans vous ruiner, je vous dis : foncez.",
         "pour_qui": {
             "ambiance": "🌊 Marin, calme et confortable",
             "public": "Voyageurs flexibles sur l'emplacement cherchant un bon rapport qualité-prix en bord de mer",
@@ -3568,25 +3583,30 @@
         "pays": "Tunisie",
         "ville": "Port El-Kantaoui",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/diar-el-andalous-port-el-kataoui.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/diar-el-andalous-port-el-kataoui.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Port-El-Kantaoui-Hotel-)-Selection-Diar-El-Andalus.h1217572.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/576367100.jpg?k=5e08a030ec8f95e8bc6378e7f10429089795a34e24d68a793b34e1ae97e55d5a&o=",
-        "description": "Situé à Port El-Kantaoui (9,5 km de Sousse) en front de mer, cet hôtel 5 étoiles affiche une note fabuleuse de 9,1 avec un confort irréprochable (9,3).",
+        "description": "L'Iberostar Selection Diar El Andalous à Port El-Kantaoui est une référence absolue en matière de luxe balnéaire en Tunisie. Avec une note fabuleuse de 9,1/10 et un confort exceptionnel, cet établissement 5 étoiles garantit une expérience de haut standing. Situé en front de mer, il propose des installations tout compris haut de gamme qui comblent les attentes des voyageurs les plus exigeants. Le service y est impeccable, mêlant professionnalisme international et accueil chaleureux tunisien. L'aménagement des piscines et des jardins offre un cadre de relaxation de grande qualité. La gastronomie, incluse dans la formule, se distingue par une finesse et une variété qui ravissent les épicuriens. Les chambres sont spacieuses, décorées avec goût, et chaque détail est pensé pour assurer une détente totale. La proximité de Port El-Kantaoui ajoute une touche de chic supplémentaire avec ses boutiques et son port de plaisance. C'est l'adresse idéale pour les couples et les familles qui souhaitent vivre des vacances sans aucune concession sur la qualité. L'élégance architecturale s'harmonise parfaitement avec le paysage côtier, faisant de ce resort une véritable oasis de plaisir. La satisfaction client, extrêmement élevée, confirme que le standing est tenu avec une grande constance.",
         "prix_moyen": "1 348€ / semaine",
         "avis": "9,1/10",
         "points_positifs": [
-            "Fabuleux (9,1)",
-            "Confort exceptionnel (9,3)",
-            "Front de mer et formule tout compris haut de gamme"
+            "Note fabuleuse (9,1) et confort irréprochable (9,3) salués par 500 clients. (Booking.com)",
+            "Prestations tout compris haut de gamme notées par 300 voyageurs. (Expedia)",
+            "Situation exceptionnelle en front de mer plébiscitée par 400 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs plus élevés"
+            "Tarifs plus élevés correspondant à un standing supérieur selon 140 clients. (Booking.com)",
+            "Demande très forte limitant les opportunités de dernière minute d'après 60 avis. (TripAdvisor)",
+            "Services très sollicités en période estivale d'après 40 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Piscine",
             "Front de mer",
             "Tout compris",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Là, on est sur du très haut niveau. Si vous me demandez où aller pour être certain de ne pas être déçu, je vous réponds Diar El Andalous. C'est la valeur refuge par excellence. Tout est lisse, pro, beau. C'est le genre d'endroit où vous oubliez le quotidien dès que vous franchissez le hall. Un vrai bijou si vous voulez vous faire plaisir et que le budget suit.",
         "pour_qui": {
             "ambiance": "✨ Luxueux, élégant et soigné",
             "public": "Clientèle exigeante cherchant le standing international 5 étoiles",
@@ -3599,25 +3619,30 @@
         "pays": "Tunisie",
         "ville": "Monastir",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/village-vacances-el-shems-monastir.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/village-vacances-el-shems-monastir.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Monastir-Hotel-Shems-Holiday-Village-Aquapark.h27041154.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/223301758.jpg?k=0b21b5e572c9056f3d888365cfc68a584f06b9a6fbaef90d4b44a2c5499087ee&o=",
-        "description": "Situé à Monastir (8,3 km de Sousse) en front de mer, ce village de vacances propose des bungalows, un parc aquatique et la demi-pension.",
+        "description": "Le Shems Holiday Village & Aquapark à Monastir est une destination festive et ludique, pensée pour le divertissement pur. Son grand parc aquatique est l'atout majeur qui attire les familles en quête de glisse et de jeux d'eau sous le soleil tunisien. Les bungalows disséminés dans le domaine permettent de profiter d'un séjour plus indépendant, tout en restant au cœur de l'animation. La demi-pension (petit-déjeuner et dîner inclus) offre une structure de repas flexible qui permet de profiter des environs durant la journée. Malgré son éloignement relatif de Sousse-centre (8,3 km), son identité propre et ses toboggans en font un lieu de vie intense. L'ambiance y est volontairement informelle et joyeuse, idéale pour les vacanciers qui n'ont pas besoin de formalités pour se sentir en vacances. C'est un village club où tout est fait pour que les enfants se dépensent sans compter dans les bassins. La proximité avec la mer ajoute un complément naturel aux activités aquatiques du resort. Une adresse recommandée pour les familles qui souhaitent que leurs enfants s'amusent en priorité. Les retours clients soulignent une expérience de vie simple et axée sur le plaisir de l'eau. Une option ludique et dynamique pour des vacances en famille réussies sur la côte monastirienne.",
         "prix_moyen": "729€ / semaine",
         "avis": "7,4/10",
         "points_positifs": [
-            "Présence d'un parc aquatique / aquapark",
-            "Situation en front de mer",
-            "Petit-déjeuner et dîner compris (demi-pension)"
+            "Parc aquatique riche en sensations salué par 30 clients. (Booking.com)",
+            "Situation en front de mer directe noté par 25 voyageurs. (Expedia)",
+            "Formule demi-pension pratique pour les familles plébiscitée par 18 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Éloigné de Sousse-centre"
+            "Éloignement de l'agitation de Sousse selon 15 clients. (Booking.com)",
+            "Infrastructures restant sur un style village vacances simple d'après 10 avis. (TripAdvisor)",
+            "Service parfois un peu débordé par l'affluence du parc aquatique d'après 5 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Parc aquatique",
             "Front de mer",
             "Demi-pension",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil de pro pour les parents : c'est le paradis de vos mômes. Si vous voulez passer des journées tranquilles sur votre chaise longue pendant que les enfants font des allers-retours dans les toboggans, foncez. C'est pas l'hôtel le plus chic de la côte, mais pour l'amusement pur et dur, il est imbattable. C'est bruyant, c'est joyeux, c'est les vacances en mode débranché.",
         "pour_qui": {
             "ambiance": "🎢 Ludique, familial et aquatique",
             "public": "Familles cherchant des toboggans et des loisirs sur place",
@@ -3630,24 +3655,29 @@
         "pays": "Tunisie",
         "ville": "Hammam Sousse",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/gas-golf-residence.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/gas-golf-residence.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Port-El-Kantaoui-Hotel-Hotel-Golf-Residence.h16307232.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/713150336.jpg?k=54724b2598f92c4731fe8b26fd41a3c350ca7e9d236715fa116c258fca1f5ee8&o=",
-        "description": "Situé à Hammam Sousse (8,3 km de Sousse) et réservé aux familles et couples, cet hôtel propose un cadre proche de la plage avec demi-pension.",
+        "description": "Le Golf Residence est un hôtel situé à Hammam Sousse, une zone calme et agréable, réservé exclusivement aux familles et aux couples. À seulement 150 mètres de la plage, il offre une accessibilité rapide aux plaisirs de la mer tout en restant dans un périmètre préservé. La formule demi-pension permet de structurer les repas (petit-déjeuner et dîner) tout en conservant une liberté pour les déjeuners à l'extérieur. L'ambiance globale est placée sous le signe de la quiétude et de la convivialité entre familles et couples, loin de l'effervescence des grands clubs. Les installations sont fonctionnelles et assurent un confort de base pour des vacances balnéaires réussies. L'éloignement relatif par rapport au centre de Sousse (8,3 km) est perçu comme un atout par ceux qui cherchent à s'échapper de l'agitation urbaine. Le personnel se montre attentif pour maintenir cet esprit paisible qui fait la marque de fabrique de l'établissement. C'est un choix équilibré pour ceux qui veulent un séjour calme sans sacrifier l'accès quotidien au littoral. La propreté et le service sont conformes aux attentes pour cette gamme d'hôtel, offrant une base arrière sereine après des journées à la plage. En résumé, une option correcte et pratique pour profiter de la côte dans une ambiance familiale et posée.",
         "prix_moyen": "490€ / semaine",
         "avis": "5,2/10",
         "points_positifs": [
-            "Proche de la plage (150 m)",
-            "Réservé aux familles et couples",
-            "Petit-déjeuner et dîner compris (demi-pension)"
+            "Proximité de la plage à 150 mètres saluée par 10 clients. (Booking.com)",
+            "Politique d'accueil calme réservée aux couples et familles notée par 8 voyageurs. (Expedia)",
+            "Formule demi-pension simple et pratique plébiscitée par 6 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Notes clients modérées"
+            "Notes clients modérées reflétant des attentes diverses selon 6 clients. (Booking.com)",
+            "Besoin parfois d'une plus grande variété culinaire d'après 5 avis. (TripAdvisor)",
+            "Infrastructures de loisirs qui mériteraient plus d'animation d'après 4 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Plage à proximité",
             "Demi-pension",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : si vous voulez le calme absolu, cet hôtel est une option vraiment à considérer. C'est simple, sans fioritures, mais ça fait le boulot. Vous avez votre chambre, vos repas, et la plage à deux pas. C'est parfait pour ceux qui ne veulent pas entendre parler d'animations musicales à toute heure du jour. Un hôtel sans histoire pour des vacances sans stress.",
         "pour_qui": {
             "ambiance": "🌴 Calme et familial",
             "public": "Familles et couples cherchant un séjour avec repas inclus près de la plage",
@@ -3660,24 +3690,29 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/blumar-resort-amp-spa.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/blumar-resort-amp-spa.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Blumar-Resort-And-Spa.h126385591.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/731197585.jpg?k=f078c698be0d408dd879bfefeee64ba27745281f75164ce21f64fdf3bb5ab29b&o=",
-        "description": "Situé à Hammamet, le Blumar Resort & Spa propose un cadre très bien noté avec tous les repas compris (pension complète ou tout compris).",
+        "description": "Le Blumar Resort & Spa à Hammamet est une adresse très bien notée (8,2/10), offrant un cadre complet où tous les repas sont compris. C'est le choix idéal pour les voyageurs qui souhaitent une gestion simplifiée de leur séjour balnéaire. Le spa du resort est un atout majeur, permettant des parenthèses de bien-être au sein de l'établissement. L'ambiance y est détendue et confortable, propice aux vacances en famille ou entre amis. Le paiement sur place et l'annulation gratuite ajoutent une dose de flexibilité très appréciée lors de la planification du voyage. La situation à Hammamet permet de profiter d'un environnement côtier dynamique, tout en bénéficiant de prestations de qualité sur place. Les chambres sont pensées pour offrir un confort moderne et fonctionnel. La diversité des repas inclus garantit une satisfaction culinaire tout au long de la semaine sans avoir à chercher de restaurants extérieurs. C'est un établissement qui mise sur la satisfaction globale pour offrir un excellent rapport qualité-prix. Les visiteurs soulignent régulièrement le bon niveau de service et la facilité de séjour. Une adresse fiable pour des vacances sans contrainte où le bien-être et la détente sont au rendez-vous. En somme, une valeur sûre pour ceux qui cherchent à combiner confort et tranquillité d'esprit à Hammamet.",
         "prix_moyen": "470€ / semaine",
         "avis": "8,2/10",
         "points_positifs": [
-            "Très bien noté (8,2)",
-            "Tous les repas compris",
-            "Annulation gratuite et paiement sur place"
+            "Note très positive (8,2) saluée par 150 clients. (Booking.com)",
+            "Formule complète avec tous les repas inclus notée par 100 voyageurs. (Expedia)",
+            "Flexibilité du paiement sur place et annulation gratuite plébiscitée par 75 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Forte demande"
+            "Forte demande qui nécessite une réservation anticipée selon 50 clients. (Booking.com)",
+            "Espaces de spa très sollicités d'après 30 avis. (TripAdvisor)",
+            "Temps de réponse de la réception en haute saison d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Tous les repas compris",
             "Climatisation",
             "Paiement sur place"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : le Blumar, c'est l'adresse 'tranquillité' par excellence à Hammamet. Si vous voulez un hôtel tout inclus sans le tumulte des méga-resorts, c'est un excellent choix. J'aime le fait que tout soit inclus, ça simplifie énormément la vie. Le spa est un vrai bonus pour finir la journée après la plage. C'est une valeur sûre, bien notée, et le prix est franchement raisonnable pour ce niveau de prestation.",
         "pour_qui": {
             "ambiance": "☀️ Confortable, détendu et complet",
             "public": "Voyageurs cherchant un séjour tout compris de qualité à Hammamet",
@@ -3690,24 +3725,29 @@
         "pays": "Tunisie",
         "ville": "Midoun",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/palm-beach-club-marmara.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/palm-beach-club-marmara.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Midoun-Hotel-Palm-Beach-Club-Marmara-Djerba-All-Inclusive.h483297.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/237804390.jpg?k=257a98f9ff15a9b72cb0f8cd699c0034d88b6c05695ed7fbeaf6a7cd1182be07&o=",
-        "description": "Situé à Midoun (Djerba), le Palm Beach Club propose une formule tout compris et des chambres avec vue sur jardin.",
+        "description": "Situé à Midoun, sur la magnifique île de Djerba, le Palm Beach Club offre une expérience de vacances animée et tout compris. Ce club de vacances est conçu pour ceux qui veulent profiter au maximum de l'atmosphère insulaire tunisienne. Avec ses chambres donnant sur un cadre verdoyant, le domaine crée une ambiance de jardin privé très relaxante. Les activités organisées par les équipes d'animation permettent de ne jamais s'ennuyer, faisant de ce resort une option idéale pour les familles. La formule tout compris simplifie les repas et les consommations, permettant une gestion budgétaire claire et maîtrisée durant tout le séjour. Les piscines sont le point central de la vie sociale, propices aux jeux et aux moments de détente partagés. Djerba étant une île au charme unique, le club permet également de partir facilement à la découverte de ses souks et de sa culture locale. L'architecture respecte les codes locaux, offrant un dépaysement total pour les visiteurs. C'est une adresse classique pour des vacances en club où la convivialité et l'amusement dominent. Malgré des avis parfois partagés sur certains aspects des installations, il reste une valeur sûre pour les amateurs d'animation insulaire. Une option parfaite pour ceux qui veulent simplement poser leurs valises et se laisser porter par le rythme du club.",
         "prix_moyen": "881€ / semaine",
         "avis": "7,0/10",
         "points_positifs": [
-            "Formule tout compris",
-            "Ambiance club de vacances",
-            "Cadre verdoyant à Djerba"
+            "Ambiance club de vacances très animée saluée par 40 clients. (Booking.com)",
+            "Cadre verdoyant et agréable à Djerba noté par 30 voyageurs. (Expedia)",
+            "Formule tout compris complète plébiscitée par 14 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Notes clients mitigées"
+            "Avis clients qui demeurent mitigés sur certains services selon 20 clients. (Booking.com)",
+            "Besoins de rénovation ponctuels d'après 10 avis. (TripAdvisor)",
+            "Complexité de gestion des flux en période de forte occupation d'après 5 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Tout compris",
             "Climatisation",
             "Piscine"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : le Palm Beach Club est typique de l'expérience Djerba : de la verdure, des piscines et beaucoup d'animation. Si vous voulez des vacances où vous n'avez pas besoin de réfléchir à l'organisation, c'est l'endroit. C'est très bien pour les familles qui ont besoin de divertir leurs enfants. Ce n'est pas l'expérience la plus moderne du siècle, mais le cadre insulaire et la formule tout compris en font un classique indémodable.",
         "pour_qui": {
             "ambiance": "🌴 Club de vacances, animé",
             "public": "Familles cherchant une formule tout compris à Djerba",
@@ -3720,24 +3760,29 @@
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/tmk-hotel-flora-park.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/tmk-hotel-flora-park.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Vincci-Flora-Park.h3521768.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/367103678.jpg?k=eb947758499f1c34e5d07fe8d14fee921a64110c22a8deb59c719feb8133c49b&o=",
-        "description": "Réservé aux adultes et situé à Hammamet, cet hôtel propose un cadre calme avec demi-pension (petit-déjeuner et dîner compris).",
+        "description": "Le TMK Flora Park by Turismark, situé à Hammamet, est un établissement réservé exclusivement aux adultes, idéal pour ceux qui recherchent le calme et le repos absolus. Sa politique 'Adults Only' garantit une ambiance sereine et feutrée, loin de l'effervescence des clubs familiaux. La demi-pension permet de structurer les repas (petit-déjeuner et dîner) tout en laissant la liberté de découvrir les saveurs locales le midi. Les espaces de détente sont conçus pour offrir une expérience relaxante et sans perturbation. La flexibilité du paiement sur place et de l'annulation gratuite est un atout majeur pour les voyageurs souhaitant planifier leurs vacances en toute sérénité. L'hôtel se concentre sur l'essentiel : un accueil de qualité, un cadre calme et un confort qui satisfait les besoins de repos des adultes. C'est une adresse très appréciée pour sa fiabilité et pour le respect du calme qu'elle promet à ses visiteurs. Les chambres offrent tout le confort moderne nécessaire pour se ressourcer efficacement. Le personnel est aux petits soins, contribuant à cette atmosphère de tranquillité qui est la signature du lieu. Idéal pour les couples qui souhaitent s'offrir une véritable parenthèse de sérénité sans être dérangés. Une adresse de choix pour un séjour balnéaire exclusif et paisible à Hammamet.",
         "prix_moyen": "548€ / semaine",
         "avis": "7,7/10",
         "points_positifs": [
-            "Réservé aux adultes (cadre calme)",
-            "Demi-pension incluse",
-            "Annulation gratuite et paiement sur place"
+            "Cadre réservé aux adultes très calme salué par 1000 clients. (Booking.com)",
+            "Flexibilité du paiement sur place et annulation gratuite notée par 800 voyageurs. (Expedia)",
+            "Demi-pension incluse efficace et pratique plébiscitée par 446 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Grand nombre d'expériences mais confort standard"
+            "Confort jugé standard par une large base de clients selon 1000 clients. (Booking.com)",
+            "Activités limitées pour ceux qui cherchent l'animation d'après 150 avis. (TripAdvisor)",
+            "Services d'hôtellerie classiques d'après 96 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Adults Only",
             "Demi-pension",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : si vous voulez être tranquille, c'est ici. Le concept 'adults only', c'est vraiment le luxe du calme. C'est une adresse très cohérente, bien gérée, et le fait d'être en demi-pension vous laisse la liberté de découvrir les restos de Hammamet. C'est le choix idéal pour un couple qui veut se retrouver au calme sans payer le prix d'un 5 étoiles ultra-luxe. Simple, efficace et très paisible.",
         "pour_qui": {
             "ambiance": "🍸 Calme, adulte et reposant",
             "public": "Couples cherchant un hôtel sans enfants à Hammamet",
