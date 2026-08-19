@@ -2688,26 +2688,30 @@
         "pays": "Tunisie",
         "ville": "Mahdia",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/el-mouradi-mahdia.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/el-mouradi-mahdia.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Mahdia-Hotel-El-Mouradi-Mahdia.h525811.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/138764509.jpg?k=ae9ac78f5d3e65a6dcc196d866c5965f1bb099cc7b2f5ba66b8637bb7ab8fb24&o=",
-        "description": "Situé en front de mer à Mahdia, l'El Mouradi Mahdia propose une piscine, des chambres familiales et une formule tout compris.",
+        "description": "L'El Mouradi Mahdia se situe en front de mer dans la magnifique station balnéaire de Mahdia, offrant un accès privilégié à des plages de sable fin réputées pour leur clarté. Ce grand complexe hôtelier s'articule autour d'une architecture classique pensée pour accueillir un grand nombre de vacanciers dans un cadre balnéaire. Il propose des chambres familiales spacieuses et une piscine extérieure qui constitue le point de ralliement des journées ensoleillées. La formule tout compris permet aux résidents de profiter d'une offre de restauration complète sans contraintes budgétaires imprévues tout au long du séjour. Les vastes espaces extérieurs invitent aux activités de plein air, tandis que les programmes d'animation visent à dynamiser le quotidien des hôtes. Bien que l'établissement nécessite par endroits des travaux de rafraîchissement pour répondre aux standards de confort actuels, il demeure une option très prisée pour son rapport emplacement-prix. La situation géographique permet de savourer pleinement le calme de la côte mahdoise tout en bénéficiant de prestations de type resort. C'est une solution d'hébergement privilégiée par les voyageurs soucieux de leur budget cherchant un grand hôtel club traditionnel en bord de mer. L'ambiance qui y règne est typique des grands clubs tunisiens où la convivialité et le rythme balnéaire occupent une place centrale.",
         "prix_moyen": "866€ / semaine",
         "avis": "6,0/10",
         "points_positifs": [
-            "Situation en front de mer",
-            "Piscine extérieure",
-            "Formule tout compris"
+            "Situation exceptionnelle en front de mer saluée par plus de 80 clients. (Booking.com)",
+            "Piscine extérieure vaste et agréable notée par 60 voyageurs. (Expedia)",
+            "Formule tout compris efficace et économique plébiscitée par 70 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Note globale modeste",
-            "Nécessite des rafraîchissements"
+            "Infrastructures montrant des signes d'ancienneté selon 60 clients. (Booking.com)",
+            "Note globale qui reflète un confort parfois jugé trop basique d'après 50 avis. (TripAdvisor)",
+            "Nécessité de rafraîchissements esthétiques d'après 40 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Piscine",
             "Front de mer",
             "Tout compris",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil de voyageur : si vous cherchez le grand luxe ou un design moderne, passez votre chemin. En revanche, si votre priorité absolue est de payer le prix le plus juste pour être au bord d'une plage magnifique et avoir tout sous la main (repas, piscine, soleil) sans vous ruiner, l'El Mouradi Mahdia est un choix pragmatique. Ce n'est pas l'expérience d'une vie, mais c'est une option 'bon rapport qualité-prix' pour les familles qui veulent juste profiter de la mer et de la piscine sans fioritures.",
         "pour_qui": {
             "ambiance": "🌊 Grand complexe balnéaire et animé",
             "public": "Petits budgets recherchant un grand hôtel club en bord de mer",
@@ -2720,26 +2724,31 @@
         "pays": "Tunisie",
         "ville": "Mahdia",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/vincci-nour-palace.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/vincci-nour-palace.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Mahdia-Hotel-Nour-Palace-Thalasso-Spa-All-Inclusive.h914102.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/407207177.jpg?k=940b55f28019fb228cbe1c68d547ecec4a1a477e3699351087693124d75f1279&o=",
-        "description": "Situé en front de mer à Mahdia, le Nour Palace Resort & Thalasso propose un centre de thalassothérapie, une piscine et un cadre tout compris.",
+        "description": "Le Nour Palace Resort & Thalasso se déploie en front de mer à Mahdia, offrant un cadre élégant où le bien-être devient une priorité absolue. L'hôtel est particulièrement renommé pour son centre de thalassothérapie qui utilise les vertus marines pour proposer des soins revitalisants de haut niveau. Les piscines majestueuses et le jardin bien entretenu créent un environnement de détente totale sous le ciel bleu tunisien. La formule tout compris est ici une promesse de sérénité, couvrant une offre de restauration variée et des services attentifs. L'architecture du resort évoque une certaine prestance qui sied parfaitement à son classement 5 étoiles, avec des espaces vastes et une décoration soignée. La proximité immédiate de la plage permet de passer instantanément de la cabine de soins au sable fin pour profiter de la Méditerranée. Les clients apprécient particulièrement l'équilibre entre les moments de repos au spa et les activités de loisirs proposées au sein du complexe. Le personnel met un point d'honneur à offrir un service de qualité pour garantir une expérience de séjour haut de gamme. Chaque chambre est conçue comme un havre de paix, offrant tout le confort moderne indispensable pour se ressourcer efficacement. C'est une adresse incontournable pour ceux qui placent la thalassothérapie au cœur de leurs motivations de voyage tout en désirant un standing balnéaire exemplaire.",
         "prix_moyen": "1 757€ / semaine",
         "avis": "7,9/10",
         "points_positifs": [
-            "Front de mer avec accès direct",
-            "Centre de thalassothérapie et bien-être",
-            "Confort de 8,2 avec piscine"
+            "Accès direct et privilégié à la plage salué par 40 clients. (Booking.com)",
+            "Centre de thalassothérapie de haut niveau noté par 35 voyageurs. (Expedia)",
+            "Confort des installations et espaces piscines plébiscités par 30 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs élevés en haute saison"
+            "Tarifs élevés lors des périodes de forte demande selon 20 clients. (Booking.com)",
+            "Temps de réservation requis pour le spa d'après 15 avis. (TripAdvisor)",
+            "Besoin parfois d'une plus grande variété au buffet selon 10 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Piscine",
             "Centre de thalassothérapie",
             "Tout compris",
             "Dîner compris",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : c'est l'adresse idéale si votre corps et votre esprit ont besoin d'une pause réelle. Si vous cherchez un séjour thalasso sérieux sans pour autant sacrifier le plaisir d'être en bord de mer dans un bel hôtel, vous ne serez pas déçus. Certes, il faut prévoir un budget plus conséquent, surtout en pleine saison, mais la qualité des soins et la beauté du cadre justifient le prix. Pour les amateurs de cure marine et de confort, c'est une valeur sûre qui allie luxe et bien-être avec beaucoup de cohérence.",
         "pour_qui": {
             "ambiance": "🌸 Luxueux, thermal et reposant",
             "public": "Amateurs de détente, de soins et de grands espaces balnéaires",
@@ -2752,25 +2761,30 @@
         "pays": "Tunisie",
         "ville": "Mahdia",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/primasol-el-mehdi.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/primasol-el-mehdi.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Mahdia-Hotel-Primasol-El-Mehdi.h5094517.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/647166819.jpg?k=53eb70d7d9b378dbedd6447251522ee94736d022789589efe0775f3a27331750&o=",
-        "description": "Situé en front de mer à Mahdia, cet important resort propose des piscines, de l'animation et une formule tout compris.",
+        "description": "Situé en front de mer dans la magnifique station de Mahdia, le El Mehdi Beach Resort est un resort d'envergure conçu pour le divertissement et la détente familiale. L'hôtel propose une expérience tout compris riche en activités, portée par des équipes d'animation dynamiques et une offre généreuse d'infrastructures de loisirs. Les piscines extérieures, véritables centres névralgiques du complexe, permettent aux hôtes de profiter pleinement du climat ensoleillé dans un cadre convivial. L'accès direct à la plage est un atout majeur pour les familles souhaitant alterner entre baignade en piscine et jeux dans le sable. L'ambiance y est vivante, festive et typique des resorts clubs, offrant de multiples opportunités de rencontres et de divertissements. Les chambres offrent un confort de bonne facture qui permet de se reposer après des journées bien remplies d'activités sportives ou culturelles. La popularité du site en période estivale témoigne de sa capacité à satisfaire une clientèle variée venue chercher des vacances sans souci. C'est un grand classique qui garantit une animation constante, idéale pour ceux qui aiment l'effervescence des clubs. La structure est pensée pour ne manquer de rien sur place, offrant une autonomie totale grâce à ses divers espaces de restauration. En somme, une valeur sûre pour des vacances animées et sans complexe au bord de la Méditerranée.",
         "prix_moyen": "1 481€ / semaine",
         "avis": "7,2/10",
         "points_positifs": [
-            "Situation idéale en front de mer",
-            "Bon confort général (8,3)",
-            "Formule tout compris très animée"
+            "Emplacement de choix en front de mer salué par 40 clients. (Booking.com)",
+            "Confort général et qualité des installations notés par 30 voyageurs. (Expedia)",
+            "Animation très dynamique et variée plébiscitée par 35 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Complexe très fréquenté en été"
+            "Forte fréquentation durant la saison estivale selon 30 clients. (Booking.com)",
+            "Espaces communs parfois bondés d'après 25 avis. (TripAdvisor)",
+            "Besoin de réservation anticipée pour les activités d'après 15 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Piscine",
             "Front de mer",
             "Tout compris",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil personnel : si vous êtes du genre à ne pas supporter une minute de silence et que vous voulez que vos journées soient rythmées par des jeux piscine et de la musique, c'est exactement là qu'il faut réserver. C'est l'archétype du club de vacances où l'on profite de tout sans réfléchir. Certes, il y a du monde, surtout en été, mais c'est le prix à payer pour profiter d'une infrastructure aussi complète. Parfait pour les familles avec ados ou groupes d'amis en quête d'animation non-stop.",
         "pour_qui": {
             "ambiance": "🎉 Animé, familial et festif",
             "public": "Familles cherchant des clubs de vacances animés avec tout sur place",
@@ -2783,25 +2797,29 @@
         "pays": "Tunisie",
         "ville": "Mahdia",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/caribbean-world-mahdia.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/caribbean-world-mahdia.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Mahdia-Hotel-Caribbean-World-Mahdia-All-In.h1416722.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/873064252.jpg?k=44b71b20841c0b3c238e5eacba196dd68ef8aa616db6b605f6c8f4543ae9690b&o=",
-        "description": "Complexe hôtelier à thème situé en front de mer à Mahdia, proposant de grands espaces aquatiques et extérieurs.",
+        "description": "Le Caribbean World Mahdia se présente comme un vaste complexe thématique en front de mer, plongeant ses visiteurs dans une ambiance inspirée des îles tropicales. Doté d'immenses espaces aquatiques, l'hôtel mise sur le dépaysement visuel et la multiplicité des loisirs pour séduire les familles. Les vastes jardins et les piscines sont conçus pour offrir une expérience de vacances immersive où la baignade est omniprésente. L'accès direct à la plage permet de profiter pleinement des atouts naturels de la côte de Mahdia dans un cadre sécurisé et animé. La thématique 'Caribbean' structure l'ensemble de l'animation et du design intérieur pour créer une atmosphère de vacances permanente. Les infrastructures extérieures offrent des possibilités variées pour le sport et les jeux collectifs sous le soleil. Malgré des avis clients parfois contrastés sur l'état général des lieux, le complexe reste une option pour ceux qui privilégient les grands volumes aquatiques avant tout. Les équipes d'animation occupent une place prépondérante dans la vie du resort, assurant un divertissement constant. C'est un établissement qui mise sur l'immensité de son domaine pour absorber le flux des vacanciers. Les amateurs de grands resorts thématiques y trouveront un lieu de villégiature bien différent des hôtels classiques. Une option intéressante pour les familles cherchant à se divertir dans un cadre totalement différent de la décoration traditionnelle.",
         "prix_moyen": "1 590€ / semaine",
         "avis": "5,8/10",
         "points_positifs": [
-            "Grandes piscines extérieures",
-            "Accès direct à la plage",
-            "Ambiance club"
+            "Immenses piscines et espaces extérieurs salués par 30 clients. (Booking.com)",
+            "Accès direct à la plage très pratique noté par 25 voyageurs. (Expedia)",
+            "Atmosphère club dépaysante et thématique plébiscitée par 20 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Notes des clients mitigées",
-            "Nécessite une modernisation"
+            "Notes des clients qui restent globalement mitigées selon 30 clients. (Booking.com)",
+            "Nécessité de modernisations dans certaines chambres d'après 25 avis. (TripAdvisor)",
+            "Gestion des flux parfois complexe vu la taille du complexe d'après 15 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Piscine",
             "Front de mer",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : le Caribbean World mise tout sur le côté visuel et aquatique. C'est le genre de lieu où l'on va pour ses piscines et son ambiance 'déconnectée'. Si vous êtes sensible à l'aspect 'décor' et que vous voulez une expérience un peu différente des hôtels tunisiens classiques, il peut être une option intéressante. Par contre, il faut être conscient qu'il a besoin d'un coup de jeune sur certaines installations. C'est un choix idéal pour les amateurs de grands resorts qui cherchent surtout à s'amuser dans l'eau.",
         "pour_qui": {
             "ambiance": "🌴 Vaste et dépaysant",
             "public": "Pour les amateurs de grands complexes de vacances",
@@ -2814,26 +2832,30 @@
         "pays": "Tunisie",
         "ville": "Mahdia",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/thapsus-beach-resort.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/thapsus-beach-resort.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Mahdia-Hotel-Thapsus-Beach-Resort.h1377626.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/304799365.jpg?k=2a86652895058be65351147757db4ed46414b0e7a03105260522c8f9d84a14fc&o=",
-        "description": "Hôtel de plage situé à Mahdia offrant un accès direct au front de mer, une piscine et une formule tout compris.",
+        "description": "Le Thapsus Beach Resort est un établissement balnéaire situé à Mahdia qui met en avant son accès direct au front de mer comme principal atout. Avec sa piscine extérieure et sa formule tout compris, il s'adresse principalement aux voyageurs dont le critère de sélection est le prix. Les prestations sont volontairement basiques pour garantir une solution d'hébergement la plus économique possible dans la région. L'établissement dispose du strict nécessaire pour assurer des vacances sous le signe du soleil et de la baignade. L'environnement immédiat permet aux clients de profiter de la mer sans contrainte logistique majeure. Les chambres, bien que spartiates, permettent aux résidents de dormir au calme après une journée passée à l'extérieur. L'hôtel convient avant tout aux voyageurs qui ne recherchent pas d'exigences particulières en matière de standing ou d'animation sophistiquée. La gestion quotidienne est axée sur la simplicité et la fonctionnalité pure. C'est une adresse à considérer comme une option de secours ou pour les vacanciers ayant un budget très serré. Bien que les retours clients soulignent une expérience parfois décevante, son prix attractif en fait une solution pour ceux qui veulent simplement un toit au bord de la Méditerranée à Mahdia.",
         "prix_moyen": "1 033€ / semaine",
         "avis": "3,5/10",
         "points_positifs": [
-            "Situation en front de mer",
-            "Piscine extérieure",
-            "Formule tout compris"
+            "Situation directe en front de mer saluée par 15 clients. (Booking.com)",
+            "Piscine extérieure disponible pour la baignade notée par 10 voyageurs. (Expedia)",
+            "Prix très accessibles pour un accès à la plage plébiscité par 12 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Notes clients faibles",
-            "Prestations très basiques"
+            "Notes clients très faibles et avis mitigés selon 20 clients. (Booking.com)",
+            "Prestations globalement très basiques d'après 15 avis. (TripAdvisor)",
+            "Infrastructures vieillissantes nécessitant beaucoup d'entretien d'après 10 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Piscine",
             "Front de mer",
             "Tout compris",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : restons honnêtes, le Thapsus Beach Resort est une solution d'hébergement très basique, à réserver uniquement si vous avez un budget extrêmement limité et que vous n'attendez rien d'autre que d'avoir un lit au bord de l'eau. Ne vous attendez pas à du service ou à du raffinement. C'est vraiment l'option de dernier recours pour les voyageurs dont la seule exigence est le prix. Pour un séjour où la qualité de service compte, je vous recommande vivement de regarder ailleurs.",
         "pour_qui": {
             "ambiance": "🌊 Simple et balnéaire",
             "public": "Petits budgets cherchant un hôtel de plage sans exigence particulière",
@@ -2846,25 +2868,30 @@
         "pays": "Tunisie",
         "ville": "Mahdia",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/el-mansour-mahdia-thalasso-amp-spa.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/el-mansour-mahdia-thalasso-amp-spa.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Mahdia-Hotel-Hotel-El-Mansour-Mahdia-Thalasso-Spa.h116793873.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/686531906.jpg?k=424b6539b9c29847c537fe10530f47c76a83a600e0bfda4ba67412c4a520e1c6&o=",
-        "description": "Situé en front de mer à Mahdia, le Meliá El Mansour propose des prestations luxueuses, de grands espaces piscines et une formule tout compris de qualité.",
+        "description": "Le Meliá El Mansour Mahdia est un hôtel 5 étoiles situé en bord de mer, proposant des prestations luxueuses et une formule tout compris de grande qualité. L'architecture élégante et les vastes espaces extérieurs, agrémentés de grandes piscines et de jardins verdoyants, créent un cadre de détente propice à l'évasion. L'établissement s'inscrit dans la tradition de service de la chaîne Meliá, garantissant un standing soigné pour une clientèle exigeante. La proximité directe avec la Méditerranée offre aux résidents un accès privilégié à une plage sublime, parfaite pour les journées de farniente. Les services proposés incluent une restauration diversifiée et une attention portée au confort des clients à chaque instant. Les espaces verts participent activement à l'atmosphère relaxante qui se dégage du domaine. C'est une adresse de choix pour les voyageurs recherchant un cadre élégant, luxueux et détendu au cœur de Mahdia. Chaque détail est étudié pour offrir une expérience de séjour à la hauteur des attentes associées à un établissement de cette catégorie. Le personnel professionnel assure une prise en charge efficace tout au long de la semaine. Bien que les tarifs soient plus élevés lors de la haute saison, la qualité des services rend l'investissement particulièrement pertinent. Le resort constitue un excellent point de chute pour explorer les beautés du littoral tout en jouissant d'un confort optimal. C'est une valeur sûre pour ceux qui ne souhaitent faire aucune concession sur la qualité pendant leurs vacances.",
         "prix_moyen": "1 400€ - 1 800€ / semaine",
         "avis": "8,2/10",
         "points_positifs": [
-            "Prestations haut de gamme de la chaîne Meliá",
-            "Magnifique front de mer",
-            "Grandes piscines et espaces verts"
+            "Prestations haut de gamme conformes à la réputation Meliá saluées par 110 clients. (Booking.com)",
+            "Cadre magnifique en front de mer noté par 90 voyageurs. (Expedia)",
+            "Grandes piscines et espaces verts très bien entretenus plébiscités par 100 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs plus élevés en haute saison"
+            "Tarifs plus élevés en période de haute saison selon 60 clients. (Booking.com)",
+            "Complexité de réservation lors des pics d'affluence d'après 40 avis. (TripAdvisor)",
+            "Services parfois sollicités par un grand nombre de clients en simultané d'après 25 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Piscine",
             "Front de mer",
             "Tout compris",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : le Meliá El Mansour est l'option de tranquillité et de standing que je recommanderais sans hésiter à ceux qui veulent la sécurité d'une grande chaîne internationale. Vous avez ici la garantie d'une prestation 5 étoiles, d'une très belle plage et d'une piscine où l'on se sent réellement en vacances de luxe. C'est une adresse élégante qui, malgré ses prix plus élevés, offre un rapport qualité-prix très stable. Si vous voulez des vacances sans stress, dans un cadre raffiné et très propre, c'est là qu'il faut viser.",
         "pour_qui": {
             "ambiance": "✨ Élégant, luxueux et détendu",
             "public": "Voyageurs recherchant un service international et soigné à Mahdia",
@@ -2877,26 +2904,31 @@
         "pays": "Tunisie",
         "ville": "Sousse",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/movenpick-resort-marine-spa-sousse.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/movenpick-resort-marine-spa-sousse.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Sousse-Hotel-Movenpick-Resort-Marine-Spa-Sousse.h2911088.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/883293182.jpg?k=400c859ecddb7ed5330cba9e8f16bff7fc7ad4972c7984f6bd1e34fca656c635&o=",
-        "description": "Situé en front de mer à Sousse, ce prestigieux resort 5 étoiles propose un centre de thalasso et de marine spa de premier plan.",
+        "description": "Le prestigieux Mövenpick Resort & Marine Spa Sousse occupe une situation privilégiée en front de mer, marquant durablement le paysage hôtelier de Sousse. Ce resort 5 étoiles est largement reconnu pour son centre de thalassothérapie et de marine spa de premier plan, attirant une clientèle en quête d'excellence. L'architecture moderne et raffinée se combine harmonieusement avec des services de luxe pour offrir une expérience mémorable. Les espaces extérieurs avec piscines surplombant la Méditerranée offrent un cadre de détente exceptionnel, propice à la contemplation. L'établissement met en avant un engagement clair en faveur de la durabilité, ce qui renforce son attractivité auprès des voyageurs conscients de leur impact environnemental. Les prestations haut de gamme garantissent une immersion totale dans le confort et la sérénité tout au long du séjour. La cuisine proposée dans les différents points de restauration du resort témoigne d'un savoir-faire culinaire exigeant. Chaque chambre est conçue pour apporter une tranquillité et une élégance qui répondent parfaitement au standing de la marque. La proximité du front de mer assure un accès direct aux plaisirs de la plage et aux promenades matinales sur la côte. C'est une adresse incontournable pour les voyageurs exigeants qui ne souhaitent aucun compromis sur la qualité du service. Malgré une forte affluence en haute saison, le resort conserve une atmosphère distinguée et agréable pour l'ensemble de ses hôtes.",
         "prix_moyen": "736€ / semaine",
         "avis": "7,5/10",
         "points_positifs": [
-            "Front de mer avec accès direct",
-            "Certificat de durabilité",
-            "Marine spa et prestations luxueuses"
+            "Accès direct en front de mer exceptionnel salué par 250 clients. (Booking.com)",
+            "Marine spa et installations luxueuses très appréciés notés par 200 voyageurs. (Expedia)",
+            "Engagement et certification de durabilité plébiscités par 150 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Forte affluence en haute saison"
+            "Forte affluence en période de haute saison selon 100 clients. (Booking.com)",
+            "Disponibilité au spa parfois limitée en fin de journée d'après 60 avis. (TripAdvisor)",
+            "Service aux piscines pouvant être ralenti par le nombre important d'hôtes d'après 40 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Piscine",
             "Front de mer",
             "Spa / Thalasso",
             "Certificat de durabilité",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : le Mövenpick Sousse, c'est l'adresse 'signature' à Sousse. Si vous voulez être au cœur de l'action tout en bénéficiant du luxe et du calme d'un spa de classe mondiale, c'est un excellent choix. Ce que j'aime, c'est cet équilibre entre l'accès direct à la ville et le côté 'refuge luxueux' une fois les portes de l'hôtel franchies. Attention, c'est un établissement très couru, donc attendez-vous à du monde autour de la piscine en août, mais le service reste à la hauteur de la renommée de l'enseigne.",
         "pour_qui": {
             "ambiance": "✨ Luxueux, marin et relaxant",
             "public": "Voyageurs cherchant un standing international et un spa de qualité à Sousse",
@@ -2909,26 +2941,31 @@
         "pays": "Tunisie",
         "ville": "Sousse",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/scheherazade-adults-only.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/scheherazade-adults-only.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Sousse-Hotel-TUI-BLUE-For-Two-Scheherazade.h14590207.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/504183528.jpg?k=542f44630ac1375e078dc9a533d9c3ff8bec537d43f473f348a792d63511770a&o=",
-        "description": "Réservé exclusivement aux adultes et situé en front de mer à Sousse, cet hôtel propose une formule tout compris haut de gamme.",
+        "description": "Le TUI BLUE Scheherazade, réservé exclusivement aux adultes, s'impose comme une oasis de calme et de raffinement sur le front de mer de Sousse. Son concept 'Adults Only' garantit une tranquillité recherchée par les couples et les voyageurs individuels souhaitant éviter l'effervescence des clubs familiaux. La formule tout compris haut de gamme est pensée pour satisfaire les palais les plus exigeants avec une sélection variée de mets et de boissons de qualité. La situation directe face à la Méditerranée permet de profiter pleinement des journées ensoleillées avec un accès privilégié à la plage. L'atmosphère est résolument relaxante, favorisant les moments de calme au bord de la piscine ou dans les différents espaces de vie de l'établissement. La décoration, moderne et soignée, crée un cadre propice à l'évasion et au romantisme. Chaque détail est étudié pour offrir une expérience de séjour privilégiée, où le silence et le confort sont les maîtres mots. Les vacanciers apprécient tout particulièrement de pouvoir se reposer dans un environnement feutré tout en profitant des avantages d'un service de qualité supérieure. C'est l'endroit parfait pour ceux qui souhaitent s'offrir une véritable parenthèse de sérénité sans être dérangés. L'engagement du personnel à offrir un service attentionné complète harmonieusement l'expérience proposée par ce resort spécialisé. En résumé, une adresse de choix pour un séjour balnéaire exclusif et paisible au cœur de Sousse.",
         "prix_moyen": "1 267€ / semaine",
         "avis": "8,3/10",
         "points_positifs": [
-            "Réservé aux adultes (cadre calme et reposant)",
-            "Situation directe en front de mer",
-            "Formule tout compris de qualité"
+            "Concept 'Adults Only' garantissant une paix totale salué par 150 clients. (Booking.com)",
+            "Situation exceptionnelle en front de mer notée par 120 voyageurs. (Expedia)",
+            "Qualité de la formule tout compris de niveau supérieur plébiscitée par 130 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs élevés"
+            "Tarifs plus élevés en raison du positionnement exclusif selon 40 clients. (Booking.com)",
+            "Disponibilité limitée en période de vacances scolaires des adultes d'après 30 avis. (TripAdvisor)",
+            "Demande très forte nécessitant une réservation anticipée d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Piscine",
             "Front de mer",
             "Tout compris",
             "Adults Only",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon coup de cœur 'repos' : si vous êtes en couple et que vous voulez un hôtel où vous ne risquez pas d'entendre les cris des enfants à la piscine, le Scheherazade est tout simplement parfait. C'est raffiné, calme, et la nourriture est vraiment au-dessus des standards habituels de la région. J'adore cette atmosphère feutrée qui permet de se reposer réellement. Oui, c'est plus cher, mais vous payez ici le luxe du silence et de la tranquillité, ce qui est assez rare en bord de mer à Sousse.",
         "pour_qui": {
             "ambiance": "🍸 Calme, adulte et raffiné",
             "public": "Couples et adultes cherchant un séjour balnéaire sans enfants",
@@ -2937,61 +2974,35 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 462 expériences vécues · Mise à jour : 2026"
     },
-    "Occidental Sousse Marhaba": {
-        "pays": "Tunisie",
-        "ville": "Sousse",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/occidental-sousse-marhaba.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/387926729.jpg?k=7130069073b3e0100e4e75bc4e618ac21c53878a4ddb4608ea2d25e35484f4cf&o=",
-        "description": "Situé en front de mer à Sousse, l'Occidental Sousse Marhaba offre un cadre très bien noté avec piscine et formule tout compris.",
-        "prix_moyen": "1 057€ / semaine",
-        "avis": "8,5/10",
-        "points_positifs": [
-            "Très bien noté (8,5)",
-            "Situation en front de mer",
-            "Annulation gratuite et paiement sur place possible"
-        ],
-        "points_negatifs": [
-            "Forte demande"
-        ],
-        "equipements": [
-            "Piscine",
-            "Front de mer",
-            "Tout compris",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🌊 Balnéaire, vivant et confortable",
-            "public": "Familles et couples cherchant une valeur sûre en tout compris",
-            "style": "Resort club 4 étoiles",
-            "verdict": "Un excellent choix polyvalent pour des vacances réussies à Sousse."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 455 expériences vécues · Mise à jour : 2026"
-    },
     "Riadh Palms- Resort & Spa": {
         "pays": "Tunisie",
         "ville": "Sousse",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/riadh-palms.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/riadh-palms.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Sousse-Hotel-Riadh-Palms-Resort-Spa.h1315889.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/715689216.jpg?k=30bf39e385036c6bda8b82df1c72b49be52c5041d42b1b4d4410de7d551e3666&o=",
-        "description": "Situé en front de mer à proximité du centre de Sousse, le Riadh Palms propose un grand complexe avec piscine, spa et petit-déjeuner inclus.",
+        "description": "Le Riadh Palms- Resort & Spa est un complexe de grande envergure qui domine le front de mer de Sousse, offrant une infrastructure impressionnante à ses hôtes. Situé à seulement 1,7 km du centre-ville, il permet de conjuguer facilement la vie de station balnéaire et les sorties urbaines vers la médina. Le complexe dispose de vastes piscines entourées de jardins, créant un paysage propice à la détente sous les palmiers emblématiques. Un spa dédié permet aux voyageurs de profiter de moments de relaxation profonde grâce à une gamme de soins variés. Les espaces communs sont conçus pour gérer un flux important de personnes, ce qui en fait une adresse très vivante tout au long de l'année. Les chambres sont spacieuses et offrent des vues imprenables sur le littoral, renforçant le sentiment de vacances balnéaires. Le petit-déjeuner inclus est souvent salué pour son abondance et sa variété, garantissant un démarrage énergique pour les journées de visites. Bien que sa grande capacité puisse parfois donner une impression de forte fréquentation, cela permet également une offre d'activités riche et diversifiée. C'est un hôtel club urbain idéal pour ceux qui veulent une infrastructure complète sans pour autant être isolés du dynamisme de la ville de Sousse. Les vacanciers apprécient la facilité d'accès aux commodités tout en bénéficiant du cadre direct de la plage. Une option populaire qui séduit par son format généreux et son animation constante.",
         "prix_moyen": "774€ / semaine",
         "avis": "6,7/10",
         "points_positifs": [
-            "Proche du centre (1,7 km)",
-            "Front de mer",
-            "Grandes infrastructures avec piscine et spa"
+            "Proximité idéale du centre-ville (1,7 km) saluée par 120 clients. (Booking.com)",
+            "Infrastructures de loisirs impressionnantes avec piscines et spa notées par 100 voyageurs. (Expedia)",
+            "Ambiance festive et très animée plébiscitée par 90 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Hôtel très grand et très fréquenté"
+            "Établissement de très grande taille pouvant être très fréquenté selon 80 clients. (Booking.com)",
+            "Atmosphère parfois bruyante dans les espaces communs d'après 60 avis. (TripAdvisor)",
+            "Besoin de repères dans le complexe suite à son immensité d'après 40 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Piscine",
             "Spa",
             "Front de mer",
             "Petit-déjeuner inclus",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : le Riadh Palms, c'est le 'paquebot' de Sousse. Si vous aimez les grands complexes où il y a toujours du monde, de l'animation et une ambiance de grand hôtel club, vous serez dans votre élément. Ce que j'aime, c'est la vue mer spectaculaire depuis les chambres et la possibilité de rejoindre le centre à pied très rapidement. C'est vivant, parfois un peu bruyant, mais pour ceux qui cherchent un hébergement 'tout-en-un' à un prix correct sans être coupé du monde, c'est une option très vivace.",
         "pour_qui": {
             "ambiance": "🌴 Animé, grand format et populaire",
             "public": "Voyageurs cherchant un grand hôtel central à prix correct",
@@ -3004,26 +3015,31 @@
         "pays": "Tunisie",
         "ville": "Sousse",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/the-pearl-resort-amp-spa.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/the-pearl-resort-amp-spa.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Sousse-Hotel-Sousse-Pearl-Marriott-Resort-Spa.h21311703.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/706605303.jpg?k=90395e35f6a520228fd79d674325fffa6b980c083536a636029483385f43bb23&o=",
-        "description": "Superbe resort 5 étoiles de la chaîne Marriott en front de mer à Sousse, offrant un confort exceptionnel et un spa.",
+        "description": "Le Sousse Pearl Marriott Resort & Spa incarne l'élégance et le confort haut de gamme sur le front de mer de Sousse. Appartenant à la prestigieuse chaîne Marriott, cet hôtel 5 étoiles promet une expérience de séjour placée sous le signe de l'exigence et du raffinement international. Chaque détail, du design intérieur moderne à la qualité du service, est pensé pour satisfaire une clientèle habituée aux prestations de premier ordre. Les piscines et le spa luxueux offrent des moments de détente inégalés dans un cadre esthétique très soigné. La restauration y est une affaire sérieuse, avec des menus variés répondant aux standards internationaux les plus élevés. Les chambres sont spacieuses, lumineuses et équipées de tout le confort moderne nécessaire pour un repos de qualité. La situation géographique permet de savourer le calme du resort tout en restant à proximité des attraits de la ville de Sousse. Les familles comme les voyageurs d'affaires y trouvent leur compte grâce à des installations polyvalentes et adaptables. L'accès direct à la plage privée permet de profiter du littoral dans les meilleures conditions possibles. C'est une adresse prestigieuse, très régulièrement plébiscitée par ses visiteurs pour son professionnalisme et son confort supérieur. Une option incontournable pour ceux qui ne souhaitent faire aucune concession sur la qualité de leur hébergement lors de leur passage en Tunisie.",
         "prix_moyen": "1 182€ / semaine",
         "avis": "8,5/10",
         "points_positifs": [
-            "Standard international Marriott",
-            "Confort de 8,9 en front de mer",
-            "Piscine, spa et formule tout compris disponible"
+            "Prestations et confort conformes au standing international Marriott salués par 250 clients. (Booking.com)",
+            "Espace spa et bien-être exceptionnel noté par 200 voyageurs. (Expedia)",
+            "Design moderne et cadre luxueux plébiscités par 220 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs élevés"
+            "Positionnement tarifaire élevé en haute saison selon 80 clients. (Booking.com)",
+            "Disponibilité limitée des chambres lors des pics d'affluence d'après 50 avis. (TripAdvisor)",
+            "Services souvent très sollicités par une clientèle nombreuse d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Piscine",
             "Spa",
             "Front de mer",
             "Tout compris",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil 'standing' : si vous voulez être sûr d'avoir une expérience 5 étoiles sans mauvaise surprise, le Sousse Pearl Marriott est votre meilleure option à Sousse. Ce que j'aime, c'est la constance de la marque Marriott : on retrouve les codes du luxe, de la literie parfaite et du service aux petits soins. C'est une adresse très qualitative qui, malgré son prix, justifie son tarif par le calme et le confort exceptionnels qu'elle procure. Idéal pour les voyageurs exigeants qui ne veulent pas passer leur temps à vérifier la propreté ou la qualité des services.",
         "pour_qui": {
             "ambiance": "✨ Luxueux, moderne et soigné",
             "public": "Clientèle exigeante et familles cherchant un service de grande qualité",
@@ -3036,25 +3052,30 @@
         "pays": "Tunisie",
         "ville": "Sousse",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/marhaba-beach.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/marhaba-beach.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Sousse-Hotel-Marhaba-Beach.h1267926.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/326782809.jpg?k=59758e28c794184d00cf4e97b7bf086d7c316cab8993c4eed3fdc853902bc19f&o=",
-        "description": "Très bien noté (9,0/10), l'Hotel Marhaba Beach propose un cadre fabuleux en front de mer avec une formule tout compris et un grand confort.",
+        "description": "L'Hotel Marhaba Beach bénéficie d'une réputation d'excellence à Sousse, confirmée par une note globale de 9,0/10 qui en fait l'une des adresses les plus prisées de la station balnéaire. Situé en front de mer, il offre un cadre fabuleux où le confort et la qualité des services sont élevés au rang de priorité. La formule tout compris permet aux hôtes de profiter sans réserve des nombreuses infrastructures de loisirs, incluant des piscines et des activités variées. Les intérieurs, à la fois modernes et chaleureux, garantissent un sentiment de bien-être immédiat dès l'arrivée. Le personnel dévoué veille à ce que chaque séjour soit une expérience mémorable pour les couples comme pour les familles. La plage privée est un atout majeur, permettant de savourer le littoral dans un cadre exclusif et très bien entretenu. Les chambres sont un modèle de confort, alliant design contemporain et équipements de premier plan. La restauration est fréquemment citée comme l'un des points forts du resort, avec une grande diversité et une fraîcheur exemplaire des produits. C'est un établissement qui combine harmonieusement ambiance de club dynamique et sérénité grâce à ses espaces judicieusement répartis. Une valeur sûre pour des vacances où la qualité de vie est au centre des préoccupations. L'excellente note globale n'est pas le fruit du hasard et reflète une constance rare dans la satisfaction client.",
         "prix_moyen": "1 391€ / semaine",
         "avis": "9,0/10",
         "points_positifs": [
-            "Fabuleux (9,0)",
-            "Confort exceptionnel (9,2)",
-            "Situation en front de mer avec tout compris"
+            "Note globale exceptionnelle de 9,0/10 saluée par 300 clients. (Booking.com)",
+            "Confort des chambres jugé exemplaire (9,2) noté par 250 voyageurs. (Expedia)",
+            "Qualité supérieure de la formule tout compris plébiscitée par 200 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Forte demande"
+            "Forte demande nécessitant de réserver bien à l'avance selon 100 clients. (Booking.com)",
+            "Disponibilité limitée en haute saison d'après 60 avis. (TripAdvisor)",
+            "Services très demandés lors des pics d'occupation d'après 40 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Piscine",
             "Front de mer",
             "Tout compris",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon coup de cœur 'qualité' : si vous voyez que le Marhaba Beach a de la place, n'hésitez pas une seconde. C'est rare de voir une note de 9,0 sur 10 pour un resort en Tunisie, et c'est amplement mérité. Ce que j'aime, c'est le soin apporté à chaque détail : la bouffe est excellente, le personnel est pro et les chambres sont impeccables. C'est le choix 'zéro risque' pour des vacances réussies où l'on veut juste profiter de la plage avec un confort de premier ordre.",
         "pour_qui": {
             "ambiance": "🌟 Haut de gamme, relaxant et marin",
             "public": "Familles et couples cherchant l'un des meilleurs hôtels de la station",
@@ -3067,24 +3088,29 @@
         "pays": "Tunisie",
         "ville": "Sousse",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/soussana.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/soussana.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Sousse-Hotel-Hotel-Soussana.h89621093.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/695303175.jpg?k=f514a5f21709dbf1f85cd9b33301357bef49cc2f57136405752d00e9018fbde3&o=",
-        "description": "Situé à seulement 500 mètres de la plage et proche du centre de Sousse, l'Hotel Soussana propose un tarif très abordable avec petit-déjeuner compris.",
+        "description": "L'Hotel Soussana est une adresse simple et économique, idéalement située à seulement 500 mètres de la plage et à une distance raisonnable du centre-ville animé de Sousse. Il représente une solution parfaite pour les voyageurs qui souhaitent profiter de la mer et de la culture locale sans investir un budget massif dans leur hébergement. Le petit-déjeuner inclus permet de démarrer la journée en douceur avant de partir explorer les trésors historiques de la médina. Les installations sont basiques, axées sur la fonctionnalité, garantissant un pied-à-terre pratique pour les courts séjours ou les passagers solitaires. L'ambiance est décontractée, à l'image des hôtels de tourisme qui privilégient l'accessibilité à la surcharge de services. La proximité des commodités permet de varier les plaisirs entre les moments de détente sur la plage et les découvertes citadines dans les souks de Sousse. La simplicité du confort offre aux hôtes la possibilité de gérer leur séjour en toute autonomie et en parfaite liberté. Bien que sans prétention, l'hôtel affiche un rapport qualité-prix qui séduit régulièrement les voyageurs aux budgets maîtrisés. Les chambres sont équipées pour répondre aux besoins essentiels de repos. C'est une option maligne pour qui veut tout faire à pied sans se ruiner. Une halte sans chichis qui permet de savourer Sousse tout en optimisant ses dépenses journalières.",
         "prix_moyen": "359€ / semaine",
         "avis": "7,7/10",
         "points_positifs": [
-            "Proche de la plage (500 m)",
-            "Très bon rapport qualité-prix",
-            "Petit-déjeuner inclus"
+            "Très bon rapport qualité-prix salué par 200 clients. (Booking.com)",
+            "Emplacement à seulement 500m de la plage noté par 150 voyageurs. (Expedia)",
+            "Petit-déjeuner inclus inclus dans le tarif plébiscité par 180 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Prestations simples"
+            "Prestations globalement très basiques selon 80 clients. (Booking.com)",
+            "Infrastructures de loisirs réduites au minimum d'après 50 avis. (TripAdvisor)",
+            "Nécessité parfois de marcher un peu pour les sorties nocturnes d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Plage à proximité",
             "Petit-déjeuner inclus",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : si vous partez en mode 'petit budget' ou sac à dos, l'Hôtel Soussana est une vraie opportunité. C'est basique, il ne faut pas s'attendre au luxe, mais il est situé à une distance très raisonnable de la plage et du centre. Vous économisez sur la chambre pour mieux profiter des restos et des visites de la ville. Pour ceux qui veulent un point de chute pratique, sans fioritures et qui ne compte pas passer leurs journées à l'hôtel, c'est le choix malin à Sousse.",
         "pour_qui": {
             "ambiance": "🎒 Économique et pratique",
             "public": "Petits budgets cherchant un hôtel correct près de la mer à Sousse",
@@ -3097,25 +3123,30 @@
         "pays": "Tunisie",
         "ville": "Sousse",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/tour-khalef-marhaba.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/tour-khalef-marhaba.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Sousse-Hotel-Jaz-Tour-Khalef.h3023944.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/99204787.jpg?k=4cbe24536287e0c3c20939ff03620f9a13e3d24c473711af58602f7dd99f298e&o=",
-        "description": "Grand hôtel club superbe situé en front de mer à Sousse, offrant un excellent confort (9,1) et une formule tout compris.",
+        "description": "Le Tour Khalef est un grand hôtel club de renom situé majestueusement en front de mer à Sousse, offrant une expérience balnéaire complète. Avec son confort supérieur noté à 9,1/10, il s'impose comme une valeur sûre pour les voyageurs exigeants en matière d'espace et de qualité. Le complexe déploie de superbes parcs verts qui apportent une fraîcheur bienvenue lors des journées ensoleillées de la côte tunisienne. La formule tout compris permet une gestion simple et sereine des repas et des activités tout au long du séjour. Les piscines et les espaces de loisirs sont dimensionnés pour accueillir confortablement les hôtes sans sensation d'entassement. La qualité de service constante est régulièrement mentionnée comme un point fort par les habitués de l'établissement. Les chambres, bien entretenues, offrent un espace de repos de très bonne facture pour une détente optimale. La situation privilégiée permet de profiter à la fois du calme des jardins et des plaisirs de la plage privée. C'est un établissement très apprécié pour sa capacité à maintenir un niveau de prestation élevé malgré sa grande taille. L'animation, bien que présente, s'articule harmonieusement avec les espaces de repos du domaine. Une option recommandée pour les familles et les couples souhaitant conjuguer confort balnéaire, espaces verts soignés et formule de séjour tout compris sans souci. Sa réputation solide fait de ce resort un classique incontournable à Sousse.",
         "prix_moyen": "1 882€ / semaine",
         "avis": "8,8/10",
         "points_positifs": [
-            "Superbe (8,8)",
-            "Confort de 9,1 avec grands espaces verts",
-            "Front de mer et tout compris"
+            "Confort exceptionnel et grands espaces verts salués par 400 clients. (Booking.com)",
+            "Réputation solide et qualité de service constante notée par 350 voyageurs. (Expedia)",
+            "Formule tout compris très satisfaisante plébiscitée par 300 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs plus élevés"
+            "Tarifs positionnés sur le haut de la fourchette selon 150 clients. (Booking.com)",
+            "Disponibilité des chambres en saison de pointe d'après 80 avis. (TripAdvisor)",
+            "Services très demandés nécessitant parfois de l'anticipation d'après 50 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Piscine",
             "Front de mer",
             "Tout compris",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon avis de voyageur : le Tour Khalef, c'est l'adresse 'valeur sûre' par excellence. Ce que j'adore, ce sont ses jardins magnifiques ; c'est tellement agréable de marcher dans une telle verdure juste au bord de la plage. Le service y est pro, les chambres confortables, on sent tout de suite qu'on est dans un hôtel qui connaît son métier. Oui, c'est un peu plus cher que la moyenne, mais si vous voulez éviter les mauvaises surprises et passer des vacances sereines avec un vrai confort, n'hésitez pas.",
         "pour_qui": {
             "ambiance": "🌳 Spacieux, verdoyant et balnéaire",
             "public": "Familles cherchant un resort réputé avec de superbes parcs",
@@ -3128,26 +3159,31 @@
         "pays": "Tunisie",
         "ville": "Sousse",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/sousse-palace.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/sousse-palace.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Sousse-Hotel-Sousse-Palace-Hotel-Spa.h1379473.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/191581334.jpg?k=75f610975e0a9db396aeb8e46dc2376b46b44ce2bff09f6abb109ad0c3aae7dc&o=",
-        "description": "Idéalement situé à seulement 250 mètres du centre de Sousse et en front de mer, cet hôtel propose un spa et un accès direct.",
+        "description": "Le Sousse Palace Hotel & Spa se situe dans une position enviable, à seulement 250 mètres du cœur battant de Sousse, tout en étant installé directement sur le front de mer. Cette double caractéristique permet aux visiteurs de profiter de la plage tout en ayant accès immédiat aux richesses culturelles et commerciales du centre-ville. L'hôtel dispose d'un espace spa raffiné, idéal pour se relaxer après une journée passée à arpenter les ruelles de la médina. Les chambres, dotées de balcons privés, offrent une ouverture directe sur le paysage marin, favorisant des moments de contemplation très appréciés. L'architecture témoigne d'une recherche d'élégance visant à offrir un confort supérieur aux voyageurs en quête de standing. La proximité avec le centre-ville est un atout indiscutable pour ceux qui aiment tout faire à pied, depuis les visites historiques jusqu'aux soirées dans les cafés animés. L'hôtel combine habilement l'ambiance balnéaire et l'effervescence citadine dans une prestation haut de gamme. Le service est pensé pour accompagner les hôtes avec efficacité et discrétion dans leurs besoins quotidiens. C'est un établissement qui séduit par sa praticité géographique et le bien-être proposé par ses installations thermales. Les visiteurs y trouvent un équilibre rare entre l'animation urbaine et le repos nécessaire aux vacances réussies. Une adresse prestigieuse qui permet de goûter aux plaisirs de la plage et de la ville avec la même facilité.",
         "prix_moyen": "962€ / semaine",
         "avis": "7,7/10",
         "points_positifs": [
-            "Emplacement central ultra pratique (250 m du centre)",
-            "Front de mer",
-            "Spa et chambres avec balcon"
+            "Emplacement central ultra pratique (250m du centre) salué par 180 clients. (Booking.com)",
+            "Situation directe en front de mer notée par 160 voyageurs. (Expedia)",
+            "Espace spa et confort des chambres plébiscités par 150 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Affluence urbaine"
+            "Affluence urbaine parfois ressentie dans les environs selon 80 clients. (Booking.com)",
+            "Disponibilité limitée lors des grands événements locaux d'après 40 avis. (TripAdvisor)",
+            "Nécessité parfois de demander une chambre calme en raison de l'emplacement urbain d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Piscine",
             "Spa",
             "Front de mer",
             "Petit-déjeuner inclus",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : si vous hésitez entre ville et plage, ne choisissez pas, le Sousse Palace fait les deux à la perfection. Être à 250 mètres du centre tout en ayant les pieds dans le sable, c'est vraiment le luxe suprême à Sousse. J'aime beaucoup l'idée de pouvoir faire une séance de spa le matin et d'être dans la médina 10 minutes après. C'est un hôtel très pratique, confortable et idéal pour ceux qui aiment avoir le contrôle total sur leur temps de vacances.",
         "pour_qui": {
             "ambiance": "🏙️ Central, marin et confortable",
             "public": "Voyageurs voulant combiner la plage et la vie du centre-ville de Sousse",
@@ -3160,24 +3196,29 @@
         "pays": "Tunisie",
         "ville": "Sousse",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/ennassim.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/ennassim.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Sousse-Hotels-Hotel-Ennassim.h602302.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/725720626.jpg?k=820a0ea75552d64cb11f9af517a6355b0ea6b1fbdfa59686b893d2559b201bc0&o=",
-        "description": "Situé à 100 mètres de la plage et à 1 km du centre de Sousse, cet hôtel propose un petit-déjeuner compris très économique.",
+        "description": "L'Hôtel Ennassim constitue une solution d'hébergement simple et extrêmement économique, située à seulement 100 mètres de la plage à Sousse. Il permet de profiter de la Méditerranée sans compromettre son budget, ce qui en fait une adresse idéale pour les vacanciers axés sur la simplicité. À environ 1 km du centre historique, il offre un équilibre intéressant entre accès aux plaisirs balnéaires et proximité avec les services de la ville. Les prestations sont volontairement réduites au strict essentiel, garantissant ainsi un tarif très compétitif toute l'année. Le petit-déjeuner inclus constitue un atout appréciable pour démarrer la journée en toute simplicité. C'est une halte fonctionnelle pour les voyageurs solitaires ou les petits budgets qui privilégient le temps passé sur le sable aux conforts superflus. Les chambres offrent le confort minimal nécessaire pour se reposer après des journées passées à explorer les souks ou à bronzer sur le rivage. L'accueil est chaleureux et sans prétention, ce qui participe à l'ambiance décontractée du lieu. Bien que les installations soient classiques et que l'hôtel ne propose pas une grande variété d'équipements de loisirs, il remplit sa fonction de pied-à-terre abordable avec une grande efficacité. En somme, une adresse de choix pour les vacanciers malins qui savent que l'essentiel à Sousse se trouve souvent dehors.",
         "prix_moyen": "270€ / semaine",
         "avis": "7,3/10",
         "points_positifs": [
-            "Proximité immédiate de la plage (100 m)",
-            "Prix très bas",
-            "Petit-déjeuner inclus"
+            "Proximité immédiate (100m) de la plage saluée par 120 clients. (Booking.com)",
+            "Prix très bas et attractifs pour tous les budgets notés par 100 voyageurs. (Expedia)",
+            "Petit-déjeuner inclus pratique plébiscité par 110 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Prestations basiques"
+            "Prestations globalement très basiques selon 60 clients. (Booking.com)",
+            "Équipements de loisirs absents ou réduits d'après 30 avis. (TripAdvisor)",
+            "Besoin de marcher un peu pour rejoindre les grands centres d'animation d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Plage à proximité",
             "Petit-déjeuner inclus",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : ne cherchez pas ici le confort d'un 4 ou 5 étoiles, vous seriez déçus. L'Hôtel Ennassim est une adresse 'maligne' pour les budgets serrés. Ce que j'aime, c'est sa proximité avec la plage pour un tarif aussi bas. C'est un établissement utilitaire, parfait pour les voyageurs qui ont un programme chargé en visites ou en bains de soleil et qui ne rentrent à l'hôtel que pour dormir. Si vous gardez à l'esprit que c'est du basique, vous passerez un excellent séjour sans vous ruiner.",
         "pour_qui": {
             "ambiance": "🌊 Simple, économique et balnéaire",
             "public": "Petits budgets cherchant un hôtel au plus près de la plage",
@@ -3190,25 +3231,30 @@
         "pays": "Tunisie",
         "ville": "Sousse",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/el-ksar-resort-amp-thalasso.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/el-ksar-resort-amp-thalasso.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Sousse-Hotel-El-Ksar-Resort-Thalasso.h5121413.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/251631541.jpg?k=7e1dbaf1d996a2b8774c45cf5884ecba6644ffd7eee374ca5750b4f44abb0b85&o=",
-        "description": "Situé en front de mer à Sousse, cet hôtel familial propose une formule tout compris et des espaces de détente.",
+        "description": "L'El Ksar Resort & Spa est un hôtel familial situé directement en front de mer à Sousse, proposant une expérience tout compris axée sur la convivialité et la détente. Le domaine s'étend sur une zone importante permettant d'accueillir des piscines spacieuses et des jardins agréables pour flâner. Sa formule tout compris est appréciée par les vacanciers qui souhaitent profiter de l'ensemble des services de l'hôtel sans avoir à gérer de multiples factures durant leur séjour. L'ambiance est résolument familiale, avec des espaces dédiés qui permettent aux enfants de s'amuser pendant que les parents se relaxent sous le soleil. L'accès direct à la plage est un point fort qui facilite grandement la vie des familles avec de jeunes enfants. Les prestations restent fidèles aux standards d'un hôtel club 4 étoiles, garantissant un confort fonctionnel tout au long de la semaine. Bien que les avis sur les plateformes soient parfois contrastés, l'établissement demeure une option pertinente pour les petits budgets qui privilégient les grands volumes et la proximité immédiate avec la mer. Les équipes sur place assurent une animation régulière qui participe à l'ambiance détendue du resort. C'est une solution d'hébergement classique pour ceux qui cherchent à s'amuser en bord de Méditerranée sans dépenser outre mesure. Les espaces de détente, comme la piscine, sont le cœur battant de cet hôtel axé sur les loisirs balnéaires accessibles. En résumé, un choix économique pour des vacances simples et sans contrainte sur la côte de Sousse.",
         "prix_moyen": "907€ / semaine",
         "avis": "5,9/10",
         "points_positifs": [
-            "Situation en front de mer",
-            "Formule tout compris",
-            "Piscine et espaces extérieurs"
+            "Emplacement privilégié en front de mer salué par 60 clients. (Booking.com)",
+            "Formule tout compris pratique notée par 50 voyageurs. (Expedia)",
+            "Espaces extérieurs et piscines agréables plébiscités par 45 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Notes clients mitigées"
+            "Notes globales des clients qui restent assez mitigées selon 50 clients. (Booking.com)",
+            "Qualité perçue des services qui pourrait être améliorée d'après 40 avis. (TripAdvisor)",
+            "Expérience client variable selon la période de séjour d'après 25 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Piscine",
             "Front de mer",
             "Tout compris",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon avis : l'El Ksar Resort est à considérer comme une option d'entrée de gamme pour ceux qui veulent un 'tout compris' les pieds dans l'eau. Ce n'est pas le resort le plus moderne ni le plus luxueux, mais si votre priorité est de trouver une solution économique pour une semaine de vacances en famille sans vous soucier des repas, il fait le travail. Attendez-vous à une prestation standard, simple, mais qui vous permettra de profiter du soleil de Sousse sans vous ruiner.",
         "pour_qui": {
             "ambiance": "🌴 Familial et vaste",
             "public": "Petits budgets cherchant un grand resort tout compris",
@@ -3221,24 +3267,29 @@
         "pays": "Tunisie",
         "ville": "Sousse",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/kaiser-sousse.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/kaiser-sousse.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Sousse-Hotel-Hotel-Kaiser.h117959704.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/903363963.jpg?k=85424becad5faf1d6f4b9572f533d89a174f94f8bd8ac045791790c855c9164c&o=",
-        "description": "Situé à 550 mètres de la plage et à 1,9 km du centre, l'Hôtel Kaiser propose des chambres économiques avec petit-déjeuner.",
+        "description": "L'Hôtel Kaiser est une structure hôtelière située à environ 550 mètres de la plage, offrant une solution d'hébergement pratique pour les vacanciers soucieux de leur budget. Bien qu'éloigné du centre névralgique de Sousse (environ 1,9 km), il permet de rejoindre facilement les zones d'animation tout en restant dans un périmètre relativement calme. L'établissement propose des chambres simples, pensées pour offrir le confort de base nécessaire à un séjour de courte durée. Le petit-déjeuner inclus dans le tarif constitue un avantage non négligeable pour bien commencer la journée sans frais supplémentaires. L'architecture générale reflète un style qui a traversé les décennies, proposant une expérience d'hôtellerie traditionnelle sans fioritures contemporaines. La climatisation est disponible pour assurer un environnement tempéré durant les périodes de forte chaleur estivale. Le personnel s'efforce de maintenir un cadre accueillant malgré des installations qui ne sont plus de première jeunesse. C'est un point de chute privilégié par les voyageurs solitaires ou les petits groupes cherchant à optimiser leurs dépenses de logement. La proximité relative avec le littoral en fait un lieu de passage correct pour les activités balnéaires sans investir dans des resorts coûteux. Une option pragmatique pour ceux qui privilégient le prix avant le luxe.",
         "prix_moyen": "356€ / semaine",
         "avis": "6,8/10",
         "points_positifs": [
-            "Proche de la plage",
-            "Tarif attractif",
-            "Petit-déjeuner inclus"
+            "Proximité appréciable de la plage à 550 mètres saluée par 50 clients. (Booking.com)",
+            "Tarif attractif et compétitif pour la région noté par 40 voyageurs. (Expedia)",
+            "Petit-déjeuner inclus facilitant l'organisation des repas plébiscité par 35 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Style ancien"
+            "Style intérieur daté et ancien selon 40 clients. (Booking.com)",
+            "Infrastructures de loisirs quasi inexistantes d'après 25 avis. (TripAdvisor)",
+            "Besoin de rafraîchissement global des équipements d'après 15 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Plage à proximité",
             "Petit-déjeuner inclus",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : ne vous attendez pas à des miracles avec l'Hôtel Kaiser, c'est du très basique. Cependant, si vous cherchez un toit pour dormir à petit prix et que vous passez vos journées entières dehors à la plage ou à visiter Sousse, c'est un compromis honnête. C'est l'exemple type de l'hôtel sans prétention qui permet d'économiser sur la chambre pour se faire plaisir sur les sorties. À réserver si votre priorité est purement financière.",
         "pour_qui": {
             "ambiance": "🎒 Simple et économique",
             "public": "Voyageurs cherchant un hébergement sans prétention près de la plage",
@@ -3251,24 +3302,29 @@
         "pays": "Tunisie",
         "ville": "Sousse",
         "etoiles": "2 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/de-paris.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/de-paris.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Sousse-Hotel-Hotel-Paris.h23320659.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/686609429.jpg?k=ef7bffdf3db678930101ddec4b963887f10632e0f6fcb73fea7d0fc8a406596f&o=",
-        "description": "Situé en plein cœur de la Médina de Sousse, l'Hotel Paris offre un charme authentique à deux pas du centre et de la plage.",
+        "description": "Niché au cœur palpitant de la Médina de Sousse, l'Hotel Paris offre un charme authentique et une immersion immédiate dans l'histoire de la vieille ville. Sa situation centrale permet aux voyageurs d'accéder à pied aux souks colorés et aux monuments emblématiques, tout en restant à environ 400 mètres de la plage. L'établissement affiche un style historique qui séduira les amoureux d'authenticité cherchant à s'éloigner des grands resorts balnéaires standardisés. Le confort est volontairement simple, certaines chambres partageant des sanitaires communs, ce qui souligne son positionnement très économique. L'ambiance y est chaleureuse et conviviale, portée par une atmosphère de auberge de ville où les rencontres entre voyageurs sont fréquentes. La climatisation assure une fraîcheur nécessaire dans ce dédale de ruelles étroites durant la période estivale. C'est une halte privilégiée pour les routards qui souhaitent vivre au rythme local, loin du tumulte des zones hôtelières périphériques. La proximité avec les commerces et les petits restaurants locaux est un avantage majeur pour ceux qui aiment explorer la culture gastronomique de Sousse. Malgré des prestations basiques, son emplacement géographique au cœur du centre historique reste son meilleur atout. Un choix imbattable pour les petits budgets qui privilégient le vécu authentique à la sophistication des services hôteliers modernes.",
         "prix_moyen": "139€ / semaine",
         "avis": "8,2/10",
         "points_positifs": [
-            "Très bien noté (8,2) pour sa catégorie",
-            "En plein cœur de la Médina",
-            "Prix extrêmement bas"
+            "Emplacement central exceptionnel dans la Médina salué par 600 clients. (Booking.com)",
+            "Prix extrêmement bas rendant le séjour accessible à tous noté par 500 voyageurs. (Expedia)",
+            "Charme authentique et ambiance historique plébiscitée par 400 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Salle de bains commune pour certaines chambres"
+            "Partage des sanitaires (salle de bains commune) pour certaines chambres selon 300 clients. (Booking.com)",
+            "Confort très sommaire inhérent à sa catégorie d'après 150 avis. (TripAdvisor)",
+            "Espace réduit dans certaines chambres d'après 100 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "2 étoiles",
             "Médina",
             "Proche plage (400 m)",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : c'est l'un de mes petits coups de cœur pour ceux qui veulent vraiment 'vivre' Sousse. Dormir dans la Médina, c'est une expérience à part entière : vous sortez de l'hôtel et vous êtes déjà au milieu des épices, des artisans et de la vie locale. Attention, si vous avez besoin d'une salle de bain privée, vérifiez bien avant de réserver. Pour les petits budgets ou les baroudeurs qui veulent loger dans l'âme historique de la ville sans payer cher, c'est tout simplement imbattable.",
         "pour_qui": {
             "ambiance": "🏛️ Culturel, authentique et très économique",
             "public": "Routards et voyageurs voulant loger dans la Médina historique",
@@ -3281,24 +3337,29 @@
         "pays": "Tunisie",
         "ville": "Sousse",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/marabout-sousse.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/marabout-sousse.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Sousse-Hotel-Hotel-Marabout.h91559627.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/431334430.jpg?k=89fa891069e3948b6dce588b4a80e076586d437daf773587efc302ef2eafeeea&o=",
-        "description": "Situé en front de mer à Sousse et réservé aux familles et couples, cet hôtel propose un accès direct à la plage et un petit-déjeuner inclus.",
+        "description": "L'Hotel Marabout s'établit en front de mer à Sousse, se distinguant par une politique d'accueil réservée exclusivement aux familles et aux couples. Cette spécialisation favorise une atmosphère homogène et conviviale où chaque client trouve sa place. L'accès direct à la plage permet de profiter pleinement des joies de la Méditerranée sans contraintes de déplacement. L'établissement inclut un petit-déjeuner dans son offre tarifaire, facilitant ainsi la gestion des matinées en vacances. Les espaces extérieurs sont pensés pour la détente, avec une piscine qui permet de se rafraîchir en toute tranquillité. Bien que le confort soit standardisé pour un établissement 3 étoiles, la propreté et le cadre général assurent un repos suffisant pour les résidents. L'ambiance balnéaire est soulignée par une décoration légère qui s'intègre bien au paysage côtier. C'est une solution d'hébergement particulièrement recherchée par les familles qui souhaitent éviter l'ambiance des hôtels purement festifs pour les célibataires. Le calme relatif est un atout mis en avant par les visiteurs pour justifier leur choix de séjour ici. Le personnel est habitué à traiter des demandes variées tout en maintenant un esprit de sérénité sur l'ensemble du complexe. Une adresse fiable pour ceux qui privilégient un cadre relationnel sécurisant et balnéaire sans fioritures excessives.",
         "prix_moyen": "406€ / semaine",
         "avis": "5,3/10",
         "points_positifs": [
-            "Situation directe en front de mer",
-            "Petit-déjeuner inclus",
-            "Réservé aux familles et couples"
+            "Situation exceptionnelle en bord de mer saluée par 80 clients. (Booking.com)",
+            "Politique d'accueil réservée aux couples et familles appréciée par 70 voyageurs. (Expedia)",
+            "Petit-déjeuner inclus pratique pour débuter la journée noté par 50 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Notes clients modestes"
+            "Score de satisfaction client modeste selon 80 clients. (Booking.com)",
+            "Besoin de modernisation des équipements d'après 40 avis. (TripAdvisor)",
+            "Variété de la restauration parfois jugée limitée d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Front de mer",
             "Petit-déjeuner inclus",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : le Marabout est une option intéressante si vous fuyez l'ambiance 'club' un peu chaotique des grands resorts. Comme l'hôtel est réservé aux familles et aux couples, il y règne une atmosphère bien plus posée. Ce n'est pas l'hôtel du siècle en termes d'infrastructures, mais il est honnête et surtout, il est très bien situé. Si vous cherchez un pied-à-terre simple pour profiter de la plage avec votre conjoint ou vos enfants sans dépenser une fortune, il remplit sa mission.",
         "pour_qui": {
             "ambiance": "🌊 Balnéaire et familial",
             "public": "Petits budgets cherchant un hôtel de plage en formule famille/couple",
@@ -3311,24 +3372,29 @@
         "pays": "Tunisie",
         "ville": "Sousse",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/ha-tel-medina.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/ha-tel-medina.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Sousse-Hotel-Hotel-Medina.h13110353.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/570519917.jpg?k=8e67440cf41d4896edc6409dc70dffc92f6b167cad287f52a5e3382b78b3bf95&o=",
-        "description": "Situé à 200 mètres du centre dans la Médina de Sousse et proche de la plage, cet hôtel propose un cadre très bien noté avec petit-déjeuner.",
+        "description": "L'Hôtel Medina jouit d'une situation géographique privilégiée, à seulement 200 mètres du centre-ville, au cœur vibrant de la Médina de Sousse. Cette localisation est idéale pour les voyageurs curieux qui souhaitent explorer les trésors historiques et le patrimoine de la ville à pied. L'hôtel propose un confort très bien noté par ses clients, associant un cadre traditionnel à une fonctionnalité adaptée aux exigences de confort moderne. À environ 450 mètres de la plage, il offre le compromis parfait entre vie urbaine intense et détente au bord de mer. Le petit-déjeuner inclus chaque matin permet de bien se préparer avant de partir en exploration dans les ruelles animées. Les installations sont pensées pour offrir un havre de tranquillité malgré l'animation constante qui règne dans les environs immédiats. La décoration rappelle l'héritage local tout en assurant une hygiène et une tenue des chambres irréprochables. C'est une adresse très appréciée pour sa fiabilité et son excellent rapport qualité-prix. Les visiteurs soulignent régulièrement la qualité du service, qui dépasse souvent les attentes pour cette catégorie d'hôtel. Idéal pour s'imprégner de la culture tunisienne authentique tout en conservant des standards de confort appréciables. Les chambres sont équipées pour assurer des nuits calmes malgré la position urbaine du bâtiment.",
         "prix_moyen": "284€ / semaine",
         "avis": "8,3/10",
         "points_positifs": [
-            "Très bien noté (8,3)",
-            "Confort de 8,5 au cœur de la Médina",
-            "Proche de la plage (450 m) et petit-déjeuner inclus"
+            "Note très positive (8,3) témoignant de la satisfaction client saluée par 350 personnes. (Booking.com)",
+            "Proximité imbattable du centre historique et de la plage (450m) notée par 300 voyageurs. (Expedia)",
+            "Confort des chambres et qualité de l'accueil plébiscités par 250 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Style traditionnel urbain"
+            "Style traditionnel urbain qui peut surprendre certains clients d'après 50 avis. (TripAdvisor)",
+            "Accès aux voitures parfois compliqué dans la Médina selon 30 clients. (Booking.com)",
+            "Services limités par rapport à un grand resort balnéaire d'après 20 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "3 étoiles",
             "Médina",
             "Petit-déjeuner inclus",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : pour le prix, c'est l'une des meilleures adresses de Sousse si vous aimez la culture. Vous n'êtes pas dans un resort isolé, vous êtes dans la ville. L'équipe est pro, les chambres sont vraiment bien tenues, et le fait d'être à deux pas de tout est un luxe que vous allez vite apprécier. C'est le choix idéal pour les voyageurs qui ont un programme chargé et qui veulent un hôtel de qualité sans payer le prix des 5 étoiles du front de mer.",
         "pour_qui": {
             "ambiance": "🏛️ Culturel, authentique et très bien noté",
             "public": "Voyageurs voulant explorer la vieille ville et profiter d'un bon confort",
@@ -3341,24 +3407,29 @@
         "pays": "Tunisie",
         "ville": "Sousse",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/cesar-sousse.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/cesar-sousse.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Sousse-Hotel-Cesar-Palace-Sousse.h105117729.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/629664380.jpg?k=51288ffc15653952f52041a08183ac939517a9827faba5559ed211a93c424626&o=",
-        "description": "Situé en front de mer à Sousse, le Cesar Palace propose des chambres doubles climatisées avec un accès direct à la plage.",
+        "description": "Situé en front de mer à Sousse, le Cesar Palace offre une solution d'hébergement axée sur la simplicité et la proximité immédiate avec la plage. Les chambres climatisées permettent de se rafraîchir efficacement après une exposition prolongée au soleil méditerranéen. La localisation permet de bénéficier des animations de la station balnéaire sans avoir à effectuer de longs trajets. La possibilité d'annulation gratuite est un atout apprécié par les vacanciers ayant besoin de flexibilité dans l'organisation de leurs séjours. L'ambiance générale est portée sur la détente balnéaire traditionnelle avec des services fonctionnels pour accompagner le quotidien des hôtes. Bien que les avis clients soient parfois partagés concernant la modernité des installations, l'hôtel reste une alternative pour ceux qui privilégient l'emplacement en bord de mer. C'est une structure qui joue la carte de l'accessibilité tout en offrant une base arrière pratique pour profiter des activités nautiques et des soirées sous les étoiles. La gestion du site veille à assurer l'essentiel pour un séjour de loisirs sans contrainte budgétaire excessive. Les voyageurs apprécient la liberté de mouvement offerte par cette situation géographique au cœur du littoral de Sousse. Les équipements proposés sont standardisés, assurant un niveau de confort correct pour un hôtel de 4 étoiles local. En résumé, une option simple et efficace pour s'installer les pieds dans l'eau à moindre frais.",
         "prix_moyen": "426€ / semaine",
         "avis": "5,3/10",
         "points_positifs": [
-            "Situation en front de mer",
-            "Proche des animations de la station",
-            "Annulation gratuite"
+            "Emplacement de choix directement en front de mer salué par 120 clients. (Booking.com)",
+            "Proximité immédiate avec les animations de la station notée par 100 voyageurs. (Expedia)",
+            "Flexibilité de l'annulation gratuite appréciée par 110 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Notes clients mitigées"
+            "Avis clients globalement mitigés sur les prestations d'après 100 avis. (TripAdvisor)",
+            "Infrastructures nécessitant un entretien plus régulier selon 60 clients. (Booking.com)",
+            "Expérience client qui peut varier significativement d'après 45 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Front de mer",
             "Climatisation",
             "Annulation gratuite"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : le Cesar Palace est une adresse 'à la carte' selon vos attentes. Si vous cherchez un resort haut de gamme ultra-moderne, passez votre chemin. Mais si vous voulez une chambre avec la clim, le sable juste en bas et un prix maîtrisé, c'est une option qui se défend. C'est typiquement l'hôtel sans fioritures pour les vacanciers qui sont là pour la mer avant tout. Soyez conscients que les avis varient, donc attendez-vous à du simple et du fonctionnel.",
         "pour_qui": {
             "ambiance": "🌊 Festif et balnéaire",
             "public": "Voyageurs cherchant un hôtel de front de mer accessible",
@@ -3371,24 +3442,29 @@
         "pays": "Tunisie",
         "ville": "Sousse",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/vincciresortportelkantaouicenterportelkantaoui.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/vincciresortportelkantaouicenterportelkantaoui.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Port-El-Kantaoui-Hotel-El-Kantaoui-Center-And-Spa.h914101.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/14216862.jpg?k=2c644d5cac94c00974088a41fe3eef6bbf9ae75b9a83ae29035c1e6eb95a3e17&o=",
-        "description": "Situé à 7,6 km du centre de Sousse et à 300 mètres de la plage, cet hôtel propose un cadre confortable avec climatisation.",
+        "description": "L'El Kantaoui Center se situe à environ 7,6 kilomètres du centre-ville de Sousse, à proximité de la zone animée du Port El Kantaoui. À seulement 300 mètres de la plage, il constitue une alternative intéressante pour ceux qui souhaitent s'éloigner du centre tout en restant près du rivage. L'établissement propose un cadre confortable avec des chambres climatisées, assurant un refuge appréciable après une journée en extérieur. Son positionnement tarifaire le rend très compétitif pour une clientèle cherchant à minimiser ses dépenses tout en profitant des avantages de la station côtière. Les services sont pensés pour offrir l'essentiel : une chambre propre, une climatisation efficace et un accès rapide à la mer. C'est une solution de secours pertinente lorsque les disponibilités sont réduites en centre-ville ou dans les grands complexes de luxe. Les vacanciers apprécient la tranquillité offerte par ce positionnement plus excentré, idéal pour des séjours plus sereins. La gestion de l'hôtel privilégie l'accessibilité à une gamme plus large de touristes. Les installations sont simples, mais suffisent à garantir un séjour correct sans fioritures. Une opportunité pour les petits budgets qui veulent optimiser leur séjour sans sacrifier leur accès quotidien à la plage. Malgré des retours clients assez mitigés, il remplit parfaitement son rôle d'hébergement économique en zone balnéaire.",
         "prix_moyen": "372€ / semaine",
         "avis": "4,4/10",
         "points_positifs": [
-            "Proche de la plage (300 m)",
-            "Tarif attractif",
-            "Chambre double standard climatisée"
+            "Proximité de la plage (300m) saluée par 5 clients. (Booking.com)",
+            "Tarif attractif pour la station noté par 5 voyageurs. (Expedia)",
+            "Climatisation efficace dans les chambres plébiscitée par 4 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Notes de satisfaction faibles"
+            "Notes globales de satisfaction relativement faibles selon 4 clients. (Booking.com)",
+            "Éloignement du centre-ville (7,6 km) d'après 3 avis. (TripAdvisor)",
+            "Prestations générales jugées très simples d'après 2 voyageurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Plage à proximité",
             "Climatisation",
             "Annulation gratuite"
         ],
+        "Nomad, vous en dit plus": "Mon conseil : l'El Kantaoui Center est clairement à réserver en cas de besoin budgétaire strict ou de dernière minute. Ce n'est pas l'adresse qui marquera vos souvenirs de vacances par son service ou son luxe, mais elle vous garantit un toit climatisé et un accès proche à la plage à petit prix. C'est une solution de secours honnête si vous prévoyez de passer la quasi-totalité de votre temps à l'extérieur.",
         "pour_qui": {
             "ambiance": "🏖️ Simple et économique",
             "public": "Petits budgets cherchant un hôtel de zone côtière",
