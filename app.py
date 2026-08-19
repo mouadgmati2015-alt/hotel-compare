@@ -12,7 +12,7 @@ import contact
 # 1. Configuration globale de la page (Doit être la première commande Streamlit)
 st.set_page_config(
     page_title="MyHotelCompare - Comparateur d'hôtels",
-    page_icon="🏨",
+    page_icon="logo_4.png",  # Remplace "🏨" par le fichier de votre logo
     layout="wide",
     initial_sidebar_state="expanded",
 )
