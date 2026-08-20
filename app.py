@@ -676,7 +676,7 @@ def generate_sitemap():
     # Force le chemin absolu basé sur l'emplacement réel de app.py
     base_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(base_dir, "data")
-    sitemap_path = os.path.join(base_dir, "sitemap.xml")
+    sitemap_path = os.path.join(base_dir, "static", "sitemap.xml")
     
     base_url = "https://www.myhotelcompare.com"
     urls = [
