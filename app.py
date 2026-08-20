@@ -60,8 +60,9 @@ st.markdown("""
             }
             element.setAttribute('content', content);
         }
-        // Ajout de la description officielle pour Google
-        setMetaTag('description', 'Comparez les meilleurs hôtels, tarifs et destinations du monde entier sur MyHotelCompare. Trouvez votre séjour idéal au meilleur prix.');
+        
+        // --- AJOUT DE LA DESCRIPTION OFFICIELLE POUR GOOGLE ---
+        setMetaTag('description', 'Comparez les meilleurs hôtels, tarifs et destinations sur MyHotelCompare. Trouvez votre séjour idéal au meilleur prix garanti.');
         
         // Vos balises Open Graph existantes
         setMetaTag('og:title', 'HotelCompare - Comparateur d’hôtels');
