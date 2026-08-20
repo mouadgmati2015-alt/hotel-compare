@@ -673,10 +673,10 @@ import json
 import urllib.parse
 
 def generate_sitemap():
-    # Force le chemin absolu basé sur l'emplacement réel de app.py
+    # Force le chemin absolu à la racine du projet
     base_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(base_dir, "data")
-    sitemap_path = os.path.join(base_dir, "static", "sitemap.xml")
+    sitemap_path = os.path.join(base_dir, "sitemap.xml")
     
     base_url = "https://www.myhotelcompare.com"
     urls = [
@@ -715,7 +715,7 @@ def generate_sitemap():
     with open(sitemap_path, "w", encoding="utf-8") as f:
         f.write(xml_content)
     
-    print(f"SUCCÈS : Sitemap généré avec {len(urls)} URLs !")
+    print(f"SUCCÈS : Sitemap généré à la racine avec {len(urls)} URLs !")
 
 # Exécution immédiate
 generate_sitemap()
