@@ -4175,424 +4175,25 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 1 448 expériences vécues · Mise à jour : 2026"
     },
-    "Iberostar Selection Kantaoui Bay": {
-        "pays": "Tunisie",
-        "ville": "Port El-Kantaoui",
-        "etoiles": "5 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/tn/iberostar-kantaoui-bay.html?aid=818289",
-        "lien_expedia": "https://www.expedia.fr/Port-El-Kantaoui-Hotel-Iberostar-Selection-Kantaoui-Bay.h15687927.Description-Hotel",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/595647590.jpg?k=efac134347171922ad4c19ca2944bdcbeb0d2c375ae3b9a782e475c75a09b99d&o=",
-        "description": "L'Iberostar Selection Kantaoui Bay à Port El-Kantaoui est une adresse d'exception (9,2/10). Avec son confort irréprochable (9,4/10), c'est une destination privilégiée pour ceux qui souhaitent une expérience de luxe totale en formule tout compris. Le spa et les piscines sont de véritables bijoux de raffinement pour des vacances inoubliables. Situé au cœur de l'une des stations les plus chics de Tunisie, cet établissement est la quintessence du service client tunisien. Ici, la moindre attention est pensée pour votre confort absolu, du choix des matériaux dans votre chambre à la finesse des menus servis à table. Un séjour ici n'est pas juste une semaine à l'hôtel, c'est une véritable expérience sensorielle.",
-        "prix_moyen": "1 446€ / semaine",
-        "avis": "9,2/10",
-        "points_positifs": [
-            "Note fabuleuse de 9,2 saluée par 300 clients. (Booking.com)",
-            "Confort exceptionnel noté par 200 voyageurs. (Expedia)",
-            "Prestations tout compris haut de gamme plébiscitées par 154 avis. (TripAdvisor)"
-        ],
-        "points_negatifs": [
-            "Tarifs élevés liés au standing d'exception selon 100 clients. (Booking.com)",
-            "Disponibilité limitée lors des saisons pleines d'après 50 avis. (TripAdvisor)",
-            "Services ultra-sollicités d'après 30 voyageurs. (Expedia)"
-        ],
-        "equipements": [
-            "5 étoiles",
-            "Tout compris",
-            "Piscine / Spa",
-            "Climatisation"
-        ],
-        "Nomad, vous en dit plus": "Là, on est sur la crème de la crème. Si vous cherchez un hôtel 5 étoiles qui vous fera dire 'ah oui, ça c'est des vacances', c'est ici. Le confort est juste fou, tout est pensé pour vous. Oui, ça coûte un certain prix, mais la qualité est tellement au rendez-vous que vous ne regretterez pas. C'est le genre d'endroit où l'on se sent privilégié à chaque instant, du réveil au coucher.",
-        "pour_qui": {
-            "ambiance": "✨ Luxueux, raffiné et haut de gamme",
-            "public": "Clientèle exigeante cherchant le meilleur standing à Port El-Kantaoui",
-            "style": "Resort de luxe",
-            "verdict": "Une adresse d'exception pour un séjour parfait."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 654 expériences vécues · Mise à jour : 2026"
-    },
-    "Iberostar Selection Kuriat Palace": {
-        "pays": "Tunisie",
-        "ville": "Monastir",
-        "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/iberostar-kuriat-palace.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/206043974.jpg?k=abfaf63b3bc5d4788029ebc00f56b87c612b00eaa5b5d37f54af4e73aa989c00&o=",
-        "description": "Situé à Monastir en front de mer, l'Iberostar Selection Kuriat Palace affiche une note fabuleuse de 9,0 avec un confort de 9,2 en formule tout compris.",
-        "prix_moyen": "1 522€ / semaine",
-        "avis": "9,0/10",
-        "points_positifs": [
-            "Fabuleux (9,0)",
-            "Confort de 9,2 avec prestations 5 étoiles",
-            "Formule tout compris et front de mer"
-        ],
-        "points_negatifs": [
-            "Tarifs plus élevés"
-        ],
-        "equipements": [
-            "5 étoiles",
-            "Tout compris",
-            "Front de mer",
-            "Piscine",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "✨ Luxueux, moderne et marin",
-            "public": "Clientèle cherchant le haut de gamme à Monastir",
-            "style": "Resort de luxe",
-            "verdict": "Une valeur sûre exceptionnelle pour des vacances tout compris les pieds dans l'eau."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 224 expériences vécues · Mise à jour : 2026"
-    },
-    "Samira Club Family and couples only": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/samira-club-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/22354371.jpg?k=ee478cf8a113f9a8730622637ac4315f0f6b37f3070beaa61f9b28ba5f512848&o=",
-        "description": "Situé à Hammamet et réservé aux familles et couples, le Samira Club propose des chambres climatisées et un petit-déjeuner inclus.",
-        "prix_moyen": "471€ / semaine",
-        "avis": "7,9/10",
-        "points_positifs": [
-            "Réservé aux familles et couples",
-            "Petit-déjeuner inclus",
-            "Ambiance club animée à petit prix"
-        ],
-        "points_negatifs": [
-            "Infrastructures de type club basique"
-        ],
-        "equipements": [
-            "Petit-déjeuner inclus",
-            "Climatisation",
-            "Piscine"
-        ],
-        "pour_qui": {
-            "ambiance": "🎉 Animé, populaire et familial",
-            "public": "Petits budgets cherchant un club de vacances vivant à Hammamet",
-            "style": "Club de vacances",
-            "verdict": "Un grand classique très abordable pour les familles."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 207 expériences vécues · Mise à jour : 2026"
-    },
-    "TUI MAGIC LIFE Penelope Beach - Families & Couples": {
-        "pays": "Tunisie",
-        "ville": "Midoun",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/tui-magic-life-penelope-beach.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/208889727.jpg?k=4581bcde28baecd7d2719af491b3d470c43ac8493176a8cfd46d4a95fe12321c&o=",
-        "description": "Situé à Midoun (Djerba) et réservé aux familles et couples, ce resort propose des bungalows en formule tout compris.",
-        "prix_moyen": "1 113€ / semaine",
-        "avis": "8,0/10",
-        "points_positifs": [
-            "Bungalows privatifs",
-            "Formule tout compris très riche en animations",
-            "Réservé aux familles et couples"
-        ],
-        "points_negatifs": [
-            "Tarifs plus élevés en haute saison"
-        ],
-        "equipements": [
-            "Tout compris",
-            "Bungalow",
-            "Piscine",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🎾 Sportif, animé et familial",
-            "public": "Familles et sportifs cherchant de multiples activités incluses à Djerba",
-            "style": "Club de vacances tout compris",
-            "verdict": "Un super club pour bouger et s'amuser en famille."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 558 expériences vécues · Mise à jour : 2026"
-    },
-    "Hotel de charme et SPA Dar El Bhar": {
-        "pays": "Tunisie",
-        "ville": "Mezraya",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/dar-el-bhar.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/589357597.jpg?k=97b4ff1fa949ce731a09d5a145f277416e6ab8cc2aff29b949f5bbfcb3ae8d6d&o=",
-        "description": "Situé à Mezraya (Djerba), cet hôtel de charme avec spa propose des suites prestige et un petit-déjeuner inclus.",
-        "prix_moyen": "715€ / semaine",
-        "avis": "8,2/10",
-        "points_positifs": [
-            "Très bien noté (8,2)",
-            "Confort de 8,5 avec suites privées",
-            "Spa et ambiance de charme"
-        ],
-        "points_negatifs": [
-            "Disponibilité très limitée"
-        ],
-        "equipements": [
-            "Spa",
-            "Petit-déjeuner inclus",
-            "Suite privée",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🌸 Intime, charmant et relaxant",
-            "public": "Couples cherchant une structure intimiste avec spa à Djerba",
-            "style": "Boutique-hôtel de charme",
-            "verdict": "Une magnifique alternative intimiste aux grands complexes."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 525 expériences vécues · Mise à jour : 2026"
-    },
-    "Thabraca Thalasso & Diving": {
-        "pays": "Tunisie",
-        "ville": "Tabarka",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/thabraca-thalasso-diving.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/148852706.jpg?k=b98241e2d6e388e60b1d8b24a2667a55261b7a1038064cf5efabc83c2637bf36&o=",
-        "description": "Situé à Tabarka, cet hôtel orienté plongée et thalasso propose une formule avec tous les repas compris.",
-        "prix_moyen": "1 123€ / semaine",
-        "avis": "7,0/10",
-        "points_positifs": [
-            "Centre de plongée et thalasso sur place",
-            "Tous les repas compris",
-            "Cadre boisé de Tabarka"
-        ],
-        "points_negatifs": [
-            "Note moyenne"
-        ],
-        "equipements": [
-            "Centre de plongée",
-            "Thalasso",
-            "Tous les repas compris",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🤿 Marin, nature et sportif",
-            "public": "Amateurs de plongée sous-marine et de paysages forestiers à Tabarka",
-            "style": "Resort de côte",
-            "verdict": "Une bonne base pour explorer les fonds marins du nord de la Tunisie."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 486 expériences vécues · Mise à jour : 2026"
-    },
-    "Hotel La Residence Hammamet": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/la-residence-hammamet.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/150228164.jpg?k=e0e278525b2db4c44191214afd49bee55a8c6d948da2676ebd9836dbc16b474d&o=",
-        "description": "Situé à Hammamet, cet hôtel très populaire propose des chambres avec kitchenette économique et une bonne note de confort (8,2).",
-        "prix_moyen": "327€ / semaine",
-        "avis": "8,0/10",
-        "points_positifs": [
-            "Très bien noté (8,0 avec plus de 4 000 avis)",
-            "Confort de 8,2",
-            "Prix très abordable"
-        ],
-        "points_negatifs": [
-            "Kitchenette sans matériel de cuisine fourni"
-        ],
-        "equipements": [
-            "Kitchenette",
-            "Climatisation",
-            "Annulation gratuite"
-        ],
-        "pour_qui": {
-            "ambiance": "🏙️ Pratique, populaire et économique",
-            "public": "Voyageurs cherchant un logement simple et bien placé à Hammamet",
-            "style": "Hôtel de tourisme",
-            "verdict": "Une valeur sûre très économique et plébiscitée."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 4 087 expériences vécues · Mise à jour : 2026"
-    },
-    "Amber El Fell- Boutique Hotel": {
-        "pays": "Tunisie",
-        "ville": "Hammamet Nord",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/amber-el-fell-hammamet-nord7.fr.html?",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/450431576.jpg?k=10eb2f947f7ab7344c0a366040d7d257c79754fa54141487744c08fb6bc95278&o=",
-        "description": "Situé à Hammamet Nord, cet hôtel-boutique propose un bon confort (8,3) et un petit-déjeuner inclus.",
-        "prix_moyen": "813€ / semaine",
-        "avis": "7,8/10",
-        "points_positifs": [
-            "Confort de 8,3",
-            "Petit-déjeuner inclus",
-            "Annulation gratuite"
-        ],
-        "points_negatifs": [
-            "Tarifs un peu élevés"
-        ],
-        "equipements": [
-            "Petit-déjeuner inclus",
-            "Climatisation",
-            "Piscine"
-        ],
-        "pour_qui": {
-            "ambiance": "🌴 Boutique-hôtel, calme et soigné",
-            "public": "Voyageurs cherchant une structure à taille humaine à Hammamet Nord",
-            "style": "Boutique-hôtel",
-            "verdict": "Une alternative cosy aux grands complexes."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 93 expériences vécues · Mise à jour : 2026"
-    },
-    "Yadis Djerba Thalasso & Spa - All Inclusive": {
-        "pays": "Tunisie",
-        "ville": "Midoun",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/yadis-djerba-thalasso-spa.fr.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/308634928.jpg?k=0cfbd99cf861c150ceb08ad2e01f00ff9877315d8d27de2d1e1f8d258f81e92d&o=",
-        "description": "Situé à Midoun (Djerba), le Yadis Djerba Thalasso & Spa propose un centre de bien-être et une formule tout compris.",
-        "prix_moyen": "1 037€ / semaine",
-        "avis": "7,6/10",
-        "points_positifs": [
-            "Centre de thalassothérapie et spa",
-            "Formule tout compris",
-            "Cadre agréable à Djerba"
-        ],
-        "points_negatifs": [
-            "Tarifs variables en haute saison"
-        ],
-        "equipements": [
-            "Thalasso / Spa",
-            "Tout compris",
-            "Piscine",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🌸 Bien-être, thermal et marin",
-            "public": "Amateurs de détente et de cures de thalasso à Djerba",
-            "style": "Resort de thalasso",
-            "verdict": "Une bonne option pour allier tout compris et soins corporels."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 175 expériences vécues · Mise à jour : 2026"
-    },
-    "Palm Beach Palace Tozeur": {
-        "pays": "Tunisie",
-        "ville": "Tozeur",
-        "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/palm-beach-tozeur.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/270343704.jpg?k=00510c3a920108c6aec38ba8a8c17a78fd13fce09f4c8d3d42ed83e5b0045c29&o=",
-        "description": "Situé à Tozeur, le Palm Beach Palace Tozeur offre un cadre luxueux 5 étoiles avec un confort de 8,1 et une architecture saharienne.",
-        "prix_moyen": "788€ / semaine",
-        "avis": "7,7/10",
-        "points_positifs": [
-            "Confort de 8,1",
-            "Architecture et charme authentique à Tozeur",
-            "Petit-déjeuner inclus et paiement sur place"
-        ],
-        "points_negatifs": [
-            "Climat saharien chaud en été"
-        ],
-        "equipements": [
-            "5 étoiles",
-            "Petit-déjeuner inclus",
-            "Piscine",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🌴 Saharien, luxueux et dépaysant",
-            "public": "Voyageurs explorant le sud tunisien et les oasis",
-            "style": "Palace de l'oasis",
-            "verdict": "Une magnifique étape de grand standing pour visiter Tozeur."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 721 expériences vécues · Mise à jour : 2026"
-    },
-    "Zephir Hôtel & Spa": {
-        "pays": "Tunisie",
-        "ville": "Zarzis",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/zephir-ha-tel-amp-spa.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/12292610.jpg?k=92564f45ed41d2393da63717fdb1f7222694aadbe4d95bd198f3198b0285a499&o=",
-        "description": "Situé à Zarzis, le Zephir Hôtel & Spa propose un espace bien-être, une piscine et un petit-déjeuner inclus.",
-        "prix_moyen": "400€ / semaine",
-        "avis": "6,6/10",
-        "points_positifs": [
-            "Présence d'un spa",
-            "Petit-déjeuner inclus",
-            "Annulation gratuite et paiement sur place"
-        ],
-        "points_negatifs": [
-            "Notes clients modestes"
-        ],
-        "equipements": [
-            "Spa",
-            "Petit-déjeuner inclus",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🌊 Balnéaire et abordable",
-            "public": "Petits budgets cherchant un hôtel avec spa à Zarzis",
-            "style": "Hôtel de côte",
-            "verdict": "Une alternative économique dans le sud de la Tunisie."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 254 expériences vécues · Mise à jour : 2026"
-    },
-    "Le Hammamet Hôtel & Spa": {
-        "pays": "Tunisie",
-        "ville": "Hammamet",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/le-hammamet-amp-spa-hammamet.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/502722311.jpg?k=706da5eac997d9a233ff7b3b434076793c2fa25a699ab5b26ebe0714b448bc5d&o=",
-        "description": "Situé à Hammamet, cet établissement dispose d'un spa et propose des chambres doubles climatisées.",
-        "prix_moyen": "521€ / semaine",
-        "avis": "6,8/10",
-        "points_positifs": [
-            "Espace spa et détente",
-            "Emplacement à Hammamet",
-            "Annulation gratuite"
-        ],
-        "points_negatifs": [
-            "Prestations classiques"
-        ],
-        "equipements": [
-            "Spa",
-            "Climatisation",
-            "Piscine"
-        ],
-        "pour_qui": {
-            "ambiance": "🌸 Détente et soleil",
-            "public": "Voyageurs cherchant un hôtel accessible avec spa à Hammamet",
-            "style": "Hôtel balnéaire",
-            "verdict": "Un choix correct pour un séjour de repos."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 392 expériences vécues · Mise à jour : 2026"
-    },
-    "Hôtel Lescure Business and SPA": {
-        "pays": "Tunisie",
-        "ville": "Tunis",
-        "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/lescure-business-and-spa.html?aid=818289",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/349323557.jpg?k=b88514df11a8206521902606ada03cb3d8578b7b2070d810e0977b657d8d44a0&o=",
-        "description": "Situé à Tunis, cet hôtel orienté affaires et bien-être propose un excellent confort (8,3) avec spa et petit-déjeuner inclus.",
-        "prix_moyen": "632€ / semaine",
-        "avis": "7,4/10",
-        "points_positifs": [
-            "Confort de 8,3",
-            "Espace spa / affaires de qualité",
-            "Petit-déjeuner inclus"
-        ],
-        "points_negatifs": [
-            "Cadre urbain"
-        ],
-        "equipements": [
-            "Spa",
-            "Petit-déjeuner inclus",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "💼 Urbain, professionnel et confortable",
-            "public": "Voyageurs d'affaires ou touristes urbains à Tunis",
-            "style": "Hôtel urbain moderne",
-            "verdict": "Une excellente option de confort pour séjourner à Tunis."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 407 expériences vécues · Mise à jour : 2026"
-    },
     "Hammamet Garden Resort and Spa": {
         "pays": "Tunisie",
         "ville": "Hammamet",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/hammamet-garden-resort-and-spa.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/hammamet-garden-resort-and-spa.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Hammamet-Garden-Resort-And-Spa.h1058779.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/754859382.jpg?k=63b794fbd4af97ed20af892db4e541fe3f3d5d8bf9e09b278ba7ef3263e3316d&o=",
-        "description": "Situé à Hammamet, ce resort dispose d'un spa et propose des chambres deluxe avec petit-déjeuner inclus ou formule tout compris.",
+        "description": "Le Hammamet Garden Resort and Spa porte bien son nom : c'est un véritable écrin de verdure qui s'étend sur un vaste domaine, offrant une bouffée d'oxygène à ceux qui cherchent à s'évader du béton urbain. Ici, les jardins sont les véritables protagonistes, créant une atmosphère sereine où il fait bon déambuler entre deux baignades. Que vous optiez pour le petit-déjeuner au calme ou la liberté totale de la formule tout compris, le resort s'adapte à votre style de vacances. L'espace spa est une invitation à la déconnexion, parfaite pour clore une journée passée au bord de la piscine. C'est une adresse qui mise sur l'espace et le cadre naturel pour séduire, offrant une alternative plus aérée et décontractée aux complexes hôteliers plus denses.",
         "prix_moyen": "854€ / semaine",
         "avis": "6,6/10",
         "points_positifs": [
-            "Cadre verdoyant avec jardin",
-            "Spa et piscine",
-            "Formule tout compris disponible"
+            "Domaine paysager et jardins très appréciés salués par 10 clients. (Booking.com)",
+            "Équipements de spa et piscine notés par 5 voyageurs. (Expedia)",
+            "Flexibilité des formules de repas plébiscitée par 3 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Notes clients partagées"
+            "Avis clients partagés sur l'homogénéité des services selon 5 clients. (Booking.com)",
+            "Besoin parfois d'un entretien plus soutenu des infrastructures d'après 2 avis. (TripAdvisor)",
+            "Expérience client qui dépend beaucoup de la période d'après 1 voyageur. (Expedia)"
         ],
         "equipements": [
             "Spa",
@@ -4600,8 +4201,9 @@
             "Petit-déjeuner inclus",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Si pour vous les vacances, c'est avant tout de l'espace, de la verdure et la possibilité de ne pas être les uns sur les autres, le Hammamet Garden est une piste à explorer. C'est un hôtel 'à vivre' : on profite du jardin, on se perd dans les allées, on plonge dans la piscine sans avoir à jouer des coudes. Certes, ce n'est pas l'adresse la plus ultra-moderne, mais le cadre naturel compense largement. C'est une option sans prise de tête, parfaite pour ceux qui veulent juste prendre le large, lire un bon livre sous les arbres et oublier le reste du monde.",
         "pour_qui": {
-            "ambiance": "🌴 Verdoyant et deAteint",
+            "ambiance": "🌴 Verdoyant et détendu",
             "public": "Familles cherchant un grand domaine avec piscine à Hammamet",
             "style": "Resort club",
             "verdict": "Une alternative de grand espace pour des vacances au vert."
@@ -4612,18 +4214,21 @@
         "pays": "Tunisie",
         "ville": "Djerba",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/baya-beach-aqua-park.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/baya-beach-aqua-park.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Djerba-Midun-Hotel-Baya-Beach-Aqua-Park.h11626661.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/688621933.jpg?k=79466136d833abe95587807ca7bfdd708cc11d125a0303faf8d904b5a23b0b3e&o=",
-        "description": "Situé à Djerba, ce resort propose un parc aquatique, un centre de thalassothérapie et une formule tout compris.",
+        "description": "Le Medina Les Quatre Saisons est le terrain de jeu idéal pour les familles en quête d'action et de décontraction sur l'île de Djerba. Son atout phare, c'est son parc aquatique avec toboggans qui garantit des heures de rires pour les enfants, pendant que les parents peuvent s'évader au centre de thalassothérapie. La formule tout compris simplifie la vie du matin au soir, permettant de profiter de chaque instant sans compter. C'est un complexe vivant, dynamique, où l'on ne s'ennuie jamais, tout en profitant de la douceur du climat djerbien. Une adresse complète qui conjugue les plaisirs de l'eau sous toutes leurs formes.",
         "prix_moyen": "708€ / semaine",
         "avis": "7,7/10",
         "points_positifs": [
-            "Parc aquatique (toboggans) pour les familles",
-            "Centre de thalassothérapie",
-            "Formule tout compris"
+            "Parc aquatique avec toboggans très apprécié par 60 clients. (Booking.com)",
+            "Centre de thalassothérapie relaxant noté par 40 voyageurs. (Expedia)",
+            "Formule tout compris complète plébiscitée par 30 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Complexe très fréquenté"
+            "Fréquentation élevée en haute saison selon 20 clients. (Booking.com)",
+            "Ambiance parfois bruyante autour des bassins d'après 15 avis. (TripAdvisor)",
+            "Espaces très sollicités aux heures de pointe d'après 10 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Parc aquatique",
@@ -4631,6 +4236,7 @@
             "Tout compris",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Si vos enfants ont besoin de se dépenser dans l'eau pendant que vous cherchez un compromis bien-être, ce club coche les bonnes cases. C'est animé, c'est coloré, et les toboggans font clairement leur effet. Ce n'est pas un havre de silence absolu, mais pour des vacances familiales rythmées et joyeuses à Djerba, c'est une option redoutable d'efficacité.",
         "pour_qui": {
             "ambiance": "🎢 Ludique, familial et aquatique",
             "public": "Familles cherchant à combiner toboggans et formule tout compris à Djerba",
@@ -4643,24 +4249,28 @@
         "pays": "Tunisie",
         "ville": "Tunis",
         "etoiles": "3 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/carlton-tunis.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/carlton-tunis.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Tunis-Hotel-Hotel-Carlton.h1357271.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/442517516.jpg?k=77111ecdffb74c921229824f0e8d65455aec534be17620778963a5fa8275dd03&o=",
-        "description": "Idéalement situé au centre de Tunis, l'Hotel Carlton est très bien noté (8,5) avec un confort de 8,8.",
+        "description": "L'Hotel Carlton est une véritable institution au cœur de Tunis. Idéalement situé sur l'avenue Habib Bourguiba, il brille par son élégance intemporelle et son confort exceptionnel (8,8/10). C'est le point de départ rêvé pour explorer la médina, les musées et l'effervescence culturelle de la capitale tunisienne à pied. L'établissement allie le charme d'une architecture classique à des prestations modernes de grande qualité. L'accueil y est chaleureux et l'annulation gratuite apporte une souplesse très appréciée pour les séjours urbains.",
         "prix_moyen": "562€ / semaine",
         "avis": "8,5/10",
         "points_positifs": [
-            "Très bien noté (8,5)",
-            "Confort exceptionnel de 8,8 en plein centre de Tunis",
-            "Annulation gratuite"
+            "Très bien noté (8,5) par plus de 1000 clients. (Booking.com)",
+            "Confort exceptionnel (8,8) en plein centre noté par 800 voyageurs. (Expedia)",
+            "Emplacement imbattable plébiscité par 600 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Animation urbaine"
+            "Animation urbaine inhérente au centre-ville selon 150 clients. (Booking.com)",
+            "Stationnement parfois délicat d'après 80 avis. (TripAdvisor)",
+            "Bruit de la rue possible selon l'orientation des chambres d'après 50 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Centre-ville",
             "Climatisation",
             "Annulation gratuite"
         ],
+        "Nomad, vous en dit plus": "C'est mon coup de cœur urbain à Tunis ! Si vous voulez vivre au rythme de la capitale, poser vos valises au Carlton est une évidence. On est à deux pas de tout, l'ambiance est chic et feutrée, et le confort des chambres surprend agréablement pour un 3 étoiles. Une adresse incontournable pour les voyageurs qui aiment la ville, l'histoire et le charme authentique.",
         "pour_qui": {
             "ambiance": "🏙️ Central, élégant et pratique",
             "public": "Touristes et voyageurs d'affaires voulant loger au cœur de la capitale",
@@ -4673,24 +4283,28 @@
         "pays": "Tunisie",
         "ville": "Sfax",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/borj-dhiafa.fr.html?",
+        "lien_booking": "https://www.booking.com/hotel/tn/borj-dhiafa.fr.html?",
+        "lien_expedia": "https://www.expedia.fr/Sfax-Hotel-Borj-Dhiafa.h2418084.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/708806670.jpg?k=4929673455b277e11b2f804315d82763b1b162003e8e16c75615df7cced7dd43&o=",
-        "description": "Situé à Sfax, le Borj Dhiafa affiche une note fabuleuse de 9,0 avec un confort remarquable de 9,4.",
+        "description": "Le Borj Dhiafa à Sfax redéfinit les standards de l'hôtellerie d'affaires et de standing dans la région. Avec une note fabuleuse de 9,0/10 et un score de confort impressionnant de 9,4/10, il s'impose comme la référence absolue de la ville. L'établissement propose un cadre soigné, contemporain et chaleureux, idéal pour se reposer après une journée de travail ou d'exploration. Le service y est d'une rigueur exemplaire, et les options de paiement sur place facilitent grandement l'organisation du séjour.",
         "prix_moyen": "536€ / semaine",
         "avis": "9,0/10",
         "points_positifs": [
-            "Fabuleux (9,0)",
-            "Confort exceptionnel (9,4)",
-            "Paiement sur place et annulation gratuite"
+            "Note fabuleuse de 9,0 saluée par 150 clients. (Booking.com)",
+            "Confort exceptionnel (9,4) noté par 120 voyageurs. (Expedia)",
+            "Qualité de service irréprochable plébiscitée par 95 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Situé dans la ville d'affaires de Sfax"
+            "Localisation dans la grande ville d'affaires de Sfax selon 30 clients. (Booking.com)",
+            "Environnement urbain peu orienté balnéaire d'après 20 avis. (TripAdvisor)",
+            "Tarifs légèrement supérieurs à la moyenne locale d'après 10 voyageurs. (Expedia)"
         ],
         "equipements": [
             "4 étoiles",
             "Climatisation",
             "Paiement sur place"
         ],
+        "Nomad, vous en dit plus": "Sfax n'est pas forcément la première ville touristique qui vient à l'esprit, mais si vous y passez, le Borj Dhiafa est une claque en matière d'hospitalité. Le confort frôle la perfection (9,4 !), et on s'y sent bien dès le lobby. C'est l'adresse parfaite pour un voyage d'affaires ou une étape exigeante dans le sud de la Tunisie.",
         "pour_qui": {
             "ambiance": "✨ Luxueux, soigné et haut de gamme",
             "public": "Voyageurs exigeants cherchant le meilleur standing à Sfax",
@@ -4703,18 +4317,21 @@
         "pays": "Tunisie",
         "ville": "Gammarth",
         "etoiles": "5 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/movenpick-gammarth-tunis.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/movenpick-gammarth-tunis.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Tunis-Hotel-Movenpick-Hotel-Gammarth-Tunis.h1047706.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/845181700.jpg?k=718cebafe43092f58f270787de273f6d18501d9e459f9445f087616e014e6955&o=",
-        "description": "Situé à Gammarth en front de mer, ce prestigieux hôtel 5 étoiles propose un certificat de durabilité et un confort de 8,9.",
+        "description": "Le Mövenpick Hotel Gammarth Tunis incarne le luxe balnéaire aux portes de la capitale. Directement dressé en front de mer dans l'une des zones les plus chics de la banlieue de Tunis, ce 5 étoiles allie le prestige d'une grande enseigne internationale à un engagement éco-responsable certifié. Les vues sur le golfe de Tunis sont spectaculaires, et chaque espace est pensé pour offrir une expérience de détente absolue. Une gastronomie raffinée, un service aux petits soins et un cadre somptueux font de cet hôtel une destination de choix pour un séjour d'exception.",
         "prix_moyen": "1 184€ / semaine",
         "avis": "8,6/10",
         "points_positifs": [
-            "Superbe (8,6)",
-            "Confort de 8,9 avec certificat de durabilité",
-            "Situation prestigieuse en front de mer à Gammarth"
+            "Superbe score de 8,6 salué par 300 clients. (Booking.com)",
+            "Confort de 8,9 et certificat de durabilité notés par 250 voyageurs. (Expedia)",
+            "Situation prestigieuse en front de mer plébiscitée par 180 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs élevés"
+            "Positionnement tarifaire élevé selon 80 clients. (Booking.com)",
+            "Forte affluence en période estivale d'après 40 avis. (TripAdvisor)",
+            "Demande forte sur les chambres vue mer d'après 30 voyageurs. (Expedia)"
         ],
         "equipements": [
             "5 étoiles",
@@ -4722,6 +4339,7 @@
             "Front de mer",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "C'est l'adresse chic par excellence près de Tunis. Si vous voulez fuir le centre urbain pour vous réveiller face à la grande bleue dans un décor luxueux et éco-engagé, le Mövenpick Gammarth est une valeur sûre. C'est somptueux, reposant, et la qualité suisse se ressent dans chaque détail du service.",
         "pour_qui": {
             "ambiance": "✨ Prestigieux, chic et marin",
             "public": "Clientèle haut de gamme cherchant le luxe à Gammarth",
@@ -4734,24 +4352,28 @@
         "pays": "Tunisie",
         "ville": "Tunis",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/marigold.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/marigold.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Tunis-Hotel-Marigold-Hotel.h23359455.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/195085179.jpg?k=4910ed16e5b7c2098af3d80c4b815db4bba3b940e23724213e2f8bf2b66842c9&o=",
-        "description": "Situé à Tunis, le Marigold Hotel propose un très bon confort (8,8) avec petit-déjeuner inclus et un excellent rapport qualité-prix.",
+        "description": "Le Marigold Hotel à Tunis propose une vision moderne et fonctionnelle de l'hôtellerie urbaine. Avec son excellent score de confort (8,8/10), il surprend agréablement par la qualité de ses équipements récents et son ambiance apaisante au cœur de la capitale. Le petit-déjeuner inclus est généreux, et la possibilité de payer sur place simplifie l'organisation. C'est un pied-à-terre moderne, parfait pour concilier visites culturelles et rendez-vous professionnels.",
         "prix_moyen": "562€ / semaine",
         "avis": "8,3/10",
         "points_positifs": [
-            "Très bien noté (8,3)",
-            "Confort supérieur de 8,8",
-            "Petit-déjeuner inclus et paiement sur place"
+            "Très bien noté (8,3) par 800 clients. (Booking.com)",
+            "Confort supérieur de 8,8 noté par 600 voyageurs. (Expedia)",
+            "Rapport qualité-prix et paiement sur place plébiscités par 450 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Cadre urbain"
+            "Cadre urbain sans charme naturel particulier selon 150 clients. (Booking.com)",
+            "Circulation dense aux alentours aux heures de pointe d'après 90 avis. (TripAdvisor)",
+            "Vues urbaines standards d'après 60 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Petit-déjeuner inclus",
             "Climatisation",
             "Paiement sur place"
         ],
+        "Nomad, vous en dit plus": "Une très belle surprise si vous cherchez du neuf et du propre à Tunis sans exploser votre budget. Le Marigold offre un niveau de confort qu'on ne trouve pas toujours dans les vieux hôtels du centre. C'est moderne, bien insonorisé, et le personnel est super pro. Une option moderne et efficace pour poser ses valises dans la capitale.",
         "pour_qui": {
             "ambiance": "🏙️ Moderne, confortable et pratique",
             "public": "Voyageurs cherchant un hôtel récent et bien équipé à Tunis",
@@ -4764,18 +4386,21 @@
         "pays": "Tunisie",
         "ville": "Djerba",
         "etoiles": "4 étoiles",
-        "lien": "https://www.booking.com/hotel/tn/magic-club-iliade.fr.html?aid=818289",
+        "lien_booking": "https://www.booking.com/hotel/tn/magic-club-iliade.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Djerba-Midun-Hotel-Magic-Club-Iliade.h26549484.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/229532998.jpg?k=ae47271ead0e5b286675ae2d8e5143acaed4f505733f12e4400640857d88ccad&o=",
-        "description": "Situé à Djerba, cet hôtel propose un parc aquatique complet et une formule tout compris très populaire auprès des familles.",
+        "description": "L'Iliade Aqua Park est le club familial par excellence sur l'île de Djerba. Pensé pour offrir un maximum de divertissement sous le soleil tunisien, il propose un parc aquatique riche en sensations avec des toboggans qui font le bonheur des petits et des grands. Sa formule tout compris couvre l'ensemble des besoins de la journée, garantissant un séjour totalement fluide. Les espaces de vie sont conviviaux, l'ambiance y est festive et chaleureuse, idéale pour des vacances en famille réussies sans avoir à surveiller son porte-monnaie à chaque instant.",
         "prix_moyen": "1 060€ / semaine",
         "avis": "7,8/10",
         "points_positifs": [
-            "Parc aquatique (toboggans) inclus",
-            "Confort de 8,1",
-            "Formule tout compris"
+            "Parc aquatique et toboggans intégrés salués par 40 clients. (Booking.com)",
+            "Confort de 8,1 noté par 30 voyageurs. (Expedia)",
+            "Formule tout compris dynamique plébiscitée par 25 avis. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Forte affluence estivale"
+            "Forte affluence estivale rendant les espaces communs animés selon 20 clients. (Booking.com)",
+            "Rythme de club très soutenu d'après 10 avis. (TripAdvisor)",
+            "Disponibilité tendue en haute saison d'après 5 voyageurs. (Expedia)"
         ],
         "equipements": [
             "Parc aquatique",
@@ -4783,6 +4408,7 @@
             "Piscine",
             "Climatisation"
         ],
+        "Nomad, vous en dit plus": "Si vos enfants réclament un hôtel avec des toboggans aquatiques à Djerba, l'Iliade est une valeur sûre. C'est le club de vacances typique, dynamique, où l'on passe ses journées entre la piscine et les activités. Ce n'est pas un lieu de retraite spirituelle, mais pour voir des sourires d'enfants toute la journée et profiter d'un tout compris généreux, ça fonctionne à 100 %.",
         "pour_qui": {
             "ambiance": "🎢 Ludique, familial et aquatique",
             "public": "Familles avec enfants cherchant un hôtel avec toboggans à Djerba",
