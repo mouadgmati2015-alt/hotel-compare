@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://myhotelcompare.com/sitemap.xml

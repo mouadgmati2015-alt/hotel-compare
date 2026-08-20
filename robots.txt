@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-https://github.com/mouadgmati2015-alt/myhotel_sitemap/settings/pages
