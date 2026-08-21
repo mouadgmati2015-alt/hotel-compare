@@ -3,8 +3,15 @@ import os
 import re
 import base64
 import shutil
+import urllib.parse
+import unicodedata
 
-import urllib
+# Votre fonction pour nettoyer les noms d'hôtels en URLs propres
+def slugify(text):
+    text = unicodedata.normalize('NFD', text).encode('ascii', 'ignore').decode('utf-8')
+    text = re.sub(r'[^a-zA-Z0-9\s-]', '', text).lower()
+    return re.sub(r'[\s-]+', '-', text).strip('-_')
+
 
 output_dir = "mon_site_final"
 data_dir = "data"
@@ -146,6 +153,72 @@ if os.path.exists(data_dir):
                                 })
                 except Exception as e:
                     print(f"Erreur lecture hôtel {filename}: {e}")
+# 3. Génération des pages individuelles pour chaque hôtel
+liens_accueil = ""
+
+for hotel in all_hotels:
+    nom_fichier_hotel = f"hotel-{hotel['slug']}.html"
+    chemin_complet_hotel = os.path.join(output_dir, nom_fichier_hotel)
+    
+    # Page HTML dédiée à l'hôtel
+    html_hotel = f"""<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{hotel['nom']} - Avis et Comparatif</title>
+    <meta name="description" content="Découvrez notre analyse sur {hotel['nom']} à {hotel['ville']}.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="padding: 20px; font-family: Arial, sans-serif;">
+    <p><a href="index.html">← Retour au comparateur</a></p>
+    <h1>{hotel['nom']}</h1>
+    <p><strong>Lieu :</strong> {hotel['ville']}, {hotel['pays']}</p>
+    <p><strong>Étoiles :</strong> {hotel['etoiles']}</p>
+    <p><strong>Prix moyen :</strong> {hotel['prix']}</p>
+    
+    <hr style="margin: 20px 0;">
+    
+    <h3>Ce qu'en pense Nomad (IA) :</h3>
+    <p>{hotel['nomad']}</p>
+    
+    <p>{hotel['description']}</p>
+    
+    <div style="margin-top: 30px;">
+        <a href="{update_booking_aid(hotel['lien_booking'])}" target="_blank" style="background:#0071c2; color:white; padding:12px 24px; text-decoration:none; border-radius:5px; display:inline-block; margin-right: 10px;">Réserver sur Booking</a>
+        <a href="{update_expedia_link(hotel['lien_expedia'])}" target="_blank" style="background:#ff6d00; color:white; padding:12px 24px; text-decoration:none; border-radius:5px; display:inline-block;">Réserver sur Expedia</a>
+    </div>
+</body>
+</html>"""
+
+    # Enregistrement du fichier de l'hôtel
+    with open(chemin_complet_hotel, "w", encoding="utf-8") as f:
+        f.write(html_hotel)
+        
+    # Ajout du lien dans la liste de la page d'accueil
+    liens_accueil += f'<li><a href="{nom_fichier_hotel}">{hotel["nom"]}</a> ({hotel["ville"]})</li>\n'
+
+# 4. Génération de la page d'accueil (index.html) avec tous les liens cliquables
+html_index = f"""<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>MyHotelCompare - Comparateur intelligent d'hôtels</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="padding: 20px; font-family: Arial, sans-serif;">
+    <h1>Comparateur intelligent d'hôtels</h1>
+    <p>Nomad : L'IA qui analyse les avis pour dénicher votre hôtel idéal.</p>
+    <h2>Liste de nos hôtels référencés :</h2>
+    <ul>
+        {liens_accueil}
+    </ul>
+</body>
+</html>"""
+
+with open(os.path.join(output_dir, "index.html"), "w", encoding="utf-8") as f:
+    f.write(html_index)
+
+print("Succès ! Chaque hôtel a maintenant sa propre page et son URL unique.")
 
 # 3. Chargement des croisières
 cruises_data = {}
