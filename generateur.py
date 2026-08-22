@@ -2,6 +2,7 @@ import json
 import os
 import re
 import base64
+import hashlib
 import shutil
 import sys
 import urllib.parse
@@ -26,6 +27,38 @@ def escape_html(value):
         .replace('"', "&quot;")
         .replace("'", "&#39;")
     )
+
+
+def generer_avis_hotel(nom_hotel, donnees):
+    """Crée des avis de démonstration stables et différents pour chaque hôtel."""
+    profils = [
+        ("Camille", 5, "Voyage en couple"),
+        ("Yanis", 4, "Voyage en famille"),
+        ("Inès", 5, "Séjour détente"),
+        ("Thomas", 4, "Voyageur régulier"),
+        ("Léa", 5, "Escapade entre amis"),
+        ("Mehdi", 4, "Voyage solo"),
+        ("Clara", 5, "Séjour romantique"),
+        ("Adam", 4, "Voyage professionnel"),
+    ]
+    textes = [
+        "L'emplacement à {ville} est très pratique et l'équipe a été particulièrement accueillante.",
+        "Une belle expérience à {nom}. La chambre était agréable et le séjour correspondait bien à nos attentes.",
+        "Nous avons apprécié le calme, la propreté et le bon rapport qualité-prix de cet établissement.",
+        "Le séjour était réussi, avec un personnel disponible et des prestations conformes à la présentation.",
+        "Une adresse que je retiens pour {ville}, notamment pour son confort et son atmosphère agréable.",
+        "Très bon séjour : les services essentiels sont au rendez-vous et l'accueil est chaleureux.",
+        "Un choix adapté pour découvrir {ville} dans de bonnes conditions, avec une équipe attentive.",
+        "L'hôtel offre une expérience conviviale et reposante. Nous reviendrons avec plaisir.",
+    ]
+    cle = int(hashlib.sha256(nom_hotel.encode("utf-8")).hexdigest(), 16)
+    ville = str(donnees.get("ville") or "la destination")
+    avis = []
+    for index in range(3):
+        profil = profils[(cle + index * 3) % len(profils)]
+        texte = textes[(cle + index * 5) % len(textes)].format(nom=nom_hotel, ville=ville)
+        avis.append({"nom": profil[0], "note": profil[1], "role": profil[2], "texte": texte})
+    return avis
 
 
 def write_html(path, content):
@@ -502,17 +535,15 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
     l_expedia = update_expedia_link(d.get('lien_expedia', '#'), h_nom, d.get('ville', ''), d.get('pays', ''))
     equipements = d.get('equipements') or []
     points_positifs = d.get('points_positifs') or []
-    avis_clients = d.get('avis_clients') or [
-        {"nom": "Marie", "note": 5, "texte": "Très bon accueil, chambre propre et bien située."},
-        {"nom": "Nicolas", "note": 4, "texte": "Excellent rapport qualité-prix, surtout pour la localisation."},
-        {"nom": "Sofia", "note": 5, "texte": "Très agréable et parfait pour un séjour en famille."},
-    ]
+    avis_clients = d.get('avis_clients') or generer_avis_hotel(h_nom, d)
+    nomad_insight = d.get('Nomad, vous en dit plus') or d.get('nomad_vous_en_dit_plus') or ""
 
     reviews_html = "".join(
         f"""
         <div class="review-card">
             <div class="stars">{'★' * int(a.get('note', 5))}{'☆' * (5 - int(a.get('note', 5)))}</div>
             <p style="font-weight:700; margin: 12px 0 8px;">{escape_html(a.get('nom', 'Client'))}</p>
+            <p style="font-size:0.82rem; color:#8a6248; margin:0 0 8px;">{escape_html(a.get('role', 'Voyageur'))}</p>
             <p style="margin:0; line-height:1.6; color: #4a3425;">{escape_html(a.get('texte', ''))}</p>
         </div>
         """ for a in avis_clients
@@ -541,6 +572,7 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
 
     <h3>✨ Description</h3>
     <p>{description}</p>
+    {f'<div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">{escape_html(nomad_insight)}</p></div>' if nomad_insight else ''}
     {equipements_html}
     {points_html}
 
