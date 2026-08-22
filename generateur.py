@@ -3,6 +3,25 @@ import os
 import re
 import base64
 import shutil
+import urllib.parse
+
+# --- FONCTIONS D'AFFILIATION ---
+def update_booking_aid(url, new_aid="8012379"):
+    if not url or url == "#": return "#"
+    url = url.rstrip('?')
+    clean_url = url.replace("??", "?")
+    parsed = urllib.parse.urlparse(clean_url)
+    query_params = dict(urllib.parse.parse_qsl(parsed.query, keep_blank_values=True))
+    query_params["aid"] = new_aid
+    new_query = urllib.parse.urlencode(query_params)
+    return urllib.parse.urlunparse(parsed._replace(query=new_query))
+
+def update_expedia_link(url):
+    if not url or url == "#": return "https://www.anrdoezrs.net/click-8012379-13854902?url=https://www.expedia.fr/"
+    url = url.rstrip('?')
+    if "anrdoezrs.net" in url: return url
+    encoded_url = urllib.parse.quote(url, safe='')
+    return f"https://www.anrdoezrs.net/click-8012379-13854902?url={encoded_url}"
 
 # On utilise un nouveau dossier propre pour éviter les vieux fichiers en cache
 output_dir = "mon_site_final"
@@ -43,7 +62,8 @@ if os.path.exists(data_dir):
                                     'nom': nom, 'slug': slug, 'ville': d.get('ville', ''), 'pays': d.get('pays', ''),
                                     'etoiles': d.get('etoiles', 'N/C'), 'prix': d.get('prix_moyen', 'Sur demande'),
                                     'image': d.get('image', ''), 'description': d.get('description_ia') or d.get('description', ''),
-                                    'lien_booking': d.get('lien_booking', '#'), 'lien_expedia': d.get('lien_expedia', '#')
+                                    'lien_booking': update_booking_aid(d.get('lien_booking', '#')),
+                                    'lien_expedia': update_expedia_link(d.get('lien_expedia', '#'))
                                 })
                 except Exception as e:
                     print(f"Erreur sur {filename}: {e}")
@@ -149,7 +169,6 @@ with open(os.path.join(output_dir, "hotels.json"), "w", encoding="utf-8") as f:
     json.dump(all_hotels, f, ensure_ascii=False, indent=4)
     
 # 4. Page hotels.html (Comparateur)
-hotels_js_data = json.dumps(all_hotels, ensure_ascii=False)
 html_hotels = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -184,7 +203,6 @@ html_hotels = f"""<!DOCTYPE html>
         <div id="resultatComparaison" class="comparison-grid" style="margin-top: 30px;"></div>
     </div>
     <script>
-        <script>
         let hotelsData = [];
         fetch('hotels.json')
             .then(response => response.json())
@@ -239,7 +257,6 @@ html_hotels = f"""<!DOCTYPE html>
                 <iframe width="100%" height="150" style="border:0; border-radius:6px; margin-top:10px;" src="https://maps.google.com/maps?q=${{mapQuery}}&output=embed"></iframe>
             </div>`;
         }}
-        window.onload = initFiltres;
     </script>
 </body>
 </html>
