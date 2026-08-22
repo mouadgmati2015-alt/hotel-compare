@@ -3,11 +3,45 @@ import os
 import re
 import base64
 import shutil
+import sys
 import urllib.parse
+from pathlib import Path
 
-# --- FONCTIONS D'AFFILIATION ---
-def update_booking_aid(url, new_aid="8012379"):
-    if not url or url == "#": return "#"
+from data.airlines_data import AIRLINES_DATA
+
+BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = BASE_DIR / "data"
+OUTPUT_DIR = BASE_DIR 
+RESET_OUTPUT = "--reset" in sys.argv[1:]
+
+
+def escape_html(value):
+    if value is None:
+        return ""
+    return (
+        str(value)
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+        .replace("'", "&#39;")
+    )
+
+
+def write_html(path, content):
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(content)
+
+
+# --- FONCTIONS D'AFFILIATION AUTOMATIQUES ---
+def update_booking_aid(url, nom_hotel="", ville="", pays="", new_aid="8012379"):
+    if not url or url == "#" or url.strip() == "":
+        query = f"{nom_hotel} {ville} {pays}".strip()
+        encoded_query = urllib.parse.quote(query)
+        return f"https://www.booking.com/searchresults.fr.html?ss={encoded_query}&aid={new_aid}"
+    
     url = url.rstrip('?')
     clean_url = url.replace("??", "?")
     parsed = urllib.parse.urlparse(clean_url)
@@ -16,18 +50,24 @@ def update_booking_aid(url, new_aid="8012379"):
     new_query = urllib.parse.urlencode(query_params)
     return urllib.parse.urlunparse(parsed._replace(query=new_query))
 
-def update_expedia_link(url):
-    if not url or url == "#": return "https://www.anrdoezrs.net/click-8012379-13854902?url=https://www.expedia.fr/"
+def update_expedia_link(url, nom_hotel="", ville="", pays=""):
+    if not url or url == "#" or url.strip() == "":
+        query = f"{nom_hotel} {ville} {pays}".strip()
+        encoded_query = urllib.parse.quote(query)
+        base_expedia = f"https://www.expedia.fr/Hote-Recherche?destination={encoded_query}"
+        return f"https://www.anrdoezrs.net/click-8012379-13854902?url={urllib.parse.quote(base_expedia, safe='')}"
+        
     url = url.rstrip('?')
     if "anrdoezrs.net" in url: return url
     encoded_url = urllib.parse.quote(url, safe='')
     return f"https://www.anrdoezrs.net/click-8012379-13854902?url={encoded_url}"
 
-# On utilise un nouveau dossier propre pour éviter les vieux fichiers en cache
-output_dir = "mon_site_final"
-if os.path.exists(output_dir):
-    shutil.rmtree(output_dir)
-os.makedirs(output_dir, exist_ok=True)
+# Dossier de sortie propre
+output_dir = str(OUTPUT_DIR)
+if OUTPUT_DIR.exists() and RESET_OUTPUT:
+    shutil.rmtree(OUTPUT_DIR)
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
 
 def nettoyer_slug(texte):
     texte = texte.lower().strip()
@@ -39,6 +79,99 @@ def get_img_as_base64(path):
         with open(path, "rb") as f:
             return base64.b64encode(f.read()).decode()
     return ""
+
+# Éléments partagés (Logo, Menu, Témoignages, Footer)
+logo_b64 = get_img_as_base64("logo_4.png")
+logo_html = f'<img src="data:image/png;base64,{logo_b64}" style="width: 70px; height: 70px; object-fit: contain; border-radius: 8px;">' if logo_b64 else ''
+
+menu_html = f"""
+<div style="display: flex; align-items: center; justify-content: center; gap: 20px; margin-bottom: 10px;">
+    {logo_html}
+    <h1 style="margin:0; color: white;">Comparateur intelligent d'hôtels</h1>
+</div>
+<p style="text-align: center; color: #94a3b8; font-size: 1.2em; margin-bottom: 20px;"><b>Nomad</b> : L'IA qui analyse les avis pour dénicher votre hôtel idéal.</p>
+
+<div class="top-nav">
+    <a href="index.html">Accueil / Hôtels</a>
+    <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
+    <a href="loueurs-vehicules.html">Location de Véhicules</a>
+    <a href="croisieres.html">Croisières</a>
+    <a href="blog.html">Blog</a>
+</div>
+"""
+
+global_style = """
+<style>
+body { background-color: #0B132B; color: #FFFFFF; font-family: sans-serif; padding: 20px; margin: 0; }
+.container { max-width: 1100px; margin: 0 auto; }
+.top-nav { display: flex; gap: 10px; background-color: #1C2541; padding: 15px; border-radius: 10px; margin-bottom: 25px; border: 1px solid #3A506B; overflow-x: auto; justify-content: center; }
+.top-nav a { color: white; background-color: #3A506B; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; }
+.card { background-color: #1C2541; border: 1px solid #3A506B; border-radius: 12px; padding: 25px; margin-bottom: 20px; }
+.btn { display: inline-block; background-color: #10B981; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; margin-top: 10px; }
+.btn-booking { display: block; background-color: #003580; color: white; padding: 10px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin-bottom: 8px; }
+.btn-expedia { display: block; background-color: #ffcc00; color: #000; padding: 10px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin-bottom: 8px; }
+</style>
+"""
+
+temoignages_html = """
+<div style="margin: 50px 0;">
+    <h2 style="text-align: center; color: #FFFFFF; margin-bottom: 30px;">💬 Ce que pensent nos voyageurs</h2>
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 30px;">
+        <div style="background-color: #1C2541 !important; border: 1px solid #3A506B; border-radius: 12px; padding: 20px; box-sizing: border-box;">
+            <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px; margin-top: 0;">⭐⭐⭐⭐⭐</p>
+            <p style="font-style: italic; font-size: 0.95em; color: #E2E8F0;">"Grâce au comparateur, j'ai trouvé l'hôtel idéal pour mes vacances en un clin d'œil !"</p>
+            <div style="display: flex; align-items: center; margin-top: 15px;">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+                <div><p style="font-weight: bold; font-size: 0.85em; margin: 0; color: white;">Marc D.</p><p style="font-size: 0.75em; color: #94a3b8; margin: 0;">Voyageur solo</p></div>
+            </div>
+        </div>
+        <div style="background-color: #1C2541 !important; border: 1px solid #3A506B; border-radius: 12px; padding: 20px; box-sizing: border-box;">
+            <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px; margin-top: 0;">⭐⭐⭐⭐⭐</p>
+            <p style="font-style: italic; font-size: 0.95em; color: #E2E8F0;">"Super application, très pratique pour comparer les hôtels rapidement. Je recommande !"</p>
+            <div style="display: flex; align-items: center; margin-top: 15px;">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+                <div><p style="font-weight: bold; font-size: 0.85em; margin: 0; color: white;">Sarah L.</p><p style="font-size: 0.75em; color: #94a3b8; margin: 0;">Voyage en famille</p></div>
+            </div>
+        </div>
+        <div style="background-color: #1C2541 !important; border: 1px solid #3A506B; border-radius: 12px; padding: 20px; box-sizing: border-box;">
+            <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px; margin-top: 0;">⭐⭐⭐⭐⭐</p>
+            <p style="font-style: italic; font-size: 0.95em; color: #E2E8F0;">"Le comparateur m'a permis d'économiser pas mal sur mon séjour. Interface fluide et propre."</p>
+            <div style="display: flex; align-items: center; margin-top: 15px;">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+                <div><p style="font-weight: bold; font-size: 0.85em; margin: 0; color: white;">Karim B.</p><p style="font-size: 0.75em; color: #94a3b8; margin: 0;">Voyageur régulier</p></div>
+            </div>
+        </div>
+    </div>
+    <hr style="border-color: #3A506B; margin: 30px 0;">
+    <p style="text-align: center; color: white; font-size: 15px; font-weight: bold; margin-bottom: 10px;">APPROUVÉ PAR LES VOYAGEURS QUI RÉSERVENT SUR</p>
+    <div style="text-align: center; margin-bottom: 15px; display: flex; justify-content: center; align-items: center; gap: 30px;">
+        <span style="background-color: #003580; color: white; padding: 8px 20px; border-radius: 6px; font-weight: 900; font-size: 18px;">Booking.com</span>
+        <a href="https://www.tkqlhce.com/click-101825091-14521545" target="_blank" rel="nofollow sponsored" style="background-color: white; padding: 6px 14px; border-radius: 6px; display: inline-flex; align-items: center; text-decoration: none;">
+            <img src="https://www.awltovhc.com/image-101825091-14521545" alt="Expedia" style="height: 40px; display: block;">
+        </a>
+    </div>
+    <p style="text-align: center; color: #888; font-size: 11px;">Comparaison de plus de 1000 hôtels &nbsp;&bull;&nbsp; 10 destinations incontournables &nbsp;&bull;&nbsp; 2 sites de réservation vérifiés</p>
+</div>
+"""
+
+footer_html = """
+<div style="background-color: #1e293b; color: #f8fafc; padding: 30px; border-radius: 10px; text-align: center; margin-top: 50px; border: 1px solid #3A506B;">
+    <div style="margin-bottom: 15px;">
+        <a href="index.html" style="color: #38bdf8; text-decoration: none; margin: 0 15px; font-weight: 500;">Accueil</a>
+    </div>
+    <p style="color: #94a3b8; font-size: 0.85em; margin: 0;">© 2026 MyHotelCompare. Tous droits réservés. Propulsé par l'IA.</p>
+</div>
+
+<div style="margin-top: 40px; padding: 20px; background-color: #1C2541; border-radius: 10px; border: 1px solid #3A506B;">
+    <h3 style="text-align: center; color: white; margin-top: 0;">💬 Votre avis nous intéresse</h3>
+    <p style="text-align: center; color: #94a3b8; font-size: 0.9em; margin-bottom: 20px;">Le site est en cours de construction. Aidez-nous à l'améliorer !</p>
+    <form action="https://formspree.io/f/xaewjazy" method="POST" style="display: flex; flex-direction: column; gap: 12px; max-width: 600px; margin: 0 auto;">
+        <input type="text" name="nom" placeholder="Votre nom ou prénom (facultatif)" style="padding: 12px; border-radius: 6px; border: 1px solid #3A506B; background: #0B132B; color: white;">
+        <textarea name="message" placeholder="Vos remarques, bugs ou conseils..." rows="4" style="padding: 12px; border-radius: 6px; border: 1px solid #3A506B; background: #0B132B; color: white;" required></textarea>
+        <button type="submit" style="background-color: #10B981; color: white; padding: 12px; border: none; border-radius: 6px; cursor: pointer; font-weight: bold;">Envoyer mon avis</button>
+    </form>
+</div>
+"""
 
 # 1. Chargement des données d'hôtels depuis data/
 HOTELS_DATA_COMPLET = {}
@@ -62,11 +195,14 @@ if os.path.exists(data_dir):
                                     'nom': nom, 'slug': slug, 'ville': d.get('ville', ''), 'pays': d.get('pays', ''),
                                     'etoiles': d.get('etoiles', 'N/C'), 'prix': d.get('prix_moyen', 'Sur demande'),
                                     'image': d.get('image', ''), 'description': d.get('description_ia') or d.get('description', ''),
-                                    'lien_booking': update_booking_aid(d.get('lien_booking', '#')),
-                                    'lien_expedia': update_expedia_link(d.get('lien_expedia', '#'))
+                                    'lien_booking': update_booking_aid(d.get('lien_booking', '#'), nom, d.get('ville', ''), d.get('pays', '')),
+                                    'lien_expedia': update_expedia_link(d.get('lien_expedia', '#'), nom, d.get('ville', ''), d.get('pays', ''))
                                 })
                 except Exception as e:
                     print(f"Erreur sur {filename}: {e}")
+
+with open(os.path.join(output_dir, "hotels.json"), "w", encoding="utf-8") as f:
+    json.dump(all_hotels, f, ensure_ascii=False, indent=4)
 
 # 2. Promo de la semaine
 promo_html = ""
@@ -81,12 +217,14 @@ if os.path.exists(chemin_promo):
                 ville_promo = promo.get("ville", "")
                 pays_promo = promo.get("pays", "")
                 desc_promo = promo.get("description", "")
+                lien_promo = update_booking_aid(promo.get("lien", ""), titre_promo, ville_promo, pays_promo)
                 promo_html = f"""
                 <div style="background-color: #1C2541; border: 1px solid #3A506B; border-radius: 12px; padding: 20px; height: 100%; box-sizing: border-box;">
                     {f'<img src="{img_promo}" style="width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 8px;">' if img_promo else ''}
                     <h3 style="margin-top: 0; color: white;">{titre_promo}</h3>
                     {f"<p style='color: #94a3b8; font-size: 0.85em; margin-top: -8px; margin-bottom: 6px;'>📍 {ville_promo}{', ' if ville_promo and pays_promo else ''}{pays_promo}</p>" if (ville_promo or pays_promo) else ''}
                     <p style="color: white; font-size: 0.95em;">{desc_promo}</p>
+                    {f'<a href="{lien_promo}" target="_blank" class="btn-booking" style="margin-top: 15px;">J\'en profite</a>' if lien_promo else ''}
                 </div>
                 """
     except Exception as e:
@@ -110,89 +248,31 @@ carousel_html = f"""
 </div>
 """
 
-logo_b64 = get_img_as_base64("logo_4.png")
-logo_html = f'<img src="data:image/png;base64,{logo_b64}" style="width: 70px; height: 70px; object-fit: contain; border-radius: 8px;">' if logo_b64 else ''
-
-menu_html = """
-<div class="top-nav">
-    <a href="index.html">Accueil</a>
-    <a href="hotels.html">Hôtels</a>
-    <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
-    <a href="loueurs-vehicules.html">Location de Véhicules</a>
-    <a href="croisieres.html">Croisières</a>
-    <a href="blog.html">Blog</a>
-</div>
-"""
-
-# 3. Page d'accueil
+# 3. Page d'accueil (index.html) avec le comparateur complet et les témoignages
 html_accueil = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>MyHotelCompare - Comparateur d'hôtels</title>
+    {global_style}
     <style>
-        body {{ background-color: #0B132B !important; color: #FFFFFF !important; font-family: sans-serif; margin: 0; padding: 20px; }}
-        .container {{ max-width: 1100px; margin: 0 auto; }}
-        .top-nav {{ display: flex; gap: 10px; background-color: #1C2541; padding: 15px; border-radius: 10px; margin-bottom: 25px; border: 1px solid #3A506B; overflow-x: auto; }}
-        .top-nav a {{ color: white; background-color: #3A506B; padding: 8px 16px; border-radius: 6px; text-decoration: none; }}
-        .header-box {{ display: flex; align-items: center; justify-content: center; gap: 20px; margin-bottom: 10px; }}
         .top-grid {{ display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 30px; }}
         @media (max-width: 768px) {{ .top-grid {{ grid-template-columns: 1fr; }} }}
-        .features-grid {{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 30px; }}
-        @media (max-width: 768px) {{ .features-grid {{ grid-template-columns: 1fr; }} }}
-        .feature-box {{ background-color: #1C2541; border: 1px solid #3A506B; border-radius: 10px; padding: 20px; }}
-        .feature-box h4 {{ color: #38bdf8; margin-top: 0; }}
-        .btn-cta {{ background-color: #10B981; color: white; padding: 14px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block; }}
-    </style>
-</head>
-<body>
-    <div class="container">
-        {menu_html}
-        <div class="header-box">{logo_html}<h1 style="margin:0;">Comparateur intelligent d'hôtels</h1></div>
-        <p style="text-align: center; color: #94a3b8; font-size: 1.2em; margin-bottom: 30px;"><b>Nomad</b> : L'IA qui analyse les avis pour dénicher votre hôtel idéal.</p>
-        <div class="top-grid"><div>{carousel_html}</div><div>{promo_html}</div></div>
-        <h2 style="text-align: center; margin: 40px 0 20px 0;">Pourquoi choisir MyHotelCompare ?</h2>
-        <div class="features-grid">
-            <div class="feature-box"><h4>🤖 IA Nomad</h4><p>Analyse automatique des vrais avis clients pour éviter les pièges.</p></div>
-            <div class="feature-box"><h4>🎯 Sur-Mesure</h4><p>Trouvez l'hôtel idéal selon vos critères (spa, plage privée...).</p></div>
-            <div class="feature-box"><h4>💼 Zéro Stress</h4><p>Maîtrisez votre budget et profitez d'un séjour en toute sérénité.</p></div>
-        </div>
-        <div style="text-align: center; margin: 40px 0;"><a href="hotels.html" class="btn-cta">🚀 Accéder au comparateur d'hôtels</a></div>
-    </div>
-</body>
-</html>
-"""
-with open(f"{output_dir}/index.html", "w", encoding="utf-8") as f:
-    f.write(html_accueil)
-
-with open(os.path.join(output_dir, "hotels.json"), "w", encoding="utf-8") as f:
-    json.dump(all_hotels, f, ensure_ascii=False, indent=4)
-    
-# 4. Page hotels.html (Comparateur)
-html_hotels = f"""<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Comparateur d'hôtels | MyHotelCompare</title>
-    <style>
-        body {{ background-color: #0B132B; color: #FFFFFF; font-family: sans-serif; padding: 20px; margin: 0; }}
-        .container {{ max-width: 1100px; margin: 0 auto; }}
-        .top-nav {{ display: flex; gap: 10px; background-color: #1C2541; padding: 15px; border-radius: 10px; margin-bottom: 25px; border: 1px solid #3A506B; overflow-x: auto; }}
-        .top-nav a {{ color: white; background-color: #3A506B; padding: 8px 16px; border-radius: 6px; text-decoration: none; }}
         .filters-box {{ background-color: #1C2541; border: 1px solid #3A506B; border-radius: 10px; padding: 20px; margin-bottom: 25px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }}
         .filters-box select {{ width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #3A506B; background-color: #0B132B; color: white; }}
         .btn-compare {{ background-color: #10B981; color: white; border: none; padding: 12px; border-radius: 6px; font-weight: bold; cursor: pointer; width: 100%; }}
         .comparison-grid {{ display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }}
         @media (max-width: 768px) {{ .comparison-grid {{ grid-template-columns: 1fr; }} }}
-        .hotel-card {{ background-color: #1C2541; border: 1px solid #3A506B; border-radius: 12px; padding: 20px; box-sizing: border-box; }}
-        .btn-booking {{ display: block; background-color: #003580; color: white; padding: 10px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin-bottom: 8px; }}
-        .btn-expedia {{ display: block; background-color: #ffcc00; color: #000; padding: 10px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin-bottom: 8px; }}
     </style>
 </head>
 <body>
     <div class="container">
         {menu_html}
-        <h2>💡 Comparateur d'hôtels</h2>
+        <div class="top-grid"><div>{carousel_html}</div><div>{promo_html}</div></div>
+        
+        <h2>💡 Comment comparer vos hôtels</h2>
+        <p>1. Sélectionnez pays et ville. 2. Choisissez deux hôtels. 3. Cliquez sur Comparer.</p>
+        
         <div class="filters-box">
             <div><label style="color:#94a3b8; display:block; margin-bottom:5px;">Pays</label><select id="selectPays" onchange="updateVilles()"><option value="">Tous les pays</option></select></div>
             <div><label style="color:#94a3b8; display:block; margin-bottom:5px;">Ville</label><select id="selectVille" onchange="updateHotels()"><option value="">Toutes les villes</option></select></div>
@@ -201,16 +281,17 @@ html_hotels = f"""<!DOCTYPE html>
         </div>
         <button class="btn-compare" onclick="lancerComparaison()">🚀 Lancer la comparaison</button>
         <div id="resultatComparaison" class="comparison-grid" style="margin-top: 30px;"></div>
+
+        {temoignages_html}
+        {footer_html}
     </div>
     <script>
         let hotelsData = [];
         fetch('hotels.json')
             .then(response => response.json())
-            .then(data => {{
-                hotelsData = data;
-                initFiltres();
-            }})
-            .catch(error => console.error('Erreur de chargement des hôtels :', error));
+            .then(data => {{ hotelsData = data; initFiltres(); }})
+            .catch(error => console.error('Erreur:', error));
+        
         function initFiltres() {{
             const paysSet = [...new Set(hotelsData.map(h => h.pays).filter(Boolean))].sort();
             const selectPays = document.getElementById('selectPays');
@@ -246,7 +327,7 @@ html_hotels = f"""<!DOCTYPE html>
         }}
         function renderCard(h) {{
             const mapQuery = encodeURIComponent(h.nom + ", " + h.ville + ", " + h.pays);
-            return `<div class="hotel-card">
+            return `<div class="card">
                 ${{h.image ? '<img src="' + h.image + '" style="width:100%; height:180px; object-fit:cover; border-radius:8px; margin-bottom:10px;">' : ''}}
                 <h3><a href="${{h.slug}}.html" style="color:#38bdf8; text-decoration:none;">${{h.nom}}</a></h3>
                 <p style="color:#94a3b8;">📍 ${{h.ville}}, ${{h.pays}} | ⭐ ${{h.etoiles}}</p>
@@ -261,222 +342,287 @@ html_hotels = f"""<!DOCTYPE html>
 </body>
 </html>
 """
-with open(f"{output_dir}/hotels.html", "w", encoding="utf-8") as f:
-    f.write(html_hotels)
+write_html(OUTPUT_DIR / "index.html", html_accueil)
 
-# 5. Fiches individuelles des hôtels
+# Copie de secours pour index.html sous hotels.html au cas où
+write_html(OUTPUT_DIR / "hotels.html", html_accueil)
+
+# 4. Fiches individuelles des hôtels
 for h_nom, d in HOTELS_DATA_COMPLET.items():
     slug = nettoyer_slug(h_nom)
     if not slug: continue
     
-    # On récupère et applique vos fonctions d'affiliation ici aussi
-    l_booking = update_booking_aid(d.get('lien_booking', '#'))
-    l_expedia = update_expedia_link(d.get('lien_expedia', '#'))
+    l_booking = update_booking_aid(d.get('lien_booking', '#'), h_nom, d.get('ville', ''), d.get('pays', ''))
+    l_expedia = update_expedia_link(d.get('lien_expedia', '#'), h_nom, d.get('ville', ''), d.get('pays', ''))
     
     html_fiche = f"""<!DOCTYPE html>
 <html lang="fr">
-<head><meta charset="UTF-8"><title>{h_nom}</title>
-<style>
-body {{ background-color: #0B132B; color: #FFFFFF; font-family: sans-serif; padding: 20px; margin: 0; }}
-.container {{ max-width: 900px; margin: 0 auto; }}
-.top-nav {{ display: flex; gap: 10px; background-color: #1C2541; padding: 15px; border-radius: 10px; margin-bottom: 25px; border: 1px solid #3A506B; overflow-x: auto; }}
-.top-nav a {{ color: white; background-color: #3A506B; padding: 8px 16px; border-radius: 6px; text-decoration: none; }}
-.hotel-box {{ background-color: #1C2541; border: 1px solid #3A506B; border-radius: 12px; padding: 25px; }}
-.btn-booking {{ display: block; background-color: #003580; color: white; padding: 12px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin-bottom: 10px; }}
-.btn-expedia {{ display: block; background-color: #ffcc00; color: #000; padding: 12px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin-bottom: 10px; }}
-</style></head>
+<head><meta charset="UTF-8"><title>{h_nom}</title>{global_style}</head>
 <body><div class="container">{menu_html}
-<a href="hotels.html" style="color: #38bdf8; display: inline-block; margin-bottom: 15px;">← Retour</a>
-<div class="hotel-box">
+<a href="index.html" style="color: #38bdf8; display: inline-block; margin-bottom: 15px; text-decoration: none;">← Retour à l'accueil</a>
+<div class="card">
     <h1>{h_nom}</h1>
     <p style="color: #94a3b8;">📍 {d.get('ville','')}, {d.get('pays','')} | ⭐ {d.get('etoiles','N/C')}</p>
     {f'<img src="{d.get("image")}" style="width:100%; max-height:350px; object-fit:cover; border-radius:8px; margin:15px 0;">' if d.get('image') else ''}
+    <p style="color:#10B981; font-weight:bold; font-size: 1.2em;">💰 {d.get('prix_moyen', 'Sur demande')}</p>
+    
     <h3>✨ Description</h3><p>{d.get('description_ia') or d.get('description', '')}</p>
-    <h3>🛠️ Équipements</h3><p>{', '.join(d.get('equipements', []))}</p>
+    {f"<h3>🛠️ Équipements</h3><p>{', '.join(d.get('equipements', []))}</p>" if d.get('equipements') else ""}
+    {f"<h3>✅ Points Positifs</h3><ul>" + "".join([f"<li>{p}</li>" for p in d.get('points_positifs', [])]) + "</ul>" if d.get('points_positifs') else ""}
     
     <div style="margin-top: 30px;">
         <a href="{l_booking}" target="_blank" class="btn-booking">Réserver sur Booking</a>
         <a href="{l_expedia}" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
     </div>
-</div></div></body></html>"""
-    with open(f"{output_dir}/{slug}.html", "w", encoding="utf-8") as f:
+</div>
+{footer_html}
+</div></body></html>"""
+    with open(os.path.join(output_dir, f"{slug}.html"), "w", encoding="utf-8") as f:
         f.write(html_fiche)
 
-# 6. Vos 11 articles de blog complets avec leurs textes détaillés
-articles_blog = [
-    {
-        "titre": "5 astuces d'expert pour voyager moins cher",
-        "slug": "5-astuces-d-expert-pour-voyager-moins-cher",
-        "image": "images/image_astuce.jpg",
-        "resume": "Voyager ne signifie pas forcément se ruiner.",
-        "details": "Vous rêvez de vacances inoubliables sans pour autant faire exploser votre budget ? En tant qu'experts chez HotelCompare, nous analysons quotidiennement les tendances tarifaires. Voici nos 5 astuces imparables.<br><br><b>1. La flexibilité des dates</b><br>Décaler vos dates de départ de seulement 48 heures peut vous faire économiser jusqu'à 30 %.<br><br><b>2. Anticipez ou profitez des Last Minute</b><br>Early Booking ou dernière minute selon votre profil d'aventurier."
-    },
-    {
-        "titre": "Le guide ultime pour choisir son hôtel en Tunisie",
-        "slug": "le-guide-ultime-pour-choisir-son-hotel-en-tunisie",
-        "image": "images/image_hotel.jpg",
-        "resume": "Choisir le mauvais hôtel peut gâcher un séjour.",
-        "details": "Choisir l'hébergement idéal pour ses vacances peut parfois ressembler à un casse-tête, surtout face à la richesse des destinations tunisiennes (Djerba, Sousse, Hammamet)."
-    },
-    {
-        "titre": "Découvrir la Tunisie autrement : mes coups de cœur",
-        "slug": "decouvrir-la-tunisie-autrement",
-        "image": "images/image_tunisie.jpg",
-        "resume": "Loin des circuits classiques, la Tunisie regorge de pépites.",
-        "details": "La Tunisie est souvent associée à ses magnifiques stations balnéaires. Pourtant, au-delà des piscines, se cache une terre de contrastes saisissants, du désert du Sud aux maisons d'hôtes traditionnelles."
-    },
-    {
-        "titre": "Préparer son voyage en Afrique : Le guide indispensable",
-        "slug": "preparer-son-voyage-en-afrique",
-        "image": "images/image_afrique.jpg",
-        "resume": "Préparer un voyage en Afrique demande une organisation rigoureuse.",
-        "details": "La santé, les vaccinations (fièvre jaune, paludisme), les formalités de passeport et l'assurance voyage sont des piliers incontournables pour un séjour en toute sérénité."
-    },
-    {
-        "titre": "Quand partir et où ? Le calendrier des voyageurs malins",
-        "slug": "quand-partir-et-ou",
-        "image": "images/test.jpg",
-        "resume": "Pour voyager à moindre coût, la règle d'or est de privilégier le hors-saison.",
-        "details": "Découvrez le calendrier des destinations économiques mois par mois pour fuir la haute saison et profiter de tarifs exceptionnels."
-    },
-    {
-        "titre": "Comprendre les algorithmes de prix des hôtels",
-        "slug": "comprendre-les-algorithmes-de-prix",
-        "image": "images/algorythme.jpg",
-        "resume": "Pourquoi les prix des hôtels changent constamment ? Décryptage des algorithmes.",
-        "details": "Le *Revenue Management* fait varier les prix en fonction du taux d'occupation, de la vitesse de réservation et de la saisonnalité."
-    },
-    {
-        "titre": "Avis Hôtel Virginia Resort Sharm El Sheikh : Mon séjour cauchemardesque de 7 nuits",
-        "slug": "avis-hotel-virginia-resort",
-        "image": "images/virginia.png",
-        "resume": "Un séjour de 7 nuits qui a tourné au cauchemar. Cet établissement ne mérite pas ses 4 étoiles.",
-        "details": "Chambres vétustes, restauration répétitive (poulet en boucle, absence de fruits variés), formule All-Inclusive s'arrêtant à 22h00... Un récit sans filtre."
-    },
-    {
-        "titre": "Des excursions inoubliables : À la découverte des trésors cachés",
-        "slug": "des-excursions-inoubliables",
-        "image": "images/im1.jpg",
-        "resume": "Récit de voyage, découvertes extraordinaires et un grand merci à notre super guide Mister Heni !",
-        "details": "Old Market, Soho Square, Île Blanche en mer Rouge, Farsha Café et virée en quad dans le désert du Sinaï : un séjour inoubliable à Charm el-Cheikh."
-    },
-    {
-        "titre": "L'Avenir du Voyage : Comment le Changement Climatique Redéfinit nos Vacances",
-        "slug": "l-avenir-du-voyage",
-        "image": "images/avenir_voyage.png",
-        "resume": "Découvrez pourquoi et comment nos habitudes de vacances évoluent face au changement climatique.",
-        "details": "Entre recherche de fraîcheur dans le Nord, essor du slow tourism et prise de conscience écologique, nos manières de voyager se réinventent."
-    },
-    {
-        "titre": "Comment trouver un hôtel moins cher : 7 astuces infaillibles",
-        "slug": "comment-trouver-un-hotel-moins-cher",
-        "image": "images/astuces_hotels.png",
-        "resume": "Réserver un hébergement au meilleur prix demande quelques astuces. Découvrez 7 conseils d'experts.",
-        "details": "Comparateurs indépendants, navigation privée, flexibilité des dates : toutes les clés pour alléger la facture de votre prochain séjour."
-    },
-    {
-        "titre": "Enquête exclusive : All-Inclusive vs. Petit-Déjeuner, les vacanciers ont tranché",
-        "slug": "enquete-all-inclusive-vs-petit-dejeuner",
-        "image": "images/enquete_exclusive.jpg",
-        "resume": "Pourquoi le All-Inclusive triomphe-t-il auprès des familles ? Découvrez notre enquête.",
-        "details": "Analyse de la disparition de la pension complète traditionnelle et décryptage des attentes des vacanciers entre liberté et maîtrise du budget."
-    }
-]
-
-# Génération des cartes et pages d'articles individuelles
-blog_cards_html = ""
-for art in articles_blog:
-    blog_cards_html += f"""
-    <div class="blog-card">
-        <img src="{art['image']}" alt="{art['titre']}" onerror="this.src='https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=600&q=80'">
-        <div class="blog-content">
-            <h3>{art['titre']}</h3>
-            <p>{art['resume']}</p>
-            <a href="{art['slug']}.html" class="btn-article">Lire l'article</a>
+# 5. Page Compagnies Aériennes
+airlines_cards_html = ""
+for a_nom, a_data in sorted(AIRLINES_DATA.items()):
+    a_slug = nettoyer_slug(a_nom)
+    logo_p = a_data.get("logo", "images/airbus_vol.jpg")
+    
+    fiche_airline = f"""<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><title>{a_nom}</title>{global_style}</head>
+<body><div class="container">{menu_html}
+<a href="compagnies-aeriennes.html" style="color: #38bdf8; display: inline-block; margin-bottom: 15px; text-decoration: none;">← Retour aux compagnies</a>
+<div class="card">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;">
+        <div>
+            <h1>{a_nom}</h1>
+            <p style="color: #94a3b8; margin: 0;">Catégorie : <b>{a_data.get('categorie', 'N/A')}</b> | Alliance : <b>{a_data.get('alliance', 'N/A')}</b> | Note : ⭐ <b>{a_data.get('note', 'N/A')}</b></p>
+        </div>
+        {f'<img src="{logo_p}" style="max-height: 80px; object-fit: contain; border-radius: 6px;">' if os.path.exists(logo_p) else ''}
+    </div>
+    <hr style="border-color: #3A506B; margin: 20px 0;">
+    <h3>📖 À propos</h3>
+    <p>{a_data.get('resume', '')}</p>
+    
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px;">
+        <div>
+            <p><b>📜 Histoire :</b> {a_data.get('histoire', 'N/A')}</p>
+            <p><b>✈️ Flotte :</b> {a_data.get('flotte', 'N/A')}</p>
+        </div>
+        <div>
+            <p><b>🧳 Bagages :</b> {a_data.get('bagages', 'N/A')}</p>
+            <p><b>🛡️ Sécurité :</b> {a_data.get('securite', 'N/A')}</p>
         </div>
     </div>
-    """
     
-    html_article_seul = f"""<!DOCTYPE html>
-<html lang="fr">
-<head><meta charset="UTF-8"><title>{art['titre']} | MyHotelCompare</title>
-<style>
-body {{ background-color: #0B132B; color: #FFFFFF; font-family: sans-serif; padding: 20px; margin: 0; }}
-.container {{ max-width: 800px; margin: 0 auto; }}
-.top-nav {{ display: flex; gap: 10px; background-color: #1C2541; padding: 15px; border-radius: 10px; margin-bottom: 25px; border: 1px solid #3A506B; overflow-x: auto; }}
-.top-nav a {{ color: white; background-color: #3A506B; padding: 8px 16px; border-radius: 6px; text-decoration: none; }}
-.article-box {{ background-color: #1C2541; border: 1px solid #3A506B; border-radius: 12px; padding: 30px; line-height: 1.7; }}
-.article-box img {{ width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin-bottom: 20px; }}
-</style></head>
-<body>
-<div class="container">
-    {menu_html}
-    <a href="blog.html" style="color: #38bdf8; display: inline-block; margin-bottom: 15px; text-decoration: none;">← Retour au blog</a>
-    <div class="article-box">
-        <h1>{art['titre']}</h1>
-        <img src="{art['image']}" alt="{art['titre']}" onerror="this.src='https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=800&q=80'">
-        <div style="font-size: 1.1em; color: #e2e8f0;">{art['details']}</div>
+    <h3>📍 Liaisons fréquentes</h3>
+    <p>{', '.join(a_data.get('liaisons', []))}</p>
+    
+    <div style="background-color: #0b132b; padding: 15px; border-radius: 8px; border: 1px solid #3A506B; margin: 20px 0;">
+        <p style="margin: 0; color: #38bdf8;"><b>🎯 Pour qui ?</b> {a_data.get('pour_qui', '')}</p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+        <div style="background-color: rgba(16, 185, 129, 0.1); padding: 15px; border-radius: 8px; border: 1px solid #10B981;">
+            <h4 style="color: #10B981; margin-top: 0;">✅ Points Positifs</h4>
+            <ul>{"".join([f"<li>{p}</li>" for p in a_data.get('points_positifs', [])])}</ul>
+        </div>
+        <div style="background-color: rgba(239, 68, 68, 0.1); padding: 15px; border-radius: 8px; border: 1px solid #ef4444;">
+            <h4 style="color: #ef4444; margin-top: 0;">⚠️ Points de vigilance</h4>
+            <ul>{"".join([f"<li>{n}</li>" for n in a_data.get('points_negatifs', [])])}</ul>
+        </div>
+    </div>
+
+    {f'<div style="margin-top: 30px;"><a href="{a_data["lien"]}" target="_blank" class="btn" style="background-color: #0066cc; display: block; text-align: center;">Réserver le vol</a></div>' if a_data.get('lien') else ''}
+</div>
+{footer_html}
+</div></body></html>"""
+    with open(os.path.join(output_dir, f"{a_slug}.html"), "w", encoding="utf-8") as f: f.write(fiche_airline)
+
+    airlines_cards_html += f"""
+    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
+        <div>
+            <h3>{a_nom}</h3>
+            <p style="color: #94a3b8; margin: 5px 0;">{a_data.get('resume', '')[:120]}...</p>
+            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : {a_data.get('alliance', 'N/A')}</span>
+        </div>
+        <div style="text-align: right; flex-shrink: 0;">
+            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ {a_data.get('note', 'N/A')}</span>
+            <a href="{a_slug}.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
+        </div>
+    </div>"""
+
+p_comp = f"""<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><title>Compagnies Aériennes | MyHotelCompare</title>{global_style}</head>
+<body><div class="container">{menu_html}
+<h1>✈️ Guide des Compagnies Aériennes</h1>
+<p style="color: #94a3b8; margin-bottom: 25px;">Analysez les caractéristiques, les avantages et les points d'attention de chaque compagnie.</p>
+{airlines_cards_html}
+{footer_html}
+</div></body></html>"""
+with open(os.path.join(output_dir, "compagnies-aeriennes.html"), "w", encoding="utf-8") as f: f.write(p_comp)
+
+# 6. Page Loueurs de Véhicules
+loueurs_data = {
+    "Enterprise": {"rang": "#1 Mondial", "note": "4.4 / 5", "resume": "Leader mondial de la location, excellent service client, très présent dans les aéroports et les centres-villes."},
+    "Hertz": {"rang": "#2 Mondial", "note": "4.0 / 5", "resume": "Présent dans le monde entier, grand choix de véhicules récents et service client fiable."},
+    "Avis": {"rang": "#3 Mondial", "note": "4.1 / 5", "resume": "L'un des pionniers de la location, reconnu pour son service professionnel et ses programmes de fidélité."},
+    "Sixt": {"rang": "#4 Mondial", "note": "4.3 / 5", "resume": "Flotte moderne, véhicules haut de gamme souvent disponibles et agences très bien placées."},
+    "Europcar": {"rang": "#5 Mondial", "note": "3.9 / 5", "resume": "Réseau très étendu en Europe et formules de location flexibles adaptées aux voyageurs internationaux."},
+    "Alamo": {"rang": "#6 Mondial", "note": "4.2 / 5", "resume": "Très populaire auprès des vacanciers, notamment pour ses options de choix de véhicule sur place."},
+    "Budget": {"rang": "#7 Mondial", "note": "3.8 / 5", "resume": "Idéal pour les petits budgets, offre un très bon rapport qualité-prix sur une large gamme de véhicules."},
+    "Dollar": {"rang": "#8 Mondial", "note": "3.7 / 5", "resume": "Tarifs souvent très compétitifs pour les locations de vacances en famille."},
+    "Thrifty": {"rang": "#9 Mondial", "note": "3.7 / 5", "resume": "Solutions économiques et pratiques pour les voyageurs à la recherche de bons plans."}
+}
+
+loueurs_cards_html = ""
+for l_nom, l_info in loueurs_data.items():
+    loueurs_cards_html += f"""
+    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
+        <div>
+            <span style="background-color: #3b82f6; color: white; padding: 6px 12px; border-radius: 6px; font-weight: bold; font-size: 0.9em;">{l_info['rang']}</span>
+            <h3 style="margin: 10px 0 5px 0;">{l_nom}</h3>
+            <p style="color: #94a3b8; margin: 0;">{l_info['resume']}</p>
+        </div>
+        <div style="text-align: right; flex-shrink: 0;">
+            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em;">⭐ {l_info['note']}</span>
+        </div>
+    </div>"""
+
+p_loueurs = f"""<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><title>Location de Véhicules | MyHotelCompare</title>{global_style}</head>
+<body><div class="container">{menu_html}
+<div class="card">
+    <h1>🚗 Comparateur & Agences de Location de Véhicules</h1>
+    <p>Recherchez et comparez les meilleurs loueurs de voitures à travers le monde.</p>
+</div>
+<h2 style="margin-top: 30px;">Nos partenaires loueurs</h2>
+{loueurs_cards_html}
+<div class="card" style="margin-top: 30px;">
+    <h3>Trouvez votre véhicule partout dans le monde</h3>
+    <div style="width: 100%; min-height: 400px; margin-top: 15px;">
+        <script async src="https://tpemd.com/content?trs=552839&shmarker=751055&locale=fr&powered_by=true&border_radius=4&plain=true&show_logo=false&color_background=%23ffca28&color_button=%2355a539&color_text=%23000000&color_input_text=%23000000&color_button_text=%23ffffff&promo_id=4480&campaign_id=10" charset="utf-8"></script>
     </div>
 </div>
-</body>
-</html>
-"""
-    with open(f"{output_dir}/{art['slug']}.html", "w", encoding="utf-8") as f:
-        f.write(html_article_seul)
-
-# Génération de la page principale blog.html
-html_blog = f"""<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Notre Blog Voyage | MyHotelCompare</title>
-    <style>
-        body {{ background-color: #0B132B; color: #FFFFFF; font-family: sans-serif; margin: 0; padding: 20px; }}
-        .container {{ max-width: 1100px; margin: 0 auto; }}
-        .top-nav {{ display: flex; gap: 10px; background-color: #1C2541; padding: 15px; border-radius: 10px; margin-bottom: 25px; border: 1px solid #3A506B; overflow-x: auto; }}
-        .top-nav a {{ color: white; background-color: #3A506B; padding: 8px 16px; border-radius: 6px; text-decoration: none; }}
-        h1 {{ font-size: 2em; margin-bottom: 30px; }}
-        .blog-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }}
-        .blog-card {{ background-color: #1C2541; border: 1px solid #3A506B; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; }}
-        .blog-card img {{ width: 100%; height: 180px; object-fit: cover; }}
-        .blog-content {{ padding: 20px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between; }}
-        .blog-content h3 {{ color: white; margin-top: 0; font-size: 1.15em; margin-bottom: 10px; }}
-        .blog-content p {{ color: #94a3b8; font-size: 0.88em; margin-bottom: 20px; line-height: 1.4; }}
-        .btn-article {{ display: inline-block; background-color: #3A506B; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 0.9em; font-weight: bold; text-align: center; }}
-        .btn-article:hover {{ background-color: #38bdf8; color: #0B132B; }}
-    </style>
-</head>
-<body>
-    <div class="container">
-        {menu_html}
-        <h1>📖 Notre Blog Voyage</h1>
-        <div class="blog-grid">
-            {blog_cards_html}
-        </div>
-    </div>
-</body>
-</html>
-"""
-with open(f"{output_dir}/blog.html", "w", encoding="utf-8") as f:
-    f.write(html_blog)
-
-# 7. Pages annexes
-for p in ["compagnies-aeriennes.html", "loueurs-vehicules.html", "croisieres.html"]:
-    nom_propre = p.replace('.html', '').replace('-', ' ').capitalize()
-    html_annexe = f"""<!DOCTYPE html>
-<html lang="fr">
-<head><meta charset="UTF-8"><title>{nom_propre} | MyHotelCompare</title>
-<style>
-body {{ background-color: #0B132B; color: #FFFFFF; font-family: sans-serif; margin: 0; padding: 20px; }}
-.container {{ max-width: 1100px; margin: 0 auto; }}
-.top-nav {{ display: flex; gap: 10px; background-color: #1C2541; padding: 15px; border-radius: 10px; margin-bottom: 25px; border: 1px solid #3A506B; overflow-x: auto; }}
-.top-nav a {{ color: white; background-color: #3A506B; padding: 8px 16px; border-radius: 6px; text-decoration: none; }}
-.content {{ background-color: #1C2541; border: 1px solid #3A506B; border-radius: 12px; padding: 30px; }}
-</style></head>
-<body><div class="container">{menu_html}
-<div class="content"><h1>{nom_propre}</h1><p style="color:#94a3b8;">Comparatifs et sélections en cours de chargement...</p></div>
+{footer_html}
 </div></body></html>"""
-    with open(f"{output_dir}/{p}", "w", encoding="utf-8") as f:
-        f.write(html_annexe)
+with open(os.path.join(output_dir, "loueurs-vehicules.html"), "w", encoding="utf-8") as f: f.write(p_loueurs)
 
-print(f"Génération réussie ! Ouvrez le dossier '{output_dir}' pour voir votre site complet avec ses 11 articles et textes détaillés.")
+# 7. Page Croisières
+croisieres_data = {
+    "Costa Croisières - Merveilles de la Méditerranée": {
+        "compagnie": "Costa Croisières", "region": "Méditerranée Occidentale", "duree": "8 jours / 7 nuits",
+        "depart": "Marseille (France)", "prix_moyen": "750€ / personne", "avis": "8,5/10 Très bien",
+        "image": "https://www.costacroisieres.fr/map/itineraries/CIV07ACQ/images/fr_FR_CIV07ACQ_landscape_sd_1x.jpg",
+        "lien_reservation": "https://www.costacroisieres.fr/cruises/CIV07ACQ/PA07261114.html",
+        "description": "Une magnifique échappée ensoleillée à la découverte des plus beaux joyaux de la Méditerranée.",
+        "itineraire": ["Jour 1 : Civitavecchia / Rome", "Jour 2 : Savone", "Jour 3 : Marseille", "Jour 4 : Barcelone", "Jour 5 : En navigation", "Jour 6 : La Goulette | Tunis", "Jour 7 : Palerme", "Jour 8 : Retour à Civitavecchia / Rome"]
+    },
+    "Costa Smeralda - Merveilles de la Méditerranée": {
+        "compagnie": "Costa Croisières", "region": "Italie, France, Espagne", "duree": "6 jours / 5 nuits",
+        "depart": "Civitavecchia | Rome", "prix_moyen": "918€ / 2 passagers", "avis": "Exceptionnel (4/5)",
+        "image": "https://www.costacroisieres.fr/map/itineraries/CIV05A19/images/fr_FR_CIV05A19_landscape_sd_1x.jpg",
+        "lien_reservation": "https://www.costacroisieres.fr/cruises/CIV05A19/SM05261106.html",
+        "description": "Mini-Croisières de 6 jours en Méditerranée à bord du Costa Smeralda.",
+        "itineraire": ["Jour 1 : Civitavecchia | Rome", "Jour 2 : Savone", "Jour 3 : Marseille", "Jour 4 : Barcelone", "Jour 5 : En navigation", "Jour 6 : Civitavecchia | Rome"]
+    },
+    "Costa Fascinosa - Caraïbes et Antilles": {
+        "compagnie": "Costa Croisières", "region": "Caraïbes et Antilles", "duree": "8 jours / 7 nuits",
+        "depart": "La Romana / Saint-Domingue", "prix_moyen": "918€ / 2 passagers", "avis": "Exceptionnel (4/5)",
+        "image": "https://www.costacroisieres.fr/map/itineraries/LRM07A20/images/fr_FR_LRM07A20_landscape_sd_1x.jpg",
+        "lien_reservation": "https://www.costacroisieres.fr/cruises/LRM07A20/FS07270117.html",
+        "description": "Une croisière paradisiaque de 8 jours à travers les Caraïbes et les Antilles à bord du Costa Fascinosa.",
+        "itineraire": ["Jour 1 : La Romana", "Jour 2 : Mer des Caraïbes", "Jour 3 : Martinique", "Jour 4 : Barbade", "Jour 5 : Guadeloupe", "Jour 6 : Saint-Kitts", "Jour 7 : Tortola", "Jour 8 : La Romana"]
+    }
+}
+
+croisieres_list_html = ""
+for c_nom, c_data in croisieres_data.items():
+    c_slug = nettoyer_slug(c_nom)
+    fiche_croisiere = f"""<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><title>{c_nom}</title>{global_style}</head>
+<body><div class="container">{menu_html}
+<a href="croisieres.html" style="color: #38bdf8; display: inline-block; margin-bottom: 15px; text-decoration: none;">← Retour aux croisières</a>
+<div class="card">
+    <h1>{c_nom}</h1>
+    <p style="color: #94a3b8;">🚢 {c_data['compagnie']} | 📍 Région : {c_data['region']} | ⏱️ {c_data['duree']}</p>
+    {f'<img src="{c_data["image"]}" style="width:100%; max-height:350px; object-fit:cover; border-radius:8px; margin:15px 0;">' if c_data['image'] else ''}
+    <h3>✨ Description</h3><p>{c_data['description']}</p>
+    <h3>🗺️ Itinéraire détaillé</h3>
+    <ul>{"".join([f"<li>{etape}</li>" for etape in c_data['itineraire']])}</ul>
+    <h3>⭐ Avis : {c_data['avis']} | 💰 Prix : {c_data['prix_moyen']}</h3>
+    <div style="margin-top: 30px;">
+        <a href="{c_data['lien_reservation']}" target="_blank" class="btn" style="background-color: #003580; display: block; text-align: center;">Réserver cette croisière</a>
+    </div>
+</div>
+{footer_html}
+</div></body></html>"""
+    with open(os.path.join(output_dir, f"{c_slug}.html"), "w", encoding="utf-8") as f: f.write(fiche_croisiere)
+
+    croisieres_list_html += f"""
+    <div class="card">
+        {f'<img src="{c_data["image"]}" style="width:100%; height:180px; object-fit:cover; border-radius:8px; margin-bottom:10px;">' if c_data['image'] else ''}
+        <h3>{c_nom}</h3>
+        <p style="color:#94a3b8;">📍 {c_data['region']} | ⏱️ {c_data['duree']} | ⭐ {c_data['avis']}</p>
+        <p style="color:#10B981; font-weight:bold;">💰 {c_data['prix_moyen']}</p>
+        <p>{c_data['description']}</p>
+        <a href="{c_slug}.html" class="btn" style="background:#3A506B;">📄 Voir l'itinéraire détaillé</a>
+        <a href="{c_data['lien_reservation']}" target="_blank" class="btn" style="background-color: #003580; display:block; text-align:center;">Réserver</a>
+    </div>"""
+
+croisiere_page = f"""<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><title>Nos Croisières | MyHotelCompare</title>{global_style}</head>
+<body><div class="container">{menu_html}
+<h1>🚢 Nos Croisières Exclusives</h1>
+<p style="color: #94a3b8; margin-bottom: 25px;">Partez en mer avec notre sélection de croisières inoubliables.</p>
+{croisieres_list_html}
+{footer_html}
+</div></body></html>"""
+with open(os.path.join(output_dir, "croisieres.html"), "w", encoding="utf-8") as f: f.write(croisiere_page)
+
+# 8. Blog dynamique
+blog_list_html = ""
+if os.path.exists("blog_data.json"):
+    with open("blog_data.json", "r", encoding="utf-8") as f:
+        articles = json.load(f)
+        for art in articles:
+            art_title = art.get('titre', '')
+            art_slug = nettoyer_slug(art.get('slug') or art_title)
+            if not art_slug: continue
+            
+            images_art = art.get('images', [])
+            img_art = images_art[0] if images_art else art.get('image', '')
+            details_texte = art.get('details', '').replace('\n', '<br>')
+            
+            article_page = f"""<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><title>{art_title} | Blog</title>{global_style}</head>
+<body><div class="container">{menu_html}
+<a href="blog.html" style="color: #38bdf8; display: inline-block; margin-bottom: 15px; text-decoration: none;">← Retour au blog</a>
+<div class="card">
+    <h1>{art_title}</h1>
+    {f'<img src="{img_art}" style="width:100%; max-height:400px; object-fit:cover; border-radius:8px; margin:20px 0;">' if img_art else ''}
+    <p style="font-size: 1.1em; line-height: 1.8;">{details_texte}</p>
+</div>
+{footer_html}
+</div></body></html>"""
+            with open(os.path.join(output_dir, f"{art_slug}.html"), "w", encoding="utf-8") as f: f.write(article_page)
+            
+            blog_list_html += f"""
+            <div class="card" style="display: flex; gap: 20px; align-items: center;">
+                {f'<img src="{img_art}" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">' if img_art else ''}
+                <div>
+                    <h3>{art_title}</h3>
+                    <p style="color: #94a3b8; font-size: 0.95em;">{art.get('resume', '')}</p>
+                    <a href="{art_slug}.html" class="btn">Lire l'article complet</a>
+                </div>
+            </div>"""
+
+blog_page = f"""<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><title>Notre Blog Voyage | MyHotelCompare</title>{global_style}</head>
+<body><div class="container">{menu_html}
+<h1>📖 Notre Blog Voyage</h1>
+<p style="color: #94a3b8; margin-bottom: 30px;">Découvrez tous nos conseils d'experts, récits de voyage et guides pratiques.</p>
+{blog_list_html}
+{footer_html}
+</div></body></html>"""
+with open(os.path.join(output_dir, "blog.html"), "w", encoding="utf-8") as f: f.write(blog_page)
+
+print("Génération réussie à 100% avec l'intégration complète des témoignages et du footer Formspree !")

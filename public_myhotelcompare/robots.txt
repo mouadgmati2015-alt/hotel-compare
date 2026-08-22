@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://hotel-compare-1.onrender.com/static/sitemap.xml
