@@ -6,7 +6,6 @@ import hashlib
 import shutil
 import sys
 import urllib.parse
-from datetime import date
 from pathlib import Path
 
 from data.airlines_data import AIRLINES_DATA
@@ -15,7 +14,7 @@ BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 OUTPUT_DIR = BASE_DIR / "mon_site_final"
 RESET_OUTPUT = "--reset" in sys.argv[1:]
-SITE_URL = os.environ.get("SITE_URL", "https://www.myhotelcompare.com").rstrip("/")
+SITE_URL = os.environ.get("SITE_URL", "https://myhotelcompare.com").rstrip("/")
 
 
 def escape_html(value):
@@ -69,20 +68,17 @@ def write_html(path, content):
     with open(path, "w", encoding="utf-8") as f:
         f.write(content)
 
-
 def generate_seo_files():
-    """Génère les fichiers SEO à partir des pages réellement publiées."""
     html_pages = sorted(OUTPUT_DIR.glob("*.html"))
     urls = []
     for page in html_pages:
         if page.name.lower() == "404.html":
             continue
-        relative_url = "" if page.name.lower() == "index.html" else page.name
-        urls.append(f"{SITE_URL}/{relative_url}")
+        suffix = "" if page.name.lower() == "index.html" else page.name
+        urls.append(f"{SITE_URL}/{suffix}")
 
-    today = date.today().isoformat()
     sitemap_urls = "\n".join(
-        f"    <url><loc>{escape_html(url)}</loc><lastmod>{today}</lastmod><changefreq>weekly</changefreq><priority>{'1.0' if not url.rsplit('/', 1)[-1] else '0.7'}</priority></url>"
+        f"    <url><loc>{escape_html(url)}</loc><changefreq>weekly</changefreq><priority>{'1.0' if url == SITE_URL + '/' else '0.7'}</priority></url>"
         for url in urls
     )
     sitemap = (
@@ -92,10 +88,7 @@ def generate_seo_files():
         "</urlset>\n"
     )
     write_html(OUTPUT_DIR / "sitemap.xml", sitemap)
-    write_html(
-        OUTPUT_DIR / "robots.txt",
-        f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}/sitemap.xml\n",
-    )
+    write_html(OUTPUT_DIR / "robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}/sitemap.xml\n")
 
 
 # --- FONCTIONS D'AFFILIATION AUTOMATIQUES ---
