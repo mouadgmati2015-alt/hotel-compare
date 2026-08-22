@@ -121,6 +121,9 @@ def update_expedia_link(url, nom_hotel="", ville="", pays=""):
 # Render publie mon_site_final. --reset ne supprime que ce dossier de sortie.
 output_dir = str(OUTPUT_DIR)
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+images_source = BASE_DIR / "images"
+if images_source.exists():
+    shutil.copytree(images_source, OUTPUT_DIR / "images", dirs_exist_ok=True)
 
 
 def nettoyer_slug(texte):
@@ -134,6 +137,14 @@ def get_img_as_base64(path):
         with open(image_path, "rb") as f:
             return base64.b64encode(f.read()).decode()
     return ""
+
+
+def get_public_image(path):
+    if not path:
+        return ""
+    if str(path).startswith(("http://", "https://", "data:")):
+        return str(path)
+    return str(path).replace("\\", "/") if (BASE_DIR / path).exists() else ""
 
 # Éléments partagés (Logo, Menu, Témoignages, Footer)
 logo_b64 = get_img_as_base64("logo_4.png")
@@ -330,9 +341,11 @@ footer_html = """
         <div>
             <h4>À propos</h4>
             <ul class="footer-links">
+                <li><a href="apropos.html">À propos de nous</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <li><a href="blog.html">Conseils de voyage</a></li>
                 <li><a href="index.html#avis">Avis voyageurs</a></li>
-                <li><a href="mailto:contact@nomad-voyage.fr">Nous contacter</a></li>
             </ul>
         </div>
         <div>
@@ -347,6 +360,37 @@ footer_html = """
     </div>
 </footer>
 """
+
+
+def generate_information_pages():
+    pages = {
+        "apropos.html": ("À propos de MyHotelCompare", """
+            <p>MyHotelCompare, propulsé par Nomad, vous aide à comparer les hébergements et les services de voyage plus simplement.</p>
+            <h2>Notre mission</h2>
+            <p>Nous rassemblons les informations essentielles pour vous permettre de choisir un séjour adapté à vos envies et à votre budget.</p>
+            <h2>Notre approche</h2>
+            <p>Notre comparateur met en avant les prix, les équipements, les avis et les points forts des établissements dans une interface claire.</p>
+        """),
+        "confidentialite.html": ("Politique de confidentialité", """
+            <p><strong>Dernière mise à jour : août 2026</strong></p>
+            <h2>Informations collectées</h2>
+            <p>Nous pouvons traiter les informations que vous transmettez via nos formulaires ainsi que des données techniques nécessaires au fonctionnement du site.</p>
+            <h2>Utilisation</h2>
+            <p>Ces informations servent à répondre à vos demandes, améliorer le site et assurer son bon fonctionnement. Nous ne vendons pas vos données personnelles.</p>
+            <h2>Vos droits</h2>
+            <p>Vous pouvez demander l'accès, la rectification ou la suppression de vos informations en nous contactant.</p>
+        """),
+        "contact.html": ("Contactez-nous", """
+            <p>Une question, une remarque ou une suggestion ? Notre équipe vous répondra avec plaisir.</p>
+            <p><a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a></p>
+            <p>Vous pouvez également nous écrire à <a href="mailto:contact@nomad-voyage.fr">contact@nomad-voyage.fr</a>.</p>
+        """),
+    }
+    for filename, (title, body) in pages.items():
+        page = f"""<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>{title} | MyHotelCompare</title>{global_style}</head>
+<body><div class="container">{menu_html}<main class="card"><h1>{title}</h1>{body}</main>{footer_html}</div></body></html>"""
+        write_html(OUTPUT_DIR / filename, page)
 
 # 1. Chargement des données d'hôtels depuis data/
 HOTELS_DATA_COMPLET = {}
@@ -827,7 +871,7 @@ if os.path.exists("blog_data.json"):
             if not art_slug: continue
             
             images_art = art.get('images', [])
-            img_art = images_art[0] if images_art else art.get('image', '')
+            img_art = get_public_image(images_art[0] if images_art else art.get('image', ''))
             details_texte = art.get('details', '').replace('\n', '<br>')
             
             article_page = f"""<!DOCTYPE html>
@@ -863,6 +907,7 @@ blog_page = f"""<!DOCTYPE html>
 </div></body></html>"""
 with open(os.path.join(output_dir, "blog.html"), "w", encoding="utf-8") as f: f.write(blog_page)
 
+generate_information_pages()
 generate_seo_files()
 
 print("Génération réussie à 100% avec l'intégration complète des témoignages et du footer Formspree !")
