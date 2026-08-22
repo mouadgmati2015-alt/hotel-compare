@@ -6,6 +6,7 @@ import hashlib
 import shutil
 import sys
 import urllib.parse
+from datetime import date
 from pathlib import Path
 
 from data.airlines_data import AIRLINES_DATA
@@ -14,6 +15,7 @@ BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 OUTPUT_DIR = BASE_DIR / "mon_site_final"
 RESET_OUTPUT = "--reset" in sys.argv[1:]
+SITE_URL = os.environ.get("SITE_URL", "https://www.myhotelcompare.com").rstrip("/")
 
 
 def escape_html(value):
@@ -68,6 +70,34 @@ def write_html(path, content):
         f.write(content)
 
 
+def generate_seo_files():
+    """Génère les fichiers SEO à partir des pages réellement publiées."""
+    html_pages = sorted(OUTPUT_DIR.glob("*.html"))
+    urls = []
+    for page in html_pages:
+        if page.name.lower() == "404.html":
+            continue
+        relative_url = "" if page.name.lower() == "index.html" else page.name
+        urls.append(f"{SITE_URL}/{relative_url}")
+
+    today = date.today().isoformat()
+    sitemap_urls = "\n".join(
+        f"    <url><loc>{escape_html(url)}</loc><lastmod>{today}</lastmod><changefreq>weekly</changefreq><priority>{'1.0' if not url.rsplit('/', 1)[-1] else '0.7'}</priority></url>"
+        for url in urls
+    )
+    sitemap = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f"{sitemap_urls}\n"
+        "</urlset>\n"
+    )
+    write_html(OUTPUT_DIR / "sitemap.xml", sitemap)
+    write_html(
+        OUTPUT_DIR / "robots.txt",
+        f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}/sitemap.xml\n",
+    )
+
+
 # --- FONCTIONS D'AFFILIATION AUTOMATIQUES ---
 def update_booking_aid(url, nom_hotel="", ville="", pays="", new_aid="8012379"):
     if not url or url == "#" or url.strip() == "":
@@ -120,7 +150,7 @@ menu_html = f"""
 <header class="site-header">
 <div class="brand-lockup">
     {logo_html}
-    <div><strong>Nomad</strong><span>Comparateur intelligent de voyages</span></div>
+    <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
 </div>
 <div class="top-nav">
     <a href="index.html">Accueil / Hôtels</a>
@@ -135,27 +165,27 @@ menu_html = f"""
 global_style = """
 <style>
 :root {
-    --bg: #fffaf3;
-    --bg-dark: #1a1209;
-    --panel: #fff8ef;
-    --panel-strong: #f6e2c8;
-    --card: #fffdfb;
-    --line: #e8d4b0;
-    --text: #2d1c10;
-    --muted: #6e4d39;
-    --primary: #d97706;
-    --primary-dark: #b45309;
-    --secondary: #7c3f1d;
-    --success: #15803d;
-    --success-soft: #dcfce7;
-    --warning: #f59e0b;
-    --shadow: 0 18px 38px rgba(111, 72, 38, 0.12);
+    --bg: #f2fbfd;
+    --bg-dark: #063247;
+    --panel: #e5f5f8;
+    --panel-strong: #c7eaf0;
+    --card: #ffffff;
+    --line: #b9dfe7;
+    --text: #123443;
+    --muted: #52717c;
+    --primary: #087f9b;
+    --primary-dark: #056078;
+    --secondary: #075985;
+    --success: #16805b;
+    --success-soft: #d7f4e7;
+    --warning: #e59a21;
+    --shadow: 0 18px 38px rgba(5, 96, 120, 0.14);
 }
 
 * { box-sizing: border-box; }
 body {
     margin: 0;
-    background: linear-gradient(180deg, #fff9f3 0%, #fff4e8 100%);
+    background: linear-gradient(180deg, #f4fcfd 0%, #e7f6f8 100%);
     color: var(--text);
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     padding: 24px 16px 40px;
@@ -172,11 +202,11 @@ body {
 h1, h2, h3, h4 { color: var(--text); }
 h1, h2 { font-family: Georgia, "Times New Roman", serif; }
 a { color: var(--secondary); }
-.site-footer { margin-top: 48px; background: #2d1c10; color: #fff8ef; border-radius: 22px; padding: 30px; box-shadow: var(--shadow); }
+.site-footer { margin-top: 48px; background: linear-gradient(135deg, #063247, #075985); color: #effcff; border-radius: 22px; padding: 30px; box-shadow: var(--shadow); }
 .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 28px; }
-.site-footer h3, .site-footer h4 { color: #ffd9a3; margin-top: 0; }
-.site-footer p, .site-footer li { color: #e8d7c5; line-height: 1.6; }
-.site-footer a { color: #ffd9a3; text-decoration: none; }
+.site-footer h3, .site-footer h4 { color: #b8f0f6; margin-top: 0; }
+.site-footer p, .site-footer li { color: #d6eef2; line-height: 1.6; }
+.site-footer a { color: #b8f0f6; text-decoration: none; }
 .site-footer a:hover { text-decoration: underline; }
 .footer-links { list-style: none; padding: 0; margin: 0; }
 .footer-links li { margin-bottom: 8px; }
@@ -211,16 +241,16 @@ a { color: var(--secondary); }
 .btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
 
 .hero-banner {
-    background: linear-gradient(135deg, #f8d9aa 0%, #f4b66a 30%, #f0a35f 100%);
-    border-radius: 24px; padding: 28px; border: 1px solid rgba(125,74,18,0.18); color: #2d1404; box-shadow: var(--shadow);
+    background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
+    border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
 }
 .hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 18px; }
 .hero-badges span {
-    background: rgba(255,255,255,0.45); border: 1px solid rgba(82,48,12,0.15); border-radius: 999px; padding: 7px 12px; font-weight: 700; font-size: 0.82rem;
+    background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.24); color: #f2fdff; border-radius: 999px; padding: 7px 12px; font-weight: 700; font-size: 0.82rem;
 }
-.glass-box { background: rgba(255,255,255,0.55); border: 1px solid rgba(130,90,20,0.15); border-radius: 18px; padding: 18px; }
+.glass-box { background: rgba(255,255,255,0.72); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
 .filters-box {
-    background: linear-gradient(180deg, #fff3e2 0%, #fffaf5 100%);
+    background: linear-gradient(180deg, #e3f5f8 0%, #f8fdfe 100%);
     border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 24px 0 18px;
     display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; box-shadow: var(--shadow);
 }
@@ -506,10 +536,10 @@ html_accueil = f"""<!DOCTYPE html>
             const mapQuery = encodeURIComponent(h.nom + ', ' + h.ville + ', ' + h.pays);
             return `<div class="card">
                 ${{h.image ? '<img src="' + h.image + '" style="width:100%; height:180px; object-fit:cover; border-radius:14px; margin-bottom:12px;">' : ''}}
-                <h3><a href="${{h.slug}}.html" style="color:#a14d18; text-decoration:none;">${{h.nom}}</a></h3>
+                <h3><a href="${{h.slug}}.html" style="color:var(--secondary); text-decoration:none;">${{h.nom}}</a></h3>
                 <p style="color:#6e4d39;">📍 ${{h.ville}}, ${{h.pays}} | ⭐ ${{h.etoiles}}</p>
                 <p style="color:#15803d; font-weight:700;">💰 ${{h.prix}}</p>
-                <a href="${{h.slug}}.html" style="display:block; background:#f3d3a3; color:#2d1c10; padding:10px; text-align:center; text-decoration:none; border-radius:10px; margin-bottom:10px; font-weight:700;">📄 Voir la fiche détaillée</a>
+                <a href="${{h.slug}}.html" style="display:block; background:var(--panel-strong); color:var(--text); padding:10px; text-align:center; text-decoration:none; border-radius:10px; margin-bottom:10px; font-weight:700;">📄 Voir la fiche détaillée</a>
                 <a href="${{h.lien_booking}}" target="_blank" class="btn-booking">Réserver sur Booking</a>
                 <a href="${{h.lien_expedia}}" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
                 <iframe width="100%" height="150" style="border:0; border-radius:12px; margin-top:12px;" src="https://maps.google.com/maps?q=${{mapQuery}}&output=embed"></iframe>
@@ -543,8 +573,8 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
         <div class="review-card">
             <div class="stars">{'★' * int(a.get('note', 5))}{'☆' * (5 - int(a.get('note', 5)))}</div>
             <p style="font-weight:700; margin: 12px 0 8px;">{escape_html(a.get('nom', 'Client'))}</p>
-            <p style="font-size:0.82rem; color:#8a6248; margin:0 0 8px;">{escape_html(a.get('role', 'Voyageur'))}</p>
-            <p style="margin:0; line-height:1.6; color: #4a3425;">{escape_html(a.get('texte', ''))}</p>
+            <p style="font-size:0.82rem; color:var(--muted); margin:0 0 8px;">{escape_html(a.get('role', 'Voyageur'))}</p>
+            <p style="margin:0; line-height:1.6; color: var(--text);">{escape_html(a.get('texte', ''))}</p>
         </div>
         """ for a in avis_clients
     )
@@ -563,7 +593,7 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
 </head>
 <body>
 <div class="container">{menu_html}
-<a href="index.html" style="color: #a14d18; display: inline-block; margin-bottom: 15px; text-decoration: none; font-weight:700;">← Retour à l'accueil</a>
+<a href="index.html" style="color: var(--secondary); display: inline-block; margin-bottom: 15px; text-decoration: none; font-weight:700;">← Retour à l'accueil</a>
 <div class="card">
     <h1>{escape_html(h_nom)}</h1>
     <p style="color: #6e4d39;">📍 {escape_html(d.get('ville',''))}, {escape_html(d.get('pays',''))} | ⭐ {escape_html(d.get('etoiles','N/C'))}</p>
@@ -704,7 +734,7 @@ for l_nom, l_info in loueurs_data.items():
 p_loueurs = f"""<!DOCTYPE html>
 <html lang="fr"><head><meta charset="UTF-8"><title>Location de Véhicules | MyHotelCompare</title>{global_style}</head>
 <body><div class="container">{menu_html}
-<div class="card" style="background: linear-gradient(135deg, #fff4dc 0%, #fffaf3 100%);">
+<div class="card" style="background: linear-gradient(135deg, #d8f1f5 0%, #f4fcfd 100%);">
     <h1>🚗 Trouvez la meilleure voiture pour votre voyage</h1>
     <p>Comparez rapidement les offres des principaux loueurs et réservez au meilleur prix.</p>
     <div style="margin-top: 18px;">
@@ -839,5 +869,7 @@ blog_page = f"""<!DOCTYPE html>
 {footer_html}
 </div></body></html>"""
 with open(os.path.join(output_dir, "blog.html"), "w", encoding="utf-8") as f: f.write(blog_page)
+
+generate_seo_files()
 
 print("Génération réussie à 100% avec l'intégration complète des témoignages et du footer Formspree !")
