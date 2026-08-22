@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Comparateur d'hôtels | MyHotelCompare</title>
+    <style>
+        body { background-color: #0B132B; color: #FFFFFF; font-family: sans-serif; padding: 20px; margin: 0; }
+        .container { max-width: 1100px; margin: 0 auto; }
+        .top-nav { display: flex; gap: 10px; background-color: #1C2541; padding: 15px; border-radius: 10px; margin-bottom: 25px; border: 1px solid #3A506B; overflow-x: auto; }
+        .top-nav a { color: white; background-color: #3A506B; padding: 8px 16px; border-radius: 6px; text-decoration: none; }
+        .filters-box { background-color: #1C2541; border: 1px solid #3A506B; border-radius: 10px; padding: 20px; margin-bottom: 25px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .filters-box select { width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #3A506B; background-color: #0B132B; color: white; }
+        .btn-compare { background-color: #10B981; color: white; border: none; padding: 12px; border-radius: 6px; font-weight: bold; cursor: pointer; width: 100%; }
+        .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        @media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } }
+        .hotel-card { background-color: #1C2541; border: 1px solid #3A506B; border-radius: 12px; padding: 20px; box-sizing: border-box; }
+        .btn-booking { display: block; background-color: #003580; color: white; padding: 10px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin-bottom: 8px; }
+        .btn-expedia { display: block; background-color: #ffcc00; color: #000; padding: 10px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+<div class="top-nav">
+    <a href="index.html">Accueil</a>
+    <a href="hotels.html">Hôtels</a>
+    <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
+    <a href="loueurs-vehicules.html">Location de Véhicules</a>
+    <a href="croisieres.html">Croisières</a>
+    <a href="blog.html">Blog</a>
+</div>
+
+        <h2>💡 Comparateur d'hôtels</h2>
+        <div class="filters-box">
+            <div><label style="color:#94a3b8; display:block; margin-bottom:5px;">Pays</label><select id="selectPays" onchange="updateVilles()"><option value="">Tous les pays</option></select></div>
+            <div><label style="color:#94a3b8; display:block; margin-bottom:5px;">Ville</label><select id="selectVille" onchange="updateHotels()"><option value="">Toutes les villes</option></select></div>
+            <div><label style="color:#94a3b8; display:block; margin-bottom:5px;">Premier hôtel</label><select id="selectHotel1"><option value="">Choisissez...</option></select></div>
+            <div><label style="color:#94a3b8; display:block; margin-bottom:5px;">Deuxième hôtel</label><select id="selectHotel2"><option value="">Choisissez...</option></select></div>
+        </div>
+        <button class="btn-compare" onclick="lancerComparaison()">🚀 Lancer la comparaison</button>
+        <div id="resultatComparaison" class="comparison-grid" style="margin-top: 30px;"></div>
+    </div>
+    <script>
+        let hotelsData = [];
+        fetch('hotels.json')
+            .then(response => response.json())
+            .then(data => {
+                hotelsData = data;
+                initFiltres();
+            })
+            .catch(error => console.error('Erreur de chargement des hôtels :', error));
+        function initFiltres() {
+            const paysSet = [...new Set(hotelsData.map(h => h.pays).filter(Boolean))].sort();
+            const selectPays = document.getElementById('selectPays');
+            paysSet.forEach(p => { let opt = document.createElement('option'); opt.value = p; opt.textContent = p; selectPays.appendChild(opt); });
+            updateVilles();
+        }
+        function updateVilles() {
+            const pays = document.getElementById('selectPays').value;
+            const selectVille = document.getElementById('selectVille');
+            selectVille.innerHTML = '<option value="">Toutes les villes</option>';
+            const villesSet = [...new Set(hotelsData.filter(h => !pays || h.pays === pays).map(h => h.ville).filter(Boolean))].sort();
+            villesSet.forEach(v => { let opt = document.createElement('option'); opt.value = v; opt.textContent = v; selectVille.appendChild(opt); });
+            updateHotels();
+        }
+        function updateHotels() {
+            const pays = document.getElementById('selectPays').value;
+            const ville = document.getElementById('selectVille').value;
+            const filtered = hotelsData.filter(h => (!pays || h.pays === pays) && (!ville || h.ville === ville));
+            const s1 = document.getElementById('selectHotel1'); const s2 = document.getElementById('selectHotel2');
+            s1.innerHTML = '<option value="">1er hébergement</option>'; s2.innerHTML = '<option value="">2nd hébergement</option>';
+            filtered.forEach(h => {
+                s1.appendChild(new Option(h.nom, h.slug));
+                s2.appendChild(new Option(h.nom, h.slug));
+            });
+        }
+        function lancerComparaison() {
+            const h1 = hotelsData.find(h => h.slug === document.getElementById('selectHotel1').value);
+            const h2 = hotelsData.find(h => h.slug === document.getElementById('selectHotel2').value);
+            let html = '';
+            if (h1) html += renderCard(h1);
+            if (h2) html += renderCard(h2);
+            document.getElementById('resultatComparaison').innerHTML = html || '<p style="color:#94a3b8; grid-column:span 2; text-align:center;">Veuillez sélectionner au moins un hôtel.</p>';
+        }
+        function renderCard(h) {
+            const mapQuery = encodeURIComponent(h.nom + ", " + h.ville + ", " + h.pays);
+            return `<div class="hotel-card">
+                ${h.image ? '<img src="' + h.image + '" style="width:100%; height:180px; object-fit:cover; border-radius:8px; margin-bottom:10px;">' : ''}
+                <h3><a href="${h.slug}.html" style="color:#38bdf8; text-decoration:none;">${h.nom}</a></h3>
+                <p style="color:#94a3b8;">📍 ${h.ville}, ${h.pays} | ⭐ ${h.etoiles}</p>
+                <p style="color:#10B981; font-weight:bold;">💰 ${h.prix}</p>
+                <a href="${h.slug}.html" style="display:block; background:#3A506B; color:white; padding:8px; text-align:center; text-decoration:none; border-radius:6px; margin-bottom:10px;">📄 Voir la fiche détaillée</a>
+                <a href="${h.lien_booking}" target="_blank" class="btn-booking">Réserver sur Booking</a>
+                <a href="${h.lien_expedia}" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
+                <iframe width="100%" height="150" style="border:0; border-radius:6px; margin-top:10px;" src="https://maps.google.com/maps?q=${mapQuery}&output=embed"></iframe>
+            </div>`;
+        }
+    </script>
+</body>
+</html>
