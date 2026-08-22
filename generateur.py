@@ -145,6 +145,9 @@ html_accueil = f"""<!DOCTYPE html>
 with open(f"{output_dir}/index.html", "w", encoding="utf-8") as f:
     f.write(html_accueil)
 
+with open(os.path.join(output_dir, "hotels.json"), "w", encoding="utf-8") as f:
+    json.dump(all_hotels, f, ensure_ascii=False, indent=4)
+    
 # 4. Page hotels.html (Comparateur)
 hotels_js_data = json.dumps(all_hotels, ensure_ascii=False)
 html_hotels = f"""<!DOCTYPE html>
@@ -181,7 +184,15 @@ html_hotels = f"""<!DOCTYPE html>
         <div id="resultatComparaison" class="comparison-grid" style="margin-top: 30px;"></div>
     </div>
     <script>
-        const hotelsData = {hotels_js_data};
+        <script>
+        let hotelsData = [];
+        fetch('hotels.json')
+            .then(response => response.json())
+            .then(data => {{
+                hotelsData = data;
+                initFiltres();
+            }})
+            .catch(error => console.error('Erreur de chargement des hôtels :', error));
         function initFiltres() {{
             const paysSet = [...new Set(hotelsData.map(h => h.pays).filter(Boolean))].sort();
             const selectPays = document.getElementById('selectPays');
