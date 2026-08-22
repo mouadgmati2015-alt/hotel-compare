@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head><meta charset="UTF-8"><title>Hotel Excelsior Dubrovnik</title>
+<html lang="fr"><head><meta charset="UTF-8"><title>Hotel Excelsior Dubrovnik</title>
 <style>
 body { background-color: #0B132B; color: #FFFFFF; font-family: sans-serif; padding: 20px; margin: 0; }
 .container { max-width: 900px; margin: 0 auto; }
 .top-nav { display: flex; gap: 10px; background-color: #1C2541; padding: 15px; border-radius: 10px; margin-bottom: 25px; border: 1px solid #3A506B; overflow-x: auto; }
 .top-nav a { color: white; background-color: #3A506B; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; white-space: nowrap; }
-.hotel-box, .card { background-color: #1C2541; border: 1px solid #3A506B; border-radius: 12px; padding: 25px; margin-bottom: 20px; }
-.btn-booking, .btn { display: block; background-color: #003580; color: white; padding: 12px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin: 10px 0; }
-.btn-expedia { display: block; background-color: #ffcc00; color: #000; padding: 12px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin: 10px 0; }
+.card, .hotel-box { background-color: #1C2541; border: 1px solid #3A506B; border-radius: 12px; padding: 25px; margin-bottom: 20px; }
+.btn { display: block; background-color: #003580; color: white; padding: 12px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin: 10px 0; }
+.btn-expedia { background-color: #ffcc00; color: #000; }
 h1, h2, h3 { color: #FFFFFF; }
 p, li { color: #E2E8F0; line-height: 1.5; }
+.footer { text-align: center; margin-top: 40px; padding: 20px; border-top: 1px solid #3A506B; color: #94a3b8; font-size: 14px; }
+.footer a { color: #60a5fa; text-decoration: none; margin: 0 10px; }
 </style>
 </head>
 <body><div class="container">
@@ -23,12 +24,19 @@ p, li { color: #E2E8F0; line-height: 1.5; }
     <a href="blog.html">Blog</a>
 </div>
 
-<div class="hotel-box">
+<div class="card">
     <h1>Hotel Excelsior Dubrovnik</h1>
     <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/108015668.jpg?k=5b5647eaf6aa835047af5b643c6697a01460a006d1838e31c8d8614cc3f3519a&o=" style="width:100%; max-height:350px; object-fit:cover; border-radius:8px; margin:15px 0;">
     <p><b>Localisation :</b> Dubrovnik, Croatie | ⭐ 5 étoiles</p>
     <p>L'adresse la plus célèbre de Dubrovnik, offrant une vue frontale spectaculaire sur les remparts de la vieille ville et l'immensité bleue de la mer Adriatique. Cet hôtel 5 étoiles de légende combine habilement un bâtiment historique chargé d'histoire et une aile moderne au design contemporain épuré. Les clients profitent d'un accès direct à la mer, d'une plage privée aménagée, d'un spa de classe mondiale et de restaurants gastronomiques primés. C'est le point de départ rêvé pour conjuguer exploration culturelle et farniente luxueux face à la 'perle de l'Adriatique'.</p>
-    <a href="https://www.booking.com/hotel/hr/hotelexcelsiordubrovnik.fr.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
-    <a href="https://www.anrdoezrs.net/click-8012379-13854902?url=https%3A//www.expedia.fr/Dubrovnik-Hotel-Hotel-Excelsior.h868175.Description-Hotel" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
-    <p style="margin-top:20px;"><a href="hotels.html" style="color:#60a5fa;">← Retour au comparateur d'hôtels</a></p>
-</div></div></body></html>
+    <a href="https://www.booking.com/hotel/hr/hotelexcelsiordubrovnik.fr.html?aid=8012379" target="_blank" class="btn">Réserver sur Booking</a>
+    <a href="https://www.anrdoezrs.net/click-8012379-13854902?url=https%3A//www.expedia.fr/Dubrovnik-Hotel-Hotel-Excelsior.h868175.Description-Hotel" target="_blank" class="btn btn-expedia">Réserver sur Expedia</a>
+    <p style="margin-top:20px;"><a href="hotels.html" style="color:#60a5fa;">← Retour aux hôtels</a></p>
+</div>
+<div class="footer">
+    <a href="apropos.html">À propos</a> | 
+    <a href="contact.html">Contact</a> | 
+    <a href="confidentialite.html">Confidentialité</a>
+    <p>© HotelCompare. Tous droits réservés.</p>
+</div>
+</div></body></html>

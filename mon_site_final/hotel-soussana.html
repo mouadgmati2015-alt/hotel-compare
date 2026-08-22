@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head><meta charset="UTF-8"><title>Hotel Soussana</title>
+<html lang="fr"><head><meta charset="UTF-8"><title>Hotel Soussana</title>
 <style>
 body { background-color: #0B132B; color: #FFFFFF; font-family: sans-serif; padding: 20px; margin: 0; }
 .container { max-width: 900px; margin: 0 auto; }
 .top-nav { display: flex; gap: 10px; background-color: #1C2541; padding: 15px; border-radius: 10px; margin-bottom: 25px; border: 1px solid #3A506B; overflow-x: auto; }
 .top-nav a { color: white; background-color: #3A506B; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-weight: bold; white-space: nowrap; }
-.hotel-box, .card { background-color: #1C2541; border: 1px solid #3A506B; border-radius: 12px; padding: 25px; margin-bottom: 20px; }
-.btn-booking, .btn { display: block; background-color: #003580; color: white; padding: 12px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin: 10px 0; }
-.btn-expedia { display: block; background-color: #ffcc00; color: #000; padding: 12px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin: 10px 0; }
+.card, .hotel-box { background-color: #1C2541; border: 1px solid #3A506B; border-radius: 12px; padding: 25px; margin-bottom: 20px; }
+.btn { display: block; background-color: #003580; color: white; padding: 12px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin: 10px 0; }
+.btn-expedia { background-color: #ffcc00; color: #000; }
 h1, h2, h3 { color: #FFFFFF; }
 p, li { color: #E2E8F0; line-height: 1.5; }
+.footer { text-align: center; margin-top: 40px; padding: 20px; border-top: 1px solid #3A506B; color: #94a3b8; font-size: 14px; }
+.footer a { color: #60a5fa; text-decoration: none; margin: 0 10px; }
 </style>
 </head>
 <body><div class="container">
@@ -23,12 +24,19 @@ p, li { color: #E2E8F0; line-height: 1.5; }
     <a href="blog.html">Blog</a>
 </div>
 
-<div class="hotel-box">
+<div class="card">
     <h1>Hotel Soussana</h1>
     <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/695303175.jpg?k=f514a5f21709dbf1f85cd9b33301357bef49cc2f57136405752d00e9018fbde3&o=" style="width:100%; max-height:350px; object-fit:cover; border-radius:8px; margin:15px 0;">
     <p><b>Localisation :</b> Sousse, Tunisie | ⭐ 3 étoiles</p>
     <p>L'Hotel Soussana est une adresse simple et économique, idéalement située à seulement 500 mètres de la plage et à une distance raisonnable du centre-ville animé de Sousse. Il représente une solution parfaite pour les voyageurs qui souhaitent profiter de la mer et de la culture locale sans investir un budget massif dans leur hébergement. Le petit-déjeuner inclus permet de démarrer la journée en douceur avant de partir explorer les trésors historiques de la médina. Les installations sont basiques, axées sur la fonctionnalité, garantissant un pied-à-terre pratique pour les courts séjours ou les passagers solitaires. L'ambiance est décontractée, à l'image des hôtels de tourisme qui privilégient l'accessibilité à la surcharge de services. La proximité des commodités permet de varier les plaisirs entre les moments de détente sur la plage et les découvertes citadines dans les souks de Sousse. La simplicité du confort offre aux hôtes la possibilité de gérer leur séjour en toute autonomie et en parfaite liberté. Bien que sans prétention, l'hôtel affiche un rapport qualité-prix qui séduit régulièrement les voyageurs aux budgets maîtrisés. Les chambres sont équipées pour répondre aux besoins essentiels de repos. C'est une option maligne pour qui veut tout faire à pied sans se ruiner. Une halte sans chichis qui permet de savourer Sousse tout en optimisant ses dépenses journalières.</p>
-    <a href="https://www.booking.com/hotel/tn/soussana.fr.html?aid=818289&aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
-    <a href="https://www.anrdoezrs.net/click-8012379-13854902?url=https%3A//www.expedia.fr/Sousse-Hotel-Hotel-Soussana.h89621093.Description-Hotel" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
-    <p style="margin-top:20px;"><a href="hotels.html" style="color:#60a5fa;">← Retour au comparateur d'hôtels</a></p>
-</div></div></body></html>
+    <a href="https://www.booking.com/hotel/tn/soussana.fr.html?aid=818289&aid=8012379" target="_blank" class="btn">Réserver sur Booking</a>
+    <a href="https://www.anrdoezrs.net/click-8012379-13854902?url=https%3A//www.expedia.fr/Sousse-Hotel-Hotel-Soussana.h89621093.Description-Hotel" target="_blank" class="btn btn-expedia">Réserver sur Expedia</a>
+    <p style="margin-top:20px;"><a href="hotels.html" style="color:#60a5fa;">← Retour aux hôtels</a></p>
+</div>
+<div class="footer">
+    <a href="apropos.html">À propos</a> | 
+    <a href="contact.html">Contact</a> | 
+    <a href="confidentialite.html">Confidentialité</a>
+    <p>© HotelCompare. Tous droits réservés.</p>
+</div>
+</div></body></html>
