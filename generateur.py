@@ -11,7 +11,7 @@ from data.airlines_data import AIRLINES_DATA
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
-OUTPUT_DIR = BASE_DIR
+OUTPUT_DIR = BASE_DIR / "mon_site_final"
 RESET_OUTPUT = "--reset" in sys.argv[1:]
 
 
@@ -62,7 +62,7 @@ def update_expedia_link(url, nom_hotel="", ville="", pays=""):
     encoded_url = urllib.parse.quote(url, safe='')
     return f"https://www.anrdoezrs.net/click-8012379-13854902?url={encoded_url}"
 
-# Render publie la racine du dépôt. Ne jamais supprimer BASE_DIR avec --reset.
+# Render publie mon_site_final. --reset ne supprime que ce dossier de sortie.
 output_dir = str(OUTPUT_DIR)
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 

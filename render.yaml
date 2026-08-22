@@ -2,4 +2,4 @@ services:
   - type: static
     name: myhotel-compare
     buildCommand: pip install -r requirements.txt && python generateur.py --reset
-    staticPublishPath: .
+    staticPublishPath: mon_site_final
