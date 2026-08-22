@@ -268,6 +268,11 @@ with open(f"{output_dir}/hotels.html", "w", encoding="utf-8") as f:
 for h_nom, d in HOTELS_DATA_COMPLET.items():
     slug = nettoyer_slug(h_nom)
     if not slug: continue
+    
+    # On récupère et applique vos fonctions d'affiliation ici aussi
+    l_booking = update_booking_aid(d.get('lien_booking', '#'))
+    l_expedia = update_expedia_link(d.get('lien_expedia', '#'))
+    
     html_fiche = f"""<!DOCTYPE html>
 <html lang="fr">
 <head><meta charset="UTF-8"><title>{h_nom}</title>
@@ -277,6 +282,8 @@ body {{ background-color: #0B132B; color: #FFFFFF; font-family: sans-serif; padd
 .top-nav {{ display: flex; gap: 10px; background-color: #1C2541; padding: 15px; border-radius: 10px; margin-bottom: 25px; border: 1px solid #3A506B; overflow-x: auto; }}
 .top-nav a {{ color: white; background-color: #3A506B; padding: 8px 16px; border-radius: 6px; text-decoration: none; }}
 .hotel-box {{ background-color: #1C2541; border: 1px solid #3A506B; border-radius: 12px; padding: 25px; }}
+.btn-booking {{ display: block; background-color: #003580; color: white; padding: 12px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin-bottom: 10px; }}
+.btn-expedia {{ display: block; background-color: #ffcc00; color: #000; padding: 12px; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; margin-bottom: 10px; }}
 </style></head>
 <body><div class="container">{menu_html}
 <a href="hotels.html" style="color: #38bdf8; display: inline-block; margin-bottom: 15px;">← Retour</a>
@@ -286,6 +293,11 @@ body {{ background-color: #0B132B; color: #FFFFFF; font-family: sans-serif; padd
     {f'<img src="{d.get("image")}" style="width:100%; max-height:350px; object-fit:cover; border-radius:8px; margin:15px 0;">' if d.get('image') else ''}
     <h3>✨ Description</h3><p>{d.get('description_ia') or d.get('description', '')}</p>
     <h3>🛠️ Équipements</h3><p>{', '.join(d.get('equipements', []))}</p>
+    
+    <div style="margin-top: 30px;">
+        <a href="{l_booking}" target="_blank" class="btn-booking">Réserver sur Booking</a>
+        <a href="{l_expedia}" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
+    </div>
 </div></div></body></html>"""
     with open(f"{output_dir}/{slug}.html", "w", encoding="utf-8") as f:
         f.write(html_fiche)
