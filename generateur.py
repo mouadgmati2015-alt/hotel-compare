@@ -107,16 +107,15 @@ def update_booking_aid(url, nom_hotel="", ville="", pays="", new_aid="8012379"):
     return urllib.parse.urlunparse(parsed._replace(query=new_query))
 
 def update_expedia_link(url, nom_hotel="", ville="", pays=""):
+    query = f"{nom_hotel} {ville} {pays}".strip()
+    direct_search = "https://www.expedia.fr/Hotel-Search?destination=" + urllib.parse.quote(query)
     if not url or url == "#" or url.strip() == "":
-        query = f"{nom_hotel} {ville} {pays}".strip()
-        encoded_query = urllib.parse.quote(query)
-        base_expedia = f"https://www.expedia.fr/Hote-Recherche?destination={encoded_query}"
-        return f"https://www.anrdoezrs.net/click-8012379-13854902?url={urllib.parse.quote(base_expedia, safe='')}"
+        return f"https://www.anrdoezrs.net/click-8012379-13854902?url={urllib.parse.quote(direct_search, safe='')}"
         
     url = url.rstrip('?')
-    if "anrdoezrs.net" in url: return url
-    encoded_url = urllib.parse.quote(url, safe='')
-    return f"https://www.anrdoezrs.net/click-8012379-13854902?url={encoded_url}"
+    if "anrdoezrs.net" in url:
+        return url
+    return f"https://www.anrdoezrs.net/click-8012379-13854902?url={urllib.parse.quote(url, safe='')}"
 
 # Render publie mon_site_final. --reset ne supprime que ce dossier de sortie.
 output_dir = str(OUTPUT_DIR)
@@ -318,10 +317,8 @@ temoignages_html = """
     <hr style="border-color: #3A506B; margin: 30px 0;">
     <p style="text-align: center; color: #000000; font-size: 15px; font-weight: bold; margin-bottom: 10px;">APPROUVÉ PAR LES VOYAGEURS QUI RÉSERVENT SUR</p>
     <div style="text-align: center; margin-bottom: 15px; display: flex; justify-content: center; align-items: center; gap: 30px;">
-        <span style="background-color: #003580; color: white; padding: 8px 20px; border-radius: 6px; font-weight: 900; font-size: 18px;">Booking.com</span>
-        <a href="https://www.tkqlhce.com/click-101825091-14521545" target="_blank" rel="nofollow sponsored" style="background-color: white; padding: 6px 14px; border-radius: 6px; display: inline-flex; align-items: center; text-decoration: none;">
-            <img src="https://www.awltovhc.com/image-101825091-14521545" alt="Expedia" style="height: 40px; display: block;">
-        </a>
+        <span style="background-color: #003580; color: white; width: 190px; min-height: 54px; padding: 8px 20px; border-radius: 6px; font-weight: 900; font-size: 18px; display: inline-flex; align-items: center; justify-content: center;">Booking.com</span>
+        <a href="https://www.expedia.fr/" target="_blank" rel="nofollow sponsored" style="background-color: #ffca28; color: #111827; width: 190px; min-height: 54px; padding: 8px 20px; border-radius: 6px; font-weight: 900; font-size: 18px; display: inline-flex; align-items: center; justify-content: center; text-decoration: none;">Expedia</a>
     </div>
     <p style="text-align: center; color: #888; font-size: 11px;">Comparaison de plus de 1000 hôtels &nbsp;&bull;&nbsp; 10 destinations incontournables &nbsp;&bull;&nbsp; 2 sites de réservation vérifiés</p>
 </section>
