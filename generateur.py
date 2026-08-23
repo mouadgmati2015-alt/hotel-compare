@@ -5,6 +5,8 @@ import base64
 import hashlib
 import shutil
 import sys
+import subprocess
+import time
 import urllib.parse
 from pathlib import Path
 
@@ -14,6 +16,7 @@ BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 OUTPUT_DIR = BASE_DIR / "mon_site_final"
 RESET_OUTPUT = "--reset" in sys.argv[1:]
+WATCH_MODE = "--watch" in sys.argv[1:]
 SITE_URL = os.environ.get("SITE_URL", "https://myhotelcompare.com").rstrip("/")
 
 
@@ -592,14 +595,22 @@ html_accueil = f"""<!DOCTYPE html>
 
         <div class="glass-box">
             <h2 style="margin-top: 0;">💡 Comment comparer vos hôtels</h2>
-            <p style="margin: 0; line-height: 1.7;">1. Sélectionnez un pays et une ville. 2. Choisissez deux hôtels. 3. Cliquez sur comparer pour obtenir un aperçu clair et rapide.</p>
+            <p style="margin: 0; line-height: 1.7;">1. Choisissez un pays pour chaque séjour. 2. Affinez éventuellement avec une ville. 3. Sélectionnez un hôtel de chaque côté, puis comparez.</p>
         </div>
 
-        <div class="filters-box">
-            <div><label>Pays</label><select id="selectPays" onchange="updateVilles()"><option value="">Tous les pays</option></select></div>
-            <div><label>Ville</label><select id="selectVille" onchange="updateHotels()"><option value="">Toutes les villes</option></select></div>
-            <div><label>Premier hôtel</label><select id="selectHotel1"><option value="">Choisissez...</option></select></div>
-            <div><label>Deuxième hôtel</label><select id="selectHotel2"><option value="">Choisissez...</option></select></div>
+        <div class="filters-box comparison-grid">
+            <div class="glass-box">
+                <h3 style="margin-top:0;">Premier séjour</h3>
+                <div><label>Pays</label><select id="selectPays1" onchange="updateVilles(1)" required><option value="">Choisissez un pays *</option></select></div>
+                <div><label>Ville (facultatif)</label><select id="selectVille1" onchange="updateHotels(1)"><option value="">Toutes les villes du pays</option></select></div>
+                <div><label>Hôtel</label><select id="selectHotel1"><option value="">Choisissez un hôtel...</option></select></div>
+            </div>
+            <div class="glass-box">
+                <h3 style="margin-top:0;">Deuxième séjour</h3>
+                <div><label>Pays (facultatif)</label><select id="selectPays2" onchange="updateVilles(2)"><option value="">Choisissez un pays...</option></select></div>
+                <div><label>Ville (facultatif)</label><select id="selectVille2" onchange="updateHotels(2)"><option value="">Toutes les villes du pays</option></select></div>
+                <div><label>Hôtel</label><select id="selectHotel2"><option value="">Choisissez un hôtel...</option></select></div>
+            </div>
         </div>
         <button class="btn-compare" onclick="lancerComparaison()">🚀 Lancer la comparaison</button>
         <div id="resultatComparaison" class="comparison-grid" style="margin-top: 30px;"></div>
@@ -621,43 +632,49 @@ html_accueil = f"""<!DOCTYPE html>
 
         function initFiltres() {{
             const paysSet = [...new Set(hotelsData.map(h => h.pays).filter(Boolean))].sort();
-            const selectPays = document.getElementById('selectPays');
-            paysSet.forEach(p => {{
-                let opt = document.createElement('option');
-                opt.value = p; opt.textContent = p;
-                selectPays.appendChild(opt);
+            [1, 2].forEach(side => {{
+                const selectPays = document.getElementById('selectPays' + side);
+                paysSet.forEach(p => {{
+                    let opt = document.createElement('option');
+                    opt.value = p; opt.textContent = p;
+                    selectPays.appendChild(opt);
+                }});
+                updateVilles(side);
             }});
-            updateVilles();
         }}
 
-        function updateVilles() {{
-            const pays = document.getElementById('selectPays').value;
-            const selectVille = document.getElementById('selectVille');
+        function updateVilles(side) {{
+            const pays = document.getElementById('selectPays' + side).value;
+            const selectVille = document.getElementById('selectVille' + side);
             selectVille.innerHTML = '<option value="">Toutes les villes</option>';
-            const villesSet = [...new Set(hotelsData.filter(h => !pays || h.pays === pays).map(h => h.ville).filter(Boolean))].sort();
+            const villesSet = [...new Set(hotelsData.filter(h => pays && h.pays === pays).map(h => h.ville).filter(Boolean))].sort();
             villesSet.forEach(v => {{
                 let opt = document.createElement('option');
                 opt.value = v; opt.textContent = v;
                 selectVille.appendChild(opt);
             }});
-            updateHotels();
+            document.getElementById('selectHotel' + side).innerHTML = '<option value="">Choisissez un hôtel...</option>';
+            updateHotels(side);
         }}
 
-        function updateHotels() {{
-            const pays = document.getElementById('selectPays').value;
-            const ville = document.getElementById('selectVille').value;
-            const filtered = hotelsData.filter(h => (!pays || h.pays === pays) && (!ville || h.ville === ville));
-            const s1 = document.getElementById('selectHotel1');
-            const s2 = document.getElementById('selectHotel2');
-            s1.innerHTML = '<option value="">1er hébergement</option>';
-            s2.innerHTML = '<option value="">2nd hébergement</option>';
+        function updateHotels(side) {{
+            const pays = document.getElementById('selectPays' + side).value;
+            const ville = document.getElementById('selectVille' + side).value;
+            const filtered = hotelsData.filter(h => pays && h.pays === pays && (!ville || h.ville === ville));
+            const selectHotel = document.getElementById('selectHotel' + side);
+            selectHotel.innerHTML = '<option value="">Choisissez un hôtel...</option>';
             filtered.forEach(h => {{
-                s1.appendChild(new Option(h.nom, h.slug));
-                s2.appendChild(new Option(h.nom, h.slug));
+                selectHotel.appendChild(new Option(h.nom, h.slug));
             }});
         }}
 
         function lancerComparaison() {{
+            const pays1 = document.getElementById('selectPays1').value;
+            const pays2 = document.getElementById('selectPays2').value;
+            if (!pays1 && !pays2) {{
+                document.getElementById('resultatComparaison').innerHTML = '<p style="color:#b42318; grid-column:span 2; text-align:center;">Choisissez au moins un pays pour lancer la comparaison.</p>';
+                return;
+            }}
             const h1 = hotelsData.find(h => h.slug === document.getElementById('selectHotel1').value);
             const h2 = hotelsData.find(h => h.slug === document.getElementById('selectHotel2').value);
             let html = '';
@@ -1043,3 +1060,28 @@ generate_information_pages()
 generate_seo_files()
 
 print("Génération réussie à 100% avec l'intégration complète des témoignages et du footer Formspree !")
+
+if WATCH_MODE:
+    print("Surveillance active : enregistre un fichier JSON pour régénérer le site. Ctrl+C pour arrêter.")
+    watched_files = [*DATA_DIR.rglob("*.json"), BASE_DIR / "blog_data.json"]
+
+    def snapshot():
+        return {
+            str(path): (path.stat().st_mtime_ns, path.stat().st_size)
+            for path in watched_files
+            if path.exists()
+        }
+
+    previous_snapshot = snapshot()
+    try:
+        while True:
+            time.sleep(1)
+            current_snapshot = snapshot()
+            if current_snapshot != previous_snapshot:
+                print("Modification JSON détectée : régénération en cours...")
+                subprocess.run([sys.executable, str(Path(__file__).resolve()), "--reset"], check=True)
+                watched_files = [*DATA_DIR.rglob("*.json"), BASE_DIR / "blog_data.json"]
+                previous_snapshot = snapshot()
+                print("Régénération terminée.")
+    except KeyboardInterrupt:
+        print("Surveillance arrêtée.")
