@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -152,10 +158,19 @@ C&#39;est une opportunité idéale pour s&#39;offrir un séjour luxueux et spaci
     
     <h3>🛠️ Équipements</h3><p>5 étoiles, Spa, Petit-déjeuner inclus, Paiement sur place, Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Très bien noté (8,2)</li><li>Confort de 8,7 avec suites spacieuses de 40 m²</li><li>Spa, petit-déjeuner inclus, paiement sur place sans prépaiement</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Infrastructures de type resort urbain</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Voyageurs cherchant un hôtel 5 étoiles avec spa et de grands espaces à Marrakech</p>
+            <p style="color:var(--muted);">✨ Luxueux, spacieux et relaxant · Hôtel de luxe 5 étoiles</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Une belle option de grand standing à prix modéré pour la ville ocre.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/searchresults.fr.html?ss=Palais%20Jena%20Hotel%20%26%20Spa%20Marrakech%20Maroc&aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
-        <a href="https://www.anrdoezrs.net/click-8012379-13854902?url=https%3A%2F%2Fwww.expedia.fr%2FHote-Recherche%3Fdestination%3DPalais%2520Jena%2520Hotel%2520%2526%2520Spa%2520Marrakech%2520Maroc" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
+        <a href="https://www.anrdoezrs.net/click-8012379-13854902?url=https%3A%2F%2Fwww.expedia.fr%2FHotel-Search%3Fdestination%3DPalais%2520Jena%2520Hotel%2520%2526%2520Spa%2520Marrakech%2520Maroc" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
     </div>
 </div>
 
@@ -198,6 +213,7 @@ C&#39;est une opportunité idéale pour s&#39;offrir un séjour luxueux et spaci
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -215,12 +231,12 @@ C&#39;est une opportunité idéale pour s&#39;offrir un séjour luxueux et spaci
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

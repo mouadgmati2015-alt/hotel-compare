@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,6 +153,15 @@ a { color: var(--secondary); }
     
     <h3>🛠️ Équipements</h3><p>5 étoiles, Piscines privées dans chaque villa, Piscines extérieure et intérieure, En bord de plage et plage privée, Spa et centre de bien-être, Wi-Fi gratuit, Parking gratuit sur place, Restaurants et bars, Chambres familiales et non-fumeurs, Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Concept architectural féerique avec des villas spectaculaires construites directement sur l&#39;eau, dotées de piscines privées exceptionnelles.</li><li>Personnel chaleureux, souriant, extrêmement réactif et proposant un service personnalisé (avec de nombreux surclassements appréciés).</li><li>Buffets de petit-déjeuner et de restauration immenses, variés, de grande qualité et très appréciés des voyageurs.</li><li>Chambres spacieuses, extrêmement confortables, propres et dotées de lits douillets garantissant un repos parfait.</li><li>Infrastructures de loisirs complètes incluant des piscines magnifiques, un service de buggy rapide et un spa relaxant.</li><li>Cadre idéal et romantique pour les couples et les familles recherchant des vacances mémorables.</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Lenteurs ou files d&#39;attente parfois importantes lors des formalités d&#39;enregistrement à la réception en raison de la forte affluence.</li><li>Quelques dysfonctionnements ponctuels du personnel de comptoir signalés dans la gestion des réservations ou des profils de clients.</li><li>Salle de sport jugée un peu exiguë et excentrée par rapport au reste des infrastructures principales.</li><li>Tarifs des prestations de room service ou de restauration annexes parfois jugés élevés selon les services.</li><li>Forte popularité entraînant une affluence importante dans les espaces communs durant les weekends et les vacances scolaires.</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Couples en quête de romance, familles à la recherche d&#39;un séjour ludique et voyageurs fascinés par l&#39;architecture moderne sur l&#39;eau</p>
+            <p style="color:var(--muted);">🌺 Féerique, aquatique, luxueux, spectaculaire et dépaysant · Resort marin de luxe aux villas sur pilotis avec piscines privées</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Le Lexis Hibiscus Port Dickson fascine instantanément grâce à ses superbes villas sur l&#39;eau dotées de piscines privées, son ambiance féerique et la générosité de ses buffets. Malgré quelques engorgements logistiques ponctuels à l&#39;enregistrement lors des pics d&#39;affluence, la magie du lieu, combinée à la bienveillance d&#39;un personnel attentionné et au confort somptueux des chambres, garantit une expérience inoubliable qui justifie pleinement son immense succès auprès des voyageurs.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/hotel/my/lexis-hibiscus-port-dickson-port-dickson14.fr.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

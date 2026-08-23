@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,6 +153,15 @@ a { color: var(--secondary); }
     <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">L&#39;Hotel RH Riviera est le refuge rêvé à Gandía pour ceux qui, le temps d&#39;une semaine, veulent oublier le reste du monde. En réservant l&#39;accès aux adultes, il crée une bulle de silence et de complicité rare sur la côte valencienne. À 824€ la semaine, vous ne payez pas seulement pour le confort de 8,8/10, mais surtout pour l&#39;exclusivité et la promesse d&#39;une atmosphère romantique. Les terrasses privatives deviennent alors de véritables extensions de votre chambre, des havres de paix pour prendre l&#39;apéritif ou bouquiner sans être dérangé. La formule tout compris simplifie tout : plus de note à signer, plus de budget à surveiller, juste le plaisir de l&#39;instant. Ce type d&#39;adresse est parfait pour une lune de miel ou un séjour de reconnexion à deux. La note globale de 8,6 confirme une excellente satisfaction client, ce qui est très rassurant. C&#39;est un investissement dans votre tranquillité d&#39;esprit qui, pour beaucoup, vaut largement le surcoût par rapport à des resorts familiaux plus bruyants. En choisissant cet établissement, vous optez pour la sophistication et le calme comme piliers de vos vacances. C&#39;est une expérience &#39;à part&#39; qui demande une réservation bien en amont compte tenu de la forte demande pour ces lieux de quiétude absolue.</p></div>
     <h3>🛠️ Équipements</h3><p>4 étoiles, Adults Only, Tout Compris, Terrasse, Annulation gratuite, Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Superbe note de 8,6. (Booking.com)</li><li>Concept adultes seulement. (TripAdvisor)</li><li>Formule tout compris. (Trip.com)</li><li>Terrasses privatives. (Expedia)</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Tarif plus élevé. (TripAdvisor)</li><li>Accès interdit aux enfants. (Booking.com)</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Couples cherchant le repos absolu sans enfants</p>
+            <p style="color:var(--muted);">✨ Calme, exclusif, romantique et réservé aux adultes · Hôtel Adults Only 4 étoiles</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Le choix idéal pour une escapade romantique.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/hotel/es/rh-riviera.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

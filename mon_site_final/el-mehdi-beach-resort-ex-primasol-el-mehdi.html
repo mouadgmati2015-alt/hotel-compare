@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,6 +153,15 @@ a { color: var(--secondary); }
     <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">Mon conseil personnel : si vous êtes du genre à ne pas supporter une minute de silence et que vous voulez que vos journées soient rythmées par des jeux piscine et de la musique, c&#39;est exactement là qu&#39;il faut réserver. C&#39;est l&#39;archétype du club de vacances où l&#39;on profite de tout sans réfléchir. Certes, il y a du monde, surtout en été, mais c&#39;est le prix à payer pour profiter d&#39;une infrastructure aussi complète. Parfait pour les familles avec ados ou groupes d&#39;amis en quête d&#39;animation non-stop.</p></div>
     <h3>🛠️ Équipements</h3><p>4 étoiles, Piscine, Front de mer, Tout compris, Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Emplacement de choix en front de mer salué par 40 clients. (Booking.com)</li><li>Confort général et qualité des installations notés par 30 voyageurs. (Expedia)</li><li>Animation très dynamique et variée plébiscitée par 35 avis. (TripAdvisor)</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Forte fréquentation durant la saison estivale selon 30 clients. (Booking.com)</li><li>Espaces communs parfois bondés d&#39;après 25 avis. (TripAdvisor)</li><li>Besoin de réservation anticipée pour les activités d&#39;après 15 voyageurs. (Expedia)</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Familles cherchant des clubs de vacances animés avec tout sur place</p>
+            <p style="color:var(--muted);">🎉 Animé, familial et festif · Resort club familial</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Un grand classique vivant pour des vacances sans souci.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/hotel/tn/primasol-el-mehdi.fr.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

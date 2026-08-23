@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,6 +153,15 @@ a { color: var(--secondary); }
     <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">L&#39;Hotel Fuerte El Rompido est une invitation somptueuse à la déconnexion au cœur des paysages protégés d&#39;Andalousie. Si vous cherchez un 4 étoiles luxueux, doté d&#39;un confort intérieur noté 9,0/10, d&#39;un superbe petit-déjeuner compris et d&#39;une vraie conscience écologique pour environ 767€ la semaine, c&#39;est une merveilleuse halte. S&#39;il faut accepter un certain isolement et un budget plus élevé, la promesse d&#39;un séjour reposant, raffiné et en harmonie avec la nature est pleinement tenue.</p></div>
     <h3>🛠️ Équipements</h3><p>4 étoiles, Certificat de durabilité, Petit-déjeuner compris, Climatisation, Annulation gratuite, Spa et piscines extérieures</p>
     <h3>✅ Points Positifs</h3><ul><li>Superbe note élevée de 8,7/10 reflétant la satisfaction générale. (Booking.com)</li><li>Confort intérieur remarquable évalué à 9,0/10 par les clients. (TripAdvisor)</li><li>Petit-déjeuner compris de haut standing inclus dans la formule. (Expedia)</li><li>Certificat de durabilité validant l&#39;intégration dans un environnement naturel préservé. (Trip.com)</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Tarif positionné sur le haut de gamme (environ 767€ la semaine). (Booking.com)</li><li>Situation isolée exigeant une anticipation des déplacements hors du resort. (TripAdvisor)</li><li>Orientation prioritaire vers le calme et la détente, peu adaptée aux adeptes de vie nocturne. (Expedia)</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Amateurs de grands espaces naturels protégés et de prestations hôtelières raffinées en Andalousie</p>
+            <p style="color:var(--muted);">✨ Naturel, luxueux, paisible et exclusif · Hôtel nature de luxe 4 étoiles</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Une expérience somptueuse et reposante au cœur d&#39;un écosystème andalou unique.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/hotel/es/fuerte-el-rompido.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

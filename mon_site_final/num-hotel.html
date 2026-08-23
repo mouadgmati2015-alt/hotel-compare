@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,6 +153,15 @@ a { color: var(--secondary); }
     <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">Le Num Hotel est l&#39;adresse des vacanciers actifs qui ne souhaitent pas passer leurs journées enfermés dans une enceinte hôtelière. Situé en plein cœur de Salou, il offre un confort moderne, noté 8,8/10, idéal pour recharger ses batteries après une virée shopping ou une soirée festive. À 466€ la semaine, c&#39;est une option très cohérente pour ceux qui préfèrent sortir dîner et découvrir les adresses locales plutôt que de se contenter des buffets d&#39;hôtel. La modernité du design est un vrai plus, loin des codes classiques parfois vieillissants de la station. Cependant, c&#39;est une adresse &#39;urbaine&#39; : le calme absolu n&#39;est pas sa priorité, et il faut savoir accepter l&#39;effervescence de la ville en échange d&#39;une proximité immédiate avec toutes les commodités. C&#39;est le pied-à-terre parfait pour les jeunes couples ou groupes d&#39;amis qui veulent vivre Salou à 100%. L&#39;absence de petit-déjeuner inclus est en réalité une opportunité pour tester les cafés du quartier et adopter le rythme local. En résumé, si vous privilégiez la vie citadine, l&#39;animation et le design moderne, ce choix est largement supérieur aux complexes en retrait de la ville.</p></div>
     <h3>🛠️ Équipements</h3><p>4 étoiles, Climatisation, Emplacement centre-ville, Design moderne</p>
     <h3>✅ Points Positifs</h3><ul><li>Note de 8,3 très encourageante. (Trip.com)</li><li>Confort de 8,8 surclassant la moyenne. (Booking.com)</li><li>Emplacement central hyperactif à Salou. (TripAdvisor)</li><li>Design intérieur moderne. (Expedia)</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Petit-déjeuner non inclus, nécessitant un budget additionnel. (Booking.com)</li><li>Nuisances sonores possibles dues à l&#39;animation. (TripAdvisor)</li><li>Expérience urbaine parfois dense. (Trip.com)</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Voyageurs voulant profiter pleinement de l&#39;animation de Salou</p>
+            <p style="color:var(--muted);">✨ Moderne, urbain, central et dynamique · Hôtel urbain 4 étoiles</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Un pied-à-terre très pratique et confortable au cœur de la ville.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/hotel/es/regentearagon.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,6 +153,15 @@ a { color: var(--secondary); }
     <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">Le Waldorf Astoria Chicago offre un contraste saisissant : derrière ses airs de grand hôtel haussmannien parisien, il déploie toute l&#39;énergie moderne de Chicago. À 400$ la nuit, c&#39;est un excellent rapport qualité-prix pour cette catégorie de palace urbain. J&#39;ai un vrai coup de cœur pour les suites avec cheminée, qui apportent un confort cocooning rare en ville, surtout quand le vent de Lake Michigan souffle fort. C&#39;est une adresse sophistiquée, parfaite pour les voyageurs qui aiment allier le chic européen à l&#39;efficacité américaine.</p></div>
     <h3>🛠️ Équipements</h3><p>5 étoiles, Spa immense, Cheminées dans les suites, Wi-Fi gratuit, Service voiturier, Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Design inspiré des grands hôtels parisiens</li><li>Chambres spacieuses avec cheminée d&#39;ambiance</li><li>Quartier de Gold Coast très prisé et central</li><li>Spa de classe mondiale immense</li><li>Service attentionné et sur-mesure</li><li>Brasserie de haut niveau sur place</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Conditions climatiques hivernales rudes à Chicago</li><li>Tarifs variables lors des grands salons professionnels</li><li>Coûts importants de parking et voiturier</li><li>Zone parfois dense en circulation automobile</li><li>Forte demande pour le spa le week-end</li><li>Ambiance très axée &#39;business&#39; en semaine</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Voyageurs d&#39;affaires exigeants, amateurs de luxe, couples en week-end citadin.</p>
+            <p style="color:var(--muted);">🏙️ Chic, urbain, élégant, sophistiqué, feutré et chaleureux. · Hôtel urbain de luxe d&#39;inspiration européenne.</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Le summum de l&#39;élégance à Chicago pour un séjour raffiné.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/hotel/us/chicago-11-walton.fr.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

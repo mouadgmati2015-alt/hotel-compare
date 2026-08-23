@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,6 +153,15 @@ a { color: var(--secondary); }
     <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">The Breakers, c&#39;est le resort de Floride par excellence. Si vous cherchez un endroit où tout est prévu, du parcours de golf aux pieds dans le sable, c&#39;est une adresse magistrale. Avec une note de 9,3, le service n&#39;est pas un vain mot : ils savent anticiper vos besoins avant même que vous les exprimiez. C&#39;est un complexe majestueux, presque intimidant par sa taille, mais qui dégage un charme intemporel. Attention au code vestimentaire : le soir, c&#39;est une élégance formelle qui est attendue, ce qui fait partie de l&#39;expérience, mais il vaut mieux le savoir. C&#39;est un choix inoubliable, idéal pour les familles fortunées ou les golfeurs invétérés qui veulent le nec plus ultra de la côte Est.</p></div>
     <h3>🛠️ Équipements</h3><p>5 étoiles, Plage privée, Terrains de golf, Multiples piscines, Spa, Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Domaine immense et exclusif face à l&#39;océan</li><li>Plage privée magnifique réservée aux clients</li><li>Golfs de championnat intégrés au domaine</li><li>Service client au sommet de l&#39;hôtellerie mondiale</li><li>Architecture inspirante et somptueusement entretenue</li><li>Grande diversité d&#39;options de restauration de luxe</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Tarification très élevée, surtout en haute saison</li><li>Ambiance pouvant sembler imposante ou impersonnelle</li><li>Forte présence de familles animées en période scolaire</li><li>Coûts élevés pour les activités de sport (golf/tennis)</li><li>Code vestimentaire formel souvent exigé le soir</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Familles fortunées, passionnés de golf, couples en quête d&#39;évasion haut de gamme.</p>
+            <p style="color:var(--muted);">🌴 Élégant, balnéaire, sportif, majestueux, formel et relaxant. · Resort historique Renaissance.</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">L&#39;expérience de villégiature floridienne par excellence.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/hotel/us/the-breakers-palm-beach.fr.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

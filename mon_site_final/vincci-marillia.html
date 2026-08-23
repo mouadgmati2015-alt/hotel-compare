@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,6 +153,15 @@ a { color: var(--secondary); }
     <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">Le Vincci Marillia, c&#39;est la valeur sûre par excellence sur la côte d&#39;Hammamet. Quand on réserve dans cette enseigne, on sait que l&#39;on ne sera pas déçu par l&#39;entretien des espaces et la qualité globale de l&#39;accueil. J&#39;ai un vrai coup de cœur pour leurs superbes jardins qui mènent directement à la grande plage de sable fin : c&#39;est un vrai tableau de vacances sous le soleil. Même si le restaurant peut parfois s&#39;avérer un brin animé aux heures de pointe en été, le standing général en fait une excellente option balnéaire les yeux fermés.</p></div>
     <h3>🛠️ Équipements</h3><p>4 étoiles, Accès direct à la plage, Grande piscine extérieure, Beaux jardins, Restaurants et bars, Wi-Fi, Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Magnifiques jardins luxuriants et superbes piscines extérieures, plébiscités par plus de 90 clients. (Booking.com)</li><li>Excellente qualité de service rigoureuse propre à la marque Vincci, noté par 80 voyageurs. (Expedia)</li><li>Accès direct et rapide à une belle plage de sable fin salué par 75 avis. (TripAdvisor)</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Buffet de restauration parfois très fréquenté et bruyant en haute saison selon 55 clients. (Booking.com)</li><li>Chambres familiales un peu exiguës lorsque les lits d&#39;appoint sont installés d&#39;après 35 avis. (TripAdvisor)</li><li>Difficulté parfois à trouver des transats libres autour des grands bassins en milieu de journée d&#39;après 25 voyageurs. (Expedia)</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Parfait pour les familles et couples recherchant la qualité de la chaîne Vincci les pieds dans l&#39;eau</p>
+            <p style="color:var(--muted);">🌺 Lumineuse, soignée et balnéaire · Grand hôtel moderne avec jardins</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Une excellente option de qualité pour profiter de superbes extérieurs et de la plage.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/hotel/tn/vincci-marillia.fr.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

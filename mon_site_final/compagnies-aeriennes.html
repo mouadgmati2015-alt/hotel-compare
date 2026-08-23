@@ -97,6 +97,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -110,7 +114,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 </head>
 <body><div class="container">
@@ -125,573 +130,28 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
 <h1>✈️ Guide des Compagnies Aériennes</h1>
 <p style="color: #94a3b8; margin-bottom: 25px;">Analysez les caractéristiques, les avantages et les points d'attention de chaque compagnie.</p>
-
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Aeromexico</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie aérienne porte-drapeau du Mexique, basée à Mexico....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : SkyTeam</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.7 / 5</span>
-            <a href="aeromexico.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Air Algérie</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie nationale algérienne, assurant de nombreuses liaisons entre l'Algérie, l'Europe et l'Afrique....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Indépendante</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.2 / 5</span>
-            <a href="air-alg-rie.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Air Arabia</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Pionnier du transport aérien à bas coûts au Moyen-Orient et en Afrique du Nord....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Indépendante</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.4 / 5</span>
-            <a href="air-arabia.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Air Canada</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Principal transporteur du Canada, proposant d'excellentes liaisons transatlantiques et transpacifiques....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Star Alliance</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.9 / 5</span>
-            <a href="air-canada.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Air China</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">La seule compagnie aérienne nationale de la République populaire de Chine portant le drapeau national....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Star Alliance</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.6 / 5</span>
-            <a href="air-china.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Air France</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Principal transporteur aérien français, proposant un vaste réseau mondial et un service de qualité supérieure....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : SkyTeam</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 4.0 / 5</span>
-            <a href="air-france.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Air New Zealand</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie aérienne néo-zélandaise, réputée pour sa créativité marketing et la qualité de son service....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Star Alliance</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 4.4 / 5</span>
-            <a href="air-new-zealand.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>AirAsia</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Le géant du low-cost en Asie du Sud-Est, basé en Malaisie....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Indépendante</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.6 / 5</span>
-            <a href="airasia.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>All Nippon Airways (ANA)</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie japonaise de premier plan, régulièrement classée 5 étoiles pour la qualité de son service....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Star Alliance</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 4.6 / 5</span>
-            <a href="all-nippon-airways-ana.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>American Airlines</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">L'une des plus grandes compagnies aériennes au monde, basée aux États-Unis....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : oneworld</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.8 / 5</span>
-            <a href="american-airlines.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>British Airways</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Principal transporteur du Royaume-Uni, basé principalement à l'aéroport de Londres Heathrow....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : oneworld</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.9 / 5</span>
-            <a href="british-airways.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Cathay Pacific</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie aérienne majeure basée à Hong Kong, reconnue pour son service haut de gamme en Asie....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : oneworld</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 4.3 / 5</span>
-            <a href="cathay-pacific.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>China Eastern Airlines</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">L'un des géants de l'aviation chinoise, basé à Shanghai....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : SkyTeam</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.5 / 5</span>
-            <a href="china-eastern-airlines.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Delta Air Lines</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Gigantisme américain, reconnue pour sa ponctuelle et la qualité de son service client....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : SkyTeam</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 4.1 / 5</span>
-            <a href="delta-air-lines.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>EgyptAir</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie nationale égyptienne, basée à l'aéroport international du Caire....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Star Alliance</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.3 / 5</span>
-            <a href="egyptair.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Emirates</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">L'une des meilleures compagnies mondiales en termes de confort, divertissements à bord et service haut de gamme....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Indépendante</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 4.8 / 5</span>
-            <a href="emirates.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Ethiopian Airlines</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">La plus grande compagnie aérienne d'Afrique, leader incontesté sur le continent en termes de flotte et de réseau....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Star Alliance</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.9 / 5</span>
-            <a href="ethiopian-airlines.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Etihad Airways</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie aérienne nationale des Émirats arabes unis, basée à Abou Dabi, reconnue pour son raffinement....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Indépendante</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 4.4 / 5</span>
-            <a href="etihad-airways.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Garuda Indonesia</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie nationale indonésienne, distinguée à plusieurs reprises pour la qualité de son service....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : SkyTeam</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 4.1 / 5</span>
-            <a href="garuda-indonesia.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>ITA Airways</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie nationale italienne, successeure d'Alitalia, basée à Rome-Fiumicino et Milan....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : SkyTeam</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.7 / 5</span>
-            <a href="ita-airways.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Iberia</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie nationale espagnole, leader incontournable pour les liaisons entre l'Europe et l'Amérique latine....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : oneworld</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.8 / 5</span>
-            <a href="iberia.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>IndiGo</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">La plus grande compagnie aérienne en Inde par sa part de marché, reconnue pour sa ponctualité....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Indépendante</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.8 / 5</span>
-            <a href="indigo.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Japan Airlines (JAL)</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">L'une des deux grandes compagnies japonaises, symbole de ponctualité et d'hospitalité (Omotenashi)....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : oneworld</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 4.5 / 5</span>
-            <a href="japan-airlines-jal.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>JetBlue Airways</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie américaine hybride (low-cost haut de gamme) reconnue pour son confort et son espace pour les jambes....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Indépendante</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 4.0 / 5</span>
-            <a href="jetblue-airways.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>KLM Royal Dutch Airlines</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie nationale des Pays-Bas, réputée pour son service chaleureux et son hub d'Amsterdam-Schiphol....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : SkyTeam</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 4.0 / 5</span>
-            <a href="klm-royal-dutch-airlines.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Kenya Airways</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">La fierté de l'Afrique de l'Est, basée à Nairobi avec un fort ancrage panafricain....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : SkyTeam</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.4 / 5</span>
-            <a href="kenya-airways.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Korean Air</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Principal transporteur de la Corée du Sud, basé à Séoul-Incheon....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : SkyTeam</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 4.2 / 5</span>
-            <a href="korean-air.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>LATAM Airlines</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Le plus grand groupe de compagnies aériennes en Amérique latine, né de la fusion de LAN et TAM....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Indépendante</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.8 / 5</span>
-            <a href="latam-airlines.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Lufthansa</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Premier transporteur allemand et européen, synonyme de fiabilité et de prestations haut de gamme....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Star Alliance</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 4.1 / 5</span>
-            <a href="lufthansa.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Malaysia Airlines</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie nationale de la Malaisie, offrant un réseau étendu à travers l'Asie et l'Océanie....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : oneworld</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.6 / 5</span>
-            <a href="malaysia-airlines.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Middle East Airlines (MEA)</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie nationale libanaise basée à Beyrouth, symbole de résilience et d'hospitalité....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : SkyTeam</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.6 / 5</span>
-            <a href="middle-east-airlines-mea.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Norwegian</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie low-cost scandinave axée sur les liaisons européennes de qualité....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Indépendante</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.7 / 5</span>
-            <a href="norwegian.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Pegasus Airlines</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Principale compagnie low-cost turque proposant des vols économiques vers l'Europe et le Moyen-Orient....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Indépendante</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.5 / 5</span>
-            <a href="pegasus-airlines.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Philippine Airlines</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">La plus ancienne compagnie aérienne d'Asie en activité sous son nom d'origine, basée à Manille....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Indépendante</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.5 / 5</span>
-            <a href="philippine-airlines.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Qantas</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">La compagnie nationale australienne, surnommée 'The Flying Kangaroo', célèbre pour sa sécurité....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : oneworld</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 4.2 / 5</span>
-            <a href="qantas.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Qatar Airways</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie nationale du Qatar, multi-récompensée pour l'excellence de son service et de sa classe affaires....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : oneworld</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 4.7 / 5</span>
-            <a href="qatar-airways.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Royal Air Maroc</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie nationale marocaine, connectant l'Afrique de l'Ouest et du Nord à l'Europe et aux Amériques....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : oneworld</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.5 / 5</span>
-            <a href="royal-air-maroc.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Ryanair</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">La plus grande compagnie low-cost en Europe, connue pour ses tarifs agressifs et son vaste réseau....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Indépendante</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.3 / 5</span>
-            <a href="ryanair.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Saudia</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie nationale de l'Arabie saoudite, offrant un service soigné et en forte expansion....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : SkyTeam</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.8 / 5</span>
-            <a href="saudia.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Singapore Airlines</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie de référence mondiale, plébiscitée pour son service légendaire et le confort de ses cabines....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Star Alliance</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 4.8 / 5</span>
-            <a href="singapore-airlines.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>South African Airways</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie historique sud-africaine, basée à Johannesbourg....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Star Alliance</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.5 / 5</span>
-            <a href="south-african-airways.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Southwest Airlines</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">La plus grande compagnie low-cost au monde, pionnière du modèle aux États-Unis....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Indépendante</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.9 / 5</span>
-            <a href="southwest-airlines.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>TAP Air Portugal</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie aérienne portugaise, pont privilégié entre l'Europe, le Brésil et l'Afrique....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Star Alliance</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.6 / 5</span>
-            <a href="tap-air-portugal.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Transavia</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie low-cost de référence en France, proposant de nombreux vols vers le bassin méditerranéen....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Indépendante (Filiale Air France-KLM)</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.6 / 5</span>
-            <a href="transavia.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Tunisair</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie nationale tunisienne proposant de nombreuses liaisons directes vers l'Europe et l'Afrique du Nord....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Indépendante</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.1 / 5</span>
-            <a href="tunisair.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Turkish Airlines</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie turque desservant le plus grand nombre de pays au monde depuis son hub géant d'Istanbul....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Star Alliance</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 4.3 / 5</span>
-            <a href="turkish-airlines.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>United Airlines</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">L'un des géants du transport aérien nord-américain avec un réseau mondial massif....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Star Alliance</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.9 / 5</span>
-            <a href="united-airlines.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Vietnam Airlines</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie nationale du Vietnam, reliant l'Indochine au reste du monde....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : SkyTeam</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.7 / 5</span>
-            <a href="vietnam-airlines.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Vueling</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie low-cost espagnole basée à Barcelone, très implantée en Europe de l'Ouest....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Indépendante (Groupe IAG)</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.4 / 5</span>
-            <a href="vueling.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>Wizz Air</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie low-cost hongroise à croissance rapide, très active en Europe de l'Est et centrale....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Indépendante</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.2 / 5</span>
-            <a href="wizz-air.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
-    <div class="card" style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-        <div>
-            <h3>easyJet</h3>
-            <p style="color: #94a3b8; margin: 5px 0;">Compagnie low-cost majeure en Europe, très présente dans les grands aéroports urbains....</p>
-            <span style="color: #38bdf8; font-size: 0.9em;">Alliance : Indépendante</span>
-        </div>
-        <div style="text-align: right; flex-shrink: 0;">
-            <span style="color: #fbbf24; font-weight: bold; font-size: 1.1em; display: block; margin-bottom: 10px;">⭐ 3.7 / 5</span>
-            <a href="easyjet.html" class="btn" style="padding: 8px 15px; font-size: 0.9em; background:#3A506B;">Voir la fiche</a>
-        </div>
-    </div>
+<label for="airline-selector" style="font-weight:700;">Choisissez une compagnie aérienne</label>
+<select id="airline-selector" onchange="afficherCompagnie(this.value)" style="width:100%; max-width:520px; padding:12px; margin:10px 0 24px; border-radius:10px;">
+    <option value="">Sélectionnez une compagnie...</option>
+    <option value="aeromexico">Aeromexico</option><option value="air-alg-rie">Air Algérie</option><option value="air-arabia">Air Arabia</option><option value="air-canada">Air Canada</option><option value="air-china">Air China</option><option value="air-france">Air France</option><option value="air-new-zealand">Air New Zealand</option><option value="airasia">AirAsia</option><option value="all-nippon-airways-ana">All Nippon Airways (ANA)</option><option value="american-airlines">American Airlines</option><option value="british-airways">British Airways</option><option value="cathay-pacific">Cathay Pacific</option><option value="china-eastern-airlines">China Eastern Airlines</option><option value="delta-air-lines">Delta Air Lines</option><option value="egyptair">EgyptAir</option><option value="emirates">Emirates</option><option value="ethiopian-airlines">Ethiopian Airlines</option><option value="etihad-airways">Etihad Airways</option><option value="garuda-indonesia">Garuda Indonesia</option><option value="ita-airways">ITA Airways</option><option value="iberia">Iberia</option><option value="indigo">IndiGo</option><option value="japan-airlines-jal">Japan Airlines (JAL)</option><option value="jetblue-airways">JetBlue Airways</option><option value="klm-royal-dutch-airlines">KLM Royal Dutch Airlines</option><option value="kenya-airways">Kenya Airways</option><option value="korean-air">Korean Air</option><option value="latam-airlines">LATAM Airlines</option><option value="lufthansa">Lufthansa</option><option value="malaysia-airlines">Malaysia Airlines</option><option value="middle-east-airlines-mea">Middle East Airlines (MEA)</option><option value="norwegian">Norwegian</option><option value="pegasus-airlines">Pegasus Airlines</option><option value="philippine-airlines">Philippine Airlines</option><option value="qantas">Qantas</option><option value="qatar-airways">Qatar Airways</option><option value="royal-air-maroc">Royal Air Maroc</option><option value="ryanair">Ryanair</option><option value="saudia">Saudia</option><option value="singapore-airlines">Singapore Airlines</option><option value="south-african-airways">South African Airways</option><option value="southwest-airlines">Southwest Airlines</option><option value="tap-air-portugal">TAP Air Portugal</option><option value="transavia">Transavia</option><option value="tunisair">Tunisair</option><option value="turkish-airlines">Turkish Airlines</option><option value="united-airlines">United Airlines</option><option value="vietnam-airlines">Vietnam Airlines</option><option value="vueling">Vueling</option><option value="wizz-air">Wizz Air</option><option value="easyjet">easyJet</option>
+</select>
+<div id="airline-details" style="display:none;"></div>
+<script>
+function afficherCompagnie(slug) {
+    const details = document.getElementById('airline-details');
+    if (!slug) { details.style.display = 'none'; details.innerHTML = ''; return; }
+    const link = document.createElement('a');
+    link.href = slug + '.html'; link.className = 'btn'; link.textContent = 'Voir la fiche complète';
+    details.innerHTML = '<div class="card"><h2>Compagnie sélectionnée</h2><p>Consultez sa présentation, ses services et ses points de vigilance.</p></div>';
+    details.querySelector('.card').appendChild(link); details.style.display = 'block';
+}
+</script>
 
 <footer class="site-footer">
     <div class="footer-grid">
@@ -703,6 +163,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -720,12 +181,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

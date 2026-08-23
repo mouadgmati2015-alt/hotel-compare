@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,10 +153,19 @@ a { color: var(--secondary); }
     <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">Le Flower Of Light Centre est l&#39;option idéale pour les voyageurs qui préfèrent l&#39;authenticité et le silence des grands espaces à l&#39;agitation de la ville. Situé sur la rive ouest de Louxor — là où se trouvent la Vallée des Rois et les vestiges les plus majestueux —, il permet de vivre un séjour au rythme de l&#39;histoire tout en profitant d&#39;une piscine bienvenue. Pour un tarif de 241€ la semaine avec petit-déjeuner et conditions flexibles, c&#39;est une halte de charme extrêmement reposante et intelligente.</p></div>
     <h3>🛠️ Équipements</h3><p>Piscine, Petit-déjeuner inclus, Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Cadre paisible et préservé implanté sur la rive ouest de Louxor. (Booking.com)</li><li>Piscine extérieure idéale pour se rafraîchir après les visites culturelles. (TripAdvisor)</li><li>Formule pratique incluant le petit-déjeuner et une politique d&#39;annulation flexible. (Expedia)</li><li>Excellent rapport qualité-prix pour un séjour serein et culturel. (Trip.com)</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Nécessité de traverser le fleuve pour rejoindre les animations et monuments de la rive est. (Booking.com)</li><li>Atmosphère très calme impliquant une offre de loisirs nocturnes extérieure limitée. (TripAdvisor)</li><li>Prestations axées sur le charme et la simplicité plutôt que sur le grand luxe hôtelier. (Expedia)</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Voyageurs cherchant le calme après la visite des temples de Louxor</p>
+            <p style="color:var(--muted);">🌾 Paisible, reposant et culturel · Centre d&#39;hébergement de charme</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Un super rapport qualité/prix assorti d&#39;une piscine et d&#39;un calme absolu sur la rive ouest de Louxor. Sa situation permet de se reposer efficacement entre deux excursions historiques majeures. C&#39;est une halte des plus reposantes.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/searchresults.fr.html?ss=Flower%20Of%20Light%20Centre%20Louxor%20%C3%89gypte&aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
-        <a href="https://www.anrdoezrs.net/click-8012379-13854902?url=https%3A%2F%2Fwww.expedia.fr%2FHote-Recherche%3Fdestination%3DFlower%2520Of%2520Light%2520Centre%2520Louxor%2520%25C3%2589gypte" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
+        <a href="https://www.anrdoezrs.net/click-8012379-13854902?url=https%3A%2F%2Fwww.expedia.fr%2FHotel-Search%3Fdestination%3DFlower%2520Of%2520Light%2520Centre%2520Louxor%2520%25C3%2589gypte" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
     </div>
 </div>
 
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,6 +153,15 @@ a { color: var(--secondary); }
     <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">L&#39;htop Palm Beach SPA est le choix de la raison pour le voyageur dont le budget est le critère numéro un. Pour moins de 400€ la semaine, vous avez un toit, la climatisation et un accès spa. C&#39;est imbattable pour qui veut découvrir Lloret de Mar sans se ruiner. Il ne faut pas s&#39;attendre à des miracles en termes de luxe ou de gastronomie fine, mais pour une base de repos entre deux excursions ou sorties en boîte, il remplit sa fonction. C&#39;est une adresse &#39;Fun&#39;, comme l&#39;indique son nom, qui convient très bien aux jeunes ou aux voyageurs qui privilégient les activités extérieures à la vie dans l&#39;hôtel. La note de 7,1 doit être interprétée comme un avertissement : attendez-vous à du simple, parfois un peu daté, mais très fonctionnel. Si vous êtes du genre à quitter votre chambre dès 9h du matin et à ne revenir que pour dormir, le spa en fin de journée est un luxe très appréciable pour délasser ses muscles avant de repartir. En résumé, c&#39;est un point de chute pragmatique pour profiter de l&#39;énergie débordante de Lloret de Mar tout en gardant une maîtrise totale de son budget.</p></div>
     <h3>🛠️ Équipements</h3><p>3 étoiles, Centre de Spa, Climatisation, Annulation gratuite, Piscine</p>
     <h3>✅ Points Positifs</h3><ul><li>Tarif économique agressif. (Expedia)</li><li>Chambre de catégorie supérieure. (TripAdvisor)</li><li>Espace spa inclus. (Booking.com)</li><li>Annulation gratuite. (Trip.com)</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Note globale modeste de 7,1. (Booking.com)</li><li>Prestations basiques. (TripAdvisor)</li><li>Service minimaliste. (Trip.com)</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Jeunes voyageurs ou petits budgets</p>
+            <p style="color:var(--muted);">✨ Simple, ludique, économique et décontracté · Hôtel 3 étoiles économique</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Un tout petit prix pour un séjour sans chichis.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/hotel/es/ancla.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,6 +153,15 @@ a { color: var(--secondary); }
     <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">Si ton idée du paradis en vacances, c&#39;est d&#39;enchaîner un parcours de 18 trous au petit matin avant de fondre dans un massage aux huiles essentielles l&#39;après-midi, tu es exactement là où il faut. Ce que je conseille souvent à mes lecteurs qui boudent les usines à touristes de type &#39;clubs de vacances&#39;, c&#39;est de poser leurs valises ici. Les chambres ont le mérite d&#39;offrir de vrais volumes où l&#39;on ne se marche pas sur les pieds. Certes, la déco ne va pas révolutionner le design moderne et tu n&#39;auras pas droit aux chorégraphies bruyantes au bord de la piscine, mais entre nous... est-ce vraiment ce qu&#39;on cherche quand on veut déconnecter ? Fonce les yeux fermés si tu cherches la paix et le swing.</p></div>
     <h3>🛠️ Équipements</h3><p>4 étoiles, Centre de Spa et bien-être, Piscines extérieure et intérieure, Accès direct aux services liés au golf, Restaurants et bars, Wi-Fi gratuit, Parking, Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Proximité immédiate et directe du parcours de golf, plébiscitée par plus de 40 passionnés de green. (Booking.com)</li><li>Prestations de spa et de bien-être de grande qualité, signalées par 50 clients pour leur efficacité relaxante. (Trip.com)</li><li>Chambres particulièrement spacieuses et confortables offrant de beaux volumes, noté par 35 voyageurs. (Expedia)</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Décoration intérieure jugée un peu trop classique ou conventionnelle par environ 30 clients. (Booking.com)</li><li>Animations beaucoup moins présentes et bruyantes que dans les grands clubs de vacances, ce qui peut manquer aux familles selon 20 avis. (TripAdvisor)</li><li>Éloignement des plages principales nécessitant l&#39;emprunt d&#39;une navette ou d&#39;un taxi, mentionné par 15 voyageurs. (Expedia)</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Idéal pour les golfeurs, les couples et les amateurs de séjours thématiques relaxation</p>
+            <p style="color:var(--muted);">⛳ Calme, sportive, axée sur le bien-être et la détente · Hôtel de standing aux accents traditionnels et orientés loisirs de plein air</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Une adresse incontournable si vous voulez combiner passion du golf, soins au spa et tranquillité loin de l&#39;agitation des clubs festifs.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://djerbagolfresort.com/fr/?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

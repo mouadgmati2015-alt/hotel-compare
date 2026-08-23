@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,10 +153,19 @@ a { color: var(--secondary); }
     <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">L&#39;El Nabila Front Pyramids &amp; Sphinx View fait partie de ces adresses rares où la promesse visuelle est pleinement tenue. Si vous rêvez d&#39;ouvrir vos volets le matin et de contempler le Sphinx et les pyramides les yeux dans les yeux sans payer le prix d&#39;un hôtel cinq étoiles international, c&#39;est une option magistrale. S&#39;il faut composer avec l&#39;agitation typique des rues de Gizeh à l&#39;extérieur, son confort intérieur exceptionnel (9,6) et sa vue à couper le souffle en font un véritable coup de cœur.</p></div>
     <h3>🛠️ Équipements</h3><p>Parking gratuit, Petit-déjeuner inclus, Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Vue frontale exceptionnelle et directe sur le Sphinx et le plateau des Pyramides. (Booking.com)</li><li>Niveau de confort intérieur remarquable évalué à 9,6/10 par les voyageurs. (TripAdvisor)</li><li>Excellent rapport qualité-prix au vu de la rareté et de la puissance du panorama offert. (Expedia)</li><li>Prestations pratiques très appréciées incluant parking gratuit et petit-déjeuner. (Trip.com)</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Forte popularité générant une tension constante sur les disponibilités des chambres. (Booking.com)</li><li>Abords immédiats situés dans une zone locale très animée et soumise à l&#39;effervescence urbaine. (TripAdvisor)</li><li>Format guesthouse intime n&#39;offrant pas les équipements lourds d&#39;un grand resort (piscine ou spa). (Expedia)</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Voyageurs recherchant la plus belle vue possible sur le site</p>
+            <p style="color:var(--muted);">🌟 Spectaculaire, soigné et magique · Guesthouse de charme</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Une vue absolument à couper le souffle pour un séjour placé sous le signe de l&#39;émerveillement absolu. Le niveau de confort remarquable et la rareté d&#39;un tel panorama justifient pleinement sa cote d&#39;excellence. C&#39;est une adresse d&#39;exception.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/searchresults.fr.html?ss=El%20Nabila%20Front%20Pyramids%20%26%20Sphinx%20View%20Le%20Caire%20%C3%89gypte&aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
-        <a href="https://www.anrdoezrs.net/click-8012379-13854902?url=https%3A%2F%2Fwww.expedia.fr%2FHote-Recherche%3Fdestination%3DEl%2520Nabila%2520Front%2520Pyramids%2520%2526%2520Sphinx%2520View%2520Le%2520Caire%2520%25C3%2589gypte" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
+        <a href="https://www.anrdoezrs.net/click-8012379-13854902?url=https%3A%2F%2Fwww.expedia.fr%2FHotel-Search%3Fdestination%3DEl%2520Nabila%2520Front%2520Pyramids%2520%2526%2520Sphinx%2520View%2520Le%2520Caire%2520%25C3%2589gypte" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
     </div>
 </div>
 
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,6 +153,15 @@ a { color: var(--secondary); }
     
     <h3>🛠️ Équipements</h3><p>5 étoiles, Piscine extérieure, Spa et centre de bien-être, Wi-Fi gratuit, Parking gratuit sur place, Plusieurs restaurants et bars, Parcours de golf à proximité, Chambres non-fumeurs et familiales, Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Cadre tropical exceptionnel de 160 hectares, verdoyant, calme et abritant une faune locale variée très appréciée.</li><li>Proximité pratique avec l&#39;aéroport de Subang et les grands axes de la région.</li><li>Superbe piscine extérieure paysagère et superbes infrastructures de détente au cœur de la verdure.</li><li>Offre de restauration riche et diversifiée avec plusieurs tables de premier plan (italienne, japonaise, chinoise et internationale).</li><li>Chambres spacieuses, confortables et dotées d&#39;une literie de qualité avec balcons panoramiques.</li><li>Personnel globalement amical, accueillant et soucieux du bien-être des clients.</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Signes de vieillissement prononcés et mobilier ou moquettes datés dans certaines chambres.</li><li>Problèmes d&#39;humidité, odeurs de renfermé ou de moisi signalés de manière récurrente dans certains espaces d&#39;hébergement.</li><li>Incidents isolés mais graves concernant la propreté ou la présence d&#39;insectes dans quelques chambres.</li><li>Lenteurs ou manque de réactivité de certains membres du personnel d&#39;accueil pour la gestion logistique (transports, navettes ou assistance).</li><li>Variété du buffet de petit-déjeuner jugée en baisse par rapport aux années précédentes.</li><li>Éclairage parfois insuffisant dans certaines zones des chambres.</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Amateurs de golf, couples en quête d&#39;une escapade au vert et voyageurs recherchant le calme à l&#39;écart de l&#39;effervescence urbaine</p>
+            <p style="color:var(--muted);">🌴 Tropical, verdoyant, paisible, naturel et relaxant · Resort tropical de luxe niché dans un parc de 160 hectares</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">The Saujana Kuala Lumpur séduit instantanément par son cadre tropical unique, ses vastes jardins luxuriants et la qualité de ses tables gastronomiques, offrant une parenthèse de calme absolu. Néanmoins, l&#39;établissement souffre d&#39;un vieillissement matériel manifeste et de problèmes d&#39;entretien récurrents (humidité, usure) que la direction doit impérativement corriger pour maintenir son standing cinq étoiles face à une concurrence de plus en plus exigeante.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/hotel/my/the-saujana-kuala-lumpur.fr.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

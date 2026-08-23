@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,6 +153,15 @@ a { color: var(--secondary); }
     
     <h3>🛠️ Équipements</h3><p>Piscine intérieure, Connexion Wi-Fi gratuite, Parking privé, 3 restaurants panoramiques et bar, Centre de remise en forme, Chambres non-fumeurs et familiales, Navette aéroport, Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Vue spectaculaire et imprenable sur la Tokyo Skytree, le temple Sensō-ji et le Mont Fuji depuis certaines chambres et restaurants des étages supérieurs.</li><li>Emplacement géographique exceptionnel noté 9,4/10, à seulement 5 minutes à pied du temple Sensō-ji et proche des transports.</li><li>Personnel extrêmement courtois, attentif, professionnel et aux petits soins.</li><li>Petit-déjeuner buffet extrêmement varié, de haute qualité, souvent servi avec vue panoramique.</li><li>Propreté irréprochable de l&#39;établissement et des infrastructures.</li><li>Chambres spacieuses pour les standards de Tokyo, dotées d&#39;une literie très confortable et d&#39;équipements complets (avec prêt de pyjamas traditionnels).</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Rapport qualité/prix parfois jugé un peu juste par certains voyageurs (noté 8,5/10).</li><li>Affluence dans les espaces communs et aux restaurants en raison de la forte popularité de l&#39;hôtel.</li><li>Certaines chambres de catégories standard peuvent être considérées comme un peu compactes selon les attentes.</li><li>Accès à certains services de bien-être (piscine intérieure, massages) soumis à des frais supplémentaires.</li><li>Forte demande nécessitant d&#39;anticiper la réservation pour obtenir les chambres avec vue directe sur la Skytree.</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Touristes, couples et familles désireux de découvrir Tokyo avec un point de vue exceptionnel sur les monuments</p>
+            <p style="color:var(--muted);">🗼 Panoramique, élégante, traditionnelle et haut de gamme · Hôtel urbain de style Art déco avec vues spectaculaires</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">L&#39;Asakusa View Hotel est une adresse incontournable à Tokyo pour sa localisation idéale au cœur d&#39;Asakusa, son service irréprochable et ses vues à couper le souffle sur la ville et la Skytree.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/hotel/jp/asakusa-view-tokyo.fr.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

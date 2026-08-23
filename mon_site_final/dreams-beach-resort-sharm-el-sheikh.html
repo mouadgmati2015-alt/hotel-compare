@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,10 +153,19 @@ a { color: var(--secondary); }
     <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">Le Dreams Beach Resort à Charm el-Cheikh est une valeur sûre et un grand classique d&#39;El Hadaba. Ce n&#39;est pas un boutique-hôtel intimiste, mais un vaste complexe taillé pour les familles et les passionnés de snorkeling qui veulent en prendre plein les yeux sous l&#39;eau. S&#39;il faut composer avec la vie trépidante d&#39;un grand resort et un relief côtier escarpé, ses superbes jardins tropicaux, son engagement écologique et son accès direct à des spots de plongée spectaculaires en font une option extrêmement équilibrée pour s&#39;évader au soleil sans mauvaise surprise.</p></div>
     <h3>🛠️ Équipements</h3><p>Piscine, Certificat de durabilité, Petit-déjeuner inclus, Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Accès direct à des récifs coralliens d&#39;exception pour le snorkeling à El Hadaba. (Booking.com)</li><li>Vastes jardins tropicaux luxuriants offrant un cadre verdoyant et dépaysant. (TripAdvisor)</li><li>Certification de durabilité récompensant les efforts éco-responsables du complexe. (Expedia)</li><li>Excellent niveau de confort global (9,0/10) pour des chambres spacieuses et reposantes. (Trip.com)</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Forte fréquentation inhérente à la grande capacité du resort, générant de l&#39;animation aux heures de pointe. (Booking.com)</li><li>Topographie côtière en pente nécessitant de marcher ou d&#39;emprunter des escaliers pour descendre à la plage. (TripAdvisor)</li><li>Ambiance de grand club dynamique peu adaptée aux voyageurs en quête de silence absolu. (Expedia)</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Amateurs de snorkeling et de grands complexes de charme</p>
+            <p style="color:var(--muted);">🌴 Vaste, marin et familial · Resort balnéaire</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Un super cadre paysager implanté à El Hadaba pour profiter pleinement des splendeurs de la Mer Rouge. Ses prestations de standing et ses grands espaces extérieurs assurent un dépaysement total pour toute la famille. C&#39;est une valeur sûre de la station balnéaire.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/searchresults.fr.html?ss=Dreams%20Beach%20Resort%20-%20Sharm%20El%20Sheikh%20Charm%20el-Cheikh%20%C3%89gypte&aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
-        <a href="https://www.anrdoezrs.net/click-8012379-13854902?url=https%3A%2F%2Fwww.expedia.fr%2FHote-Recherche%3Fdestination%3DDreams%2520Beach%2520Resort%2520-%2520Sharm%2520El%2520Sheikh%2520Charm%2520el-Cheikh%2520%25C3%2589gypte" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
+        <a href="https://www.anrdoezrs.net/click-8012379-13854902?url=https%3A%2F%2Fwww.expedia.fr%2FHotel-Search%3Fdestination%3DDreams%2520Beach%2520Resort%2520-%2520Sharm%2520El%2520Sheikh%2520Charm%2520el-Cheikh%2520%25C3%2589gypte" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
     </div>
 </div>
 
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

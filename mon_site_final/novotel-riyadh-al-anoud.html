@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,10 +153,19 @@ a { color: var(--secondary); }
     <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">Les avis réels confirment que le Novotel Riyadh Al Anoud est une tour contemporaine prestigieuse de Riyad, particulièrement prisée pour la qualité de son personnel et son emplacement central stratégique. Les points de vigilance restent rares et ponctuels, n&#39;entachant pas la satisfaction générale des voyageurs d&#39;affaires et des couples.</p></div>
     <h3>🛠️ Équipements</h3><p>Piscine intérieure chauffée, Centre de remise en forme (Fitness), Sauna et bain turc, Bain à remous, Wi-Fi gratuit dans tout l&#39;établissement, Restaurant (La Croisette) &amp; Bar / Café-salon, Parking privé gratuit sur place, Navette aéroport &amp; Service de voiturier, Chambres familiales et non-fumeurs, Salon de coiffure et boutique de souvenirs, Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Personnel d&#39;accueil exceptionnellement aimable et professionnel, souvent cité comme un point fort marquant du séjour. (Booking.com)</li><li>Chambres récemment rénovées, spacieuses, impeccables et lumineuses. (TripAdvisor)</li><li>Salles de conférence bien équipées, adaptées aux voyages d&#39;affaires. (Expedia)</li><li>Petit-déjeuner et restauration jugés excellents, variés et bien présentés. (Trip.com)</li><li>Établissement moderne avec salle de sport et piscine appréciées. (Booking.com)</li><li>Emplacement central dans le quartier d&#39;affaires Al-Olaya, à proximité de la Kingdom Tower. (Expedia)</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Le stationnement est signalé comme problématique par au moins un client. (Booking.com)</li><li>Cas isolé de propreté insuffisante en chambre rapporté par un client. (TripAdvisor)</li><li>Notes globales plus contrastées selon les plateformes (de 7,6/10 à 4/5 selon la source, plutôt que 8,8/10). (Expedia)</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Voyageurs d&#39;affaires, couples (noté 9,3 pour les séjours à deux) et familles en quête de confort au cœur de Riyadh</p>
+            <p style="color:var(--muted);">🏙️ Contemporain, d&#39;affaires, élégant, urbain et relaxant · Hôtel de tour contemporain avec spa et bien-être</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Le Novotel Riyadh Al Anoud offre un point de chute prestigieux et idéalement situé dans la tour d&#39;Al-Olaya. Entre ses équipements de bien-être, son service irréprochable et son excellent emplacement, il garantit un séjour des plus agréables.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/searchresults.fr.html?ss=Novotel%20Riyadh%20Al%20Anoud%20Riyad%20Arabie%20saoudite&aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
-        <a href="https://www.anrdoezrs.net/click-8012379-13854902?url=https%3A%2F%2Fwww.expedia.fr%2FHote-Recherche%3Fdestination%3DNovotel%2520Riyadh%2520Al%2520Anoud%2520Riyad%2520Arabie%2520saoudite" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
+        <a href="https://www.anrdoezrs.net/click-8012379-13854902?url=https%3A%2F%2Fwww.expedia.fr%2FHotel-Search%3Fdestination%3DNovotel%2520Riyadh%2520Al%2520Anoud%2520Riyad%2520Arabie%2520saoudite" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
     </div>
 </div>
 
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

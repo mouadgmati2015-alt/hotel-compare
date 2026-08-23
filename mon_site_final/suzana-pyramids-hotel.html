@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,10 +153,19 @@ a { color: var(--secondary); }
     <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">Le Suzana Pyramids Hotel est un choix de raison absolu pour le voyageur pragmatique qui ne cherche pas le luxe superflu mais l&#39;efficacité pure. Ce n&#39;est pas un lieu où l&#39;on vient pour flâner dans un décor somptueux, mais sa propreté, son parking gratuit, son prix plancher et ses chambres triples en font un camp de base ultra-fonctionnel. Si vous voulez consacrer votre budget aux visites culturelles du Caire tout en dormant à deux pas des pyramides dans un confort simple et bien noté, c&#39;est une option irréprochable.</p></div>
     <h3>🛠️ Équipements</h3><p>Parking gratuit, Paiement sur place, Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Rapport qualité-prix exceptionnel pour des séjours économiques à proximité immédiate des sites. (Booking.com)</li><li>Chambres triples standard bien calibrées pour les petits groupes ou familles. (TripAdvisor)</li><li>Parking gratuit sécurisé offrant une économie logistique précieuse dans le secteur. (Expedia)</li><li>Modalités de paiement direct sur place simplifiant la flexibilité du voyage. (Trip.com)</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Décoration intérieure et aménagement strictement fonctionnels sans recherche esthétique de pointe. (Booking.com)</li><li>Absence totale d&#39;infrastructures de loisirs (piscine, spa ou restauration sophistiquée). (TripAdvisor)</li><li>Exposition directe à l&#39;agitation et à la densité de circulation du quartier de Gizeh. (Expedia)</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Petits groupes ou familles cherchant un hôtel simple près des sites</p>
+            <p style="color:var(--muted);">🎒 Pratique et économique · Hôtel urbain</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Une option très économique, rigoureusement tenue et remarquablement bien notée par ses utilisateurs. Son excellent rapport qualité-prix en fait une solution futée pour loger à proximité des monuments. C&#39;est un choix avisé pour petits budgets.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/searchresults.fr.html?ss=Suzana%20Pyramids%20hotel%20Le%20Caire%20%C3%89gypte&aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
-        <a href="https://www.anrdoezrs.net/click-8012379-13854902?url=https%3A%2F%2Fwww.expedia.fr%2FHote-Recherche%3Fdestination%3DSuzana%2520Pyramids%2520hotel%2520Le%2520Caire%2520%25C3%2589gypte" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
+        <a href="https://www.anrdoezrs.net/click-8012379-13854902?url=https%3A%2F%2Fwww.expedia.fr%2FHotel-Search%3Fdestination%3DSuzana%2520Pyramids%2520hotel%2520Le%2520Caire%2520%25C3%2589gypte" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
     </div>
 </div>
 
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

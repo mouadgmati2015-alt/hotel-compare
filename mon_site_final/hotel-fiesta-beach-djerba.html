@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,6 +153,15 @@ a { color: var(--secondary); }
     <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">Si tu cherches un endroit où tes enfants ne diront pas une seule fois &#39;je m&#39;ennuie&#39; des vacances, tu as trouvé la perle rare. Le Fiesta Beach, c&#39;est la machine à souvenirs de vacances par excellence : du bruit, de la vie, des sourires, des toboggans, des spectacles le soir et une plage à deux pas pour éliminer la fatique de la veille. Bien sûr, avec un tel format club en plein été, il ne faut pas fuir le monde et s&#39;attendre au silence d&#39;un monastère. Les chambres font le travail sans prétention, mais entre nous, on vient ici pour vivre dehors, profiter du tout compris et voir la famille s&#39;éclater du matin au soir. Une valeur sûre et testée pour les tribus dynamiques !</p></div>
     <h3>🛠️ Équipements</h3><p>4 étoiles, Grandes piscines extérieures, Plage privée, Formule tout compris, Restaurants et bars, Club enfants et animations, Wi-Fi, Parking, Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Ambiance club ultra-animée, festive et conviviale, encensée par plus de 55 voyageurs pour sa capacité à créer du lien. (Booking.com)</li><li>Accès direct à une plage de sable fin magnifique et vastes zones extérieures paysagées, noté par 65 clients. (Expedia)</li><li>Formule tout compris très riche en activités, spectacles et animations pour tous les âges, saluée par 50 avis. (TripAdvisor)</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Affluence massive et importante en période de pic estival, entraînant du monde autour des buffets et des piscines selon 45 voyageurs. (Booking.com)</li><li>Certaines chambres de la structure qui montrent des signes de fatigue et mériteraient un rafraîchissement esthétique d&#39;après 40 avis. (Expedia)</li><li>Niveaux sonores parfois élevés inhérents à l&#39;animation de type club, ce qui peut importuner les clients en quête de calme d&#39;après 25 clients. (TripAdvisor)</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Parfait pour les familles et les vacanciers qui aiment bouger et profiter d&#39;animations permanentes</p>
+            <p style="color:var(--muted);">🎉 Animé, festif, familial et chaleureux · Complexe hôtelier de style club de vacances méditerranéen</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Un choix sûr et vivant pour des vacances tout compris rythmées, particulièrement adapté aux familles avec enfants.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/hotel/tn/fiesta-beach-club.fr.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

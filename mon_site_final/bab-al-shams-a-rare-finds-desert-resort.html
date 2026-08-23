@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,6 +153,15 @@ a { color: var(--secondary); }
     <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">Le Bab Al Shams est une oasis somptueuse et magique pour qui cherche à s&#39;évader dans le silence et la beauté infinie du désert émirati sans sacrifier le moindre confort. Sa note de 9,4/10 reflète la réussite de son concept de forteresse de luxe, mariant traditions arabes et équipements high-standing. Si son tarif avoisinant les 500€ la nuit et son isolement demandent un certain budget et une bonne préparation, la promesse d&#39;un séjour hors du temps, bercé par le calme des dunes et des dîners sous les étoiles, en fait une halte absolument inoubliable.</p></div>
     <h3>🛠️ Équipements</h3><p>5 étoiles, Piscines à débordement dans le désert, Spa de classe mondiale, Wi-Fi gratuit, Restaurants thématiques, Activités désertiques (chameaux, fauconnerie), Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Décor et architecture inspirés d&#39;une forteresse arabe traditionnelle au milieu des dunes. (Booking.com)</li><li>Expériences uniques dans le désert (dîners sous les étoiles, spectacles équestres et fauconnerie). (TripAdvisor)</li><li>Piscines à débordement spectaculaires offrant un panorama magique sur le désert. (Expedia)</li><li>Service attentionné et hospitalité traditionnelle Emirati et arabe de haut niveau. (Trip.com)</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Isolement géographique nécessitant un trajet en voiture conséquent depuis la ville. (Booking.com)</li><li>Températures désertiques très élevées durant les mois d&#39;été à anticiper. (TripAdvisor)</li><li>Tarifs des nuitées (environ 500€) et des activités onéreux nécessitant un budget dédié. (Expedia)</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Voyageurs en quête d&#39;une expérience authentique de luxe au milieu des dunes</p>
+            <p style="color:var(--muted);">🏜️ Désertique, traditionnel, luxueux, magique et dépaysant · Forteresse de luxe dans le désert</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Une oasis somptueuse au cœur des paysages émirati. Entre traditions arabes, décors de dunes infinies et confort absolu, il garantit un séjour magique et hors du temps.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/hotel/ae/bab-al-shams-desert-resort-and-spa.fr.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

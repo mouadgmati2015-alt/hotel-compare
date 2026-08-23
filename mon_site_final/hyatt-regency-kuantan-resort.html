@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,6 +153,15 @@ a { color: var(--secondary); }
     
     <h3>🛠️ Équipements</h3><p>5 étoiles, 2 piscines extérieures, En bord de plage, Spa et centre de bien-être, Wi-Fi gratuit, Parking gratuit sur place, Restaurants et bars, Centre de remise en forme, Chambres familiales et non-fumeurs, Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Emplacement de rêve en bord de mer sur la plage de Teluk Cempedak, très apprécié des couples et noté 9,3/10.</li><li>Magnifiques piscines extérieures et accès direct à une plage propre et préservée.</li><li>Grand buffet de petit-déjeuner copieux, varié et de très haute qualité.</li><li>Chambres spacieuses dotées de lits confortables et d&#39;une terrasse privée agréable.</li><li>Cadre général idyllique et environnement relaxant pour un séjour de détente.</li><li>Disponibilité et gentillesse de certains membres du personnel lors des interactions.</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Signes de vieillissement prononcés dans certaines chambres et espaces communs, nécessitant des rénovations.</li><li>Problèmes de maintenance récurrents signalés (climatisation défectueuse, portes de salles de bains mal alignées, literie usée ou présence d&#39;humidité).</li><li>Lenteurs et insuffisances logistiques au niveau du service client, de la réception et de la gestion des attributions de chambres.</li><li>File d&#39;attente importante et gestion parfois chaotique du salon exécutif ou du restaurant lors des pics d&#39;affluence.</li><li>Tarifs jugés élevés au regard de certains dysfonctionnements constatés sur les prestations de restauration ou de spa.</li><li>Retours négatifs isolés concernant des problèmes de propreté à l&#39;arrivée ou des odeurs de fumée dans les chambres non-fumeurs.</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Couples recherchant une escapade romantique face à la mer et familles en quête de vacances les pieds dans l&#39;eau</p>
+            <p style="color:var(--muted);">🌊 Balnéaire, tropicale, décontractée, panoramique et familiale · Resort balnéaire tropical de grande chaîne internationale</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Le Hyatt Regency Kuantan Resort bénéficie d&#39;un emplacement exceptionnel face à l&#39;une des plus belles plages de la région, soutenu par de superbes piscines et un buffet de petit-déjeuner remarquable. Cependant, les disparités notables dans la qualité du service, l&#39;usure de certaines infrastructures et les défaillances de maintenance signalées par les voyageurs rappellent que l&#39;établissement peine parfois à maintenir de manière homogène les standards d&#39;excellence de la marque 5 étoiles.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/hotel/my/hyatt-regency-kuantan-resort.fr.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

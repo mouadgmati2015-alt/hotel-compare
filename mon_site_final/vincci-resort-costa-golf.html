@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,6 +153,15 @@ a { color: var(--secondary); }
     <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">Le Vincci Resort Costa Golf est l&#39;incarnation même de ce que l&#39;on attend d&#39;un resort andalou de qualité : de l&#39;espace, de la lumière et une sérénité quasi absolue. Avec ses suites juniors de 45 m², vous disposez d&#39;un véritable appartement de vacances, ce qui change radicalement votre expérience par rapport à une chambre d&#39;hôtel classique. Pour 733€ la semaine, vous investissez dans une tranquillité haut de gamme, loin de l&#39;effervescence urbaine. Le salon indépendant permet de s&#39;isoler ou de travailler au calme. C&#39;est une adresse où l&#39;élégance architecturale rencontre la fonctionnalité. Cependant, préparez vos chaussures de marche : le domaine est étendu, et c&#39;est le prix à payer pour profiter de ces vastes jardins verdoyants. C&#39;est un choix idéal pour les couples ou les voyageurs solos qui cherchent à s&#39;évader du tumulte du quotidien dans un cadre raffiné et écoresponsable. Le service de paiement sur place sans avance est un luxe opérationnel qui témoigne de la confiance de l&#39;établissement. En résumé, c&#39;est une oasis de confort où le luxe réside dans l&#39;espace disponible et la qualité de l&#39;environnement immédiat.</p></div>
     <h3>🛠️ Équipements</h3><p>4 étoiles, Suite 45m², Climatisation, Paiement sur place, Certificat de durabilité</p>
     <h3>✅ Points Positifs</h3><ul><li>Suite Junior 45 m² avec salon. (Booking.com)</li><li>Confort de 9,0. (Trip.com)</li><li>Paiement sur place flexible. (Expedia)</li><li>Durabilité certifiée. (TripAdvisor)</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Domaine très étendu. (Booking.com)</li><li>Réservation anticipée indispensable. (TripAdvisor)</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Voyageurs cherchant de l&#39;espace et du confort supérieur</p>
+            <p style="color:var(--muted);">✨ Élégant, spacieux, luxueux et reposant · Resort haut de gamme</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Une suite luxueuse et spacieuse avec un confort absolu.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/hotel/es/resortcostagolf.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>

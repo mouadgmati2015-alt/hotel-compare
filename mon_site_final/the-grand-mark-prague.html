@@ -102,6 +102,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -115,7 +119,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 
 </head>
@@ -132,6 +137,7 @@ a { color: var(--secondary); }
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 
@@ -147,6 +153,15 @@ a { color: var(--secondary); }
     
     <h3>🛠️ Équipements</h3><p>5 étoiles, Jardin privé de deux hectares, Spa et centre de bien-être, Wi-Fi gratuit, Restaurant gastronomique &amp; Bar, Service de voiturier, Climatisation</p>
     <h3>✅ Points Positifs</h3><ul><li>Magnifique jardin privé paysager de deux hectares, rarissime au cœur de Prague.</li><li>Architecture et héritage d&#39;un palais résidentiel du XVIIe siècle restauré avec faste.</li><li>Suites spacieuses et élégantes mêlant design moderne et touches historiques.</li><li>Service attentionné, discret et aux standards de l&#39;hôtellerie de luxe internationale.</li><li>Proximité immédiate des principaux monuments historiques de la capitale tchèque.</li><li>Espace de bien-être et spa propices à la relaxation après les visites.</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Trafic piétonnier et animation urbaine soutenue aux abords du centre historique.</li><li>Tarifs des nuitées et des prestations élevés en haute saison touristique.</li><li>Forte demande nécessitant de réserver plusieurs mois à l&#39;avance.</li><li>Ambiance parfois très feutrée dans les salons intérieurs.</li><li>Stationnement en centre-ville restreint nécessitant l&#39;utilisation du service voiturier.</li><li>Disponibilité limitée pour les suites donnant directement sur les jardins intérieurs.</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Voyageurs en quête d&#39;un havre de paix luxueux au cœur de l&#39;histoire pragoise</p>
+            <p style="color:var(--muted);">🏰 Baroque, palatial, verdoyant, prestigieux et raffiné · Palais historique du XVIIe siècle avec jardin</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">The Grand Mark Prague est une adresse d&#39;exception. Entre son somptueux palais baroque, son immense jardin secret et son standing 5 étoiles, il garantit un séjour inoubliable dans la cité des cent clochers.</p>
+        </div>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/hotel/cz/kempinski-hybernska-prague.fr.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -193,6 +208,7 @@ a { color: var(--secondary); }
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -210,12 +226,12 @@ a { color: var(--secondary); }
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>
