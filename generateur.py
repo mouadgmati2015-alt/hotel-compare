@@ -450,7 +450,7 @@ recherche_intelligente_page = f"""<!DOCTYPE html>
 const hotels = {json.dumps(all_hotels, ensure_ascii=False)};
 const stopWords = new Set(['je','recherche','cherche','un','une','des','de','du','la','le','les','a','à','en','au','aux','avec','pour','dans','sur','mon','ma','mes','hotel','hôtel','semaine','euros','euro','prix','moins','que','qui','et']);
 const aliases = {{
-    'parc aquatique': ['parc aquatique','aquapark','aquatique'],
+    'parc aquatique': ['parc aquatique','aqua parc','aquapark','aquatique'],
     'tout compris': ['tout compris','all inclusive'],
     'piscine': ['piscine'], 'plage': ['plage','bord de mer'], 'spa': ['spa','thalasso'],
     'famille': ['famille','familial'], 'adulte': ['adulte','adult only']
@@ -469,25 +469,39 @@ function searchable(hotel) {{
 function escapeText(value) {{
     return String(value || '').replace(/[&<>"']/g, char => ({{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}}[char]));
 }}
+const knownCities = [...new Set(hotels.map(h => normalize(h.ville)).filter(Boolean))].sort((a, b) => b.length - a.length);
+const knownCountries = [...new Set(hotels.map(h => normalize(h.pays)).filter(Boolean))].sort((a, b) => b.length - a.length);
+const knownEquipment = [...new Set(hotels.flatMap(h => h.equipements || []).map(item => normalize(item)).filter(item => item.length > 2))].sort((a, b) => b.length - a.length);
+function findLocation(query, locations) {{
+    return locations.find(location => query.includes(location)) || '';
+}}
 function renderHotel(hotel) {{
     return `<article class="card"><h2 style="margin-top:0;">${{escapeText(hotel.nom)}}</h2><p style="color:var(--muted);">📍 ${{escapeText(hotel.ville)}}, ${{escapeText(hotel.pays)}} · ⭐ ${{escapeText(hotel.etoiles)}}</p><p style="color:var(--success); font-weight:700;">💰 ${{escapeText(hotel.prix)}}</p><a class="btn" href="${{encodeURI(hotel.slug)}}.html">Voir la fiche de l'hôtel</a></article>`;
 }}
 function searchHotels(query) {{
     const normalized = normalize(query);
-    const budgetMatch = normalized.match(/(?:moins de|inferieur a|maximum|max|budget de)\\s*(\\d+)/);
+    const requestedCity = findLocation(normalized, knownCities);
+    const requestedCountry = findLocation(normalized, knownCountries);
+    const budgetMatch = normalized.match(/(?:moins de|a moins de|inferieur a|maximum|max|budget de)\\s*(\\d+)/);
     const budget = budgetMatch ? Number(budgetMatch[1]) : null;
-    const requestedFeatures = Object.entries(aliases).filter(([label, words]) => words.some(word => normalized.includes(normalize(word))));
+    const requestedFeatures = Object.entries(aliases).filter(([, words]) => words.some(word => normalized.includes(normalize(word))));
+    const requestedEquipment = knownEquipment.filter(equipment => normalized.includes(equipment));
     const rawTerms = normalized.replace(/[^a-z0-9à-ÿ ]/g, ' ').split(/\\s+/).filter(term => term.length > 2 && !stopWords.has(term) && !/^\\d+$/.test(term));
     return hotels.map(hotel => {{
         const text = searchable(hotel);
         const price = numberFrom(hotel.prix);
         let score = rawTerms.filter(term => text.includes(term)).length;
         const matchedFeatures = requestedFeatures.filter(([, words]) => words.some(word => text.includes(normalize(word))));
-        score += matchedFeatures.length * 4;
+        const matchedEquipment = requestedEquipment.filter(equipment => text.includes(equipment));
+        score += (matchedFeatures.length + matchedEquipment.length) * 4;
         const budgetOk = budget === null || price === null || price <= budget;
-        const locationTerms = rawTerms.filter(term => text.includes(term) && (text.includes(normalize(hotel.ville)) || text.includes(normalize(hotel.pays))));
-        return {{ hotel, score, budgetOk, locationOk: locationTerms.length > 0 || rawTerms.length === 0, matchedFeatures: matchedFeatures.length, price }};
-    }}).filter(result => result.budgetOk && result.locationOk && result.score > 0).sort((a, b) => b.score - a.score);
+        const cityOk = !requestedCity || normalize(hotel.ville) === requestedCity;
+        const countryOk = !requestedCountry || normalize(hotel.pays) === requestedCountry;
+        const locationOk = cityOk && countryOk;
+        const equipmentOk = requestedEquipment.every(equipment => matchedEquipment.includes(equipment));
+        const featuresOk = requestedFeatures.every(([, words]) => words.some(word => text.includes(normalize(word))));
+        return {{ hotel, score, budgetOk, locationOk, equipmentOk, featuresOk, matchedFeatures: matchedFeatures.length, matchedEquipment: matchedEquipment.length, price }};
+    }}).filter(result => result.budgetOk && result.locationOk && result.equipmentOk && result.featuresOk && result.score > 0).sort((a, b) => b.score - a.score);
 }}
 document.getElementById('smart-search').addEventListener('submit', event => {{
     event.preventDefault();
