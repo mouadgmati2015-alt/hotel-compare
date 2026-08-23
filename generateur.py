@@ -264,6 +264,10 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
 .review-card {
     background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
     border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
@@ -277,7 +281,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p { color: var(--muted) !important; }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 """
 
@@ -311,7 +316,7 @@ temoignages_html = """
         </div>
     </div>
     <hr style="border-color: #3A506B; margin: 30px 0;">
-    <p style="text-align: center; color: white; font-size: 15px; font-weight: bold; margin-bottom: 10px;">APPROUVÉ PAR LES VOYAGEURS QUI RÉSERVENT SUR</p>
+    <p style="text-align: center; color: #000000; font-size: 15px; font-weight: bold; margin-bottom: 10px;">APPROUVÉ PAR LES VOYAGEURS QUI RÉSERVENT SUR</p>
     <div style="text-align: center; margin-bottom: 15px; display: flex; justify-content: center; align-items: center; gap: 30px;">
         <span style="background-color: #003580; color: white; padding: 8px 20px; border-radius: 6px; font-weight: 900; font-size: 18px;">Booking.com</span>
         <a href="https://www.tkqlhce.com/click-101825091-14521545" target="_blank" rel="nofollow sponsored" style="background-color: white; padding: 6px 14px; border-radius: 6px; display: inline-flex; align-items: center; text-decoration: none;">
@@ -350,8 +355,8 @@ footer_html = """
         </div>
         <div>
             <h4>Votre retour compte</h4>
-            <p>Une remarque ou une idée ? Écrivez-nous pour faire évoluer Nomad.</p>
-            <a class="btn" href="mailto:contact@nomad-voyage.fr">Nous écrire</a>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
         </div>
     </div>
     <div class="footer-bottom">
@@ -383,7 +388,7 @@ def generate_information_pages():
         "contact.html": ("Contactez-nous", """
             <p>Une question, une remarque ou une suggestion ? Notre équipe vous répondra avec plaisir.</p>
             <p><a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a></p>
-            <p>Vous pouvez également nous écrire à <a href="mailto:contact@nomad-voyage.fr">contact@nomad-voyage.fr</a>.</p>
+            <p>Notre équipe vous répond directement sur Facebook dans les meilleurs délais.</p>
         """),
     }
     for filename, (title, body) in pages.items():
@@ -602,6 +607,8 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
     l_expedia = update_expedia_link(d.get('lien_expedia', '#'), h_nom, d.get('ville', ''), d.get('pays', ''))
     equipements = d.get('equipements') or []
     points_positifs = d.get('points_positifs') or []
+    points_negatifs = d.get('points_negatifs') or []
+    pour_qui = d.get('pour_qui') or {}
     avis_clients = d.get('avis_clients') or generer_avis_hotel(h_nom, d)
     nomad_insight = d.get('Nomad, vous en dit plus') or d.get('nomad_vous_en_dit_plus') or ""
 
@@ -618,6 +625,20 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
 
     equipements_html = f"<h3>🛠️ Équipements</h3><p>{escape_html(', '.join(map(str, equipements)))}</p>" if equipements else ""
     points_html = f"<h3>✅ Points Positifs</h3><ul>{''.join(f'<li>{escape_html(p)}</li>' for p in points_positifs)}</ul>" if points_positifs else ""
+    points_negatifs_html = f"<h3>⚠️ Points négatifs</h3><ul>{''.join(f'<li>{escape_html(p)}</li>' for p in points_negatifs)}</ul>" if points_negatifs else ""
+    pour_qui_html = ""
+    if isinstance(pour_qui, dict):
+        public = pour_qui.get('public') or pour_qui.get('pour_qui') or ""
+        verdict = pour_qui.get('verdict') or ""
+        details = " · ".join(str(pour_qui.get(key)) for key in ('ambiance', 'style') if pour_qui.get(key))
+        pour_qui_html = f"""
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>{escape_html(public)}</p>
+            {f'<p style="color:var(--muted);">{escape_html(details)}</p>' if details else ''}
+            {f'<h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">{escape_html(verdict)}</p>' if verdict else ''}
+        </div>
+        """
     description = escape_html(d.get('description_ia') or d.get('description', ''))
     
     html_fiche = f"""<!DOCTYPE html>
@@ -642,6 +663,8 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
     {f'<div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">{escape_html(nomad_insight)}</p></div>' if nomad_insight else ''}
     {equipements_html}
     {points_html}
+    {points_negatifs_html}
+    {pour_qui_html}
 
     <div style="margin-top: 30px;">
         <a href="{l_booking}" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -736,7 +759,22 @@ p_comp = f"""<!DOCTYPE html>
 <body><div class="container">{menu_html}
 <h1>✈️ Guide des Compagnies Aériennes</h1>
 <p style="color: #94a3b8; margin-bottom: 25px;">Analysez les caractéristiques, les avantages et les points d'attention de chaque compagnie.</p>
-{airlines_cards_html}
+<label for="airline-selector" style="font-weight:700;">Choisissez une compagnie aérienne</label>
+<select id="airline-selector" onchange="afficherCompagnie(this.value)" style="width:100%; max-width:520px; padding:12px; margin:10px 0 24px; border-radius:10px;">
+    <option value="">Sélectionnez une compagnie...</option>
+    {''.join(f'<option value="{a_slug}">{escape_html(a_nom)}</option>' for a_nom, a_data in sorted(AIRLINES_DATA.items()) for a_slug in [nettoyer_slug(a_nom)])}
+</select>
+<div id="airline-details" style="display:none;"></div>
+<script>
+function afficherCompagnie(slug) {{
+    const details = document.getElementById('airline-details');
+    if (!slug) {{ details.style.display = 'none'; details.innerHTML = ''; return; }}
+    const link = document.createElement('a');
+    link.href = slug + '.html'; link.className = 'btn'; link.textContent = 'Voir la fiche complète';
+    details.innerHTML = '<div class="card"><h2>Compagnie sélectionnée</h2><p>Consultez sa présentation, ses services et ses points de vigilance.</p></div>';
+    details.querySelector('.card').appendChild(link); details.style.display = 'block';
+}}
+</script>
 {footer_html}
 </div></body></html>"""
 with open(os.path.join(output_dir, "compagnies-aeriennes.html"), "w", encoding="utf-8") as f: f.write(p_comp)
@@ -783,7 +821,9 @@ p_loueurs = f"""<!DOCTYPE html>
     <p>Recherchez et comparez les meilleurs loueurs de voitures à travers le monde.</p>
 </div>
 <h2 style="margin-top: 30px;">Nos partenaires loueurs</h2>
+<div class="rental-grid">
 {loueurs_cards_html}
+</div>
 {footer_html}
 </div></body></html>"""
 with open(os.path.join(output_dir, "loueurs-vehicules.html"), "w", encoding="utf-8") as f: f.write(p_loueurs)
