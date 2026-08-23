@@ -112,14 +112,13 @@ def update_booking_aid(url, nom_hotel="", ville="", pays="", new_aid="8012379"):
 def update_expedia_link(url, nom_hotel="", ville="", pays=""):
     query = f"{nom_hotel} {ville} {pays}".strip()
     direct_search = "https://www.expedia.fr/Hotel-Search?destination=" + urllib.parse.quote(query)
-    cj_base = "https://www.tkqlhce.com/click-101825091-13854902"
     if not url or url == "#" or url.strip() == "":
-        return f"{cj_base}?url={urllib.parse.quote(direct_search, safe='')}"
+        return direct_search
         
     url = url.rstrip('?')
     if "tkqlhce.com" in url or "anrdoezrs.net" in url:
         return url
-    return f"{cj_base}?url={urllib.parse.quote(url, safe='')}"
+    return url
 
 # Render publie mon_site_final. --reset ne supprime que ce dossier de sortie.
 output_dir = str(OUTPUT_DIR)
@@ -270,6 +269,8 @@ a { color: var(--secondary); }
 }
 .btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
 .comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.smart-results-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.smart-results-grid .card { margin-bottom: 0; }
 .rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
 .rental-grid .card { padding: 16px; margin-bottom: 0; }
 .rental-grid h3 { font-size: 1.05rem; }
@@ -288,7 +289,8 @@ a { color: var(--secondary); }
 .testimonial-section > div > div p:first-child { color: var(--warning) !important; }
 .testimonial-section > div > div p strong { color: var(--text) !important; }
 @media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 1000px) { .smart-results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .smart-results-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
 </style>
 """
 
@@ -424,6 +426,7 @@ if os.path.exists(data_dir):
                                     'nom': nom, 'slug': slug, 'ville': d.get('ville', ''), 'pays': d.get('pays', ''),
                                     'etoiles': d.get('etoiles', 'N/C'), 'prix': d.get('prix_moyen', 'Sur demande'),
                                     'image': d.get('image', ''), 'description': d.get('description_ia') or d.get('description', ''),
+                                    'equipements': d.get('equipements') or [],
                                     'lien_booking': update_booking_aid(d.get('lien_booking', '#'), nom, d.get('ville', ''), d.get('pays', '')),
                                     'lien_expedia': update_expedia_link(d.get('lien_expedia', '#'), nom, d.get('ville', ''), d.get('pays', ''))
                                 })
@@ -496,10 +499,12 @@ function searchHotels(query) {{
     const requestedFeatures = Object.entries(aliases).filter(([, words]) => words.some(word => normalized.includes(normalize(word))));
     const requestedEquipment = knownEquipment.filter(equipment => normalized.includes(equipment));
     const rawTerms = normalized.replace(/[^a-z0-9à-ÿ ]/g, ' ').split(/\\s+/).filter(term => term.length > 2 && !stopWords.has(term) && !/^\\d+$/.test(term));
+    const requestedTerms = rawTerms.filter(term => term !== requestedCity && term !== requestedCountry);
     return hotels.map(hotel => {{
         const text = searchable(hotel);
         const price = numberFrom(hotel.prix);
-        let score = rawTerms.filter(term => text.includes(term)).length;
+        const matchedTerms = requestedTerms.filter(term => text.includes(term));
+        let score = matchedTerms.length;
         const matchedFeatures = requestedFeatures.filter(([, words]) => words.some(word => text.includes(normalize(word))));
         const matchedEquipment = requestedEquipment.filter(equipment => text.includes(equipment));
         score += (matchedFeatures.length + matchedEquipment.length) * 4;
@@ -509,8 +514,9 @@ function searchHotels(query) {{
         const locationOk = cityOk && countryOk;
         const equipmentOk = requestedEquipment.every(equipment => matchedEquipment.includes(equipment));
         const featuresOk = requestedFeatures.every(([, words]) => words.some(word => text.includes(normalize(word))));
-        return {{ hotel, score, budgetOk, locationOk, equipmentOk, featuresOk, matchedFeatures: matchedFeatures.length, matchedEquipment: matchedEquipment.length, price }};
-    }}).filter(result => result.budgetOk && result.locationOk && result.equipmentOk && result.featuresOk && result.score > 0).sort((a, b) => b.score - a.score);
+        const termsOk = requestedTerms.every(term => matchedTerms.includes(term));
+        return {{ hotel, score, budgetOk, locationOk, equipmentOk, featuresOk, termsOk, matchedFeatures: matchedFeatures.length, matchedEquipment: matchedEquipment.length, price }};
+    }}).filter(result => result.budgetOk && result.locationOk && result.equipmentOk && result.featuresOk && result.termsOk && (requestedTerms.length === 0 || result.score > 0)).sort((a, b) => b.score - a.score);
 }}
 document.getElementById('smart-search').addEventListener('submit', event => {{
     event.preventDefault();
