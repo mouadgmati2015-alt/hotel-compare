@@ -478,7 +478,7 @@ function findLocation(query, locations) {{
 function renderHotel(hotel) {{
     const image = hotel.image ? `<img src="${{escapeText(hotel.image)}}" alt="${{escapeText(hotel.nom)}}" style="width:100%; height:190px; object-fit:cover; border-radius:14px; margin-bottom:14px;">` : '';
     const bookingButton = hotel.lien_booking ? `<a class="btn-booking" href="${{escapeText(hotel.lien_booking)}}" target="_blank" rel="noopener sponsored">Réserver sur Booking</a>` : '';
-    const expediaButton = hotel.lien_expedia ? `<a class="btn-expedia" href="${{escapeText(hotel.lien_expedia)}}" target="_blank" rel="noopener sponsored">Réserver sur Expedia</a>` : '';
+    const expediaButton = hotel.lien_expedia ? `<a class="btn-expedia" href="${{escapeText(hotel.lien_expedia)}}" target="_self" rel="sponsored">Réserver sur Expedia</a>` : '';
     return `<article class="card">${{image}}<h2 style="margin-top:0;">${{escapeText(hotel.nom)}}</h2><p style="color:var(--muted);">📍 ${{escapeText(hotel.ville)}}, ${{escapeText(hotel.pays)}} · ⭐ ${{escapeText(hotel.etoiles)}}</p><p style="color:var(--success); font-weight:700;">💰 ${{escapeText(hotel.prix)}}</p><a class="btn" href="${{encodeURI(hotel.slug)}}.html">Voir la fiche de l'hôtel</a>${{bookingButton}}${{expediaButton}}</article>`;
 }}
 function searchHotels(query) {{
@@ -672,7 +672,7 @@ html_accueil = f"""<!DOCTYPE html>
                 <p style="color:#15803d; font-weight:700;">💰 ${{h.prix}}</p>
                 <a href="${{h.slug}}.html" style="display:block; background:var(--panel-strong); color:var(--text); padding:10px; text-align:center; text-decoration:none; border-radius:10px; margin-bottom:10px; font-weight:700;">📄 Voir la fiche détaillée</a>
                 <a href="${{h.lien_booking}}" target="_blank" class="btn-booking">Réserver sur Booking</a>
-                <a href="${{h.lien_expedia}}" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
+                <a href="${{h.lien_expedia}}" target="_self" class="btn-expedia">Réserver sur Expedia</a>
                 <iframe width="100%" height="150" style="border:0; border-radius:12px; margin-top:12px;" src="https://maps.google.com/maps?q=${{mapQuery}}&output=embed"></iframe>
             </div>`;
         }}
@@ -757,7 +757,7 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
 
     <div style="margin-top: 30px;">
         <a href="{l_booking}" target="_blank" class="btn-booking">Réserver sur Booking</a>
-        <a href="{l_expedia}" target="_blank" class="btn-expedia">Réserver sur Expedia</a>
+        <a href="{l_expedia}" target="_self" class="btn-expedia">Réserver sur Expedia</a>
     </div>
 </div>
 
