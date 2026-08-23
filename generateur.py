@@ -167,6 +167,8 @@ menu_html = f"""
 """
 
 global_style = """
+<link rel="icon" type="image/png" href="images/logo_4.png">
+<link rel="apple-touch-icon" href="images/logo_4.png">
 <style>
 :root {
     --bg: #f2fbfd;
