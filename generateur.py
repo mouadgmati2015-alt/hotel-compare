@@ -109,13 +109,14 @@ def update_booking_aid(url, nom_hotel="", ville="", pays="", new_aid="8012379"):
 def update_expedia_link(url, nom_hotel="", ville="", pays=""):
     query = f"{nom_hotel} {ville} {pays}".strip()
     direct_search = "https://www.expedia.fr/Hotel-Search?destination=" + urllib.parse.quote(query)
+    cj_base = "https://www.tkqlhce.com/click-101825091-13854902"
     if not url or url == "#" or url.strip() == "":
-        return f"https://www.anrdoezrs.net/click-8012379-13854902?url={urllib.parse.quote(direct_search, safe='')}"
+        return f"{cj_base}?url={urllib.parse.quote(direct_search, safe='')}"
         
     url = url.rstrip('?')
-    if "anrdoezrs.net" in url:
+    if "tkqlhce.com" in url or "anrdoezrs.net" in url:
         return url
-    return f"https://www.anrdoezrs.net/click-8012379-13854902?url={urllib.parse.quote(url, safe='')}"
+    return f"{cj_base}?url={urllib.parse.quote(url, safe='')}"
 
 # Render publie mon_site_final. --reset ne supprime que ce dossier de sortie.
 output_dir = str(OUTPUT_DIR)
