@@ -161,6 +161,7 @@ menu_html = f"""
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
     <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
 </header>
 """
@@ -335,6 +336,7 @@ footer_html = """
             <h4>Explorer</h4>
             <ul class="footer-links">
                 <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
@@ -357,7 +359,7 @@ footer_html = """
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© 2026 Nomad. Tous droits réservés.</p>
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
         <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
     </div>
 </footer>
@@ -424,6 +426,79 @@ if os.path.exists(data_dir):
 
 with open(os.path.join(output_dir, "hotels.json"), "w", encoding="utf-8") as f:
     json.dump(all_hotels, f, ensure_ascii=False, indent=4)
+
+# 2. Recherche intelligente en langage naturel
+recherche_intelligente_page = f"""<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vos désirs sont des ordres | MyHotelCompare</title>{global_style}</head>
+<body><div class="container">{menu_html}
+<main class="card" style="background: linear-gradient(135deg, #075985 0%, #087f9b 100%); color: white;">
+    <p style="margin:0 0 8px; font-weight:700; color:#b8f0f6;">NOMAD SMART SEARCH</p>
+    <h1 style="color:white; margin:0 0 12px;">Vos désirs sont des ordres</h1>
+    <p style="color:#effcff; max-width:760px; line-height:1.7;">Décrivez votre séjour comme vous le feriez à un conseiller. Nomad repère la destination, le budget et les équipements recherchés.</p>
+    <form id="smart-search" style="display:flex; gap:12px; flex-wrap:wrap; margin-top:22px;">
+        <input id="smart-query" type="search" required value="Je recherche un hôtel à Djerba en Tunisie à moins de 900 euros la semaine avec un parc aquatique" placeholder="Exemple : un hôtel à Djerba à moins de 900 euros avec un parc aquatique" style="flex:1 1 520px; min-width:220px; padding:15px 16px; border:0; border-radius:12px; color:#123443; font-size:1rem;">
+        <button class="btn-compare" type="submit" style="width:auto; padding:14px 22px; background:#e59a21;">Rechercher</button>
+    </form>
+    <p style="font-size:.86rem; color:#d6eef2; margin:12px 0 0;">Essayez avec une ville, un pays, un budget ou un équipement : plage, piscine, spa, parc aquatique, tout compris...</p>
+</main>
+<section id="smart-results" aria-live="polite"></section>
+{footer_html}
+</div>
+<script>
+const hotels = {json.dumps(all_hotels, ensure_ascii=False)};
+const stopWords = new Set(['je','recherche','cherche','un','une','des','de','du','la','le','les','a','à','en','au','aux','avec','pour','dans','sur','mon','ma','mes','hotel','hôtel','semaine','euros','euro','prix','moins','que','qui','et']);
+const aliases = {{
+    'parc aquatique': ['parc aquatique','aquapark','aquatique'],
+    'tout compris': ['tout compris','all inclusive'],
+    'piscine': ['piscine'], 'plage': ['plage','bord de mer'], 'spa': ['spa','thalasso'],
+    'famille': ['famille','familial'], 'adulte': ['adulte','adult only']
+}};
+
+function normalize(value) {{
+    return String(value || '').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '');
+}}
+function numberFrom(value) {{
+    const match = normalize(value).replace(',', '.').match(/\\d+(?:\\.\\d+)?/);
+    return match ? Number(match[0]) : null;
+}}
+function searchable(hotel) {{
+    return normalize([hotel.nom, hotel.ville, hotel.pays, hotel.prix, hotel.description, hotel.image].concat(hotel.equipements || []).join(' '));
+}}
+function escapeText(value) {{
+    return String(value || '').replace(/[&<>"']/g, char => ({{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}}[char]));
+}}
+function renderHotel(hotel) {{
+    return `<article class="card"><h2 style="margin-top:0;">${{escapeText(hotel.nom)}}</h2><p style="color:var(--muted);">📍 ${{escapeText(hotel.ville)}}, ${{escapeText(hotel.pays)}} · ⭐ ${{escapeText(hotel.etoiles)}}</p><p style="color:var(--success); font-weight:700;">💰 ${{escapeText(hotel.prix)}}</p><a class="btn" href="${{encodeURI(hotel.slug)}}.html">Voir la fiche de l'hôtel</a></article>`;
+}}
+function searchHotels(query) {{
+    const normalized = normalize(query);
+    const budgetMatch = normalized.match(/(?:moins de|inferieur a|maximum|max|budget de)\\s*(\\d+)/);
+    const budget = budgetMatch ? Number(budgetMatch[1]) : null;
+    const requestedFeatures = Object.entries(aliases).filter(([label, words]) => words.some(word => normalized.includes(normalize(word))));
+    const rawTerms = normalized.replace(/[^a-z0-9à-ÿ ]/g, ' ').split(/\\s+/).filter(term => term.length > 2 && !stopWords.has(term) && !/^\\d+$/.test(term));
+    return hotels.map(hotel => {{
+        const text = searchable(hotel);
+        const price = numberFrom(hotel.prix);
+        let score = rawTerms.filter(term => text.includes(term)).length;
+        const matchedFeatures = requestedFeatures.filter(([, words]) => words.some(word => text.includes(normalize(word))));
+        score += matchedFeatures.length * 4;
+        const budgetOk = budget === null || price === null || price <= budget;
+        const locationTerms = rawTerms.filter(term => text.includes(term) && (text.includes(normalize(hotel.ville)) || text.includes(normalize(hotel.pays))));
+        return {{ hotel, score, budgetOk, locationOk: locationTerms.length > 0 || rawTerms.length === 0, matchedFeatures: matchedFeatures.length, price }};
+    }}).filter(result => result.budgetOk && result.locationOk && result.score > 0).sort((a, b) => b.score - a.score);
+}}
+document.getElementById('smart-search').addEventListener('submit', event => {{
+    event.preventDefault();
+    const query = document.getElementById('smart-query').value;
+    const results = searchHotels(query);
+    const container = document.getElementById('smart-results');
+    container.innerHTML = `<div class="glass-box" style="margin-bottom:20px;"><h2 style="margin-top:0;">${{results.length}} résultat(s) trouvé(s)</h2><p style="margin-bottom:0; color:var(--muted);">Les hôtels sont classés selon les critères détectés dans votre phrase.</p></div>` + (results.length ? results.map(result => renderHotel(result.hotel)).join('') : '<div class="card"><h2>Aucun résultat exact</h2><p>Essayez une destination plus large ou retirez un critère très précis.</p></div>');
+}});
+document.getElementById('smart-search').dispatchEvent(new Event('submit'));
+</script></body></html>"""
+write_html(OUTPUT_DIR / "vos-desirs-sont-des-ordres.html", recherche_intelligente_page)
 
 # 2. Promo de la semaine
 promo_html = ""
