@@ -476,7 +476,10 @@ function findLocation(query, locations) {{
     return locations.find(location => query.includes(location)) || '';
 }}
 function renderHotel(hotel) {{
-    return `<article class="card"><h2 style="margin-top:0;">${{escapeText(hotel.nom)}}</h2><p style="color:var(--muted);">📍 ${{escapeText(hotel.ville)}}, ${{escapeText(hotel.pays)}} · ⭐ ${{escapeText(hotel.etoiles)}}</p><p style="color:var(--success); font-weight:700;">💰 ${{escapeText(hotel.prix)}}</p><a class="btn" href="${{encodeURI(hotel.slug)}}.html">Voir la fiche de l'hôtel</a></article>`;
+    const image = hotel.image ? `<img src="${{escapeText(hotel.image)}}" alt="${{escapeText(hotel.nom)}}" style="width:100%; height:190px; object-fit:cover; border-radius:14px; margin-bottom:14px;">` : '';
+    const bookingButton = hotel.lien_booking ? `<a class="btn-booking" href="${{escapeText(hotel.lien_booking)}}" target="_blank" rel="noopener sponsored">Réserver sur Booking</a>` : '';
+    const expediaButton = hotel.lien_expedia ? `<a class="btn-expedia" href="${{escapeText(hotel.lien_expedia)}}" target="_blank" rel="noopener sponsored">Réserver sur Expedia</a>` : '';
+    return `<article class="card">${{image}}<h2 style="margin-top:0;">${{escapeText(hotel.nom)}}</h2><p style="color:var(--muted);">📍 ${{escapeText(hotel.ville)}}, ${{escapeText(hotel.pays)}} · ⭐ ${{escapeText(hotel.etoiles)}}</p><p style="color:var(--success); font-weight:700;">💰 ${{escapeText(hotel.prix)}}</p><a class="btn" href="${{encodeURI(hotel.slug)}}.html">Voir la fiche de l'hôtel</a>${{bookingButton}}${{expediaButton}}</article>`;
 }}
 function searchHotels(query) {{
     const normalized = normalize(query);
