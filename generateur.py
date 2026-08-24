@@ -149,8 +149,8 @@ def get_public_image(path):
     return str(path).replace("\\", "/") if (BASE_DIR / path).exists() else ""
 
 # Éléments partagés (Logo, Menu, Témoignages, Footer)
-logo_b64 = get_img_as_base64("logo_4.png")
-logo_html = f'<img src="data:image/png;base64,{logo_b64}" alt="Nomad" class="brand-mark">' if logo_b64 else ''
+logo_b64 = get_img_as_base64("logo_4.svg")
+logo_html = f'<img src="data:image/svg+xml;base64,{logo_b64}" alt="Nomad" class="brand-mark">' if logo_b64 else ''
 
 menu_html = f"""
 <header class="site-header">
