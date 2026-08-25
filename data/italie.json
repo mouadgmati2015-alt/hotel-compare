@@ -1,313 +1,95 @@
 {
-    "Residence San Luigi": {
-        "pays": "Italie",
-        "ville": "Limone sul Garda",
-        "etoiles": "Résidence / Appartements",
-        "lien_booking": "https://www.booking.com/hotel/it/residence-san-luigi.fr.html?",
-        "lien_expedia": "https://www.expedia.fr/Hotel-Search?",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/4736321.jpg?k=10f2b8988ee47a259f10a6394c7fdada91db839daee92832c4ca251064d63cc3&o=",
-        "description": "Située sur les rives du lac de Garde, la Residence San Luigi s'impose avec une superbe note de 9,0 et un indice de situation géographique exceptionnel de 9,7. Elle propose des appartements climatisés entièrement meublés dotés d'un balcon ou d'une terrasse, avec une cuisine équipée. Très appréciée pour son calme absolu, la résidence met à disposition une piscine extérieure avec hydromassage, un bain à remous ainsi qu'une plage privée au bord du lac. Les clients bénéficient également d'un parking privé gratuit et d'une borne de recharge pour véhicules électriques. C'est l'adresse idéale pour les voyageurs en quête de détente, de nature et de proximité avec le charmant village de Limone.",
-        "prix_moyen": "95€ - 180€ / nuit",
-        "avis": "9,0/10",
-        "points_positifs": [
-            "Note remarquable de 9,0 et situation géographique au sommet à 9,7",
-            "Plage privée au bord du lac de Garde et piscine extérieure",
-            "Appartements très propres avec cuisine équipée et terrasse",
-            "Parking privé gratuit sur place avec borne de recharge électrique"
-        ],
-        "points_negatifs": [
-            "Climatisation disponible en supplément",
-            "Garage couvert en option payante"
-        ],
-        "equipements": [
-            "Résidence / Appartements",
-            "Plage privée",
-            "Piscine extérieure",
-            "Wi-Fi gratuit",
-            "Parking gratuit",
-            "Climatisation"
-        ],
-        "pour_qui": {
-            "ambiance": "🌿 Relaxant, verdoyant, paisible et privilégié au bord de l'eau",
-            "public": "Couples en quête de romantisme et familles à la recherche d'un séjour paisible au bord du lac",
-            "style": "Résidence d'appartements avec plage privée",
-            "verdict": "Une adresse d'exception sur les rives du lac de Garde qui séduit instantanément par son cadre naturel privilégié, son calme absolu et son accès direct à une plage privée."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 247 expériences vécues · Mise à jour : 2026"
-    },
-    "GH Palazzo Suite & SPA": {
-        "pays": "Italie",
-        "ville": "Livourne",
+    "The Peninsula Tokyo": {
+        "pays": "Japon",
+        "ville": "Tokyo",
         "etoiles": "5 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/it/nh-livorno-grand-hotel-palazzo.fr.html",
-        "lien_expedia": "https://www.expedia.fr/Livorno-Hotel-GH-Palazzo-Suite-Spa.h91417939.Description-Hotel",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/37668020.jpg?k=30957456b95fe7c0713f0a709a6bf4167b82bc102511a90f56ba718d72e51890&o=",
-        "description": "Situé en bord de mer à Livourne, le GH Palazzo Suite & SPA s'impose avec une superbe note de 8,5 et un indice de situation géographique exceptionnel de 9,2. Établissement de style palace du XIXe siècle (Belle Époque), il propose des chambres luxueuses et climatisées dotées d'un décor élégant. Les clients profitent d'un restaurant gastronomique sur le toit-terrasse avec vue panoramique sur la mer, d'un copieux petit-déjeuner buffet, ainsi que d'un spa complet comprenant une piscine intérieure, un sauna, un jacuzzi et une salle de sport. C'est l'adresse idéale pour les voyageurs exigeants en quête d'histoire, de charme et de prestations haut de gamme au bord de l'eau.",
-        "prix_moyen": "180€ - 320€ / nuit",
-        "avis": "8,5/10",
+        "lien_booking": "https://www.booking.com/hotel/jp/the-peninsula-tokyo.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Tokyo-Hotel-The-Peninsula-Tokyo.h1631412.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/11793355.jpg?k=f33d1a8026a22cc261db7dec1fca97995481da019f941d84ebdd35bedf016269&o=",
+        "description": "The Peninsula Tokyo gâte ses clients avec un centre de spa et un club de fitness doté d'une piscine et de chaises longues, surplombant les jardins du Palais impérial. Situé à 3 minutes à pied du quartier commerçant de Ginza, il propose des services de conciergerie. La gare de Tokyo se trouve à seulement 5 minutes en voiture. Arborant un design aux influences japonaises traditionnelles, les chambres luxueuses disposent d'un coin salon avec des canapés et une télévision grand écran, d'une chambre avec des commandes de rideaux près du lit et d'une salle de bains en marbre avec télévision à écran plat intégrée. Elles comprennent également un dressing, un éclairage d'ambiance et une connexion Wi-Fi gratuite.",
+        "prix_moyen": "650€ / nuit",
+        "avis": "9,3/10",
         "points_positifs": [
-            "Superbe note de 8,5 et situation géographique remarquable à 9,2",
-            "Magnifique bâtiment historique de style palace du XIXe siècle",
-            "Rooftop avec piscine extérieure et restaurant panoramique sur la mer",
-            "Centre de spa et bien-être complet avec piscine intérieure",
-            "Personnel aux petits soins et service haut de gamme"
+            "Situé en plein cœur de Tokyo, avec une excellente note de 9,7 pour sa situation géographique",
+            "Piscine intérieure et centre de remise en forme surplombant les jardins du Palais impérial",
+            "Proximité immédiate du quartier commerçant de Ginza et de la station de métro Hibiya",
+            "Chambres luxueuses aux influences japonaises traditionnelles avec salle de bains en marbre et télévision intégrée",
+            "Restaurants variés proposant des cuisines japonaise, cantonaise et occidentale, ainsi que le bar Peter au 24ème étage avec vue panoramique",
+            "Services haut de gamme incluant conciergerie, navette en limousine Rolls-Royce et spa de classe mondiale"
         ],
         "points_negatifs": [
-            "Certains aspects ne reflètent pas toujours les standards stricts d'un 5 étoiles selon quelques voyageurs",
-            "Tarifs en adéquation avec le standing luxueux de l'établissement"
+            "Tarifs très élevés en haute saison",
+            "Forte affluence touristique dans le quartier de Ginza et aux alentours",
+            "Certains services de transport ou de bien-être sont proposés en supplément",
+            "Demande très forte nécessitant des réservations bien à l'avance",
+            "Grand établissement pouvant présenter une affluence notable dans les espaces communs",
+            "Immense métropole nécessitant de l'organisation pour les déplacements vers les sites éloignés"
         ],
         "equipements": [
-            "5 étoiles",
+            "Piscine intérieure",
             "Spa et centre de bien-être",
-            "Piscine extérieure et intérieure",
-            "Restaurant et rooftop",
             "Wi-Fi gratuit",
             "Parking privé",
+            "9 restaurants & Bar",
+            "Centre de remise en forme",
+            "Navette aéroport",
+            "Chambres non-fumeurs",
+            "Chambres familiales",
+            "Plateau/bouilloire dans tous les hébergements",
             "Climatisation"
         ],
+        "Nomad vous en dis plus": "Un conseil d'ami : si vous cherchez le sommet absolu du raffinement tokyoïte avec une vue imprenable sur les jardins du Palais impérial, The Peninsula est une véritable claque sensorielle. Ce qui rend cette adresse magique, c'est ce mélange unique d'hospitalité japonaise traditionnelle et de grand luxe contemporain, le tout à deux pas du tourbillon élégant de Ginza. Le vrai kiff ? Profiter de leur superbe piscine intérieure suspendue au-dessus de la verdure impériale avant d'aller siroter un verre au bar Peter perché au 24e étage. C'est somptueux, d'un professionnalisme absolu et inoubliable de bout en bout.",
         "pour_qui": {
-            "ambiance": "✨ Prestigieux, historique, luxueux, raffiné et vue panoramique",
-            "public": "Couples en quête de romantisme et voyageurs exigeants amateurs de demeures historiques d'exception",
-            "style": "Palace historique en bord de mer avec Spa",
-            "verdict": "Une adresse somptueuse et pleine de charme pour s'évader dans un cadre Belle Époque unique tout en profitant de prestations bien-être de premier ordre."
+            "ambiance": "🌸 Luxueux, traditionnel, panoramique et urbain",
+            "public": "Voyageurs recherchant le raffinement ultime, un service d'excellence et un emplacement idéal face aux jardins du Palais impérial",
+            "style": "Grand hôtel de luxe au cœur de Tokyo",
+            "verdict": "The Peninsula Tokyo offre une expérience d'hospitalité hors du commun, combinant un emplacement exceptionnel, des vues imprenables et un sens du détail inégalé."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 7 831 expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 425 expériences vécues · Mise à jour : 2026"
     },
-    "Residence Ten Suite": {
-        "pays": "Italie",
-        "ville": "Rimini",
-        "etoiles": "Résidence / Appartements",
-        "lien_booking": "https://www.booking.com/hotel/it/residence-ten-suite.fr.html",
-        "lien_expedia": "https://www.expedia.fr/Rimini-Hotel-Residence-Ten-Suite.h15187376.Description-Hotel",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/379960064.jpg?k=e2a5905fdbd9fcadaff94b1f53182d8ba9adc5d325f63240055874d4f9af5a2a&o=",
-        "description": "Située à quelques pas seulement de la plage de Rimini (Bradipo Beach), la Residence Ten Suite s'impose avec une note de 8,4 et un emplacement géographique remarquable noté 9,1. L'établissement propose de grands appartements modernes et entièrement équipés (lave-vaisselle, lave-linge, kitchenette complète, climatisation et terrasse ou balcon). Les clients apprécient particulièrement la piscine extérieure sur le toit avec vue panoramique, la proximité immédiate de la mer, des commerces et des restaurants, ainsi que le personnel attentionné. C'est un hébergement idéal pour vivre des vacances dynamiques et confortables sur la côte adriatique.",
-        "prix_moyen": "110€ - 210€ / nuit",
-        "avis": "8,4/10",
-        "points_positifs": [
-            "Excellente situation géographique à 9,1, à 1 minute à pied de la plage",
-            "Appartements spacieux, modernes et très bien équipés (lave-linge, lave-vaisselle)",
-            "Piscine extérieure sur le toit avec terrasse et solarium",
-            "Personnel d'accueil particulièrement aimable, serviable et réactif",
-            "Proximité immédiate des restaurants, commerces, bus et pharmacie"
-        ],
-        "points_negatifs": [
-            "Isolation phonique moyenne face à l'animation de la rue principale en haute saison",
-            "Places de parking privées limitées et parfois étroites"
-        ],
-        "equipements": [
-            "Résidence / Appartements",
-            "Proche plage",
-            "Piscine sur le toit",
-            "Wi-Fi gratuit",
-            "Climatisation",
-            "Lave-vaisselle & Lave-linge",
-            "Balcon / Terrasse",
-            "Parking privé"
-        ],
-        "pour_qui": {
-            "ambiance": "🌊 Dynamique, balnéaire, moderne et convivial",
-            "public": "Familles et groupes d'amis souhaitant profiter de la plage, des animations et d'un appartement tout confort",
-            "style": "Résidence d'appartements modernes avec piscine sur le toit",
-            "verdict": "Une excellente option pour un séjour en toute autonomie à deux pas de la mer, parfait pour associer farniente à la plage et vie nocturne animée à Rimini."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 171 expériences vécues · Mise à jour : 2026"
-    },
-    "Hotel San Francisco Spiaggia": {
-        "pays": "Italie",
-        "ville": "Rimini",
-        "etoiles": "3 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/it/san-francisco-spiaggia.fr.html",
-        "lien_expedia": "https://www.expedia.fr/Rimini-Hotel-San-Francisco-Spiaggia.h4993138.Description-Hotel",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/154455155.jpg?k=9c6754ddee4e99967d0745405ea04647925499231eda51ffdb8b6a93643ab28a&o=",
-        "description": "Bénéficiant d'un accès direct à la plage de Rimini, l'Hotel San Francisco Spiaggia s'impose avec une belle note de 8,5 et un indice de situation géographique exceptionnel de 9,6. Cet établissement 3 étoiles à l'ambiance chaleureuse et familiale propose des chambres climatisées avec balcon, dont certaines offrent une vue sur la mer Adriatique. Les clients profitent d'un restaurant servant de savoureuses spécialités locales et des plats faits maison, d'un centre de bien-être avec sauna et jacuzzi, ainsi que de vélos mis gratuitement à disposition. C'est l'adresse idéale pour un séjour balnéaire tout confort les pieds dans l'eau.",
-        "prix_moyen": "90€ - 160€ / nuit",
-        "avis": "8,5/10",
-        "points_positifs": [
-            "Accès direct à la plage (on descend une marche et on y est)",
-            "Situation géographique exceptionnelle notée 9,6 au cœur de Rivazzurra",
-            "Accueil chaleureux, familial et personnel aux petits soins",
-            "Cuisine italienne traditionnelle et plats faits maison de grande qualité",
-            "Centre de bien-être sur place avec sauna et jacuzzi"
-        ],
-        "points_negatifs": [
-            "Places de parking extérieur limitées et soumises à disponibilité",
-            "Établissement 3 étoiles aux prestations simples mais soignées"
-        ],
-        "equipements": [
-            "3 étoiles",
-            "En bord de plage / Accès direct",
-            "Spa et centre de bien-être",
-            "Wi-Fi gratuit",
-            "Climatisation",
-            "Restaurant & Bar",
-            "Prêt de vélos gratuit",
-            "Chambres familiales"
-        ],
-        "pour_qui": {
-            "ambiance": "🌊 Chaleureux, familial, balnéaire, décontracté et accueillant",
-            "public": "Couples et familles recherchant un hôtel à l'ambiance humaine, directement sur la plage avec un bon niveau de confort",
-            "style": "Hôtel balnéaire 3 étoiles avec spa et accès direct à la mer",
-            "verdict": "Une adresse coup de cœur pour les amoureux de la mer et de la convivialité italienne, parfaite pour des vacances sans contrainte les pieds dans le sable."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 26 expériences vécues · Mise à jour : 2026"
-    },
-    "Hotel Monica": {
-        "pays": "Italie",
-        "ville": "Rimini",
-        "etoiles": "3 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/it/monica-rimini.fr.html",
-        "lien_expedia": "https://www.expedia.fr/Rimini-Hotel-Monica.h3703228.Description-Hotel",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/318838972.jpg?k=f587678b39bb8fcb9ee9ac72f7016dad83bdb7db9b4fd3391a50110ba5b54ecf&o=",
-        "description": "Situé dans le quartier de Rivazzurra à Rimini, à seulement 150 mètres de la plage, l'Hotel Monica s'impose avec une fabuleuse note de 9,1 et un emplacement géographique d'exception noté 9,2. Cet établissement familial propose des chambres climatisées avec balcon, parquet et mobilier en bois. Les clients profitent d'un accueil chaleureux et multilingue (avec du personnel parlant français), d'un service exceptionnel, d'un copieux buffet de petit-déjeuner généreux ainsi que d'une proximité immédiate avec la mer et les transports. C'est l'adresse idéale pour un séjour convivial, reposant et axé sur le bien-être.",
-        "prix_moyen": "85€ - 150€ / nuit",
-        "avis": "9,1/10",
-        "points_positifs": [
-            "Note fabuleuse de 9,1 et situation géographique remarquable à 9,2",
-            "Proximité immédiate de la plage (à seulement 150 mètres)",
-            "Personnel et propriétaires exceptionnels, chaleureux et parlant français",
-            "Petit-déjeuner buffet d'exception, copieux et varié",
-            "Propreté irréprochable et chambres très confortables avec balcon"
-        ],
-        "points_negatifs": [
-            "Wi-Fi parfois perfectible dans certaines zones communes",
-            "Places de parking privé limitées"
-        ],
-        "equipements": [
-            "3 étoiles",
-            "Plage privée à proximité",
-            "Wi-Fi gratuit",
-            "Climatisation",
-            "Réception 24h/24",
-            "Chambres familiales",
-            "Bar et Terrasse",
-            "Parking privé"
-        ],
-        "pour_qui": {
-            "ambiance": "🌟 Familial, chaleureux, attentionné, accueillant et attentionné",
-            "public": "Couples et familles recherchant une ambiance humaine, un service irréprochable et un accès rapide à la plage",
-            "style": "Hôtel balnéaire convivial avec un service d'excellence",
-            "verdict": "Une perle rare à Rimini où la qualité de l'accueil et la générosité des services garantissent des vacances inoubliables les pieds dans l'eau."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 356 expériences vécues · Mise à jour : 2026"
-    },
-    "Hotel Butterfly & YoUnique Spa": {
-        "pays": "Italie",
-        "ville": "Rimini",
-        "etoiles": "3 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/it/butterfly.fr.html",
-        "lien_expedia": "https://www.expedia.fr/Rimini-Hotel-Hotel-Butterfly.h15133685.Description-Hotel",
-        "image": "https://images.trvl-media.com/lodging/16000000/15140000/15133700/15133685/9384a849.jpg?impolicy=resizecrop&rw=1200&ra=fit",
-        "description": "Situé juste en face de la plage dans le quartier prisé de Rivazzurra à Rimini, l'Hotel Butterfly & YoUnique Spa s'impose avec une superbe note de 8,6 et un excellent emplacement noté 9,0. Cet établissement à la gestion familiale propose des chambres modernes et climatisées avec parquet et Wi-Fi gratuit. Les voyageurs profitent d'un spa et centre de bien-être relaxant, d'un restaurant servant des spécialités de l'Émilie-Romagne, ainsi que d'un personnel aux petits soins particulièrement salué pour sa gentillesse et son accueil chaleureux.",
-        "prix_moyen": "90€ - 170€ / nuit",
-        "avis": "8,6/10",
-        "points_positifs": [
-            "Superbe note de 8,6 et situation géographique idéale notée 9,0 juste en face de la plage",
-            "Personnel d'une gentillesse exceptionnelle, accueil chaleureux et professionnel",
-            "Centre de bien-être (Spa et sauna) de grande qualité apprécié des voyageurs",
-            "Chambres très propres, modernes, lumineuses et climatisées",
-            "Excellent petit-déjeuner buffet continental et restaurant savoureux"
-        ],
-        "points_negatifs": [
-            "Parking privé soumis à disponibilité ou en supplément selon les périodes",
-            "Animation de la station balnéaire parfois perceptible en haute saison"
-        ],
-        "equipements": [
-            "3 étoiles",
-            "En bord de plage",
-            "Spa et centre de bien-être",
-            "Wi-Fi gratuit",
-            "Climatisation",
-            "Restaurant & Bar",
-            "Réception 24h/24",
-            "Chambres familiales",
-            "Parking privé"
-        ],
-        "pour_qui": {
-            "ambiance": "🌿 Relaxant, chaleureux, moderne, attentionné et balnéaire",
-            "public": "Couples et familles à la recherche d'un hôtel tout confort avec spa, idéalement placé face à la mer",
-            "style": "Hôtel 3 étoiles moderne avec spa et accès direct à la plage",
-            "verdict": "Une adresse magnifique et très bien notée pour combiner farniente les pieds dans l'eau, détente au spa et hospitalité remarquable."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 476 expériences vécues · Mise à jour : 2026"
-    },
-    "Hotel Centrale Miramare": {
-        "pays": "Italie",
-        "ville": "Rimini",
-        "etoiles": "3 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/it/centrale-miramare.fr.html",
-        "lien_expedia": "https://www.expedia.fr/Rimini-Hotel-Hotel-Centrale-Miramare.h100724298.Description-Hotel",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/514396123.jpg?k=26be26e1194192642967b7ed2c35c36d40ff6f51cc00afe3883d3605a152e467&o=",
-        "description": "Situé en bord de mer à Rimini (quartier de Miramare), l'Hotel Centrale Miramare s'impose avec une belle note de 8,5 et un indice de situation géographique exceptionnel de 9,4. Cet établissement 3 étoiles propose des chambres climatisées avec bureau, coffre-fort, télévision, salle de bains privative et balcon (dont certaines avec vue sur mer). Les voyageurs profitent d'un accès immédiat à la plage, d'un jardin, d'une terrasse, d'un restaurant sur place proposant de délicieuses spécialités italiennes, d'un service de réception ouvert 24h/24 ainsi que d'un personnel particulièrement sympathique et aux petits soins.",
-        "prix_moyen": "85€ - 160€ / nuit",
-        "avis": "8,5/10",
-        "points_positifs": [
-            "Situation géographique idéale notée 9,4 à deux pas de la plage",
-            "Personnel extrêmement sympathique, accueillant et serviable",
-            "Chambres très propres et bien entretenues avec balcon",
-            "Nourriture excellente et délicieuse cuisine italienne traditionnelle",
-            "Réception ouverte 24h/24 et parking privé sur place"
-        ],
-        "points_negatifs": [
-            "Maîtriser un peu l'italien peut être un plus pour échanger avec l'équipe sur place",
-            "Établissement 3 étoiles aux prestations simples et traditionnelles"
-        ],
-        "equipements": [
-            "3 étoiles",
-            "En bord de plage",
-            "Wi-Fi gratuit",
-            "Climatisation",
-            "Restaurant & Bar",
-            "Réception 24h/24",
-            "Terrasse & Jardin",
-            "Parking privé"
-        ],
-        "pour_qui": {
-            "ambiance": "🌊 Convivial, balnéaire, chaleureux, relaxant et traditionnel",
-            "public": "Couples et familles recherchant un hôtel idéalement placé face à la mer avec un service humain et attentionné",
-            "style": "Hôtel 3 étoiles en bord de mer avec restaurant et terrasse",
-            "verdict": "Une adresse parfaite pour un séjour de détente absolue les pieds dans l'eau, combinant la proximité immédiate de la plage et la chaleur d'un accueil familial."
-        },
-        "meta_avis": "Contenu résumé par IA sur la base de 219 expériences vécues · Mise à jour : 2026"
-    },
-    "Best Western Maison B Hotel": {
-        "pays": "Italie",
-        "ville": "Rimini",
+    "Asakusa View Hotel": {
+        "pays": "Japon",
+        "ville": "Tokyo",
         "etoiles": "4 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/it/patrizia-resort-e-residenza.fr.html",
-        "lien_expedia": "https://www.expedia.fr/Rimini-Hotel-Best-Western-Maison-B-Hotel.h2056813.Description-Hotel",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/88122825.jpg?k=469bff577ea6b0021d2cc7ec90338ca9f3af53b1064a3f4f994c778eaed567f3&o=",
-        "description": "Situé en bord de plage dans le quartier prisé de Marina Centro à Rimini, le Best Western Maison B Hotel s'impose avec une superbe note de 8,8 et un emplacement géographique remarquable noté 9,1. Cet établissement élégant propose des chambres climatisées au design moderne, dotées d'un balcon avec vue sur la mer. Les clients profitent d'un grand jardin, d'une piscine extérieure, d'un bain à remous, d'un restaurant panoramique surplombant la mer et d'un service client exceptionnel salué par l'ensemble des voyageurs.",
-        "prix_moyen": "120€ - 220€ / nuit",
-        "avis": "8,8/10",
+        "lien_booking": "https://www.booking.com/hotel/jp/asakusa-view-tokyo.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Tokyo-Hotel-Asakusa-View-Hotel.h15413635.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/790342349.jpg?k=e6c5168c9df75685c62b15033d42c3241f669f25d3faca00e3c8c44cec9850ab&o=",
+        "description": "Décoré dans un style Art déco et idéalement situé dans le quartier de Taito-ku à Tokyo, l'Asakusa View Hotel est directement relié à la gare d'Asakusa (ligne Tsukuba Express) et à 7 minutes à pied de la station Tawaramachi. L'établissement propose des chambres modernes et lumineuses dotées de baies vitrées offrant des vues imprenables sur la ville, le temple Sensō-ji et la tour Tokyo Skytree. Les clients profitent également de restaurants panoramiques situés aux étages supérieurs proposant une cuisine française, cantonaise ou un grand buffet, ainsi que d'une piscine intérieure et d'un centre de remise en forme.",
+        "prix_moyen": " 200€ / nuit",
+        "avis": "8,9/10",
         "points_positifs": [
-            "Superbe note de 8,8 et situation géographique idéale notée 9,1 à Marina Centro",
-            "Service client d'une qualité remarquable, personnel extrêmement professionnel et accueillant",
-            "Chambres modernes, spacieuses, insonorisées et dotées d'un balcon avec vue sur la mer",
-            "Piscine extérieure, bain à remous et grand jardin paysager",
-            "Restaurant panoramique avec vue sur mer et petit-déjeuner exceptionnel"
+            "Vue spectaculaire et imprenable sur la Tokyo Skytree, le temple Sensō-ji et le Mont Fuji depuis certaines chambres et restaurants des étages supérieurs.",
+            "Emplacement géographique exceptionnel noté 9,4/10, à seulement 5 minutes à pied du temple Sensō-ji et proche des transports.",
+            "Personnel extrêmement courtois, attentif, professionnel et aux petits soins.",
+            "Petit-déjeuner buffet extrêmement varié, de haute qualité, souvent servi avec vue panoramique.",
+            "Propreté irréprochable de l'établissement et des infrastructures.",
+            "Chambres spacieuses pour les standards de Tokyo, dotées d'une literie très confortable et d'équipements complets (avec prêt de pyjamas traditionnels)."
         ],
         "points_negatifs": [
-            "Places de parking gratuites limitées (premier arrivé, premier servi) ou payantes pour garantir une place",
-            "Tarifs positionnés sur le haut de gamme de la station"
+            "Rapport qualité/prix parfois jugé un peu juste par certains voyageurs (noté 8,5/10).",
+            "Affluence dans les espaces communs et aux restaurants en raison de la forte popularité de l'hôtel.",
+            "Certaines chambres de catégories standard peuvent être considérées comme un peu compactes selon les attentes.",
+            "Accès à certains services de bien-être (piscine intérieure, massages) soumis à des frais supplémentaires.",
+            "Forte demande nécessitant d'anticiper la réservation pour obtenir les chambres avec vue directe sur la Skytree."
         ],
         "equipements": [
-            "4 étoiles",
-            "En bord de plage & Plage privée",
-            "Piscine extérieure",
-            "Bain à remous / Jacuzzi",
-            "Restaurant panoramique",
-            "Wi-Fi gratuit",
-            "Climatisation",
+            "Piscine intérieure",
+            "Connexion Wi-Fi gratuite",
+            "Parking privé",
+            "3 restaurants panoramiques et bar",
             "Centre de remise en forme",
-            "Parking privé"
+            "Chambres non-fumeurs et familiales",
+            "Navette aéroport",
+            "Climatisation"
         ],
+        "Nomad vous en dis plus": "Entre nous, si vous voulez vous prendre une claque visuelle chaque matin en ouvrant les rideaux sur la Tokyo Skytree et le temple historique d'Asakusa, l'Asakusa View Hotel est une valeur sûre. Situé dans un quartier au charme plus authentique, il offre des vues panoramiques tout simplement époustouflantes depuis les étages supérieurs. Les chambres sont spacieuses pour la capitale, l'accueil y est d'une courtoisie exquise et la localisation permet de s'imprégner de l'âme traditionnelle de Tokyo tout en restant très bien connecté. Une option formidable pour s'émerveiller sans exploser son budget.",
         "pour_qui": {
-            "ambiance": "✨ Prestigieux, raffiné, chaleureux, confortable et face à la mer",
-            "public": "Couples et voyageurs exigeants à la recherche d'un standing supérieur avec services complets les pieds dans l'eau",
-            "style": "Hôtel 4 étoiles moderne avec piscine, spa et vue panoramique",
-            "verdict": "Une adresse haut de gamme incontournable à Rimini pour un séjour d'exception, combinant prestations soignées, emplacement parfait et service irréprochable."
+            "ambiance": "🗼 Panoramique, élégante, traditionnelle et haut de gamme",
+            "public": "Touristes, couples et familles désireux de découvrir Tokyo avec un point de vue exceptionnel sur les monuments",
+            "style": "Hôtel urbain de style Art déco avec vues spectaculaires",
+            "verdict": "L'Asakusa View Hotel est une adresse incontournable à Tokyo pour sa localisation idéale au cœur d'Asakusa, son service irréprochable et ses vues à couper le souffle sur la ville et la Skytree."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 111 expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 2 963 expériences vécues · Mise à jour : 2026"
     }
 }
 

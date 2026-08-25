@@ -4411,7 +4411,7 @@
         "etoiles": "5 étoiles",
         "prix": " 110€ / nuit",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/469577687.jpg?k=72c0fd6d06e99c7380a120478b489047954ee3aa720bedebc6287329337ba079&o=",
-        "description": "Véritable oasis urbaine située à seulement 1 km de la gare de Coimbatore et à 20 minutes de l'aéroport, le Vivanta Coimbatore propose des chambres climatisées modernes avec plancher en bois et baies vitrées offrant une vue sur la ville. L'établissement met à disposition une piscine extérieure, un centre de remise en forme ouvert 24h/24, des soins de spa relaxants, ainsi que plusieurs espaces de restauration de premier plan, dont le restaurant Latitude (cuisine indienne et continentale), le restaurant Red Pearl (cuisine chinoise) et le bar branché Tease.",
+        "description": "Véritable oasis urbaine située à seulement 1 km de la gare de Coimbatore et à 20 minutes de l'aéroport, le Vivanta Coimbatore propose des chambres climatisées modernes avec plancher en bois et baies vitrées offrant une vue sur la ville. L'établissement met à disposition une piscine extérieure, un centre de remise en forme ouvert 24h/24, des soins de spa relaxants, et plusieurs espaces de restauration de premier plan, dont le restaurant Latitude (cuisine indienne et continentale), le restaurant Red Pearl (cuisine chinoise) et le bar branché Tease.",
         "equipements": [
             "5 étoiles",
             "Piscine extérieure",
@@ -4428,179 +4428,51 @@
         "lien_expedia": "https://www.expedia.fr/Coimbatore-Hotel-Vivanta-Coimbatore.h4732193.Description-Hotel"
     },
     {
-        "nom": "Residence San Luigi",
-        "slug": "residence-san-luigi",
-        "ville": "Limone sul Garda",
-        "pays": "Italie",
-        "etoiles": "Résidence / Appartements",
-        "prix": "95€ - 180€ / nuit",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/4736321.jpg?k=10f2b8988ee47a259f10a6394c7fdada91db839daee92832c4ca251064d63cc3&o=",
-        "description": "Située sur les rives du lac de Garde, la Residence San Luigi s'impose avec une superbe note de 9,0 et un indice de situation géographique exceptionnel de 9,7. Elle propose des appartements climatisés entièrement meublés dotés d'un balcon ou d'une terrasse, avec une cuisine équipée. Très appréciée pour son calme absolu, la résidence met à disposition une piscine extérieure avec hydromassage, un bain à remous ainsi qu'une plage privée au bord du lac. Les clients bénéficient également d'un parking privé gratuit et d'une borne de recharge pour véhicules électriques. C'est l'adresse idéale pour les voyageurs en quête de détente, de nature et de proximité avec le charmant village de Limone.",
-        "equipements": [
-            "Résidence / Appartements",
-            "Plage privée",
-            "Piscine extérieure",
-            "Wi-Fi gratuit",
-            "Parking gratuit",
-            "Climatisation"
-        ],
-        "lien_booking": "https://www.booking.com/hotel/it/residence-san-luigi.fr.html?aid=8012379",
-        "lien_expedia": "https://www.expedia.fr/Hotel-Search"
-    },
-    {
-        "nom": "GH Palazzo Suite & SPA",
-        "slug": "gh-palazzo-suite-spa",
-        "ville": "Livourne",
-        "pays": "Italie",
+        "nom": "The Peninsula Tokyo",
+        "slug": "the-peninsula-tokyo",
+        "ville": "Tokyo",
+        "pays": "Japon",
         "etoiles": "5 étoiles",
-        "prix": "180€ - 320€ / nuit",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/37668020.jpg?k=30957456b95fe7c0713f0a709a6bf4167b82bc102511a90f56ba718d72e51890&o=",
-        "description": "Situé en bord de mer à Livourne, le GH Palazzo Suite & SPA s'impose avec une superbe note de 8,5 et un indice de situation géographique exceptionnel de 9,2. Établissement de style palace du XIXe siècle (Belle Époque), il propose des chambres luxueuses et climatisées dotées d'un décor élégant. Les clients profitent d'un restaurant gastronomique sur le toit-terrasse avec vue panoramique sur la mer, d'un copieux petit-déjeuner buffet, ainsi que d'un spa complet comprenant une piscine intérieure, un sauna, un jacuzzi et une salle de sport. C'est l'adresse idéale pour les voyageurs exigeants en quête d'histoire, de charme et de prestations haut de gamme au bord de l'eau.",
+        "prix": "650€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/11793355.jpg?k=f33d1a8026a22cc261db7dec1fca97995481da019f941d84ebdd35bedf016269&o=",
+        "description": "The Peninsula Tokyo gâte ses clients avec un centre de spa et un club de fitness doté d'une piscine et de chaises longues, surplombant les jardins du Palais impérial. Situé à 3 minutes à pied du quartier commerçant de Ginza, il propose des services de conciergerie. La gare de Tokyo se trouve à seulement 5 minutes en voiture. Arborant un design aux influences japonaises traditionnelles, les chambres luxueuses disposent d'un coin salon avec des canapés et une télévision grand écran, d'une chambre avec des commandes de rideaux près du lit et d'une salle de bains en marbre avec télévision à écran plat intégrée. Elles comprennent également un dressing, un éclairage d'ambiance et une connexion Wi-Fi gratuite.",
         "equipements": [
-            "5 étoiles",
+            "Piscine intérieure",
             "Spa et centre de bien-être",
-            "Piscine extérieure et intérieure",
-            "Restaurant et rooftop",
             "Wi-Fi gratuit",
             "Parking privé",
+            "9 restaurants & Bar",
+            "Centre de remise en forme",
+            "Navette aéroport",
+            "Chambres non-fumeurs",
+            "Chambres familiales",
+            "Plateau/bouilloire dans tous les hébergements",
             "Climatisation"
         ],
-        "lien_booking": "https://www.booking.com/hotel/it/nh-livorno-grand-hotel-palazzo.fr.html?aid=8012379",
-        "lien_expedia": "https://www.expedia.fr/Livorno-Hotel-GH-Palazzo-Suite-Spa.h91417939.Description-Hotel"
+        "lien_booking": "https://www.booking.com/hotel/jp/the-peninsula-tokyo.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Tokyo-Hotel-The-Peninsula-Tokyo.h1631412.Description-Hotel"
     },
     {
-        "nom": "Residence Ten Suite",
-        "slug": "residence-ten-suite",
-        "ville": "Rimini",
-        "pays": "Italie",
-        "etoiles": "Résidence / Appartements",
-        "prix": "110€ - 210€ / nuit",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/379960064.jpg?k=e2a5905fdbd9fcadaff94b1f53182d8ba9adc5d325f63240055874d4f9af5a2a&o=",
-        "description": "Située à quelques pas seulement de la plage de Rimini (Bradipo Beach), la Residence Ten Suite s'impose avec une note de 8,4 et un emplacement géographique remarquable noté 9,1. L'établissement propose de grands appartements modernes et entièrement équipés (lave-vaisselle, lave-linge, kitchenette complète, climatisation et terrasse ou balcon). Les clients apprécient particulièrement la piscine extérieure sur le toit avec vue panoramique, la proximité immédiate de la mer, des commerces et des restaurants, ainsi que le personnel attentionné. C'est un hébergement idéal pour vivre des vacances dynamiques et confortables sur la côte adriatique.",
-        "equipements": [
-            "Résidence / Appartements",
-            "Proche plage",
-            "Piscine sur le toit",
-            "Wi-Fi gratuit",
-            "Climatisation",
-            "Lave-vaisselle & Lave-linge",
-            "Balcon / Terrasse",
-            "Parking privé"
-        ],
-        "lien_booking": "https://www.booking.com/hotel/it/residence-ten-suite.fr.html?aid=8012379",
-        "lien_expedia": "https://www.expedia.fr/Rimini-Hotel-Residence-Ten-Suite.h15187376.Description-Hotel"
-    },
-    {
-        "nom": "Hotel San Francisco Spiaggia",
-        "slug": "hotel-san-francisco-spiaggia",
-        "ville": "Rimini",
-        "pays": "Italie",
-        "etoiles": "3 étoiles",
-        "prix": "90€ - 160€ / nuit",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/154455155.jpg?k=9c6754ddee4e99967d0745405ea04647925499231eda51ffdb8b6a93643ab28a&o=",
-        "description": "Bénéficiant d'un accès direct à la plage de Rimini, l'Hotel San Francisco Spiaggia s'impose avec une belle note de 8,5 et un indice de situation géographique exceptionnel de 9,6. Cet établissement 3 étoiles à l'ambiance chaleureuse et familiale propose des chambres climatisées avec balcon, dont certaines offrent une vue sur la mer Adriatique. Les clients profitent d'un restaurant servant de savoureuses spécialités locales et des plats faits maison, d'un centre de bien-être avec sauna et jacuzzi, ainsi que de vélos mis gratuitement à disposition. C'est l'adresse idéale pour un séjour balnéaire tout confort les pieds dans l'eau.",
-        "equipements": [
-            "3 étoiles",
-            "En bord de plage / Accès direct",
-            "Spa et centre de bien-être",
-            "Wi-Fi gratuit",
-            "Climatisation",
-            "Restaurant & Bar",
-            "Prêt de vélos gratuit",
-            "Chambres familiales"
-        ],
-        "lien_booking": "https://www.booking.com/hotel/it/san-francisco-spiaggia.fr.html?aid=8012379",
-        "lien_expedia": "https://www.expedia.fr/Rimini-Hotel-San-Francisco-Spiaggia.h4993138.Description-Hotel"
-    },
-    {
-        "nom": "Hotel Monica",
-        "slug": "hotel-monica",
-        "ville": "Rimini",
-        "pays": "Italie",
-        "etoiles": "3 étoiles",
-        "prix": "85€ - 150€ / nuit",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/318838972.jpg?k=f587678b39bb8fcb9ee9ac72f7016dad83bdb7db9b4fd3391a50110ba5b54ecf&o=",
-        "description": "Situé dans le quartier de Rivazzurra à Rimini, à seulement 150 mètres de la plage, l'Hotel Monica s'impose avec une fabuleuse note de 9,1 et un emplacement géographique d'exception noté 9,2. Cet établissement familial propose des chambres climatisées avec balcon, parquet et mobilier en bois. Les clients profitent d'un accueil chaleureux et multilingue (avec du personnel parlant français), d'un service exceptionnel, d'un copieux buffet de petit-déjeuner généreux ainsi que d'une proximité immédiate avec la mer et les transports. C'est l'adresse idéale pour un séjour convivial, reposant et axé sur le bien-être.",
-        "equipements": [
-            "3 étoiles",
-            "Plage privée à proximité",
-            "Wi-Fi gratuit",
-            "Climatisation",
-            "Réception 24h/24",
-            "Chambres familiales",
-            "Bar et Terrasse",
-            "Parking privé"
-        ],
-        "lien_booking": "https://www.booking.com/hotel/it/monica-rimini.fr.html?aid=8012379",
-        "lien_expedia": "https://www.expedia.fr/Rimini-Hotel-Monica.h3703228.Description-Hotel"
-    },
-    {
-        "nom": "Hotel Butterfly & YoUnique Spa",
-        "slug": "hotel-butterfly-younique-spa",
-        "ville": "Rimini",
-        "pays": "Italie",
-        "etoiles": "3 étoiles",
-        "prix": "90€ - 170€ / nuit",
-        "image": "https://images.trvl-media.com/lodging/16000000/15140000/15133700/15133685/9384a849.jpg?impolicy=resizecrop&rw=1200&ra=fit",
-        "description": "Situé juste en face de la plage dans le quartier prisé de Rivazzurra à Rimini, l'Hotel Butterfly & YoUnique Spa s'impose avec une superbe note de 8,6 et un excellent emplacement noté 9,0. Cet établissement à la gestion familiale propose des chambres modernes et climatisées avec parquet et Wi-Fi gratuit. Les voyageurs profitent d'un spa et centre de bien-être relaxant, d'un restaurant servant des spécialités de l'Émilie-Romagne, ainsi que d'un personnel aux petits soins particulièrement salué pour sa gentillesse et son accueil chaleureux.",
-        "equipements": [
-            "3 étoiles",
-            "En bord de plage",
-            "Spa et centre de bien-être",
-            "Wi-Fi gratuit",
-            "Climatisation",
-            "Restaurant & Bar",
-            "Réception 24h/24",
-            "Chambres familiales",
-            "Parking privé"
-        ],
-        "lien_booking": "https://www.booking.com/hotel/it/butterfly.fr.html?aid=8012379",
-        "lien_expedia": "https://www.expedia.fr/Rimini-Hotel-Hotel-Butterfly.h15133685.Description-Hotel"
-    },
-    {
-        "nom": "Hotel Centrale Miramare",
-        "slug": "hotel-centrale-miramare",
-        "ville": "Rimini",
-        "pays": "Italie",
-        "etoiles": "3 étoiles",
-        "prix": "85€ - 160€ / nuit",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/514396123.jpg?k=26be26e1194192642967b7ed2c35c36d40ff6f51cc00afe3883d3605a152e467&o=",
-        "description": "Situé en bord de mer à Rimini (quartier de Miramare), l'Hotel Centrale Miramare s'impose avec une belle note de 8,5 et un indice de situation géographique exceptionnel de 9,4. Cet établissement 3 étoiles propose des chambres climatisées avec bureau, coffre-fort, télévision, salle de bains privative et balcon (dont certaines avec vue sur mer). Les voyageurs profitent d'un accès immédiat à la plage, d'un jardin, d'une terrasse, d'un restaurant sur place proposant de délicieuses spécialités italiennes, d'un service de réception ouvert 24h/24 ainsi que d'un personnel particulièrement sympathique et aux petits soins.",
-        "equipements": [
-            "3 étoiles",
-            "En bord de plage",
-            "Wi-Fi gratuit",
-            "Climatisation",
-            "Restaurant & Bar",
-            "Réception 24h/24",
-            "Terrasse & Jardin",
-            "Parking privé"
-        ],
-        "lien_booking": "https://www.booking.com/hotel/it/centrale-miramare.fr.html?aid=8012379",
-        "lien_expedia": "https://www.expedia.fr/Rimini-Hotel-Hotel-Centrale-Miramare.h100724298.Description-Hotel"
-    },
-    {
-        "nom": "Best Western Maison B Hotel",
-        "slug": "best-western-maison-b-hotel",
-        "ville": "Rimini",
-        "pays": "Italie",
+        "nom": "Asakusa View Hotel",
+        "slug": "asakusa-view-hotel",
+        "ville": "Tokyo",
+        "pays": "Japon",
         "etoiles": "4 étoiles",
-        "prix": "120€ - 220€ / nuit",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/88122825.jpg?k=469bff577ea6b0021d2cc7ec90338ca9f3af53b1064a3f4f994c778eaed567f3&o=",
-        "description": "Situé en bord de plage dans le quartier prisé de Marina Centro à Rimini, le Best Western Maison B Hotel s'impose avec une superbe note de 8,8 et un emplacement géographique remarquable noté 9,1. Cet établissement élégant propose des chambres climatisées au design moderne, dotées d'un balcon avec vue sur la mer. Les clients profitent d'un grand jardin, d'une piscine extérieure, d'un bain à remous, d'un restaurant panoramique surplombant la mer et d'un service client exceptionnel salué par l'ensemble des voyageurs.",
+        "prix": " 200€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/790342349.jpg?k=e6c5168c9df75685c62b15033d42c3241f669f25d3faca00e3c8c44cec9850ab&o=",
+        "description": "Décoré dans un style Art déco et idéalement situé dans le quartier de Taito-ku à Tokyo, l'Asakusa View Hotel est directement relié à la gare d'Asakusa (ligne Tsukuba Express) et à 7 minutes à pied de la station Tawaramachi. L'établissement propose des chambres modernes et lumineuses dotées de baies vitrées offrant des vues imprenables sur la ville, le temple Sensō-ji et la tour Tokyo Skytree. Les clients profitent également de restaurants panoramiques situés aux étages supérieurs proposant une cuisine française, cantonaise ou un grand buffet, ainsi que d'une piscine intérieure et d'un centre de remise en forme.",
         "equipements": [
-            "4 étoiles",
-            "En bord de plage & Plage privée",
-            "Piscine extérieure",
-            "Bain à remous / Jacuzzi",
-            "Restaurant panoramique",
-            "Wi-Fi gratuit",
-            "Climatisation",
+            "Piscine intérieure",
+            "Connexion Wi-Fi gratuite",
+            "Parking privé",
+            "3 restaurants panoramiques et bar",
             "Centre de remise en forme",
-            "Parking privé"
+            "Chambres non-fumeurs et familiales",
+            "Navette aéroport",
+            "Climatisation"
         ],
-        "lien_booking": "https://www.booking.com/hotel/it/patrizia-resort-e-residenza.fr.html?aid=8012379",
-        "lien_expedia": "https://www.expedia.fr/Rimini-Hotel-Best-Western-Maison-B-Hotel.h2056813.Description-Hotel"
+        "lien_booking": "https://www.booking.com/hotel/jp/asakusa-view-tokyo.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Tokyo-Hotel-Asakusa-View-Hotel.h15413635.Description-Hotel"
     },
     {
         "nom": "The Peninsula Tokyo",
@@ -5917,7 +5789,7 @@
         "etoiles": "3 étoiles",
         "prix": "321€ / semaine",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/796700158.jpg?k=fafed415eaaebad6a5c1ee09540ec5083909559eda47ccac199488de754bb802&o=",
-        "description": "Implanté dans le quartier de Sidi Belyout au cœur de Casablanca, cet hôtel applique les standards fiables de la chaîne Ibis.\nIl propose des chambres lits jumeaux standard entièrement climatisées.\nSon emplacement central facilite grandement les déplacements professionnels ou touristiques dans la métropole.\nBien que le petit-déjeuner ne soit pas inclus par défaut, l'établissement garantit une propreté irréprochable.\nLes tarifs pratiqués sont particulièrement économiques pour un pied-à-terre de cette centralité.\nC'est une valeur sûre ultra-standardisée pour un séjour urbain sans mauvaise surprise.",
+        "description": "Implanté dans le quartier de Sidi Belyout au cœur de Casablanca, cet hôtel applique les standards fiables de la chaîne Ibis.\nIl propose des chambres lits jumeaux standard entièrement climatisées.\nSon emplacement central facilite grandement les déplacements professionnels ou touristiques dans la métropole.\nBien que le petit-déjeuner ne soit pas inclus par défaut, l'établissement garantit une propreté irréprochable.\nLes tarifs pratiqués sont particulièrement économiques pour un pied-à-terre de cette centrality.\nC'est une valeur sûre ultra-standardisée pour un séjour urbain sans mauvaise surprise.",
         "equipements": [
             "Centre-ville",
             "Climatisation",
@@ -7128,6 +7000,50 @@
         ],
         "lien_booking": "https://www.booking.com/hotel/nl/waldorf-astoria-amsterdam.fr.html?aid=8012379",
         "lien_expedia": "https://www.expedia.fr/Amsterdam-Hotel-Waldorf-Astoria-Amsterdam.h7008795.Description-Hotel"
+    },
+    {
+        "nom": "Grand Hotel Amrâth Kurhaus The Hague Scheveningen",
+        "slug": "grand-hotel-amr-th-kurhaus-the-hague-scheveningen",
+        "ville": "Scheveningen, La Haye",
+        "pays": "Pays-Bas",
+        "etoiles": "5 étoiles",
+        "prix": "250€ - 350€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/723853123.jpg?k=3b8f3a9c109890c131c0c6fbfe6ff1de95782d7fed1100dc66a77c80152ed199&o=",
+        "description": "Inauguré au XIXe siècle, le Grand Hotel Amrâth Kurhaus s'impose comme un véritable monument historique les pieds dans le sable, érigé face à la mer du Nord dans la station balnéaire prisée de Scheveningen. Derrière sa façade somptueuse et son architecture Belle Époque classée, l'établissement plonge ses visiteurs dans une atmosphère de musée grandiose où le faste d'une autre époque côtoie le grand large. Les voyageurs y découvrent un hall magistral aux décors d'époque, une immense terrasse animée surplombant la plage, ainsi qu'un espace bien-être comprenant une piscine intérieure chauffée avec vue, un sauna et un hammam. Idéalement situé à seulement quinze minutes du centre historique et culturel de La Haye grâce aux transports directs, l'hôtel combine une position géographique exceptionnelle à un cachet patrimonial unique. Entre promenades revigorantes sur le front de mer et couchers de soleil flamboyants sur l'horizon, chaque séjour s'inscrit dans la lignée des têtes couronnées et des grandes stars qui ont fait la légende des lieux.",
+        "equipements": [
+            "5 étoiles",
+            "En bord de plage",
+            "Piscine intérieure",
+            "Spa et centre de bien-être",
+            "Restaurant et grande terrasse",
+            "Wi-Fi gratuit",
+            "Climatisation",
+            "Parking privé"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/nl/kurhaus.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/The-Hague-Hotel-Grand-Hotel-Amrath-Kurhaus-The-Hague-Scheveningen.h14949.Description-Hotel"
+    },
+    {
+        "nom": "Fletcher Hotel-Restaurant Leidschendam – Den Haag",
+        "slug": "fletcher-hotel-restaurant-leidschendam-den-haag",
+        "ville": "Leidschendam, La Haye",
+        "pays": "Pays-Bas",
+        "etoiles": "4 étoiles",
+        "prix": "120€ - 180€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/99239932.jpg?k=007e18ef4223aa5e60911b8fb0a163349d46aac2e16c42ebec14a18713655afd&o=",
+        "description": "Niché au cœur d'un cadre verdoyant et paisible, le Fletcher Hotel-Restaurant Leidschendam – Den Haag s'établit au bord d'un charmant étang romantique, offrant un havre de sérénité à proximité immédiate de l'effervescence urbaine. Cet établissement combine une atmosphère de détente bucolique et une accessibilité redoutable, se trouvant à seulement trois minutes à pied d'un arrêt de tramway direct pour le centre historique de La Haye en un quart d'heure. Les voyageurs y apprécient particulièrement la proximité immédiate du gigantesque centre commercial ultramoderne 'Mall of the Netherlands', idéal pour le shopping, les restaurants et les loisirs. L'hôtel propose des chambres spacieuses dotées pour certaines d'un balcon avec vue sur la nature environnante, ainsi qu'un parking gratuit très apprécié dans la région. Côté restauration, le Chiparus Restaurant et sa grande terrasse en bord de lac accueillent les convives pour des pauses gourmandes, tandis que le personnel multilingue veille au confort des touristes et des professionnels de passage.",
+        "equipements": [
+            "4 étoiles",
+            "Parking gratuit",
+            "Restaurant et terrasse au bord de l'eau",
+            "Bar-lounge",
+            "Wi-Fi gratuit",
+            "Chambres familiales",
+            "Climatisation",
+            "Service d'étage"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/nl/mercure-den-haag-leidschendam.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/The-Hague-Hotel-Fletcher-Hotel-Restaurant-Leidschendam-Den-Haag.h12916.Description-Hotel"
     },
     {
         "nom": "Hotel Copernicus Kraków",
@@ -9706,7 +9622,7 @@
         "lien_expedia": "https://www.expedia.fr/Hotel-Search?destination=Royal%20Thalassa%20Monastir%20Monastir%20Tunisie"
     },
     {
-        "nom": "نزل قايا Hôtel Gaïa",
+        "nom": "Hôtel Gaïa",
         "slug": "h-tel-ga-a",
         "ville": "Nabeul",
         "pays": "Tunisie",
@@ -9719,8 +9635,8 @@
             "Climatisation",
             "Chambre double"
         ],
-        "lien_booking": "https://www.booking.com/searchresults.fr.html?ss=%D9%86%D8%B2%D9%84%20%D9%82%D8%A7%D9%8A%D8%A7%20H%C3%B4tel%20Ga%C3%AFa%20Nabeul%20Tunisie&aid=8012379",
-        "lien_expedia": "https://www.expedia.fr/Hotel-Search?destination=%D9%86%D8%B2%D9%84%20%D9%82%D8%A7%D9%8A%D8%A7%20H%C3%B4tel%20Ga%C3%AFa%20Nabeul%20Tunisie"
+        "lien_booking": "https://www.booking.com/searchresults.fr.html?ss=H%C3%B4tel%20Ga%C3%AFa%20Nabeul%20Tunisie&aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Hotel-Search?destination=H%C3%B4tel%20Ga%C3%AFa%20Nabeul%20Tunisie"
     },
     {
         "nom": "Tunis Grand Hotel",

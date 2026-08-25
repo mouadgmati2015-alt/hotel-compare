@@ -34,6 +34,7 @@
             "Service de voiturier",
             "Climatisation"
         ],
+        "Nomad vous en dis plus": "Un conseil de pro : si vous cherchez à toucher du doigt le summum absolu du raffinement hollandais, le Waldorf Astoria Amsterdam s'étend sur six palais historiques le long du canal Herengracht, classé à l'UNESCO. Ce qu'on adore, c'est l'incroyable quiétude de son grand jardin privé au cœur de la ville, couplée à l'excellence de son restaurant doublement étoilé, le Spectrum. Une adresse royale, majestueuse et inoubliable.",
         "pour_qui": {
             "ambiance": "🌷 Historique, somptueux, canalier, prestigieux et raffiné",
             "public": "Voyageurs en quête de l'expérience hôtelière la plus exclusive et majestueuse d'Amsterdam",
@@ -41,5 +42,95 @@
             "verdict": "Le Waldorf Astoria Amsterdam est l'adresse ultime du luxe néerlandais. Entre ses palais le long des canaux classés et son service royal, il garantit un séjour absolument inoubliable."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 900+ expériences vécues · Mise à jour : 2026"
+    },
+    "Grand Hotel Amrâth Kurhaus The Hague Scheveningen": {
+        "pays": "Pays-Bas",
+        "ville": "Scheveningen, La Haye",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/nl/kurhaus.fr.html",
+        "lien_expedia": "https://www.expedia.fr/The-Hague-Hotel-Grand-Hotel-Amrath-Kurhaus-The-Hague-Scheveningen.h14949.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/723853123.jpg?k=3b8f3a9c109890c131c0c6fbfe6ff1de95782d7fed1100dc66a77c80152ed199&o=",
+        "description": "Inauguré au XIXe siècle, le Grand Hotel Amrâth Kurhaus s'impose comme un véritable monument historique les pieds dans le sable, érigé face à la mer du Nord dans la station balnéaire prisée de Scheveningen. Derrière sa façade somptueuse et son architecture Belle Époque classée, l'établissement plonge ses visiteurs dans une atmosphère de musée grandiose où le faste d'une autre époque côtoie le grand large. Les voyageurs y découvrent un hall magistral aux décors d'époque, une immense terrasse animée surplombant la plage, ainsi qu'un espace bien-être comprenant une piscine intérieure chauffée avec vue, un sauna et un hammam. Idéalement situé à seulement quinze minutes du centre historique et culturel de La Haye grâce aux transports directs, l'hôtel combine une position géographique exceptionnelle à un cachet patrimonial unique. Entre promenades revigorantes sur le front de mer et couchers de soleil flamboyants sur l'horizon, chaque séjour s'inscrit dans la lignée des têtes couronnées et des grandes stars qui ont fait la légende des lieux.",
+        "prix_moyen": "250€ - 350€ / nuit",
+        "avis": "7,8/10",
+        "points_positifs": [
+            "Situation géographique exceptionnelle directement sur le front de mer et la plage de Scheveningen.",
+            "Architecture spectaculaire et décor historique classé de style Belle Époque.",
+            "Grand choix et qualité du buffet de petit-déjeuner servi dans un cadre grandiose.",
+            "Espace bien-être agréable avec piscine intérieure chauffée, sauna et hammam.",
+            "Proximité immédiate des transports en tramway permettant de rejoindre La Haye en 15 minutes.",
+            "Vues magnifiques sur la mer du Nord ou le boulevard depuis certaines chambres."
+        ],
+        "points_negatifs": [
+            "Certains espaces et chambres affichent une vétusté prononcée et nécessiteraient un rafraîchissement.",
+            "Nuisances sonores possibles en raison des bars environnants et des travaux extérieurs.",
+            "Service de la réception et accueil parfois jugés distants ou en deçà des standards d'un 5 étoiles.",
+            "Règles strictes et peu flexibles concernant le renouvellement des serviettes de bain au spa.",
+            "Affluence dense et file d'attente au moment du petit-déjeuner en haute saison.",
+            "Rapport qualité-prix perfectible au vu des tarifs pratiqués pour les prestations de base."
+        ],
+        "equipements": [
+            "5 étoiles",
+            "En bord de plage",
+            "Piscine intérieure",
+            "Spa et centre de bien-être",
+            "Restaurant et grande terrasse",
+            "Wi-Fi gratuit",
+            "Climatisation",
+            "Parking privé"
+        ],
+        "Nomad vous en dis plus": "Entre nous, si vous cherchez un hôtel standardisé et lisse sans âme, passez votre chemin. Le Kurhaus, c'est une sacrée machine à remonter le temps : un bâtiment Belle Époque absolument iconique, posé face aux vagues de la mer du Nord, où l'on a l'impression d'être invité dans un décor de cinéma. Ce qu'on adore ? S'offrir un bol d'air marin iodé sur la plus grande terrasse de Scheveningen, piquer une tête dans la piscine couverte et sauter dans le tram au pied de l'hôtel pour aller flâner dans les musées de La Haye. C'est une magnifique 'belle endormie' : le luxe ici réside avant tout dans son cachet historique et son emplacement magique les pieds dans le sable, à condition d'accepter un brin de nostalgie dans la patine des chambres.",
+        "pour_qui": {
+            "ambiance": "🌊 Historique, marin, grandiose et nostalgique",
+            "public": "Amateurs d'architecture patrimoniale et de séjours iodés en bord de mer",
+            "style": "Palace historique Belle Époque",
+            "verdict": "Un hôtel au charme historique incomparable et à l'emplacement exceptionnel face à l'océan, malgré des équipements qui mériteraient un coup de jeune."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 8 500+ expériences vécues · Mise à jour : 2026"
+    },
+    "Fletcher Hotel-Restaurant Leidschendam – Den Haag": {
+        "pays": "Pays-Bas",
+        "ville": "Leidschendam, La Haye",
+        "etoiles": "4 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/nl/mercure-den-haag-leidschendam.fr.html",
+        "lien_expedia": "https://www.expedia.fr/The-Hague-Hotel-Fletcher-Hotel-Restaurant-Leidschendam-Den-Haag.h12916.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/99239932.jpg?k=007e18ef4223aa5e60911b8fb0a163349d46aac2e16c42ebec14a18713655afd&o=",
+        "description": "Niché au cœur d'un cadre verdoyant et paisible, le Fletcher Hotel-Restaurant Leidschendam – Den Haag s'établit au bord d'un charmant étang romantique, offrant un havre de sérénité à proximité immédiate de l'effervescence urbaine. Cet établissement combine une atmosphère de détente bucolique et une accessibilité redoutable, se trouvant à seulement trois minutes à pied d'un arrêt de tramway direct pour le centre historique de La Haye en un quart d'heure. Les voyageurs y apprécient particulièrement la proximité immédiate du gigantesque centre commercial ultramoderne 'Mall of the Netherlands', idéal pour le shopping, les restaurants et les loisirs. L'hôtel propose des chambres spacieuses dotées pour certaines d'un balcon avec vue sur la nature environnante, ainsi qu'un parking gratuit très apprécié dans la région. Côté restauration, le Chiparus Restaurant et sa grande terrasse en bord de lac accueillent les convives pour des pauses gourmandes, tandis que le personnel multilingue veille au confort des touristes et des professionnels de passage.",
+        "prix_moyen": "120€ - 180€ / nuit",
+        "avis": "8,0/10",
+        "points_positifs": [
+            "Emplacement stratégique à côté du gigantesque centre commercial 'Mall of the Netherlands'.",
+            "Accès direct en tramway en 15 minutes pour rejoindre le centre de La Haye.",
+            "Cadre extérieur charmant, paisible et verdoyant au bord d'un étang avec terrasse.",
+            "Parking gratuit sur place, un atout majeur pour les automobilistes.",
+            "Chambres spacieuses et lumineuses, souvent dotées d'un balcon agréable.",
+            "Personnel accueillant et polyglotte facilitant le séjour des voyageurs internationaux."
+        ],
+        "points_negatifs": [
+            "Certaines chambres et infrastructures affichent des signes d'usure et mériteraient un rafraîchissement.",
+            "Buffet de petit-déjeuner parfois jugé répétitif ou manquant de réapprovisionnement rapide en forte affluence.",
+            "Gestion du restaurant parfois débordée en cas de forte affluence, entraînant de l'attente.",
+            "Absence de certains équipements de confort moderne dans les chambres standard (comme un mini-réfrigérateur).",
+            "Tarifs des prestations annexes (restauration, petit-déjeuner) parfois jugés élevés par rapport à la qualité.",
+            "Isolation phonique perfectible entre les chambres et les coursives."
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Parking gratuit",
+            "Restaurant et terrasse au bord de l'eau",
+            "Bar-lounge",
+            "Wi-Fi gratuit",
+            "Chambres familiales",
+            "Climatisation",
+            "Service d'étage"
+        ],
+        "Nomad vous en dis plus": "Un conseil de pro : si vous cherchez un point de chute malin pour explorer La Haye et ses environs sans subir le stress et les prix exorbitants du centre-ville, ce Fletcher est une excellente pioche logistique. Ce qu'on adore, c'est son grand parking gratuit (assez rare dans le coin !) et sa position frontalière parfaite : d'un côté, le calme d'un petit étang verdoyant pour prendre l'air sur la terrasse, et de l'autre, le colossal 'Mall of the Netherlands' et le tram direct pour La Haye à deux pas. Certes, le standing 4 étoiles accuse un brin de fatigue par endroits et les puristes du petit-déjeuner tiqueront un peu, mais pour concilier escapade urbaine, shopping et budget maîtrisé, c'est un compromis redoutable d'efficacité.",
+        "pour_qui": {
+            "ambiance": "🌳 Verdoyant, pratique, lacustre et accessible",
+            "public": "Automobilistes et voyageurs cherchant un pied-à-terre pratique et bien relié près de La Haye",
+            "style": "Hôtel de tourisme et d'étape",
+            "verdict": "Un choix fonctionnel et idéalement situé au bord de l'eau, parfait pour combiner visites de La Haye, shopping et tranquillité avec un parking gratuit."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 350+ expériences vécues · Mise à jour : 2026"
     }
 }
