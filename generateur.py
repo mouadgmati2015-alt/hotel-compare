@@ -149,7 +149,7 @@ def get_public_image(path):
     return str(path).replace("\\", "/") if (BASE_DIR / path).exists() else ""
 
 # Éléments partagés (Logo, Menu, Témoignages, Footer)
-logo_path = "images/logo_4.svg" # (ou "logo_4.svg" s'il est à la racine)
+logo_path = "images/logo_4.png" # (ou "logo_4.svg" s'il est à la racine)
 logo_html = f'<img src="{logo_path}" alt="Nomad" class="brand-mark">'
 
 menu_html = f"""

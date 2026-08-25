@@ -25,7 +25,16 @@
             "Nécessite une réservation très anticipée pour les chambres avec vue",
             "Coûts annexes (restauration/spa) proportionnels au standing du palace"
         ],
-        "equipements": ["5 étoiles", "Piscine intérieure", "Spa et centre de bien-être", "Wi-Fi gratuit", "Service de voiturier", "Restaurants étoilés", "Climatisation"],
+        "equipements": [
+            "5 étoiles",
+            "Piscine intérieure",
+            "Spa et centre de bien-être",
+            "Wi-Fi gratuit",
+            "Service de voiturier",
+            "Restaurants étoilés",
+            "Climatisation"
+        ],
+        "Nomad, vous en dit plus": "Mon conseil de pro : si vous cherchez à vivre le sommet absolu du romantisme à la parisienne, le Shangri-La Paris boxe dans une catégorie à part. Ce qui rend ce palace absolument magique, c'est ce mariage subtil entre le faste historique de l'ancienne demeure princière de Roland Bonaparte et la fameuse touche d'hospitalité asiatique, réputée pour sa prévenance infinie. Le gros point fort qui fait chavirer les cœurs ? Ouvrir les fenêtres de sa chambre ou s'installer sur son balcon pour admirer la Tour Eiffel qui se dresse juste en face, comme un décor de cinéma exclusif. Certes, l'addition est à la hauteur de la légende et le standing impose un certain formalisme, mais l'expérience globale — de la superbe piscine intérieure sous verrière aux tables étoilées — frôle la perfection. C'est l'adresse idéale pour une occasion inoubliable ou un séjour d'exception si le budget le permet.",
         "pour_qui": {
             "ambiance": "👑 Royal, prestigieux, romantique et historique",
             "public": "Voyageurs en quête de l'expérience ultime du palace parisien",
@@ -60,7 +69,15 @@
             "Nécessite une réservation longue à l'avance pour les suites",
             "Coûts additionnels pour certains accès au spa"
         ],
-        "equipements": ["5 étoiles", "Spa Diane Barrière", "Wi-Fi gratuit", "Restaurant iconique", "Service de voiturier", "Climatisation"],
+        "equipements": [
+            "5 étoiles",
+            "Spa Diane Barrière",
+            "Wi-Fi gratuit",
+            "Restaurant iconique",
+            "Service de voiturier",
+            "Climatisation"
+        ],
+        "Nomad, vous en dit plus": "Mon conseil de pro : si vous cherchez à vivre l'effervescence du Triangle d'Or les pieds dans le glamour et l'histoire du cinéma, Le Fouquet's Paris est un choix absolument iconique. Ce qui fait le charme unique de cette adresse, c'est sa capacité à allier l'énergie vibrante des Champs-Élysées à un raffinement intérieur signé Jacques Garcia, sans oublier sa fameuse brasserie où se croisent les figures du septième art. Le gros point fort qui contraste avec l'agitation extérieure ? Plonger dans le Spa Diane Barrière, une véritable bulle de quiétude absolue en plein cœur de la capitale. Certes, l'avenue est ultra-passante et l'ambiance y est très mondaine, mais pour un séjour chic, central et ancré dans la légende parisienne, c'est une expérience inoubliable.",
         "pour_qui": {
             "ambiance": "🎬 Glamour, chic, cinématographique et central",
             "public": "Amateurs de luxe, de mode et d'ambiance parisienne iconique",
@@ -95,7 +112,16 @@
             "Accès à la plage privée en supplément",
             "Délais d'attente au petit-déjeuner en haute saison"
         ],
-        "equipements": ["5 étoiles", "Spa Deep Nature", "Rooftop avec vue", "Piscine intérieure", "Wi-Fi gratuit", "Restaurant", "Climatisation"],
+        "equipements": [
+            "5 étoiles",
+            "Spa Deep Nature",
+            "Rooftop avec vue",
+            "Piscine intérieure",
+            "Wi-Fi gratuit",
+            "Restaurant",
+            "Climatisation"
+        ],
+        "Nomad, vous en dit plus": "Mon conseil de pro : si vous cherchez à poser vos valises dans un écrin qui respire l'élégance azuréenne tout en restant à deux pas de l'effervescence niçoise, le Boscolo Nice & Spa est une valeur sûre. Ce qui marque immédiatement les esprits, c'est la splendeur de ce bâtiment Belle Époque marié à des touches de design contemporain très soignées. Le gros point fort qui fait toute la différence après une journée à flâner sur la Promenade des Anglais, c'est son immense spa de 500 m² et son rooftop parfait pour admirer le coucher de soleil sur les toits de la ville. Gardez simplement en tête qu'étant en plein centre-ville, l'animation extérieure se fait un peu entendre et que le rooftop est très couru. C'est une magnifique option chic et centrale pour vivre la dolce vita à la niçoise.",
         "pour_qui": {
             "ambiance": "☀️ Chic, azuréen, raffiné et historique",
             "public": "Couples et voyageurs recherchant le luxe au cœur de Nice",
@@ -130,7 +156,16 @@
             "Stationnement compliqué sans voiturier",
             "Options de restauration en terrasse très prisées"
         ],
-        "equipements": ["5 étoiles", "Plage privée", "Piscine chauffée", "Spa", "Wi-Fi gratuit", "Fouquet's Cannes", "Climatisation"],
+        "equipements": [
+            "5 étoiles",
+            "Plage privée",
+            "Piscine chauffée",
+            "Spa",
+            "Wi-Fi gratuit",
+            "Fouquet's Cannes",
+            "Climatisation"
+        ],
+        "Nomad, vous en dit plus": "Mon conseil de pro : si vous cherchez à vivre le grand frisson du cinéma et le glamour absolu de la Côte d'Azur, Le Majestic sur la Croisette est une légende indétrônable. Ce qui rend cet endroit magique, c'est ce parfait équilibre entre l'effervescence du mythique Festival de Cannes et un art de vivre balnéaire raffiné. Le gros point fort qui fait toute la différence ? Profiter de sa magnifique plage privée et de sa piscine chauffée à l'année, idéalement positionnées face au grand bleu. Certes, l'ambiance y est très mondaine et l'artère centrale ne désemplit jamais, mais pour un séjour luxueux, solaire et imprégné de l'histoire du septième art, c'est l'adresse parfaite.",
         "pour_qui": {
             "ambiance": "🌟 Glamour, Croisette, mondain et prestige",
             "public": "Amateurs de cinéma, de luxe et de bord de mer",
@@ -165,7 +200,15 @@
             "Conditions d'accès neigeuses complexes sans équipement",
             "Coûts élevés des services de restauration gastronomique"
         ],
-        "equipements": ["5 étoiles", "Spa de 1100 m²", "Ski-in / Ski-out", "Restaurant étoilé", "Wi-Fi gratuit", "Climatisation"],
+        "equipements": [
+            "5 étoiles",
+            "Spa de 1100 m²",
+            "Ski-in / Ski-out",
+            "Restaurant étoilé",
+            "Wi-Fi gratuit",
+            "Climatisation"
+        ],
+        "Nomad, vous en dit plus": "Mon conseil de pro : si vous cherchez le sanctuaire ultime du ski alpin et de la haute gastronomie au cœur de Courchevel 1850, Le Chabichou est une véritable institution mythique. Ce qui fait chavirer le cœur des voyageurs, c'est cette alchimie parfaite entre l'authenticité d'un grand chalet de luxe en bois et pierre et le confort absolu d'un service taillé pour les passionnés de glisse. Le gros point fort qui achève de vous convaincre après une journée sur les pistes des 3 Vallées ? Plonger dans son immense spa de 1 100 m² avant de s'offrir un dîner mémorable à sa table doublement étoilée. Certes, l'hiver y est très prisé et les tarifs s'envolent en haute saison, mais pour vivre le grand frisson de l'alpinisme chic dans les meilleures conditions, c'est une adresse incontournable.",
         "pour_qui": {
             "ambiance": "❄️ Alpin, gastronomique, sportif et exclusif",
             "public": "Skieurs passionnés et amateurs de gastronomie",
@@ -200,7 +243,16 @@
             "Ambiance très classique/historique",
             "Chambres parfois complexes à orienter vers le calme"
         ],
-        "equipements": ["5 étoiles", "Spa Guerlain", "Restaurant 2 étoiles Michelin", "Piscine intérieure", "Wi-Fi gratuit", "Service de voiturier", "Climatisation"],
+        "equipements": [
+            "5 étoiles",
+            "Spa Guerlain",
+            "Restaurant 2 étoiles Michelin",
+            "Piscine intérieure",
+            "Wi-Fi gratuit",
+            "Service de voiturier",
+            "Climatisation"
+        ],
+        "Nomad, vous en dit plus": "Mon conseil de pro : si vous cherchez à vivre l'expérience ultime du raffinement bordelais, poser vos valises à l'InterContinental Le Grand Hôtel est un véritable pèlerinage dans l'art de vivre à française. Ce qui rend ce lieu magique, c'est son emplacement majestueux, directement dressé face au Grand Théâtre, mêlant le faste d'un bâtiment néoclassique à la somptueuse signature intérieure de Jacques Garcia. Le gros point fort qui parachève le séjour ? S'offrir une parenthèse de pure détente au Spa Guerlain avant de déguster une merveille gastronomique au Pressoir d'Argent. Certes, l'ambiance y est très classique et le centre-ville s'anime intensément, mais pour un séjour luxueux, historique et les portes de la capitale mondiale du vin grand ouvertes, c'est une adresse incontournable.",
         "pour_qui": {
             "ambiance": "🍷 Gastronomique, historique, élégant et bordelais",
             "public": "Amoureux de vin, d'architecture et de gastronomie",
@@ -235,7 +287,15 @@
             "Espace petit-déjeuner très sollicité",
             "Stationnement public nécessaire à proximité"
         ],
-        "equipements": ["5 étoiles", "Spa de luxe", "Vue sur les canaux", "Wi-Fi gratuit", "Terrasse au bord de l'eau", "Climatisation"],
+        "equipements": [
+            "5 étoiles",
+            "Spa de luxe",
+            "Vue sur les canaux",
+            "Wi-Fi gratuit",
+            "Terrasse au bord de l'eau",
+            "Climatisation"
+        ],
+        "Nomad, vous en dit plus": "Mon conseil de pro : si vous cherchez à vous imprégner de la quintessence du romantisme alsacien sans renoncer au grand luxe, l'Hôtel & Spa Régent Petite France est une pure merveille. Ce qui rend ce lieu absolument inoubliable, c'est son implantation magique dans un ancien moulin du XVIIe siècle, au cœur même des canaux et des maisons à colombages de la Petite France. Le gros point fort qui parachève l'expérience ? Profiter de la terrasse lounge au bord de l'eau ou s'offrir une pause bien-être dans leur spa intimiste après avoir arpenté les rues pavées de Strasbourg. Gardez simplement en tête que le quartier est piétonnier (ce qui demande un peu d'organisation pour les bagages) et que l'adresse s'arrache littéralement lors de la période féérique du Marché de Noël. C'est un écrin de charme absolu, parfait pour une escapade en amoureux.",
         "pour_qui": {
             "ambiance": "🥨 Authentique, romantique, alsacienne et historique",
             "public": "Couples en escapade romantique et amateurs d'histoire",
@@ -270,7 +330,15 @@
             "Tarifs élevés lors de la période du marché de Noël",
             "Espace petit-déjeuner un peu exigu"
         ],
-        "equipements": ["4 étoiles", "Cour historique", "Wi-Fi gratuit", "Style Renaissance", "Climatisation", "Bar"],
+        "equipements": [
+            "4 étoiles",
+            "Cour historique",
+            "Wi-Fi gratuit",
+            "Style Renaissance",
+            "Climatisation",
+            "Bar"
+        ],
+        "Nomad, vous en dit plus": "Mon conseil de pro : si vous êtes amoureux de vieilles pierres et d'authenticité pure, franchir le porche de la Cour du Corbeau à Strasbourg, c'est littéralement remonter le temps. Ce qui rend cet endroit unique en son genre, c'est de séjourner dans l'une des plus anciennes auberges d'Europe tout en profitant d'un confort moderne irréprochable et d'un calme absolu autour de sa somptueuse cour intérieure Renaissance. Le gros point fort qui fait tout le charme de l'adresse ? Sa localisation ultra-centrale à deux pas de la cathédrale, qui vous permet de vivre la ville à pied tout en logeing dans un havre de paix confidentiel. Gardez juste en tête qu'en raison de son architecture historique classée, certaines ailes n'ont pas d'ascenseur et les sols ont ce petit côté penché typique de l'ancien. Une pépite patrimoniale à s'offrir au moins une fois dans sa vie.",
         "pour_qui": {
             "ambiance": "🏰 Historique, confidentiel, élégant et strasbourgeois",
             "public": "Passionnés d'histoire et d'architecture",
@@ -305,7 +373,16 @@
             "Loin des animations urbaines",
             "Réservation des tables de restaurant obligatoire très tôt"
         ],
-        "equipements": ["5 étoiles", "Spa Caudalie", "Vignobles", "Piscine", "Wi-Fi gratuit", "Restaurants gastronomiques", "Climatisation"],
+        "equipements": [
+            "5 étoiles",
+            "Spa Caudalie",
+            "Vignobles",
+            "Piscine",
+            "Wi-Fi gratuit",
+            "Restaurants gastronomiques",
+            "Climatisation"
+        ],
+        "Nomad, vous en dit plus": "Mon conseil de pro : si vous cherchez le sanctuaire absolu du lâcher-prise entre vignes et grands crus, Les Sources de Caudalie à Martillac est un véritable enchantement pour les sens. Ce qui rend ce domaine unique au monde, c'est cette immersion totale au cœur du Château Smith Haut Lafitte, où l'on inventé la vinothérapie, le tout dans un décor de hameau champêtre ultra-chic. Le gros point fort qui fait tout basculer ? S'offrir un soin relaxant au spa au milieu des ceps de vigne, puis savourer une table gastronomique d'exception. Gardez simplement en tête qu'on est ici pour déconnecter totalement de la ville (prévoyez une voiture si vous voulez bouger vers Bordeaux) et que les tables s'arrachent des mois à l'avance. C'est le refuge rêvé pour une parenthèse de bien-être absolu.",
         "pour_qui": {
             "ambiance": "🍇 Vinicole, bien-être, champêtre et luxueux",
             "public": "Amateurs de vin et de soins relaxants",
@@ -340,7 +417,15 @@
             "Espace plage/rocher qui peut être glissant",
             "Réservation des transats très disputée"
         ],
-        "equipements": ["5 étoiles", "Piscine d'eau de mer", "Accès mer direct", "Wi-Fi gratuit", "Design années 50", "Climatisation"],
+        "equipements": [
+            "5 étoiles",
+            "Piscine d'eau de mer",
+            "Accès mer direct",
+            "Wi-Fi gratuit",
+            "Design années 50",
+            "Climatisation"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous avez envie de couper totalement avec le tumulte et de vous offrir un retour aux sources ultra-chic, Les Roches Rouges à Saint-Raphaël est un véritable coup de cœur. Ce qui m'a complètement séduit ici, c'est cette esthétique rétro inspirée des années 50, épurée et totalement libérée du bling-bling parfois lourd de la Côte d'Azur. Le gros point fort qui donne envie de poser ses valises pour l'été ? Cette fabuleuse piscine d'eau de mer creusée à même la roche, avec la Méditerranée qui vient s'échouer juste en dessous. Gardez simplement à l'esprit que l'on est niché en pleine nature sauvage sur la corniche de l'Esterel, donc un véhicule est indispensable, et qu'ici, pas de grande plage de sable fin mais des criques rocheuses sublimes. C'est le spot rêvé pour les amoureux de design, de calme absolu et de grands bleus.",
         "pour_qui": {
             "ambiance": "🌊 Méditerranéenne, sauvage, élégante et rétro",
             "public": "Amateurs de design, de nature et de calme absolu",
