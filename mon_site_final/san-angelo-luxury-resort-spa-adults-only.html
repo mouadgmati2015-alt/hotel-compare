@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Angelo Luxury Resort &amp; Spa - Adults Only</title>
+    
+<link rel="icon" type="image/png" href="images/logo_4.png">
+<link rel="apple-touch-icon" href="images/logo_4.png">
+<style>
+:root {
+    --bg: #f2fbfd;
+    --bg-dark: #063247;
+    --panel: #e5f5f8;
+    --panel-strong: #c7eaf0;
+    --card: #ffffff;
+    --line: #b9dfe7;
+    --text: #123443;
+    --muted: #52717c;
+    --primary: #087f9b;
+    --primary-dark: #056078;
+    --secondary: #075985;
+    --success: #16805b;
+    --success-soft: #d7f4e7;
+    --warning: #e59a21;
+    --shadow: 0 18px 38px rgba(5, 96, 120, 0.14);
+}
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #f4fcfd 0%, #e7f6f8 100%);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px 16px 40px;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.site-header { margin-bottom: 24px; }
+.brand-lockup { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 18px; color: var(--text); }
+.brand-mark { width: 58px; height: 58px; object-fit: contain; border-radius: 16px; background: var(--panel-strong); padding: 5px; }
+.brand-lockup strong { display: block; color: var(--secondary); font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1; }
+.brand-lockup span { display: block; color: var(--muted); margin-top: 5px; font-size: 0.88rem; }
+h1, h2, h3, h4 { color: var(--text); }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; }
+a { color: var(--secondary); }
+.site-footer { margin-top: 48px; background: linear-gradient(135deg, #063247, #075985); color: #effcff; border-radius: 22px; padding: 30px; box-shadow: var(--shadow); }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 28px; }
+.site-footer h3, .site-footer h4 { color: #b8f0f6; margin-top: 0; }
+.site-footer p, .site-footer li { color: #d6eef2; line-height: 1.6; }
+.site-footer a { color: #b8f0f6; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+.footer-links { list-style: none; padding: 0; margin: 0; }
+.footer-links li { margin-bottom: 8px; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.18); margin-top: 24px; padding-top: 18px; display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; font-size: 0.85rem; }
+.footer-bottom p { margin: 0; }
+@media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } .brand-lockup { justify-content: flex-start; } }
+.top-nav {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    background: linear-gradient(135deg, var(--secondary), var(--primary-dark));
+    padding: 14px 18px; border-radius: 18px; margin: 6px 0 22px;
+    box-shadow: var(--shadow); justify-content: center;
+}
+.top-nav a {
+    color: white; background: rgba(255,255,255,0.12);
+    padding: 10px 16px; border-radius: 12px; text-decoration: none;
+    font-weight: 700; border: 1px solid rgba(255,255,255,0.15);
+}
+.top-nav a:hover { background: rgba(255,255,255,0.2); }
+.card {
+    background: linear-gradient(180deg, #fffefb 0%, #fff8ef 100%);
+    border: 1px solid var(--line); border-radius: 20px;
+    padding: 24px; margin-bottom: 22px; box-shadow: var(--shadow);
+}
+.btn, .btn-booking, .btn-expedia {
+    display: inline-block; text-decoration: none; border-radius: 12px;
+    font-weight: 700; transition: transform 0.2s ease; cursor: pointer;
+}
+.btn:hover, .btn-booking:hover, .btn-expedia:hover { transform: translateY(-1px); }
+.btn { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 18px; }
+.btn-booking { display: block; background: linear-gradient(135deg, #0f3d85, #1d5bbf); color: white; padding: 12px 16px; text-align: center; margin-bottom: 10px; }
+.btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
+
+.hero-banner {
+    background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
+    border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
+}
+.hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 18px; }
+.hero-badges span {
+    background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.24); color: #f2fdff; border-radius: 999px; padding: 7px 12px; font-weight: 700; font-size: 0.82rem;
+}
+.glass-box { background: rgba(255,255,255,0.72); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+.filters-box {
+    background: linear-gradient(180deg, #e3f5f8 0%, #f8fdfe 100%);
+    border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 24px 0 18px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; box-shadow: var(--shadow);
+}
+.filters-box label { color: var(--muted); display: block; margin-bottom: 8px; font-weight: 700; }
+.filters-box select {
+    width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--text); font-size: 0.97rem;
+}
+.btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
+.comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.smart-results-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.smart-results-grid .card { margin-bottom: 0; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
+.review-card {
+    background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
+    border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
+}
+.review-card .stars { color: var(--warning); font-size: 1.1rem; letter-spacing: 2px; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 16px; margin-top: 18px; }
+.stat-item { background: rgba(255,255,255,0.5); border: 1px solid rgba(130,90,20,0.15); border-radius: 16px; padding: 18px; }
+.stat-item strong { display: block; font-size: 1.5rem; }
+.testimonial-section > h2 { color: var(--text) !important; }
+.testimonial-section > div > div { background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%) !important; border-color: var(--line) !important; }
+.testimonial-section > div > div p { color: var(--muted) !important; }
+.testimonial-section > div > div p:first-child { color: var(--warning) !important; }
+.testimonial-section > div > div p strong { color: var(--text) !important; }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 1000px) { .smart-results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .smart-results-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+</style>
+
+</head>
+<body>
+<div class="container">
+<header class="site-header">
+<div class="brand-lockup">
+    <img src="images/logo_4.png" alt="Nomad" class="brand-mark">
+    <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
+</div>
+<div class="top-nav">
+    <a href="index.html">Accueil / Hôtels</a>
+    <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
+    <a href="loueurs-vehicules.html">Location de Véhicules</a>
+    <a href="croisieres.html">Croisières</a>
+    <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
+</div>
+</header>
+
+<a href="index.html" style="color: var(--secondary); display: inline-block; margin-bottom: 15px; text-decoration: none; font-weight:700;">← Retour à l'accueil</a>
+<div class="card">
+    <h1>San Angelo Luxury Resort &amp; Spa - Adults Only</h1>
+    <p style="color: #6e4d39;">📍 Saranda, Albanie | ⭐ 5 étoiles (ressenti mitigé selon les standards clients)</p>
+    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/575500736.jpg?k=e466386b5c262cff9898499104c0c35365e21086b328ae752f0d8faa92589d59&o=" style="width:100%; max-height:350px; object-fit:cover; border-radius:16px; margin:15px 0;">
+    <p style="color:#15803d; font-weight:700; font-size: 1.2em;">💰 700€ - 1 500€ / semaine (selon la saison)</p>
+
+    <h3>✨ Description</h3>
+    <p>Niché au cœur de la magnifique ville côtière de Saranda, face à l&#39;île de Corfou, le San Angelo Luxury Resort &amp; Spa se présente comme un établissement réservé aux adultes, conçu pour offrir une parenthèse de détente haut de gamme en bord de mer. L&#39;hôtel dispose d&#39;un accès direct à une plage privée aménagée, d&#39;une piscine extérieure sophistiquée et d&#39;un espace bien-être comprenant hammam et sauna. Les chambres affichent un design moderne et esthétique, proposant pour certaines des suites somptueuses dotées de baignoires panoramiques et de superbes vues maritimes. Cependant, malgré un positionnement luxueux et une équipe globalement accueillante, l&#39;établissement fait face à des critiques récurrentes concernant la gestion du bruit (ambiance type beach club très rythmée), des finitions de construction parfois inachevées, ainsi que des prestations de restauration et de service qui peinent à satisfaire pleinement les exigences inhérentes au standing 5 étoiles.</p>
+    <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">Mon avis de voyageur sur le San Angelo : c&#39;est un hôtel qui cultive le paradoxe. D&#39;un côté, visuellement, il en met plein la vue avec son design soigné, sa belle piscine et ses superbes suites face à la mer qui appellent à la romance. De l&#39;autre, si vous réservez en pensant trouver un havre de paix feutré sous prétexte qu&#39;il s&#39;agit d&#39;un &#39;Adults Only&#39;, vous risquez d&#39;avoir une sacrée surprise en journée. L&#39;ambiance musicale y est tellement puissante qu&#39;on se croirait dans un beach club en plein festival, ce qui tranche radicalement avec l&#39;idée d&#39;un repos paisible. Ajoutez à cela un service de petit-déjeuner en deçà des attentes et quelques approximations de finitions propres à un hôtel qui brille plus par son esthétique de surface que par sa rigueur hôtelière. C&#39;est une option magnifique si vous cherchez du style et que l&#39;ambiance festive ne vous effraie pas, mais à ce niveau de prix, la promesse de luxe n&#39;est pas totalement tenue.</p></div>
+    <h3>🛠️ Équipements</h3><p>Adults Only, Piscine extérieure, Plage privée, Spa et hammam, Restaurants et bar, Parking gratuit (places limitées), Connexion Wi-Fi gratuite, Climatisation</p>
+    <h3>✅ Points Positifs</h3><ul><li>Personnel extrêmement aimable, professionnel et aux petits soins pour les clients. (Booking.com)</li><li>Emplacement privilégié en front de mer avec une plage privée accessible et bien équipée. (Expedia)</li><li>Cadre extérieur esthétique, doté d&#39;une très belle piscine et d&#39;un design général moderne. (TripAdvisor)</li><li>Suites spacieuses offrant de superbes vues sur la mer et l&#39;île de Corfou, incluant de belles baignoires. (Booking.com)</li><li>Espace spa et installations de bien-être appréciés pour se détendre en fin de journée. (Expedia)</li></ul>
+    <h3>⚠️ Points négatifs</h3><ul><li>Musique extrêmement forte et continue autour de la piscine s&#39;apparentant à un club de vacances, nuisant au calme recherché. (Booking.com)</li><li>Qualité, choix et fraîcheur du petit-déjeuner jugés très décevants pour un prétendu standing 5 étoiles. (TripAdvisor)</li><li>Problèmes de maintenance, finitions de salles de bains parfois négligées et équipements de chambre perfectibles. (Expedia)</li><li>Parking souterrain extrêmement exigu et difficile d&#39;accès, avec un nombre de places très limité. (Booking.com)</li><li>Incidents liés à la sécurité ou à l&#39;organisation générale (coupures de courant, gestion du check-in) signalés par certains visiteurs. (TripAdvisor)</li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px;">
+            <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+            <p>Couples et voyageurs fêtards cherchant un cadre design les pieds dans l&#39;eau à Saranda</p>
+            <p style="color:var(--muted);">✨ Esthétique, branché et très animé · Resort design et festif</p>
+            <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Un panorama et un look spectaculaires, mais un positionnement 5 étoiles gâché par une ambiance sonore trop lourde et des services inconstants.</p>
+        </div>
+        
+
+    <div style="margin-top: 30px;">
+        <a href="https://www.booking.com/hotel/al/san-angelo-resort.fr.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>
+        <a href="https://www.expedia.fr/Sarande-Hotel-San-Angelo-Luxury-Resort-Adults-Only.h104670889.Description-Hotel" target="_self" class="btn-expedia">Réserver sur Expedia</a>
+    </div>
+</div>
+
+<div class="card">
+    <h2 style="margin-top:0;">💬 Avis clients</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
+        
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p style="font-weight:700; margin: 12px 0 8px;">Camille</p>
+            <p style="font-size:0.82rem; color:var(--muted); margin:0 0 8px;">Voyage en couple</p>
+            <p style="margin:0; line-height:1.6; color: var(--text);">L&#39;emplacement à Saranda est très pratique et l&#39;équipe a été particulièrement accueillante.</p>
+        </div>
+        
+        <div class="review-card">
+            <div class="stars">★★★★☆</div>
+            <p style="font-weight:700; margin: 12px 0 8px;">Thomas</p>
+            <p style="font-size:0.82rem; color:var(--muted); margin:0 0 8px;">Voyageur régulier</p>
+            <p style="margin:0; line-height:1.6; color: var(--text);">Très bon séjour : les services essentiels sont au rendez-vous et l&#39;accueil est chaleureux.</p>
+        </div>
+        
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p style="font-weight:700; margin: 12px 0 8px;">Clara</p>
+            <p style="font-size:0.82rem; color:var(--muted); margin:0 0 8px;">Séjour romantique</p>
+            <p style="margin:0; line-height:1.6; color: var(--text);">Nous avons apprécié le calme, la propreté et le bon rapport qualité-prix de cet établissement.</p>
+        </div>
+        
+    </div>
+</div>
+
+
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <h3>Nomad</h3>
+            <p>Le compagnon de voyage qui vous aide à choisir plus vite et à partir plus serein.</p>
+        </div>
+        <div>
+            <h4>Explorer</h4>
+            <ul class="footer-links">
+                <li><a href="index.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
+                <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
+                <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
+                <li><a href="croisieres.html">Croisières</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>À propos</h4>
+            <ul class="footer-links">
+                <li><a href="apropos.html">À propos de nous</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Conseils de voyage</a></li>
+                <li><a href="index.html#avis">Avis voyageurs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Votre retour compte</h4>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
+        <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
+    </div>
+</footer>
+
+</div></body></html>
