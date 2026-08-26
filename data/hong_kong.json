@@ -141,7 +141,7 @@
         "pays": "Hong Kong",
         "ville": "Hong Kong",
         "etoiles": "4 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/hk/ying-39-nflo-wesley-admiralty-hong-kong.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/hk/ying-39-nflo-wesley-admiralty-hong-kong.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Hong-Kong-Hotel-YingnFlo.h22825.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/579874792.jpg?k=211e99f2fa3ad4ba5d2d96eddae49e9db74be701c5ecd19f16aa476a79577020&o=",
         "description": "Établissement élégant, avant-gardiste et idéalement situé près d'Admiralty, le Ying'nFlo, Wesley Admiralty s'adresse particulièrement aux voyageurs d'affaires et de loisirs exigeants. Cet hôtel 4 étoiles mise sur un concept novateur, alliant design épuré, technologies connectées et espaces de vie conviviaux favorisant les échanges. Sa localisation stratégique dans le quartier d'Admiralty garantit un accès ultra-rapide aux principaux centres financiers, ministériels et culturels de l'île, ainsi qu'aux réseaux de transports majeurs. Les chambres y sont pensées pour optimiser l'espace avec une élégance moderne, offrant un havre de paix sophistiqué au cœur de l'effervescence urbaine.",
@@ -175,6 +175,7 @@
             "Réception et conciergerie",
             "Climatisation"
         ],
+        "Nomad vous en dis plus": "Si vous cherchez un pied-à-terre branché, ultra-connecté et parfaitement situé dans le quartier d'affaires d'Admiralty, le Ying'nFlo bouscule les codes de l'hôtellerie traditionnelle à Hong Kong. Avec son design épuré et son ambiance avant-gardiste, c'est l'adresse idéale pour allier l'efficacité professionnelle et le plaisir d'explorer l'île dans un cadre résolument moderne.",
         "pour_qui": {
             "ambiance": "💼 Moderne, connecté, élégant, minimaliste et urbain",
             "public": "Professionnels en déplacement, nomades digitaux et touristes amateurs de design contemporain",
@@ -187,7 +188,7 @@
         "pays": "Hong Kong",
         "ville": "Hong Kong",
         "etoiles": "4 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/hk/kowloon.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/hk/kowloon.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Kowloon-Hotel-The-Kowloon-Hotel.h1044118.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/230206134.jpg?k=b20d0090a288632b18e96b78bd08cf588d594b01fa6a25fe13392bcb9256b26d&o=",
         "description": "Bénéficiant d'un emplacement central absolument imbattable au cœur de Tsim Sha Tsui, The Kowloon Hotel place ses clients au plus près de l'action. Situé à deux pas du mythique port de Victoria, des célèbres centres commerciaux et des terminaux de ferries, cet établissement 4 étoiles garantit une accessibilité exceptionnelle. Il propose des chambres fonctionnelles et confortables, conçues pour offrir un repos bien mérité après une journée de shopping ou de visite. Sa connexion directe avec les stations de métro et les galeries marchandes en fait l'une des adresses les plus recherchées de Kowloon pour un séjour ultra-pratique.",
@@ -221,6 +222,7 @@
             "Service de change",
             "Climatisation"
         ],
+        "Nomad vous en dis plus": "De vous à moi, si vous placez l'emplacement absolu au sommet de vos priorités pour explorer Hong Kong à pied, The Kowloon Hotel est une valeur sûre redoutable. Sa connexion directe avec le métro et les centres commerciaux de Tsim Sha Tsui compense largement la taille compacte de ses chambres.",
         "pour_qui": {
             "ambiance": "🛍️ Central, animé, ultra-pratique et dynamique",
             "public": "Shoppers invétérés, premiers visiteurs à Hong Kong et touristes voulant tout faire à pied",
@@ -233,7 +235,7 @@
         "pays": "Hong Kong",
         "ville": "Hong Kong",
         "etoiles": "4 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/hk/holidayinn.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/hk/holidayinn.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Kowloon-Hotel-Holiday-Inn-Golden-Mile.h8076.Description-Hotel",
         "image": "https://images.trvl-media.com/lodging/1000000/10000/8100/8076/51a57a74.jpg?impolicy=resizecrop&rw=1200&ra=fit",
         "description": "Véritable valeur sûre au cœur de Tsim Sha Tsui, le Holiday Inn Golden Mile Hong Kong offre des services complets et une hospitalité irréprochable. Cet établissement 4 étoiles se distingue par ses infrastructures de premier ordre, incluant une magnifique piscine sur le toit offrant une vue relaxante au milieu des gratte-ciel, ainsi que plusieurs restaurants réputés. Sa situation sur Nathan Road place les clients à proximité immédiate des attractions majeures, des boutiques de luxe et des transports. C'est l'adresse idéale pour les familles et les voyageurs recherchant le confort rassurant d'une grande marque internationale combiné à une localisation parfaite.",
@@ -267,6 +269,7 @@
             "Connexion Wi-Fi gratuite",
             "Climatisation"
         ],
+        "Nomad vous en dis plus": "Si vous cherchez un point de chute parfaitement rodé sur la célèbre Nathan Road, le Holiday Inn Golden Mile coche toutes les cases du confort international. Ce qu'on adore par-dessus tout, c'est sa superbe piscine sur le toit qui offre une bulle de décompression rare et précieuse au milieu de la jungle urbaine de Kowloon.",
         "pour_qui": {
             "ambiance": "🌟 Confortable, complet, animé, accueillant et réputé",
             "public": "Familles, couples et voyageurs d'affaires cherchant un hôtel fiable, bien équipé et idéalement situé",
@@ -279,7 +282,7 @@
         "pays": "Hong Kong",
         "ville": "Hong Kong",
         "etoiles": "5 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/hk/mondrian-hong-kong.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/hk/mondrian-hong-kong.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Kowloon-Hotel-Mondrian-Hong-Kong.h1238169.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/518500241.jpg?k=db5c6edf3027ebb512f0075ad781fccdfdd9599c308f051588007c0b72a3bb11&o=",
         "description": "Le Mondrian Hong Kong est un hôtel design et luxueux qui offre une expérience haut de gamme incomparable au cœur de Kowloon. Cet établissement 5 étoiles fusionne l'art contemporain, une esthétique audacieuse et une vision sophisituée de l'hôtellerie urbaine. Situé à Tsim Sha Tsui, il propose des chambres somptueuses dotées de vues spectaculaires sur le port ou la ville, ainsi que des concepts de restauration et de bars branchés qui attirent autant les voyageurs que les esthètes locaux. Chaque espace est pensé pour éveiller les sens et procurer un séjour mémorable placé sous le signe du prestige et de l'avant-garde.",
@@ -313,6 +316,7 @@
             "Service de conciergerie VIP",
             "Climatisation"
         ],
+        "Nomad vous en dis plus": "Si vous avez l'œil artistique et que vous cherchez un lieu où le luxe rencontre l'avant-garde à Kowloon, le Mondrian est une claque visuelle et sensorielle. Ses vues spectaculaires sur la skyline et son ambiance branchée en font l'écrin parfait pour un séjour haut de gamme et mémorable.",
         "pour_qui": {
             "ambiance": "🎨 Artistique, luxueux, branché, spectaculaire et exclusif",
             "public": "Amateurs de design, voyageurs fortunés et couples en quête d'une expérience hôtelière branchée et haut de gamme",
@@ -325,7 +329,7 @@
         "pays": "Hong Kong",
         "ville": "Hong Kong",
         "etoiles": "3 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/hk/imperial.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/hk/imperial.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Kowloon-Hotel-The-Imperial-Hotel.h6393.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/868578391.jpg?k=6ea9f8f027e93bc2a97ea2c062e532ce588c6eed038c43e1ff725691d8847bb6&o=",
         "description": "L'Imperial Hotel est une option économique et extrêmement bien située, idéale pour les voyageurs qui souhaitent être au cœur de l'action à Kowloon. Niché sur Nathan Road dans le quartier animé de Tsim Sha Tsui, cet hôtel 3 étoiles permet d'accéder en quelques minutes à pied au port de Victoria, aux marchés nocturnes et aux stations de métro. S'il mise avant tout sur la simplicité et l'aspect pratique, il propose des chambres propres, fonctionnelles et dotées du nécessaire pour passer un séjour agréable. C'est le choix malin par excellence pour maximiser son budget tout en profitant d'un emplacement absolument central.",
@@ -359,6 +363,7 @@
             "Service de change",
             "Climatisation"
         ],
+        "Nomad vous en dis plus": "Si votre objectif numéro un à Hong Kong est de loger en plein cœur de Tsim Sha Tsui sans y laisser votre PEL, l'Imperial Hotel est une alternative de secours redoutable. Certes, le mobilier a un peu vieilli, mais son emplacement sur Nathan Road à ce tarif est une aubaine pour les petits budgets.",
         "pour_qui": {
             "ambiance": "🚶 Économique, central, simple, pratique et animé",
             "public": "Voyageurs solitaires, routards et touristes au budget serré voulant loger en plein centre",
@@ -371,7 +376,7 @@
         "pays": "Hong Kong",
         "ville": "Hong Kong",
         "etoiles": "Auberge / Hôtel",
-        "lien_booking": "https://www.booking.com/hotel/hk/the-nap-mong-kok.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/hk/the-nap-mong-kok.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Kowloon-Hotel-The-Nap-Tsim-Sha-Tsui.h32868873.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/279582438.jpg?k=4677687749f6541cd929ce1d1de8bf26f6044611e17830a087fc966a176fbe53&o=",
         "description": "The Nap @ K11 Tsim Sha Tsui est une option moderne, originale et ultra-centrale, parfaite pour un séjour rapide, technologique et dynamique au cœur des boutiques de Kowloon. Inspiré des concepts de capsules haut de gamme et d'hôtellerie astucieuse, cet établissement propose des espaces de repos optimisés, propres et ultra-modernes qui garantissent intimité et confort à moindre coût. Situé juste à côté du complexe culturel et commercial K11, il place les voyageurs au centre névralgique de la mode, de l'art et du shopping. C'est la solution idéale pour les nomades urbains, les voyageurs solo ou les adeptes de séjours courts cherchant un design futuriste et un emplacement d'une centralité absolue.",
@@ -405,6 +410,7 @@
             "Espaces communs propres",
             "Climatisation"
         ],
+        "Nomad vous en dis plus": "Si vous voyagez en solo ou en mode minimaliste et que vous cherchez une expérience high-tech au pied du K11, The Nap réinvente la capsule avec un brio remarquable. C'est propre, astucieux, hyper-central et parfait pour un court séjour où l'on ne passe que peu de temps à l'intérieur.",
         "pour_qui": {
             "ambiance": "🚀 Futuriste, minimaliste, high-tech, jeune et ultra-central",
             "public": "Voyageurs solos, geeks, nomades et touristes minimalistes en transit ou court séjour",
