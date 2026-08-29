@@ -433,5 +433,54 @@
             "verdict": "Le summum du luxe méditerranéen simple et chic, tourné vers la mer."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 450+ avis clients · Mise à jour : 2026"
+    },
+"Camping Les Palmiers": {
+        "pays": "France",
+        "ville": "Hyères",
+        "etoiles": "Camping 4 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/fr/camping-les-palmiers.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Hyeres-Hotel-Camping-Tikayan-Les-Palmiers.h88212355.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/621665034.jpg?k=67d58d32e841c2f2c69e617473fccd66dcd18485dc7cf56524b2e803478ea3db&o=",
+        "description": "Situé à seulement 450 mètres de la plage et à 6 km du centre de Hyères, le Camping Les Palmiers propose un vaste complexe de loisirs en plein air. Cet établissement 4 étoiles dispose d'un grand parc aquatique comprenant une piscine extérieure avec cascade, des toboggans et une piscine chauffée, ainsi qu'un espace spa avec hammam, sauna et salle de sport. Les hébergements en mobil-homes climatisés disposent d'une cuisine équipée et d'une terrasse. Le camping propose également un restaurant-pizzeria, un bar, des animations en saison, des aires de jeux et de nombreuses activités sportives.",
+        "prix_moyen": "70€ - 160€ / nuit (selon saison et mobil-home)",
+        "avis": "7,7/10 Bien",
+        "notes_categories": {
+            "personnel": "8,3/10",
+            "equipements": "7,7/10",
+            "proprete": "7,6/10",
+            "confort": "7,5/10",
+            "rapport_qualite_prix": "7,6/10",
+            "situation_geographique": "7,9/10"
+        },
+        "points_positifs": [
+            "Superbe complexe aquatique avec piscines, cascade et toboggans",
+            "Proximité de la plage (450 mètres à pied)",
+            "Mobil-homes fonctionnels dotés de la climatisation et de terrasses agréables",
+            "Équipe d'animation sympathique et nombreuses activités familiales",
+            "Présence d'un restaurant-pizzeria, d'un bar et d'une supérette sur place"
+        ],
+        "points_negatifs": [
+            "Proximité de l'aéroport d'Hyères entraînant parfois des nuisances sonores liées au passage des avions",
+            "Affluence importante en haute saison au niveau des espaces aquatiques",
+            "Règles et animations estivales parfois jugées un peu bruyantes par certains vacanciers cherchant le calme absolu"
+        ],
+        "equipements": [
+            "Camping 4 étoiles",
+            "Parc aquatique avec toboggans et piscines",
+            "Spa (hammam, sauna) et salle de sport",
+            "Restaurant-pizzeria & Bar",
+            "Supérette / Proxi",
+            "Parking sur place",
+            "Terrains de sport (tennis, volley, mini-golf)",
+            "Climatisation dans les mobil-homes"
+        ],
+        "Nomad vous en dis plus": "Si vous cherchez une ambiance 100% club et familiale sous le soleil varois à deux pas de la plage, le Camping Les Palmiers à Hyères offre une formule dynamique et très complète. Ce qu'on adore, c'est son grand parc aquatique avec toboggans qui fait le bonheur des enfants et sa proximité immédiate avec la mer. Attention toutefois si vous avez le sommeil léger : la proximité de l'aéroport d'Hyères fait que l'on entend occasionnellement les avions, mais cela amuse généralement beaucoup les plus jeunes !",
+        "pour_qui": {
+            "ambiance": "🌴 Animé, familial, aquatique, chaleureux et estival",
+            "public": "Familles avec enfants, groupes d'amis et couples cherchant des vacances animées les pieds dans l'eau",
+            "style": "Camping-village club 4 étoiles avec parc aquatique",
+            "verdict": "Une excellente option pour des vacances en famille rythmées, entre grand complexe aquatique, animations et proximité de la plage d'Hyères."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 888 expériences vécues · Mise à jour : 2026"
     }
 }

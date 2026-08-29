@@ -81,5 +81,210 @@
             "verdict": "L'Hotel Hasselhof Garni Vier Sterne est l'adresse parfaite pour les voyageurs recherchant le calme, la sérénité et le confort dans les montagnes du Harz. Grâce à ses hôtes aux petits soins, sa piscine intérieure, ses chambres lumineuses avec balcon et son excellent petit-déjeuner, il garantit un séjour chaleureux et profondément relaxant, particulièrement apprécié des couples."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 724 expériences vécues · Mise à jour : 2026"
+    },
+    "MEININGER Hotel München Olympiapark": {
+        "pays": "Allemagne",
+        "ville": "Munich",
+        "etoiles": "Hôtel / Résidence (Non classé formellement en étoiles mais positionné standard)",
+        "lien_booking": "https://www.booking.com/hotel/de/meininger-munchen-olympiapark.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Munich-Hotel-Meininger-Hotel-Munich-City-Center.h1191751.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/197185673.jpg?k=90517ec42f549eaf45c10a81797f4597ae13b0ef86bad234bd22e451c969e372&o=",
+        "description": "Situé à Munich sur la Landshuter Allee dans le quartier de Neuhausen - Nymphenburg, le MEININGER Hotel München Olympiapark propose un hébergement moderne à proximité immédiate de l'Olympiapark et du BMW Welt. Cet établissement non-fumeurs dispose d'une réception ouverte 24h/24, d'une terrasse, d'un bar, d'une cuisine commune, d'une salle de jeux avec billard et d'un service de location de vélos. Les chambres insonorisées sont dotées d'un coin salon, d'une télévision à écran plat et d'une salle de bains privative.",
+        "prix_moyen": "75€ - 140€ / nuit",
+        "avis": "7,4/10 Bien",
+        "notes_categories": {
+            "personnel": "8,4/10",
+            "equipements": "7,6/10",
+            "proprete": "7,6/10",
+            "confort": "7,5/10",
+            "rapport_qualite_prix": "7,8/10",
+            "situation_geographique": "8,4/10",
+            "connexion_wifi_gratuite": "8,6/10"
+        },
+        "points_positifs": [
+            "Excellente situation géographique notée 8,4, proche de l'Olympiapark et du BMW Welt",
+            "Personnel accueillant et serviable (noté 8,4/10)",
+            "Connexion Wi-Fi gratuite performante (8,6/10)",
+            "Infrastructures pratiques : cuisine commune, salle de jeux, bar et location de vélos",
+            "Proximité immédiate des arrêts de bus et tramways"
+        ],
+        "points_negatifs": [
+            "Absence de climatisation signalée par de nombreux voyageurs, rendant les chambres chaudes en été",
+            "Fenêtres souvent bloquées ou non ouvrables en grand (ou ventilation limitée dans certaines chambres)",
+            "Propreté des parties communes et des couloirs parfois critiquée",
+            "Rapport qualité-prix ou options du petit-déjeuner jugés perfectibles par certains clients"
+        ],
+        "equipements": [
+            "Connexion Wi-Fi gratuite",
+            "Parking privé",
+            "Réception ouverte 24h/24",
+            "Chambres non-fumeurs",
+            "Équipements pour personnes à mobilité réduite",
+            "Terrasse & Bar",
+            "Cuisine et laverie en libre-service",
+            "Salle de jeux et billard",
+            "Ascenseur et chauffage"
+        ],
+        "Nomad vous en dis plus": "Si vous cherchez un point de chute fonctionnel, moderne et idéalement placé pour assister à un événement à l'Olympiapark ou visiter Munich entre amis ou en famille, le MEININGER München Olympiapark fait le travail. Ce qu'on adore, c'est son esprit jeune, sa cuisine commune bien pratique et son accessibilité en tram. Attention toutefois aux mois d'été : l'absence de climatisation et les fenêtres parfois bloquées peuvent rendre les nuits un brin étouffantes si vous êtes sensible à la chaleur !",
+        "pour_qui": {
+            "ambiance": "🚲 Moderne, pratique, animé, jeune et fonctionnel",
+            "public": "Groupes d'amis, familles et voyageurs au budget maîtrisé cherchant un pied-à-terre bien desservi à Munich",
+            "style": "Hôtel / Auberge urbaine contemporaine",
+            "verdict": "Une option de séjour pratique et bien placée, idéale pour explorer Munich sans se ruiner, à condition de bien anticiper les fortes chaleurs estivales en raison de l'absence de climatisation."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 4 824 expériences vécues · Mise à jour : 2026"
+    },
+    "DORMERO Hotel München-Kirchheim Messe": {
+        "pays": "Allemagne",
+        "ville": "Kirchheim bei München",
+        "etoiles": "4 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/de/dormero-hotel-munich-kirchheim-messe.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Munich-Hotel-DORMERO-Hotel-Munchen-Kirchheim-Messe.h66350.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/184135506.jpg?k=a564b0ff558b16ac1a0ebe8f6bb0b149826bc1fee784fbd759c9e55037c1c895&o=",
+        "description": "Situé à Kirchheim bei München sur la Räterstraße, à proximité immédiate de l'autoroute et à environ 5 km du parc des expositions (Messe München), le DORMERO Hotel München-Kirchheim Messe est un établissement 4 étoiles très apprécié des voyageurs d'affaires et de passage. L'hôtel propose des chambres confortables et modernes dotées d'un bureau, d'un minibar (avec boissons gratuites), d'une télévision géante et d'une connexion Wi-Fi gratuite. Les clients profitent également d'un parking souterrain, d'un bar, d'une salle de fitness et d'installations de bien-être, le tout complété par un accueil chaleureux et un excellent rapport qualité-prix.",
+        "prix_moyen": "85€ - 150€ / nuit",
+        "avis": "7,9/10 Bien",
+        "notes_categories": {
+            "personnel": "8,5/10",
+            "equipements": "8,0/10",
+            "proprete": "8,0/10",
+            "confort": "8,1/10",
+            "rapport_qualite_prix": "8,4/10",
+            "situation_geographique": "8,4/10",
+            "connexion_wifi_gratuite": "8,0/10"
+        },
+        "points_positifs": [
+            "Excellent rapport qualité-prix (noté 8,4/10)",
+            "Boissons du minibar incluses et petites attentions dans le lobby",
+            "Proximité de l'autoroute, des commerces et de la gare S-Bahn (Heimstetten) pour rejoindre Munich",
+            "Personnel attentif et accueillant (noté 8,5/10)",
+            "Parking souterrain pratique directement sur place"
+        ],
+        "points_negatifs": [
+            "Absence de climatisation, ce qui peut rendre les chambres très chaudes en cas de fortes canicules estivales",
+            "Présence ponctuelle de travaux ou d'échafaudages pouvant gêner la vue ou l'ouverture des fenêtres",
+            "Rues ou environs parfois bruyants selon l'emplacement de la chambre"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Parking souterrain",
+            "Connexion Wi-Fi gratuite",
+            "Minibar offert",
+            "Salle de fitness & spa",
+            "Bar & Salon",
+            "Chambres non-fumeurs",
+            "Réception ouverte 24h/24",
+            "Climatisation dans les espaces communs"
+        ],
+        "Nomad vous en dis plus": "De vous à moi, si vous cherchez une étape confortable, bien reliée à l'autoroute ou au parc des expositions de Munich sans payer les prix exorbitants du centre-ville, le DORMERO de Kirchheim est une excellente pioche. Ce qu'on adore, ce sont les petites attentions très appréciables comme les boissons du minibar offertes et le billard en libre-service. Gardez juste en tête qu'en plein cœur de l'été, l'absence de climatisation demande un peu de patience les jours de forte chaleur !",
+        "pour_qui": {
+            "ambiance": "🚗 Pratique, moderne, chaleureux et économique",
+            "public": "Voyageurs d'affaires, exposants du salon de Munich, couples et automobilistes en transit",
+            "style": "Hôtel urbain 4 étoiles fonctionnel",
+            "verdict": "Une adresse idéale pour un séjour d'affaires ou une étape routière réussie, combinant tarifs doux, prestations modernes et superbes attentions incluses."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 1 834 expériences vécues · Mise à jour : 2026"
+    },
+"Mercure Berlin Wittenbergplatz": {
+        "pays": "Allemagne",
+        "ville": "Berlin",
+        "etoiles": "4 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/de/mercure-berlin-wittenbergplatz.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Berlin-Hotels-Mercure-Hotel-Berlin-Wittenbergplatz.h146313.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/86032486.jpg?k=76a97b9ccd0b9d7e8a28e2572418e4e3efe3eae7fc6c1e0637526584b6778f51&o=",
+        "description": "Situé à Berlin dans le quartier branché et commerçant de Schöneberg, le Mercure Berlin Wittenbergplatz s'impose avec une superbe note globale de 8,7 et un emplacement géographique exceptionnel noté 9,6. Cet hôtel 4 étoiles chic et contemporain se trouve juste en face de la magnifique station de métro de Wittenbergplatz et à une minute à pied du célèbre grand magasin KaDeWe ainsi que du boulevard Kurfürstendamm. Il propose des chambres climatisées élégantes et bien insonorisées (certaines avec balcon), un restaurant-bar branché et un buffet de petit-déjeuner somptueux.",
+        "prix_moyen": "120€ - 220€ / nuit",
+        "avis": "8,7/10 Superbe",
+        "notes_categories": {
+            "personnel": "9,1/10",
+            "equipements": "8,7/10",
+            "proprete": "9,0/10",
+            "confort": "9,1/10",
+            "rapport_qualite_prix": "8,6/10",
+            "situation_geographique": "9,6/10",
+            "connexion_wifi_gratuite": "8,8/10"
+        },
+        "points_positifs": [
+            "Situation géographique idéale notée 9,6, juste en face du métro et du KaDeWe",
+            "Buffet de petit-déjeuner généreux, varié et de grande qualité",
+            "Chambres spacieuses, calmes, propres et parfaitement insonorisées",
+            "Personnel extrêmement aimable, professionnel et aux petits soins (9,1/10)",
+            "Confort général haut de gamme avec une literie de qualité"
+        ],
+        "points_negatifs": [
+            "Absence de parking privé direct au sein de l'hôtel (stationnement payant dans les environs ou au KaDeWe)",
+            "Tarifs du petit-déjeuner jugés parfois un peu élevés par certains voyageurs",
+            "Accès de plain-pied pavé pouvant rendre le transport de valises à roulettes légèrement délicat"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Restaurant & Bar branché",
+            "Connexion Wi-Fi gratuite",
+            "Climatisation",
+            "Chambres non-fumeurs",
+            "Équipements pour personnes à mobilité réduite",
+            "Réception ouverte 24h/24",
+            "Service d'étage",
+            "Plateau/bouilloire dans toutes les chambres"
+        ],
+        "Nomad vous en dis plus": "Si vous voulez rayonner facilement dans Berlin tout en profitant d'un confort 4 étoiles irréprochable au pied du métro et du mythique KaDeWe, le Mercure Berlin Wittenbergplatz est une valeur sûre absolue. Ce qu'on adore, c'est son emplacement imbattable, son calme surprenant en plein cœur de la ville et son buffet de petit-déjeuner d'une grande générosité. Une adresse urbaine chic et parfaitement rodée pour un séjour berlinois sans fausse note.",
+        "pour_qui": {
+            "ambiance": "🏙️ Chic, urbain, élégant, central et dynamique",
+            "public": "Couples, familles et voyageurs d'affaires cherchant le compromis parfait entre emplacement stratégique et standing 4 étoiles",
+            "style": "Hôtel design contemporain",
+            "verdict": "Une adresse incontournable et idéalement placée à Berlin pour allier shopping de luxe, visites culturelles et confort hôtelier de premier plan."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 3 458 expériences vécues · Mise à jour : 2026"
+    },
+    "Estrel Berlin": {
+        "pays": "Allemagne",
+        "ville": "Berlin",
+        "etoiles": "4 étoiles supérieur",
+        "lien_booking": "https://www.booking.com/hotel/de/estrelres.fr.html",
+    "lien_expedia": "https://www.expedia.fr/Berlin-Hotel-Estrel-Hotel-Berlin.h444123.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/130767565.jpg?k=070aa7b5c49653dce7ec8cbfc00c34c07a32ca0e36b9de3904d582aaa9ce5ad2&o=",
+        "description": "Situé dans le quartier berlinois de Neukölln, l'Estrel Berlin s'impose comme le plus grand hôtel d'Allemagne. Ce complexe hôtelier et centre de conventions 4 étoiles supérieur propose des chambres spacieuses, climatisées et dotées de fenêtres insonorisées. Les clients profitent d'un vaste atrium baigné de lumière abritant trois restaurants internationaux et deux bars, d'un accès gratuit au spa avec sauna, d'une salle de sport, ainsi que d'un jardin surplombant le canal Neukölln. L'hôtel accueille également des spectacles et des comédies sur place, le tout à seulement deux minutes à pied de la gare S-Bahn de Sonnenallee.",
+        "prix_moyen": "100€ - 190€ / nuit",
+        "avis": "8,5/10 Très bien",
+        "notes_categories": {
+            "personnel": "9,0/10",
+            "equipements": "8,7/10",
+            "proprete": "8,9/10",
+            "confort": "9,0/10",
+            "rapport_qualite_prix": "8,5/10",
+            "situation_geographique": "8,2/10",
+            "connexion_wifi_gratuite": "8,4/10"
+        },
+        "points_positifs": [
+            "Vaste complexe confortable avec un personnel chaleureux et professionnel (noté 9,0/10)",
+            "Chambres spacieuses, calmes, propres et très bien insonorisées",
+            "Accès gratuit au spa et au sauna pour se détendre",
+            "Proximité immédiate de la gare S-Bahn Sonnenallee (à 2 minutes à pied)",
+            "Superbe atrium central avec restaurants, bars et animations (spectacles)"
+        ],
+        "points_negatifs": [
+            "Situation un peu excentrée par rapport à l'hypercentre touristique de Berlin",
+            "Décoration ou mobilier de certaines chambres commençant à accuser un léger vieillissement",
+            "Tarif du buffet de petit-déjeuner parfois jugé un peu élevé par les voyageurs"
+        ],
+        "equipements": [
+            "4 étoiles supérieur",
+            "Spa et centre de bien-être (Sauna)",
+            "Centre de remise en forme",
+            "3 restaurants internationaux et 2 bars",
+            "Parking sur place",
+            "Connexion Wi-Fi gratuite",
+            "Réception ouverte 24h/24",
+            "Chambres non-fumeurs",
+            "Équipements pour personnes à mobilité réduite"
+        ],
+        "Nomad vous en dis plus": "Si vous cherchez un géant du confort parfaitement rodé aux portes de Berlin, l'Estrel est une véritable ville dans la ville. Ce qu'on adore, c'est son immense atrium spectaculaire, la taille généreuse de ses chambres et son accès gratuit au spa après une journée de marche. Même s'il est un peu excentré, sa connexion directe en S-Bahn à deux pas en fait un camp de base ultra-pratique et vivant.",
+        "pour_qui": {
+            "ambiance": "🌟 Grandiose, vivant, fonctionnel, animé et confortable",
+            "public": "Voyageurs d'affaires, touristes en groupe, familles et couples cherchant un resort urbain complet",
+            "style": "Grand complexe hôtelier international 4 étoiles",
+            "verdict": "Une adresse monumentale et très bien équipée à Berlin, idéale pour combiner grand confort, détente au spa et tarifs raisonnables."
+        },
+        "meta_avis": "Contenu résumé par IA sur la base de 7 218 expériences vécues · Mise à jour : 2026"
     }
 }
