@@ -419,7 +419,8 @@
         "note_globale": "4.8/5",
         "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
         "points_cles_avis": "Plébiscité pour son calme absolu, son architecture unique et la qualité de son service, malgré un positionnement tarifaire élevé."
-        },
+        }
+    },
     "Vincci Flora Park": {
         "pays": "Tunisie",
         "ville": "Yasmine Hammamet",
@@ -9577,5 +9578,4 @@
         },
         "meta_avis": "Contenu résumé par IA sur la base de 16 expériences vécues · Mise à jour : 2026."
     }
-}
 }
