@@ -79,6 +79,67 @@ a { color: var(--secondary); }
 .btn-booking { display: block; background: linear-gradient(135deg, #0f3d85, #1d5bbf); color: white; padding: 12px 16px; text-align: center; margin-bottom: 10px; }
 .btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
 
+.excursion-tabs {
+    display: flex; gap: 8px; margin-bottom: 18px;
+    border-bottom: 2px solid var(--line);
+}
+.excursion-tab-btn {
+    background: none; border: none; cursor: pointer;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700; font-size: 0.97rem; color: var(--muted);
+    padding: 10px 18px; border-radius: 12px 12px 0 0;
+    border-bottom: 3px solid transparent; margin-bottom: -2px;
+    transition: color 0.2s ease, background 0.2s ease;
+}
+.excursion-tab-btn:hover { color: var(--secondary); background: var(--panel); }
+.excursion-tab-btn.is-active { color: var(--primary-dark); border-bottom-color: var(--primary); }
+
+.excursion-tab-panel { display: none; }
+.excursion-tab-panel.is-active { display: block; }
+
+.excursion-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 12px;
+}
+.excursion-gallery-grid img {
+    width: 100%; aspect-ratio: 1 / 1; object-fit: cover;
+    border-radius: 14px; border: 1px solid var(--line);
+    cursor: pointer; display: block;
+    box-shadow: var(--shadow); transition: transform 0.2s ease;
+}
+.excursion-gallery-grid img:hover { transform: translateY(-3px); }
+
+.excursion-lightbox {
+    display: none; position: fixed; inset: 0;
+    background: rgba(6, 50, 71, 0.92);
+    align-items: center; justify-content: center;
+    z-index: 1000; padding: 20px;
+}
+.excursion-lightbox.is-open { display: flex; }
+.excursion-lightbox img {
+    max-width: 100%; max-height: 82vh; border-radius: 14px;
+    box-shadow: 0 18px 38px rgba(0,0,0,0.4);
+}
+.excursion-lightbox button {
+    position: absolute; cursor: pointer; border: none;
+    background: rgba(255,255,255,0.14); color: #f2fdff;
+    width: 44px; height: 44px; border-radius: 50%;
+    font-size: 1.3rem; display: flex; align-items: center; justify-content: center;
+}
+.excursion-lightbox button:hover { background: rgba(255,255,255,0.26); }
+#lb-close { top: 20px; right: 20px; }
+#lb-prev { left: 16px; top: 50%; transform: translateY(-50%); }
+#lb-next { right: 16px; top: 50%; transform: translateY(-50%); }
+#lb-counter {
+    position: absolute; bottom: 20px; left: 0; right: 0; text-align: center;
+    color: #cdeef4; font-size: 0.85rem;
+}
+@media (max-width: 480px) {
+    .excursion-tab-btn { padding: 9px 12px; font-size: 0.9rem; }
+    .excursion-lightbox button { width: 38px; height: 38px; }
+}
+
 .hero-banner {
     background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
     border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
@@ -140,10 +201,41 @@ a { color: var(--secondary); }
 </header>
 
 <a href="blog.html" style="color: #38bdf8; display: inline-block; margin-bottom: 15px; text-decoration: none;">← Retour au blog</a>
+
 <div class="card">
     <h1>Des excursions inoubliables : À la découverte des trésors cachés</h1>
     <img src="images/im1.jpg" style="width:100%; max-height:400px; object-fit:cover; border-radius:8px; margin:20px 0;">
-    <p style="font-size: 1.1em; line-height: 1.8;">Charm el-Cheikh, c'est cette destination égyptienne où le désert rencontre la mer Rouge. Entre paysages lunaires, fonds marins d'exception et une culture locale vibrante, le voyage promettait d'être riche. Mais pour en profiter vraiment sans stress, rien ne vaut d'être bien accompagné. C'est là que notre guide **Mister Heni** est entré en scène, faisant un boulot tout simplement superbe du premier au dernier jour !<br><br>### 1. Immersion authentique à l'Old Market (Vieux Marché)<br>On commence par le cœur traditionnel de la ville. L'**Old Market** offre une ambiance complètement différente des zones hôtelières. Entre les effluves d'épices, les échoppes de souvenirs colorées et l'architecture magnifique de la grande mosquée Al-Sahaba, c'est l'endroit parfait pour flâner et s'imprégner de l'ambiance locale. Mister Heni nous a partagé les meilleures adresses pour dénicher les authentiques trésors locaux.<br><br>### 2. Les lumières de Soho Square et l'énergie de Naama Bay<br>Quand la nuit tombe, Charm el-Cheikh s'illumine. Direction d'abord **Soho Square** pour un décor ultra-moderne, des fontaines lumineuses et une ambiance presque futuriste. Puis, cap sur **Naama Bay**, le cœur battant de la vie nocturne : terrasses animées, boutiques de nuit et une énergie communicative idéale pour boire un verre en fin de journée.<br><br>### 3. Évasion en mer Rouge : l'Île Blanche et plongée sous-marine<br>C'est sans doute l'un des temps forts du voyage. Une journée complète en bateau sur la mer Rouge, direction la fabuleuse **Île Blanche** (souvent appelée le *Maldives égyptien*). Un banc de sable fin au milieu d'une eau turquoise translucide. Au programme également : session de plongée (snorkeling ou bouteille) au milieu de récifs coralliens préservés et de poissons multicolores. Un vrai paradis aquatique !<br><br>### 4. Pause magique et suspendue au Farsha Café<br>Comment parler de Charm el-Cheikh sans mentionner le mythique **Farsha Café** ? Taillé à même la falaise de Ras Um Sid, cet endroit magique s'étage face à la mer. Entre tapis orientaux, lanternes traditionnelles et musique douce, s'y poser au moment du coucher du soleil pour siroter un verre reste une expérience absolument inoubliable.<br><br>### 5. Adrénaline et désert : la sortie en Quad<br>Pour finir ce séjour en beauté, place à l'action ! Une excursion en **quad** à travers les pistes sinueuses du désert du Sinaï. Sentir la vitesse, traverser les paysages minéraux spectaculaires et s'arrêter sous une tente bédouine pour partager un thé traditionnel au milieu de nulle part : le combo parfait entre sensations fortes et dépaysement total.<br><br>**Un immense merci à Mister Heni 👏**<br>Un voyage comme celui-ci ne s'improvise pas, et le réussir demande de l'organisation. Un **très grand merci à Mister Heni** pour son professionnalisme sans faille, sa bienveillance et sa bonne humeur quotidienne. Grâce à lui, chaque excursion s'est déroulée en toute sécurité et avec des souvenirs plein la tête. Si vous passez par Charm el-Cheikh, vous savez désormais qui contacter, envoyer uncommentaire sur notre page facebook https://www.facebook.com/profile.php?id=61591545557027 et nous vous communiquerons ces coordonnées !</p>
+
+    <div class="excursion-tabs" role="tablist">
+        <button class="excursion-tab-btn is-active" role="tab" aria-selected="true" data-cible="tab-details" id="btn-details">Détails</button>
+        <button class="excursion-tab-btn" role="tab" aria-selected="false" data-cible="tab-galerie" id="btn-galerie">Galerie</button>
+    </div>
+
+    <div class="excursion-tab-panel is-active" id="tab-details" role="tabpanel" aria-labelledby="btn-details">
+        <p style="font-size: 1.1em; line-height: 1.8;">Charm el-Cheikh, c'est cette destination égyptienne où le désert rencontre la mer Rouge. Entre paysages lunaires, fonds marins d'exception et une culture locale vibrante, le voyage promettait d'être riche. Mais pour en profiter vraiment sans stress, rien ne vaut d'être bien accompagné. C'est là que notre guide <strong>Mister Heni</strong> est entré en scène, faisant un boulot tout simplement superbe du premier au dernier jour !</p>
+
+        <h3>1. Immersion authentique à l'Old Market (Vieux Marché)</h3>
+        <p style="font-size: 1.1em; line-height: 1.8;">On commence par le cœur traditionnel de la ville. L'<strong>Old Market</strong> offre une ambiance complètement différente des zones hôtelières. Entre les effluves d'épices, les échoppes de souvenirs colorées et l'architecture magnifique de la grande mosquée Al-Sahaba, c'est l'endroit parfait pour flâner et s'imprégner de l'ambiance locale. Mister Heni nous a partagé les meilleures adresses pour dénicher les authentiques trésors locaux.</p>
+
+        <h3>2. Les lumières de Soho Square et l'énergie de Naama Bay</h3>
+        <p style="font-size: 1.1em; line-height: 1.8;">Quand la nuit tombe, Charm el-Cheikh s'illumine. Direction d'abord <strong>Soho Square</strong> pour un décor ultra-moderne, des fontaines lumineuses et une ambiance presque futuriste. Puis, cap sur <strong>Naama Bay</strong>, le cœur battant de la vie nocturne : terrasses animées, boutiques de nuit et une énergie communicative idéale pour boire un verre en fin de journée.</p>
+
+        <h3>3. Évasion en mer Rouge : l'Île Blanche et plongée sous-marine</h3>
+        <p style="font-size: 1.1em; line-height: 1.8;">C'est sans doute l'un des temps forts du voyage. Une journée complète en bateau sur la mer Rouge, direction la fabuleuse <strong>Île Blanche</strong> (souvent appelée le <em>Maldives égyptien</em>). Un banc de sable fin au milieu d'une eau turquoise translucide. Au programme également : session de plongée (snorkeling ou bouteille) au milieu de récifs coralliens préservés et de poissons multicolores. Un vrai paradis aquatique !</p>
+
+        <h3>4. Pause magique et suspendue au Farsha Café</h3>
+        <p style="font-size: 1.1em; line-height: 1.8;">Comment parler de Charm el-Cheikh sans mentionner le mythique <strong>Farsha Café</strong> ? Taillé à même la falaise de Ras Um Sid, cet endroit magique s'étage face à la mer. Entre tapis orientaux, lanternes traditionnelles et musique douce, s'y poser au moment du coucher du soleil pour siroter un verre reste une expérience absolument inoubliable.</p>
+
+        <h3>5. Adrénaline et désert : la sortie en Quad</h3>
+        <p style="font-size: 1.1em; line-height: 1.8;">Pour finir ce séjour en beauté, place à l'action ! Une excursion en <strong>quad</strong> à travers les pistes sinueuses du désert du Sinaï. Sentir la vitesse, traverser les paysages minéraux spectaculaires et s'arrêter sous une tente bédouine pour partager un thé traditionnel au milieu de nulle part : le combo parfait entre sensations fortes et dépaysement total.</p>
+
+        <h3>Un immense merci à Mister Heni 👏</h3>
+        <p style="font-size: 1.1em; line-height: 1.8;">Un voyage comme celui-ci ne s'improvise pas, et le réussir demande de l'organisation. Un <strong>très grand merci à Mister Heni</strong> pour son professionnalisme sans faille, sa bienveillance et sa bonne humeur quotidienne. Grâce à lui, chaque excursion s'est déroulée en toute sécurité et avec des souvenirs plein la tête. Si vous passez par Charm el-Cheikh, vous savez désormais qui contacter, envoyez un commentaire sur notre <a href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank">page Facebook</a> et nous vous communiquerons ses coordonnées !</p>
+    </div>
+
+    <div class="excursion-tab-panel" id="tab-galerie" role="tabpanel" aria-labelledby="btn-galerie" hidden>
+        <div class="excursion-gallery-grid" id="excursion-gallery-grid"></div>
+    </div>
 </div>
 
 <footer class="site-footer">
@@ -184,4 +276,86 @@ a { color: var(--secondary); }
     </div>
 </footer>
 
-</div></body></html>
+</div>
+
+<div class="excursion-lightbox" id="excursion-lightbox" aria-hidden="true">
+    <button id="lb-close" aria-label="Fermer">✕</button>
+    <button id="lb-prev" aria-label="Précédent">‹</button>
+    <img id="lb-img" src="" alt="">
+    <button id="lb-next" aria-label="Suivant">›</button>
+    <div id="lb-counter"></div>
+</div>
+
+<script>
+const galerieImages = [
+    "images/im1.jpg","images/Im2.jpg","images/Im3.jpg","images/Im4.jpg","images/Im5.jpg",
+    "images/Im6.jpg","images/Im7.jpg","images/Im8.jpg","images/Im9.jpg","images/Im10.jpg",
+    "images/Im11.jpg","images/Im12.jpg","images/Im13.jpg","images/Im14.jpg","images/Im15.jpg",
+    "images/Im16.jpg","images/Im17.jpg","images/Im18.jpg","images/Im19.jpg","images/Im20.jpg"
+];
+const titreExcursion = "Des excursions inoubliables : À la découverte des trésors cachés";
+
+const grille = document.getElementById('excursion-gallery-grid');
+galerieImages.forEach((src, i) => {
+    const img = document.createElement('img');
+    img.src = src;
+    img.alt = `Photo ${i + 1} — ${titreExcursion}`;
+    img.loading = 'lazy';
+    img.addEventListener('click', () => ouvrirLightbox(i));
+    grille.appendChild(img);
+});
+
+document.querySelectorAll('.excursion-tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('.excursion-tab-btn').forEach(b => {
+            b.classList.remove('is-active');
+            b.setAttribute('aria-selected', 'false');
+        });
+        document.querySelectorAll('.excursion-tab-panel').forEach(p => {
+            p.classList.remove('is-active');
+            p.hidden = true;
+        });
+        btn.classList.add('is-active');
+        btn.setAttribute('aria-selected', 'true');
+        const cible = document.getElementById(btn.dataset.cible);
+        cible.classList.add('is-active');
+        cible.hidden = false;
+    });
+});
+
+const lightbox = document.getElementById('excursion-lightbox');
+const lbImg = document.getElementById('lb-img');
+const lbCounter = document.getElementById('lb-counter');
+let indexCourant = 0;
+
+function majLightbox() {
+    lbImg.src = galerieImages[indexCourant];
+    lbImg.alt = `Photo ${indexCourant + 1} — ${titreExcursion}`;
+    lbCounter.textContent = `${indexCourant + 1} / ${galerieImages.length}`;
+}
+function ouvrirLightbox(i) {
+    indexCourant = i;
+    majLightbox();
+    lightbox.classList.add('is-open');
+    lightbox.setAttribute('aria-hidden', 'false');
+}
+function fermerLightbox() {
+    lightbox.classList.remove('is-open');
+    lightbox.setAttribute('aria-hidden', 'true');
+}
+function suivant() { indexCourant = (indexCourant + 1) % galerieImages.length; majLightbox(); }
+function precedent() { indexCourant = (indexCourant - 1 + galerieImages.length) % galerieImages.length; majLightbox(); }
+
+document.getElementById('lb-close').addEventListener('click', fermerLightbox);
+document.getElementById('lb-next').addEventListener('click', suivant);
+document.getElementById('lb-prev').addEventListener('click', precedent);
+lightbox.addEventListener('click', e => { if (e.target === lightbox) fermerLightbox(); });
+document.addEventListener('keydown', e => {
+    if (!lightbox.classList.contains('is-open')) return;
+    if (e.key === 'Escape') fermerLightbox();
+    if (e.key === 'ArrowRight') suivant();
+    if (e.key === 'ArrowLeft') precedent();
+});
+</script>
+
+</body></html>
