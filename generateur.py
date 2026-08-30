@@ -65,6 +65,69 @@ def generer_avis_hotel(nom_hotel, donnees):
     return avis
 
 
+def generer_meta_description(nom_hotel, donnees, description):
+    """Construit une meta description unique et pertinente (~155 caractères) pour chaque fiche hôtel."""
+    ville = str(donnees.get("ville") or "").strip()
+    pays = str(donnees.get("pays") or "").strip()
+    etoiles = donnees.get("etoiles", "")
+    prix = donnees.get("prix_moyen", "")
+    lieu = ", ".join(part for part in [ville, pays] if part)
+    base = f"{nom_hotel}"
+    if lieu:
+        base += f" à {lieu}"
+    if etoiles and str(etoiles) != "N/C":
+        base += f" ({etoiles}★)"
+    extrait = re.sub(r"\s+", " ", str(description or "")).strip()
+    meta = base
+    if prix:
+        meta += f" — à partir de {prix}."
+    if extrait:
+        meta += f" {extrait}"
+    meta = meta.strip()
+    if len(meta) > 155:
+        meta = meta[:152].rsplit(" ", 1)[0] + "..."
+    return meta
+
+
+def generer_schema_hotel(nom_hotel, donnees, description, avis_clients, url_page):
+    """Construit un objet JSON-LD schema.org Hotel (+ AggregateRating si des avis existent)."""
+    ville = str(donnees.get("ville") or "").strip()
+    pays = str(donnees.get("pays") or "").strip()
+    schema = {
+        "@context": "https://schema.org",
+        "@type": "Hotel",
+        "name": nom_hotel,
+        "description": re.sub(r"\s+", " ", str(description or "")).strip()[:500],
+        "url": url_page,
+    }
+    if donnees.get("image"):
+        schema["image"] = donnees.get("image")
+    if ville or pays:
+        schema["address"] = {
+            "@type": "PostalAddress",
+            "addressLocality": ville or None,
+            "addressCountry": pays or None,
+        }
+        schema["address"] = {k: v for k, v in schema["address"].items() if v}
+    etoiles = donnees.get("etoiles")
+    if etoiles and str(etoiles) not in ("N/C", ""):
+        try:
+            schema["starRating"] = {"@type": "Rating", "ratingValue": float(str(etoiles).split()[0])}
+        except (ValueError, IndexError):
+            pass
+    if avis_clients:
+        notes = [int(a.get("note", 5)) for a in avis_clients if a.get("note")]
+        if notes:
+            schema["aggregateRating"] = {
+                "@type": "AggregateRating",
+                "ratingValue": round(sum(notes) / len(notes), 1),
+                "reviewCount": len(notes),
+                "bestRating": 5,
+                "worstRating": 1,
+            }
+    return json.dumps(schema, ensure_ascii=False)
+
+
 def write_html(path, content):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -820,13 +883,20 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
         </div>
         """
     description = escape_html(d.get('description_ia') or d.get('description', ''))
-    
+    description_brute = d.get('description_ia') or d.get('description', '')
+    meta_description = escape_html(generer_meta_description(h_nom, d, description_brute))
+    url_page = f"{SITE_URL}/{slug}.html"
+    schema_json = generer_schema_hotel(h_nom, d, description_brute, avis_clients, url_page)
+
     html_fiche = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{escape_html(h_nom)}</title>
+    <title>{escape_html(h_nom)} - {escape_html(d.get('ville',''))} | MyHotelCompare</title>
+    <meta name="description" content="{meta_description}">
+    <link rel="canonical" href="{url_page}">
+    <script type="application/ld+json">{schema_json}</script>
     {global_style}
 </head>
 <body>
