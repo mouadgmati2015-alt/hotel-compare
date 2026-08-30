@@ -369,10 +369,10 @@
         ],
         "Nomad, vous en dit plus": "Le Mediterranée, c'est le plan économique par excellence pour les familles qui veulent du grand air et de l'espace sans exploser leur budget. Ce qui frappe tout de suite, c'est ce grand parc arboré qui descend en pente douce vers la plage : un vrai bonheur pour laisser les enfants courir à l'ombre des pins. Bon, soyons totalement transparents, l'hôtel a pris un sacré coup de vieux et les chambres sont on ne peut plus basiques. Mais à ce tarif-là, avec une équipe d'animation qui se démène pour faire rire tout le monde et la grande bleue à portée de main, c'est une option populaire très honnête pour un été solaire à petit prix.",
         "pour_qui": {
-            "ambiance": "🌊 Conviviale, club et animée",
-            "public": "Idéal pour les familles et les petits budgets souhaitant profiter de grands espaces verts et de la mer",
-            "style": "Complexe de type club de vacances",
-            "verdict": "Une option économique et conviviale pour profiter du bord de mer sans se ruiner."
+        "ambiance": "🌊 Conviviale, club et animée",
+        "public": "Idéal pour les familles et les petits budgets souhaitant profiter de grands espaces verts et de la mer",
+        "style": "Complexe de type club de vacances",
+        "verdict": "Une option économique et conviviale pour profiter du bord de mer sans se ruiner."
         },
         "meta_avis": "Contenu résumé par IA sur la base de 100+ avis voyageurs · Dernière mise à jour : 17 July 2026"
     },
@@ -410,15 +410,15 @@
         ],
         "Nomad, vous en dit plus": "La Badira, c'est tout simplement la plus belle claque architecturale et esthétique de la côte tunisienne. Si tu cherches un hôtel-boutique ultra-chic, branché, avec ce petit supplément d'âme rétro inspiré des années 30, ne cherche plus ailleurs. Tout ici respire le bon goût : le choix des matières, la lumière qui traverse les patios, cette piscine à débordement hypnotique et le silence absolu qui règne dans les couloirs. C'est l'adresse idéale pour marquer un événement romantique ou s'offrir une parenthèse de luxe pur entre adultes. C'est cher, oui, mais c'est une expérience inoubliable.",
         "pour_qui": {
-            "ambiance": "✨ Luxueuse, intime, rétro-chic et sophistiquée",
-            "public": "Parfait pour les couples en quête de calme absolu et de prestations haut de gamme",
-            "style": "Hôtel-boutique de luxe réservé aux adultes",
-            "verdict": "Une adresse d'exception à Hammamet pour un séjour romantique et raffiné sous le signe du calme."
+        "ambiance": "✨ Luxueuse, intime, rétro-chic et sophistiquée",
+        "public": "Parfait pour les couples en quête de calme absolu et de prestations haut de gamme",
+        "style": "Hôtel-boutique de luxe réservé aux adultes",
+        "verdict": "Une adresse d'exception à Hammamet pour un séjour romantique et raffiné sous le signe du calme."
         },
         "meta_avis": {
-            "note_globale": "4.8/5",
-            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
-            "points_cles_avis": "Plébiscité pour son calme absolu, son architecture unique et la qualité de son service, malgré un positionnement tarifaire élevé."
+        "note_globale": "4.8/5",
+        "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+        "points_cles_avis": "Plébiscité pour son calme absolu, son architecture unique et la qualité de son service, malgré un positionnement tarifaire élevé."
         },
     "Vincci Flora Park": {
         "pays": "Tunisie",
