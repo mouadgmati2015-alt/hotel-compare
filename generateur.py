@@ -89,6 +89,19 @@ def generer_meta_description(nom_hotel, donnees, description):
     return meta
 
 
+def generer_og_tags(titre, description, url, image=""):
+    """Construit les balises Open Graph / Twitter Card réutilisables pour n'importe quelle page."""
+    image_abs = image if str(image).startswith(("http://", "https://")) else (f"{SITE_URL}/{image}" if image else "")
+    tags = f"""<meta property="og:type" content="website">
+    <meta property="og:title" content="{escape_html(titre)}">
+    <meta property="og:description" content="{escape_html(str(description))[:200]}">
+    <meta property="og:url" content="{url}">
+    <meta name="twitter:card" content="summary_large_image">"""
+    if image_abs:
+        tags += f'\n    <meta property="og:image" content="{image_abs}">'
+    return tags
+
+
 def generer_schema_hotel(nom_hotel, donnees, description, avis_clients, url_page):
     """Construit un objet JSON-LD schema.org Hotel (+ AggregateRating si des avis existent)."""
     ville = str(donnees.get("ville") or "").strip()
@@ -887,6 +900,7 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
     meta_description = escape_html(generer_meta_description(h_nom, d, description_brute))
     url_page = f"{SITE_URL}/{slug}.html"
     schema_json = generer_schema_hotel(h_nom, d, description_brute, avis_clients, url_page)
+    hotel_og_tags = generer_og_tags(h_nom, meta_description, url_page, d.get('image', ''))
 
     html_fiche = f"""<!DOCTYPE html>
 <html lang="fr">
@@ -896,6 +910,7 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
     <title>{escape_html(h_nom)} - {escape_html(d.get('ville',''))} | MyHotelCompare</title>
     <meta name="description" content="{meta_description}">
     <link rel="canonical" href="{url_page}">
+    {hotel_og_tags}
     <script type="application/ld+json">{schema_json}</script>
     {global_style}
 </head>
@@ -1163,9 +1178,17 @@ if os.path.exists("blog_data.json"):
             images_art = art.get('images', [])
             img_art = get_public_image(images_art[0] if images_art else art.get('image', ''))
             details_texte = art.get('details', '').replace('\n', '<br>')
-            
+            art_url = f"{SITE_URL}/{art_slug}.html"
+            art_og_tags = generer_og_tags(art_title, art.get('resume', ''), art_url, img_art)
+
             article_page = f"""<!DOCTYPE html>
-<html lang="fr"><head><meta charset="UTF-8"><title>{art_title} | Blog</title>{global_style}</head>
+<html lang="fr"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{art_title} | Blog</title>
+<meta name="description" content="{escape_html(art.get('resume', ''))}">
+<link rel="canonical" href="{art_url}">
+{art_og_tags}
+{global_style}</head>
 <body><div class="container">{menu_html}
 <a href="blog.html" style="color: #38bdf8; display: inline-block; margin-bottom: 15px; text-decoration: none;">← Retour au blog</a>
 <div class="card">
