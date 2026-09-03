@@ -442,7 +442,7 @@ temoignages_html = """
             <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px; margin-top: 0;">⭐⭐⭐⭐⭐</p>
             <p style="font-style: italic; font-size: 0.95em; color: #E2E8F0;">"Grâce au comparateur, j'ai trouvé l'hôtel idéal pour mes vacances en un clin d'œil !"</p>
             <div style="display: flex; align-items: center; margin-top: 15px;">
-                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=faces" alt="Photo de profil de Marc D." style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
                 <div><p style="font-weight: bold; font-size: 0.85em; margin: 0; color: white;">Marc D.</p><p style="font-size: 0.75em; color: #94a3b8; margin: 0;">Voyageur solo</p></div>
             </div>
         </div>
@@ -450,7 +450,7 @@ temoignages_html = """
             <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px; margin-top: 0;">⭐⭐⭐⭐⭐</p>
             <p style="font-style: italic; font-size: 0.95em; color: #E2E8F0;">"Super application, très pratique pour comparer les hôtels rapidement. Je recommande !"</p>
             <div style="display: flex; align-items: center; margin-top: 15px;">
-                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=faces" alt="Photo de profil de Sarah L." style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
                 <div><p style="font-weight: bold; font-size: 0.85em; margin: 0; color: white;">Sarah L.</p><p style="font-size: 0.75em; color: #94a3b8; margin: 0;">Voyage en famille</p></div>
             </div>
         </div>
@@ -458,7 +458,7 @@ temoignages_html = """
             <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px; margin-top: 0;">⭐⭐⭐⭐⭐</p>
             <p style="font-style: italic; font-size: 0.95em; color: #E2E8F0;">"Le comparateur m'a permis d'économiser pas mal sur mon séjour. Interface fluide et propre."</p>
             <div style="display: flex; align-items: center; margin-top: 15px;">
-                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=faces" style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=faces" alt="Photo de profil de Karim B." style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
                 <div><p style="font-weight: bold; font-size: 0.85em; margin: 0; color: white;">Karim B.</p><p style="font-size: 0.75em; color: #94a3b8; margin: 0;">Voyageur régulier</p></div>
             </div>
         </div>
@@ -686,7 +686,7 @@ if os.path.exists(chemin_promo):
                 lien_promo = update_booking_aid(promo.get("lien", ""), titre_promo, ville_promo, pays_promo)
                 promo_html = f"""
                 <div style="background-color: #1C2541; border: 1px solid #3A506B; border-radius: 12px; padding: 20px; height: 100%; box-sizing: border-box;">
-                    {f'<img src="{img_promo}" style="width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 8px;">' if img_promo else ''}
+                    {f'<img src="{img_promo}" alt="{escape_html(titre_promo)}" style="width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 8px;">' if img_promo else ''}
                     <h3 style="margin-top: 0; color: white;">{titre_promo}</h3>
                     {f"<p style='color: #94a3b8; font-size: 0.85em; margin-top: -8px; margin-bottom: 6px;'>📍 {ville_promo}{', ' if ville_promo and pays_promo else ''}{pays_promo}</p>" if (ville_promo or pays_promo) else ''}
                     <p style="color: white; font-size: 0.95em;">{desc_promo}</p>
@@ -706,11 +706,11 @@ carousel_html = f"""
     @keyframes customFade {{ 0% {{ opacity: 0; }} 6% {{ opacity: 1; }} 20% {{ opacity: 1; }} 26% {{ opacity: 0; }} 100% {{ opacity: 0; }} }}
     .hotel-slide-item {{ position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 12px; opacity: 0; animation: customFade 15s infinite; }}
     </style>
-    {f'<img class="hotel-slide-item" src="data:image/png;base64,{imgs_base64[0]}" style="animation-delay: 0s;">' if imgs_base64[0] else ''}
-    {f'<img class="hotel-slide-item" src="data:image/jpeg;base64,{imgs_base64[1]}" style="animation-delay: 3s;">' if imgs_base64[1] else ''}
-    {f'<img class="hotel-slide-item" src="data:image/jpeg;base64,{imgs_base64[2]}" style="animation-delay: 6s;">' if imgs_base64[2] else ''}
-    {f'<img class="hotel-slide-item" src="data:image/jpeg;base64,{imgs_base64[3]}" style="animation-delay: 9s;">' if imgs_base64[3] else ''}
-    {f'<img class="hotel-slide-item" src="data:image/jpeg;base64,{imgs_base64[4]}" style="animation-delay: 12s;">' if imgs_base64[4] else ''}
+    {f'<img class="hotel-slide-item" src="data:image/png;base64,{imgs_base64[0]}" alt="Découverte d\'hôtels et de destinations" style="animation-delay: 0s;">' if imgs_base64[0] else ''}
+    {f'<img class="hotel-slide-item" src="data:image/jpeg;base64,{imgs_base64[1]}" alt="Destination Afrique" style="animation-delay: 3s;">' if imgs_base64[1] else ''}
+    {f'<img class="hotel-slide-item" src="data:image/jpeg;base64,{imgs_base64[2]}" alt="Astuce voyage" style="animation-delay: 6s;">' if imgs_base64[2] else ''}
+    {f'<img class="hotel-slide-item" src="data:image/jpeg;base64,{imgs_base64[3]}" alt="Hôtel de voyage" style="animation-delay: 9s;">' if imgs_base64[3] else ''}
+    {f'<img class="hotel-slide-item" src="data:image/jpeg;base64,{imgs_base64[4]}" alt="Destination Tunisie" style="animation-delay: 12s;">' if imgs_base64[4] else ''}
 </div>
 """
 
@@ -833,7 +833,7 @@ html_accueil = f"""<!DOCTYPE html>
         function renderCard(h) {{
             const mapQuery = encodeURIComponent(h.nom + ', ' + h.ville + ', ' + h.pays);
             return `<div class="card">
-                ${{h.image ? '<img src="' + h.image + '" style="width:100%; height:180px; object-fit:cover; border-radius:14px; margin-bottom:12px;">' : ''}}
+                ${{h.image ? '<img src="' + h.image + '" alt="' + escapeText(h.nom) + '" style="width:100%; height:180px; object-fit:cover; border-radius:14px; margin-bottom:12px;">' : ''}}
                 <h3><a href="${{h.slug}}.html" style="color:var(--secondary); text-decoration:none;">${{h.nom}}</a></h3>
                 <p style="color:#6e4d39;">📍 ${{h.ville}}, ${{h.pays}} | ⭐ ${{h.etoiles}}</p>
                 <p style="color:#15803d; font-weight:700;">💰 ${{h.prix}}</p>
@@ -842,6 +842,10 @@ html_accueil = f"""<!DOCTYPE html>
                 <a href="${{h.lien_expedia}}" target="_self" class="btn-expedia">Réserver sur Expedia</a>
                 <iframe width="100%" height="150" style="border:0; border-radius:12px; margin-top:12px;" src="https://maps.google.com/maps?q=${{mapQuery}}&output=embed"></iframe>
             </div>`;
+        }}
+
+        function escapeText(value) {{
+            return String(value || '').replace(/[&<>"']/g, char => ({{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}}[char]));
         }}
 
         initFiltres();
@@ -901,6 +905,8 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
     url_page = f"{SITE_URL}/{slug}.html"
     schema_json = generer_schema_hotel(h_nom, d, description_brute, avis_clients, url_page)
     hotel_og_tags = generer_og_tags(h_nom, meta_description, url_page, d.get('image', ''))
+    # Texte alternatif de l'image principale : utilise "image_alt" du JSON si présent, sinon retombe sur le nom de l'hôtel
+    image_alt_hotel = escape_html(d.get('image_alt') or h_nom)
 
     html_fiche = f"""<!DOCTYPE html>
 <html lang="fr">
@@ -920,7 +926,7 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
 <div class="card">
     <h1>{escape_html(h_nom)}</h1>
     <p style="color: #6e4d39;">📍 {escape_html(d.get('ville',''))}, {escape_html(d.get('pays',''))} | ⭐ {escape_html(d.get('etoiles','N/C'))}</p>
-    {f'<img src="{d.get("image")}" style="width:100%; max-height:350px; object-fit:cover; border-radius:16px; margin:15px 0;">' if d.get('image') else ''}
+    {f'<img src="{d.get("image")}" alt="{image_alt_hotel}" style="width:100%; max-height:350px; object-fit:cover; border-radius:16px; margin:15px 0;">' if d.get('image') else ''}
     <p style="color:#15803d; font-weight:700; font-size: 1.2em;">💰 {escape_html(d.get('prix_moyen', 'Sur demande'))}</p>
 
     <h3>✨ Description</h3>
@@ -965,7 +971,7 @@ for a_nom, a_data in sorted(AIRLINES_DATA.items()):
             <h1>{a_nom}</h1>
             <p style="color: #94a3b8; margin: 0;">Catégorie : <b>{a_data.get('categorie', 'N/A')}</b> | Alliance : <b>{a_data.get('alliance', 'N/A')}</b> | Note : ⭐ <b>{a_data.get('note', 'N/A')}</b></p>
         </div>
-        {f'<img src="{logo_p}" style="max-height: 80px; object-fit: contain; border-radius: 6px;">' if os.path.exists(logo_p) else ''}
+        {f'<img src="{logo_p}" alt="Logo {escape_html(a_nom)}" style="max-height: 80px; object-fit: contain; border-radius: 6px;">' if os.path.exists(logo_p) else ''}
     </div>
     <hr style="border-color: #3A506B; margin: 20px 0;">
     <h3>📖 À propos</h3>
@@ -1131,7 +1137,7 @@ for c_nom, c_data in croisieres_data.items():
 <div class="card">
     <h1>{c_nom}</h1>
     <p style="color: #94a3b8;">🚢 {c_data['compagnie']} | 📍 Région : {c_data['region']} | ⏱️ {c_data['duree']}</p>
-    {f'<img src="{c_data["image"]}" style="width:100%; max-height:350px; object-fit:cover; border-radius:8px; margin:15px 0;">' if c_data['image'] else ''}
+    {f'<img src="{c_data["image"]}" alt="{escape_html(c_nom)}" style="width:100%; max-height:350px; object-fit:cover; border-radius:8px; margin:15px 0;">' if c_data['image'] else ''}
     <h3>✨ Description</h3><p>{c_data['description']}</p>
     <h3>🗺️ Itinéraire détaillé</h3>
     <ul>{"".join([f"<li>{etape}</li>" for etape in c_data['itineraire']])}</ul>
@@ -1146,7 +1152,7 @@ for c_nom, c_data in croisieres_data.items():
 
     croisieres_list_html += f"""
     <div class="card">
-        {f'<img src="{c_data["image"]}" style="width:100%; height:180px; object-fit:cover; border-radius:8px; margin-bottom:10px;">' if c_data['image'] else ''}
+        {f'<img src="{c_data["image"]}" alt="{escape_html(c_nom)}" style="width:100%; height:180px; object-fit:cover; border-radius:8px; margin-bottom:10px;">' if c_data['image'] else ''}
         <h3>{c_nom}</h3>
         <p style="color:#94a3b8;">📍 {c_data['region']} | ⏱️ {c_data['duree']} | ⭐ {c_data['avis']}</p>
         <p style="color:#10B981; font-weight:bold;">💰 {c_data['prix_moyen']}</p>
@@ -1193,7 +1199,7 @@ if os.path.exists("blog_data.json"):
 <a href="blog.html" style="color: #38bdf8; display: inline-block; margin-bottom: 15px; text-decoration: none;">← Retour au blog</a>
 <div class="card">
     <h1>{art_title}</h1>
-    {f'<img src="{img_art}" style="width:100%; max-height:400px; object-fit:cover; border-radius:8px; margin:20px 0;">' if img_art else ''}
+    {f'<img src="{img_art}" alt="{escape_html(art_title)}" style="width:100%; max-height:400px; object-fit:cover; border-radius:8px; margin:20px 0;">' if img_art else ''}
     <p style="font-size: 1.1em; line-height: 1.8;">{details_texte}</p>
 </div>
 {footer_html}
@@ -1202,7 +1208,7 @@ if os.path.exists("blog_data.json"):
             
             blog_list_html += f"""
             <div class="card" style="display: flex; gap: 20px; align-items: center;">
-                {f'<img src="{img_art}" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">' if img_art else ''}
+                {f'<img src="{img_art}" alt="{escape_html(art_title)}" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">' if img_art else ''}
                 <div>
                     <h3>{art_title}</h3>
                     <p style="color: #94a3b8; font-size: 0.95em;">{art.get('resume', '')}</p>
