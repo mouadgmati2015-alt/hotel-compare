@@ -1,7 +1,37 @@
 <!DOCTYPE html>
-<html lang="fr"><head><meta charset="UTF-8"><title>Dans les coulisses de MyHotelCompare : Pourquoi j'ai créé un analyseur intelligent pour vos hôtels | Blog</title>
-<link rel="icon" type="image/png" href="images/logo_4.png">
-<link rel="apple-touch-icon" href="images/logo_4.png">
+<html lang="fr"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dans les coulisses de MyHotelCompare : Pourquoi j'ai créé un analyseur intelligent pour vos hôtels | Blog</title>
+<meta name="description" content="Découvrez pourquoi MyHotelCompare n&#39;est pas un comparateur de prix de plus, mais un outil d&#39;analyse par l&#39;IA pour révéler la vraie qualité des hôtels.">
+<link rel="canonical" href="https://myhotelcompare.com/coulisses-myhotelcompare.html">
+<meta property="og:type" content="website">
+    <meta property="og:title" content="Dans les coulisses de MyHotelCompare : Pourquoi j&#39;ai créé un analyseur intelligent pour vos hôtels">
+    <meta property="og:description" content="Découvrez pourquoi MyHotelCompare n&#39;est pas un comparateur de prix de plus, mais un outil d&#39;analyse par l&#39;IA pour révéler la vraie qualité des hôtels.">
+    <meta property="og:url" content="https://myhotelcompare.com/coulisses-myhotelcompare.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="https://myhotelcompare.com/images/nomad_votre_meta_conseil.jpg">
+
+<!-- Google Consent Mode v2 : refus par défaut tant que l'utilisateur n'a pas choisi -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLVNV2211J"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RLVNV2211J');
+</script>
+
+<link rel="icon" type="image/png" href="images/logo_5.png?v=2">
+<link rel="apple-touch-icon" href="images/logo_5.png?v=2">
 <style>
 :root {
     --bg: #f2fbfd;
@@ -121,12 +151,26 @@ a { color: var(--secondary); }
 @media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 1000px) { .smart-results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .smart-results-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+.cookie-banner {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+    background: #063247; color: #effcff; padding: 18px 20px;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+    gap: 16px; box-shadow: 0 -8px 24px rgba(0,0,0,0.25);
+}
+.cookie-banner p { margin: 0; max-width: 640px; font-size: 0.92rem; line-height: 1.5; }
+.cookie-banner a { color: #b8f0f6; }
+.cookie-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie-actions button {
+    border: none; border-radius: 10px; padding: 10px 18px; font-weight: 700; cursor: pointer;
+}
+.cookie-accept { background: var(--primary); color: white; }
+.cookie-refuse { background: rgba(255,255,255,0.15); color: white; }
 </style>
 </head>
 <body><div class="container">
 <header class="site-header">
 <div class="brand-lockup">
-    <img src="images/logo_4.png" alt="Nomad" class="brand-mark">
+    <img src="images/logo_5.svg" alt="Nomad" class="brand-mark">
     <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
 </div>
 <div class="top-nav">
@@ -142,9 +186,39 @@ a { color: var(--secondary); }
 <a href="blog.html" style="color: #38bdf8; display: inline-block; margin-bottom: 15px; text-decoration: none;">← Retour au blog</a>
 <div class="card">
     <h1>Dans les coulisses de MyHotelCompare : Pourquoi j'ai créé un analyseur intelligent pour vos hôtels</h1>
-    <img src="images/nomad_votre_meta_conseil.jpg" style="width:100%; max-height:400px; object-fit:cover; border-radius:8px; margin:20px 0;">
-    <p style="font-size: 1.1em; line-height: 1.8;">Combien de fois avez-vous réservé un hôtel les yeux fermés en vous fiant à une note globale de 4 étoiles sur 5, pour vous rendre compte une fois sur place que la réalité était bien différente ? Entre les faux avis, les commentaires dithyrambiques exagérés et les détails cachés au fond d'un long texte, choisir un hôtel est devenu un véritable parcours du combattant.<br><br>C'est exactement pour résoudre ce problème qu'est né MyHotelCompare.<br><br>### 1. Le constat : Les notes globales ne disent pas toute la vérité<br>Aujourd'hui, les plateformes traditionnelles vous noient sous les chiffres et les classements de prix. Mais le prix ne fait pas tout, et une note sur 10 ne vous dira jamais si l'hôtel est bruyant la nuit, si le Wi-Fi y est catastrophique, ou si l'accueil y est exceptionnel. Le vrai problème des voyageurs, ce n'est pas de trouver le moins cher, c'est de trouver le bon, celui qui correspond exactement à leurs attentes.<br><br>### 2. La philosophie : La transparence grâce à l'IA<br>J'ai voulu prendre le contre-pied des comparateurs classiques. MyHotelCompare n'est pas un comparateur de prix : c'est un outil d'analyse intelligent.<br><br>Grâce à la puissance de l'intelligence artificielle, le site passe au crible des centaines d'avis clients réels pour en extraire l'essence. L'objectif est limpide :<br>* **Dévoiler l'image réelle :** Fini les mauvaises surprises. L'IA analyse les retours du terrain pour dresser un portrait fidèle de la qualité de l'établissement.<br>* **Trier le vrai du faux :** Mettre en lumière les points forts et les points faibles récurrents mentionnés par les voyageurs (propreté, emplacement, confort, service).<br>* **Gagner un temps précieux :** Plus besoin de lire des dizaines de commentaires contradictoires, l'analyse synthétisée vous offre une vision claire et objective en un instant.<br><br>### 3. Une aventure qui ne fait que commencer et un service 100% gratuit<br>Nous en sommes aux tout premiers débuts de cette belle aventure, et le projet grandit vite. Le catalogue s'enrichit de jour en jour avec de nouvelles destinations et de nouveaux établissements analysés.<br><br>Et pour que la transparence soit totale, le service est entièrement gratuit pour tous les voyageurs, sans frais cachés. Pour nous aider à grandir, ne rien rater de nos nouveautés et découvrir en avant-première nos nouvelles analyses et articles de blog, abonnez-vous dès maintenant à notre [page Facebook MyHotelCompare](https://www.facebook.com/profile.php?id=61591545557027).<br><br>**En conclusion, MyHotelCompare évolue chaque jour pour vous offrir un regard authentique sur les établissements. Parce que vous méritez de savoir exactement où vous posez vos valises, explorez nos analyses et choisissez l'hôtel qui vous ressemble vraiment !**</p>
+    <img src="images/nomad_votre_meta_conseil.jpg" alt="Dans les coulisses de MyHotelCompare : Pourquoi j&#39;ai créé un analyseur intelligent pour vos hôtels" style="width:100%; max-height:400px; object-fit:cover; border-radius:8px; margin:20px 0;">
+    <p style="font-size: 1.1em; line-height: 1.8;"><p>Combien de fois avez-vous réservé un hôtel les yeux fermés en vous fiant à une note globale de 4 étoiles sur 5, pour vous rendre compte une fois sur place que la réalité était bien différente ? Entre les faux avis, les commentaires dithyrambiques exagérés et les détails cachés au fond d'un long texte, choisir un hôtel est devenu un véritable parcours du combattant.</p><br><p>C'est exactement pour résoudre ce problème qu'est né MyHotelCompare.</p><br><h2>1. Le constat : Les notes globales ne disent pas toute la vérité</h2><p>Aujourd'hui, les plateformes traditionnelles vous noient sous les chiffres et les classements de prix. Mais le prix ne fait pas tout, et une note sur 10 ne vous dira jamais si l'hôtel est bruyant la nuit, si le Wi-Fi y est catastrophique, ou si l'accueil y est exceptionnel. Le vrai problème des voyageurs, ce n'est pas de trouver le moins cher, c'est de trouver le bon, celui qui correspond exactement à leurs attentes.</p><br><h2>2. La philosophie : La transparence grâce à l'IA</h2><p>J'ai voulu prendre le contre-pied des comparateurs classiques. MyHotelCompare n'est pas un comparateur de prix : c'est un outil d'analyse intelligent.</p><p>Grâce à la puissance de l'intelligence artificielle, le site passe au crible des centaines d'avis clients réels pour en extraire l'essence. L'objectif est limpide :</p><ul><li><strong>Dévoiler l'image réelle :</strong> Fini les mauvaises surprises. L'IA analyse les retours du terrain pour dresser un portrait fidèle de la qualité de l'établissement.</li><li><strong>Trier le vrai du faux :</strong> Mettre en lumière les points forts et les points faibles récurrents mentionnés par les voyageurs (propreté, emplacement, confort, service).</li><li><strong>Gagner un temps précieux :</strong> Plus besoin de lire des dizaines de commentaires contradictoires, l'analyse synthétisée vous offre une vision claire et objective en un instant.</li></ul><br><h2>3. Une aventure qui ne fait que commencer et un service 100% gratuit</h2><p>Nous en sommes aux tout premiers débuts de cette belle aventure, et le projet grandit vite. Le catalogue s'enrichit de jour en jour avec de nouvelles destinations et de nouveaux établissements analysés.</p><br><p>Et pour que la transparence soit totale, le service est entièrement gratuit pour tous les voyageurs, sans frais cachés. Pour nous aider à grandir, ne rien rater de nos nouveautés et découvrir en avant-première nos nouvelles analyses et articles de blog, abonnez-vous dès maintenant à notre <a href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank">page Facebook MyHotelCompare</a>.</p><br><p><strong>En conclusion, MyHotelCompare évolue chaque jour pour vous offrir un regard authentique sur les établissements. Parce que vous méritez de savoir exactement où vous posez vos valises, explorez nos analyses et choisissez l'hôtel qui vous ressemble vraiment !</strong></p><p>Envie de découvrir nos derniers comparatifs et de trouver votre prochain havre de paix ? Rendez-vous sur <a href="index.html">notre page d'accueil MyHotelCompare</a>.</p><p><em>Et vous, qu'attendez-vous en priorité d'un outil d'aide à la réservation d'hôtel ? Dites-nous tout en commentaire !</em></p></p>
 </div>
+
+
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+    <p>Nous utilisons des cookies pour mesurer l'audience du site (Google Analytics). Vous pouvez accepter ou refuser ce suivi. Voir notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+    <div class="cookie-actions">
+        <button class="cookie-refuse" onclick="setCookieConsent(false)">Refuser</button>
+        <button class="cookie-accept" onclick="setCookieConsent(true)">Accepter</button>
+    </div>
+</div>
+<script>
+(function() {
+    function setCookieConsent(accepted) {
+        localStorage.setItem('cookie_consent', accepted ? 'granted' : 'denied');
+        gtag('consent', 'update', {
+            'analytics_storage': accepted ? 'granted' : 'denied'
+        });
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+    window.setCookieConsent = setCookieConsent;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var saved = localStorage.getItem('cookie_consent');
+        if (saved === 'granted') {
+            gtag('consent', 'update', { 'analytics_storage': 'granted' });
+        } else if (saved === null) {
+            document.getElementById('cookie-banner').style.display = 'flex';
+        }
+    });
+})();
+</script>
 
 <footer class="site-footer">
     <div class="footer-grid">
@@ -167,6 +241,7 @@ a { color: var(--secondary); }
             <ul class="footer-links">
                 <li><a href="apropos.html">À propos de nous</a></li>
                 <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="blog.html">Conseils de voyage</a></li>
                 <li><a href="index.html#avis">Avis voyageurs</a></li>

@@ -1,7 +1,26 @@
 <!DOCTYPE html>
 <html lang="fr"><head><meta charset="UTF-8"><title>Nos Croisières | MyHotelCompare</title>
-<link rel="icon" type="image/png" href="images/logo_4.png">
-<link rel="apple-touch-icon" href="images/logo_4.png">
+<!-- Google Consent Mode v2 : refus par défaut tant que l'utilisateur n'a pas choisi -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLVNV2211J"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RLVNV2211J');
+</script>
+
+<link rel="icon" type="image/png" href="images/logo_5.png?v=2">
+<link rel="apple-touch-icon" href="images/logo_5.png?v=2">
 <style>
 :root {
     --bg: #f2fbfd;
@@ -121,12 +140,26 @@ a { color: var(--secondary); }
 @media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 1000px) { .smart-results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .smart-results-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+.cookie-banner {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+    background: #063247; color: #effcff; padding: 18px 20px;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+    gap: 16px; box-shadow: 0 -8px 24px rgba(0,0,0,0.25);
+}
+.cookie-banner p { margin: 0; max-width: 640px; font-size: 0.92rem; line-height: 1.5; }
+.cookie-banner a { color: #b8f0f6; }
+.cookie-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie-actions button {
+    border: none; border-radius: 10px; padding: 10px 18px; font-weight: 700; cursor: pointer;
+}
+.cookie-accept { background: var(--primary); color: white; }
+.cookie-refuse { background: rgba(255,255,255,0.15); color: white; }
 </style>
 </head>
 <body><div class="container">
 <header class="site-header">
 <div class="brand-lockup">
-    <img src="images/logo_4.png" alt="Nomad" class="brand-mark">
+    <img src="images/logo_5.svg" alt="Nomad" class="brand-mark">
     <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
 </div>
 <div class="top-nav">
@@ -143,7 +176,7 @@ a { color: var(--secondary); }
 <p style="color: #94a3b8; margin-bottom: 25px;">Partez en mer avec notre sélection de croisières inoubliables.</p>
 
     <div class="card">
-        <img src="https://www.costacroisieres.fr/map/itineraries/CIV07ACQ/images/fr_FR_CIV07ACQ_landscape_sd_1x.jpg" style="width:100%; height:180px; object-fit:cover; border-radius:8px; margin-bottom:10px;">
+        <img src="https://www.costacroisieres.fr/map/itineraries/CIV07ACQ/images/fr_FR_CIV07ACQ_landscape_sd_1x.jpg" alt="Costa Croisières - Merveilles de la Méditerranée" style="width:100%; height:180px; object-fit:cover; border-radius:8px; margin-bottom:10px;">
         <h3>Costa Croisières - Merveilles de la Méditerranée</h3>
         <p style="color:#94a3b8;">📍 Méditerranée Occidentale | ⏱️ 8 jours / 7 nuits | ⭐ 8,5/10 Très bien</p>
         <p style="color:#10B981; font-weight:bold;">💰 750€ / personne</p>
@@ -152,7 +185,7 @@ a { color: var(--secondary); }
         <a href="https://www.costacroisieres.fr/cruises/CIV07ACQ/PA07261114.html" target="_blank" class="btn" style="background-color: #003580; display:block; text-align:center;">Réserver</a>
     </div>
     <div class="card">
-        <img src="https://www.costacroisieres.fr/map/itineraries/CIV05A19/images/fr_FR_CIV05A19_landscape_sd_1x.jpg" style="width:100%; height:180px; object-fit:cover; border-radius:8px; margin-bottom:10px;">
+        <img src="https://www.costacroisieres.fr/map/itineraries/CIV05A19/images/fr_FR_CIV05A19_landscape_sd_1x.jpg" alt="Costa Smeralda - Merveilles de la Méditerranée" style="width:100%; height:180px; object-fit:cover; border-radius:8px; margin-bottom:10px;">
         <h3>Costa Smeralda - Merveilles de la Méditerranée</h3>
         <p style="color:#94a3b8;">📍 Italie, France, Espagne | ⏱️ 6 jours / 5 nuits | ⭐ Exceptionnel (4/5)</p>
         <p style="color:#10B981; font-weight:bold;">💰 918€ / 2 passagers</p>
@@ -161,7 +194,7 @@ a { color: var(--secondary); }
         <a href="https://www.costacroisieres.fr/cruises/CIV05A19/SM05261106.html" target="_blank" class="btn" style="background-color: #003580; display:block; text-align:center;">Réserver</a>
     </div>
     <div class="card">
-        <img src="https://www.costacroisieres.fr/map/itineraries/LRM07A20/images/fr_FR_LRM07A20_landscape_sd_1x.jpg" style="width:100%; height:180px; object-fit:cover; border-radius:8px; margin-bottom:10px;">
+        <img src="https://www.costacroisieres.fr/map/itineraries/LRM07A20/images/fr_FR_LRM07A20_landscape_sd_1x.jpg" alt="Costa Fascinosa - Caraïbes et Antilles" style="width:100%; height:180px; object-fit:cover; border-radius:8px; margin-bottom:10px;">
         <h3>Costa Fascinosa - Caraïbes et Antilles</h3>
         <p style="color:#94a3b8;">📍 Caraïbes et Antilles | ⏱️ 8 jours / 7 nuits | ⭐ Exceptionnel (4/5)</p>
         <p style="color:#10B981; font-weight:bold;">💰 918€ / 2 passagers</p>
@@ -169,6 +202,36 @@ a { color: var(--secondary); }
         <a href="costa-fascinosa-cara-bes-et-antilles.html" class="btn" style="background:#3A506B;">📄 Voir l'itinéraire détaillé</a>
         <a href="https://www.costacroisieres.fr/cruises/LRM07A20/FS07270117.html" target="_blank" class="btn" style="background-color: #003580; display:block; text-align:center;">Réserver</a>
     </div>
+
+
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+    <p>Nous utilisons des cookies pour mesurer l'audience du site (Google Analytics). Vous pouvez accepter ou refuser ce suivi. Voir notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+    <div class="cookie-actions">
+        <button class="cookie-refuse" onclick="setCookieConsent(false)">Refuser</button>
+        <button class="cookie-accept" onclick="setCookieConsent(true)">Accepter</button>
+    </div>
+</div>
+<script>
+(function() {
+    function setCookieConsent(accepted) {
+        localStorage.setItem('cookie_consent', accepted ? 'granted' : 'denied');
+        gtag('consent', 'update', {
+            'analytics_storage': accepted ? 'granted' : 'denied'
+        });
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+    window.setCookieConsent = setCookieConsent;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var saved = localStorage.getItem('cookie_consent');
+        if (saved === 'granted') {
+            gtag('consent', 'update', { 'analytics_storage': 'granted' });
+        } else if (saved === null) {
+            document.getElementById('cookie-banner').style.display = 'flex';
+        }
+    });
+})();
+</script>
 
 <footer class="site-footer">
     <div class="footer-grid">
@@ -191,6 +254,7 @@ a { color: var(--secondary); }
             <ul class="footer-links">
                 <li><a href="apropos.html">À propos de nous</a></li>
                 <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="blog.html">Conseils de voyage</a></li>
                 <li><a href="index.html#avis">Avis voyageurs</a></li>
