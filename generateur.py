@@ -225,7 +225,7 @@ def get_public_image(path):
     return str(path).replace("\\", "/") if (BASE_DIR / path).exists() else ""
 
 # Éléments partagés (Logo, Menu, Témoignages, Footer)
-logo_path = "images/logo_4.png" # (ou "logo_4.svg" s'il est à la racine)
+logo_path = "images/logo_5.svg" # (ou "images/logo_5.png" si tu préfères garder du PNG)
 logo_html = f'<img src="{logo_path}" alt="Nomad" class="brand-mark">'
 
 menu_html = f"""
@@ -265,8 +265,8 @@ global_style = """
   gtag('config', 'G-RLVNV2211J');
 </script>
 
-<link rel="icon" type="image/png" href="images/logo_4.png">
-<link rel="apple-touch-icon" href="images/logo_4.png">
+<link rel="icon" type="image/png" href="images/logo_5.png">
+<link rel="apple-touch-icon" href="images/logo_5.png">
 <style>
 :root {
     --bg: #f2fbfd;
