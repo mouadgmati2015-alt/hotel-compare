@@ -1,0 +1,53 @@
+"""
+Restaure uniquement le champ "image" de chaque hôtel dans data/tunisie.json,
+en le reprenant depuis une ancienne version du fichier (avant les modifications
+de Gemini), SANS toucher aux autres champs (description, équipements, etc.)
+qui ont pu être améliorés depuis.
+
+Utilisation :
+    1. Dans le dossier du projet (comparateur-ia), lance :
+       git show d8c0818:data/tunisie.json > data/tunisie_ancien.json
+
+    2. Puis lance ce script :
+       python restaurer_images.py
+
+    3. Vérifie le résultat (les images doivent être revenues), puis :
+       git add data/tunisie.json
+       git commit -m "Restaure les liens images d'origine"
+       git push origin main
+"""
+import json
+from pathlib import Path
+
+FICHIER_ACTUEL = Path("data/tunisie.json")
+FICHIER_ANCIEN = Path("data/tunisie_ancien.json")
+
+with open(FICHIER_ACTUEL, "r", encoding="utf-8") as f:
+    actuel = json.load(f)
+
+with open(FICHIER_ANCIEN, "r", encoding="utf-8") as f:
+    ancien = json.load(f)
+
+restaures = []
+introuvables = []
+
+for nom_hotel, donnees in actuel.items():
+    if nom_hotel in ancien and ancien[nom_hotel].get("image"):
+        ancienne_image = ancien[nom_hotel]["image"]
+        if donnees.get("image") != ancienne_image:
+            donnees["image"] = ancienne_image
+            restaures.append(nom_hotel)
+    else:
+        introuvables.append(nom_hotel)
+
+with open(FICHIER_ACTUEL, "w", encoding="utf-8") as f:
+    json.dump(actuel, f, ensure_ascii=False, indent=4)
+
+print(f"{len(restaures)} image(s) restaurée(s) :")
+for nom in restaures:
+    print(f"  - {nom}")
+
+if introuvables:
+    print(f"\n{len(introuvables)} hôtel(s) absents de l'ancien fichier (donc non touchés, probablement ajoutés depuis) :")
+    for nom in introuvables:
+        print(f"  - {nom}")
