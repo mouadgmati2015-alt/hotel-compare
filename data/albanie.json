@@ -6,6 +6,9 @@
         "lien_booking": "https://www.booking.com/hotel/al/marbella-beach.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Golem-Hotel-Marbella-Beach-Hotel.h76935329.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/454274127.jpg?k=98bd7b6e578b7bce1eb48eff14374d14be173f690e6657d7c8ea0b1c03a8c63d&o=",
+        "image_alt": "Marbella Beach Hotel - hôtel de côte 4 étoiles avec piscine et plage privée à Golem (Albanie)",
+        "meta_title": "Marbella Beach Hotel Golem 4* : Avis & Prix Plage Privée 2026",
+        "meta_description": "Marbella Beach Hotel 4* à Golem : cadre verdoyant, piscine extérieure, accès plage privée. Avis 7.9/10, prix, réservation Booking.",
         "description": "Niché le long de la paisible pinède et à deux pas des superbes étendues de sable de Golem, le Marbella Beach Hotel se présente comme une halte côtière idéale pour les vacanciers en quête de soleil albanais. L'établissement met en avant un cadre extérieur agréable agrémenté d'une piscine accueillante, d'une terrasse ensoleillée et d'un accès direct vers une zone de plage privée. Les chambres, souvent spacieuses et dotées de balcons, offrent un point de vue appréciable sur les environs, tandis que l'accueil chaleureux du personnel de réception est régulièrement salué par les voyageurs de passage. Néanmoins, l'expérience globale révèle des contrastes notables, notamment concernant l'entretien des équipements, la gestion de la propreté des salles de bains et la régularité des services proposés par rapport aux standards internationaux d'un 4 étoiles.",
         "prix_moyen": "420€ - 840€ / semaine (selon la saison)",
         "avis": "7,9/10",
@@ -24,6 +27,7 @@
             "Infrastructures de l'hôtel et de certains services de chambre s'apparentant davantage à un standard 3 étoiles. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Piscine extérieure",
             "Plage privée",
             "Connexion Wi-Fi gratuite",
@@ -38,15 +42,38 @@
             "style": "Hôtel de côte décontracté",
             "verdict": "Une option abordable et chaleureuse pour profiter de la mer, à condition de tolérer quelques petits défauts de confort et d'entretien."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 565 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "7,9/10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 565 expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Marbella Beach Hotel",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "400€ - 850€ / semaine",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "3.95",
+                "bestRating": "5",
+                "reviewCount": "565"
+            }
+        }
     },
-"San Angelo Luxury Resort & Spa - Adults Only": {
+    "San Angelo Luxury Resort & Spa - Adults Only": {
         "pays": "Albanie",
         "ville": "Saranda",
         "etoiles": "5 étoiles (ressenti mitigé selon les standards clients)",
         "lien_booking": "https://www.booking.com/hotel/al/san-angelo-resort.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Sarande-Hotel-San-Angelo-Luxury-Resort-Adults-Only.h104670889.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/575500736.jpg?k=e466386b5c262cff9898499104c0c35365e21086b328ae752f0d8faa92589d59&o=",
+        "image_alt": "San Angelo Luxury Resort & Spa - Adults Only - resort de luxe 5 étoiles réservé aux adultes à Saranda",
+        "meta_title": "San Angelo Luxury Resort Saranda 5* : Avis & Prix Adults Only 2026",
+        "meta_description": "San Angelo Luxury Resort & Spa 5* à Saranda : réservé aux adultes, front de mer, spa, plage privée. Avis 8.1/10, prix, réservation Booking.",
         "description": "Niché au cœur de la magnifique ville côtière de Saranda, face à l'île de Corfou, le San Angelo Luxury Resort & Spa se présente comme un établissement réservé aux adultes, conçu pour offrir une parenthèse de détente haut de gamme en bord de mer. L'hôtel dispose d'un accès direct à une plage privée aménagée, d'une piscine extérieure sophistiquée et d'un espace bien-être comprenant hammam et sauna. Les chambres affichent un design moderne et esthétique, proposant pour certaines des suites somptueuses dotées de baignoires panoramiques et de superbes vues maritimes. Cependant, malgré un positionnement luxueux et une équipe globalement accueillante, l'établissement fait face à des critiques récurrentes concernant la gestion du bruit (ambiance type beach club très rythmée), des finitions de construction parfois inachevées, ainsi que des prestations de restauration et de service qui peinent à satisfaire pleinement les exigences inhérentes au standing 5 étoiles.",
         "prix_moyen": "700€ - 1 500€ / semaine (selon la saison)",
         "avis": "8,1/10",
@@ -65,6 +92,7 @@
             "Incidents liés à la sécurité ou à l'organisation générale (coupures de courant, gestion du check-in) signalés par certains visiteurs. (TripAdvisor)"
         ],
         "equipements": [
+            "5 étoiles",
             "Adults Only",
             "Piscine extérieure",
             "Plage privée",
@@ -81,7 +109,27 @@
             "style": "Resort design et festif",
             "verdict": "Un panorama et un look spectaculaires, mais un positionnement 5 étoiles gâché par une ambiance sonore trop lourde et des services inconstants."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 593 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,1/10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 1 593 expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "San Angelo Luxury Resort & Spa - Adults Only",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "650€ - 1600€ / semaine",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.05",
+                "bestRating": "5",
+                "reviewCount": "1593"
+            }
+        }
     },
     "Glow Boutique Hotel & Suites": {
         "pays": "Albanie",
@@ -90,6 +138,9 @@
         "lien_booking": "https://www.booking.com/hotel/al/glow-boutique-amp-suites.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Sarande-Hotel-Glow-Boutique-Hotel-Suites.h37138556.Description-Hotel",
         "image": "https://images.trvl-media.com/lodging/38000000/37140000/37138600/37138556/327009a4.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "image_alt": "Glow Boutique Hotel & Suites - boutique-hôtel 4 étoiles avec rooftop à Saranda (Albanie)",
+        "meta_title": "Glow Boutique Hotel Saranda 4* : Avis & Prix Rooftop 2026",
+        "meta_description": "Glow Boutique Hotel & Suites 4* à Saranda : design moderne, piscine sur le toit avec vue mer, petit-déjeuner copieux. Avis 9.1/10, prix, réservation Booking.",
         "description": "Situé à Saranda, à proximité immédiate des plages prisées de Flamingo et Mango, le Glow Boutique Hotel & Suites s'impose comme une adresse moderne, élégante et résolument tournée vers le confort de ses hôtes. L'établissement propose des chambres et des suites spacieuses, décorées avec soin dans un style contemporain épuré, dotées de tout l'équipement nécessaire pour un séjour de détente absolue. Sur le toit, une superbe piscine extérieure et sa terrasse bien exposée offrent un point de vue imprenable sur la mer Adriatique et les couchers de soleil, créant un espace de relaxation privilégié. L'hôtel se distingue également par la qualité de son service attentionné, la propreté irréprochable de ses espaces communs ainsi que par un petit-déjeuner continental varié et copieux. Idéalement implanté à l'écart du tumulte trop dense du centre-ville tout en restant proche des restaurants et des commodités, il constitue un choix de premier ordre pour les voyageurs exigeants en quête d'un séjour design et serein sur la côte albanaise.",
         "prix_moyen": "560€ - 1 120€ / semaine (selon la saison)",
         "avis": "9,1/10",
@@ -108,6 +159,7 @@
             "Réglementation intérieure stricte de l'hôtel (comme la gestion des serviettes ou l'interdiction de consommer de la nourriture extérieure) parfois perçue comme rigide. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Piscine sur le toit (Rooftop)",
             "Parking gratuit (places limitées)",
             "Connexion Wi-Fi gratuite",
@@ -122,15 +174,38 @@
             "style": "Boutique-hôtel de charme",
             "verdict": "Une magnifique adresse haut de gamme, idéale pour un séjour tout confort face à la mer, à condition de réserver votre place de parking à l'avance."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 606 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,1/10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 606 expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Glow Boutique Hotel & Suites",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "500€ - 1200€ / semaine",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.55",
+                "bestRating": "5",
+                "reviewCount": "606"
+            }
+        }
     },
     "Andon Lapa Hotel & Spa": {
         "pays": "Albanie",
         "ville": "Saranda",
         "etoiles": "4 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/al/andon-lapa-suites.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/al/andon-lapa-suites.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Sarande-Hotel-ANDON-LAPA-SUITES.h68585914.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/208888513.jpg?k=2580b35036b0ff9b41ae49210e3e6caeeae7a55581e5f53468378a380e253add&o=",
+        "image_alt": "Andon Lapa Hotel & Spa - resort 4 étoiles avec plage privée et spa à Saranda (Albanie)",
+        "meta_title": "Andon Lapa Hotel Saranda 4* : Avis & Prix Plage Privée & Spa 2026",
+        "meta_description": "Andon Lapa Hotel & Spa 4* à Saranda : plage privée aménagée, centre de bien-être (sauna, hammam), piscines. Avis 9.0/10, prix, réservation Booking.",
         "description": "Situé à Saranda, à proximité immédiate du centre et à deux pas de l'embarcadère des ferries, l'Andon Lapa Hotel & Spa s'impose comme une adresse balnéaire incontournable et extrêmement bien notée (9,0/10). L'établissement propose un cadre idyllique en front de mer, doté d'une plage privée aménagée de transats de grande qualité, d'une piscine extérieure ainsi que d'un complexe de bien-être complet comprenant piscine intérieure, sauna et hammam en accès libre. Les chambres, spacieuses et d'une propreté irréprochable, offrent pour la plupart de superbes balcons terrasses avec vue panoramique sur la baie de Saranda et la mer turquoise. Porté par une équipe aux petits soins et un service irréprochable, l'hôtel combine à la perfection détente les pieds dans l'eau et confort moderne.",
         "prix_moyen": "560€ - 1 200€ / semaine (selon la saison)",
         "avis": "9,0/10",
@@ -149,6 +224,7 @@
             "Disponibilité du personnel parfois mise à rude épreuve par une forte affluence estivale de clients extérieurs. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Plage privée",
             "2 piscines (extérieure et intérieure)",
             "Spa et centre de bien-être (sauna, hammam)",
@@ -164,6 +240,26 @@
             "style": "Resort de côte 4 étoiles",
             "verdict": "L'une des meilleures options les pieds dans l'eau à Saranda, combinant des infrastructures balnéaires d'exception et un service irréprochable."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 559 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,0/10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 1 559 expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Andon Lapa Hotel & Spa",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "500€ - 1300€ / semaine",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.5",
+                "bestRating": "5",
+                "reviewCount": "1559"
+            }
+        }
     }
 }

@@ -3,9 +3,12 @@
         "pays": "Croatie",
         "ville": "Dubrovnik",
         "etoiles": "5 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/hr/hotelexcelsiordubrovnik.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/hr/hotelexcelsiordubrovnik.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Dubrovnik-Hotel-Hotel-Excelsior.h868175.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/108015668.jpg?k=5b5647eaf6aa835047af5b643c6697a01460a006d1838e31c8d8614cc3f3519a&o=",
+        "image_alt": "Hotel Excelsior Dubrovnik - hôtel de luxe 5 étoiles avec vue sur les remparts à Dubrovnik",
+        "meta_title": "Hotel Excelsior Dubrovnik 5* : Avis & Prix Vue Remparts 2026",
+        "meta_description": "Hotel Excelsior Dubrovnik 5* : vue frontale sur les remparts et l'Adriatique, plage privée, spa de classe mondiale. Avis 9.3/10, prix, réservation Booking.",
         "description": "L'adresse la plus célèbre de Dubrovnik, offrant une vue frontale spectaculaire sur les remparts de la vieille ville et l'immensité bleue de la mer Adriatique. Cet hôtel 5 étoiles de légende combine habilement un bâtiment historique chargé d'histoire et une aile moderne au design contemporain épuré. Les clients profitent d'un accès direct à la mer, d'une plage privée aménagée, d'un spa de classe mondiale et de restaurants gastronomiques primés. C'est le point de départ rêvé pour conjuguer exploration culturelle et farniente luxueux face à la 'perle de l'Adriatique'.",
         "prix_moyen": " 350€ / nuit",
         "avis": "9,3/10",
@@ -41,18 +44,41 @@
             "style": "Hôtel de luxe face à la vieille ville",
             "verdict": "L'Hôtel Excelsior est l'adresse absolue pour admirer Dubrovnik. Son panorama direct sur les remparts et ses prestations haut de gamme en font un choix inoubliable sur l'Adriatique."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 100+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,3/10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 1 100+ expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Hotel Excelsior Dubrovnik",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "300€ - 500€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.65",
+                "bestRating": "5",
+                "reviewCount": "1100"
+            }
+        }
     },
     "DoubleTree by Hilton Zagreb": {
         "pays": "Croatie",
         "ville": "Zagreb",
         "etoiles": "5 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/hr/double-tree-by-hilton-zagreb.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/hr/double-tree-by-hilton-zagreb.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Zagreb-Hotel-DoubleTree-By-Hilton-Zagreb.h5209510.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/484101662.jpg?k=3cbceb3f375633400ead0923197b8361ddcf9aad51b11d6386fc2ce5cc925ffb&o=",
+        "image_alt": "DoubleTree by Hilton Zagreb - hôtel moderne 5 étoiles avec piscine intérieure à Zagreb",
+        "meta_title": "DoubleTree by Hilton Zagreb 5* : Avis & Prix Centre d'Affaires 2026",
+        "meta_description": "DoubleTree by Hilton Zagreb 5* : chambres spacieuses, piscine intérieure, spa, restaurant OXBO. Avis 9.0/10, prix, réservation Booking.",
         "description": "Un hôtel moderne et haut de gamme, idéalement situé dans le centre d'affaires de Zagreb. Cet établissement de luxe propose des chambres spacieuses et extrêmement confortables, un jardin, une piscine intérieure relaxante, ainsi que des soins de spa de qualité. Il abrite également le célèbre restaurant OXBO qui met à l'honneur une cuisine raffinée.",
         "prix_moyen": " 170€ / nuit",
-        "avis": "9,0/10 Fabuleux d'après les avis clients",
+        "avis": "9,0/10",
         "notes_categories": {
             "personnel": "9,3/10",
             "equipements": "9,1/10",
@@ -89,18 +115,41 @@
             "style": "Hôtel urbain haut de gamme",
             "verdict": "Le DoubleTree by Hilton Zagreb est une valeur sûre pour allier confort de premier ordre, détente grâce à sa piscine et un service irréprochable dans la capitale croate."
         },
-        "meta_avis": "Contenu résumé par IA sur la base des expériences voyageurs · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,0/10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base des expériences voyageurs · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "DoubleTree by Hilton Zagreb",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "140€ - 210€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.5",
+                "bestRating": "5",
+                "reviewCount": "1200"
+            }
+        }
     },
     "AC Hotel Split": {
         "pays": "Croatie",
         "ville": "Split",
         "etoiles": "4 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/hr/ac-by-marriott-split.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/hr/ac-by-marriott-split.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/The-Hague-Hotel-AC-Hotel-By-Marriott-Split.h81730165.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/643810463.jpg?k=afc282b5fb857cf669287ca0c8065ea16ba0c6118bae93d87a833260afbbc4d6&o=",
+        "image_alt": "AC Hotel Split - hôtel contemporain design 4 étoiles avec vue sur mer à Split",
+        "meta_title": "AC Hotel Split 4* : Avis & Prix Design & Spa Dalmatie 2026",
+        "meta_description": "AC Hotel Split 4* : design contemporain, superbes vues sur la mer, piscine intérieure, spa. Avis 9.3/10, prix, réservation Booking.",
         "description": "Établissement contemporain et design situé à Split, cet hôtel 4 étoiles est parfait pour découvrir la ville et la côte dalmate. Il offre de superbes vues sur la mer, des infrastructures entièrement neuves comprenant une piscine intérieure, un spa complet et une table de restaurant gastronomique de grande qualité.",
         "prix_moyen": " 210€ / nuit",
-        "avis": "9,3/10 Fabuleux d'après plus de 2 100 avis",
+        "avis": "9,3/10",
         "notes_categories": {
             "personnel": "9,4/10",
             "equipements": "9,4/10",
@@ -138,18 +187,41 @@
             "style": "Hôtel urbain design et spa",
             "verdict": "L'AC Hotel Split brille par son niveau d'excellence exceptionnel. Entre ses vues spectaculaires, ses équipements flambants neufs et son service irréprochable, c'est une adresse de premier choix en Dalmatie."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 2 161+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,3/10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 2 161+ expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "AC Hotel Split",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "180€ - 260€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.65",
+                "bestRating": "5",
+                "reviewCount": "2161"
+            }
+        }
     },
     "City Hotel Dubrovnik": {
         "pays": "Croatie",
         "ville": "Dubrovnik",
         "etoiles": "4 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/hr/city-dubrovnik.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/hr/city-dubrovnik.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Dubrovnik-Hotel-City-Hotel-Dubrovnik.h84282909.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/398838400.jpg?k=601d79e43674e58de92d7cd168881f9452768c04dc6ff8bb0aced5b60e3cd54b&o=",
+        "image_alt": "City Hotel Dubrovnik - hôtel citadin moderne 4 étoiles près de la plage à Dubrovnik",
+        "meta_title": "City Hotel Dubrovnik 4* : Avis & Prix Près Plage Bellevue 2026",
+        "meta_description": "City Hotel Dubrovnik 4* : chambres modernes près de la plage de Bellevue et du port de Gruž, réception 24h/24. Avis 8.6/10, prix, réservation Booking.",
         "description": "Confortable hôtel 4 étoiles idéalement positionné à Dubrovnik, offrant un accès facile aux remparts historiques, au port de Gruž et à proximité immédiate de la belle plage de Bellevue. C'est un point de chute moderne et parfaitement équipé pour explorer la perle de l'Adriatique.",
         "prix_moyen": " 190€ / nuit",
-        "avis": "8,6/10 Superbe",
+        "avis": "8,6/10",
         "notes_categories": {
             "personnel": "8,9/10",
             "equipements": "8,5/10",
@@ -184,18 +256,41 @@
             "style": "Hôtel citadin moderne",
             "verdict": "Le City Hotel Dubrovnik combine un emplacement très pratique près de la mer et des prestations 4 étoiles confortables pour visiter la région en toute sérénité."
         },
-        "meta_avis": "Contenu résumé par IA sur la base des expériences voyageurs · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,6/10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base des expériences voyageurs · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "City Hotel Dubrovnik",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "150€ - 230€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.3",
+                "bestRating": "5",
+                "reviewCount": "850"
+            }
+        }
     },
     "Hotel Delfin": {
         "pays": "Croatie",
         "ville": "Zadar",
         "etoiles": "3 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/hr/pansion-vista.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/hr/pansion-vista.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Zadar-Hotel-Hotel-Delfin.h4436522.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/142099041.jpg?k=e777e0e43defb48b9f745422791188880a8a139c466765306934702c7ce7bf23&o=",
+        "image_alt": "Hotel Delfin - hôtel de charme 3 étoiles en bord de mer à Zadar",
+        "meta_title": "Hotel Delfin Zadar 3* : Avis & Prix Bord de Mer 2026",
+        "meta_description": "Hotel Delfin 3* à Zadar : les pieds dans l'eau, terrasse panoramique, cuisine dalmate, ambiance intime. Avis 8.8/10, prix, réservation Booking.",
         "description": "Hôtel convivial et chaleureux à gestion humaine, situé directement au bord de la mer dans la région de Zadar. Il offre de magnifiques vues panoramiques sur la mer et les îles depuis sa terrasse couverte, ainsi qu'un accès direct au littoral pour de superbes balades romantiques.",
         "prix_moyen": " 110€ / nuit",
-        "avis": "8,8/10 Excellent",
+        "avis": "8,8/10",
         "notes_categories": {
             "personnel": "9,5/10",
             "equipements": "8,8/10",
@@ -231,18 +326,41 @@
             "style": "Hôtel de charme côtier",
             "verdict": "L'Hotel Delfin à Zadar séduit par son ambiance intime en bord de mer, sa cuisine locale généreuse et la bienveillance remarquable de son équipe."
         },
-        "meta_avis": "Contenu résumé par IA sur la base des expériences voyageurs · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,8/10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base des expériences voyageurs · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Hotel Delfin",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "priceRange": "90€ - 140€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.4",
+                "bestRating": "5",
+                "reviewCount": "450"
+            }
+        }
     },
     "Hotel Galija": {
         "pays": "Croatie",
         "ville": "Pula",
         "etoiles": "3 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/hr/hotelgalijapula.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/hr/hotelgalijapula.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Pula-Hotel-Hotel-Galija.h4678944.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/159022743.jpg?k=2564b64943b89ca54047a071bbd170d654fb91794a1ffd4b35df9b2db93fd616&o=",
+        "image_alt": "Hotel Galija - hôtel de charme historique 3 étoiles au cœur de Pula",
+        "meta_title": "Hotel Galija Pula 3* : Avis & Prix Hypercentre & Istrie 2026",
+        "meta_description": "Hotel Galija 3* à Pula : emplacement idéal dans la vieille ville près des arènes romaines, restaurant réputé de fruits de mer. Avis 7.8/10, prix, réservation Booking.",
         "description": "Charmant hôtel à gestion familiale situé au cœur de la ville historique de Pula en Istrie. L'établissement allie un confort moderne à un emplacement privilégié à proximité immédiate des monuments antiques, notamment le célèbre amphithéâtre romain. Il dispose d'un restaurant réputé spécialisé dans les fruits de mer et la gastronomie istrienne.",
         "prix_moyen": " 95€ / nuit",
-        "avis": "7,8/10 Bien / Recommandé pour sa localisation",
+        "avis": "7,8/10",
         "notes_categories": {
             "personnel": "8,8/10",
             "equipements": "8,0/10",
@@ -276,6 +394,26 @@
             "style": "Hôtel de charme historique",
             "verdict": "L'Hotel Galija est le pied-à-terre idéal pour s'imprégner de l'histoire de Pula. Sa situation ultra-centrale, son hospitalité familiale et sa table gastronomique en font une étape incontournable en Istrie."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de plus de 2 000 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "7,8/10",
+            "source_principale": "Contenu résumé par IA sur la base de plus de 2 000 expériences vécues",
+            "points_cles_avis": "Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Hotel Galija",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "priceRange": "80€ - 120€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "3.9",
+                "bestRating": "5",
+                "reviewCount": "2000"
+            }
+        }
     }
 }

@@ -3,9 +3,12 @@
         "pays": "Canada",
         "ville": "Banff (Alberta)",
         "etoiles": "5 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/ca/fairmont-banff-srpings.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/ca/fairmont-banff-srpings.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Banff-Hotel-Fairmont-Banff-Springs.h13652.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/847947021.jpg?k=917444effadf4fcb7eb423c3af3c80c885fac3501db73f1f43237b4f820fbe71&o=",
+        "image_alt": "Fairmont Banff Springs - château hôtelier historique 5 étoiles dans les Rocheuses au Canada",
+        "meta_title": "Fairmont Banff Springs 5* : Avis & Prix Château des Rocheuses 2026",
+        "meta_description": "Fairmont Banff Springs 5* à Banff : architecture de château écossais, spa Willow Stream, golf de renommée mondiale, piscines. Avis 9.2/10, prix, réservation Booking.",
         "description": "Surnommé le 'Château des Rocheuses', cet hôtel historique offre une expérience montagnarde unique au Canada. Construit dans le style d'un château écossais au cœur du parc national de Banff (classé à l'UNESCO), il domine des paysages naturels d'une beauté époustouflante. Les clients profitent d'un parcours de golf de renommée mondiale, de piscines intérieures et extérieures chauffées, d'un spa de classe mondiale (Willow Stream Spa) et de multiples restaurants gastronomiques entourés par les sommets enneigés.",
         "prix_moyen": " 450$ CAD / nuit",
         "avis": "9,2/10",
@@ -26,6 +29,7 @@
             "Nécessite de réserver restaurants et activités de plein air longtemps à l'avance. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "Golf de renommée mondiale (parcours Stanley Thompson)",
             "Willow Stream Spa (primé, bain turc, soins en couple)",
             "Piscine intérieure chauffée et piscine extérieure chauffée",
@@ -45,18 +49,41 @@
             "style": "Château hôtelier historique des Rocheuses",
             "verdict": "Le Fairmont Banff Springs est une légende vivante au Canada. Entre son architecture de château écossais et son décor grandiose au milieu des Rocheuses, il offre un séjour montagnard absolument inoubliable."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 400+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,2/10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 1 400+ expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Fairmont Banff Springs",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "400$ - 600$ CAD / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.6",
+                "bestRating": "5",
+                "reviewCount": "1400"
+            }
+        }
     },
     "Hyatt Centric Montreal": {
         "pays": "Canada",
         "ville": "Montréal",
         "etoiles": "4 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/ca/hyatt-centric-ville-marie-montreal.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/ca/hyatt-centric-ville-marie-montreal.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Montreal-Hotel-Hyatt-Centric-Old-Montreal.h73567320.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/517459074.jpg?k=627cb06c37dc0c2a141f4b37460ad746afd5b57ba67526a9ea04beb445ac232c&o=",
+        "image_alt": "Hyatt Centric Montreal - hôtel design 4 étoiles avec piscine sur le toit à Montréal",
+        "meta_title": "Hyatt Centric Montreal 4* : Avis & Prix Rooftop Vieux-Montréal 2026",
+        "meta_description": "Hyatt Centric Montreal 4* : emplacement idéal dans le Vieux-Montréal, piscine extérieure sur le toit, confort moderne. Avis 8.7/10, prix, réservation Booking.",
         "description": "Situé à Montréal, à proximité du Vieux-Montréal, de la station de métro Champ-de-Mars et à 900 mètres de la Plage de l'Horloge, l'établissement Hyatt Centric Montreal propose un hébergement moderne et raffiné. Il dispose d'une superbe piscine extérieure sur le toit (rooftop) avec vue sur la ville, d'une salle de sport très bien équipée, d'un restaurant, d'un bar et d'une terrasse bien exposée.",
         "prix_moyen": " 260€ / nuit",
-        "avis": "8,7/10 Superbe d'après 1 534 expériences vécues",
+        "avis": "8,7/10",
         "notes_categories": {
             "personnel": "9,0/10",
             "equipements": "9,0/10",
@@ -83,6 +110,7 @@
             "Petit-déjeuner standard inclus limité (buffet et café filtre), non systématiquement inclus selon le tarif réservé. (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Piscine extérieure chauffée (rooftop) avec bar",
             "Centre de remise en forme ouvert 24h/24",
             "Restaurant Cartier Arms et bar",
@@ -101,6 +129,26 @@
             "style": "Hôtel design contemporain avec rooftop",
             "verdict": "Le Hyatt Centric Montreal est le pied-à-terre parfait pour découvrir Montréal. Alliant un emplacement de premier choix à deux pas du Vieux-Port, un design moderne, un service irréprochable et une magnifique piscine sur le toit, il garantit un séjour mémorable et des plus confortables."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 534 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,7/10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 1 534 expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Hyatt Centric Montreal",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "220€ - 320€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.35",
+                "bestRating": "5",
+                "reviewCount": "1534"
+            }
+        }
     }
 }

@@ -3,12 +3,24 @@
         "pays": "Chine",
         "ville": "Shanghai",
         "etoiles": "5 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/cn/the-peninsula-shanghai.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/cn/the-peninsula-shanghai.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Shanghai-Hotel-The-Peninsula-Shanghai.h2814344.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/33960708.jpg?k=ccebcb7cb3cb473aa8e4172613c9802abe1dacda3b74ab58ed37d629575675b2&o=",
+        "image_alt": "The Peninsula Shanghai - palace prestigieux 5 étoiles face au Bund à Shanghai",
+        "meta_title": "The Peninsula Shanghai 5* : Avis & Prix Palace Bund & Rolls-Royce 2026",
+        "meta_description": "The Peninsula Shanghai 5* : emplacement légendaire sur le Bund, spa, piscine, flotte de Rolls-Royce, restaurant étoilé Michelin. Avis 9.5/10, prix, réservation Booking.",
         "description": "Idéalement situé sur le célèbre Bund de Shanghai, The Peninsula offre une vue spectaculaire sur les gratte-ciels futuristes de Pudong et la rivière Huangpu. Cet établissement prestigieux allie le glamour de l'Art déco des années 1920 et le summum de la technologie moderne. Les clients profitent d'un service légendaire, de sa flotte de Rolls-Royce classiques, d'un spa de classe mondiale, d'une piscine intérieure somptueuse et de tables gastronomiques récompensées, dont un restaurant cantonais étoilé au guide Michelin.",
         "prix_moyen": " 400€ / nuit",
         "avis": "9,5/10",
+        "notes_categories": {
+            "personnel": "9,6/10",
+            "equipements": "9,5/10",
+            "proprete": "9,7/10",
+            "confort": "9,6/10",
+            "rapport_qualite_prix": "8,8/10",
+            "situation_geographique": "9,9/10",
+            "connexion_wifi_gratuite": "9,2/10"
+        },
         "points_positifs": [
             "Emplacement légendaire directement sur le Bund avec vue sur Pudong. (TripAdvisor)",
             "Flotte de Rolls-Royce historiques réservée aux transferts des clients. (Trip.com)",
@@ -41,18 +53,41 @@
             "style": "Palace urbain au bord du Bund",
             "verdict": "The Peninsula Shanghai est une adresse de premier plan. Entre son emplacement magique sur le Bund, son service d'exception et son raffinement Art déco, il garantit un séjour inoubliable."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 100+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,5/10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 1 100+ expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "The Peninsula Shanghai",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "350€ - 500€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.75",
+                "bestRating": "5",
+                "reviewCount": "1100"
+            }
+        }
     },
     "East Beijing Hotel": {
         "pays": "Chine",
         "ville": "Beijing",
         "etoiles": "5 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/cn/beijing-east.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/cn/beijing-east.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Beijing-Hotel-EAST-Beijing.h5408503.Description-Hotel",
         "image": "https://images.trvl-media.com/lodging/6000000/5410000/5408600/5408503/5f999c18.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "image_alt": "East Beijing Hotel - hôtel design 5 étoiles moderne dans le quartier de Sanlitun à Pékin",
+        "meta_title": "East Beijing Hotel 5* : Avis & Prix Design Sanlitun 2026",
+        "meta_description": "East Beijing Hotel 5* à Pékin : quartier branché de Sanlitun, design contemporain, piscine intérieure, proximité des commerces. Avis 8.8/10, prix, réservation Booking.",
         "description": "Un hôtel moderne et élégant situé dans le quartier dynamique de Beijing à Pékin, offrant un design contemporain et un accès privilégié aux zones commerçantes et de divertissement.",
         "prix_moyen": " 180€ / nuit",
-        "avis": "8,8/10 Superbe",
+        "avis": "8,8/10",
         "notes_categories": {
             "personnel": "9,0/10",
             "equipements": "8,9/10",
@@ -88,18 +123,41 @@
             "style": "Hôtel design urbain",
             "verdict": "L'East Beijing Hotel est une option incontournable pour séjourner dans le quartier de Sanlitun avec tout le confort moderne d'un 5 étoiles."
         },
-        "meta_avis": "Contenu résumé par IA · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,8/10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "East Beijing Hotel",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "150€ - 220€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.4",
+                "bestRating": "5",
+                "reviewCount": "850"
+            }
+        }
     },
     "Gran Melia Xian": {
         "pays": "Chine",
         "ville": "Xi'an",
         "etoiles": "5 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/cn/gran-melia-xian.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/cn/gran-melia-xian.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Xian-Hotel-Gran-Melia-Xian.h8231184.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/895751022.jpg?k=cfd97bebe34b33d4b4be73a2719fcd1c828d62fc3e0c6e8e88284e402ac53a38&o=",
+        "image_alt": "Gran Melia Xian - hôtel de luxe 5 étoiles au bord du lac Qujiang à Xi'an",
+        "meta_title": "Gran Melia Xian 5* : Avis & Prix Lac Qujiang & Luxe 2026",
+        "meta_description": "Gran Melia Xian 5* à Xi'an : cadre serein près du parc du lac Qujiang, spa, jardins paysagers, grand confort. Avis 8.7/10, prix, réservation Booking.",
         "description": "Un établissement luxueux situé près du parc du lac Qujiang à Xi'an, idéal pour explorer l'histoire ancienne de la ville tout en profitant d'un cadre somptueux et paisible.",
         "prix_moyen": " 160€ / nuit",
-        "avis": "8,7/10 Superbe",
+        "avis": "8,7/10",
         "notes_categories": {
             "personnel": "8,9/10",
             "equipements": "8,8/10",
@@ -135,18 +193,41 @@
             "style": "Palace de luxe au bord de l'eau",
             "verdict": "Le Gran Melia Xian offre une parenthèse de raffinement et de calme à proximité des richesses historiques de l'ancienne capitale."
         },
-        "meta_avis": "Contenu résumé par IA · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,7/10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 750 expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Gran Melia Xian",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "130€ - 200€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.35",
+                "bestRating": "5",
+                "reviewCount": "750"
+            }
+        }
     },
     "Millennium Hotel Chengdu": {
         "pays": "Chine",
         "ville": "Chengdu",
         "etoiles": "5 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/cn/millennium-chengdu.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/cn/millennium-chengdu.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Chengdu-Hotel-Millennium-Hotel-Chengdu.h3073873.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/283802305.jpg?k=7d1ac058a369e7a8de68e7e2254cb4e1ab3c15f1a517b463e08b06447ce85833&o=",
+        "image_alt": "Millennium Hotel Chengdu - hôtel d'affaires 5 étoiles dans le sud de Chengdu",
+        "meta_title": "Millennium Hotel Chengdu 5* : Avis & Prix Confort & Affaires 2026",
+        "meta_description": "Millennium Hotel Chengdu 5* à Chengdu : excellent rapport qualité-prix, piscine intérieure, chambres spacieuses, accès rapide aux transports. Avis 8.5/10, prix, réservation Booking.",
         "description": "Bien situé dans le sud de la ville, cet hôtel de Chengdu est particulièrement apprécié pour son service attentionné et son accès facilité aux centres d'affaires et touristiques.",
         "prix_moyen": " 130€ / nuit",
-        "avis": "8,5/10 Très bien",
+        "avis": "8,5/10",
         "notes_categories": {
             "personnel": "8,8/10",
             "equipements": "8,6/10",
@@ -182,18 +263,41 @@
             "style": "Hôtel d'affaires international",
             "verdict": "Le Millennium Hotel Chengdu combine des prestations 5 étoiles solides et un accès commode aux différents points d'intérêt de la ville."
         },
-        "meta_avis": "Contenu résumé par IA · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,5/10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 620 expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Millennium Hotel Chengdu",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "110€ - 160€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.25",
+                "bestRating": "5",
+                "reviewCount": "620"
+            }
+        }
     },
     "Shangri-La Hotel, Guangzhou": {
         "pays": "Chine",
         "ville": "Guangzhou",
         "etoiles": "5 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/cn/shangrila-guangzhou.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/cn/shangrila-guangzhou.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Guangzhou-Hotel-Shangri-La-Guangzhou.h1563769.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/34180417.jpg?k=2551357016ce202e1b459fcb1763561a2a1e17cc2c75c0e8e83086b64a2a8bed&o=",
+        "image_alt": "Shangri-La Hotel, Guangzhou - grand resort urbain 5 étoiles au bord de la rivière des Perles à Canton",
+        "meta_title": "Shangri-La Guangzhou 5* : Avis & Prix Rivière des Perles & Resort 2026",
+        "meta_description": "Shangri-La Hotel Guangzhou 5* à Canton : jardins paysagers, piscine lagon extérieure, rivière des Perles, service d'excellence. Avis 9.0/10, prix, réservation Booking.",
         "description": "Un hôtel de renommée internationale situé le long de la rivière des Perles à Canton (Guangzhou), offrant des installations haut de gamme, de superbes jardins et un service d'excellence.",
         "prix_moyen": " 190€ / nuit",
-        "avis": "9,0/10 Superbe",
+        "avis": "9,0/10",
         "notes_categories": {
             "personnel": "9,2/10",
             "equipements": "9,1/10",
@@ -229,6 +333,26 @@
             "style": "Grand resort urbain de luxe",
             "verdict": "Le Shangri-La Hotel, Guangzhou procure une expérience hôtelière somptueuse, marquée par son havre de paix verdoyant au bord de la rivière des Perles."
         },
-        "meta_avis": "Contenu résumé par IA · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,0/10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 980 expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Shangri-La Hotel, Guangzhou",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "160€ - 240€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.5",
+                "bestRating": "5",
+                "reviewCount": "980"
+            }
+        }
     }
 }

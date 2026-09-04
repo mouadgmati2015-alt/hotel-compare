@@ -3,14 +3,15 @@
         "pays": "Arabie saoudite",
         "ville": "Riyad",
         "etoiles": "4 étoiles",
-        "prix_moyen": "1400€ / nuit",
-        "liens": {
-            "booking": "https://www.booking.com/hotel/sa/novotel-alanoud.fr.html",
-            "expedia": "https://www.expedia.fr/Riyadh-Hotel-Novotel-Riyadh-Al-Anoud.h2232437.Description-Hotel"
-        },
+        "lien_booking": "https://www.booking.com/hotel/sa/novotel-alanoud.fr.html?aid=818289",
+        "lien_expedia": "https://www.expedia.fr/Riyadh-Hotel-Novotel-Riyadh-Al-Anoud.h2232437.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/875000889.jpg?k=246c16d69990e3c6e884dee57cd60d50e4003015ebea9ead6d2890521090aa29&o=",
+        "image_alt": "Novotel Riyadh Al Anoud - hôtel tour contemporain 4 étoiles dans le quartier d'affaires d'Al-Olaya à Riyad",
+        "meta_title": "Novotel Riyadh Al Anoud 4* : Avis & Prix Tour Al-Olaya 2026",
+        "meta_description": "Novotel Riyadh Al Anoud 4* à Riyad : quartier d'affaires Al-Olaya, piscine intérieure, spa, chambres rénovées. Avis 8.8/10, prix, réservation Booking.",
         "description": "Cet hôtel de style contemporain occupe la troisième plus haute tour du quartier d'affaires Al-Olaya de Riyadh, sur la célèbre King Fahad Road. Il propose une piscine intérieure design dotée de chaises longues high-tech, un centre de remise en forme bien équipé, un sauna, un bain turc et un bain à remous. Le restaurant La Croisette y sert des spécialités internationales dans un cadre élégant, complété par un café-salon ouvert toute la journée et un service d'étage assuré 24h/24.",
-        "avis": "8,8/10 (Superbe - basés sur 631 expériences vécues)",
+        "prix_moyen": "1400€ / nuit",
+        "avis": "8,8/10",
         "points_positifs": [
             "Personnel d'accueil exceptionnellement aimable et professionnel, souvent cité comme un point fort marquant du séjour. (Booking.com)",
             "Chambres récemment rénovées, spacieuses, impeccables et lumineuses. (TripAdvisor)",
@@ -25,6 +26,7 @@
             "Notes globales plus contrastées selon les plateformes (de 7,6/10 à 4/5 selon la source, plutôt que 8,8/10). (Expedia)"
         ],
         "equipements": [
+            "4 étoiles",
             "Piscine intérieure chauffée",
             "Centre de remise en forme (Fitness)",
             "Sauna et bain turc",
@@ -44,18 +46,41 @@
             "style": "Hôtel de tour contemporain avec spa et bien-être",
             "verdict": "Le Novotel Riyadh Al Anoud offre un point de chute prestigieux et idéalement situé dans la tour d'Al-Olaya. Entre ses équipements de bien-être, son service irréprochable et son excellent emplacement, il garantit un séjour des plus agréables."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 631+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,8/10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 631+ expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Novotel Riyadh Al Anoud",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "1200€ - 1600€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.4",
+                "bestRating": "5",
+                "reviewCount": "631"
+            }
+        }
     },
     "The Ritz-Carlton Jeddah": {
         "pays": "Arabie saoudite",
         "ville": "Djeddah",
         "etoiles": "5 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/sa/the-ritz-carlton-jeddah.fr.html",
+        "lien_booking": "https://www.booking.com/hotel/sa/the-ritz-carlton-jeddah.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Jeddah-Hotel-The-Ritz-Carlton.h16339476.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/597000969.jpg?k=4fce1860bc732a2f575c59a3eb624c609927a5ae060f23ee1603bf6b4a1bd976&o=",
+        "image_alt": "The Ritz-Carlton Jeddah - palace somptueux 5 étoiles sur la Corniche de Djeddah",
+        "meta_title": "The Ritz-Carlton Jeddah 5* : Avis & Prix Palace Corniche 2026",
+        "meta_description": "The Ritz-Carlton Jeddah 5* à Djeddah : palace somptueux sur la Corniche, vue mer, spa, service royal. Avis 8.8/10, prix, réservation Booking.",
         "description": "Situé dans le quartier prestigieux d'Al Hamra sur la Corniche Sud de Djeddah, l'établissement The Ritz-Carlton Jeddah offre une expérience somptueuse et royale. Proche de la Corniche de Djeddah et du Jet d'eau du roi Fahd, cet hôtel somptueux propose des chambres et suites magnifiquement décorées avec vue sur la mer ou sur la ville, un service d'étage irréprochable, ainsi que des infrastructures de bien-être haut de gamme incluant spa, sauna, bain à remous et centre de remise en forme.",
         "prix_moyen": " 1580€ / nuit",
-        "avis": "8,8/10 Superbe d'après 2 147 expériences vécues",
+        "avis": "8,8/10",
         "notes_categories": {
             "personnel": "9,1/10",
             "equipements": "8,9/10",
@@ -91,13 +116,33 @@
             "Chambres non-fumeurs et familiales",
             "Climatisation"
         ],
-        "Nomad, vous en dit plus": "Les avis réels confirment que The Ritz-Carlton Jeddah est un palace de grand standing incontournable sur la Corniche de Djeddah, offrant un cadre somptueux et un sens de l'hospitalité mémorable. Les points de vigilance restent liés aux attentes très élevées inhérentes à un établissement de luxe de cette envergure.",
+        "Nomad vous en dis plus": "Les avis réels confirment que The Ritz-Carlton Jeddah est un palace de grand standing incontournable sur la Corniche de Djeddah, offrant un cadre somptueux et un sens de l'hospitalité mémorable. Les points de vigilance restent liés aux attentes très élevées inhérentes à un établissement de luxe de cette envergure.",
         "pour_qui": {
             "ambiance": "👑 Royale, somptueuse, élégante, chaleureuse et prestigieuse",
             "public": "Voyageurs de luxe, couples en quête d'un séjour mémorable et clients exigeants recherchant un service irréprochable",
             "style": "Palace de grand standing au bord de la mer",
             "verdict": "The Ritz-Carlton Jeddah s'impose comme une adresse d'exception à Djeddah. Porté par une situation géographique remarquable sur la Corniche, des décors somptueux et un sens de l'hospitalité unanimement salué par les clients, cet hôtel garantit un séjour royal, mémorable et empreint d'un confort absolu."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 2 147 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,8/10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 2 147 expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "The Ritz-Carlton Jeddah",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "1400€ - 1800€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.4",
+                "bestRating": "5",
+                "reviewCount": "2147"
+            }
+        }
     }
 }
