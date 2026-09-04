@@ -1,0 +1,119 @@
+# À intégrer dans generateur.py, sur le même modèle que temoignages_html / footer_html
+
+mentions_legales_html = """
+<div class="card">
+    <h1>Mentions légales</h1>
+
+    <h2>Éditeur du site</h2>
+    <p>
+        Le site MyHotelCompare est édité par Mouad Guemati, Entreprise Individuelle (EI).<br>
+        SIRET : 451 851 198 00029<br>
+        Adresse : Fegersheim, 67640, France<br>
+        Contact : <a href="mailto:myhotelcompare@gmail.com">myhotelcompare@gmail.com</a>
+    </p>
+
+    <h2>Directeur de la publication</h2>
+    <p>Mouad Guemati</p>
+
+    <h2>Hébergement</h2>
+    <p>
+        Ce site est hébergé par :<br>
+        Render Services, Inc.<br>
+        525 Brannan St, Suite 300, San Francisco, CA 94107, États-Unis<br>
+        <a href="https://render.com" target="_blank" rel="noopener">render.com</a>
+    </p>
+
+    <h2>Propriété intellectuelle</h2>
+    <p>
+        L'ensemble des contenus présents sur ce site (textes, logo, mise en page) est la propriété
+        de MyHotelCompare, sauf mention contraire. Les photographies proviennent de banques d'images
+        libres de droits (Unsplash) ou de leurs propriétaires respectifs. Toute reproduction sans
+        autorisation est interdite.
+    </p>
+
+    <h2>Liens affiliés / partenariats</h2>
+    <p>
+        Certains liens présents sur ce site (notamment vers Booking.com et Expedia) sont des liens
+        affiliés ou sponsorisés. MyHotelCompare peut percevoir une commission sur les réservations
+        effectuées via ces liens, sans coût supplémentaire pour vous. Cela n'influence pas le
+        classement ou la présentation des offres comparées.
+    </p>
+
+    <h2>Limitation de responsabilité</h2>
+    <p>
+        MyHotelCompare agit en tant que comparateur et ne vend ni ne réserve directement les
+        prestations (hôtels, vols, locations de véhicules, croisières) présentées sur le site.
+        Les réservations s'effectuent auprès de partenaires tiers (Booking.com, Expedia, etc.),
+        seuls responsables du bon déroulement de la prestation réservée. MyHotelCompare s'efforce
+        d'assurer l'exactitude des informations affichées mais ne peut garantir l'absence d'erreur
+        ou de délai de mise à jour des prix et disponibilités.
+    </p>
+
+    <h2>Droit applicable</h2>
+    <p>Les présentes mentions légales sont soumises au droit français.</p>
+</div>
+"""
+
+confidentialite_html = """
+<div class="card">
+    <h1>Politique de confidentialité</h1>
+    <p><strong>Dernière mise à jour : août 2026</strong></p>
+
+    <h2>Responsable du traitement</h2>
+    <p>
+        Mouad Guemati (EI), Fegersheim, 67640, France.<br>
+        Contact : <a href="mailto:myhotelcompare@gmail.com">myhotelcompare@gmail.com</a>
+    </p>
+
+    <h2>Données collectées</h2>
+    <p>
+        Nous pouvons traiter les données suivantes :
+    </p>
+    <ul>
+        <li>Les informations que vous nous transmettez volontairement (via un formulaire de contact, par exemple)</li>
+        <li>Des données techniques de navigation (adresse IP, type d'appareil, pages visitées) via Google Analytics, uniquement si vous avez donné votre consentement</li>
+    </ul>
+
+    <h2>Finalités et base légale</h2>
+    <ul>
+        <li><strong>Répondre à vos demandes</strong> — base légale : exécution de mesures précontractuelles / intérêt légitime</li>
+        <li><strong>Mesure d'audience (Google Analytics)</strong> — base légale : votre consentement, recueilli via le bandeau cookies</li>
+        <li><strong>Fonctionnement technique du site</strong> — base légale : intérêt légitime</li>
+    </ul>
+
+    <h2>Cookies</h2>
+    <p>
+        Ce site utilise Google Analytics (identifiant G-RLVNV2211J) pour mesurer l'audience et
+        comprendre l'utilisation du site. Ces cookies ne sont déposés qu'après votre consentement
+        explicite via le bandeau affiché lors de votre première visite. Vous pouvez à tout moment
+        retirer votre consentement en effaçant les cookies de votre navigateur, ce qui réaffichera
+        le bandeau à votre prochaine visite.
+    </p>
+
+    <h2>Durée de conservation</h2>
+    <p>
+        Les données de mesure d'audience sont conservées 13 mois maximum, conformément aux
+        recommandations de la CNIL. Les données transmises via un formulaire de contact sont
+        conservées le temps nécessaire au traitement de votre demande.
+    </p>
+
+    <h2>Destinataires des données</h2>
+    <p>
+        Vos données techniques de navigation (si consentement donné) sont transmises à Google
+        (Google Analytics), susceptible de traiter ces données en dehors de l'Union Européenne
+        (États-Unis), dans le cadre de garanties contractuelles types approuvées par la Commission
+        européenne. Notre hébergeur, Render Services, Inc. (États-Unis), traite les données
+        techniques nécessaires à la mise à disposition du site. Aucune donnée personnelle n'est
+        vendue à des tiers.
+    </p>
+
+    <h2>Vos droits</h2>
+    <p>
+        Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, d'effacement,
+        de limitation, d'opposition et de portabilité de vos données. Vous pouvez exercer ces droits
+        en nous contactant à <a href="mailto:myhotelcompare@gmail.com">myhotelcompare@gmail.com</a>.
+        Vous disposez également du droit d'introduire une réclamation auprès de la CNIL
+        (<a href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a>).
+    </p>
+</div>
+"""
