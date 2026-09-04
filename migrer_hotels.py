@@ -23,8 +23,8 @@ for nom_hotel, infos in nouveau_data.items():
     if nom_trouve:
         ancien_hotel = ancien_data[nom_trouve]
         
-        # 1. Copie de l'image si elle existe dans l'ancien
-        if 'image' in ancien_hotel and ancien_hotel['image']:
+        # Copie le lien de l'image
+        if 'image' in ancien_hotel:
             nouveau_data[nom_hotel]['image'] = ancien_hotel['image']
             
         # 2. Copie du lien Expedia s'il existe dans l'ancien
