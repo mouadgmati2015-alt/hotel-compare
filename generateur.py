@@ -265,8 +265,8 @@ global_style = """
   gtag('config', 'G-RLVNV2211J');
 </script>
 
-<link rel="icon" type="image/png" href="images/logo_5.png">
-<link rel="apple-touch-icon" href="images/logo_5.png">
+<link rel="icon" type="image/png" href="images/logo_5.png?v=2">
+<link rel="apple-touch-icon" href="images/logo_5.png?v=2">
 <style>
 :root {
     --bg: #f2fbfd;
