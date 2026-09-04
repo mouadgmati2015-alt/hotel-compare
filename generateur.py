@@ -496,6 +496,7 @@ footer_html = """
             <ul class="footer-links">
                 <li><a href="apropos.html">À propos de nous</a></li>
                 <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="blog.html">Conseils de voyage</a></li>
                 <li><a href="index.html#avis">Avis voyageurs</a></li>
