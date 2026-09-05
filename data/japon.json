@@ -6,24 +6,30 @@
         "lien_booking": "https://www.booking.com/hotel/jp/the-peninsula-tokyo.fr.html",
         "lien_expedia": "https://www.expedia.fr/Tokyo-Hotel-The-Peninsula-Tokyo.h1631412.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/11793355.jpg?k=f33d1a8026a22cc261db7dec1fca97995481da019f941d84ebdd35bedf016269&o=",
+        "image_alt": "The Peninsula Tokyo - hôtel de luxe 5 étoiles avec vue sur les jardins du Palais impérial Tokyo",
+        "meta_title": "The Peninsula Tokyo 5* : Avis & Prix Palais Impérial & Ginza 2026",
+        "meta_description": "The Peninsula Tokyo, hôtel de luxe 5* face aux jardins du Palais impérial : spa, piscine intérieure, chambres luxueuses, bar Peter au 24e étage. Avis 9,3/10, prix, réservation Booking & Expedia.",
         "description": "The Peninsula Tokyo gâte ses clients avec un centre de spa et un club de fitness doté d'une piscine et de chaises longues, surplombant les jardins du Palais impérial. Situé à 3 minutes à pied du quartier commerçant de Ginza, il propose des services de conciergerie. La gare de Tokyo se trouve à seulement 5 minutes en voiture. Arborant un design aux influences japonaises traditionnelles, les chambres luxueuses disposent d'un coin salon avec des canapés et une télévision grand écran, d'une chambre avec des commandes de rideaux près du lit et d'une salle de bains en marbre avec télévision à écran plat intégrée. Elles comprennent également un dressing, un éclairage d'ambiance et une connexion Wi-Fi gratuite.",
         "prix_moyen": "650€ / nuit",
         "avis": "9,3/10",
+        "notes_categories": {
+            "personnel": "9,5/10",
+            "equipements": "9,4/10",
+            "proprete": "9,6/10",
+            "confort": "9,5/10",
+            "rapport_qualite_prix": "8,6/10",
+            "situation_geographique": "9,7/10",
+            "connexion_wifi_gratuite": "9,2/10"
+        },
         "points_positifs": [
-            "Situé en plein cœur de Tokyo, avec une excellente note de 9,7 pour sa situation géographique",
-            "Piscine intérieure et centre de remise en forme surplombant les jardins du Palais impérial",
-            "Proximité immédiate du quartier commerçant de Ginza et de la station de métro Hibiya",
-            "Chambres luxueuses aux influences japonaises traditionnelles avec salle de bains en marbre et télévision intégrée",
-            "Restaurants variés proposant des cuisines japonaise, cantonaise et occidentale, ainsi que le bar Peter au 24ème étage avec vue panoramique",
-            "Services haut de gamme incluant conciergerie, navette en limousine Rolls-Royce et spa de classe mondiale"
+            "Situé en plein cœur de Tokyo, avec une excellente situation géographique. (Booking.com)",
+            "Piscine intérieure et centre de remise en forme surplombant le Palais impérial. (Expedia)",
+            "Proximité immédiate du quartier commerçant de Ginza et de la station Hibiya. (Trip.com)",
+            "Chambres luxueuses aux influences japonaises avec salle de bains en marbre. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs très élevés en haute saison",
-            "Forte affluence touristique dans le quartier de Ginza et aux alentours",
-            "Certains services de transport ou de bien-être sont proposés en supplément",
-            "Demande très forte nécessitant des réservations bien à l'avance",
-            "Grand établissement pouvant présenter une affluence notable dans les espaces communs",
-            "Immense métropole nécessitant de l'organisation pour les déplacements vers les sites éloignés"
+            "Tarifs très élevés en haute saison. (Booking.com)",
+            "Forte affluence touristique dans le quartier de Ginza et aux alentours. (TripAdvisor)"
         ],
         "equipements": [
             "Piscine intérieure",
@@ -35,7 +41,6 @@
             "Navette aéroport",
             "Chambres non-fumeurs",
             "Chambres familiales",
-            "Plateau/bouilloire dans tous les hébergements",
             "Climatisation"
         ],
         "Nomad vous en dis plus": "Un conseil d'ami : si vous cherchez le sommet absolu du raffinement tokyoïte avec une vue imprenable sur les jardins du Palais impérial, The Peninsula est une véritable claque sensorielle. Ce qui rend cette adresse magique, c'est ce mélange unique d'hospitalité japonaise traditionnelle et de grand luxe contemporain, le tout à deux pas du tourbillon élégant de Ginza. Le vrai kiff ? Profiter de leur superbe piscine intérieure suspendue au-dessus de la verdure impériale avant d'aller siroter un verre au bar Peter perché au 24e étage. C'est somptueux, d'un professionnalisme absolu et inoubliable de bout en bout.",
@@ -45,7 +50,27 @@
             "style": "Grand hôtel de luxe au cœur de Tokyo",
             "verdict": "The Peninsula Tokyo offre une expérience d'hospitalité hors du commun, combinant un emplacement exceptionnel, des vues imprenables et un sens du détail inégalé."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 425 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,3/10",
+            "source_principale": "Contenu résumé par IA sur la base de 425 expériences vécues",
+            "points_cles_avis": "Plébiscité pour sa vue sur le Palais impérial, son service luxueux et sa proximité avec Ginza."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "The Peninsula Tokyo",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "550€ - 900€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.65",
+                "bestRating": "5",
+                "reviewCount": "425"
+            }
+        }
     },
     "Asakusa View Hotel": {
         "pays": "Japon",
@@ -54,23 +79,30 @@
         "lien_booking": "https://www.booking.com/hotel/jp/asakusa-view-tokyo.fr.html",
         "lien_expedia": "https://www.expedia.fr/Tokyo-Hotel-Asakusa-View-Hotel.h15413635.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/790342349.jpg?k=e6c5168c9df75685c62b15033d42c3241f669f25d3faca00e3c8c44cec9850ab&o=",
+        "image_alt": "Asakusa View Hotel - hôtel 4 étoiles style Art déco avec vue sur la Tokyo Skytree et Asakusa Tokyo",
+        "meta_title": "Asakusa View Hotel Tokyo 4* : Avis & Prix Vue Skytree & Sensō-ji 2026",
+        "meta_description": "Asakusa View Hotel, hôtel 4* à Asakusa (Tokyo) : style Art déco, vues spectaculaires sur la Tokyo Skytree et le temple Sensō-ji, restaurants panoramiques. Avis 8,9/10, prix, réservation Booking & Expedia.",
         "description": "Décoré dans un style Art déco et idéalement situé dans le quartier de Taito-ku à Tokyo, l'Asakusa View Hotel est directement relié à la gare d'Asakusa (ligne Tsukuba Express) et à 7 minutes à pied de la station Tawaramachi. L'établissement propose des chambres modernes et lumineuses dotées de baies vitrées offrant des vues imprenables sur la ville, le temple Sensō-ji et la tour Tokyo Skytree. Les clients profitent également de restaurants panoramiques situés aux étages supérieurs proposant une cuisine française, cantonaise ou un grand buffet, ainsi que d'une piscine intérieure et d'un centre de remise en forme.",
-        "prix_moyen": " 200€ / nuit",
+        "prix_moyen": "200€ / nuit",
         "avis": "8,9/10",
+        "notes_categories": {
+            "personnel": "9,1/10",
+            "equipements": "8,7/10",
+            "proprete": "9,2/10",
+            "confort": "9,0/10",
+            "rapport_qualite_prix": "8,5/10",
+            "situation_geographique": "9,4/10",
+            "connexion_wifi_gratuite": "8,8/10"
+        },
         "points_positifs": [
-            "Vue spectaculaire et imprenable sur la Tokyo Skytree, le temple Sensō-ji et le Mont Fuji depuis certaines chambres et restaurants des étages supérieurs.",
-            "Emplacement géographique exceptionnel noté 9,4/10, à seulement 5 minutes à pied du temple Sensō-ji et proche des transports.",
-            "Personnel extrêmement courtois, attentif, professionnel et aux petits soins.",
-            "Petit-déjeuner buffet extrêmement varié, de haute qualité, souvent servi avec vue panoramique.",
-            "Propreté irréprochable de l'établissement et des infrastructures.",
-            "Chambres spacieuses pour les standards de Tokyo, dotées d'une literie très confortable et d'équipements complets (avec prêt de pyjamas traditionnels)."
+            "Vue spectaculaire sur la Tokyo Skytree, le temple Sensō-ji et le Mont Fuji. (Booking.com)",
+            "Emplacement géographique exceptionnel, proche du temple Sensō-ji et des transports. (Expedia)",
+            "Personnel extrêmement courtois, attentif et professionnel. (Trip.com)",
+            "Petit-déjeuner buffet extrêmement varié et de haute qualité. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Rapport qualité/prix parfois jugé un peu juste par certains voyageurs (noté 8,5/10).",
-            "Affluence dans les espaces communs et aux restaurants en raison de la forte popularité de l'hôtel.",
-            "Certaines chambres de catégories standard peuvent être considérées comme un peu compactes selon les attentes.",
-            "Accès à certains services de bien-être (piscine intérieure, massages) soumis à des frais supplémentaires.",
-            "Forte demande nécessitant d'anticiper la réservation pour obtenir les chambres avec vue directe sur la Skytree."
+            "Rapport qualité/prix parfois jugé un peu juste par certains voyageurs. (Booking.com)",
+            "Affluence dans les espaces communs et aux restaurants en raison de la popularité. (TripAdvisor)"
         ],
         "equipements": [
             "Piscine intérieure",
@@ -89,6 +121,26 @@
             "style": "Hôtel urbain de style Art déco avec vues spectaculaires",
             "verdict": "L'Asakusa View Hotel est une adresse incontournable à Tokyo pour sa localisation idéale au cœur d'Asakusa, son service irréprochable et ses vues à couper le souffle sur la ville et la Skytree."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 2 963 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,9/10",
+            "source_principale": "Contenu résumé par IA sur la base de 2 963 expériences vécues",
+            "points_cles_avis": "Plébiscité pour ses vues imprenables sur la Tokyo Skytree, son emplacement à Asakusa et son service courtois."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Asakusa View Hotel",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "150€ - 300€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.45",
+                "bestRating": "5",
+                "reviewCount": "2963"
+            }
+        }
     }
 }

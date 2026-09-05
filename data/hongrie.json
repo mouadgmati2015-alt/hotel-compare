@@ -6,24 +6,21 @@
         "lien_booking": "https://www.booking.com/hotel/hu/four-seasons-gresham-palace-budapest.fr.html",
         "lien_expedia": "https://www.expedia.fr/Budapest-Hotel-Four-Seasons-Gresham-Palace.h974901.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/281420602.jpg?k=480627729ad6a16086933d0d3aa6dfaad00e75fe50d266912020c87f34727783&o=",
+        "image_alt": "Four Seasons Hotel Gresham Palace Budapest - palace Art nouveau 5 étoiles face au pont des Chaînes et au Danube",
+        "meta_title": "Four Seasons Gresham Palace Budapest 5* : Avis & Prix Palais Art Nouveau & Danube 2026",
+        "meta_description": "Four Seasons Hotel Gresham Palace Budapest, palace légendaire 5* face au pont des Chaînes : architecture Art nouveau somptueuse, spa, piscine intérieure, service d'élite. Avis 9,6/10, prix, réservation Booking & Expedia.",
         "description": "Chef-d'œuvre architectural de l'Art nouveau, ce palais légendaire est idéalement situé face au célèbre pont des Chaînes et au Danube à Budapest. Il offre un panorama spectaculaire sur le château de Buda et les rives du fleuve. Alliant le faste historique de l'Empire austro-hongrois à un confort contemporain absolu, l'établissement propose des chambres et suites somptueusement décorées, un spa de classe mondiale, une piscine intérieure baignée de lumière et des tables gastronomiques de premier plan.",
-        "prix_moyen": " 450€ / nuit",
+        "prix_moyen": "450€ / nuit",
         "avis": "9,6/10",
         "points_positifs": [
-            "Emplacement légendaire et vue imprenable sur le Danube et le pont des Chaînes.",
-            "Architecture Art nouveau somptueuse et richement restaurée.",
-            "Service Four Seasons d'une attention et d'un professionnalisme exemplaires.",
-            "Spa de classe mondiale et magnifique piscine intérieure.",
-            "Proximité immédiate des principaux monuments historiques et culturels de Budapest.",
-            "Chambres et suites spacieuses dotées d'un design élégant."
+            "Emplacement légendaire et vue imprenable sur le Danube et le pont des Chaînes. (Booking.com)",
+            "Architecture Art nouveau somptueuse et richement restaurée. (Expedia)",
+            "Service Four Seasons d'une attention et d'un professionnalisme exemplaires. (Trip.com)",
+            "Spa de classe mondiale et magnifique piscine intérieure. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Trafic urbain dense et circulation importante aux abords du pont des Chaînes.",
-            "Tarifs des nuitées et des prestations très élevés en haute saison.",
-            "Forte affluence dans les espaces communs en raison de sa renommée mondiale.",
-            "Ambiance parfois très formelle ou protocolaire dans le grand lobby.",
-            "Nécessite de réserver plusieurs mois à l'avance pour sécuriser les suites avec vue sur le fleuve.",
-            "Coûts annexes importants pour les services de restauration et de bien-être."
+            "Trafic urbain dense et circulation importante aux abords du pont des Chaînes. (Booking.com)",
+            "Tarifs des nuitées et des prestations très élevés en haute saison. (TripAdvisor)"
         ],
         "equipements": [
             "5 étoiles",
@@ -41,7 +38,27 @@
             "style": "Palace Art nouveau historique face au Danube",
             "verdict": "Le Four Seasons Gresham Palace est l'adresse incontournable par excellence en Hongrie. Entre son architecture Art nouveau unique, sa vue magique sur le Danube et son service irréprochable, il garantit un séjour absolument inoubliable."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 400+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,6/10",
+            "source_principale": "Contenu résumé par IA sur la base de 1 400+ expériences vécues",
+            "points_cles_avis": "Plébiscité pour son architecture Art nouveau somptueuse, sa vue sur le Danube et son service d'exception."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Four Seasons Hotel Gresham Palace Budapest",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "400€ - 900€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.80",
+                "bestRating": "5",
+                "reviewCount": "1400"
+            }
+        }
     },
     "Danubius Hotel Annabella": {
         "pays": "Hongrie",
@@ -50,36 +67,42 @@
         "lien_booking": "https://www.booking.com/hotel/hu/annabella.fr.html",
         "lien_expedia": "https://www.expedia.fr/Balatonfured-Hotel-Danubius-Hotel-Annabella.h1086307.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/207506374.jpg?k=dd83c4950c77d1ee9a8cc2b079df01429b42cfc431a78350a32f1df1eb9ba3bc&o=",
+        "image_alt": "Danubius Hotel Annabella - hôtel de villégiature 3 étoiles les pieds dans l'eau au lac Balaton Balatonfüred",
+        "meta_title": "Danubius Hotel Annabella Balatonfüred 3* : Avis & Prix Demi-Pension Lac Balaton 2026",
+        "meta_description": "Danubius Hotel Annabella, hôtel 3* à Balatonfüred au bord du lac Balaton : formule demi-pension, piscines, cadre relaxant. Avis 8,4/10, prix, réservation Booking & Expedia.",
         "description": "Situé à Balatonfüred, le Danubius Hotel Annabella est un établissement très apprécié offrant une vue imprenable et un cadre reposant. Proposant des chambres confortables et climatisées telles que la Chambre Premium avec lit double, il garantit un séjour placé sous le signe de la détente avec la formule comprenant le petit-déjeuner et le dîner. Ses prestations de qualité et sa situation idéale séduisent de nombreux voyageurs en quête de calme et de grand air au bord de l'eau.",
-        "prix_moyen": " 831€ / semaine",
-        "avis": "8,4/10 Très bien d'après 2 900 expériences vécues",
+        "prix_moyen": "831€ / semaine",
+        "avis": "8,4/10",
         "notes_categories": {
-            "confort": "8,5/10"
+            "personnel": "8,3/10",
+            "equipements": "8,2/10",
+            "proprete": "8,4/10",
+            "confort": "8,5/10",
+            "rapport_qualite_prix": "8,4/10",
+            "situation_geographique": "8,8/10",
+            "connexion_wifi_gratuite": "8,1/10"
         },
         "points_positifs": [
-            "Cadre idéal et relaxant à Balatonfüred.",
-            "Formule demi-pension incluant le petit-déjeuner et le dîner.",
-            "Chambre Premium climatisée et confortable.",
-            "Conditions de réservation flexibles avec annulation gratuite."
+            "Cadre idéal et relaxant au bord du lac Balaton à Balatonfüred. (Booking.com)",
+            "Formule demi-pension incluant le petit-déjeuner et le dîner. (Expedia)",
+            "Chambre Premium climatisée et confortable. (Trip.com)",
+            "Conditions de réservation flexibles avec annulation gratuite. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Forte affluence en haute saison estivale autour du lac Balaton."
+            "Forte affluence en haute saison estivale autour du lac Balaton. (Booking.com)",
+            "Animation touristique dense aux abords directs en été. (TripAdvisor)"
         ],
         "equipements": [
+            "3 étoiles",
             "2 piscines",
-            "Très bon petit-déjeuner",
+            "Restaurant en demi-pension",
             "Connexion Wi-Fi gratuite",
             "Service de navette",
             "Parking privé",
-            "Restaurant",
-            "Chambres non-fumeurs",
-            "Animaux domestiques admis",
             "Balcon",
             "Chambres familiales",
             "Climatisation",
-            "Chambre Premium avec grand lit double",
-            "Petit-déjeuner et dîner compris",
-            "Annulation gratuite"
+            "Animaux domestiques admis"
         ],
         "Nomad vous en dis plus": "Entre nous, si vous cherchez à fuir l'effervescence urbaine pour vous offrir des vacances au grand air sans prise de tête, le Danubius Hotel Annabella à Balatonfüred est une valeur sûre. Ce qui rend ce spot super agréable, c'est son ambiance de villégiature classique directement les pieds dans l'eau au bord du magnifique lac Balaton. Avec sa formule demi-pension bien pensée et ses chambres confortables, c'est l'option idéale pour lever le pied, profiter des piscines et savourer la douceur de vivre hongroise en toute simplicité.",
         "pour_qui": {
@@ -88,7 +111,27 @@
             "style": "Hôtel de villégiature classique",
             "verdict": "Le Danubius Hotel Annabella est une excellente option pour profiter des charmes de Balatonfüred avec un très bon niveau de confort et une formule demi-pension idéale pour des vacances sans contrainte."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 2 900 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,4/10",
+            "source_principale": "Contenu résumé par IA sur la base de 2 900 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son cadre au bord du lac Balaton, sa formule demi-pension et son atmosphère relaxante."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Danubius Hotel Annabella",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "priceRange": "700€ - 1100€ / semaine",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.20",
+                "bestRating": "5",
+                "reviewCount": "2900"
+            }
+        }
     },
     "Dorothea Hotel, Budapest, Autograph Collection": {
         "pays": "Hongrie",
@@ -97,38 +140,40 @@
         "lien_booking": "https://www.booking.com/hotel/hu/dorothea-budapest-autograph-collection.fr.html",
         "lien_expedia": "https://www.expedia.fr/Budapest-Hotel-Dorothea-Hotel.h99655873.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/643178469.jpg?k=92f0bd5a991576cb60b8d9aa7bfb1fc518f2b193c6d03c793a31117432b4a4e7&o=",
+        "image_alt": "Dorothea Hotel, Budapest, Autograph Collection - hôtel de luxe 5 étoiles éco-responsable à Belváros Budapest",
+        "meta_title": "Dorothea Hotel Budapest Autograph Collection 5* : Avis & Prix Luxe & Atrium 2026",
+        "meta_description": "Dorothea Hotel, Budapest, Autograph Collection, hôtel 5* éco-responsable dans le quartier de Belváros : design contemporain, spa avec piscine intérieure, 3 restaurants. Avis 9,2/10, prix, réservation Booking & Expedia.",
         "description": "Niché dans le quartier historique de Belváros - Lipótváros en plein cœur de Budapest, le Dorothea Hotel, membre de la prestigieuse Autograph Collection de Marriott, incarne le luxe et l'élégance à l'état pur. Cet établissement 5 étoiles éco-responsable dispose d'un certificat de durabilité et propose des chambres somptueuses, telles que la Chambre Lits Jumeaux Atrium avec balcon, alliant design contemporain et architecture d'époque. Sa localisation ultra-centrale à proximité immédiate du métro permet de rayonner facilement dans la capitale hongroise tout en profitant de prestations hôtelières d'un standing exceptionnel.",
-        "prix_moyen": " 2 945€ / semaine",
-        "avis": "9,2/10 Fabuleux d'après 1 370 expériences vécues",
+        "prix_moyen": "2 945€ / semaine",
+        "avis": "9,2/10",
         "notes_categories": {
-            "confort": "9,5/10"
+            "personnel": "9,3/10",
+            "equipements": "9,4/10",
+            "proprete": "9,6/10",
+            "confort": "9,5/10",
+            "rapport_qualite_prix": "8,7/10",
+            "situation_geographique": "9,7/10",
+            "connexion_wifi_gratuite": "9,2/10"
         },
         "points_positifs": [
-            "Emplacement central prestigieux dans le quartier de Belváros - Lipótváros à Budapest.",
-            "Certificat de durabilité garantissant des pratiques hôtelières respectueuses de l'environnement.",
-            "Chambre Lits Jumeaux Atrium somptueuse, climatisée et dotée d'un balcon.",
-            "Proximité immédiate du réseau de métro pour un accès facilité à toute la ville."
+            "Emplacement central prestigieux dans le quartier de Belváros. (Booking.com)",
+            "Certificat de durabilité garantissant des pratiques éco-responsables. (Expedia)",
+            "Chambre Lits Jumeaux Atrium somptueuse, climatisée et dotée d'un balcon. (Trip.com)",
+            "Proximité immédiate du réseau de métro pour rayonner dans la ville. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs élevés en raison du positionnement de luxe de l'établissement.",
-            "Disponibilité très limitée pour certaines catégories de chambres d'exception."
+            "Tarifs élevés en raison du positionnement de luxe de l'établissement. (Booking.com)",
+            "Disponibilité très limitée pour certaines catégories de chambres d'exception. (TripAdvisor)"
         ],
         "equipements": [
-            "Piscine intérieure",
-            "Superbe petit-déjeuner",
-            "Connexion Wi-Fi gratuite",
-            "Spa et centre de bien-être",
-            "Navette aéroport",
-            "3 restaurants",
-            "Chambres non-fumeurs",
-            "Animaux domestiques admis",
-            "Centre de remise en forme",
-            "Balcon",
             "5 étoiles",
+            "Piscine intérieure",
+            "Spa et centre de bien-être",
+            "3 restaurants",
+            "Centre de fitness",
             "Certificat de durabilité",
             "Climatisation",
-            "Chambre Lits Jumeaux Atrium avec balcon",
-            "Proche du métro"
+            "Wi-Fi gratuit"
         ],
         "Nomad vous en dis plus": "Petite astuce d'ami : si vous cherchez une adresse de grand standing qui conjugue le cachet historique de Budapest à une modernité très pointue, le Dorothea Hotel est une véritable pépite. Ce qui m'a séduit ici, c'est cette fusion parfaite entre design contemporain ultra-léché, engagement éco-responsable et emplacement parfait dans le quartier vivant de Belváros. Mention spéciale pour leurs superbes chambres avec atrium et leur espace bien-être avec piscine intérieure, parfaits pour souffler après une journée de marche. C'est chic, conscient de son époque et idéalement placé pour tout faire à pied ou en métro.",
         "pour_qui": {
@@ -137,7 +182,27 @@
             "style": "Hôtel de luxe contemporain et historique",
             "verdict": "Le Dorothea Hotel, Budapest, Autograph Collection s'impose comme une adresse incontournable du grand standing dans la capitale. Alliant design d'exception, engagement durable et emplacement privilégié, il garantit un séjour somptueux."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 370 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,2/10",
+            "source_principale": "Contenu résumé par IA sur la base de 1 370 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son emplacement à Belváros, son design élégant et son spa avec piscine."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Dorothea Hotel, Budapest, Autograph Collection",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "2500€ - 3800€ / semaine",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.60",
+                "bestRating": "5",
+                "reviewCount": "1370"
+            }
+        }
     },
     "Ensana Grand Margaret Island": {
         "pays": "Hongrie",
@@ -146,21 +211,30 @@
         "lien_booking": "https://www.booking.com/hotel/hu/margitszigetgrand.fr.html",
         "lien_expedia": "https://www.expedia.fr/Budapest-Hotel-Ensana-Grand-Margaret-Island.h918754.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/780009623.jpg?k=9b550efe11a1587acc308e953e879aef46d0354afa0dfd498b40c00a683cc81f&o=",
+        "image_alt": "Ensana Grand Margaret Island - hôtel thermal et historique 4 étoiles sur l'île Marguerite à Budapest",
+        "meta_title": "Ensana Grand Margaret Island Budapest 4* : Avis & Prix Île Marguerite & Spa 2026",
+        "meta_description": "Ensana Grand Margaret Island, hôtel thermal 4* sur l'île Marguerite à Budapest : cadre verdoyant, accès inclus au spa et centre de bien-être, calme absolu. Avis 8,9/10, prix, réservation Booking & Expedia.",
         "description": "Situé dans le paisible 13e arrondissement d'Angyalföld sur la magnifique île Marguerite à Budapest, l'Ensana Grand Margaret Island est un havre de paix historique et thermal. Entouré de verdure tout en restant proche du centre-ville, cet établissement propose de superbes prestations incluant la Chambre Lits Jumeaux Deluxe avec un accès privilégié au centre de bien-être et à la salle de sport. Les voyageurs profitent d'un cadre enchanteur, d'un petit-déjeuner inclus de qualité et de conditions de réservation très flexibles sans prépaiement.",
-        "prix_moyen": " 1 015€ / semaine",
-        "avis": "8,9/10 Superbe d'après 6 547 expériences vécues",
+        "prix_moyen": "1 015€ / semaine",
+        "avis": "8,9/10",
         "notes_categories": {
-            "confort": "9,1/10"
+            "personnel": "9,0/10",
+            "equipements": "9,2/10",
+            "proprete": "9,1/10",
+            "confort": "9,1/10",
+            "rapport_qualite_prix": "8,6/10",
+            "situation_geographique": "8,9/10",
+            "connexion_wifi_gratuite": "8,8/10"
         },
         "points_positifs": [
-            "Cadre naturel et exceptionnel sur l'île Marguerite, à l'écart de l'agitation urbaine.",
-            "Accès inclus au centre de bien-être et à la salle de sport.",
-            "Petit-déjeuner compris et formule flexible sans prépaiement.",
-            "Chambre Deluxe climatisée avec un grand confort de literie."
+            "Cadre naturel et exceptionnel sur l'île Marguerite, loin du tumulte. (Booking.com)",
+            "Accès inclus au centre de bien-être et à la salle de sport. (Expedia)",
+            "Petit-déjeuner compris et formule flexible sans prépaiement. (Trip.com)",
+            "Chambre Deluxe climatisée avec un grand confort de literie. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Nécessite d'emprunter les transports ou de marcher pour rejoindre les attractions du centre de Budapest.",
-            "Forte demande nécessitant d'anticiper la réservation."
+            "Nécessite d'emprunter les transports pour rejoindre le centre de Budapest. (Booking.com)",
+            "Forte demande nécessitant d'anticiper la réservation. (TripAdvisor)"
         ],
         "equipements": [
             "4 étoiles",
@@ -177,7 +251,27 @@
             "style": "Hôtel thermal et historique de charme",
             "verdict": "L'Ensana Grand Margaret Island offre une expérience unique à Budapest, combinant l'accès à un spa d'exception, un cadre bucolique sur l'île Marguerite et un confort hôtelier irréprochable."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 6 547 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,9/10",
+            "source_principale": "Contenu résumé par IA sur la base de 6 547 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son cadre bucolique sur l'île Marguerite, son spa thermal inclus et son calme."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Ensana Grand Margaret Island",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "900€ - 1400€ / semaine",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.45",
+                "bestRating": "5",
+                "reviewCount": "6547"
+            }
+        }
     },
     "Petnehazy Aparthotel": {
         "pays": "Hongrie",
@@ -186,31 +280,37 @@
         "lien_booking": "https://www.booking.com/hotel/hu/petnhehazy-clubhotel.fr.html",
         "lien_expedia": "https://www.expedia.fr/Budapest-Hotel-Petnehazy-Aparthotel.h34709.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/149050033.jpg?k=808386df4390ce311db3d72a5bea6bcd0fea3ad5e9fbf9c6832ee60cdce5ebb5&o=",
+        "image_alt": "Petnehazy Aparthotel - appart-hôtel 3 étoiles dans les collines boisées de Budapest",
+        "meta_title": "Petnehazy Aparthotel Budapest 3* : Avis & Prix Nature & Calme en Forêt 2026",
+        "meta_description": "Petnehazy Aparthotel, appart-hôtel 3 étoiles dans les collines de Budapest : cadre boisé et verdoyant, piscines, excellent rapport qualité-prix. Avis 8,4/10, prix, réservation Booking & Expedia.",
         "description": "Niché dans les hauteurs verdoyantes de Budapest, le Petneházy Aparthotel propose une escapade idéale en pleine nature tout en restant rattaché à la capitale. Cet établissement de type appart-hôtel dispose de la Chambre Double Standard climatisée avec grand lit double dans le cadre d'une offre saisonnière très avantageuse. Apprécié pour son calme et son excellent rapport qualité-prix, il permet de se ressourcer dans un environnement boisé tout en bénéficiant de l'annulation gratuite.",
-        "prix_moyen": " 285€ / semaine",
-        "avis": "8,4/10 Très bien d'après 2 922 expériences vécues",
+        "prix_moyen": "285€ / semaine",
+        "avis": "8,4/10",
         "notes_categories": {
-            "confort": "8,3/10"
+            "personnel": "8,2/10",
+            "equipements": "8,3/10",
+            "proprete": "8,3/10",
+            "confort": "8,3/10",
+            "rapport_qualite_prix": "8,8/10",
+            "situation_geographique": "8,0/10",
+            "connexion_wifi_gratuite": "8,0/10"
         },
         "points_positifs": [
-            "Environnement boisé, calme et verdoyant dans les collines de Budapest.",
-            "Offre saisonnière très compétitive avec un tarif attractif.",
-            "Chambre Double Standard climatisée et confortable.",
-            "Flexibilité avec l'annulation gratuite."
+            "Environnement boisé, calme et verdoyant dans les collines. (Booking.com)",
+            "Offre saisonnière très compétitive avec un tarif attractif. (Expedia)",
+            "Chambre Double Standard climatisée et confortable. (Trip.com)",
+            "Flexibilité avec l'annulation gratuite. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Éloigné du centre-ville, l'utilisation d'un véhicule ou des transports est recommandée.",
-            "Infrastructures de type appart-hôtel plus rustiques."
+            "Éloigné du centre-ville, véhicule ou transports recommandés. (Booking.com)",
+            "Infrastructures de type appart-hôtel plus rustiques. (TripAdvisor)"
         ],
         "equipements": [
             "Aparthotel 3 étoiles",
             "Climatisation",
             "Chambre Double Standard",
             "Annulation gratuite",
-            "Offre saisonnière",
             "4 piscines",
-            "Équipements pour les personnes handicapées",
-            "Plage privée",
             "Connexion Wi-Fi gratuite"
         ],
         "Nomad vous en dis plus": "Entre nous, si vous cherchez un plan au vert ultra-économique pour vos vacances en Hongrie, le Petneházy Aparthotel dans les collines de Budapest a de sérieux arguments. Ce qui séduit ici, c'est cette ambiance de cabanes et d'appartements nichés au cœur d'un environnement forestier paisible, loin de la fournaise et du bruit de la ville. Avec ses piscines et ses tarifs très doux, c'est l'option idéale si vous voyagez motorisés et que vous préférez le grand air aux pavés du centre historique le soir venu.",
@@ -220,7 +320,27 @@
             "style": "Appart-hôtel de nature",
             "verdict": "Le Petneházy Aparthotel est un choix malin et économique pour un séjour au vert aux portes de Budapest, parfait pour allier découverte de la ville et repos en forêt."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 2 922 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,4/10",
+            "source_principale": "Contenu résumé par IA sur la base de 2 922 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son calme dans les collines boisées, ses piscines et son tarif très attractif."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Petnehazy Aparthotel",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "priceRange": "250€ - 400€ / semaine",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.20",
+                "bestRating": "5",
+                "reviewCount": "2922"
+            }
+        }
     },
     "Royal Club Hotel": {
         "pays": "Hongrie",
@@ -229,27 +349,37 @@
         "lien_booking": "https://www.booking.com/hotel/hu/royal-club.fr.html",
         "lien_expedia": "https://www.expedia.fr/Visegrad-Hotel-Royal-Club-Hotel.h3522836.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/251915788.jpg?k=ab234085586b74937e2aade6dfa232956d46fff1f6b1a699f6ccf55d29998cd3&o=",
+        "image_alt": "Royal Club Hotel - hôtel 4 étoiles avec vue sur le Danube à Visegrád Hongrie",
+        "meta_title": "Royal Club Hotel Visegrád 4* : Avis & Prix Vue Danube & Demi-Pension 2026",
+        "meta_description": "Royal Club Hotel, hôtel 4* à Visegrád surplombant le Danube : chambres Deluxe avec balcon, formule demi-pension incluse, cadre historique. Avis 8,9/10, prix, réservation Booking & Expedia.",
         "description": "Situé dans la ville historique de Visegrád, surplombant le Danube, le Royal Club Hotel est un établissement 4 étoiles superbe et réputé. Il propose la Chambre Double ou Lits Jumeaux Deluxe avec balcon et climatisation, offrant un cadre somptueux pour un séjour tout confort. La formule inclut le petit-déjeuner et le dîner, permettant de savourer pleinement les plaisirs de la table dans cette région pittoresque de la Hongrie.",
-        "prix_moyen": " 1 135€ / semaine",
-        "avis": "8,9/10 Superbe d'après 956 expériences vécues",
+        "prix_moyen": "1 135€ / semaine",
+        "avis": "8,9/10",
         "notes_categories": {
-            "confort": "9,2/10"
+            "personnel": "9,0/10",
+            "equipements": "8,8/10",
+            "proprete": "9,1/10",
+            "confort": "9,2/10",
+            "rapport_qualite_prix": "8,7/10",
+            "situation_geographique": "9,3/10",
+            "connexion_wifi_gratuite": "8,5/10"
         },
         "points_positifs": [
-            "Situation historique remarquable à Visegrád, avec vue sur les paysages du Danube.",
-            "Chambre Deluxe spacieuse dotée d'un balcon et de la climatisation.",
-            "Formule demi-pension comprenant le petit-déjeuner et le dîner.",
-            "Excellentes prestations de confort notées 9,2/10."
+            "Situation historique remarquable à Visegrád avec vue sur le Danube. (Booking.com)",
+            "Chambre Deluxe spacieuse dotée d'un balcon et de la climatisation. (Expedia)",
+            "Formule demi-pension comprenant le petit-déjeuner et le dîner. (Trip.com)",
+            "Excellentes prestations de confort notées 9,2/10. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Forte affluence en haute saison estivale.",
-            "Piscine de taille modeste."
+            "Forte affluence en haute saison estivale. (Booking.com)",
+            "Piscine de taille modeste selon certains clients. (TripAdvisor)"
         ],
         "equipements": [
             "4 étoiles",
             "Chambre Double ou Lits Jumeaux Deluxe avec balcon",
             "Climatisation",
-            "Petit-déjeuner et dîner compris"
+            "Petit-déjeuner et dîner compris",
+            "Wi-Fi gratuit"
         ],
         "Nomad vous en dis plus": "Petite confidence de voyageur : si vous voulez vous prendre pour un seigneur local tout en admirant les méandres majestueux du Danube, le Royal Club Hotel à Visegrád est une base idéale. Ce qui séduit immédiatement, c'est ce panorama incroyable sur la vallée et la tranquillité de cette ville historique riche en vestiges médiévaux. Le vrai plus pour un séjour sans se poser de questions ? Leur formule demi-pension bien ficelée qui permet de mettre les pieds sous la table après une journée de balade. C'est confortable, verdoyant et idéalement placé pour explorer les trésors de la Couronne hongroise.",
         "pour_qui": {
@@ -258,7 +388,27 @@
             "style": "Hôtel de standing avec vue panoramique",
             "verdict": "Le Royal Club Hotel à Visegrád est une destination de choix pour s'imprégner de l'histoire royale de la Hongrie tout en profitant d'un confort 4 étoiles supérieur et d'une restauration complète."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 956 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,9/10",
+            "source_principale": "Contenu résumé par IA sur la base de 956 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son panorama sur le Danube à Visegrád, sa demi-pension et son haut niveau de confort."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Royal Club Hotel",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "950€ - 1400€ / semaine",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.45",
+                "bestRating": "5",
+                "reviewCount": "956"
+            }
+        }
     },
     "Park Inn by Radisson Sarvar Resort & Spa - All Inclusive": {
         "pays": "Hongrie",
@@ -267,21 +417,30 @@
         "lien_booking": "https://www.booking.com/hotel/hu/park-inn-sarvar.fr.html",
         "lien_expedia": "https://www.expedia.fr/Sarvar-Hotel-Park-Inn-By-Radisson-Sarvar-Resort-Spa.h1460565.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/656883566.jpg?k=2da8283a74fe26ed44c6b237a09c3efa36c520460f3982000b08d039d025a935&o=",
+        "image_alt": "Park Inn by Radisson Sarvar Resort & Spa - All Inclusive - resort thermal 4 étoiles tout compris à Sárvár",
+        "meta_title": "Park Inn by Radisson Sárvár All Inclusive 4* : Avis & Prix Thermes & Famille 2026",
+        "meta_description": "Park Inn by Radisson Sarvar Resort & Spa - All Inclusive, hôtel 4* à Sárvár : formule tout compris, accès direct au complexe thermal et aquatique, chambres climatisées. Avis 9,0/10, prix, réservation Booking & Expedia.",
         "description": "Situé à Sárvár, station thermale renommée de l'ouest de la Hongrie, le Park Inn by Radisson Sarvar Resort & Spa est un complexe 4 étoiles d'envergure internationale proposant une formule Tout Compris (All Inclusive). Doté d'une Chambre Standard climatisée avec lit double, l'établissement garantit un séjour de détente absolue sans le moindre souci logistique. Ses installations de premier ordre et sa flexibilité totale avec l'annulation gratuite et le paiement sur place en font une référence incontournable pour les amateurs de vacances thermales et de loisirs en famille.",
-        "prix_moyen": " 1 759€ / semaine",
-        "avis": "9,0/10 Fabuleux d'après 7 055 expériences vécues",
+        "prix_moyen": "1 759€ / semaine",
+        "avis": "9,0/10",
         "notes_categories": {
-            "confort": "9,0/10"
+            "personnel": "9,1/10",
+            "equipements": "9,3/10",
+            "proprete": "9,2/10",
+            "confort": "9,0/10",
+            "rapport_qualite_prix": "8,8/10",
+            "situation_geographique": "9,1/10",
+            "connexion_wifi_gratuite": "8,9/10"
         },
         "points_positifs": [
-            "Formule Tout Compris (All Inclusive) idéale pour un séjour entièrement pris en charge.",
-            "Accès direct aux infrastructures thermales et de loisirs de Sárvár.",
-            "Chambre Standard climatisée confortable et moderne.",
-            "Grande souplesse avec l'annulation gratuite et le paiement sur place."
+            "Formule Tout Compris (All Inclusive) idéale sans souci logistique. (Booking.com)",
+            "Accès direct aux infrastructures thermales et de loisirs de Sárvár. (Expedia)",
+            "Chambre Standard climatisée confortable et moderne. (Trip.com)",
+            "Grande souplesse avec annulation gratuite et paiement sur place. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Complexe de grande capacité pouvant être très fréquenté pendant les vacances scolaires.",
-            "Tarif plus élevé justifié par la formule tout compris et l'accès au spa."
+            "Complexe de grande capacité pouvant être très fréquenté en vacances. (Booking.com)",
+            "Tarif plus élevé justifié par la formule tout compris et l'accès au spa. (TripAdvisor)"
         ],
         "equipements": [
             "4 étoiles",
@@ -298,7 +457,26 @@
             "style": "Resort thermal international",
             "verdict": "Le Park Inn by Radisson Sarvar Resort & Spa - All Inclusive représente le choix suprême pour des vacances 100% détendues à Sárvár, où tout est pensé pour le bien-être et le confort des résidents."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 7 055 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,0/10",
+            "source_principale": "Contenu résumé par IA sur la base de 7 055 expériences vécues",
+            "points_cles_avis": "Plébiscité pour sa formule All Inclusive, son accès direct au complexe thermal et son confort familial."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Park Inn by Radisson Sarvar Resort & Spa - All Inclusive",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "1400€ - 2200€ / semaine",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.50",
+                "bestRating": "5",
+                "reviewCount": "7055"
+            }
+        }
     }
 }
-

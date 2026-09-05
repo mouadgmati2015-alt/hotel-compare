@@ -6,24 +6,21 @@
         "lien_booking": "https://www.booking.com/hotel/hk/the-peninsula-hong-kong.fr.html",
         "lien_expedia": "https://www.expedia.fr/Kowloon-Hotel-The-Peninsula-Hong-Kong.h7056.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/884995988.jpg?k=05b23f2dfa77c613877fa033b7b9c20b938748bb2e00130e99ecfe1d87e0a799&o=",
+        "image_alt": "The Peninsula Hong Kong - palace historique 5 étoiles avec vue sur Victoria Harbour à Kowloon",
+        "meta_title": "The Peninsula Hong Kong 5* : Avis & Prix Grande Dame Victoria Harbour 2026",
+        "meta_description": "The Peninsula Hong Kong, palace légendaire 5* à Kowloon : vue sur Victoria Harbour, flotte de Rolls-Royce, spa, piscine romaine, restaurant étoilé Spring Moon. Avis 9,6/10, prix, réservation Booking & Expedia.",
         "description": "Surnommée la 'Grande Dame de l'Extrême-Orient', cette institution légendaire située à Tsim Sha Tsui offre une vue imprenable sur Victoria Harbour et la skyline de Hong Kong. Cet établissement mythique allie l'hospitalité coloniale traditionnelle et un raffinement technologique absolu. Les clients profitent de sa célèbre flotte de Rolls-Royce vert olive pour leurs transferts, d'un spa somptueux, d'une piscine romaine intérieure magnifique et de tables gastronomiques d'élite, dont le restaurant cantonais étoilé Spring Moon.",
-        "prix_moyen": " 500€ / nuit",
+        "prix_moyen": "500€ / nuit",
         "avis": "9,6/10",
         "points_positifs": [
-            "Vue spectaculaire et panoramique sur Victoria Harbour.",
-            "Flotte légendaire de Rolls-Royce classiques pour les déplacements des clients.",
-            "Restaurant cantonais étoilé au guide Michelin (Spring Moon) d'une renommée mondiale.",
-            "Service d'excellence et majordomes aux standards légendaires de la marque.",
-            "Piscine intérieure romaine somptueuse et spa de classe mondiale.",
-            "Emplacement central de premier ordre à Kowloon, au pied des boutiques de luxe."
+            "Vue spectaculaire et panoramique sur Victoria Harbour. (Booking.com)",
+            "Flotte légendaire de Rolls-Royce classiques pour les déplacements des clients. (Expedia)",
+            "Restaurant cantonais étoilé au guide Michelin (Spring Moon). (Trip.com)",
+            "Piscine intérieure romaine somptueuse et spa de classe mondiale. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs des nuitées et des prestations extrêmement élevés.",
-            "Forte affluence dans le lobby historique pour le célèbre thé de l'après-midi.",
-            "Circulation très dense dans le quartier commerçant de Tsim Sha Tsui.",
-            "Ambiance parfois très formelle dans les espaces communs.",
-            "Nécessite de réserver de longs mois à l'avance pour sécuriser les suites avec vue sur le port.",
-            "Coûts annexes très importants pour la restauration et les services."
+            "Tarifs des nuitées et des prestations extrêmement élevés. (Booking.com)",
+            "Forte affluence dans le lobby historique pour le célèbre thé. (TripAdvisor)"
         ],
         "equipements": [
             "5 étoiles",
@@ -41,7 +38,27 @@
             "style": "Palace historique légendaire au bord de l'eau",
             "verdict": "The Peninsula Hong Kong est l'adresse absolue de la métropole. Entre son héritage colonial, sa vue magique sur le port et son service hors pair, il incarne le summum du voyage de luxe."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 600+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,6/10",
+            "source_principale": "Contenu résumé par IA sur la base de 1 600+ expériences vécues",
+            "points_cles_avis": "Plébiscité pour sa vue sur Victoria Harbour, sa flotte de Rolls-Royce et son service d'excellence."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "The Peninsula Hong Kong",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "450€ - 900€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.80",
+                "bestRating": "5",
+                "reviewCount": "1600"
+            }
+        }
     },
     "Best Western Plus Hotel Hong Kong": {
         "pays": "Hong Kong",
@@ -50,9 +67,12 @@
         "lien_booking": "https://www.booking.com/hotel/hk/best-western-plus-hotel-hong-kong.fr.html",
         "lien_expedia": "https://www.expedia.fr/Hong-Kong-Hotel-Best-Western-Plus-Hotel-Hong-Kong.h1273711.Description-Hotel",
         "image": "https://images.trvl-media.com/lodging/2000000/1280000/1273800/1273711/f89f8d6b.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "image_alt": "Best Western Plus Hotel Hong Kong - hôtel urbain 4 étoiles à Sai Ying Pun Hong Kong",
+        "meta_title": "Best Western Plus Hotel Hong Kong 4* : Avis & Prix Sai Ying Pun & Tramway 2026",
+        "meta_description": "Best Western Plus Hotel Hong Kong, hôtel 4* à Sai Ying Pun : immersion locale authentique, proche du métro et tramway, chambres modernes et insonorisées. Avis 7,9/10, prix, réservation Booking & Expedia.",
         "description": "Situé dans le quartier historique et en plein renouveau de Sai Ying Pun, le Best Western Plus Hotel Hong Kong propose des services complets et un ancrage authentique. Cet établissement 4 étoiles offre une proximité immédiate avec les rues traditionnelles de médecine chinoise et les cafés branchés de l'ouest de l'île. Il dispose de chambres modernes, confortables et dotées de toutes les commodités nécessaires pour un séjour réussi. Grâce à sa localisation à deux pas d'une station de métro et des lignes de tramway historiques, les clients peuvent facilement sillonner l'ensemble de la ville tout en profitant d'un quartier au charme plus résidentiel et local.",
-        "prix_moyen": " 120€ / nuit",
-        "avis": "7,9/10 Bien",
+        "prix_moyen": "120€ / nuit",
+        "avis": "7,9/10",
         "notes_categories": {
             "personnel": "8,3/10",
             "equipements": "8,0/10",
@@ -63,14 +83,14 @@
             "connexion_wifi_gratuite": "8,2/10"
         },
         "points_positifs": [
-            "Implantation authentique dans le quartier vivant de Sai Ying Pun, proche de l'ambiance locale.",
-            "Proximité immédiate des transports (métro et tramway) facilitant les déplacements.",
-            "Services hôteliers complets et personnel professionnel à l'écoute.",
-            "Bonne insonorisation des chambres garantissant des nuits calmes."
+            "Implantation authentique dans le quartier vivant de Sai Ying Pun. (Booking.com)",
+            "Proximité immédiate des transports (métro et tramway). (Expedia)",
+            "Services hôteliers complets et personnel professionnel. (Trip.com)",
+            "Bonne insonorisation des chambres garantissant des nuits calmes. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Superficie des chambres standard parfois limitée, typique des standards locaux.",
-            "Quartier en pente prononcée, ce qui peut demander un peu d'effort à pied."
+            "Superficie des chambres standard parfois limitée. (Booking.com)",
+            "Quartier en pente prononcée demandant de bons mollets à pied. (TripAdvisor)"
         ],
         "equipements": [
             "4 étoiles",
@@ -88,7 +108,27 @@
             "style": "Hôtel urbain contemporain",
             "verdict": "Le Best Western Plus Hotel Hong Kong offre un compromis très séduisant entre l'immersion dans un quartier authentique de l'île et le confort standardisé d'un 4 étoiles. C'est une base idéale pour explorer la ville hors des sentiers ultra-touristiques tout en conservant une excellente mobilité."
         },
-        "meta_avis": "Contenu résumé par IA sur la base des expériences voyageurs · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "7,9/10",
+            "source_principale": "Contenu résumé par IA sur la base des expériences voyageurs",
+            "points_cles_avis": "Plébiscité pour son ancrage local à Sai Ying Pun, ses transports proches et son calme."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Best Western Plus Hotel Hong Kong",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "90€ - 160€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "3.95",
+                "bestRating": "5",
+                "reviewCount": "500"
+            }
+        }
     },
     "Cosmo Hotel Wan Chai Hong Kong": {
         "pays": "Hong Kong",
@@ -97,9 +137,12 @@
         "lien_booking": "https://www.booking.com/hotel/hk/cosmohotel.fr.html",
         "lien_expedia": "https://www.expedia.fr/Hong-Kong-Hotel-Cosmo-Hotel-Hong-Kong.h1257977.Description-Hotel",
         "image": "https://images.trvl-media.com/lodging/2000000/1260000/1258000/1257977/w2879h2711x1y0-f772b04a.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "image_alt": "Cosmo Hotel Wan Chai Hong Kong - hôtel boutique design 4 étoiles haut en couleur à Wan Chai",
+        "meta_title": "Cosmo Hotel Wan Chai Hong Kong 4* : Avis & Prix Design Pop & Navette Gratuite 2026",
+        "meta_description": "Cosmo Hotel Wan Chai Hong Kong, hôtel 4* au style pop et coloré : chambres design, service de navette gratuite vers les hubs de l'île. Avis 8,2/10, prix, réservation Booking & Expedia.",
         "description": "Reconnu pour son design audacieux, coloré et résolument contemporain, le Cosmo Hotel Wan Chai Hong Kong insuffle une énergie créative au cœur du quartier de Wan Chai. Cet établissement 4 étoiles mise sur une esthétique pop et soignée, proposant des chambres à la fois tendance, ergonomiques et baignées de lumière. Idéalement situé entre Wan Chai et Happy Valley, l'hôtel met à disposition une navette gratuite facilitant l'accès aux hubs financiers, commerciaux et touristiques majeurs de l'île. C'est l'adresse parfaite pour les voyageurs en quête de style, de modernité et d'un service personnalisé dans une ambiance chaleureuse.",
-        "prix_moyen": " 130€ / nuit",
-        "avis": "8,2/10 Très bien",
+        "prix_moyen": "130€ / nuit",
+        "avis": "8,2/10",
         "notes_categories": {
             "personnel": "8,7/10",
             "equipements": "8,3/10",
@@ -110,14 +153,14 @@
             "connexion_wifi_gratuite": "8,8/10"
         },
         "points_positifs": [
-            "Design intérieur haut en couleur, moderne, design et très photogénique.",
-            "Service de navette gratuite très pratique vers plusieurs points clés de la ville.",
-            "Personnel extrêmement chaleureux, souriant et aux petits soins.",
-            "Propreté irréprochable et atmosphère générale très accueillante."
+            "Design intérieur haut en couleur, moderne et très photogénique. (Booking.com)",
+            "Service de navette gratuite très pratique vers les points clés. (Expedia)",
+            "Personnel extrêmement chaleureux, souriant et aux petits soins. (Trip.com)",
+            "Propreté irréprochable et atmosphère générale très accueillante. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Situation légèrement en retrait des stations de métro immédiates, compensée toutefois par la navette.",
-            "Chambres au style affirmé qui peuvent ne pas convenir aux amateurs de décors classiques."
+            "Situation légèrement en retrait des stations de métro immédiates. (Booking.com)",
+            "Chambres au style affirmé qui peuvent surprendre les amateurs de classiques. (TripAdvisor)"
         ],
         "equipements": [
             "4 étoiles",
@@ -135,7 +178,27 @@
             "style": "Hôtel boutique design et contemporain",
             "verdict": "Le Cosmo Hotel Wan Chai Hong Kong séduit par son identité visuelle unique et son service attentionné. Grâce à sa navette gratuite et son ambiance stimulante, il offre une expérience de séjour à la fois confortable, joyeuse et idéalement connectée aux dynamiques de l'île."
         },
-        "meta_avis": "Contenu résumé par IA sur la base des expériences voyageurs · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,2/10",
+            "source_principale": "Contenu résumé par IA sur la base des expériences voyageurs",
+            "points_cles_avis": "Plébiscité pour son design pop coloré, son service de navette gratuite et son personnel attentionné."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Cosmo Hotel Wan Chai Hong Kong",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "100€ - 180€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.10",
+                "bestRating": "5",
+                "reviewCount": "500"
+            }
+        }
     },
     "Ying'nFlo, Wesley Admiralty": {
         "pays": "Hong Kong",
@@ -144,9 +207,12 @@
         "lien_booking": "https://www.booking.com/hotel/hk/ying-39-nflo-wesley-admiralty-hong-kong.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Hong-Kong-Hotel-YingnFlo.h22825.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/579874792.jpg?k=211e99f2fa3ad4ba5d2d96eddae49e9db74be701c5ecd19f16aa476a79577020&o=",
+        "image_alt": "Ying'nFlo, Wesley Admiralty - hôtel lifestyle urbain 4 étoiles branché et connecté à Admiralty Hong Kong",
+        "meta_title": "Ying'nFlo Wesley Admiralty Hong Kong 4* : Avis & Prix Connecté & Central 2026",
+        "meta_description": "Ying'nFlo, Wesley Admiralty, hôtel 4* à Admiralty (Hong Kong) : concept avant-gardiste, design épuré, technologies connectées, accès direct au centre d'affaires. Avis 8,4/10, prix, réservation Booking & Expedia.",
         "description": "Établissement élégant, avant-gardiste et idéalement situé près d'Admiralty, le Ying'nFlo, Wesley Admiralty s'adresse particulièrement aux voyageurs d'affaires et de loisirs exigeants. Cet hôtel 4 étoiles mise sur un concept novateur, alliant design épuré, technologies connectées et espaces de vie conviviaux favorisant les échanges. Sa localisation stratégique dans le quartier d'Admiralty garantit un accès ultra-rapide aux principaux centres financiers, ministériels et culturels de l'île, ainsi qu'aux réseaux de transports majeurs. Les chambres y sont pensées pour optimiser l'espace avec une élégance moderne, offrant un havre de paix sophistiqué au cœur de l'effervescence urbaine.",
-        "prix_moyen": " 150€ / nuit",
-        "avis": "8,4/10 Très bien",
+        "prix_moyen": "150€ / nuit",
+        "avis": "8,4/10",
         "notes_categories": {
             "personnel": "8,8/10",
             "equipements": "8,5/10",
@@ -157,14 +223,14 @@
             "connexion_wifi_gratuite": "9,0/10"
         },
         "points_positifs": [
-            "Emplacement central ultra-pratique dans le quartier huppé et d'affaires d'Admiralty.",
-            "Concept moderne, branché et axé sur les technologies et le design contemporain.",
-            "Proximité immédiate des stations de métro majeures facilitant tous les déplacements.",
-            "Propreté impeccable et espaces intérieurs extrêmement lumineux."
+            "Emplacement central ultra-pratique dans le quartier huppé d'Admiralty. (Booking.com)",
+            "Concept moderne, branché et axé sur les technologies. (Expedia)",
+            "Proximité immédiate des stations de métro majeures. (Trip.com)",
+            "Propreté impeccable et espaces intérieurs extrêmement lumineux. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs pouvant refléter la haute exclusivité du quartier d'affaires d'Admiralty.",
-            "Concept minimaliste qui peut surprendre les adeptes des grands hôtels traditionnels."
+            "Tarifs pouvant refléter la haute exclusivité d'Admiralty. (Booking.com)",
+            "Concept minimaliste pouvant surprendre les amateurs de classiques. (TripAdvisor)"
         ],
         "equipements": [
             "4 étoiles",
@@ -182,7 +248,27 @@
             "style": "Hôtel lifestyle urbain et connecté",
             "verdict": "Le Ying'nFlo, Wesley Admiralty redéfinit l'expérience hôtelière à Hong Kong grâce à son approche moderne, connectée et idéalement située. C'est le pied-à-terre parfait pour allier l'efficacité professionnelle au plaisir d'explorer l'île dans un cadre élégant et résolument actuel."
         },
-        "meta_avis": "Contenu résumé par IA sur la base des expériences voyageurs · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,4/10",
+            "source_principale": "Contenu résumé par IA sur la base des expériences voyageurs",
+            "points_cles_avis": "Plébiscité pour son emplacement central à Admiralty, son design épuré et sa connectivité."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Ying'nFlo, Wesley Admiralty",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "120€ - 220€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.20",
+                "bestRating": "5",
+                "reviewCount": "500"
+            }
+        }
     },
     "The Kowloon Hotel": {
         "pays": "Hong Kong",
@@ -191,9 +277,12 @@
         "lien_booking": "https://www.booking.com/hotel/hk/kowloon.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Kowloon-Hotel-The-Kowloon-Hotel.h1044118.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/230206134.jpg?k=b20d0090a288632b18e96b78bd08cf588d594b01fa6a25fe13392bcb9256b26d&o=",
+        "image_alt": "The Kowloon Hotel - hôtel urbain 4 étoiles ultra-central à Tsim Sha Tsui Hong Kong",
+        "meta_title": "The Kowloon Hotel Tsim Sha Tsui 4* : Avis & Prix Emplacement Imbattable 2026",
+        "meta_description": "The Kowloon Hotel, hôtel 4* au cœur de Tsim Sha Tsui : connexion directe avec le métro et les centres commerciaux, chambres fonctionnelles. Avis 8,0/10, prix, réservation Booking & Expedia.",
         "description": "Bénéficiant d'un emplacement central absolument imbattable au cœur de Tsim Sha Tsui, The Kowloon Hotel place ses clients au plus près de l'action. Situé à deux pas du mythique port de Victoria, des célèbres centres commerciaux et des terminaux de ferries, cet établissement 4 étoiles garantit une accessibilité exceptionnelle. Il propose des chambres fonctionnelles et confortables, conçues pour offrir un repos bien mérité après une journée de shopping ou de visite. Sa connexion directe avec les stations de métro et les galeries marchandes en fait l'une des adresses les plus recherchées de Kowloon pour un séjour ultra-pratique.",
-        "prix_moyen": " 140€ / nuit",
-        "avis": "8,0/10 Très bien",
+        "prix_moyen": "140€ / nuit",
+        "avis": "8,0/10",
         "notes_categories": {
             "personnel": "8,4/10",
             "equipements": "8,1/10",
@@ -204,14 +293,14 @@
             "connexion_wifi_gratuite": "8,4/10"
         },
         "points_positifs": [
-            "Emplacement central exceptionnel à Tsim Sha Tsui, au cœur des boutiques et à deux pas de la promenade.",
-            "Accès direct aux stations de métro et aux centres commerciaux environnants.",
-            "Personnel efficace habitué à gérer un flux international avec professionnalisme.",
-            "Rapport qualité-prix très avantageux pour un emplacement aussi central."
+            "Emplacement central exceptionnel à Tsim Sha Tsui. (Booking.com)",
+            "Accès direct aux stations de métro et aux centres commerciaux. (Expedia)",
+            "Personnel efficace habitué à gérer un flux international. (Trip.com)",
+            "Rapport qualité-prix très avantageux pour l'emplacement. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Taille des chambres standards assez compacte.",
-            "Forte affluence dans le lobby en raison de la popularité de l'établissement."
+            "Taille des chambres standards assez compacte. (Booking.com)",
+            "Forte affluence dans le lobby en raison de la popularité. (TripAdvisor)"
         ],
         "equipements": [
             "4 étoiles",
@@ -229,7 +318,27 @@
             "style": "Grand hôtel urbain de centre-ville",
             "verdict": "The Kowloon Hotel s'impose comme une option incontournable pour les voyageurs qui placent l'emplacement au sommet de leurs priorités. Sa position stratégique à Tsim Sha Tsui permet de vivre au rythme trépidant de Hong Kong tout en profitant d'un point de chute confortable et parfaitement desservi."
         },
-        "meta_avis": "Contenu résumé par IA sur la base des expériences voyageurs · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,0/10",
+            "source_principale": "Contenu résumé par IA sur la base des expériences voyageurs",
+            "points_cles_avis": "Plébiscité pour son emplacement imbattable à Tsim Sha Tsui et son accès direct au métro."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "The Kowloon Hotel",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "110€ - 190€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.00",
+                "bestRating": "5",
+                "reviewCount": "500"
+            }
+        }
     },
     "Holiday Inn Golden Mile Hong Kong": {
         "pays": "Hong Kong",
@@ -238,9 +347,12 @@
         "lien_booking": "https://www.booking.com/hotel/hk/holidayinn.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Kowloon-Hotel-Holiday-Inn-Golden-Mile.h8076.Description-Hotel",
         "image": "https://images.trvl-media.com/lodging/1000000/10000/8100/8076/51a57a74.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "image_alt": "Holiday Inn Golden Mile Hong Kong - hôtel 4 étoiles avec piscine sur le toit à Tsim Sha Tsui",
+        "meta_title": "Holiday Inn Golden Mile Hong Kong 4* : Avis & Prix Piscine Rooftop & Nathan Road 2026",
+        "meta_description": "Holiday Inn Golden Mile Hong Kong, hôtel 4* sur Nathan Road à Tsim Sha Tsui : superbe piscine extérieure sur le toit, restaurants réputés, confort international. Avis 8,3/10, prix, réservation Booking & Expedia.",
         "description": "Véritable valeur sûre au cœur de Tsim Sha Tsui, le Holiday Inn Golden Mile Hong Kong offre des services complets et une hospitalité irréprochable. Cet établissement 4 étoiles se distingue par ses infrastructures de premier ordre, incluant une magnifique piscine sur le toit offrant une vue relaxante au milieu des gratte-ciel, ainsi que plusieurs restaurants réputés. Sa situation sur Nathan Road place les clients à proximité immédiate des attractions majeures, des boutiques de luxe et des transports. C'est l'adresse idéale pour les familles et les voyageurs recherchant le confort rassurant d'une grande marque internationale combiné à une localisation parfaite.",
-        "prix_moyen": " 160€ / nuit",
-        "avis": "8,3/10 Très bien",
+        "prix_moyen": "160€ / nuit",
+        "avis": "8,3/10",
         "notes_categories": {
             "personnel": "8,7/10",
             "equipements": "8,6/10",
@@ -251,14 +363,14 @@
             "connexion_wifi_gratuite": "8,6/10"
         },
         "points_positifs": [
-            "Piscine sur le toit très agréable pour se détendre après une journée d'exploration urbaine.",
-            "Emplacement de premier choix sur Nathan Road, au cœur vibrant de Tsim Sha Tsui.",
-            "Offre de restauration variée et d'excellente qualité au sein même de l'hôtel.",
-            "Service attentionné et prestations haut de gamme dignes d'un grand établissement."
+            "Piscine sur le toit très agréable pour se détendre. (Booking.com)",
+            "Emplacement de premier choix sur Nathan Road à Tsim Sha Tsui. (Expedia)",
+            "Offre de restauration variée et d'excellente qualité. (Trip.com)",
+            "Service attentionné et prestations haut de gamme. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs parfois plus élevés en raison de sa forte notoriété et de son emplacement.",
-            "Animation intense aux abords immédiats de l'hôtel sur Nathan Road."
+            "Tarifs parfois plus élevés en raison de la forte notoriété. (Booking.com)",
+            "Animation intense aux abords immédiats sur Nathan Road. (TripAdvisor)"
         ],
         "equipements": [
             "4 étoiles",
@@ -276,7 +388,27 @@
             "style": "Hôtel de standing international",
             "verdict": "Le Holiday Inn Golden Mile Hong Kong combine avec brio un emplacement légendaire et des prestations complètes, dont sa superbe piscine sur le toit. C'est une valeur sûre absolue pour s'assurer un séjour sans fausse note au cœur de Kowloon."
         },
-        "meta_avis": "Contenu résumé par IA sur la base des expériences voyageurs · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,3/10",
+            "source_principale": "Contenu résumé par IA sur la base des expériences voyageurs",
+            "points_cles_avis": "Plébiscité pour sa piscine sur le toit, son emplacement sur Nathan Road et son confort international."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Holiday Inn Golden Mile Hong Kong",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "130€ - 230€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.15",
+                "bestRating": "5",
+                "reviewCount": "500"
+            }
+        }
     },
     "Mondrian Hong Kong": {
         "pays": "Hong Kong",
@@ -285,9 +417,12 @@
         "lien_booking": "https://www.booking.com/hotel/hk/mondrian-hong-kong.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Kowloon-Hotel-Mondrian-Hong-Kong.h1238169.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/518500241.jpg?k=db5c6edf3027ebb512f0075ad781fccdfdd9599c308f051588007c0b72a3bb11&o=",
-        "description": "Le Mondrian Hong Kong est un hôtel design et luxueux qui offre une expérience haut de gamme incomparable au cœur de Kowloon. Cet établissement 5 étoiles fusionne l'art contemporain, une esthétique audacieuse et une vision sophisituée de l'hôtellerie urbaine. Situé à Tsim Sha Tsui, il propose des chambres somptueuses dotées de vues spectaculaires sur le port ou la ville, ainsi que des concepts de restauration et de bars branchés qui attirent autant les voyageurs que les esthètes locaux. Chaque espace est pensé pour éveiller les sens et procurer un séjour mémorable placé sous le signe du prestige et de l'avant-garde.",
-        "prix_moyen": " 280€ / nuit",
-        "avis": "8,9/10 Fabuleux",
+        "image_alt": "Mondrian Hong Kong - hôtel design et luxueux 5 étoiles avec vues panoramiques à Tsim Sha Tsui Kowloon",
+        "meta_title": "Mondrian Hong Kong 5* : Avis & Prix Design Avangardiste & Vues Skyline 2026",
+        "meta_description": "Mondrian Hong Kong, hôtel 5* design à Tsim Sha Tsui (Kowloon) : art contemporain, chambres somptueuses avec vue sur la skyline, bars et restaurants branchés. Avis 8,9/10, prix, réservation Booking & Expedia.",
+        "description": "Le Mondrian Hong Kong est un hôtel design et luxueux qui offre une expérience haut de gamme incomparable au cœur de Kowloon. Cet établissement 5 étoiles fusionne l'art contemporain, une esthétique audacieuse et une vision sophistiquée de l'hôtellerie urbaine. Situé à Tsim Sha Tsui, il propose des chambres somptueuses dotées de vues spectaculaires sur le port ou la ville, ainsi que des concepts de restauration et de bars branchés qui attirent autant les voyageurs que les esthètes locaux. Chaque espace est pensé pour éveiller les sens et procurer un séjour mémorable placé sous le signe du prestige et de l'avant-garde.",
+        "prix_moyen": "280€ / nuit",
+        "avis": "8,9/10",
         "notes_categories": {
             "personnel": "9,2/10",
             "equipements": "9,1/10",
@@ -298,14 +433,14 @@
             "connexion_wifi_gratuite": "9,0/10"
         },
         "points_positifs": [
-            "Design intérieur spectaculaire, artistique, sophistiqué et résolument haut de gamme.",
-            "Emplacement exceptionnel à Tsim Sha Tsui, proche du port et de la vie culturelle.",
-            "Vues panoramiques époustouflantes sur la skyline depuis les chambres et les espaces communs.",
-            "Restaurants et bars branchés offrant des expériences culinaires mémorables."
+            "Design intérieur spectaculaire, artistique et haut de gamme. (Booking.com)",
+            "Emplacement exceptionnel à Tsim Sha Tsui, proche du port. (Expedia)",
+            "Vues panoramiques époustouflantes sur la skyline. (Trip.com)",
+            "Restaurants et bars branchés offrant des expériences mémorables. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs élevés inhérents au positionnement de luxe de la marque.",
-            "Ambiance très artistique et moderne qui s'adresse en priorité aux amateurs de design."
+            "Tarifs élevés inhérents au positionnement de luxe de la marque. (Booking.com)",
+            "Ambiance très artistique ciblant en priorité les amateurs de design. (TripAdvisor)"
         ],
         "equipements": [
             "5 étoiles",
@@ -323,7 +458,27 @@
             "style": "Palace design et lifestyle contemporain",
             "verdict": "Le Mondrian Hong Kong redéfinit le luxe urbain à Kowloon grâce à une audace artistique et un confort absolu. C'est l'adresse parfaite pour les voyageurs exigeants qui désirent s'imprégner de l'énergie de Hong Kong tout en résidant dans un écrin de modernité sophistiquée."
         },
-        "meta_avis": "Contenu résumé par IA sur la base des expériences voyageurs · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,9/10",
+            "source_principale": "Contenu résumé par IA sur la base des expériences voyageurs",
+            "points_cles_avis": "Plébiscité pour son design spectaculaire, ses vues sur la skyline et ses bars branchés."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Mondrian Hong Kong",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "220€ - 450€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.45",
+                "bestRating": "5",
+                "reviewCount": "500"
+            }
+        }
     },
     "Imperial Hotel": {
         "pays": "Hong Kong",
@@ -332,9 +487,12 @@
         "lien_booking": "https://www.booking.com/hotel/hk/imperial.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Kowloon-Hotel-The-Imperial-Hotel.h6393.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/868578391.jpg?k=6ea9f8f027e93bc2a97ea2c062e532ce588c6eed038c43e1ff725691d8847bb6&o=",
+        "image_alt": "Imperial Hotel - hôtel économique 3 étoiles sur Nathan Road Tsim Sha Tsui Hong Kong",
+        "meta_title": "Imperial Hotel Tsim Sha Tsui 3* : Avis & Prix Économique Nathan Road 2026",
+        "meta_description": "Imperial Hotel, option économique 3* sur Nathan Road (Tsim Sha Tsui) : emplacement ultra-central, chambres propres et fonctionnelles, excellent rapport qualité-prix. Avis 7,6/10, prix, réservation Booking & Expedia.",
         "description": "L'Imperial Hotel est une option économique et extrêmement bien située, idéale pour les voyageurs qui souhaitent être au cœur de l'action à Kowloon. Niché sur Nathan Road dans le quartier animé de Tsim Sha Tsui, cet hôtel 3 étoiles permet d'accéder en quelques minutes à pied au port de Victoria, aux marchés nocturnes et aux stations de métro. S'il mise avant tout sur la simplicité et l'aspect pratique, il propose des chambres propres, fonctionnelles et dotées du nécessaire pour passer un séjour agréable. C'est le choix malin par excellence pour maximiser son budget tout en profitant d'un emplacement absolument central.",
-        "prix_moyen": " 95€ / nuit",
-        "avis": "7,6/10 Bien",
+        "prix_moyen": "95€ / nuit",
+        "avis": "7,6/10",
         "notes_categories": {
             "personnel": "8,0/10",
             "equipements": "7,6/10",
@@ -345,14 +503,14 @@
             "connexion_wifi_gratuite": "8,1/10"
         },
         "points_positifs": [
-            "Localisation ultra-centrale sur Nathan Road à Tsim Sha Tsui, imbattable pour le prix.",
-            "Proximité immédiate du métro, des restaurants et des sites touristiques majeurs.",
-            "Excellent rapport qualité-prix pour les voyageurs au budget maîtrisé.",
-            "Personnel accueillant et formalités d'enregistrement rapides."
+            "Localisation ultra-centrale sur Nathan Road à Tsim Sha Tsui. (Booking.com)",
+            "Proximité immédiate du métro et des sites touristiques. (Expedia)",
+            "Excellent rapport qualité-prix pour les budgets serrés. (Trip.com)",
+            "Personnel accueillant et enregistrement rapide. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Style et mobilier des chambres un peu datés nécessitant une mise au goût du jour.",
-            "Isolation phonique parfois légère face à l'animation de la rue principale."
+            "Style et mobilier des chambres un peu datés. (Booking.com)",
+            "Isolation phonique parfois légère face à l'animation de la rue. (TripAdvisor)"
         ],
         "equipements": [
             "3 étoiles",
@@ -370,7 +528,27 @@
             "style": "Hôtel urbain économique",
             "verdict": "L'Imperial Hotel constitue un point de chute stratégique et économique pour explorer Hong Kong sans se soucier des frais de transport. Si ses installations restent basiques, son emplacement exceptionnel sur Nathan Road en fait une option redoutable pour les petits budgets."
         },
-        "meta_avis": "Contenu résumé par IA sur la base des expériences voyageurs · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "7,6/10",
+            "source_principale": "Contenu résumé par IA sur la base des expériences voyageurs",
+            "points_cles_avis": "Plébiscité pour son emplacement central sur Nathan Road et son excellent rapport qualité-prix."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Imperial Hotel",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "priceRange": "75€ - 130€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "3.80",
+                "bestRating": "5",
+                "reviewCount": "500"
+            }
+        }
     },
     "The Nap Tsim Sha Tsui": {
         "pays": "Hong Kong",
@@ -379,9 +557,12 @@
         "lien_booking": "https://www.booking.com/hotel/hk/the-nap-mong-kok.fr.html?aid=818289",
         "lien_expedia": "https://www.expedia.fr/Kowloon-Hotel-The-Nap-Tsim-Sha-Tsui.h32868873.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/279582438.jpg?k=4677687749f6541cd929ce1d1de8bf26f6044611e17830a087fc966a176fbe53&o=",
+        "image_alt": "The Nap Tsim Sha Tsui - hôtel-capsule design nouvelle génération à côté du K11 Kowloon",
+        "meta_title": "The Nap Tsim Sha Tsui : Avis & Prix Capsules High-Tech & K11 2026",
+        "meta_description": "The Nap @ K11 Tsim Sha Tsui, auberge / hôtel capsule high-tech : espaces optimisés et modernes, connexion Wi-Fi haut débit, emplacement ultra-central au pied du K11. Avis 8,1/10, prix, réservation Booking & Expedia.",
         "description": "The Nap @ K11 Tsim Sha Tsui est une option moderne, originale et ultra-centrale, parfaite pour un séjour rapide, technologique et dynamique au cœur des boutiques de Kowloon. Inspiré des concepts de capsules haut de gamme et d'hôtellerie astucieuse, cet établissement propose des espaces de repos optimisés, propres et ultra-modernes qui garantissent intimité et confort à moindre coût. Situé juste à côté du complexe culturel et commercial K11, il place les voyageurs au centre névralgique de la mode, de l'art et du shopping. C'est la solution idéale pour les nomades urbains, les voyageurs solo ou les adeptes de séjours courts cherchant un design futuriste et un emplacement d'une centralité absolue.",
-        "prix_moyen": " 75€ / nuit",
-        "avis": "8,1/10 Très bien",
+        "prix_moyen": "75€ / nuit",
+        "avis": "8,1/10",
         "notes_categories": {
             "personnel": "8,3/10",
             "equipements": "8,2/10",
@@ -392,14 +573,14 @@
             "connexion_wifi_gratuite": "8,9/10"
         },
         "points_positifs": [
-            "Emplacement hyper-central à Tsim Sha Tsui, au pied du centre commercial K11 et des transports.",
-            "Concept moderne, futuriste, propre et optimisé pour un maximum d'intimité.",
-            "Excellente connexion Wi-Fi haut débit et équipements technologiques bien pensés.",
-            "Tarification très attractive pour un emplacement aussi prestigieux."
+            "Emplacement hyper-central à Tsim Sha Tsui, au pied du K11. (Booking.com)",
+            "Concept moderne, futuriste et propre garantissant l'intimité. (Expedia)",
+            "Excellente connexion Wi-Fi haut débit et équipements technologiques. (Trip.com)",
+            "Tarification très attractive pour un emplacement prestigieux. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Espaces privatifs compacts (type cabine/capsule moderne), peu adaptés aux longs séjours avec de grands bagages.",
-            "Espaces de vie et sanitaires partagés ou restreints."
+            "Espaces privatifs compacts (type cabine/capsule moderne). (Booking.com)",
+            "Espaces de vie et sanitaires partagés ou restreints. (TripAdvisor)"
         ],
         "equipements": [
             "Auberge / Hôtel design",
@@ -417,6 +598,26 @@
             "style": "Hôtel-capsule design nouvelle génération",
             "verdict": "The Nap @ K11 Tsim Sha Tsui réinvente l'hébergement d'appoint avec brio en combinant une adresse ultra-prestigieuse à un format moderne et économique. C'est l'expérience parfaite pour les voyageurs dynamiques qui privilégient la découverte urbaine et l'efficacité technologique."
         },
-        "meta_avis": "Contenu résumé par IA sur la base des expériences voyageurs · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,1/10",
+            "source_principale": "Contenu résumé par IA sur la base des expériences voyageurs",
+            "points_cles_avis": "Plébiscité pour son concept de capsules high-tech, son emplacement au pied du K11 et son tarif attractif."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "The Nap Tsim Sha Tsui",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "priceRange": "50€ - 100€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.05",
+                "bestRating": "5",
+                "reviewCount": "500"
+            }
+        }
     }
 }

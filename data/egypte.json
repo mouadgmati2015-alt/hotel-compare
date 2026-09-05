@@ -4697,5 +4697,76 @@
                 "reviewCount": "120"
             }
         }
+    },
+    "White Hills Resort": {
+        "pays": "Égypte",
+        "ville": "Charm el-Cheikh",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/eg/white-hills-resort.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Sharm-El-Sheikh-Hotels-White-Hills-Resort.h88701967.Hotel-Information",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/38398490.jpg?k=15d940a599df70e",
+        "image_alt": "White Hills Resort - complexe hôtelier 5 étoiles de luxe en bord de mer à Sharks Bay Charm el-Cheikh Égypte",
+        "meta_title": "White Hills Resort 5* : Avis & Prix Sharks Bay & Charm el-Cheikh 2026",
+        "meta_description": "White Hills Resort, somptueux complexe 5* en bord de mer à Charm el-Cheikh (Sharks Bay) : plages privées, 6 piscines, spa et restaurants raffinés. Avis 9,3/10, prix, réservation Booking & Expedia.",
+        "description": "Situé à Sharks Bay le long d'une magnifique plage privée, le White Hills Resort est un luxueux complexe 5 étoiles offrant un cadre idyllique pour un séjour de détente absolue à Charm el-Cheikh. L'établissement dispose de 6 piscines extérieures, d'un spa et centre de bien-être haut de gamme, d'un centre de remise en forme ainsi que de 6 restaurants proposant des expériences culinaires variées. Son architecture moderne et son personnel attentionné en font une destination privilégiée pour les couples et les familles en quête d'évasion.",
+        "prix_moyen": "220€ / nuit",
+        "avis": "9,3/10",
+        "notes_categories": {
+            "personnel": "9,5/10",
+            "equipements": "9,4/10",
+            "proprete": "9,4/10",
+            "confort": "9,4/10",
+            "rapport_qualite_prix": "9,0/10",
+            "situation_geographique": "9,5/10",
+            "connexion_wifi_gratuite": "9,2/10"
+        },
+        "points_positifs": [
+            "Situation géographique exceptionnelle notée 9,5/10 par les voyageurs. (Booking.com)",
+            "Superbes infrastructures incluant 6 piscines et une plage privée. (Expedia)",
+            "Qualité de service remarquable saluée par de nombreux clients et membres du personnel dévoués. (TripAdvisor)",
+            "Variété et excellence des restaurants et des options de restauration. (Booking.com)"
+        ],
+        "points_negatifs": [
+            "Quelques retards signalés au niveau du service d'étage et des navettes internes du complexe. (Booking.com)",
+            "Ambiance ou animations parfois jugées un peu bruyantes selon les zones et les périodes. (Booking.com)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Plage privée",
+            "6 piscines extérieures",
+            "Spa et centre de bien-être",
+            "6 restaurants",
+            "Wi-Fi gratuit",
+            "Climatisation",
+            "Navette aéroport"
+        ],
+        "Nomad vous en dis plus": "Un conseil d'ami : si vous cherchez le parfait équilibre entre farniente au bord de la mer Rouge et prestations grand standing, le White Hills Resort à Charm el-Cheikh saura vous séduire. Ce qui fait le charme de ce lieu, c'est l'immensité de ses espaces aquatiques, son accès direct à une mer translucide idéale pour la plongée, et ses petites attentions personnalisées (notamment au Posh Club). Une escale ensoleillée hautement relaxante et raffinée.",
+        "pour_qui": {
+            "ambiance": "🌊 Solaire, balnéaire, luxueux, détendu et élégant",
+            "public": "Couples et familles recherchant un complexe tout confort au bord de la mer Rouge",
+            "style": "Resort 5 étoiles moderne en bord de mer",
+            "verdict": "Le White Hills Resort offre une expérience de villégiature complète à Charm el-Cheikh. Entre ses multiples piscines, sa plage privée et son service attentionné, c'est l'adresse idéale pour un séjour mémorable sous le soleil d'Égypte."
+        },
+        "meta_avis": {
+            "note_globale": "9,3/10",
+            "source_principale": "Contenu résumé par IA sur la base de 5400+ expériences vécues",
+            "points_cles_avis": "Plébiscité pour sa situation idéale à Sharks Bay, ses belles piscines et la qualité de son personnel."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "White Hills Resort",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "180€ - 350€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.65",
+                "bestRating": "5",
+                "reviewCount": "5418"
+            }
+        }
     }
 }

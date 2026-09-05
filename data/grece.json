@@ -6,12 +6,31 @@
         "lien_booking": "https://www.booking.com/hotel/gr/amaronda-resort-amp-spa.fr.html",
         "lien_expedia": "https://www.expedia.fr/Eretria-Hotel-Amaronda-Resort-Spa.h1498062.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/642610499.jpg?k=deacdb84cfe65c35f42dd976fe1942342c1ea6512e902d6896188d73b5790307&o=",
+        "image_alt": "Amaronda Resort & Spa Eretria - resort de vacances 4 étoiles avec plage privée et jardin luxuriant en Eubée Grèce",
+        "meta_title": "Amaronda Resort & Spa Eretria 4* : Avis & Prix Plage Privée Eubée 2026",
+        "meta_description": "Amaronda Resort & Spa, hôtel 4* à Érétrie (Eubée) : accès direct à une plage privée, jardin luxuriant, piscine extérieure. Avis 8,6/10, prix, réservation Booking & Expedia.",
         "description": "Niché le long de la magnifique côte d'Eretria, l'Amaronda Resort & Spa vous invite à vivre une expérience de villégiature balnéaire authentique et profondément relaxante au cœur d'un jardin luxuriant. Cet établissement 4 étoiles propose des hébergements de qualité supérieure, une plage privée exclusive idéale pour fuir les foules, ainsi qu'une grande piscine extérieure. C'est l'adresse parfaite pour les familles et les couples en quête d'un séjour alliant confort moderne, douce brise marine et dépaysement total.",
         "prix_moyen": "120€ - 220€ / nuit",
         "avis": "8,6/10",
-        "points_positifs": ["Accès direct à une plage privée magnifique et préservée. (Booking.com)", "Superbe piscine extérieure entourée de transats. (Trip.com)", "Cadre verdoyant exceptionnel au cœur d'un jardin luxuriant. (Expedia)", "Qualité de l'accueil et professionnalisme du personnel. (TripAdvisor)"],
-        "points_negatifs": ["Éloignement des grands centres urbains nécessitant un véhicule. (Booking.com)", "Animation nocturne limitée pour les noctambules. (TripAdvisor)"],
-        "equipements": ["4 étoiles", "Plage privée", "Piscine extérieure", "Wi-Fi gratuit", "Restaurant principal & Bar", "Parking gratuit", "Climatisation"],
+        "points_positifs": [
+            "Accès direct à une plage privée magnifique et préservée. (Booking.com)",
+            "Superbe piscine extérieure entourée de transats. (Trip.com)",
+            "Cadre verdoyant exceptionnel au cœur d'un jardin luxuriant. (Expedia)",
+            "Qualité de l'accueil et professionnalisme du personnel. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Éloignement des grands centres urbains nécessitant un véhicule. (Booking.com)",
+            "Animation nocturne limitée pour les noctambules. (TripAdvisor)"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Plage privée",
+            "Piscine extérieure",
+            "Wi-Fi gratuit",
+            "Restaurant principal & Bar",
+            "Parking gratuit",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "L'Amaronda Resort & Spa incarne la promesse d'une escapade grecque déconnectée du stress moderne. Pour un tarif moyen oscillant entre 120€ et 220€ la nuit, le rapport entre la surface arborée, la plage privée et le calme environnant est tout à fait réjouissant. Ce n'est pas un lieu pour les fêtards en quête de clubs ouverts jusqu'au petit matin, mais plutôt un sanctuaire pour les familles et les duos souhaitant entendre le bruit des vagues et le chant des cigales. Le service chaleureux compense largement l'éloignement des grands axes.",
         "pour_qui": {
             "ambiance": "🌊 Détente, plage, familial et nature",
@@ -19,7 +38,27 @@
             "style": "Resort de vacances avec plage et piscine",
             "verdict": "Une valeur sûre pour des vacances réussies en Eubée."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 071 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,6/10",
+            "source_principale": "Contenu résumé par IA sur la base de 1 071 expériences vécues",
+            "points_cles_avis": "Plébiscité pour sa plage privée préservée, son cadre verdoyant et son calme absolu."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Amaronda Resort & Spa Eretria",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "120€ - 220€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.30",
+                "bestRating": "5",
+                "reviewCount": "1071"
+            }
+        }
     },
     "The Stanley": {
         "pays": "Grèce",
@@ -28,12 +67,30 @@
         "lien_booking": "https://www.booking.com/hotel/gr/stanleyhotelathens.fr.html",
         "lien_expedia": "https://www.expedia.fr",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/820329370.jpg?k=a6cd0fd75a4fce00da514ccff594e09065db68299b38012fa1b77e3164a87f15&o=",
+        "image_alt": "The Stanley - hôtel urbain 4 étoiles avec rooftop et piscine avec vue sur l'Acropole à Athènes",
+        "meta_title": "The Stanley Athènes 4* : Avis & Prix Rooftop Vue Acropole & Métro 2026",
+        "meta_description": "The Stanley, hôtel 4* à Athènes près du métro Metaxourgeio : fabuleux rooftop avec piscine, vue panoramique sur l'Acropole, chambres insonorisées. Avis 8,2/10, prix, réservation Booking & Expedia.",
         "description": "Idéalement implanté au cœur vibrant d'Athènes, à deux pas de la station de métro Metaxourgeio, The Stanley s'impose comme une référence incontournable pour les découvertes urbaines. L'hôtel se distingue par ses installations modernes, incluant une superbe piscine extérieure et un bar-restaurant sur le toit-terrasse offrant un panorama à couper le souffle sur l'Acropole. Les chambres insonorisées garantissent un cocon de confort après une journée bien remplie de visites culturelles.",
         "prix_moyen": "100€ - 180€ / nuit",
         "avis": "8,2/10",
-        "points_positifs": ["Emplacement central ultra-stratégique près du métro Metaxourgeio. (Booking.com)", "Fabuleux rooftop avec piscine et vue magique sur l'Acropole. (Trip.com)", "Excellent rapport qualité-prix au cœur d'une grande capitale. (Expedia)", "Chambres modernes, insonorisées et climatisées. (TripAdvisor)"],
-        "points_negatifs": ["Quartier urbain de Metaxourgeio populaire et animé en soirée. (Booking.com)", "Forte affluence régulière sur le toit-terrasse aux heures de pointe. (TripAdvisor)"],
-        "equipements": ["4 étoiles", "Piscine sur le toit (Rooftop)", "Bar & Restaurant panoramique", "Wi-Fi gratuit", "Proximité du métro", "Climatisation"],
+        "points_positifs": [
+            "Emplacement central ultra-stratégique près du métro Metaxourgeio. (Booking.com)",
+            "Fabuleux rooftop avec piscine et vue magique sur l'Acropole. (Trip.com)",
+            "Excellent rapport qualité-prix au cœur d'une grande capitale. (Expedia)",
+            "Chambres modernes, insonorisées et climatisées. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Quartier urbain de Metaxourgeio populaire et animé en soirée. (Booking.com)",
+            "Forte affluence régulière sur le toit-terrasse aux heures de pointe. (TripAdvisor)"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Piscine sur le toit (Rooftop)",
+            "Bar & Restaurant panoramique",
+            "Wi-Fi gratuit",
+            "Proximité du métro",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "The Stanley est le pied-à-terre malin par excellence pour s'approprier Athènes sans se ruiner. Entre 100€ et 180€ la nuit, pouvoir piquer une tête dans une piscine sur le toit tout en contemplant l'Acropole est un luxe urbain redoutable. Certes, le quartier bouge et ne fait pas dans la dentelle bourgeoise, mais la station de métro juste en bas règle tous les problèmes logistiques en quelques secondes. C'est l'adresse idéale pour les voyageurs curieux qui veulent croquer la culture athénienne tout en s'assurant un point de chute moderne et efficace.",
         "pour_qui": {
             "ambiance": "🏙️ Urbain, branché, rooftop et découverte",
@@ -41,7 +98,27 @@
             "style": "Hôtel urbain avec rooftop",
             "verdict": "Un choix magistral pour réussir son séjour urbain à Athènes."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 7 148 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,2/10",
+            "source_principale": "Contenu résumé par IA sur la base de 7 148 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son rooftop avec vue sur l'Acropole, sa piscine et son emplacement près du métro."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "The Stanley",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "100€ - 180€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.10",
+                "bestRating": "5",
+                "reviewCount": "7148"
+            }
+        }
     },
     "Grand Hyatt Athens": {
         "pays": "Grèce",
@@ -50,12 +127,30 @@
         "lien_booking": "https://www.booking.com/hotel/gr/grand-hyatt-athens.fr.html",
         "lien_expedia": "https://www.expedia.fr/Athens-Hotel-Grand-Hyatt-Athens.h21031.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/520707105.jpg?k=73994232680d51640f11854c333bd7359a4140eb480d5d23261c4185441a16a4&o=",
+        "image_alt": "Grand Hyatt Athens - hôtel de luxe contemporain 5 étoiles avec piscine atrium et rooftop à Athènes",
+        "meta_title": "Grand Hyatt Athens 5* : Avis & Prix Luxe Contemporain & Spa Athènes 2026",
+        "meta_description": "Grand Hyatt Athens, hôtel 5* sur l'avenue Syngrou à Athènes : installations ultra-modernes, spa somptueux, piscine atrium, rooftop avec vues spectaculaires. Avis 8,1/10, prix, réservation Booking & Expedia.",
         "description": "Inauguré pour redéfinir les standards du luxe contemporain dans la capitale, le Grand Hyatt Athens s'impose comme un chef-d'œuvre architectural moderne le long de l'avenue Syngrou, reliant le centre historique et la côte. Cet établissement 5 étoiles propose des installations haut de gamme flambant neuves, incluant un spa somptueux, une piscine atrium spectaculaire et un toit-terrasse exclusif offrant des vues imprenables sur la ville. Les chambres et suites associent technologies de pointe et matériaux nobles pour un séjour d'exception.",
         "prix_moyen": "180€ - 350€ / nuit",
         "avis": "8,1/10",
-        "points_positifs": ["Installations ultra-modernes et design architectural haut de gamme. (Booking.com)", "Espace spa et bien-être somptueux et idéal pour se ressourcer. (Trip.com)", "Piscine atrium élégante et toit-terrasse spectaculaire. (Expedia)", "Chambres spacieuses, extrêmement bien insonorisées. (TripAdvisor)"],
-        "points_negatifs": ["Tarifs des nuitées et services annexes particulièrement élevés. (Booking.com)", "Emplacement le long d'un axe routier majeur nécessitant un transport. (TripAdvisor)"],
-        "equipements": ["5 étoiles", "Spa et centre de bien-être", "Piscine atrium & Piscine sur le toit", "Wi-Fi haut débit gratuit", "Restaurants gastronomiques", "Climatisation"],
+        "points_positifs": [
+            "Installations ultra-modernes et design architectural haut de gamme. (Booking.com)",
+            "Espace spa et bien-être somptueux et idéal pour se ressourcer. (Trip.com)",
+            "Piscine atrium élégante et toit-terrasse spectaculaire. (Expedia)",
+            "Chambres spacieuses, extrêmement bien insonorisées. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Tarifs des nuitées et services annexes particulièrement élevés. (Booking.com)",
+            "Emplacement le long d'un axe routier majeur nécessitant un transport. (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa et centre de bien-être",
+            "Piscine atrium & Piscine sur le toit",
+            "Wi-Fi haut débit gratuit",
+            "Restaurants gastronomiques",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "Le Grand Hyatt Athens illustre la modernité athénienne dans toute sa splendeur. Pour un tarif oscillant entre 180€ et 350€ la nuit, vous profitez d'un design avant-gardiste et d'infrastructures de premier plan. Bien qu'il soit situé le long de l'avenue Syngrou, nécessitant un court trajet en taxi pour rejoindre l'hypercentre, le calme absolu de ses chambres et la beauté de son rooftop compensent largement. C'est l'adresse idéale pour les voyageurs d'affaires ou les esthètes recherchant un standing international irréprochable dans la capitale grecque.",
         "pour_qui": {
             "ambiance": "✨ Luxe moderne, élégance et détente urbaine",
@@ -63,7 +158,27 @@
             "style": "Hôtel de luxe urbain",
             "verdict": "Une adresse de premier plan pour un séjour luxueux au cœur de la Grèce moderne."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 7 332 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,1/10",
+            "source_principale": "Contenu résumé par IA sur la base de 7 332 expériences vécues",
+            "points_cles_avis": "Plébiscité pour ses infrastructures ultra-modernes, son spa somptueux et son design."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Grand Hyatt Athens",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "180€ - 350€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.05",
+                "bestRating": "5",
+                "reviewCount": "7332"
+            }
+        }
     },
     "Zeus Essence Ramada by Wyndham Athens": {
         "pays": "Grèce",
@@ -72,12 +187,30 @@
         "lien_booking": "https://www.booking.com/hotel/gr/aquamarina.fr.html",
         "lien_expedia": "https://www.expedia.fr/Athens-Hotel-Ramada-By-Wyndham-Attica-Riviera.h1398741.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/816634757.jpg?k=f162ad7b56a92b045dba50d40f7a2609234c0bbfecf8bfe9bacf2ddb0811ce0d&o=",
+        "image_alt": "Zeus Essence Ramada by Wyndham Athens - resort côtier 4 étoiles face à la mer Égée à Máti",
+        "meta_title": "Zeus Essence Ramada Athens Máti 4* : Avis & Prix Front de Mer & Piscine 2026",
+        "meta_description": "Zeus Essence Ramada by Wyndham Athens, hôtel 4* à Máti en front de mer : atmosphère relaxante, piscine extérieure, signature Wyndham. Avis 8,5/10, prix, réservation Booking & Expedia.",
         "description": "Niché dans la charmante localité côtière de Máti, le Zeus Essence Ramada by Wyndham Athens Hotel propose une parenthèse de douceur face à la mer Égée, à deux pas du port de plaisance. Cet établissement 4 étoiles combine à merveille l'énergie de la Riviera et la tranquillité d'un resort balnéaire lumineux. Les chambres, décorées dans des tons chaleureux et marins, offrent tout le confort moderne nécessaire pour une déconnexion totale loin de l'effervescence athénienne.",
         "prix_moyen": "110€ - 190€ / nuit",
         "avis": "8,5/10",
-        "points_positifs": ["Proximité immédiate du front de mer et du port de Máti. (Booking.com)", "Atmosphère générale extrêmement relaxante et apaisante. (Trip.com)", "Standards de qualité rigoureux garantis par Wyndham. (Expedia)", "Superbe piscine extérieure invitant à la détente. (TripAdvisor)"],
-        "points_negatifs": ["Nécessité absolue d'un moyen de transport personnel. (Booking.com)", "Animation locale calme en basse saison. (TripAdvisor)"],
-        "equipements": ["4 étoiles", "Situation en front de mer", "Piscine extérieure", "Restaurant & Bar lounge", "Wi-Fi gratuit", "Climatisation"],
+        "points_positifs": [
+            "Proximité immédiate du front de mer et du port de Máti. (Booking.com)",
+            "Atmosphère générale extrêmement relaxante et apaisante. (Trip.com)",
+            "Standards de qualité rigoureux garantis par Wyndham. (Expedia)",
+            "Superbe piscine extérieure invitant à la détente. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Nécessité absolue d'un moyen de transport personnel. (Booking.com)",
+            "Animation locale calme en basse saison. (TripAdvisor)"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Situation en front de mer",
+            "Piscine extérieure",
+            "Restaurant & Bar lounge",
+            "Wi-Fi gratuit",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "Le Zeus Essence Ramada est une excellente option intermédiaire entre visites culturelles à Athènes et farniente balnéaire. Entre 110€ et 190€ la nuit, vous profitez de la signature fiable du groupe Wyndham dans un cadre marin très reposant. Même s'il est indispensable d'avoir une voiture pour explorer les alentours, la proximité du port de Máti et la quiétude des lieux en font une halte de charme très appréciable sur la côte attique.",
         "pour_qui": {
             "ambiance": "🌊 Marin, paisible et confortable",
@@ -85,7 +218,27 @@
             "style": "Resort côtier",
             "verdict": "La solution idéale pour marier culture athénienne et repos en bord de mer."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 2 059 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,5/10",
+            "source_principale": "Contenu résumé par IA sur la base de 2 059 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son front de mer à Máti, sa piscine extérieure et son atmosphère relaxante."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Zeus Essence Ramada by Wyndham Athens",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "110€ - 190€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.25",
+                "bestRating": "5",
+                "reviewCount": "2059"
+            }
+        }
     },
     "Alia Palace Hotel - Adults Only 16+": {
         "pays": "Grèce",
@@ -94,12 +247,30 @@
         "lien_booking": "https://www.booking.com/hotel/gr/aliapalacehotelvillas.fr.html",
         "lien_expedia": "https://www.expedia.fr/Kassandra-Hotel-Alia-Palace-Hotel-Adults-Only-16.h918017.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/264744204.jpg?k=042cbcd8d97184c41817097a63cc37b0be6b6c3c3bcf962a5599903b8d26b6d7&o=",
+        "image_alt": "Alia Palace Hotel - Adults Only 16+ - hôtel de luxe 5 étoiles réservé aux adultes à Pefkohori Chalcidique",
+        "meta_title": "Alia Palace Adults Only Chalcidique 5* : Avis & Prix Vue Mer & Calme 2026",
+        "meta_description": "Alia Palace Hotel - Adults Only 16+, hôtel 5* en Chalcidique : concept réservé aux adultes, vue panoramique sur le golfe de Cassandra, piscine à débordement, spa. Avis 8,8/10, prix, réservation Booking & Expedia.",
         "description": "Perché sur les hauteurs verdoyantes de Pefkohori, l'Alia Palace Hotel - Adults Only 16+ offre un panorama spectaculaire et exclusif sur le golfe de Cassandra. Cet établissement 5 étoiles, réservé aux adultes de plus de 16 ans, cultive une atmosphère de romance, de luxe discret et de calme absolu. L'architecture en terrasses permet à la majorité des chambres de jouir d'une vue imprenable sur la mer Égée, complétée par un spa raffiné et une superbe piscine à débordement.",
         "prix_moyen": "150€ - 280€ / nuit",
         "avis": "8,8/10",
-        "points_positifs": ["Concept exclusif 'Adults Only 16+' garantissant un calme olympien. (Booking.com)", "Vue panoramique époustouflante sur le golfe de Cassandra. (Trip.com)", "Atmosphère générale hautement romantique. (Expedia)", "Espace spa et centre de bien-être de grande qualité. (TripAdvisor)"],
-        "points_negatifs": ["Situation en hauteur impliquant l'usage d'une navette pour la plage. (Booking.com)", "Pente prononcée au sein même du domaine. (TripAdvisor)"],
-        "equipements": ["5 étoiles", "Réservé aux adultes (16+)", "Piscine extérieure à débordement", "Spa et hammam", "Wi-Fi gratuit", "Climatisation"],
+        "points_positifs": [
+            "Concept exclusif 'Adults Only 16+' garantissant un calme olympien. (Booking.com)",
+            "Vue panoramique époustouflante sur le golfe de Cassandra. (Trip.com)",
+            "Atmosphère générale hautement romantique. (Expedia)",
+            "Espace spa et centre de bien-être de grande qualité. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Situation en hauteur impliquant l'usage d'une navette pour la plage. (Booking.com)",
+            "Pente prononcée au sein même du domaine. (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Réservé aux adultes (16+)",
+            "Piscine extérieure à débordement",
+            "Spa et hammam",
+            "Wi-Fi gratuit",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "L'Alia Palace Hotel est une pépite pour les couples en quête d'intimité en Chalcidique. Pour un prix moyen de 150€ à 280€ la nuit, le concept 'Adults Only' garantit une déconnexion totale loin des bruits de pataugeoire. La vue plongeante depuis la piscine à débordement est tout bonnement spectaculaire à l'heure du coucher du soleil. Bien qu'il faille emprunter la navette de l'hôtel pour descendre à la plage en raison de sa position perchée, le niveau de romantisme et le soin apporté aux prestations en font une parenthèse enchantée de premier ordre.",
         "pour_qui": {
             "ambiance": "🍸 Adulte, calme, romantique et luxueux",
@@ -107,7 +278,27 @@
             "style": "Hôtel de luxe adults-only",
             "verdict": "Le sanctuaire parfait pour les couples en quête d'exclusivité en Chalcidique."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 950 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,8/10",
+            "source_principale": "Contenu résumé par IA sur la base de 950 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son concept réservé aux adultes, ses vues panoramiques et son calme romantique."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Alia Palace Hotel - Adults Only 16+",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "150€ - 280€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.40",
+                "bestRating": "5",
+                "reviewCount": "950"
+            }
+        }
     },
     "Wyndham Loutraki Poseidon Resort": {
         "pays": "Grèce",
@@ -116,12 +307,30 @@
         "lien_booking": "https://www.booking.com/hotel/gr/poseidon-resort.fr.html",
         "lien_expedia": "https://www.expedia.fr/Loutraki-Agioi-Theodoroi-Hotel-Wyndham-Loutraki-Poseidon-Resort.h109771.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/351275702.jpg?k=d1f0df6c958bcfb47d55edbc470b8ca275b6b3b482fadf44332566f0ffe16378&o=",
+        "image_alt": "Wyndham Loutraki Poseidon Resort - resort 5 étoiles en bord de mer à Loutraki Grèce",
+        "meta_title": "Wyndham Loutraki Poseidon Resort 5* : Avis & Prix Bord de Mer & Famille 2026",
+        "meta_description": "Wyndham Loutraki Poseidon Resort, hôtel 5* les pieds dans l'eau près d'Athènes : domaine paysager, multiples piscines, bungalows, spa. Avis 8,0/10, prix, réservation Booking & Expedia.",
         "description": "Bénéficiant d'un emplacement privilégié directement les pieds dans l'eau, le Wyndham Loutraki Poseidon Resort incarne la promesse d'un séjour balnéaire grand confort à une petite heure d'Athènes. Cet établissement 5 étoiles déploie de vastes espaces extérieurs paysagers, ponctués de bassins scintillants et d'accès directs aux plages de la région. Les chambres, bungalows et suites offrent des espaces généreux baignés de lumière, conçus pour accueillir confortablement les familles. Entre activités sportives, instants de bien-être au spa et panoramas marins infinis, tout est réuni pour lâcher prise.",
         "prix_moyen": "130€ - 240€ / nuit",
         "avis": "8,0/10",
-        "points_positifs": ["Emplacement de premier ordre directement en bord de mer. (Booking.com)", "Proximité géographique idéale avec Athènes et l'aéroport. (Trip.com)", "Immense domaine paysager extérieur avec multiples piscines. (Expedia)", "Variété des types d'hébergements et bungalows indépendants. (TripAdvisor)"],
-        "points_negatifs": ["Style de décoration et mobilier des chambres un peu classique. (Booking.com)", "Étendue du domaine nécessitant de marcher pour rejoindre la plage. (TripAdvisor)"],
-        "equipements": ["5 étoiles", "Accès direct en bord de mer", "Piscines extérieures multiples", "Spa, sauna et fitness", "Wi-Fi gratuit", "Climatisation"],
+        "points_positifs": [
+            "Emplacement de premier ordre directement en bord de mer. (Booking.com)",
+            "Proximité géographique idéale avec Athènes et l'aéroport. (Trip.com)",
+            "Immense domaine paysager extérieur avec multiples piscines. (Expedia)",
+            "Variété des types d'hébergements et bungalows indépendants. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Style de décoration et mobilier des chambres un peu classique. (Booking.com)",
+            "Étendue du domaine nécessitant de marcher pour rejoindre la plage. (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Accès direct en bord de mer",
+            "Piscines extérieures multiples",
+            "Spa, sauna et fitness",
+            "Wi-Fi gratuit",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "Le Wyndham Loutraki Poseidon Resort est une option très fonctionnelle pour les familles et les voyageurs qui veulent s'évader au bord de l'eau sans subir de longs trajets depuis Athènes. Pour un tarif oscillant entre 130€ et 240€ la nuit, vous profitez d'un grand domaine verdoyant et d'un accès direct à la mer. S'il faut composer avec une décoration un peu classique et l'immensité du site, c'est une valeur sûre pour un séjour balnéaire sans complications logistiques.",
         "pour_qui": {
             "ambiance": "🌊 Grand air, détente et accessibilité",
@@ -129,7 +338,27 @@
             "style": "Resort de bord de mer",
             "verdict": "Une excellente option de villégiature fonctionnelle et proche de la capitale."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 616 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,0/10",
+            "source_principale": "Contenu résumé par IA sur la base de 616 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son accès direct à la mer, son grand domaine et sa proximité avec Athènes."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Wyndham Loutraki Poseidon Resort",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "130€ - 240€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.00",
+                "bestRating": "5",
+                "reviewCount": "616"
+            }
+        }
     },
     "Grecotel Filoxenia Kalamata": {
         "pays": "Grèce",
@@ -138,12 +367,30 @@
         "lien_booking": "https://www.booking.com/hotel/gr/filoxenia.fr.html",
         "lien_expedia": "https://www.expedia.fr/Kalamata-Hotel-Grecotel-Filoxenia-Hotel.h1466348.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/721226197.jpg?k=81fcde060c3a80a5330a37d540b7d6bffaa6ff62845cf98cf746ad8b3b2d6238&o=",
+        "image_alt": "Grecotel Filoxenia Kalamata - resort naturel 4 étoiles entre mer et montagne dans le Péloponnèse",
+        "meta_title": "Grecotel Filoxenia Kalamata 4* : Avis & Prix Note 9,2 & Entre Mer et Montagne 2026",
+        "meta_description": "Grecotel Filoxenia Kalamata, hôtel 4* au pied du mont Taygète : note fabuleuse de 9,2/10, jardins botaniques luxuriants, accès direct à la plage. Avis, prix, réservation Booking & Expedia.",
         "description": "Niché au pied des montagnes majestueuses du Taygète et à la périphérie de Kalamata, le Grecotel Filoxenia Kalamata est un havre de paix entouré de jardins botaniques s'ouvrant sur une plage aux eaux cristallines. Cet établissement 4 étoiles brille par une note fabuleuse de 9,2, portée notamment par une situation géographique exceptionnelle. Le design célèbre l'art de vivre méditerranéen dans ce qu'il a de plus noble et chaleureux, offrant un cadre spectaculaire entre mer et montagne.",
         "prix_moyen": "125€ - 210€ / nuit",
         "avis": "9,2/10",
-        "points_positifs": ["Note globale fabuleuse de 9,2 et emplacement d'exception (9,5). (Booking.com)", "Cadre naturel unique conjuguant montagnes et mer. (Trip.com)", "Parc paysager luxuriant de plusieurs hectares. (Expedia)", "Qualité de service légendaire de la chaîne Grecotel. (TripAdvisor)"],
-        "points_negatifs": ["Situation légèrement à l'écart du centre-ville de Kalamata. (Booking.com)", "Réservation très anticipée indispensable en raison de sa popularité. (TripAdvisor)"],
-        "equipements": ["4 étoiles", "Accès direct à la plage", "Piscines extérieures", "Jardins botaniques", "Wi-Fi gratuit", "Climatisation"],
+        "points_positifs": [
+            "Note globale fabuleuse de 9,2 et emplacement d'exception (9,5). (Booking.com)",
+            "Cadre naturel unique conjuguant montagnes et mer. (Trip.com)",
+            "Parc paysager luxuriant de plusieurs hectares. (Expedia)",
+            "Qualité de service légendaire de la chaîne Grecotel. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Situation légèrement à l'écart du centre-ville de Kalamata. (Booking.com)",
+            "Réservation très anticipée indispensable en raison de sa popularité. (TripAdvisor)"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Accès direct à la plage",
+            "Piscines extérieures",
+            "Jardins botaniques",
+            "Wi-Fi gratuit",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "Le Grecotel Filoxenia Kalamata est une véritable pépite qui frôle la perfection dans le Péloponnèse. Pour un prix moyen de 125€ à 210€ la nuit, vous bénéficiez d'un décor grandiose où la montagne du Taygète vient plonger dans les eaux de la mer Ionienne. L'ambiance y est d'un calme absolu, portée par un service chaleureux et une cuisine locale remarquable. C'est l'adresse idéale pour les amoureux de nature et de paysages somptueux qui recherchent l'authentique raffinement grec.",
         "pour_qui": {
             "ambiance": "🌿 Verdoyant, spectaculaire, paisible et haut de gamme",
@@ -151,7 +398,27 @@
             "style": "Resort naturel de standing",
             "verdict": "Une véritable pépite hôtelière qui garantit des vacances magiques."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 379 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,2/10",
+            "source_principale": "Contenu résumé par IA sur la base de 379 expériences vécues",
+            "points_cles_avis": "Plébiscité pour sa note de 9,2/10, son cadre entre mer et montagne et ses jardins luxuriants."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Grecotel Filoxenia Kalamata",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "125€ - 210€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.60",
+                "bestRating": "5",
+                "reviewCount": "379"
+            }
+        }
     },
     "Vincci EverEden": {
         "pays": "Grèce",
@@ -160,12 +427,30 @@
         "lien_booking": "https://www.booking.com/hotel/gr/ever-eden-beach-resort-hotel.fr.html",
         "lien_expedia": "https://www.expedia.fr/Athens-Hotel-EverEden-Beach-Resort-Hotel.h663369.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/261210595.jpg?k=74afb29f716fe9d9a7271341630598bd439bc4cf61b1c8535c6a183c7f9f9ffd&o=",
+        "image_alt": "Vincci EverEden - hôtel balnéaire moderne 4 étoiles sur la Riviera athénienne à Anavyssos",
+        "meta_title": "Vincci EverEden Riviera Athénienne 4* : Avis & Prix Plages & Culture 2026",
+        "meta_description": "Vincci EverEden, hôtel 4* sur la Riviera athénienne à Anavyssos : plages fantastiques, piscines extérieures, spa, proximité d'Athènes. Avis 8,7/10, prix, réservation Booking & Expedia.",
         "description": "Stratégiquement posé sur la célèbre Riviera athénienne, le Vincci EverEden 4* s'impose comme une destination balnéaire de premier choix réputée pour ses plages fantastiques. L'hôtel bénéficie d'un emplacement exceptionnel permettant de concilier à la perfection les visites culturelles d'Athènes et le farniente au bord de l'eau. Les infrastructures modernes se fondent dans un décor côtier baigné de lumière, offrant des chambres avec de superbes vues sur le golfe Saronique.",
         "prix_moyen": "140€ - 230€ / nuit",
         "avis": "8,7/10",
-        "points_positifs": ["Situation stratégique et enviée sur la Riviera athénienne. (Booking.com)", "Proximité immédiate de plages fantastiques et aménagées. (Trip.com)", "Niveau de confort et de services 4 étoiles rigoureux. (Expedia)", "Superbes piscines extérieures avec panoramas marins. (TripAdvisor)"],
-        "points_negatifs": ["Forte affluence touristique en période estivale. (Booking.com)", "Trafic routier parfois dense sur la route côtière adjacente. (TripAdvisor)"],
-        "equipements": ["4 étoiles", "Accès direct à la plage", "Piscines extérieures", "Spa et centre de bien-être", "Wi-Fi gratuit", "Climatisation"],
+        "points_positifs": [
+            "Situation stratégique et enviée sur la Riviera athénienne. (Booking.com)",
+            "Proximité immédiate de plages fantastiques et aménagées. (Trip.com)",
+            "Niveau de confort et de services 4 étoiles rigoureux. (Expedia)",
+            "Superbes piscines extérieures avec panoramas marins. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Forte affluence touristique en période estivale. (Booking.com)",
+            "Trafic routier parfois dense sur la route côtière adjacente. (TripAdvisor)"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Accès direct à la plage",
+            "Piscines extérieures",
+            "Spa et centre de bien-être",
+            "Wi-Fi gratuit",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "Le Vincci EverEden est le compromis absolu pour un séjour sur la Riviera athénienne. Entre 140€ et 230€ la nuit, il réussit le pari de lier l'accès rapide aux trésors culturels d'Athènes et le plaisir de plages magnifiques. Même s'il faut composer avec l'animation estivale de la côte, la qualité des infrastructures, le spa et les superbes piscines en font une halte incontournable et très équilibrée.",
         "pour_qui": {
             "ambiance": "🏖️ Chic, balnéaire, ensoleillé et stratégique",
@@ -173,7 +458,27 @@
             "style": "Hôtel balnéaire moderne",
             "verdict": "Une adresse incontournable de la côte pour marier culture et farniente."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 2 843 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,7/10",
+            "source_principale": "Contenu résumé par IA sur la base de 2 843 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son emplacement sur la Riviera athénienne, ses plages et ses superbes piscines."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Vincci EverEden",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "140€ - 230€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.35",
+                "bestRating": "5",
+                "reviewCount": "2843"
+            }
+        }
     },
     "Iniohos Zante Hotel & Suites": {
         "pays": "Grèce",
@@ -182,6 +487,9 @@
         "lien_booking": "https://www.booking.com/hotel/gr/apollo-apart.fr.html",
         "lien_expedia": "https://www.expedia.fr/Zakynthos-Hotel-Iniochos-Hotel.h1454310.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/309278253.jpg?k=658cfcf4a580ebda6790c36c593e4cba475dc17d5d909d1ea069c8803e2a8a52&o=",
+        "image_alt": "Iniohos Zante Hotel & Suites - hôtel de charme 3 étoiles près de la plage et pinède à Argassi Zakynthos",
+        "meta_title": "Iniohos Zante Hotel & Suites Argassi 3* : Avis & Prix Proche Plage & Authenticité 2026",
+        "meta_description": "Iniohos Zante Hotel & Suites, hôtel 3* à Argassi (Zakynthos) : à 50m de la plage, pinède ombragée, accueil familial, restaurant traditionnel. Avis 8,3/10, prix, réservation Booking & Expedia.",
         "description": "Niché au cœur de la charmante station balnéaire d'Argassi, l'Iniohos Zante Hotel & Suites offre une immersion chaleureuse et authentique dans la vie insulaire de Zakynthos. Situé à seulement 50 mètres de la plage et délicatement entouré d'une pinède verdoyante, l'hôtel procure un cadre rafraîchissant, intime et particulièrement apprécié des voyageurs en quête de simplicité. L'établissement mise sur une convivialité typiquement grecque, un accueil familial et un emplacement ultra-pratique pour rayonner facilement sur l'île. Le restaurant de l'hôtel est d'ailleurs réputé pour servir des spécialités locales et internationales généreuses, préparées avec soin. Les chambres, bien que simples, sont fonctionnelles et offrent tout le nécessaire pour des vacances sans contrainte. C'est le pied-à-terre parfait pour les voyageurs souhaitant optimiser leur budget sans sacrifier la proximité immédiate de la mer Égée et le plaisir de vacances décontractées sous le soleil méditerranéen.",
         "prix_moyen": "80€ - 140€ / nuit",
         "avis": "8,3/10",
@@ -196,7 +504,15 @@
             "Espace piscine jugé modeste par environ 30 clients, créant parfois un sentiment d'étroitesse en plein mois d'août. (TripAdvisor)",
             "Décoration basique et traditionnelle, un choix qui ne sied pas aux amateurs de design ultra-moderne, noté par 25 avis. (Trip.com)"
         ],
-        "equipements": ["3 étoiles", "Proximité plage (50m)", "Piscine extérieure", "Restaurant & Bar", "Wi-Fi gratuit", "Climatisation", "Jardin de pins"],
+        "equipements": [
+            "3 étoiles",
+            "Proximité plage (50m)",
+            "Piscine extérieure",
+            "Restaurant & Bar",
+            "Wi-Fi gratuit",
+            "Climatisation",
+            "Jardin de pins"
+        ],
         "Nomad, vous en dit plus": "L'Iniohos Zante Hotel & Suites est une formidable aubaine pour les voyageurs malins souhaitant explorer Zante avec un budget maîtrisé. Loger à deux pas de la plage d'Argassi dans un cadre ombragé par des pins est un vrai privilège. L'ambiance y est familiale, loin des complexes impersonnels. Si vous cherchez l'authenticité et un emplacement central sans vous ruiner, c'est une valeur sûre.",
         "pour_qui": {
             "ambiance": "🌲 Convivial, simple, proche de la mer",
@@ -204,7 +520,27 @@
             "style": "Hôtel de charme insulaire",
             "verdict": "Une valeur sûre, chaleureuse et extrêmement bien placée pour profiter de Zante à prix doux."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 733 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,3/10",
+            "source_principale": "Contenu résumé par IA sur la base de 733 expériences vécues",
+            "points_cles_avis": "Plébiscité pour sa proximité avec la plage (50m), son cadre ombragé et son accueil familial."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Iniohos Zante Hotel & Suites",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "priceRange": "80€ - 140€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.15",
+                "bestRating": "5",
+                "reviewCount": "733"
+            }
+        }
     },
     "Maison Des Lys - Luxury Suites": {
         "pays": "Grèce",
@@ -213,11 +549,14 @@
         "lien_booking": "https://www.booking.com/hotel/gr/maison-des-lys.fr.html",
         "lien_expedia": "https://www.expedia.fr/Santorini-Hotel-Maison-Des-Lys.h2810750.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/244746454.jpg?k=ffbae80eb16f23dff2f0df0f1ebbaf71bd4fec953b93b065846578a1c314b18a&o=",
+        "image_alt": "Maison Des Lys - Luxury Suites - suites de luxe 4 étoiles avec vue sur la caldeira à Akrotiri Santorin",
+        "meta_title": "Maison Des Lys Luxury Suites Santorin 4* : Avis & Prix Caldeira & Intimité 2026",
+        "meta_description": "Maison Des Lys - Luxury Suites, hôtel de charme 4* à Akrotiri (Santorin) : suites panoramiques avec vue sur la caldeira, piscines privatives, piscine à débordement. Avis 9,1/10, prix, réservation Booking & Expedia.",
         "description": "Accroché aux spectaculaires falaises volcaniques d'Akrotiri, le Maison Des Lys - Luxury Suites domine majestueusement l'immensité bleue de la mer Égée sur l'île mythique de Santorin. Cet établissement de charme propose des suites de luxe au design cycladique immaculé, garantissant une intimité absolue et un romantisme rare dans une atmosphère de sanctuaire privé. Chaque suite dispose d'une vue imprenable sur la caldeira et, pour certaines, de piscines privatives, créant un cocon d'exclusivité face à l'horizon. L'établissement privilégie un service ultra-personnalisé, loin de l'effervescence touristique dense des villages centraux de l'île. La piscine extérieure à débordement semble suspendue au-dessus du vide, offrant les plus beaux couchers de soleil du monde. C'est le refuge idéal pour les couples en voyage de noces ou pour toute personne en quête d'une expérience esthétique et sensorielle de très haut niveau, où chaque détail est orchestré pour le bien-être total.",
         "prix_moyen": "220€ - 450€ / nuit",
         "avis": "9,1/10",
         "points_positifs": [
-            "Panorama légendaire sur la caldeira, point central relevé par plus de 80% des clients dans leurs commentaires. (Booking.com)",
+            "Panorama légendaire sur la caldeira, point central relevé par plus de 80% des clients. (Booking.com)",
             "Intimité des suites préservée, citée par 100 voyageurs comme l'atout majeur pour le romantisme. (TripAdvisor)",
             "Service de conciergerie personnalisé, noté comme étant le pilier du confort par 50 clients satisfaits. (Expedia)",
             "Architecture cycladique pure, appréciée pour son authenticité visuelle par 40 amateurs de design. (Trip.com)"
@@ -227,7 +566,14 @@
             "Escaliers et sentiers escarpés, mentionnés par 15 voyageurs comme étant peu adaptés aux personnes fragiles. (TripAdvisor)",
             "Rareté des suites, imposant une réservation plusieurs mois à l'avance selon 20 clients déçus. (Expedia)"
         ],
-        "equipements": ["4 étoiles", "Suites panoramiques", "Piscine à débordement", "Wi-Fi gratuit", "Service conciergerie", "Climatisation"],
+        "equipements": [
+            "4 étoiles",
+            "Suites panoramiques",
+            "Piscine à débordement",
+            "Wi-Fi gratuit",
+            "Service conciergerie",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "Le Maison Des Lys est le sanctuaire romantique par excellence. À Santorin, vous payez la vue, et ici elle est imprenable. Les terrasses privées offrent une intimité telle qu'on se sent seuls au monde. Attention : les sentiers volcaniques demandent un peu d'agilité, mais le panorama est inoubliable.",
         "pour_qui": {
             "ambiance": "🌅 Romantique, spectaculaire, luxueux et exclusif",
@@ -235,7 +581,27 @@
             "style": "Suites de luxe avec vue sur la caldeira",
             "verdict": "L'incarnation même du rêve santorinien pour une expérience de séjour magique et hors du temps."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 568 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,1/10",
+            "source_principale": "Contenu résumé par IA sur la base de 568 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son panorama légendaire sur la caldeira, son intimité et son service personnalisé."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Maison Des Lys - Luxury Suites",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "220€ - 450€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.55",
+                "bestRating": "5",
+                "reviewCount": "568"
+            }
+        }
     },
     "Ella Alkyna - Adults Only": {
         "pays": "Grèce",
@@ -244,6 +610,9 @@
         "lien_booking": "https://www.booking.com/hotel/gr/alkyna-lifestyle-beach-resort.fr.html?",
         "lien_expedia": "https://www.expedia.fr/Corfu-Hotel-Alkyna-Lifestyle-Beach-Resort.h2458471.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/692074674.jpg?k=f0190c1dd22eb81357d35296967b3e0a68acde1eb68fb0d0d41d22dd8998b605&o=",
+        "image_alt": "Ella Alkyna - Adults Only - boutique-hôtel 4 étoiles réservé aux adultes à Agios Gordios Corfou",
+        "meta_title": "Ella Alkyna Adults Only Corfou 4* : Avis & Prix Sérénité & Design 2026",
+        "meta_description": "Ella Alkyna - Adults Only, hôtel de charme 4* à Corfou : concept réservé aux adultes, piscine paysagère, proximité du Palais de l'Achilleion, design minimaliste. Avis 8,6/10, prix, réservation Booking & Expedia.",
         "description": "Niché dans le cadre enchanteur d'Agios Gordios sur l'île de Corfou, l'établissement Ella Alkyna - Adults Only propose une parenthèse de sérénité absolue rigoureusement réservée aux adultes. Idéalement situé à proximité du prestigieux site historique du Palais de l'Achilleion, cet hôtel de charme se distingue par la minutie de ses prestations soignées et son ambiance feutrée. Les espaces extérieurs verdoyants et la piscine étincelante invitent instantanément à la déconnexion et au farniente loin des bruits de la vie quotidienne. Le design minimaliste et élégant crée une atmosphère de luxe discret, parfaitement en phase avec l'environnement ionien luxuriant. Avec sa taille humaine, l'hôtel garantit un service personnalisé où chaque client est reconnu et choyé, transformant un simple séjour en une expérience de boutique-hôtel mémorable. C'est une adresse de choix pour ceux qui souhaitent explorer les richesses culturelles et naturelles de Corfou dans un cadre intime, calme et résolument raffiné.",
         "prix_moyen": "130€ - 220€ / nuit",
         "avis": "8,6/10",
@@ -258,7 +627,14 @@
             "Animation nocturne absente, ce qui est un atout pour certains mais un manque pour 15 clients festifs. (TripAdvisor)",
             "Stationnement parfois complexe en haute saison selon 20 clients motorisés. (Expedia)"
         ],
-        "equipements": ["4 étoiles", "Réservé aux adultes", "Piscine paysagère", "Wi-Fi gratuit", "Service personnalisé", "Climatisation"],
+        "equipements": [
+            "4 étoiles",
+            "Réservé aux adultes",
+            "Piscine paysagère",
+            "Wi-Fi gratuit",
+            "Service personnalisé",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "L'Ella Alkyna est une adresse précieuse pour les voyageurs en quête de calme à Corfou. Son format intimiste, sa politique 'Adults Only' et son design moderne en font une parenthèse enchantée. La piscine est magnifique, même s'il faut être prêt à remonter la pente de la plage principale. Une valeur sûre pour l'authenticité.",
         "pour_qui": {
             "ambiance": "🌿 Corfou, calme, intimiste et réservé aux adultes",
@@ -266,7 +642,27 @@
             "style": "Boutique-hôtel adults-only",
             "verdict": "Un sanctuaire de sérénité, idéal pour une escapade corfiote intimiste et raffinée."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 170 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,6/10",
+            "source_principale": "Contenu résumé par IA sur la base de 1 170 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son calme réservé aux adultes, son service personnalisé et son cadre verdoyant."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Ella Alkyna - Adults Only",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "130€ - 220€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.30",
+                "bestRating": "5",
+                "reviewCount": "1170"
+            }
+        }
     },
     "Amarilia Hotel": {
         "pays": "Grèce",
@@ -275,12 +671,30 @@
         "lien_booking": "https://www.booking.com/hotel/gr/amarilia.fr.html",
         "lien_expedia": "https://www.expedia.fr/Athens-Hotel-Amarilia-Hotel.h520912.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/65721402.jpg?k=917c2883489914f78139e12af43c191f910f03e06fd7bc7176c6eff0016dfbf6&o=",
+        "image_alt": "Amarilia Hotel - hôtel 4 étoiles avec vue sur le golfe Saronique à Vouliagmeni Riviera athénienne",
+        "meta_title": "Amarilia Hotel Vouliagmeni Athènes 4* : Avis & Prix Riviera & Lac Thermal 2026",
+        "meta_description": "Amarilia Hotel, hôtel 4* sur la Riviera athénienne à Vouliagmeni : vues sur le golfe Saronique, proximité des plages et du lac thermal, à 40 min d'Athènes. Avis 8,2/10, prix, réservation Booking & Expedia.",
         "description": "Bénéficiant d'un emplacement privilégié sur la prestigieuse Riviera athénienne à Vouliagmeni, l'Amarilia Hotel 4 étoiles offre des vues imprenables sur le golfe Saronique. L'établissement se trouve à deux pas des plages scintillantes et du célèbre lac thermal de Vouliagmeni aux vertus relaxantes reconnues. Il combine à la perfection l'ambiance décontractée d'une station balnéaire et la proximité immédiate de la vibrante capitale grecque. Les chambres lumineuses disposent de tout le confort moderne et de balcons ouverts sur l'horizon marin. C'est l'adresse idéale pour conjuguer bains de mer, bien-être thermal et découvertes urbaines, le tout à moins de 40 minutes du centre d'Athènes.",
         "prix_moyen": "115€ - 195€ / nuit",
         "avis": "8,2/10",
-        "points_positifs": ["Emplacement de choix à Vouliagmeni, cité par 200 avis. (Booking.com)", "Vues mer magnifiques, mentionnées par 150 clients. (Trip.com)", "Professionnalisme du personnel, cité par 90 voyageurs. (Expedia)"],
-        "points_negatifs": ["Décoration classique jugée conventionnelle par 40 clients. (Booking.com)", "Trafic de l'avenue côtière perçu par 25 avis. (TripAdvisor)", "Piscine jugée petite par 30 clients. (Booking.com)"],
-        "equipements": ["4 étoiles", "Proche plage/lac", "Piscine extérieure", "Wi-Fi gratuit", "Restaurant & Bar", "Climatisation"],
+        "points_positifs": [
+            "Emplacement de choix à Vouliagmeni, cité par 200 avis. (Booking.com)",
+            "Vues mer magnifiques, mentionnées par 150 clients. (Trip.com)",
+            "Professionnalisme du personnel, cité par 90 voyageurs. (Expedia)"
+        ],
+        "points_negatifs": [
+            "Décoration classique jugée conventionnelle par 40 clients. (Booking.com)",
+            "Trafic de l'avenue côtière perçu par 25 avis. (TripAdvisor)",
+            "Piscine jugée petite par 30 clients. (Booking.com)"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Proche plage/lac",
+            "Piscine extérieure",
+            "Wi-Fi gratuit",
+            "Restaurant & Bar",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "L'Amarilia Hotel est une valeur sûre et élégante pour s'offrir le meilleur des deux mondes : la proximité culturelle d'Athènes et le cadre luxueux, thermal et balnéaire de la fabuleuse Riviera de Vouliagmeni.",
         "pour_qui": {
             "ambiance": "🌊 Côtier, thermal, calme et chic",
@@ -288,7 +702,27 @@
             "style": "Hôtel 4 étoiles de côte",
             "verdict": "Une adresse élégante pour un séjour équilibré."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 025 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,2/10",
+            "source_principale": "Contenu résumé par IA sur la base de 1 025 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son emplacement à Vouliagmeni, ses vues sur la mer et la qualité de son service."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Amarilia Hotel",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "115€ - 195€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.10",
+                "bestRating": "5",
+                "reviewCount": "1025"
+            }
+        }
     },
     "Santonero": {
         "pays": "Grèce",
@@ -297,12 +731,30 @@
         "lien_booking": "https://www.booking.com/hotel/gr/santonero-the-philoxenia-project.fr.html",
         "lien_expedia": "https://www.expedia.fr/Santorini-Hotel-Santonero-The-Philoxenia-Project.h64613665.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/312622675.jpg?k=78948023a125bbcbdf32d83b17dbcbd2ab0c4e36c2e81d413ab492fc07c34ec9&o=",
+        "image_alt": "Santonero - hôtel de luxe exclusif 5 étoiles avec piscines panoramiques à Akrotiri Santorin",
+        "meta_title": "Santonero Santorin 5* : Avis & Prix Note 9,7 & Luxe Absolu Caldeira 2026",
+        "meta_description": "Santonero, hôtel de luxe 5* à Akrotiri (Santorin) : note exceptionnelle de 9,7/10, design cycladique épuré, piscines privatives, service conciergerie 24/24. Avis, prix, réservation Booking & Expedia.",
         "description": "Perfection incarnée au sommet des falaises d'Akrotiri à Santorin, le Santonero propose une expérience de luxe absolu. Cet établissement 5 étoiles d'exception combine un emplacement géographique idéal et un raffinement architectural sans égal dans les Cyclades. Chaque recoin est une ode au design cycladique épuré, magnifié par des tons naturels, des matériaux nobles et une luminosité céleste omniprésente. Les superbes piscines privées et communes s'ouvrent directement sur une vue imprenable et infinie de la mer Égée, créant une harmonie visuelle rare. Les suites ont été pensées pour garantir une intimité totale, loin du tumulte touristique. C'est le summum de l'exclusivité, du romantisme et du service sur-mesure pour une clientèle exigeante en quête de panoramas mythiques et de prestations haut de gamme.",
         "prix_moyen": "350€ - 800€ / nuit",
         "avis": "9,7/10",
-        "points_positifs": ["Note d'exception (9,7), parmi les meilleures de Grèce. (Booking.com)", "Vues sur la caldeira jugées 'les plus belles' par 120 clients. (Expedia)", "Intimité totale en suites, notée par 50 voyageurs. (TripAdvisor)"],
-        "points_negatifs": ["Budget très exclusif, souligné par 15 clients. (Booking.com)", "Dépendance logistique pour les déplacements, notée par 20 avis. (Expedia)", "Sensibilité au vent sur les terrasses selon 10 voyageurs. (TripAdvisor)"],
-        "equipements": ["5 étoiles", "Piscines panoramiques", "Wi-Fi gratuit", "Service conciergerie 24h/24", "Suites design", "Climatisation"],
+        "points_positifs": [
+            "Note d'exception (9,7), parmi les meilleures de Grèce. (Booking.com)",
+            "Vues sur la caldeira jugées 'les plus belles' par 120 clients. (Expedia)",
+            "Intimité totale en suites, notée par 50 voyageurs. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Budget très exclusif, souligné par 15 clients. (Booking.com)",
+            "Dépendance logistique pour les déplacements, notée par 20 avis. (Expedia)",
+            "Sensibilité au vent sur les terrasses selon 10 voyageurs. (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Piscines panoramiques",
+            "Wi-Fi gratuit",
+            "Service conciergerie 24h/24",
+            "Suites design",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "Le Santonero transcende l'hôtellerie classique. Sa note de 9,7 témoigne d'un art de l'hospitalité unique. Entre panoramas à couper le souffle, suites intimistes et prestations haut de gamme, il offre aux couples une expérience absolument magique.",
         "pour_qui": {
             "ambiance": "💎 Prestigieux, exceptionnel, romantique et exclusif",
@@ -310,7 +762,27 @@
             "style": "Hôtel de luxe exclusif",
             "verdict": "Une expérience sensorielle et visuelle inoubliable."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 226 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,7/10",
+            "source_principale": "Contenu résumé par IA sur la base de 226 expériences vécues",
+            "points_cles_avis": "Plébiscité pour sa note record de 9,7/10, ses vues spectaculaires et son intimité absolue."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Santonero",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "350€ - 800€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.85",
+                "bestRating": "5",
+                "reviewCount": "226"
+            }
+        }
     },
     "Alkistis Beach Hotel - Designed for Adults": {
         "pays": "Grèce",
@@ -319,12 +791,30 @@
         "lien_booking": "https://www.booking.com/hotel/gr/alkistis-agios-stefanos.fr.html",
         "lien_expedia": "https://www.expedia.fr/Mykonos-Hotel-Alkistis-Hotel-Mykonos-Adult-Only.h2010739.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/181428831.jpg?k=b8728adbe883fdb72eb88fd3b7ec1a9be493dd8a50a33d3594b0c916205ed8b5&o=",
-        "description": "Bénéficiant d'une situation côtière privilégiée et directe en bord de mer à Agios Stefanos, l'Alkistis Beach Hotel est une invitation au repos exclusif pour les adultes. Cet établissement 3 étoiles affiche une très belle note de 8,6, plébiscité pour son excellent rapport qualité-prix et son accès direct à la plage. Les chambres offrent des vues apaisantes sur les flots, tandis que le bar-restaurant en terrasse permet de savourer des instants magiques. Le design minimaliste et élégant crée une atmosphère de luxe discret en phase avec l'environnement. C'est l'option idéale pour les voyageurs sans enfants souhaitant profiter de la mer en toute quiétude, tout en étant proches du port et des commodités de Mykonos.",
+        "image_alt": "Alkistis Beach Hotel - Designed for Adults - hôtel de plage 3 étoiles réservé aux adultes à Agios Stefanos Mykonos",
+        "meta_title": "Alkistis Beach Hotel Mykonos 3* : Avis & Prix Bord de Mer Adults Only 2026",
+        "meta_description": "Alkistis Beach Hotel - Designed for Adults, hôtel 3* à Agios Stefanos (Mykonos) : accès direct à la plage, politique réservée aux adultes, excellent rapport qualité-prix. Avis 8,6/10, prix, réservation Booking & Expedia.",
+        "description": "Bénéficiant d'une situation côtière privilégiée et directe en bord de mer à Agios Stefanos, l'Alkistis Beach Hotel est une invitation au repos exclusif pour les adultes. Cet établissement 3 étoiles affiche une très belle note de 8,6, plébiscité pour son excellent rapport qualité-prix et son accès direct à la plage. Les chambres offrent des vues apaisantes sur les flots, tandis que le bar-restaurant en terrasse permet de savourer des instants magiques. Le design minimaliste et élégant crée une atmosphère de luxe discret en phase avec l'environnement. C'est l'option idéale pour les voyageurs sans enfants souhaitant profiter de la mer en toute quiétude, tout étant proches du port et des commodités de Mykonos.",
         "prix_moyen": "90€ - 160€ / nuit",
         "avis": "8,6/10",
-        "points_positifs": ["Accès direct plage cité par 250 avis. (Booking.com)", "Quiétude 'Adults Only' notée par 150 clients. (Expedia)", "Excellent rapport qualité-prix validé par 300 voyageurs. (Booking.com)"],
-        "points_negatifs": ["Piscine jugée petite par 60 avis. (TripAdvisor)", "Animations quasi inexistantes notées par 40 clients. (Booking.com)", "Décoration simple sans fioritures selon 30 voyageurs. (Expedia)"],
-        "equipements": ["3 étoiles", "Accès direct mer", "Piscine extérieure", "Wi-Fi gratuit", "Restaurant & Bar", "Climatisation"],
+        "points_positifs": [
+            "Accès direct plage cité par 250 avis. (Booking.com)",
+            "Quiétude 'Adults Only' notée par 150 clients. (Expedia)",
+            "Excellent rapport qualité-prix validé par 300 voyageurs. (Booking.com)"
+        ],
+        "points_negatifs": [
+            "Piscine jugée petite par 60 avis. (TripAdvisor)",
+            "Animations quasi inexistantes notées par 40 clients. (Booking.com)",
+            "Décoration simple sans fioritures selon 30 voyageurs. (Expedia)"
+        ],
+        "equipements": [
+            "3 étoiles",
+            "Accès direct mer",
+            "Piscine extérieure",
+            "Wi-Fi gratuit",
+            "Restaurant & Bar",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "L'Alkistis est une adresse précieuse pour les voyageurs en quête de calme à Mykonos. Son format intimiste, sa politique 'Adults Only' et son design moderne en font une parenthèse enchantée. C'est le compromis parfait entre vie mykonienne et repos absolu.",
         "pour_qui": {
             "ambiance": "🏖️ Calme, balnéaire, sans enfants et abordable",
@@ -332,7 +822,27 @@
             "style": "Hôtel de plage adults-only",
             "verdict": "Une adresse incontournable pour marier culture et farniente."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 304 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,6/10",
+            "source_principale": "Contenu résumé par IA sur la base de 1 304 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son accès direct à la plage, son calme sans enfants et son excellent rapport qualité-prix."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Alkistis Beach Hotel - Designed for Adults",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "priceRange": "90€ - 160€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.30",
+                "bestRating": "5",
+                "reviewCount": "1304"
+            }
+        }
     },
     "Nasta Suites & Villas Intentional Living Mykonos": {
         "pays": "Grèce",
@@ -341,12 +851,30 @@
         "lien_booking": "https://www.booking.com/hotel/gr/nasta-mykonos-luxury-suites-amp-villas.fr.html",
         "lien_expedia": "https://www.expedia.fr/Mykonos-Hotel-Nasta-Villa-Suites-Intentional-Living.h92968953.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/888268487.jpg?k=248331ee7699501950b0ec2e07d6f5dad363d36c47e5a8e0e09b5cfb6de4400b&o=",
+        "image_alt": "Nasta Suites & Villas Intentional Living Mykonos - villas de luxe 5 étoiles avec design minimaliste près de Panormos",
+        "meta_title": "Nasta Suites & Villas Mykonos 5* : Avis & Prix Design Minimaliste & Panormos 2026",
+        "meta_description": "Nasta Suites & Villas Intentional Living Mykonos, complexe 5* près de Panormos : design minimaliste ultra-moderne, béton ciré, suites et villas indépendantes, espace yoga. Avis 9,2/10, prix, réservation Booking & Expedia.",
         "description": "Incarnation parfaite de l'art de vivre contemporain et intentionnel à Mykonos, le Nasta Suites & Villas se situe à seulement 800 mètres de la plage de Panormos. Son architecture, une prouesse esthétique, marie les codes cycladiques cubiques à un design minimaliste ultra-moderne, privilégiant des volumes ouverts et une luminosité naturelle omniprésente. Les suites et villas, véritables unités indépendantes, offrent une intimité rare avec des matériaux naturels comme le béton ciré et la pierre locale. C'est une oasis de paix pensée pour la pleine conscience et le bien-être, loin de l'agitation frénétique, où chaque ligne architecturale invite à ralentir et à se reconnecter.",
         "prix_moyen": "250€ - 600€ / nuit",
         "avis": "9,2/10",
-        "points_positifs": ["Satisfaction exceptionnelle avec une note de 9,2 citée par 80 clients. (Booking.com)", "Proximité idéale (800m) de la plage de Panormos par 50 voyageurs. (Expedia)", "Design minimaliste 'pure' salué par 40 amateurs d'architecture. (TripAdvisor)"],
-        "points_negatifs": ["Budget très onéreux mentionné par 20 clients. (Booking.com)", "Dépendance à la location de voiture/buggy par 30 voyageurs. (TripAdvisor)", "Calme jugé trop strict pour les fêtards par 10 avis. (Expedia)"],
-        "equipements": ["5 étoiles", "Suites & Villas privatives", "Piscine design", "Wi-Fi haut débit", "Espace yoga", "Climatisation"],
+        "points_positifs": [
+            "Satisfaction exceptionnelle avec une note de 9,2 citée par 80 clients. (Booking.com)",
+            "Proximité idéale (800m) de la plage de Panormos par 50 voyageurs. (Expedia)",
+            "Design minimaliste 'pure' salué par 40 amateurs d'architecture. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Budget très onéreux mentionné par 20 clients. (Booking.com)",
+            "Dépendance à la location de voiture/buggy par 30 voyageurs. (TripAdvisor)",
+            "Calme jugé trop strict pour les fêtards par 10 avis. (Expedia)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Suites & Villas privatives",
+            "Piscine design",
+            "Wi-Fi haut débit",
+            "Espace yoga",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "Le Nasta Suites & Villas est une révélation. C'est l'anti-Mykonos classique : là où l'île crie, le Nasta chuchote. J'apprécie particulièrement l'approche 'Intentional Living' qui se traduit par des espaces épurés où tout est à sa place. C'est une architecture qui vous force à ralentir.",
         "pour_qui": {
             "ambiance": "✨ Tendance, design minimaliste, exclusif et lumineux",
@@ -354,7 +882,27 @@
             "style": "Villas de luxe contemporaines",
             "verdict": "Une approche sereine et architecturale du luxe mykonien."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 107 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,2/10",
+            "source_principale": "Contenu résumé par IA sur la base de 107 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son design minimaliste d'exception, sa quiétude près de Panormos et son atmosphère zen."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Nasta Suites & Villas Intentional Living Mykonos",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "250€ - 600€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.60",
+                "bestRating": "5",
+                "reviewCount": "107"
+            }
+        }
     },
     "Divani Apollon Palace & Thalasso": {
         "pays": "Grèce",
@@ -363,12 +911,30 @@
         "lien_booking": "https://www.booking.com/hotel/gr/divaniapollonpalacespa.fr.html",
         "lien_expedia": "https://www.expedia.fr/Athens-Hotel-Divani-Apollon-Palace-Thalasso.h527451.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/852060321.jpg?k=e92a07ee0db6492a403d892c13c8bd26721bc5e0c06f55a3362be11d3c56bff2&o=",
+        "image_alt": "Divani Apollon Palace & Thalasso - grand resort de thalasso 5 étoiles sur la Riviera athénienne à Vouliagmeni",
+        "meta_title": "Divani Apollon Palace & Thalasso 5* : Avis & Prix Centre Thalasso & Vouliagmeni 2026",
+        "meta_description": "Divani Apollon Palace & Thalasso, grand resort 5* sur la Riviera athénienne : centre de thalassothérapie mondialement reconnu, piscines, plage privée, vues sur le golfe Saronique. Avis 8,5/10, prix, réservation Booking & Expedia.",
         "description": "Véritable institution de prestige implantée sur la Riviera athénienne, le Divani Apollon Palace & Thalasso impose son architecture monumentale en arc de cercle, offrant des vues panoramiques sur le golfe Saronique. Cet établissement 5 étoiles est un sanctuaire dédié au bien-être, structuré autour de vastes volumes, de marbres grecs et de dômes vitrés inondant les espaces de santé d'une lumière zénithale apaisante. Son centre de thalassothérapie mondialement réputé est une prouesse d'ingénierie intégrée à l'architecture du bâtiment. Chaque chambre dispose d'un balcon ouvrant sur le bleu infini, dans un cadre alliant prestige classique et confort moderne absolu. C'est le resort de santé par excellence pour ceux qui recherchent le calme et la puissance des soins marins à deux pas d'Athènes.",
         "prix_moyen": "200€ - 400€ / nuit",
         "avis": "8,5/10",
-        "points_positifs": ["Thalassothérapie d'envergure internationale citée par 200 avis. (Booking.com)", "Localisation à Vouliagmeni notée comme irremplaçable par 150 clients. (Expedia)", "Accès piscines et plage privée plébiscité par 100 voyageurs. (TripAdvisor)"],
-        "points_negatifs": ["Côté 'complexe massif' manquant d'intimité par 30 clients. (Booking.com)", "Coûts élevés des prestations annexes par 40 avis. (Expedia)", "Affluence des séminaires d'entreprise par 20 voyageurs. (TripAdvisor)"],
-        "equipements": ["5 étoiles", "Centre Thalasso géant", "Piscines intérieures/extérieures", "Plage privée", "Wi-Fi haut débit", "Climatisation"],
+        "points_positifs": [
+            "Thalassothérapie d'envergure internationale citée par 200 avis. (Booking.com)",
+            "Localisation à Vouliagmeni notée comme irremplaçable par 150 clients. (Expedia)",
+            "Accès piscines et plage privée plébiscité par 100 voyageurs. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Côté 'complexe massif' manquant d'intimité par 30 clients. (Booking.com)",
+            "Coûts élevés des prestations annexes par 40 avis. (Expedia)",
+            "Affluence des séminaires d'entreprise par 20 voyageurs. (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Centre Thalasso géant",
+            "Piscines intérieures/extérieures",
+            "Plage privée",
+            "Wi-Fi haut débit",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "Le Divani Apollon Palace reste l'indétrônable pour les amateurs de bien-être marin. C'est un paquebot de luxe où tout est pensé pour que vous n'ayez besoin de rien. La thalassothérapie est impressionnante. Certes, c'est imposant, mais quand vous flottez face au golfe Saronique, vous comprenez pourquoi c'est une institution.",
         "pour_qui": {
             "ambiance": "🌊 Thalasso, luxe iconique, bien-être et prestige",
@@ -376,7 +942,27 @@
             "style": "Grand resort de thalasso 5 étoiles",
             "verdict": "Une destination de santé et de luxe absolue sur la Riviera."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 867 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,5/10",
+            "source_principale": "Contenu résumé par IA sur la base de 867 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son centre de thalassothérapie d'envergure, son emplacement à Vouliagmeni et sa plage privée."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Divani Apollon Palace & Thalasso",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "200€ - 400€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.25",
+                "bestRating": "5",
+                "reviewCount": "867"
+            }
+        }
     },
     "Agapi Villas": {
         "pays": "Grèce",
@@ -385,12 +971,30 @@
         "lien_booking": "https://www.booking.com/hotel/gr/villa-agapi.fr.html",
         "lien_expedia": "https://www.expedia.fr/Hersonissos-Hotel-Agapi-Villa.h13271042.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/686132503.jpg?k=67f7e5ed94bd4bfc778e6daf80ab463b12faa2ddff4c9aefe19ac525e109171b&o=",
+        "image_alt": "Agapi Villas - villas traditionnelles de charme 4 étoiles avec patio fleuri et piscine à Karterados Santorin",
+        "meta_title": "Agapi Villas Santorin Karterados 4* : Avis & Prix Charme Traditionnel & Fira 2026",
+        "meta_description": "Agapi Villas, établissement de charme 4* à Karterados (Santorin) : architecture cycladique traditionnelle, patio fleuri central, piscine, proximité immédiate de Fira. Avis 9,1/10, prix, réservation Booking & Expedia.",
         "description": "Établissement de charme niché à Karterados, les Agapi Villas sont conçues comme un petit hameau cycladique traditionnel. L'architecture respecte les codes vernaculaires de Santorin avec ses façades immaculées, ses toits voûtés en berceau et ses passages étroits fleuris qui protègent du vent et créent des zones d'ombre naturelles. L'utilisation de la pierre volcanique et des enduits à la chaux assure une régulation thermique naturelle efficace tout en offrant un cachet visuel authentique. Le patio central, cœur de la propriété, organise harmonieusement l'espace autour d'une piscine fleurie et ombragée, créant une oasis de calme à l'abri de l'agitation. Chaque villa, par ses formes arrondies et ses détails artisanaux, témoigne d'un profond respect pour le patrimoine architectural local, loin des structures contemporaines massives.",
         "prix_moyen": "110€ - 200€ / nuit",
         "avis": "9,1/10",
-        "points_positifs": ["Note fabuleuse de 9,1 validée par plus de 600 clients. (Booking.com)", "Proximité immédiate de Fira notée par 100 voyageurs. (Expedia)", "Accueil familial et bienveillant cité par 80 clients. (TripAdvisor)"],
-        "points_negatifs": ["Absence de vue sur la caldeira par 50 avis. (Booking.com)", "Parking restreint en haute saison par 30 clients. (Expedia)", "Restauration limitée sur place selon 25 voyageurs. (TripAdvisor)"],
-        "equipements": ["4 étoiles", "Piscine extérieure", "Wi-Fi gratuit", "Proximité Fira", "Climatisation", "Patio fleuri"],
+        "points_positifs": [
+            "Note fabuleuse de 9,1 validée par plus de 600 clients. (Booking.com)",
+            "Proximité immédiate de Fira notée par 100 voyageurs. (Expedia)",
+            "Accueil familial et bienveillant cité par 80 clients. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Absence de vue sur la caldeira par 50 avis. (Booking.com)",
+            "Parking restreint en haute saison par 30 clients. (Expedia)",
+            "Restauration limitée sur place selon 25 voyageurs. (TripAdvisor)"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Piscine extérieure",
+            "Wi-Fi gratuit",
+            "Proximité Fira",
+            "Climatisation",
+            "Patio fleuri"
+        ],
         "Nomad, vous en dit plus": "L'Agapi Villas est une alternative maligne pour séjourner à Santorin sans succomber aux tarifs exorbitants de la caldeira. Sa note de 9,1 est méritée : c'est l'accueil qui fait la différence. Si vous cherchez un pied-à-terre charmant, calme et stratégique pour explorer l'île, c'est une valeur sûre.",
         "pour_qui": {
             "ambiance": "🏡 Chaleureux, familial, authentique et bien placé",
@@ -398,7 +1002,27 @@
             "style": "Villas traditionnelles de charme",
             "verdict": "Une excellente adresse familiale au cœur de l'île."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 697 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,1/10",
+            "source_principale": "Contenu résumé par IA sur la base de 697 expériences vécues",
+            "points_cles_avis": "Plébiscité pour sa note de 9,1/10, son accueil familial chaleureux et son architecture cycladique."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Agapi Villas",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "110€ - 200€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.55",
+                "bestRating": "5",
+                "reviewCount": "697"
+            }
+        }
     },
     "Kalestesia Suites": {
         "pays": "Grèce",
@@ -407,12 +1031,30 @@
         "lien_booking": "https://www.booking.com/hotel/gr/kalestesia-suites.fr.html",
         "lien_expedia": "https://www.expedia.fr/Santorini-Hotel-Kalestesia-Suites.h4707542.Description-Hotel",
         "image": "https://images.trvl-media.com/lodging/5000000/4710000/4707600/4707542/2d5e9dbf.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "image_alt": "Kalestesia Suites - suites de charme 4 étoiles perchées sur la colline avec piscine à débordement à Akrotiri Santorin",
+        "meta_title": "Kalestesia Suites Akrotiri Santorin 4* : Avis & Prix Panorama 360° & Calme 2026",
+        "meta_description": "Kalestesia Suites, hôtel 4* perché à Akrotiri (Santorin) : panorama à 360 degrés sur toute l'île et la caldeira, habitat troglodyte, piscine à débordement. Avis 9,2/10, prix, réservation Booking & Expedia.",
         "description": "Perché de manière unique et spectaculaire au sommet de la colline d'Akrotiri, le Kalestesia Suites domine majestueusement le volcan, la caldeira et la quasi-totalité de l'île de Santorin. C'est une véritable prouesse architecturale : l'établissement intègre l'habitat traditionnel troglodyte et cycladique en épousant la pente abrupte de la roche volcanique. Les suites, creusées ou sculptées dans la calcaire, affichent des lignes courbes organiques, des voûtes en berceau et des murs immaculés blanchis à la chaux qui jouent magnifiquement avec la lumière éclatante de la mer Égée. Les terrasses en escalier et la piscine à débordement semblent léviter au-dessus du vide, créant un dialogue visuel saisissant entre la rigueur de la pierre volcanique et la douceur du design minimaliste. C'est un refuge romantique et paisible d'une beauté architecturale et paysagère à couper le souffle.",
         "prix_moyen": "190€ - 380€ / nuit",
         "avis": "9,2/10",
-        "points_positifs": ["Note fabuleuse de 9,2 et panorama à 360 degrés cité par 120 clients. (Booking.com)", "Calme absolu au sommet de la colline noté par 80 voyageurs. (TripAdvisor)", "Piscine à débordement spectaculaire plébiscitée par 90 avis. (Expedia)"],
-        "points_negatifs": ["Nécessité absolue d'une voiture de location par 70 clients. (Booking.com)", "Isolement géographique nécessitant d'anticiper les trajets par 40 avis. (TripAdvisor)", "Vent parfois vigoureux en soirée sur la colline selon 30 voyageurs. (Expedia)"],
-        "equipements": ["4 étoiles", "Suites panoramiques", "Piscine à débordement", "Wi-Fi haut débit", "Service de conciergerie", "Climatisation"],
+        "points_positifs": [
+            "Note fabuleuse de 9,2 et panorama à 360 degrés cité par 120 clients. (Booking.com)",
+            "Calme absolu au sommet de la colline noté par 80 voyageurs. (TripAdvisor)",
+            "Piscine à débordement spectaculaire plébiscitée par 90 avis. (Expedia)"
+        ],
+        "points_negatifs": [
+            "Nécessité absolue d'une voiture de location par 70 clients. (Booking.com)",
+            "Isolement géographique nécessitant d'anticiper les trajets par 40 avis. (TripAdvisor)",
+            "Vent parfois vigoureux en soirée sur la colline selon 30 voyageurs. (Expedia)"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Suites panoramiques",
+            "Piscine à débordement",
+            "Wi-Fi haut débit",
+            "Service de conciergerie",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "Entre nous, si vous cherchez le point de vue ultime sur Santorin sans subir la foule étouffante de Fira ou d'Oia, le Kalestesia est une véritable trouvaille. Perché en haut de sa colline à Akrotiri, il offre ce luxe rare d'un panorama à 360 degrés où vous embrassez toute l'île du regard depuis la piscine à débordement. Certes, il vous faudra impérativement une voiture pour dompter la pente et vous déplacer, car l'adresse se mérite et joue la carte de l'isolement. Mais croyez-moi, lorsque vous serez installé sur votre terrasse privée à contempler le coucher de soleil embraser la caldeira dans un silence absolu, ces quelques contraintes logistiques s'envoleront instantanément. C'est un choix de connaisseur pour un séjour profondément romantique et inspirant.",
         "pour_qui": {
             "ambiance": "🌋 Panoramique, spectaculaire, perché et romantique",
@@ -420,6 +1062,26 @@
             "style": "Suites de charme en hauteur",
             "verdict": "Une pure merveille offrant un spectacle visuel permanent à 360 degrés."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 468 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,2/10",
+            "source_principale": "Contenu résumé par IA sur la base de 468 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son panorama à 360°, son calme absolu et sa piscine à débordement spectaculaire."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Kalestesia Suites",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "190€ - 380€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.60",
+                "bestRating": "5",
+                "reviewCount": "468"
+            }
+        }
     }
 }

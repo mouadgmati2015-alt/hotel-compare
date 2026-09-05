@@ -9,8 +9,11 @@
             "expedia": "https://www.expedia.fr/Dubai-Hotel-Jumeirah-Beach-Hotel-Dubai.h527498.Description-Hotel"
         },
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/538737679.jpg?k=fd2b8bc9d51d908eafe4959f8e2210152f1fa21dfacfca9e0b3846b131ccf87b&o=",
+        "image_alt": "Jumeirah Beach Hotel Dubai - palace 5 étoiles de luxe avec plage privée et vue sur le Burj Al Arab à Dubaï",
+        "meta_title": "Jumeirah Beach Hotel Dubaï 5* : Avis & Prix Plage Privée & Vue Burj Al Arab 2026",
+        "meta_description": "Jumeirah Beach Hotel Dubai, palace 5* à Dubaï : plage privée exclusive, 5 piscines, vue spectaculaire sur le golfe et le Burj Al Arab, rénovations récentes. Avis 8,9/10, prix, réservation Booking & Expedia.",
         "description": "Établissement 5 étoiles de luxe emblématique situé à Dubaï, le Jumeirah Beach Hotel dispose d'une plage privée exclusive, de 5 piscines et de 10 restaurants et bars. Ses chambres, suites et villas spacieuses possèdent toutes des baies vitrées offrant une vue spectaculaire sur le golfe Persique et le célèbre Jumeirah Burj Al Arab. L'hôtel a récemment bénéficié de rénovations complètes de ses espaces et chambres pour offrir un confort absolu, à seulement 10 minutes à pied du souk Madinat Jumeirah.",
-        "avis": "8,9/10 (Superbe - basés sur 3 747 expériences vécues)",
+        "avis": "8,9/10",
         "points_positifs": [
             "Situation géographique exceptionnelle notée 9,5/10 par les voyageurs, idéale pour les couples et les familles. (Booking.com)",
             "Vue imprenable et directe sur le Burj Al Arab, la mer et les magnifiques couchers de soleil. (TripAdvisor)",
@@ -23,6 +26,7 @@
             "Demande très forte nécessitant de réserver plusieurs mois à l'avance pour sécuriser la vue mer. (Expedia)"
         ],
         "equipements": [
+            "5 étoiles",
             "5 piscines extérieures",
             "Plage privée exclusive",
             "Spa et centre de bien-être",
@@ -42,17 +46,42 @@
             "style": "Palace de luxe en bord de mer avec plage privée",
             "verdict": "Le Jumeirah Beach Hotel Dubai est une valeur sûre incontournable aux Émirats. Alliant un emplacement parfait face au Burj Al Arab, des prestations balnéaires somptueuses et un service d'excellence, il garantit un séjour mémorable."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 3 747+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,9/10",
+            "source_principale": "Contenu résumé par IA sur la base de 3 747+ expériences vécues",
+            "points_cles_avis": "Plébiscité pour sa vue imprenable sur le Burj Al Arab, sa plage privée exclusive et son service irréprochable."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Jumeirah Beach Hotel Dubai",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "400€ - 650€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.45",
+                "bestRating": "5",
+                "reviewCount": "3747"
+            }
+        }
     },
     "Bab Al Shams, A Rare Finds Desert Resort": {
         "pays": "Émirats arabes unis",
-        "ville": "Dubaï /(Région désertique)",
+        "ville": "Dubaï (Région désertique)",
         "etoiles": "5 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/ae/bab-al-shams-desert-resort-and-spa.fr.html",
-        "lien_expedia": "https://www.expedia.fr/Dubai-Hotel-Bab-Al-Shams-Desert-Resort-Dubai.h1162761.Description-Hotel",
+        "prix_moyen": "500€ / nuit",
+        "liens": {
+            "booking": "https://www.booking.com/hotel/ae/bab-al-shams-desert-resort-and-spa.fr.html",
+            "expedia": "https://www.expedia.fr/Dubai-Hotel-Bab-Al-Shams-Desert-Resort-Dubai.h1162761.Description-Hotel"
+        },
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/548612097.jpg?k=dfde95f822bb931fc890b39b09a703c65e58badec8bff1a99bca5b66c2731ccd&o=",
+        "image_alt": "Bab Al Shams, A Rare Finds Desert Resort - sanctuaire de luxe 5 étoiles en forme de forteresse arabe dans le désert de Dubaï",
+        "meta_title": "Bab Al Shams Desert Resort Dubaï 5* : Avis & Prix Forteresse de Luxe dans le Désert 2026",
+        "meta_description": "Bab Al Shams, A Rare Finds Desert Resort, hôtel 5* dans le désert de Dubaï : architecture de village fortifié, piscines à débordement sur les dunes, spa, expériences sahariennes. Avis 9,4/10, prix, réservation Booking & Expedia.",
         "description": "Niché au cœur des dunes dorées du désert d'Arabie, ce luxueux sanctuaire évoque un village fortifié traditionnel de style arabe. Offrant une immersion spectaculaire dans la nature sauvage, l'hôtel combine un design architectural authentique et un confort somptueux. Les clients profitent de piscines à débordement avec vue sur le désert, d'un spa de classe mondiale, de balades à chameau et d'expériences culinaires sous les étoiles aux accents du Moyen-Orient.",
-        "prix_moyen": " 500€ / nuit",
         "avis": "9,4/10",
         "points_positifs": [
             "Décor et architecture inspirés d'une forteresse arabe traditionnelle au milieu des dunes. (Booking.com)",
@@ -81,6 +110,26 @@
             "style": "Forteresse de luxe dans le désert",
             "verdict": "Une oasis somptueuse au cœur des paysages émirati. Entre traditions arabes, décors de dunes infinies et confort absolu, il garantit un séjour magique et hors du temps."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 800+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,4/10",
+            "source_principale": "Contenu résumé par IA sur la base de 800+ expériences vécues",
+            "points_cles_avis": "Plébiscité pour son architecture de forteresse arabe authentique, ses piscines à débordement sur les dunes et ses dîners féeriques sous les étoiles."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Bab Al Shams, A Rare Finds Desert Resort",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "450€ - 700€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.70",
+                "bestRating": "5",
+                "reviewCount": "800"
+            }
+        }
     }
 }

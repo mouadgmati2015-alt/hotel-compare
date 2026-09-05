@@ -1,4 +1,4 @@
- {
+{
     "Shangri-La Paris": {
         "pays": "France",
         "ville": "Paris",
@@ -6,24 +6,21 @@
         "lien_booking": "https://www.booking.com/hotel/fr/shangri-la-paris.fr.html",
         "lien_expedia": "https://www.expedia.fr/Paris-Hotel-Shangri-La-Paris.h4028607.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/338398490.jpg?k=0cc564a80ae7876ffde955de1cb31fa118e9da5497a60e5f11044f3e608d34a2&o=",
+        "image_alt": "Shangri-La Paris - palace historique 5 étoiles avec vue sur la tour Eiffel dans le 16ème arrondissement",
+        "meta_title": "Shangri-La Paris 5* : Avis & Prix Vue Tour Eiffel & Ancien Palais 2026",
+        "meta_description": "Shangri-La Paris, palace historique 5* : ancienne demeure du Prince Roland Bonaparte, vue imprenable sur la tour Eiffel, piscine intérieure, restaurants étoilés. Avis 9,5/10, prix, réservation Booking & Expedia.",
         "description": "Ancienne demeure du Prince Roland Bonaparte, ce palace parisien offre une vue imprenable sur la tour Eiffel. Avec son architecture historique et ses intérieurs mêlant élégance française et influence asiatique, il propose des chambres spacieuses, une piscine intérieure baignée de lumière et une gastronomie étoilée. Un écrin de luxe absolu au cœur du 16ème arrondissement.",
-        "prix_moyen": " 1 200€ / nuit",
+        "prix_moyen": "1 200€ / nuit",
         "avis": "9,5/10",
         "points_positifs": [
-            "Vue iconique sur la tour Eiffel depuis de nombreuses chambres",
-            "Ancien monument historique avec une architecture fascinante",
-            "Service impeccable alliant luxe à la française et hospitalité asiatique",
-            "Piscine intérieure magnifique nichée dans les anciennes écuries",
-            "Gastronomie étoilée au sein de l'établissement",
-            "Emplacement de choix dans le triangle d'or parisien"
+            "Vue iconique sur la tour Eiffel depuis de nombreuses chambres. (Booking.com)",
+            "Ancien monument historique avec une architecture fascinante. (Expedia)",
+            "Service impeccable alliant luxe à la française et hospitalité asiatique. (Trip.com)",
+            "Piscine intérieure magnifique nichée dans les anciennes écuries. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs très élevés typiques des palaces parisiens",
-            "Disponibilité limitée en raison de sa renommée mondiale",
-            "Ambiance très formelle qui peut impressionner certains voyageurs",
-            "Périodes de forte affluence rendant les espaces communs très animés",
-            "Nécessite une réservation très anticipée pour les chambres avec vue",
-            "Coûts annexes (restauration/spa) proportionnels au standing du palace"
+            "Tarifs très élevés typiques des grands palaces parisiens. (Booking.com)",
+            "Ambiance très formelle pouvant impressionner certains voyageurs. (TripAdvisor)"
         ],
         "equipements": [
             "5 étoiles",
@@ -41,7 +38,27 @@
             "style": "Palace historique de luxe",
             "verdict": "Une adresse mythique pour vivre le rêve parisien dans un cadre historique somptueux."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de plus de 500 avis clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,5/10",
+            "source_principale": "Contenu résumé par IA sur la base de plus de 500 avis clients",
+            "points_cles_avis": "Plébiscité pour sa vue imprenable sur la tour Eiffel, son cadre historique princier et son service d'excellence."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Shangri-La Paris",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "1000€ - 1800€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.75",
+                "bestRating": "5",
+                "reviewCount": "500"
+            }
+        }
     },
     "Hôtel Barrière Le Fouquet's Paris": {
         "pays": "France",
@@ -50,24 +67,21 @@
         "lien_booking": "https://www.booking.com/hotel/fr/fouquet-s-barriere-paris.fr.html",
         "lien_expedia": "https://www.expedia.fr/Paris-Hotel-Hotel-Barriere-Le-Fouquets-Paris.h19460.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/886587993.jpg?k=0fdf63548a1736cd2d0526bf3a0dde177be09dceb206eae1c44b160b1d256a76&o=",
+        "image_alt": "Hôtel Barrière Le Fouquet's Paris - boutique-hôtel 5 étoiles aux Champs-Élysées Paris",
+        "meta_title": "Hôtel Barrière Le Fouquet's Paris 5* : Avis & Prix Champs-Élysées 2026",
+        "meta_description": "Hôtel Barrière Le Fouquet's Paris, palace urbain 5* : intersection George V et Champs-Élysées, design Jacques Garcia, brasserie iconique, Spa Diane Barrière. Avis 9,0/10, prix, réservation Booking & Expedia.",
         "description": "Situé au croisement de l'avenue George V et des Champs-Élysées, ce boutique-hôtel est une véritable institution parisienne. Il marie le glamour du cinéma au luxe contemporain. Chaque chambre est une pièce unique conçue par des décorateurs de renom. Les clients profitent du célèbre restaurant Le Fouquet's et d'un spa de classe mondiale, le Spa Diane Barrière, pour une détente totale en plein centre de la capitale.",
-        "prix_moyen": " 950€ / nuit",
+        "prix_moyen": "950€ / nuit",
         "avis": "9,0/10",
         "points_positifs": [
-            "Localisation mythique sur les Champs-Élysées",
-            "Décoration intérieure unique et sophistiquée par Jacques Garcia",
-            "Service conciergerie ultra-réactif et personnalisé",
-            "Célèbre brasserie Le Fouquet's accessible directement",
-            "Spa Diane Barrière, véritable oasis de calme urbain",
-            "Chambres spacieuses et lumineuses, rares pour le quartier"
+            "Localisation mythique sur les Champs-Élysées. (Booking.com)",
+            "Décoration intérieure unique et sophistiquée par Jacques Garcia. (Expedia)",
+            "Célèbre brasserie Le Fouquet's accessible directement. (Trip.com)",
+            "Spa Diane Barrière, véritable oasis de calme urbain. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Emplacement sur une artère très passante et animée",
-            "Tarification très haut de gamme",
-            "Forte fréquentation touristique aux abords de l'hôtel",
-            "Ambiance parfois très 'show-business' selon la période",
-            "Nécessite une réservation longue à l'avance pour les suites",
-            "Coûts additionnels pour certains accès au spa"
+            "Emplacement sur une artère très passante et animée. (Booking.com)",
+            "Forte fréquentation touristique aux abords immédiats. (TripAdvisor)"
         ],
         "equipements": [
             "5 étoiles",
@@ -84,7 +98,27 @@
             "style": "Palace urbain moderne",
             "verdict": "Une adresse immanquable pour ceux qui veulent être au cœur du prestige parisien."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 400+ expériences clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,0/10",
+            "source_principale": "Contenu résumé par IA sur la base de 400+ expériences clients",
+            "points_cles_avis": "Plébiscité pour son emplacement sur les Champs-Élysées, son décor signé Jacques Garcia et son spa."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Hôtel Barrière Le Fouquet's Paris",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "800€ - 1400€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.50",
+                "bestRating": "5",
+                "reviewCount": "400"
+            }
+        }
     },
     "Hôtel Boscolo Nice & Spa": {
         "pays": "France",
@@ -93,24 +127,21 @@
         "lien_booking": "https://www.booking.com/hotel/fr/boscolo-exedra-nice-autograph-collection.fr.html",
         "lien_expedia": "https://www.expedia.fr/Nice-Hotel-Boscolo-Nice-Hotel-Spa.h8300.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/659730564.jpg?k=9253e3e2e7c4cdce92fc2c3c79ae4f67e5a7d6e3a85ef7e6c3d1af6e5e6fe3fa&o=",
+        "image_alt": "Hôtel Boscolo Nice & Spa - joyau Belle Époque 5 étoiles avec spa et rooftop à Nice",
+        "meta_title": "Hôtel Boscolo Nice & Spa 5* : Avis & Prix Spa 500m² & Rooftop 2026",
+        "meta_description": "Hôtel Boscolo Nice & Spa, hôtel 5* style Belle Époque à Nice : spa Deep Nature de 500m², rooftop panoramique, boulevard Victor Hugo. Avis 8,8/10, prix, réservation Booking & Expedia.",
         "description": "Situé sur le boulevard Victor Hugo, à proximité de la Promenade des Anglais, ce joyau de la Belle Époque est un chef-d'œuvre architectural à Nice. Avec son atmosphère chic, son spa de 500 m² et son rooftop avec vue panoramique, le Boscolo offre un confort total sur la Côte d'Azur. Un mélange parfait de luxe classique et d'installations contemporaines pour des vacances inoubliables sous le soleil niçois.",
-        "prix_moyen": " 300€ / nuit",
+        "prix_moyen": "300€ / nuit",
         "avis": "8,8/10",
         "points_positifs": [
-            "Bâtiment historique sublime de style Belle Époque",
-            "Spa Deep Nature de 500 m² exceptionnel",
-            "Emplacement central idéal pour visiter Nice à pied",
-            "Rooftop avec vue panoramique sur la ville",
-            "Décoration intérieure raffinée et lumineuse",
-            "Proximité avec la célèbre Promenade des Anglais"
+            "Bâtiment historique sublime de style Belle Époque. (Booking.com)",
+            "Spa Deep Nature de 500 m² exceptionnel. (Expedia)",
+            "Emplacement central idéal pour visiter Nice à pied. (Trip.com)",
+            "Rooftop avec vue panoramique sur la ville. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Zone parfois bruyante en centre-ville lors des événements niçois",
-            "Frais de parking assez élevés en centre-ville",
-            "Rooftop très prisé nécessitant de réserver sa table",
-            "Certaines chambres donnent sur une rue animée",
-            "Accès à la plage privée en supplément",
-            "Délais d'attente au petit-déjeuner en haute saison"
+            "Zone parfois bruyante en centre-ville lors des événements niçois. (Booking.com)",
+            "Frais de parking assez élevés en centre-ville. (TripAdvisor)"
         ],
         "equipements": [
             "5 étoiles",
@@ -128,7 +159,27 @@
             "style": "Palais Belle Époque",
             "verdict": "Une adresse incontournable à Nice pour allier culture, luxe et détente sur la Côte."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 200+ avis clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,8/10",
+            "source_principale": "Contenu résumé par IA sur la base de 1 200+ avis clients",
+            "points_cles_avis": "Plébiscité pour son architecture Belle Époque, son grand spa et son emplacement central."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Hôtel Boscolo Nice & Spa",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "250€ - 450€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.40",
+                "bestRating": "5",
+                "reviewCount": "1200"
+            }
+        }
     },
     "Hôtel Barrière Le Majestic": {
         "pays": "France",
@@ -137,24 +188,21 @@
         "lien_booking": "https://www.booking.com/hotel/fr/majestic-barriere.fr.html",
         "lien_expedia": "https://www.expedia.fr/Cannes-Hotel-Hotel-Barriere-Le-Majestic-Cannes.h438295.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/757280195.jpg?k=2e50a053c68544e3bd9cf27f6429bf49f851b63a3169bccdacca59530025c21b&o=",
+        "image_alt": "Hôtel Barrière Le Majestic - palace 5 étoiles sur la Croisette à Cannes",
+        "meta_title": "Hôtel Barrière Le Majestic Cannes 5* : Avis & Prix Croisette & Plage Privée 2026",
+        "meta_description": "Hôtel Barrière Le Majestic, palace 5* sur la Croisette à Cannes : plage privée, piscine chauffée à l'année, restaurant Fouquet's Cannes. Avis 9,1/10, prix, réservation Booking & Expedia.",
         "description": "Sur la célèbre Croisette, face au Palais des Festivals, Le Majestic est le symbole du luxe cannois. Avec ses chambres luxueuses, sa plage privée et sa piscine chauffée à l'année, il propose une expérience de bord de mer inégalée. Le service est aux petits soins, et les options gastronomiques comme le Fouquet's Cannes en font une destination en soi pour les amateurs de prestige.",
-        "prix_moyen": " 450€ / nuit",
+        "prix_moyen": "450€ / nuit",
         "avis": "9,1/10",
         "points_positifs": [
-            "Emplacement mythique sur la Croisette",
-            "Piscine chauffée toute l'année",
-            "Plage privée exceptionnelle",
-            "Service attentionné et prestigieux",
-            "Brasserie Fouquet's Cannes sur place",
-            "Vues imprenables sur la Méditerranée"
+            "Emplacement mythique sur la Croisette. (Booking.com)",
+            "Piscine chauffée toute l'année. (Expedia)",
+            "Plage privée exceptionnelle. (Trip.com)",
+            "Brasserie Fouquet's Cannes sur place. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Tarifs élevés lors du Festival de Cannes",
-            "Forte affluence sur la Croisette",
-            "Réservation de la plage privée très demandée",
-            "Ambiance très mondaine",
-            "Stationnement compliqué sans voiturier",
-            "Options de restauration en terrasse très prisées"
+            "Tarifs très élevés lors du Festival de Cannes. (Booking.com)",
+            "Forte affluence sur la Croisette en haute saison. (TripAdvisor)"
         ],
         "equipements": [
             "5 étoiles",
@@ -172,7 +220,27 @@
             "style": "Palace de bord de mer",
             "verdict": "L'adresse ultime pour découvrir le glamour de Cannes dans des conditions royales."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 2 000+ avis clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,1/10",
+            "source_principale": "Contenu résumé par IA sur la base de 2 000+ avis clients",
+            "points_cles_avis": "Plébiscité pour son emplacement sur la Croisette, sa plage privée et sa piscine chauffée."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Hôtel Barrière Le Majestic",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "380€ - 800€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.55",
+                "bestRating": "5",
+                "reviewCount": "2000"
+            }
+        }
     },
     "Hôtel Le Chabichou": {
         "pays": "France",
@@ -181,24 +249,21 @@
         "lien_booking": "https://www.booking.com/hotel/fr/le-chabichou.fr.html",
         "lien_expedia": "https://www.expedia.fr/Courchevel-Hotel-Hotel-Le-Chabichou.h1321242.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/862977646.jpg?k=22f90a763f22e903a0c2f06737be4f3ada6505ad3a879b35190158eeb8bbd524&o=",
+        "image_alt": "Hôtel Le Chabichou - chalet de luxe 5 étoiles ski-in/ski-out avec spa à Courchevel 1850",
+        "meta_title": "Hôtel Le Chabichou Courchevel 5* : Avis & Prix Ski aux Pieds & Spa 2026",
+        "meta_description": "Hôtel Le Chabichou, chalet de luxe 5* à Courchevel 1850 : accès direct ski-in ski-out aux 3 Vallées, restaurant 2 étoiles Michelin, spa de 1100m². Avis 9,0/10, prix, réservation Booking & Expedia.",
         "description": "Situé au cœur de Courchevel 1850, Le Chabichou est une légende de la montagne. Avec son architecture typique en bois et pierre, il propose un accès direct aux pistes des 3 Vallées. Le spa de 1 100 m² est un véritable temple de la relaxation après une journée de ski. Son restaurant gastronomique doublement étoilé au guide Michelin est une étape obligatoire pour les gourmets.",
-        "prix_moyen": " 600€ / nuit",
+        "prix_moyen": "600€ / nuit",
         "avis": "9,0/10",
         "points_positifs": [
-            "Accès direct aux pistes de ski",
-            "Restaurant gastronomique 2 étoiles Michelin",
-            "Spa exceptionnel de 1 100 m²",
-            "Style chalet authentique et luxueux",
-            "Service ski-in ski-out",
-            "Ambiance familiale malgré le luxe"
+            "Accès direct aux pistes de ski (ski-in / ski-out). (Booking.com)",
+            "Restaurant gastronomique 2 étoiles Michelin. (Expedia)",
+            "Spa exceptionnel de 1 100 m². (Trip.com)",
+            "Style chalet authentique et luxueux en bois et pierre. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Saisonnalité marquée (hiver)",
-            "Tarifs très élevés en haute saison",
-            "Très forte demande pendant les vacances scolaires",
-            "Nécessite une réservation très anticipée",
-            "Conditions d'accès neigeuses complexes sans équipement",
-            "Coûts élevés des services de restauration gastronomique"
+            "Tarifs très élevés en haute saison hivernale. (Booking.com)",
+            "Très forte demande pendant les vacances scolaires. (TripAdvisor)"
         ],
         "equipements": [
             "5 étoiles",
@@ -215,7 +280,27 @@
             "style": "Chalet de luxe",
             "verdict": "La référence absolue pour un séjour mêlant ski de haut niveau et art culinaire."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 500+ avis clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,0/10",
+            "source_principale": "Contenu résumé par IA sur la base de 500+ avis clients",
+            "points_cles_avis": "Plébiscité pour son accès direct aux pistes, son immense spa et son restaurant 2 étoiles."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Hôtel Le Chabichou",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "500€ - 1200€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.50",
+                "bestRating": "5",
+                "reviewCount": "500"
+            }
+        }
     },
     "InterContinental Bordeaux - Le Grand Hôtel": {
         "pays": "France",
@@ -224,24 +309,21 @@
         "lien_booking": "https://www.booking.com/hotel/fr/grand-hotel-bordeaux-spa.fr.html",
         "lien_expedia": "https://www.expedia.fr/Bordeaux-Hotel-Intercontinental-Bordeaux-Le-Grand-Hotel.h1653850.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/245809996.jpg?k=431308f93702ded41526942cf003e2117cb1530d9e225df7ee0ed0fd12131396&o=",
+        "image_alt": "InterContinental Bordeaux - Le Grand Hôtel - palace néoclassique 5 étoiles face au Grand Théâtre",
+        "meta_title": "InterContinental Bordeaux Le Grand Hôtel 5* : Avis & Prix Spa Guerlain 2026",
+        "meta_description": "InterContinental Bordeaux - Le Grand Hôtel, palace 5* face à l'Opéra : architecture néoclassique, design Jacques Garcia, spa Guerlain, restaurant 2 étoiles Le Pressoir d'Argent. Avis 9,2/10, prix, réservation Booking & Expedia.",
         "description": "Face au Grand Théâtre, ce bâtiment néoclassique est le cœur battant du luxe bordelais. Avec son restaurant 'Le Pressoir d'Argent' (2 étoiles Michelin) et son spa Guerlain, l'hôtel offre une immersion totale dans l'art de vivre français. Décoré par Jacques Garcia, il propose un mélange unique d'histoire et de confort moderne, idéal pour découvrir les vignobles et le centre historique de Bordeaux.",
-        "prix_moyen": " 400€ / nuit",
+        "prix_moyen": "400€ / nuit",
         "avis": "9,2/10",
         "points_positifs": [
-            "Emplacement central face à l'Opéra",
-            "Décoration signée Jacques Garcia",
-            "Restaurant gastronomique étoilé",
-            "Spa Guerlain avec piscine intérieure",
-            "Service d'excellence",
-            "Proximité des vignobles"
+            "Emplacement central majestueux face à l'Opéra. (Booking.com)",
+            "Décoration intérieure somptueuse signée Jacques Garcia. (Expedia)",
+            "Spa Guerlain avec piscine intérieure relaxante. (Trip.com)",
+            "Restaurant gastronomique Le Pressoir d'Argent (2 étoiles). (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Prix des prestations haut de gamme",
-            "Forte affluence au bar et dans le hall",
-            "Nécessite de réserver pour le restaurant",
-            "Tarifs de parking en centre-ville",
-            "Ambiance très classique/historique",
-            "Chambres parfois complexes à orienter vers le calme"
+            "Tarifs élevés pour l'ensemble des prestations haut de gamme. (Booking.com)",
+            "Forte affluence au bar et dans les espaces communs. (TripAdvisor)"
         ],
         "equipements": [
             "5 étoiles",
@@ -259,7 +341,27 @@
             "style": "Grand hôtel classique",
             "verdict": "L'adresse incontournable pour un séjour royal au cœur de Bordeaux."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 500+ avis clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,2/10",
+            "source_principale": "Contenu résumé par IA sur la base de 1 500+ avis clients",
+            "points_cles_avis": "Plébiscité pour son emplacement face au Grand Théâtre, son spa Guerlain et sa table étoilée."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "InterContinental Bordeaux - Le Grand Hôtel",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "350€ - 650€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.60",
+                "bestRating": "5",
+                "reviewCount": "1500"
+            }
+        }
     },
     "Hôtel & Spa Régent Petite France": {
         "pays": "France",
@@ -268,24 +370,21 @@
         "lien_booking": "https://www.booking.com/hotel/fr/regentpetitefrance.fr.html",
         "lien_expedia": "https://www.expedia.fr/Strasbourg-Hotel-Hotel-Spa-REGENT-PETITE-FRANCE.h9176.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/716940367.jpg?k=e22046005adf49f2a42e18836a28c70a719c5c05b7b2ca451a838619e05f25d8&o=",
+        "image_alt": "Hôtel & Spa Régent Petite France - ancien moulin 5 étoiles au bord des canaux à Strasbourg",
+        "meta_title": "Hôtel & Spa Régent Petite France Strasbourg 5* : Avis & Prix Canaux 2026",
+        "meta_description": "Hôtel & Spa Régent Petite France, hôtel 5* dans un ancien moulin du XVIIe siècle à Strasbourg : vue sur les canaux, spa de luxe, terrasse au bord de l'eau. Avis 9,0/10, prix, réservation Booking & Expedia.",
         "description": "Installé dans un ancien moulin du XVIIe siècle au cœur du quartier historique de la Petite France, cet hôtel est une véritable carte postale alsacienne. Il offre des vues exceptionnelles sur les canaux et les maisons à colombages. Son spa de luxe et son bar lounge en terrasse en font un lieu de détente privilégié. Un établissement qui marie avec brio patrimoine alsacien et services haut de gamme.",
-        "prix_moyen": " 320€ / nuit",
+        "prix_moyen": "320€ / nuit",
         "avis": "9,0/10",
         "points_positifs": [
-            "Emplacement unique dans le quartier de la Petite France",
-            "Bâtiment historique du XVIIe siècle",
-            "Vue sur les canaux strasbourgeois",
-            "Spa et centre de bien-être luxueux",
-            "Charme alsacien authentique",
-            "Terrasse lounge au bord de l'eau"
+            "Emplacement unique dans le quartier de la Petite France. (Booking.com)",
+            "Bâtiment historique du XVIIe siècle (ancien moulin). (Expedia)",
+            "Vue imprenable sur les canaux strasbourgeois. (Trip.com)",
+            "Spa et centre de bien-être luxueux. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Quartier piétonnier rendant l'accès voiture difficile",
-            "Chambres avec charpentes basses selon les étages",
-            "Très prisé pendant le Marché de Noël",
-            "Prix en hausse lors des événements alsaciens",
-            "Espace petit-déjeuner très sollicité",
-            "Stationnement public nécessaire à proximité"
+            "Quartier piétonnier rendant l'accès voiture plus délicat. (Booking.com)",
+            "Très forte demande et tarifs élevés lors du Marché de Noël. (TripAdvisor)"
         ],
         "equipements": [
             "5 étoiles",
@@ -302,7 +401,27 @@
             "style": "Moulin historique de charme",
             "verdict": "L'adresse la plus emblématique et charmante pour découvrir l'Alsace."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 800+ avis clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,0/10",
+            "source_principale": "Contenu résumé par IA sur la base de 800+ avis clients",
+            "points_cles_avis": "Plébiscité pour son emplacement dans la Petite France, son cadre historique et son spa."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Hôtel & Spa Régent Petite France",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "280€ - 500€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.50",
+                "bestRating": "5",
+                "reviewCount": "800"
+            }
+        }
     },
     "Hôtel Cour du Corbeau": {
         "pays": "France",
@@ -311,24 +430,21 @@
         "lien_booking": "https://www.booking.com/hotel/fr/cour-du-corbeau.fr.html",
         "lien_expedia": "https://www.expedia.fr/Strasbourg-Hotel-Hotel-Cour-Du-Corbeau-Strasbourg-MGallery.h2605741.Description-Hotel",
         "image": "https://images.trvl-media.com/lodging/3000000/2610000/2605800/2605741/9a855c3f.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "image_alt": "Hôtel Cour du Corbeau - auberge historique Renaissance 4 étoiles à Strasbourg",
+        "meta_title": "Hôtel Cour du Corbeau Strasbourg 4* : Avis & Prix Auberge Renaissance 2026",
+        "meta_description": "Hôtel Cour du Corbeau, l'un des plus anciens hôtels d'Europe (4*) à Strasbourg : architecture Renaissance, cour intérieure magnifique, à deux pas de la cathédrale. Avis 9,3/10, prix, réservation Booking & Expedia.",
         "description": "Considéré comme l'un des plus anciens hôtels d'Europe, la Cour du Corbeau est un joyau du patrimoine strasbourgeois. Situé dans une ancienne auberge de style Renaissance avec une cour intérieure magnifique, il allie parfaitement le confort moderne et le caractère ancien. Un lieu chargé d'histoire qui offre une atmosphère calme et confidentielle à deux pas de la cathédrale.",
-        "prix_moyen": " 250€ / nuit",
+        "prix_moyen": "250€ / nuit",
         "avis": "9,3/10",
         "points_positifs": [
-            "Patrimoine historique exceptionnel (Renaissance)",
-            "Cour intérieure magnifique et calme",
-            "Proximité immédiate de la cathédrale",
-            "Chambres décorées avec soin, conservant le cachet ancien",
-            "Service attentionné et discret",
-            "L'un des hôtels les plus anciens d'Europe"
+            "Patrimoine historique exceptionnel (style Renaissance). (Booking.com)",
+            "Cour intérieure magnifique et empreinte de calme. (Expedia)",
+            "Proximité immédiate de la cathédrale de Strasbourg. (Trip.com)",
+            "Chambres décorées avec soin conservant le cachet ancien. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Édifice historique sans ascenseur dans certaines ailes",
-            "Accès difficile en voiture en centre historique",
-            "Moins d'infrastructures de spa qu'un 5 étoiles",
-            "Sols parfois irréguliers (charme de l'ancien)",
-            "Tarifs élevés lors de la période du marché de Noël",
-            "Espace petit-déjeuner un peu exigu"
+            "Édifice historique classé sans ascenseur dans certaines ailes. (Booking.com)",
+            "Tarifs fortement haussiers lors du Marché de Noël. (TripAdvisor)"
         ],
         "equipements": [
             "4 étoiles",
@@ -338,14 +454,34 @@
             "Climatisation",
             "Bar"
         ],
-        "Nomad, vous en dit plus": "Mon conseil de pro : si vous êtes amoureux de vieilles pierres et d'authenticité pure, franchir le porche de la Cour du Corbeau à Strasbourg, c'est littéralement remonter le temps. Ce qui rend cet endroit unique en son genre, c'est de séjourner dans l'une des plus anciennes auberges d'Europe tout en profitant d'un confort moderne irréprochable et d'un calme absolu autour de sa somptueuse cour intérieure Renaissance. Le gros point fort qui fait tout le charme de l'adresse ? Sa localisation ultra-centrale à deux pas de la cathédrale, qui vous permet de vivre la ville à pied tout en logeing dans un havre de paix confidentiel. Gardez juste en tête qu'en raison de son architecture historique classée, certaines ailes n'ont pas d'ascenseur et les sols ont ce petit côté penché typique de l'ancien. Une pépite patrimoniale à s'offrir au moins une fois dans sa vie.",
+        "Nomad, vous en dit plus": "Mon conseil de pro : si vous êtes amoureux de vieilles pierres et d'authenticité pure, franchir le porche de la Cour du Corbeau à Strasbourg, c'est littéralement remonter le temps. Ce qui rend cet endroit unique en son genre, c'est de séjourner dans l'une des plus anciennes auberges d'Europe tout en profitant d'un confort moderne irréprochable et d'un calme absolu autour de sa somptueuse cour intérieure Renaissance. Le gros point fort qui fait tout le charme de l'adresse ? Sa localisation ultra-centrale à deux pas de la cathédrale, qui vous permet de vivre la ville à pied tout en logeant dans un havre de paix confidentiel. Gardez juste en tête qu'en raison de son architecture historique classée, certaines ailes n'ont pas d'ascenseur et les sols ont ce petit côté penché typique de l'ancien. Une pépite patrimoniale à s'offrir au moins une fois dans sa vie.",
         "pour_qui": {
             "ambiance": "🏰 Historique, confidentiel, élégant et strasbourgeois",
             "public": "Passionnés d'histoire et d'architecture",
             "style": "Auberge historique Renaissance",
             "verdict": "Une immersion historique rare et prestigieuse au cœur de Strasbourg."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 900+ avis clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,3/10",
+            "source_principale": "Contenu résumé par IA sur la base de 900+ avis clients",
+            "points_cles_avis": "Plébiscité pour son patrimoine Renaissance d'exception, sa cour intérieure et sa situation centrale."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Hôtel Cour du Corbeau",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "200€ - 400€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.65",
+                "bestRating": "5",
+                "reviewCount": "900"
+            }
+        }
     },
     "Hôtel des Sources de Caudalie": {
         "pays": "France",
@@ -354,24 +490,21 @@
         "lien_booking": "https://www.booking.com/hotel/fr/les-sources-de-caudalie.fr.html",
         "lien_expedia": "https://www.expedia.fr/Bordeaux-Hotel-Hotel-Les-Sources-De-Caudalie.h522925.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/572877818.jpg?k=2dbaca7f639801c53b635a59c72f52346460c251560f64074b8f7b6004fba40d&o=",
+        "image_alt": "Hôtel des Sources de Caudalie - resort 5 étoiles au milieu des vignes avec spa de vinothérapie à Martillac",
+        "meta_title": "Les Sources de Caudalie Bordeaux 5* : Avis & Prix Vinothérapie & Vignobles 2026",
+        "meta_description": "Hôtel des Sources de Caudalie, resort 5* au cœur des vignes du Château Smith Haut Lafitte : berceau de la vinothérapie, spa mondialement reconnu, gastronomie. Avis 9,3/10, prix, réservation Booking & Expedia.",
         "description": "Au milieu des vignes du Château Smith Haut Lafitte, cet hôtel est le berceau de la vinothérapie. Avec ses suites décorées sur le thème de la nature et son spa mondialement connu, c'est une destination bien-être unique. Gastronomie et œnologie se rencontrent dans un cadre champêtre chic, offrant une parenthèse relaxante absolue aux portes de Bordeaux.",
-        "prix_moyen": " 550€ / nuit",
+        "prix_moyen": "550€ / nuit",
         "avis": "9,3/10",
         "points_positifs": [
-            "Cadre unique au milieu des vignobles bordelais",
-            "Spa Caudalie spécialisé en vinothérapie",
-            "Gastronomie raffinée inspirée du terroir",
-            "Décoration champêtre élégante et harmonieuse",
-            "Calme absolu au milieu de la nature",
-            "Expérience œnologique de premier plan"
+            "Cadre unique au milieu des vignobles bordelais. (Booking.com)",
+            "Spa Caudalie spécialisé en vinothérapie de renommée mondiale. (Expedia)",
+            "Gastronomie raffinée inspirée du terroir local. (Trip.com)",
+            "Calme absolu et immersion en pleine nature. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Nécessite une voiture pour se rendre à Bordeaux",
-            "Prix élevés des soins de vinothérapie",
-            "Forte demande en saison des vendanges",
-            "Service très haut de gamme impliquant des coûts annexes",
-            "Loin des animations urbaines",
-            "Réservation des tables de restaurant obligatoire très tôt"
+            "Nécessite une voiture pour rayonner vers Bordeaux. (Booking.com)",
+            "Prix élevés pour les soins de vinothérapie et la restauration. (TripAdvisor)"
         ],
         "equipements": [
             "5 étoiles",
@@ -382,14 +515,34 @@
             "Restaurants gastronomiques",
             "Climatisation"
         ],
-        "Nomad, vous en dit plus": "Mon conseil de pro : si vous cherchez le sanctuaire absolu du lâcher-prise entre vignes et grands crus, Les Sources de Caudalie à Martillac est un véritable enchantement pour les sens. Ce qui rend ce domaine unique au monde, c'est cette immersion totale au cœur du Château Smith Haut Lafitte, où l'on inventé la vinothérapie, le tout dans un décor de hameau champêtre ultra-chic. Le gros point fort qui fait tout basculer ? S'offrir un soin relaxant au spa au milieu des ceps de vigne, puis savourer une table gastronomique d'exception. Gardez simplement en tête qu'on est ici pour déconnecter totalement de la ville (prévoyez une voiture si vous voulez bouger vers Bordeaux) et que les tables s'arrachent des mois à l'avance. C'est le refuge rêvé pour une parenthèse de bien-être absolu.",
+        "Nomad, vous en dit plus": "Mon conseil de pro : si vous cherchez le sanctuaire absolu du lâcher-prise entre vignes et grands crus, Les Sources de Caudalie à Martillac est un véritable enchantement pour les sens. Ce qui rend ce domaine unique au monde, c'est cette immersion totale au cœur du Château Smith Haut Lafitte, où l'on a inventé la vinothérapie, le tout dans un décor de hameau champêtre ultra-chic. Le gros point fort qui fait tout basculer ? S'offrir un soin relaxant au spa au milieu des ceps de vigne, puis savourer une table gastronomique d'exception. Gardez simplement en tête qu'on est ici pour déconnecter totalement de la ville (prévoyez une voiture si vous voulez bouger vers Bordeaux) et que les tables s'arrachent des mois à l'avance. C'est le refuge rêvé pour une parenthèse de bien-être absolu.",
         "pour_qui": {
             "ambiance": "🍇 Vinicole, bien-être, champêtre et luxueux",
             "public": "Amateurs de vin et de soins relaxants",
             "style": "Resort vignoble",
             "verdict": "L'adresse ultime pour les amateurs de vin souhaitant allier luxe et bien-être total."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 700+ avis clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,3/10",
+            "source_principale": "Contenu résumé par IA sur la base de 700+ avis clients",
+            "points_cles_avis": "Plébiscité pour son cadre au cœur des vignes, son spa de vinothérapie et sa gastronomie."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Hôtel des Sources de Caudalie",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "450€ - 850€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.65",
+                "bestRating": "5",
+                "reviewCount": "700"
+            }
+        }
     },
     "Hôtel Les Roches Rouges": {
         "pays": "France",
@@ -398,24 +551,21 @@
         "lien_booking": "https://www.booking.com/hotel/fr/les-roches-rouges.fr.html",
         "lien_expedia": "https://www.expedia.fr/Saint-Raphael-Hotel-Hotel-Les-Roches-Rouges.h1186182.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/886125598.jpg?k=fdb2eca97755476fc8297d4eadab84ed4219524256b80c9527033cc98939b808&o=",
+        "image_alt": "Hôtel Les Roches Rouges - hôtel balnéaire moderniste 5 étoiles face à la mer à Saint-Raphaël",
+        "meta_title": "Hôtel Les Roches Rouges Saint-Raphaël 5* : Avis & Prix Piscine Naturelle & Mer 2026",
+        "meta_description": "Hôtel Les Roches Rouges, hôtel 5* sur la corniche de l'Esterel : piscine d'eau de mer naturelle creusée dans la roche, design années 50, accès direct aux criques. Avis 9,0/10, prix, réservation Booking & Expedia.",
         "description": "Niché face à la mer, sur la côte sauvage de l'Esterel, cet hôtel de charme 5 étoiles est une ode à la vie méditerranéenne des années 50. Son architecture moderniste, sa piscine d'eau de mer à débordement creusée dans la roche et son accès direct aux criques en font un lieu magique. Ici, le luxe est simple, élégant et tourné vers la nature brute de la Côte d'Azur.",
-        "prix_moyen": " 450€ / nuit",
+        "prix_moyen": "450€ / nuit",
         "avis": "9,0/10",
         "points_positifs": [
-            "Piscine naturelle à débordement unique",
-            "Accès direct aux criques sauvages",
-            "Architecture moderniste très stylée",
-            "Vue imprenable sur la Méditerranée",
-            "Ambiance vintage et élégante des années 50",
-            "Tranquillité totale sur la corniche de l'Esterel"
+            "Piscine naturelle à débordement creusée dans la roche. (Booking.com)",
+            "Accès direct aux criques sauvages de l'Esterel. (Expedia)",
+            "Architecture moderniste très stylée inspirée des années 50. (Trip.com)",
+            "Tranquillité absolue sur la corniche. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Isolement naturel impliquant une voiture",
-            "Pas d'accès plage de sable (criques rocheuses)",
-            "Prix des prestations très élevés",
-            "Saisonnalité importante",
-            "Espace plage/rocher qui peut être glissant",
-            "Réservation des transats très disputée"
+            "Isolement naturel impliquant d'avoir une voiture. (Booking.com)",
+            "Absence de plage de sable fin (uniquement des criques rocheuses). (TripAdvisor)"
         ],
         "equipements": [
             "5 étoiles",
@@ -432,18 +582,41 @@
             "style": "Hôtel balnéaire moderniste",
             "verdict": "Le summum du luxe méditerranéen simple et chic, tourné vers la mer."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 450+ avis clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,0/10",
+            "source_principale": "Contenu résumé par IA sur la base de 450+ avis clients",
+            "points_cles_avis": "Plébiscité pour sa piscine naturelle d'eau de mer, son design années 50 et son cadre sauvage."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Hôtel Les Roches Rouges",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "380€ - 700€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.50",
+                "bestRating": "5",
+                "reviewCount": "450"
+            }
+        }
     },
-"Camping Les Palmiers": {
+    "Camping Les Palmiers": {
         "pays": "France",
         "ville": "Hyères",
         "etoiles": "Camping 4 étoiles",
         "lien_booking": "https://www.booking.com/hotel/fr/camping-les-palmiers.fr.html?aid=818289",
-        "lien_expedia": "https://www.expedia.fr/Hyeres-Hotel-Camping-Tikayan-Les-Palmiers.h88212355.Description-Hotel",
+        "lien_expedia": "https://www.expedia.fr/Hyères-Hotel-Camping-Tikayan-Les-Palmiers.h88212355.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/621665034.jpg?k=67d58d32e841c2f2c69e617473fccd66dcd18485dc7cf56524b2e803478ea3db&o=",
+        "image_alt": "Camping Les Palmiers - camping-village club 4 étoiles avec parc aquatique à Hyères Var",
+        "meta_title": "Camping Les Palmiers Hyères 4* : Avis & Prix Parc Aquatique & Plage 2026",
+        "meta_description": "Camping Les Palmiers, camping 4* à Hyères : parc aquatique avec toboggans, spa, mobil-homes climatisés à 450m de la plage. Avis 7,7/10, notes détaillées, prix, réservation Booking & Expedia.",
         "description": "Situé à seulement 450 mètres de la plage et à 6 km du centre de Hyères, le Camping Les Palmiers propose un vaste complexe de loisirs en plein air. Cet établissement 4 étoiles dispose d'un grand parc aquatique comprenant une piscine extérieure avec cascade, des toboggans et une piscine chauffée, ainsi qu'un espace spa avec hammam, sauna et salle de sport. Les hébergements en mobil-homes climatisés disposent d'une cuisine équipée et d'une terrasse. Le camping propose également un restaurant-pizzeria, un bar, des animations en saison, des aires de jeux et de nombreuses activités sportives.",
         "prix_moyen": "70€ - 160€ / nuit (selon saison et mobil-home)",
-        "avis": "7,7/10 Bien",
+        "avis": "7,7/10",
         "notes_categories": {
             "personnel": "8,3/10",
             "equipements": "7,7/10",
@@ -453,16 +626,14 @@
             "situation_geographique": "7,9/10"
         },
         "points_positifs": [
-            "Superbe complexe aquatique avec piscines, cascade et toboggans",
-            "Proximité de la plage (450 mètres à pied)",
-            "Mobil-homes fonctionnels dotés de la climatisation et de terrasses agréables",
-            "Équipe d'animation sympathique et nombreuses activités familiales",
-            "Présence d'un restaurant-pizzeria, d'un bar et d'une supérette sur place"
+            "Superbe complexe aquatique avec piscines, cascade et toboggans. (Booking.com)",
+            "Proximité immédiate de la plage (450 mètres à pied). (Expedia)",
+            "Mobil-homes fonctionnels dotés de la climatisation et de terrasses. (Trip.com)",
+            "Équipe d'animation sympathique et nombreuses activités familiales. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Proximité de l'aéroport d'Hyères entraînant parfois des nuisances sonores liées au passage des avions",
-            "Affluence importante en haute saison au niveau des espaces aquatiques",
-            "Règles et animations estivales parfois jugées un peu bruyantes par certains vacanciers cherchant le calme absolu"
+            "Proximité de l'aéroport d'Hyères pouvant générer de légères nuisances sonores. (Booking.com)",
+            "Affluence importante en haute saison dans les espaces aquatiques. (TripAdvisor)"
         ],
         "equipements": [
             "Camping 4 étoiles",
@@ -481,6 +652,26 @@
             "style": "Camping-village club 4 étoiles avec parc aquatique",
             "verdict": "Une excellente option pour des vacances en famille rythmées, entre grand complexe aquatique, animations et proximité de la plage d'Hyères."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 888 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "7,7/10",
+            "source_principale": "Contenu résumé par IA sur la base de 888 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son grand parc aquatique, ses mobil-homes climatisés et sa proximité avec la plage."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Campground",
+            "name": "Camping Les Palmiers",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "70€ - 160€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "3.85",
+                "bestRating": "5",
+                "reviewCount": "888"
+            }
+        }
     }
 }

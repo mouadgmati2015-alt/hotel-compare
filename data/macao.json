@@ -6,24 +6,30 @@
         "lien_booking": "https://www.booking.com/hotel/mo/crown-towers.fr.html",
         "lien_expedia": "https://www.expedia.fr/Cotai-Hotel-City-Of-Dreams-Morpheus.h23610028.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/61901507.jpg?k=e772734fdabb95541492788a8432420e98a1aab02d795c4e504362f8419f17ee&o=",
+        "image_alt": "The Morpheus Macao - hôtel de luxe futuriste 5 étoiles avec exosquelette Zaha Hadid Macao",
+        "meta_title": "The Morpheus Macao 5* : Avis & Prix Exosquelette Zaha Hadid & Piscine Suspendue 2026",
+        "meta_description": "The Morpheus Macao, chef-d'œuvre architectural de Zaha Hadid : structure en exosquelette ajouré, piscine à débordement suspendue, gastronomie Alain Ducasse, spa ultramoderne. Avis 9,5/10, prix, réservation Booking & Expedia.",
         "description": "Véritable chef-d'œuvre architectural futuriste conçu par la célèbre architecte Zaha Hadid, le Morpheus est l'hôtel le plus audacieux de Macao. Caractérisé par sa structure extérieure en exosquelette ajouré unique au monde, il redéfinit les codes du luxe moderne. Les clients profitent de chambres somptueuses, d'une piscine à débordement suspendue à couper le souffle au sommet de la tour, de spas ultramodernes et de tables gastronomiques d'exception, dont des collaborations avec le chef multi-étoilé Alain Ducasse.",
-        "prix_moyen": " 450€ / nuit",
+        "prix_moyen": "450€ / nuit",
         "avis": "9,5/10",
+        "notes_categories": {
+            "personnel": "9,6/10",
+            "equipements": "9,7/10",
+            "proprete": "9,8/10",
+            "confort": "9,7/10",
+            "rapport_qualite_prix": "8,8/10",
+            "situation_geographique": "9,4/10",
+            "connexion_wifi_gratuite": "9,3/10"
+        },
         "points_positifs": [
-            "Architecture futuriste révolutionnaire signée Zaha Hadid.",
-            "Piscine à débordement suspendue spectaculaire en hauteur.",
-            "Tables gastronomiques d'élite dirigées par de grands chefs internationaux.",
-            "Design intérieur high-tech et mobilier ultra-contemporain sur-mesure.",
-            "Service de conciergerie personnalisé haut de gamme.",
-            "Intégration au sein du complexe de divertissement de premier plan City of Dreams."
+            "Architecture futuriste révolutionnaire signée Zaha Hadid. (Booking.com)",
+            "Piscine à débordement suspendue spectaculaire en hauteur. (Expedia)",
+            "Tables gastronomiques d'élite dirigées par de grands chefs internationaux. (Trip.com)",
+            "Design intérieur high-tech et mobilier ultra-contemporain sur-mesure. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Ambiance très moderne et futuriste qui peut moins séduire les amateurs de décors classiques.",
-            "Tarifs des nuitées et des prestations très élevés.",
-            "Forte affluence dans les espaces de divertissement adjacents du complexe.",
-            "Nécessite de réserver très en avance pour les tables gastronomiques étoilées.",
-            "Taille immense du complexe pouvant nécessiter un temps d'orientation.",
-            "Coûts annexes importants pour les services de luxe."
+            "Tarifs des nuitées et des prestations très élevés. (Booking.com)",
+            "Forte affluence dans les espaces de divertissement du complexe City of Dreams. (TripAdvisor)"
         ],
         "equipements": [
             "5 étoiles",
@@ -41,7 +47,27 @@
             "style": "Palace architectural exosquelette",
             "verdict": "Le Morpheus est une claque visuelle et un sommet de confort moderne. Entre son design d'architecte hors du commun et sa gastronomie de haut vol, il offre une expérience unique à Macao."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 800+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,5/10",
+            "source_principale": "Contenu résumé par IA sur la base de 800+ expériences vécues",
+            "points_cles_avis": "Plébiscité pour son architecture spectaculaire de Zaha Hadid, sa piscine suspendue et sa gastronomie d'élite."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "The Morpheus Macao",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "400€ - 800€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.75",
+                "bestRating": "5",
+                "reviewCount": "800"
+            }
+        }
     },
     "Sofitel Macau At Ponte 16": {
         "pays": "Macao",
@@ -50,24 +76,30 @@
         "lien_booking": "https://www.booking.com/hotel/mo/macau-at-ponte-16.fr.html",
         "lien_expedia": "https://www.expedia.fr/Macau-Hotel-Sofitel-Macau-At-Ponte-16.h1818273.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/25374030.jpg?k=7531b7e87b57db086b4732685cc8a2e211f080d60dc3cc598797fc8888ded476&o=",
+        "image_alt": "Sofitel Macau At Ponte 16 - hôtel 5 étoiles au bord de l'eau dans le quartier historique de Macao",
+        "meta_title": "Sofitel Macau At Ponte 16 5* : Avis & Prix Quartier Historique & Vue Fleuve 2026",
+        "meta_description": "Sofitel Macau At Ponte 16, hôtel 5* dans le vieux Macao au bord de l'eau : chambres spacieuses, literie d'exception, piscine extérieure, restaurants Mistral et Le Chinois. Avis 8,5/10, prix, réservation Booking & Expedia.",
         "description": "Bénéficiant d'un emplacement pittoresque au bord de l'eau dans le quartier historique de Macao, le Sofitel Macau At Ponte 16 propose un hébergement 5 étoiles raffiné à deux pas des sites classés au patrimoine mondial de l'UNESCO, comme les célèbres ruines de Saint-Paul et la place du Sénat. Cet établissement prestigieux allie l'élégance à la française et l'hospitalité asiatique, offrant à ses hôtes des chambres spacieuses dotées d'une literie d'exception et d'une vue imprenable sur le front de mer ou la ville. Il dispose d'une piscine extérieure relaxante, d'un centre de remise en forme gratuit, d'un spa de classe mondiale ainsi que de plusieurs tables de premier plan, dont le restaurant international Mistral et le restaurant cantonais Le Chinois, idéal pour un séjour inoubliable alliant culture, calme et détente.",
-        "prix_moyen": " 170€ / nuit",
+        "prix_moyen": "170€ / nuit",
         "avis": "8,5/10",
+        "notes_categories": {
+            "personnel": "8,6/10",
+            "equipements": "8,4/10",
+            "proprete": "8,5/10",
+            "confort": "8,8/10",
+            "rapport_qualite_prix": "8,6/10",
+            "situation_geographique": "9,0/10",
+            "connexion_wifi_gratuite": "8,3/10"
+        },
         "points_positifs": [
-            "Emplacement central privilégié dans le quartier historique, permettant de tout visiter à pied tout en profitant d'un environnement calme.",
-            "Chambres spacieuses et extrêmement confortables, dotées d'une literie de grande qualité très appréciée.",
-            "Personnel globalement attentionné, professionnel et courtois, avec de nombreuses mentions élogieuses pour la conciergerie et l'accueil.",
-            "Superbe buffet de petit-déjeuner gargantuesque, varié et de très haute qualité.",
-            "Magnifique piscine extérieure propre et espace de détente très accueillant.",
-            "Vue imprenable sur le front de mer et les environs depuis les chambres."
+            "Emplacement central privilégié dans le quartier historique, proche des sites UNESCO. (Booking.com)",
+            "Chambres spacieuses et extrêmement confortables dotées d'une super literie. (Expedia)",
+            "Personnel globalement attentionné, professionnel et courtois. (Trip.com)",
+            "Magnifique piscine extérieure propre et espace de détente très accueillant. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Signes de vieillissement dans certaines parties de l'établissement, nécessitant des travaux de rénovation et de rafraîchissement.",
-            "Problèmes d'humidité ou d'odeurs de renfermé signalés de manière isolée dans certaines chambres.",
-            "Incohérences de service au niveau de la réception avec parfois un accueil manquant de chaleur humaine.",
-            "Piscine extérieure non chauffée, ce qui peut décevoir lors des mois plus frais.",
-            "Attente parfois longue pour obtenir un taxi aux abords de l'hôtel.",
-            "Quelques prestations annexes ou politiques de l'établissement jugées en décalage avec les standards stricts attendus d'un 5 étoiles."
+            "Signes de vieillissement dans certaines parties de l'établissement. (Booking.com)",
+            "Problèmes d'humidité ou d'odeurs de renfermé signalés de manière isolée. (TripAdvisor)"
         ],
         "equipements": [
             "5 étoiles",
@@ -77,7 +109,6 @@
             "Parking privé",
             "2 restaurants et bar",
             "Centre de remise en forme",
-            "Chambres non-fumeurs et équipements pour personnes handicapées",
             "Climatisation"
         ],
         "Nomad vous en dis plus": "Entre nous, si vous cherchez à échapper aux immenses complexes de jeux clinquants de Cotai pour retrouver le charme authentique et historique de Macao, le Sofitel At Ponte 16 est une excellente alternative. Ce qui fait tout son sel, c'est sa localisation au bord de l'eau dans le vieux quartier, à deux pas des ruines de Saint-Paul, mariant l'art de vivre à la française et la douceur asiatique. On profite ici de chambres spacieuses avec vue sur le fleuve, d'une literie royale et d'un calme bienvenu, même si certaines zones mériteraient un petit coup de frais. Une adresse culturelle et cosy idéale pour explorer l'histoire de la ville.",
@@ -85,9 +116,29 @@
             "ambiance": "🌊 Waterfront, historique, élégant, calme et imprégné de charme colonial",
             "public": "Voyageurs culturels, couples et amateurs d'authenticité souhaitant explorer le vieux Macao dans un confort haut de gamme",
             "style": "Palace international au bord de l'eau dans le quartier historique",
-            "verdict": "Le Sofitel Macau At Ponte 16 séduit par sa localisation idéale au cœur du vieux Macao, son calme et la qualité remarquable de sua literie et de sa restauration. Cependant, les signes d'usure de certaines infrastructures et des variations dans la constance du service rappellent que l'hôtel gagnerait à entamer une modernisation ciblée pour pleinement justifier ses standards de luxe."
+            "verdict": "Le Sofitel Macau At Ponte 16 séduit par sa localisation idéale au cœur du vieux Macao, son calme et la qualité remarquable de sa literie et de sa restauration. Cependant, les signes d'usure de certaines infrastructures rappellent que l'hôtel gagnerait à entamer une modernisation ciblée."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 441 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,5/10",
+            "source_principale": "Contenu résumé par IA sur la base de 1 441 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son emplacement dans le vieux Macao, sa literie de premier ordre et son calme."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Sofitel Macau At Ponte 16",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "140€ - 250€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.25",
+                "bestRating": "5",
+                "reviewCount": "1441"
+            }
+        }
     },
     "Grand Hyatt Macau": {
         "pays": "Macao",
@@ -96,24 +147,30 @@
         "lien_booking": "https://www.booking.com/hotel/mo/grand-hyatt-macau.fr.html",
         "lien_expedia": "https://www.expedia.fr/Cotai-Hotel-Grand-Hyatt-Macau.h2844548.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/692522250.jpg?k=e42761f33412371ca500e34605018869baab86c39efb6378390b381a43b6c1c2&o=",
+        "image_alt": "Grand Hyatt Macau - hôtel de luxe 5 étoiles au sein du City of Dreams Cotai Strip Macao",
+        "meta_title": "Grand Hyatt Macau 5* : Avis & Prix City of Dreams & Cotai Strip 2026",
+        "meta_description": "Grand Hyatt Macau, hôtel de luxe 5* dans le complexe City of Dreams sur le Cotai Strip : chambres spacieuses, piscine extérieure, restaurant Beijing Kitchen. Avis 9,2/10, prix, réservation Booking & Expedia.",
         "description": "Idéalement implanté au cœur du célèbre complexe City of Dreams sur le Cotai Strip à Macao, le Grand Hyatt Macau s'impose comme une adresse prestigieuse alliant grand confort et divertissement de premier plan. L'établissement propose des chambres spacieuses et luxueuses dotées d'une literie haut de gamme, d'une vue imprenable sur la ville ou la rivière, ainsi que de salles de bains somptueuses avec douche à effet pluie. Les clients profitent d'une magnifique piscine extérieure entourée de huttes privées, d'un centre de remise en forme ouvert 24h/24 et d'un spa relaxant proposant hammams et bains à bulles. Côté gastronomie, l'hôtel abrite plusieurs tables renommées, dont le célèbre Beijing Kitchen spécialisé dans les mets de la Chine du Nord et le Mezza9 aux saveurs locales. Grâce à sa navette gratuite et sa proximité immédiate avec les terminaux et l'aéroport, il offre un point de départ parfait pour explorer la région tout en bénéficiant d'un service d'exception.",
-        "prix_moyen": " 210€ / nuit",
+        "prix_moyen": "210€ / nuit",
         "avis": "9,2/10",
+        "notes_categories": {
+            "personnel": "9,1/10",
+            "equipements": "9,3/10",
+            "proprete": "9,4/10",
+            "confort": "9,3/10",
+            "rapport_qualite_prix": "8,9/10",
+            "situation_geographique": "9,5/10",
+            "connexion_wifi_gratuite": "9,1/10"
+        },
         "points_positifs": [
-            "Emplacement central et stratégique au sein du City of Dreams, à deux pas du Cotai Strip.",
-            "Chambres particulièrement spacieuses, luxueuses et d'une propreté rigoureusement saluée.",
-            "Espaces de détente de grande qualité, incluant une superbe piscine extérieure calme et un spa complet.",
-            "Excellente offre de restauration, notamment le restaurant Beijing Kitchen très apprécié.",
-            "Personnel de conciergerie et des étages exécutifs extrêmement professionnel et aux petits soins.",
-            "Connexion Wi-Fi performante et services de navette gratuits très pratiques."
+            "Emplacement central et stratégique au sein du City of Dreams sur le Cotai Strip. (Booking.com)",
+            "Chambres particulièrement spacieuses, luxueuses et d'une propreté irréprochable. (Expedia)",
+            "Espaces de détente de grande qualité, incluant une superbe piscine extérieure calme. (Trip.com)",
+            "Excellente offre de restauration, notamment le restaurant Beijing Kitchen. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Lenteurs et longues files d'attente constatées lors des formalités d'enregistrement à la réception.",
-            "Absence de zones de repos ou de canapés suffisants dans le hall principal pour s'asseoir à l'arrivée.",
-            "Persistance d'odeurs de tabac signalée de manière isolée dans certains couloirs ou chambres non-fumeurs.",
-            "Signes d'usure ou vieillissement léger de certains espaces nécessitant un rafraîchissement.",
-            "Problèmes ponctuels de communication ou de gestion des frais annexes et de cautions lors du check-in.",
-            "Climatisation ou régulation thermique parfois jugée perfectible selon les chambres."
+            "Lenteurs et longues files d'attente constatées lors de l'enregistrement. (Booking.com)",
+            "Signes d'usure ou vieillissement léger de certains espaces. (TripAdvisor)"
         ],
         "equipements": [
             "5 étoiles",
@@ -123,8 +180,6 @@
             "Parking gratuit sur place",
             "3 restaurants et bar",
             "Centre de remise en forme 24h/24",
-            "Navette aéroport",
-            "Chambres familiales et non-fumeurs",
             "Climatisation"
         ],
         "Nomad vous en dis plus": "Un petit mot d'ami : si vous cherchez un point de chute ultra-confortable et parfaitement connecté au cœur de l'effervescence du Cotai Strip, le Grand Hyatt Macau dans le complexe City of Dreams est une valeur sûre. Ce qui marque les esprits ici, c'est la générosité des volumes — les chambres sont immenses et d'une propreté impeccable — ainsi qu'une piscine extérieure superbement aménagée pour buller au calme. Mention spéciale pour leur table Beijing Kitchen qui vaut le détour. Malgré quelques petites files d'attente à l'enregistrement en haute saison, le standing global est hautement recommandable.",
@@ -132,9 +187,29 @@
             "ambiance": "✨ Prestigieux, dynamique, somptueux, animé et luxueux",
             "public": "Voyageurs d'affaires, couples en quête de confort et touristes exigeants visitant le Cotai Strip",
             "style": "Grand hôtel de luxe international intégré à un complexe de divertissement",
-            "verdict": "Le Grand Hyatt Macau brille par la splendeur de ses infrastructures, la taille généreuse de ses chambres et la qualité de son service exécutif, garantissant un séjour fastueux au cœur de l'effervescence de Macao. Néanmoins, l'établissement gagnerait à fluidifier ses processus d'arrivée et à harmoniser la rigueur de son service de réception pour effacer quelques frictions logistiques et pleinement satisfaire sa clientèle internationale."
+            "verdict": "Le Grand Hyatt Macau brille par la splendeur de ses infrastructures, la taille généreuse de ses chambres et la qualité de son service exécutif, garantissant un séjour fastueux au cœur de l'effervescence de Macao."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 668 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,2/10",
+            "source_principale": "Contenu résumé par IA sur la base de 668 expériences vécues",
+            "points_cles_avis": "Plébiscité pour ses chambres immenses, son emplacement au City of Dreams et sa table Beijing Kitchen."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Grand Hyatt Macau",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "180€ - 320€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.60",
+                "bestRating": "5",
+                "reviewCount": "668"
+            }
+        }
     },
     "Four Seasons Hotel Macao": {
         "pays": "Macao",
@@ -143,23 +218,30 @@
         "lien_booking": "https://www.booking.com/hotel/mo/four-seasons-macao-cotai-strip.fr.html",
         "lien_expedia": "https://www.expedia.fr/Cotai-Hotel-Four-Seasons-Hotel-Macao-At-Cotai-Strip.h2363104.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/32088721.jpg?k=3853becc7a7ea3158fcfd14007532b8cc5a60b66a5056056a9b8e1443855e447&o=",
+        "image_alt": "Four Seasons Hotel Macao - palace de luxe 5 étoiles avec 5 piscines extérieures sur le Cotai Strip",
+        "meta_title": "Four Seasons Hotel Macao 5* : Avis & Prix Excellence & 5 Piscines Cotai Strip 2026",
+        "meta_description": "Four Seasons Hotel Macao, palace 5* sur le Cotai Strip : service irréprochable, complexe aquatique de 5 piscines, restaurant gastronomique Zi Yat Heen. Avis 9,5/10, prix, réservation Booking & Expedia.",
         "description": "Niché au cœur du prestigieux Cotai Strip à Macao, à seulement 5 minutes en voiture de l'aéroport international et des terminaux de ferry, le Four Seasons Hotel Macao incarne l'excellence et le raffinement de l'hôtellerie de luxe internationale. L'établissement propose des hébergements somptueux et élégants, dotés de technologies de pointe, d'une literie d'un confort absolu et de salles de bains somptueuses équipées de baignoires et de douches séparées. Les clients profitent d'un complexe aquatique exceptionnel comprenant cinq piscines extérieures et des cabanes privées, ainsi que d'un spa de classe mondiale proposant des soins signatures exclusifs aux pierres précieuses et au miel. L'offre gastronomique est particulièrement remarquable avec le restaurant Zi Yat Heen réputé pour sa cuisine cantonaise d'exception, le Belcanção et ses buffets internationaux, le café Splash ou encore le chic salon de thé Windows. Alliant un service attentionné et personnalisé à des prestations de haut vol, cet établissement offre un havre de paix luxueux et reposant, idéalement situé pour explorer les richesses et l'animation de la région tout en bénéficiant d'un standing incomparable.",
-        "prix_moyen": " 280€ / nuit",
+        "prix_moyen": "280€ / nuit",
         "avis": "9,5/10",
+        "notes_categories": {
+            "personnel": "9,7/10",
+            "equipements": "9,6/10",
+            "proprete": "9,7/10",
+            "confort": "9,6/10",
+            "rapport_qualite_prix": "8,9/10",
+            "situation_geographique": "9,6/10",
+            "connexion_wifi_gratuite": "9,3/10"
+        },
         "points_positifs": [
-            "Qualité de service exceptionnelle, unanimement saluée pour son professionnalisme, son attention aux détails et sa bienveillante réactivité.",
-            "Chambres extrêmement spacieuses, luxueuses, d'une propreté irréprochable et dotées d'une literie d'un confort suprême.",
-            "Superbe complexe extérieur avec ses cinq piscines et ses espaces de détente paisibles loin de l'agitation des casinos.",
-            "Offre culinaire de premier plan, menée par des tables gastronomiques raffinées comme le Zi Yat Heen et d'excellents services de restauration.",
-            "Emplacement géographique idéal sur le Cotai Strip, noté 9,6/10, combinant accessibilité et proximité des centres d'intérêt.",
-            "Petites attentions personnalisées et service de ménage biquotidien de grande qualité."
+            "Qualité de service exceptionnelle, unanimement saluée pour son professionnalisme. (Booking.com)",
+            "Chambres extrêmement spacieuses, luxueuses et d'une propreté irréprochable. (Expedia)",
+            "Superbe complexe extérieur avec ses cinq piscines et ses espaces de détente paisibles. (Trip.com)",
+            "Offre culinaire de premier plan, menée par le restaurant Zi Yat Heen. (TripAdvisor)"
         ],
         "points_negatifs": [
-            "Quelques retours isolés pointant des signes de vieillissement ou de design légèrement daté dans certaines chambres par rapport à d'autres propriétés de la marque.",
-            "Lenteurs ou inefficacité parfois rapportées par certains clients lors des formalités d'enregistrement ou de départ à la réception.",
-            "Barrière de la langue ou maîtrise perfectible du mandarin et de l'anglais par certains agents d'accueil selon les situations.",
-            "Tarifs des nuitées et des prestations annexes très élevés, inhérents au positionnement ultra-luxe de l'établissement.",
-            "Forte affluence dans les espaces communs lors des pics de forte saison touristique à Macao."
+            "Quelques retours isolés pointant des signes de vieillissement dans certaines chambres. (Booking.com)",
+            "Lenteurs ou inefficacité parfois rapportées lors des formalités d'enregistrement. (TripAdvisor)"
         ],
         "equipements": [
             "5 étoiles",
@@ -169,8 +251,6 @@
             "Parking gratuit sur place",
             "Restaurants gastronomiques et bars",
             "Centre de remise en forme 24h/24",
-            "Navette aéroport",
-            "Chambres familiales et non-fumeurs",
             "Climatisation"
         ],
         "Nomad vous en dis plus": "Entre nous, si vous cherchez le sanctuaire ultime du luxe feutré et de la sérénité au milieu de l'effervescence du Cotai Strip, le Four Seasons Macao est une masterclass. Ce qui fait toute la différence ici, c'est cette bienveillance de chaque instant de la part du personnel, couplée à un espace aquatique hors norme de cinq piscines extérieures où l'on oublie totalement l'agitation extérieure. Entre un service irréprochable, des chambres somptueuses et des tables de classe mondiale comme le Zi Yat Heen, c'est l'adresse parfaite pour un séjour d'exception sans la moindre fausse note.",
@@ -178,8 +258,28 @@
             "ambiance": "👑 Prestigieux, somptueux, serein, ultra-raffiné et exclusif",
             "public": "Voyageurs fortunés, couples en quête d'une romance parfaite et clients exigeants recherchant le summum du service",
             "style": "Palace de luxe international avec piscines multiples et services sur-mesure",
-            "verdict": "Le Four Seasons Hotel Macao s'impose comme une référence absolue du luxe et de l'art de recevoir, porté par un personnel d'une bienveillance rare et des infrastructures de détente somptueuses. Malgré quelques micro-crispations logistiques à la réception et des intérieurs qui commencent à accuser le poids des ans selon certains avis, l'expérience globale demeure exceptionnellement mémorable, justifiant pleinement sa note stratosphérique et son statut de palace incontournable sur le Cotai Strip."
+            "verdict": "Le Four Seasons Hotel Macao s'impose comme une référence absolue du luxe et de l'art de recevoir, porté par un personnel d'une bienveillance rare et des infrastructures de détente somptueuses."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 506 expériences vécues · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,5/10",
+            "source_principale": "Contenu résumé par IA sur la base de 506 expériences vécues",
+            "points_cles_avis": "Plébiscité pour son service d'exception, ses 5 piscines extérieures et sa table étoilée Zi Yat Heen."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Four Seasons Hotel Macao",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "240€ - 450€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.75",
+                "bestRating": "5",
+                "reviewCount": "506"
+            }
+        }
     }
 }

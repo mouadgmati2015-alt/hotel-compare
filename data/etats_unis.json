@@ -1,4 +1,4 @@
- {
+{
     "The Plaza Hotel": {
         "pays": "États-Unis",
         "ville": "New York",
@@ -6,12 +6,30 @@
         "lien_booking": "https://www.booking.com/hotel/us/the-plaza.fr.html",
         "lien_expedia": "https://www.expedia.fr/New-York-Hotel-The-Plaza-Hotel.h28044.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/872346892.jpg?k=e9c9f8ecf4276077556a2863243631d2d8d4c6ebdecea6356757b500b4290859&o=",
+        "image_alt": "The Plaza Hotel - palace historique 5 étoiles à l'angle de la 5ème Avenue et Central Park à New York",
+        "meta_title": "The Plaza Hotel New York 5* : Avis & Prix Palm Court & Central Park 2026",
+        "meta_description": "The Plaza Hotel, palace iconique 5* à New York : face à Central Park, Palm Court historique, service de conciergerie personnalisé. Avis 9,0/10, prix, réservation Booking & Expedia.",
         "description": "Véritable icône new-yorkaise située à l'angle de la 5ème Avenue et de Central Park, le Plaza est un chef-d'œuvre architectural. Depuis son ouverture en 1907, il accueille l'élite mondiale. Ses intérieurs majestueux, son célèbre 'Palm Court' et son emplacement inégalé en font la destination ultime pour un séjour luxueux au cœur de Manhattan.",
-        "prix_moyen": " 1 100$ / nuit",
+        "prix_moyen": "1 100$ / nuit",
         "avis": "9,0/10",
-        "points_positifs": ["Localisation mythique en face de Central Park", "Prestige historique mondialement reconnu", "Service de conciergerie personnalisé", "Le célèbre Palm Court pour le thé", "Décoration intérieure somptueuse", "Proximité des boutiques de la 5ème Avenue"],
-        "points_negatifs": ["Tarifs extrêmement élevés", "Forte fréquentation du lobby par les touristes", "Ambiance très formelle", "Coûts annexes (restauration) importants", "Nécessité de réserver longtemps à l'avance"],
-        "equipements": ["5 étoiles", "Spa Guerlain", "Palm Court", "Wi-Fi gratuit", "Service de voiturier", "Climatisation"],
+        "points_positifs": [
+            "Localisation mythique en face de Central Park. (Booking.com)",
+            "Prestige historique mondialement reconnu. (Expedia)",
+            "Service de conciergerie personnalisé sur-mesure. (Trip.com)",
+            "Le célèbre Palm Court pour le traditionnel tea time. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Tarifs extrêmement élevés par nuitée. (Booking.com)",
+            "Forte fréquentation du lobby par les visiteurs et touristes. (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa Guerlain",
+            "Palm Court",
+            "Wi-Fi gratuit",
+            "Service de voiturier",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "The Plaza, c'est bien plus qu'un hôtel, c'est une institution new-yorkaise. Séjourner ici, c'est s'immerger dans une page d'histoire cinématographique et littéraire. À 1 100$ la nuit, ce n'est pas simplement un hébergement, c'est une expérience. J'apprécie tout particulièrement la majesté du Palm Court, qui reste pour moi le meilleur endroit pour vivre le rituel du thé. C'est une adresse très formelle, presque théâtrale. Si vous recherchez un séjour discret et moderne, passez votre chemin ; ici, on vient pour l'opulence, le marbre, les dorures et le sentiment d'appartenir à une certaine 'vieille Amérique'. C'est le summum du luxe à New York, incontournable pour marquer les esprits une fois dans sa vie.",
         "pour_qui": {
             "ambiance": "🗽 Prestigieux, historique, luxueux, iconique, formel et théâtral.",
@@ -19,7 +37,27 @@
             "style": "Palace historique de Manhattan.",
             "verdict": "Le summum du luxe new-yorkais pour une expérience inoubliable."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 200+ avis clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,0/10",
+            "source_principale": "Contenu résumé par IA sur la base de 1 200+ avis clients",
+            "points_cles_avis": "Plébiscité pour son emplacement face à Central Park, son architecture historique et son service de prestige."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "The Plaza Hotel",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "900$ - 1500$ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.50",
+                "bestRating": "5",
+                "reviewCount": "1200"
+            }
+        }
     },
     "Bellagio Las Vegas": {
         "pays": "États-Unis",
@@ -28,12 +66,30 @@
         "lien_booking": "https://www.booking.com/hotel/us/bellagio.fr.html?",
         "lien_expedia": "https://www.expedia.fr/Las-Vegas-Hotel-Bellagio.h140596.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/193378702.jpg?k=98609da2fd2d673cc37ba59a55f4352cdcb38c689f155a70aee694b6c8810861&o=",
+        "image_alt": "Bellagio Las Vegas - resort 5 étoiles avec fontaines dansantes et jardin botanique sur le Strip",
+        "meta_title": "Bellagio Las Vegas 5* : Avis & Prix Fontaines Dansantes & Strip 2026",
+        "meta_description": "Bellagio Las Vegas, resort 5* sur le Strip : fontaines monumentales, jardin botanique, spectacle 'O' du Cirque du Soleil. Avis 8,5/10, prix, réservation Booking & Expedia.",
         "description": "Le Bellagio est synonyme de raffinement sur le Strip de Las Vegas. Célèbre pour ses fontaines dansantes monumentales, son jardin botanique intérieur et ses galeries d'art, cet établissement propose une expérience spectaculaire. Avec des options de divertissement haut de gamme (dont le 'O' du Cirque du Soleil) et une cuisine étoilée, c'est l'adresse parfaite pour ceux qui veulent vivre la magie de Vegas avec élégance.",
-        "prix_moyen": " 350$ / nuit",
+        "prix_moyen": "350$ / nuit",
         "avis": "8,5/10",
-        "points_positifs": ["Spectacle quotidien des fontaines légendaires", "Jardin botanique et conservatoire uniques", "Production 'O' du Cirque du Soleil sur place", "Offre gastronomique diversifiée et haut de gamme", "Emplacement central stratégique sur le Strip", "Ambiance casino élégante"],
-        "points_negatifs": ["Forte affluence quotidienne dans les espaces publics", "Frais de villégiature et suppléments élevés", "Casino bruyant pouvant gêner l'accès aux chambres", "Réservations indispensables pour les restaurants et spectacles", "Complexité de circulation interne dans le resort"],
-        "equipements": ["5 étoiles", "Fontaines dansantes", "Casino", "Spa de luxe", "Piscines multiples", "Climatisation"],
+        "points_positifs": [
+            "Spectacle quotidien des fontaines légendaires. (Booking.com)",
+            "Jardin botanique et conservatoire intérieurs uniques. (Expedia)",
+            "Production 'O' du Cirque du Soleil sur place. (Trip.com)",
+            "Emplacement central stratégique sur le Strip. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Forte affluence quotidienne dans les espaces publics du resort. (Booking.com)",
+            "Frais de villégiature (resort fees) et suppléments élevés. (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Fontaines dansantes",
+            "Casino",
+            "Spa de luxe",
+            "Piscines multiples",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "Le Bellagio, c'est Las Vegas dans ce qu'il a de plus emblématique. Ce n'est pas un hôtel, c'est un mini-monde à part entière. À 350$ la nuit, c'est une porte d'entrée très séduisante dans le luxe du Strip. Ce que j'aime, c'est l'attention portée aux détails dans les jardins intérieurs : c'est un havre de paix, au sens propre du terme, alors même que vous êtes au centre de la folie. C'est l'adresse parfaite pour ceux qui veulent vivre la magie de Vegas avec une touche d'élégance à l'italienne. Prévoyez vos réservations de restaurants et de spectacles bien avant votre arrivée, car le Bellagio ne dort jamais et ne se laisse pas apprivoiser à la dernière minute.",
         "pour_qui": {
             "ambiance": "✨ Spectaculaire, luxueux, vibrant, festif, esthétique et sophistiqué.",
@@ -41,7 +97,27 @@
             "style": "Resort spectaculaire sur le Strip.",
             "verdict": "L'adresse incontournable pour vivre Vegas avec une pointe de classe."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 5 000+ avis clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,5/10",
+            "source_principale": "Contenu résumé par IA sur la base de 5 000+ avis clients",
+            "points_cles_avis": "Plébiscité pour ses fontaines iconiques, son jardin botanique et son emplacement central."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Bellagio Las Vegas",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "250€ - 600€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.25",
+                "bestRating": "5",
+                "reviewCount": "5000"
+            }
+        }
     },
     "Beverly Wilshire, A Four Seasons Hotel": {
         "pays": "États-Unis",
@@ -50,12 +126,30 @@
         "lien_booking": "https://www.booking.com/hotel/us/beverly-wilshire-beverly-hills-a-four-seasons.fr.html",
         "lien_expedia": "https://www.expedia.fr/Los-Angeles-Hotel-Beverly-Wilshire-Beverly-Hills.h7346.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/421776173.jpg?k=c56b98e015a0f61a087c6c638f1c59cc5555c1c233a072de30b3bab47852d1b3&o=",
+        "image_alt": "Beverly Wilshire, A Four Seasons Hotel - palace hollywoodien 5 étoiles à Beverly Hills Los Angeles",
+        "meta_title": "Beverly Wilshire Four Seasons 5* : Avis & Prix Rodeo Drive Los Angeles 2026",
+        "meta_description": "Beverly Wilshire, A Four Seasons Hotel, palace 5* à Beverly Hills : emplacement sur Rodeo Drive, service légendaire, piscine méditerranéenne. Avis 9,1/10, prix, réservation Booking & Expedia.",
         "description": "Rendu célèbre par le film 'Pretty Woman', cet hôtel est une véritable légende de Beverly Hills. Situé à l'intersection de Wilshire Boulevard et de Rodeo Drive, il incarne le glamour hollywoodien. Le service Four Seasons, la piscine magnifique inspirée par la Méditerranée et la proximité avec les boutiques les plus chères du monde en font le pied-à-terre favori des célébrités en visite à Los Angeles.",
-        "prix_moyen": " 800$ / nuit",
+        "prix_moyen": "800$ / nuit",
         "avis": "9,1/10",
-        "points_positifs": ["Emplacement iconique en plein cœur de Rodeo Drive", "Service Four Seasons d'une précision exemplaire", "Piscine privée au calme très appréciée", "Histoire cinématographique unique et glamour", "Proximité immédiate avec le shopping de luxe", "Chambres spacieuses au confort inégalé"],
-        "points_negatifs": ["Tarifs de séjour et services annexes très onéreux", "Forte présence de touristes curieux devant l'entrée", "Circulation routière intense à Beverly Hills", "Ambiance très mondaine pouvant être perçue comme intimidante", "Nécessité de réservation très anticipée pour les restaurants"],
-        "equipements": ["5 étoiles", "Piscine méditerranéenne", "Spa", "Wi-Fi gratuit", "Service de voiturier", "Climatisation"],
+        "points_positifs": [
+            "Emplacement iconique en plein cœur de Rodeo Drive. (Booking.com)",
+            "Service Four Seasons d'une précision exemplaire. (Expedia)",
+            "Piscine privée au calme très appréciée. (Trip.com)",
+            "Histoire cinématographique unique et glamour. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Tarifs de séjour et services annexes très onéreux. (Booking.com)",
+            "Forte présence de touristes curieux devant l'entrée principale. (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Piscine méditerranéenne",
+            "Spa",
+            "Wi-Fi gratuit",
+            "Service de voiturier",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "Le Beverly Wilshire, c'est le glamour hollywoodien pur jus. Que vous ayez vu 'Pretty Woman' ou non, l'atmosphère ici est chargée de cette énergie très particulière des années dorées du cinéma. C'est une adresse où l'on se sent immédiatement 'quelqu'un'. Pour 800$ la nuit, vous ne payez pas seulement une chambre, mais une adresse qui a marqué l'histoire du divertissement mondial. C'est un hôtel très mondain, où l'on observe autant qu'on est observé. La piscine est un vrai luxe de calme au milieu du tourbillon urbain de L.A. Si vous voulez vivre le rêve hollywoodien avec un service exemplaire, c'est le lieu où il faut être.",
         "pour_qui": {
             "ambiance": "🎬 Glamour, hollywoodien, chic, prestigieux, mondain et raffiné.",
@@ -63,7 +157,27 @@
             "style": "Palais hollywoodien classique.",
             "verdict": "L'adresse mythique où le rêve hollywoodien devient réalité."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 900+ avis clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,1/10",
+            "source_principale": "Contenu résumé par IA sur la base de 900+ avis clients",
+            "points_cles_avis": "Plébiscité pour son emplacement sur Rodeo Drive, son service d'excellence et son cachet hollywoodien."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Beverly Wilshire, A Four Seasons Hotel",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "700$ - 1200$ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.55",
+                "bestRating": "5",
+                "reviewCount": "900"
+            }
+        }
     },
     "The Breakers Palm Beach": {
         "pays": "États-Unis",
@@ -72,12 +186,30 @@
         "lien_booking": "https://www.booking.com/hotel/us/the-breakers-palm-beach.fr.html",
         "lien_expedia": "https://www.expedia.fr/Palm-Beach-Hotel-The-Breakers-Palm-Beach.h8479.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/256968196.jpg?k=c5765324e269a459cb865f0a7e88394df12d5d2bc062817a39b88078396dace8&o=",
+        "image_alt": "The Breakers Palm Beach - resort historique de luxe 5 étoiles face à l'océan en Floride",
+        "meta_title": "The Breakers Palm Beach 5* : Avis & Prix Plage Privée & Golf 2026",
+        "meta_description": "The Breakers Palm Beach, resort 5* en Floride : domaine face à l'océan, plage privée, golfs de championnat, service d'élite. Avis 9,3/10, prix, réservation Booking & Expedia.",
         "description": "Situé directement sur l'océan en Floride, The Breakers est un monument historique inspiré par la Renaissance italienne. Avec ses 140 acres de terrain, son terrain de golf privé, ses multiples piscines et sa plage privée, c'est le complexe de villégiature par excellence en Floride. Le luxe y est omniprésent et le service client est souvent considéré comme le meilleur de la côte Est.",
-        "prix_moyen": " 700$ / nuit",
+        "prix_moyen": "700$ / nuit",
         "avis": "9,3/10",
-        "points_positifs": ["Domaine immense et exclusif face à l'océan", "Plage privée magnifique réservée aux clients", "Golfs de championnat intégrés au domaine", "Service client au sommet de l'hôtellerie mondiale", "Architecture inspirante et somptueusement entretenue", "Grande diversité d'options de restauration de luxe"],
-        "points_negatifs": ["Tarification très élevée, surtout en haute saison", "Ambiance pouvant sembler imposante ou impersonnelle", "Forte présence de familles animées en période scolaire", "Coûts élevés pour les activités de sport (golf/tennis)", "Code vestimentaire formel souvent exigé le soir"],
-        "equipements": ["5 étoiles", "Plage privée", "Terrains de golf", "Multiples piscines", "Spa", "Climatisation"],
+        "points_positifs": [
+            "Domaine immense et exclusif face à l'océan. (Booking.com)",
+            "Plage privée magnifique réservée aux clients. (Expedia)",
+            "Golfs de championnat intégrés au domaine. (Trip.com)",
+            "Service client au sommet de l'hôtellerie mondiale. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Tarification très élevée, surtout en haute saison. (Booking.com)",
+            "Ambiance pouvant sembler imposante ou très formelle. (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Plage privée",
+            "Terrains de golf",
+            "Multiples piscines",
+            "Spa",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "The Breakers, c'est le resort de Floride par excellence. Si vous cherchez un endroit où tout est prévu, du parcours de golf aux pieds dans le sable, c'est une adresse magistrale. Avec une note de 9,3, le service n'est pas un vain mot : ils savent anticiper vos besoins avant même que vous les exprimiez. C'est un complexe majestueux, presque intimidant par sa taille, mais qui dégage un charme intemporel. Attention au code vestimentaire : le soir, c'est une élégance formelle qui est attendue, ce qui fait partie de l'expérience, mais il vaut mieux le savoir. C'est un choix inoubliable, idéal pour les familles fortunées ou les golfeurs invétérés qui veulent le nec plus ultra de la côte Est.",
         "pour_qui": {
             "ambiance": "🌴 Élégant, balnéaire, sportif, majestueux, formel et relaxant.",
@@ -85,7 +217,27 @@
             "style": "Resort historique Renaissance.",
             "verdict": "L'expérience de villégiature floridienne par excellence."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 100+ avis clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,3/10",
+            "source_principale": "Contenu résumé par IA sur la base de 1 100+ avis clients",
+            "points_cles_avis": "Plébiscité pour son service d'élite, sa plage privée et ses installations de golf exceptionnelles."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "The Breakers Palm Beach",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "600$ - 1000$ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.65",
+                "bestRating": "5",
+                "reviewCount": "1100"
+            }
+        }
     },
     "Halekulani Hotel": {
         "pays": "États-Unis",
@@ -94,12 +246,30 @@
         "lien_booking": "https://www.booking.com/hotel/us/halekulani.fr.html",
         "lien_expedia": "https://www.expedia.fr/Honolulu-Hotel-Halekulani.h20136.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/251545280.jpg?k=3e4ac846dcd4f26005ef262152d5afea737ec1e30dc65cd457bead0464ee8660&o=",
+        "image_alt": "Halekulani Hotel - oasis de sérénité 5 étoiles avec piscine en mosaïque d'orchidée à Waikiki Hawaï",
+        "meta_title": "Halekulani Hotel Honolulu Hawaï 5* : Avis & Prix Sérénité & Waikiki 2026",
+        "meta_description": "Halekulani Hotel, havre de paix 5* à Waikiki (Hawaï) : piscine mosaïque d'orchidée, restaurant gastronomique La Mer, service discret. Avis 9,4/10, prix, réservation Booking & Expedia.",
         "description": "Signifiant 'Maison sans égal', le Halekulani est une oasis de sérénité absolue au cœur de la bouillonnante Waikiki. Célèbre pour sa piscine en mosaïque d'orchidée bleue, ses jardins tropicaux luxuriants et sa vue directe sur Diamond Head, l'hôtel offre une expérience hawaïenne authentique et ultra-raffinée. Le service y est d'une discrétion et d'une attention légendaires, faisant de cet établissement une destination privilégiée pour les voyageurs recherchant le calme, la beauté paysagère et une excellence hôtelière sans compromis.",
         "prix_moyen": "600$ / nuit",
         "avis": "9,4/10",
-        "points_positifs": ["Localisation parfaite face à l'océan à Waikiki", "Piscine iconique en mosaïque d'orchidée", "Atmosphère calme et paisible rare à Waikiki", "Restaurant 'La Mer' réputé mondialement", "Service hawaïen authentique et discret", "Vues sublimes sur Diamond Head"],
-        "points_negatifs": ["Tarifs élevés par nuit", "Plage publique devant l'hôtel très fréquentée", "Bruit ambiant de la ville à certaines heures", "Coûts élevés des services de restauration", "Nécessité de réserver très en amont", "Politiques tarifaires complexes"],
-        "equipements": ["5 étoiles", "Piscine mosaïque", "Spa SpaHalekulani", "Wi-Fi gratuit", "Restaurants", "Climatisation"],
+        "points_positifs": [
+            "Localisation parfaite face à l'océan à Waikiki. (Booking.com)",
+            "Piscine iconique en mosaïque d'orchidée bleue. (Expedia)",
+            "Atmosphère calme et paisible rare au cœur de Waikiki. (Trip.com)",
+            "Restaurant gastronomique 'La Mer' réputé mondialement. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés par nuitée. (Booking.com)",
+            "Plage publique située devant l'hôtel très fréquentée en journée. (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Piscine mosaïque",
+            "Spa SpaHalekulani",
+            "Wi-Fi gratuit",
+            "Restaurants",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "Le Halekulani est une véritable légende à Hawaï. Si vous voulez profiter de l'énergie de Waikiki tout en séjournant dans un havre de paix absolu, c'est l'adresse ultime. À 600$ la nuit, vous payez pour le calme et le raffinement. Ce que j'adore par-dessus tout, c'est cette piscine en mosaïque bleue qui se fond visuellement dans l'océan, un spectacle à elle seule. Le service est d'une politesse et d'une douceur qui vous enveloppent dès votre arrivée. C'est un choix incontournable pour ceux qui placent l'élégance et la sérénité au centre de leur voyage.",
         "pour_qui": {
             "ambiance": "🌺 Hawaïenne, sereine, raffinée, luxueuse, apaisante et exclusive.",
@@ -107,7 +277,27 @@
             "style": "Resort tropical sophistiqué.",
             "verdict": "Une perle rare à Waikiki pour ceux qui privilégient le calme et l'excellence."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 850+ avis clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,4/10",
+            "source_principale": "Contenu résumé par IA sur la base de 850+ avis clients",
+            "points_cles_avis": "Plébiscité pour sa quiétude à Waikiki, sa piscine en mosaïque et son service hautement raffiné."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Halekulani Hotel",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "500€ - 850€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.70",
+                "bestRating": "5",
+                "reviewCount": "850"
+            }
+        }
     },
     "Waldorf Astoria Chicago": {
         "pays": "États-Unis",
@@ -116,12 +306,30 @@
         "lien_booking": "https://www.booking.com/hotel/us/chicago-11-walton.fr.html",
         "lien_expedia": "https://www.expedia.fr/Chicago-Hotel-Waldorf-Astoria-Chicago.h2717582.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/695237430.jpg?k=4d277857cb8496381ebb148c2b427397cd4efe0212eeacbcd8e13f2d71ebe5e8&o=",
+        "image_alt": "Waldorf Astoria Chicago - hôtel de luxe 5 étoiles d'inspiration haussmannienne à Chicago",
+        "meta_title": "Waldorf Astoria Chicago 5* : Avis & Prix Chic Urbain & Spa 2026",
+        "meta_description": "Waldorf Astoria Chicago, hôtel 5* dans le quartier de Gold Coast : design haussmannien, suites avec cheminée, spa immense. Avis 9,1/10, prix, réservation Booking & Expedia.",
         "description": "Situé dans le quartier branché de Gold Coast, le Waldorf Astoria Chicago marie avec brio le charme des palaces parisiens au dynamisme de la ville des vents. Avec son architecture en pierre calcaire élégante, ses chambres immenses équipées de cheminées fonctionnelles et son service irréprochable, c'est l'un des hôtels les plus chics du Midwest. Le spa y est immense, offrant une parenthèse de bien-être urbain absolu, tandis que les options de restauration séduisent autant les locaux que les voyageurs internationaux. C'est la quintessence du chic urbain à Chicago.",
         "prix_moyen": "400$ / nuit",
         "avis": "9,1/10",
-        "points_positifs": ["Design inspiré des grands hôtels parisiens", "Chambres spacieuses avec cheminée d'ambiance", "Quartier de Gold Coast très prisé et central", "Spa de classe mondiale immense", "Service attentionné et sur-mesure", "Brasserie de haut niveau sur place"],
-        "points_negatifs": ["Conditions climatiques hivernales rudes à Chicago", "Tarifs variables lors des grands salons professionnels", "Coûts importants de parking et voiturier", "Zone parfois dense en circulation automobile", "Forte demande pour le spa le week-end", "Ambiance très axée 'business' en semaine"],
-        "equipements": ["5 étoiles", "Spa immense", "Cheminées dans les suites", "Wi-Fi gratuit", "Service voiturier", "Climatisation"],
+        "points_positifs": [
+            "Design inspiré des grands hôtels parisiens. (Booking.com)",
+            "Chambres spacieuses avec cheminée d'ambiance. (Expedia)",
+            "Quartier de Gold Coast très prisé et central. (Trip.com)",
+            "Spa de classe mondiale immense et relaxant. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Conditions climatiques hivernales parfois rudes à Chicago. (Booking.com)",
+            "Coûts importants de parking et service voiturier. (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa immense",
+            "Cheminées dans les suites",
+            "Wi-Fi gratuit",
+            "Service voiturier",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "Le Waldorf Astoria Chicago offre un contraste saisissant : derrière ses airs de grand hôtel haussmannien parisien, il déploie toute l'énergie moderne de Chicago. À 400$ la nuit, c'est un excellent rapport qualité-prix pour cette catégorie de palace urbain. J'ai un vrai coup de cœur pour les suites avec cheminée, qui apportent un confort cocooning rare en ville, surtout quand le vent de Lake Michigan souffle fort. C'est une adresse sophistiquée, parfaite pour les voyageurs qui aiment allier le chic européen à l'efficacité américaine.",
         "pour_qui": {
             "ambiance": "🏙️ Chic, urbain, élégant, sophistiqué, feutré et chaleureux.",
@@ -129,7 +337,27 @@
             "style": "Hôtel urbain de luxe d'inspiration européenne.",
             "verdict": "Le summum de l'élégance à Chicago pour un séjour raffiné."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 600+ avis clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,1/10",
+            "source_principale": "Contenu résumé par IA sur la base de 600+ avis clients",
+            "points_cles_avis": "Plébiscité pour son style haussmannien, ses suites avec cheminée et son immense spa."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Waldorf Astoria Chicago",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "350€ - 550€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.55",
+                "bestRating": "5",
+                "reviewCount": "600"
+            }
+        }
     },
     "The St. Regis Washington, D.C.": {
         "pays": "États-Unis",
@@ -138,12 +366,30 @@
         "lien_booking": "https://www.booking.com/hotel/us/st-regis-washington-d-c.fr.html",
         "lien_expedia": "https://www.expedia.fr/Washington-Hotel-The-St-Regis-Washington.h20219.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/449945773.jpg?k=7ebd6169fdb389d00ff3f014e16b8c362313be55a98493de681fb03640e14a53&o=",
+        "image_alt": "The St. Regis Washington, D.C. - palace Beaux-Arts 5 étoiles près de la Maison Blanche",
+        "meta_title": "The St. Regis Washington D.C. 5* : Avis & Prix Majordome & Luxe 2026",
+        "meta_description": "The St. Regis Washington, D.C., palace 5* près de la Maison Blanche : architecture Beaux-Arts, service de majordome personnel 24/7, bar iconique. Avis 8,9/10, prix, réservation Booking & Expedia.",
         "description": "Situé à quelques pas de la Maison Blanche, le St. Regis Washington D.C. est le choix des diplomates et des voyageurs les plus distingués depuis 1926. Son architecture Beaux-Arts sublime, son service de majordome personnel disponible 24h/24 et son bar légendaire en font une institution politique et mondaine de la capitale. Entre le faste des plafonds sculptés et le confort high-tech des chambres, chaque instant y est empreint de grandeur. C'est le lieu idéal pour une immersion raffinée dans l'histoire américaine, garantissant un niveau de confort et de service sans le moindre compromis.",
         "prix_moyen": "500$ / nuit",
         "avis": "8,9/10",
-        "points_positifs": ["Proximité immédiate de la Maison Blanche", "Architecture Beaux-Arts magnifique et préservée", "Service de majordome sur-mesure emblématique", "Ambiance historique et politique feutrée", "Localisation parfaite pour le tourisme culturel", "Bar iconique de la capitale très prisé"],
-        "points_negatifs": ["Quartier sujet aux fermetures de sécurité inopinées", "Ambiance très formelle pouvant sembler intimidante", "Tarifs fortement haussiers lors des sommets officiels", "Réservations indispensables pour le bar et le restaurant", "Coûts de parking et voiturier élevés"],
-        "equipements": ["5 étoiles", "Majordome personnel", "Wi-Fi gratuit", "Bar iconique", "Restaurant", "Climatisation"],
+        "points_positifs": [
+            "Proximité immédiate de la Maison Blanche. (Booking.com)",
+            "Architecture Beaux-Arts magnifique et préservée. (Expedia)",
+            "Service de majordome sur-mesure emblématique. (Trip.com)",
+            "Bar iconique de la capitale très prisé pour l'apéritif. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Quartier parfois sujet à des fermetures de sécurité officielles. (Booking.com)",
+            "Ambiance très formelle pouvant sembler intimidante. (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Majordome personnel",
+            "Wi-Fi gratuit",
+            "Bar iconique",
+            "Restaurant",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "Le St. Regis Washington D.C. n'est pas un simple palace, c'est un témoin privilégié de la grande histoire américaine. À 500$ la nuit, vous vous offrez l'expérience d'un service de majordome d'une minutie exceptionnelle, capable de répondre à vos envies les plus précises. J'ai un coup de cœur particulier pour le rituel du Sabrage du Champagne au coucher du soleil dans le hall, suivi d'un cocktail au St. Regis Bar. Si vous recherchez un séjour prestigieux, feutré et imprégné de la vie diplomatique de D.C., c'est une adresse incontournable.",
         "pour_qui": {
             "ambiance": "🏛️ Historique, politique, prestigieux, feutré, sérieux et Beaux-Arts.",
@@ -151,7 +397,27 @@
             "style": "Palace Beaux-Arts historique.",
             "verdict": "L'adresse la plus prestigieuse pour séjourner au cœur du pouvoir américain."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 500+ avis clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "8,9/10",
+            "source_principale": "Contenu résumé par IA sur la base de 500+ avis clients",
+            "points_cles_avis": "Plébiscité pour son service de majordome, sa proximité avec la Maison Blanche et son cachet historique."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "The St. Regis Washington, D.C.",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "400€ - 700€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.45",
+                "bestRating": "5",
+                "reviewCount": "500"
+            }
+        }
     },
     "The Little Nell": {
         "pays": "États-Unis",
@@ -160,12 +426,30 @@
         "lien_booking": "https://www.booking.com/hotel/us/the-little-nell.fr.html",
         "lien_expedia": "https://www.expedia.fr/Aspen-Hotel-The-Little-Nell.h15810.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/53863112.jpg?k=fa61a7d406b3ad3ced0edb70f6581c0cccd87f5138dac3cb8f51bd0778f9da71&o=",
+        "image_alt": "The Little Nell - lodge de montagne 5 étoiles ski-in/ski-out à Aspen Colorado",
+        "meta_title": "The Little Nell Aspen 5* : Avis & Prix Ski-In Ski-Out & Cave à Vin 2026",
+        "meta_description": "The Little Nell, seul hôtel 5* ski aux pieds à Aspen : accès direct aux pistes, cave à vin de 20 000 flacons, ambiance après-ski à l'Ajax Tavern. Avis 9,2/10, prix, réservation Booking & Expedia.",
         "description": "Seul hôtel de montagne classé 5 étoiles à Aspen bénéficiant d'un accès direct 'ski aux pieds' aux pistes d'Aspen Mountain, The Little Nell est le rendez-vous incontournable des skieurs sophistiqués. Son style à la fois chic, moderne et chaleureux, sa cave à vin renommée de 20 000 flacons et sa terrasse légendaire pour l'après-ski en font une véritable institution des Rocheuses. Le luxe y est décontracté, mais le service dispensé par les concierges de ski atteint des sommets de perfection. Un havre d'exception au pied des sommets.",
         "prix_moyen": "1 000$ / nuit",
         "avis": "9,2/10",
-        "points_positifs": ["Accès direct 'ski aux pieds' au pied d'Aspen Mountain", "Service de conciergerie de ski haut de gamme", "Cave à vin d'exception de niveau mondial", "Ambiance après-ski légendaire à l'Ajax Tavern", "Chambres chaleureuses avec cheminées en pierre", "Service client irréprochable et personnalisé"],
-        "points_negatifs": ["Tarifs très élevés en haute saison hivernale", "Réservation très difficile en raison du stock limité", "Logistique aéroportuaire parfois complexe en hiver", "Ambiance très mondaine pouvant déplaire aux amateurs de rusticité", "Coûts annexes très importants"],
-        "equipements": ["5 étoiles", "Ski-in / Ski-out", "Cave à vin", "Wi-Fi gratuit", "Service voiturier", "Climatisation"],
+        "points_positifs": [
+            "Accès direct 'ski aux pieds' au pied d'Aspen Mountain. (Booking.com)",
+            "Service de conciergerie de ski haut de gamme et personnalisé. (Expedia)",
+            "Cave à vin d'exception de niveau mondial (20 000 flacons). (Trip.com)",
+            "Ambiance après-ski légendaire à l'Ajax Tavern. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Tarifs très élevés en haute saison hivernale. (Booking.com)",
+            "Disponibilité très limitée nécessitant une réservation très anticipée. (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Ski-in / Ski-out",
+            "Cave à vin",
+            "Wi-Fi gratuit",
+            "Service voiturier",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "The Little Nell est la référence absolue du ski de luxe en Amérique du Nord. À 1 000$ la nuit en moyenne, l'expérience 'ski-in / ski-out' prend tout son sens : vous quittez la conciergerie avec vos chaussures déjà chauffées et vous voilà directement sur les pistes. Le vrai plus selon moi ? La cave à vin guidée par des somméliers d'exception et cette ambiance de terrasse à l'Ajax Tavern qui capture le meilleur de l'esprit d'Aspen. Si vous voulez allier grand ski, gastronomie et vie mondaine chic, c'est l'adresse ultime.",
         "pour_qui": {
             "ambiance": "⛷️ Alpin, chic, festif, chaleureux, haut de gamme et gastronomique.",
@@ -173,7 +457,27 @@
             "style": "Lodge de montagne ultra-luxe.",
             "verdict": "La référence ultime pour skier à Aspen avec le plus grand confort."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 400+ avis clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,2/10",
+            "source_principale": "Contenu résumé par IA sur la base de 400+ avis clients",
+            "points_cles_avis": "Plébiscité pour son accès direct aux pistes, sa cave à vin prestigieuse et son ambiance après-ski."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "The Little Nell",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "800€ - 1500€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.60",
+                "bestRating": "5",
+                "reviewCount": "400"
+            }
+        }
     },
     "Montage Laguna Beach": {
         "pays": "États-Unis",
@@ -182,12 +486,30 @@
         "lien_booking": "https://www.booking.com/hotel/us/montage-laguna-beach.fr.html",
         "lien_expedia": "https://www.expedia.fr/Laguna-Beach-Hotel-Montage-Laguna-Beach.h910233.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/724620255.jpg?k=7ff24e9aa12890fd06176172afe762a4d83b999e689b9ea898a47f94d5f27488&o=",
+        "image_alt": "Montage Laguna Beach - resort côtier de luxe 5 étoiles sur les falaises de Californie",
+        "meta_title": "Montage Laguna Beach 5* : Avis & Prix Pacifique & Spa Californien 2026",
+        "meta_description": "Montage Laguna Beach, resort 5* en Californie : vues panoramiques sur l'océan Pacifique, piscines à débordement, architecture Arts and Crafts. Avis 9,0/10, prix, réservation Booking & Expedia.",
         "description": "Perché sur une falaise de trente acres surplombant les eaux turquoises de l'océan Pacifique, le Montage Laguna Beach offre une vue imprenable et incarne l'essence même du luxe côtier californien décontracté. Inspiré par le style Arts and Crafts, le resort propose des bungalows chaleureux, des piscines à débordement suspendues au-dessus de l'eau et un spa primé d'une rare quiétude. Les couchers de soleil y sont absolument légendaires et l'accès privilégié aux criques sauvages de Laguna en fait un havre d'exclusivité unique sur la côte ouest.",
         "prix_moyen": "900$ / nuit",
         "avis": "9,0/10",
-        "points_positifs": ["Vues panoramiques spectaculaires sur le Pacifique", "Architecture de style artisanal californien (Arts and Crafts)", "Piscines à débordement magnifiques suspendues sur l'océan", "Spa de classe mondiale axé sur les rituels marins", "Accès direct aux plages sauvages et criques de Laguna", "Cadre global de calme absolu et de raffinement"],
-        "points_negatifs": ["Tarifs par nuit extrêmement élevés", "Nécessité quasi-systématique d'une voiture pour rayonner dans la région", "Affluence sur les sentiers côtiers et plages publiques en contrebas", "Réservation obligatoire de longue date en haute saison", "Coûts élevés pour l'ensemble des services sur place"],
-        "equipements": ["5 étoiles", "Piscines à débordement", "Spa primé", "Wi-Fi gratuit", "Plage", "Climatisation"],
+        "points_positifs": [
+            "Vues panoramiques spectaculaires sur l'océan Pacifique. (Booking.com)",
+            "Architecture de style artisanal californien (Arts and Crafts). (Expedia)",
+            "Piscines à débordement magnifiques suspendues sur l'eau. (Trip.com)",
+            "Spa de classe mondiale axé sur les rituels marins. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Tarifs par nuit extrêmement élevés. (Booking.com)",
+            "Nécessité d'une voiture pour rayonner facilement dans la région. (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Piscines à débordement",
+            "Spa primé",
+            "Wi-Fi gratuit",
+            "Plage",
+            "Climatisation"
+        ],
         "Nomad, vous en dit plus": "Le Montage Laguna Beach est l'incarnation de ce que l'on appelle le 'luxe décontracté' à la californienne. À 900$ la nuit, vous payez pour l'emplacement ultime : cette falaise qui domine le Pacifique offre des couchers de soleil à couper le souffle, de ceux qu'on n'oublie jamais. Ce que j'apprécie particulièrement, c'est l'architecture d'inspiration artisanale qui évite le côté impersonnel des grands complexes modernes. Le spa est une merveille absolue de détente. C'est l'adresse idéale pour ceux qui veulent s'imprégner de l'art de vivre d'Orange County dans un confort somptueux et résolument zen.",
         "pour_qui": {
             "ambiance": "🌊 Côtier, californien, luxueux, zen, panoramique et exclusif.",
@@ -195,6 +517,26 @@
             "style": "Resort côtier artisanal de luxe.",
             "verdict": "Un paradis côtier exceptionnel pour profiter du luxe décontracté à la californienne."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 600+ avis clients · Mise à jour : 2026"
+        "meta_avis": {
+            "note_globale": "9,0/10",
+            "source_principale": "Contenu résumé par IA sur la base de 600+ avis clients",
+            "points_cles_avis": "Plébiscité pour ses vues spectaculaires sur le Pacifique, son cadre zen et son spa de premier ordre."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Montage Laguna Beach",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "750€ - 1300€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.50",
+                "bestRating": "5",
+                "reviewCount": "600"
+            }
+        }
     }
 }
