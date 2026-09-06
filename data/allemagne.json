@@ -33,7 +33,7 @@
             "Service de voiturier",
             "Climatisation"
         ],
-        "Nomad vous en dis plus": "Les avis réels confirment que l'Hôtel Adlon Kempinski Berlin est une icône intemporelle, portée par son prestige historique et un service irréprochable au pied de la Porte de Brandebourg. Les rares points négatifs se limitent à des aléas logistiques ponctuels lors de l'arrivée, sans altérer l'expérience d'ensemble hautement qualitative.",
+        "Nomad, vous en dit plus": "Les avis réels confirment que l'Hôtel Adlon Kempinski Berlin est une icône intemporelle, portée par son prestige historique et un service irréprochable au pied de la Porte de Brandebourg. Les rares points négatifs se limitent à des aléas logistiques ponctuels lors de l'arrivée, sans altérer l'expérience d'ensemble hautement qualitative.",
         "pour_qui": {
             "ambiance": "🏛️ Impérial, historique, prestigieux et légendaire",
             "public": "Voyageurs recherchant l'adresse la plus iconique et luxueuse de Berlin",
@@ -99,7 +99,7 @@
             "Superbe petit-déjeuner",
             "Climatisation"
         ],
-        "Nomad vous en dis plus": "Les avis réels confirment que l'Hotel Hasselhof Garni à Braunlage est un havre de paix montagnard très apprécié pour son calme, la qualité de son petit-déjeuner et son ambiance chaleureuse. Les points négatifs restent marginaux et concernent principalement des attentes sur certains détails de confort typiques des grands hôtels 4 étoiles, alors qu'il s'agit avant tout d'une structure intime et orientée nature.",
+        "Nomad, vous en dit plus": "Les avis réels confirment que l'Hotel Hasselhof Garni à Braunlage est un havre de paix montagnard très apprécié pour son calme, la qualité de son petit-déjeuner et son ambiance chaleureuse. Les points négatifs restent marginaux et concernent principalement des attentes sur certains détails de confort typiques des grands hôtels 4 étoiles, alors qu'il s'agit avant tout d'une structure intime et orientée nature.",
         "pour_qui": {
             "ambiance": "🌲 Calme, reposant, chaleureux et familial",
             "public": "Couples et voyageurs en quête de tranquillité, de nature, de randonnée et de détente",
@@ -174,7 +174,7 @@
             "Salle de jeux et billard",
             "Ascenseur et chauffage"
         ],
-        "Nomad vous en dis plus": "Si vous cherchez un point de chute fonctionnel, moderne et idéalement placé pour assister à un événement à l'Olympiapark ou visiter Munich entre amis ou en famille, le MEININGER München Olympiapark fait le travail. Ce qu'on adore, c'est son esprit jeune, sa cuisine commune bien pratique et son accessibilité en tram. Attention toutefois aux mois d'été : l'absence de climatisation et les fenêtres parfois bloquées peuvent rendre les nuits un brin étouffantes si vous êtes sensible à la chaleur !",
+        "Nomad, vous en dit plus": "Si vous cherchez un point de chute fonctionnel, moderne et idéalement placé pour assister à un événement à l'Olympiapark ou visiter Munich entre amis ou en famille, le MEININGER München Olympiapark fait le travail. Ce qu'on adore, c'est son esprit jeune, sa cuisine commune bien pratique et son accessibilité en tram. Attention toutefois aux mois d'été : l'absence de climatisation et les fenêtres parfois bloquées peuvent rendre les nuits un brin étouffantes si vous êtes sensible à la chaleur !",
         "pour_qui": {
             "ambiance": "🚲 Moderne, pratique, animé, jeune et fonctionnel",
             "public": "Groupes d'amis, familles et voyageurs au budget maîtrisé cherchant un pied-à-terre bien desservi à Munich",
@@ -248,7 +248,7 @@
             "Réception ouverte 24h/24",
             "Climatisation dans les espaces communs"
         ],
-        "Nomad vous en dis plus": "De vous à moi, si vous cherchez une étape confortable, bien reliée à l'autoroute ou au parc des expositions de Munich sans payer les prix exorbitants du centre-ville, le DORMERO de Kirchheim est une excellente pioche. Ce qu'on adore, ce sont les petites attentions très appréciables comme les boissons du minibar offertes et le billard en libre-service. Gardez juste en tête qu'en plein cœur de l'été, l'absence de climatisation demande un peu de patience les jours de forte chaleur !",
+        "Nomad, vous en dit plus": "De vous à moi, si vous cherchez une étape confortable, bien reliée à l'autoroute ou au parc des expositions de Munich sans payer les prix exorbitants du centre-ville, le DORMERO de Kirchheim est une excellente pioche. Ce qu'on adore, ce sont les petites attentions très appréciables comme les boissons du minibar offertes et le billard en libre-service. Gardez juste en tête qu'en plein cœur de l'été, l'absence de climatisation demande un peu de patience les jours de forte chaleur !",
         "pour_qui": {
             "ambiance": "🚗 Pratique, moderne, chaleureux et économique",
             "public": "Voyageurs d'affaires, exposants du salon de Munich, couples et automobilistes en transit",
@@ -322,7 +322,7 @@
             "Service d'étage",
             "Plateau/bouilloire dans toutes les chambres"
         ],
-        "Nomad vous en dis plus": "Si vous voulez rayonner facilement dans Berlin tout en profitant d'un confort 4 étoiles irréprochable au pied du métro et du mythique KaDeWe, le Mercure Berlin Wittenbergplatz est une valeur sûre absolue. Ce qu'on adore, c'est son emplacement imbattable, son calme surprenant en plein cœur de la ville et son buffet de petit-déjeuner d'une grande générosité. Une adresse urbaine chic et parfaitement rodée pour un séjour berlinois sans fausse note.",
+        "Nomad, vous en dit plus": "Si vous voulez rayonner facilement dans Berlin tout en profitant d'un confort 4 étoiles irréprochable au pied du métro et du mythique KaDeWe, le Mercure Berlin Wittenbergplatz est une valeur sûre absolue. Ce qu'on adore, c'est son emplacement imbattable, son calme surprenant en plein cœur de la ville et son buffet de petit-déjeuner d'une grande générosité. Une adresse urbaine chic et parfaitement rodée pour un séjour berlinois sans fausse note.",
         "pour_qui": {
             "ambiance": "🏙️ Chic, urbain, élégant, central et dynamique",
             "public": "Couples, familles et voyageurs d'affaires cherchant le compromis parfait entre emplacement stratégique et standing 4 étoiles",
@@ -396,7 +396,7 @@
             "Chambres non-fumeurs",
             "Équipements pour personnes à mobilité réduite"
         ],
-        "Nomad vous en dis plus": "Si vous cherchez un géant du confort parfaitement rodé aux portes de Berlin, l'Estrel est une véritable ville dans la ville. Ce qu'on adore, c'est son immense atrium spectaculaire, la taille généreuse de ses chambres et son accès gratuit au spa après une journée de marche. Même s'il est un peu excentré, sa connexion directe en S-Bahn à deux pas en fait un camp de base ultra-pratique et vivant.",
+        "Nomad, vous en dit plus": "Si vous cherchez un géant du confort parfaitement rodé aux portes de Berlin, l'Estrel est une véritable ville dans la ville. Ce qu'on adore, c'est son immense atrium spectaculaire, la taille généreuse de ses chambres et son accès gratuit au spa après une journée de marche. Même s'il est un peu excentré, sa connexion directe en S-Bahn à deux pas en fait un camp de base ultra-pratique et vivant.",
         "pour_qui": {
             "ambiance": "🌟 Grandiose, vivant, fonctionnel, animé et confortable",
             "public": "Voyageurs d'affaires, touristes en groupe, familles et couples cherchant un resort urbain complet",
