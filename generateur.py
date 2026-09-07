@@ -682,6 +682,7 @@ const aliases = {{
     'famille': ['famille','familial'], 'adulte': ['adulte','adult only']
 }};
 const noiseEquipment = new Set(['climatisation', 'wi-fi gratuit', 'connexion wi-fi gratuite', 'parking gratuit', 'parking prive', 'reception ouverte 24h/24', 'wi-fi', 'wifi gratuit']);
+const allWorldCountries = ['france','espagne','italie','portugal','allemagne','belgique','suisse','angleterre','royaume-uni','grece','turquie','maroc','tunisie','egypte','emirats arabes unis','etats-unis','canada','mexique','bresil','japon','chine','thailande','vietnam','maldives','seychelles','ile maurice','indonesie','malaisie','singapour','inde','pays-bas','autriche','croatie','montenegro','albanie','hongrie','pologne','republique tcheque','chypre'];
 
 function normalize(value) {{
     return String(value || '').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '');
@@ -715,6 +716,8 @@ function searchHotels(query) {{
     const normalized = normalize(query);
     const requestedCity = findLocation(normalized, knownCities);
     const requestedCountry = findLocation(normalized, knownCountries);
+    const mentionedCountry = findLocation(normalized, allWorldCountries);
+    const countryNotInInventory = mentionedCountry && !requestedCountry;
     const budgetMatch = normalized.match(/(?:moins de|a moins de|inferieur a|maximum|max|budget de)\\s*(\\d+)/);
     const budget = budgetMatch ? Number(budgetMatch[1]) : null;
     const requestedFeatures = Object.entries(aliases).filter(([, words]) => words.some(word => normalized.includes(normalize(word))));
@@ -737,6 +740,9 @@ function searchHotels(query) {{
         const featuresOk = requestedFeatures.every(([, words]) => words.some(word => text.includes(normalize(word))));
         return {{ hotel, score, budgetOk, locationOk, equipmentOk, featuresOk, price }};
     }});
+    if (countryNotInInventory) {{
+        return [];
+    }}
     const matched = results.filter(result => result.budgetOk && result.locationOk && result.equipmentOk && result.featuresOk && (requestedTerms.length === 0 || result.score > 0));
     if (matched.length > 0 || requestedTerms.length === 0) {{
         return matched.sort((a, b) => b.score - a.score);
@@ -746,9 +752,17 @@ function searchHotels(query) {{
 document.getElementById('smart-search').addEventListener('submit', event => {{
     event.preventDefault();
     const query = document.getElementById('smart-query').value;
+    const normalizedQuery = normalize(query);
+    const mentionedCountryCheck = findLocation(normalizedQuery, allWorldCountries);
+    const knownCountryCheck = findLocation(normalizedQuery, knownCountries);
+    const isUnavailableCountry = mentionedCountryCheck && !knownCountryCheck;
     const results = searchHotels(query);
     const container = document.getElementById('smart-results');
-    container.innerHTML = `<div class="glass-box" style="margin-bottom:20px;"><h2 style="margin-top:0;">${{results.length}} résultat(s) trouvé(s)</h2><p style="margin-bottom:0; color:var(--muted);">Les hôtels sont classés selon les critères détectés dans votre phrase.</p></div>` + (results.length ? results.map(result => renderHotel(result.hotel)).join('') : '<div class="card"><h2>Aucun résultat exact</h2><p>Essayez une destination plus large ou retirez un critère très précis.</p></div>');
+    if (results.length === 0 && isUnavailableCountry) {{
+        container.innerHTML = '<div class="card"><h2>Destination non disponible</h2><p>Nous ne proposons pas encore d\\'hôtels pour cette destination. Essayez une autre ville ou un autre pays.</p></div>';
+    }} else {{
+        container.innerHTML = `<div class="glass-box" style="margin-bottom:20px;"><h2 style="margin-top:0;">${{results.length}} résultat(s) trouvé(s)</h2><p style="margin-bottom:0; color:var(--muted);">Les hôtels sont classés selon les critères détectés dans votre phrase.</p></div>` + (results.length ? results.map(result => renderHotel(result.hotel)).join('') : '<div class="card"><h2>Aucun résultat exact</h2><p>Essayez une destination plus large ou retirez un critère très précis.</p></div>');
+    }}
 }});
 document.getElementById('smart-search').dispatchEvent(new Event('submit'));
 </script></body></html>"""
