@@ -681,13 +681,17 @@ const aliases = {{
     'piscine': ['piscine'], 'plage': ['plage','bord de mer'], 'spa': ['spa','thalasso'],
     'famille': ['famille','familial'], 'adulte': ['adulte','adult only']
 }};
+const noiseEquipment = new Set(['climatisation', 'wi-fi gratuit', 'connexion wi-fi gratuite', 'parking gratuit', 'parking prive', 'reception ouverte 24h/24', 'wi-fi', 'wifi gratuit']);
 
 function normalize(value) {{
     return String(value || '').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '');
 }}
-function numberFrom(value) {{
-    const match = normalize(value).replace(',', '.').match(/\\d+(?:\\.\\d+)?/);
-    return match ? Number(match[0]) : null;
+function normalizePriceToWeek(priceText) {{
+    const t = normalize(priceText);
+    const numbers = (t.match(/\\d+(?:[.,]\\d+)?/g) || []).map(n => Number(n.replace(',', '.')));
+    if (!numbers.length) return null;
+    const avg = numbers.reduce((a, b) => a + b, 0) / numbers.length;
+    return t.includes('nuit') ? avg * 7 : avg;
 }}
 function searchable(hotel) {{
     return normalize([hotel.nom, hotel.ville, hotel.pays, hotel.prix, hotel.description, hotel.image].concat(hotel.equipements || []).join(' '));
@@ -697,7 +701,7 @@ function escapeText(value) {{
 }}
 const knownCities = [...new Set(hotels.map(h => normalize(h.ville)).filter(Boolean))].sort((a, b) => b.length - a.length);
 const knownCountries = [...new Set(hotels.map(h => normalize(h.pays)).filter(Boolean))].sort((a, b) => b.length - a.length);
-const knownEquipment = [...new Set(hotels.flatMap(h => h.equipements || []).map(item => normalize(item)).filter(item => item.length > 2))].sort((a, b) => b.length - a.length);
+const knownEquipment = [...new Set(hotels.flatMap(h => h.equipements || []).map(item => normalize(item)).filter(item => item.length > 2 && !noiseEquipment.has(item)))].sort((a, b) => b.length - a.length);
 function findLocation(query, locations) {{
     return locations.find(location => query.includes(location)) || '';
 }}
@@ -717,9 +721,9 @@ function searchHotels(query) {{
     const requestedEquipment = knownEquipment.filter(equipment => normalized.includes(equipment));
     const rawTerms = normalized.replace(/[^a-z0-9à-ÿ ]/g, ' ').split(/\\s+/).filter(term => term.length > 2 && !stopWords.has(term) && !/^\\d+$/.test(term));
     const requestedTerms = rawTerms.filter(term => term !== requestedCity && term !== requestedCountry);
-    return hotels.map(hotel => {{
+    const results = hotels.map(hotel => {{
         const text = searchable(hotel);
-        const price = numberFrom(hotel.prix);
+        const price = normalizePriceToWeek(hotel.prix);
         const matchedTerms = requestedTerms.filter(term => text.includes(term));
         let score = matchedTerms.length;
         const matchedFeatures = requestedFeatures.filter(([, words]) => words.some(word => text.includes(normalize(word))));
@@ -731,9 +735,13 @@ function searchHotels(query) {{
         const locationOk = cityOk && countryOk;
         const equipmentOk = requestedEquipment.every(equipment => matchedEquipment.includes(equipment));
         const featuresOk = requestedFeatures.every(([, words]) => words.some(word => text.includes(normalize(word))));
-        const termsOk = requestedTerms.every(term => matchedTerms.includes(term));
-        return {{ hotel, score, budgetOk, locationOk, equipmentOk, featuresOk, termsOk, matchedFeatures: matchedFeatures.length, matchedEquipment: matchedEquipment.length, price }};
-    }}).filter(result => result.budgetOk && result.locationOk && result.equipmentOk && result.featuresOk && result.termsOk && (requestedTerms.length === 0 || result.score > 0)).sort((a, b) => b.score - a.score);
+        return {{ hotel, score, budgetOk, locationOk, equipmentOk, featuresOk, price }};
+    }});
+    const matched = results.filter(result => result.budgetOk && result.locationOk && result.equipmentOk && result.featuresOk && (requestedTerms.length === 0 || result.score > 0));
+    if (matched.length > 0 || requestedTerms.length === 0) {{
+        return matched.sort((a, b) => b.score - a.score);
+    }}
+    return results.filter(result => result.budgetOk && result.locationOk && result.equipmentOk && result.featuresOk).sort((a, b) => b.score - a.score);
 }}
 document.getElementById('smart-search').addEventListener('submit', event => {{
     event.preventDefault();
@@ -883,7 +891,8 @@ html_accueil = f"""<!DOCTYPE html>
         function updateHotels(side) {{
             const pays = document.getElementById('selectPays' + side).value;
             const ville = document.getElementById('selectVille' + side).value;
-            const filtered = hotelsData.filter(h => pays && h.pays === pays && (!ville || h.ville === ville));
+            const filtered = hotelsData.filter(h => pays && h.pays === pays && (!ville || h.ville === ville))
+                .sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
             const selectHotel = document.getElementById('selectHotel' + side);
             selectHotel.innerHTML = '<option value="">Choisissez un hôtel...</option>';
             filtered.forEach(h => {{
