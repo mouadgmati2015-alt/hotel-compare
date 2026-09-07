@@ -466,7 +466,7 @@ temoignages_html = """
     <hr style="border-color: #3A506B; margin: 30px 0;">
     <p style="text-align: center; color: #000000; font-size: 15px; font-weight: bold; margin-bottom: 10px;">APPROUVÉ PAR LES VOYAGEURS QUI RÉSERVENT SUR</p>
     <div style="text-align: center; margin-bottom: 15px; display: flex; justify-content: center; align-items: center; gap: 30px;">
-        <span style="background-color: #003580; color: white; width: 190px; min-height: 54px; padding: 8px 20px; border-radius: 6px; font-weight: 900; font-size: 18px; display: inline-flex; align-items: center; justify-content: center;">Booking.com</span>
+        <a href="https://www.booking.com/index.fr.html?aid=8012379" target="_blank" rel="nofollow sponsored" style="background-color: #003580; color: white; width: 190px; min-height: 54px; padding: 8px 20px; border-radius: 6px; font-weight: 900; font-size: 18px; display: inline-flex; align-items: center; justify-content: center; text-decoration: none;">Booking.com</a>
         <a href="https://www.expedia.fr/" target="_blank" rel="nofollow sponsored" style="background-color: #ffca28; color: #111827; width: 190px; min-height: 54px; padding: 8px 20px; border-radius: 6px; font-weight: 900; font-size: 18px; display: inline-flex; align-items: center; justify-content: center; text-decoration: none;">Expedia</a>
     </div>
     <p style="text-align: center; color: #888; font-size: 11px;">Comparaison de plus de 1000 hôtels &nbsp;&bull;&nbsp; 10 destinations incontournables &nbsp;&bull;&nbsp; 2 sites de réservation vérifiés</p>
