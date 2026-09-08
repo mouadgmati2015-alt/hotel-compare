@@ -1,0 +1,286 @@
+{
+    "Ceylon Tea Trails, Hatton": {
+        "pays": "Sri Lanka",
+        "ville": "Hatton",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/lk/ceylon-tea-trails.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Hatton-Hotels-Ceylon-Tea-Trails.h611598.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/38605553.jpg?k=2f72bc9776f80d5d4d38c64bb77ce982bb9d300e84b86c38cc5d5395fb595603&o=",
+        "image_alt": "Ceylon Tea Trails Hatton - collection de bungalows de planteurs 5 étoiles au cœur des vallées de thé Sri Lanka",
+        "meta_title": "Ceylon Tea Trails Hatton 5* : Avis & Prix All-Inclusive Vallées de Thé 2026",
+        "meta_description": "Ceylon Tea Trails, bungalows historiques de planteurs 5* à Hatton perchés à 1 250 mètres d'altitude : formule tout compris, majordome privé, lacs et plantations de thé. Avis 9,8/10, prix, réservation Booking & Expedia.",
+        "description": "Perché à 1 250 mètres d'altitude au milieu des vallées verdoyantes de la région théicole du Sri Lanka à Hatton, le Ceylon Tea Trails est une collection exclusive de superbes bungalows de planteurs britanniques historiques. Fonctionnant en formule tout compris (all-inclusive), l'établissement propose un service de majordome privé d'une prévenance infinie, des cheminées crépitantes, des piscines à débordement face aux montagnes et des excursions immersives dans les fabriques de thé centenaires.",
+        "prix_moyen": "750€ / nuit",
+        "avis": "9,8/10",
+        "notes_categories": {
+            "personnel": "9,9/10",
+            "equipements": "9,7/10",
+            "proprete": "9,9/10",
+            "confort": "9,8/10",
+            "rapport_qualite_prix": "8,8/10",
+            "situation_geographique": "9,8/10",
+            "connexion_wifi_gratuite": "9,2/10"
+        },
+        "points_positifs": [
+            "Cadre spectaculaire au cœur des plantations de thé de Ceylan. (Booking.com)",
+            "Formule tout compris haut de gamme incluant majordome et repas gastronomiques. (Expedia)",
+            "Bungalows coloniaux historiques restaurés avec un goût exquis. (Trip.com)",
+            "Service personnalisé d'une bienveillance et d'un professionnalisme inouïs. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Tarifs très élevés pour les nuitées tout compris. (Booking.com)",
+            "Climat de montagne pouvant parfois être frais et brumeux en altitude. (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Formule tout compris (All-Inclusive)",
+            "Majordome privé",
+            "Piscines à débordement",
+            "Wi-Fi gratuit",
+            "Visites guidées des plantations de thé",
+            "Climatisation"
+        ],
+        "Nomad, vous en dit plus": "Le Ceylon Tea Trails procure une sensation de plénitude absolue, perché dans le calme ouaté des montagnes du thé au Sri Lanka. Les avis clients décrivent unanimement une expérience de vie irréelle : les hôtes se sentent chouchoutés par des majordomes d'une gentillesse infinie, profitent de thés d'une fraîcheur absolue cueillis sous leurs yeux et savourent des dîners gastronomiques face à des panoramas à couper le souffle. Malgré un coût élevé, les voyageurs s'accordent à dire que la formule tout compris efface chaque contrainte pour un séjour de pure magie.",
+        "pour_qui": {
+            "ambiance": "🍵 Colonial, montagnard, verdoyant, luxueux et ultra-exclusif",
+            "public": "Amateurs de nature, de calme absolu et de séjours d'exception tout compris dans les montagnes",
+            "style": "Collection de bungalows coloniaux de luxe dans les plantations de thé",
+            "verdict": "Le Ceylon Tea Trails représente le summum du raffinement montagnard au Sri Lanka, soutenu par un service tout compris irréprochable."
+        },
+        "meta_avis": {
+            "note_globale": "9,8/10",
+            "source_principale": "Contenu résumé par IA sur la base des expériences voyageurs",
+            "points_cles_avis": "Plébiscité pour son service de majordome, son cadre idyllique dans les théiers et sa gastronomie."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Ceylon Tea Trails",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "650€ - 1100€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.90",
+                "bestRating": "5",
+                "reviewCount": "500"
+            }
+        },
+        "lien": "https://www.booking.com/hotel/lk/ceylon-tea-trails.fr.html"
+    },
+    "Wild Coast Tented Lodge, Yala": {
+        "pays": "Sri Lanka",
+        "ville": "Yala",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/lk/wild-coast-tented-lodge.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Palatupana-Hotel-Wild-Coast-Tented-Lodge.h19643398.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/138890847.jpg?k=64e1cdc9a56b8238534101fdf6cc08654ffdf75c2b4a85729b5759700845546c&o=",
+        "image_alt": "Wild Coast Tented Lodge Yala - éco-resort de luxe 5 étoiles avec tentes en cocons sauvages Sri Lanka",
+        "meta_title": "Wild Coast Tented Lodge Yala 5* : Avis & Prix Safari & Cocons de Luxe 2026",
+        "meta_description": "Wild Coast Tented Lodge, éco-resort de luxe 5* entre la jungle du parc national de Yala et l'océan Indien : tentes en forme de cocons design, safaris guidés, piscines privées. Avis 9,4/10, prix, réservation Booking & Expedia.",
+        "description": "Posé de manière spectaculaire à l'intersection de la jungle sauvage du parc national de Yala et des vagues de l'océan Indien, le Wild Coast Tented Lodge est un éco-resort de luxe unique au monde. L'établissement propose des tentes en forme de cocons futuristes dotées d'un design intérieur somptueux, de baignoires en cuivre et pour certaines de bassins privatifs. Il offre une formule tout compris incluant des safaris guidés d'exception pour observer les léopards et les éléphants.",
+        "prix_moyen": "800€ / nuit",
+        "avis": "9,4/10",
+        "notes_categories": {
+            "personnel": "9,6/10",
+            "equipements": "9,5/10",
+            "proprete": "9,6/10",
+            "confort": "9,4/10",
+            "rapport_qualite_prix": "8,5/10",
+            "situation_geographique": "9,7/10",
+            "connexion_wifi_gratuite": "9,0/10"
+        },
+        "points_positifs": [
+            "Architecture spectaculaire de tentes en cocons s'intégrant parfaitement dans la nature. (Booking.com)",
+            "Emplacement unique entre la jungle de Yala et l'océan Indien. (Expedia)",
+            "Safaris guidés de très haute qualité avec des rangers experts. (Trip.com)",
+            "Gastronomie raffinée et service tout compris haut de gamme. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Tarifs très élevés pour les nuits en formule safari tout compris. (Booking.com)",
+            "Présence d'animaux sauvages aux abords immédiats nécessitant de respecter les consignes. (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Formule tout compris avec safaris",
+            "Piscine extérieure en forme de croissant",
+            "Spa de brousse",
+            "Wi-Fi gratuit",
+            "Tentes-cocons climatisées",
+            "Climatisation"
+        ],
+        "Nomad, vous en dis plus": "Le Wild Coast Tented Lodge propose une immersion totale et ultra-luxueuse aux portes du parc national de Yala. D'après les retours des voyageurs, l'architecture organique en forme de cocons fait l'unanimité pour son originalité et son grand confort au milieu des éléments. Les clients soulignent également la passion et l'expertise des rangers lors des safaris dans le parc, permettant d'observer la faune dans d'excellentes conditions, bien que la tarification reste élitiste.",
+        "pour_qui": {
+            "ambiance": "🐾 Sauvage, safari, spectaculaire, luxueux et dépaysant",
+            "public": "Amateurs de vie sauvage, passionnés de design et voyageurs en quête d'un safari haut de gamme",
+            "style": "Éco-resort de luxe avec tentes-cocons design",
+            "verdict": "Le Wild Coast Tented Lodge combine le frisson du safari en pleine nature et le raffinement ultime d'un design hôtelier d'avant-garde."
+        },
+        "meta_avis": {
+            "note_globale": "9,4/10",
+            "source_principale": "Contenu résumé par IA sur la base des expériences voyageurs",
+            "points_cles_avis": "Plébiscité pour ses cocons de luxe au milieu de la nature, ses safaris experts et sa cuisine raffinée."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Wild Coast Tented Lodge",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "700€ - 1200€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.70",
+                "bestRating": "5",
+                "reviewCount": "400"
+            }
+        },
+        "lien": "https://www.booking.com/hotel/lk/wild-coast-tented-lodge.fr.html"
+    },
+    "Cape Weligama, Weligama": {
+        "pays": "Sri Lanka",
+        "ville": "Weligama",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/lk/cape-weligama.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Weligama-Hotels-Cape-Weligama.h1044118.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/38605553.jpg?k=2f72bc9776f80d5d4d38c64bb77ce982bb9d300e84b86c38cc5d5395fb595603&o=",
+        "image_alt": "Cape Weligama Weligama - resort de luxe 5 étoiles juché sur une falaise face à l'océan Sri Lanka",
+        "meta_title": "Cape Weligama 5* : Avis & Prix Falaise & Piscine Croissant Suspendue 2026",
+        "meta_description": "Cape Weligama, resort de luxe 5* juché sur une falaise à Weligama : villas spacieuses, célèbre piscine à débordement en croissant suspendue au-dessus de l'océan, service d'élite. Avis 9,6/10, prix, réservation Booking & Expedia.",
+        "description": "Juché spectaculairement sur une falaise de promontoire surplombant l'océan Indien à Weligama, le Cape Weligama est un resort de luxe iconique de la côte sud du Sri Lanka. L'établissement propose des villas et suites spacieuses dotées d'un design sophistiqué et de terrasses privées panoramiques. Il est mondialement célèbre pour sa sublime piscine à débordement en forme de croissant suspendue à 40 mètres au-dessus des flots, ainsi que pour ses tables gastronomiques proposant des fruits de mer fraîchement pêchés.",
+        "prix_moyen": "500€ / nuit",
+        "avis": "9,6/10",
+        "notes_categories": {
+            "personnel": "9,8/10",
+            "equipements": "9,6/10",
+            "proprete": "9,8/10",
+            "confort": "9,7/10",
+            "rapport_qualite_prix": "8,7/10",
+            "situation_geographique": "9,7/10",
+            "connexion_wifi_gratuite": "9,3/10"
+        },
+        "points_positifs": [
+            "Piscine à débordement en croissant suspendue au-dessus de l'océan absolument iconique. (Booking.com)",
+            "Situation spectaculaire sur une falaise avec vue panoramique à 270 degrés sur la mer. (Expedia)",
+            "Villas et suites immenses, luxueuses et dotées d'un confort irréprochable. (Trip.com)",
+            "Service attentionné et table gastronomique remarquable. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés pour les nuitées en haute saison. (Booking.com)",
+            "Accès à la plage en contrebas nécessitant de descendre de nombreux escaliers ou sentiers. (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Piscine en croissant suspendue",
+            "Spa et centre de bien-être",
+            "Wi-Fi gratuit",
+            "Restaurants gastronomiques",
+            "Service de voiturier",
+            "Climatisation"
+        ],
+        "Nomad, vous en dit plus": "Cape Weligama offre l'un des panoramas marins les plus grandioses de l'océan Indien. Les commentaires des clients encensent particulièrement la majestueuse piscine en croissant qui semble se jeter dans le vide marin, ainsi que l'immensité et le grand confort des villas. C'est l'endroit parfait selon les avis pour admirer des couchers de soleil flamboyants tout en profitant d'un service hautement professionnel.",
+        "pour_qui": {
+            "ambiance": "🌊 Suspendu, marin, spectaculaire, luxueux et romantique",
+            "public": "Couples, familles et voyageurs en quête de panoramisques marins vertigineux et de grand standing",
+            "style": "Resort de luxe juché sur une falaise océanique",
+            "verdict": "Cape Weligama s'impose comme une référence incontournable du luxe côtier au Sri Lanka, portée par sa piscine iconique et ses vues magiques."
+        },
+        "meta_avis": {
+            "note_globale": "9,6/10",
+            "source_principale": "Contenu résumé par IA sur la base des expériences voyageurs",
+            "points_cles_avis": "Plébiscité pour sa piscine en croissant suspendue sur la falaise, ses villas immenses et ses couchers de soleil."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Cape Weligama",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "400€ - 800€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.80",
+                "bestRating": "5",
+                "reviewCount": "550"
+            }
+        },
+        "lien": "https://www.booking.com/hotel/lk/cape-weligama.fr.html"
+    },
+    "Sigiriya Jungles, Sigiriya": {
+        "pays": "Sri Lanka",
+        "ville": "Sigiriya",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/lk/sigiriya-jungles.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Sigiriya-Hotels-Sigiriya-Jungles.h1818273.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/38605553.jpg?k=2f72bc9776f80d5d4d38c64bb77ce982bb9d300e84b86c38cc5d5395fb595603&o=",
+        "image_alt": "Sigiriya Jungles Sigiriya - havre de paix tropical 5 étoiles avec vue sur le rocher du Lion Sri Lanka",
+        "meta_title": "Sigiriya Jungles 5* : Avis & Prix Rocher du Lion & Jungle Tropicale 2026",
+        "meta_description": "Sigiriya Jungles, havre de paix tropical 5* niché dans la jungle luxuriante du Sri Lanka : chambres avec vue directe sur le mythique rocher du Lion, grande piscine extérieure, spa ayurvédique. Avis 8,9/10, prix, réservation Booking & Expedia.",
+        "description": "Niché au cœur de la jungle tropicale luxuriante du triangle culturel du Sri Lanka, le Sigiriya Jungles offre un havre de paix spectaculaire doté d'une vue imprenable et directe sur le mythique rocher de Sigiriya (rocher du Lion). Cet établissement 5 étoiles propose des chambres spacieuses et climatisées décorées dans un style contemporain aux touches locales, une immense piscine extérieure paysagère, un spa ayurvédique ressourçant et une table mettant à l'honneur la cuisine traditionnelle srilankaise.",
+        "prix_moyen": "150€ / nuit",
+        "avis": "8,9/10",
+        "notes_categories": {
+            "personnel": "9,1/10",
+            "equipements": "8,9/10",
+            "proprete": "9,0/10",
+            "confort": "9,0/10",
+            "rapport_qualite_prix": "9,2/10",
+            "situation_geographique": "9,4/10",
+            "connexion_wifi_gratuite": "8,6/10"
+        },
+        "points_positifs": [
+            "Vue spectaculaire et directe sur le rocher de Sigiriya depuis la piscine et les chambres. (Booking.com)",
+            "Immersion totale dans un environnement de jungle tropicale paisible. (Expedia)",
+            "Excellent rapport qualité-prix pour un établissement 5 étoiles au Sri Lanka. (Trip.com)",
+            "Personnel accueillant, chaleureux et attentionné. (TripAdvisor)"
+        ],
+        "points_negatifs": [
+            "Quelques signes d'usure légère signalés dans certains espaces communs. (Booking.com)",
+            "Buffet de restauration parfois très fréquenté lors des arrivées de groupes. (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Immense piscine extérieure",
+            "Spa ayurvédique",
+            "Wi-Fi gratuit",
+            "Restaurant et bar",
+            "Chambres avec vue sur le rocher",
+            "Climatisation"
+        ],
+        "Nomad, vous en dis plus": "Sigiriya Jungles est une halte très appréciée des voyageurs pour son emplacement stratégique face au rocher du Lion. Les avis clients soulignent de manière unanime le plaisir de nager dans leur grande piscine en admirant la forteresse rocheuse au loin, le tout pour un tarif particulièrement compétitif pour la région. Si le buffet peut parfois être animé en raison de l'affluence touristique, le calme des chambres et l'amabilité du personnel en font une base formidable.",
+        "pour_qui": {
+            "ambiance": "🌴 Tropical, verdoyant, historique, paisible et accessible",
+            "public": "Voyageurs culturels, couples et familles désireux de contempler le rocher de Sigiriya dans un grand confort",
+            "style": "Resort tropical de jungle avec vue sur le site historique",
+            "verdict": "Sigiriya Jungles séduit par son emplacement stratégique exceptionnel face au rocher du Lion, ses tarifs très mesurés et son cadre verdoyant."
+        },
+        "meta_avis": {
+            "note_globale": "8,9/10",
+            "source_principale": "Contenu résumé par IA sur la base des expériences voyageurs",
+            "points_cles_avis": "Plébiscité pour sa vue directe sur le rocher du Lion, son calme au cœur de la jungle et son excellent rapport qualité-prix."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Sigiriya Jungles",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "120€ - 220€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.45",
+                "bestRating": "5",
+                "reviewCount": "600"
+            }
+        },
+        "lien": "https://www.booking.com/hotel/lk/sigiriya-jungles.fr.html"
+    }
+}
