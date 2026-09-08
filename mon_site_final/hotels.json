@@ -4628,6 +4628,405 @@
         "lien_expedia": "https://www.expedia.fr/Coimbatore-Hotel-Vivanta-Coimbatore.h4732193.Description-Hotel"
     },
     {
+        "nom": "Hotel Danieli, Venice",
+        "slug": "hotel-danieli-venice",
+        "ville": "Venise",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "550€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/839011614.jpg?k=d5b3a2b3585c73992b90b7c566b9afa608e95735f3b678fc9393a0940e2516d5&o=",
+        "description": "Chef-d'œuvre légendaire composé de trois palais vénitiens distincts datant du XIVe au XIXe siècle, l'Hotel Danieli s'impose comme une icône absolue de l'hôtellerie de luxe à Venise. Idéalement situé à quelques pas seulement de la place Saint-Marc, il offre une vue imprenable sur la lagune et le canal de Saint-Marc. L'établissement séduit par son faste intemporel, ses décors somptueux ornés de lustres en verre de Murano, de boiseries anciennes et de toiles d'époque, tout en proposant des services de classe mondiale et une table gastronomique d'exception.",
+        "equipements": [
+            "5 étoiles",
+            "Restaurants gastronomiques & Bar",
+            "Service de conciergerie 24h/24",
+            "Wi-Fi gratuit",
+            "Service de voiturier",
+            "Chambres non-fumeurs",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/danieli-a-four-seasons-hotel-venice.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Venice-Hotel-Danieli.h11711.Description-Hotel"
+    },
+    {
+        "nom": "The Gritti Palace, a Luxury Collection Hotel, Venice",
+        "slug": "the-gritti-palace-a-luxury-collection-hotel-venice",
+        "ville": "Venise",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "800€ / nuit",
+        "image": "https://images.trvl-media.com/lodging/1000000/30000/27300/27226/a22a5078.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Ancienne résidence noble du XVe siècle transformée en palace légendaire, The Gritti Palace domine majestueusement le Grand Canal à Venise. Cet établissement d'exception marie à la perfection le patrimoine artistique vénitien et un confort moderne haut de gamme. Ses chambres et suites somptueuses sont décorées de tissus précieux, d'œuvres d'art authentiques et de meubles anciens. Les clients profitent également de sa célèbre terrasse au bord de l'eau, idéale pour contempler l'effervescence du canal, ainsi que d'une table gastronomique raffinée et d'un service de conciergerie irréprochable.",
+        "equipements": [
+            "5 étoiles",
+            "Terrasse au bord du Grand Canal",
+            "Restaurant gastronomique et bar",
+            "Spa et centre de bien-être",
+            "Wi-Fi gratuit",
+            "Service de conciergerie VIP",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/gritti-palace.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Venice-Hotel-The-Gritti-Palace.h27226.Description-Hotel"
+    },
+    {
+        "nom": "Hotel Eden - Dorchester Collection, Rome",
+        "slug": "hotel-eden-dorchester-collection-rome",
+        "ville": "Rome",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "750€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/505741249.jpg?k=14c36bf07bfcdfe8846dcec848d7f46728612d01817ef72151c5a995b363ea2d&o=",
+        "description": "Niché dans le quartier exclusif et paisible de la Via Veneto, l'Hotel Eden - Dorchester Collection incarne l'élégance romaine par excellence depuis 1889. Ce palace prestigieux offre des vues panoramiques à couper le souffle sur les toits de Rome et la basilique Saint-Pierre depuis son dernier étage. Il propose des chambres somptueusement aménagées dans un style classique et lumineux, un spa haut de gamme et des tables gastronomiques d'exception, dont le célèbre restaurant étoilé La Terrazza.",
+        "equipements": [
+            "5 étoiles",
+            "Restaurant étoilé Michelin en rooftop",
+            "Spa et centre de bien-être",
+            "Wi-Fi gratuit",
+            "Service de voiturier",
+            "Chambres non-fumeurs",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/eden-roma.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Rome-Hotel-Hotel-Eden-Dorchester-Collection.h16311.Description-Hotel"
+    },
+    {
+        "nom": "Palazzo Naiadi, The Dedica Anthology, Rome",
+        "slug": "palazzo-naiadi-the-dedica-anthology-rome",
+        "ville": "Rome",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "350€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/879965592.jpg?k=355c42b8adbf1143c65d29ca03e9968c9830c467f697ff6581287bdc989e8936&o=",
+        "description": "Installé dans un somptueux palais du XIXe siècle aux formes semi-circulaires monumentales sur la Piazza della Repubblica, le Palazzo Naiadi conjugue l'histoire architecturale romaine et un design contemporain audacieux. Cet établissement 5 étoiles propose des chambres spacieuses et lumineuses, un spa relaxant, ainsi qu'une magnifique piscine extérieure située sur le toit offrant une vue panoramique sur la ville. Sa localisation centrale à deux pas de la gare Termini et des vestiges antiques en fait un point de départ idéal pour explorer la capitale.",
+        "equipements": [
+            "5 étoiles",
+            "Piscine extérieure sur le toit",
+            "Spa et centre de bien-être",
+            "Wi-Fi gratuit",
+            "Restaurants et bar",
+            "Centre de fitness",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/anantara-palazzo-naiadi-rome-hotel.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Rome-Hotel-Anantara-Palazzo-Naiadi-Rome-Hotel-A-Leading-Hotel-Of-The-World.h907346.Description-Hotel"
+    },
+    {
+        "nom": "Four Seasons Hotel Milano, Milan",
+        "slug": "four-seasons-hotel-milano-milan",
+        "ville": "Milan",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "700€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/664372566.jpg?k=3f4893a68b1cde28d8961ed84a94bb37bf32d55282c797a2a9b054dede4cc136&o=",
+        "description": "Niché au cœur du prestigieux quadrilatère de la mode milanais, le Four Seasons Hotel Milano occupe un ancien couvent du XVe siècle magnifiquement restauré. Cet établissement 5 étoiles combine l'histoire architecturale monastique et un design contemporain sophistiqué. Il possède un magnifique jardin intérieur verdoyant et paisible, rare havre de paix en plein centre-ville, ainsi qu'un spa de classe mondiale, une piscine intérieure élégante et des tables gastronomiques raffinées.",
+        "equipements": [
+            "5 étoiles",
+            "Jardin intérieur paysager",
+            "Piscine intérieure",
+            "Spa et centre de bien-être",
+            "Wi-Fi gratuit",
+            "Restaurants et bar",
+            "Service de conciergerie VIP",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/four-seasons-milano.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Milan-Hotel-Four-Seasons-Hotel-Milano.h12681.Description-Hotel"
+    },
+    {
+        "nom": "Excelsior Hotel Gallia, a Luxury Collection Hotel, Milan",
+        "slug": "excelsior-hotel-gallia-a-luxury-collection-hotel-milan",
+        "ville": "Milan",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "420€ / nuit",
+        "image": "https://images.trvl-media.com/lodging/1000000/20000/10500/10422/31036f6b.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Véritable icône de l'architecture Belle Époque face à la majestueuse gare centrale de Milan, l'Excelsior Hotel Gallia associe le faste historique des années 1930 à un design intérieur ultra-contemporain et futuriste signé par de grands architectes italiens. Cet établissement 5 étoiles propose des chambres et suites somptueuses, un immense spa sur plusieurs niveaux partenaire de la marque Shiseido, ainsi qu'un restaurant gastronomique et un bar sur le toit offrant une vue panoramique sur la ville.",
+        "equipements": [
+            "5 étoiles",
+            "Spa Shiseido et piscine intérieure",
+            "Restaurant gastronomique et rooftop bar",
+            "Wi-Fi gratuit",
+            "Centre de fitness 24h/24",
+            "Service de voiturier",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/excelsior-hotel-gallia.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Milan-Hotel-Excelsior-Hotel-Gallia.h10422.Description-Hotel"
+    },
+    {
+        "nom": "Grand Hotel Tremezzo, Lake Como",
+        "slug": "grand-hotel-tremezzo-lake-como",
+        "ville": "Tremezzina",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "900€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/529024726.jpg?k=83a37dd94af696270af9a93e21c85ed43bedf89d7f9ad529381e19a1aaa62d1a&o=",
+        "description": "Véritable icône internationale de l'hôtellerie de luxe, le Grand Hotel Tremezzo est un somptueux palace Art nouveau dressé sur les rives ensoleillées du lac de Côme. Il offre un panorama magique sur le village de Bellagio et les eaux scintillantes du lac. L'établissement se distingue par sa célèbre piscine flottante posée directement sur l'eau, son parc séculaire, ses superbes terrasses de bronzage, son spa exclusif et ses tables orchestrées par le célèbre chef italien Gualtiero Marchesi.",
+        "equipements": [
+            "5 étoiles",
+            "Piscine flottante sur le lac",
+            "Plage privée et spa T Spa",
+            "Wi-Fi gratuit",
+            "Restaurants gastronomiques",
+            "Service de conciergerie VIP",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/grandhoteltremezzopalace.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Tremezzina-Hotel-Grand-Hotel-Tremezzo.h58946683.Description-Hotel"
+    },
+    {
+        "nom": "Monastero Santa Rosa Hotel & Spa, Amalfi",
+        "slug": "monastero-santa-rosa-hotel-spa-amalfi",
+        "ville": "Conca dei Marini",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "850€ / nuit",
+        "image": "https://images.trvl-media.com/lodging/5000000/4960000/4959900/4959841/b49bb79b.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Perché de manière spectaculaire sur une falaise abrupte surplonnant le golfe de Salerne sur la côte d'Amalfi, le Monastero Santa Rosa Hotel & Spa est un ancien couvent du XVIIe siècle méticuleusement transformé en sanctuaire de luxe intimiste. L'établissement propose des chambres et suites élégantes offrant toutes une vue imprenable sur la mer Tyrrhénienne. Il dispose d'une piscine à débordement suspendue dans le vide mondialement célèbre, de terrasses en cascade paysagères, d'un spa de classe mondiale et d'une table gastronomique récompensée.",
+        "equipements": [
+            "5 étoiles",
+            "Piscine à débordement suspendue",
+            "Spa de classe mondiale",
+            "Wi-Fi gratuit",
+            "Restaurant gastronomique et bar",
+            "Jardins en terrasses",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/monastero-santa-rosa.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Conca-Dei-Marini-Hotel-Monastero-Santa-Rosa-Hotel-Spa.h4959841.Description-Hotel"
+    },
+    {
+        "nom": "Belmond Hotel Caruso, Ravello",
+        "slug": "belmond-hotel-caruso-ravello",
+        "ville": "Ravello",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "1 100€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/680735642.jpg?k=fed1e6d0d9edc5e1e74a5add325a078e8690ca2b40ffe078eeabe764a9c488ed&o=",
+        "description": "Perché au sommet de la falaise à Ravello, à plus de 350 mètres au-dessus de la mer Méditerranée, le Belmond Hotel Caruso occupe un ancien palais du XIe siècle baigné de lumière et d'histoire. Cet établissement de légende offre des vues panoramiques vertigineuses sur le golfe de Salerne et la côte d'Amalfi. Il est mondialement célèbre pour sa piscine à débordement chauffée semblant flotter entre ciel et mer, ses jardins en terrasses fleuris, ses fresques anciennes et son service sur-mesure d'une excellence absolue.",
+        "equipements": [
+            "5 étoiles",
+            "Piscine à débordement suspendue",
+            "Jardins historiques en terrasses",
+            "Wi-Fi gratuit",
+            "Restaurant gastronomique et bar",
+            "Service de conciergerie VIP",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/caruso.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Ravello-Hotel-Caruso.h1129096.Description-Hotel"
+    },
+    {
+        "nom": "Mandarin Oriental, Lago di Como",
+        "slug": "mandarin-oriental-lago-di-como",
+        "ville": "Blevio",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "950€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/783154481.jpg?k=d6592f893b9f3b710290aab3a867aeddb4d07c7e3879b9d6a88c9c58f65fdbfa&o=",
+        "description": "Niché au cœur d'un somptueux domaine botanique de 26 000 mètres carrés directement sur les rives orientales du lac de Côme à Blevio, le Mandarin Oriental, Lago di Como marie l'élégance du design italien et le raffinement légendaire du service asiatique. Cet établissement 5 étoiles propose des villas et chambres luxueuses surplombant les eaux paisibles du lac. Il dispose d'une spectaculaire piscine flottante sur l'eau, d'un spa de classe mondiale et de tables gastronomiques célébrant les saveurs locales.",
+        "equipements": [
+            "5 étoiles",
+            "Piscine flottante sur le lac",
+            "Spa et centre de bien-être",
+            "Wi-Fi gratuit",
+            "Parc botanique de 26 000 m²",
+            "Restaurants gastronomiques",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/mandarin-oriental-lago-di-como.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Blevio-Hotel-Mandarin-Oriental.h3684389.Description-Hotel"
+    },
+    {
+        "nom": "Il San Pietro di Positano",
+        "slug": "il-san-pietro-di-positano",
+        "ville": "Positano",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "1 200€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/274299239.jpg?k=25d3a4a0397da23da8ae43007d53ed7617a6ebc07926acdfceff020085b53c5e&o=",
+        "description": "Accroché de manière spectaculaire aux falaises de la côte d'Amalfi, à l'entrée de Positano, Il San Pietro di Positano est l'un des hôtels les plus exclusifs et romantiques au monde. Chaque chambre et suite dispose d'une terrasse privée offrant une vue imprenable sur la mer Méditerranée. L'établissement se distingue par son ascenseur creusé à même la roche menant à une crique isolée avec plage privée, son court de tennis sur la falaise et son restaurant gastronomique étoilé au guide Michelin.",
+        "equipements": [
+            "5 étoiles",
+            "Plage privée et crique",
+            "Restaurant étoilé Michelin",
+            "Court de tennis sur la falaise",
+            "Spa et centre de bien-être",
+            "Wi-Fi gratuit",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/l-an-ietro-di-ositano.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Positano-Hotel-Il-San-Pietro-Di-Positano.h535991.Description-Hotel"
+    },
+    {
+        "nom": "Hotel Splendide Mare, A Belmond Hotel, Portofino",
+        "slug": "hotel-splendide-mare-a-belmond-hotel-portofino",
+        "ville": "Portofino",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "950€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/314453134.jpg?k=97713923de39cf703fbe2d19470e5ad2ec76d22481d907b2d05c8f6b8bf33444&o=",
+        "description": "Niché sur les hauteurs du port le plus célèbre de la Riviera ligurienne, l'Hotel Splendide Mare, A Belmond Hotel, offre des vues spectaculaires sur la piazzetta et les eaux saphir du golfe de Portofino. Cet établissement de charme associe l'élégance nautique à un art de vivre italien chaleureux. Les clients profitent de superbes terrasses ensoleillées, de chambres au design marin chic et raffiné, ainsi que d'un accès privilégié aux prestations de son grand frère le Belmond Hotel Splendido situé juste au-dessus.",
+        "equipements": [
+            "5 étoiles",
+            "Terrasse panoramique sur la baie",
+            "Restaurant de fruits de mer",
+            "Wi-Fi gratuit",
+            "Service de conciergerie VIP",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/splendido-mare-portofino.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Portofino-Hotel-Splendido-Mare.h12071446.Description-Hotel"
+    },
+    {
+        "nom": "Grand Hotel Principe di Piemonte, Viareggio",
+        "slug": "grand-hotel-principe-di-piemonte-viareggio",
+        "ville": "Viareggio",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "380€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/505717353.jpg?k=ab3bc9283c230397cfe8b9a1e3a946044134403b9c553c79d7eca6aa7bcb196c&o=",
+        "description": "Établissement historique au charme Art déco irrésistible, le Grand Hotel Principe di Piemonte trône majestueusement sur la promenade maritime de Viareggio, sur la côte toscane. Cet hôtel 5 étoiles allie le prestige de son architecture des années 1920 à un confort moderne somptueux. Il propose une magnifique piscine panoramique sur le toit avec vue sur la mer Tyrrhénienne et les Alpes apuanes, un spa relaxant et une table gastronomique doublement étoilée au guide Michelin.",
+        "equipements": [
+            "5 étoiles",
+            "Piscine panoramique sur le toit",
+            "Restaurant gastronomique 2 étoiles Michelin",
+            "Spa et centre de bien-être",
+            "Wi-Fi gratuit",
+            "Service de voiturier",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/grand-principe-di-piemonte.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Viareggio-Hotel-Grand-Hotel-Principe-Di-Piemonte.h1343841.Description-Hotel"
+    },
+    {
+        "nom": "Hotel Il Pellicano, Porto Ercole",
+        "slug": "hotel-il-pellicano-porto-ercole",
+        "ville": "Porto Ercole",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "900€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/38605553.jpg?k=2f72bc9776f80d5d4d38c64bb77ce982bb9d300e84b86c38cc5d5395fb595603&o=",
+        "description": "Perché sur les falaises rocheuses du promontoire exclusif de l'Argentario en Toscane, l'Hotel Il Pellicano est un sanctuaire de luxe discret et légendaire fondé dans les années 1960. Composé de cottages et d'une villa principale noyés dans la verdure, il offre une intimité absolue face à la mer Tyrrhénienne. L'établissement dispose d'un ascenseur en pierre creusé dans la falaise menant à une plateforme rocheuse privée pour se baigner dans les eaux cristallines, ainsi que d'un restaurant étoilé au guide Michelin.",
+        "equipements": [
+            "5 étoiles",
+            "Accès privé à la mer par la falaise",
+            "Restaurant étoilé Michelin",
+            "Spa et centre de bien-être",
+            "Wi-Fi gratuit",
+            "Piscine extérieure d'eau de mer",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/il-pellicano.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Porto-Ercole-Hotels-Il-Pellicano.h11944.Description-Hotel"
+    },
+    {
+        "nom": "Belmond Villa Sant'Andrea, Taormina Mare",
+        "slug": "belmond-villa-sant-andrea-taormina-mare",
+        "ville": "Taormina",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "850€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/38605553.jpg?k=2f72bc9776f80d5d4d38c64bb77ce982bb9d300e84b86c38cc5d5395fb595603&o=",
+        "description": "Niché directement sur les rives de la paisible baie de Mazzarò à Taormina Mare en Sicile, le Belmond Villa Sant'Andrea est une ancienne villa patricienne transformée en havre de luxe les pieds dans l'eau. Entouré de jardins subtropicaux luxuriants, l'établissement offre un accès direct à une plage privée de sable et de galets fins. Il propose des chambres élégantes dotées de balcons ou terrasses avec vue sur la mer Ionienne, une piscine chauffée et des excursions exclusives en bateau le long de la côte sicilienne.",
+        "equipements": [
+            "5 étoiles",
+            "Plage privée sur la baie",
+            "Piscine extérieure chauffée",
+            "Restaurant de fruits de mer",
+            "Spa et centre de bien-être",
+            "Wi-Fi gratuit",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/villa-sant-andrea.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Taormina-Hotels-Belmond-Villa-SantAndrea.h611599.Description-Hotel"
+    },
+    {
+        "nom": "Romazzino, a Luxury Collection Hotel, Costa Smeralda",
+        "slug": "romazzino-a-luxury-collection-hotel-costa-smeralda",
+        "ville": "Porto Cervo",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "1 000€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/38605553.jpg?k=2f72bc9776f80d5d4d38c64bb77ce982bb9d300e84b86c38cc5d5395fb595603&o=",
+        "description": "Niché au cœur de la prestigieuse Costa Smeralda en Sardaigne, le Romazzino s'intègre harmonieusement dans un paysage de maquis méditerranéen et de rochers de granit rose, directement face à l'une des plus belles plages de sable blanc de l'île. Cet établissement 5 étoiles, conçu dans un style architectural organique et blanchi à la chaux, propose des chambres aux accents sardes dotées de terrasses privées face à la mer turquoise. Il dispose de piscines d'eau de mer, d'un spa et d'une offre de sports nautiques d'élite.",
+        "equipements": [
+            "5 étoiles",
+            "Plage de sable blanc privée",
+            "Piscines d'eau de mer",
+            "Spa et centre de bien-être",
+            "Wi-Fi gratuit",
+            "Restaurants et bars de plage",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/romazzino-costa-smeralda.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Porto-Cervo-Hotels-Hotel-Romazzino.h17585.Description-Hotel"
+    },
+    {
+        "nom": "Forte Village Resort - Hotel Le Dune, Sardinia",
+        "slug": "forte-village-resort-hotel-le-dune-sardinia",
+        "ville": "Pula",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "900€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/38605553.jpg?k=2f72bc9776f80d5d4d38c64bb77ce982bb9d300e84b86c38cc5d5395fb595603&o=",
+        "description": "Niché au cœur du célèbre complexe de renom international Forte Village sur la côte sud de la Sardaigne à Pula, l'Hotel Le Dune propose des bungalows de luxe exclusifs et des suites élégantes situés à quelques pas seulement d'une plage de sable fin immaculée. Cet établissement 5 étoiles offre un service personnalisé haut de gamme, un accès privilégié à l'un des plus grands centres de thalassothérapie et de spa d'Europe, ainsi qu'un choix vertigineux de restaurants gastronomiques dirigés par des chefs étoilés.",
+        "equipements": [
+            "5 étoiles",
+            "Accès direct à la plage",
+            "Centre de thalassothérapie et spa",
+            "Multiples piscines et restaurants",
+            "Wi-Fi gratuit",
+            "Academies de sport (tennis, football)",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/forte-village-resort-le-dune.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Pula-Hotels-Forte-Village-Resort-Le-Dune.h28882.Description-Hotel"
+    },
+    {
+        "nom": "La Pescheria, Fasano (Apulie)",
+        "slug": "la-pescheria-fasano-apulie",
+        "ville": "Fasano",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "700€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/38605553.jpg?k=2f72bc9776f80d5d4d38c64bb77ce982bb9d300e84b86c38cc5d5395fb595603&o=",
+        "description": "Ancien établissement de pisciculture royale transformé en hôtel de luxe exclusif réservé aux adultes, La Pescheria est posé directement sur les vagues de la mer Adriatique à Fasano, en Apulie. Cet établissement intimiste de seulement 13 chambres offre un calme absolu, chacune disposant d'un patio privé et d'une baignoire hydromassage face à l'eau. Il propose une plage privée exclusive, des piscines d'eau de mer et un restaurant gastronomique spécialisé dans les poissons et fruits de mer fraîchement pêchés.",
+        "equipements": [
+            "5 étoiles",
+            "Réservé aux adultes",
+            "Plage privée et accès direct à la mer",
+            "Jacuzzi privé dans les chambres",
+            "Restaurant gastronomique de poissons",
+            "Wi-Fi gratuit",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/la-peschiera-fasano.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Fasano-Hotels-La-Peschiera.h611598.Description-Hotel"
+    },
+    {
+        "nom": "Cala di Volpe, a Luxury Collection Hotel, Costa Smeralda",
+        "slug": "cala-di-volpe-a-luxury-collection-hotel-costa-smeralda",
+        "ville": "Porto Cervo",
+        "pays": "Italie",
+        "etoiles": "5 étoiles",
+        "prix": "1 200€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/38605553.jpg?k=2f72bc9776f80d5d4d38c64bb77ce982bb9d300e84b86c38cc5d5395fb595603&o=",
+        "description": "Chef-d'œuvre architectural conçu pour ressembler à un village de pêcheurs traditionnel sarde niché au creux d'une crique turquoise, le Cala di Volpe est l'un des hôtels les plus célèbres et luxueux de la Méditerranée. Situé sur la Costa Smeralda en Sardaigne, il propose des chambres élégantes aux poutres apparentes, une immense piscine d'eau de mer en forme de lagon, un accès à des plages privées exclusives et une vie nocturne et gastronomique légendaire.",
+        "equipements": [
+            "5 étoiles",
+            "Immense piscine d'eau de mer",
+            "Plages privées",
+            "Restaurant gastronomique et piano bar",
+            "Centre de fitness et tennis",
+            "Wi-Fi gratuit",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/it/cala-di-volpe-costa-smeralda.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Porto-Cervo-Hotels-Hotel-Cala-Di-Volpe.h17586.Description-Hotel"
+    },
+    {
         "nom": "The Peninsula Tokyo",
         "slug": "the-peninsula-tokyo",
         "ville": "Tokyo",
@@ -7671,8 +8070,8 @@
             "Salon commun",
             "Climatisation"
         ],
-        "lien_booking": "[https://www.booking.com/hotel/tn/dar-zakaria-toursitic-area.fr.html?aid=8012379",
-        "lien_expedia": "https://www.expedia.fr/Hotel-Search?destination=Dar%20Zakaria%20Hammamet%20Tunisie"
+        "lien_booking": "https://www.booking.com/hotel/tn/dar-zakaria-toursitic-area.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Hotel"
     },
     {
         "nom": "Hôtel Mirage Beach Club",
