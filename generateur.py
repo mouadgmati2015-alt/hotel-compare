@@ -235,7 +235,8 @@ menu_html = f"""
     <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
 </div>
 <div class="top-nav">
-    <a href="index.html">Accueil / Hôtels</a>
+    <a href="index.html">Accueil</a>
+    <a href="hotels.html">Hôtels</a>
     <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
@@ -484,7 +485,7 @@ footer_html = """
         <div>
             <h4>Explorer</h4>
             <ul class="footer-links">
-                <li><a href="index.html">Hôtels</a></li>
+                <li><a href="hotels.html">Hôtels</a></li>
                 <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
@@ -832,6 +833,7 @@ html_accueil = f"""<!DOCTYPE html>
             </div>
             <h2 style="margin:0 0 10px; font-size: clamp(2rem, 4vw, 3rem);">Trouvez le bon hôtel, au bon prix, sans perdre une heure.</h2>
             <p style="margin:0; max-width: 700px; font-size: 1.05rem; line-height: 1.7; color: rgba(45,28,16,0.9);">Comparez les meilleurs séjours, découvrez les meilleurs rapports qualité-prix et réservez en quelques clics.</p>
+            <a href="hotels.html" class="btn-compare" style="display:inline-block; text-decoration:none; width:auto; margin-top:20px; padding:14px 28px;">🔍 Comparer les hôtels</a>
         </div>
 
         <div class="top-grid" style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 24px; margin: 26px 0 10px;">
@@ -840,7 +842,40 @@ html_accueil = f"""<!DOCTYPE html>
         </div>
 
         <div class="glass-box">
-            <h2 style="margin-top: 0;">💡 Comment comparer vos hôtels</h2>
+            <h2 style="margin-top: 0;">💡 Pourquoi utiliser MyHotelCompare ?</h2>
+            <p style="margin: 0; line-height: 1.7;">Nous rassemblons pour vous les meilleurs hôtels, leurs prix, leurs équipements et leurs avis afin de vous aider à choisir plus vite et à partir plus serein.</p>
+        </div>
+
+        <div class="stat-grid">
+            <div class="stat-item"><strong>4.8/5</strong><span>Moyenne satisfaction</span></div>
+            <div class="stat-item"><strong>+90%</strong><span>Clients satisfaits</span></div>
+            <div class="stat-item"><strong>24h</strong><span>Réponse rapide</span></div>
+            <div class="stat-item"><strong>1000+</strong><span>Hôtels analysés</span></div>
+        </div>
+
+        {temoignages_html}
+        {footer_html}
+    </div>
+</body>
+</html>
+"""
+write_html(OUTPUT_DIR / "index.html", html_accueil)
+
+# Page dédiée au comparateur d'hôtels
+html_hotels = f"""<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparateur d'hôtels | MyHotelCompare</title>
+    <link rel="canonical" href="{SITE_URL}/hotels.html">
+    {global_style}
+</head>
+<body>
+    <div class="container">
+        {menu_html}
+        <div class="glass-box" style="margin-bottom: 20px;">
+            <h1 style="margin-top:0;">🏨 Comparez deux hôtels en quelques clics</h1>
             <p style="margin: 0; line-height: 1.7;">1. Choisissez un pays pour chaque séjour. 2. Affinez éventuellement avec une ville. 3. Sélectionnez un hôtel de chaque côté, puis comparez.</p>
         </div>
 
@@ -861,14 +896,6 @@ html_accueil = f"""<!DOCTYPE html>
         <button class="btn-compare" onclick="lancerComparaison()">🚀 Lancer la comparaison</button>
         <div id="resultatComparaison" class="comparison-grid" style="margin-top: 30px;"></div>
 
-        <div class="stat-grid">
-            <div class="stat-item"><strong>4.8/5</strong><span>Moyenne satisfaction</span></div>
-            <div class="stat-item"><strong>+90%</strong><span>Clients satisfaits</span></div>
-            <div class="stat-item"><strong>24h</strong><span>Réponse rapide</span></div>
-            <div class="stat-item"><strong>1000+</strong><span>Hôtels analysés</span></div>
-        </div>
-
-        {temoignages_html}
         {footer_html}
     </div>
 
@@ -953,10 +980,128 @@ html_accueil = f"""<!DOCTYPE html>
 </body>
 </html>
 """
-write_html(OUTPUT_DIR / "index.html", html_accueil)
+write_html(OUTPUT_DIR / "hotels.html", html_hotels)
 
-# Copie de secours pour index.html sous hotels.html au cas où
-write_html(OUTPUT_DIR / "hotels.html", html_accueil)
+# Page dédiée au comparateur d'hôtels
+html_hotels = f"""<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparateur d'hôtels | MyHotelCompare</title>
+    <link rel="canonical" href="{SITE_URL}/hotels.html">
+    {global_style}
+</head>
+<body>
+    <div class="container">
+        {menu_html}
+        <div class="glass-box" style="margin-bottom: 20px;">
+            <h1 style="margin-top:0;">🏨 Comparez deux hôtels en quelques clics</h1>
+            <p style="margin: 0; line-height: 1.7;">1. Choisissez un pays pour chaque séjour. 2. Affinez éventuellement avec une ville. 3. Sélectionnez un hôtel de chaque côté, puis comparez.</p>
+        </div>
+
+        <div class="filters-box comparison-grid">
+            <div class="glass-box">
+                <h3 style="margin-top:0;">Premier séjour</h3>
+                <div><label>Pays</label><select id="selectPays1" onchange="updateVilles(1)" required><option value="">Choisissez un pays *</option></select></div>
+                <div><label>Ville (facultatif)</label><select id="selectVille1" onchange="updateHotels(1)"><option value="">Toutes les villes du pays</option></select></div>
+                <div><label>Hôtel</label><select id="selectHotel1"><option value="">Choisissez un hôtel...</option></select></div>
+            </div>
+            <div class="glass-box">
+                <h3 style="margin-top:0;">Deuxième séjour</h3>
+                <div><label>Pays (facultatif)</label><select id="selectPays2" onchange="updateVilles(2)"><option value="">Choisissez un pays...</option></select></div>
+                <div><label>Ville (facultatif)</label><select id="selectVille2" onchange="updateHotels(2)"><option value="">Toutes les villes du pays</option></select></div>
+                <div><label>Hôtel</label><select id="selectHotel2"><option value="">Choisissez un hôtel...</option></select></div>
+            </div>
+        </div>
+        <button class="btn-compare" onclick="lancerComparaison()">🚀 Lancer la comparaison</button>
+        <div id="resultatComparaison" class="comparison-grid" style="margin-top: 30px;"></div>
+
+        {footer_html}
+    </div>
+
+    <script>
+        const initialHotels = {json.dumps(all_hotels, ensure_ascii=False)};
+        let hotelsData = Array.isArray(initialHotels) ? initialHotels : [];
+
+        function initFiltres() {{
+            const paysSet = [...new Set(hotelsData.map(h => h.pays).filter(Boolean))].sort();
+            [1, 2].forEach(side => {{
+                const selectPays = document.getElementById('selectPays' + side);
+                paysSet.forEach(p => {{
+                    let opt = document.createElement('option');
+                    opt.value = p; opt.textContent = p;
+                    selectPays.appendChild(opt);
+                }});
+                updateVilles(side);
+            }});
+        }}
+
+        function updateVilles(side) {{
+            const pays = document.getElementById('selectPays' + side).value;
+            const selectVille = document.getElementById('selectVille' + side);
+            selectVille.innerHTML = '<option value="">Toutes les villes</option>';
+            const villesSet = [...new Set(hotelsData.filter(h => pays && h.pays === pays).map(h => h.ville).filter(Boolean))].sort();
+            villesSet.forEach(v => {{
+                let opt = document.createElement('option');
+                opt.value = v; opt.textContent = v;
+                selectVille.appendChild(opt);
+            }});
+            document.getElementById('selectHotel' + side).innerHTML = '<option value="">Choisissez un hôtel...</option>';
+            updateHotels(side);
+        }}
+
+        function updateHotels(side) {{
+            const pays = document.getElementById('selectPays' + side).value;
+            const ville = document.getElementById('selectVille' + side).value;
+            const filtered = hotelsData.filter(h => pays && h.pays === pays && (!ville || h.ville === ville))
+                .sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
+            const selectHotel = document.getElementById('selectHotel' + side);
+            selectHotel.innerHTML = '<option value="">Choisissez un hôtel...</option>';
+            filtered.forEach(h => {{
+                selectHotel.appendChild(new Option(h.nom, h.slug));
+            }});
+        }}
+
+        function lancerComparaison() {{
+            const pays1 = document.getElementById('selectPays1').value;
+            const pays2 = document.getElementById('selectPays2').value;
+            if (!pays1 && !pays2) {{
+                document.getElementById('resultatComparaison').innerHTML = '<p style="color:#b42318; grid-column:span 2; text-align:center;">Choisissez au moins un pays pour lancer la comparaison.</p>';
+                return;
+            }}
+            const h1 = hotelsData.find(h => h.slug === document.getElementById('selectHotel1').value);
+            const h2 = hotelsData.find(h => h.slug === document.getElementById('selectHotel2').value);
+            let html = '';
+            if (h1) html += renderCard(h1);
+            if (h2) html += renderCard(h2);
+            document.getElementById('resultatComparaison').innerHTML = html || '<p style="color:#6e4d39; grid-column:span 2; text-align:center;">Veuillez sélectionner au moins un hôtel.</p>';
+        }}
+
+        function renderCard(h) {{
+            const mapQuery = encodeURIComponent(h.nom + ', ' + h.ville + ', ' + h.pays);
+            return `<div class="card">
+                ${{h.image ? '<img src="' + h.image + '" alt="' + escapeText(h.nom) + '" style="width:100%; height:180px; object-fit:cover; border-radius:14px; margin-bottom:12px;">' : ''}}
+                <h3><a href="${{h.slug}}.html" style="color:var(--secondary); text-decoration:none;">${{h.nom}}</a></h3>
+                <p style="color:#6e4d39;">📍 ${{h.ville}}, ${{h.pays}} | ⭐ ${{h.etoiles}}</p>
+                <p style="color:#15803d; font-weight:700;">💰 ${{h.prix}}</p>
+                <a href="${{h.slug}}.html" style="display:block; background:var(--panel-strong); color:var(--text); padding:10px; text-align:center; text-decoration:none; border-radius:10px; margin-bottom:10px; font-weight:700;">📄 Voir la fiche détaillée</a>
+                <a href="${{h.lien_booking}}" target="_blank" class="btn-booking">Réserver sur Booking</a>
+                <a href="${{h.lien_expedia}}" target="_self" class="btn-expedia">Réserver sur Expedia</a>
+                <iframe width="100%" height="150" style="border:0; border-radius:12px; margin-top:12px;" src="https://maps.google.com/maps?q=${{mapQuery}}&output=embed"></iframe>
+            </div>`;
+        }}
+
+        function escapeText(value) {{
+            return String(value || '').replace(/[&<>"']/g, char => ({{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}}[char]));
+        }}
+
+        initFiltres();
+    </script>
+</body>
+</html>
+"""
+write_html(OUTPUT_DIR / "hotels.html", html_hotels)
 
 # 4. Fiches individuelles des hôtels
 for h_nom, d in HOTELS_DATA_COMPLET.items():
