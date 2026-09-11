@@ -141,6 +141,16 @@ def generer_schema_hotel(nom_hotel, donnees, description, avis_clients, url_page
     return json.dumps(schema, ensure_ascii=False)
 
 
+def nettoyer_avis(texte):
+    """Retire les faux chiffres et attributions de plateformes générés par IA."""
+    texte = re.sub(r'\s*\((Booking\.com|Expedia|TripAdvisor)\)', '', str(texte))
+    texte = re.sub(r'\bplus de \d+ (voyageurs|clients|avis)\b', 'de nombreux voyageurs', texte)
+    texte = re.sub(r'\bpar \d+ (voyageurs|clients|avis)\b', 'par les voyageurs', texte)
+    texte = re.sub(r"d'après \d+ (voyageurs|clients|avis)\b", "d'après les voyageurs", texte)
+    texte = re.sub(r'\bselon \d+ (voyageurs|clients|avis)\b', 'selon les voyageurs', texte)
+    texte = re.sub(r'\bnoté par \d+ avis\b', 'salué par les voyageurs', texte)
+    return texte
+
 def write_html(path, content):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -1122,8 +1132,8 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
     l_booking = update_booking_aid(d.get('lien_booking', '#'), h_nom, d.get('ville', ''), d.get('pays', ''))
     l_expedia = update_expedia_link(d.get('lien_expedia', '#'), h_nom, d.get('ville', ''), d.get('pays', ''))
     equipements = d.get('equipements') or []
-    points_positifs = d.get('points_positifs') or []
-    points_negatifs = d.get('points_negatifs') or []
+    points_positifs = [nettoyer_avis(p) for p in (d.get('points_positifs') or [])]
+    points_negatifs = [nettoyer_avis(n) for n in (d.get('points_negatifs') or [])]
     pour_qui = d.get('pour_qui') or {}
     avis_clients = d.get('avis_clients') or generer_avis_hotel(h_nom, d)
     nomad_insight = d.get('Nomad, vous en dit plus') or d.get('nomad_vous_en_dit_plus') or ""
