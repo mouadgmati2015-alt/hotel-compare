@@ -1322,10 +1322,14 @@ if types_uniques:
         img = image_pour_type(type_nom, type_slug)
         icone = icone_type(type_slug)
         img_html = f'<img src="{img}" alt="{escape_html(type_nom)}" style="width:100%; height:160px; object-fit:cover; border-radius:12px; margin-bottom:10px;">' if img else ''
+        icone_ronde_html = (
+            f'<span style="display:inline-block; width:32px; height:32px; border-radius:50%; overflow:hidden; flex-shrink:0;"><img src="{img}" alt="{escape_html(type_nom)}" style="width:100%; height:100%; object-fit:cover;"></span>'
+            if img else f'<span style="font-size:1.4rem;">{icone}</span>'
+        )
         logements_overview_cards += f"""
         <div class="card">
             {img_html}
-            <h3 style="margin-top:0;">{icone} {escape_html(type_nom.capitalize())}</h3>
+            <h3 style="margin-top:0; display:flex; align-items:center; gap:10px;">{icone_ronde_html} {escape_html(type_nom.capitalize())}</h3>
             <p style="color:var(--muted);">{nb} logement(s) disponible(s)</p>
             <a href="logement-{type_slug}.html" class="btn">Découvrir</a>
         </div>"""
@@ -1352,9 +1356,18 @@ if types_uniques:
         type_slug = nettoyer_slug(type_nom)
         logements_du_type = [l for l in all_logements if l['type'] == type_nom]
         icone = icone_type(type_slug)
+        image_categorie = image_pour_type(type_nom, type_slug)
         pays_options = "".join(
             f'<option value="{escape_html(p)}">{escape_html(p)}</option>'
             for p in sorted(set(l['pays'] for l in logements_du_type if l.get('pays')))
+        )
+        image_banniere_html = (
+            f'<img src="{image_categorie}" alt="{escape_html(type_nom.capitalize())}" style="width:100%; max-height:280px; object-fit:cover; border-radius:16px; margin-bottom:18px;">'
+            if image_categorie else ''
+        )
+        icone_ronde_html = (
+            f'<span style="display:inline-block; width:38px; height:38px; border-radius:50%; overflow:hidden; flex-shrink:0;"><img src="{image_categorie}" alt="{escape_html(type_nom)}" style="width:100%; height:100%; object-fit:cover;"></span>'
+            if image_categorie else f'<span style="font-size:1.6rem;">{icone}</span>'
         )
 
         page_type = f"""<!DOCTYPE html>
@@ -1364,8 +1377,9 @@ if types_uniques:
 {global_style}</head>
 <body><div class="container">{menu_html}
 <a href="logements-atypiques.html" style="color: var(--secondary); display:inline-block; margin-bottom:15px; text-decoration:none; font-weight:700;">← Tous les logements atypiques</a>
+{image_banniere_html}
 <div class="glass-box" style="margin-bottom:20px;">
-    <h1 style="margin-top:0;">{icone} {escape_html(type_nom.capitalize())}</h1>
+    <h1 style="margin-top:0; display:flex; align-items:center; gap:12px;">{icone_ronde_html} {escape_html(type_nom.capitalize())}</h1>
     <p>{len(logements_du_type)} logement(s) trouvé(s).</p>
     <label style="font-weight:700; display:block; margin-top:14px;">Filtrer par pays</label>
     <select id="filtre-pays" onchange="filtrerParPays()" style="width:100%; max-width:320px; padding:10px; border-radius:10px; border:1px solid var(--line); margin-top:6px;">
