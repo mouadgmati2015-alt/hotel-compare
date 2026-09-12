@@ -100,7 +100,7 @@ a { color: var(--secondary); }
 .btn { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 18px; }
 .btn-booking { display: block; background: linear-gradient(135deg, #0f3d85, #1d5bbf); color: white; padding: 12px 16px; text-align: center; margin-bottom: 10px; }
 .btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
-
+.btn-site-officiel { display: block; background: linear-gradient(135deg, var(--secondary), var(--primary-dark)); color: white; padding: 12px 16px; text-align: center; }
 .hero-banner {
     background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
     border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
@@ -189,7 +189,7 @@ a { color: var(--secondary); }
 <a href="logements-atypiques.html" style="color: var(--secondary); display:inline-block; margin-bottom:15px; text-decoration:none; font-weight:700;">← Tous les logements atypiques</a>
 <div class="glass-box" style="margin-bottom:20px;">
     <h1 style="margin-top:0;">🏡 Tente</h1>
-    <p>1 logement(s) trouvé(s).</p>
+    <p>5 logement(s) trouvé(s).</p>
     <label style="font-weight:700; display:block; margin-top:14px;">Filtrer par pays</label>
     <select id="filtre-pays" onchange="filtrerParPays()" style="width:100%; max-width:320px; padding:10px; border-radius:10px; border:1px solid var(--line); margin-top:6px;">
         <option value="">Tous les pays</option>
@@ -270,7 +270,7 @@ a { color: var(--secondary); }
 
 </div>
 <script>
-const logementsType = [{"nom": "Tiniri Camp", "slug": "tiniri-camp", "type": "tente", "ville": "Douz", "pays": "Tunisie", "prix": "30€ - 60€ / nuit", "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/500000000.jpg", "lien_booking": "https://www.booking.com/hotel/tn/tiniri-camp-douz.fr.html?aid=8012379", "lien_expedia": "https://www.expedia.fr/Douz-Hotels-Tiniri-Camp.h43209190.Hotel-Information"}];
+const logementsType = [{"nom": "Tiniri Camp", "slug": "tiniri-camp", "type": "tente", "ville": "Douz", "pays": "Tunisie", "prix": "30€ - 60€ / nuit", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHxDFrGg8cSU69gFIqWWoJxoi8rlOu2-_APqXi9_ODSsURk7QYJkifQ4A&s=10", "lien_booking": "https://www.booking.com/searchresults.fr.html?ss=Tiniri%20Camp%20Douz%20Tunisie&aid=8012379", "lien_expedia": "https://www.expedia.fr/Hotel-Search?destination=Tiniri%20Camp%20Douz%20Tunisie"}, {"nom": "Camp Mars", "slug": "camp-mars", "type": "tente", "ville": "Douz", "pays": "Tunisie", "prix": "120€ - 200€ / nuit", "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/20969288.jpg?k=0a8e0a41f9f377499eddf7aba4191ace82ceb065237b16b4fb05b02289e76387&o=", "lien_booking": "https://www.booking.com/hotel/tn/camp-mars.fr.html?aid=8012379", "lien_expedia": "https://www.expedia.fr/Douz-Hotel-Camp-Mars.h34567313.Description-Hotel"}, {"nom": "Campement Zmela", "slug": "campement-zmela", "type": "tente", "ville": "Douz", "pays": "Tunisie", "prix": "60€ - 120€ / nuit", "image": "https://www.campement-zmela.com/wp-content/uploads/2025/08/ytentes3.jpg", "lien_booking": "https://www.booking.com/searchresults.fr.html?ss=Campement%20Zmela%20Douz%20Tunisie&aid=8012379", "lien_expedia": "https://www.expedia.fr/Hotel-Search?destination=Campement%20Zmela%20Douz%20Tunisie"}, {"nom": "CAMP ABDELMOULA", "slug": "camp-abdelmoula", "type": "tente", "ville": "Douz", "pays": "Tunisie", "prix": "100€ - 160€ / nuit", "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/574641481.jpg?k=452ce42c61d6276dc63307b084cd8725f5feb8226a71a5f428f77ae4247c8e0d&o=", "lien_booking": "https://www.booking.com/hotel/tn/camp-abdelmoula.fr.html?aid=8012379", "lien_expedia": "https://www.expedia.fr/Douz-Hotels-Camp-Abdelmoula.h43209193.Hotel-Information"}, {"nom": "Campement wad erramal", "slug": "campement-wad-erramal", "type": "tente", "ville": "Douz", "pays": "Tunisie", "prix": "70€ - 120€ / nuit", "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/869013511.jpg?k=940add8c77f463b67723fede1e20abe5bbd97cfeea651a4aa4563b5509491567&o=", "lien_booking": "https://www.booking.com/hotel/tn/campement-wad-erramal.fr.html?aid=8012379", "lien_expedia": "https://www.expedia.fr/Hotel-Search?destination=Campement%20wad%20erramal%20Douz%20Tunisie"}];
 function escapeText(value) {
     return String(value || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
 }

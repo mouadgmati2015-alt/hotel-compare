@@ -354,7 +354,7 @@ a { color: var(--secondary); }
 .btn { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 18px; }
 .btn-booking { display: block; background: linear-gradient(135deg, #0f3d85, #1d5bbf); color: white; padding: 12px 16px; text-align: center; margin-bottom: 10px; }
 .btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
-
+.btn-site-officiel { display: block; background: linear-gradient(135deg, var(--secondary), var(--primary-dark)); color: white; padding: 12px 16px; text-align: center; }
 .hero-banner {
     background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
     border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
@@ -1405,8 +1405,11 @@ filtrerParPays();
         slug = nettoyer_slug(nom_logement)
         if not slug: continue
 
-        l_booking = update_booking_aid(d.get('lien_booking', '#'), nom_logement, d.get('ville', ''), d.get('pays', ''))
-        l_expedia = update_expedia_link(d.get('lien_expedia', '#'), nom_logement, d.get('ville', ''), d.get('pays', ''))
+        lien_booking_brut = str(d.get('lien_booking', '') or '').strip()
+        lien_expedia_brut = str(d.get('lien_expedia', '') or '').strip()
+        lien_site_officiel = str(d.get('lien_site_officiel', '') or '').strip()
+        l_booking = update_booking_aid(lien_booking_brut, nom_logement, d.get('ville', ''), d.get('pays', '')) if lien_booking_brut and lien_booking_brut != '#' else ''
+        l_expedia = update_expedia_link(lien_expedia_brut, nom_logement, d.get('ville', ''), d.get('pays', '')) if lien_expedia_brut and lien_expedia_brut != '#' else ''
         equipements = d.get('equipements') or []
         points_positifs = [nettoyer_avis(p) for p in (d.get('points_positifs') or [])]
         points_negatifs = [nettoyer_avis(n) for n in (d.get('points_negatifs') or [])]
@@ -1452,6 +1455,16 @@ filtrerParPays();
         logement_og_tags = generer_og_tags(nom_logement, meta_description, url_page, d.get('image', ''))
         image_alt_logement = escape_html(d.get('image_alt') or nom_logement)
 
+        boutons_reservation = ""
+        if l_booking:
+            boutons_reservation += f'<a href="{l_booking}" target="_blank" class="btn-booking">Réserver sur Booking</a>'
+        if l_expedia:
+            boutons_reservation += f'<a href="{l_expedia}" target="_self" class="btn-expedia">Réserver sur Expedia</a>'
+        if lien_site_officiel:
+            boutons_reservation += f'<a href="{escape_html(lien_site_officiel)}" target="_blank" rel="noopener" class="btn-site-officiel">Réserver sur leur site</a>'
+        if not boutons_reservation:
+            boutons_reservation = '<p style="color:var(--muted);">Réservation directe non disponible pour le moment — contactez l\'établissement.</p>'
+
         html_fiche_logement = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -1482,8 +1495,7 @@ filtrerParPays();
     {pour_qui_html}
 
     <div style="margin-top: 30px;">
-        <a href="{l_booking}" target="_blank" class="btn-booking">Réserver sur Booking</a>
-        <a href="{l_expedia}" target="_self" class="btn-expedia">Réserver sur Expedia</a>
+        {boutons_reservation}
     </div>
 </div>
 

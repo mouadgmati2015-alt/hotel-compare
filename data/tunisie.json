@@ -9655,63 +9655,6 @@
         },
         "lien": "https://www.booking.com/hotel/tn/diar-yassine.html?aid=818289"
     },
-    "Hotel Byzance": {
-        "pays": "Tunisie",
-        "ville": "Nabeul",
-        "etoiles": "3 étoiles",
-        "lien_booking": "https://www.booking.com/hotel/tn/byzance.html?aid=818289",
-        "lien_expedia": "https://www.expedia.fr/Nabeul-Hotel-Hotel-Byzance.h26549484.Description-Hotel",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/3870196.jpg?k=d3db923c29079ea7800b876e2d60f00f68c952436220b5b7aa8c73f1d8092559&o=",
-        "image_alt": "Hotel Byzance - hôtel 3 étoiles fonctionnel et économique à Nabeul",
-        "meta_title": "Hotel Byzance Nabeul 3* : Avis & Prix Petit-Déjeuner Inclus & Pratique 2026",
-        "meta_description": "Hotel Byzance 3* à Nabeul : chambres climatisées, petit-déjeuner inclus, annulation gratuite et tarif abordable. Avis 7.1/10, prix, réservation Booking.",
-        "description": "Situé à Nabeul, l'Hotel Byzance propose des chambres doubles climatisées avec un petit-déjeuner inclus.",
-        "prix_moyen": "307€ / semaine",
-        "avis": "7,1/10",
-        "points_positifs": [
-            "Petit-déjeuner inclus",
-            "Emplacement pratique à Nabeul",
-            "Annulation gratuite"
-        ],
-        "points_negatifs": [
-            "Prestations basiques"
-        ],
-        "equipements": [
-            "3 étoiles",
-            "Petit-déjeuner inclus",
-            "Climatisation",
-            "Chambre double"
-        ],
-        "Nomad, vous en dit plus": "Comme je le dis souvent à mes amis qui veulent s'offrir une escapade côtière sans se ruiner : l'Hotel Byzance à Nabeul offre un point de chute on ne peut plus classique mais diablement efficace. Entre l'emplacement bien pratique, le petit-déjeuner inclus et l'annulation gratuite, c'est l'option fonctionnelle par excellence pour un petit budget.",
-        "pour_qui": {
-            "ambiance": "🏖️ Pratique et économique",
-            "public": "Voyageurs cherchant un pied-à-terre abordable à Nabeul",
-            "style": "Hôtel de ville",
-            "verdict": "Un choix fonctionnel pour un petit budget dans la région de Nabeul."
-        },
-        "meta_avis": {
-            "note_globale": "7,1/10",
-            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
-            "points_cles_avis": "Contenu résumé par IA sur la base de 905 expériences vécues · Mise à jour : 2026"
-        },
-        "schema_org": {
-            "@context": "https://schema.org",
-            "@type": "Hotel",
-            "name": "Hotel Byzance",
-            "starRating": {
-                "@type": "Rating",
-                "ratingValue": "3"
-            },
-            "priceRange": "250€ - 400€ / semaine",
-            "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "3.55",
-                "bestRating": "5",
-                "reviewCount": "905"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/byzance.html?aid=818289"
-    },
     "TUI BLUE Manar": {
         "pays": "Tunisie",
         "ville": "Hammamet",
