@@ -82,7 +82,7 @@
             "verdict": "Une parenthèse magique au cœur des dunes, idéale pour contempler les étoiles."
         }
     },
-    "Campement Zmela": {
+   "Campement Zmela": {
         "type": "tente",
         "pays": "Tunisie",
         "ville": "Douz",
@@ -198,5 +198,85 @@
             "style": "Campement de tentes traditionnelles",
             "verdict": "Une excellente option pour admirer les étoiles et profiter de l'hospitalité saharienne en toute simplicité."
  }
+    },
+    "Gîte de Douiret (Chez Raouf)": {
+        "type": "troglodyte",
+        "pays": "Tunisie",
+        "ville": "Douz / Tataouine",
+        "lien_booking": "",
+        "lien_expedia": "",
+        "lien_site_officiel": "https://fr.airbnb.ca/rooms/1007878551957229796",
+        "image": "https://a0.muscache.com/im/pictures/40c50945-a255-42b9-9160-8bbb73b0c9bb.jpg?im_w=720",
+        "image_alt": "Gîte de Douiret - hébergement troglodyte et chambres en grottes traditionnelles berbères à Douz Tunisie",
+        "meta_title": "Gîte de Douiret ⛰️ : Avis & Prix Chambres Troglodytes Tunisie 2026",
+        "meta_description": "Gîte de Douiret (Chez Raouf) dans le vieux village berbère : chambres troglodytes et ghorfas traditionnelles, immersion culturelle, cuisine locale et vue panoramique sur les montagnes. Prix et réservation.",
+        "description": "Niché au cœur du vieux village fortifié de Douiret, près de Tataouine dans le sud tunisien, le Gîte de Douiret (géré par Raouf et sa famille) propose une expérience d'hébergement authentique dans des chambres troglodytes et des ghorfas creusées dans la roche. L'établissement allie tradition berbère et confort (avec des options de salles de bains privatives ou communes), tout en servant de superbes repas traditionnels faits maison et un petit-déjeuner typique.",
+        "prix_moyen": "30€ - 70€ / nuit",
+        "equipements": [
+            "Chambres troglodytes / Ghorfas",
+            "Salles de bains privatives ou communes",
+            "Restaurant traditionnel",
+            "Terrasse panoramique",
+            "Connexion Wi-Fi gratuite",
+            "Service d'organisation d'excursions et de taxis"
+        ],
+        "points_positifs": [
+            "Immersion culturelle totale dans un village berbère troglodyte millénaire",
+            "Accueil exceptionnel, chaleureux et familial de Raouf et de ses proches",
+            "Cuisine locale savoureuse préparée sur place avec des produits de qualité",
+            "Cadre spectaculaire offrant un calme absolu et une vue imprenable sur la montagne"
+        ],
+        "points_negatifs": [
+            "Accès atypique au village de montagne nécessitant de porter ses bagages sur les sentiers",
+            "Confort rustique inhérent à l'architecture troglodyte traditionnelle des lieux"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous voulez vivre une nuit hors du temps dans le sud tunisien, dormir dans une habitation troglodyte au Gîte de Douiret est un incontournable absolu. Ce qu'on adore, c'est la structure sculptée à même la roche, la bienveillance extraordinaire de Raouf et de sa famille, et le privilège de contempler les étoiles accroché aux flancs de cette montagne chargée d'histoire.",
+        "pour_qui": {
+            "ambiance": "⛰️ Troglodyte, historique, authentique et contemplatif",
+            "public": "Voyageurs en quête d'authenticité, d'histoire berbère et d'hébergements insolites",
+            "style": "Gîte troglodyte / Maison d'hôtes traditionnelle",
+            "verdict": "Une expérience humaine et patrimoniale inoubliable au cœur des montagnes de Douiret."
+        }
+    },
+    "Au Trait d'Union Tijma": {
+        "type": "troglodyte",
+        "pays": "Tunisie",
+        "ville": "Matmata",
+        "lien_booking": "https://www.booking.com/hotel/tn/au-trait-d-39-union-tijma.fr.html",
+        "lien_expedia": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/80392152.jpg?k=8ffdb2da57fba30b14e28f7ba9f6d068a46fc3fe9a0c3c1e021453c48ae8fbd4&o=",
+        "image_alt": "Au Trait d'Union Tijma Matmata - habitation troglodyte traditionnelle et maison d'hôtes à Matmata Tunisie",
+        "meta_title": "Au Trait d'Union Tijma Matmata ⛰️ : Avis & Prix Troglodyte 2026",
+        "meta_description": "Au Trait d'Union Tijma Matmata : séjour exceptionnel dans une habitation troglodyte traditionnelle, accueil chaleureux de Habib et sa famille, délicieuse cuisine régionale et chambres spacieuses. Avis 8,8/10, prix et réservation.",
+        "description": "Situé à Matmata, l'établissement Au Trait d'Union Tijma Matmata propose une expérience unique d'hébergement au sein d'une authentique maison troglodyte creusée dans la roche. Il met à disposition un restaurant de cuisine régionale, un bar, un jardin, une terrasse, ainsi qu'un salon commun. Les voyageurs y profitent d'un accueil familial d'exception, de chambres spacieuses et de salles de bains privatives.",
+        "prix_moyen": "70€ - 120€ / nuit",
+        "avis": "8,8/10",
+        "equipements": [
+            "Habitation troglodyte traditionnelle",
+            "Chambres doubles et quadruples spacieuses",
+            "Restaurant de cuisine régionale / Table d'hôtes",
+            "Bar et salon commun",
+            "Jardin et terrasse",
+            "Wi-Fi gratuit",
+            "Parking privé gratuit"
+        ],
+        "points_positifs": [
+            "Expérience unique et immersive de séjour dans une habitation troglodyte pleine de charme",
+            "Accueil d'une gentillesse extraordinaire de la part de Habib, de sa famille et de son équipe",
+            "Excellente cuisine régionale et repas du soir succulents préparés sur place",
+            "Propreté impeccable et chambres spacieuses au confort surprenant"
+        ],
+        "points_negatifs": [
+            "Salles de bains privatives situées parfois dans une aile séparée ou hors de la chambre (architecture troglodyte oblige)",
+            "Connexion Wi-Fi parfois faible dans les chambres excentrées et nécessitant de se rendre au lobby"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez à vivre l'expérience ultime d'une nuit dans une maison troglodyte authentique à Matmata sans renoncer à la propreté et à la beauté des lieux, Au Trait d'Union Tijma Matmata est une adresse incontournable. Ce qu'on adore, c'est l'incroyable hospitalité de Habib, le charme fou de l'architecture troglodyte et la table d'hôtes mémorable partagée dans la cour intérieure.",
+        "provenance_avis": "Note globale de 8,8/10 basée sur plus de 158 avis clients vérifiés.",
+        "pour_qui": {
+            "ambiance": "⛰️ Troglodyte, authentique, chaleureux et raffiné",
+            "public": "Voyageurs en quête d'une immersion architecturale unique et d'un accueil familial exceptionnel",
+            "style": "Maison d'hôtes troglodyte traditionnelle",
+            "verdict": "Une adresse magique et incontournable pour dormir dans une grotte aménagée avec beaucoup de style."
+        }
     }
 }
