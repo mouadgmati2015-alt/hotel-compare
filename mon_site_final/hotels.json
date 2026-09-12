@@ -4907,7 +4907,7 @@
         "pays": "Italie",
         "etoiles": "5 étoiles",
         "prix": "900€ / nuit",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/38605553.jpg?k=2f72bc9776f80d5d4d38c64bb77ce982bb9d300e84b86c38cc5d5395fb595603&o=",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/894922981.jpg?k=c7b31e3be5184ec26837efdfab01d5d17199ed63164722a29a629dff06a35662&o=",
         "description": "Perché sur les falaises rocheuses du promontoire exclusif de l'Argentario en Toscane, l'Hotel Il Pellicano est un sanctuaire de luxe discret et légendaire fondé dans les années 1960. Composé de cottages et d'une villa principale noyés dans la verdure, il offre une intimité absolue face à la mer Tyrrhénienne. L'établissement dispose d'un ascenseur en pierre creusé dans la falaise menant à une plateforme rocheuse privée pour se baigner dans les eaux cristallines, ainsi que d'un restaurant étoilé au guide Michelin.",
         "equipements": [
             "5 étoiles",
@@ -4919,7 +4919,7 @@
             "Climatisation"
         ],
         "lien_booking": "https://www.booking.com/hotel/it/il-pellicano.fr.html?aid=8012379",
-        "lien_expedia": "https://www.expedia.fr/Porto-Ercole-Hotels-Il-Pellicano.h11944.Description-Hotel"
+        "lien_expedia": "https://www.expedia.fr/Monte-Argentario-Hotel-Hotel-Il-Pellicano.h26700301.Description-Hotel"
     },
     {
         "nom": "Belmond Villa Sant'Andrea, Taormina Mare",
@@ -4928,7 +4928,7 @@
         "pays": "Italie",
         "etoiles": "5 étoiles",
         "prix": "850€ / nuit",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/38605553.jpg?k=2f72bc9776f80d5d4d38c64bb77ce982bb9d300e84b86c38cc5d5395fb595603&o=",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/593982926.jpg?k=71d735e65a9d612dfcacd838ab5b3ac4feeb76506d8e2c914d50557b51831f57&o=",
         "description": "Niché directement sur les rives de la paisible baie de Mazzarò à Taormina Mare en Sicile, le Belmond Villa Sant'Andrea est une ancienne villa patricienne transformée en havre de luxe les pieds dans l'eau. Entouré de jardins subtropicaux luxuriants, l'établissement offre un accès direct à une plage privée de sable et de galets fins. Il propose des chambres élégantes dotées de balcons ou terrasses avec vue sur la mer Ionienne, une piscine chauffée et des excursions exclusives en bateau le long de la côte sicilienne.",
         "equipements": [
             "5 étoiles",
@@ -4940,7 +4940,7 @@
             "Climatisation"
         ],
         "lien_booking": "https://www.booking.com/hotel/it/villa-sant-andrea.fr.html?aid=8012379",
-        "lien_expedia": "https://www.expedia.fr/Taormina-Hotels-Belmond-Villa-SantAndrea.h611599.Description-Hotel"
+        "lien_expedia": "https://www.expedia.fr/Taormina-Hotel-Villa-SantAndrea.h889626.Description-Hotel"
     },
     {
         "nom": "Romazzino, a Luxury Collection Hotel, Costa Smeralda",
@@ -4949,7 +4949,7 @@
         "pays": "Italie",
         "etoiles": "5 étoiles",
         "prix": "1 000€ / nuit",
-        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/38605553.jpg?k=2f72bc9776f80d5d4d38c64bb77ce982bb9d300e84b86c38cc5d5395fb595603&o=",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/593995472.jpg?k=febe9253df9f1282c8c1a8387d6c32968939c7afb91c7c73ab85ca3c1b854529&o=",
         "description": "Niché au cœur de la prestigieuse Costa Smeralda en Sardaigne, le Romazzino s'intègre harmonieusement dans un paysage de maquis méditerranéen et de rochers de granit rose, directement face à l'une des plus belles plages de sable blanc de l'île. Cet établissement 5 étoiles, conçu dans un style architectural organique et blanchi à la chaux, propose des chambres aux accents sardes dotées de terrasses privées face à la mer turquoise. Il dispose de piscines d'eau de mer, d'un spa et d'une offre de sports nautiques d'élite.",
         "equipements": [
             "5 étoiles",
@@ -4960,8 +4960,8 @@
             "Restaurants et bars de plage",
             "Climatisation"
         ],
-        "lien_booking": "https://www.booking.com/hotel/it/romazzino-costa-smeralda.fr.html?aid=8012379",
-        "lien_expedia": "https://www.expedia.fr/Porto-Cervo-Hotels-Hotel-Romazzino.h17585.Description-Hotel"
+        "lien_booking": "https://www.booking.com/hotel/it/romazzino.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Arzachena-Hotel-Romazzino.h24461.Description-Hotel"
     },
     {
         "nom": "Forte Village Resort - Hotel Le Dune, Sardinia",
@@ -7740,6 +7740,90 @@
         ],
         "lien_booking": "https://www.booking.com/hotel/gb/the-savoy.fr.html?aid=8012379",
         "lien_expedia": "https://www.expedia.fr/London-Hotel-The-Savoy.h27158.Description-Hotel"
+    },
+    {
+        "nom": "Ceylon Tea Trails, Hatton",
+        "slug": "ceylon-tea-trails-hatton",
+        "ville": "Hatton",
+        "pays": "Sri Lanka",
+        "etoiles": "5 étoiles",
+        "prix": "750€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/403939440.jpg?k=12815a2f8dacbebc10910a145d053a02226c61ecebb5f75d3d4754a253224c4c&o=",
+        "description": "Perché à 1 250 mètres d'altitude au milieu des vallées verdoyantes de la région théicole du Sri Lanka à Hatton, le Ceylon Tea Trails est une collection exclusive de superbes bungalows de planteurs britanniques historiques. Fonctionnant en formule tout compris (all-inclusive), l'établissement propose un service de majordome privé d'une prévenance infinie, des cheminées crépitantes, des piscines à débordement face aux montagnes et des excursions immersives dans les fabriques de thé centenaires.",
+        "equipements": [
+            "5 étoiles",
+            "Formule tout compris (All-Inclusive)",
+            "Majordome privé",
+            "Piscines à débordement",
+            "Wi-Fi gratuit",
+            "Visites guidées des plantations de thé",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/lk/ceylon-tea-trails.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Hatton-Hotels-Ceylon-Tea-Trails.h611598.Description-Hotel"
+    },
+    {
+        "nom": "Wild Coast Tented Lodge, Yala",
+        "slug": "wild-coast-tented-lodge-yala",
+        "ville": "Yala",
+        "pays": "Sri Lanka",
+        "etoiles": "5 étoiles",
+        "prix": "800€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/138890847.jpg?k=64e1cdc9a56b8238534101fdf6cc08654ffdf75c2b4a85729b5759700845546c&o=",
+        "description": "Posé de manière spectaculaire à l'intersection de la jungle sauvage du parc national de Yala et des vagues de l'océan Indien, le Wild Coast Tented Lodge est un éco-resort de luxe unique au monde. L'établissement propose des tentes en forme de cocons futuristes dotées d'un design intérieur somptueux, de baignoires en cuivre et pour certaines de bassins privatifs. Il offre une formule tout compris incluant des safaris guidés d'exception pour observer les léopards et les éléphants.",
+        "equipements": [
+            "5 étoiles",
+            "Formule tout compris avec safaris",
+            "Piscine extérieure en forme de croissant",
+            "Spa de brousse",
+            "Wi-Fi gratuit",
+            "Tentes-cocons climatisées",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/lk/wild-coast-tented-lodge.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Palatupana-Hotel-Wild-Coast-Tented-Lodge.h19643398.Description-Hotel"
+    },
+    {
+        "nom": "Cape Weligama, Weligama",
+        "slug": "cape-weligama-weligama",
+        "ville": "Weligama",
+        "pays": "Sri Lanka",
+        "etoiles": "5 étoiles",
+        "prix": "500€ / nuit",
+        "image": "https://images.trvl-media.com/lodging/12000000/11480000/11470100/11470023/d8af0377.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "description": "Juché spectaculairement sur une falaise de promontoire surplombant l'océan Indien à Weligama, le Cape Weligama est un resort de luxe iconique de la côte sud du Sri Lanka. L'établissement propose des villas et suites spacieuses dotées d'un design sophistiqué et de terrasses privées panoramiques. Il est mondialement célèbre pour sa sublime piscine à débordement en forme de croissant suspendue à 40 mètres au-dessus des flots, ainsi que pour ses tables gastronomiques proposant des fruits de mer fraîchement pêchés.",
+        "equipements": [
+            "5 étoiles",
+            "Piscine en croissant suspendue",
+            "Spa et centre de bien-être",
+            "Wi-Fi gratuit",
+            "Restaurants gastronomiques",
+            "Service de voiturier",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/lk/cape-weligama.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Weligama-Hotel-Cape-Weligama-Relais-And-Chateaux.h11470023.Description-Hotel"
+    },
+    {
+        "nom": "Sigiriya Jungles, Sigiriya",
+        "slug": "sigiriya-jungles-sigiriya",
+        "ville": "Sigiriya",
+        "pays": "Sri Lanka",
+        "etoiles": "5 étoiles",
+        "prix": "150€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/700040358.jpg?k=17d51b1cbe52d6caded716d40da9d57d836f43e8e1cc647a76ba09807150b4ba&o=",
+        "description": "Niché au cœur de la jungle tropicale luxuriante du triangle culturel du Sri Lanka, le Sigiriya Jungles offre un havre de paix spectaculaire doté d'une vue imprenable et directe sur le mythique rocher de Sigiriya (rocher du Lion). Cet établissement 5 étoiles propose des chambres spacieuses et climatisées décorées dans un style contemporain aux touches locales, une immense piscine extérieure paysagère, un spa ayurvédique ressourçant et une table mettant à l'honneur la cuisine traditionnelle srilankaise.",
+        "equipements": [
+            "5 étoiles",
+            "Immense piscine extérieure",
+            "Spa ayurvédique",
+            "Wi-Fi gratuit",
+            "Restaurant et bar",
+            "Chambres avec vue sur le rocher",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/lk/sigiriya-jungles.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Avudangawa-Hotel-Sigiriya-Jungles.h15850579.Description-Hotel"
     },
     {
         "nom": "Mandarin Oriental Bangkok",

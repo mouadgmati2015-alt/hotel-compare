@@ -1,0 +1,83 @@
+{
+    "Tiniri Camp": {
+        "type": "tente",
+        "pays": "Tunisie",
+        "ville": "Douz",
+        "lien_booking": "https://tiniricamp.com/",
+        "lien_expedia": "https://tiniricamp.com/",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHxDFrGg8cSU69gFIqWWoJxoi8rlOu2-_APqXi9_ODSsURk7QYJkifQ4A&s=10",
+        "image_alt": "Tiniri Camp - campement de luxe glamping avec tentes de style bédouin dans les dunes du Sahara à Douz Tunisie",
+        "meta_title": "Tiniri Camp 🏜️ : Avis & Prix Glamping Désert Douz 2026",
+        "meta_description": "Tiniri Camp, campement glamping dans les dunes du Sahara près de Douz : tentes bédouines confortables, activités désertiques et soirées feu de camp. Prix et réservation.",
+        "description": "Situé au cœur des dunes du Sahara tunisien, à environ deux heures de route de Douz, ce campement de luxe (glamping) propose des tentes de style bédouin alliant tradition et confort moderne. Il dispose d'un restaurant principal et d'un snack-bar offrant une vue panoramique sur les immensités de sable. L'établissement propose également des activités variées telles que des balades à dos de chameau, du quad et des soirées musicales autour du feu de camp.",
+        "prix_moyen": "30€ - 60€ / nuit",
+        "equipements": [
+            "Tente de style bédouin",
+            "Salle de bain privée",
+            "Terrasse privée",
+            "Restaurant principal",
+            "Snack-bar",
+            "Vue panoramique sur les dunes",
+            "Activités sahariennes (chameau, quad)",
+            "Feu de camp et soirées musicales"
+        ],
+        "points_positifs": [
+            "Beauté exceptionnelle et calme absolu du site au milieu du désert",
+            "Accueil chaleureux et personnel aux petits soins",
+            "Confort surprenant des tentes avec salle de bain privée et literie de qualité",
+            "Activités mémorables proposées sur place (chameau, quad, soirées musicales)"
+        ],
+        "points_negatifs": [
+            "Problèmes d'entretien des équipements lors d'intempéries ou de vents de sable",
+            "Manque parfois de réactivité de la gestion face aux conditions climatiques rudes du désert"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez à vivre l'expérience magique du grand désert sans sacrifier votre confort, le Tiniri Camp offre une immersion somptueuse dans les dunes du Sahara à deux pas de Douz. Ce qu'on adore, c'est l'alliance parfaite entre le style bédouin traditionnel, des tentes étonnamment bien équipées (salle de bain privée) et la magie des soirées musicales autour du feu de camp sous un ciel étoilé incomparable.",
+        "pour_qui": {
+            "ambiance": "🏜️ Dépaysant, calme, magique et authentique",
+            "public": "Voyageurs en quête d'une expérience saharienne haut de gamme et immersive",
+            "style": "Campement de luxe / Glamping dans le désert",
+            "verdict": "Une parenthèse inoubliable au milieu des immensités de sable du Sahara."
+        }
+    },
+    "Camp Mars": {
+        "type": "tente",
+        "pays": "Tunisie",
+        "ville": "Douz",
+        "lien_booking": "https://www.booking.com/hotel/tn/camp-mars.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Douz-Hotel-Camp-Mars.h34567313.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/20969288.jpg?k=0a8e0a41f9f377499eddf7aba4191ace82ceb065237b16b4fb05b02289e76387&o=",
+        "image_alt": "Camp Mars - campement de tentes traditionnelles au cœur des dunes de sable de Timbaine à Douz Tunisie",
+        "meta_title": "Camp Mars 🏜️ : Avis & Prix Glamping Dunes de Timbaine Douz 2026",
+        "meta_description": "Camp Mars, campement de tentes traditionnelles au milieu des dunes de Timbaine près de Douz : cadre magique, silence absolu, ciel étoilé, repas faits maison et soirées autour du feu. Avis 9,0/10, prix et réservation.",
+        "description": "Situé sur la colline de Timbaine, au cœur des dunes du Sahara tunisien à environ deux heures de Douz, le Camp Mars propose un hébergement en tentes traditionnelles offrant une vue panoramique sur les immensités de sable. Il dispose d'un restaurant servant des plats locaux faits maison, d'un bar et organise des visites guidées, des excursions dans le désert, des balades à dos de chameau ainsi que des soirées traditionnelles autour du feu de camp.",
+        "prix_moyen": "120€ - 200€ / nuit",
+        "equipements": [
+            "Tente traditionnelle",
+            "Restaurant principal",
+            "Bar",
+            "Vue sur les dunes",
+            "Navette aéroport",
+            "Parking gratuit",
+            "Excursions et visites guidées",
+            "Feu de camp et soirées traditionnelles"
+        ],
+        "points_positifs": [
+            "Cadre sublime, magique et sensationnel, coupé du monde au milieu des dunes",
+            "Silence et calme absolu propices à l'observation d'un ciel étoilé incroyable",
+            "Personnel extrêmement gentil, accueillant et aux petits soins",
+            "Excellente qualité des repas traditionnels et pain cuit dans le sable"
+        ],
+        "points_negatifs": [
+            "Frais de transport/transfert 4x4 obligatoires et jugés chers par de nombreux voyageurs",
+            "Confort des sanitaires/douches parfois rudimentaire (absence d'électricité dans les tentes et commodités partagées)",
+            "Manque d'éclairage à l'intérieur des tentes"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez à vivre une véritable aventure immersive au cœur du désert tunisien sans renoncer à la magie d'un ciel étoilé sous une tente traditionnelle, le Camp Mars est une option inoubliable. Ce qu'on adore, c'est ce sentiment délicieux d'être coupé du monde, bercé par le silence absolu des dunes de Timbaine, avec un accueil chaleureux et des soirées inoubliables autour du feu de camp.",
+        "pour_qui": {
+            "ambiance": "🏜️ Dépaysant, calme absolu, magique et authentique",
+            "public": "Voyageurs en quête d'une expérience saharienne unique et hors du temps",
+            "style": "Campement de tentes traditionnelles dans le désert",
+            "verdict": "Une parenthèse magique au cœur des dunes, idéale pour contempler les étoiles."
+        }
+    }
+}

@@ -102,13 +102,13 @@ def generer_og_tags(titre, description, url, image=""):
     return tags
 
 
-def generer_schema_hotel(nom_hotel, donnees, description, avis_clients, url_page):
-    """Construit un objet JSON-LD schema.org Hotel (+ AggregateRating si des avis existent)."""
+def generer_schema_hotel(nom_hotel, donnees, description, avis_clients, url_page, schema_type="Hotel"):
+    """Construit un objet JSON-LD schema.org Hotel/LodgingBusiness (+ AggregateRating si des avis existent)."""
     ville = str(donnees.get("ville") or "").strip()
     pays = str(donnees.get("pays") or "").strip()
     schema = {
         "@context": "https://schema.org",
-        "@type": "Hotel",
+        "@type": schema_type,
         "name": nom_hotel,
         "description": re.sub(r"\s+", " ", str(description or "")).strip()[:500],
         "url": url_page,
@@ -675,6 +675,94 @@ if os.path.exists(data_dir):
 with open(os.path.join(output_dir, "hotels.json"), "w", encoding="utf-8") as f:
     json.dump(all_hotels, f, ensure_ascii=False, indent=4)
 
+# 1bis. Chargement des logements atypiques depuis data_logements/
+LOGEMENTS_DATA_COMPLET = {}
+all_logements = []
+logements_dir = "data_logements"
+
+if os.path.exists(logements_dir):
+    for filename in os.listdir(logements_dir):
+        if filename.endswith(".json"):
+            chemin_fichier = os.path.join(logements_dir, filename)
+            with open(chemin_fichier, "r", encoding="utf-8") as f:
+                try:
+                    data = json.load(f)
+                    if isinstance(data, dict):
+                        for nom, d in data.items():
+                            if not isinstance(d, dict): continue
+                            slug = nettoyer_slug(nom)
+                            if not slug: continue
+                            type_val = str(d.get('type') or 'atypique').strip().lower()
+                            LOGEMENTS_DATA_COMPLET[nom] = d
+                            all_logements.append({
+                                'nom': nom, 'slug': slug, 'type': type_val,
+                                'ville': d.get('ville', ''), 'pays': d.get('pays', ''),
+                                'prix': d.get('prix_moyen', 'Sur demande'),
+                                'image': d.get('image', ''),
+                                'lien_booking': update_booking_aid(d.get('lien_booking', '#'), nom, d.get('ville', ''), d.get('pays', '')),
+                                'lien_expedia': update_expedia_link(d.get('lien_expedia', '#'), nom, d.get('ville', ''), d.get('pays', ''))
+                            })
+                except Exception as e:
+                    print(f"Erreur sur {filename}: {e}")
+
+types_uniques = sorted(set(l['type'] for l in all_logements if l.get('type')))
+
+TYPE_ICONES = {
+    'cabane': '🌳', 'yourte': '🏕️', 'bulle': '✨', 'roulotte': '🚐',
+    'chateau': '🏰', 'peniche': '🚤', 'tipi': '⛺', 'phare': '🗼', 'atypique': '🏡'
+}
+
+def icone_type(type_slug):
+    return TYPE_ICONES.get(type_slug, '🏡')
+
+def image_pour_type(type_nom, type_slug):
+    """Utilise images/atypique_<type>.jpg si elle existe, sinon la 1ère photo dispo pour ce type."""
+    chemin_dedie = f"images/atypique_{type_slug}.jpg"
+    if (BASE_DIR / chemin_dedie).exists():
+        return chemin_dedie
+    for logement in all_logements:
+        if logement['type'] == type_nom and logement.get('image'):
+            return logement['image']
+    return ""
+
+# Mosaïque pour la page d'accueil (limitée à 6 catégories + "Voir tout")
+mosaique_items = ""
+for type_nom in types_uniques[:6]:
+    type_slug = nettoyer_slug(type_nom)
+    img = image_pour_type(type_nom, type_slug)
+    icone = icone_type(type_slug)
+    img_tag = (
+        f'<img src="{img}" alt="{escape_html(type_nom)}" style="width:100%; height:100%; object-fit:cover;">'
+        if img else
+        f'<div style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; font-size:2.2rem; background:var(--panel-strong);">{icone}</div>'
+    )
+    mosaique_items += f"""
+    <a href="logement-{type_slug}.html" style="text-decoration:none; color:var(--text); width:110px;">
+        <div style="width:100px; height:100px; border-radius:50%; overflow:hidden; margin:0 auto 8px; border:3px solid var(--primary); box-shadow: var(--shadow);">
+            {img_tag}
+        </div>
+        <span style="font-weight:700; font-size:0.88rem;">{icone} {escape_html(type_nom.capitalize())}</span>
+    </a>"""
+
+if types_uniques:
+    mosaique_items += """
+    <a href="logements-atypiques.html" style="text-decoration:none; color:var(--text); width:110px;">
+        <div style="width:100px; height:100px; border-radius:50%; overflow:hidden; margin:0 auto 8px; border:3px dashed var(--secondary); box-shadow: var(--shadow); display:flex; align-items:center; justify-content:center; background:var(--panel);">
+            <span style="font-size:1.8rem;">➕</span>
+        </div>
+        <span style="font-weight:700; font-size:0.88rem;">Voir tout</span>
+    </a>"""
+
+mosaique_html = f"""
+<div class="glass-box" style="margin: 26px 0 10px; text-align: center;">
+    <h2 style="margin-top:0;">🌿 Envie d'un séjour hors du commun ?</h2>
+    <p style="color: var(--muted); margin-bottom: 20px;">Cabanes, yourtes, bulles... explorez nos logements les plus insolites.</p>
+    <div style="display: flex; justify-content: center; gap: 22px; flex-wrap: wrap;">
+        {mosaique_items}
+    </div>
+</div>
+""" if types_uniques else ""
+
 # 2. Recherche intelligente en langage naturel
 recherche_intelligente_page = f"""<!DOCTYPE html>
 <html lang="fr">
@@ -856,6 +944,8 @@ html_accueil = f"""<!DOCTYPE html>
             <p style="margin:0; max-width: 700px; font-size: 1.05rem; line-height: 1.7; color: rgba(45,28,16,0.9);">Comparez les meilleurs séjours, découvrez les meilleurs rapports qualité-prix et réservez en quelques clics.</p>
             <a href="hotels.html" class="btn-compare" style="display:inline-block; text-decoration:none; width:auto; margin-top:20px; padding:14px 28px;">🔍 Comparer les hôtels</a>
         </div>
+
+        {mosaique_html}
 
         <div class="top-grid" style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 24px; margin: 26px 0 10px;">
             <div>{carousel_html}</div>
@@ -1167,7 +1257,8 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
         """
     description = escape_html(d.get('description_ia') or d.get('description', ''))
     description_brute = d.get('description_ia') or d.get('description', '')
-    meta_description = escape_html(generer_meta_description(h_nom, d, description_brute))
+    meta_description = escape_html(d.get('meta_description') or generer_meta_description(h_nom, d, description_brute))
+    titre_page = escape_html(d.get('meta_title') or f"{h_nom} - {d.get('ville','')} | MyHotelCompare")
     url_page = f"{SITE_URL}/{slug}.html"
     schema_json = generer_schema_hotel(h_nom, d, description_brute, avis_clients, url_page)
     hotel_og_tags = generer_og_tags(h_nom, meta_description, url_page, d.get('image', ''))
@@ -1179,7 +1270,7 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{escape_html(h_nom)} - {escape_html(d.get('ville',''))} | MyHotelCompare</title>
+    <title>{titre_page}</title>
     <meta name="description" content="{meta_description}">
     <link rel="canonical" href="{url_page}">
     {hotel_og_tags}
@@ -1220,6 +1311,192 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
 </div></body></html>"""
     with open(os.path.join(output_dir, f"{slug}.html"), "w", encoding="utf-8") as f:
         f.write(html_fiche)
+
+# 4bis. Pages Logements Atypiques (vue d'ensemble, par type, fiches individuelles)
+if types_uniques:
+    # -- Page vue d'ensemble --
+    logements_overview_cards = ""
+    for type_nom in types_uniques:
+        type_slug = nettoyer_slug(type_nom)
+        nb = sum(1 for l in all_logements if l['type'] == type_nom)
+        img = image_pour_type(type_nom, type_slug)
+        icone = icone_type(type_slug)
+        img_html = f'<img src="{img}" alt="{escape_html(type_nom)}" style="width:100%; height:160px; object-fit:cover; border-radius:12px; margin-bottom:10px;">' if img else ''
+        logements_overview_cards += f"""
+        <div class="card">
+            {img_html}
+            <h3 style="margin-top:0;">{icone} {escape_html(type_nom.capitalize())}</h3>
+            <p style="color:var(--muted);">{nb} logement(s) disponible(s)</p>
+            <a href="logement-{type_slug}.html" class="btn">Découvrir</a>
+        </div>"""
+
+    page_logements_overview = f"""<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Logements Atypiques | MyHotelCompare</title>
+<link rel="canonical" href="{SITE_URL}/logements-atypiques.html">
+{global_style}</head>
+<body><div class="container">{menu_html}
+<div class="glass-box" style="margin-bottom:20px;">
+    <h1 style="margin-top:0;">🌿 Logements Atypiques</h1>
+    <p>Cabanes, yourtes, bulles, roulottes... explorez des séjours qui sortent de l'ordinaire.</p>
+</div>
+<div class="rental-grid">
+{logements_overview_cards}
+</div>
+{footer_html}
+</div></body></html>"""
+    write_html(OUTPUT_DIR / "logements-atypiques.html", page_logements_overview)
+
+    # -- Une page par type (avec filtre pays en JS) --
+    for type_nom in types_uniques:
+        type_slug = nettoyer_slug(type_nom)
+        logements_du_type = [l for l in all_logements if l['type'] == type_nom]
+        icone = icone_type(type_slug)
+        pays_options = "".join(
+            f'<option value="{escape_html(p)}">{escape_html(p)}</option>'
+            for p in sorted(set(l['pays'] for l in logements_du_type if l.get('pays')))
+        )
+
+        page_type = f"""<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{escape_html(type_nom.capitalize())} - Logements Atypiques | MyHotelCompare</title>
+<link rel="canonical" href="{SITE_URL}/logement-{type_slug}.html">
+{global_style}</head>
+<body><div class="container">{menu_html}
+<a href="logements-atypiques.html" style="color: var(--secondary); display:inline-block; margin-bottom:15px; text-decoration:none; font-weight:700;">← Tous les logements atypiques</a>
+<div class="glass-box" style="margin-bottom:20px;">
+    <h1 style="margin-top:0;">{icone} {escape_html(type_nom.capitalize())}</h1>
+    <p>{len(logements_du_type)} logement(s) trouvé(s).</p>
+    <label style="font-weight:700; display:block; margin-top:14px;">Filtrer par pays</label>
+    <select id="filtre-pays" onchange="filtrerParPays()" style="width:100%; max-width:320px; padding:10px; border-radius:10px; border:1px solid var(--line); margin-top:6px;">
+        <option value="">Tous les pays</option>
+        {pays_options}
+    </select>
+</div>
+<div id="liste-logements" class="rental-grid"></div>
+{footer_html}
+</div>
+<script>
+const logementsType = {json.dumps(logements_du_type, ensure_ascii=False)};
+function escapeText(value) {{
+    return String(value || '').replace(/[&<>"']/g, c => ({{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}}[c]));
+}}
+function rendreCarte(l) {{
+    return `<div class="card">
+        ${{l.image ? '<img src="' + l.image + '" alt="' + escapeText(l.nom) + '" style="width:100%; height:160px; object-fit:cover; border-radius:12px; margin-bottom:10px;">' : ''}}
+        <h3 style="margin-top:0;"><a href="atypique-${{l.slug}}.html" style="color:var(--secondary); text-decoration:none;">${{l.nom}}</a></h3>
+        <p style="color:var(--muted);">📍 ${{l.ville}}, ${{l.pays}}</p>
+        <p style="color:#15803d; font-weight:700;">💰 ${{l.prix}}</p>
+        <a href="atypique-${{l.slug}}.html" class="btn">Voir la fiche</a>
+    </div>`;
+}}
+function filtrerParPays() {{
+    const pays = document.getElementById('filtre-pays').value;
+    const filtres = pays ? logementsType.filter(l => l.pays === pays) : logementsType;
+    document.getElementById('liste-logements').innerHTML = filtres.map(rendreCarte).join('') || '<p>Aucun logement pour ce pays.</p>';
+}}
+filtrerParPays();
+</script>
+</body></html>"""
+        write_html(OUTPUT_DIR / f"logement-{type_slug}.html", page_type)
+
+    # -- Fiches individuelles (préfixe "atypique-" pour ne jamais entrer en conflit avec les hôtels) --
+    for nom_logement, d in LOGEMENTS_DATA_COMPLET.items():
+        slug = nettoyer_slug(nom_logement)
+        if not slug: continue
+
+        l_booking = update_booking_aid(d.get('lien_booking', '#'), nom_logement, d.get('ville', ''), d.get('pays', ''))
+        l_expedia = update_expedia_link(d.get('lien_expedia', '#'), nom_logement, d.get('ville', ''), d.get('pays', ''))
+        equipements = d.get('equipements') or []
+        points_positifs = [nettoyer_avis(p) for p in (d.get('points_positifs') or [])]
+        points_negatifs = [nettoyer_avis(n) for n in (d.get('points_negatifs') or [])]
+        pour_qui = d.get('pour_qui') or {}
+        avis_clients = d.get('avis_clients') or generer_avis_hotel(nom_logement, d)
+        nomad_insight = d.get('Nomad, vous en dit plus') or d.get('nomad_vous_en_dit_plus') or ""
+        type_nom = str(d.get('type') or 'atypique').strip().lower()
+        type_slug = nettoyer_slug(type_nom)
+        icone = icone_type(type_slug)
+
+        reviews_html = "".join(
+            f"""
+            <div class="review-card">
+                <div class="stars">{'★' * int(a.get('note', 5))}{'☆' * (5 - int(a.get('note', 5)))}</div>
+                <p style="font-weight:700; margin: 12px 0 8px;">{escape_html(a.get('nom', 'Client'))}</p>
+                <p style="font-size:0.82rem; color:var(--muted); margin:0 0 8px;">{escape_html(a.get('role', 'Voyageur'))}</p>
+                <p style="margin:0; line-height:1.6; color: var(--text);">{escape_html(a.get('texte', ''))}</p>
+            </div>
+            """ for a in avis_clients
+        )
+        equipements_html = f"<h3>🛠️ Équipements</h3><p>{escape_html(', '.join(map(str, equipements)))}</p>" if equipements else ""
+        points_html = f"<h3>✅ Points Positifs</h3><ul>{''.join(f'<li>{escape_html(p)}</li>' for p in points_positifs)}</ul>" if points_positifs else ""
+        points_negatifs_html = f"<h3>⚠️ Points négatifs</h3><ul>{''.join(f'<li>{escape_html(n)}</li>' for n in points_negatifs)}</ul>" if points_negatifs else ""
+        pour_qui_html = ""
+        if isinstance(pour_qui, dict):
+            public = pour_qui.get('public') or ""
+            verdict = pour_qui.get('verdict') or ""
+            details = " · ".join(str(pour_qui.get(key)) for key in ('ambiance', 'style') if pour_qui.get(key))
+            pour_qui_html = f"""
+            <div class="glass-box" style="margin-top: 22px;">
+                <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
+                <p>{escape_html(public)}</p>
+                {f'<p style="color:var(--muted);">{escape_html(details)}</p>' if details else ''}
+                {f'<h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">{escape_html(verdict)}</p>' if verdict else ''}
+            </div>
+            """
+        description = escape_html(d.get('description', ''))
+        description_brute = d.get('description', '')
+        meta_description = escape_html(d.get('meta_description') or generer_meta_description(nom_logement, d, description_brute))
+        titre_page = escape_html(d.get('meta_title') or f"{nom_logement} - {d.get('ville','')} | MyHotelCompare")
+        url_page = f"{SITE_URL}/atypique-{slug}.html"
+        schema_json = generer_schema_hotel(nom_logement, d, description_brute, avis_clients, url_page, schema_type="LodgingBusiness")
+        logement_og_tags = generer_og_tags(nom_logement, meta_description, url_page, d.get('image', ''))
+        image_alt_logement = escape_html(d.get('image_alt') or nom_logement)
+
+        html_fiche_logement = f"""<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{titre_page}</title>
+    <meta name="description" content="{meta_description}">
+    <link rel="canonical" href="{url_page}">
+    {logement_og_tags}
+    <script type="application/ld+json">{schema_json}</script>
+    {global_style}
+</head>
+<body>
+<div class="container">{menu_html}
+<a href="logement-{type_slug}.html" style="color: var(--secondary); display: inline-block; margin-bottom: 15px; text-decoration: none; font-weight:700;">← Retour aux {escape_html(type_nom)}s</a>
+<div class="card">
+    <h1>{escape_html(nom_logement)}</h1>
+    <p style="color: #6e4d39;">📍 {escape_html(d.get('ville',''))}, {escape_html(d.get('pays',''))} | {icone} {escape_html(type_nom.capitalize())}</p>
+    {f'<img src="{d.get("image")}" alt="{image_alt_logement}" style="width:100%; max-height:350px; object-fit:cover; border-radius:16px; margin:15px 0;">' if d.get('image') else ''}
+    <p style="color:#15803d; font-weight:700; font-size: 1.2em;">💰 {escape_html(d.get('prix_moyen', 'Sur demande'))}</p>
+
+    <h3>✨ Description</h3>
+    <p>{description}</p>
+    {f'<div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);"><h3 style="margin-top:0;">🧭 Nomad vous en dit plus</h3><p style="margin-bottom:0; line-height:1.7;">{escape_html(nomad_insight)}</p></div>' if nomad_insight else ''}
+    {equipements_html}
+    {points_html}
+    {points_negatifs_html}
+    {pour_qui_html}
+
+    <div style="margin-top: 30px;">
+        <a href="{l_booking}" target="_blank" class="btn-booking">Réserver sur Booking</a>
+        <a href="{l_expedia}" target="_self" class="btn-expedia">Réserver sur Expedia</a>
+    </div>
+</div>
+
+<div class="card">
+    <h2 style="margin-top:0;">💬 Avis clients</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
+        {reviews_html}
+    </div>
+</div>
+
+{footer_html}
+</div></body></html>"""
+        write_html(OUTPUT_DIR / f"atypique-{slug}.html", html_fiche_logement)
 
 # 5. Page Compagnies Aériennes
 airlines_cards_html = ""
