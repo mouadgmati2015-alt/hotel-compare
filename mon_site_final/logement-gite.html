@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Logements Atypiques | MyHotelCompare</title>
-<link rel="canonical" href="https://myhotelcompare.com/logements-atypiques.html">
+<title>Gite - Logements Atypiques | MyHotelCompare</title>
+<link rel="canonical" href="https://myhotelcompare.com/logement-gite.html">
 
 <!-- Google Consent Mode v2 : refus par défaut tant que l'utilisateur n'a pas choisi -->
 <script>
@@ -186,31 +186,18 @@ a { color: var(--secondary); }
 </div>
 </header>
 
+<a href="logements-atypiques.html" style="color: var(--secondary); display:inline-block; margin-bottom:15px; text-decoration:none; font-weight:700;">← Tous les logements atypiques</a>
+<img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/500000000.jpg" alt="Gite" style="width:100%; max-height:280px; object-fit:cover; border-radius:16px; margin-bottom:18px;">
 <div class="glass-box" style="margin-bottom:20px;">
-    <h1 style="margin-top:0;">🌿 Logements Atypiques</h1>
-    <p>Cabanes, yourtes, bulles, roulottes... explorez des séjours qui sortent de l'ordinaire.</p>
+    <h1 style="margin-top:0; display:flex; align-items:center; gap:12px;"><span style="display:inline-block; width:38px; height:38px; border-radius:50%; overflow:hidden; flex-shrink:0;"><img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/500000000.jpg" alt="gite" style="width:100%; height:100%; object-fit:cover;"></span> Gite</h1>
+    <p>1 logement(s) trouvé(s).</p>
+    <label style="font-weight:700; display:block; margin-top:14px;">Filtrer par pays</label>
+    <select id="filtre-pays" onchange="filtrerParPays()" style="width:100%; max-width:320px; padding:10px; border-radius:10px; border:1px solid var(--line); margin-top:6px;">
+        <option value="">Tous les pays</option>
+        <option value="France">France</option>
+    </select>
 </div>
-<div class="rental-grid">
-
-        <div class="card">
-            <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/500000000.jpg" alt="gite" style="width:100%; height:160px; object-fit:cover; border-radius:12px; margin-bottom:10px;">
-            <h3 style="margin-top:0; display:flex; align-items:center; gap:10px;"><span style="display:inline-block; width:32px; height:32px; border-radius:50%; overflow:hidden; flex-shrink:0;"><img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/500000000.jpg" alt="gite" style="width:100%; height:100%; object-fit:cover;"></span> Gite</h3>
-            <p style="color:var(--muted);">1 logement(s) disponible(s)</p>
-            <a href="logement-gite.html" class="btn">Découvrir</a>
-        </div>
-        <div class="card">
-            <img src="images/atypique_roulotte.jpg" alt="roulotte" style="width:100%; height:160px; object-fit:cover; border-radius:12px; margin-bottom:10px;">
-            <h3 style="margin-top:0; display:flex; align-items:center; gap:10px;"><span style="display:inline-block; width:32px; height:32px; border-radius:50%; overflow:hidden; flex-shrink:0;"><img src="images/atypique_roulotte.jpg" alt="roulotte" style="width:100%; height:100%; object-fit:cover;"></span> Roulotte</h3>
-            <p style="color:var(--muted);">1 logement(s) disponible(s)</p>
-            <a href="logement-roulotte.html" class="btn">Découvrir</a>
-        </div>
-        <div class="card">
-            <img src="images/atypique_tente.jpg" alt="tente" style="width:100%; height:160px; object-fit:cover; border-radius:12px; margin-bottom:10px;">
-            <h3 style="margin-top:0; display:flex; align-items:center; gap:10px;"><span style="display:inline-block; width:32px; height:32px; border-radius:50%; overflow:hidden; flex-shrink:0;"><img src="images/atypique_tente.jpg" alt="tente" style="width:100%; height:100%; object-fit:cover;"></span> Tente</h3>
-            <p style="color:var(--muted);">5 logement(s) disponible(s)</p>
-            <a href="logement-tente.html" class="btn">Découvrir</a>
-        </div>
-</div>
+<div id="liste-logements" class="rental-grid"></div>
 
 
 <div id="cookie-banner" class="cookie-banner" style="display:none;">
@@ -282,4 +269,26 @@ a { color: var(--secondary); }
     </div>
 </footer>
 
-</div></body></html>
+</div>
+<script>
+const logementsType = [{"nom": "Les cimes de Cabus", "slug": "les-cimes-de-cabus", "type": "gite", "ville": "Saurat", "pays": "France", "prix": "110€ - 170€ / nuit", "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/500000000.jpg", "lien_booking": "https://www.booking.com/hotel/fr/les-cimes-de-cabus.fr.html?aid=8012379", "lien_expedia": "https://www.expedia.fr/Saurat-Hotels-Les-Cimes-De-Cabus.h43209196.Hotel-Information"}];
+function escapeText(value) {
+    return String(value || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+}
+function rendreCarte(l) {
+    return `<div class="card">
+        ${l.image ? '<img src="' + l.image + '" alt="' + escapeText(l.nom) + '" style="width:100%; height:160px; object-fit:cover; border-radius:12px; margin-bottom:10px;">' : ''}
+        <h3 style="margin-top:0;"><a href="atypique-${l.slug}.html" style="color:var(--secondary); text-decoration:none;">${l.nom}</a></h3>
+        <p style="color:var(--muted);">📍 ${l.ville}, ${l.pays}</p>
+        <p style="color:#15803d; font-weight:700;">💰 ${l.prix}</p>
+        <a href="atypique-${l.slug}.html" class="btn">Voir la fiche</a>
+    </div>`;
+}
+function filtrerParPays() {
+    const pays = document.getElementById('filtre-pays').value;
+    const filtres = pays ? logementsType.filter(l => l.pays === pays) : logementsType;
+    document.getElementById('liste-logements').innerHTML = filtres.map(rendreCarte).join('') || '<p>Aucun logement pour ce pays.</p>';
+}
+filtrerParPays();
+</script>
+</body></html>

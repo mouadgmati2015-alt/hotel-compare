@@ -38,5 +38,45 @@
             "verdict": "Une parenthèse hors du temps au bord de la rivière, idéale pour une déconnexion totale."
         
         }
+    },
+    "Les cimes de Cabus": {
+        "type": "gite",
+        "pays": "France",
+        "ville": "Saurat",
+        "lien_booking": "https://www.booking.com/hotel/fr/les-cimes-de-cabus.fr.html",
+        "lien_expedia": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/867052842.jpg?k=07a9fa053c2578ddd3090e4eae2f81b216de66b858327fc7fe05cbc72e5c0781&o=",
+        "image_alt": "Les cimes de Cabus - maison indépendante de caractère avec vue sur la montagne et filet suspendu à Saurat France",
+        "meta_title": "Les cimes de Cabus Saurat 🏔️ : Avis & Prix Gîte Montagne Ariège 2026",
+        "meta_description": "Les cimes de Cabus à Saurat : maison indépendante de caractère mêlant bois et pierre, vue panoramique à 180° sur les montagnes ariégeoises, rivière et cascade privée, mezzanine avec filet suspendu. Avis, prix et réservation.",
+        "description": "Niché au cœur d'un écrin naturel préservé à Saurat, l'établissement Les cimes de Cabus propose une maison indépendante de caractère répartie sur trois niveaux, mêlant harmonieusement bois noble et pierre. Offrant une vue spectaculaire à 180° sur les montagnes ariégeoises, elle dispose d'une suite parentale, d'une mezzanine avec filet suspendu, d'une kitchenette équipée, d'une terrasse, d'un jardin et d'un parking privé gratuit. Une rivière et sa cascade privée se trouvent à quelques pas.",
+        "prix_moyen": "110€ - 170€ / nuit",
+        "equipements": [
+            "Maison indépendante de caractère",
+            "Suite parentale avec vue montagne",
+            "Mezzanine avec filet suspendu",
+            "Kitchenette équipée (réfrigérateur, micro-ondes, plaques)",
+            "Lave-linge",
+            "Terrasse, balcon et jardin",
+            "Connexion Wi-Fi gratuite",
+            "Parking privé gratuit"
+        ],
+        "points_positifs": [
+            "Panorama spectaculaire à 180° sur les montagnes et cadre naturel d'une beauté rare",
+            "Proximité immédiate d'une rivière et de sa cascade privée pour une immersion sauvage",
+            "Aménagements intérieurs originaux et chaleureux, notamment le filet suspendu sur la mezzanine",
+            "Hôtes passionnés, accueillants et de très bon conseil pour découvrir la région"
+        ],
+        "points_negatifs": [
+            "Établissement récent ne disposant pas encore d'un grand volume d'historique d'avis en ligne",
+            "Localisation en pleine nature impliquant de prévoir ses déplacements (proche de Tarascon-sur-Ariège)"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez à vous évader dans un havre de paix haut de gamme en Ariège, Les cimes de Cabus est un véritable coup de cœur. Ce qu'on adore, c'est l'alliance parfaite entre le charme brut de la pierre et du bois, la vue panoramique incroyable sur les sommets, et surtout cette rivière avec sa cascade privée à deux pas pour un dépaysement absolu.",
+        "pour_qui": {
+            "ambiance": "🌲 Nature, calme, élégant, ressourçant et authentique",
+            "public": "Voyageurs en quête d'un séjour de charme au vert avec un panorama d'exception sur les montagnes",
+            "style": "Maison de caractère / Gîte indépendant",
+            "verdict": "Une parenthèse rare et suspendue au cœur des Pyrénées, idéale pour se ressourcer au plus près de la nature."
+        }
     }
 }
