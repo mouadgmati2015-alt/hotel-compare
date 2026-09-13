@@ -1468,7 +1468,7 @@ filtrerParPays();
         schema_json = generer_schema_hotel(nom_logement, d, description_brute, avis_clients, url_page, schema_type="LodgingBusiness")
         logement_og_tags = generer_og_tags(nom_logement, meta_description, url_page, d.get('image', ''))
         image_alt_logement = escape_html(d.get('image_alt') or nom_logement)
-
+        
         boutons_reservation = ""
         if l_booking:
             boutons_reservation += f'<a href="{l_booking}" target="_blank" class="btn-booking">Réserver sur Booking</a>'

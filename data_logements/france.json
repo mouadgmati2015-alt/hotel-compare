@@ -78,5 +78,46 @@
             "style": "Maison de caractère / Gîte indépendant",
             "verdict": "Une parenthèse rare et suspendue au cœur des Pyrénées, idéale pour se ressourcer au plus près de la nature."
         }
+    },
+    "Phare de Kerbel": {
+        "type": "phare",
+        "pays": "France",
+        "ville": "Riantec",
+        "lien_booking": "",
+        "lien_expedia": "",
+        "lien_site_officiel": "https://www.pharedekerbel.com/",
+        "image": "images/phare_de_kerbel.jpg",
+        "image_alt": "Phare de Kerbel - phare historique habitable en son sommet avec maison du gardien et piscine à Riantec France",
+        "meta_title": "Phare de Kerbel 🗼 : Avis & Prix Nuit Insolite Phare Bretagne 2026",
+        "meta_description": "Phare de Kerbel : unique phare de France habitable en son sommet à 25 mètres de haut avec panorama à 360°, maison du gardien, chambre à huile, piscine, sauna et jardin. Prix et réservation.",
+        "description": "Situé à Riantec (près de Lorient et Port-Louis), le Phare de Kerbel est l'ancien foyer d'Honorine Le Guen, première femme gardienne de phare de France. Entièrement réaménagé, c'est aujourd'hui le seul phare de France habitable en son sommet, proposant un studio panoramique à 25 mètres de haut, une maison du gardien rénovée et une ancienne chambre à huile transformée en dépendance. Il dispose également d'un jardin de plus de 1000m2 avec piscine et sauna.",
+        "prix_moyen": "250€ - 500€ / nuit",
+        "equipements": [
+            "Studio au sommet du phare avec vue à 360°",
+            "Maison du gardien tout confort",
+            "Dépendance de la chambre à huile",
+            "Piscine extérieure",
+            "Sauna",
+            "Grand jardin arboré de plus de 1000m2",
+            "Connexion Wi-Fi",
+            "Parking privé"
+        ],
+        "points_positifs": [
+            "Expérience historique et architecturale unique en étant le seul phare de France habitable en son sommet",
+            "Panorama à 360 degrés d'une beauté saisissante sur la rade de Lorient, Gâvres et Port-Louis",
+            "Prestations haut de gamme incluant une piscine, un sauna et un jardin privatif de plus de 1000m2",
+            "Lieu chargé d'histoire ayant appartenu à la première femme gardienne de phare de France"
+        ],
+        "points_negatifs": [
+            "Tarif élevé correspondant à une prestation d'hébergement insolite de grand standing",
+            "Forte demande nécessitant de réserver très longtemps à l'avance"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez l'expérience insolite ultime en France, dormir au sommet du Phare de Kerbel à 25 mètres de haut est un privilège absolument inoubliable. Ce qu'on adore, c'est marcher dans les pas d'Honorine Le Guen, profiter d'une vue à couper le souffle sur l'océan, et savourer le confort moderne d'une maison de gardien avec piscine et sauna après une journée iodée.",
+        "pour_qui": {
+            "ambiance": "🌊 Maritime, insolite, grandiose, historique et romantique",
+            "public": "Voyageurs en quête d'une parenthèse d'exception et d'un séjour de luxe hors du commun",
+            "style": "Phare historique habitable / Glamping de prestige",
+            "verdict": "Une nuit magique et suspendue au sommet d'un phare, entre ciel et mer."
+        }
     }
 }
