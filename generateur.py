@@ -1741,11 +1741,12 @@ croisiere_page = f"""<!DOCTYPE html>
 with open(os.path.join(output_dir, "croisieres.html"), "w", encoding="utf-8") as f: f.write(croisiere_page)
 
 # 8. Blog dynamique
-blog_list_html = ""
+blog_featured_html = ""
+blog_grid_cards = ""
 if os.path.exists("blog_data.json"):
     with open("blog_data.json", "r", encoding="utf-8") as f:
         articles = json.load(f)
-        for art in articles:
+        for index, art in enumerate(articles):
             art_title = art.get('titre', '')
             art_slug = nettoyer_slug(art.get('slug') or art_title)
             if not art_slug: continue
@@ -1774,23 +1775,38 @@ if os.path.exists("blog_data.json"):
 {footer_html}
 </div></body></html>"""
             with open(os.path.join(output_dir, f"{art_slug}.html"), "w", encoding="utf-8") as f: f.write(article_page)
-            
-            blog_list_html += f"""
-            <div class="card" style="display: flex; gap: 20px; align-items: center;">
-                {f'<img src="{img_art}" alt="{escape_html(art_title)}" style="width: 200px; height: 130px; object-fit: cover; border-radius: 8px; flex-shrink: 0;">' if img_art else ''}
-                <div>
-                    <h3>{art_title}</h3>
-                    <p style="color: #94a3b8; font-size: 0.95em;">{art.get('resume', '')}</p>
+
+            if index == 0:
+                # Article vedette : mise en avant en grand format
+                blog_featured_html = f"""
+                <div class="card" style="margin-bottom: 26px;">
+                    <span style="display:inline-block; background:var(--primary); color:white; font-size:0.78rem; font-weight:700; padding:5px 12px; border-radius:999px; margin-bottom:14px;">✨ Dernier article</span>
+                    {f'<img src="{img_art}" alt="{escape_html(art_title)}" style="width:100%; max-height:340px; object-fit:cover; border-radius:14px; margin-bottom:16px;">' if img_art else ''}
+                    <h2 style="margin:0 0 10px; font-size:1.6rem;">{art_title}</h2>
+                    <p style="color:var(--muted); line-height:1.6; margin-bottom:16px;">{art.get('resume', '')}</p>
                     <a href="{art_slug}.html" class="btn">Lire l'article complet</a>
-                </div>
-            </div>"""
+                </div>"""
+            else:
+                # Autres articles : carte compacte dans la grille
+                blog_grid_cards += f"""
+                <div class="card">
+                    {f'<img src="{img_art}" alt="{escape_html(art_title)}" style="width:100%; height:170px; object-fit:cover; border-radius:12px; margin-bottom:12px;">' if img_art else ''}
+                    <h3 style="margin-top:0; font-size:1.05rem;">{art_title}</h3>
+                    <p style="color:var(--muted); font-size:0.9rem; line-height:1.5;">{art.get('resume', '')}</p>
+                    <a href="{art_slug}.html" class="btn">Lire l'article complet</a>
+                </div>"""
 
 blog_page = f"""<!DOCTYPE html>
-<html lang="fr"><head><meta charset="UTF-8"><title>Notre Blog Voyage | MyHotelCompare</title>{global_style}</head>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Notre Blog Voyage | MyHotelCompare</title>{global_style}</head>
 <body><div class="container">{menu_html}
-<h1>📖 Notre Blog Voyage</h1>
-<p style="color: #94a3b8; margin-bottom: 30px;">Découvrez tous nos conseils d'experts, récits de voyage et guides pratiques.</p>
-{blog_list_html}
+<div class="glass-box" style="margin-bottom:20px;">
+    <h1 style="margin-top:0;">📖 Notre Blog Voyage</h1>
+    <p style="color: var(--muted); margin:0;">Découvrez tous nos conseils d'experts, récits de voyage et guides pratiques.</p>
+</div>
+{blog_featured_html}
+<div class="rental-grid">
+{blog_grid_cards}
+</div>
 {footer_html}
 </div></body></html>"""
 with open(os.path.join(output_dir, "blog.html"), "w", encoding="utf-8") as f: f.write(blog_page)
