@@ -636,6 +636,66 @@ def generate_information_pages():
             <p><a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a></p>
             <p>Notre équipe vous répond directement sur Facebook dans les meilleurs délais.</p>
         """),
+        "devenir-partenaire.html": ("Devenir partenaire", """
+            <p>Vous gérez un hôtel, un gîte ou un logement atypique ? Référencez votre établissement sur MyHotelCompare et gagnez en visibilité auprès de nos visiteurs.</p>
+            <form id="form-partenaire" style="display: grid; gap: 16px; max-width: 560px; margin-top: 20px;">
+                <div>
+                    <label style="font-weight:700; display:block; margin-bottom:6px;">Nom de l'établissement *</label>
+                    <input type="text" id="p-nom" required style="width:100%; padding:11px 12px; border-radius:12px; border:1px solid var(--line);">
+                </div>
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+                    <div>
+                        <label style="font-weight:700; display:block; margin-bottom:6px;">Ville *</label>
+                        <input type="text" id="p-ville" required style="width:100%; padding:11px 12px; border-radius:12px; border:1px solid var(--line);">
+                    </div>
+                    <div>
+                        <label style="font-weight:700; display:block; margin-bottom:6px;">Pays *</label>
+                        <input type="text" id="p-pays" required style="width:100%; padding:11px 12px; border-radius:12px; border:1px solid var(--line);">
+                    </div>
+                </div>
+                <div>
+                    <label style="font-weight:700; display:block; margin-bottom:6px;">Type d'hébergement</label>
+                    <select id="p-type" style="width:100%; padding:11px 12px; border-radius:12px; border:1px solid var(--line);">
+                        <option value="Hôtel">Hôtel</option>
+                        <option value="Logement atypique">Logement atypique</option>
+                        <option value="Autre">Autre</option>
+                    </select>
+                </div>
+                <div>
+                    <label style="font-weight:700; display:block; margin-bottom:6px;">Votre email de contact *</label>
+                    <input type="email" id="p-email" required style="width:100%; padding:11px 12px; border-radius:12px; border:1px solid var(--line);">
+                </div>
+                <div>
+                    <label style="font-weight:700; display:block; margin-bottom:6px;">Téléphone (facultatif)</label>
+                    <input type="tel" id="p-tel" style="width:100%; padding:11px 12px; border-radius:12px; border:1px solid var(--line);">
+                </div>
+                <div>
+                    <label style="font-weight:700; display:block; margin-bottom:6px;">Message (facultatif)</label>
+                    <textarea id="p-message" rows="4" style="width:100%; padding:11px 12px; border-radius:12px; border:1px solid var(--line); font-family:inherit;"></textarea>
+                </div>
+                <button type="submit" class="btn-compare" style="width:auto; padding:14px 26px;">Envoyer ma demande par email</button>
+            </form>
+            <p id="p-confirmation" style="display:none; margin-top:16px; color: var(--success); font-weight:700;">Votre client email va s'ouvrir avec votre demande pré-remplie — il ne reste plus qu'à l'envoyer !</p>
+            <script>
+            document.getElementById('form-partenaire').addEventListener('submit', function(event) {
+                event.preventDefault();
+                const nom = document.getElementById('p-nom').value;
+                const ville = document.getElementById('p-ville').value;
+                const pays = document.getElementById('p-pays').value;
+                const type = document.getElementById('p-type').value;
+                const email = document.getElementById('p-email').value;
+                const tel = document.getElementById('p-tel').value;
+                const message = document.getElementById('p-message').value;
+
+                const sujet = `Demande de partenariat - ${nom}`;
+                const corps = `Nom de l'établissement : ${nom}\\nVille : ${ville}\\nPays : ${pays}\\nType d'hébergement : ${type}\\nEmail de contact : ${email}\\nTéléphone : ${tel || 'Non renseigné'}\\n\\nMessage :\\n${message || 'Aucun message'}`;
+
+                const lienMailto = `mailto:myhotelcompare@gmail.com?subject=${encodeURIComponent(sujet)}&body=${encodeURIComponent(corps)}`;
+                window.location.href = lienMailto;
+                document.getElementById('p-confirmation').style.display = 'block';
+            });
+            </script>
+        """),
     }
     for filename, (title, body) in pages.items():
         page = f"""<!DOCTYPE html>
@@ -946,6 +1006,12 @@ html_accueil = f"""<!DOCTYPE html>
         </div>
 
         {mosaique_html}
+
+        <div class="glass-box" style="margin: 10px 0 10px; text-align: center; background: linear-gradient(135deg, #075985 0%, #087f9b 100%); color: white;">
+            <h2 style="margin-top:0; color: white;">🏨 Vous êtes propriétaire ou hôtelier ?</h2>
+            <p style="color: #effcff; max-width: 640px; margin: 0 auto 18px; line-height: 1.6;">Référencez votre établissement sur MyHotelCompare et gagnez en visibilité auprès de nos visiteurs.</p>
+            <a href="devenir-partenaire.html" class="btn" style="display:inline-block; text-decoration:none; background: linear-gradient(135deg, #e59a21, #f59e0b);">Inscrire mon établissement</a>
+        </div>
 
         <div class="top-grid" style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 24px; margin: 26px 0 10px;">
             <div>{carousel_html}</div>
