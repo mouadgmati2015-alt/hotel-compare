@@ -158,5 +158,164 @@
             "style": "Lodges et bivouacs de luxe au cœur d'un parc animalier",
             "verdict": "Une immersion extraordinaire au royaume des animaux, à vivre au moins une fois dans sa vie."
         }
+    },
+    "Domaine de la Combe Rossignol": {
+        "type": "completement-MABOUL",
+        "pays": "France",
+        "ville": "Vernois-lès-Vesvres",
+        "lien_booking": "https://www.booking.com/hotel/fr/la-combe-rossignol-vernois-les-vesvres.fr.html",
+        "lien_expedia": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/827697904.jpg?k=81280940409c1c554047d14153c2983ec104b3c621052f16af3c41f8e00d6d9a&o=",
+        "image_alt": "Domaine de la Combe Rossignol - cabanes dans les arbres, cabane flottante et suites insolites avec bain nordique à Vernois-lès-Vesvres France",
+        "meta_title": "Domaine de la Combe Rossignol 🌲 : Avis & Prix Cabanes & Spas Insolites 2026",
+        "meta_description": "Domaine de la Combe Rossignol à Vernois-lès-Vesvres : immersion totale en forêt, cabanes dans les arbres, cabane flottante accessible en barque, bain nordique et spa privatifs. Avis 9,3/10, prix et réservation.",
+        "description": "Niché en pleine nature à Vernois-lès-Vesvres, au cœur de la forêt bourguignonne, le Domaine de la Combe Rossignol propose un séjour insolite et éco-responsable haut de gamme. L'établissement dispose de cabanes dans les arbres, de cabanes flottantes (accessibles en barque) et de bungalows ou suites dotés de bains nordiques ou de spas privatifs sur terrasse. Il comprend également un jardin, une terrasse, un parking privé gratuit et sert un petit-déjeuner continental.",
+        "prix_moyen": "150€ - 300€ / nuit",
+        "equipements": [
+            "Cabanes dans les arbres et cabanes flottantes",
+            "Bain nordique / Spa privatif sur terrasse",
+            "Jardin et terrasse",
+            "Petit-déjeuner continental",
+            "Plateau/bouilloire en chambre",
+            "Parking privé gratuit",
+            "Connexion avec la nature et démarche écologique"
+        ],
+        "points_positifs": [
+            "Cadre forestier magnifique, calme absolu et déconnexion totale loin de l'agitation",
+            "Hébergements insolites très cocooning et originaux (cabane flottante, cabanes perchées)",
+            "Bain nordique chaud et spa privatifs très appréciés à l'arrivée",
+            "Propreté irréprochable et accueil bienveillant des hôtes"
+        ],
+        "points_negatifs": [
+            "Éloignement nécessitant un véhicule pour se rendre sur place",
+            "Confort rustique ou atypique inhérent au concept en pleine nature (absence de certains équipements superflus selon les logements)"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez à vivre un séjour digne d'un conte de fées au cœur de la forêt bourguignonne, le Domaine de la Combe Rossignol est une véritable pépite. Ce qu'on adore, c'est l'expérience unique de dormir dans une cabane perchée ou flottante, de profiter d'un bain nordique chaud en plein air, et de savourer un calme absolu au plus près de la nature.",
+        "pour_qui": {
+            "ambiance": "🌲 Forestier, féerique, calme absolu, cocooning et ressourçant",
+            "public": "Couples et familles en quête d'une bulle de bien-être et d'un séjour insolite en pleine nature",
+            "style": "Cabanes perchées, cabanes flottantes et suites éco-responsables avec spa",
+            "verdict": "Une parenthèse enchantée et totalement déconnectée pour se ressourcer en forêt."
+        }
+    },
+    "La chapelle moulin 5 étoiles": {
+        "type": "completement-MABOUL",
+        "pays": "France",
+        "ville": "Bourg-Argental",
+        "lien_booking": "https://www.booking.com/hotel/fr/la-chapelle-moulin-traversee-par-l-39-eau.fr.html",
+        "lien_expedia": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/682829311.jpg?k=eeb0ca0de2c6798321101fba1843698f19489eb6c27f5c11377f0ecfef2a2012&o=",
+        "image_alt": "La chapelle moulin traversée par l'eau - maison de luxe 5 étoiles avec jacuzzi, piscine et rivière à Bourg-Argental France",
+        "meta_title": "La Chapelle Moulin Bourg-Argental 🏰 : Avis & Prix Gîte Luxe 5 Étoiles 2026",
+        "meta_description": "La chapelle moulin traversée par l'eau à Bourg-Argental : hébergement de luxe classé 5 étoiles, mobilier haut de gamme, bain à remous, piscine extérieure, spa et centre de bien-être.",
+        "description": "Situé à Bourg-Argental, au cœur de la région Rhône-Alpes, l'établissement La chapelle moulin traversée par l'eau jacuzzi piscine classé 5 étoiles propose un hébergement de luxe d'exception. Aménagé dans un moulin historique magnifiquement rénové, il dispose d'un spa et centre de bien-être, d'un bain à remous, d'une piscine extérieure, d'un jardin, d'une terrasse et d'un parking privé gratuit. Les intérieurs disposent d'un mobilier haut de gamme, d'une cuisine entièrement équipée et d'un salon spacieux.",
+        "prix_moyen": "300€ - 600€ / nuit",
+        "equipements": [
+            "Maison de luxe classée 5 étoiles",
+            "Spa et centre de bien-être",
+            "Bain à remous (jacuzzi)",
+            "Piscine extérieure",
+            "Cuisine entièrement équipée (lave-vaisselle, four, etc.)",
+            "Connexion Wi-Fi gratuite",
+            "Parking privé gratuit",
+            "Animaux domestiques admis"
+        ],
+        "points_positifs": [
+            "Rénovation somptueuse d'un moulin historique avec un charme et un amour incomparables",
+            "Mobilier haut de gamme et de grande qualité offrant une ambiance chaleureuse et conviviale",
+            "Prestations de grand standing incluant spa, bain à remous et piscine",
+            "Cadre atypique unique traversé par l'eau, idéal pour un séjour d'exception"
+        ],
+        "points_negatifs": [
+            "Tarif élevé en adéquation avec le positionnement de luxe 5 étoiles",
+            "Disponibilité limitée en raison de l'exclusivité du bien"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez le sommet du raffinement et de l'insolite en Rhône-Alpes, ce moulin-chapelle classé 5 étoiles à Bourg-Argental est une pure merveille. Ce qu'on adore, c'est l'alliance magique entre la structure historique traversée par l'eau, les équipements bien-être haut de gamme (spa, jacuzzi, piscine) et la décoration soignée qui font de ce lieu une parenthèse absolument inoubliable.",
+        "pour_qui": {
+            "ambiance": "✨ Luxe, historique, chaleureux, bien-être et d'exception",
+            "public": "Voyageurs en quête d'un séjour haut de gamme 5 étoiles dans un cadre patrimonial unique",
+            "style": "Moulin historique de luxe / Gîte 5 étoiles avec spa",
+            "verdict": "Une expérience de prestige absolue au fil de l'eau et sous le signe du bien-être."
+        }
+    },
+    "Cocoon Village": {
+        "type": "completement-MABOUL",
+        "pays": "France",
+        "ville": "Porto-Vecchio",
+        "lien_booking": "https://www.booking.com/hotel/fr/glamping-corsica-porto-vecchio.fr.html",
+        "lien_expedia": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/646846609.jpg?k=97a414325ff78a6523e23d30e7b578ad2071f02518361947e598a71d5dc3ed25&o=",
+        "image_alt": "Cocoon Village - bulles et tentes suspendues insolites avec vue sur la mer au lac de l'Ospedale à Porto-Vecchio Corse France",
+        "meta_title": "Cocoon Village Porto-Vecchio 🫧 : Avis & Prix Bulles Suspendues Corse 2026",
+        "meta_description": "Cocoon Village près de Porto-Vecchio et du lac de l'Ospedale : expérience insolite en bulles et cocons suspendus dans les arbres, vue époustouflante sur la mer, ponts suspendus, sans électricité. Avis, prix et réservation.",
+        "description": "Niché au cœur de la nature près du lac de l'Ospedale et dominant le golfe de Porto-Vecchio en Corse, le Cocoon Village propose un hébergement insolite en tentes sphériques et cocons suspendus dans les arbres, accessibles via des ponts suspendus ou des passages de type via ferrata. Conçu pour une déconnexion totale (sans électricité), le site dispose de terrasses panoramiques, offre une vue imprenable sur la mer et sert un petit-déjeuner continental ou végétarien à base de produits du terroir.",
+        "prix_moyen": "140€ - 280€ / nuit",
+        "equipements": [
+            "Cocons et bulles suspendus dans les arbres",
+            "Balcon / Terrasse avec vue panoramique sur la mer",
+            "Petit-déjeuner inclus (continental / végétarien)",
+            "Parking privé gratuit",
+            "Accès insolite par ponts suspendus ou via ferrata"
+        ],
+        "points_positifs": [
+            "Concept atypique et inoubliable de nuit suspendue sous les étoiles en pleine nature",
+            "Vue panoramique et époustouflante sur la mer et Porto-Vecchio",
+            "Expérience immersive unique, calme absolu et literie confortable",
+            "Petit-déjeuner de qualité et accueil professionnel et chaleureux"
+        ],
+        "points_negatifs": [
+            "Absence totale d'électricité dans les cocons (prévoir le chargement des appareils en amont)",
+            "Accès vertigineux (nécessitant de ne pas avoir le vertige et de porter de bonnes chaussures)",
+            "Commodités rudimentaires inhérentes à ce type d'hébergement insolite en pleine nature"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez à vivre une expérience vertigineuse et magique en Corse, dormir suspendu dans un cocon au-dessus du golfe de Porto-Vecchio est un véritable accomplissement. Ce qu'on adore, c'est l'adrénaline de l'accès par ponts de singe ou via ferrata, le frisson de s'endormir en regardant les étoiles à travers la bulle, et ce sentiment incomparable d'être seul au monde.",
+        "pour_qui": {
+            "ambiance": "🫧 Suspendu, vertigineux, insolite, magique et sauvage",
+            "public": "Voyageurs audacieux en quête d'une aventure hors du commun et de panoramas à couper le souffle",
+            "style": "Bulles et cocons suspendus dans les arbres / Glamping d'aventure",
+            "verdict": "Une nuit suspendue entre ciel et mer, idéale pour les amateurs de grands frissons et de nature."
+        }
+    },
+    "Auberge du chemin de fer (Lanester)": {
+        "type": "completement-MABOUL",
+        "pays": "France",
+        "ville": "Lanester",
+        "lien_booking": "https://www.booking.com/hotel/fr/picasso-lanester.fr.html",
+        "lien_expedia": "",
+        "lien_site_officiel": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/276296491.jpg?k=101841ecbb87b81c1e78ea1e547f48b6544e4da0410c68ddd7f194bc8b7c3cb3&o=",
+        "image_alt": "Auberge du chemin de fer - hébergements insolites dans un autorail Picasso des années 50 et restaurant à Lanester France",
+        "meta_title": "Auberge du Chemin de Fer Lanester 🚆 : Nuit Insolite Train Picasso & Restauration 2026",
+        "meta_description": "Auberge du chemin de fer à Lanester : lieu de vie unique thématisé sur le train, appartements et hébergements insolites dans un véritable autorail Picasso des années 50, restaurant de cuisine traditionnelle. Infos et réservation.",
+        "description": "Située à Lanester, à proximité de Lorient et à moins de 6 km des plages, l'Auberge du chemin de fer est un lieu de vie exceptionnel dirigé par Nicolas Dupré, entièrement thématisé sur l'univers ferroviaire. Membre des Tables et Auberges de France, l'établissement propose un restaurant de cuisine traditionnelle à base de produits frais, des appartements confortables, ainsi que des hébergements insolites aménagés au sein d'un véritable autorail Picasso des années 50 (studio 2 places et appartement famille de 5 places avec véritables couchettes de train).",
+        "prix_moyen": "90€ - 180€ / nuit",
+        "equipements": [
+            "Hébergements insolites dans un autorail Picasso des années 50",
+            "Appartements tout équipés (cuisine, salon, salle d'eau)",
+            "Restaurant traditionnel (produits frais et locaux)",
+            "Terrasse et 4 espaces privatisables",
+            "Décoration thématique ferroviaire immersive",
+            "Billets de train personnalisés pour offrir des séjours ou repas",
+            "Parking gratuit"
+        ],
+        "points_positifs": [
+            "Concept totalement insolite et immersif pour les passionnés de train (dormir dans un authentique autorail Picasso)",
+            "Table de grande qualité avec une cuisine traditionnelle maison à base de produits frais",
+            "Situation idéale en Bretagne Sud, à deux pas de Lorient et proche des plages",
+            "Accueil chaleureux, attentionné et passionné de l'équipe et du dirigeant"
+        ],
+        "points_negatifs": [
+            "Capacité d'hébergement insolite très limitée (autorail) nécessitant une réservation très en amont",
+            "Emplacement le long de voies ferrées qui peut comporter les bruits inhérents à l'univers du train"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous êtes un passionné de train ou que vous cherchez une expérience véritablement originale en Bretagne Sud, l'Auberge du chemin de fer à Lanester coche toutes les cases. Ce qu'on adore, c'est le pari fou et réussi d'avoir aménagé un ancien autorail Picasso des années 50 en un nid douillet, couplé à une excellente table gourmande au milieu d'une collection d'objets ferroviaires fascinante.",
+        "pour_qui": {
+            "ambiance": "🚆 Ferroviaire, insolite, chaleureux, gourmand et passionné",
+            "public": "Amoureux de trains, familles en quête d'insolite et voyageurs gourmands",
+            "style": "Auberge thématique et hébergement insolite en train",
+            "verdict": "Une halte ferroviaire unique en son genre pour un séjour mémorable en Bretagne."
+        }
     }
 }
+
+
