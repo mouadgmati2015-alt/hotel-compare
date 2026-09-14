@@ -119,5 +119,44 @@
             "style": "Phare historique habitable / Glamping de prestige",
             "verdict": "Une nuit magique et suspendue au sommet d'un phare, entre ciel et mer."
         }
+    },
+    "Planète Sauvage": {
+        "type": "completement-MABOUL",
+        "pays": "France",
+        "ville": "Port-Saint-Père",
+        "lien_booking": "https://www.booking.com/hotel/fr/authentik-safari-planete-sauvage.fr.html",
+        "lien_expedia": "",
+        "lien_site_officiel": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/721305775.jpg?k=52371f943fa46314601b42e6547be5c098ca853e0c6cdc37d5acf6887e3842e2&o=",
+        "image_alt": "Planète Sauvage - Bivouac au cœur du parc animalier et lodges insolites au plus près des animaux à Port-Saint-Père France",
+        "meta_title": "Planète Sauvage 🦁 : Avis & Prix Lodges Nuit avec les Animaux 2026",
+        "meta_description": "Planète Sauvage à Port-Saint-Père : séjour insolite en lodge au cœur du parc animalier, immersion totale au plus près des fauves et des grands animaux, formules Bivouac et Lodge Bwiti. Prix et réservation.",
+        "description": "Situé à Port-Saint-Père en Loire-Atlantique, le parc animalier Planète Sauvage propose de prolonger l'expérience en dormant dans des hébergements insolites immersifs. Le domaine propose notamment le concept du Bivouac au milieu des loups et des ours, ainsi que des Lodges Bwiti offrant une vue imprenable et privilégiée sur la plaine des grands animaux d'Afrique, garantissant un dépaysement total au plus près de la faune sauvage.",
+        "prix_moyen": "200€ - 450€ / nuit",
+        "equipements": [
+            "Lodges et tentes de bivouac haut de gamme",
+            "Immersion et vue directe sur les enclos des animaux",
+            "Restauration sur place (dîner et petit-déjeuner inclus)",
+            "Accès au parc zoologique (safari en voiture et parcours à pied)",
+            "Parking gratuit",
+            "Activités et animations guidées par des soigneurs"
+        ],
+        "points_positifs": [
+            "Expérience unique et mémorable de dormir au plus près des animaux sauvages (loups, ours, guépards, girafes)",
+            "Immersion totale garantie avec des hébergements atypiques et très bien intégrés dans la nature",
+            "Formules tout compris incluant les nuitées, les repas et l'accès privilégié au parc",
+            "Cadre idéal pour les familles et les amoureux de la nature et de la faune"
+        ],
+        "points_negatifs": [
+            "Tarifs élevés liés à la prestation exclusive et à l'accès au parc animalier",
+            "Forte demande nécessitant d'anticiper la réservation de plusieurs mois à l'avance"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez à vivre un moment magique et insolite en famille sans quitter la France, passer une nuit dans les lodges de Planète Sauvage est une claque visuelle et émotionnelle. Ce qu'on adore, c'est l'incroyable sensation d'entendre les loups hurler ou de se réveiller face aux grands animaux d'Afrique depuis sa terrasse privée.",
+        "pour_qui": {
+            "ambiance": "🦁 Sauvage, dépaysant, immersif, familial et magique",
+            "public": "Familles, passionnés de grands espaces et amateurs d'expériences animalières d'exception",
+            "style": "Lodges et bivouacs de luxe au cœur d'un parc animalier",
+            "verdict": "Une immersion extraordinaire au royaume des animaux, à vivre au moins une fois dans sa vie."
+        }
     }
 }
