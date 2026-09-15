@@ -1,0 +1,47 @@
+{
+  "annecy, france": {
+    "lat": 45.8992348,
+    "lng": 6.1288847
+  },
+  "saurat, france": {
+    "lat": 42.8768386,
+    "lng": 1.5362899
+  },
+  "riantec, france": {
+    "lat": 47.7119271,
+    "lng": -3.3088391
+  },
+  "port-saint-père, france": {
+    "lat": 47.1381666,
+    "lng": -1.7736876
+  },
+  "vernois-lès-vesvres, france": {
+    "lat": 47.6425718,
+    "lng": 5.1456103
+  },
+  "bourg-argental, france": {
+    "lat": 45.2967236,
+    "lng": 4.5608027
+  },
+  "porto-vecchio, france": {
+    "lat": 41.5911382,
+    "lng": 9.2794469
+  },
+  "lanester, france": {
+    "lat": 47.7639726,
+    "lng": -3.3444489
+  },
+  "douz, tunisie": {
+    "lat": 33.4571102,
+    "lng": 9.0249829
+  },
+  "douz / tataouine, tunisie": null,
+  "matmata, tunisie": {
+    "lat": 33.5086751,
+    "lng": 9.9786093
+  },
+  "djerba, tunisie": {
+    "lat": 33.7735976,
+    "lng": 10.8861888
+  }
+}

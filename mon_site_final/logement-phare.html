@@ -157,6 +157,9 @@ a { color: var(--secondary); }
 }
 .cookie-accept { background: var(--primary); color: white; }
 .cookie-refuse { background: rgba(255,255,255,0.15); color: white; }
+.fiche-photo-carte { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0; align-items: stretch; }
+.fiche-photo-carte img, .fiche-photo-carte iframe { width: 100%; height: 260px; object-fit: cover; border-radius: 16px; border: 0; }
+@media (max-width: 600px) { .fiche-photo-carte { grid-template-columns: 1fr; } .fiche-photo-carte img, .fiche-photo-carte iframe { height: 220px; } }
 </style>
 
 <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
@@ -271,7 +274,7 @@ a { color: var(--secondary); }
 
 </div>
 <script>
-const logementsType = [{"nom": "Phare de Kerbel", "slug": "phare-de-kerbel", "type": "phare", "ville": "Riantec", "pays": "France", "prix": "250€ - 500€ / nuit", "image": "images/phare_de_kerbel.jpg", "lien_booking": "https://www.booking.com/searchresults.fr.html?ss=Phare%20de%20Kerbel%20Riantec%20France&aid=8012379", "lien_expedia": "https://www.expedia.fr/Hotel-Search?destination=Phare%20de%20Kerbel%20Riantec%20France"}];
+const logementsType = [{"nom": "Phare de Kerbel", "slug": "phare-de-kerbel", "type": "phare", "ville": "Riantec", "pays": "France", "prix": "250€ - 500€ / nuit", "image": "images/phare_de_kerbel.jpg", "lat_manuel": null, "lng_manuel": null, "lien_booking": "https://www.booking.com/searchresults.fr.html?ss=Phare%20de%20Kerbel%20Riantec%20France&aid=8012379", "lien_expedia": "https://www.expedia.fr/Hotel-Search?destination=Phare%20de%20Kerbel%20Riantec%20France", "lat": 47.7119271, "lng": -3.3088391}];
 function escapeText(value) {
     return String(value || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
 }

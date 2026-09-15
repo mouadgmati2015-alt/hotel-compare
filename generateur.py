@@ -8,6 +8,7 @@ import sys
 import subprocess
 import time
 import urllib.parse
+import urllib.request
 from pathlib import Path
 
 from data.airlines_data import AIRLINES_DATA
@@ -150,6 +151,43 @@ def nettoyer_avis(texte):
     texte = re.sub(r'\bselon \d+ (voyageurs|clients|avis)\b', 'selon les voyageurs', texte)
     texte = re.sub(r'\bnoté par \d+ avis\b', 'salué par les voyageurs', texte)
     return texte
+
+GEOCODE_CACHE_PATH = BASE_DIR / "data_logements" / "_geocode_cache.json"
+
+def charger_cache_geocodage():
+    if GEOCODE_CACHE_PATH.exists():
+        with open(GEOCODE_CACHE_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+def sauvegarder_cache_geocodage(cache):
+    GEOCODE_CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(GEOCODE_CACHE_PATH, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2)
+
+def geocoder_lieu(ville, pays, cache):
+    """Trouve les coordonnées GPS d'une ville via Nominatim (OpenStreetMap, gratuit).
+    Résultat mis en cache dans data_logements/_geocode_cache.json pour ne pas refaire l'appel à chaque build."""
+    cle = f"{ville}, {pays}".strip(", ").lower()
+    if not cle:
+        return None
+    if cle in cache:
+        return cache[cle]
+    try:
+        requete = urllib.parse.quote(f"{ville}, {pays}")
+        url = f"https://nominatim.openstreetmap.org/search?format=json&q={requete}&limit=1"
+        req = urllib.request.Request(url, headers={"User-Agent": "MyHotelCompare/1.0 (contact: myhotelcompare@gmail.com)"})
+        with urllib.request.urlopen(req, timeout=10) as response:
+            resultats = json.loads(response.read().decode("utf-8"))
+        if resultats:
+            coords = {"lat": float(resultats[0]["lat"]), "lng": float(resultats[0]["lon"])}
+            cache[cle] = coords
+            time.sleep(1)  # Nominatim impose max 1 requête/seconde
+            return coords
+    except Exception as e:
+        print(f"Erreur de géocodage pour '{cle}': {e}")
+    cache[cle] = None
+    return None
 
 def write_html(path, content):
     path = Path(path)
@@ -411,6 +449,9 @@ a { color: var(--secondary); }
 }
 .cookie-accept { background: var(--primary); color: white; }
 .cookie-refuse { background: rgba(255,255,255,0.15); color: white; }
+.fiche-photo-carte { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0; align-items: stretch; }
+.fiche-photo-carte img, .fiche-photo-carte iframe { width: 100%; height: 260px; object-fit: cover; border-radius: 16px; border: 0; }
+@media (max-width: 600px) { .fiche-photo-carte { grid-template-columns: 1fr; } .fiche-photo-carte img, .fiche-photo-carte iframe { height: 220px; } }
 </style>
 
 <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
@@ -742,7 +783,7 @@ logements_dir = "data_logements"
 
 if os.path.exists(logements_dir):
     for filename in os.listdir(logements_dir):
-        if filename.endswith(".json"):
+        if filename.endswith(".json") and filename != "_geocode_cache.json":
             chemin_fichier = os.path.join(logements_dir, filename)
             with open(chemin_fichier, "r", encoding="utf-8") as f:
                 try:
@@ -754,11 +795,15 @@ if os.path.exists(logements_dir):
                             if not slug: continue
                             type_val = str(d.get('type') or 'atypique').strip().lower()
                             LOGEMENTS_DATA_COMPLET[nom] = d
+                            lat_manuel_brut = d.get('lat')
+                            lng_manuel_brut = d.get('lng')
                             all_logements.append({
                                 'nom': nom, 'slug': slug, 'type': type_val,
                                 'ville': d.get('ville', ''), 'pays': d.get('pays', ''),
                                 'prix': d.get('prix_moyen', 'Sur demande'),
                                 'image': d.get('image', ''),
+                                'lat_manuel': float(lat_manuel_brut) if lat_manuel_brut not in (None, '') else None,
+                                'lng_manuel': float(lng_manuel_brut) if lng_manuel_brut not in (None, '') else None,
                                 'lien_booking': update_booking_aid(d.get('lien_booking', '#'), nom, d.get('ville', ''), d.get('pays', '')),
                                 'lien_expedia': update_expedia_link(d.get('lien_expedia', '#'), nom, d.get('ville', ''), d.get('pays', ''))
                             })
@@ -766,6 +811,19 @@ if os.path.exists(logements_dir):
                     print(f"Erreur sur {filename}: {e}")
 
 types_uniques = sorted(set(l['type'] for l in all_logements if l.get('type')))
+
+# Géocodage de chaque logement (mis en cache — rapide dès le 2e build)
+# Les coordonnées manuelles (lat/lng dans le JSON) sont toujours prioritaires
+geocode_cache = charger_cache_geocodage()
+for logement in all_logements:
+    if logement.get('lat_manuel') is not None and logement.get('lng_manuel') is not None:
+        logement['lat'] = logement['lat_manuel']
+        logement['lng'] = logement['lng_manuel']
+    else:
+        coords = geocoder_lieu(logement.get('ville', ''), logement.get('pays', ''), geocode_cache)
+        logement['lat'] = coords['lat'] if coords else None
+        logement['lng'] = coords['lng'] if coords else None
+sauvegarder_cache_geocodage(geocode_cache)
 
 TYPE_ICONES = {
     'cabane': '🌳', 'yourte': '🏕️', 'bulle': '✨', 'roulotte': '🚐',
@@ -1400,6 +1458,31 @@ if types_uniques:
             <a href="logement-{type_slug}.html" class="btn">Découvrir</a>
         </div>"""
 
+        logements_avec_coords = [l for l in all_logements if l.get('lat') and l.get('lng')]
+    carte_html = ""
+    if logements_avec_coords:
+        carte_html = f"""
+        <div id="carte-logements" style="width:100%; height:460px; border-radius:16px; overflow:hidden; margin-bottom:20px; box-shadow: var(--shadow);"></div>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script>
+        const logementsCarte = {json.dumps(logements_avec_coords, ensure_ascii=False)};
+        const carte = L.map('carte-logements').setView([36.5, 8], 5);
+         L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{{z}}/{{y}}/{{x}}', {{
+            attribution: 'Tiles &copy; Esri &mdash; Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community',
+            maxZoom: 19
+        }}).addTo(carte);
+        const marqueurs = logementsCarte.map(l => {{
+            const m = L.marker([l.lat, l.lng]).addTo(carte);
+            m.bindPopup('<strong>' + l.nom + '</strong><br>' + l.ville + ', ' + l.pays + '<br><a href="atypique-' + l.slug + '.html">Voir la fiche</a>');
+            return m;
+        }});
+        if (marqueurs.length > 0) {{
+            carte.fitBounds(L.featureGroup(marqueurs).getBounds().pad(0.2));
+        }}
+        </script>
+        """
+
     page_logements_overview = f"""<!DOCTYPE html>
 <html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Logements Atypiques | MyHotelCompare</title>
@@ -1410,6 +1493,7 @@ if types_uniques:
     <h1 style="margin-top:0;">🌿 Logements Atypiques</h1>
     <p>Cabanes, yourtes, bulles, roulottes... explorez des séjours qui sortent de l'ordinaire.</p>
 </div>
+{carte_html}
 <div class="rental-grid">
 {logements_overview_cards}
 </div>
@@ -1545,6 +1629,21 @@ filtrerParPays();
         if not boutons_reservation:
             boutons_reservation = '<p style="color:var(--muted);">Réservation directe non disponible pour le moment — contactez l\'établissement.</p>'
 
+        lat_fiche = d.get('lat')
+        lng_fiche = d.get('lng')
+        if lat_fiche not in (None, '') and lng_fiche not in (None, ''):
+            map_query = f"{lat_fiche},{lng_fiche}"
+        else:
+            map_query = urllib.parse.quote(f"{nom_logement}, {d.get('ville', '')}, {d.get('pays', '')}")
+        photo_carte_html = ""
+        if d.get('image'):
+            photo_carte_html = f"""
+            <div class="fiche-photo-carte">
+                <img src="{d.get("image")}" alt="{image_alt_logement}">
+                <iframe loading="lazy" src="https://maps.google.com/maps?q={map_query}&t=k&output=embed"></iframe>
+            </div>
+            """
+
         html_fiche_logement = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -1563,7 +1662,7 @@ filtrerParPays();
 <div class="card">
     <h1>{escape_html(nom_logement)}</h1>
     <p style="color: #6e4d39;">📍 {escape_html(d.get('ville',''))}, {escape_html(d.get('pays',''))} | {icone} {escape_html(type_nom.capitalize())}</p>
-    {f'<img src="{d.get("image")}" alt="{image_alt_logement}" style="width:100%; max-height:350px; object-fit:cover; border-radius:16px; margin:15px 0;">' if d.get('image') else ''}
+    {photo_carte_html}
     <p style="color:#15803d; font-weight:700; font-size: 1.2em;">💰 {escape_html(d.get('prix_moyen', 'Sur demande'))}</p>
 
     <h3>✨ Description</h3>
