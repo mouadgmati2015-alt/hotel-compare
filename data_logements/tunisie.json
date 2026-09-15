@@ -3,7 +3,7 @@
         "type": "tente",
         "pays": "Tunisie",
         "ville": "Douz",
-        "lat": 32.91949297781145, 
+        "lat": 32.91949297781145,
         "lng": 9.146654674585895,
         "lien_booking": "",
         "lien_expedia": "",
@@ -46,7 +46,7 @@
         "type": "tente",
         "pays": "Tunisie",
         "ville": "Douz",
-        "lat": 32.863332773035964,  
+        "lat": 32.863332773035964,
         "lng": 9.106061462436033,
         "lien_booking": "https://www.booking.com/hotel/tn/camp-mars.fr.html",
         "lien_expedia": "https://www.expedia.fr/Douz-Hotel-Camp-Mars.h34567313.Description-Hotel",
@@ -90,7 +90,7 @@
         "type": "tente",
         "pays": "Tunisie",
         "ville": "Douz",
-        "lat": 32.85912396397563,   
+        "lat": 32.85912396397563,
         "lng": 9.56919095029922,
         "lien_booking": "",
         "lien_expedia": "",
@@ -132,7 +132,7 @@
         "type": "tente",
         "pays": "Tunisie",
         "ville": "Douz",
-        "lat": 32.85935776429741,   
+        "lat": 32.85935776429741,
         "lng": 9.123194818471385,
         "lien_booking": "https://www.booking.com/hotel/tn/camp-abdelmoula.fr.html",
         "lien_expedia": "https://www.expedia.fr/Douz-Hotels-Camp-Abdelmoula.h43209193.Hotel-Information",
@@ -173,7 +173,7 @@
         "type": "tente",
         "pays": "Tunisie",
         "ville": "Douz",
-        "lat": 33.37219214202075,   
+        "lat": 33.37219214202075,
         "lng": 9.058809227139722,
         "lien_booking": "https://www.booking.com/hotel/tn/campement-wad-erramal.fr.html",
         "lien_expedia": "",
@@ -365,6 +365,88 @@
             "style": "Maison d'hôtes / Suites traditionnelles",
             "verdict": "Une belle adresse djerbienne pour s'imprégner de l'architecture locale et profiter du soleil."
         }
+    },
+    "Campement Ain Essbat": {
+        "type": "tente",
+        "pays": "Tunisie",
+        "ville": "Douz",
+        "lat": 32.833368428615394,
+        "lng": 9.632963776549454,
+        "lien_booking": "",
+        "lien_expedia": "",
+        "lien_site_officiel": "https://www.tripadvisor.fr/Attraction_Review-g1115268-d1891952-Reviews-Campement_Ain_Essebat-Kebili_Kebili_Governorate.html/",
+        "image": "https://scontent-fra5-1.xx.fbcdn.net/v/t39.30808-6/275500640_472493431328432_1617573847275576042_n.jpg?stp=dst-jpg_tt6&cstp=mx251x188&ctp=s251x188&_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=JSQquEvf7TAQ7kNvwGpZoQv&_nc_oc=Ado4fsneHwm5Kk0myXerBH_P97k1KF3rnODsmdC-XnzvM_LP4fENMBQuS6885CXSW59jzTtMPPWc3SkA6-BECmgM&_nc_zt=23&_nc_ht=scontent-fra5-1.xx&_nc_gid=_EwNXYwiqSzjwceOM9MoLg&_nc_ss=7b2a8&oh=00_AQJWsK4tMFZIW7d4G9VMwuYf6GG-fIs0_4ABpUdwUDtVLw&oe=6AAE893B",
+        "image_alt": "Campement Ain Essbat - campement saharien et oasis de détente au cœur du désert à Douz Tunisie",
+        "meta_title": "Campement Ain Essbat Douz 🏜️ : Oasis & Bivouac Désert Sahara 2026",
+        "meta_description": "Campement Ain Essbat à Douz : site de bivouac et tentes traditionnelles au milieu du désert, calme absolu, piscine d'eau chaude naturelle, repas faits maison et accueil chaleureux. Infos et réservation.",
+        "description": "Niché au cœur du désert tunisien dans la région de Douz, le Campement Ain Essbat propose une expérience d'immersion saharienne authentique sous tentes et en espace de bivouac. Ce havre de paix se distingue par son cadre d'une propreté remarquable et par des équipements uniques en plein désert, notamment la présence d'une piscine ou source d'eau chaude, un restaurant proposant de savoureux plats traditionnels et une hospitalité des plus chaleureuses.",
+        "prix_moyen": "40€ - 80€ / nuit",
+        "equipements": [
+            "Tentes traditionnelles et espace bivouac",
+            "Piscine / source d'eau chaude naturelle",
+            "Restaurant de cuisine traditionnelle",
+            "Espace extérieur et détente",
+            "Parking gratuit"
+        ],
+        "points_positifs": [
+            "Cadre désertique grandiose, calme absolu et déconnexion totale",
+            "Prestation rare et extrêmement appréciée d'une baignade en eau chaude au milieu du Sahara",
+            "Excellente qualité des repas faits maison préparés sur place",
+            "Accueil formidable et hospitalité authentique de toute l'équipe"
+        ],
+        "points_negatifs": [
+            "Éloignement géographique total nécessitant un véhicule tout-terrain ou adapté pour accéder au site",
+            "Informations et réservations centralisées principalement via un contact direct ou leur site web officiel"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez une halte pleine de surprises et de réconfort au milieu des immensités de Douz, le Campement Ain Essbat est une véritable oasis cachée. Ce qu'on adore, c'est ce contraste magique entre la rudesse du désert et le bonheur de se prélasser dans une eau chaude naturelle, le tout couronné par un accueil aux petits soins et une cuisine locale remarquable.",
+        "pour_qui": {
+            "ambiance": "🏜️ Désertique, insolite, ressourçant, chaleureux et surprenant",
+            "public": "Aventuriers, road-trippeurs et voyageurs en quête d'authenticité saharienne",
+            "style": "Campement dans le désert et oasis de bivouac",
+            "verdict": "Une expérience saharienne inoubliable sublimée par la surprise d'une source d'eau chaude."
+        }
+    },
+    "Campement Yadis Ksar Ghilane": {
+        "type": "tente",
+        "pays": "Tunisie",
+        "ville": "Ksar Ghilane",
+        "lat": 32.988781865546024,
+        "lng": 9.63943009518692,
+        "lien_booking": "",
+        "lien_expedia": "https://www.expedia.fr/Douz-Hotel-Campement-Yadis-Ksar-Ghilane.h4571850.Description-Hotel",
+        "lien_site_officiel": "",
+        "image": "https://images.trvl-media.com/lodging/5000000/4580000/4571900/4571850/4f573957.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "image_alt": "Campement Yadis Ksar Ghilane - campement de tentes de luxe climatisées au cœur de l'oasis et des dunes de Ksar Ghilane Tunisie",
+        "meta_title": "Yadis Ksar Ghilane 🏜️ : Avis & Prix Tentes de Luxe Oasis Désert 2026",
+        "meta_description": "Campement Yadis Ksar Ghilane aux portes du Grand Erg oriental : tentes luxueuses climatisées, piscine extérieure rafraîchissante, source thermale proche, restaurant et excursions dans le désert. Avis, prix et réservation.",
+        "description": "Situé aux portes du Grand Erg oriental dans l'oasis de Ksar Ghilane, le Yadis Ksar Ghilane propose un hébergement somptueux en tentes climatisées au milieu des dunes de sable. L'établissement haut de gamme dispose d'une belle piscine extérieure, d'un restaurant proposant une cuisine internationale et tunisienne, d'un bar, ainsi que d'un accès privilégié à la célèbre source d'eau chaude thermale de l'oasis et aux vestiges du fort romain.",
+        "prix_moyen": "140€ - 250€ / nuit",
+        "equipements": [
+            "Tentes de luxe climatisées et chauffées",
+            "Piscine extérieure",
+            "Restaurant principal et bar",
+            "Terrasse avec vue sur les dunes",
+            "Excursions 4x4, dromadaire et quad",
+            "Parking gratuit"
+        ],
+        "points_positifs": [
+            "Cadre magique et paradisiaque au pied des grandes dunes de l'Erg oriental",
+            "Confort exceptionnel et climatisation dans les tentes, un vrai luxe en plein désert",
+            "Grande piscine extérieure très appréciée pour se rafraîchir après une excursion",
+            "Proximité immédiate de la source thermale naturelle de Ksar Ghilane"
+        ],
+        "points_negatifs": [
+            "Tarif plus élevé que les campements traditionnels, en raison du standing hôtelier",
+            "Site touristique très fréquenté en haute saison par les excursions de passage"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous voulez vivre la magie du grand désert tunisien sans sacrifier le confort d'un hôtel de standing, le Yadis Ksar Ghilane est une valeur sûre. Ce qu'on adore, c'est le contraste saisissant entre le luxe de ses tentes climatisées, la fraîcheur de sa piscine au milieu des dunes et la beauté intemporelle de l'oasis au coucher du soleil.",
+        "pour_qui": {
+            "ambiance": "🏜️ Luxueux, dépaysant, spectaculaire et relaxant",
+            "public": "Voyageurs recherchant le confort haut de gamme au cœur du Sahara",
+            "style": "Campement de tentes de luxe / Écolodge saharien",
+            "verdict": "Le mariage parfait entre l'aventure dans le désert et le confort d'un hébergement 4 étoiles."
+        }
     }
 }
+
 
