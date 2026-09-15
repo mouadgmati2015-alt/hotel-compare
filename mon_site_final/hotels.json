@@ -13162,6 +13162,28 @@
         "lien_expedia": "https://www.expedia.fr/Houmt-Souk-Hotel-Arisha.h26549484.Description-Hotel"
     },
     {
+        "nom": "Le Sultan",
+        "slug": "le-sultan",
+        "ville": "Hammamet",
+        "pays": "Tunisie",
+        "etoiles": "4 étoiles",
+        "prix": "100€ - 200€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/36190641.jpg?k=7bdc61d5e0651264aa59794a8639684990936f0d47f30cee22d09b6ebf11cec1&o=",
+        "description": "Situé en bord de mer avec un accès direct à la plage d'Hammamet et à environ 3 km du centre-ville, l'hôtel 4 étoiles Le Sultan propose un cadre élégant de style classique. Il dispose de 2 à 3 piscines, d'un spa et centre de bien-être, d'un centre de remise en forme, ainsi que de plusieurs restaurants et bars (dont le Restaurant Les Voiliers, le restaurant fusion Sakura et le piano-bar Sherazade). Un service de navette gratuit vers le golf de Yasmine et le centre de plongée est également proposé.",
+        "equipements": [
+            "Accès direct à la plage privée",
+            "Piscines extérieures",
+            "Spa et centre de bien-être",
+            "Centre de remise en forme (salle de sport)",
+            "Plusieurs restaurants et bars (dont piano-bar)",
+            "Connexion Wi-Fi",
+            "Parking privé gratuit",
+            "Navette gratuite pour le golf et la plongée"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/tn/le-sultan.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Le-Sultan.h898500.Description-Hotel"
+    },
+    {
         "nom": "The Marni Hotel & Spa - Adults Only 12 Plus",
         "slug": "the-marni-hotel-spa-adults-only-12-plus",
         "ville": "Antalya",

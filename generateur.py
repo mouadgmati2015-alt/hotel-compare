@@ -244,7 +244,10 @@ def update_expedia_link(url, nom_hotel="", ville="", pays=""):
         return url
     return url
 
-# Render publie mon_site_final. --reset ne supprime que ce dossier de sortie.
+# Render publie mon_site_final. --reset supprime ce dossier de sortie avant de tout régénérer,
+# ce qui évite l'accumulation de fichiers obsolètes (anciens slugs, articles renommés, etc.)
+if RESET_OUTPUT and OUTPUT_DIR.exists():
+    shutil.rmtree(OUTPUT_DIR)
 output_dir = str(OUTPUT_DIR)
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 images_source = BASE_DIR / "images"
