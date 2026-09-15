@@ -16485,5 +16485,46 @@
             }
         },
         "lien": "https://www.booking.com/hotel/tn/arisha.html?aid=818289"
+    },
+    "Le Sultan": {
+        "type": "hotel",
+        "pays": "Tunisie",
+        "ville": "Hammamet",
+        "lien_booking": "https://www.booking.com/hotel/tn/le-sultan.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Le-Sultan.h898500.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/36190641.jpg?k=7bdc61d5e0651264aa59794a8639684990936f0d47f30cee22d09b6ebf11cec1&o=",
+        "image_alt": "Le Sultan - hôtel 4 étoiles en bord de plage avec piscines et spa à Hammamet Tunisie",
+        "meta_title": "Hôtel Le Sultan Hammamet 🌊 : Avis & Prix Séjour Bord de Plage 2026",
+        "meta_description": "Hôtel 4 étoiles Le Sultan à Hammamet : accès direct à la plage privée, 2 piscines, spa, restaurants méditerranéen et fusion, bars et centre de remise en forme. Avis 8,2/10, prix et réservation.",
+        "description": "Situé en bord de mer avec un accès direct à la plage d'Hammamet et à environ 3 km du centre-ville, l'hôtel 4 étoiles Le Sultan propose un cadre élégant de style classique. Il dispose de 2 à 3 piscines, d'un spa et centre de bien-être, d'un centre de remise en forme, ainsi que de plusieurs restaurants et bars (dont le Restaurant Les Voiliers, le restaurant fusion Sakura et le piano-bar Sherazade). Un service de navette gratuit vers le golf de Yasmine et le centre de plongée est également proposé.",
+        "prix_moyen": "100€ - 200€ / nuit",
+        "equipements": [
+            "Accès direct à la plage privée",
+            "Piscines extérieures",
+            "Spa et centre de bien-être",
+            "Centre de remise en forme (salle de sport)",
+            "Plusieurs restaurants et bars (dont piano-bar)",
+            "Connexion Wi-Fi",
+            "Parking privé gratuit",
+            "Navette gratuite pour le golf et la plongée"
+        ],
+        "points_positifs": [
+            "Superbe emplacement en bord de mer avec plage privée et cadre agréable",
+            "Infrastructures de qualité, notamment la salle de sport moderne et les piscines",
+            "Personnel professionnel, à l'écoute et chaleureux selon de nombreux retours",
+            "Variété des espaces de restauration et bars sur place"
+        ],
+        "points_negatifs": [
+            "Avis mitigés sur la qualité ou la diversité de certains buffets selon les périodes",
+            "Affluence parfois importante en haute saison au niveau des espaces communs (piscine/plage)",
+            "Plage jugée un peu exiguë par certains clients au regard de la taille de l'établissement"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez un classique d'Hammamet les pieds dans l'eau, Le Sultan offre de superbes prestations avec sa plage privée et son centre de bien-être. Ce qu'on adore, c'est la beauté du site, la qualité des équipements sportifs et la proximité immédiate de la mer pour un séjour sous le signe de la détente.",
+        "pour_qui": {
+            "ambiance": "🌊 Balnéaire, animé, confortable, élégant et détendu",
+            "public": "Couples, familles et voyageurs en quête d'un séjour balnéaire tout confort à Hammamet",
+            "style": "Hôtel 4 étoiles de style classique en bord de mer",
+            "verdict": "Une valeur sûre sur la côte d'Hammamet pour profiter du soleil, de la plage et d'un bon niveau d'infrastructures."
+        }
     }
 }
