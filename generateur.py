@@ -143,14 +143,31 @@ def generer_schema_hotel(nom_hotel, donnees, description, avis_clients, url_page
 
 
 def nettoyer_avis(texte):
-    """Retire les faux chiffres et attributions de plateformes générés par IA."""
-    texte = re.sub(r'\s*\((Booking\.com|Expedia|TripAdvisor)\)', '', str(texte))
+    """Retire les faux chiffres/notes générés par IA, qu'ils soient en fin de phrase (avec source nommée)
+    ou insérés au milieu du texte (ex: 'noté 8,0/10', 'confort de 9,2')."""
+    texte = str(texte)
+    texte = re.sub(r'\s*\((Booking\.com|Expedia|TripAdvisor)\)', '', texte)
     texte = re.sub(r'\bplus de \d+ (voyageurs|clients|avis)\b', 'de nombreux voyageurs', texte)
     texte = re.sub(r'\bpar \d+ (voyageurs|clients|avis)\b', 'par les voyageurs', texte)
     texte = re.sub(r"d'après \d+ (voyageurs|clients|avis)\b", "d'après les voyageurs", texte)
     texte = re.sub(r'\bselon \d+ (voyageurs|clients|avis)\b', 'selon les voyageurs', texte)
     texte = re.sub(r'\bnoté par \d+ avis\b', 'salué par les voyageurs', texte)
-    return texte
+    texte = re.sub(r"\b(?:une\s+)?(?:superbe\s+|belle\s+|excellente\s+|magnifique\s+)?note\s+(?:fabuleuse\s+|exceptionnelle\s+|globale\s+|remarquable\s+)?de\s+\d+[.,]\d+(?:/10)?\b", "", texte, flags=re.IGNORECASE)
+    texte = re.sub(r"\bconfort((?:\s+[^\s,;.()]+){0,3})\s+de\s+\d+[.,]\d+(?:/10)?\b", r"confort\1", texte, flags=re.IGNORECASE)
+    texte = re.sub(r"\bnoté[e]?\s*(à\s*)?\d+[.,]\d+(/10)?\b", "", texte, flags=re.IGNORECASE)
+    texte = re.sub(r"\s*\(\d+[.,]\d+(/10)?\)", "", texte)
+    texte = re.sub(r"\b\d+[.,]\d+/10\b", "", texte)
+    texte = re.sub(r"\b(affiche|propose|offre)\s+avec\b", r"\1", texte, flags=re.IGNORECASE)
+    texte = re.sub(r"\b(affiche|propose|offre)\s+et\b", r"\1", texte, flags=re.IGNORECASE)
+    texte = re.sub(r"\bavec\s+et\b", "avec", texte, flags=re.IGNORECASE)
+    texte = re.sub(r"\bcouronné par\s*([.,;:])", r"\1", texte, flags=re.IGNORECASE)
+    texte = re.sub(r"\bnoté[e]?\s*([.,;:])", r"\1", texte, flags=re.IGNORECASE)
+    texte = re.sub(r"\s{2,}", " ", texte)
+    texte = re.sub(r"\(\s*\)", "", texte)
+    texte = re.sub(r":\s*,\s*", ": ", texte)
+    texte = re.sub(r",\s*,\s*", ", ", texte)
+    texte = re.sub(r"\s+([,.;!?])", r"\1", texte)
+    return texte.strip()
 
 GEOCODE_CACHE_PATH = BASE_DIR / "data_logements" / "_geocode_cache.json"
 
@@ -1384,13 +1401,13 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
         """
     description = escape_html(d.get('description_ia') or d.get('description', ''))
     description_brute = d.get('description_ia') or d.get('description', '')
-    meta_description = escape_html(d.get('meta_description') or generer_meta_description(h_nom, d, description_brute))
-    titre_page = escape_html(d.get('meta_title') or f"{h_nom} - {d.get('ville','')} | MyHotelCompare")
+    meta_description = escape_html(nettoyer_avis(d.get('meta_description') or generer_meta_description(h_nom, d, description_brute)))
+    titre_page = escape_html(nettoyer_avis(d.get('meta_title') or f"{h_nom} - {d.get('ville','')} | MyHotelCompare"))
     url_page = f"{SITE_URL}/{slug}.html"
     schema_json = generer_schema_hotel(h_nom, d, description_brute, avis_clients, url_page)
     hotel_og_tags = generer_og_tags(h_nom, meta_description, url_page, d.get('image', ''))
     # Texte alternatif de l'image principale : utilise "image_alt" du JSON si présent, sinon retombe sur le nom de l'hôtel
-    image_alt_hotel = escape_html(d.get('image_alt') or h_nom)
+    image_alt_hotel = escape_html(nettoyer_avis(d.get('image_alt') or h_nom))
 
     html_fiche = f"""<!DOCTYPE html>
 <html lang="fr">
@@ -1603,7 +1620,7 @@ filtrerParPays();
         pour_qui_html = ""
         if isinstance(pour_qui, dict):
             public = pour_qui.get('public') or ""
-            verdict = pour_qui.get('verdict') or ""
+            verdict = nettoyer_avis(pour_qui.get('verdict') or "")
             details = " · ".join(str(pour_qui.get(key)) for key in ('ambiance', 'style') if pour_qui.get(key))
             pour_qui_html = f"""
             <div class="glass-box" style="margin-top: 22px;">

@@ -54,7 +54,7 @@
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/20969288.jpg?k=0a8e0a41f9f377499eddf7aba4191ace82ceb065237b16b4fb05b02289e76387&o=",
         "image_alt": "Camp Mars - campement de tentes traditionnelles au cœur des dunes de sable de Timbaine à Douz Tunisie",
         "meta_title": "Camp Mars 🏜️ : Avis & Prix Glamping Dunes de Timbaine Douz 2026",
-        "meta_description": "Camp Mars, campement de tentes traditionnelles au milieu des dunes de Timbaine près de Douz : cadre magique, silence absolu, ciel étoilé, repas faits maison et soirées autour du feu. Avis 9,0/10, prix et réservation.",
+        "meta_description": "Camp Mars, campement de tentes traditionnelles au milieu des dunes de Timbaine près de Douz : cadre magique, silence absolu, ciel étoilé, repas faits maison et soirées autour du feu. Avis, prix et réservation.",
         "description": "Situé sur la colline de Timbaine, au cœur des dunes du Sahara tunisien à environ deux heures de Douz, le Camp Mars propose un hébergement en tentes traditionnelles offrant une vue panoramique sur les immensités de sable. Il dispose d'un restaurant servant des plats locaux faits maison, d'un bar et organise des visites guidées, des excursions dans le désert, des balades à dos de chameau ainsi que des soirées traditionnelles autour du feu de camp.",
         "prix_moyen": "120€ - 200€ / nuit",
         "equipements": [
@@ -86,7 +86,7 @@
             "verdict": "Une parenthèse magique au cœur des dunes, idéale pour contempler les étoiles."
         }
     },
-   "Campement Zmela": {
+    "Campement Zmela": {
         "type": "tente",
         "pays": "Tunisie",
         "ville": "Douz",
@@ -128,7 +128,7 @@
             "verdict": "Une magnifique halte saharienne alliant authenticité, confort et respect de l'environnement."
         }
     },
-"CAMP ABDELMOULA": {
+    "CAMP ABDELMOULA": {
         "type": "tente",
         "pays": "Tunisie",
         "ville": "Douz",
@@ -139,7 +139,7 @@
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/574641481.jpg?k=452ce42c61d6276dc63307b084cd8725f5feb8226a71a5f428f77ae4247c8e0d&o=",
         "image_alt": "CAMP ABDELMOULA - campement de tentes deluxe au cœur du parc national de Jebil et des dunes de Douz Tunisie",
         "meta_title": "Camp Abdelmoula Douz 🏜️ : Avis & Prix Glamping Parc Jebil 2026",
-        "meta_description": "Camp Abdelmoula, campement de tentes deluxe au cœur du Sahara et du parc national de Jebil près de Douz : tentes tout confort, paysages magnifiques, repas de qualité et accueil chaleureux. Avis 8,8/10, prix et réservation.",
+        "meta_description": "Camp Abdelmoula, campement de tentes deluxe au cœur du Sahara et du parc national de Jebil près de Douz : tentes tout confort, paysages magnifiques, repas de qualité et accueil chaleureux. Avis, prix et réservation.",
         "description": "Situé dans le parc national de Jebil (région de Douz, Kebili), au plus profond des dunes du Sahara, l'établissement CAMP ABDELMOULA propose un hébergement immersif en tentes deluxe et traditionnelles. Il dispose d'un jardin, d'une terrasse, ainsi que d'un restaurant proposant d'excellents plats locaux et des petits-déjeuners copieux faits maison. L'accès au camp se fait généralement via une excursion en véhicule 4x4 organisée depuis Douz, offrant une expérience unique de déconnexion totale sous un ciel étoilé spectaculaire.",
         "prix_moyen": "100€ - 160€ / nuit",
         "equipements": [
@@ -180,7 +180,7 @@
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/869013511.jpg?k=940add8c77f463b67723fede1e20abe5bbd97cfeea651a4aa4563b5509491567&o=",
         "image_alt": "Campement wad erramal - campement de tentes dans le désert avec terrasse et parking à Douz Tunisie",
         "meta_title": "Campement Wad Erramal Douz 🏜️ : Avis & Prix Désert 2026",
-        "meta_description": "Campement wad erramal à Douz : tentes confortables dans le désert, accueil chaleureux, ciel étoilé exceptionnel, activités en quad et petit-déjeuner continental ou végétarien. Avis 8,9/10, prix et réservation.",
+        "meta_description": "Campement wad erramal à Douz : tentes confortables dans le désert, accueil chaleureux, ciel étoilé exceptionnel, activités en quad et petit-déjeuner continental ou végétarien. Avis, prix et réservation.",
         "description": "Situé dans la zone touristique de Douz, le Campement wad erramal propose un hébergement immersif sous tentes avec terrasse et parking privé gratuit. L'établissement sert chaque matin un petit-déjeuner continental ou végétarien. Il permet de profiter de la beauté du désert et d'un ciel nocturne exceptionnel, tout en proposant des activités locales comme des excursions en quad ou en 4x4.",
         "prix_moyen": "70€ - 120€ / nuit",
         "equipements": [
@@ -207,7 +207,7 @@
             "public": "Voyageurs cherchant une belle immersion dans le désert de Douz avec un service attentionné",
             "style": "Campement de tentes traditionnelles",
             "verdict": "Une excellente option pour admirer les étoiles et profiter de l'hospitalité saharienne en toute simplicité."
- }
+        }
     },
     "Gîte de Douiret (Chez Raouf)": {
         "type": "troglodyte",
@@ -257,10 +257,10 @@
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/80392152.jpg?k=8ffdb2da57fba30b14e28f7ba9f6d068a46fc3fe9a0c3c1e021453c48ae8fbd4&o=",
         "image_alt": "Au Trait d'Union Tijma Matmata - habitation troglodyte traditionnelle et maison d'hôtes à Matmata Tunisie",
         "meta_title": "Au Trait d'Union Tijma Matmata ⛰️ : Avis & Prix Troglodyte 2026",
-        "meta_description": "Au Trait d'Union Tijma Matmata : séjour exceptionnel dans une habitation troglodyte traditionnelle, accueil chaleureux de Habib et sa famille, délicieuse cuisine régionale et chambres spacieuses. Avis 8,8/10, prix et réservation.",
+        "meta_description": "Au Trait d'Union Tijma Matmata : séjour exceptionnel dans une habitation troglodyte traditionnelle, accueil chaleureux de Habib et sa famille, délicieuse cuisine régionale et chambres spacieuses. Avis, prix et réservation.",
         "description": "Situé à Matmata, l'établissement Au Trait d'Union Tijma Matmata propose une expérience unique d'hébergement au sein d'une authentique maison troglodyte creusée dans la roche. Il met à disposition un restaurant de cuisine régionale, un bar, un jardin, une terrasse, ainsi qu'un salon commun. Les voyageurs y profitent d'un accueil familial d'exception, de chambres spacieuses et de salles de bains privatives.",
         "prix_moyen": "70€ - 120€ / nuit",
-        "avis": "8,8/10",
+        "avis": "",
         "equipements": [
             "Habitation troglodyte traditionnelle",
             "Chambres doubles et quadruples spacieuses",
@@ -290,43 +290,43 @@
         }
     },
     "Dar Hallouma - WostelDjerba community": {
-    "type": "maison-hotes-exception",
-    "pays": "Tunisie",
-    "ville": "Djerba",
-    "lien_booking": "https://www.booking.com/hotel/tn/dar-hallouma-wosteldjerba-community.fr.html",
-    "lien_expedia": "",
-    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/881876584.jpg?k=9374c391a35e2a02b2c64d95a627fd278e8e1778424eb48e136bbdf9fd68d786&o=",
-    "image_alt": "Dar Hallouma - WostelDjerba community - maison d'hôtes et hébergement communautaire à Djerba Tunisie",
-    "meta_title": "Dar Hallouma Djerba 🏡 : Avis & Prix Maison d'Hôtes 2026",
-    "meta_description": "Dar Hallouma - WostelDjerba community à Djerba : chambres simples, doubles ou triples, connexion Wi-Fi gratuite, terrasse, petit-déjeuner halal et accueil communautaire. Avis, prix et réservation.",
-    "description": "Situé au 12 rue Farhat Hached à Djerba, l'établissement Dar Hallouma - WostelDjerba community propose des hébergements de type maison d'hôtes au cœur de l'île. Les chambres disposent d'une connexion Wi-Fi gratuite et d'une salle de bains privative, certaines s'ouvrant sur une terrasse. Un petit-déjeuner halal est servi sur place, et l'aéroport international de Djerba-Zarzis se trouve à environ 10 km.",
-    "prix_moyen": "30€ - 60€ / nuit",
-    "equipements": [
-        "Chambres simples, doubles et triples",
-        "Salle de bains privative",
-        "Terrasse",
-        "Connexion Wi-Fi gratuite",
-        "Petit-déjeuner halal inclus",
-        "Parking gratuit sur place"
-    ],
-    "points_positifs": [
-        "Emplacement central sur l'île permettant de rayonner facilement",
-        "Accueil chaleureux et esprit communautaire souligné par plusieurs voyageurs",
-        "Présence d'une agréable terrasse et bon confort général de certains espaces",
-        "Tarifs abordables pour un séjour à Djerba"
-    ],
-    "points_negatifs": [
-        "Disparité dans l'expérience client avec des avis très contrastés concernant l'équipement et le confort des chambres",
-        "Absence d'équipements complets ou signalement de petits dysfonctionnements selon les chambres (climatisation, literie ou ventilation)"
-    ],
-    "Nomad, vous en dit plus": "Entre nous, si vous cherchez une option de séjour authentique et axée sur l'échange communautaire à Djerba, Dar Hallouma propose une immersion à petit prix. Ce qu'on adore, c'est l'ambiance conviviale et la jolie terrasse, même s'il faut s'attendre à un confort simple et rustique typique des petites structures alternatives.",
-    "pour_qui": {
-        "ambiance": "🏡 Communautaire, simple, authentique et économique",
-        "public": "Voyageurs à petit budget et adeptes de concepts d'hébergement alternatifs",
-        "style": "Maison d'hôtes / Logement communautaire",
-        "verdict": "Une alternative économique au cœur de Djerba, idéale pour les voyageurs autonomes."
-    }
-},
+        "type": "maison-hotes-exception",
+        "pays": "Tunisie",
+        "ville": "Djerba",
+        "lien_booking": "https://www.booking.com/hotel/tn/dar-hallouma-wosteldjerba-community.fr.html",
+        "lien_expedia": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/881876584.jpg?k=9374c391a35e2a02b2c64d95a627fd278e8e1778424eb48e136bbdf9fd68d786&o=",
+        "image_alt": "Dar Hallouma - WostelDjerba community - maison d'hôtes et hébergement communautaire à Djerba Tunisie",
+        "meta_title": "Dar Hallouma Djerba 🏡 : Avis & Prix Maison d'Hôtes 2026",
+        "meta_description": "Dar Hallouma - WostelDjerba community à Djerba : chambres simples, doubles ou triples, connexion Wi-Fi gratuite, terrasse, petit-déjeuner halal et accueil communautaire. Avis, prix et réservation.",
+        "description": "Situé au 12 rue Farhat Hached à Djerba, l'établissement Dar Hallouma - WostelDjerba community propose des hébergements de type maison d'hôtes au cœur de l'île. Les chambres disposent d'une connexion Wi-Fi gratuite et d'une salle de bains privative, certaines s'ouvrant sur une terrasse. Un petit-déjeuner halal est servi sur place, et l'aéroport international de Djerba-Zarzis se trouve à environ 10 km.",
+        "prix_moyen": "30€ - 60€ / nuit",
+        "equipements": [
+            "Chambres simples, doubles et triples",
+            "Salle de bains privative",
+            "Terrasse",
+            "Connexion Wi-Fi gratuite",
+            "Petit-déjeuner halal inclus",
+            "Parking gratuit sur place"
+        ],
+        "points_positifs": [
+            "Emplacement central sur l'île permettant de rayonner facilement",
+            "Accueil chaleureux et esprit communautaire souligné par plusieurs voyageurs",
+            "Présence d'une agréable terrasse et bon confort général de certains espaces",
+            "Tarifs abordables pour un séjour à Djerba"
+        ],
+        "points_negatifs": [
+            "Disparité dans l'expérience client avec des avis très contrastés concernant l'équipement et le confort des chambres",
+            "Absence d'équipements complets ou signalement de petits dysfonctionnements selon les chambres (climatisation, literie ou ventilation)"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez une option de séjour authentique et axée sur l'échange communautaire à Djerba, Dar Hallouma propose une immersion à petit prix. Ce qu'on adore, c'est l'ambiance conviviale et la jolie terrasse, même s'il faut s'attendre à un confort simple et rustique typique des petites structures alternatives.",
+        "pour_qui": {
+            "ambiance": "🏡 Communautaire, simple, authentique et économique",
+            "public": "Voyageurs à petit budget et adeptes de concepts d'hébergement alternatifs",
+            "style": "Maison d'hôtes / Logement communautaire",
+            "verdict": "Une alternative économique au cœur de Djerba, idéale pour les voyageurs autonomes."
+        }
+    },
     "Dar El Jerbiya": {
         "type": "maison-hotes-exception",
         "pays": "Tunisie",
@@ -448,5 +448,3 @@
         }
     }
 }
-
-
