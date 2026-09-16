@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import unicodedata
 import base64
 import hashlib
 import shutil
@@ -274,6 +275,10 @@ if images_source.exists():
 
 def nettoyer_slug(texte):
     texte = texte.lower().strip()
+    # Transforme les accents en leur équivalent simple : "ô" → "o", "é" → "e", etc.
+    # avant de retirer ce qui n'est pas alphanumérique — sinon "Hôtel" devient "h-tel"
+    # au lieu de "hotel".
+    texte = unicodedata.normalize('NFKD', texte).encode('ascii', 'ignore').decode('ascii')
     texte = re.sub(r'[^a-z0-9]+', '-', texte)
     return texte.strip('-')
 

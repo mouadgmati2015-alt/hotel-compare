@@ -132,7 +132,7 @@
     },
     {
         "nom": "MEININGER Hotel München Olympiapark",
-        "slug": "meininger-hotel-m-nchen-olympiapark",
+        "slug": "meininger-hotel-munchen-olympiapark",
         "ville": "Munich",
         "pays": "Allemagne",
         "etoiles": "Hôtel / Résidence (Non classé formellement en étoiles mais positionné standard)",
@@ -155,7 +155,7 @@
     },
     {
         "nom": "DORMERO Hotel München-Kirchheim Messe",
-        "slug": "dormero-hotel-m-nchen-kirchheim-messe",
+        "slug": "dormero-hotel-munchen-kirchheim-messe",
         "ville": "Kirchheim bei München",
         "pays": "Allemagne",
         "etoiles": "4 étoiles",
@@ -2184,7 +2184,7 @@
     },
     {
         "nom": "Palladium Hotel Peñiscola",
-        "slug": "palladium-hotel-pe-iscola",
+        "slug": "palladium-hotel-peniscola",
         "ville": "Peñiscola",
         "pays": "Espagne",
         "etoiles": "4 étoiles",
@@ -2423,7 +2423,7 @@
     },
     {
         "nom": "Hotel Spa Mediterráneo Park",
-        "slug": "hotel-spa-mediterr-neo-park",
+        "slug": "hotel-spa-mediterraneo-park",
         "ville": "Santa Margarida, Roses",
         "pays": "Espagne",
         "etoiles": "4 étoiles",
@@ -2617,7 +2617,7 @@
     },
     {
         "nom": "Hotel RH Gijón & Spa",
-        "slug": "hotel-rh-gij-n-spa",
+        "slug": "hotel-rh-gijon-spa",
         "ville": "Gandía",
         "pays": "Espagne",
         "etoiles": "4 étoiles",
@@ -2656,7 +2656,7 @@
     },
     {
         "nom": "Rincón Sol",
-        "slug": "rinc-n-sol",
+        "slug": "rincon-sol",
         "ville": "Rincón de la Victoria",
         "pays": "Espagne",
         "etoiles": "4 étoiles",
@@ -2693,7 +2693,7 @@
     },
     {
         "nom": "Gran Hotel Peñiscola",
-        "slug": "gran-hotel-pe-iscola",
+        "slug": "gran-hotel-peniscola",
         "ville": "Peñiscola",
         "pays": "Espagne",
         "etoiles": "4 étoiles",
@@ -2848,7 +2848,7 @@
     },
     {
         "nom": "Hotel Puerto Bahía & Spa",
-        "slug": "hotel-puerto-bah-a-spa",
+        "slug": "hotel-puerto-bahia-spa",
         "ville": "El Puerto de Santa María",
         "pays": "Espagne",
         "etoiles": "4 étoiles",
@@ -3117,7 +3117,7 @@
     },
     {
         "nom": "SOL by Meliá Costa Daurada",
-        "slug": "sol-by-meli-costa-daurada",
+        "slug": "sol-by-melia-costa-daurada",
         "ville": "Salou",
         "pays": "Espagne",
         "etoiles": "4 étoiles",
@@ -3248,7 +3248,7 @@
     },
     {
         "nom": "Hotel Tahití Playa & Suites 4Sup",
-        "slug": "hotel-tahit-playa-suites-4sup",
+        "slug": "hotel-tahiti-playa-suites-4sup",
         "ville": "Santa Susanna",
         "pays": "Espagne",
         "etoiles": "4 étoiles supérieur",
@@ -3306,7 +3306,7 @@
     },
     {
         "nom": "Hostería del Mar",
-        "slug": "hoster-a-del-mar",
+        "slug": "hosteria-del-mar",
         "ville": "Peñiscola",
         "pays": "Espagne",
         "etoiles": "4 étoiles",
@@ -3640,7 +3640,7 @@
     },
     {
         "nom": "Hôtel Barrière Le Fouquet's Paris",
-        "slug": "h-tel-barri-re-le-fouquet-s-paris",
+        "slug": "hotel-barriere-le-fouquet-s-paris",
         "ville": "Paris",
         "pays": "France",
         "etoiles": "5 étoiles",
@@ -3660,7 +3660,7 @@
     },
     {
         "nom": "Hôtel Boscolo Nice & Spa",
-        "slug": "h-tel-boscolo-nice-spa",
+        "slug": "hotel-boscolo-nice-spa",
         "ville": "Nice",
         "pays": "France",
         "etoiles": "5 étoiles",
@@ -3681,7 +3681,7 @@
     },
     {
         "nom": "Hôtel Barrière Le Majestic",
-        "slug": "h-tel-barri-re-le-majestic",
+        "slug": "hotel-barriere-le-majestic",
         "ville": "Cannes",
         "pays": "France",
         "etoiles": "5 étoiles",
@@ -3702,7 +3702,7 @@
     },
     {
         "nom": "Hôtel Le Chabichou",
-        "slug": "h-tel-le-chabichou",
+        "slug": "hotel-le-chabichou",
         "ville": "Courchevel",
         "pays": "France",
         "etoiles": "5 étoiles",
@@ -3722,7 +3722,7 @@
     },
     {
         "nom": "InterContinental Bordeaux - Le Grand Hôtel",
-        "slug": "intercontinental-bordeaux-le-grand-h-tel",
+        "slug": "intercontinental-bordeaux-le-grand-hotel",
         "ville": "Bordeaux",
         "pays": "France",
         "etoiles": "5 étoiles",
@@ -3743,7 +3743,7 @@
     },
     {
         "nom": "Hôtel & Spa Régent Petite France",
-        "slug": "h-tel-spa-r-gent-petite-france",
+        "slug": "hotel-spa-regent-petite-france",
         "ville": "Strasbourg",
         "pays": "France",
         "etoiles": "5 étoiles",
@@ -3763,7 +3763,7 @@
     },
     {
         "nom": "Hôtel Cour du Corbeau",
-        "slug": "h-tel-cour-du-corbeau",
+        "slug": "hotel-cour-du-corbeau",
         "ville": "Strasbourg",
         "pays": "France",
         "etoiles": "4 étoiles",
@@ -3783,7 +3783,7 @@
     },
     {
         "nom": "Hôtel des Sources de Caudalie",
-        "slug": "h-tel-des-sources-de-caudalie",
+        "slug": "hotel-des-sources-de-caudalie",
         "ville": "Martillac (Bordeaux)",
         "pays": "France",
         "etoiles": "5 étoiles",
@@ -3804,7 +3804,7 @@
     },
     {
         "nom": "Hôtel Les Roches Rouges",
-        "slug": "h-tel-les-roches-rouges",
+        "slug": "hotel-les-roches-rouges",
         "ville": "Saint-Raphaël",
         "pays": "France",
         "etoiles": "5 étoiles",
@@ -5468,7 +5468,7 @@
     },
     {
         "nom": "Palais Mirage d'Atlas, Hôtel & Spa",
-        "slug": "palais-mirage-d-atlas-h-tel-spa",
+        "slug": "palais-mirage-d-atlas-hotel-spa",
         "ville": "La Palmeraie, Marrakech",
         "pays": "Maroc",
         "etoiles": "5 étoiles",
@@ -5528,7 +5528,7 @@
     },
     {
         "nom": "Hôtel Atlas Day",
-        "slug": "h-tel-atlas-day",
+        "slug": "hotel-atlas-day",
         "ville": "Azilal",
         "pays": "Maroc",
         "etoiles": "3 étoiles",
@@ -5649,7 +5649,7 @@
     },
     {
         "nom": "Hôtel Everest, Séjour Balnéaire à Saïdia",
-        "slug": "h-tel-everest-s-jour-baln-aire-sa-dia",
+        "slug": "hotel-everest-sejour-balneaire-a-saidia",
         "ville": "Saïdia",
         "pays": "Maroc",
         "etoiles": "3 étoiles",
@@ -5669,7 +5669,7 @@
     },
     {
         "nom": "Stylish hôtel",
-        "slug": "stylish-h-tel",
+        "slug": "stylish-hotel",
         "ville": "Marrakech",
         "pays": "Maroc",
         "etoiles": "4 étoiles",
@@ -6240,7 +6240,7 @@
     },
     {
         "nom": "Mercure Shéhérazade Rabat",
-        "slug": "mercure-sh-h-razade-rabat",
+        "slug": "mercure-sheherazade-rabat",
         "ville": "Hassan, Rabat",
         "pays": "Maroc",
         "etoiles": "4 étoiles",
@@ -6387,7 +6387,7 @@
     },
     {
         "nom": "SBN Suite Hôtel",
-        "slug": "sbn-suite-h-tel",
+        "slug": "sbn-suite-hotel",
         "ville": "Tanger",
         "pays": "Maroc",
         "etoiles": "4 étoiles",
@@ -6467,7 +6467,7 @@
     },
     {
         "nom": "Hôtel Suite Martil",
-        "slug": "h-tel-suite-martil",
+        "slug": "hotel-suite-martil",
         "ville": "Martil",
         "pays": "Maroc",
         "etoiles": "3 étoiles",
@@ -6510,7 +6510,7 @@
     },
     {
         "nom": "Hôtel Tamuda Beach",
-        "slug": "h-tel-tamuda-beach",
+        "slug": "hotel-tamuda-beach",
         "ville": "M'diq",
         "pays": "Maroc",
         "etoiles": "4 étoiles",
@@ -6552,7 +6552,7 @@
     },
     {
         "nom": "Be Live Collection Saïdia",
-        "slug": "be-live-collection-sa-dia",
+        "slug": "be-live-collection-saidia",
         "ville": "Saïdia",
         "pays": "Maroc",
         "etoiles": "5 étoiles",
@@ -6763,7 +6763,7 @@
     },
     {
         "nom": "La Paix Hôtel , Restaurant",
-        "slug": "la-paix-h-tel-restaurant",
+        "slug": "la-paix-hotel-restaurant",
         "ville": "Taghazout",
         "pays": "Maroc",
         "etoiles": "3 étoiles",
@@ -6911,7 +6911,7 @@
     },
     {
         "nom": "Ibis Meknès",
-        "slug": "ibis-mekn-s",
+        "slug": "ibis-meknes",
         "ville": "Meknès",
         "pays": "Maroc",
         "etoiles": "3 étoiles",
@@ -6951,7 +6951,7 @@
     },
     {
         "nom": "Hôtel Texuda",
-        "slug": "h-tel-texuda",
+        "slug": "hotel-texuda",
         "ville": "Quartier de l'Océan, Rabat",
         "pays": "Maroc",
         "etoiles": "3 étoiles",
@@ -7054,7 +7054,7 @@
     },
     {
         "nom": "Soho Boutique Tetuán",
-        "slug": "soho-boutique-tetu-n",
+        "slug": "soho-boutique-tetuan",
         "ville": "Tétouan",
         "pays": "Maroc",
         "etoiles": "4 étoiles",
@@ -7136,7 +7136,7 @@
     },
     {
         "nom": "Mövenpick Hotel Casablanca",
-        "slug": "m-venpick-hotel-casablanca",
+        "slug": "movenpick-hotel-casablanca",
         "ville": "Sidi Belyout, Casablanca",
         "pays": "Maroc",
         "etoiles": "5 étoiles",
@@ -7592,7 +7592,7 @@
     },
     {
         "nom": "Grand Hotel Amrâth Kurhaus The Hague Scheveningen",
-        "slug": "grand-hotel-amr-th-kurhaus-the-hague-scheveningen",
+        "slug": "grand-hotel-amrath-kurhaus-the-hague-scheveningen",
         "ville": "Scheveningen, La Haye",
         "pays": "Pays-Bas",
         "etoiles": "5 étoiles",
@@ -7636,7 +7636,7 @@
     },
     {
         "nom": "Hotel Copernicus Kraków",
-        "slug": "hotel-copernicus-krak-w",
+        "slug": "hotel-copernicus-krakow",
         "ville": "Cracovie",
         "pays": "Pologne",
         "etoiles": "5 étoiles",
@@ -8036,7 +8036,7 @@
     },
     {
         "nom": "Hôtel Mediterranée Thalasso Golf",
-        "slug": "h-tel-mediterran-e-thalasso-golf",
+        "slug": "hotel-mediterranee-thalasso-golf",
         "ville": "Hammamet",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -8159,7 +8159,7 @@
     },
     {
         "nom": "Hôtel Mirage Beach Club",
-        "slug": "h-tel-mirage-beach-club",
+        "slug": "hotel-mirage-beach-club",
         "ville": "Hammamet",
         "pays": "Tunisie",
         "etoiles": "4 étoiles",
@@ -8222,7 +8222,7 @@
     },
     {
         "nom": "Hôtel Sindbad",
-        "slug": "h-tel-sindbad",
+        "slug": "hotel-sindbad",
         "ville": "Hammamet",
         "pays": "Tunisie",
         "etoiles": "5 étoiles",
@@ -8264,7 +8264,7 @@
     },
     {
         "nom": "Hôtel Marina Palace",
-        "slug": "h-tel-marina-palace",
+        "slug": "hotel-marina-palace",
         "ville": "Yasmine Hammamet",
         "pays": "Tunisie",
         "etoiles": "4 étoiles",
@@ -8285,7 +8285,7 @@
     },
     {
         "nom": "Hôtel Houda Yasmine",
-        "slug": "h-tel-houda-yasmine",
+        "slug": "hotel-houda-yasmine",
         "ville": "Yasmine Hammamet",
         "pays": "Tunisie",
         "etoiles": "4 étoiles",
@@ -8347,7 +8347,7 @@
     },
     {
         "nom": "Hôtel El Mouradi El Menzah",
-        "slug": "h-tel-el-mouradi-el-menzah",
+        "slug": "hotel-el-mouradi-el-menzah",
         "ville": "Yasmine Hammamet",
         "pays": "Tunisie",
         "etoiles": "4 étoiles",
@@ -8367,7 +8367,7 @@
     },
     {
         "nom": "Hôtel Green Golf",
-        "slug": "h-tel-green-golf",
+        "slug": "hotel-green-golf",
         "ville": "Hammamet",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -8429,7 +8429,7 @@
     },
     {
         "nom": "Hôtel Sofitel Saphir Palace",
-        "slug": "h-tel-sofitel-saphir-palace",
+        "slug": "hotel-sofitel-saphir-palace",
         "ville": "Yasmine Hammamet",
         "pays": "Tunisie",
         "etoiles": "5 étoiles",
@@ -8450,7 +8450,7 @@
     },
     {
         "nom": "Hôtel Zodiac",
-        "slug": "h-tel-zodiac",
+        "slug": "hotel-zodiac",
         "ville": "Yasmine Hammamet",
         "pays": "Tunisie",
         "etoiles": "4 étoiles",
@@ -8471,7 +8471,7 @@
     },
     {
         "nom": "Hôtel Chich Khan",
-        "slug": "h-tel-chich-khan",
+        "slug": "hotel-chich-khan",
         "ville": "Yasmine Hammamet",
         "pays": "Tunisie",
         "etoiles": "4 étoiles",
@@ -8492,7 +8492,7 @@
     },
     {
         "nom": "Hôtel Solaria & Thalasso",
-        "slug": "h-tel-solaria-thalasso",
+        "slug": "hotel-solaria-thalasso",
         "ville": "Yasmine Hammamet",
         "pays": "Tunisie",
         "etoiles": "5 étoiles",
@@ -8617,7 +8617,7 @@
     },
     {
         "nom": "Hôtel Kheops",
-        "slug": "h-tel-kheops",
+        "slug": "hotel-kheops",
         "ville": "Nabeul",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -8638,7 +8638,7 @@
     },
     {
         "nom": "Hôtel Club El Fell",
-        "slug": "h-tel-club-el-fell",
+        "slug": "hotel-club-el-fell",
         "ville": "Hammamet",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -8659,7 +8659,7 @@
     },
     {
         "nom": "Hôtel Royal Nozha",
-        "slug": "h-tel-royal-nozha",
+        "slug": "hotel-royal-nozha",
         "ville": "Hammamet",
         "pays": "Tunisie",
         "etoiles": "4 étoiles",
@@ -8680,7 +8680,7 @@
     },
     {
         "nom": "Hôtel Résidence Romane",
-        "slug": "h-tel-r-sidence-romane",
+        "slug": "hotel-residence-romane",
         "ville": "Hammamet",
         "pays": "Tunisie",
         "etoiles": "Résidence",
@@ -8797,7 +8797,7 @@
     },
     {
         "nom": "Hôtel Byzance",
-        "slug": "h-tel-byzance",
+        "slug": "hotel-byzance",
         "ville": "Nabeul",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -8878,7 +8878,7 @@
     },
     {
         "nom": "Hôtel Club Président",
-        "slug": "h-tel-club-pr-sident",
+        "slug": "hotel-club-president",
         "ville": "Hammamet",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -8918,7 +8918,7 @@
     },
     {
         "nom": "Hôtel Les Colombes",
-        "slug": "h-tel-les-colombes",
+        "slug": "hotel-les-colombes",
         "ville": "Hammamet",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -8936,7 +8936,7 @@
     },
     {
         "nom": "Dar Khayam Hôtel",
-        "slug": "dar-khayam-h-tel",
+        "slug": "dar-khayam-hotel",
         "ville": "Hammamet",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -8957,7 +8957,7 @@
     },
     {
         "nom": "Hôtel Les Citronniers Hammamet Tunisia",
-        "slug": "h-tel-les-citronniers-hammamet-tunisia",
+        "slug": "hotel-les-citronniers-hammamet-tunisia",
         "ville": "Hammamet",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -8998,7 +8998,7 @@
     },
     {
         "nom": "Marina Cap Monastir- Appart'Hôtel",
-        "slug": "marina-cap-monastir-appart-h-tel",
+        "slug": "marina-cap-monastir-appart-hotel",
         "ville": "Monastir",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -9389,7 +9389,7 @@
     },
     {
         "nom": "Meliá El Mansour Mahdia",
-        "slug": "meli-el-mansour-mahdia",
+        "slug": "melia-el-mansour-mahdia",
         "ville": "Mahdia",
         "pays": "Tunisie",
         "etoiles": "5 étoiles",
@@ -9408,7 +9408,7 @@
     },
     {
         "nom": "Mövenpick Resort & Marine Spa Sousse",
-        "slug": "m-venpick-resort-marine-spa-sousse",
+        "slug": "movenpick-resort-marine-spa-sousse",
         "ville": "Sousse",
         "pays": "Tunisie",
         "etoiles": "5 étoiles",
@@ -9564,7 +9564,7 @@
     },
     {
         "nom": "Hôtel Ennassim",
-        "slug": "h-tel-ennassim",
+        "slug": "hotel-ennassim",
         "ville": "Sousse",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -9655,7 +9655,7 @@
     },
     {
         "nom": "Hôtel Medina",
-        "slug": "h-tel-medina",
+        "slug": "hotel-medina",
         "ville": "Sousse",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -9746,7 +9746,7 @@
     },
     {
         "nom": "Hôtel Archipel",
-        "slug": "h-tel-archipel",
+        "slug": "hotel-archipel",
         "ville": "Monastir",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -10040,7 +10040,7 @@
     },
     {
         "nom": "Golden Tulip Président Hammamet",
-        "slug": "golden-tulip-pr-sident-hammamet",
+        "slug": "golden-tulip-president-hammamet",
         "ville": "Hammamet",
         "pays": "Tunisie",
         "etoiles": "4 étoiles",
@@ -10131,7 +10131,7 @@
     },
     {
         "nom": "Mövenpick Hotel Gammarth Tunis",
-        "slug": "m-venpick-hotel-gammarth-tunis",
+        "slug": "movenpick-hotel-gammarth-tunis",
         "ville": "Gammarth",
         "pays": "Tunisie",
         "etoiles": "5 étoiles",
@@ -10276,7 +10276,7 @@
     },
     {
         "nom": "Hôtel Gaïa",
-        "slug": "h-tel-ga-a",
+        "slug": "hotel-gaia",
         "ville": "Nabeul",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -10384,7 +10384,7 @@
     },
     {
         "nom": "Hôtel le calife",
-        "slug": "h-tel-le-calife",
+        "slug": "hotel-le-calife",
         "ville": "Tunis",
         "pays": "Tunisie",
         "etoiles": "2 étoiles",
@@ -10562,7 +10562,7 @@
     },
     {
         "nom": "Suites Hôtel Les Charmilles & Spa",
-        "slug": "suites-h-tel-les-charmilles-spa",
+        "slug": "suites-hotel-les-charmilles-spa",
         "ville": "Tunis",
         "pays": "Tunisie",
         "etoiles": "4 étoiles",
@@ -10616,7 +10616,7 @@
     },
     {
         "nom": "Radisson Blu Athénée Palace Resort & Thalasso, Djerba",
-        "slug": "radisson-blu-ath-n-e-palace-resort-thalasso-djerba",
+        "slug": "radisson-blu-athenee-palace-resort-thalasso-djerba",
         "ville": "Houmt Souk",
         "pays": "Tunisie",
         "etoiles": "5 étoiles",
@@ -10653,7 +10653,7 @@
     },
     {
         "nom": "Mövenpick Hotel du Lac Tunis",
-        "slug": "m-venpick-hotel-du-lac-tunis",
+        "slug": "movenpick-hotel-du-lac-tunis",
         "ville": "Les Berges du Lac",
         "pays": "Tunisie",
         "etoiles": "5 étoiles",
@@ -10725,7 +10725,7 @@
     },
     {
         "nom": "Hôtel Djerba Erriadh",
-        "slug": "h-tel-djerba-erriadh",
+        "slug": "hotel-djerba-erriadh",
         "ville": "Houmt Souk",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -10832,7 +10832,7 @@
     },
     {
         "nom": "Hôtel Romane",
-        "slug": "h-tel-romane",
+        "slug": "hotel-romane",
         "ville": "Hammamet",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -11065,7 +11065,7 @@
     },
     {
         "nom": "Hôtel Hammamet Beach",
-        "slug": "h-tel-hammamet-beach",
+        "slug": "hotel-hammamet-beach",
         "ville": "Hammamet",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -11101,7 +11101,7 @@
     },
     {
         "nom": "Hôtel Résidence Le Consul",
-        "slug": "h-tel-r-sidence-le-consul",
+        "slug": "hotel-residence-le-consul",
         "ville": "Tunis",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -11245,7 +11245,7 @@
     },
     {
         "nom": "Tamerza Palace By Odyssée",
-        "slug": "tamerza-palace-by-odyss-e",
+        "slug": "tamerza-palace-by-odyssee",
         "ville": "Tamaghzah",
         "pays": "Tunisie",
         "etoiles": "4 étoiles",
@@ -11354,7 +11354,7 @@
     },
     {
         "nom": "Hôtel LE CONSUL",
-        "slug": "h-tel-le-consul",
+        "slug": "hotel-le-consul",
         "ville": "Tunis",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -11408,7 +11408,7 @@
     },
     {
         "nom": "Hôtel LES MIMOSAS TABARKA",
-        "slug": "h-tel-les-mimosas-tabarka",
+        "slug": "hotel-les-mimosas-tabarka",
         "ville": "Tabarka",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -11481,7 +11481,7 @@
     },
     {
         "nom": "Hôtel Suisse Tunis",
-        "slug": "h-tel-suisse-tunis",
+        "slug": "hotel-suisse-tunis",
         "ville": "Tunis",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -11590,7 +11590,7 @@
     },
     {
         "nom": "Dar El Médina",
-        "slug": "dar-el-m-dina",
+        "slug": "dar-el-medina",
         "ville": "Médina, Tunis",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -11683,7 +11683,7 @@
     },
     {
         "nom": "Hôtel Belvédère Fourati",
-        "slug": "h-tel-belv-d-re-fourati",
+        "slug": "hotel-belvedere-fourati",
         "ville": "Tunis",
         "pays": "Tunisie",
         "etoiles": "4 étoiles",
@@ -11700,7 +11700,7 @@
     },
     {
         "nom": "Hôtel Tej El Medina",
-        "slug": "h-tel-tej-el-medina",
+        "slug": "hotel-tej-el-medina",
         "ville": "El Kef",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -11718,7 +11718,7 @@
     },
     {
         "nom": "Hôtel Matous",
-        "slug": "h-tel-matous",
+        "slug": "hotel-matous",
         "ville": "Tunis",
         "pays": "Tunisie",
         "etoiles": "2 étoiles",
@@ -11827,7 +11827,7 @@
     },
     {
         "nom": "Hôtel EDHIAFA",
-        "slug": "h-tel-edhiafa",
+        "slug": "hotel-edhiafa",
         "ville": "Médina, Tunis",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -11864,7 +11864,7 @@
     },
     {
         "nom": "Larimar Hôtel Sfax",
-        "slug": "larimar-h-tel-sfax",
+        "slug": "larimar-hotel-sfax",
         "ville": "Sfax",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -11937,7 +11937,7 @@
     },
     {
         "nom": "Hôtel Dar Massmoudi",
-        "slug": "h-tel-dar-massmoudi",
+        "slug": "hotel-dar-massmoudi",
         "ville": "Bab Bhar, Tunis",
         "pays": "Tunisie",
         "etoiles": "2 étoiles",
@@ -12066,7 +12066,7 @@
     },
     {
         "nom": "Hôtel Ayachi",
-        "slug": "h-tel-ayachi",
+        "slug": "hotel-ayachi",
         "ville": "Médina, Tunis",
         "pays": "Tunisie",
         "etoiles": "2 étoiles",
@@ -12732,7 +12732,7 @@
     },
     {
         "nom": "Hôtel Acquaviva Gammarth",
-        "slug": "h-tel-acquaviva-gammarth",
+        "slug": "hotel-acquaviva-gammarth",
         "ville": "Gammarth",
         "pays": "Tunisie",
         "etoiles": "3 étoiles",
@@ -12931,7 +12931,7 @@
     },
     {
         "nom": "Hôtel La Maison Blanche",
-        "slug": "h-tel-la-maison-blanche",
+        "slug": "hotel-la-maison-blanche",
         "ville": "Tunis",
         "pays": "Tunisie",
         "etoiles": "5 étoiles",
