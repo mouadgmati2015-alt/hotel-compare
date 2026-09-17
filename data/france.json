@@ -618,12 +618,12 @@
         "prix_moyen": "70€ - 160€ / nuit (selon saison et mobil-home)",
         "avis": "",
         "notes_categories": {
-            "personnel": "8,3/10",
-            "equipements": "7,7/10",
-            "proprete": "7,6/10",
-            "confort": "7,5/10",
-            "rapport_qualite_prix": "7,6/10",
-            "situation_geographique": "7,9/10"
+            "personnel": "",
+            "equipements": "",
+            "proprete": "",
+            "confort": "",
+            "rapport_qualite_prix": "",
+            "situation_geographique": ""
         },
         "points_positifs": [
             "Superbe complexe aquatique avec piscines, cascade et toboggans. (Booking.com)",

@@ -10,7 +10,7 @@
         "prix_moyen": "À vérifier selon les dates",
         "avis": "À vérifier sur Booking.com",
         "points_positifs": [
-            "Superbe situation géographique en front de mer avec une note de 9,1/10 saluée par de nombreux clients. (Booking.com)",
+            "Superbe situation géographique en front de mer avec saluée par de nombreux clients. (Booking.com)",
             "Vues panoramiques spectaculaires depuis les étages élevés et chambres spacieuses notées par les voyageurs. (Expedia)",
             "Accès direct à une plage privée et équipements de bien-être appréciés. (TripAdvisor)"
         ],
@@ -35,7 +35,7 @@
             "style": "Hôtel de luxe côtier",
             "verdict": "Une vue imprenable et de grands espaces, à condition de savourer l'emplacement tout en pardonnant quelques petits loupés de service."
         },
-        "meta_avis": "Analyse préliminaire ; note et avis détaillés à vérifier sur la fiche Booking.com."
+        "meta_avis": "Analyse préliminaire; note et avis détaillés à vérifier sur la fiche Booking.com."
     },
     "Resort Ruza Vjetrova": {
         "pays": "Monténégro",
@@ -48,7 +48,7 @@
         "prix_moyen": "À vérifier selon les dates",
         "avis": "À vérifier sur Booking.com",
         "points_positifs": [
-            "Situation géographique incroyable avec une note de 9,3/10 et des vues imprenables sur l'océan. (Booking.com)",
+            "Situation géographique incroyable avec des vues imprenables sur l'océan. (Booking.com)",
             "Vaste domaine privé, calme et verdoyant très apprécié par les couples et les familles. (Expedia)",
             "Diversité des espaces de restauration et proximité immédiate de la mer. (TripAdvisor)"
         ],
@@ -86,7 +86,7 @@
         "prix_moyen": "Variable selon la saison (positionnement abordable/milieu de gamme)",
         "avis": "",
         "points_positifs": [
-            "Situation géographique exceptionnelle notée 9,6/10, idéalement placée en front de mer et proche des restaurants. (Booking.com)",
+            "Situation géographique exceptionnelle, idéalement placée en front de mer et proche des restaurants. (Booking.com)",
             "Vues magnifiques sur la mer et les montagnes depuis les balcons des chambres propres et récentes. (Expedia)",
             "Accueil chaleureux et amabilité du personnel de réception salués par de nombreux clients. (TripAdvisor)"
         ],
@@ -124,7 +124,7 @@
         "prix_moyen": "Variable selon la saison (positionnement haut de gamme)",
         "avis": "",
         "points_positifs": [
-            "Vue mer spectaculaire depuis les balcons et impression d'être sur un bateau, saluée par une note de localisation de 9,5/10. (Booking.com)",
+            "Vue mer spectaculaire depuis les balcons et impression d'être sur un bateau, saluée par une note de localisation. (Booking.com)",
             "Accès direct et privé à la mer ainsi qu'une magnifique piscine d'eau de mer notés par les voyageurs. (Expedia)",
             "Propriétaires et personnel extrêmement bienveillants, à l'écoute et professionnels plébiscités par les avis clients. (TripAdvisor)"
         ],

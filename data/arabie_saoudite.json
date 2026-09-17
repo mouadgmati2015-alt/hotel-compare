@@ -23,7 +23,7 @@
         "points_negatifs": [
             "Le stationnement est signalé comme problématique par au moins un client. (Booking.com)",
             "Cas isolé de propreté insuffisante en chambre rapporté par un client. (TripAdvisor)",
-            "Notes globales plus contrastées selon les plateformes (de 7,6/10 à 4/5 selon la source, plutôt que 8,8/10). (Expedia)"
+            "Notes globales plus contrastées selon les plateformes (de à 4/5 selon la source, plutôt que ). (Expedia)"
         ],
         "equipements": [
             "4 étoiles",
@@ -42,7 +42,7 @@
         "Nomad, vous en dit plus": "Les avis réels confirment que le Novotel Riyadh Al Anoud est une tour contemporaine prestigieuse de Riyad, particulièrement prisée pour la qualité de son personnel et son emplacement central stratégique. Les points de vigilance restent rares et ponctuels, n'entachant pas la satisfaction générale des voyageurs d'affaires et des couples.",
         "pour_qui": {
             "ambiance": "🏙️ Contemporain, d'affaires, élégant, urbain et relaxant",
-            "public": "Voyageurs d'affaires, couples (noté 9,3 pour les séjours à deux) et familles en quête de confort au cœur de Riyadh",
+            "public": "Voyageurs d'affaires, couples ( pour les séjours à deux) et familles en quête de confort au cœur de Riyadh",
             "style": "Hôtel de tour contemporain avec spa et bien-être",
             "verdict": "Le Novotel Riyadh Al Anoud offre un point de chute prestigieux et idéalement situé dans la tour d'Al-Olaya. Entre ses équipements de bien-être, son service irréprochable et son excellent emplacement, il garantit un séjour des plus agréables."
         },
@@ -79,16 +79,16 @@
         "meta_title": "The Ritz-Carlton Jeddah 5* : Avis & Prix Palace Corniche 2026",
         "meta_description": "The Ritz-Carlton Jeddah 5* à Djeddah : palace somptueux sur la Corniche, vue mer, spa, service royal. Avis, prix, réservation Booking.",
         "description": "Situé dans le quartier prestigieux d'Al Hamra sur la Corniche Sud de Djeddah, l'établissement The Ritz-Carlton Jeddah offre une expérience somptueuse et royale. Proche de la Corniche de Djeddah et du Jet d'eau du roi Fahd, cet hôtel somptueux propose des chambres et suites magnifiquement décorées avec vue sur la mer ou sur la ville, un service d'étage irréprochable, ainsi que des infrastructures de bien-être haut de gamme incluant spa, sauna, bain à remous et centre de remise en forme.",
-        "prix_moyen": " 1580€ / nuit",
+        "prix_moyen": "1580€ / nuit",
         "avis": "",
         "notes_categories": {
-            "personnel": "9,1/10",
-            "equipements": "8,9/10",
-            "proprete": "9,1/10",
-            "confort": "9,2/10",
-            "rapport_qualite_prix": "8,4/10",
-            "situation_geographique": "9,3/10",
-            "connexion_wifi_gratuite": "8,9/10"
+            "personnel": "",
+            "equipements": "",
+            "proprete": "",
+            "confort": "",
+            "rapport_qualite_prix": "",
+            "situation_geographique": "",
+            "connexion_wifi_gratuite": ""
         },
         "points_positifs": [
             "Service et personnel unanimement salués comme professionnels, chaleureux et attentifs. (Booking.com)",

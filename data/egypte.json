@@ -130,7 +130,7 @@
         "avis": "",
         "points_positifs": [
             "Superbe (Booking.com)",
-            "Confort de 9,1 (TripAdvisor)",
+            "Confort (TripAdvisor)",
             "Piscine extérieure (Expedia)"
         ],
         "points_negatifs": [
@@ -243,7 +243,7 @@
         "points_positifs": [
             "Exceptionnel (Booking.com)",
             "Parc aquatique de grande qualité (TripAdvisor)",
-            "Confort de 9,5 (Expedia)"
+            "Confort (Expedia)"
         ],
         "points_negatifs": [
             "Complexe très fréquenté (Booking.com)"
@@ -307,7 +307,7 @@
         "prix_moyen": "1 258€ / semaine",
         "avis": "",
         "points_positifs": [
-            "Exceptionnel (9,8) (Booking.com)",
+            "Exceptionnel (Booking.com)",
             "Certificat de durabilité (TripAdvisor)",
             "Parc aquatique et prestations haut de gamme (Expedia)"
         ],
@@ -541,7 +541,7 @@
         "points_positifs": [
             "Infrastructures gigantesques dotées de plusieurs piscines extérieures pour toute la famille. (Booking.com)",
             "Accès direct à une belle plage de sable fin aménagée pour profiter de la mer Rouge. (TripAdvisor)",
-            "Confort très apprécié avec une note de 9,1/10 garantissant des espaces bien agencés. (Expedia)",
+            "Confort très apprécié avec garantissant des espaces bien agencés. (Expedia)",
             "Formule tout compris généreuse permettant de gérer facilement son budget repas et boissons. (Trip.com)"
         ],
         "points_negatifs": [
@@ -1131,7 +1131,7 @@
             "Accès direct à des récifs coralliens d'exception pour le snorkeling à El Hadaba. (Booking.com)",
             "Vastes jardins tropicaux luxuriants offrant un cadre verdoyant et dépaysant. (TripAdvisor)",
             "Certification de durabilité récompensant les efforts éco-responsables du complexe. (Expedia)",
-            "Excellent niveau de confort global (9,0/10) pour des chambres spacieuses et reposantes. (Trip.com)"
+            "Excellent niveau de confort global pour des chambres spacieuses et reposantes. (Trip.com)"
         ],
         "points_negatifs": [
             "Forte fréquentation inhérente à la grande capacité du resort, générant de l'animation aux heures de pointe. (Booking.com)",
@@ -1368,7 +1368,7 @@
         "prix_moyen": "754€ / semaine",
         "avis": "",
         "points_positifs": [
-            "Confort exceptionnel (9,4/10) avec un soin particulier apporté à la literie et à l'aménagement intérieur. (Booking.com)",
+            "Confort exceptionnel avec un soin particulier apporté à la literie et à l'aménagement intérieur. (Booking.com)",
             "Chambres familiales spacieuses évitant le sentiment de promiscuité. (TripAdvisor)",
             "Gestion personnalisée par un particulier garantissant une réactivité et une qualité de service supérieures. (Expedia)",
             "Petit-déjeuner qualitatif et frais, bien au-dessus des standards moyens du secteur. (Trip.com)"
@@ -1487,7 +1487,7 @@
         "prix_moyen": "98€ / semaine",
         "avis": "",
         "points_positifs": [
-            "Tarif hebdomadaire record défiant toute concurrence pour un hébergement si bien noté. (Booking.com)",
+            "Tarif hebdomadaire record défiant toute concurrence pour un hébergement si bien. (Booking.com)",
             "Parking gratuit inclus, un atout logistique majeur pour économiser dans cette zone saturée. (TripAdvisor)",
             "Accueil humain particulièrement chaleureux et bienveillant de la part de la gestion. (Expedia)",
             "Prestations de base indispensables (climatisation, petit-déjeuner) parfaitement assurées. (Trip.com)"
@@ -1509,7 +1509,7 @@
             "ambiance": "💰 Ultra économique, sympathique",
             "public": "Petits budgets et routards",
             "style": "Hôtel économique",
-            "verdict": "Le meilleur rapport qualité/prix absolu du marché pour les voyageurs au budget ultra-serré. Sa note globale de 9,0 témoigne de la satisfaction des clients qui y trouvent exactement ce qu'ils cherchent. C'est l'affaire en or pour petits portefeuilles."
+            "verdict": "Le meilleur rapport qualité/prix absolu du marché pour les voyageurs au budget ultra-serré. Sa témoigne de la satisfaction des clients qui y trouvent exactement ce qu'ils cherchent. C'est l'affaire en or pour petits portefeuilles."
         },
         "meta_avis": {
             "note_globale": "",
@@ -1610,7 +1610,7 @@
             "Logement indépendant de type chalet avec cuisine et salon intégrés pour un maximum de liberté. (Booking.com)",
             "Proximité directe des superbes plages de sable blanc et des eaux turquoise de la Méditerranée. (TripAdvisor)",
             "Infrastructures familiales appréciables comprenant une grande piscine et des aires de jeux. (Expedia)",
-            "Excellent rapport qualité-prix pour un hébergement entier très bien noté (9,2/10). (Trip.com)"
+            "Excellent rapport qualité-prix pour un hébergement entier très bien. (Trip.com)"
         ],
         "points_negatifs": [
             "Autonomie complète requise sans les services hôteliers quotidiens d'un resort classique. (Booking.com)",
@@ -1667,7 +1667,7 @@
         "prix_moyen": "563€ / semaine",
         "avis": "",
         "points_positifs": [
-            "Indice de confort remarquable (9,2/10) avec un soin particulier apporté aux espaces de repos. (Booking.com)",
+            "Indice de confort remarquable avec un soin particulier apporté aux espaces de repos. (Booking.com)",
             "Bain à remous (jacuzzi) idéal pour détendre les muscles après les longues marches de visite. (TripAdvisor)",
             "Panoramas visuels privilégiés sur les environs et les sites historiques depuis la structure. (Expedia)",
             "Petit-déjeuner compris qualitatif et consistant pour bien commencer la journée. (Trip.com)"
@@ -1907,7 +1907,7 @@
         "avis": "",
         "points_positifs": [
             "Vue frontale exceptionnelle et directe sur le Sphinx et le plateau des Pyramides. (Booking.com)",
-            "Niveau de confort intérieur remarquable évalué à 9,6/10 par les voyageurs. (TripAdvisor)",
+            "Niveau de confort intérieur remarquable évalué à par les voyageurs. (TripAdvisor)",
             "Excellent rapport qualité-prix au vu de la rareté et de la puissance du panorama offert. (Expedia)",
             "Prestations pratiques très appréciées incluant parking gratuit et petit-déjeuner. (Trip.com)"
         ],
@@ -2137,13 +2137,13 @@
         "lien_expedia": "https://www.expedia.fr/Cairo-Hotels-Casa-Latina-Pyramids-View.h3810261.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/869985890.jpg?k=72d1c8fae2b51d64e119d29d95e89856dac6939e2cc0112b190e9cba2732dc1d&o=",
         "image_alt": "Casa Latina pyramids view - boutique guesthouse 3 étoiles à Gizeh Le Caire",
-        "meta_title": "Casa Latina pyramids view Le Caire 3* : Avis & Prix Confort 9.8/10 & Parking 2026",
+        "meta_title": "Casa Latina pyramids view Le Caire 3* : Avis & Prix Confort & Parking 2026",
         "meta_description": "Casa Latina pyramids view, guesthouse 3* à Gizeh : confort exceptionnel, parking gratuit et cadre intime. Avis, prix, réservation Booking & Expedia.",
         "description": "Affichant des notes mirobolantes de 9,6 au global et de 9,8 pour son confort, cette boutique guesthouse s'impose comme une référence à Gizeh. Elle propose un cadre intime, soigné et chaleureux où chaque détail est pensé pour le bien-être des résidents. Les voyageurs profitent de services de grande qualité incluant un parking gratuit et des conditions de règlement flexibles sur place. L'atmosphère sophistiquée et l'accueil personnalisé garantissent une expérience de séjour mémorable et hautement qualitative.",
         "prix_moyen": "181€ / semaine",
         "avis": "",
         "points_positifs": [
-            "Indice de confort quasi-parfait évalué à 9,8/10, surpassant de loin les standards de la catégorie. (Booking.com)",
+            "Indice de confort quasi-parfait évalué à, surpassant de loin les standards de la catégorie. (Booking.com)",
             "Rapport qualité-prix exceptionnel pour des prestations hautement qualitatives à petit prix. (TripAdvisor)",
             "Mise à disposition d'un parking gratuit très précieux pour la gestion d'un véhicule à Gizeh. (Expedia)",
             "Format intime de boutique guesthouse garantissant un accueil personnalisé et chaleureux. (Trip.com)"
@@ -2263,7 +2263,7 @@
         "avis": "",
         "points_positifs": [
             "Proximité immédiate du métro permettant de traverser la métropole en s'affranchissant des embouteillages. (Booking.com)",
-            "Niveau de confort urbain solide (8,9/10) garantissant des espaces fonctionnels et propres. (TripAdvisor)",
+            "Niveau de confort urbain solide garantissant des espaces fonctionnels et propres. (TripAdvisor)",
             "Formule pratique incluant le petit-déjeuner et facilitant le règlement direct sur place. (Expedia)",
             "Positionnement central idéal pour maximiser l'exploration culturelle de la capitale. (Trip.com)"
         ],
@@ -2324,7 +2324,7 @@
         "points_positifs": [
             "Immersion culturelle et artistique unique au cœur des traditions de la communauté nubienne. (Booking.com)",
             "Grand appartement de 50 m² doté d'un jardin privatif verdoyant propice au repos. (TripAdvisor)",
-            "Excellent rapport qualité-prix pour un hébergement de grande superficie très bien noté. (Expedia)",
+            "Excellent rapport qualité-prix pour un hébergement de grande superficie très bien. (Expedia)",
             "Atmosphère humaine chaleureuse garantissant un dépaysement total et authentique. (Trip.com)"
         ],
         "points_negatifs": [
@@ -2382,7 +2382,7 @@
         "prix_moyen": "456€ / semaine",
         "avis": "",
         "points_positifs": [
-            "Confort exceptionnel (9,6/10) avec un soin méticuleux apporté aux équipements intérieurs. (Booking.com)",
+            "Confort exceptionnel avec un soin méticuleux apporté aux équipements intérieurs. (Booking.com)",
             "Chambres quadruples spacieuses et idéales pour loger les familles ou groupes au centre. (TripAdvisor)",
             "Proximité immédiate du métro pour s'affranchir de la circulation de l'hypercentre. (Expedia)",
             "Petit-déjeuner complet inclus pour démarrer parfaitement les journées d'exploration. (Trip.com)"
@@ -2445,7 +2445,7 @@
             "Chambres quadruples de luxe climatisées offrant de superbes volumes pour les familles. (Booking.com)",
             "Parking gratuit sécurisé permettant de réaliser d'importantes économies logistiques à Gizeh. (TripAdvisor)",
             "Petit-déjeuner inclus qualitatif pour bien démarrer les journées de visite. (Expedia)",
-            "Solide réputation confirmée par un volume important de retours clients élogieux (9,1/10). (Trip.com)"
+            "Solide réputation confirmée par un volume important de retours clients élogieux. (Trip.com)"
         ],
         "points_negatifs": [
             "Forte popularité générant une tension constante sur la disponibilité des chambres quadruples. (Booking.com)",
@@ -2508,7 +2508,7 @@
             "Tarif hebdomadaire globalement accessible pour la zone. (Trip.com)"
         ],
         "points_negatifs": [
-            "Note globale (7,7/10) plus modeste traduisant des prestations perfectibles ou inconstantes. (Booking.com)",
+            "Note globale plus modeste traduisant des prestations perfectibles ou inconstantes. (Booking.com)",
             "Confort et design intérieurs strictement basiques, sans recherche esthétique particulière. (TripAdvisor)",
             "Exposition aux bruits et à l'effervescence urbaine du quartier de Gizeh. (Expedia)"
         ],
@@ -2568,7 +2568,7 @@
             "Solution de cohabitation économique rapportée au nombre élevé de couchages. (Trip.com)"
         ],
         "points_negatifs": [
-            "Note générale faible (6,0/10) témoignant de prestations et d'un entretien perfectibles. (Booking.com)",
+            "Note générale faible témoignant de prestations et d'un entretien perfectibles. (Booking.com)",
             "Confort intérieur rudimentaire et usure potentielle des installations. (TripAdvisor)",
             "Volume d'avis restreint (15 expériences) ne garantissant pas une constance absolue. (Expedia)"
         ],
@@ -2805,7 +2805,7 @@
             "Hyper-centralité urbaine permettant un accès direct aux musées et quartiers historiques. (Booking.com)",
             "Proximité immédiate du métro pour se déplacer rapidement à travers la capitale. (TripAdvisor)",
             "Formule pratique incluant le petit-déjeuner et facilitant le paiement direct sur place. (Expedia)",
-            "Solide niveau de satisfaction générale (8,7/10) pour un séjour citadin bien orchestré. (Trip.com)"
+            "Solide niveau de satisfaction générale pour un séjour citadin bien orchestré. (Trip.com)"
         ],
         "points_negatifs": [
             "Exposition directe à l'agitation et au dynamisme sonore permanent de l'hypercentre cairote. (Booking.com)",
@@ -2982,7 +2982,7 @@
         "prix_moyen": "698€ / semaine",
         "avis": "",
         "points_positifs": [
-            "Confort exceptionnel noté 9,9/10, garantissant un standing de vie irréprochable. (Booking.com)",
+            "Confort exceptionnel, garantissant un standing de vie irréprochable. (Booking.com)",
             "Volume exceptionnel de 126 m² incluant 3 chambres, idéal pour le confort des grands groupes. (TripAdvisor)",
             "Situation privilégiée au sein du complexe haut de gamme Il Monte Galala avec piscine et vue mer. (Expedia)",
             "Rapport qualité-prix très avantageux au vu du standing et de la surface offerte. (Trip.com)"
@@ -3102,7 +3102,7 @@
         "avis": "",
         "points_positifs": [
             "Superficie généreuse de 150 m² offrant des volumes exceptionnels pour les grands groupes. (Booking.com)",
-            "Confort intérieur noté 9,5/10, garantissant un standing de vie haut de gamme. (TripAdvisor)",
+            "Confort intérieur, garantissant un standing de vie haut de gamme. (TripAdvisor)",
             "Vue spectaculaire et imprenable sur la mer Méditerranée depuis l'appartement. (Expedia)",
             "Positionnement tarifaire très attractif pour un bien d'un tel prestige à Alexandrie. (Trip.com)"
         ],
@@ -3155,13 +3155,13 @@
         "lien_expedia": "https://www.expedia.fr/Cairo-Hotels-Diamond-Pyramids-View-Inn.h3810278.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/589095678.jpg?k=dd638795aaeb8103721a131cb4a7fe68fccd5dae0889a249803a9eaa0d9206fd&o=",
         "image_alt": "Diamond Pyramids View Inn - guesthouse 3 étoiles d'excellence à Gizeh Le Caire",
-        "meta_title": "Diamond Pyramids View Inn Le Caire 3* : Avis & Prix Confort 9.7/10 & Parking 2026",
+        "meta_title": "Diamond Pyramids View Inn Le Caire 3* : Avis & Prix Confort & Parking 2026",
         "meta_description": "Diamond Pyramids View Inn, guesthouse 3* à Gizeh : note d'excellence de, service haut de gamme, parking gratuit et petit-déjeuner compris. Avis, prix, réservation Booking & Expedia.",
         "description": "Atteignant des sommets d'excellence avec tant au global que pour son confort, cette guesthouse de Gizeh frôle la perfection. Elle propose un cadre raffiné, intime et minutieusement entretenu où chaque client bénéficie d'une attention de premier ordre. Les prestations de série comprennent un parking gratuit sécurisé, un délicieux petit-déjeuner compris et une flexibilité totale de paiement. C'est un modèle du genre en matière d'hospitalité égyptienne haut de gamme.",
         "prix_moyen": "511€ / semaine",
         "avis": "",
         "points_positifs": [
-            "Note d'excellence (9,7/10) plaçant l'établissement parmi les références absolues de la zone. (Booking.com)",
+            "Note d'excellence plaçant l'établissement parmi les références absolues de la zone. (Booking.com)",
             "Hospitalité haut de gamme et personnalisée, récompensée par une rigueur irréprochable. (TripAdvisor)",
             "Pack logistique idéal : parking gratuit, petit-déjeuner et paiement facilité. (Expedia)",
             "Valeur suprême pour les voyageurs exigeants en quête de confort et de service. (Trip.com)"
@@ -3342,7 +3342,7 @@
         "avis": "",
         "points_positifs": [
             "Prestations 5 étoiles synonymes de raffinement et d'excellence dans le service. (Booking.com)",
-            "Confort intérieur exceptionnel (9,4/10) alliant literie premium et décoration élégante. (TripAdvisor)",
+            "Confort intérieur exceptionnel alliant literie premium et décoration élégante. (TripAdvisor)",
             "Engagement écologique certifié, gage d'une gestion responsable et moderne. (Expedia)",
             "Formule tout compris généreuse et haut de gamme, loin des standards basiques. (Trip.com)"
         ],
@@ -3454,14 +3454,14 @@
         "lien_expedia": "https://www.expedia.fr/Cairo-Hotels-Pyramids-Temple-Guest-House.h3810283.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/553977949.jpg?k=d3c6503ce3ccea19b9a9378d687a280b70fda7df1c2d0bf6fc280f4f8c05dbbe&o=",
         "image_alt": "Pyramids Temple Guest House - guesthouse 3 étoiles avec bar à Gizeh Le Caire",
-        "meta_title": "Pyramids Temple Guest House Le Caire 3* : Avis & Prix Confort 9.5/10 & Bar 2026",
+        "meta_title": "Pyramids Temple Guest House Le Caire 3* : Avis & Prix Confort & Bar 2026",
         "meta_description": "Pyramids Temple Guest House, guesthouse 3* à Gizeh : confort, bar et petit-déjeuner compris. Avis, prix, réservation Booking & Expedia.",
         "description": "Bénéficiant d' à Gizeh, cette guesthouse d'exception séduit par la qualité irréprochable de ses services. Elle dispose d'un bar accueillant et propose un standing général très élevé avec un indice de confort évalué à 9,4 sur 10. Le petit-déjeuner compris servi chaque matin participe à l'harmonie générale d'un séjour placé sous le signe du bien-être. L'accueil y est particulièrement soigné pour satisfaire une clientèle en quête d'exigence.",
         "prix_moyen": "253€ / semaine",
         "avis": "",
         "points_positifs": [
-            "Note exceptionnelle (9,5/10) témoignant d'une excellence de service unanimement saluée. (Booking.com)",
-            "Confort intérieur noté 9,4/10, garantissant une grande qualité de repos. (TripAdvisor)",
+            "Note exceptionnelle témoignant d'une excellence de service unanimement saluée. (Booking.com)",
+            "Confort intérieur, garantissant une grande qualité de repos. (TripAdvisor)",
             "Prestations de confort supplémentaires avec un bar et un petit-déjeuner inclus. (Expedia)",
             "Rapport qualité-prix excellent pour un niveau de standing supérieur. (Trip.com)"
         ],
@@ -3639,8 +3639,8 @@
         "prix_moyen": "381€ / semaine",
         "avis": "",
         "points_positifs": [
-            "Superbe note globale (9,2/10) témoignant d'une qualité d'accueil remarquable. (Booking.com)",
-            "Confort intérieur évalué à 9,1/10 grâce à de spacieuses suites familiales. (TripAdvisor)",
+            "Superbe note globale témoignant d'une qualité d'accueil remarquable. (Booking.com)",
+            "Confort intérieur évalué à grâce à de spacieuses suites familiales. (TripAdvisor)",
             "Immersion culturelle et charme traditionnel authentique au bord du Nil. (Expedia)",
             "Petit-déjeuner compris copieux et présence de balcons privatifs. (Trip.com)"
         ],
@@ -3757,7 +3757,7 @@
         "prix_moyen": "312€ / semaine",
         "avis": "",
         "points_positifs": [
-            "Confort exceptionnel (9,6/10) garantissant un standing de séjour irréprochable. (Booking.com)",
+            "Confort exceptionnel garantissant un standing de séjour irréprochable. (Booking.com)",
             "Entrée indépendante et politique 'Familles uniquement' assurant calme et sécurité. (TripAdvisor)",
             "Superbe double panorama combinant vue mer et jardin verdoyant sur 95 m². (Expedia)",
             "Excellent rapport qualité-prix pour un espace privatif aussi bien noté à Alexandrie. (Trip.com)"
@@ -3779,7 +3779,7 @@
             "ambiance": "👨‍👩‍👧‍👦 Familial, spacieux et marin",
             "public": "Familles cherchant l'autonomie et un grand espace à Alexandrie",
             "style": "Chalet indépendant",
-            "verdict": "Une note de 9,6 tout à fait exceptionnelle qui consacre la qualité remarquable de ce séjour familial en bord de mer. L'indépendance du chalet et la beauté des panoramas garantissent des vacances mémorables. C'est une location de choix."
+            "verdict": "Tout à fait exceptionnelle qui consacre la qualité remarquable de ce séjour familial en bord de mer. L'indépendance du chalet et la beauté des panoramas garantissent des vacances mémorables. C'est une location de choix."
         },
         "meta_avis": {
             "note_globale": "",
@@ -3811,14 +3811,14 @@
         "lien_expedia": "https://www.expedia.fr/Cairo-Hotels-Crystal-Pyramid-Inn.h3810289.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/903212608.jpg?k=6ff91b0ced2a64f2fd4ea13b7d38228389b60286ff91926faf58f62f840e6450&o=",
         "image_alt": "Crystal pyramid inn - hôtel 3 étoiles à Gizeh Le Caire",
-        "meta_title": "Crystal pyramid inn Le Caire 3* : Avis & Prix Confort 9.3/10 & Parking 2026",
+        "meta_title": "Crystal pyramid inn Le Caire 3* : Avis & Prix Confort & Parking 2026",
         "meta_description": "Crystal pyramid inn, hôtel 3* à Gizeh : score fabuleux de, confort, parking gratuit et petit-déjeuner compris. Avis, prix, réservation Booking & Expedia.",
         "description": "Proposant une offre promotionnelle attractive à Gizeh, cet établissement se distingue par un score fabuleux de 9,3 sur 10. Il met à disposition des infrastructures de qualité comprenant un parking gratuit sécurisé et un petit-déjeuner compris complet. Le confort intérieur évalué à 9,2 garantit des nuits paisibles et réparatrices après les longues marches de découverte. L'attention portée à la satisfaction des visiteurs en fait une adresse extrêmement populaire.",
         "prix_moyen": "168€ / semaine",
         "avis": "",
         "points_positifs": [
-            "Score global fabuleux (9,3/10) fondé sur un volume solide de près de 450 avis. (Booking.com)",
-            "Confort intérieur de 9,2/10 garantissant des nuits de repos de grande qualité. (TripAdvisor)",
+            "Score global fabuleux fondé sur un volume solide de près de 450 avis. (Booking.com)",
+            "Confort intérieur garantissant des nuits de repos de grande qualité. (TripAdvisor)",
             "Rapport qualité-prix exceptionnel aux alentours de 168€ la semaine. (Expedia)",
             "Avantages inclus majeurs : parking gratuit sécurisé et petit-déjeuner complet. (Trip.com)"
         ],
@@ -3838,7 +3838,7 @@
             "ambiance": "✨ Populaire, soigné et économique",
             "public": "Voyageurs cherchant un excellent standing près des pyramides",
             "style": "Hôtel de tourisme",
-            "verdict": "Un rapport qualité/prix tout bonnement imbattable (9,3/10) renforcé par des avantages promotionnels très appréciables. Sa popularité méritée témoigne de la fiabilité de ses prestations au quotidien. C'est une valeur sûre à Gizeh."
+            "verdict": "Un rapport qualité/prix tout bonnement imbattable renforcé par des avantages promotionnels très appréciables. Sa popularité méritée témoigne de la fiabilité de ses prestations au quotidien. C'est une valeur sûre à Gizeh."
         },
         "meta_avis": {
             "note_globale": "",
@@ -3876,7 +3876,7 @@
         "prix_moyen": "316€ / semaine",
         "avis": "",
         "points_positifs": [
-            "Fiabilité exceptionnelle validée par une base massive de plus de 1 700 retours clients (9,2/10). (Booking.com)",
+            "Fiabilité exceptionnelle validée par une base massive de plus de 1 700 retours clients. (Booking.com)",
             "Chambres familiales spacieuses et fonctionnelles adaptées aux tribus. (TripAdvisor)",
             "Confort logistique majeur incluant un parking gratuit et des facilités de paiement sur place. (Expedia)",
             "Rapport qualité-prix très avantageux pour un séjour serein à Gizeh. (Trip.com)"
@@ -3937,7 +3937,7 @@
         "points_positifs": [
             "Tarif hebdomadaire très économique (environ 196€) idéal pour petits budgets. (Booking.com)",
             "Commodités pratiques incluses : parking gratuit et petit-déjeuner compris. (TripAdvisor)",
-            "Indice de satisfaction solide (8,7/10) basé sur plus de 350 retours clients. (Expedia)",
+            "Indice de satisfaction solide basé sur plus de 350 retours clients. (Expedia)",
             "Emplacement stratégique facilitant l'accès direct aux sites de Gizeh. (Trip.com)"
         ],
         "points_negatifs": [
@@ -4001,7 +4001,7 @@
             "Tarif hebdomadaire globalement accessible pour un séjour balnéaire complet. (Trip.com)"
         ],
         "points_negatifs": [
-            "Note globale (7,5/10) plus modeste traduisant des retours clients parfois inconstants. (Booking.com)",
+            "Note globale plus modeste traduisant des retours clients parfois inconstants. (Booking.com)",
             "Prestations intérieures et finitions basiques malgré l'appellation boutique-hotel. (TripAdvisor)",
             "Volume d'avis restreint (85 expériences) ne garantissant pas un recul massif. (Expedia)"
         ],
@@ -4061,7 +4061,7 @@
         ],
         "points_negatifs": [
             "Confort intérieur et prestations demeurant dans un registre strictement classique et basique. (Booking.com)",
-            "Note globale (7,6/10) traduisant des retours parfois mitigés sur la constance des services. (TripAdvisor)",
+            "Note globale traduisant des retours parfois mitigés sur la constance des services. (TripAdvisor)",
             "Nécessité potentielle de se déplacer pour rejoindre l'hyper-centre ou les zones d'animation de Dahab. (Expedia)"
         ],
         "equipements": [
@@ -4115,7 +4115,7 @@
         "avis": "",
         "points_positifs": [
             "Standing 5 étoiles somptueux offrant un cadre balnéaire d'exception en bord de mer Rouge. (Booking.com)",
-            "Confort intérieur remarquable noté 9,0/10 garantissant un repos optimal. (TripAdvisor)",
+            "Confort intérieur remarquable garantissant un repos optimal. (TripAdvisor)",
             "Formule tout compris complète pour une villégiature sans contrainte logistique. (Expedia)",
             "Conditions de réservation flexibles avec paiement sur place sans prépaiement requis. (Trip.com)"
         ],
@@ -4174,7 +4174,7 @@
         "prix_moyen": "298€ / semaine",
         "avis": "",
         "points_positifs": [
-            "Confort intérieur remarquable noté 9,5/10 garantissant un standing de séjour supérieur. (Booking.com)",
+            "Confort intérieur remarquable garantissant un standing de séjour supérieur. (Booking.com)",
             "Vastes volumes de 80 m² avec cuisine équipée, parfaits pour l'autonomie des familles. (TripAdvisor)",
             "Présence d'une piscine extérieure et petit-déjeuner compris sur la rive ouest. (Expedia)",
             "Fiabilité validée par une base solide de plus de 500 retours clients enthousiastes. (Trip.com)"
@@ -4235,7 +4235,7 @@
         "avis": "",
         "points_positifs": [
             "Immersion dans une région côtière préservée, loin des circuits touristiques de masse. (Booking.com)",
-            "Confort intérieur de qualité évalué à 8,6/10 avec superbes vues sur la mer Rouge. (TripAdvisor)",
+            "Confort intérieur de qualité évalué à avec superbes vues sur la mer Rouge. (TripAdvisor)",
             "Présence d'une piscine extérieure et conditions d'annulation flexibles. (Expedia)",
             "Tarif hebdomadaire très abordable (environ 324€) pour un séjour marin au calme. (Trip.com)"
         ],
@@ -4300,7 +4300,7 @@
         ],
         "points_negatifs": [
             "Décoration et aménagement intérieur ancrés dans un style classique et sans fioritures. (Booking.com)",
-            "Note de 7,9/10 traduisant des prestations de confort et de service parfois perfectibles. (TripAdvisor)",
+            "Traduisant des prestations de confort et de service parfois perfectibles. (TripAdvisor)",
             "Exposition inévitable aux nuisances sonores de l'environnement urbain de Gizeh. (Expedia)"
         ],
         "equipements": [
@@ -4354,14 +4354,14 @@
         "avis": "",
         "points_positifs": [
             "Environnement résidentiel moderne et sécurisé, idéal pour fuir le tumulte cairote. (Booking.com)",
-            "Confort intérieur de 8,2/10 et belle piscine extérieure pour la détente. (TripAdvisor)",
+            "Confort intérieur et belle piscine extérieure pour la détente. (TripAdvisor)",
             "Chambres familiales deluxe spacieuses couplées à des facilités de paiement sur place. (Expedia)",
             "Fiabilité validée par une base solide de plus de 1 000 retours clients. (Trip.com)"
         ],
         "points_negatifs": [
             "Tarif hebdomadaire élevé (environ 844€) pour la catégorie et la localisation. (Booking.com)",
             "Éloignement net des sites historiques majeurs du Caire et de Gizeh. (TripAdvisor)",
-            "Note globale (7,9/10) plus contrastée au regard des prestations tarifaires exigées. (Expedia)"
+            "Note globale plus contrastée au regard des prestations tarifaires exigées. (Expedia)"
         ],
         "equipements": [
             "4 étoiles",
@@ -4414,7 +4414,7 @@
         "avis": "",
         "points_positifs": [
             "Présence originale d'un bain à remous (jacuzzi) idéal pour la détente après les visites. (Booking.com)",
-            "Confort intérieur solide évalué à 8,6/10 dans les chambres triples deluxe. (TripAdvisor)",
+            "Confort intérieur solide évalué à dans les chambres triples deluxe. (TripAdvisor)",
             "Formule économique avantageuse (environ 222€ la semaine) incluant le petit-déjeuner. (Expedia)",
             "Fiabilité confirmée par une large communauté de plus de 820 voyageurs. (Trip.com)"
         ],
@@ -4480,7 +4480,7 @@
         ],
         "points_negatifs": [
             "Style et prestations intérieures volontairement simples, sans fioritures esthétiques. (Booking.com)",
-            "Note globale (7,7/10) traduisant des prestations de confort parfois perfectibles. (TripAdvisor)",
+            "Note globale traduisant des prestations de confort parfois perfectibles. (TripAdvisor)",
             "Exposition directe à l'agitation et au bruit de la circulation urbaine locale. (Expedia)"
         ],
         "equipements": [
@@ -4533,7 +4533,7 @@
         "avis": "",
         "points_positifs": [
             "Vastes chambres quadruples de luxe parfaitement adaptées aux familles et groupes. (Booking.com)",
-            "Confort intérieur moderne et soigné évalué à 9,0/10. (TripAdvisor)",
+            "Confort intérieur moderne et soigné évalué à. (TripAdvisor)",
             "Proximité stratégique avec le nouveau Grand Musée Égyptien à Gizeh. (Expedia)",
             "Prestations pratiques incluant un bar, le petit-déjeuner et le paiement sur place. (Trip.com)"
         ],
@@ -4594,7 +4594,7 @@
         "points_positifs": [
             "Implantation centrale de premier plan dans le quartier de Garden City. (Booking.com)",
             "Accès direct et rapide au métro pour circuler facilement dans tout Le Caire. (TripAdvisor)",
-            "Confort intérieur solide évalué à 8,3/10 avec petit-déjeuner compris. (Expedia)",
+            "Confort intérieur solide évalué à avec petit-déjeuner compris. (Expedia)",
             "Fiabilité validée par une large communauté de plus de 850 retours clients. (Trip.com)"
         ],
         "points_negatifs": [
@@ -4712,16 +4712,16 @@
         "prix_moyen": "220€ / nuit",
         "avis": "",
         "notes_categories": {
-            "personnel": "9,5/10",
-            "equipements": "9,4/10",
-            "proprete": "9,4/10",
-            "confort": "9,4/10",
-            "rapport_qualite_prix": "9,0/10",
-            "situation_geographique": "9,5/10",
-            "connexion_wifi_gratuite": "9,2/10"
+            "personnel": "",
+            "equipements": "",
+            "proprete": "",
+            "confort": "",
+            "rapport_qualite_prix": "",
+            "situation_geographique": "",
+            "connexion_wifi_gratuite": ""
         },
         "points_positifs": [
-            "Situation géographique exceptionnelle notée 9,5/10 par les voyageurs. (Booking.com)",
+            "Situation géographique exceptionnelle par les voyageurs. (Booking.com)",
             "Superbes infrastructures incluant 6 piscines et une plage privée. (Expedia)",
             "Qualité de service remarquable saluée par de nombreux clients et membres du personnel dévoués. (TripAdvisor)",
             "Variété et excellence des restaurants et des options de restauration. (Booking.com)"

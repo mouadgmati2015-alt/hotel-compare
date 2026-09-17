@@ -25,9 +25,15 @@ from pathlib import Path
 APPLY = "--apply" in sys.argv[1:]
 BASE_DIR = Path(__file__).resolve().parent
 DOSSIERS_A_SCANNER = [BASE_DIR / "data", BASE_DIR / "data_logements"]
-CHAMPS_A_NETTOYER = ["description", "meta_description", "Nomad, vous en dit plus", "nomad_vous_en_dit_plus", "avis"]
-# Sous-champs à nettoyer à l'intérieur du bloc "meta_avis" (structure imbriquée, traitée à part)
-SOUS_CHAMPS_META_AVIS = ["note_globale", "points_cles_avis"]
+# Champs techniques à ne jamais toucher : URLs, coordonnées, identifiants — un nettoyage
+# de texte n'a pas de sens dessus et pourrait les casser.
+CHAMPS_A_EXCLURE = {
+    "lien_booking", "lien_expedia", "lien_site_officiel", "lien",
+    "image", "images", "galerieImages", "image_alt_source",
+    "pays", "ville", "type", "slug", "id",
+    "lat", "lng", "lat_manuel", "lng_manuel",
+    "@context", "@type", "url",
+}
 
 # Liste de motifs regex → remplacement. Ordre important : du plus spécifique au plus général.
 PATTERNS = [
@@ -60,6 +66,9 @@ PATTERNS = [
     (r"\(\s*\)", ""),
     (r":\s*,\s*", ": "),
     (r",\s*,\s*", ", "),
+    # "de." / "de," qui traîne quand toute la fin de la locution a été supprimée
+    # (ex: "note de localisation de 9,5/10" → "de." orphelin)
+    (r"\bde\s+([.,;:])", r"\1"),
     (r"\s+([,.;!?])", r"\1"),
 ]
 
@@ -71,7 +80,47 @@ def nettoyer_texte(texte):
     for _ in range(3):
         for motif, remplacement in PATTERNS:
             texte = re.sub(motif, remplacement, texte, flags=re.IGNORECASE)
-    return texte.strip(), texte != original
+    texte = texte.strip()
+    # Si le texte d'origine commençait par une majuscule (début de phrase) mais que le résultat
+    # commence maintenant par une minuscule — soit parce qu'on a supprimé le premier mot, soit parce
+    # qu'un remplacement a forcé une casse fixe — on remet la majuscule initiale.
+    if original and texte and original[0].isupper() and texte[0].islower():
+        texte = texte[0].upper() + texte[1:]
+    return texte, texte != original
+
+
+def nettoyer_recursif(valeur, chemin=""):
+    """Parcourt récursivement dicts/listes/chaînes et nettoie chaque texte trouvé,
+    sauf les champs techniques listés dans CHAMPS_A_EXCLURE (URLs, coordonnées, etc.).
+    Retourne (valeur_nettoyée, liste_de_modifications)."""
+    modifications = []
+
+    if isinstance(valeur, dict):
+        for cle, sous_valeur in list(valeur.items()):
+            if cle in CHAMPS_A_EXCLURE:
+                continue
+            nouveau_chemin = f"{chemin}.{cle}" if chemin else cle
+            resultat, mods = nettoyer_recursif(sous_valeur, nouveau_chemin)
+            valeur[cle] = resultat
+            modifications.extend(mods)
+        return valeur, modifications
+
+    if isinstance(valeur, list):
+        nouvelle_liste = []
+        for i, item in enumerate(valeur):
+            resultat, mods = nettoyer_recursif(item, f"{chemin}[{i}]")
+            nouvelle_liste.append(resultat)
+            modifications.extend(mods)
+        return nouvelle_liste, modifications
+
+    if isinstance(valeur, str):
+        nouvelle_valeur, a_change = nettoyer_texte(valeur)
+        if a_change:
+            modifications.append((chemin, valeur, nouvelle_valeur))
+        return nouvelle_valeur, modifications
+
+    # nombres, booléens, None : rien à nettoyer
+    return valeur, modifications
 
 
 def traiter_fichier(chemin_fichier):
@@ -82,45 +131,24 @@ def traiter_fichier(chemin_fichier):
     if not isinstance(data, dict):
         return modifications
 
+    fichier_modifie = False
     for nom_entite, contenu in data.items():
         if not isinstance(contenu, dict):
             continue
-        for champ in CHAMPS_A_NETTOYER:
-            valeur = contenu.get(champ)
-            if not valeur or not isinstance(valeur, str):
-                continue
-            nouvelle_valeur, a_change = nettoyer_texte(valeur)
-            if a_change:
+        contenu_nettoye, mods_entite = nettoyer_recursif(contenu, "")
+        if mods_entite:
+            fichier_modifie = True
+            data[nom_entite] = contenu_nettoye
+            for chemin, avant, apres in mods_entite:
                 modifications.append({
                     "fichier": chemin_fichier.name,
                     "entite": nom_entite,
-                    "champ": champ,
-                    "avant": valeur,
-                    "apres": nouvelle_valeur,
+                    "champ": chemin,
+                    "avant": avant,
+                    "apres": apres,
                 })
-                if APPLY:
-                    contenu[champ] = nouvelle_valeur
 
-        # Bloc imbriqué "meta_avis": {"note_globale": "5.3/10", "points_cles_avis": "..."}
-        meta_avis = contenu.get("meta_avis")
-        if isinstance(meta_avis, dict):
-            for sous_champ in SOUS_CHAMPS_META_AVIS:
-                valeur = meta_avis.get(sous_champ)
-                if not valeur or not isinstance(valeur, str):
-                    continue
-                nouvelle_valeur, a_change = nettoyer_texte(valeur)
-                if a_change:
-                    modifications.append({
-                        "fichier": chemin_fichier.name,
-                        "entite": nom_entite,
-                        "champ": f"meta_avis.{sous_champ}",
-                        "avant": valeur,
-                        "apres": nouvelle_valeur,
-                    })
-                    if APPLY:
-                        meta_avis[sous_champ] = nouvelle_valeur
-
-    if APPLY and modifications:
+    if APPLY and fichier_modifie:
         with open(chemin_fichier, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
 

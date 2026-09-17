@@ -10,7 +10,7 @@
         "meta_title": "Hotel Adlon Kempinski Berlin 5* : Avis & Prix Palace & Luxe 2026",
         "meta_description": "Hotel Adlon Kempinski Berlin 5* : palace légendaire face à la Porte de Brandebourg, spa, piscine, tables étoilées. Avis, prix, réservation Booking.",
         "description": "Situé juste à côté de la Porte de Brandebourg, c'est l'hôtel le plus emblématique de la capitale allemande. Cet établissement légendaire 5 étoiles incarne le raffinement suprême, le prestige et le luxe impérial. Les clients profitent d'un service irréprochable, d'une piscine intérieure, d'un spa somptueux et de tables gastronomiques de premier plan, le tout à l'adresse la plus prestigieuse de Berlin.",
-        "prix_moyen": " 450€ / nuit",
+        "prix_moyen": "450€ / nuit",
         "avis": "",
         "points_positifs": [
             "Emplacement exceptionnel juste devant la Porte de Brandebourg, station de métro à moins de 50 mètres. (Trip.com)",
@@ -73,7 +73,7 @@
         "meta_title": "Hotel Hasselhof Braunlage 4* : Avis & Prix Montagne & Spa 2026",
         "meta_description": "Hotel Hasselhof Garni 4* à Braunlage : calme, piscine intérieure, chambres avec balcon, excellent petit-déjeuner. Avis, prix, réservation Booking.",
         "description": "Offrant une piscine intérieure, un jardin et des chambres spacieuses dotées d'un balcon ou d'une terrasse, cet hôtel 4 étoiles situé dans la station thermale de Braunlage se trouve à proximité de nombreux sentiers de randonnée et de pistes de ski. Il bénéficie d'un emplacement paisible, à l'écart de la rue.",
-        "prix_moyen": " 120€ / nuit",
+        "prix_moyen": "120€ / nuit",
         "avis": "",
         "points_positifs": [
             "Chambres propres, modernes et chaleureusement décorées, dans un esprit petit village de montagne. (Booking.com)",
@@ -142,18 +142,18 @@
         "prix_moyen": "75€ - 140€ / nuit",
         "avis": "",
         "notes_categories": {
-            "personnel": "8,4/10",
-            "equipements": "7,6/10",
-            "proprete": "7,6/10",
-            "confort": "7,5/10",
-            "rapport_qualite_prix": "7,8/10",
-            "situation_geographique": "8,4/10",
-            "connexion_wifi_gratuite": "8,6/10"
+            "personnel": "",
+            "equipements": "",
+            "proprete": "",
+            "confort": "",
+            "rapport_qualite_prix": "",
+            "situation_geographique": "",
+            "connexion_wifi_gratuite": ""
         },
         "points_positifs": [
-            "Excellente situation géographique notée 8,4, proche de l'Olympiapark et du BMW Welt",
-            "Personnel accueillant et serviable (noté 8,4/10)",
-            "Connexion Wi-Fi gratuite performante (8,6/10)",
+            "Excellente situation géographique, proche de l'Olympiapark et du BMW Welt",
+            "Personnel accueillant et serviable",
+            "Connexion Wi-Fi gratuite performante",
             "Infrastructures pratiques : cuisine commune, salle de jeux, bar et location de vélos",
             "Proximité immédiate des arrêts de bus et tramways"
         ],
@@ -217,19 +217,19 @@
         "prix_moyen": "85€ - 150€ / nuit",
         "avis": "",
         "notes_categories": {
-            "personnel": "8,5/10",
-            "equipements": "8,0/10",
-            "proprete": "8,0/10",
-            "confort": "8,1/10",
-            "rapport_qualite_prix": "8,4/10",
-            "situation_geographique": "8,4/10",
-            "connexion_wifi_gratuite": "8,0/10"
+            "personnel": "",
+            "equipements": "",
+            "proprete": "",
+            "confort": "",
+            "rapport_qualite_prix": "",
+            "situation_geographique": "",
+            "connexion_wifi_gratuite": ""
         },
         "points_positifs": [
-            "Excellent rapport qualité-prix (noté 8,4/10)",
+            "Excellent rapport qualité-prix",
             "Boissons du minibar incluses et petites attentions dans le lobby",
             "Proximité de l'autoroute, des commerces et de la gare S-Bahn (Heimstetten) pour rejoindre Munich",
-            "Personnel attentif et accueillant (noté 8,5/10)",
+            "Personnel attentif et accueillant",
             "Parking souterrain pratique directement sur place"
         ],
         "points_negatifs": [
@@ -291,19 +291,19 @@
         "prix_moyen": "120€ - 220€ / nuit",
         "avis": "",
         "notes_categories": {
-            "personnel": "9,1/10",
-            "equipements": "8,7/10",
-            "proprete": "9,0/10",
-            "confort": "9,1/10",
-            "rapport_qualite_prix": "8,6/10",
-            "situation_geographique": "9,6/10",
-            "connexion_wifi_gratuite": "8,8/10"
+            "personnel": "",
+            "equipements": "",
+            "proprete": "",
+            "confort": "",
+            "rapport_qualite_prix": "",
+            "situation_geographique": "",
+            "connexion_wifi_gratuite": ""
         },
         "points_positifs": [
-            "Situation géographique idéale notée 9,6, juste en face du métro et du KaDeWe",
+            "Situation géographique idéale, juste en face du métro et du KaDeWe",
             "Buffet de petit-déjeuner généreux, varié et de grande qualité",
             "Chambres spacieuses, calmes, propres et parfaitement insonorisées",
-            "Personnel extrêmement aimable, professionnel et aux petits soins (9,1/10)",
+            "Personnel extrêmement aimable, professionnel et aux petits soins",
             "Confort général haut de gamme avec une literie de qualité"
         ],
         "points_negatifs": [
@@ -365,16 +365,16 @@
         "prix_moyen": "100€ - 190€ / nuit",
         "avis": "",
         "notes_categories": {
-            "personnel": "9,0/10",
-            "equipements": "8,7/10",
-            "proprete": "8,9/10",
-            "confort": "9,0/10",
-            "rapport_qualite_prix": "8,5/10",
-            "situation_geographique": "8,2/10",
-            "connexion_wifi_gratuite": "8,4/10"
+            "personnel": "",
+            "equipements": "",
+            "proprete": "",
+            "confort": "",
+            "rapport_qualite_prix": "",
+            "situation_geographique": "",
+            "connexion_wifi_gratuite": ""
         },
         "points_positifs": [
-            "Vaste complexe confortable avec un personnel chaleureux et professionnel (noté 9,0/10)",
+            "Vaste complexe confortable avec un personnel chaleureux et professionnel",
             "Chambres spacieuses, calmes, propres et très bien insonorisées",
             "Accès gratuit au spa et au sauna pour se détendre",
             "Proximité immédiate de la gare S-Bahn Sonnenallee (à 2 minutes à pied)",
