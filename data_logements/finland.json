@@ -1,0 +1,44 @@
+{
+"Kakslauttanen Arctic Resort - Igloos and Chalets": {
+        "type": "Completement-maboul",
+        "pays": "Finlande",
+        "ville": "Saariselkä",
+        "lat": 68.33505873017427,
+        "lng": 27.335836783528464,
+        "lien_booking": "https://www.booking.com/hotel/fi/hotelli-kakslauttanen.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Sodankyla-Hotel-Kakslauttanen-Arctic-Resort.h12318138.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/10163501.jpg?k=4fe41c6f7559ed95bff233e2117517af47371359404062964d5b03452697753d&o=",
+        "image_alt": "Kakslauttanen Arctic Resort - igloos en verre et chalets traditionnels sous la neige en Laponie finlandaise",
+        "meta_title": "Kakslauttanen Arctic Resort Laponie ❄️ : Avis & Prix Igloos en Verre 2026",
+        "meta_description": "Kakslauttanen Arctic Resort en Laponie finlandaise : séjour magique en igloos de verre thermiques pour observer les aurores boréales, chalets en bois avec sauna privé, plus grand sauna à fumée du monde et safaris.",
+        "description": "Niché au cœur de la nature dans la région de Saariselkä en Laponie finlandaise, le Kakslauttanen Arctic Resort - Igloos and Chalets propose un séjour féerique et inoubliable. L'établissement dispose de célèbres igloos en verre thermique permettant d'admirer les aurores boréales depuis son lit, ainsi que de chalets traditionnels en bois tout équipés avec cheminée et sauna privé. Il abrite également plusieurs saunas dont le plus grand sauna à fumée du monde, de 2 restaurants lapons et organise de nombreuses activités hivernales (safaris en huskies, rennes et motoneige).",
+        "prix_moyen": "350€ - 800€ / nuit",
+        "equipements": [
+            "Igloos en verre thermique avec toit panoramique",
+            "Chalets traditionnels en bois avec sauna privé et cheminée",
+            "Le plus grand sauna à fumée du monde et plusieurs saunas traditionnels",
+            "2 restaurants à la carte spécialisés dans la cuisine lapone",
+            "Organisation de safaris (huskies, rennes, motoneige) et location de matériel",
+            "Connexion Wi-Fi gratuite",
+            "Parking gratuit et navette aéroport"
+        ],
+        "points_positifs": [
+            "Expérience magique et unique au monde de dormir dans un igloo en verre sous les aurores boréales",
+            "Cadre naturel époustouflant, calme absolu et ambiance extrêmement chaleureuse",
+            "Infrastructures de bien-être d'exception, notamment les saunas privés et le sauna à fumée",
+            "Restauration de qualité mettant à l'honneur les spécialités locales (renne, saumon)"
+        ],
+        "points_negatifs": [
+            "Tarifs très élevés en raison de la rareté et de la forte popularité de ce type de séjour insolite",
+            "Éloignement géographique nécessitant une bonne organisation logistique (proche du parc national Urho Kekkonen)"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous rêvez de vivre la magie absolue de la Laponie finlandaise, passer une nuit dans un igloo en verre au Kakslauttanen Arctic Resort est un incontournable absolu. Ce qu'on adore, c'est la sensation incroyable de contempler les étoiles et les aurores boréales bien au chaud dans son lit, avant de profiter d'un authentique sauna finlandais au milieu de la neige.",
+        "pour_qui": {
+            "ambiance": "❄️ Magique, arctique, féerique, romantique et grand R",
+            "public": "Voyageurs en quête d'une expérience hivernale extraordinaire et d'un séjour grand luxe en Laponie",
+            "style": "Resort d'igloos en verre et chalets traditionnels lapons",
+            "verdict": "Une destination de rêve pour cocher la case de la magie arctique ultime au moins une fois dans sa vie."
+        }
+    }
+    
+}

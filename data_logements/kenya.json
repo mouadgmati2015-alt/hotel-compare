@@ -1,0 +1,44 @@
+{
+    "Giraffe Manor": {
+        "type": "Completement-maboul",
+        "pays": "Kenya",
+        "ville": "Nairobi",
+        "lat": -1.3751408785495538,
+        "lng": 36.744677752874246,
+        "lien_booking": "",
+        "lien_expedia": "",
+        "lien_site_officiel": "https://www.thesafaricollection.com/properties/giraffe-manor/",
+        "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn4zspZVNZAWT5tYeLSr9TnZerNq9kY8sOeUx7l5FR3hu185En0j7elItIAUKm157kk0pHVCBdZ6vAp7Lg2Wq5V92QEpG5u1GatejVLpdZ3yTT5ha9-Xkw2hBrNTua4M8wrny3u=s680-w680-h510-rw",
+        "image_alt": "Giraffe Manor - manoir historique de luxe avec des girafes de Rothschild à Nairobi Kenya",
+        "meta_title": "Giraffe Manor Nairobi 🦒 : Avis & Prix Hôtel de Luxe avec Girafes 2026",
+        "meta_description": "Giraffe Manor à Nairobi au Kenya : hôtel de luxe iconique des années 1930, célèbre pour sa troupe résidente de girafes de Rothschild qui saluent les clients aux fenêtres et au petit-déjeuner. Prix et réservation.",
+        "description": "Niché au cœur de 140 acres de forêt indigène dans le quartier exclusif de Langata à Nairobi, le Giraffe Manor est l'un des hôtels de luxe les plus emblématiques et photographiés au monde. Construit en 1932 dans le style d'un pavillon de chasse écossais, ce manoir au charme suranné est mondialement célèbre pour sa troupe résidente de girafes de Rothschild sauvages qui viennent spontanément passer la tête par les fenêtres pour interagir avec les voyageurs lors du petit-déjeuner et du thé de l'après-midi.",
+        "prix_moyen": "800€ - 1500€+ / nuit par personne (tout inclus)",
+        "equipements": [
+            "Chambres et suites de luxe au décor Art Déco et vintage",
+            "Interaction unique avec les girafes (fenêtres et terrasses)",
+            "Accès au centre de bien-être et spa (The Retreat)",
+            "Piscine extérieure chauffée",
+            "Restaurants gastronomiques et salons",
+            "Jardins privatifs et terrasses ensoleillées",
+            "Connexion Wi-Fi et parking gratuit"
+        ],
+        "points_positifs": [
+            "Expérience animalière absolument unique et féerique au monde (partager son petit-déjeuner face aux girafes)",
+            "Atmosphère historique élégante rappelant l'ambiance du film 'Out of Africa'",
+            "Engagement de premier plan pour la préservation et la reproduction des girafes de Rothschild",
+            "Service haut de gamme et cadre exclusif d'une intimité rare"
+        ],
+        "points_negatifs": [
+            "Tarifs extrêmement élevés, nécessitant de réserver de longs mois à l'avance en raison d'une forte liste d'attente",
+            "Disponibilité très limitée (seulement 12 chambres réparties entre le manoir historique et l'aile Garden Manor)"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez le summum de l'insolite et du rêve éveillé en voyage, le Giraffe Manor est une étape magique qu'on ne voit nulle part ailleurs. Ce qu'on adore, c'est ce frisson incomparable quand une girafe curieuse vient toquer à votre fenêtre de chambre au petit matin ou partager sa présence lors du thé sur la terrasse.",
+        "pour_qui": {
+            "ambiance": "🦒 Iconique, majestueux, exclusif, intemporel et féerique",
+            "public": "Voyageurs en quête d'une expérience bucket-list absolue et de luxe engagé pour la faune",
+            "style": "Manoir historique de luxe / Sanctuaire animalier",
+            "verdict": "Une parenthèse hors du temps et l'un des séjours les plus mémorables de la planète."
+        }
+    }
+}
