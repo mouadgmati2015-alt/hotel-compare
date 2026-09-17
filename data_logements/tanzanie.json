@@ -1,0 +1,43 @@
+{
+    "Manta Resort": {
+        "type": "Completement-maboul",
+        "pays": "Tanzanie",
+        "ville": "Île de Pemba",
+         "lat": -4.88259833645688,
+        "lng": 39.6793558079845,
+        "lien_booking": "",
+        "lien_expedia": "",
+        "lien_site_officiel": "https://themantaresort.com/",
+        "image": "https://maps.app.goo.gl/rBhEWCd27phrP2rt8",
+        "image_alt": "Manta Resort - chambre d'hôtel flottante unique au monde avec suite immergée sous l'océan Indien à l'île de Pemba Tanzanie",
+        "meta_title": "Manta Resort Île de Pemba Tanzanie 🐠 : Avis & Prix Chambre Sous-Marine 2026",
+        "meta_description": "The Manta Resort sur l'île de Pemba en Tanzanie : concept unique au monde de chambre d'hôtel flottante avec suite principale immergée à 4 mètres de profondeur et murs vitrés à 360 degrés. Prix et réservation.",
+        "description": "Situé sur l'île de Pemba en Tanzanie, The Manta Resort propose un concept d'hébergement insolite unique au monde. Sa suite sous-marine est immergée à 4 mètres sous la surface de l'océan Indien et dispose de murs entièrement vitrés à 360 degrés, permettant d'observer la vie marine et les poissons tropicaux nager autour du lit. L'ensemble comprend également un ponton en surface pour bronzer et profiter de vues spectaculaires.",
+        "prix_moyen": "1000€ - 1500€+ / nuit",
+        "equipements": [
+            "Chambre d'hôtel flottante avec suite sous-marine immergée à 4 mètres",
+            "Murs vitrés panoramiques à 360 degrés sous l'eau",
+            "Ponton en surface pour le bronzage et la détente",
+            "Chambres et villas terrestres du resort",
+            "Spa et centre de plongée",
+            "Restaurants et bars en bord de plage"
+        ],
+        "points_positifs": [
+            "Expérience sous-marine absolument unique au monde, dormant au milieu des poissons tropicaux",
+            "Cadre paradisiaque préservé de l'île de Pemba avec des eaux cristallines",
+            "Combinaison parfaite entre l'insolite de la suite immergée et le confort d'un resort balnéaire de luxe",
+            "Observation exceptionnelle de la faune marine de jour comme de nuit"
+        ],
+        "points_negatifs": [
+            "Tarif extrêmement élevé réservé à des séjours d'exception ou des occasions uniques",
+            "Disponibilité extrêmement limitée (une seule structure de ce type) nécessitant une réservation très anticipée"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez l'expérience aquatique la plus folle de la planète, passer une nuit dans la chambre immergée du Manta Resort à Pemba est un véritable chef-d'œuvre d'originalité. Ce qu'on adore, c'est s'allonger sur son lit et voir un banc de poissons tropicaux défiler paisiblement à travers les vitres à 360 degrés, avant de remonter bronzer sur le ponton au beau milieu de l'océan Indien.",
+        "pour_qui": {
+            "ambiance": "🌊 Sous-marin, exclusif, magique, insolite et paradisiaque",
+            "public": "Voyageurs en quête d'une expérience bucket-list absolue et d'un séjour de luxe hors du commun",
+            "style": "Chambre d'hôtel flottante et immergée / Éco-resort de luxe",
+            "verdict": "Une nuit magique et inoubliable sous les océans, au plus près de la vie marine."
+        }
+    }
+}

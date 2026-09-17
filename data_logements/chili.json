@@ -1,0 +1,44 @@
+{
+    "Montana Magica Lodge": {
+        "type": "Completement-maboul",
+        "pays": "Chili",
+        "ville": "Panguipulli",
+        "lat": -39.8704254172694,
+        "lng": -71.91409986705887,
+        "lien_booking": "https://www.booking.com/hotel/cl/montana-magica-lodge.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Neltume-Hotel-Huilo-Huilo-Montana-Magica.h12419319.Description-Hotel",
+        "lien_site_officiel": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/143576920.jpg?k=03a4ec8de43ff37fbb4e25a3edc9a58e2cf466a2b7b89ebce5ecab7afcb127d2&o=",
+        "image_alt": "Montaña Mágica Lodge - hôtel en forme de volcan recouvert de végétation avec une cascade au cœur de la Patagonie chilienne",
+        "meta_title": "Montaña Mágica Lodge Chili 🌋 : Avis & Prix Hôtel Insolite Patagonie 2026",
+        "meta_description": "Montaña Mágica Lodge dans la Réserve biologique de Huilo-Huilo en Patagonie chilienne : hôtel insolite en forme de volcan végétalisé avec cascade d'eau, chambres en bois et immersion magique dans la forêt.",
+        "description": "Niché au cœur de la Réserve biologique de Huilo-Huilo en Patagonie chilienne, le Montaña Mágica Lodge est l'un des hôtels les plus insolites et féeriques au monde. Sa structure architecturale unique a littéralement la forme d'une montagne volcanique entièrement recouverte de végétation luxuriante, d'où jaillit en son sommet une cascade d'eau permanente. Construit en bois local par des artisans de la région, l'hôtel propose des chambres chaleureuses et un accès direct aux merveilles naturelles de la réserve.",
+        "prix_moyen": "200€ - 400€ / nuit",
+        "equipements": [
+            "Chambres chaleureuses habillées de bois brut",
+            "Cascade artificielle permanente dévalant la structure",
+            "Restaurant proposant une cuisine chilienne et locale",
+            "Accès aux sentiers de randonnée et aux attractions de la réserve de Huilo-Huilo",
+            "Spa et bains chauds extérieurs",
+            "Connexion Wi-Fi dans les espaces communs",
+            "Parking gratuit"
+        ],
+        "points_positifs": [
+            "Architecture extraordinaire tout droit sortie d'un conte de fées, unique au monde",
+            "Immersion totale au cœur de la forêt valdivienne et de la Réserve biologique de Huilo-Huilo",
+            "Cadre idéal pour les amateurs de nature, de calme et d'évasion insolite",
+            "Activités variées proposées dans la réserve (randonnées, sources thermales, tyroliennes)"
+        ],
+        "points_negatifs": [
+            "Éloignement géographique en Patagonie chilienne nécessitant une bonne logistique de voyage",
+            "Style rustique et intimiste qui implique une disponibilité de chambres très restreinte"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez à vivre une expérience digne du Seigneur des Anneaux ou d'un conte de fées au milieu de la Patagonie, le Montaña Mágica Lodge est un véritable enchantement. Ce qu'on adore, c'est cette sensation magique de loger à l'intérieur d'une montagne vivante d'où s'écoule une cascade, avec le chant de la forêt comme seule compagnie.",
+        "pour_qui": {
+            "ambiance": "🌋 Féerique, insolite, enchanté, sauvage et chaleureux",
+            "public": "Amoureux de nature, voyageurs en quête d'insolite absolu et passionnés de grands espaces",
+            "style": "Lodge insolite en forme de volcan végétalisé",
+            "verdict": "Une merveille architecturale et naturelle à découvrir absolument lors d'un voyage au Chili."
+        }
+    }
+}
