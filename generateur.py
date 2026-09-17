@@ -13,6 +13,36 @@ import urllib.request
 from pathlib import Path
 
 from data.airlines_data import AIRLINES_DATA
+def nettoyer_liens_et_images(data):
+    """
+    Nettoie automatiquement les URL qui contiendraient par erreur 
+    des balises Markdown du type [texte](url) ou des paramètres superflus.
+    """
+    for hotel_nom, details in data.items():
+        # 1. Nettoyage de l'image si elle contient du format [url](url) ou des parenthèses trainantes
+        if "image" in details and details["image"]:
+            img = details["image"].strip()
+            # Si le texte commence par [ et contient des parenthèses
+            if img.startswith("[") and "](" in img:
+                # Extrait l'URL entre les parenthèses
+                img = img.split("](")[1].rstrip(")")
+            details["image"] = img
+
+        # 2. Nettoyage du lien booking
+        if "lien_booking" in details and details["lien_booking"]:
+            bk = details["lien_booking"].strip()
+            if bk.startswith("[") and "](" in bk:
+                bk = bk.split("](")[1].rstrip(")")
+            details["lien_booking"] = bk
+
+        # 3. Nettoyage du lien expedia
+        if "lien_expedia" in details and details["lien_expedia"]:
+            ex = details["lien_expedia"].strip()
+            if ex.startswith("[") and "](" in ex:
+                ex = ex.split("](")[1].rstrip(")")
+            details["lien_expedia"] = ex
+
+    return data
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
