@@ -1,0 +1,42 @@
+{
+    "Treehotel": {
+        "type": "Completement-maboul",
+        "pays": "Suède",
+        "ville": "Harads",
+        "lien_booking": "https://www.booking.com/hotel/se/treehotel.fr.html",
+        "lien_expedia": "",
+        "lien_site_officiel": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/19211175.jpg?k=c1772ad5c7f74dfef23af05fa28944c0eca776634714c6ecbf9af4771e9da25c&o=",
+        "image_alt": "Treehotel - cabanes dans les arbres au design ultramoderne et insolite à Harads Suède",
+        "meta_title": "Treehotel Harads Suède 🌲 : Avis & Prix Cabanes Perchées Insolites 2026",
+        "meta_description": "Treehotel à Harads en Suède : hébergements insolites perchés dans les arbres, architecture et design ultramodernes (Biosphère, Libellule), sauna, jacuzzi, plats à base de gibier local et activités nature.",
+        "description": "Niché au cœur des forêts d'Harads en Suède, le Treehotel propose des hébergements insolites d'exception perchés dans les arbres. Alliant une architecture et un design ultramodernes à un confort optimal, ses cabanes uniques (comme la Biosphère ou la Libellule) offrent des vues imprenables sur la nature environnante. Éco-responsables, elles disposent de tout le nécessaire tandis que l'établissement propose un restaurant de spécialités locales à base de gibier, un sauna, un jacuzzi et un large choix d'activités estivales et hivernales.",
+        "prix_moyen": "400€ - 800€ / nuit",
+        "equipements": [
+            "Cabanes design perchées dans les arbres (Biosphère, Libellule, etc.)",
+            "Sauna et jacuzzi",
+            "Restaurant proposant des plats à base de gibier sauvage et ingrédients locaux",
+            "Connexion Wi-Fi gratuite",
+            "Plateau/bouilloire dans tous les hébergements",
+            "Parking gratuit",
+            "Activités guidées (randonnée, fatbike, traîneau à chiens, motoneige)"
+        ],
+        "points_positifs": [
+            "Architecture et design ultramodernes absolument époustouflants et uniques au monde",
+            "Immersion totale en pleine nature offrant un sentiment magique de retour en enfance",
+            "Restauration de grande qualité avec un buffet de petit-déjeuner exceptionnel et des dîners gastronomiques",
+            "Engagement éco-responsable fort et respectueux de l'environnement"
+        ],
+        "points_negatifs": [
+            "Tarifs très élevés inhérents à un positionnement de luxe insolite et exclusif",
+            "Certaines cabanes nécessitent de se rendre dans un bâtiment voisin pour les douches"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez l'expérience ultime de cabane perchée haut de gamme, le Treehotel en Suède est un chef-d'œuvre absolu. Ce qu'on adore, c'est l'audace architecturale de chaque chambre — qu'il s'agisse de la cabane Biosphère ou Libellule — qui vous propulse dans un monde féerique au milieu des arbres, tout en savourant le meilleur de la gastronomie lapone.",
+        "pour_qui": {
+            "ambiance": "🌲 Insolite, ultramoderne, design, féerique et ressourçant",
+            "public": "Amateurs d'architecture, voyageurs en quête de design unique et passionnés de nature",
+            "style": "Cabanes de luxe perchées dans les arbres / Éco-resort",
+            "verdict": "Une expérience de design et de nature inoubliable au sommet des arbres en Suède."
+        }
+    }
+}
