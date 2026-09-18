@@ -63,5 +63,9 @@
   "manuel antonio, costa rica": {
     "lat": 9.4085692,
     "lng": -84.1547592
+  },
+  "jeongdongjin, corée du sud": {
+    "lat": 37.6918304,
+    "lng": 129.0325076
   }
 }
