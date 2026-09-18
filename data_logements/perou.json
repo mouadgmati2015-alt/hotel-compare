@@ -1,0 +1,41 @@
+{
+    "Skylodge Adventure Suites": {
+        "type": "Completement-maboul",
+        "pays": "Pérou",
+        "ville": "Urubamba",
+        "lien_booking": "https://www.booking.com/hotel/pe/skylodge-adventure-suites.fr.html",
+        "lien_expedia": "",
+        "lien_site_officiel": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/34670212.jpg?k=a8ad5a7289e8a2e19c3f07b9ab76f2546f8e42fa062cccd62b98504c43d33ec7&o=",
+        "image_alt": "Skylodge Adventure Suites - capsules transparentes suspendues à flanc de falaise dans la Vallée Sacrée à Urubamba Pérou",
+        "meta_title": "Skylodge Adventure Suites Pérou 🧗 : Avis & Prix Capsules Suspendues Vallée Sacrée 2026",
+        "meta_description": "Skylodge Adventure Suites à Urubamba (Pérou) : capsules transparentes suspendues à 400 mètres de haut sur une falaise de la Vallée Sacrée. Via ferrata, tyroliennes, dîner d'exception et vue imprenable. Avis et réservation.",
+        "description": "Niché au cœur de la Vallée Sacrée des Incas à Urubamba au Pérou, le Skylodge Adventure Suites propose l'un des hébergements les plus audacieux et spectaculaires au monde. Il s'agit de capsules transparentes entièrement suspendues à flanc de falaise à environ 400 mètres de hauteur. Pour y accéder, les voyageurs doivent réaliser une ascension sportive en via ferrata (ou emprunter un sentier de randonnée avec tyroliennes), avant de profiter d'une suite de luxe éco-conçue offrant une vue panoramique à couper le souffle sur la vallée, complétée par un dîner gastronomique et un petit-déjeuner servis sur place.",
+        "prix_moyen": "400€ - 600€ / nuit",
+        "equipements": [
+            "Capsules/pods transparents suspendus à flanc de falaise avec vue panoramique",
+            "Lits confortables et salle de bains privative éco-responsable",
+            "Dîner gastronomique et petit-déjeuner inclus (portés et servis par les guides)",
+            "Équipements de sécurité pour la via ferrata et les tyroliennes",
+            "Parking privé gratuit",
+            "Navette aéroport"
+        ],
+        "points_positifs": [
+            "Expérience absolument inoubliable et hors du commun, combinant ascension sportive et nuit suspendue dans le vide",
+            "Vue panoramique spectaculaire et unique à 360 degrés sur la Vallée Sacrée des Incas",
+            "Encadrement hautement professionnel, rassurant et chaleureux de l'équipe de guides",
+            "Qualité remarquable des repas (dîner et petit-déjeuner) servis dans des conditions insolites"
+        ],
+        "points_negatifs": [
+            "Accès très sportif (via ferrata exigeante et tyroliennes impressionnantes) déconseillé aux personnes souffrant de vertige sévère",
+            "Tarif élevé justifié par l'aspect logistique et exclusif de l'expérience"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez le grand frisson et une nuit littéralement suspendue entre ciel et terre au Pérou, le Skylodge Adventure suites est une claque monumentale. Ce qu'on adore, c'est que ce n'est pas seulement un hôtel, c'est une aventure totale : de l'effort physique de l'ascension de la falaise jusqu'au réveil magique au petit matin face aux sommets de la Vallée Sacrée.",
+        "pour_qui": {
+            "ambiance": "🧗 Suspendu, spectaculaire, audacieux, immersif et inoubliable",
+            "public": "Aventuriers, voyageurs en quête de sensations fortes et amoureux d'expériences hors normes",
+            "style": "Capsules transparentes suspendues / Lodge d'aventure extrême",
+            "verdict": "Une nuit magique et vertigineuse au sommet du monde, à vivre au moins une fois dans sa vie."
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "Free Spirit Spheres": {
+        "type": "Completement-maboul",
+        "pays": "Canada",
+        "ville": "Qualicum Beach",
+        "lien_booking": "",
+        "lien_expedia": "",
+        "lien_site_officiel": "https://freespiritspheres.com/",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTKE78vC49JfZDHsjpwUbzHeAGc8HCoIGXhNEmJoKg3A&s=10",
+        "image_alt": "Free Spirit Spheres - sphères de bois suspendues par des câbles au cœur de la forêt de l'île de Vancouver Canada",
+        "meta_title": "Free Spirit Spheres Île de Vancouver 🔮 : Avis & Prix Sphères Suspendues 2026",
+        "meta_description": "Free Spirit Spheres sur l'île de Vancouver au Canada : cabanes sphériques en bois suspendues dans les arbres comme des lanternes de fées, balancement doux au gré du vent et communion totale avec la nature.",
+        "description": "Niché au cœur de la forêt tropicale de l'île de Vancouver au Canada, Free Spirit Spheres propose un hébergement insolite absolument magique. Conçues comme des lanternes de fées accrochées aux arbres, ces sphères géantes en bois sont suspendues par des câbles et se balancent très doucement au rythme du vent, offrant une communion totale avec la nature, la canopée et le chant des oiseaux.",
+        "prix_moyen": "200€ - 350€ / nuit",
+        "equipements": [
+            "Cabanes sphériques en bois suspendues",
+            "Lits confortables et aménagements intérieurs en bois sur mesure",
+            "Système de poulies et passerelles d'accès",
+            "Sanitaires et douches à proximité",
+            "Jardin forestier et sentiers de promenade"
+        ],
+        "points_positifs": [
+            "Concept poétique et unique au monde de sphères suspendues rappelant des lanternes de fées",
+            "Sensation de balancement apaisante au rythme du vent pour un sommeil profondément relaxant",
+            "Immersion totale et intimiste au cœur d'une forêt tropicale magnifique",
+            "Hôtes accueillants et soucieux de préserver cet écrin de nature préservée"
+        ],
+        "points_negatifs": [
+            "Capacité d'accueil très limitée (quelques sphères seulement), nécessitant de réserver de longs mois à l'avance",
+            "Commodités et sanitaires souvent situés à l'extérieur des sphères (style glamping haut de gamme)"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez à vous évader dans un conte de fées grandeur nature au Canada, passer une nuit dans les Free Spirit Spheres sur l'île de Vancouver est une expérience purement magique. Ce qu'on adore, c'est cette sensation irréelle et enveloppante de flotter au milieu des arbres, bercé par le léger balancement de la sphère et les bruits de la forêt.",
+        "pour_qui": {
+            "ambiance": "🔮 Poétique, suspendu, féerique, apaisant et intime",
+            "public": "Amoureux de nature, voyageurs en quête de poésie et adeptes d'hébergements insolites d'exception",
+            "style": "Sphères en bois suspendues dans les arbres / Glamping forestier",
+            "verdict": "Une parenthèse enchantée et suspendue dans le temps au beau milieu des forêts canadiennes."
+        }
+    }
+}

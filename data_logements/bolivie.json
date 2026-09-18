@@ -1,0 +1,42 @@
+{
+    "Hotel Palacio de Sal": {
+        "type": "Completement-maboul",
+        "pays": "Bolivie",
+        "ville": "Colchani",
+        "lien_booking": "https://www.booking.com/hotel/bo/palacio-de-sal.fr.html",
+        "lien_expedia": "",
+        "lien_site_officiel": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/696563429.jpg?k=fd0e4f9530fb2a6853f2c22eecdeba47af45d1920079192e6bd8dee32274fae6&o=",
+        "image_alt": "Hotel Palacio de Sal - hôtel entièrement construit en briques et blocs de sel au bord du Salar d'Uyuni Bolivie",
+        "meta_title": "Hotel Palacio de Sal Uyuni 🧂 : Avis & Prix Hôtel de Sel Bolivie 2026",
+        "meta_description": "Hotel Palacio de Sal au bord du Salar d'Uyuni en Bolivie : premier hôtel au monde entièrement construit en briques et mobilier de sel, piscine intérieure, spa, restaurant de spécialités et vue imprenable. Avis et réservation.",
+        "description": "Situé aux rives du spectaculaire Salar d'Uyuni à Colchani en Bolivie, l'Hotel Palacio de Sal est un établissement de renommée mondiale entièrement construit à partir de briques de sel, incluant les murs, les sols et une grande partie du mobilier. Il propose des chambres tout confort avec salle de bains privative, ainsi qu'une piscine intérieure, un spa d'exception avec bains de sel, un restaurant servant des spécialités régionales (viande de lama, agneau) et un bar chaleureux, le tout offrant un accès direct au plus grand désert de sel du monde.",
+        "prix_moyen": "180€ - 350€ / nuit",
+        "equipements": [
+            "Structure et mobilier entièrement façonnés en briques de sel",
+            "Piscine intérieure et spa avec bains de sel",
+            "Restaurant proposant des spécialités régionales et petit-déjeuner buffet inclus",
+            "Bar chaleureux et salons avec cheminée",
+            "Navette aéroport gratuite",
+            "Connexion Wi-Fi gratuite",
+            "Parking public gratuit"
+        ],
+        "points_positifs": [
+            "Concept architectural unique au monde, entièrement fait de sel au bord du Salar d'Uyuni",
+            "Espace bien-être remarquable avec piscine et spa proposant une expérience de bain de sel idéale pour la détente",
+            "Emplacement de premier choix permettant d'accéder directement aux immensités blanches du désert de sel",
+            "Confort et chauffage très appréciés malgré l'altitude et les températures fraîches de la région"
+        ],
+        "points_negatifs": [
+            "Tarif élevé par rapport aux standards locaux de la région, justifié par le standing et l'exclusivité du lieu",
+            "Éloignement des grandes villes nécessitant une organisation logistique (proche de Colchani et d'Uyuni)"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez à vivre une expérience insolite et luxueuse au bout du monde, l'Hotel Palacio de Sal en Bolivie est un incontournable absolu. Ce qu'on adore, c'est la sensation magique de séjourner dans un palais entièrement sculpté dans le sel au milieu du plus grand désert blanc de la planète, avant de se prélasser dans une piscine intérieure chauffée après une journée d'exploration.",
+        "pour_qui": {
+            "ambiance": "🧂 Insolite, majestueux, dépaysant, chaleureux et relaxant",
+            "public": "Voyageurs en quête d'un séjour d'exception et de confort au cœur du Salar d'Uyuni",
+            "style": "Hôtel de sel haut de gamme / Éco-resort thématique",
+            "verdict": "Une étape féerique et incontournable en Bolivie, où tout est fait de sel pour un souvenir impérissable."
+        }
+    }
+}
