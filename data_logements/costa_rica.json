@@ -1,0 +1,41 @@
+{
+    "Costa Verde - Le Boeing 727": {
+        "type": "Completement-maboul",
+        "pays": "Costa Rica",
+        "ville": "Manuel Antonio",
+        "lien_booking": "",
+        "lien_expedia": "",
+        "lien_site_officiel": "https://www.costaverde.com/",
+        "image": "https://www.costaverde.com/assets/img/room-727-fuselage-home/room-photo-727-fuselage-home-4.webp",
+        "image_alt": "Costa Verde - Boeing 727 transformé en suite de luxe niché dans la canopée tropicale au Costa Rica",
+        "meta_title": "Costa Verde Boeing 727 Costa Rica ✈️ : Avis & Prix Suite Avion Insolite 2026",
+        "meta_description": "Costa Verde à Manuel Antonio (Costa Rica) : authentique carlingue de Boeing 727 de 1965 transformée en suite de luxe habillée de teck, perchée à 10 mètres de haut dans la canopée avec terrasse sur l'aile. Prix et réservation.",
+        "description": "Niché au cœur de la canopée tropicale du parc national de Manuel Antonio au Costa Rica, le Costa Verde propose un hébergement absolument iconique : une authentique carlingue d'un avion de ligne Boeing 727 datant de 1965, entièrement transformée en suite de luxe. Habillé de boiseries en teck costaricien, l'appareil est juché sur une immense estrade en béton à 10 mètres de hauteur, offrant une terrasse exclusive aménagée directement sur l'une des ailes de l'appareil avec vue imprenable sur l'océan et la jungle.",
+        "prix_moyen": "350€ - 650€ / nuit",
+        "equipements": [
+            "Suite de luxe aménagée dans un authentique Boeing 727",
+            "Habillage intérieur en teck costaricien et mobilier artisanal",
+            "Terrasse panoramique aménagée sur l'aile de l'avion",
+            "Climatisation et salles de bains privatives",
+            "Accès aux piscines et restaurants du resort Costa Verde",
+            "Parking gratuit"
+        ],
+        "points_positifs": [
+            "Concept totalement insolite et spectaculaire d'un avion reconverti en suite haut de gamme",
+            "Immersion directe dans la canopée pour partager la vue avec les toucans, paresseux et singes depuis l'aile",
+            "Prestations de standing combinées avec l'accès aux infrastructures du complexe Costa Verde",
+            "Proximité immédiate des superbes plages et du parc national de Manuel Antonio"
+        ],
+        "points_negatifs": [
+            "Tarif élevé en raison de la forte demande et du caractère exclusif de cette suite unique",
+            "Nécessite de réserver de très longs mois à l'avance"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez l'alliance parfaite entre l'éco-tourisme costaricien et un délice d'ingéniosité loufoque, la suite Boeing 727 du Costa Verde est une légende. Ce qu'on adore, c'est déguster un cocktail le soir directement sur l'aile de l'avion, suspendu au-dessus de la jungle, avec des singes et des toucans pour seuls voisins de palier.",
+        "pour_qui": {
+            "ambiance": "✈️ Insolite, spectaculaire, tropical, exclusif et mémorable",
+            "public": "Aventuriers du luxe, passionnés d'aviation et voyageurs en quête d'expériences uniques",
+            "style": "Suite de luxe dans un avion / Éco-resort insolite",
+            "verdict": "Une expérience aérienne et sylvestre absolument mythique à vivre au Costa Rica."
+        }
+    }
+}

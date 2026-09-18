@@ -47,5 +47,21 @@
   "harads, suede": {
     "lat": 66.0877069,
     "lng": 20.9525418
+  },
+  "colchani, bolivie": {
+    "lat": -20.3006101,
+    "lng": -66.9378189
+  },
+  "qualicum beach, canada": {
+    "lat": 49.3479861,
+    "lng": -124.4439409
+  },
+  "urubamba, pérou": {
+    "lat": -13.2292798,
+    "lng": -72.2646684
+  },
+  "manuel antonio, costa rica": {
+    "lat": 9.4085692,
+    "lng": -84.1547592
   }
 }

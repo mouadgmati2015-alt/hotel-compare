@@ -1,0 +1,41 @@
+{
+    "Sun Cruise Resort": {
+        "type": "Completement-maboul",
+        "pays": "Corée du Sud",
+        "ville": "Jeongdongjin",
+        "lien_booking": "",
+        "lien_expedia": "https://www.expedia.fr/Gangneung-Hotel-Sun-Cruise-Resort-And-Yacht.h8486205.Description-Hotel",
+        "lien_site_officiel": "",
+        "image": "https://images.trvl-media.com/lodging/9000000/8490000/8486300/8486205/a7cfa44d.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+        "image_alt": "Sun Cruise Resort - hôtel de luxe en forme de navire de croisière perché au sommet d'une falaise à Jeongdongjin Corée du Sud",
+        "meta_title": "Sun Cruise Resort Corée du Sud 🚢 : Avis & Prix Hôtel Navire sur Falaise 2026",
+        "meta_description": "Sun Cruise Resort à Jeongdongjin en Corée du Sud : premier hôtel-bateau terrestre au monde perché sur une falaise surplombant la mer, ponts de promenade, bruits de vagues et de mouettes. Prix et réservation.",
+        "description": "Situé à Jeongdongjin en Corée du Sud, le Sun Cruise Resort est un hôtel gigantesque et luxueux entièrement façonné sous la forme d'un paquebot de croisière, mais planté de manière surréaliste au sommet d'une falaise surplombant la mer. Premier hôtel-bateau terrestre au monde, il donne l'illusion parfaite d'un navire échoué sur la terre ferme, proposant des ponts de promenade, des chambres avec vue sur l'océan et des ambiances sonores recréant le bruit des vagues et des mouettes.",
+        "prix_moyen": "100€ - 250€ / nuit",
+        "equipements": [
+            "Chambres et suites avec vue panoramique sur la mer",
+            "Ponts de promenade extérieurs et jardins sculptés",
+            "Restaurants et bars thématiques",
+            "Piscine extérieure et installations de loisirs",
+            "Salle de sport et espaces de bien-être",
+            "Parking gratuit et connexion Wi-Fi"
+        ],
+        "points_positifs": [
+            "Concept architectural absolument unique au monde d'un paquebot géant perché sur une falaise",
+            "Immersion totale et ludique avec effets sonores (vagues, mouettes) et ponts de ponton",
+            "Vues spectaculaires sur le lever du soleil et l'océan depuis les balcons",
+            "Infrastructures hôtelières complètes et divertissantes pour un séjour original"
+        ],
+        "points_negatifs": [
+            "Style de décoration parfois kitsch ou théâtral en accord avec le thème du bateau",
+            "Affluence importante de visiteurs de passage en raison de la curiosité touristique du site"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez l'insolite grandeur nature en Corée du Sud sans avoir le mal de mer, le Sun Cruise Resort à Jeongdongjin est une expérience inoubliable. Ce qu'on adore, c'est l'audace folle de ce paquebot planté sur sa falaise, où l'on peut se promener sur le pont face à l'immensité de la mer avec l'illusion parfaite d'une croisière... sur terre.",
+        "pour_qui": {
+            "ambiance": "🚢 Insolite, spectaculaire, théâtral, ludique et marin",
+            "public": "Curieux, familles et voyageurs en quête d'expériences architecturales hors du commun",
+            "style": "Hôtel thématique en forme de paquebot de croisière",
+            "verdict": "Une croisière immobile et grandiose perchée au sommet du monde."
+        }
+    }
+}
