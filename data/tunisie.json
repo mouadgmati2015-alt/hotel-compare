@@ -16412,5 +16412,188 @@
             "style": "Hôtel 4 étoiles de style classique en bord de mer",
             "verdict": "Une valeur sûre sur la côte d'Hammamet pour profiter du soleil, de la plage et d'un bon niveau d'infrastructures."
         }
+    },
+    "Dar El Jeld Hotel and Spa": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/tn/dar-el-jeld-and-spa.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Tunis-Hotel-Dar-El-Jeld-Hotel-Spa.h27187143.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/214545978.jpg?k=6cce7c8165f0352aa513345c19966f2ce19c1dc46843ee99630607c65e6139a7&o=",
+        "image_alt": "Dar El Jeld Hotel and Spa - hôtel 5 étoiles de luxe avec architecture traditionnelle et spa au cœur de la Médina de Tunis",
+        "meta_title": "Dar El Jeld Hotel and Spa Tunis 5* : Avis & Prix Luxe Médina 2026",
+        "meta_description": "Dar El Jeld Hotel and Spa à Tunis 5* : établissement d'exception au cœur de la Médina, suites luxueuses, spa, hammam et rooftop. Avis, prix, réservation Booking.",
+        "description": "Situé au cœur de la Médina de Tunis, le Dar El Jeld Hotel and Spa propose un établissement 5 étoiles de luxe avec des suites somptueuses, un spa, un hammam et une terrasse sur le toit.",
+        "prix_moyen": "250€ - 450€ / nuit",
+        "avis": "",
+        "points_positifs": [
+            "Emplacement idéal et privilégié au cœur de la Médina",
+            "Architecture somptueuse et ambiance apaisante",
+            "Confort XXL des suites et propreté irréprochable",
+            "Personnel aux petits soins offrant un service haut de gamme"
+        ],
+        "points_negatifs": [
+            "Tarif élevé en adéquation avec le positionnement de luxe",
+            "Forte demande nécessitant d'anticiper la réservation"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Spa et centre de bien-être",
+            "Hammam",
+            "Restaurant gastronomique",
+            "Rooftop",
+            "Climatisation"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez le sommet du raffinement et de l'art de vivre tunisois au cœur de l'histoire, le Dar El Jeld Hotel and Spa est une adresse absolument magique. Ce qu'on adore, c'est le contraste saisissant entre l'effervescence des souks de la Médina juste à côté et la quiétude absolue de ce palais somptueux.",
+        "pour_qui": {
+            "ambiance": "🏛️ Luxueux, traditionnel, apaisant et raffiné",
+            "public": "Voyageurs en quête d'un séjour d'exception, de bien-être et d'authenticité haut de gamme",
+            "style": "Hôtel 5 étoiles de luxe",
+            "verdict": "Une parenthèse enchantée et somptueuse au cœur de la Médina de Tunis."
+        },
+        "meta_avis": {
+            "note_globale": "9.4 / 10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 741 expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Dar El Jeld Hotel and Spa",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "250€ - 450€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "9.4",
+                "bestRating": "10",
+                "reviewCount": "741"
+            }
+        },
+        "lien": "https://www.booking.com/hotel/tn/dar-el-jeld-hotel-and-spa.fr.html"
+    },
+    "Dar Ben Gacem": {
+        "pays": "Tunisie",
+        "ville": "Tunis",
+        "etoiles": "Maison d'hôtes de charme",
+        "lien_booking": "https://www.booking.com/hotel/tn/dar-ben-gacem.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Tunis-Hotel-Dar-Ben-Gacem.h6459996.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/68905025.jpg?k=b748235a7579600ef1c6af72ee808cc559e1d57f475443971b77e47de77c5161&o=",
+        "image_alt": "Dar Ben Gacem - maison d'hôtes traditionnelle restaurée avec charme et terrasse panoramique au cœur de la Médina de Tunis",
+        "meta_title": "Dar Ben Gacem Tunis : Avis & Prix Maison d'Hôtes Médina 2026",
+        "meta_description": "Dar Ben Gacem à Tunis : maison d'hôtes traditionnelle superbement restaurée au cœur de la Médina, calme, décoration tunisienne authentique, terrasse panoramique et accueil chaleureux. Avis, prix, réservation Booking.",
+        "description": "Situé au cœur de la Médina de Tunis, le Dar Ben Gacem est une magnifique maison traditionnelle tunisienne superbement restaurée. Cet établissement de charme propose un havre de paix doté d'une connexion Wi-Fi gratuite, de chambres décorées dans un style traditionnel authentique, d'un patio reposant et d'une terrasse panoramique (rooftop) offrant une vue imprenable sur la ville.",
+        "prix_moyen": "90€ - 160€ / nuit",
+        "avis": "",
+        "points_positifs": [
+            "Localisation parfaite au cœur de la Médina, idéale pour visiter les souks et monuments",
+            "Maison traditionnelle superbement restaurée avec beaucoup de charme et un calme absolu",
+            "Personnel d'une grande gentillesse, aux petits soins et accueillant",
+            "Superbe terrasse panoramique et excellents petits déjeuners"
+        ],
+        "points_negatifs": [
+            "Chambres parfois de taille modeste inhérentes à l'architecture historique de la maison",
+            "Forte demande en raison du caractère intimiste de l'établissement"
+        ],
+        "equipements": [
+            "Maison d'hôtes de charme",
+            "Terrasse panoramique (rooftop)",
+            "Patio traditionnel",
+            "Connexion Wi-Fi gratuite",
+            "Navette aéroport",
+            "Climatisation"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez une immersion authentique et pleine de poésie au cœur de l'histoire de Tunis, le Dar Ben Gacem est une adresse incontournable. Ce qu'on adore, c'est le contraste magique entre l'agitation vibrante des ruelles de la Médina et la sérénité absolue de ce patio décoré avec amour, complété par une terrasse sur le toit parfaite pour admirer les toits de la ville.",
+        "pour_qui": {
+            "ambiance": "🏛️ Authentique, chaleureux, calme, charmant et historique",
+            "public": "Voyageurs en quête d'authenticité, d'immersion culturelle et de charme au cœur de la Médina",
+            "style": "Maison d'hôtes traditionnelle restaurée",
+            "verdict": "Une parenthèse chaleureuse et intimiste au plus près de l'âme de Tunis."
+        },
+        "meta_avis": {
+            "note_globale": "9.0 / 10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 484 expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Dar Ben Gacem",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "90€ - 160€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "9.0",
+                "bestRating": "10",
+                "reviewCount": "484"
+            }
+        },
+        "lien": "https://www.booking.com/hotel/tn/dar-ben-gacem.fr.html"
+    },
+    "Dar Nesri": {
+        "pays": "Tunisie",
+        "ville": "Zaghouan",
+        "etoiles": "Maison d'hôtes / Gîte",
+        "lien_booking": "https://www.booking.com/hotel/tn/dar-nesri.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Zaghouan-Hotel-Dar-Nesri.h123465390.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/781341365.jpg?k=8a2bae83a66799c91ac04ae804e696d5d5959a4a2d254eefb6e7872461a36a6c&o=",
+        "image_alt": "Dar Nesri - maison d'hôtes et gîte de charme avec piscine au pied de la montagne à Zaghouan Tunisie",
+        "meta_title": "Dar Nesri Zaghouan : Avis & Prix Gîte de Charme Montagne 2026",
+        "meta_description": "Dar Nesri à Zaghouan : magnifique gîte et maison d'hôtes au pied de la montagne, piscine extérieure, vue extraordinaire, calme absolu et accueil exceptionnel. Avis, prix, réservation Booking.",
+        "description": "Situé à Zaghouan au pied de la montagne avec un accès direct aux chemins de randonnée, l'établissement Dar Nesri propose un cadre exceptionnel et paisible. Il dispose d'une piscine extérieure ouverte en saison, d'un jardin luxuriant, d'une terrasse avec vue panoramique sur la montagne, ainsi que d'appartements et gîtes climatisés parfaitement équipés.",
+        "prix_moyen": "80€ - 140€ / nuit",
+        "avis": "",
+        "points_positifs": [
+            "Accueil extraordinairement chaleureux et sens du service irréprochable des propriétaires",
+            "Cadre somptueux et vue extraordinaire au pied de la montagne avec sentiers de randonnée à proximité",
+            "Propreté impeccable, confort optimal et équipements complets",
+            "Calme absolu, véritable havre de paix qualifié de paradis sur terre par les voyageurs"
+        ],
+        "points_negatifs": [
+            "Nombre d'avis encore restreint en raison de son caractère intimiste",
+            "Forte demande pour ce gîte très prisé des amoureux de nature"
+        ],
+        "equipements": [
+            "Piscine extérieure en saison",
+            "Jardin et terrasse avec vue sur la montagne",
+            "Climatisation",
+            "Parking privé gratuit",
+            "Connexion Wi-Fi",
+            "Cuisine / équipements complets en appartement"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez à vous ressourcer loin de l'agitation urbaine au cœur des paysages grandioses de Zaghouan, le Dar Nesri est une pépite absolue. Ce qu'on adore, c'est la combinaison parfaite entre la beauté sauvage de la montagne, le confort douillet des lieux et la bienveillance incroyable des hôtes qui vous reçoivent comme à la maison.",
+        "pour_qui": {
+            "ambiance": "🏔️ Calme, verdoyant, chaleureux, ressourçant et panoramique",
+            "public": "Amateurs de randonnée, couples et voyageurs en quête de nature et d'authentique hospitalité",
+            "style": "Gîte de charme et maison d'hôtes de montagne",
+            "verdict": "Une parenthèse enchantée au grand air, idéale pour déconnecter à Zaghouan."
+        },
+        "meta_avis": {
+            "note_globale": "9.8 / 10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 9 expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "LodgingBusiness",
+            "name": "Dar Nesri",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "80€ - 140€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "9.8",
+                "bestRating": "10",
+                "reviewCount": "9"
+            }
+        },
+        "lien": "https://www.booking.com/hotel/tn/dar-nesri.fr.html"
     }
 }
