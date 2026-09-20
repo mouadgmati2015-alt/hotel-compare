@@ -906,9 +906,8 @@
                 "ratingValue": "4.5",
                 "bestRating": "5",
                 "reviewCount": "140"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/dar-zakaria-toursitic-area.fr.html?aid=818289"
+        }
+        }
     },
     "Hôtel Mirage Beach Club": {
         "pays": "Tunisie",
@@ -4223,9 +4222,8 @@
                 "ratingValue": "4.4",
                 "bestRating": "5",
                 "reviewCount": "330"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/royal-el-mansour.fr.html?aid=818289"
+          }
+        }
     },
     "Mahdia Palace Thalasso": {
         "pays": "Tunisie",
@@ -7148,11 +7146,9 @@
             "aggregateRating": {
                 "@type": "AggregateRating",
                 "ratingValue": "4.05",
-                "bestRating": "5",
-                "reviewCount": "2312"
+                "bestRating": "5"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/campanile-el-mechtel-tunis.fr.html?aid=818289"
+        }
     },
     "Yadis Hammamet": {
         "pays": "Tunisie",
@@ -7208,8 +7204,7 @@
                 "bestRating": "5",
                 "reviewCount": "8"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/yadis-hammamet.fr.html?aid=818289"
+        }
     },
     "Campement Sahara Oasis Douz": {
         "pays": "Tunisie",
@@ -7265,9 +7260,8 @@
                 "ratingValue": "4.25",
                 "bestRating": "5",
                 "reviewCount": "6"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/campement-sahara-oasis-douz.fr.html?aid=818289"
+           }
+        }
     },
     "Le National": {
         "pays": "Tunisie",
@@ -7323,8 +7317,7 @@
                 "bestRating": "5",
                 "reviewCount": "1195"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/le-national.html?aid=818289"
+        }
     },
     "Royal Thalassa Monastir": {
         "pays": "Tunisie",
@@ -7380,8 +7373,7 @@
                 "bestRating": "5",
                 "reviewCount": "508"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/radisson-blu-resort-thalasso-monastir.html?aid=818289"
+        }
     },
     "Hôtel Gaïa": {
         "pays": "Tunisie",
@@ -7492,9 +7484,8 @@
                 "ratingValue": "3.7",
                 "bestRating": "5",
                 "reviewCount": "375"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/vime-tunis-grand.html?aid=818289"
+           }
+        }
     },
     "Ksar El Jerid": {
         "pays": "Tunisie",
@@ -7550,8 +7541,7 @@
                 "bestRating": "5",
                 "reviewCount": "22"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/ksar-el-jerid.fr.html?aid=818289"
+        }
     },
     "Sheraton Tunis Hotel": {
         "pays": "Tunisie",
@@ -7606,9 +7596,8 @@
                 "ratingValue": "4.25",
                 "bestRating": "5",
                 "reviewCount": "707"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/sheraton-tunis.fr.html?aid=818289"
+           }
+        }
     },
     "NN Residence Tabarka": {
         "pays": "Tunisie",
@@ -7663,9 +7652,8 @@
                 "ratingValue": "4.15",
                 "bestRating": "5",
                 "reviewCount": "444"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/nn-residence-tabarka.fr.html?aid=818289"
+           }
+        }
     },
     "Sufetula Hotel": {
         "pays": "Tunisie",
@@ -7721,8 +7709,7 @@
                 "bestRating": "5",
                 "reviewCount": "409"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/sufetulasufetula.html?aid=818289"
+        }
     },
     "Hôtel le calife": {
         "pays": "Tunisie",
@@ -7834,8 +7821,7 @@
                 "bestRating": "5",
                 "reviewCount": "704"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/royal-asbu-tunis.fr.html?aid=818289"
+        }
     },
     "Radisson Blu Hotel & Convention Center, Tunis": {
         "pays": "Tunisie",
@@ -7890,8 +7876,7 @@
                 "bestRating": "5",
                 "reviewCount": "1282"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/radisson-blu-convention-center-tunis.html?aid=818289"
+        }
     },
     "Medina Solaria And Thalasso": {
         "pays": "Tunisie",
@@ -7947,8 +7932,7 @@
                 "bestRating": "5",
                 "reviewCount": "799"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/solaria.html?aid=818289"
+        }
     },
     "Hotel Khella": {
         "pays": "Tunisie",
@@ -8003,9 +7987,8 @@
                 "ratingValue": "4.45",
                 "bestRating": "5",
                 "reviewCount": "1793"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/khella.html?aid=818289"
+           }
+        }
     },
     "HOTEL PALAIS ROYAL": {
         "pays": "Tunisie",
@@ -8060,9 +8043,8 @@
                 "ratingValue": "3.95",
                 "bestRating": "5",
                 "reviewCount": "107"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/palais-royal.html?aid=818289"
+           }
+        }
     },
     "Ariha Hotel": {
         "pays": "Tunisie",
@@ -8118,8 +8100,7 @@
                 "bestRating": "5",
                 "reviewCount": "185"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/ariha.html?aid=818289"
+        }
     },
     "Ibis Sfax": {
         "pays": "Tunisie",
@@ -8175,8 +8156,7 @@
                 "bestRating": "5",
                 "reviewCount": "516"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/ibis-sfax.fr.html?aid=818289"
+        }
     },
     "Tunis Marriott Hotel": {
         "pays": "Tunisie",
@@ -8230,9 +8210,8 @@
                 "ratingValue": "4.25",
                 "bestRating": "5",
                 "reviewCount": "467"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/tunis-marriott.fr.html?aid=818289"
+           }
+        }
     },
     "HOTEL LAFAYETTE": {
         "pays": "Tunisie",
@@ -8288,8 +8267,7 @@
                 "bestRating": "5",
                 "reviewCount": "1095"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/lafayette-tunis.fr.html?aid=818289"
+        }
     },
     "Suites Hôtel Les Charmilles & Spa": {
         "pays": "Tunisie",
@@ -8400,9 +8378,8 @@
                 "ratingValue": "4.55",
                 "bestRating": "5",
                 "reviewCount": "86"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/palais-harran.html?aid=818289"
+           }
+        }
     },
     "Concorde Marco Polo": {
         "pays": "Tunisie",
@@ -8458,8 +8435,7 @@
                 "bestRating": "5",
                 "reviewCount": "613"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/concorde-marco-polo.fr.html?aid=818289"
+        }
     },
     "Radisson Blu Athénée Palace Resort & Thalasso, Djerba": {
         "pays": "Tunisie",
@@ -8572,8 +8548,7 @@
                 "bestRating": "5",
                 "reviewCount": "50"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/acquaviva-village-gammarth1.html?aid=818289"
+        }
     },
     "Mövenpick Hotel du Lac Tunis": {
         "pays": "Tunisie",
@@ -8685,8 +8660,7 @@
                 "bestRating": "5",
                 "reviewCount": "351"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/julius.html?aid=818289"
+        }
     },
     "Vincci Saphir Palace & Spa": {
         "pays": "Tunisie",
@@ -8742,8 +8716,7 @@
                 "bestRating": "5",
                 "reviewCount": "27"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/saphir-palace-yasmine-hammamet.html?aid=818289"
+        }
     },
     "Hotel Matmata": {
         "pays": "Tunisie",
@@ -8799,8 +8772,7 @@
                 "bestRating": "5",
                 "reviewCount": "63"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/matmata-matmata2.html?aid=818289"
+        }
     },
     "Hôtel Djerba Erriadh": {
         "pays": "Tunisie",
@@ -8912,8 +8884,7 @@
                 "bestRating": "5",
                 "reviewCount": "79"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/alrawabi-tabarka.html?aid=818289"
+        }
     },
     "Novotel Tunis Lac": {
         "pays": "Tunisie",
@@ -8968,8 +8939,7 @@
                 "bestRating": "5",
                 "reviewCount": "297"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/novotel-tunis-lac.fr.html?aid=818289"
+        }
     },
     "Plaza la marsa": {
         "pays": "Tunisie",
@@ -9025,8 +8995,7 @@
                 "bestRating": "5",
                 "reviewCount": "227"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/plaza-la-marsa.fr.html?aid=818289"
+        }
     },
     "Hotel FLAMINGO BEACH": {
         "pays": "Tunisie",
@@ -9082,8 +9051,7 @@
                 "bestRating": "5",
                 "reviewCount": "12"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/flamingo-beach.html?aid=818289"
+        }
     },
     "El Mouradi Djerba Menzel - Couple et Famille uniquement": {
         "pays": "Tunisie",
@@ -9139,8 +9107,7 @@
                 "bestRating": "5",
                 "reviewCount": "882"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/el-mouradi-djerba-menzel.fr.html?aid=818289"
+        }
     },
     "Hôtel Romane": {
         "pays": "Tunisie",
@@ -9251,8 +9218,7 @@
                 "bestRating": "5",
                 "reviewCount": "732"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/kyriad-prestige-city-center-tunis.fr.html?aid=818289"
+        }
     },
     "Medina Belisaire And Thalasso": {
         "pays": "Tunisie",
@@ -9309,8 +9275,7 @@
                 "bestRating": "5",
                 "reviewCount": "496"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/belisaire.html?aid=818289"
+        }
     },
     "Golf Royal Hotel": {
         "pays": "Tunisie",
@@ -9366,8 +9331,7 @@
                 "bestRating": "5",
                 "reviewCount": "2884"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/golf-royal.html?aid=818289"
+        }
     },
     "Riad Meninx": {
         "pays": "Tunisie",
@@ -9423,8 +9387,7 @@
                 "bestRating": "5",
                 "reviewCount": "3"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/riad-meninx.fr.html?aid=818289"
+        }
     },
     "Royal Tulip Korbous Bay Thalasso & Springs": {
         "pays": "Tunisie",
@@ -9479,8 +9442,7 @@
                 "bestRating": "5",
                 "reviewCount": "1764"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/royal-tulip-korbous-bay-thalasso-amp-springs.html?aid=818289"
+        }
     },
     "Vincci Helios Beach": {
         "pays": "Tunisie",
@@ -9537,8 +9499,7 @@
                 "bestRating": "5",
                 "reviewCount": "157"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/vincci-helios-beach.fr.html?aid=818289"
+        }
     },
     "Hotel Diar Yassine": {
         "pays": "Tunisie",
@@ -9594,8 +9555,7 @@
                 "bestRating": "5",
                 "reviewCount": "190"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/diar-yassine.html?aid=818289"
+        }
     },
     "El Mouradi Cap Mahdia": {
         "pays": "Tunisie",
@@ -9651,8 +9611,7 @@
                 "bestRating": "5",
                 "reviewCount": "269"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/el-mouradi-cap-mahdia.fr.html?aid=818289"
+        }
     },
     "El Mouradi El Menzah": {
         "pays": "Tunisie",
@@ -9708,8 +9667,7 @@
                 "bestRating": "5",
                 "reviewCount": "877"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/el-mouradi-el-menzah.fr.html?aid=818289"
+        }
     },
     "Radisson Hotel Tunis, City Center": {
         "pays": "Tunisie",
@@ -9764,8 +9722,7 @@
                 "bestRating": "5",
                 "reviewCount": "751"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/radisson-tunis-city-center.html?aid=818289"
+        }
     },
     "Hotel AL KARMEL": {
         "pays": "Tunisie",
@@ -9821,8 +9778,7 @@
                 "bestRating": "5",
                 "reviewCount": "1441"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/al-karmel.html?aid=818289"
+        }
     },
     "Hotel Lac Leman, LES BERGES DU LAC": {
         "pays": "Tunisie",
@@ -9878,8 +9834,7 @@
                 "bestRating": "5",
                 "reviewCount": "475"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/lac-leman.fr.html?aid=818289"
+        }
     },
     "Hôtel Hammamet Beach": {
         "pays": "Tunisie",
@@ -9991,8 +9946,7 @@
                 "bestRating": "5",
                 "reviewCount": "81"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/capsa-thermal-oasis.fr.html?aid=818289"
+        }
     },
     "Hôtel Résidence Le Consul": {
         "pays": "Tunisie",
@@ -10103,8 +10057,7 @@
                 "bestRating": "5",
                 "reviewCount": "1118"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/corail-suites.html?aid=818289"
+        }
     },
     "Hotel Nour Congress & Resort": {
         "pays": "Tunisie",
@@ -10160,8 +10113,7 @@
                 "bestRating": "5",
                 "reviewCount": "590"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/ra-c-sidence-nour.html?aid=818289"
+        }
     },
     "Abou Sofiane Hotel": {
         "pays": "Tunisie",
@@ -10217,8 +10169,7 @@
                 "bestRating": "5",
                 "reviewCount": "23"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/allegro-abou-sofiane.html?aid=818289"
+        }
     },
     "OCEANA Hotel & Spa": {
         "pays": "Tunisie",
@@ -10274,8 +10225,7 @@
                 "bestRating": "5",
                 "reviewCount": "535"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/riu-palace-oceana-hammamet.html?aid=818289"
+        }
     },
     "Sahara Douz": {
         "pays": "Tunisie",
@@ -10331,8 +10281,7 @@
                 "bestRating": "5",
                 "reviewCount": "592"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/sahara-douz.fr.html?aid=818289"
+        }
     },
     "Nahrawess Resort & Thalasso": {
         "pays": "Tunisie",
@@ -10389,8 +10338,7 @@
                 "bestRating": "5",
                 "reviewCount": "128"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/nahrawess-thalasso-hammamet.html?aid=818289"
+        }
     },
     "Hotel karim Tunis": {
         "pays": "Tunisie",
@@ -10446,8 +10394,7 @@
                 "bestRating": "5",
                 "reviewCount": "576"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/karim-tunis.fr.html?aid=818289"
+        }
     },
     "Tamerza Palace By Odyssée": {
         "pays": "Tunisie",
@@ -10560,8 +10507,7 @@
                 "bestRating": "5",
                 "reviewCount": "674"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/bougainvillier-djerba.fr.html?aid=818289"
+        }
     },
     "El Mouradi Port El Kantaoui": {
         "pays": "Tunisie",
@@ -10617,8 +10563,7 @@
                 "bestRating": "5",
                 "reviewCount": "423"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/el-mouradi-port-el-kantaoui.fr.html?aid=818289"
+        }
     },
     "Charme Hotel La Foret": {
         "pays": "Tunisie",
@@ -10674,8 +10619,7 @@
                 "bestRating": "5",
                 "reviewCount": "90"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/charme-la-foret.html?aid=818289"
+        }
     },
     "El Oumara Hotel": {
         "pays": "Tunisie",
@@ -10731,8 +10675,7 @@
                 "bestRating": "5",
                 "reviewCount": "1090"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/el-oumara.fr.html?aid=818289"
+        }
     },
     "Sentido Bellevue Park": {
         "pays": "Tunisie",
@@ -10788,8 +10731,7 @@
                 "bestRating": "5",
                 "reviewCount": "846"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/bellevue-park.html?aid=818289"
+        }
     },
     "Hôtel LE CONSUL": {
         "pays": "Tunisie",
@@ -10901,8 +10843,7 @@
                 "bestRating": "5",
                 "reviewCount": "1596"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/royal-azur-thalasso-golf-hammamet.html?aid=818289"
+        }
     },
     "Iberostar Selection Eolia Djerba": {
         "pays": "Tunisie",
@@ -10958,8 +10899,7 @@
                 "bestRating": "5",
                 "reviewCount": "566"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/iberostar-selection-eolia-djerba.fr.html?aid=818289"
+        }
     },
     "Hôtel LES MIMOSAS TABARKA": {
         "pays": "Tunisie",
@@ -11072,8 +11012,7 @@
                 "bestRating": "5",
                 "reviewCount": "117"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/kelibia-beach-amp-spa.html?aid=818289"
+        }
     },
     "TUI BLUE Palm Beach Palace Djerba - Adult Only": {
         "pays": "Tunisie",
@@ -11129,8 +11068,7 @@
                 "bestRating": "5",
                 "reviewCount": "996"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/palm-beach-djerba.html?aid=818289"
+        }
     },
     "Fiesta Beach Djerba": {
         "pays": "Tunisie",
@@ -11186,8 +11124,7 @@
                 "bestRating": "5",
                 "reviewCount": "194"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/fiesta-beach-club.html?aid=818289"
+        }
     },
     "Hôtel Suisse Tunis": {
         "pays": "Tunisie",
@@ -11299,8 +11236,7 @@
                 "bestRating": "5",
                 "reviewCount": "956"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/regency-tunis.fr.html?aid=818289"
+        }
     },
     "Hotel plaza corniche la marsa": {
         "pays": "Tunisie",
@@ -11356,8 +11292,7 @@
                 "bestRating": "5",
                 "reviewCount": "147"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/plaza-la-marsa.html?aid=818289"
+        }
     },
     "Al Madina, traditional Riad": {
         "pays": "Tunisie",
@@ -11414,8 +11349,7 @@
                 "bestRating": "5",
                 "reviewCount": "328"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/al-madina-riad.html?aid=818289"
+        }
     },
     "Hotel Sfax Palace by Plaza Hotels & Resorts": {
         "pays": "Tunisie",
@@ -11470,8 +11404,7 @@
                 "bestRating": "5",
                 "reviewCount": "1149"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/radisson-hotel-sfax.html?aid=818289"
+        }
     },
     "The Orangers Beach Resort and Bungalows All Inclusive": {
         "pays": "Tunisie",
@@ -11528,8 +11461,7 @@
                 "bestRating": "5",
                 "reviewCount": "416"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/the-orangers-beach-resort-and-bungalows.html?aid=818289"
+        }
     },
     "Dar El Médina": {
         "pays": "Tunisie",
@@ -11642,8 +11574,7 @@
                 "bestRating": "5",
                 "reviewCount": "1032"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/la-tour-blanche.html?aid=818289"
+        }
     },
     "Hotel KSAR DHIAFA by PLAZA HOTELS & RESORTS": {
         "pays": "Tunisie",
@@ -11699,8 +11630,7 @@
                 "bestRating": "5",
                 "reviewCount": "54"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/ksar-dhiafa-by-plaza-hotels-resorts.html?aid=818289"
+        }
     },
     "Hotel Mezri": {
         "pays": "Tunisie",
@@ -11757,8 +11687,7 @@
                 "bestRating": "5",
                 "reviewCount": "850"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/mezri.html?aid=818289"
+        }
     },
     "Dar Dhiafa Paul Klee Kairouan": {
         "pays": "Tunisie",
@@ -11815,8 +11744,7 @@
                 "bestRating": "5",
                 "reviewCount": "173"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/dar-dhiafa-paul-klee-kairouan.fr.html?aid=818289"
+        }
     },
     "Hôtel Belvédère Fourati": {
         "pays": "Tunisie",
@@ -12038,8 +11966,7 @@
                 "bestRating": "5",
                 "reviewCount": "231"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/dar-ammar-el-jem.fr.html?aid=818289"
+        }
     },
     "Dar Baya Hotel Sfax": {
         "pays": "Tunisie",
@@ -12095,8 +12022,7 @@
                 "bestRating": "5",
                 "reviewCount": "21"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/dar-baya.html?aid=818289"
+        }
     },
     "Touring Club MARHALA MATMATA": {
         "pays": "Tunisie",
@@ -12153,8 +12079,7 @@
                 "bestRating": "5",
                 "reviewCount": "852"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/marhala-matmata.html?aid=818289"
+        }
     },
     "Sol Palmeras Beach - Family Hotel": {
         "pays": "Tunisie",
@@ -12210,8 +12135,7 @@
                 "bestRating": "5",
                 "reviewCount": "19"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/palmyra-beach-sousse.html?aid=818289"
+        }
     },
     "Royal Victoria - Ex British Embassy": {
         "pays": "Tunisie",
@@ -12267,8 +12191,7 @@
                 "bestRating": "5",
                 "reviewCount": "1192"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/royal-victoria.html?aid=818289"
+        }
     },
     "Hôtel EDHIAFA": {
         "pays": "Tunisie",
@@ -12381,8 +12304,7 @@
                 "bestRating": "5",
                 "reviewCount": "499"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/anantara-tozeur-resort.html?aid=818289"
+        }
     },
     "Larimar Hôtel Sfax": {
         "pays": "Tunisie",
@@ -12494,8 +12416,7 @@
                 "bestRating": "5",
                 "reviewCount": "57"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/pacha.html?aid=818289"
+        }
     },
     "Hotel la princesse": {
         "pays": "Tunisie",
@@ -12551,8 +12472,7 @@
                 "bestRating": "5",
                 "reviewCount": "115"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/la-princesse.html?aid=818289"
+        }
     },
     "ROBINSON DJERBA BAHIYA - All Inclusive": {
         "pays": "Tunisie",
@@ -12609,8 +12529,7 @@
                 "bestRating": "5",
                 "reviewCount": "121"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/robinson-djerba-bahiya-all-inclusive.html?aid=818289"
+        }
     },
     "Hôtel Dar Massmoudi": {
         "pays": "Tunisie",
@@ -12722,8 +12641,7 @@
                 "bestRating": "5",
                 "reviewCount": "199"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/amine.html?aid=818289"
+        }
     },
     "Rihana Hotel - Ain Draham": {
         "pays": "Tunisie",
@@ -12780,8 +12698,7 @@
                 "bestRating": "5",
                 "reviewCount": "17"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/rihana-ain-draham.fr.html?aid=818289"
+        }
     },
     "Concorde Sfax Centre": {
         "pays": "Tunisie",
@@ -12837,8 +12754,7 @@
                 "bestRating": "5",
                 "reviewCount": "430"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/golden-tulip-sfax.html?aid=818289"
+        }
     },
     "Hotel Dar Hi": {
         "pays": "Tunisie",
@@ -12895,8 +12811,7 @@
                 "bestRating": "5",
                 "reviewCount": "85"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/dar-hi.html?aid=818289"
+        }
     },
     "Ksar Ouled Debbab": {
         "pays": "Tunisie",
@@ -12952,8 +12867,7 @@
                 "bestRating": "5",
                 "reviewCount": "31"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/ksar-ouled-debbab.fr.html?aid=818289"
+        }
     },
     "Dar El Marsa Hotel & Spa": {
         "pays": "Tunisie",
@@ -13010,8 +12924,7 @@
                 "bestRating": "5",
                 "reviewCount": "611"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/dar-el-marsa.fr.html?aid=818289"
+        }
     },
     "Hôtel Ayachi": {
         "pays": "Tunisie",
@@ -13124,8 +13037,7 @@
                 "bestRating": "5",
                 "reviewCount": "51"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/mondial.html?aid=818289"
+        }
     },
     "Le Grand Hotel Djerba": {
         "pays": "Tunisie",
@@ -13180,9 +13092,8 @@
                 "ratingValue": "3.4",
                 "bestRating": "5",
                 "reviewCount": "89"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/le-grand.html?aid=818289"
+           }
+        }
     },
     "Hotel El Layeli": {
         "pays": "Tunisie",
@@ -13238,8 +13149,7 @@
                 "bestRating": "5",
                 "reviewCount": "62"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/el-layeli.html?aid=818289"
+        }
     },
     "Hotel Tiba": {
         "pays": "Tunisie",
@@ -13294,9 +13204,8 @@
                 "ratingValue": "4.1",
                 "bestRating": "5",
                 "reviewCount": "930"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/tiba.html?aid=818289"
+           }
+        }
     },
     "Les Jardins de Toumana": {
         "pays": "Tunisie",
@@ -13352,8 +13261,7 @@
                 "bestRating": "5",
                 "reviewCount": "429"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/les-jardins-de-toumana.fr.html?aid=818289"
+        }
     },
     "Djerba Castille- Couples and Families": {
         "pays": "Tunisie",
@@ -13409,8 +13317,7 @@
                 "bestRating": "5",
                 "reviewCount": "193"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/djerba-castille.fr.html?aid=818289"
+        }
     },
     "Iberostar Waves Mehari Djerba": {
         "pays": "Tunisie",
@@ -13466,8 +13373,7 @@
                 "bestRating": "5",
                 "reviewCount": "939"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/mehari-djerba.fr.html?aid=818289"
+        }
     },
     "Dar Saida Beya": {
         "pays": "Tunisie",
@@ -13523,8 +13429,7 @@
                 "bestRating": "5",
                 "reviewCount": "210"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/dar-saida-beya.fr.html?aid=818289"
+        }
     },
     "Hotel Djerba Inn": {
         "pays": "Tunisie",
@@ -13580,8 +13485,7 @@
                 "bestRating": "5",
                 "reviewCount": "198"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/djerba-inn.fr.html?aid=818289"
+        }
     },
     "El Mouradi Palm Marina - Couple et Famille uniquement": {
         "pays": "Tunisie",
@@ -13637,8 +13541,7 @@
                 "bestRating": "5",
                 "reviewCount": "284"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/el-mouradi-palm-marina.fr.html?aid=818289"
+        }
     },
     "Concorde Les Berges du Lac": {
         "pays": "Tunisie",
@@ -13693,8 +13596,7 @@
                 "bestRating": "5",
                 "reviewCount": "1153"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/concorde-les-berges-du-lac.fr.html?aid=818289"
+        }
     },
     "Acropole Tunis": {
         "pays": "Tunisie",
@@ -13748,9 +13650,8 @@
                 "ratingValue": "3.8",
                 "bestRating": "5",
                 "reviewCount": "1583"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/acropole-tunis.fr.html?aid=818289"
+           }
+        }
     },
     "El Mouradi Hammam Bourguiba": {
         "pays": "Tunisie",
@@ -13806,8 +13707,7 @@
                 "bestRating": "5",
                 "reviewCount": "599"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/el-mouradi-hammam-bourguiba.fr.html?aid=818289"
+        }
     },
     "Hotel Best Beach- Family Only": {
         "pays": "Tunisie",
@@ -13863,8 +13763,7 @@
                 "bestRating": "5",
                 "reviewCount": "30"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/club-tergui.html?aid=818289"
+        }
     },
     "Dar Ben Turkia": {
         "pays": "Tunisie",
@@ -13920,8 +13819,7 @@
                 "bestRating": "5",
                 "reviewCount": "137"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/dar-ben-turkia.fr.html?aid=818289"
+        }
     },
     "Hotel Liberty Resort": {
         "pays": "Tunisie",
@@ -13977,8 +13875,7 @@
                 "bestRating": "5",
                 "reviewCount": "35"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/ramada-liberty-resort.html?aid=818289"
+        }
     },
     "Khayam Garden Beach Resort & Spa": {
         "pays": "Tunisie",
@@ -14035,8 +13932,7 @@
                 "bestRating": "5",
                 "reviewCount": "184"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/khayam-garden.html?aid=818289"
+        }
     },
     "Zenon Djerba": {
         "pays": "Tunisie",
@@ -14092,8 +13988,7 @@
                 "bestRating": "5",
                 "reviewCount": "26"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/zenon-djerba.fr.html?aid=818289"
+        }
     },
     "The NINE Lifestyle Experience": {
         "pays": "Tunisie",
@@ -14149,8 +14044,7 @@
                 "bestRating": "5",
                 "reviewCount": "339"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/anis-meghirbi.html?aid=818289"
+        }
     },
     "Djerba Aqua Resort": {
         "pays": "Tunisie",
@@ -14207,8 +14101,7 @@
                 "bestRating": "5",
                 "reviewCount": "51"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/djerba-palace.html?aid=818289"
+        }
     },
     "Cesar Thalasso": {
         "pays": "Tunisie",
@@ -14265,8 +14158,7 @@
                 "bestRating": "5",
                 "reviewCount": "15"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/cesar-thalasso.html?aid=818289"
+        }
     },
     "Monarque Club Rivage - VV": {
         "pays": "Tunisie",
@@ -14322,8 +14214,7 @@
                 "bestRating": "5",
                 "reviewCount": "65"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/monarque-club-rivage.fr.html?aid=818289"
+        }
     },
     "The Sindbad": {
         "pays": "Tunisie",
@@ -14378,8 +14269,7 @@
                 "bestRating": "5",
                 "reviewCount": "415"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/the-sindbad-hammamet.fr.html?aid=818289"
+        }
     },
     "Mediterranee Hammamet- Families and Couples Only": {
         "pays": "Tunisie",
@@ -14435,8 +14325,7 @@
                 "bestRating": "5",
                 "reviewCount": "59"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/mediterranee-hammamet.fr.html?aid=818289"
+        }
     },
     "Club Palm Azur Families and Couples": {
         "pays": "Tunisie",
@@ -14492,8 +14381,7 @@
                 "bestRating": "5",
                 "reviewCount": "138"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/club-palm-azur-djerba.html?aid=818289"
+        }
     },
     "Hotel Nesrine Hammamet": {
         "pays": "Tunisie",
@@ -14549,8 +14437,7 @@
                 "bestRating": "5",
                 "reviewCount": "135"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/nesrine.html?aid=818289"
+        }
     },
     "Hotel Venice Beach- Families and Couples Only": {
         "pays": "Tunisie",
@@ -14606,8 +14493,7 @@
                 "bestRating": "5",
                 "reviewCount": "48"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/venice-beach.html?aid=818289"
+        }
     },
     "Hasdrubal Thalassa & Spa Port El Kantaoui": {
         "pays": "Tunisie",
@@ -14662,8 +14548,7 @@
                 "bestRating": "5",
                 "reviewCount": "171"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/hasdrubal-thalassa-spa-port-el-kantaoui.fr.html?aid=818289"
+        }
     },
     "El Mouradi Tozeur": {
         "pays": "Tunisie",
@@ -14719,8 +14604,7 @@
                 "bestRating": "5",
                 "reviewCount": "455"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/el-mouradi-tozeur.fr.html?aid=818289"
+        }
     },
     "Steigenberger Marhaba Thalasso Hammamet": {
         "pays": "Tunisie",
@@ -14777,8 +14661,7 @@
                 "bestRating": "5",
                 "reviewCount": "1416"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/palace-hammamet-marhaba.html?aid=818289"
+        }
     },
     "Downtown Tunis Hotel": {
         "pays": "Tunisie",
@@ -14834,8 +14717,7 @@
                 "bestRating": "5",
                 "reviewCount": "1223"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/downtown-tunis.fr.html?aid=818289"
+        }
     },
     "Eden Star Resort": {
         "pays": "Tunisie",
@@ -14891,8 +14773,7 @@
                 "bestRating": "5",
                 "reviewCount": "45"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/eden-star.html?aid=818289"
+        }
     },
     "La Cigale Tabarka": {
         "pays": "Tunisie",
@@ -14948,8 +14829,7 @@
                 "bestRating": "5",
                 "reviewCount": "2216"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/tabarka-beach.html?aid=818289"
+        }
     },
     "Hotel Menara": {
         "pays": "Tunisie",
@@ -15004,8 +14884,7 @@
                 "bestRating": "5",
                 "reviewCount": "555"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/lilas.html?aid=818289"
+        }
     },
     "El Mouradi Douz": {
         "pays": "Tunisie",
@@ -15061,8 +14940,7 @@
                 "bestRating": "5",
                 "reviewCount": "1008"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/el-mouradi-douz.fr.html?aid=818289"
+        }
     },
     "El Mouradi Hotel Africa Tunis": {
         "pays": "Tunisie",
@@ -15117,8 +14995,7 @@
                 "bestRating": "5",
                 "reviewCount": "1915"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/africa-tunis.html?aid=818289"
+        }
     },
     "Hôtel Acquaviva Gammarth": {
         "pays": "Tunisie",
@@ -15231,8 +15108,7 @@
                 "bestRating": "5",
                 "reviewCount": "701"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/le-parisien-tunis.fr.html?aid=818289"
+        }
     },
     "BUSINESS HOTEL SFAX": {
         "pays": "Tunisie",
@@ -15287,8 +15163,7 @@
                 "bestRating": "5",
                 "reviewCount": "903"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/business-sfax.html?aid=818289"
+        }
     },
     "Seabel Aladin Djerba": {
         "pays": "Tunisie",
@@ -15344,8 +15219,7 @@
                 "bestRating": "5",
                 "reviewCount": "63"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/jet-eldo-aladin-djerba.html?aid=818289"
+        }
     },
     "The Residence Douz": {
         "pays": "Tunisie",
@@ -15401,8 +15275,7 @@
                 "bestRating": "5",
                 "reviewCount": "385"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/the-residence-douz.fr.html?aid=818289"
+        }
     },
     "La Villa Bleue-Sidi Bou Said": {
         "pays": "Tunisie",
@@ -15458,8 +15331,7 @@
                 "bestRating": "5",
                 "reviewCount": "415"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/la-villa-bleue.html?aid=818289"
+        }
     },
     "El Hana International": {
         "pays": "Tunisie",
@@ -15515,8 +15387,7 @@
                 "bestRating": "5",
                 "reviewCount": "173"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/el-hana-international.fr.html?aid=818289"
+        }
     },
     "Saheb Ettabaa Tunis": {
         "pays": "Tunisie",
@@ -15572,8 +15443,7 @@
                 "bestRating": "5",
                 "reviewCount": "104"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/saheb-ettabaa-tunis.html?aid=818289"
+        }
     },
     "El Mouradi Hammamet": {
         "pays": "Tunisie",
@@ -15629,8 +15499,7 @@
                 "bestRating": "5",
                 "reviewCount": "798"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/el-mouradi-hammamet.fr.html?aid=818289"
+        }
     },
     "El Mouradi Club Kantaoui": {
         "pays": "Tunisie",
@@ -15686,8 +15555,7 @@
                 "bestRating": "5",
                 "reviewCount": "219"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/el-mouradi-club-kantaoui.fr.html?aid=818289"
+        }
     },
     "El Mouradi Club Selima": {
         "pays": "Tunisie",
@@ -15744,8 +15612,7 @@
                 "bestRating": "5",
                 "reviewCount": "169"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/el-mouradi-club-selima.fr.html?aid=818289"
+        }
     },
     "Hôtel La Maison Blanche": {
         "pays": "Tunisie",
@@ -15799,7 +15666,7 @@
                 "ratingValue": "3.3",
                 "bestRating": "5",
                 "reviewCount": "704"
-            }
+    }
         }
     },
     "ADAM Hotel Suites": {
@@ -15856,8 +15723,7 @@
                 "bestRating": "5",
                 "reviewCount": "499"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/avani-les-berges-du-lac-tunis-suites.html?aid=818289"
+        }
     },
     "Hotel Tunisie Confort": {
         "pays": "Tunisie",
@@ -15913,8 +15779,7 @@
                 "bestRating": "5",
                 "reviewCount": "86"
             }
-        },
-        "lien": "https://www.booking.com/hotel/tn/new-oscars.html?aid=818289"
+        }
     },
     "Hotel du Parc": {
         "pays": "Tunisie",
@@ -15969,9 +15834,8 @@
                 "ratingValue": "3.75",
                 "bestRating": "5",
                 "reviewCount": "136"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/du-parc-tunis.fr.html?aid=818289"
+        }
+        }
     },
     "Hotel Ibn Khaldoun": {
         "pays": "Tunisie",
@@ -16026,9 +15890,8 @@
                 "ratingValue": "3.65",
                 "bestRating": "5",
                 "reviewCount": "711"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/yadis-ibn-khaldoun.en.html?aid=818289"
+        }
+        }
     },
     "MAIA HOTEL SUITES": {
         "pays": "Tunisie",
@@ -16082,9 +15945,8 @@
                 "ratingValue": "4.35",
                 "bestRating": "5",
                 "reviewCount": "1382"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/maia-suites.html?aid=818289"
+        }
+        }
     },
     "Hotel Saint Georges Tunis": {
         "pays": "Tunisie",
@@ -16139,9 +16001,8 @@
                 "ratingValue": "2.95",
                 "bestRating": "5",
                 "reviewCount": "464"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/saint-georges.html?aid=818289"
+        }
+        }
     },
     "Hotel Transatlantique Tunis": {
         "pays": "Tunisie",
@@ -16196,9 +16057,8 @@
                 "ratingValue": "3.0",
                 "bestRating": "5",
                 "reviewCount": "178"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/transatlantique-tunis.fr.html?aid=818289"
+        }
+        }
     },
     "Impavid Hotel": {
         "pays": "Tunisie",
@@ -16253,9 +16113,8 @@
                 "ratingValue": "4.2",
                 "bestRating": "5",
                 "reviewCount": "13"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/impavid.html?aid=818289"
+        }
+        }
     },
     "Hotel Le Khalife": {
         "pays": "Tunisie",
@@ -16310,9 +16169,8 @@
                 "ratingValue": "3.2",
                 "bestRating": "5",
                 "reviewCount": "77"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/le-khalife-hammamet4.html?aid=818289"
+        }
+        }
     },
     "hotel arisha": {
         "pays": "Tunisie",
@@ -16367,9 +16225,8 @@
                 "ratingValue": "3.5",
                 "bestRating": "5",
                 "reviewCount": "16"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/arisha.html?aid=818289"
+        }
+        }
     },
     "Le Sultan": {
         "type": "hotel",
@@ -16380,30 +16237,30 @@
         "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Le-Sultan.h898500.Description-Hotel",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/36190641.jpg?k=7bdc61d5e0651264aa59794a8639684990936f0d47f30cee22d09b6ebf11cec1&o=",
         "image_alt": "Le Sultan - hôtel 4 étoiles en bord de plage avec piscines et spa à Hammamet Tunisie",
-        "meta_title": "Hôtel Le Sultan Hammamet 🌊 : Avis & Prix Séjour Bord de Plage 2026",
-        "meta_description": "Hôtel 4 étoiles Le Sultan à Hammamet : accès direct à la plage privée, 2 piscines, spa, restaurants méditerranéen et fusion, bars et centre de remise en forme. Avis, prix et réservation.",
-        "description": "Situé en bord de mer avec un accès direct à la plage d'Hammamet et à environ 3 km du centre-ville, l'hôtel 4 étoiles Le Sultan propose un cadre élégant de style classique. Il dispose de 2 à 3 piscines, d'un spa et centre de bien-être, d'un centre de remise en forme, ainsi que de plusieurs restaurants et bars (dont le Restaurant Les Voiliers, le restaurant fusion Sakura et le piano-bar Sherazade). Un service de navette gratuit vers le golf de Yasmine et le centre de plongée est également proposé.",
+        "meta_title": "Hôtel Le Sultan Hammamet 4* 🌊 : Avis & Prix Séjour Bord de Plage 2026",
+        "meta_description": "Hôtel 4 étoiles Le Sultan à Hammamet : accès direct à la plage privée, piscines, spa, restaurants et centre de remise en forme. Avis, prix, réservation Booking.",
+        "description": "Situé en bord de mer avec un accès direct à la plage d'Hammamet, l'hôtel 4 étoiles Le Sultan propose un cadre élégant, 2 à 3 piscines, un spa et centre de bien-être, ainsi que plusieurs restaurants et bars.",
         "prix_moyen": "100€ - 200€ / nuit",
-        "equipements": [
-            "Accès direct à la plage privée",
-            "Piscines extérieures",
-            "Spa et centre de bien-être",
-            "Centre de remise en forme (salle de sport)",
-            "Plusieurs restaurants et bars (dont piano-bar)",
-            "Connexion Wi-Fi",
-            "Parking privé gratuit",
-            "Navette gratuite pour le golf et la plongée"
-        ],
+        "avis": "",
         "points_positifs": [
-            "Superbe emplacement en bord de mer avec plage privée et cadre agréable",
-            "Infrastructures de qualité, notamment la salle de sport moderne et les piscines",
-            "Personnel professionnel, à l'écoute et chaleureux selon de nombreux retours",
-            "Variété des espaces de restauration et bars sur place"
+            "Superbe emplacement en bord de mer avec plage privée",
+            "Infrastructures de qualité (salle de sport moderne, piscines)",
+            "Personnel professionnel, à l'écoute et chaleureux",
+            "Variété des espaces de restauration et bars"
         ],
         "points_negatifs": [
             "Avis mitigés sur la qualité ou la diversité de certains buffets selon les périodes",
-            "Affluence parfois importante en haute saison au niveau des espaces communs (piscine/plage)",
-            "Plage jugée un peu exiguë par certains clients au regard de la taille de l'établissement"
+            "Affluence parfois importante en haute saison"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Accès direct à la plage privée",
+            "Piscines extérieures",
+            "Spa et centre de bien-être",
+            "Centre de remise en forme",
+            "Restaurants et bars",
+            "Connexion Wi-Fi",
+            "Parking privé gratuit"
         ],
         "Nomad, vous en dit plus": "Entre nous, si vous cherchez un classique d'Hammamet les pieds dans l'eau, Le Sultan offre de superbes prestations avec sa plage privée et son centre de bien-être. Ce qu'on adore, c'est la beauté du site, la qualité des équipements sportifs et la proximité immédiate de la mer pour un séjour sous le signe de la détente.",
         "pour_qui": {
@@ -16411,6 +16268,27 @@
             "public": "Couples, familles et voyageurs en quête d'un séjour balnéaire tout confort à Hammamet",
             "style": "Hôtel 4 étoiles de style classique en bord de mer",
             "verdict": "Une valeur sûre sur la côte d'Hammamet pour profiter du soleil, de la plage et d'un bon niveau d'infrastructures."
+        },
+        "meta_avis": {
+            "note_globale": "8.2 / 10",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 840 expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Le Sultan",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "100€ - 200€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "8.2",
+                "bestRating": "10",
+                "reviewCount": "840"
+            }
         }
     },
     "Dar El Jeld Hotel and Spa": {
@@ -16470,9 +16348,8 @@
                 "ratingValue": "9.4",
                 "bestRating": "10",
                 "reviewCount": "741"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/dar-el-jeld-hotel-and-spa.fr.html"
+        }
+        }
     },
     "Dar Ben Gacem": {
         "pays": "Tunisie",
@@ -16531,9 +16408,8 @@
                 "ratingValue": "9.0",
                 "bestRating": "10",
                 "reviewCount": "484"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/dar-ben-gacem.fr.html"
+        }
+        }
     },
     "Dar Nesri": {
         "pays": "Tunisie",
@@ -16592,8 +16468,8 @@
                 "ratingValue": "9.8",
                 "bestRating": "10",
                 "reviewCount": "9"
-            }
-        },
-        "lien": "https://www.booking.com/hotel/tn/dar-nesri.fr.html"
+        }
+        }
     }
 }
+    
