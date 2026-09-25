@@ -1406,6 +1406,49 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
     pour_qui = d.get('pour_qui') or {}
     avis_clients = d.get('avis_clients') or generer_avis_hotel(h_nom, d)
     nomad_insight = d.get('Nomad, vous en dit plus') or d.get('nomad_vous_en_dit_plus') or ""
+    faq_items = d.get('faq') or []
+    acces_info = d.get('acces') or {}
+    comparatif_prix = d.get('comparatif_prix') or {}
+    environs = d.get('environs') or ""
+ 
+    faq_html = ""
+    if faq_items:
+        faq_html = "<h3>❓ Questions fréquentes</h3>" + "".join(
+            f"""<div style="margin-bottom:14px;">
+                <p style="font-weight:700; margin:0 0 4px;">{escape_html(item.get('question', ''))}</p>
+                <p style="color:var(--muted); margin:0;">{escape_html(item.get('reponse', ''))}</p>
+            </div>""" for item in faq_items if isinstance(item, dict)
+        )
+ 
+    acces_html = ""
+    if acces_info:
+        acces_html = "<h3>🧭 Accès</h3><ul>" + "".join(
+            f"<li>{escape_html(str(v))}</li>" for v in acces_info.values() if v
+        ) + "</ul>"
+ 
+    comparatif_html = ""
+    if comparatif_prix:
+        rows = ""
+        for site_nom, site_data in comparatif_prix.items():
+            if site_nom == "note" or not isinstance(site_data, dict):
+                continue
+            rows += f"""<tr>
+                <td style="padding:8px; border:1px solid var(--line);">{escape_html(site_nom.capitalize())}</td>
+                <td style="padding:8px; border:1px solid var(--line);">{escape_html(site_data.get('prix_a_partir_de', ''))}</td>
+                <td style="padding:8px; border:1px solid var(--line);">{escape_html(site_data.get('avantages', ''))}</td>
+            </tr>"""
+        if rows:
+            comparatif_html = f"""<h3>💶 Comparatif de prix</h3>
+            <table style="width:100%; border-collapse:collapse; margin-bottom:10px;">
+                <tr style="background:var(--panel);">
+                    <th style="text-align:left; padding:8px; border:1px solid var(--line);">Plateforme</th>
+                    <th style="text-align:left; padding:8px; border:1px solid var(--line);">À partir de</th>
+                    <th style="text-align:left; padding:8px; border:1px solid var(--line);">Avantage</th>
+                </tr>
+                {rows}
+            </table>"""
+ 
+    environs_html = f"<h3>📍 Aux alentours</h3><p>{escape_html(environs)}</p>" if environs else ""
 
     reviews_html = "".join(
         f"""
@@ -1431,7 +1474,11 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
             <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
             <p>{escape_html(public)}</p>
             {f'<p style="color:var(--muted);">{escape_html(details)}</p>' if details else ''}
-            {f'<h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">{escape_html(verdict)}</p>' if verdict else ''}
+            {f'<h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">{escape_html(verdict)}</p>' if verdict else ''}   
+    {comparatif_html}
+    {acces_html}
+    {environs_html}
+    {faq_html}
         </div>
         """
     description = escape_html(d.get('description_ia') or d.get('description', ''))
