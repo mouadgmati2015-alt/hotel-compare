@@ -1477,36 +1477,6 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
                 <p style="color:var(--muted); margin:0;">{escape_html(item.get('reponse', ''))}</p>
             </div>""" for item in faq_items if isinstance(item, dict)
         )
- 
-    acces_html = ""
-    if acces_info:
-        acces_html = "<h3>🧭 Accès</h3><ul>" + "".join(
-            f"<li>{escape_html(str(v))}</li>" for v in acces_info.values() if v
-        ) + "</ul>"
- 
-    comparatif_html = ""
-    if comparatif_prix:
-        rows = ""
-        for site_nom, site_data in comparatif_prix.items():
-            if site_nom == "note" or not isinstance(site_data, dict):
-                continue
-            rows += f"""<tr>
-                <td style="padding:8px; border:1px solid var(--line);">{escape_html(site_nom.capitalize())}</td>
-                <td style="padding:8px; border:1px solid var(--line);">{escape_html(site_data.get('prix_a_partir_de', ''))}</td>
-                <td style="padding:8px; border:1px solid var(--line);">{escape_html(site_data.get('avantages', ''))}</td>
-            </tr>"""
-        if rows:
-            comparatif_html = f"""<h3>💶 Comparatif de prix</h3>
-            <table style="width:100%; border-collapse:collapse; margin-bottom:10px;">
-                <tr style="background:var(--panel);">
-                    <th style="text-align:left; padding:8px; border:1px solid var(--line);">Plateforme</th>
-                    <th style="text-align:left; padding:8px; border:1px solid var(--line);">À partir de</th>
-                    <th style="text-align:left; padding:8px; border:1px solid var(--line);">Avantage</th>
-                </tr>
-                {rows}
-            </table>"""
- 
-    environs_html = f"<h3>📍 Aux alentours</h3><p>{escape_html(environs)}</p>" if environs else ""
 
     reviews_html = "".join(
         f"""
