@@ -35,7 +35,27 @@
             "style": "Hôtel de luxe côtier",
             "verdict": "Une vue imprenable et de grands espaces, à condition de savourer l'emplacement tout en pardonnant quelques petits loupés de service."
         },
-        "meta_avis": "Analyse préliminaire; note et avis détaillés à vérifier sur la fiche Booking.com."
+        "meta_avis": "Analyse préliminaire; note et avis détaillés à vérifier sur la fiche Booking.com.",
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Sea Star Becici dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Sea Star Becici propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Sea Star Becici."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Bečići ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Bečići."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Bečići, Monténégro, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": []
     },
     "Resort Ruza Vjetrova": {
         "pays": "Monténégro",
@@ -73,7 +93,25 @@
             "style": "Resort côtier",
             "verdict": "Un emplacement à couper le souffle et un cadre enchanteur, malgré des prestations de service qui demanderaient à être plus rigoureuses."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 253 expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 253 expériences vécues · Mise à jour : 2026",
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Resort Ruza Vjetrova dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Resort Ruza Vjetrova propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Dobra Voda ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Dobra Voda."
+            }
+        ],
+        "environs": "L'hôtel est situé à Dobra Voda, Monténégro, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Royal Bay"
+        ]
     },
     "David Lux Beach Rooms": {
         "pays": "Monténégro",
@@ -111,7 +149,23 @@
             "style": "Apparthôtel / Chambres de plage",
             "verdict": "Un emplacement imbattable les pieds dans l'eau, parfait pour les amoureux de la plage, à condition d'accepter quelques petits compromis sur le confort."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 152 expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 152 expériences vécues · Mise à jour : 2026",
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, David Lux Beach Rooms dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, David Lux Beach Rooms propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à À vérifier ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de À vérifier avant de fixer vos dates."
+            }
+        ],
+        "environs": "À vérifier, Monténégro accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": []
     },
     "Royal Bay": {
         "pays": "Monténégro",
@@ -149,6 +203,24 @@
             "style": "Appartements de luxe en bord de mer",
             "verdict": "Un cadre idyllique et une vue à couper le souffle, parfaits pour un séjour de pure détente, loin de l'agitation."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 68 expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 68 expériences vécues · Mise à jour : 2026",
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Royal Bay dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Royal Bay propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Dobra Voda ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Dobra Voda avant de fixer vos dates."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Dobra Voda, Monténégro, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Resort Ruza Vjetrova"
+        ]
     }
 }

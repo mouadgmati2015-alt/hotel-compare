@@ -38,7 +38,28 @@
             "style": "Hôtel design 4 étoiles avec spa et concept Adults Only",
             "verdict": "Une adresse incontournable et ultra-moderne à Antalya pour un séjour tout confort alliant détente au spa, calme absolu et services irréprochables."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 145 expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 145 expériences vécues · Mise à jour : 2026",
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, The Marni Hotel & Spa - Adults Only 12 Plus dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de The Marni Hotel & Spa - Adults Only 12 Plus."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Antalya ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Antalya."
+            }
+        ],
+        "environs": "Antalya, Turquie accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Antalya (AYT), à environ 9 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 9 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
+        }
     },
     "Crystal Waterworld Aqua Collection - Ultimate All Inclusive": {
         "pays": "Turquie",
@@ -80,7 +101,34 @@
             "style": "Resort 5 étoiles tout compris en bord de mer avec toboggans et spa",
             "verdict": "Une destination idéale pour des vacances en famille sans se soucier de rien, combinant immense plage privée, parc aquatique et prestations ultra-généreuses."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 63 expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 63 expériences vécues · Mise à jour : 2026",
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "Une formule tout compris est proposée par l'hôtel ; les prestations précises incluses peuvent varier, à confirmer au moment de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Crystal Waterworld Aqua Collection - Ultimate All Inclusive dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Crystal Waterworld Aqua Collection - Ultimate All Inclusive propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Crystal Waterworld Aqua Collection - Ultimate All Inclusive."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Belek, Turquie, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Sentido Luna Vista Belek Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Antalya (AYT), à environ 23 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 23 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
+        }
     },
     "Sentido Luna Vista Belek Hotel": {
         "pays": "Turquie",
@@ -121,6 +169,33 @@
             "style": "Resort balnéaire 5 étoiles avec parc aquatique et spa",
             "verdict": "Une adresse somptueuse et ultra-récente pour des vacances de rêve en formule grand confort, alliant plaisirs de l'eau et service d'excellence."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 6 expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 6 expériences vécues · Mise à jour : 2026",
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Sentido Luna Vista Belek Hotel dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Sentido Luna Vista Belek Hotel propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Sentido Luna Vista Belek Hotel."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Belek ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Belek avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Belek, Turquie, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Crystal Waterworld Aqua Collection - Ultimate All Inclusive"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Antalya (AYT), à environ 23 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 23 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
+        }
     }
 }

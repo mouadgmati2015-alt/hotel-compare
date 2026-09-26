@@ -66,7 +66,27 @@
                 "bestRating": "5",
                 "reviewCount": "3747"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Jumeirah Beach Hotel Dubai dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Jumeirah Beach Hotel Dubai propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Jumeirah Beach Hotel Dubai."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Dubaï ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Dubaï avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Dubaï, Émirats arabes unis, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": []
     },
     "Bab Al Shams, A Rare Finds Desert Resort": {
         "pays": "Émirats arabes unis",
@@ -130,6 +150,22 @@
                 "bestRating": "5",
                 "reviewCount": "800"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Bab Al Shams, A Rare Finds Desert Resort dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Bab Al Shams, A Rare Finds Desert Resort."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Dubaï (Région désertique) ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Dubaï (Région désertique), Émirats arabes unis, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": []
     }
 }

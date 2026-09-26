@@ -70,7 +70,25 @@
                 "bestRating": "5",
                 "reviewCount": "425"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, The Peninsula Tokyo dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de The Peninsula Tokyo."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Tokyo ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Tokyo avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Tokyo, Japon, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Asakusa View Hotel"
+        ]
     },
     "Asakusa View Hotel": {
         "pays": "Japon",
@@ -141,6 +159,20 @@
                 "bestRating": "5",
                 "reviewCount": "2963"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Asakusa View Hotel dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Tokyo ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Tokyo, Japon, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "The Peninsula Tokyo"
+        ]
     }
 }

@@ -60,7 +60,26 @@
                 "bestRating": "5",
                 "reviewCount": "1200"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Hotel Adlon Kempinski Berlin dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel Adlon Kempinski Berlin."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Berlin ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Berlin."
+            }
+        ],
+        "environs": "L'hôtel est situé à Berlin, Allemagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Mercure Berlin Wittenbergplatz",
+            "Estrel Berlin"
+        ]
     },
     "Hotel Hasselhof Garni Vier Sterne": {
         "pays": "Allemagne",
@@ -126,7 +145,23 @@
                 "bestRating": "5",
                 "reviewCount": "724"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Hotel Hasselhof Garni Vier Sterne dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel Hasselhof Garni Vier Sterne."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Braunlage ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Braunlage avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Braunlage, Allemagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": []
     },
     "MEININGER Hotel München Olympiapark": {
         "pays": "Allemagne",
@@ -201,7 +236,15 @@
                 "bestRating": "5",
                 "reviewCount": "4824"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Munich ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Munich."
+            }
+        ],
+        "environs": "Munich, Allemagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": []
     },
     "DORMERO Hotel München-Kirchheim Messe": {
         "pays": "Allemagne",
@@ -275,7 +318,19 @@
                 "bestRating": "5",
                 "reviewCount": "1834"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de DORMERO Hotel München-Kirchheim Messe."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Kirchheim bei München ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Kirchheim bei München, Allemagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": []
     },
     "Mercure Berlin Wittenbergplatz": {
         "pays": "Allemagne",
@@ -349,7 +404,18 @@
                 "bestRating": "5",
                 "reviewCount": "3458"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Berlin ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Berlin avant de fixer vos dates."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Berlin, Allemagne, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Hotel Adlon Kempinski Berlin",
+            "Estrel Berlin"
+        ]
     },
     "Estrel Berlin": {
         "pays": "Allemagne",
@@ -423,6 +489,21 @@
                 "bestRating": "5",
                 "reviewCount": "7218"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Estrel Berlin."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Berlin ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Berlin avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Berlin, Allemagne, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Hotel Adlon Kempinski Berlin",
+            "Mercure Berlin Wittenbergplatz"
+        ]
     }
 }

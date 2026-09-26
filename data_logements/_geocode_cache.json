@@ -67,5 +67,746 @@
   "jeongdongjin, corée du sud": {
     "lat": 37.6918304,
     "lng": 129.0325076
+  },
+  "dubrovnik, croatie": {
+    "lat": 42.6491029,
+    "lng": 18.0939501
+  },
+  "zagreb, croatie": {
+    "lat": 45.8130967,
+    "lng": 15.9772795
+  },
+  "split, croatie": {
+    "lat": 43.5116383,
+    "lng": 16.4399659
+  },
+  "zadar, croatie": {
+    "lat": 44.1168594,
+    "lng": 15.2353257
+  },
+  "pula, croatie": {
+    "lat": 44.8702281,
+    "lng": 13.8455311
+  },
+  "marsa alam, égypte": {
+    "lat": 25.069992,
+    "lng": 34.893817
+  },
+  "hurghada, égypte": {
+    "lat": 27.222556,
+    "lng": 33.8307062
+  },
+  "nuweiba, égypte": {
+    "lat": 29.035,
+    "lng": 34.661667
+  },
+  "charm el-cheikh, égypte": {
+    "lat": 27.8644422,
+    "lng": 34.295447
+  },
+  "dahab, égypte": {
+    "lat": 28.4963633,
+    "lng": 34.5145652
+  },
+  "gizeh, égypte": {
+    "lat": 29.9870753,
+    "lng": 31.2118063
+  },
+  "taba, égypte": {
+    "lat": 29.492821,
+    "lng": 34.892366
+  },
+  "le caire, égypte": {
+    "lat": 30.0443879,
+    "lng": 31.2357257
+  },
+  "louxor, égypte": {
+    "lat": 25.702096,
+    "lng": 32.647186
+  },
+  "marsa matruh, égypte": {
+    "lat": 31.3528567,
+    "lng": 27.2395262
+  },
+  "alexandrie, égypte": {
+    "lat": 31.1991806,
+    "lng": 29.8951716
+  },
+  "assouan, égypte": {
+    "lat": 24.091071,
+    "lng": 32.897306
+  },
+  "ain sokhna, égypte": {
+    "lat": 29.6396099,
+    "lng": 32.3057406
+  },
+  "ville du 6 octobre, égypte": {
+    "lat": 29.963099,
+    "lng": 30.9548988
+  },
+  "al-qusair, égypte": {
+    "lat": 26.104836,
+    "lng": 34.279764
+  },
+  "la manga del mar menor, espagne": {
+    "lat": 37.6459222,
+    "lng": -0.7174696
+  },
+  "peñiscola, espagne": {
+    "lat": 40.3577844,
+    "lng": 0.4073793
+  },
+  "platja d'aro, espagne": {
+    "lat": 41.8184693,
+    "lng": 3.0687997
+  },
+  "santa margarida, roses, espagne": {
+    "lat": 42.2661374,
+    "lng": 3.147287
+  },
+  "aguadulce, espagne": {
+    "lat": 37.2530195,
+    "lng": -4.9906167
+  },
+  "lloret de mar, espagne": {
+    "lat": 41.6973503,
+    "lng": 2.8392392
+  },
+  "portocolom, espagne": {
+    "lat": 39.4260949,
+    "lng": 3.2647278
+  },
+  "blanes, espagne": {
+    "lat": 41.6756178,
+    "lng": 2.7932391
+  },
+  "salou, espagne": {
+    "lat": 41.0768193,
+    "lng": 1.1440411
+  },
+  "motril, espagne": {
+    "lat": 36.7450888,
+    "lng": -3.5207655
+  },
+  "sant feliu de guíxols, espagne": {
+    "lat": 41.7838827,
+    "lng": 3.0283195
+  },
+  "el rompido, espagne": {
+    "lat": 37.2225915,
+    "lng": -7.1237849
+  },
+  "sant carles de la ràpita, espagne": {
+    "lat": 40.6178149,
+    "lng": 0.5900091
+  },
+  "coma-ruga, espagne": {
+    "lat": 41.181593,
+    "lng": 1.5230383
+  },
+  "guardamar del segura, espagne": {
+    "lat": 38.0899985,
+    "lng": -0.65381
+  },
+  "cala ratjada, espagne": {
+    "lat": 39.7106384,
+    "lng": 3.4602126
+  },
+  "calas de mallorca, espagne": {
+    "lat": 39.4646294,
+    "lng": 3.281586
+  },
+  "gandía, espagne": {
+    "lat": 38.9675925,
+    "lng": -0.1803423
+  },
+  "l'hospitalet de l'infant, espagne": {
+    "lat": 40.9996481,
+    "lng": 0.9124003
+  },
+  "rincón de la victoria, espagne": {
+    "lat": 36.7162109,
+    "lng": -4.2793767
+  },
+  "cala bona, espagne": {
+    "lat": 41.6785009,
+    "lng": 2.8081121
+  },
+  "palamós, espagne": {
+    "lat": 41.8495354,
+    "lng": 3.1278785
+  },
+  "matalascañas, espagne": {
+    "lat": 36.9990019,
+    "lng": -6.5478919
+  },
+  "el puerto de santa maría, espagne": {
+    "lat": 36.6004006,
+    "lng": -6.2252702
+  },
+  "castellón de la plana, espagne": {
+    "lat": 39.9860347,
+    "lng": -0.0377354
+  },
+  "chiclana de la frontera, espagne": {
+    "lat": 36.4191096,
+    "lng": -6.1460683
+  },
+  "roquetas de mar, espagne": {
+    "lat": 36.7630203,
+    "lng": -2.6115886
+  },
+  "el perelló, espagne": {
+    "lat": 40.8754052,
+    "lng": 0.7123762
+  },
+  "malgrat de mar, espagne": {
+    "lat": 41.6459118,
+    "lng": 2.7414054
+  },
+  "costa ballena, espagne": {
+    "lat": 36.6919838,
+    "lng": -6.4117417
+  },
+  "cambrils, espagne": {
+    "lat": 41.0679423,
+    "lng": 1.0657579
+  },
+  "camp de mar, espagne": {
+    "lat": 39.5327434,
+    "lng": 2.4145889
+  },
+  "mojácar, espagne": {
+    "lat": 37.1402087,
+    "lng": -1.8510071
+  },
+  "oropesa del mar, espagne": {
+    "lat": 40.0932078,
+    "lng": 0.1358123
+  },
+  "santa susanna, espagne": {
+    "lat": 41.6357256,
+    "lng": 2.7065933
+  },
+  "sa coma, espagne": {
+    "lat": 39.6694395,
+    "lng": 2.6885927
+  },
+  "vinaròs, espagne": {
+    "lat": 40.4703992,
+    "lng": 0.4746076
+  },
+  "tossa de mar, espagne": {
+    "lat": 41.7197773,
+    "lng": 2.9312155
+  },
+  "pineda de mar, espagne": {
+    "lat": 41.6276807,
+    "lng": 2.6898707
+  },
+  "paris, france": {
+    "lat": 48.8588897,
+    "lng": 2.320041
+  },
+  "nice, france": {
+    "lat": 43.7009358,
+    "lng": 7.2683912
+  },
+  "cannes, france": {
+    "lat": 43.5515198,
+    "lng": 7.0134418
+  },
+  "courchevel, france": {
+    "lat": 45.4140984,
+    "lng": 6.6349892
+  },
+  "bordeaux, france": {
+    "lat": 44.841225,
+    "lng": -0.5800364
+  },
+  "strasbourg, france": {
+    "lat": 48.584614,
+    "lng": 7.7507127
+  },
+  "martillac (bordeaux), france": {
+    "lat": 44.7141704,
+    "lng": -0.5422302
+  },
+  "saint-raphaël, france": {
+    "lat": 45.3043079,
+    "lng": 1.0747165
+  },
+  "hyères, france": {
+    "lat": 43.1202573,
+    "lng": 6.1301614
+  },
+  "érétrie, grèce": {
+    "lat": 38.3994689,
+    "lng": 23.7942344
+  },
+  "athènes, grèce": {
+    "lat": 37.9755648,
+    "lng": 23.7348324
+  },
+  "mati, grèce": {
+    "lat": 39.7879003,
+    "lng": 22.3239466
+  },
+  "pefkohori, grèce": {
+    "lat": 39.9881185,
+    "lng": 23.6147333
+  },
+  "loutráki, grèce": {
+    "lat": 37.9743673,
+    "lng": 22.9777228
+  },
+  "kalamata, grèce": {
+    "lat": 37.0372714,
+    "lng": 22.110707
+  },
+  "anavyssos, grèce": {
+    "lat": 37.7375619,
+    "lng": 23.9521915
+  },
+  "argassi, grèce": {
+    "lat": 37.7639938,
+    "lng": 20.9238406
+  },
+  "akrotiri, grèce": {
+    "lat": 36.3517932,
+    "lng": 25.4034872
+  },
+  "agios gordios, grèce": {
+    "lat": 39.5463723,
+    "lng": 19.8535708
+  },
+  "agios stefanos, grèce": {
+    "lat": 38.1410051,
+    "lng": 23.8575845
+  },
+  "mykonos, grèce": {
+    "lat": 37.4513937,
+    "lng": 25.3923149
+  },
+  "karterados, grèce": {
+    "lat": 36.4111617,
+    "lng": 25.4460945
+  },
+  "venise, italie": {
+    "lat": 45.4371908,
+    "lng": 12.3345898
+  },
+  "rome, italie": {
+    "lat": 41.8933203,
+    "lng": 12.4829321
+  },
+  "milan, italie": {
+    "lat": 45.4641943,
+    "lng": 9.1896346
+  },
+  "tremezzina, italie": {
+    "lat": 45.9835245,
+    "lng": 9.1914909
+  },
+  "conca dei marini, italie": {
+    "lat": 40.6176092,
+    "lng": 14.5725004
+  },
+  "ravello, italie": {
+    "lat": 40.663289,
+    "lng": 14.6125597
+  },
+  "blevio, italie": {
+    "lat": 45.8399418,
+    "lng": 9.1024697
+  },
+  "positano, italie": {
+    "lat": 40.6286581,
+    "lng": 14.4854955
+  },
+  "portofino, italie": {
+    "lat": 44.303253,
+    "lng": 9.2095582
+  },
+  "viareggio, italie": {
+    "lat": 43.8672392,
+    "lng": 10.2506055
+  },
+  "porto ercole, italie": {
+    "lat": 42.3959698,
+    "lng": 11.2025043
+  },
+  "taormina, italie": {
+    "lat": 37.8512218,
+    "lng": 15.2830191
+  },
+  "porto cervo, italie": {
+    "lat": 41.1318983,
+    "lng": 9.5353646
+  },
+  "pula, italie": {
+    "lat": 39.007433,
+    "lng": 9.001646
+  },
+  "fasano, italie": {
+    "lat": 40.834432,
+    "lng": 17.358399
+  },
+  "larache, maroc": {
+    "lat": 35.1952327,
+    "lng": -6.152913
+  },
+  "m'diq, maroc": {
+    "lat": 35.6833598,
+    "lng": -5.3232161
+  },
+  "ourika, maroc": {
+    "lat": 31.3780274,
+    "lng": -7.8048323
+  },
+  "marrakech, maroc": {
+    "lat": 31.6258257,
+    "lng": -7.9891608
+  },
+  "baie d'agadir, agadir, maroc": {
+    "lat": 31.5070042,
+    "lng": -9.7651009
+  },
+  "el harkat, maroc": null,
+  "la palmeraie, marrakech, maroc": {
+    "lat": 31.6871989,
+    "lng": -7.9621461
+  },
+  "sidi belyout, casablanca, maroc": {
+    "lat": 33.595906,
+    "lng": -7.619884
+  },
+  "founty, agadir, maroc": {
+    "lat": 30.3945833,
+    "lng": -9.5931204
+  },
+  "tanger, maroc": {
+    "lat": 35.7696302,
+    "lng": -5.8033522
+  },
+  "al houara, maroc": {
+    "lat": 35.6673322,
+    "lng": -5.9657735
+  },
+  "azilal, maroc": {
+    "lat": 31.959295,
+    "lng": -6.570991
+  },
+  "agadir, maroc": {
+    "lat": 30.4205162,
+    "lng": -9.5838532
+  },
+  "al hoceïma, maroc": {
+    "lat": 35.245114,
+    "lng": -3.930186
+  },
+  "centre-ville, agadir, maroc": {
+    "lat": 31.504358,
+    "lng": -9.7571743
+  },
+  "saïdia, maroc": {
+    "lat": 35.0822208,
+    "lng": -2.2245756
+  },
+  "l’hivernage, marrakech, maroc": {
+    "lat": 31.6225589,
+    "lng": -8.0083128
+  },
+  "taghazout, maroc": {
+    "lat": 30.5846695,
+    "lng": -9.6784988
+  },
+  "tétouan, maroc": {
+    "lat": 35.5697958,
+    "lng": -5.3746918
+  },
+  "maârif, casablanca, maroc": {
+    "lat": 33.5708072,
+    "lng": -7.6282984
+  },
+  "imouzzer, maroc": {
+    "lat": 30.6748722,
+    "lng": -9.4791148
+  },
+  "laâyoune, maroc": {
+    "lat": 27.154512,
+    "lng": -13.1953921
+  },
+  "roches noires, casablanca, maroc": {
+    "lat": 33.5931914,
+    "lng": -7.5957822
+  },
+  "tazrouft, maroc": null,
+  "nador, maroc": {
+    "lat": 35.1739922,
+    "lng": -2.9281198
+  },
+  "had beni chiker, maroc": null,
+  "médina, marrakech, maroc": {
+    "lat": 31.6329766,
+    "lng": -7.9884912
+  },
+  "souika, chefchaouen, maroc": {
+    "lat": 35.1672482,
+    "lng": -5.2625263
+  },
+  "fès el-bali, fès, maroc": {
+    "lat": 34.0606897,
+    "lng": -4.9801124
+  },
+  "dakhla, maroc": {
+    "lat": 23.6940663,
+    "lng": -15.9431274
+  },
+  "kasbah, essaouira, maroc": {
+    "lat": 31.5131509,
+    "lng": -9.7719467
+  },
+  "meknès, maroc": {
+    "lat": 33.8984131,
+    "lng": -5.5321582
+  },
+  "hassan, rabat, maroc": {
+    "lat": 34.0139405,
+    "lng": -6.8256177
+  },
+  "kasbah, marrakech, maroc": {
+    "lat": 31.6176432,
+    "lng": -7.9884514
+  },
+  "taroudant, maroc": {
+    "lat": 30.470651,
+    "lng": -8.877922
+  },
+  "fès, maroc": {
+    "lat": 34.0346534,
+    "lng": -5.0161926
+  },
+  "martil, maroc": {
+    "lat": 35.617441,
+    "lng": -5.274154
+  },
+  "moulay ali chérif, maroc": {
+    "lat": 31.284735,
+    "lng": -4.266987
+  },
+  "benguerir, maroc": {
+    "lat": 32.2327363,
+    "lng": -7.9465013
+  },
+  "guéliz, marrakech, maroc": {
+    "lat": 31.6321881,
+    "lng": -8.0108135
+  },
+  "quartier de l'océan, rabat, maroc": null,
+  "mohammédia, maroc": {
+    "lat": 33.6958383,
+    "lng": -7.3893292
+  },
+  "l’agdal, marrakech, maroc": {
+    "lat": 31.5938532,
+    "lng": -7.9767806
+  },
+  "agdal, rabat, maroc": {
+    "lat": 33.9983119,
+    "lng": -6.8542908
+  },
+  "aïn chock, casablanca, maroc": {
+    "lat": 33.5370603,
+    "lng": -7.5981542
+  },
+  "bouznika, maroc": {
+    "lat": 33.781005,
+    "lng": -7.1610294
+  },
+  "médina, rabat, maroc": {
+    "lat": 34.019368,
+    "lng": -6.8277679
+  },
+  "lisbonne, portugal": {
+    "lat": 38.7077507,
+    "lng": -9.1365919
+  },
+  "algarve, portugal": {
+    "lat": 37.2449218,
+    "lng": -8.1959563
+  },
+  "yasmine hammamet, tunisie": {
+    "lat": 36.3746888,
+    "lng": 10.5411468
+  },
+  "hammamet, tunisie": {
+    "lat": 36.4012665,
+    "lng": 10.5572827
+  },
+  "nabeul, tunisie": {
+    "lat": 36.4512897,
+    "lng": 10.7355915
+  },
+  "sidi bou saïd, tunisie": {
+    "lat": 36.8710935,
+    "lng": 10.3490516
+  },
+  "monastir, tunisie": {
+    "lat": 35.7707582,
+    "lng": 10.8280511
+  },
+  "mahdia, tunisie": {
+    "lat": 35.503642,
+    "lng": 11.0682429
+  },
+  "sousse, tunisie": {
+    "lat": 35.8288284,
+    "lng": 10.6405254
+  },
+  "port el-kantaoui, tunisie": {
+    "lat": 35.8936974,
+    "lng": 10.5965202
+  },
+  "hammam sousse, tunisie": {
+    "lat": 35.8749788,
+    "lng": 10.5935183
+  },
+  "midoun, tunisie": {
+    "lat": 33.824557,
+    "lng": 11.0069239
+  },
+  "houmt souk, tunisie": {
+    "lat": 33.8759878,
+    "lng": 10.8571532
+  },
+  "tunis, tunisie": {
+    "lat": 36.8002068,
+    "lng": 10.1857757
+  },
+  "sfax, tunisie": {
+    "lat": 34.7394361,
+    "lng": 10.7604024
+  },
+  "gammarth, tunisie": {
+    "lat": 36.9051527,
+    "lng": 10.2982512
+  },
+  "tozeur, tunisie": {
+    "lat": 33.9239001,
+    "lng": 8.1370639
+  },
+  "tabarka, tunisie": {
+    "lat": 36.9545614,
+    "lng": 8.7573829
+  },
+  "sbeitla, tunisie": {
+    "lat": 35.2403383,
+    "lng": 9.1203423
+  },
+  "kairouan, tunisie": {
+    "lat": 35.6710101,
+    "lng": 10.10062
+  },
+  "les berges du lac, tunisie": {
+    "lat": 36.8350921,
+    "lng": 10.2388419
+  },
+  "el jem, tunisie": {
+    "lat": 35.2966435,
+    "lng": 10.71284
+  },
+  "nefza, tunisie": {
+    "lat": 36.9748659,
+    "lng": 9.0748388
+  },
+  "bin rhilouf, tunisie": null,
+  "korbous, tunisie": {
+    "lat": 36.8162845,
+    "lng": 10.5689263
+  },
+  "gafsa, tunisie": {
+    "lat": 34.4224374,
+    "lng": 8.7843862
+  },
+  "bizerte, tunisie": {
+    "lat": 37.2720905,
+    "lng": 9.8708565
+  },
+  "médina, tunis, tunisie": {
+    "lat": 36.7986935,
+    "lng": 10.1717399
+  },
+  "tamaghzah, tunisie": null,
+  "taguermess, tunisie": {
+    "lat": 33.8201365,
+    "lng": 11.0335882
+  },
+  "aïn draham, tunisie": {
+    "lat": 36.7774877,
+    "lng": 8.6879509
+  },
+  "kelibia, tunisie": {
+    "lat": 36.8456561,
+    "lng": 11.0935701
+  },
+  "triffa, tunisie": null,
+  "sidi bouzid, tunisie": {
+    "lat": 34.881181,
+    "lng": 9.5263598
+  },
+  "el kef, tunisie": {
+    "lat": 36.0357643,
+    "lng": 8.7249381
+  },
+  "el ahmar, tunisie": {
+    "lat": 36.8216185,
+    "lng": 10.1608547
+  },
+  "bab bhar, tunis, tunisie": {
+    "lat": 36.8008217,
+    "lng": 10.199351
+  },
+  "nefta, tunisie": {
+    "lat": 33.820495,
+    "lng": 7.8724512
+  },
+  "qaşr awlād dabbāb, tunisie": {
+    "lat": 32.869735,
+    "lng": 10.3818859
+  },
+  "centre de tunis, tunis, tunisie": {
+    "lat": 36.8480938,
+    "lng": 10.2587269
+  },
+  "aghir, tunisie": {
+    "lat": 33.7652032,
+    "lng": 11.0173648
+  },
+  "tantana, port el-kantaoui, tunisie": null,
+  "les berges du lac, tunis, tunisie": {
+    "lat": 36.8350921,
+    "lng": 10.2388419
+  },
+  "chott meriem, tunisie": null,
+  "zarzis, tunisie": {
+    "lat": 33.5036797,
+    "lng": 11.1097173
+  },
+  "gabès, tunisie": {
+    "lat": 33.8878082,
+    "lng": 10.10044
+  },
+  "zaghouan, tunisie": {
+    "lat": 36.3319504,
+    "lng": 10.0453
+  },
+  "antalya, turquie": {
+    "lat": 36.8865728,
+    "lng": 30.7030242
+  },
+  "belek, turquie": {
+    "lat": 36.8633459,
+    "lng": 31.0578184
   }
 }

@@ -58,6 +58,27 @@
                 "bestRating": "5",
                 "reviewCount": "1071"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Amaronda Resort & Spa Eretria dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Amaronda Resort & Spa Eretria propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Érétrie ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Érétrie."
+            }
+        ],
+        "environs": "L'hôtel est situé à Érétrie, Grèce, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Athènes-Eleftherios Venizelos (ATH), à environ 53 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 53 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "The Stanley": {
@@ -118,6 +139,27 @@
                 "bestRating": "5",
                 "reviewCount": "7148"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, The Stanley dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Athènes ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Athènes."
+            }
+        ],
+        "environs": "L'hôtel est situé à Athènes, Grèce, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Grand Hyatt Athens",
+            "Amarilia Hotel",
+            "Divani Apollon Palace & Thalasso"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Athènes-Eleftherios Venizelos (ATH), à environ 19 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 19 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Grand Hyatt Athens": {
@@ -178,6 +220,31 @@
                 "bestRating": "5",
                 "reviewCount": "7332"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Grand Hyatt Athens dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Grand Hyatt Athens."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Athènes ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Athènes avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Athènes, Grèce, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "The Stanley",
+            "Amarilia Hotel",
+            "Divani Apollon Palace & Thalasso"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Athènes-Eleftherios Venizelos (ATH), à environ 19 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 19 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Zeus Essence Ramada by Wyndham Athens": {
@@ -238,6 +305,23 @@
                 "bestRating": "5",
                 "reviewCount": "2059"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Zeus Essence Ramada by Wyndham Athens dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Mati ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Mati avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Mati, Grèce, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Athènes-Eleftherios Venizelos (ATH), à environ 249 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 249 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Alia Palace Hotel - Adults Only 16+": {
@@ -298,6 +382,27 @@
                 "bestRating": "5",
                 "reviewCount": "950"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Alia Palace Hotel - Adults Only 16+ dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Alia Palace Hotel - Adults Only 16+."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Pefkohori ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Pefkohori, Grèce accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Athènes-Eleftherios Venizelos (ATH), à environ 230 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 230 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Wyndham Loutraki Poseidon Resort": {
@@ -358,6 +463,27 @@
                 "bestRating": "5",
                 "reviewCount": "616"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Wyndham Loutraki Poseidon Resort dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Wyndham Loutraki Poseidon Resort."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Loutráki ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Loutráki, Grèce, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Athènes-Eleftherios Venizelos (ATH), à environ 85 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 85 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Grecotel Filoxenia Kalamata": {
@@ -418,6 +544,27 @@
                 "bestRating": "5",
                 "reviewCount": "379"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Grecotel Filoxenia Kalamata dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Grecotel Filoxenia Kalamata propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Kalamata ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Kalamata, Grèce, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Zante (ZTH), à environ 130 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 130 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Vincci EverEden": {
@@ -478,6 +625,31 @@
                 "bestRating": "5",
                 "reviewCount": "2843"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Vincci EverEden dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Vincci EverEden propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Vincci EverEden."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Anavyssos ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Anavyssos."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Anavyssos, Grèce, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Athènes-Eleftherios Venizelos (ATH), à environ 22 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 22 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Iniohos Zante Hotel & Suites": {
@@ -540,6 +712,27 @@
                 "bestRating": "5",
                 "reviewCount": "733"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Iniohos Zante Hotel & Suites dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Iniohos Zante Hotel & Suites propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Argassi ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Argassi."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Argassi, Grèce, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Zante (ZTH), à environ 10 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 10 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Maison Des Lys - Luxury Suites": {
@@ -601,6 +794,26 @@
                 "bestRating": "5",
                 "reviewCount": "568"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Maison Des Lys - Luxury Suites dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Akrotiri ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Akrotiri avant de fixer vos dates."
+            }
+        ],
+        "environs": "Akrotiri, Grèce accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Santonero",
+            "Kalestesia Suites"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Santorin (JTR), à environ 9 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 9 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Ella Alkyna - Adults Only": {
@@ -662,6 +875,23 @@
                 "bestRating": "5",
                 "reviewCount": "1170"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Ella Alkyna - Adults Only dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Agios Gordios ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Agios Gordios, Grèce, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Zante (ZTH), à environ 227 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 227 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Amarilia Hotel": {
@@ -722,6 +952,31 @@
                 "bestRating": "5",
                 "reviewCount": "1025"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Amarilia Hotel dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Amarilia Hotel propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Athènes ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Athènes, Grèce, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "The Stanley",
+            "Grand Hyatt Athens",
+            "Divani Apollon Palace & Thalasso"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Athènes-Eleftherios Venizelos (ATH), à environ 19 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 19 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Santonero": {
@@ -782,6 +1037,26 @@
                 "bestRating": "5",
                 "reviewCount": "226"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Santonero dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Akrotiri ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Akrotiri avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Akrotiri, Grèce, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Maison Des Lys - Luxury Suites",
+            "Kalestesia Suites"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Santorin (JTR), à environ 9 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 9 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Alkistis Beach Hotel - Designed for Adults": {
@@ -842,6 +1117,23 @@
                 "bestRating": "5",
                 "reviewCount": "1304"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Alkistis Beach Hotel - Designed for Adults dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Agios Stefanos ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Agios Stefanos avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Agios Stefanos, Grèce, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Athènes-Eleftherios Venizelos (ATH), à environ 24 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 24 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Nasta Suites & Villas Intentional Living Mykonos": {
@@ -902,6 +1194,27 @@
                 "bestRating": "5",
                 "reviewCount": "107"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Nasta Suites & Villas Intentional Living Mykonos dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Nasta Suites & Villas Intentional Living Mykonos."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Mykonos ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Mykonos."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Mykonos, Grèce, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Santorin (JTR), à environ 117 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 117 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Divani Apollon Palace & Thalasso": {
@@ -962,6 +1275,31 @@
                 "bestRating": "5",
                 "reviewCount": "867"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Divani Apollon Palace & Thalasso dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Divani Apollon Palace & Thalasso propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Athènes ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Athènes avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Athènes, Grèce, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "The Stanley",
+            "Grand Hyatt Athens",
+            "Amarilia Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Athènes-Eleftherios Venizelos (ATH), à environ 19 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 19 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Agapi Villas": {
@@ -1022,6 +1360,23 @@
                 "bestRating": "5",
                 "reviewCount": "697"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Agapi Villas dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Karterados ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Karterados."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Karterados, Grèce, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Santorin (JTR), à environ 3 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 3 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Kalestesia Suites": {
@@ -1082,6 +1437,26 @@
                 "bestRating": "5",
                 "reviewCount": "468"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Kalestesia Suites dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Akrotiri ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Akrotiri, Grèce, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Maison Des Lys - Luxury Suites",
+            "Santonero"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Santorin (JTR), à environ 9 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 9 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     }
 }

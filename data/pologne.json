@@ -41,6 +41,22 @@
             "style": "Boutique-hôtel de luxe dans une demeure historique du XIVe siècle",
             "verdict": "L'Hotel Copernicus est une adresse rare et précieuse. Entre son héritage médiéval, ses fresques préservées et son service irréprochable au pied du château de Wawel, il offre une immersion royale et inoubliable à Cracovie."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 800+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 800+ expériences vécues · Mise à jour : 2026",
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Hotel Copernicus Kraków dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel Copernicus Kraków."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Cracovie ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Cracovie, Pologne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": []
     }
 }

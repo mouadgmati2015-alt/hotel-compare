@@ -68,7 +68,23 @@
                 "reviewCount": "500"
             }
         },
-        "lien": "https://www.booking.com/hotel/lk/ceylon-tea-trails.fr.html"
+        "lien": "https://www.booking.com/hotel/lk/ceylon-tea-trails.fr.html",
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "Une formule tout compris est proposée par l'hôtel ; les prestations précises incluses peuvent varier, à confirmer au moment de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Ceylon Tea Trails, Hatton dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Hatton ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Hatton."
+            }
+        ],
+        "environs": "L'hôtel est situé à Hatton, Sri Lanka, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": []
     },
     "Wild Coast Tented Lodge, Yala": {
         "pays": "Sri Lanka",
@@ -139,7 +155,27 @@
                 "reviewCount": "400"
             }
         },
-        "lien": "https://www.booking.com/hotel/lk/wild-coast-tented-lodge.fr.html"
+        "lien": "https://www.booking.com/hotel/lk/wild-coast-tented-lodge.fr.html",
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "L'établissement propose une formule All Inclusive ; le détail exact des prestations incluses est à vérifier directement lors de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Wild Coast Tented Lodge, Yala dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Wild Coast Tented Lodge, Yala."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Yala ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Yala avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Yala, Sri Lanka, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": []
     },
     "Cape Weligama, Weligama": {
         "pays": "Sri Lanka",
@@ -210,7 +246,23 @@
                 "reviewCount": "550"
             }
         },
-        "lien": "https://www.booking.com/hotel/lk/cape-weligama.fr.html"
+        "lien": "https://www.booking.com/hotel/lk/cape-weligama.fr.html",
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Cape Weligama, Weligama dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Cape Weligama, Weligama."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Weligama ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Weligama."
+            }
+        ],
+        "environs": "Implanté à Weligama, Sri Lanka, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": []
     },
     "Sigiriya Jungles, Sigiriya": {
         "pays": "Sri Lanka",
@@ -281,6 +333,22 @@
                 "reviewCount": "600"
             }
         },
-        "lien": "https://www.booking.com/hotel/lk/sigiriya-jungles.fr.html"
+        "lien": "https://www.booking.com/hotel/lk/sigiriya-jungles.fr.html",
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Sigiriya Jungles, Sigiriya dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Sigiriya Jungles, Sigiriya."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Sigiriya ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Sigiriya, Sri Lanka, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": []
     }
 }

@@ -41,6 +41,26 @@
             "style": "Resort de luxe en pleine nature",
             "verdict": "Maroma, A Belmond Hotel est le sanctuaire balnéaire par excellence au Mexique. Entre sa plage sauvage, son spa holistique et son architecture maya, il offre une déconnexion totale dans un cadre somptueux."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 600+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 600+ expériences vécues · Mise à jour : 2026",
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Maroma, A Belmond Hotel dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Maroma, A Belmond Hotel propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Maroma, A Belmond Hotel."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Riviera Maya ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Riviera Maya avant de fixer vos dates."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Riviera Maya, Mexique, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": []
     }
 }

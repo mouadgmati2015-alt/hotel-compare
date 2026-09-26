@@ -67,7 +67,27 @@
                 "bestRating": "5",
                 "reviewCount": "900"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, The Datai Langkawi dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, The Datai Langkawi propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de The Datai Langkawi."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Langkawi ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Langkawi."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Langkawi, Malaisie, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": []
     },
     "Hyatt Regency Kuantan Resort": {
         "pays": "Malaisie",
@@ -138,7 +158,27 @@
                 "bestRating": "5",
                 "reviewCount": "3019"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Hyatt Regency Kuantan Resort dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Hyatt Regency Kuantan Resort propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hyatt Regency Kuantan Resort."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Kuantan ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Kuantan."
+            }
+        ],
+        "environs": "Implanté à Kuantan, Malaisie, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": []
     },
     "The Saujana Kuala Lumpur": {
         "pays": "Malaisie",
@@ -208,7 +248,23 @@
                 "bestRating": "5",
                 "reviewCount": "1544"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, The Saujana Kuala Lumpur dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de The Saujana Kuala Lumpur."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Subang Jaya ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Subang Jaya."
+            }
+        ],
+        "environs": "Implanté à Subang Jaya, Malaisie, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": []
     },
     "Lexis Hibiscus Port Dickson": {
         "pays": "Malaisie",
@@ -280,6 +336,26 @@
                 "bestRating": "5",
                 "reviewCount": "3410"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Lexis Hibiscus Port Dickson dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Lexis Hibiscus Port Dickson propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Lexis Hibiscus Port Dickson."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Port Dickson ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Port Dickson, Malaisie, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": []
     }
 }

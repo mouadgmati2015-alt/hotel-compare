@@ -1410,6 +1410,64 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
     acces_info = d.get('acces') or {}
     comparatif_prix = d.get('comparatif_prix') or {}
     environs = d.get('environs') or ""
+    hotels_similaires_noms = d.get('hotels_similaires') or []
+ 
+    faq_html = ""
+    if faq_items:
+        faq_html = "<h3>❓ Questions fréquentes</h3>" + "".join(
+            f"""<div style="margin-bottom:14px;">
+                <p style="font-weight:700; margin:0 0 4px;">{escape_html(item.get('question', ''))}</p>
+                <p style="color:var(--muted); margin:0;">{escape_html(item.get('reponse', ''))}</p>
+            </div>""" for item in faq_items if isinstance(item, dict)
+        )
+ 
+    acces_html = ""
+    if acces_info:
+        acces_html = "<h3>🧭 Accès</h3><ul>" + "".join(
+            f"<li>{escape_html(str(v))}</li>" for v in acces_info.values() if v
+        ) + "</ul>"
+ 
+    comparatif_html = ""
+    if comparatif_prix:
+        rows = ""
+        for site_nom, site_data in comparatif_prix.items():
+            if site_nom == "note" or not isinstance(site_data, dict):
+                continue
+            rows += f"""<tr>
+                <td style="padding:8px; border:1px solid var(--line);">{escape_html(site_nom.capitalize())}</td>
+                <td style="padding:8px; border:1px solid var(--line);">{escape_html(site_data.get('prix_a_partir_de', ''))}</td>
+                <td style="padding:8px; border:1px solid var(--line);">{escape_html(site_data.get('avantages', ''))}</td>
+            </tr>"""
+        if rows:
+            comparatif_html = f"""<h3>💶 Comparatif de prix</h3>
+            <table style="width:100%; border-collapse:collapse; margin-bottom:10px;">
+                <tr style="background:var(--panel);">
+                    <th style="text-align:left; padding:8px; border:1px solid var(--line);">Plateforme</th>
+                    <th style="text-align:left; padding:8px; border:1px solid var(--line);">À partir de</th>
+                    <th style="text-align:left; padding:8px; border:1px solid var(--line);">Avantage</th>
+                </tr>
+                {rows}
+            </table>"""
+ 
+    environs_html = f"<h3>📍 Aux alentours</h3><p>{escape_html(environs)}</p>" if environs else ""
+ 
+    hotels_similaires_html = ""
+    if hotels_similaires_noms:
+        liens_similaires = ""
+        for nom_similaire in hotels_similaires_noms:
+            if nom_similaire in HOTELS_DATA_COMPLET:
+                slug_similaire = nettoyer_slug(nom_similaire)
+                liens_similaires += f'<li><a href="{slug_similaire}.html">{escape_html(nom_similaire)}</a></li>'
+        if liens_similaires:
+            hotels_similaires_html = f"<h3>🏨 Hôtels similaires</h3><ul>{liens_similaires}</ul>"
+ 
+    extra_sections_html = comparatif_html + acces_html + environs_html + faq_html + hotels_similaires_html
+ 
+ 
+# ============================================================
+# Dans le f-string html_fiche, repère cette ligne existante :
+#   {pour_qui_html}
+
  
     faq_html = ""
     if faq_items:
@@ -1518,7 +1576,7 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
     {equipements_html}
     {points_html}
     {points_negatifs_html}
-    {pour_qui_html}
+    {pour_qui_html}{extra_sections_html}
 
     <div style="margin-top: 30px;">
         <a href="{l_booking}" target="_blank" class="btn-booking">Réserver sur Booking</a>

@@ -64,6 +64,25 @@
                 "bestRating": "5",
                 "reviewCount": "1100"
             }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel Excelsior Dubrovnik."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Dubrovnik ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Dubrovnik."
+            }
+        ],
+        "environs": "Dubrovnik, Croatie accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "City Hotel Dubrovnik"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Dubrovnik (DBV), à environ 17 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 17 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "DoubleTree by Hilton Zagreb": {
@@ -135,6 +154,27 @@
                 "bestRating": "5",
                 "reviewCount": "1200"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, DoubleTree by Hilton Zagreb dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de DoubleTree by Hilton Zagreb."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Zagreb ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Zagreb."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Zagreb, Croatie, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Zagreb (ZAG), à environ 11 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 11 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "AC Hotel Split": {
@@ -207,6 +247,27 @@
                 "bestRating": "5",
                 "reviewCount": "2161"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, AC Hotel Split dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de AC Hotel Split."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Split ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Split, Croatie accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Split (SPU), à environ 12 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 12 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "City Hotel Dubrovnik": {
@@ -276,6 +337,21 @@
                 "bestRating": "5",
                 "reviewCount": "850"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Dubrovnik ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Dubrovnik, Croatie accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Hotel Excelsior Dubrovnik"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Dubrovnik (DBV), à environ 17 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 17 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Delfin": {
@@ -346,6 +422,19 @@
                 "bestRating": "5",
                 "reviewCount": "450"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Zadar ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Zadar, Croatie accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Split (SPU), à environ 107 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 107 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Galija": {
@@ -414,6 +503,21 @@
                 "bestRating": "5",
                 "reviewCount": "2000"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Pula ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Pula, Croatie, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Forte Village Resort - Hotel Le Dune, Sardinia"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Zagreb (ZAG), à environ 199 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 199 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     }
 }

@@ -41,6 +41,22 @@
             "style": "Palace historique de l'ère indochinoise",
             "verdict": "Le Sofitel Legend Metropole Hanoi est une étape incontournable et mythique. Entre son architecture coloniale préservée, son histoire fascinante et son standing irréprochable, il offre un séjour inoubliable."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 300+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 1 300+ expériences vécues · Mise à jour : 2026",
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Sofitel Legend Metropole Hanoi dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Sofitel Legend Metropole Hanoi."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Hanoï ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Hanoï avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Hanoï, Vietnam, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": []
     }
 }

@@ -41,7 +41,23 @@
             "style": "Ensemble de palais du siècle d'or",
             "verdict": "Le Waldorf Astoria Amsterdam est l'adresse ultime du luxe néerlandais. Entre ses palais le long des canaux classés et son service royal, il garantit un séjour absolument inoubliable."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 900+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 900+ expériences vécues · Mise à jour : 2026",
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Waldorf Astoria Amsterdam dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Waldorf Astoria Amsterdam."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Amsterdam ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Amsterdam."
+            }
+        ],
+        "environs": "Implanté à Amsterdam, Pays-Bas, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": []
     },
     "Grand Hotel Amrâth Kurhaus The Hague Scheveningen": {
         "pays": "Pays-Bas",
@@ -86,7 +102,27 @@
             "style": "Palace historique Belle Époque",
             "verdict": "Un hôtel au charme historique incomparable et à l'emplacement exceptionnel face à l'océan, malgré des équipements qui mériteraient un coup de jeune."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 8 500+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 8 500+ expériences vécues · Mise à jour : 2026",
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Grand Hotel Amrâth Kurhaus The Hague Scheveningen dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Grand Hotel Amrâth Kurhaus The Hague Scheveningen propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Grand Hotel Amrâth Kurhaus The Hague Scheveningen."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Scheveningen, La Haye ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Scheveningen, La Haye."
+            }
+        ],
+        "environs": "L'hôtel est situé à Scheveningen, La Haye, Pays-Bas, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": []
     },
     "Fletcher Hotel-Restaurant Leidschendam – Den Haag": {
         "pays": "Pays-Bas",
@@ -131,6 +167,14 @@
             "style": "Hôtel de tourisme et d'étape",
             "verdict": "Un choix fonctionnel et idéalement situé au bord de l'eau, parfait pour combiner visites de La Haye, shopping et tranquillité avec un parking gratuit."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 350+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 1 350+ expériences vécues · Mise à jour : 2026",
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Leidschendam, La Haye ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Leidschendam, La Haye avant de fixer vos dates."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Leidschendam, La Haye, Pays-Bas, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": []
     }
 }

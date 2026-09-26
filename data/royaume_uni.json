@@ -41,6 +41,22 @@
             "style": "Palace historique légendaire",
             "verdict": "The Savoy est une légende vivante de Londres. Entre tradition britannique, emplacement central de premier ordre et service légendaire, il garantit un séjour absolument mémorable au cœur de la capitale."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 1 400+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 1 400+ expériences vécues · Mise à jour : 2026",
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, The Savoy London dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de The Savoy London."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Londres ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Londres, Royaume-Uni, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": []
     }
 }

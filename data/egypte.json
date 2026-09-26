@@ -56,6 +56,31 @@
                 "bestRating": "5",
                 "reviewCount": "1020"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "L'établissement propose une formule All Inclusive ; le détail exact des prestations incluses est à vérifier directement lors de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Blend Elphistone Resort Marsa Alam dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Marsa Alam ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Marsa Alam avant de fixer vos dates."
+            }
+        ],
+        "environs": "Marsa Alam, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Three Corners Happy Life Beach Resort",
+            "Abu Dabbab Lodge",
+            "Fantazia Resort Marsa Alam"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Marsa Alam (RMF), à environ 62 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 62 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Bel Air Azur Resort (Adults Only)": {
@@ -113,6 +138,31 @@
                 "bestRating": "5",
                 "reviewCount": "4180"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "L'établissement propose une formule All Inclusive ; le détail exact des prestations incluses est à vérifier directement lors de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Bel Air Azur Resort (Adults Only) dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Hurghada ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Hurghada avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Hurghada, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Pharaoh Azur Resort",
+            "Sunrise Solara Aqua park Resort",
+            "MinaMark Beach Resort for Families and Couples Only"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Hurghada (HRG), à environ 6 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 6 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Pharaoh Azur Resort": {
@@ -169,6 +219,27 @@
                 "bestRating": "5",
                 "reviewCount": "1369"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Pharaoh Azur Resort dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Hurghada ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Hurghada avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Hurghada, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Bel Air Azur Resort (Adults Only)",
+            "Sunrise Solara Aqua park Resort",
+            "MinaMark Beach Resort for Families and Couples Only"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Hurghada (HRG), à environ 6 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 6 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Ananda Beach Camp": {
@@ -225,6 +296,19 @@
                 "bestRating": "5",
                 "reviewCount": "7"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Nuweiba ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Nuweiba, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Charm el-Cheikh (SSH), à environ 120 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 120 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Charmillion Gardens Aquapark": {
@@ -291,6 +375,35 @@
                 "bestRating": "5",
                 "reviewCount": "2897"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "Une formule tout compris est proposée par l'hôtel ; les prestations précises incluses peuvent varier, à confirmer au moment de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Charmillion Gardens Aquapark dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Charmillion Gardens Aquapark propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Charmillion Gardens Aquapark."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Charm el-Cheikh, Égypte, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Ghazala Gardens",
+            "Ghazala Beach",
+            "Dreams Beach Resort - Sharm El Sheikh"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Charm el-Cheikh (SSH), à environ 16 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 16 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Sunrise Solara Aqua park Resort": {
@@ -349,6 +462,31 @@
                 "bestRating": "5",
                 "reviewCount": "400"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "L'établissement propose une formule All Inclusive ; le détail exact des prestations incluses est à vérifier directement lors de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Sunrise Solara Aqua park Resort dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Hurghada ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Hurghada, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Bel Air Azur Resort (Adults Only)",
+            "Pharaoh Azur Resort",
+            "MinaMark Beach Resort for Families and Couples Only"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Hurghada (HRG), à environ 6 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 6 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Tropitel Dahab Oasis": {
@@ -407,6 +545,26 @@
                 "bestRating": "5",
                 "reviewCount": "2806"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Tropitel Dahab Oasis dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Dahab ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Dahab, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Daniela Diving Resort Dahab",
+            "Dahab Bay hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Charm el-Cheikh (SSH), à environ 59 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 59 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Three Corners Happy Life Beach Resort": {
@@ -464,6 +622,27 @@
                 "bestRating": "5",
                 "reviewCount": "527"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Three Corners Happy Life Beach Resort dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Marsa Alam ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Marsa Alam avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Marsa Alam, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Blend Elphistone Resort Marsa Alam",
+            "Abu Dabbab Lodge",
+            "Fantazia Resort Marsa Alam"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Marsa Alam (RMF), à environ 62 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 62 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "MinaMark Beach Resort for Families and Couples Only": {
@@ -523,6 +702,35 @@
                 "bestRating": "5",
                 "reviewCount": "1233"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "L'établissement propose une formule All Inclusive ; le détail exact des prestations incluses est à vérifier directement lors de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, MinaMark Beach Resort for Families and Couples Only dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, MinaMark Beach Resort for Families and Couples Only propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Hurghada ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Hurghada avant de fixer vos dates."
+            }
+        ],
+        "environs": "Hurghada, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Bel Air Azur Resort (Adults Only)",
+            "Pharaoh Azur Resort",
+            "Sunrise Solara Aqua park Resort"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Hurghada (HRG), à environ 6 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 6 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Golden Beach Resort": {
@@ -582,6 +790,35 @@
                 "bestRating": "5",
                 "reviewCount": "2004"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "L'établissement propose une formule All Inclusive ; le détail exact des prestations incluses est à vérifier directement lors de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Golden Beach Resort dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Golden Beach Resort propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Hurghada ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Hurghada avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Hurghada, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Bel Air Azur Resort (Adults Only)",
+            "Pharaoh Azur Resort",
+            "Sunrise Solara Aqua park Resort"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Hurghada (HRG), à environ 6 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 6 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Rehana Pyramids Hotel": {
@@ -640,6 +877,22 @@
                 "bestRating": "5",
                 "reviewCount": "368"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Gizeh ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Gizeh, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Mazaya Pyramids view inn",
+            "Sahary Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 24 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 24 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Ghazala Gardens": {
@@ -698,6 +951,31 @@
                 "bestRating": "5",
                 "reviewCount": "2813"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "L'établissement propose une formule All Inclusive ; le détail exact des prestations incluses est à vérifier directement lors de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Ghazala Gardens dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Charm el-Cheikh ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Charm el-Cheikh."
+            }
+        ],
+        "environs": "Charm el-Cheikh, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Charmillion Gardens Aquapark",
+            "Ghazala Beach",
+            "Dreams Beach Resort - Sharm El Sheikh"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Charm el-Cheikh (SSH), à environ 16 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 16 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Mazaya Pyramids view inn": {
@@ -757,6 +1035,22 @@
                 "bestRating": "5",
                 "reviewCount": "29"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Gizeh ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Gizeh, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Rehana Pyramids Hotel",
+            "Sahary Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 24 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 24 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Strand Beach Resort": {
@@ -816,6 +1110,27 @@
                 "bestRating": "5",
                 "reviewCount": "976"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "L'établissement propose une formule All Inclusive ; le détail exact des prestations incluses est à vérifier directement lors de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Strand Beach Resort dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Taba ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Taba avant de fixer vos dates."
+            }
+        ],
+        "environs": "Taba, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Charm el-Cheikh (SSH), à environ 175 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 175 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Ghazala Beach": {
@@ -875,6 +1190,31 @@
                 "bestRating": "5",
                 "reviewCount": "1576"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "L'établissement propose une formule All Inclusive ; le détail exact des prestations incluses est à vérifier directement lors de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Ghazala Beach dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Charm el-Cheikh ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Charm el-Cheikh, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Charmillion Gardens Aquapark",
+            "Ghazala Gardens",
+            "Dreams Beach Resort - Sharm El Sheikh"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Charm el-Cheikh (SSH), à environ 16 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 16 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Al Dora Hotel & Spa": {
@@ -935,6 +1275,35 @@
                 "bestRating": "5",
                 "reviewCount": "183"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "L'établissement propose une formule All Inclusive ; le détail exact des prestations incluses est à vérifier directement lors de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Al Dora Hotel & Spa dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Al Dora Hotel & Spa."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Hurghada ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Hurghada."
+            }
+        ],
+        "environs": "Implanté à Hurghada, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Bel Air Azur Resort (Adults Only)",
+            "Pharaoh Azur Resort",
+            "Sunrise Solara Aqua park Resort"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Hurghada (HRG), à environ 6 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 6 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "ClA Haven-Calma": {
@@ -994,6 +1363,23 @@
                 "bestRating": "5",
                 "reviewCount": "128"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Le Caire avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Le Caire, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel",
+            "The View Delta Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hur Pyramids Inn": {
@@ -1053,6 +1439,23 @@
                 "bestRating": "5",
                 "reviewCount": "138"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Le Caire."
+            }
+        ],
+        "environs": "L'hôtel est situé à Le Caire, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Glow Pyramids View Hotel",
+            "The View Delta Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Glow Pyramids View Hotel": {
@@ -1112,6 +1515,23 @@
                 "bestRating": "5",
                 "reviewCount": "121"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Le Caire avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Le Caire, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "The View Delta Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Dreams Beach Resort - Sharm El Sheikh": {
@@ -1172,6 +1592,27 @@
                 "bestRating": "5",
                 "reviewCount": "3762"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Dreams Beach Resort - Sharm El Sheikh dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Charm el-Cheikh ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Charm el-Cheikh avant de fixer vos dates."
+            }
+        ],
+        "environs": "Charm el-Cheikh, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Charmillion Gardens Aquapark",
+            "Ghazala Gardens",
+            "Ghazala Beach"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Charm el-Cheikh (SSH), à environ 16 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 16 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Daniela Diving Resort Dahab": {
@@ -1232,6 +1673,26 @@
                 "bestRating": "5",
                 "reviewCount": "88"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Daniela Diving Resort Dahab dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Dahab ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Dahab avant de fixer vos dates."
+            }
+        ],
+        "environs": "Dahab, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Tropitel Dahab Oasis",
+            "Dahab Bay hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Charm el-Cheikh (SSH), à environ 59 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 59 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "The View Delta Hotel": {
@@ -1292,6 +1753,27 @@
                 "bestRating": "5",
                 "reviewCount": "577"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, The View Delta Hotel dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Le Caire, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Veloria pyramids view Hotel": {
@@ -1352,6 +1834,23 @@
                 "bestRating": "5",
                 "reviewCount": "10"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Le Caire."
+            }
+        ],
+        "environs": "Le Caire, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "King's Gate Royal View INN": {
@@ -1411,6 +1910,23 @@
                 "bestRating": "5",
                 "reviewCount": "65"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Le Caire avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Le Caire, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Pyramids Art Inn": {
@@ -1471,6 +1987,23 @@
                 "bestRating": "5",
                 "reviewCount": "241"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Le Caire, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "House Pyramids View Hotel": {
@@ -1531,6 +2064,23 @@
                 "bestRating": "5",
                 "reviewCount": "31"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Le Caire."
+            }
+        ],
+        "environs": "Le Caire, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Saray El Omda - Egyptian Rural Village": {
@@ -1591,6 +2141,26 @@
                 "bestRating": "5",
                 "reviewCount": "227"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Saray El Omda - Egyptian Rural Village dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Louxor ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Louxor avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Louxor, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Flower Of Light Centre",
+            "Blue Nile House"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Marsa Alam (RMF), à environ 195 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 195 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Porto matrouh Magic sea": {
@@ -1651,6 +2221,25 @@
                 "bestRating": "5",
                 "reviewCount": "20"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Porto matrouh Magic sea dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Marsa Matruh ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Marsa Matruh, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Porto Matrouh Sea View Families Only"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 421 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 421 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Pyramids Palace INN": {
@@ -1710,6 +2299,23 @@
                 "bestRating": "5",
                 "reviewCount": "83"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Le Caire, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Venus Pyramids-Guest House": {
@@ -1770,6 +2376,23 @@
                 "bestRating": "5",
                 "reviewCount": "342"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Le Caire, Égypte, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Lotus Hotel - Golden Square": {
@@ -1830,6 +2453,23 @@
                 "bestRating": "5",
                 "reviewCount": "169"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Le Caire, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Lavista Pyramids View Relax & Enjoy": {
@@ -1890,6 +2530,23 @@
                 "bestRating": "5",
                 "reviewCount": "43"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Le Caire, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "El Nabila Front Pyramids & Sphinx View": {
@@ -1949,6 +2606,23 @@
                 "bestRating": "5",
                 "reviewCount": "46"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Le Caire, Égypte, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Suzana Pyramids hotel": {
@@ -2008,6 +2682,23 @@
                 "bestRating": "5",
                 "reviewCount": "117"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Le Caire."
+            }
+        ],
+        "environs": "Implanté à Le Caire, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Ma Maison Cleopatra DELUXE": {
@@ -2068,6 +2759,22 @@
                 "bestRating": "5",
                 "reviewCount": "66"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Alexandrie ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Alexandrie."
+            }
+        ],
+        "environs": "L'hôtel est situé à Alexandrie, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Ma Maison Stanley PREMIUM",
+            "2bed rooms 95m, Garden&sea view, first floor, Family only"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 188 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 188 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "MiRAGE PYRAMiDS HOTEL": {
@@ -2127,6 +2834,23 @@
                 "bestRating": "5",
                 "reviewCount": "149"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Le Caire."
+            }
+        ],
+        "environs": "L'hôtel est situé à Le Caire, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Casa Latina pyramids view": {
@@ -2186,6 +2910,23 @@
                 "bestRating": "5",
                 "reviewCount": "11"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Le Caire, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Sahary Pyramids View Hotel": {
@@ -2246,6 +2987,26 @@
                 "bestRating": "5",
                 "reviewCount": "42"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Sahary Pyramids View Hotel dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Gizeh ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Gizeh."
+            }
+        ],
+        "environs": "Gizeh, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Rehana Pyramids Hotel",
+            "Mazaya Pyramids view inn"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 24 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 24 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Calmaa Kairo": {
@@ -2306,6 +3067,23 @@
                 "bestRating": "5",
                 "reviewCount": "102"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Le Caire, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Basmatic Nubian Guest House": {
@@ -2366,6 +3144,21 @@
                 "bestRating": "5",
                 "reviewCount": "648"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Assouan ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Assouan, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Baba Dool"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Marsa Alam (RMF), à environ 236 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 236 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Light-Home Boutique l Urban Comfort in the Heart of Cairo Downtown": {
@@ -2426,6 +3219,23 @@
                 "bestRating": "5",
                 "reviewCount": "37"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Le Caire."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Le Caire, Égypte, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Pyramids Skyline Hotel Cairo": {
@@ -2486,6 +3296,23 @@
                 "bestRating": "5",
                 "reviewCount": "350"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Le Caire."
+            }
+        ],
+        "environs": "Le Caire, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Horizon Pyramids Boutique": {
@@ -2546,6 +3373,23 @@
                 "bestRating": "5",
                 "reviewCount": "110"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Le Caire."
+            }
+        ],
+        "environs": "Le Caire, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Sharm Hills Azure Paradise": {
@@ -2606,6 +3450,27 @@
                 "bestRating": "5",
                 "reviewCount": "15"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Sharm Hills Azure Paradise dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Charm el-Cheikh ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Charm el-Cheikh, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Charmillion Gardens Aquapark",
+            "Ghazala Gardens",
+            "Ghazala Beach"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Charm el-Cheikh (SSH), à environ 16 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 16 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Seven Pyramids View Inn - Rooftop Breakfast": {
@@ -2666,6 +3531,23 @@
                 "bestRating": "5",
                 "reviewCount": "692"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Le Caire, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Golden mask pyramids inn": {
@@ -2726,6 +3608,23 @@
                 "bestRating": "5",
                 "reviewCount": "131"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Le Caire avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Le Caire, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Eco green pyramids hotel": {
@@ -2786,6 +3685,23 @@
                 "bestRating": "5",
                 "reviewCount": "190"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Le Caire."
+            }
+        ],
+        "environs": "Le Caire, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Osiris City View Hotel": {
@@ -2846,6 +3762,23 @@
                 "bestRating": "5",
                 "reviewCount": "42"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Le Caire."
+            }
+        ],
+        "environs": "Implanté à Le Caire, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Al Masa Hotel El Sokhna": {
@@ -2906,6 +3839,29 @@
                 "bestRating": "5",
                 "reviewCount": "2040"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Al Masa Hotel El Sokhna dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Al Masa Hotel El Sokhna propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Ain Sokhna ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Ain Sokhna, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Spacious 3 Bedroom Sea View Apartment in Il Monte Galala"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 102 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 102 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Alba pyramids view": {
@@ -2966,6 +3922,23 @@
                 "bestRating": "5",
                 "reviewCount": "177"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Le Caire."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Le Caire, Égypte, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Spacious 3 Bedroom Sea View Apartment in Il Monte Galala": {
@@ -3025,6 +3998,25 @@
                 "bestRating": "5",
                 "reviewCount": "6"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Spacious 3 Bedroom Sea View Apartment in Il Monte Galala dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Ain Sokhna ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Ain Sokhna avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Ain Sokhna, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Al Masa Hotel El Sokhna"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 102 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 102 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Sol Pyramids Rooftop View Giza": {
@@ -3085,6 +4077,23 @@
                 "bestRating": "5",
                 "reviewCount": "79"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Le Caire."
+            }
+        ],
+        "environs": "Le Caire, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Ma Maison Stanley PREMIUM": {
@@ -3145,6 +4154,22 @@
                 "bestRating": "5",
                 "reviewCount": "90"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Alexandrie ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Alexandrie."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Alexandrie, Égypte, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Ma Maison Cleopatra DELUXE",
+            "2bed rooms 95m, Garden&sea view, first floor, Family only"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 188 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 188 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Diamond Pyramids View Inn": {
@@ -3205,6 +4230,23 @@
                 "bestRating": "5",
                 "reviewCount": "121"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Le Caire, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Porto Matrouh Sea View Families Only": {
@@ -3265,6 +4307,25 @@
                 "bestRating": "5",
                 "reviewCount": "92"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Porto Matrouh Sea View Families Only dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Marsa Matruh ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Marsa Matruh, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Porto matrouh Magic sea"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 421 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 421 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Shellghada Blue Beach": {
@@ -3325,6 +4386,27 @@
                 "bestRating": "5",
                 "reviewCount": "3187"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "Une formule tout compris est proposée par l'hôtel ; les prestations précises incluses peuvent varier, à confirmer au moment de la réservation."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Hurghada ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Hurghada, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Bel Air Azur Resort (Adults Only)",
+            "Pharaoh Azur Resort",
+            "Sunrise Solara Aqua park Resort"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Hurghada (HRG), à environ 6 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 6 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Sunrise Alma Bay Resort": {
@@ -3385,6 +4467,31 @@
                 "bestRating": "5",
                 "reviewCount": "1244"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "L'établissement propose une formule All Inclusive ; le détail exact des prestations incluses est à vérifier directement lors de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Sunrise Alma Bay Resort dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Hurghada ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Hurghada avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Hurghada, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Bel Air Azur Resort (Adults Only)",
+            "Pharaoh Azur Resort",
+            "Sunrise Solara Aqua park Resort"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Hurghada (HRG), à environ 6 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 6 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Farsha Pyramids Inn": {
@@ -3444,6 +4551,27 @@
                 "bestRating": "5",
                 "reviewCount": "263"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Farsha Pyramids Inn dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Le Caire."
+            }
+        ],
+        "environs": "Le Caire, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Pyramids Temple Guest House": {
@@ -3503,6 +4631,23 @@
                 "bestRating": "5",
                 "reviewCount": "102"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Le Caire, Égypte, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Villa 14 Suites": {
@@ -3563,6 +4708,21 @@
                 "bestRating": "5",
                 "reviewCount": "1079"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Ville du 6 Octobre ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Ville du 6 Octobre, Égypte, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Royal Day Plaza Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 47 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 47 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Abu Dabbab Lodge": {
@@ -3623,6 +4783,27 @@
                 "bestRating": "5",
                 "reviewCount": "95"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Abu Dabbab Lodge dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Marsa Alam ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Marsa Alam, Égypte, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Blend Elphistone Resort Marsa Alam",
+            "Three Corners Happy Life Beach Resort",
+            "Fantazia Resort Marsa Alam"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Marsa Alam (RMF), à environ 62 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 62 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Baba Dool": {
@@ -3682,6 +4863,21 @@
                 "bestRating": "5",
                 "reviewCount": "299"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Assouan ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Assouan avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Assouan, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Basmatic Nubian Guest House"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Marsa Alam (RMF), à environ 236 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 236 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Flower Of Light Centre": {
@@ -3741,6 +4937,26 @@
                 "bestRating": "5",
                 "reviewCount": "221"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Flower Of Light Centre dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Louxor ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Louxor."
+            }
+        ],
+        "environs": "L'hôtel est situé à Louxor, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Saray El Omda - Egyptian Rural Village",
+            "Blue Nile House"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Marsa Alam (RMF), à environ 195 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 195 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "2bed rooms 95m, Garden&sea view, first floor, Family only": {
@@ -3801,6 +5017,22 @@
                 "bestRating": "5",
                 "reviewCount": "38"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Alexandrie ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Alexandrie, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Ma Maison Cleopatra DELUXE",
+            "Ma Maison Stanley PREMIUM"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 188 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 188 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Crystal pyramid inn": {
@@ -3860,6 +5092,23 @@
                 "bestRating": "5",
                 "reviewCount": "448"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Le Caire, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Pyramids Gate Hotel": {
@@ -3919,6 +5168,23 @@
                 "bestRating": "5",
                 "reviewCount": "1727"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Le Caire avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Le Caire, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Mak Pyramids View": {
@@ -3979,6 +5245,23 @@
                 "bestRating": "5",
                 "reviewCount": "365"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Le Caire."
+            }
+        ],
+        "environs": "Le Caire, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Al Dora Boutique Hotel": {
@@ -4038,6 +5321,31 @@
                 "bestRating": "5",
                 "reviewCount": "85"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "L'établissement propose une formule All Inclusive ; le détail exact des prestations incluses est à vérifier directement lors de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Al Dora Boutique Hotel dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Hurghada ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Hurghada, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Bel Air Azur Resort (Adults Only)",
+            "Pharaoh Azur Resort",
+            "Sunrise Solara Aqua park Resort"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Hurghada (HRG), à environ 6 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 6 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Dahab Bay hotel": {
@@ -4098,6 +5406,30 @@
                 "bestRating": "5",
                 "reviewCount": "163"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "Une formule tout compris est proposée par l'hôtel ; les prestations précises incluses peuvent varier, à confirmer au moment de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Dahab Bay hotel dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Dahab ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Dahab, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Tropitel Dahab Oasis",
+            "Daniela Diving Resort Dahab"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Charm el-Cheikh (SSH), à environ 59 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 59 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Fantazia Resort Marsa Alam": {
@@ -4158,6 +5490,31 @@
                 "bestRating": "5",
                 "reviewCount": "195"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "Une formule tout compris est proposée par l'hôtel ; les prestations précises incluses peuvent varier, à confirmer au moment de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Fantazia Resort Marsa Alam dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Marsa Alam ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Marsa Alam, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Blend Elphistone Resort Marsa Alam",
+            "Three Corners Happy Life Beach Resort",
+            "Abu Dabbab Lodge"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Marsa Alam (RMF), à environ 62 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 62 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Blue Nile House": {
@@ -4218,6 +5575,26 @@
                 "bestRating": "5",
                 "reviewCount": "504"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Blue Nile House dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Louxor ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Louxor."
+            }
+        ],
+        "environs": "L'hôtel est situé à Louxor, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Saray El Omda - Egyptian Rural Village",
+            "Flower Of Light Centre"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Marsa Alam (RMF), à environ 195 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 195 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Dolphin Continental Hotel": {
@@ -4277,6 +5654,23 @@
                 "bestRating": "5",
                 "reviewCount": "103"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Dolphin Continental Hotel dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Al-Qusair ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Al-Qusair avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Al-Qusair, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Marsa Alam (RMF), à environ 68 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 68 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Sofia Pyramids Hotel": {
@@ -4337,6 +5731,27 @@
                 "bestRating": "5",
                 "reviewCount": "470"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Sofia Pyramids Hotel dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Le Caire avant de fixer vos dates."
+            }
+        ],
+        "environs": "Le Caire, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Royal Day Plaza Hotel": {
@@ -4397,6 +5812,25 @@
                 "bestRating": "5",
                 "reviewCount": "1012"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Royal Day Plaza Hotel dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Ville du 6 Octobre ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Ville du 6 Octobre."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Ville du 6 Octobre, Égypte, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Villa 14 Suites"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 47 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 47 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "The Muse Pyramids INN": {
@@ -4457,6 +5891,23 @@
                 "bestRating": "5",
                 "reviewCount": "822"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Le Caire avant de fixer vos dates."
+            }
+        ],
+        "environs": "Le Caire, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Pyramids Hotel": {
@@ -4516,6 +5967,23 @@
                 "bestRating": "5",
                 "reviewCount": "175"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Le Caire, Égypte, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Grand Museum with Pyramids view inn": {
@@ -4576,6 +6044,23 @@
                 "bestRating": "5",
                 "reviewCount": "83"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Le Caire."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Le Caire, Égypte, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Town Hotel Cairo": {
@@ -4635,6 +6120,23 @@
                 "bestRating": "5",
                 "reviewCount": "852"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Le Caire ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Le Caire avant de fixer vos dates."
+            }
+        ],
+        "environs": "Le Caire, Égypte accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "ClA Haven-Calma",
+            "Hur Pyramids Inn",
+            "Glow Pyramids View Hotel"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport du Caire (CAI), à environ 18 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 18 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Verginia Sharm Resort & Aqua Park": {
@@ -4696,6 +6198,35 @@
                 "bestRating": "5",
                 "reviewCount": "120"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Verginia Sharm Resort & Aqua Park dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Verginia Sharm Resort & Aqua Park propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Verginia Sharm Resort & Aqua Park."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Charm el-Cheikh ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Charm el-Cheikh, Égypte, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Charmillion Gardens Aquapark",
+            "Ghazala Gardens",
+            "Ghazala Beach"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Charm el-Cheikh (SSH), à environ 16 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 16 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "White Hills Resort": {
@@ -4767,6 +6298,35 @@
                 "bestRating": "5",
                 "reviewCount": "5418"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, White Hills Resort dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, White Hills Resort propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de White Hills Resort."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Charm el-Cheikh ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Charm el-Cheikh."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Charm el-Cheikh, Égypte, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Charmillion Gardens Aquapark",
+            "Ghazala Gardens",
+            "Ghazala Beach"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Charm el-Cheikh (SSH), à environ 16 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 16 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     }
 }

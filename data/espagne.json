@@ -58,6 +58,27 @@
                 "bestRating": "5",
                 "reviewCount": "3004"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Poseidon La Manga Hotel & Spa - Designed for Adults dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Poseidon La Manga Hotel & Spa - Designed for Adults."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à La Manga del Mar Menor ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de La Manga del Mar Menor."
+            }
+        ],
+        "environs": "La Manga del Mar Menor, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Alicante-Elche (ALC), à environ 72 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 72 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Palladium Hotel Peñiscola": {
@@ -118,6 +139,23 @@
                 "bestRating": "5",
                 "reviewCount": "1105"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Peñiscola ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Peñiscola avant de fixer vos dates."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Peñiscola, Espagne, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Gran Hotel Peñiscola",
+            "Hostería del Mar",
+            "Hotel RH Portocristo & Wellness"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 175 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 175 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Cap Roig & Spa by Brava Hoteles": {
@@ -179,6 +217,31 @@
                 "bestRating": "5",
                 "reviewCount": "8143"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Hotel Cap Roig & Spa by Brava Hoteles propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel Cap Roig & Spa by Brava Hoteles."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Platja d'Aro ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Platja d'Aro, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "htop Caleta Palace - Bliss",
+            "Hotel Planamar by Escampa Hotels",
+            "Aparthotel Ciutat de Palol"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 101 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 101 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Montecarlo Spa & Wellness": {
@@ -240,6 +303,25 @@
                 "bestRating": "5",
                 "reviewCount": "4827"
             }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel Montecarlo Spa & Wellness."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Santa Margarida, Roses ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Santa Margarida, Roses avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Santa Margarida, Roses, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Hotel Spa Mediterráneo Park"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 140 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 140 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Playadulce": {
@@ -301,6 +383,27 @@
                 "bestRating": "5",
                 "reviewCount": "1076"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Playadulce dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Playadulce."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Aguadulce ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Aguadulce, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Malaga-Costa del Sol (AGP), à environ 78 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 78 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel la Palmera & Spa": {
@@ -362,6 +465,27 @@
                 "bestRating": "5",
                 "reviewCount": "3659"
             }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel la Palmera & Spa."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Lloret de Mar ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Lloret de Mar avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Lloret de Mar, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Hotel Alba Seleqtta",
+            "Rosamar & Spa 4*s",
+            "ALEGRIA Sun Village"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 77 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 77 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Grupotel Cala Marsal Nature Hotel": {
@@ -423,6 +547,27 @@
                 "bestRating": "5",
                 "reviewCount": "2793"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Grupotel Cala Marsal Nature Hotel dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Grupotel Cala Marsal Nature Hotel propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Portocolom ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Portocolom avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Portocolom, Espagne, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Palma de Majorque (PMI), à environ 47 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 47 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Pimar & Spa": {
@@ -484,6 +629,27 @@
                 "bestRating": "5",
                 "reviewCount": "1746"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Hotel Pimar & Spa propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel Pimar & Spa."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Blanes ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Blanes avant de fixer vos dates."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Blanes, Espagne, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 73 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 73 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Best Negresco": {
@@ -545,6 +711,27 @@
                 "bestRating": "5",
                 "reviewCount": "2030"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Hotel Best Negresco dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Salou ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Salou, Espagne, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Num Hotel",
+            "H10 Salauris Palace",
+            "H10 Mediterranean Village"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 82 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 82 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Elba Motril Beach & Business Hotel": {
@@ -606,6 +793,23 @@
                 "bestRating": "5",
                 "reviewCount": "3760"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Elba Motril Beach & Business Hotel propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Motril ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Motril."
+            }
+        ],
+        "environs": "L'hôtel est situé à Motril, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Malaga-Costa del Sol (AGP), à environ 88 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 88 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Montjoi by Brava Hoteles": {
@@ -667,6 +871,19 @@
                 "bestRating": "5",
                 "reviewCount": "3639"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Sant Feliu de Guíxols ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Sant Feliu de Guíxols avant de fixer vos dates."
+            }
+        ],
+        "environs": "Sant Feliu de Guíxols, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 96 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 96 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Alba Seleqtta": {
@@ -728,6 +945,27 @@
                 "bestRating": "5",
                 "reviewCount": "1662"
             }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel Alba Seleqtta."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Lloret de Mar ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Lloret de Mar, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Hotel la Palmera & Spa",
+            "Rosamar & Spa 4*s",
+            "ALEGRIA Sun Village"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 77 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 77 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Fuerte El Rompido": {
@@ -789,6 +1027,27 @@
                 "bestRating": "5",
                 "reviewCount": "1460"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Hotel Fuerte El Rompido dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel Fuerte El Rompido."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à El Rompido ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de El Rompido avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à El Rompido, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Malaga-Costa del Sol (AGP), à environ 241 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 241 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Spa Mediterráneo Park": {
@@ -850,6 +1109,29 @@
                 "bestRating": "5",
                 "reviewCount": "3342"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Hotel Spa Mediterráneo Park dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel Spa Mediterráneo Park."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Santa Margarida, Roses ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Santa Margarida, Roses avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Santa Margarida, Roses, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Hotel Montecarlo Spa & Wellness"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 140 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 140 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Rosamar & Spa 4*s": {
@@ -911,6 +1193,31 @@
                 "bestRating": "5",
                 "reviewCount": "1782"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Rosamar & Spa 4*s dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Rosamar & Spa 4*s."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Lloret de Mar ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Lloret de Mar avant de fixer vos dates."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Lloret de Mar, Espagne, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Hotel la Palmera & Spa",
+            "Hotel Alba Seleqtta",
+            "ALEGRIA Sun Village"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 77 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 77 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "htop Caleta Palace - Bliss": {
@@ -971,6 +1278,31 @@
                 "bestRating": "5",
                 "reviewCount": "1546"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, htop Caleta Palace - Bliss dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, htop Caleta Palace - Bliss propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Platja d'Aro ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Platja d'Aro."
+            }
+        ],
+        "environs": "Platja d'Aro, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Hotel Cap Roig & Spa by Brava Hoteles",
+            "Hotel Planamar by Escampa Hotels",
+            "Aparthotel Ciutat de Palol"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 101 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 101 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "ALEGRIA Sun Village": {
@@ -1031,6 +1363,27 @@
                 "bestRating": "5",
                 "reviewCount": "2451"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, ALEGRIA Sun Village dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Lloret de Mar ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Lloret de Mar avant de fixer vos dates."
+            }
+        ],
+        "environs": "Lloret de Mar, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Hotel la Palmera & Spa",
+            "Hotel Alba Seleqtta",
+            "Rosamar & Spa 4*s"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 77 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 77 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel del Port": {
@@ -1091,6 +1444,19 @@
                 "bestRating": "5",
                 "reviewCount": "2137"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Sant Carles de la Ràpita ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Sant Carles de la Ràpita, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 146 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 146 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "4R Gran Europe": {
@@ -1152,6 +1518,19 @@
                 "bestRating": "5",
                 "reviewCount": "1463"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Coma-ruga ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Coma-ruga."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Coma-ruga, Espagne, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 48 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 48 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Playas de Guardamar": {
@@ -1212,6 +1591,23 @@
                 "bestRating": "5",
                 "reviewCount": "4303"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Hotel Playas de Guardamar propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Guardamar del Segura ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Guardamar del Segura, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Alicante-Elche (ALC), à environ 23 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 23 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Flacalco Hotel & Apartments": {
@@ -1272,6 +1668,23 @@
                 "bestRating": "5",
                 "reviewCount": "630"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Flacalco Hotel & Apartments dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Cala Ratjada ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Cala Ratjada, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Palma de Majorque (PMI), à environ 64 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 64 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "GHT Aquarium & Spa": {
@@ -1333,6 +1746,31 @@
                 "bestRating": "5",
                 "reviewCount": "885"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "Une formule tout compris est proposée par l'hôtel ; les prestations précises incluses peuvent varier, à confirmer au moment de la réservation."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de GHT Aquarium & Spa."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Lloret de Mar ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Lloret de Mar, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Hotel la Palmera & Spa",
+            "Hotel Alba Seleqtta",
+            "Rosamar & Spa 4*s"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 77 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 77 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Palia Maria Eugenia": {
@@ -1393,6 +1831,29 @@
                 "bestRating": "5",
                 "reviewCount": "166"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "L'établissement propose une formule All Inclusive ; le détail exact des prestations incluses est à vérifier directement lors de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Hotel Palia Maria Eugenia dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Calas de Mallorca ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Calas de Mallorca avant de fixer vos dates."
+            }
+        ],
+        "environs": "Calas de Mallorca, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Alua Calas de Mallorca Resort"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Palma de Majorque (PMI), à environ 48 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 48 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel RH Gijón & Spa": {
@@ -1454,6 +1915,26 @@
                 "bestRating": "5",
                 "reviewCount": "1159"
             }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel RH Gijón & Spa."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Gandía ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Gandía avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Gandía, Espagne, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Hotel RH Riviera - Adults Only",
+            "Senator Gandia"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Alicante-Elche (ALC), à environ 83 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 83 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Medplaya Hotel Vistamar Costa Dorada": {
@@ -1514,6 +1995,19 @@
                 "bestRating": "5",
                 "reviewCount": "1780"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à L'Hospitalet de l'Infant ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de L'Hospitalet de l'Infant."
+            }
+        ],
+        "environs": "L'hôtel est situé à L'Hospitalet de l'Infant, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 103 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 103 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Rincón Sol": {
@@ -1574,6 +2068,19 @@
                 "bestRating": "5",
                 "reviewCount": "2880"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Rincón de la Victoria ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Rincón de la Victoria avant de fixer vos dates."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Rincón de la Victoria, Espagne, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Malaga-Costa del Sol (AGP), à environ 20 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 20 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Num Hotel": {
@@ -1633,6 +2140,23 @@
                 "bestRating": "5",
                 "reviewCount": "2007"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Salou ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Salou, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Hotel Best Negresco",
+            "H10 Salauris Palace",
+            "H10 Mediterranean Village"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 82 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 82 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Gran Hotel Peñiscola": {
@@ -1693,6 +2217,31 @@
                 "bestRating": "5",
                 "reviewCount": "4436"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Gran Hotel Peñiscola dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Gran Hotel Peñiscola."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Peñiscola ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Peñiscola, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Palladium Hotel Peñiscola",
+            "Hostería del Mar",
+            "Hotel RH Portocristo & Wellness"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 175 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 175 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "htop Palm Beach SPA - Fun": {
@@ -1753,6 +2302,31 @@
                 "bestRating": "5",
                 "reviewCount": "774"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, htop Palm Beach SPA - Fun dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de htop Palm Beach SPA - Fun."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Lloret de Mar ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Lloret de Mar avant de fixer vos dates."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Lloret de Mar, Espagne, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Hotel la Palmera & Spa",
+            "Hotel Alba Seleqtta",
+            "Rosamar & Spa 4*s"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 77 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 77 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Atolon & Kaafu Beach Club": {
@@ -1812,6 +2386,19 @@
                 "bestRating": "5",
                 "reviewCount": "736"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Cala Bona ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Cala Bona avant de fixer vos dates."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Cala Bona, Espagne, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 74 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 74 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Rosamar Garden Resort 4*": {
@@ -1871,6 +2458,23 @@
                 "bestRating": "5",
                 "reviewCount": "1303"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Lloret de Mar ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Lloret de Mar, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Hotel la Palmera & Spa",
+            "Hotel Alba Seleqtta",
+            "Rosamar & Spa 4*s"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 77 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 77 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel RH Riviera - Adults Only": {
@@ -1931,6 +2535,26 @@
                 "bestRating": "5",
                 "reviewCount": "1908"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "Une formule tout compris est proposée par l'hôtel ; les prestations précises incluses peuvent varier, à confirmer au moment de la réservation."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Gandía ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Gandía, Espagne, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Hotel RH Gijón & Spa",
+            "Senator Gandia"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Alicante-Elche (ALC), à environ 83 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 83 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Alua Calas de Mallorca Resort": {
@@ -1991,6 +2615,29 @@
                 "bestRating": "5",
                 "reviewCount": "450"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "Une formule tout compris est proposée par l'hôtel ; les prestations précises incluses peuvent varier, à confirmer au moment de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Alua Calas de Mallorca Resort dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Calas de Mallorca ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Calas de Mallorca avant de fixer vos dates."
+            }
+        ],
+        "environs": "Calas de Mallorca, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Hotel Palia Maria Eugenia"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Palma de Majorque (PMI), à environ 48 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 48 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Vostra Llar": {
@@ -2050,6 +2697,19 @@
                 "bestRating": "5",
                 "reviewCount": "1483"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Palamós ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Palamós avant de fixer vos dates."
+            }
+        ],
+        "environs": "Palamós, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 107 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 107 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Ohtels Carabela": {
@@ -2110,6 +2770,23 @@
                 "bestRating": "5",
                 "reviewCount": "1406"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Ohtels Carabela dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Matalascañas ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Matalascañas, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Malaga-Costa del Sol (AGP), à environ 186 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 186 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Puerto Bahía & Spa": {
@@ -2170,6 +2847,29 @@
                 "bestRating": "5",
                 "reviewCount": "5919"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Hotel Puerto Bahía & Spa dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel Puerto Bahía & Spa."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à El Puerto de Santa María ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de El Puerto de Santa María."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à El Puerto de Santa María, Espagne, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Hotel Punta Bermeja Premium"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Malaga-Costa del Sol (AGP), à environ 154 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 154 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "RH Silene Hotel & Spa 4 Sup": {
@@ -2230,6 +2930,23 @@
                 "bestRating": "5",
                 "reviewCount": "3125"
             }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de RH Silene Hotel & Spa 4 Sup."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Castellón de la Plana ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Castellón de la Plana."
+            }
+        ],
+        "environs": "L'hôtel est situé à Castellón de la Plana, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Alicante-Elche (ALC), à environ 195 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 195 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "H10 Salauris Palace": {
@@ -2290,6 +3007,27 @@
                 "bestRating": "5",
                 "reviewCount": "1796"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, H10 Salauris Palace dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Salou ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Salou avant de fixer vos dates."
+            }
+        ],
+        "environs": "Salou, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Hotel Best Negresco",
+            "Num Hotel",
+            "H10 Mediterranean Village"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 82 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 82 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "H10 Mediterranean Village": {
@@ -2349,6 +3087,27 @@
                 "bestRating": "5",
                 "reviewCount": "1248"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, H10 Mediterranean Village dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Salou ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Salou."
+            }
+        ],
+        "environs": "Salou, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Hotel Best Negresco",
+            "Num Hotel",
+            "H10 Salauris Palace"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 82 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 82 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Vincci Resort Costa Golf": {
@@ -2408,6 +3167,19 @@
                 "bestRating": "5",
                 "reviewCount": "2895"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Chiclana de la Frontera ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Chiclana de la Frontera avant de fixer vos dates."
+            }
+        ],
+        "environs": "Chiclana de la Frontera, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Malaga-Costa del Sol (AGP), à environ 150 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 150 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Alua Golf Trinidad": {
@@ -2467,6 +3239,22 @@
                 "bestRating": "5",
                 "reviewCount": "3980"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Roquetas de Mar ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Roquetas de Mar avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Roquetas de Mar, Espagne, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Hotel Best Roquetas",
+            "Protur Roquetas Hotel & Spa"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Malaga-Costa del Sol (AGP), à environ 169 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 169 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Ohtels Les Oliveres": {
@@ -2526,6 +3314,19 @@
                 "bestRating": "5",
                 "reviewCount": "1150"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à El Perelló ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de El Perelló avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à El Perelló, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 124 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 124 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Best Roquetas": {
@@ -2585,6 +3386,22 @@
                 "bestRating": "5",
                 "reviewCount": "3462"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Roquetas de Mar ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Roquetas de Mar."
+            }
+        ],
+        "environs": "L'hôtel est situé à Roquetas de Mar, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Alua Golf Trinidad",
+            "Protur Roquetas Hotel & Spa"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Malaga-Costa del Sol (AGP), à environ 169 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 169 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Planamar by Escampa Hotels": {
@@ -2645,6 +3462,23 @@
                 "bestRating": "5",
                 "reviewCount": "3148"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Platja d'Aro ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Platja d'Aro, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Hotel Cap Roig & Spa by Brava Hoteles",
+            "htop Caleta Palace - Bliss",
+            "Aparthotel Ciutat de Palol"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 101 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 101 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "ALEGRIA Maripins": {
@@ -2704,6 +3538,19 @@
                 "bestRating": "5",
                 "reviewCount": "1277"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Malgrat de Mar ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Malgrat de Mar."
+            }
+        ],
+        "environs": "L'hôtel est situé à Malgrat de Mar, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 67 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 67 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Elba Costa Ballena Beach & Thalasso Resort": {
@@ -2763,6 +3610,23 @@
                 "bestRating": "5",
                 "reviewCount": "4533"
             }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Elba Costa Ballena Beach & Thalasso Resort."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Costa Ballena ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Costa Ballena avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Costa Ballena, Espagne, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Malaga-Costa del Sol (AGP), à environ 171 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 171 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Aparthotel Ciutat de Palol": {
@@ -2822,6 +3686,27 @@
                 "bestRating": "5",
                 "reviewCount": "967"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Aparthotel Ciutat de Palol dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Platja d'Aro ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Platja d'Aro."
+            }
+        ],
+        "environs": "Implanté à Platja d'Aro, Espagne, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Hotel Cap Roig & Spa by Brava Hoteles",
+            "htop Caleta Palace - Bliss",
+            "Hotel Planamar by Escampa Hotels"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 101 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 101 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Best Cambrils": {
@@ -2880,6 +3765,19 @@
                 "bestRating": "5",
                 "reviewCount": "2461"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Cambrils ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Cambrils, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 89 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 89 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Aromar": {
@@ -2939,6 +3837,23 @@
                 "bestRating": "5",
                 "reviewCount": "3687"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Platja d'Aro ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Platja d'Aro."
+            }
+        ],
+        "environs": "Platja d'Aro, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Hotel Cap Roig & Spa by Brava Hoteles",
+            "htop Caleta Palace - Bliss",
+            "Hotel Planamar by Escampa Hotels"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 101 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 101 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "SOL by Meliá Costa Daurada": {
@@ -2997,6 +3912,23 @@
                 "bestRating": "5",
                 "reviewCount": "3020"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Salou ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Salou."
+            }
+        ],
+        "environs": "L'hôtel est situé à Salou, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Hotel Best Negresco",
+            "Num Hotel",
+            "H10 Salauris Palace"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 82 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 82 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Cala Font": {
@@ -3056,6 +3988,23 @@
                 "bestRating": "5",
                 "reviewCount": "4766"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Salou ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Salou avant de fixer vos dates."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Salou, Espagne, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Hotel Best Negresco",
+            "Num Hotel",
+            "H10 Salauris Palace"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 82 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 82 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Alua Gran Camp de Mar": {
@@ -3114,6 +4063,19 @@
                 "bestRating": "5",
                 "reviewCount": "1434"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Camp de Mar ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Camp de Mar avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Camp de Mar, Espagne, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Palma de Majorque (PMI), à environ 28 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 28 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Best Oasis Tropical": {
@@ -3174,6 +4136,19 @@
                 "bestRating": "5",
                 "reviewCount": "2489"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Mojácar ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Mojácar avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Mojácar, Espagne, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Alicante-Elche (ALC), à environ 170 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 170 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Punta Bermeja Premium": {
@@ -3233,6 +4208,21 @@
                 "bestRating": "5",
                 "reviewCount": "1287"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à El Puerto de Santa María ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à El Puerto de Santa María, Espagne, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Hotel Puerto Bahía & Spa"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Malaga-Costa del Sol (AGP), à environ 154 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 154 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Servigroup Koral Beach 4 Sup": {
@@ -3291,6 +4281,19 @@
                 "bestRating": "5",
                 "reviewCount": "812"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Oropesa del Mar ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Oropesa del Mar avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Oropesa del Mar, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Alicante-Elche (ALC), à environ 210 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 210 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "ALEGRIA El Mar & Spa 4 SUP": {
@@ -3350,6 +4353,25 @@
                 "bestRating": "5",
                 "reviewCount": "576"
             }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de ALEGRIA El Mar & Spa 4 SUP."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Santa Susanna ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Santa Susanna, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Hotel Tahití Playa & Suites 4Sup"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 64 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 64 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Tahití Playa & Suites 4Sup": {
@@ -3409,6 +4431,25 @@
                 "bestRating": "5",
                 "reviewCount": "3116"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Hotel Tahití Playa & Suites 4Sup propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Santa Susanna ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Santa Susanna avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Santa Susanna, Espagne, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "ALEGRIA El Mar & Spa 4 SUP"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 64 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 64 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Senator Gandia": {
@@ -3469,6 +4510,30 @@
                 "bestRating": "5",
                 "reviewCount": "8521"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "Une formule tout compris est proposée par l'hôtel ; les prestations précises incluses peuvent varier, à confirmer au moment de la réservation."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Senator Gandia."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Gandía ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Gandía, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Hotel RH Gijón & Spa",
+            "Hotel RH Riviera - Adults Only"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Alicante-Elche (ALC), à environ 83 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 83 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Caprice Sa Coma Park": {
@@ -3528,6 +4593,27 @@
                 "bestRating": "5",
                 "reviewCount": "42"
             }
+        },
+        "faq": [
+            {
+                "question": "La formule est-elle vraiment tout compris ?",
+                "reponse": "L'établissement propose une formule All Inclusive ; le détail exact des prestations incluses est à vérifier directement lors de la réservation."
+            },
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Hotel Caprice Sa Coma Park dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Sa Coma ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Sa Coma."
+            }
+        ],
+        "environs": "Implanté à Sa Coma, Espagne, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Palma de Majorque (PMI), à environ 14 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 14 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hostería del Mar": {
@@ -3587,6 +4673,23 @@
                 "bestRating": "5",
                 "reviewCount": "1158"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Peñiscola ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Peñiscola, Espagne accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Palladium Hotel Peñiscola",
+            "Gran Hotel Peñiscola",
+            "Hotel RH Portocristo & Wellness"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 175 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 175 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Protur Roquetas Hotel & Spa": {
@@ -3647,6 +4750,26 @@
                 "bestRating": "5",
                 "reviewCount": "618"
             }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Protur Roquetas Hotel & Spa."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Roquetas de Mar ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Roquetas de Mar."
+            }
+        ],
+        "environs": "Implanté à Roquetas de Mar, Espagne, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Alua Golf Trinidad",
+            "Hotel Best Roquetas"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Malaga-Costa del Sol (AGP), à environ 169 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 169 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "htop Platja Park - Bliss": {
@@ -3705,6 +4828,23 @@
                 "bestRating": "5",
                 "reviewCount": "1751"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Platja d'Aro ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Platja d'Aro avant de fixer vos dates."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Platja d'Aro, Espagne, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Hotel Cap Roig & Spa by Brava Hoteles",
+            "htop Caleta Palace - Bliss",
+            "Hotel Planamar by Escampa Hotels"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 101 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 101 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel RH Vinaros Playa & Spa 4* Sup": {
@@ -3764,6 +4904,23 @@
                 "bestRating": "5",
                 "reviewCount": "2027"
             }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel RH Vinaros Playa & Spa 4* Sup."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Vinaròs ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Vinaròs avant de fixer vos dates."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Vinaròs, Espagne, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 163 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 163 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "GHT Oasis Tossa & Spa": {
@@ -3823,6 +4980,23 @@
                 "bestRating": "5",
                 "reviewCount": "896"
             }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de GHT Oasis Tossa & Spa."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Tossa de Mar ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Tossa de Mar avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Tossa de Mar, Espagne, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 85 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 85 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "htop Pineda Palace SPA 4Sup - Bliss - Adults Only Plus 18": {
@@ -3882,6 +5056,23 @@
                 "bestRating": "5",
                 "reviewCount": "853"
             }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de htop Pineda Palace SPA 4Sup - Bliss - Adults Only Plus 18."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Pineda de Mar ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Pineda de Mar avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Pineda de Mar, Espagne, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 63 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 63 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel RH Portocristo & Wellness": {
@@ -3941,6 +5132,27 @@
                 "bestRating": "5",
                 "reviewCount": "1899"
             }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel RH Portocristo & Wellness."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Peñiscola ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Peñiscola, Espagne, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Palladium Hotel Peñiscola",
+            "Gran Hotel Peñiscola",
+            "Hostería del Mar"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Barcelone-El Prat (BCN), à environ 175 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 175 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     }
 }

@@ -41,6 +41,18 @@
             "style": "Palais historique du XVIIe siècle avec jardin",
             "verdict": "The Grand Mark Prague est une adresse d'exception. Entre son somptueux palais baroque, son immense jardin secret et son standing 5 étoiles, il garantit un séjour inoubliable dans la cité des cent clochers."
         },
-        "meta_avis": "Contenu résumé par IA sur la base de 850+ expériences vécues · Mise à jour : 2026"
+        "meta_avis": "Contenu résumé par IA sur la base de 850+ expériences vécues · Mise à jour : 2026",
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de The Grand Mark Prague."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Prague ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Prague avant de fixer vos dates."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Prague, République tchèque, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": []
     }
 }

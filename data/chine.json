@@ -73,7 +73,23 @@
                 "bestRating": "5",
                 "reviewCount": "1100"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, The Peninsula Shanghai dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de The Peninsula Shanghai."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Shanghai ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Shanghai."
+            }
+        ],
+        "environs": "L'hôtel est situé à Shanghai, Chine, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": []
     },
     "East Beijing Hotel": {
         "pays": "Chine",
@@ -143,7 +159,19 @@
                 "bestRating": "5",
                 "reviewCount": "850"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, East Beijing Hotel dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Beijing ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Beijing avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Beijing, Chine, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": []
     },
     "Gran Melia Xian": {
         "pays": "Chine",
@@ -213,7 +241,23 @@
                 "bestRating": "5",
                 "reviewCount": "750"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Gran Melia Xian dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Gran Melia Xian."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Xi'an ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Xi'an."
+            }
+        ],
+        "environs": "Xi'an, Chine accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": []
     },
     "Millennium Hotel Chengdu": {
         "pays": "Chine",
@@ -283,7 +327,19 @@
                 "bestRating": "5",
                 "reviewCount": "620"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Millennium Hotel Chengdu dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Chengdu ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Chengdu avant de fixer vos dates."
+            }
+        ],
+        "environs": "Chengdu, Chine accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": []
     },
     "Shangri-La Hotel, Guangzhou": {
         "pays": "Chine",
@@ -353,6 +409,22 @@
                 "bestRating": "5",
                 "reviewCount": "980"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Shangri-La Hotel, Guangzhou dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Shangri-La Hotel, Guangzhou."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Guangzhou ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Guangzhou."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Guangzhou, Chine, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": []
     }
 }

@@ -70,7 +70,19 @@
                 "bestRating": "5",
                 "reviewCount": "1200"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel Sacher Wien."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Vienne ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Vienne avant de fixer vos dates."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Vienne, Autriche, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": []
     },
     "Inntaler Hof": {
         "pays": "Autriche",
@@ -143,6 +155,22 @@
                 "bestRating": "5",
                 "reviewCount": "69"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Inntaler Hof dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Inntaler Hof."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Seefeld in Tirol ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Seefeld in Tirol, Autriche, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": []
     }
 }

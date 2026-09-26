@@ -67,6 +67,21 @@
                 "bestRating": "5",
                 "reviewCount": "1200"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Venise ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Venise."
+            }
+        ],
+        "environs": "Venise, Italie accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "The Gritti Palace, a Luxury Collection Hotel, Venice"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Venise Marco Polo (VCE), à environ 8 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 8 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "The Gritti Palace, a Luxury Collection Hotel, Venice": {
@@ -137,6 +152,25 @@
                 "bestRating": "5",
                 "reviewCount": "950"
             }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de The Gritti Palace, a Luxury Collection Hotel, Venice."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Venise ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Venise, Italie, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Hotel Danieli, Venice"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Venise Marco Polo (VCE), à environ 8 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 8 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Eden - Dorchester Collection, Rome": {
@@ -207,6 +241,25 @@
                 "bestRating": "5",
                 "reviewCount": "850"
             }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel Eden - Dorchester Collection, Rome."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Rome ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Rome."
+            }
+        ],
+        "environs": "Rome, Italie accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Palazzo Naiadi, The Dedica Anthology, Rome"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Rome-Fiumicino (FCO), à environ 23 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 23 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Palazzo Naiadi, The Dedica Anthology, Rome": {
@@ -277,6 +330,29 @@
                 "bestRating": "5",
                 "reviewCount": "1100"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Palazzo Naiadi, The Dedica Anthology, Rome dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Palazzo Naiadi, The Dedica Anthology, Rome."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Rome ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Rome avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Rome, Italie, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Hotel Eden - Dorchester Collection, Rome"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Rome-Fiumicino (FCO), à environ 23 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 23 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Four Seasons Hotel Milano, Milan": {
@@ -348,6 +424,29 @@
                 "bestRating": "5",
                 "reviewCount": "900"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Four Seasons Hotel Milano, Milan dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Four Seasons Hotel Milano, Milan."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Milan ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Milan avant de fixer vos dates."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Milan, Italie, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Excelsior Hotel Gallia, a Luxury Collection Hotel, Milan"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Milan-Malpensa (MXP), à environ 40 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 40 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Excelsior Hotel Gallia, a Luxury Collection Hotel, Milan": {
@@ -418,6 +517,29 @@
                 "bestRating": "5",
                 "reviewCount": "1050"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Excelsior Hotel Gallia, a Luxury Collection Hotel, Milan dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Excelsior Hotel Gallia, a Luxury Collection Hotel, Milan."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Milan ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Milan, Italie, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Four Seasons Hotel Milano, Milan"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Milan-Malpensa (MXP), à environ 40 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 40 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Grand Hotel Tremezzo, Lake Como": {
@@ -488,6 +610,31 @@
                 "bestRating": "5",
                 "reviewCount": "800"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Grand Hotel Tremezzo, Lake Como dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Grand Hotel Tremezzo, Lake Como propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Grand Hotel Tremezzo, Lake Como."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Tremezzina ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Tremezzina."
+            }
+        ],
+        "environs": "L'hôtel est situé à Tremezzina, Italie, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Milan-Malpensa (MXP), à environ 53 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 53 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Monastero Santa Rosa Hotel & Spa, Amalfi": {
@@ -558,6 +705,27 @@
                 "bestRating": "5",
                 "reviewCount": "650"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Monastero Santa Rosa Hotel & Spa, Amalfi dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Monastero Santa Rosa Hotel & Spa, Amalfi."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Conca dei Marini ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Conca dei Marini avant de fixer vos dates."
+            }
+        ],
+        "environs": "Conca dei Marini, Italie accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Naples (NAP), à environ 38 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 38 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Belmond Hotel Caruso, Ravello": {
@@ -628,6 +796,23 @@
                 "bestRating": "5",
                 "reviewCount": "700"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Belmond Hotel Caruso, Ravello dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Ravello ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Ravello, Italie, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Naples (NAP), à environ 37 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 37 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Mandarin Oriental, Lago di Como": {
@@ -698,6 +883,27 @@
                 "bestRating": "5",
                 "reviewCount": "750"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Mandarin Oriental, Lago di Como dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Mandarin Oriental, Lago di Como."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Blevio ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Blevio."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Blevio, Italie, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Milan-Malpensa (MXP), à environ 37 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 37 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Il San Pietro di Positano": {
@@ -768,6 +974,27 @@
                 "bestRating": "5",
                 "reviewCount": "600"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Il San Pietro di Positano propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Il San Pietro di Positano."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Positano ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Positano avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Positano, Italie, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Naples (NAP), à environ 33 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 33 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Splendide Mare, A Belmond Hotel, Portofino": {
@@ -837,6 +1064,19 @@
                 "bestRating": "5",
                 "reviewCount": "500"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Portofino ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Portofino, Italie, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Pise (PSA), à environ 117 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 117 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Grand Hotel Principe di Piemonte, Viareggio": {
@@ -907,6 +1147,27 @@
                 "bestRating": "5",
                 "reviewCount": "750"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Grand Hotel Principe di Piemonte, Viareggio dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Grand Hotel Principe di Piemonte, Viareggio."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Viareggio ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Viareggio, Italie, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Pise (PSA), à environ 23 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 23 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hotel Il Pellicano, Porto Ercole": {
@@ -977,6 +1238,27 @@
                 "bestRating": "5",
                 "reviewCount": "550"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Hotel Il Pellicano, Porto Ercole dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel Il Pellicano, Porto Ercole."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Porto Ercole ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Porto Ercole."
+            }
+        ],
+        "environs": "Implanté à Porto Ercole, Italie, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Rome-Fiumicino (FCO), à environ 108 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 108 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Belmond Villa Sant'Andrea, Taormina Mare": {
@@ -1047,6 +1329,31 @@
                 "bestRating": "5",
                 "reviewCount": "650"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Belmond Villa Sant'Andrea, Taormina Mare dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Belmond Villa Sant'Andrea, Taormina Mare propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Belmond Villa Sant'Andrea, Taormina Mare."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Taormina ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Taormina, Italie, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Catane (CTA), à environ 47 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 47 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Romazzino, a Luxury Collection Hotel, Costa Smeralda": {
@@ -1117,6 +1424,33 @@
                 "bestRating": "5",
                 "reviewCount": "500"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Romazzino, a Luxury Collection Hotel, Costa Smeralda dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Romazzino, a Luxury Collection Hotel, Costa Smeralda propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Romazzino, a Luxury Collection Hotel, Costa Smeralda."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Porto Cervo ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Porto Cervo avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Porto Cervo, Italie, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Cala di Volpe, a Luxury Collection Hotel, Costa Smeralda"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Olbia Costa Smeralda (OLB), à environ 26 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 26 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Forte Village Resort - Hotel Le Dune, Sardinia": {
@@ -1187,6 +1521,33 @@
                 "bestRating": "5",
                 "reviewCount": "850"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Forte Village Resort - Hotel Le Dune, Sardinia dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Forte Village Resort - Hotel Le Dune, Sardinia propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Forte Village Resort - Hotel Le Dune, Sardinia."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Pula ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Pula avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Pula, Italie, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Hotel Galija"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Cagliari-Elmas (CAG), à environ 28 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 28 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "La Pescheria, Fasano (Apulie)": {
@@ -1257,6 +1618,23 @@
                 "bestRating": "5",
                 "reviewCount": "400"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, La Pescheria, Fasano (Apulie) propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Fasano ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Fasano, Italie, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Bari (BRI), à environ 61 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 61 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Cala di Volpe, a Luxury Collection Hotel, Costa Smeralda": {
@@ -1327,6 +1705,29 @@
                 "bestRating": "5",
                 "reviewCount": "700"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Cala di Volpe, a Luxury Collection Hotel, Costa Smeralda dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Cala di Volpe, a Luxury Collection Hotel, Costa Smeralda propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Porto Cervo ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Porto Cervo."
+            }
+        ],
+        "environs": "L'hôtel est situé à Porto Cervo, Italie, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Romazzino, a Luxury Collection Hotel, Costa Smeralda"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport d'Olbia Costa Smeralda (OLB), à environ 26 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 26 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     }
 }

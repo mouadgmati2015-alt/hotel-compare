@@ -62,7 +62,23 @@
                 "bestRating": "5",
                 "reviewCount": "565"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Marbella Beach Hotel dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Marbella Beach Hotel propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Golem ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Golem avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Golem, Albanie, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": []
     },
     "San Angelo Luxury Resort & Spa - Adults Only": {
         "pays": "Albanie",
@@ -129,7 +145,30 @@
                 "bestRating": "5",
                 "reviewCount": "1593"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, San Angelo Luxury Resort & Spa - Adults Only dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, San Angelo Luxury Resort & Spa - Adults Only propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de San Angelo Luxury Resort & Spa - Adults Only."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Saranda ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Saranda."
+            }
+        ],
+        "environs": "L'hôtel est situé à Saranda, Albanie, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Glow Boutique Hotel & Suites",
+            "Andon Lapa Hotel & Spa"
+        ]
     },
     "Glow Boutique Hotel & Suites": {
         "pays": "Albanie",
@@ -194,7 +233,22 @@
                 "bestRating": "5",
                 "reviewCount": "606"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Glow Boutique Hotel & Suites dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Saranda ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Saranda avant de fixer vos dates."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Saranda, Albanie, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "San Angelo Luxury Resort & Spa - Adults Only",
+            "Andon Lapa Hotel & Spa"
+        ]
     },
     "Andon Lapa Hotel & Spa": {
         "pays": "Albanie",
@@ -260,6 +314,29 @@
                 "bestRating": "5",
                 "reviewCount": "1559"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Andon Lapa Hotel & Spa dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Andon Lapa Hotel & Spa propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Andon Lapa Hotel & Spa."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Saranda ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Saranda."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Saranda, Albanie, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "San Angelo Luxury Resort & Spa - Adults Only",
+            "Glow Boutique Hotel & Suites"
+        ]
     }
 }

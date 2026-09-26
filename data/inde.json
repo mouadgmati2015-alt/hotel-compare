@@ -67,7 +67,23 @@
                 "bestRating": "5",
                 "reviewCount": "1600"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, The Taj Mahal Palace Mumbai dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de The Taj Mahal Palace Mumbai."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Mumbai ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Mumbai."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Mumbai, Inde, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": []
     },
     "Joey's Hostel Jaipur": {
         "pays": "Inde",
@@ -137,7 +153,15 @@
                 "bestRating": "5",
                 "reviewCount": "637"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Jaipur ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Jaipur, Inde, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": []
     },
     "Conrad Pune": {
         "pays": "Inde",
@@ -208,7 +232,23 @@
                 "bestRating": "5",
                 "reviewCount": "615"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Conrad Pune dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Conrad Pune."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Pune ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Pune, Inde, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": []
     },
     "Vivanta Coimbatore": {
         "pays": "Inde",
@@ -279,6 +319,22 @@
                 "bestRating": "5",
                 "reviewCount": "1034"
             }
-        }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Vivanta Coimbatore dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Vivanta Coimbatore."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Coimbatore ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Coimbatore."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Coimbatore, Inde, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": []
     }
 }

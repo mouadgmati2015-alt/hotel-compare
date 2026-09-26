@@ -58,6 +58,29 @@
                 "bestRating": "5",
                 "reviewCount": "500"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Shangri-La Paris dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Shangri-La Paris."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Paris ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Paris, France, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [
+            "Hôtel Barrière Le Fouquet's Paris"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport Paris-Charles de Gaulle (CDG), à environ 24 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 24 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hôtel Barrière Le Fouquet's Paris": {
@@ -118,6 +141,25 @@
                 "bestRating": "5",
                 "reviewCount": "400"
             }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hôtel Barrière Le Fouquet's Paris."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Paris ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Paris, France, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Shangri-La Paris"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport Paris-Charles de Gaulle (CDG), à environ 24 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 24 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hôtel Boscolo Nice & Spa": {
@@ -179,6 +221,27 @@
                 "bestRating": "5",
                 "reviewCount": "1200"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Hôtel Boscolo Nice & Spa dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hôtel Boscolo Nice & Spa."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Nice ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Nice."
+            }
+        ],
+        "environs": "Implanté à Nice, France, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Nice Côte d'Azur (NCE), à environ 6 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 6 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hôtel Barrière Le Majestic": {
@@ -240,6 +303,31 @@
                 "bestRating": "5",
                 "reviewCount": "2000"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Hôtel Barrière Le Majestic dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "L'hôtel est-il en bord de mer ?",
+                "reponse": "Oui, Hôtel Barrière Le Majestic propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hôtel Barrière Le Majestic."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Cannes ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "L'hôtel est situé à Cannes, France, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Nice Côte d'Azur (NCE), à environ 20 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 20 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hôtel Le Chabichou": {
@@ -300,6 +388,23 @@
                 "bestRating": "5",
                 "reviewCount": "500"
             }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hôtel Le Chabichou."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Courchevel ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Courchevel, France, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Nice Côte d'Azur (NCE), à environ 201 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 201 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "InterContinental Bordeaux - Le Grand Hôtel": {
@@ -361,6 +466,27 @@
                 "bestRating": "5",
                 "reviewCount": "1500"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, InterContinental Bordeaux - Le Grand Hôtel dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de InterContinental Bordeaux - Le Grand Hôtel."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Bordeaux ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Bordeaux avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Bordeaux, France, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Bordeaux-Mérignac (BOD), à environ 11 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 11 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hôtel & Spa Régent Petite France": {
@@ -421,6 +547,25 @@
                 "bestRating": "5",
                 "reviewCount": "800"
             }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hôtel & Spa Régent Petite France."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Strasbourg ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Strasbourg avant de fixer vos dates."
+            }
+        ],
+        "environs": "L'hôtel est situé à Strasbourg, France, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [
+            "Hôtel Cour du Corbeau"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Strasbourg (SXB), à environ 10 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 10 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hôtel Cour du Corbeau": {
@@ -481,6 +626,21 @@
                 "bestRating": "5",
                 "reviewCount": "900"
             }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Strasbourg ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Strasbourg avant de fixer vos dates."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Strasbourg, France, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Hôtel & Spa Régent Petite France"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Strasbourg (SXB), à environ 10 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 10 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hôtel des Sources de Caudalie": {
@@ -542,6 +702,27 @@
                 "bestRating": "5",
                 "reviewCount": "700"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Hôtel des Sources de Caudalie dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hôtel des Sources de Caudalie."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Martillac (Bordeaux) ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Martillac (Bordeaux) avant de fixer vos dates."
+            }
+        ],
+        "environs": "Implanté à Martillac (Bordeaux), France, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Bordeaux-Mérignac (BOD), à environ 19 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 19 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Hôtel Les Roches Rouges": {
@@ -602,6 +783,23 @@
                 "bestRating": "5",
                 "reviewCount": "450"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Hôtel Les Roches Rouges dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Saint-Raphaël ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Saint-Raphaël, France accueille cet établissement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Bordeaux-Mérignac (BOD), à environ 150 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 150 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     },
     "Camping Les Palmiers": {
@@ -672,6 +870,27 @@
                 "bestRating": "5",
                 "reviewCount": "888"
             }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Camping Les Palmiers dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Camping Les Palmiers."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Hyères ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Cet hôtel se trouve à Hyères, France, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Nice Côte d'Azur (NCE), à environ 106 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 106 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
     }
 }

@@ -13133,19 +13133,79 @@
         "etoiles": "4 étoiles",
         "prix": "100€ - 200€ / nuit",
         "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/36190641.jpg?k=7bdc61d5e0651264aa59794a8639684990936f0d47f30cee22d09b6ebf11cec1&o=",
-        "description": "Situé en bord de mer avec un accès direct à la plage d'Hammamet et à environ 3 km du centre-ville, l'hôtel 4 étoiles Le Sultan propose un cadre élégant de style classique. Il dispose de 2 à 3 piscines, d'un spa et centre de bien-être, d'un centre de remise en forme, ainsi que de plusieurs restaurants et bars (dont le Restaurant Les Voiliers, le restaurant fusion Sakura et le piano-bar Sherazade). Un service de navette gratuit vers le golf de Yasmine et le centre de plongée est également proposé.",
+        "description": "Situé en bord de mer avec un accès direct à la plage d'Hammamet, l'hôtel 4 étoiles Le Sultan propose un cadre élégant, 2 à 3 piscines, un spa et centre de bien-être, ainsi que plusieurs restaurants et bars.",
         "equipements": [
+            "4 étoiles",
             "Accès direct à la plage privée",
             "Piscines extérieures",
             "Spa et centre de bien-être",
-            "Centre de remise en forme (salle de sport)",
-            "Plusieurs restaurants et bars (dont piano-bar)",
+            "Centre de remise en forme",
+            "Restaurants et bars",
             "Connexion Wi-Fi",
-            "Parking privé gratuit",
-            "Navette gratuite pour le golf et la plongée"
+            "Parking privé gratuit"
         ],
         "lien_booking": "https://www.booking.com/hotel/tn/le-sultan.fr.html?aid=8012379",
         "lien_expedia": "https://www.expedia.fr/Hammamet-Hotel-Le-Sultan.h898500.Description-Hotel"
+    },
+    {
+        "nom": "Dar El Jeld Hotel and Spa",
+        "slug": "dar-el-jeld-hotel-and-spa",
+        "ville": "Tunis",
+        "pays": "Tunisie",
+        "etoiles": "5 étoiles",
+        "prix": "250€ - 450€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/214545978.jpg?k=6cce7c8165f0352aa513345c19966f2ce19c1dc46843ee99630607c65e6139a7&o=",
+        "description": "Situé au cœur de la Médina de Tunis, le Dar El Jeld Hotel and Spa propose un établissement 5 étoiles de luxe avec des suites somptueuses, un spa, un hammam et une terrasse sur le toit.",
+        "equipements": [
+            "5 étoiles",
+            "Spa et centre de bien-être",
+            "Hammam",
+            "Restaurant gastronomique",
+            "Rooftop",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/tn/dar-el-jeld-and-spa.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Tunis-Hotel-Dar-El-Jeld-Hotel-Spa.h27187143.Description-Hotel"
+    },
+    {
+        "nom": "Dar Ben Gacem",
+        "slug": "dar-ben-gacem",
+        "ville": "Tunis",
+        "pays": "Tunisie",
+        "etoiles": "Maison d'hôtes de charme",
+        "prix": "90€ - 160€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/68905025.jpg?k=b748235a7579600ef1c6af72ee808cc559e1d57f475443971b77e47de77c5161&o=",
+        "description": "Situé au cœur de la Médina de Tunis, le Dar Ben Gacem est une magnifique maison traditionnelle tunisienne superbement restaurée. Cet établissement de charme propose un havre de paix doté d'une connexion Wi-Fi gratuite, de chambres décorées dans un style traditionnel authentique, d'un patio reposant et d'une terrasse panoramique (rooftop) offrant une vue imprenable sur la ville.",
+        "equipements": [
+            "Maison d'hôtes de charme",
+            "Terrasse panoramique (rooftop)",
+            "Patio traditionnel",
+            "Connexion Wi-Fi gratuite",
+            "Navette aéroport",
+            "Climatisation"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/tn/dar-ben-gacem.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Tunis-Hotel-Dar-Ben-Gacem.h6459996.Description-Hotel"
+    },
+    {
+        "nom": "Dar Nesri",
+        "slug": "dar-nesri",
+        "ville": "Zaghouan",
+        "pays": "Tunisie",
+        "etoiles": "Maison d'hôtes / Gîte",
+        "prix": "80€ - 140€ / nuit",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/781341365.jpg?k=8a2bae83a66799c91ac04ae804e696d5d5959a4a2d254eefb6e7872461a36a6c&o=",
+        "description": "Situé à Zaghouan au pied de la montagne avec un accès direct aux chemins de randonnée, l'établissement Dar Nesri propose un cadre exceptionnel et paisible. Il dispose d'une piscine extérieure ouverte en saison, d'un jardin luxuriant, d'une terrasse avec vue panoramique sur la montagne, ainsi que d'appartements et gîtes climatisés parfaitement équipés.",
+        "equipements": [
+            "Piscine extérieure en saison",
+            "Jardin et terrasse avec vue sur la montagne",
+            "Climatisation",
+            "Parking privé gratuit",
+            "Connexion Wi-Fi",
+            "Cuisine / équipements complets en appartement"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/tn/dar-nesri.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Zaghouan-Hotel-Dar-Nesri.h123465390.Description-Hotel"
     },
     {
         "nom": "The Marni Hotel & Spa - Adults Only 12 Plus",
