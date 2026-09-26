@@ -1503,10 +1503,7 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
             <p>{escape_html(public)}</p>
             {f'<p style="color:var(--muted);">{escape_html(details)}</p>' if details else ''}
             {f'<h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">{escape_html(verdict)}</p>' if verdict else ''}   
-    {comparatif_html}
-    {acces_html}
-    {environs_html}
-    {faq_html}
+    
         </div>
         """
     description = escape_html(d.get('description_ia') or d.get('description', ''))
