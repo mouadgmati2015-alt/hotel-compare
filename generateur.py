@@ -1213,10 +1213,11 @@ html_accueil = f"""<!DOCTYPE html>
         {menu_html}
         <div class="hero-banner">
             <div class="hero-badges">
-                <span>✨ 1 200+ hôtels comparés</span>
-                <span>📍 Destinations partout dans le monde</span>
-                <span>🧠 Analyse des avis</span>
-            </div>
+    <span>✨ 1 200+ hôtels comparés</span>
+    <span>📍 Destinations partout dans le monde</span>
+    <span>🧠 Analyse des avis</span>
+    <span>🛂 Infos visas par nationalité</span>
+</div>
             <h2 style="margin:0 0 10px; font-size: clamp(2rem, 4vw, 3rem);">Trouvez le bon hôtel, au bon prix, sans perdre une heure.</h2>
             <p style="margin:0; max-width: 700px; font-size: 1.05rem; line-height: 1.7; color: rgba(45,28,16,0.9);">Comparez les meilleurs séjours, découvrez les meilleurs rapports qualité-prix et réservez en quelques clics.</p>
             <a href="hotels.html" class="btn-compare" style="display:inline-block; text-decoration:none; width:auto; margin-top:20px; padding:14px 28px;">🔍 Comparer les hôtels</a>
@@ -1517,6 +1518,15 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
     comparatif_prix = d.get('comparatif_prix') or {}
     environs = d.get('environs') or ""
     hotels_similaires_noms = d.get('hotels_similaires') or []
+    avertissement_sinai = d.get('avertissement_visa_sinai') or ""
+
+    avertissement_sinai_html = ""
+    if avertissement_sinai:
+        avertissement_sinai_html = f"""
+        <div class="glass-box" style="margin-top:14px; border-left:5px solid var(--warning); background:#fff8e8;">
+            <p style="margin:0; font-weight:600;">⚠️ {escape_html(avertissement_sinai)}</p>
+        </div>
+        """
  
     faq_html = ""
     if faq_items:
@@ -1649,7 +1659,7 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
     {equipements_html}
     {points_html}
     {points_negatifs_html}
-    {widget_visa_html}
+    {widget_visa_html}{avertissement_sinai_html}
     {pour_qui_html}{extra_sections_html}
 
     <div style="margin-top: 30px;">
