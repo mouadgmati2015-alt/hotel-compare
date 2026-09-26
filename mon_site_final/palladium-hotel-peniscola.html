@@ -216,18 +216,60 @@ a { color: var(--secondary); }
     <h3>✅ Points Positifs</h3><ul><li>Cadre historique exceptionnel à proximité immédiate du château templier de Peñiscola.</li><li>Chambres deluxe spacieuses offrant un confort thermique et acoustique remarquable.</li><li>Petit-déjeuner copieux de grande qualité inclus dans la formule de séjour.</li><li>Niveau de satisfaction solide confirmé par plus de 1 100 voyageurs. (Trip.com)</li></ul>
     <h3>⚠️ Points négatifs</h3><ul><li>Forte affluence touristique dans la ville historique durant la période estivale.</li><li>Tarif hebdomadaire (environ 535€) positionné dans la moyenne haute locale.</li><li>Disponibilité restreinte sur les catégories deluxe en haute saison.</li></ul>
     
+    <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--secondary);">
+        <h3 style="margin-top:0;">🛂 Formalités & Visa pour Espagne</h3>
+        <p style="font-size: 0.9rem; color: var(--muted);">Sélectionnez votre nationalité (passeport) :</p>
+        
+        <select id="select-nationalite" onchange="verifierVisa()" style="width:100%; max-width:350px; padding:10px; border-radius:10px; border:1px solid var(--line); margin-bottom:12px;">
+            <option value="">-- Choisir votre passeport --</option>
+            <option value="DZ">Algérie</option><option value="CA">Canada</option><option value="MA">Maroc</option><option value="TN">Tunisie</option><option value="EU">Union Européenne (Espace Schengen)</option><option value="US">États-Unis</option>
+        </select>
+        
+        <div id="resultat-visa" style="font-weight: 600; padding: 12px; background: var(--panel); border-radius: 8px; display: none; font-size: 0.95rem; line-height: 1.5;">
+        </div>
+    </div>
+
+    <script>
+    const baseVisas = {"EU": {"nom": "Union Européenne (Espace Schengen)", "regles_destinations": {"Tunisie": "Pas de visa requis pour un séjour touristique de 90 jours maximum. Passeport en cours de validité obligatoire (couvrant toute la durée du séjour).", "États-Unis": "Exemption de visa pour un séjour touristique de 90 jours maximum, soumis à l'obtention préalable d'une autorisation ESTA. Passeport biométrique ou électronique valide requis.", "Canada": "Exemption de visa pour un séjour touristique de 6 mois maximum, soumis à l'obtention préalable d'une Ave (Autorisation de voyage électronique). Passeport valide requis."}, "regle_generale": "Circulation libre au sein de l'espace Schengen. Vérifiez les conditions spécifiques pour les pays hors UE."}, "TN": {"nom": "Tunisie", "regles_destinations": {"France": "Visa Schengen obligatoire pour les séjours touristiques.", "Italie": "Visa Schengen obligatoire pour les séjours touristiques.", "Espagne": "Visa Schengen obligatoire pour les séjours touristiques.", "États-Unis": "Visa B1/B2 obligatoire pour tout séjour touristique ou d'affaires. Entretien consulaire requis.", "Canada": "Visa de résident temporaire (VRT) obligatoire pour les séjours touristiques."}, "regle_generale": "Visa généralement requis pour l'espace Schengen, l'Amérique du Nord et la plupart des pays internationaux."}, "DZ": {"nom": "Algérie", "regles_destinations": {"France": "Visa Schengen obligatoire.", "Italie": "Visa Schengen obligatoire.", "États-Unis": "Visa B1/B2 obligatoire.", "Canada": "Visa de résident temporaire (VRT) obligatoire."}, "regle_generale": "Visa requis pour l'espace Schengen et de nombreuses destinations."}, "MA": {"nom": "Maroc", "regles_destinations": {"France": "Visa Schengen obligatoire.", "États-Unis": "Visa B1/B2 obligatoire.", "Canada": "Visa de résident temporaire (VRT) obligatoire."}, "regle_generale": "Visa requis pour l'espace Schengen et de nombreuses destinations."}, "US": {"nom": "États-Unis", "regles_destinations": {"Tunisie": "Pas de visa requis pour un séjour touristique de 90 jours maximum. Passeport en cours de validité obligatoire.", "Canada": "Entrée libre sans visa pour les citoyens américains pour un séjour touristique de courte durée. Passeport valide obligatoire."}, "regle_generale": "Exemption de visa pour court séjour dans de nombreuses zones touristiques mondiales."}, "CA": {"nom": "Canada", "regles_destinations": {"Tunisie": "Pas de visa requis pour un séjour touristique de 90 jours maximum. Passeport en cours de validité obligatoire.", "États-Unis": "Entrée généralement exempte de visa pour les citoyens canadiens (soumis aux conditions d'immigration des douanes américaines). Passeport valide obligatoire."}, "regle_generale": "Exemption de visa pour de nombreux pays touristiques pour court séjour."}};
+
+    function verifierVisa() {
+        const codePays = document.getElementById('select-nationalite').value;
+        const dest = "Espagne";
+        const zoneResultat = document.getElementById('resultat-visa');
+        
+        if (!codePays) {
+            zoneResultat.style.display = 'none';
+            return;
+        }
+        
+        const infoPasseport = baseVisas[codePays];
+        zoneResultat.style.display = 'block';
+        
+        if (infoPasseport) {
+            // On cherche s'il y a une règle spécifique pour cette destination, sinon on prend la générale
+            let regle = "Règle standard applicable. Veuillez vérifier les exigences locales.";
+            if (infoPasseport.regles_destinations && infoPasseport.regles_destinations[dest]) {
+                regle = infoPasseport.regles_destinations[dest];
+            } else if (infoPasseport.regle_generale) {
+                regle = infoPasseport.regle_generale;
+            }
+
+            zoneResultat.innerHTML = "✈️ Pour un voyage vers <strong>" + dest + "</strong> avec un passeport <strong>" + infoPasseport.nom + "</strong> :<br>" + 
+                "<span style='color:var(--text); font-weight:normal;'>" + regle + "</span><br>" +
+                "<small style='color:var(--muted); margin-top:8px; display:block;'>💡 <em>Conseil Nomad :</em> Confirmez toujours vos formalités sur l'outil officiel <a href='https://www.iatatravelcentre.com' target='_blank' rel='noopener'>IATA Travel Centre</a>.</small>";
+        } else {
+            zoneResultat.innerHTML = "✈️ Veuillez consulter les services consulaires officiels pour votre destination.";
+        }
+    }
+    </script>
+    
+    
         <div class="glass-box" style="margin-top: 22px;">
             <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
             <p>Voyageurs exigeants recherchant un standard de confort élevé et des services inclus</p>
             <p style="color:var(--muted);">✨ Confortable, soigné, gourmand et idéalement situé · Hôtel 4 étoiles de standing</p>
             <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Un choix de grande qualité avec un niveau de confort exceptionnel pour découvrir Peñiscola l&#39;esprit léger.</p>   
     
-    <h3>🧭 Accès</h3><ul><li>Aéroport de Barcelone-El Prat (BCN), à environ 175 km à vol d&#39;oiseau</li><li>Environ 175 min en voiture (estimation, hors trafic)</li><li>Transferts privés ou navette disponibles sur demande auprès de l&#39;hôtel ou d&#39;un prestataire local.</li></ul>
-    <h3>📍 Aux alentours</h3><p>Cet hôtel se trouve à Peñiscola, Espagne, où l&#39;on trouve à proximité diverses attractions locales, commerces et adresses de restauration.</p>
-    <h3>❓ Questions fréquentes</h3><div style="margin-bottom:14px;">
-                <p style="font-weight:700; margin:0 0 4px;">Quelle est la meilleure période pour séjourner à Peñiscola ?</p>
-                <p style="color:var(--muted); margin:0;">Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Peñiscola avant de fixer vos dates.</p>
-            </div>
         </div>
         <h3>🧭 Accès</h3><ul><li>Aéroport de Barcelone-El Prat (BCN), à environ 175 km à vol d&#39;oiseau</li><li>Environ 175 min en voiture (estimation, hors trafic)</li><li>Transferts privés ou navette disponibles sur demande auprès de l&#39;hôtel ou d&#39;un prestataire local.</li></ul><h3>📍 Aux alentours</h3><p>Cet hôtel se trouve à Peñiscola, Espagne, où l&#39;on trouve à proximité diverses attractions locales, commerces et adresses de restauration.</p><h3>❓ Questions fréquentes</h3><div style="margin-bottom:14px;">
                 <p style="font-weight:700; margin:0 0 4px;">Quelle est la meilleure période pour séjourner à Peñiscola ?</p>

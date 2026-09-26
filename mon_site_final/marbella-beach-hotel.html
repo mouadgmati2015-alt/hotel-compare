@@ -216,24 +216,60 @@ a { color: var(--secondary); }
     <h3>✅ Points Positifs</h3><ul><li>Personnel extrêmement gentil, accueillant et à l&#39;écoute des demandes des clients.</li><li>Espace piscine propre, bien aménagé et très apprécié des familles avec de jeunes enfants.</li><li>Proximité immédiate de la plage et de la promenade de Golem à seulement quelques minutes à pied.</li><li>Chambres spacieuses offrant dans l&#39;ensemble une bonne literie et une climatisation efficace.</li><li>Cadre extérieur calme et verdoyant propice à la détente autour des terrasses.</li></ul>
     <h3>⚠️ Points négatifs</h3><ul><li>Propreté et vétusté des salles de bains régulièrement critiquées, provoquant notamment des inondations lors des douches.</li><li>Isolation phonique insuffisante, laissant entendre les bruits des couloirs et la musique extérieure tardivement.</li><li>Qualité et variété du petit-déjeuner jugées décevantes ou perfectibles par une partie des clients.</li><li>Entretien parfois insuffisant des équipements extérieurs, notamment les coussins de transats ou la plage privée.</li><li>Infrastructures de l&#39;hôtel et de certains services de chambre s&#39;apparentant davantage à un standard 3 étoiles.</li></ul>
     
+    <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--secondary);">
+        <h3 style="margin-top:0;">🛂 Formalités & Visa pour Albanie</h3>
+        <p style="font-size: 0.9rem; color: var(--muted);">Sélectionnez votre nationalité (passeport) :</p>
+        
+        <select id="select-nationalite" onchange="verifierVisa()" style="width:100%; max-width:350px; padding:10px; border-radius:10px; border:1px solid var(--line); margin-bottom:12px;">
+            <option value="">-- Choisir votre passeport --</option>
+            <option value="DZ">Algérie</option><option value="CA">Canada</option><option value="MA">Maroc</option><option value="TN">Tunisie</option><option value="EU">Union Européenne (Espace Schengen)</option><option value="US">États-Unis</option>
+        </select>
+        
+        <div id="resultat-visa" style="font-weight: 600; padding: 12px; background: var(--panel); border-radius: 8px; display: none; font-size: 0.95rem; line-height: 1.5;">
+        </div>
+    </div>
+
+    <script>
+    const baseVisas = {"EU": {"nom": "Union Européenne (Espace Schengen)", "regles_destinations": {"Tunisie": "Pas de visa requis pour un séjour touristique de 90 jours maximum. Passeport en cours de validité obligatoire (couvrant toute la durée du séjour).", "États-Unis": "Exemption de visa pour un séjour touristique de 90 jours maximum, soumis à l'obtention préalable d'une autorisation ESTA. Passeport biométrique ou électronique valide requis.", "Canada": "Exemption de visa pour un séjour touristique de 6 mois maximum, soumis à l'obtention préalable d'une Ave (Autorisation de voyage électronique). Passeport valide requis."}, "regle_generale": "Circulation libre au sein de l'espace Schengen. Vérifiez les conditions spécifiques pour les pays hors UE."}, "TN": {"nom": "Tunisie", "regles_destinations": {"France": "Visa Schengen obligatoire pour les séjours touristiques.", "Italie": "Visa Schengen obligatoire pour les séjours touristiques.", "Espagne": "Visa Schengen obligatoire pour les séjours touristiques.", "États-Unis": "Visa B1/B2 obligatoire pour tout séjour touristique ou d'affaires. Entretien consulaire requis.", "Canada": "Visa de résident temporaire (VRT) obligatoire pour les séjours touristiques."}, "regle_generale": "Visa généralement requis pour l'espace Schengen, l'Amérique du Nord et la plupart des pays internationaux."}, "DZ": {"nom": "Algérie", "regles_destinations": {"France": "Visa Schengen obligatoire.", "Italie": "Visa Schengen obligatoire.", "États-Unis": "Visa B1/B2 obligatoire.", "Canada": "Visa de résident temporaire (VRT) obligatoire."}, "regle_generale": "Visa requis pour l'espace Schengen et de nombreuses destinations."}, "MA": {"nom": "Maroc", "regles_destinations": {"France": "Visa Schengen obligatoire.", "États-Unis": "Visa B1/B2 obligatoire.", "Canada": "Visa de résident temporaire (VRT) obligatoire."}, "regle_generale": "Visa requis pour l'espace Schengen et de nombreuses destinations."}, "US": {"nom": "États-Unis", "regles_destinations": {"Tunisie": "Pas de visa requis pour un séjour touristique de 90 jours maximum. Passeport en cours de validité obligatoire.", "Canada": "Entrée libre sans visa pour les citoyens américains pour un séjour touristique de courte durée. Passeport valide obligatoire."}, "regle_generale": "Exemption de visa pour court séjour dans de nombreuses zones touristiques mondiales."}, "CA": {"nom": "Canada", "regles_destinations": {"Tunisie": "Pas de visa requis pour un séjour touristique de 90 jours maximum. Passeport en cours de validité obligatoire.", "États-Unis": "Entrée généralement exempte de visa pour les citoyens canadiens (soumis aux conditions d'immigration des douanes américaines). Passeport valide obligatoire."}, "regle_generale": "Exemption de visa pour de nombreux pays touristiques pour court séjour."}};
+
+    function verifierVisa() {
+        const codePays = document.getElementById('select-nationalite').value;
+        const dest = "Albanie";
+        const zoneResultat = document.getElementById('resultat-visa');
+        
+        if (!codePays) {
+            zoneResultat.style.display = 'none';
+            return;
+        }
+        
+        const infoPasseport = baseVisas[codePays];
+        zoneResultat.style.display = 'block';
+        
+        if (infoPasseport) {
+            // On cherche s'il y a une règle spécifique pour cette destination, sinon on prend la générale
+            let regle = "Règle standard applicable. Veuillez vérifier les exigences locales.";
+            if (infoPasseport.regles_destinations && infoPasseport.regles_destinations[dest]) {
+                regle = infoPasseport.regles_destinations[dest];
+            } else if (infoPasseport.regle_generale) {
+                regle = infoPasseport.regle_generale;
+            }
+
+            zoneResultat.innerHTML = "✈️ Pour un voyage vers <strong>" + dest + "</strong> avec un passeport <strong>" + infoPasseport.nom + "</strong> :<br>" + 
+                "<span style='color:var(--text); font-weight:normal;'>" + regle + "</span><br>" +
+                "<small style='color:var(--muted); margin-top:8px; display:block;'>💡 <em>Conseil Nomad :</em> Confirmez toujours vos formalités sur l'outil officiel <a href='https://www.iatatravelcentre.com' target='_blank' rel='noopener'>IATA Travel Centre</a>.</small>";
+        } else {
+            zoneResultat.innerHTML = "✈️ Veuillez consulter les services consulaires officiels pour votre destination.";
+        }
+    }
+    </script>
+    
+    
         <div class="glass-box" style="margin-top: 22px;">
             <h3 style="margin-top:0;">🎯 Pour qui ?</h3>
             <p>Familles et voyageurs au budget maîtrisé cherchant le soleil et la plage à Golem</p>
             <p style="color:var(--muted);">☀️ Balnéaire, simple et animé · Hôtel de côte décontracté</p>
             <h3>🧭 Verdict Nomad</h3><p style="margin-bottom:0; line-height:1.7;">Une option abordable et chaleureuse pour profiter de la mer, à condition de tolérer quelques petits défauts de confort et d&#39;entretien.</p>   
     
-    
-    <h3>📍 Aux alentours</h3><p>Implanté à Golem, Albanie, l&#39;établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.</p>
-    <h3>❓ Questions fréquentes</h3><div style="margin-bottom:14px;">
-                <p style="font-weight:700; margin:0 0 4px;">L&#39;hôtel dispose-t-il d&#39;une piscine ?</p>
-                <p style="color:var(--muted); margin:0;">Oui, Marbella Beach Hotel dispose d&#39;une piscine parmi ses équipements.</p>
-            </div><div style="margin-bottom:14px;">
-                <p style="font-weight:700; margin:0 0 4px;">L&#39;hôtel est-il en bord de mer ?</p>
-                <p style="color:var(--muted); margin:0;">Oui, Marbella Beach Hotel propose un accès plage parmi ses équipements.</p>
-            </div><div style="margin-bottom:14px;">
-                <p style="font-weight:700; margin:0 0 4px;">Quelle est la meilleure période pour séjourner à Golem ?</p>
-                <p style="color:var(--muted); margin:0;">Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Golem avant de fixer vos dates.</p>
-            </div>
         </div>
         <h3>📍 Aux alentours</h3><p>Implanté à Golem, Albanie, l&#39;établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.</p><h3>❓ Questions fréquentes</h3><div style="margin-bottom:14px;">
                 <p style="font-weight:700; margin:0 0 4px;">L&#39;hôtel dispose-t-il d&#39;une piscine ?</p>

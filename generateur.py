@@ -200,6 +200,70 @@ def nettoyer_avis(texte):
     texte = re.sub(r"\s+([,.;!?])", r"\1", texte)
     return texte.strip()
 
+def charger_nationalites():
+    chemin_json = "nationalites.json"
+    if os.path.exists(chemin_json):
+        with open(chemin_json, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+def generer_widget_visa(pays_destination):
+    nationalites_dict = charger_nationalites()
+    
+    options_html = "".join(
+        f'<option value="{code}">{escape_html(info["nom"])}</option>'
+        for code, info in sorted(nationalites_dict.items(), key=lambda x: x[1]["nom"])
+    )
+    dict_js = json.dumps(nationalites_dict, ensure_ascii=False)
+
+    return f"""
+    <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--secondary);">
+        <h3 style="margin-top:0;">🛂 Formalités & Visa pour {escape_html(pays_destination)}</h3>
+        <p style="font-size: 0.9rem; color: var(--muted);">Sélectionnez votre nationalité (passeport) :</p>
+        
+        <select id="select-nationalite" onchange="verifierVisa()" style="width:100%; max-width:350px; padding:10px; border-radius:10px; border:1px solid var(--line); margin-bottom:12px;">
+            <option value="">-- Choisir votre passeport --</option>
+            {options_html}
+        </select>
+        
+        <div id="resultat-visa" style="font-weight: 600; padding: 12px; background: var(--panel); border-radius: 8px; display: none; font-size: 0.95rem; line-height: 1.5;">
+        </div>
+    </div>
+
+    <script>
+    const baseVisas = {dict_js};
+
+    function verifierVisa() {{
+        const codePays = document.getElementById('select-nationalite').value;
+        const dest = "{escape_html(pays_destination)}";
+        const zoneResultat = document.getElementById('resultat-visa');
+        
+        if (!codePays) {{
+            zoneResultat.style.display = 'none';
+            return;
+        }}
+        
+        const infoPasseport = baseVisas[codePays];
+        zoneResultat.style.display = 'block';
+        
+        if (infoPasseport) {{
+            // On cherche s'il y a une règle spécifique pour cette destination, sinon on prend la générale
+            let regle = "Règle standard applicable. Veuillez vérifier les exigences locales.";
+            if (infoPasseport.regles_destinations && infoPasseport.regles_destinations[dest]) {{
+                regle = infoPasseport.regles_destinations[dest];
+            }} else if (infoPasseport.regle_generale) {{
+                regle = infoPasseport.regle_generale;
+            }}
+
+            zoneResultat.innerHTML = "✈️ Pour un voyage vers <strong>" + dest + "</strong> avec un passeport <strong>" + infoPasseport.nom + "</strong> :<br>" + 
+                "<span style='color:var(--text); font-weight:normal;'>" + regle + "</span><br>" +
+                "<small style='color:var(--muted); margin-top:8px; display:block;'>💡 <em>Conseil Nomad :</em> Confirmez toujours vos formalités sur l'outil officiel <a href='https://www.iatatravelcentre.com' target='_blank' rel='noopener'>IATA Travel Centre</a>.</small>";
+        }} else {{
+            zoneResultat.innerHTML = "✈️ Veuillez consulter les services consulaires officiels pour votre destination.";
+        }}
+    }}
+    </script>
+    """
 GEOCODE_CACHE_PATH = BASE_DIR / "data_logements" / "_geocode_cache.json"
 
 def charger_cache_geocodage():
@@ -1403,6 +1467,8 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
     equipements = d.get('equipements') or []
     points_positifs = [nettoyer_avis(p) for p in (d.get('points_positifs') or [])]
     points_negatifs = [nettoyer_avis(n) for n in (d.get('points_negatifs') or [])]
+    pays_hotel = d.get('pays', 'la destination')
+    widget_visa_html = generer_widget_visa(pays_hotel)
     pour_qui = d.get('pour_qui') or {}
     avis_clients = d.get('avis_clients') or generer_avis_hotel(h_nom, d)
     nomad_insight = d.get('Nomad, vous en dit plus') or d.get('nomad_vous_en_dit_plus') or ""
@@ -1543,6 +1609,7 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
     {equipements_html}
     {points_html}
     {points_negatifs_html}
+    {widget_visa_html}
     {pour_qui_html}{extra_sections_html}
 
     <div style="margin-top: 30px;">

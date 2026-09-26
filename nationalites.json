@@ -1,0 +1,57 @@
+{
+  "EU": { 
+    "nom": "Union Européenne (Espace Schengen)", 
+    "regles_destinations": {
+      "Tunisie": "Pas de visa requis pour un séjour touristique de 90 jours maximum. Passeport en cours de validité obligatoire (couvrant toute la durée du séjour).",
+      "États-Unis": "Exemption de visa pour un séjour touristique de 90 jours maximum, soumis à l'obtention préalable d'une autorisation ESTA. Passeport biométrique ou électronique valide requis.",
+      "Canada": "Exemption de visa pour un séjour touristique de 6 mois maximum, soumis à l'obtention préalable d'une Ave (Autorisation de voyage électronique). Passeport valide requis."
+    },
+    "regle_generale": "Circulation libre au sein de l'espace Schengen. Vérifiez les conditions spécifiques pour les pays hors UE."
+  },
+  "TN": { 
+    "nom": "Tunisie", 
+    "regles_destinations": {
+      "France": "Visa Schengen obligatoire pour les séjours touristiques.",
+      "Italie": "Visa Schengen obligatoire pour les séjours touristiques.",
+      "Espagne": "Visa Schengen obligatoire pour les séjours touristiques.",
+      "États-Unis": "Visa B1/B2 obligatoire pour tout séjour touristique ou d'affaires. Entretien consulaire requis.",
+      "Canada": "Visa de résident temporaire (VRT) obligatoire pour les séjours touristiques."
+    },
+    "regle_generale": "Visa généralement requis pour l'espace Schengen, l'Amérique du Nord et la plupart des pays internationaux."
+  },
+  "DZ": { 
+    "nom": "Algérie", 
+    "regles_destinations": {
+      "France": "Visa Schengen obligatoire.",
+      "Italie": "Visa Schengen obligatoire.",
+      "États-Unis": "Visa B1/B2 obligatoire.",
+      "Canada": "Visa de résident temporaire (VRT) obligatoire."
+    },
+    "regle_generale": "Visa requis pour l'espace Schengen et de nombreuses destinations."
+  },
+  "MA": { 
+    "nom": "Maroc", 
+    "regles_destinations": {
+      "France": "Visa Schengen obligatoire.",
+      "États-Unis": "Visa B1/B2 obligatoire.",
+      "Canada": "Visa de résident temporaire (VRT) obligatoire."
+    },
+    "regle_generale": "Visa requis pour l'espace Schengen et de nombreuses destinations."
+  },
+  "US": { 
+    "nom": "États-Unis", 
+    "regles_destinations": {
+      "Tunisie": "Pas de visa requis pour un séjour touristique de 90 jours maximum. Passeport en cours de validité obligatoire.",
+      "Canada": "Entrée libre sans visa pour les citoyens américains pour un séjour touristique de courte durée. Passeport valide obligatoire."
+    },
+    "regle_generale": "Exemption de visa pour court séjour dans de nombreuses zones touristiques mondiales."
+  },
+  "CA": { 
+    "nom": "Canada", 
+    "regles_destinations": {
+      "Tunisie": "Pas de visa requis pour un séjour touristique de 90 jours maximum. Passeport en cours de validité obligatoire.",
+      "États-Unis": "Entrée généralement exempte de visa pour les citoyens canadiens (soumis aux conditions d'immigration des douanes américaines). Passeport valide obligatoire."
+    },
+    "regle_generale": "Exemption de visa pour de nombreux pays touristiques pour court séjour."
+  }
+}
