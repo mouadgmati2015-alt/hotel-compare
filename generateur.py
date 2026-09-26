@@ -199,33 +199,82 @@ def nettoyer_avis(texte):
     texte = re.sub(r",\s*,\s*", ", ", texte)
     texte = re.sub(r"\s+([,.;!?])", r"\1", texte)
     return texte.strip()
-
+_NATIONALITES_CACHE = None
 def charger_nationalites():
+    global _NATIONALITES_CACHE
+    if _NATIONALITES_CACHE is not None:
+        return _NATIONALITES_CACHE
     chemin_json = "nationalites.json"
     if os.path.exists(chemin_json):
         with open(chemin_json, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {}
+            _NATIONALITES_CACHE = json.load(f)
+    else:
+        _NATIONALITES_CACHE = {}
+    return _NATIONALITES_CACHE
+ 
+ALIAS_PAYS = {
+    "republique tcheque": "tchequie",
+    "vietnam": "viet nam",
+    "montenegro": "montenegro",  # déjà avec accent côté Babel : "Monténégro"
+    "hong kong": "r.a.s. chinoise de hong kong",
+    "macao": "r.a.s. chinoise de macao",
+    "coree du sud": "coree du sud",
+    "emirats arabes unis": "emirats arabes unis",
+}
+ 
+def normaliser_nom_pays(nom):
+    """Enlève accents, espaces et casse pour comparer deux noms de pays
+    malgré des formulations légèrement différentes."""
+    nom = unicodedata.normalize('NFKD', str(nom)).encode('ascii', 'ignore').decode('ascii')
+    nom = nom.strip().lower().replace(" ", "").replace("-", "").replace("'", "")
+    return nom
+ 
+def normaliser_avec_alias(nom):
+    brut = str(nom).strip().lower()
+    brut_sans_accent = unicodedata.normalize('NFKD', brut).encode('ascii', 'ignore').decode('ascii')
+    if brut_sans_accent in ALIAS_PAYS:
+        brut_sans_accent = ALIAS_PAYS[brut_sans_accent]
+    return brut_sans_accent.replace(" ", "").replace("-", "").replace("'", "")
 
 def generer_widget_visa(pays_destination):
     nationalites_dict = charger_nationalites()
-    
+    dest_normalise = normaliser_avec_alias(pays_destination)
+
+    # On n'embarque, pour chaque nationalité, QUE la règle concernant
+    # cette destination précise — pas les ~198 autres destinations —
+    # pour ne pas alourdir chaque page hôtel avec tout le fichier.
+    dict_allege = {}
+    for code, info in nationalites_dict.items():
+        if code.startswith("_") or not isinstance(info, dict):
+            continue
+        regles = info.get("regles_destinations", {}) or {}
+        regle_trouvee = None
+        for nom_dest, texte in regles.items():
+            if normaliser_avec_alias(nom_dest) == dest_normalise:
+                regle_trouvee = texte
+                break
+        dict_allege[code] = {
+            "nom": info.get("nom", code),
+            "regle": regle_trouvee or info.get("regle_generale") or "Règle standard applicable. Veuillez vérifier les exigences locales auprès du consulat compétent."
+        }
+
     options_html = "".join(
         f'<option value="{code}">{escape_html(info["nom"])}</option>'
-        for code, info in sorted(nationalites_dict.items(), key=lambda x: x[1]["nom"])
+        for code, info in sorted(dict_allege.items(), key=lambda x: x[1]["nom"])
     )
-    dict_js = json.dumps(nationalites_dict, ensure_ascii=False)
+    dict_js = json.dumps(dict_allege, ensure_ascii=False)
+    dest_echap = escape_html(pays_destination)
 
     return f"""
     <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--secondary);">
-        <h3 style="margin-top:0;">🛂 Formalités & Visa pour {escape_html(pays_destination)}</h3>
+        <h3 style="margin-top:0;">🛂 Formalités & Visa pour {dest_echap}</h3>
         <p style="font-size: 0.9rem; color: var(--muted);">Sélectionnez votre nationalité (passeport) :</p>
-        
+
         <select id="select-nationalite" onchange="verifierVisa()" style="width:100%; max-width:350px; padding:10px; border-radius:10px; border:1px solid var(--line); margin-bottom:12px;">
             <option value="">-- Choisir votre passeport --</option>
             {options_html}
         </select>
-        
+
         <div id="resultat-visa" style="font-weight: 600; padding: 12px; background: var(--panel); border-radius: 8px; display: none; font-size: 0.95rem; line-height: 1.5;">
         </div>
     </div>
@@ -235,28 +284,19 @@ def generer_widget_visa(pays_destination):
 
     function verifierVisa() {{
         const codePays = document.getElementById('select-nationalite').value;
-        const dest = "{escape_html(pays_destination)}";
         const zoneResultat = document.getElementById('resultat-visa');
-        
+
         if (!codePays) {{
             zoneResultat.style.display = 'none';
             return;
         }}
-        
+
         const infoPasseport = baseVisas[codePays];
         zoneResultat.style.display = 'block';
-        
-        if (infoPasseport) {{
-            // On cherche s'il y a une règle spécifique pour cette destination, sinon on prend la générale
-            let regle = "Règle standard applicable. Veuillez vérifier les exigences locales.";
-            if (infoPasseport.regles_destinations && infoPasseport.regles_destinations[dest]) {{
-                regle = infoPasseport.regles_destinations[dest];
-            }} else if (infoPasseport.regle_generale) {{
-                regle = infoPasseport.regle_generale;
-            }}
 
-            zoneResultat.innerHTML = "✈️ Pour un voyage vers <strong>" + dest + "</strong> avec un passeport <strong>" + infoPasseport.nom + "</strong> :<br>" + 
-                "<span style='color:var(--text); font-weight:normal;'>" + regle + "</span><br>" +
+        if (infoPasseport) {{
+            zoneResultat.innerHTML = "✈️ Pour un voyage vers <strong>{dest_echap}</strong> avec un passeport <strong>" + infoPasseport.nom + "</strong> :<br>" +
+                "<span style='color:var(--text); font-weight:normal;'>" + infoPasseport.regle + "</span><br>" +
                 "<small style='color:var(--muted); margin-top:8px; display:block;'>💡 <em>Conseil Nomad :</em> Confirmez toujours vos formalités sur l'outil officiel <a href='https://www.iatatravelcentre.com' target='_blank' rel='noopener'>IATA Travel Centre</a>.</small>";
         }} else {{
             zoneResultat.innerHTML = "✈️ Veuillez consulter les services consulaires officiels pour votre destination.";
