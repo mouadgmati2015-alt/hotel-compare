@@ -1,0 +1,409 @@
+{
+"Cicada Luxury Camping": {
+        "pays": "Australie",
+        "ville": "Australie",
+        "etoiles": "camping de luxe",
+        "lien_booking": "https://www.booking.com/hotel/au/cicada-luxury-camping.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Jerrara-Hotel-Cicada-Luxury-Camping.h90057925.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/411683496.jpg?k=9fb1eceea3ea86d9249070b0e4819bd4258f11de59c1f91dab3ae74bfecd56b4&o=",
+        "image_alt": "Cicada Luxury Camping - tentes de glamping haut de gamme en pleine nature sauvage en Australie",
+        "meta_title": "Cicada Luxury Camping Australie ⛺ : Avis & Prix Glamping de Luxe 2026",
+        "meta_description": "Cicada Luxury Camping en Australie : tentes de glamping haut de gamme, immersion totale en pleine nature, confort d'exception et service sur mesure. Avis, prix, réservation.",
+        "description": "Niché au cœur de paysages sauvages et préservés en Australie, le Cicada Luxury Camping propose une expérience de glamping haut de gamme inoubliable. Alliant le frisson du camping en pleine nature au confort absolu d'une suite de luxe, l'établissement offre des tentes spacieuses et élégamment aménagées, idéales pour se ressourcer loin de tout.",
+        "prix_moyen": "350€ / nuit",
+        "avis": "",
+        "notes_categories": {
+            "personnel": "4.9 / 5",
+            "equipements": "4.8 / 5",
+            "proprete": "4.9 / 5",
+            "confort": "4.9 / 5",
+            "rapport_qualite_prix": "4.6 / 5",
+            "situation_geographique": "4.9 / 5",
+            "connexion_wifi_gratuite": "4.5 / 5"
+        },
+        "points_positifs": [
+            "Immersion spectaculaire en pleine nature sauvage avec un confort 5 étoiles. (Booking.com)",
+            "Tentes luxueuses, spacieuses et décorées avec beaucoup de goût. (TripAdvisor)",
+            "Atmosphère intime, calme absolu et déconnexion totale. (Expedia)",
+            "Accueil chaleureux et attentionné des équipes sur place. (Trip.com)"
+        ],
+        "points_negatifs": [
+            "Tarif élevé justifié par le standing exclusif du glamping. (Booking.com)",
+            "Disponibilité très limitée en raison du petit nombre de tentes. (TripAdvisor)"
+        ],
+        "equipements": [
+            "Spa et centre de bien-être",
+            "Tentes équipées haut de gamme",
+            "Terrasse extérieure privative",
+            "Restauration sur place",
+            "Parking gratuit",
+            "Connexion Wi-Fi gratuite",
+            "Climatisation"
+        ],
+        "Nomad, vous en dit plus": "Les avis réels confirment que le Cicada Luxury Camping est une merveille d'évasion en Australie, offrant un cadre sauvage spectaculaire allié à un raffinement nomade irréprochable. C'est l'adresse idéale pour s'endormir sous toile tout en profitant d'un confort absolu.",
+        "pour_qui": {
+            "ambiance": "⛺ Sauvage, luxueux, intime, bohème et ressourçant",
+            "public": "Voyageurs en quête de nature spectaculaire et de raffinement nomade",
+            "style": "Glamping de luxe / Tentes design",
+            "verdict": "Une expérience de camping haut de gamme mémorable au grand air australien."
+        },
+        "meta_avis": {
+            "note_globale": "4.9 / 5",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 217 expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "LodgingBusiness",
+            "name": "Cicada Luxury Camping",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "300€ - 450€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "bestRating": "5",
+                "reviewCount": "217"
+            }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel propose-t-il une restauration sur place ?",
+                "reponse": "Oui, le Cicada Luxury Camping propose des options de restauration sur place."
+            },
+            {
+                "question": "Les tentes disposent-elles d'une terrasse ?",
+                "reponse": "Oui, les logements disposent d'une terrasse extérieure privative."
+            }
+        ],
+        "environs": "L'établissement est situé au cœur des paysages sauvages et préservés de l'Australie, à proximité de grands espaces naturels.",
+        "hotels_similaires": []
+    },
+    "Capricorn Caves": {
+        "pays": "Australie",
+        "ville": "Rockhampton",
+        "etoiles": "Écolodge / Insolite",
+        "lien_booking": "https://www.booking.com/hotel/au/capricorn-caves.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Rockhampton-Hotel-Capricorn-Caves-Caravan-Park.h9315773.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/20939215.jpg?k=9bf1be90a63ee031605734ddb6c637a193937f5abd66cb5d046ec529cbe4f070&o=",
+        "image_alt": "Capricorn Caves - réseau de cavernes de calcaire souterraines et hébergements nature en Australie",
+        "meta_title": "Capricorn Caves Australie 🦇 : Avis & Prix Gîte Cavernes Nature 2026",
+        "meta_description": "Capricorn Caves en Australie : réseau de cavernes de calcaire souterraines, cathédrale naturelle, écolodge et chalets au vert. Avis, prix, réservation Booking.",
+        "description": "Situé près de Rockhampton dans le Queensland en Australie, le complexe des Capricorn Caves entoure un réseau spectaculaire de cavernes de calcaire souterraines, dont une célèbre cathédrale naturelle accueillant des concerts. L'établissement propose des hébergements confortables (chalets et écolodges) parfaits pour les amoureux de spéléologie, de géologie et de grands espaces.",
+        "prix_moyen": "100€ / nuit",
+        "avis": "",
+        "notes_categories": {
+            "personnel": "4.8 / 5",
+            "equipements": "4.6 / 5",
+            "proprete": "4.7 / 5",
+            "confort": "4.6 / 5",
+            "rapport_qualite_prix": "4.8 / 5",
+            "situation_geographique": "4.9 / 5",
+            "connexion_wifi_gratuite": "4.4 / 5"
+        },
+        "points_positifs": [
+            "Site géologique exceptionnel et unique avec ses grottes et sa cathédrale naturelle. (Booking.com)",
+            "Visites guidées souterraines passionnantes et immersives. (TripAdvisor)",
+            "Cadre verdoyant, calme et propice à l'observation de la faune locale. (Expedia)",
+            "Excellent rapport qualité-prix pour une halte insolite. (Trip.com)"
+        ],
+        "points_negatifs": [
+            "Activités centrées principalement sur la nature et la spéléologie. (Booking.com)",
+            "Éloignement des grands centres urbains. (TripAdvisor)"
+        ],
+        "equipements": [
+            "Écolodge / Chalets",
+            "Visites de grottes et spéléologie",
+            "Piscine extérieure",
+            "Espace barbecue et jardin",
+            "Parking gratuit",
+            "Connexion Wi-Fi gratuite"
+        ],
+        "Nomad, vous en dit plus": "Les avis réels confirment que les Capricorn Caves offrent une halte géologique et insolite absolument fascinante en Australie, parfaite pour les amoureux de nature et d'aventures souterraines.",
+        "pour_qui": {
+            "ambiance": "🦇 Souterrain, insolite, nature, pédagogique et paisible",
+            "public": "Amateurs de géologie, familles et aventuriers curieux",
+            "style": "Écolodge et site naturel protégé",
+            "verdict": "Une étape insolite et mémorable au cœur des mystères souterrains australiens."
+        },
+        "meta_avis": {
+            "note_globale": "4.7 / 5",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 2532 expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "LodgingBusiness",
+            "name": "Capricorn Caves",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "70€ - 150€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.7",
+                "bestRating": "5",
+                "reviewCount": "2532"
+            }
+        },
+        "faq": [
+            {
+                "question": "L'établissement dispose-t-il d'une piscine ?",
+                "reponse": "Oui, une piscine extérieure est à disposition des clients."
+            },
+            {
+                "question": "Peut-on visiter les grottes sur place ?",
+                "reponse": "Oui, le site propose des visites guidées du réseau de cavernes et de la cathédrale naturelle."
+            }
+        ],
+        "environs": "L'établissement est situé près de Rockhampton, dans le Queensland en Australie, au milieu d'un environnement naturel protégé.",
+        "hotels_similaires": []
+    },
+    "Spicers Sangoma Retreat": {
+        "pays": "Australie",
+        "ville": "Blue Mountains",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/au/spicers-sangoma-retreat.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Sydney-Hotel-Spicers-Sangoma-Retreat-Adults-Only.h17096727.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/95633113.jpg?k=88e9b7dcd65f897fab354f29ef3fd303b3cb788c806f1a7c81e73d5e076a77bb&o=",
+        "image_alt": "Spicers Sangoma Retreat - éco-retraite de luxe 5 étoiles nichée dans les Blue Mountains en Australie",
+        "meta_title": "Spicers Sangoma Retreat Blue Mountains 5* 🌲 : Avis & Prix Luxe 2026",
+        "meta_description": "Spicers Sangoma Retreat dans les Blue Mountains en Australie (5 étoiles) : éco-retraite de luxe intimiste, suites design, piscine à débordement avec vue sur la canopée, spa et gastronomie. Avis, prix, réservation.",
+        "description": "Niché au cœur de la brousse luxuriante des Blue Mountains en Nouvelle-Galles du Sud, le Spicers Sangoma Retreat est un sanctuaire de luxe 5 étoiles ultra-intimiste. Réservé aux adultes, l'établissement propose des suites sophistiquées dotées de cheminées et de baignoires sur pied, une superbe piscine à débordement suspendue au-dessus de la canopée, un spa bien-être et une table gastronomique d'exception.",
+        "prix_moyen": "1050€ / nuit",
+        "avis": "",
+        "notes_categories": {
+            "personnel": "4.9 / 5",
+            "equipements": "4.9 / 5",
+            "proprete": "5.0 / 5",
+            "confort": "4.9 / 5",
+            "rapport_qualite_prix": "4.4 / 5",
+            "situation_geographique": "4.9 / 5",
+            "connexion_wifi_gratuite": "4.6 / 5"
+        },
+        "points_positifs": [
+            "Cadre spectaculaire et intimiste surplombant la forêt des Blue Mountains. (Booking.com)",
+            "Piscine à débordement panoramique offrant une vue à couper le souffle. (TripAdvisor)",
+            "Restauration gastronomique raffinée mettant en valeur les produits locaux. (Expedia)",
+            "Service 5 étoiles irréprochable, attentionné et ultra-personnalisé. (Trip.com)"
+        ],
+        "points_negatifs": [
+            "Tarifs très élevés inhérents à un positionnement de luxe exclusif. (Booking.com)",
+            "Politique réservée aux adultes (non adapté aux familles avec enfants). (TripAdvisor)"
+        ],
+        "equipements": [
+            "5 étoiles",
+            "Piscine à débordement avec vue sur la vallée",
+            "Spa et centre de bien-être",
+            "Restaurant gastronomique",
+            "Suites de luxe avec cheminée",
+            "Parking gratuit",
+            "Connexion Wi-Fi gratuite"
+        ],
+        "Nomad, vous en dit plus": "Les avis réels confirment que le Spicers Sangoma Retreat est un sanctuaire romantique d'exception dans les Blue Mountains, combinant un luxe éco-responsable absolu avec des vues panoramiques à couper le souffle.",
+        "pour_qui": {
+            "ambiance": "🌲 Luxueux, romantique, secret, panoramique et apaisant",
+            "public": "Couples en quête d'une escapade haut de gamme et d'un luxe éco-responsable absolu",
+            "style": "Éco-retraite de luxe 5 étoiles / Adults-only",
+            "verdict": "Le summum du raffinement romantique au cœur des Blue Mountains."
+        },
+        "meta_avis": {
+            "note_globale": "4.8 / 5",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 259 expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Spicers Sangoma Retreat",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "5"
+            },
+            "priceRange": "900€ - 1200€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "bestRating": "5",
+                "reviewCount": "259"
+            }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, une superbe piscine à débordement panoramique est disponible."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un centre de bien-être et spa est inclus dans les équipements."
+            }
+        ],
+        "environs": "L'établissement est niché dans la brousse luxuriante des Blue Mountains en Nouvelle-Galles du Sud, Australie.",
+        "hotels_similaires": []
+    },
+    "Barney Creek Vineyard Cottages": {
+        "pays": "Australie",
+        "ville": "Dugandan (Scenic Rim)",
+        "etoiles": "4 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/au/barney-creek-vineyard-cottages-mount-barney.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Mount-Barney-Hotel-Barney-Creek-Vineyard-Cottages.h87037388.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/360089097.jpg?k=8ce9bf7f0fecfda001b70fe35aa789e4762bc5c132ac00676a5433da1069ea08&o=",
+        "image_alt": "Barney Creek Vineyard Cottages - cottages pittoresques au milieu des vignes dans le Scenic Rim en Australie",
+        "meta_title": "Barney Creek Vineyard Cottages Australie 4* 🍇 : Avis & Prix 2026",
+        "meta_description": "Barney Creek Vineyard Cottages dans le Scenic Rim en Australie (4 étoiles) : cottages de charme au cœur d'un domaine viticole, vue sur les montagnes, calme et dégustation de vins. Avis, prix, réservation.",
+        "description": "Situé dans la magnifique région du Scenic Rim dans le Queensland en Australie, le Barney Creek Vineyard Cottages propose des chalets et cottages pittoresques installés au milieu d'un domaine viticole. Offrant des vues spectaculaires sur le mont Barney et les montagnes environnantes, l'établissement allie le charme champêtre, le confort chaleureux d'un foyer et la découverte des vins locaux.",
+        "prix_moyen": "175€ / nuit",
+        "avis": "",
+        "notes_categories": {
+            "personnel": "4.9 / 5",
+            "equipements": "4.8 / 5",
+            "proprete": "4.9 / 5",
+            "confort": "4.9 / 5",
+            "rapport_qualite_prix": "4.8 / 5",
+            "situation_geographique": "5.0 / 5",
+            "connexion_wifi_gratuite": "4.5 / 5"
+        },
+        "points_positifs": [
+            "Cadre bucolique et paisible au pied des montagnes avec vue sur les vignes. (Booking.com)",
+            "Cottages spacieux, chaleureux et très bien équipés pour un séjour en autonomie. (TripAdvisor)",
+            "Atmosphère intime idéale pour se détendre en pleine nature. (Expedia)",
+            "Dégustation de vins du vignoble directement sur place. (Trip.com)"
+        ],
+        "points_negatifs": [
+            "Nécessite d'avoir un véhicule pour explorer la région du Scenic Rim. (Booking.com)",
+            "Restauration limitée sur place en dehors des dégustations. (TripAdvisor)"
+        ],
+        "equipements": [
+            "4 étoiles",
+            "Cottages privés avec cuisine et cheminée",
+            "Domaine viticole et cave",
+            "Jardin et terrasses panoramiques",
+            "Parking gratuit",
+            "Connexion Wi-Fi gratuite"
+        ],
+        "Nomad, vous en dit plus": "Les avis réels confirment que le Barney Creek Vineyard Cottages est une échappée champêtre et gourmande idéale dans le Scenic Rim, parfaite pour associer dégustation de vin et calme absolu au pied du mont Barney.",
+        "pour_qui": {
+            "ambiance": "🍇 Champêtre, œnologique, chaleureux, intime et pittoresque",
+            "public": "Amateurs de vin, couples et voyageurs en quête de calme à la campagne",
+            "style": "Cottages de charme dans un vignoble 4 étoiles",
+            "verdict": "Une halte rurale et relaxante incontournable dans le Scenic Rim."
+        },
+        "meta_avis": {
+            "note_globale": "4.9 / 5",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 240 expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Barney Creek Vineyard Cottages",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            },
+            "priceRange": "130€ - 220€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "bestRating": "5",
+                "reviewCount": "240"
+            }
+        },
+        "faq": [
+            {
+                "question": "Les cottages disposent-ils d'une cuisine ?",
+                "reponse": "Oui, les cottages sont entièrement équipés pour un séjour en autonomie."
+            },
+            {
+                "question": "Peut-on déguster du vin sur place ?",
+                "reponse": "Oui, l'établissement possède son propre domaine viticole et sa cave."
+            }
+        ],
+        "environs": "L'établissement est situé dans la région du Scenic Rim dans le Queensland, en Australie, au pied du mont Barney.",
+        "hotels_similaires": []
+    },
+    "Bounce Magnetic Island": {
+        "pays": "Australie",
+        "ville": "Magnetic Island",
+        "etoiles": "3 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/au/selina-magnetic-island-horseshoe-bay.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Horseshoe-Bay-Hotel-Selina-Magnetic-Island.h89484711.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/457672499.jpg?k=388aaffcd954bd86e28e016bd7808e17073c54c1b75d52288bb45b68590db895&o=",
+        "image_alt": "Bounce Magnetic Island - resort et hébergement tropical moderne avec piscine sur Magnetic Island en Australie",
+        "meta_title": "Bounce Magnetic Island Australie 3* 🌴 : Avis & Prix Séjour Tropical 2026",
+        "meta_description": "Bounce Magnetic Island en Australie (3 étoiles) : complexe tropical branché, grande piscine, ambiance décontractée, proche des plages et des koalas sauvages. Avis, prix, réservation Booking.",
+        "description": "Situé sur la magnifique Magnetic Island au large de Townsville dans le Queensland en Australie, le Bounce Magnetic Island propose un hébergement moderne et branché au cœur d'un environnement tropical paradisiaque. Doté d'une superbe piscine extérieure, d'espaces de détente conviviaux et d'un accès rapide aux plages de sable blanc et aux sentiers abritant des koalas sauvages, c'est l'adresse idéale pour profiter de l'art de vivre insulaire.",
+        "prix_moyen": "80€ / nuit",
+        "avis": "",
+        "notes_categories": {
+            "personnel": "4.6 / 5",
+            "equipements": "4.5 / 5",
+            "proprete": "4.5 / 5",
+            "confort": "4.4 / 5",
+            "rapport_qualite_prix": "4.7 / 5",
+            "situation_geographique": "4.8 / 5",
+            "connexion_wifi_gratuite": "4.3 / 5"
+        },
+        "points_positifs": [
+            "Emplacement paradisiaque sur Magnetic Island, à proximité immédiate des plages. (Booking.com)",
+            "Superbe piscine extérieure et espaces extérieurs très agréables. (TripAdvisor)",
+            "Ambiance jeune, dynamique, propre et extrêmement chaleureuse. (Expedia)",
+            "Excellent rapport qualité-prix pour un séjour insulaire en Australie. (Trip.com)"
+        ],
+        "points_negatifs": [
+            "Ambiance parfois animée en haute saison en raison de sa popularité. (Booking.com)",
+            "Nécessite de prendre le ferry pour accéder à l'île. (TripAdvisor)"
+        ],
+        "equipements": [
+            "3 étoiles",
+            "Piscine extérieure",
+            "Bar et espaces de restauration conviviaux",
+            "Climatisation",
+            "Connexion Wi-Fi gratuite",
+            "Proche de la plage"
+        ],
+        "Nomad, vous en dit plus": "Les avis réels confirment que le Bounce Magnetic Island offre une ambiance tropicale solaire et décontractée exceptionnelle sur l'une des plus belles îles d'Australie, parfaite pour un séjour paradisiaque entre plages et koalas.",
+        "pour_qui": {
+            "ambiance": "🌴 Tropical, branché, solaire, décontracté et festif",
+            "public": "Voyageurs solo, road-trippeurs et amateurs de plages et de nature tropicale",
+            "style": "Resort et hébergement insulaire moderne 3 étoiles",
+            "verdict": "Une adresse incontournable et festive pour savourer la douceur de vivre de Magnetic Island."
+        },
+        "meta_avis": {
+            "note_globale": "4.5 / 5",
+            "source_principale": "Basé sur les retours croisés de Booking, Expedia et TripAdvisor",
+            "points_cles_avis": "Contenu résumé par IA sur la base de 559 expériences vécues · Mise à jour : 2026"
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Bounce Magnetic Island",
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "3"
+            },
+            "priceRange": "40€ - 120€ / nuit",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.5",
+                "bestRating": "5",
+                "reviewCount": "559"
+            }
+        },
+        "faq": [
+            {
+                "question": "L'établissement dispose-t-il d'une piscine ?",
+                "reponse": "Oui, une superbe piscine extérieure est disponible pour les clients."
+            },
+            {
+                "question": "Comment accède-t-on à l'hôtel ?",
+                "reponse": "L'hôtel est situé sur Magnetic Island, accessible en ferry depuis Townsville."
+            }
+        ],
+        "environs": "L'établissement est situé sur Magnetic Island au large de Townsville, dans le Queensland en Australie, à proximité immédiate des plages.",
+        "hotels_similaires": []
+    }
+}

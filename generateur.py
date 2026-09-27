@@ -199,17 +199,35 @@ def nettoyer_avis(texte):
     texte = re.sub(r",\s*,\s*", ", ", texte)
     texte = re.sub(r"\s+([,.;!?])", r"\1", texte)
     return texte.strip()
+
 _NATIONALITES_CACHE = None
+ 
 def charger_nationalites():
     global _NATIONALITES_CACHE
     if _NATIONALITES_CACHE is not None:
         return _NATIONALITES_CACHE
+ 
     chemin_json = "nationalites.json"
     if os.path.exists(chemin_json):
         with open(chemin_json, "r", encoding="utf-8") as f:
-            _NATIONALITES_CACHE = json.load(f)
+            data = json.load(f)
     else:
-        _NATIONALITES_CACHE = {}
+        data = {}
+ 
+    # Corrections manuelles appliquées par-dessus le dataset brut,
+    # pour les erreurs repérées (le dataset open-source n'est pas infaillible).
+    chemin_corrections = "corrections_visas.json"
+    if os.path.exists(chemin_corrections):
+        with open(chemin_corrections, "r", encoding="utf-8") as f:
+            corrections = json.load(f)
+        for code, destinations in corrections.items():
+            if code not in data or not isinstance(data.get(code), dict):
+                data[code] = {"nom": code, "regles_destinations": {}}
+            if "regles_destinations" not in data[code] or not isinstance(data[code]["regles_destinations"], dict):
+                data[code]["regles_destinations"] = {}
+            data[code]["regles_destinations"].update(destinations)
+ 
+    _NATIONALITES_CACHE = data
     return _NATIONALITES_CACHE
  
 ALIAS_PAYS = {
