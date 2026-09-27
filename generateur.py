@@ -1615,10 +1615,7 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
     reviews_html = "".join(
         f"""
         <div class="review-card">
-            <div class="stars">{'★' * int(a.get('note', 5))}{'☆' * (5 - int(a.get('note', 5)))}</div>
-            <p style="font-weight:700; margin: 12px 0 8px;">{escape_html(a.get('nom', 'Client'))}</p>
-            <p style="font-size:0.82rem; color:var(--muted); margin:0 0 8px;">{escape_html(a.get('role', 'Voyageur'))}</p>
-            <p style="margin:0; line-height:1.6; color: var(--text);">{escape_html(a.get('texte', ''))}</p>
+            <p style="margin:0; line-height:1.6; color: var(--text);">💬 {escape_html(a.get('texte', ''))}</p>
         </div>
         """ for a in avis_clients
     )
@@ -1687,7 +1684,8 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
 </div>
 
 <div class="card">
-    <h2 style="margin-top:0;">💬 Avis clients</h2>
+    <h2 style="margin-top:0;">💬 Ce qu'en retiennent les voyageurs</h2>
+    <p style="color:var(--muted); font-size:0.88rem; margin-top:-8px; margin-bottom:16px;">Synthèse des points qui reviennent le plus souvent dans les avis récents.</p>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
         {reviews_html}
     </div>
@@ -1847,15 +1845,12 @@ filtrerParPays();
         icone = icone_type(type_slug)
 
         reviews_html = "".join(
-            f"""
-            <div class="review-card">
-                <div class="stars">{'★' * int(a.get('note', 5))}{'☆' * (5 - int(a.get('note', 5)))}</div>
-                <p style="font-weight:700; margin: 12px 0 8px;">{escape_html(a.get('nom', 'Client'))}</p>
-                <p style="font-size:0.82rem; color:var(--muted); margin:0 0 8px;">{escape_html(a.get('role', 'Voyageur'))}</p>
-                <p style="margin:0; line-height:1.6; color: var(--text);">{escape_html(a.get('texte', ''))}</p>
-            </div>
-            """ for a in avis_clients
-        )
+        f"""
+        <div class="review-card">
+            <p style="margin:0; line-height:1.6; color: var(--text);">💬 {escape_html(a.get('texte', ''))}</p>
+        </div>
+        """ for a in avis_clients
+    )
         equipements_html = f"<h3>🛠️ Équipements</h3><p>{escape_html(', '.join(map(str, equipements)))}</p>" if equipements else ""
         points_html = f"<h3>✅ Points Positifs</h3><ul>{''.join(f'<li>{escape_html(p)}</li>' for p in points_positifs)}</ul>" if points_positifs else ""
         points_negatifs_html = f"<h3>⚠️ Points négatifs</h3><ul>{''.join(f'<li>{escape_html(n)}</li>' for n in points_negatifs)}</ul>" if points_negatifs else ""
@@ -1941,7 +1936,8 @@ filtrerParPays();
 </div>
 
 <div class="card">
-    <h2 style="margin-top:0;">💬 Avis clients</h2>
+    <h2 style="margin-top:0;">💬 Ce qu'en retiennent les voyageurs</h2>
+    <p style="color:var(--muted); font-size:0.88rem; margin-top:-8px; margin-bottom:16px;">Synthèse des points qui reviennent le plus souvent dans les avis récents.</p>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
         {reviews_html}
     </div>

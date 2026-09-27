@@ -278,12 +278,12 @@
         "slug": "cicada-luxury-camping",
         "ville": "Australie",
         "pays": "Australie",
-        "etoiles": "Glamping de luxe",
+        "etoiles": "camping de luxe",
         "prix": "350€ / nuit",
-        "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=80",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/411683496.jpg?k=9fb1eceea3ea86d9249070b0e4819bd4258f11de59c1f91dab3ae74bfecd56b4&o=",
         "description": "Niché au cœur de paysages sauvages et préservés en Australie, le Cicada Luxury Camping propose une expérience de glamping haut de gamme inoubliable. Alliant le frisson du camping en pleine nature au confort absolu d'une suite de luxe, l'établissement offre des tentes spacieuses et élégamment aménagées, idéales pour se ressourcer loin de tout.",
         "equipements": [
-            "Glamping de luxe",
+            "Spa et centre de bien-être",
             "Tentes équipées haut de gamme",
             "Terrasse extérieure privative",
             "Restauration sur place",
@@ -292,7 +292,7 @@
             "Climatisation"
         ],
         "lien_booking": "https://www.booking.com/hotel/au/cicada-luxury-camping.fr.html?aid=8012379",
-        "lien_expedia": "https://www.expedia.fr/Hotels-Cicada-Luxury-Camping.h43209220.Hotel-Information"
+        "lien_expedia": "https://www.expedia.fr/Jerrara-Hotel-Cicada-Luxury-Camping.h90057925.Description-Hotel"
     },
     {
         "nom": "Capricorn Caves",
@@ -301,7 +301,7 @@
         "pays": "Australie",
         "etoiles": "Écolodge / Insolite",
         "prix": "100€ / nuit",
-        "image": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1200&q=80",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/20939215.jpg?k=9bf1be90a63ee031605734ddb6c637a193937f5abd66cb5d046ec529cbe4f070&o=",
         "description": "Situé près de Rockhampton dans le Queensland en Australie, le complexe des Capricorn Caves entoure un réseau spectaculaire de cavernes de calcaire souterraines, dont une célèbre cathédrale naturelle accueillant des concerts. L'établissement propose des hébergements confortables (chalets et écolodges) parfaits pour les amoureux de spéléologie, de géologie et de grands espaces.",
         "equipements": [
             "Écolodge / Chalets",
@@ -312,7 +312,7 @@
             "Connexion Wi-Fi gratuite"
         ],
         "lien_booking": "https://www.booking.com/hotel/au/capricorn-caves.fr.html?aid=8012379",
-        "lien_expedia": "https://www.expedia.fr/Rockhampton-Hotels-Capricorn-Caves.h43209221.Hotel-Information"
+        "lien_expedia": "https://www.expedia.fr/Rockhampton-Hotel-Capricorn-Caves-Caravan-Park.h9315773.Description-Hotel"
     },
     {
         "nom": "Spicers Sangoma Retreat",
@@ -321,7 +321,7 @@
         "pays": "Australie",
         "etoiles": "5 étoiles",
         "prix": "1050€ / nuit",
-        "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/95633113.jpg?k=88e9b7dcd65f897fab354f29ef3fd303b3cb788c806f1a7c81e73d5e076a77bb&o=",
         "description": "Niché au cœur de la brousse luxuriante des Blue Mountains en Nouvelle-Galles du Sud, le Spicers Sangoma Retreat est un sanctuaire de luxe 5 étoiles ultra-intimiste. Réservé aux adultes, l'établissement propose des suites sophistiquées dotées de cheminées et de baignoires sur pied, une superbe piscine à débordement suspendue au-dessus de la canopée, un spa bien-être et une table gastronomique d'exception.",
         "equipements": [
             "5 étoiles",
@@ -333,7 +333,7 @@
             "Connexion Wi-Fi gratuite"
         ],
         "lien_booking": "https://www.booking.com/hotel/au/spicers-sangoma-retreat.fr.html?aid=8012379",
-        "lien_expedia": "https://www.expedia.fr/Blue-Mountains-Hotels-Spicers-Sangoma-Retreat.h43209222.Hotel-Information"
+        "lien_expedia": "https://www.expedia.fr/Sydney-Hotel-Spicers-Sangoma-Retreat-Adults-Only.h17096727.Description-Hotel"
     },
     {
         "nom": "Barney Creek Vineyard Cottages",
@@ -342,7 +342,7 @@
         "pays": "Australie",
         "etoiles": "4 étoiles",
         "prix": "175€ / nuit",
-        "image": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1200&q=80",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/360089097.jpg?k=8ce9bf7f0fecfda001b70fe35aa789e4762bc5c132ac00676a5433da1069ea08&o=",
         "description": "Situé dans la magnifique région du Scenic Rim dans le Queensland en Australie, le Barney Creek Vineyard Cottages propose des chalets et cottages pittoresques installés au milieu d'un domaine viticole. Offrant des vues spectaculaires sur le mont Barney et les montagnes environnantes, l'établissement allie le charme champêtre, le confort chaleureux d'un foyer et la découverte des vins locaux.",
         "equipements": [
             "4 étoiles",
@@ -352,8 +352,8 @@
             "Parking gratuit",
             "Connexion Wi-Fi gratuite"
         ],
-        "lien_booking": "https://www.booking.com/hotel/au/barney-creek-vineyard-cottages.fr.html?aid=8012379",
-        "lien_expedia": "https://www.expedia.fr/Scenic-Rim-Hotels-Barney-Creek-Vineyard-Cottages.h43209223.Hotel-Information"
+        "lien_booking": "https://www.booking.com/hotel/au/barney-creek-vineyard-cottages-mount-barney.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Mount-Barney-Hotel-Barney-Creek-Vineyard-Cottages.h87037388.Description-Hotel"
     },
     {
         "nom": "Bounce Magnetic Island",
@@ -362,7 +362,7 @@
         "pays": "Australie",
         "etoiles": "3 étoiles",
         "prix": "80€ / nuit",
-        "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/457672499.jpg?k=388aaffcd954bd86e28e016bd7808e17073c54c1b75d52288bb45b68590db895&o=",
         "description": "Situé sur la magnifique Magnetic Island au large de Townsville dans le Queensland en Australie, le Bounce Magnetic Island propose un hébergement moderne et branché au cœur d'un environnement tropical paradisiaque. Doté d'une superbe piscine extérieure, d'espaces de détente conviviaux et d'un accès rapide aux plages de sable blanc et aux sentiers abritant des koalas sauvages, c'est l'adresse idéale pour profiter de l'art de vivre insulaire.",
         "equipements": [
             "3 étoiles",
@@ -372,8 +372,8 @@
             "Connexion Wi-Fi gratuite",
             "Proche de la plage"
         ],
-        "lien_booking": "https://www.booking.com/hotel/au/bounce-magnetic-island.fr.html?aid=8012379",
-        "lien_expedia": "https://www.expedia.fr/Magnetic-Island-Hotels-Bounce-Magnetic-Island.h43209224.Hotel-Information"
+        "lien_booking": "https://www.booking.com/hotel/au/selina-magnetic-island-horseshoe-bay.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Horseshoe-Bay-Hotel-Selina-Magnetic-Island.h89484711.Description-Hotel"
     },
     {
         "nom": "Hotel Sacher Wien",
