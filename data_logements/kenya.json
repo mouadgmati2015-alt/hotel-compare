@@ -39,6 +39,22 @@
             "public": "Voyageurs en quête d'une expérience bucket-list absolue et de luxe engagé pour la faune",
             "style": "Manoir historique de luxe / Sanctuaire animalier",
             "verdict": "Une parenthèse hors du temps et l'un des séjours les plus mémorables de la planète."
-        }
+        },
+        "faq": [
+            {
+                "question": "Le logement dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Giraffe Manor dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Giraffe Manor."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Nairobi ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Nairobi avant de fixer vos dates."
+            }
+        ],
+        "environs": "Ce logement se trouve à Nairobi, Kenya, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": []
     }
 }

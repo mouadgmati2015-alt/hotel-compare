@@ -36,6 +36,22 @@
             "public": "Curieux, familles et voyageurs en quête d'expériences architecturales hors du commun",
             "style": "Hôtel thématique en forme de paquebot de croisière",
             "verdict": "Une croisière immobile et grandiose perchée au sommet du monde."
-        }
+        },
+        "faq": [
+            {
+                "question": "Le logement dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Sun Cruise Resort dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Sun Cruise Resort."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Jeongdongjin ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Jeongdongjin avant de fixer vos dates."
+            }
+        ],
+        "environs": "Jeongdongjin, Corée du Sud accueille ce logement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": []
     }
 }

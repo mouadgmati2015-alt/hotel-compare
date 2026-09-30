@@ -808,5 +808,13 @@
   "belek, turquie": {
     "lat": 36.8633459,
     "lng": 31.0578184
+  },
+  "ksar ghilane, tunisie": {
+    "lat": 32.9770107,
+    "lng": 9.6452385
+  },
+  "tataouine, tunisie": {
+    "lat": 31.7317009,
+    "lng": 9.7702197
   }
 }

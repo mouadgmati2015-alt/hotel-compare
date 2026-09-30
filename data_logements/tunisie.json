@@ -40,6 +40,23 @@
             "public": "Voyageurs en quête d'une expérience saharienne haut de gamme et immersive",
             "style": "Campement de luxe / Glamping dans le désert",
             "verdict": "Une parenthèse inoubliable au milieu des immensités de sable du Sahara."
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Douz ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Douz avant de fixer vos dates."
+            }
+        ],
+        "environs": "Douz, Tunisie accueille ce logement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Camp Mars",
+            "Campement Zmela",
+            "CAMP ABDELMOULA"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Tozeur-Nefta (TOE), à environ 100 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 100 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     },
     "Camp Mars": {
@@ -84,6 +101,23 @@
             "public": "Voyageurs en quête d'une expérience saharienne unique et hors du temps",
             "style": "Campement de tentes traditionnelles dans le désert",
             "verdict": "Une parenthèse magique au cœur des dunes, idéale pour contempler les étoiles."
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Douz ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Ce logement se trouve à Douz, Tunisie, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Tiniri Camp",
+            "Campement Zmela",
+            "CAMP ABDELMOULA"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Tozeur-Nefta (TOE), à environ 100 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 100 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     },
     "Campement Zmela": {
@@ -126,6 +160,27 @@
             "public": "Voyageurs recherchant une immersion saharienne de qualité avec de bonnes commodités",
             "style": "Campement de tentes et bungalows dans le désert",
             "verdict": "Une magnifique halte saharienne alliant authenticité, confort et respect de l'environnement."
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Campement Zmela."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Douz ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Douz."
+            }
+        ],
+        "environs": "Ce logement se trouve à Douz, Tunisie, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Tiniri Camp",
+            "Camp Mars",
+            "CAMP ABDELMOULA"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Tozeur-Nefta (TOE), à environ 100 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 100 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     },
     "CAMP ABDELMOULA": {
@@ -167,6 +222,23 @@
             "public": "Voyageurs en quête d'une expérience saharienne authentique et immersive dans le grand désert",
             "style": "Campement de tentes deluxe / Bédouin",
             "verdict": "Une parenthèse hors du temps au cœur des dunes, parfaite pour décrocher totalement du quotidien."
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Douz ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Douz."
+            }
+        ],
+        "environs": "Ce logement se trouve à Douz, Tunisie, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Tiniri Camp",
+            "Camp Mars",
+            "Campement Zmela"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Tozeur-Nefta (TOE), à environ 100 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 100 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     },
     "Campement wad erramal": {
@@ -207,12 +279,29 @@
             "public": "Voyageurs cherchant une belle immersion dans le désert de Douz avec un service attentionné",
             "style": "Campement de tentes traditionnelles",
             "verdict": "Une excellente option pour admirer les étoiles et profiter de l'hospitalité saharienne en toute simplicité."
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Douz ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Douz."
+            }
+        ],
+        "environs": "Douz, Tunisie accueille ce logement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Tiniri Camp",
+            "Camp Mars",
+            "Campement Zmela"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Tozeur-Nefta (TOE), à environ 100 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 100 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     },
     "Gîte de Douiret (Chez Raouf)": {
         "type": "troglodyte",
         "pays": "Tunisie",
-        "ville": "Douz / Tataouine",
+        "ville": "Tataouine",
         "lien_booking": "",
         "lien_expedia": "",
         "lien_site_officiel": "https://fr.airbnb.ca/rooms/1007878551957229796",
@@ -246,6 +335,19 @@
             "public": "Voyageurs en quête d'authenticité, d'histoire berbère et d'hébergements insolites",
             "style": "Gîte troglodyte / Maison d'hôtes traditionnelle",
             "verdict": "Une expérience humaine et patrimoniale inoubliable au cœur des montagnes de Douiret."
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Douz / Tataouine ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Douz / Tataouine."
+            }
+        ],
+        "environs": "Implanté à Douz / Tataouine, Tunisie, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Djerba-Zarzis (DJE), à environ 256 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 256 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     },
     "Au Trait d'Union Tijma": {
@@ -287,6 +389,23 @@
             "public": "Voyageurs en quête d'une immersion architecturale unique et d'un accueil familial exceptionnel",
             "style": "Maison d'hôtes troglodyte traditionnelle",
             "verdict": "Une adresse magique et incontournable pour dormir dans une grotte aménagée avec beaucoup de style."
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Au Trait d'Union Tijma."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Matmata ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Matmata avant de fixer vos dates."
+            }
+        ],
+        "environs": "Matmata, Tunisie accueille ce logement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Djerba-Zarzis (DJE), à environ 84 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 84 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     },
     "Dar Hallouma - WostelDjerba community": {
@@ -325,6 +444,21 @@
             "public": "Voyageurs à petit budget et adeptes de concepts d'hébergement alternatifs",
             "style": "Maison d'hôtes / Logement communautaire",
             "verdict": "Une alternative économique au cœur de Djerba, idéale pour les voyageurs autonomes."
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Djerba ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Djerba."
+            }
+        ],
+        "environs": "Ce logement se trouve à Djerba, Tunisie, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Dar El Jerbiya"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Djerba-Zarzis (DJE), à environ 15 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 15 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     },
     "Dar El Jerbiya": {
@@ -364,6 +498,25 @@
             "public": "Familles et groupes en quête d'un hébergement de charme typiquement djerbien",
             "style": "Maison d'hôtes / Suites traditionnelles",
             "verdict": "Une belle adresse djerbienne pour s'imprégner de l'architecture locale et profiter du soleil."
+        },
+        "faq": [
+            {
+                "question": "Le logement dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Dar El Jerbiya dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Djerba ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Ce logement se trouve à Djerba, Tunisie, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [
+            "Dar Hallouma - WostelDjerba community"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Djerba-Zarzis (DJE), à environ 15 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 15 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     },
     "Campement Ain Essbat": {
@@ -375,7 +528,7 @@
         "lien_booking": "",
         "lien_expedia": "",
         "lien_site_officiel": "https://www.tripadvisor.fr/Attraction_Review-g1115268-d1891952-Reviews-Campement_Ain_Essebat-Kebili_Kebili_Governorate.html/",
-        "image": "https://scontent-fra5-1.xx.fbcdn.net/v/t39.30808-6/275500640_472493431328432_1617573847275576042_n.jpg?stp=dst-jpg_tt6&cstp=mx251x188&ctp=s251x188&_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=JSQquEvf7TAQ7kNvwGpZoQv&_nc_oc=Ado4fsneHwm5Kk0myXerBH_P97k1KF3rnODsmdC-XnzvM_LP4fENMBQuS6885CXSW59jzTtMPPWc3SkA6-BECmgM&_nc_zt=23&_nc_ht=scontent-fra5-1.xx&_nc_gid=_EwNXYwiqSzjwceOM9MoLg&_nc_ss=7b2a8&oh=00_AQJWsK4tMFZIW7d4G9VMwuYf6GG-fIs0_4ABpUdwUDtVLw&oe=6AAE893B",
+        "image": "https://tunavis.com/uploads/img_68bad98844b749.41230248.jpgstp=dst-jpg_tt6&cstp=mx251x188&ctp=s251x188&_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=JSQquEvf7TAQ7kNvwGpZoQv&_nc_oc=Ado4fsneHwm5Kk0myXerBH_P97k1KF3rnODsmdC-XnzvM_LP4fENMBQuS6885CXSW59jzTtMPPWc3SkA6-BECmgM&_nc_zt=23&_nc_ht=scontent-fra5-1.xx&_nc_gid=_EwNXYwiqSzjwceOM9MoLg&_nc_ss=7b2a8&oh=00_AQJWsK4tMFZIW7d4G9VMwuYf6GG-fIs0_4ABpUdwUDtVLw&oe=6AAE893B",
         "image_alt": "Campement Ain Essbat - campement saharien et oasis de détente au cœur du désert à Douz Tunisie",
         "meta_title": "Campement Ain Essbat Douz 🏜️ : Oasis & Bivouac Désert Sahara 2026",
         "meta_description": "Campement Ain Essbat à Douz : site de bivouac et tentes traditionnelles au milieu du désert, calme absolu, piscine d'eau chaude naturelle, repas faits maison et accueil chaleureux. Infos et réservation.",
@@ -404,6 +557,31 @@
             "public": "Aventuriers, road-trippeurs et voyageurs en quête d'authenticité saharienne",
             "style": "Campement dans le désert et oasis de bivouac",
             "verdict": "Une expérience saharienne inoubliable sublimée par la surprise d'une source d'eau chaude."
+        },
+        "faq": [
+            {
+                "question": "Le logement dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Campement Ain Essbat dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Campement Ain Essbat."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Douz ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Douz, Tunisie accueille ce logement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [
+            "Tiniri Camp",
+            "Camp Mars",
+            "Campement Zmela"
+        ],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Tozeur-Nefta (TOE), à environ 100 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 100 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     },
     "Campement Yadis Ksar Ghilane": {
@@ -445,6 +623,80 @@
             "public": "Voyageurs recherchant le confort haut de gamme au cœur du Sahara",
             "style": "Campement de tentes de luxe / Écolodge saharien",
             "verdict": "Le mariage parfait entre l'aventure dans le désert et le confort d'un hébergement 4 étoiles."
+        },
+        "faq": [
+            {
+                "question": "Le logement dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Campement Yadis Ksar Ghilane dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Ksar Ghilane ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Ksar Ghilane."
+            }
+        ],
+        "environs": "Ksar Ghilane, Tunisie accueille ce logement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Djerba-Zarzis (DJE), à environ 145 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 145 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
+        }
+    },
+    "Dar Oomi": {
+        "type": "maison-hotes-exception",
+        "pays": "Tunisie",
+        "ville": "Zarzis",
+        "lat": 33.621401155793755,
+        "lng": 10.962294817686626,
+        "lien_booking": "",
+        "lien_expedia": "",
+        "lien_site_officiel": "https://daroomi.com/",
+        "image": "images/dar-oomi-zarzis.jpg",
+        "image_alt": "Dar Oomi - maison d'hôtes de luxe avec suites à piscine privée à Zarzis, Tunisie",
+        "meta_title": "Dar Oomi : Avis & Prix Maison d'Hôtes Suites Piscine Privée Zarzis 2026",
+        "meta_description": "Dar Oomi à Zarzis : maison d'hôtes de luxe avec 8 suites disposant chacune de leur piscine privée, table d'hôte aux saveurs tunisiennes et cadre intimiste. Avis, prix et réservation.",
+        "description": "Nichée sur la route de Djerba à Zarzis, sur la côte sud tunisienne, Dar Oomi propose un concept rare : huit suites disposant chacune de leur propre piscine privée, dans un cadre alliant design contemporain et artisanat tunisien. La maison d'hôtes mise sur l'intimité totale plutôt que sur l'animation permanente, avec une table d'hôte mettant à l'honneur les produits locaux et une huile d'olive artisanale issue du domaine. Idéalement située à une trentaine de kilomètres de Djerba, elle constitue une base discrète pour explorer le sud tunisien.",
+        "prix_moyen": "Sur demande",
+        "equipements": [
+            "Piscine privée dans chaque suite",
+            "Climatisation",
+            "Table d'hôte avec cuisine locale",
+            "Terrasses et rooftops privatifs",
+            "Wifi gratuit",
+            "Privatisation possible de l'ensemble de la propriété"
+        ],
+        "points_positifs": [
+            "Chaque suite dispose de sa propre piscine privée, un vrai gage d'intimité",
+            "Table d'hôte mettant en valeur les produits locaux et l'huile d'olive du domaine",
+            "Décoration soignée mêlant raffinement contemporain et artisanat tunisien",
+            "Emplacement discret à Zarzis, loin de l'agitation touristique de Djerba"
+        ],
+        "points_negatifs": [
+            "Capacité limitée à 8 suites, réservation à anticiper en haute saison"
+        ],
+        "Nomad, vous en dit plus": "Entre nous, si vous cherchez une parenthèse loin des grands complexes hoteliers, Dar Oomi coche toutes les cases. Ce qu'on adore, c'est ce choix audacieux d'une piscine privée par suite : on n'a jamais à partager son moment de détente, et l'ambiance reste résolument intimiste du petit-déjeuner au coucher du soleil sur les rooftops.",
+        "pour_qui": {
+            "ambiance": "Intimiste, raffiné, discret et chaleureux",
+            "public": "Couples, familles élargies ou groupes d'amis en quête d'exclusivité",
+            "style": "Maison d'hôtes de luxe avec suites à piscine privée",
+            "verdict": "Le meilleur compromis entre le calme d'une adresse confidentielle et le confort d'un hébergement haut de gamme."
+        },
+        "faq": [
+            {
+                "question": "Le logement dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Dar Oomi dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Zarzis ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Zarzis, Tunisie accueille ce logement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Djerba-Zarzis (DJE), à environ 52 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 52 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     }
 }

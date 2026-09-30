@@ -27,7 +27,7 @@ import json
 import sys
 from pathlib import Path
 
-DATA_DIR = Path("data")
+DATA_DIR = Path("data_logements")
 APPLY = "--apply" in sys.argv
 FORCE = "--force" in sys.argv
 

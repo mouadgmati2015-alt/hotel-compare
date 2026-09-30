@@ -37,6 +37,14 @@
             "public": "Amateurs d'architecture, voyageurs en quête de design unique et passionnés de nature",
             "style": "Cabanes de luxe perchées dans les arbres / Éco-resort",
             "verdict": "Une expérience de design et de nature inoubliable au sommet des arbres en Suède."
-        }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Harads ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Harads avant de fixer vos dates."
+            }
+        ],
+        "environs": "Ce logement se trouve à Harads, Suede, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": []
     }
 }

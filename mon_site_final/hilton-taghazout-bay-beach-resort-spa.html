@@ -275,6 +275,36 @@ a { color: var(--secondary); }
                 <p style="font-weight:700; margin:0 0 4px;">Quelle est la meilleure période pour séjourner à Taghazout ?</p>
                 <p style="color:var(--muted); margin:0;">Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver.</p>
             </div><h3>🏨 Hôtels similaires</h3><ul><li><a href="radisson-blu-resort-taghazout-bay-surf-village.html">Radisson Blu Resort Taghazout Bay Surf Village</a></li><li><a href="hotel-riu-palace-tikida-taghazout-all-inclusive.html">Hotel Riu Palace Tikida Taghazout - All Inclusive</a></li><li><a href="taghazout-bay-marriott-resort.html">Taghazout Bay Marriott Resort</a></li></ul>
+    
+        <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);">
+            <h3 style="margin-top:0;">✈️ Trouver un vol pour Maroc</h3>
+            <p style="color: var(--muted); font-size: 0.9rem;">Comparez les billets d'avion depuis n'importe quelle ville du monde.</p>
+            <label style="font-size:0.85rem; color:var(--muted); display:block; margin-bottom:6px;">Ville de départ :</label>
+            <input list="villes-depart-datalist" id="ville-depart-texte" placeholder="Tapez votre ville (ex: Strasbourg)" autocomplete="off" style="width:100%; max-width:320px; padding:9px; border-radius:10px; border:1px solid var(--line); margin-bottom:12px;">
+            <datalist id="villes-depart-datalist"></datalist>
+            <br>
+            <a id="lien-comparer-vols" href="https://www.aviasales.com/?marker=751055.Zzd6becc67db124a428030974-751055&params=PARAGA1" target="_blank" rel="noopener sponsored nofollow" class="btn">Comparer les vols</a>
+        </div>
+        <script src="villes-aeroports.js"></script>
+        <script>
+        (function() {
+            const listeInput = document.getElementById('villes-depart-datalist');
+            const parVille = {};
+            VILLES_AEROPORTS.forEach(function(v) {
+                const opt = document.createElement('option');
+                opt.value = v.ville;
+                listeInput.appendChild(opt);
+                parVille[v.ville] = v.code;
+            });
+            document.getElementById('ville-depart-texte').addEventListener('input', function() {
+                const code = parVille[this.value];
+                if (code) {
+                    document.getElementById('lien-comparer-vols').href = "https://www.aviasales.com/?marker=751055.Zzd6becc67db124a428030974-751055&params=" + code + "AGA1";
+                }
+            });
+        })();
+        </script>
+        
 
     <div style="margin-top: 30px;">
         <a href="https://www.booking.com/hotel/ma/hilton-taghazout-bay-beach-resort-spa.fr.html?aid=8012379" target="_blank" class="btn-booking">Réserver sur Booking</a>

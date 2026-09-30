@@ -36,6 +36,18 @@
             "public": "Aventuriers du luxe, passionnés d'aviation et voyageurs en quête d'expériences uniques",
             "style": "Suite de luxe dans un avion / Éco-resort insolite",
             "verdict": "Une expérience aérienne et sylvestre absolument mythique à vivre au Costa Rica."
-        }
+        },
+        "faq": [
+            {
+                "question": "Le logement dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Costa Verde - Le Boeing 727 dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Manuel Antonio ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Ce logement est situé à Manuel Antonio, Costa Rica, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": []
     }
 }

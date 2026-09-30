@@ -29,7 +29,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-DATA_DIR = Path("data")
+DATA_DIR = Path("data_logements")
 GEOCODE_CACHE_PATH = Path("data_logements") / "_geocode_cache.json"  # même cache que generateur.py
 APPLY = "--apply" in sys.argv
 FORCE = "--force" in sys.argv

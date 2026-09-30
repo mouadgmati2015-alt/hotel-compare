@@ -1,5 +1,5 @@
 {
-"Kakslauttanen Arctic Resort - Igloos and Chalets": {
+    "Kakslauttanen Arctic Resort - Igloos and Chalets": {
         "type": "Completement-maboul",
         "pays": "Finlande",
         "ville": "Saariselkä",
@@ -38,7 +38,14 @@
             "public": "Voyageurs en quête d'une expérience hivernale extraordinaire et d'un séjour grand luxe en Laponie",
             "style": "Resort d'igloos en verre et chalets traditionnels lapons",
             "verdict": "Une destination de rêve pour cocher la case de la magie arctique ultime au moins une fois dans sa vie."
-        }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Saariselkä ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Saariselkä."
+            }
+        ],
+        "environs": "Implanté à Saariselkä, Finlande, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": []
     }
-    
 }

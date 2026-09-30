@@ -39,6 +39,18 @@
             "public": "Amoureux de nature, voyageurs en quête d'insolite absolu et passionnés de grands espaces",
             "style": "Lodge insolite en forme de volcan végétalisé",
             "verdict": "Une merveille architecturale et naturelle à découvrir absolument lors d'un voyage au Chili."
-        }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Montana Magica Lodge."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Panguipulli ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Panguipulli."
+            }
+        ],
+        "environs": "Panguipulli, Chili accueille ce logement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": []
     }
 }

@@ -36,6 +36,23 @@
             "public": "Couples ou voyageurs en quête d'un séjour insolite et verdoyant près d'Annecy",
             "style": "Hébergement insolite en roulotte / bungalow",
             "verdict": "Une parenthèse hors du temps au bord de la rivière, idéale pour une déconnexion totale."
+        },
+        "faq": [
+            {
+                "question": "Le logement est-il en bord de mer ?",
+                "reponse": "Oui, La Roulotte du Fier propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Annecy ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Annecy."
+            }
+        ],
+        "environs": "Annecy, France accueille ce logement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Lyon-Saint-Exupéry (LYS), à environ 83 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 83 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     },
     "Les cimes de Cabus": {
@@ -76,6 +93,19 @@
             "public": "Voyageurs en quête d'un séjour de charme au vert avec un panorama d'exception sur les montagnes",
             "style": "Maison de caractère / Gîte indépendant",
             "verdict": "Une parenthèse rare et suspendue au cœur des Pyrénées, idéale pour se ressourcer au plus près de la nature."
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Saurat ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Saurat avant de fixer vos dates."
+            }
+        ],
+        "environs": "Ce logement se trouve à Saurat, France, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Bordeaux-Mérignac (BOD), à environ 282 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 282 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     },
     "Phare de Kerbel": {
@@ -117,6 +147,23 @@
             "public": "Voyageurs en quête d'une parenthèse d'exception et d'un séjour de luxe hors du commun",
             "style": "Phare historique habitable / Glamping de prestige",
             "verdict": "Une nuit magique et suspendue au sommet d'un phare, entre ciel et mer."
+        },
+        "faq": [
+            {
+                "question": "Le logement dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Phare de Kerbel dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Riantec ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Ce logement est situé à Riantec, France, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Nantes Atlantique (NTE), à environ 142 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 142 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     },
     "Planete Sauvage": {
@@ -156,6 +203,19 @@
             "public": "Familles, passionnés de grands espaces et amateurs d'expériences animalières d'exception",
             "style": "Lodges et bivouacs de luxe au cœur d'un parc animalier",
             "verdict": "Une immersion extraordinaire au royaume des animaux, à vivre au moins une fois dans sa vie."
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Port-Saint-Père ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Port-Saint-Père."
+            }
+        ],
+        "environs": "Ce logement se trouve à Port-Saint-Père, France, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Nantes Atlantique (NTE), à environ 12 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 12 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     },
     "Domaine de la Combe Rossignol": {
@@ -195,6 +255,23 @@
             "public": "Couples et familles en quête d'une bulle de bien-être et d'un séjour insolite en pleine nature",
             "style": "Cabanes perchées, cabanes flottantes et suites éco-responsables avec spa",
             "verdict": "Une parenthèse enchantée et totalement déconnectée pour se ressourcer en forêt."
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Domaine de la Combe Rossignol."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Vernois-lès-Vesvres ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Vernois-lès-Vesvres avant de fixer vos dates."
+            }
+        ],
+        "environs": "Ce logement est situé à Vernois-lès-Vesvres, France, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Strasbourg (SXB), à environ 210 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 210 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     },
     "La chapelle moulin 5 étoiles": {
@@ -235,6 +312,27 @@
             "public": "Voyageurs en quête d'un séjour haut de gamme 5 étoiles dans un cadre patrimonial unique",
             "style": "Moulin historique de luxe / Gîte 5 étoiles avec spa",
             "verdict": "Une expérience de prestige absolue au fil de l'eau et sous le signe du bien-être."
+        },
+        "faq": [
+            {
+                "question": "Le logement dispose-t-il d'une piscine ?",
+                "reponse": "Oui, La chapelle moulin 5 étoiles dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de La chapelle moulin 5 étoiles."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Bourg-Argental ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Bourg-Argental avant de fixer vos dates."
+            }
+        ],
+        "environs": "Bourg-Argental, France accueille ce logement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Lyon-Saint-Exupéry (LYS), à environ 63 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 63 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     },
     "Cocoon Village": {
@@ -273,6 +371,19 @@
             "public": "Voyageurs audacieux en quête d'une aventure hors du commun et de panoramas à couper le souffle",
             "style": "Bulles et cocons suspendus dans les arbres / Glamping d'aventure",
             "verdict": "Une nuit suspendue entre ciel et mer, idéale pour les amateurs de grands frissons et de nature."
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Porto-Vecchio ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Implanté à Porto-Vecchio, France, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Nice Côte d'Azur (NCE), à environ 285 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 285 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     },
     "Auberge du chemin de fer (Lanester)": {
@@ -313,6 +424,23 @@
             "public": "Amoureux de trains, familles en quête d'insolite et voyageurs gourmands",
             "style": "Auberge thématique et hébergement insolite en train",
             "verdict": "Une halte ferroviaire unique en son genre pour un séjour mémorable en Bretagne."
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Auberge du chemin de fer (Lanester)."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Lanester ?",
+                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+            }
+        ],
+        "environs": "Ce logement est situé à Lanester, France, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Nantes Atlantique (NTE), à environ 147 km à vol d'oiseau",
+            "temps_de_trajet_estime": "Environ 147 min en voiture (estimation, hors trafic)",
+            "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'établissement ou d'un prestataire local."
         }
     }
 }

@@ -35,6 +35,14 @@
             "public": "Amoureux de nature, voyageurs en quête de poésie et adeptes d'hébergements insolites d'exception",
             "style": "Sphères en bois suspendues dans les arbres / Glamping forestier",
             "verdict": "Une parenthèse enchantée et suspendue dans le temps au beau milieu des forêts canadiennes."
-        }
+        },
+        "faq": [
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Qualicum Beach ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Qualicum Beach."
+            }
+        ],
+        "environs": "Implanté à Qualicum Beach, Canada, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
+        "hotels_similaires": []
     }
 }

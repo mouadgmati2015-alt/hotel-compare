@@ -50,7 +50,7 @@ OUTPUT_DIR = BASE_DIR / "mon_site_final"
 RESET_OUTPUT = "--reset" in sys.argv[1:]
 WATCH_MODE = "--watch" in sys.argv[1:]
 SITE_URL = os.environ.get("SITE_URL", "https://myhotelcompare.com").rstrip("/")
-
+LIEN_VOLS_AVIASALES = "https://aviasales.tpx.li/ftGfE8bH"
 
 def escape_html(value):
     if value is None:
@@ -258,9 +258,6 @@ def generer_widget_visa(pays_destination):
     nationalites_dict = charger_nationalites()
     dest_normalise = normaliser_avec_alias(pays_destination)
 
-    # On n'embarque, pour chaque nationalité, QUE la règle concernant
-    # cette destination précise — pas les ~198 autres destinations —
-    # pour ne pas alourdir chaque page hôtel avec tout le fichier.
     dict_allege = {}
     for code, info in nationalites_dict.items():
         if code.startswith("_") or not isinstance(info, dict):
@@ -322,6 +319,43 @@ def generer_widget_visa(pays_destination):
     }}
     </script>
     """
+
+
+LIEN_VOLS_TEMPLATE = "https://www.aviasales.com/?marker=751055.Zzd6becc67db124a428030974-751055&params={params}"
+
+_CODES_PAYS = {
+    "Hongrie": "HU", "Tunisie": "TN", "Égypte": "EG", "Maroc": "MA",
+    "Turquie": "TR", "Espagne": "ES", "Portugal": "PT", "Italie": "IT",
+    "Grèce": "GR", "Croatie": "HR", "Indonésie": "ID", "Thaïlande": "TH",
+    "Albanie": "AL", "Allemagne": "DE", "Arabie saoudite": "SA", "Australie": "AU",
+    "Autriche": "AT", "Canada": "CA", "Chine": "CN", "France": "FR",
+    "Hong Kong": "HK", "Inde": "IN", "Japon": "JP", "Macao": "MO",
+    "Malaisie": "MY", "Mexique": "MX", "Monténégro": "ME", "Pays-Bas": "NL",
+    "Pologne": "PL", "Royaume-Uni": "GB", "République tchèque": "CZ", "Sri Lanka": "LK",
+    "Vietnam": "VN", "Émirats arabes unis": "AE", "États-Unis": "US",
+    "Corée du Sud": "KR", "Suisse": "CH", "Belgique": "BE", "Chypre": "CY",
+    "Brésil": "BR","Bolivie": "BO", "Chili": "CL", "Costa Rica": "CR", "Finlande": "FI",
+    "Kenya": "KE", "Pérou": "PE", "Suède": "SE", "Tanzanie": "TZ",
+    # complète avec tes autres pays
+}
+CODES_PAYS = {normaliser_avec_alias(k): v for k, v in _CODES_PAYS.items()}
+
+def code_iata_destination(d):
+    """Priorité à l'aéroport précis déjà calculé dans acces_info (ex: 'DJE'),
+    sinon repli sur le code pays entier (ex: 'SA')."""
+    acces = d.get("acces") or {}
+    m = re.search(r"\(([A-Z]{3})\)", str(acces.get("aeroport_le_plus_proche", "")))
+    if m:
+        return m.group(1)
+    return d.get("aeroport_iata") or CODES_PAYS.get(normaliser_avec_alias(d.get("pays", "")), "")
+
+def lien_vols(d):
+    destination = code_iata_destination(d)
+    if not destination:
+        return LIEN_VOLS_AVIASALES
+    return LIEN_VOLS_TEMPLATE.format(params=f"PAR{destination}1")
+
+    
 GEOCODE_CACHE_PATH = BASE_DIR / "data_logements" / "_geocode_cache.json"
 
 def charger_cache_geocodage():
@@ -423,7 +457,9 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 images_source = BASE_DIR / "images"
 if images_source.exists():
     shutil.copytree(images_source, OUTPUT_DIR / "images", dirs_exist_ok=True)
-
+js_source = BASE_DIR / "villes-aeroports.js"
+if js_source.exists():
+    shutil.copy(js_source, OUTPUT_DIR / "villes-aeroports.js")
 
 def nettoyer_slug(texte):
     texte = texte.lower().strip()
@@ -1515,7 +1551,8 @@ html_hotels = f"""<!DOCTYPE html>
 </html>
 """
 write_html(OUTPUT_DIR / "hotels.html", html_hotels)
-
+print("Pays sans code (hôtels) :", sorted({d.get("pays") for d in HOTELS_DATA_COMPLET.values() if d.get("pays") and normaliser_avec_alias(d["pays"]) not in CODES_PAYS}))
+print("Pays sans code (logements atypiques) :", sorted({d.get("pays") for d in LOGEMENTS_DATA_COMPLET.values() if d.get("pays") and normaliser_avec_alias(d["pays"]) not in CODES_PAYS}))
 # 4. Fiches individuelles des hôtels
 for h_nom, d in HOTELS_DATA_COMPLET.items():
     slug = nettoyer_slug(h_nom)
@@ -1527,7 +1564,48 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
     points_positifs = [nettoyer_avis(p) for p in (d.get('points_positifs') or [])]
     points_negatifs = [nettoyer_avis(n) for n in (d.get('points_negatifs') or [])]
     pays_hotel = d.get('pays', 'la destination')
-    widget_visa_html = generer_widget_visa(pays_hotel)
+    widget_visa_html = generer_widget_visa(pays_hotel) or ""
+    destination_vol = code_iata_destination(d)
+    if destination_vol:
+        base_lien_vol = LIEN_VOLS_TEMPLATE.split("{params}")[0]
+        bloc_vols_html = f"""
+        <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);">
+            <h3 style="margin-top:0;">✈️ Trouver un vol pour {escape_html(pays_hotel)}</h3>
+            <p style="color: var(--muted); font-size: 0.9rem;">Comparez les billets d'avion depuis n'importe quelle ville du monde.</p>
+            <label style="font-size:0.85rem; color:var(--muted); display:block; margin-bottom:6px;">Ville de départ :</label>
+            <input list="villes-depart-datalist" id="ville-depart-texte" placeholder="Tapez votre ville (ex: Strasbourg)" autocomplete="off" style="width:100%; max-width:320px; padding:9px; border-radius:10px; border:1px solid var(--line); margin-bottom:12px;">
+            <datalist id="villes-depart-datalist"></datalist>
+            <br>
+            <a id="lien-comparer-vols" href="{lien_vols(d)}" target="_blank" rel="noopener sponsored nofollow" class="btn">Comparer les vols</a>
+        </div>
+        <script src="villes-aeroports.js"></script>
+        <script>
+        (function() {{
+            const listeInput = document.getElementById('villes-depart-datalist');
+            const parVille = {{}};
+            VILLES_AEROPORTS.forEach(function(v) {{
+                const opt = document.createElement('option');
+                opt.value = v.ville;
+                listeInput.appendChild(opt);
+                parVille[v.ville] = v.code;
+            }});
+            document.getElementById('ville-depart-texte').addEventListener('input', function() {{
+                const code = parVille[this.value];
+                if (code) {{
+                    document.getElementById('lien-comparer-vols').href = "{base_lien_vol}" + code + "{destination_vol}1";
+                }}
+            }});
+        }})();
+        </script>
+        """
+    else:
+        bloc_vols_html = f"""
+        <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);">
+            <h3 style="margin-top:0;">✈️ Trouver un vol pour {escape_html(pays_hotel)}</h3>
+            <p style="color: var(--muted); font-size: 0.9rem;">Comparez les billets d'avion depuis tous les aéroports et trouvez le meilleur prix.</p>
+            <a href="{LIEN_VOLS_AVIASALES}" target="_blank" rel="noopener sponsored nofollow" class="btn">Comparer les vols</a>
+        </div>
+        """
     pour_qui = d.get('pour_qui') or {}
     avis_clients = d.get('avis_clients') or generer_avis_hotel(h_nom, d)
     nomad_insight = d.get('Nomad, vous en dit plus') or d.get('nomad_vous_en_dit_plus') or ""
@@ -1676,6 +1754,7 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
     {points_negatifs_html}
     {widget_visa_html}{avertissement_sinai_html}
     {pour_qui_html}{extra_sections_html}
+    {bloc_vols_html}
 
     <div style="margin-top: 30px;">
         <a href="{l_booking}" target="_blank" class="btn-booking">Réserver sur Booking</a>
@@ -1840,6 +1919,106 @@ filtrerParPays();
         pour_qui = d.get('pour_qui') or {}
         avis_clients = d.get('avis_clients') or generer_avis_hotel(nom_logement, d)
         nomad_insight = d.get('Nomad, vous en dit plus') or d.get('nomad_vous_en_dit_plus') or ""
+        pays_logement = d.get('pays', 'la destination')
+        widget_visa_html = generer_widget_visa(pays_logement) or ""
+        faq_items = d.get('faq') or []
+        acces_info = d.get('acces') or {}
+        comparatif_prix = d.get('comparatif_prix') or {}
+        environs = d.get('environs') or ""
+        logements_similaires_noms = d.get('hotels_similaires') or d.get('logements_similaires') or []
+
+        faq_html = ""
+        if faq_items:
+            faq_html = "<h3>❓ Questions fréquentes</h3>" + "".join(
+                f"""<div style="margin-bottom:14px;">
+                    <p style="font-weight:700; margin:0 0 4px;">{escape_html(item.get('question', ''))}</p>
+                    <p style="color:var(--muted); margin:0;">{escape_html(item.get('reponse', ''))}</p>
+                </div>""" for item in faq_items if isinstance(item, dict)
+            )
+
+        acces_html = ""
+        if acces_info:
+            acces_html = "<h3>🧭 Accès</h3><ul>" + "".join(
+                f"<li>{escape_html(str(v))}</li>" for v in acces_info.values() if v
+            ) + "</ul>"
+
+        comparatif_html = ""
+        if comparatif_prix:
+            rows = ""
+            for site_nom, site_data in comparatif_prix.items():
+                if site_nom == "note" or not isinstance(site_data, dict):
+                    continue
+                rows += f"""<tr>
+                    <td style="padding:8px; border:1px solid var(--line);">{escape_html(site_nom.capitalize())}</td>
+                    <td style="padding:8px; border:1px solid var(--line);">{escape_html(site_data.get('prix_a_partir_de', ''))}</td>
+                    <td style="padding:8px; border:1px solid var(--line);">{escape_html(site_data.get('avantages', ''))}</td>
+                </tr>"""
+            if rows:
+                comparatif_html = f"""<h3>💶 Comparatif de prix</h3>
+                <table style="width:100%; border-collapse:collapse; margin-bottom:10px;">
+                    <tr style="background:var(--panel);">
+                        <th style="text-align:left; padding:8px; border:1px solid var(--line);">Plateforme</th>
+                        <th style="text-align:left; padding:8px; border:1px solid var(--line);">À partir de</th>
+                        <th style="text-align:left; padding:8px; border:1px solid var(--line);">Avantage</th>
+                    </tr>
+                    {rows}
+                </table>"""
+
+        environs_html = f"<h3>📍 Aux alentours</h3><p>{escape_html(environs)}</p>" if environs else ""
+
+        logements_similaires_html = ""
+        if logements_similaires_noms:
+            liens_similaires = ""
+            for nom_similaire in logements_similaires_noms:
+                if nom_similaire in LOGEMENTS_DATA_COMPLET:
+                    slug_similaire = nettoyer_slug(nom_similaire)
+                    liens_similaires += f'<li><a href="atypique-{slug_similaire}.html">{escape_html(nom_similaire)}</a></li>'
+            if liens_similaires:
+                logements_similaires_html = f"<h3>🏡 Logements similaires</h3><ul>{liens_similaires}</ul>"
+
+        extra_sections_html = comparatif_html + acces_html + environs_html + faq_html + logements_similaires_html
+
+        destination_vol = code_iata_destination(d)
+        if destination_vol:
+            base_lien_vol = LIEN_VOLS_TEMPLATE.split("{params}")[0]
+            bloc_vols_html = f"""
+            <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);">
+                <h3 style="margin-top:0;">✈️ Trouver un vol pour {escape_html(pays_logement)}</h3>
+                <p style="color: var(--muted); font-size: 0.9rem;">Comparez les billets d'avion depuis n'importe quelle ville du monde.</p>
+                <label style="font-size:0.85rem; color:var(--muted); display:block; margin-bottom:6px;">Ville de départ :</label>
+                <input list="villes-depart-datalist" id="ville-depart-texte" placeholder="Tapez votre ville (ex: Strasbourg)" autocomplete="off" style="width:100%; max-width:320px; padding:9px; border-radius:10px; border:1px solid var(--line); margin-bottom:12px;">
+                <datalist id="villes-depart-datalist"></datalist>
+                <br>
+                <a id="lien-comparer-vols" href="{lien_vols(d)}" target="_blank" rel="noopener sponsored nofollow" class="btn">Comparer les vols</a>
+            </div>
+            <script src="villes-aeroports.js"></script>
+            <script>
+            (function() {{
+                const listeInput = document.getElementById('villes-depart-datalist');
+                const parVille = {{}};
+                VILLES_AEROPORTS.forEach(function(v) {{
+                    const opt = document.createElement('option');
+                    opt.value = v.ville;
+                    listeInput.appendChild(opt);
+                    parVille[v.ville] = v.code;
+                }});
+                document.getElementById('ville-depart-texte').addEventListener('input', function() {{
+                    const code = parVille[this.value];
+                    if (code) {{
+                        document.getElementById('lien-comparer-vols').href = "{base_lien_vol}" + code + "{destination_vol}1";
+                    }}
+                }});
+            }})();
+            </script>
+            """
+        else:
+            bloc_vols_html = f"""
+            <div class="glass-box" style="margin-top: 22px; border-left: 5px solid var(--primary);">
+                <h3 style="margin-top:0;">✈️ Trouver un vol pour {escape_html(pays_logement)}</h3>
+                <p style="color: var(--muted); font-size: 0.9rem;">Comparez les billets d'avion depuis tous les aéroports et trouvez le meilleur prix.</p>
+                <a href="{LIEN_VOLS_AVIASALES}" target="_blank" rel="noopener sponsored nofollow" class="btn">Comparer les vols</a>
+            </div>
+            """
         type_nom = str(d.get('type') or 'atypique').strip().lower()
         type_slug = nettoyer_slug(type_nom)
         icone = icone_type(type_slug)
@@ -1928,7 +2107,9 @@ filtrerParPays();
     {equipements_html}
     {points_html}
     {points_negatifs_html}
+    {widget_visa_html}
     {pour_qui_html}
+    {bloc_vols_html}
 
     <div style="margin-top: 30px;">
         {boutons_reservation}
@@ -2192,7 +2373,7 @@ if os.path.exists("blog_data.json"):
 <a href="blog.html" style="color: #38bdf8; display: inline-block; margin-bottom: 15px; text-decoration: none;">← Retour au blog</a>
 <div class="card">
     <h1>{art_title}</h1>
-    {f'<img src="{img_art}" alt="{escape_html(art_title)}" style="width:100%; max-height:400px; object-fit:cover; border-radius:8px; margin:20px 0;">' if img_art else ''}
+    {f'<img src="{img_art}" alt="{escape_html(art_title)}" style="width:100%; height:340px; object-fit:cover; object-position:center 35%; border-radius:16px; margin:20px 0; box-shadow: var(--shadow);">' if img_art else ''}
     <p style="font-size: 1.1em; line-height: 1.8;">{details_texte}</p>
 </div>
 {footer_html}

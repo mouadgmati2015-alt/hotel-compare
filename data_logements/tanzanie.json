@@ -3,7 +3,7 @@
         "type": "Completement-maboul",
         "pays": "Tanzanie",
         "ville": "Île de Pemba",
-         "lat": -4.88259833645688,
+        "lat": -4.88259833645688,
         "lng": 39.6793558079845,
         "lien_booking": "",
         "lien_expedia": "",
@@ -38,6 +38,22 @@
             "public": "Voyageurs en quête d'une expérience bucket-list absolue et d'un séjour de luxe hors du commun",
             "style": "Chambre d'hôtel flottante et immergée / Éco-resort de luxe",
             "verdict": "Une nuit magique et inoubliable sous les océans, au plus près de la vie marine."
-        }
+        },
+        "faq": [
+            {
+                "question": "Le logement est-il en bord de mer ?",
+                "reponse": "Oui, Manta Resort propose un accès plage parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Manta Resort."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Île de Pemba ?",
+                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Île de Pemba."
+            }
+        ],
+        "environs": "Île de Pemba, Tanzanie accueille ce logement et offre à proximité un choix de commerces, de restaurants et de points d'intérêt à explorer.",
+        "hotels_similaires": []
     }
 }

@@ -37,6 +37,22 @@
             "public": "Voyageurs en quête d'un séjour d'exception et de confort au cœur du Salar d'Uyuni",
             "style": "Hôtel de sel haut de gamme / Éco-resort thématique",
             "verdict": "Une étape féerique et incontournable en Bolivie, où tout est fait de sel pour un souvenir impérissable."
-        }
+        },
+        "faq": [
+            {
+                "question": "Le logement dispose-t-il d'une piscine ?",
+                "reponse": "Oui, Hotel Palacio de Sal dispose d'une piscine parmi ses équipements."
+            },
+            {
+                "question": "Y a-t-il un spa sur place ?",
+                "reponse": "Oui, un spa fait partie des équipements de Hotel Palacio de Sal."
+            },
+            {
+                "question": "Quelle est la meilleure période pour séjourner à Colchani ?",
+                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Colchani avant de fixer vos dates."
+            }
+        ],
+        "environs": "Ce logement se trouve à Colchani, Bolivie, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
+        "hotels_similaires": []
     }
 }
