@@ -134,8 +134,10 @@ def generer_og_tags(titre, description, url, image=""):
     return tags
 
 
-def generer_schema_hotel(nom_hotel, donnees, description, avis_clients, url_page, schema_type="Hotel"):
-    """Construit un objet JSON-LD schema.org Hotel/LodgingBusiness (+ AggregateRating si des avis existent)."""
+def generer_schema_hotel(nom_hotel, donnees, description, avis_clients, url_page, schema_type="Hotel", avis_reels=None):
+    """Construit un objet JSON-LD schema.org Hotel/LodgingBusiness.
+    L'aggregateRating n'est généré qu'à partir de vrais avis (avis_reels),
+    jamais à partir des avis de secours générés automatiquement."""
     ville = str(donnees.get("ville") or "").strip()
     pays = str(donnees.get("pays") or "").strip()
     schema = {
@@ -160,8 +162,8 @@ def generer_schema_hotel(nom_hotel, donnees, description, avis_clients, url_page
             schema["starRating"] = {"@type": "Rating", "ratingValue": float(str(etoiles).split()[0])}
         except (ValueError, IndexError):
             pass
-    if avis_clients:
-        notes = [int(a.get("note", 5)) for a in avis_clients if a.get("note")]
+    if avis_reels:
+        notes = [int(a.get("note", 5)) for a in avis_reels if a.get("note")]
         if notes:
             schema["aggregateRating"] = {
                 "@type": "AggregateRating",
@@ -1720,7 +1722,8 @@ for h_nom, d in HOTELS_DATA_COMPLET.items():
     meta_description = escape_html(nettoyer_avis(d.get('meta_description') or generer_meta_description(h_nom, d, description_brute)))
     titre_page = escape_html(nettoyer_avis(d.get('meta_title') or f"{h_nom} - {d.get('ville','')} | MyHotelCompare"))
     url_page = f"{SITE_URL}/{slug}.html"
-    schema_json = generer_schema_hotel(h_nom, d, description_brute, avis_clients, url_page)
+    avis_reels = d.get('avis_clients') or None
+    schema_json = generer_schema_hotel(h_nom, d, description_brute, avis_clients, url_page, avis_reels=avis_reels)
     hotel_og_tags = generer_og_tags(h_nom, meta_description, url_page, d.get('image', ''))
     # Texte alternatif de l'image principale : utilise "image_alt" du JSON si présent, sinon retombe sur le nom de l'hôtel
     image_alt_hotel = escape_html(nettoyer_avis(d.get('image_alt') or h_nom))
@@ -2051,7 +2054,8 @@ filtrerParPays();
         meta_description = escape_html(d.get('meta_description') or generer_meta_description(nom_logement, d, description_brute))
         titre_page = escape_html(d.get('meta_title') or f"{nom_logement} - {d.get('ville','')} | MyHotelCompare")
         url_page = f"{SITE_URL}/atypique-{slug}.html"
-        schema_json = generer_schema_hotel(nom_logement, d, description_brute, avis_clients, url_page, schema_type="LodgingBusiness")
+        avis_reels = d.get('avis_clients') or None
+        schema_json = generer_schema_hotel(nom_logement, d, description_brute, avis_clients, url_page, schema_type="LodgingBusiness", avis_reels=avis_reels)
         logement_og_tags = generer_og_tags(nom_logement, meta_description, url_page, d.get('image', ''))
         image_alt_logement = escape_html(d.get('image_alt') or nom_logement)
         
