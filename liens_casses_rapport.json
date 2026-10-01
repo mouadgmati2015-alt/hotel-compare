@@ -1,0 +1,20 @@
+[
+  {
+    "fichier": "data/italie.json",
+    "nom": "Forte Village Resort - Hotel Le Dune, Sardinia",
+    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/38605553.jpg?k=2f72bc9776f80d5d4d38c64bb77ce982bb9d300e84b86c38cc5d5395fb595603&o=",
+    "raison": "Code HTTP 401"
+  },
+  {
+    "fichier": "data/italie.json",
+    "nom": "La Pescheria, Fasano (Apulie)",
+    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/38605553.jpg?k=2f72bc9776f80d5d4d38c64bb77ce982bb9d300e84b86c38cc5d5395fb595603&o=",
+    "raison": "Code HTTP 401"
+  },
+  {
+    "fichier": "data/italie.json",
+    "nom": "Cala di Volpe, a Luxury Collection Hotel, Costa Smeralda",
+    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/38605553.jpg?k=2f72bc9776f80d5d4d38c64bb77ce982bb9d300e84b86c38cc5d5395fb595603&o=",
+    "raison": "Code HTTP 401"
+  }
+]
