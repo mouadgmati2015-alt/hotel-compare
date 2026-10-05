@@ -1239,7 +1239,23 @@ if os.path.exists(chemin_promo):
 
 # Carrousel
 img_paths = ["images/image caroussel 2.png", "images/image_afrique.jpg", "images/image_astuce.jpg", "images/image_hotel.jpg", "images/image_tunisie.jpg"]
-imgs_base64 = [get_img_as_base64(p) for p in img_paths]
+imgs_web = [get_public_image(p) for p in img_paths]
+
+alt_textes = [
+    "Découverte d'hôtels et de destinations",
+    "Destination Afrique",
+    "Astuce voyage",
+    "Hôtel de voyage",
+    "Destination Tunisie",
+]
+
+slides_html = ""
+for i, (chemin, alt) in enumerate(zip(imgs_web, alt_textes)):
+    if not chemin:
+        continue
+    delay = i * 3
+    priorite = "eager" if i == 0 else "lazy"
+    slides_html += f'<img class="hotel-slide-item" src="{chemin}" alt="{alt}" width="1600" height="350" loading="{priorite}" style="animation-delay: {delay}s;">'
 
 carousel_html = f"""
 <div style="width: 100%; height: 350px; position: relative; overflow: hidden; border-radius: 12px; background: #0e1117; border: 1px solid #3A506B;">
@@ -1247,11 +1263,7 @@ carousel_html = f"""
     @keyframes customFade {{ 0% {{ opacity: 0; }} 6% {{ opacity: 1; }} 20% {{ opacity: 1; }} 26% {{ opacity: 0; }} 100% {{ opacity: 0; }} }}
     .hotel-slide-item {{ position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 12px; opacity: 0; animation: customFade 15s infinite; }}
     </style>
-    {f'<img class="hotel-slide-item" src="data:image/png;base64,{imgs_base64[0]}" alt="Découverte d\'hôtels et de destinations" style="animation-delay: 0s;">' if imgs_base64[0] else ''}
-    {f'<img class="hotel-slide-item" src="data:image/jpeg;base64,{imgs_base64[1]}" alt="Destination Afrique" style="animation-delay: 3s;">' if imgs_base64[1] else ''}
-    {f'<img class="hotel-slide-item" src="data:image/jpeg;base64,{imgs_base64[2]}" alt="Astuce voyage" style="animation-delay: 6s;">' if imgs_base64[2] else ''}
-    {f'<img class="hotel-slide-item" src="data:image/jpeg;base64,{imgs_base64[3]}" alt="Hôtel de voyage" style="animation-delay: 9s;">' if imgs_base64[3] else ''}
-    {f'<img class="hotel-slide-item" src="data:image/jpeg;base64,{imgs_base64[4]}" alt="Destination Tunisie" style="animation-delay: 12s;">' if imgs_base64[4] else ''}
+    {slides_html}
 </div>
 """
 
