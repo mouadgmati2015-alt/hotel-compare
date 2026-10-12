@@ -225,6 +225,10 @@ a { color: var(--secondary); }
 .it-lieu small{display:block;color:var(--muted)}
 .it-lieu a{font-weight:700;margin-left:12px;white-space:nowrap}
 .it-wait{color:var(--muted);margin:0}
+.it-budget{margin-bottom:22px}
+.it-bt{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:8px 12px;align-items:center}
+.it-bt .fort{font-weight:800;border-top:1px solid var(--line);padding-top:8px}
+.it-bt small{color:var(--muted)}
 .it-all{margin-bottom:18px}
 .it-all p{margin:6px 0 0}
 .it-gps{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px}
@@ -269,6 +273,8 @@ a { color: var(--secondary); }
   <div><label for="itVeh">Véhicule</label><select id="itVeh"><option value="th">Thermique</option><option value="ev">Électrique</option></select></div>
   <div><label for="itConso" id="itConsoL">Consommation (L/100 km)</label><input id="itConso" type="number" value="6" min="2" max="20" step="0.1"></div>
   <div><label for="itPrix" id="itPrixL">Carburant (€/L)</label><input id="itPrix" type="number" value="1.80" min="0.5" max="4" step="0.01"></div>
+  <div><label for="itPers">Personnes</label><input id="itPers" type="number" value="2" min="1" max="12"></div>
+  <div><label for="itRepas">Repas par personne et par jour (€)</label><input id="itRepas" type="number" value="45" min="0" max="300" step="1"></div>
   <div id="itAutoDiv" style="display:none"><label for="itAuto">Autonomie réelle (km)</label><input id="itAuto" type="number" value="300" min="80" max="900" step="10"></div>
   <button class="btn-compare" type="submit" id="itGo">Calculer mon itinéraire</button>
 </form>
@@ -281,6 +287,7 @@ a { color: var(--secondary); }
   </section>
   <div class="it-save" id="itSave"></div>
   <p class="it-note" id="itNoteC">Estimations en euros : péage à 0,10 €/km sur les tronçons à péage (vignettes de Suisse, d'Autriche et d'autres pays non incluses), consommation majorée de 15 % à 130 km/h et réduite de 5 % sur routes secondaires.</p>
+  <section class="glass-box it-budget" id="itBudget" aria-label="Budget estimé du voyage"></section>
   <div id="itMap"></div>
   <div id="itGps"></div>
   <div class="it-tabs" role="tablist" id="itTabs"></div>
@@ -294,6 +301,7 @@ a { color: var(--secondary); }
   <h3>Questions fréquentes</h3>
   <details><summary><b>Est-ce moins cher que l'autoroute ?</b></summary><p>Vous économisez les péages, mais le trajet est plus long et peut consommer un peu plus. Le comparatif affiche les deux calculs côte à côte, à partir d'estimations : péage moyen de 0,10 €/km, sans les vignettes de Suisse ou d'Autriche, et prix du carburant que vous pouvez modifier.</p></details>
   <details><summary><b>Le planificateur convient-il aux voitures électriques ?</b></summary><p>Oui : choisissez « Électrique », indiquez la consommation en kWh/100 km, le prix de l'électricité et l'autonomie réelle de votre voiture. Le coût est recalculé et, pour chaque journée, la page propose des bornes de recharge près du déjeuner et de la ville d'étape, avec la puissance quand elle est connue.</p></details>
+  <details><summary><b>Les repas et les visites sont-ils inclus dans le coût ?</b></summary><p>Le comparatif de route (péages, carburant ou électricité) est calculé séparément. Un second tableau estime le budget du voyage : repas selon un montant par personne et par jour que vous choisissez, et visites payantes estimées d'après le type de lieu. L'hébergement n'est pas inclus. Ces montants sont indicatifs.</p></details>
   <details><summary><b>Quels pays sont couverts ?</b></summary><p>Les villes de départ et d'arrivée peuvent se trouver dans la plupart des pays d'Europe, et le calcul d'itinéraire traverse les frontières.</p></details>
   <details><summary><b>D'où viennent les visites et les restaurants ?</b></summary><p>Ils proviennent d'OpenStreetMap, une carte collaborative. La qualité varie selon les régions : vérifiez toujours les horaires et l'ouverture avant de partir.</p></details>
   <details><summary><b>Puis-je envoyer l'itinéraire vers mon GPS ?</b></summary><p>Oui : des boutons ouvrent le trajet dans Google Maps, avec les villes d'étape et l'option « éviter les autoroutes ». Waze accepte seulement une destination, donc un bouton par journée est proposé.</p></details>
@@ -485,7 +493,7 @@ async function chargerLieux(jours,dep,id){
    ETAT.lieux[k]=d;
   }catch(e){ETAT.lieux[k]={erreur:e.message}}
   if(ETAT.id!==id)return;
-  marqueurs(ETAT.lieux[k]);
+  marqueurs(ETAT.lieux[k]);majBudget();
   if(ETAT.cur===k)afficherJour(k,jours);
  }
 }
@@ -518,6 +526,23 @@ function gpsJour(i,lx){
  return `<div class="it-gps">${lien("g",gMaps(o,d),"Jour "+(i+1)+" dans Google Maps")}${v.length?lien("g",gMaps(o,d,v),"avec "+v.length+" visite"+(v.length>1?"s":"")):""}${lien("w",waze(d),"Waze jusqu'à "+esc(j.fin))}</div>`;
 }
 
+// Budget estimé : route + repas + visites payantes (selon le type de lieu proposé)
+const PRIX_VISITE={"Musée":10,"Château":8,"Abbaye":6,"Loisirs":20};
+function majBudget(){
+ const c=ETAT.cout;if(!c)return;
+ const rep_=ETAT.lieux.filter(Boolean),fini=rep_.length>=ETAT.jours.length,ok=rep_.filter(l=>!l.erreur);
+ let v=0;ok.forEach(l=>(l.visites||[]).forEach(x=>{v+=PRIX_VISITE[x.genre]||0}));
+ const visites=v*c.pers,rA=c.A.peage+c.A.carb,rD=c.D.peage+c.D.carb,mA=c.nbA*c.repas*c.pers,mD=c.nbD*c.repas*c.pers;
+ const ligne=(t,a,d,fort)=>{const k=fort?' class="fort"':"";return `<span${k}>${t}</span><span${k}>${a}</span><span${k}>${d}</span>`};
+ const jr=n=>n+" jour"+(n>1?"s":"");
+ const partiel=fini&&ok.length<rep_.length?" <small>(partiel)</small>":"";
+ $("itBudget").innerHTML=`<h2 style="margin-top:0">Budget estimé du voyage</h2><div class="it-bt"><span></span><b>Autoroute</b><b>Découverte</b>`
+  +ligne("Route (carburant ou électricité, péages)",eur(rA),eur(rD))
+  +ligne("Repas pour "+c.pers+" personne"+(c.pers>1?"s":""),eur(mA)+" <small>("+jr(c.nbA)+")</small>",eur(mD)+" <small>("+jr(c.nbD)+")</small>")
+  +ligne("Visites payantes","<small>aucune prévue</small>",fini?eur(visites)+partiel:"<small>calcul en cours...</small>")
+  +ligne("Total estimé",eur(rA+mA),fini?eur(rD+mD+visites):"<small>en cours...</small>",true)
+  +`</div><p class="it-note" style="margin:10px 0 0">Hébergement non inclus. Repas : ${eur(c.repas)} par personne et par jour. Visites : estimation selon le type des lieux proposés (musée 10 €, château 8 €, abbaye 6 €, parc de loisirs 20 €, gratuit pour les autres), par personne, si vous les faites tous. Montants indicatifs.</p>`;
+}
 function borneSous(x){return [x.puissance?"jusqu'à "+x.puissance+" kW":"",x.points?x.points+" point"+(x.points>1?"s":""):"",x.operateur,x.ville].filter(Boolean).join(", ")}
 function rechargeJour(km,lx,ville){
  if(!ETAT.ev)return"";
@@ -578,10 +603,11 @@ $("itForm").addEventListener("submit",async e=>{
   const debut=base($("itDep").value),fin=base($("itArr").value);
   const {jours,noms,pays,centres}=await decouperVilles(data.decouverte.steps,nb,fin,va.pays,arr);
   jours.forEach((j,i)=>{j.steps=j;j.fin=noms[i];j.pays=pays[i];j.centre=centres[i];j.titre="Jour "+(i+1)+" : "+(i?noms[i-1]:debut)+" à "+noms[i]});
-  ETAT={id:Date.now(),jours,lieux:[],cur:0,dep,arr,ev:EV(),auto:Math.max(50,+$("itAuto").value||300)};
+  const pers=Math.max(1,+$("itPers").value||2),repas=Math.max(0,+$("itRepas").value||45),nbA=Math.max(1,Math.round(A.sec/(rythme*3600)));
+  ETAT={id:Date.now(),jours,lieux:[],cur:0,dep,arr,ev:EV(),cout:{A,D,nbA,nbD:jours.length,pers,repas},auto:Math.max(50,+$("itAuto").value||300)};
   $("itTabs").innerHTML="";
   jours.forEach((j,i)=>{const b=document.createElement("button");b.className="it-tab";b.type="button";b.setAttribute("role","tab");b.textContent=jours.length>1?"Jour "+(i+1):"Trajet";b.onclick=()=>afficherJour(i,jours);$("itTabs").appendChild(b)});
-  $("itGps").innerHTML=gpsTout();$("itRes").style.display="block";msg.innerHTML="";
+  $("itGps").innerHTML=gpsTout();majBudget();$("itRes").style.display="block";msg.innerHTML="";
   dessiner(data.decouverte.coords,jours.slice(0,-1).map((j,i)=>({c:j.steps[j.steps.length-1].c,t:"Nuit "+(i+1)+" : "+j.fin})));
   afficherJour(0,jours);
   chargerLieux(jours,dep,ETAT.id);
