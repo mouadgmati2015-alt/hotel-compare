@@ -78,8 +78,10 @@ TEMPLATE = r"""<!DOCTYPE html>
   <div><label for="itArr">Arrivée</label><input id="itArr" list="itDl2" autocomplete="off" required placeholder="Avignon"><datalist id="itDl2"></datalist></div>
   <div><label for="itRythme">Conduite par jour</label><select id="itRythme"><option value="3">3 h environ</option><option value="4" selected>4 h environ</option><option value="5">5 h environ</option></select></div>
   <div><label for="itDate">Date de départ (facultatif)</label><input id="itDate" type="date"></div>
-  <div><label for="itConso">Consommation (L/100 km)</label><input id="itConso" type="number" value="6" min="2" max="20" step="0.1"></div>
-  <div><label for="itPrix">Carburant (€/L)</label><input id="itPrix" type="number" value="1.80" min="0.5" max="4" step="0.01"></div>
+  <div><label for="itVeh">Véhicule</label><select id="itVeh"><option value="th">Thermique</option><option value="ev">Électrique</option></select></div>
+  <div><label for="itConso" id="itConsoL">Consommation (L/100 km)</label><input id="itConso" type="number" value="6" min="2" max="20" step="0.1"></div>
+  <div><label for="itPrix" id="itPrixL">Carburant (€/L)</label><input id="itPrix" type="number" value="1.80" min="0.5" max="4" step="0.01"></div>
+  <div id="itAutoDiv" style="display:none"><label for="itAuto">Autonomie réelle (km)</label><input id="itAuto" type="number" value="300" min="80" max="900" step="10"></div>
   <button class="btn-compare" type="submit" id="itGo">Calculer mon itinéraire</button>
 </form>
 <div id="itMsg" role="status"></div>
@@ -90,7 +92,7 @@ TEMPLATE = r"""<!DOCTYPE html>
     <div class="glass-box win"><h2>Parcours découverte</h2><div id="itB"></div></div>
   </section>
   <div class="it-save" id="itSave"></div>
-  <p class="it-note">Estimations en euros : péage à 0,10 €/km sur les tronçons à péage (vignettes de Suisse, d'Autriche et d'autres pays non incluses), consommation majorée de 15 % à 130 km/h et réduite de 5 % sur routes secondaires.</p>
+  <p class="it-note" id="itNoteC">Estimations en euros : péage à 0,10 €/km sur les tronçons à péage (vignettes de Suisse, d'Autriche et d'autres pays non incluses), consommation majorée de 15 % à 130 km/h et réduite de 5 % sur routes secondaires.</p>
   <div id="itMap"></div>
   <div id="itGps"></div>
   <div class="it-tabs" role="tablist" id="itTabs"></div>
@@ -103,6 +105,7 @@ TEMPLATE = r"""<!DOCTYPE html>
   <p>Prendre les routes nationales et départementales transforme le trajet en première étape des vacances : villages, panoramas, marchés et tables locales se trouvent le long de la route, pas sur les aires d'autoroute. Notre planificateur calcule un itinéraire sans autoroute entre deux villes d'Europe, le découpe en journées de conduite raisonnables et propose, pour chaque journée, des lieux à visiter, des restaurants et une ville pour dormir.</p>
   <h3>Questions fréquentes</h3>
   <details><summary><b>Est-ce moins cher que l'autoroute ?</b></summary><p>Vous économisez les péages, mais le trajet est plus long et peut consommer un peu plus. Le comparatif affiche les deux calculs côte à côte, à partir d'estimations : péage moyen de 0,10 €/km, sans les vignettes de Suisse ou d'Autriche, et prix du carburant que vous pouvez modifier.</p></details>
+  <details><summary><b>Le planificateur convient-il aux voitures électriques ?</b></summary><p>Oui : choisissez « Électrique », indiquez la consommation en kWh/100 km, le prix de l'électricité et l'autonomie réelle de votre voiture. Le coût est recalculé et, pour chaque journée, la page propose des bornes de recharge près du déjeuner et de la ville d'étape, avec la puissance quand elle est connue.</p></details>
   <details><summary><b>Quels pays sont couverts ?</b></summary><p>Les villes de départ et d'arrivée peuvent se trouver dans la plupart des pays d'Europe, et le calcul d'itinéraire traverse les frontières.</p></details>
   <details><summary><b>D'où viennent les visites et les restaurants ?</b></summary><p>Ils proviennent d'OpenStreetMap, une carte collaborative. La qualité varie selon les régions : vérifiez toujours les horaires et l'ouverture avant de partir.</p></details>
   <details><summary><b>Puis-je envoyer l'itinéraire vers mon GPS ?</b></summary><p>Oui : des boutons ouvrent le trajet dans Google Maps, avec les villes d'étape et l'option « éviter les autoroutes ». Waze accepte seulement une destination, donc un bouton par journée est proposé.</p></details>
@@ -121,6 +124,16 @@ const hh=sec=>{const m=Math.round(sec/60);return Math.floor(m/60)+" h "+String(m
 const badge=r=>`<span class="it-road ${r[0]}">${esc(r[1])}</span>`;
 const base=t=>String(t).split(" (")[0];
 let ETAT={id:0,jours:null,lieux:[],cur:0};
+const EV=()=>$("itVeh").value==="ev";
+const NOTE_TH="Estimations en euros : péage à 0,10 €/km sur les tronçons à péage (vignettes de Suisse, d'Autriche et d'autres pays non incluses), consommation majorée de 15 % à 130 km/h et réduite de 5 % sur routes secondaires.";
+const NOTE_EV="Estimations en euros : péage à 0,10 €/km sur les tronçons à péage (vignettes non incluses), consommation électrique majorée de 30 % à 130 km/h et réduite de 10 % sur routes secondaires. Le prix de l'électricité dépend de la borne : environ 0,25 €/kWh à domicile et 0,40 à 0,60 € sur une borne publique rapide.";
+$("itVeh").addEventListener("change",()=>{
+ const e=EV();
+ $("itConsoL").textContent=e?"Consommation (kWh/100 km)":"Consommation (L/100 km)";
+ $("itPrixL").textContent=e?"Électricité (€/kWh)":"Carburant (€/L)";
+ $("itConso").value=e?18:6;$("itPrix").value=e?"0.45":"1.80";
+ $("itAutoDiv").style.display=e?"block":"none";
+});
 
 // Appel au Worker (clé Geoapify gardée côté serveur)
 async function worker(corps){
@@ -208,7 +221,7 @@ async function chargerLieux(jours,dep,id){
   const tot=st.reduce((a,s)=>a+s.s,0);let t=0,midi=st[0].c;
   for(const s of st){t+=s.s;if(t>=tot/2){midi=s.c;break}}
   try{
-   const r=await fetch(WORKER_URL,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({action:"lieux",poly,midi,fin:st[st.length-1].c})});
+   const r=await fetch(WORKER_URL,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({action:"lieux",poly,midi,fin:st[st.length-1].c,ev:ETAT.ev})});
    const d=await r.json();if(!r.ok)throw new Error(d.error||"Erreur du serveur");
    ETAT.lieux[k]=d;
   }catch(e){ETAT.lieux[k]={erreur:e.message}}
@@ -217,13 +230,13 @@ async function chargerLieux(jours,dep,id){
   if(ETAT.cur===k)afficherJour(k,jours);
  }
 }
-function lieuHtml(x,sous,cat,etape){
+function lieuHtml(x,sous){
  const carte="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(x.nom+" "+x.lat+","+x.lon);
- const site=/^https?:\/\//i.test(x.site||"")?`<a href="${esc(x.site)}" target="_blank" rel="noopener nofollow" data-suivi="site">Site</a>`:"";
- return `<li class="it-lieu" data-suivi-etab="1" data-nom="${esc(x.nom)}" data-cat="${esc(cat)}" data-etape="${esc(etape)}"><div><b>${esc(x.nom)}</b>${sous?`<small>${esc(sous)}</small>`:""}</div><span>${site}<a href="${esc(carte)}" target="_blank" rel="noopener nofollow" data-suivi="carte">Carte</a></span></li>`;
+ const site=/^https?:\/\//i.test(x.site||"")?`<a href="${esc(x.site)}" target="_blank" rel="noopener nofollow">Site</a>`:"";
+ return `<li class="it-lieu"><div><b>${esc(x.nom)}</b>${sous?`<small>${esc(sous)}</small>`:""}</div><span>${site}<a href="${esc(carte)}" target="_blank" rel="noopener nofollow">Carte</a></span></li>`;
 }
-function liste(titre,arr,sous,vide,cat,etape){
- return `<div class="it-bloc"><h3>${titre}</h3>${arr&&arr.length?`<ul class="it-lieux">${arr.map(x=>lieuHtml(x,sous(x),cat,etape)).join("")}</ul>`:`<p class="it-wait">${vide}</p>`}</div>`;
+function liste(titre,arr,sous,vide){
+ return `<div class="it-bloc"><h3>${titre}</h3>${arr&&arr.length?`<ul class="it-lieux">${arr.map(x=>lieuHtml(x,sous(x))).join("")}</ul>`:`<p class="it-wait">${vide}</p>`}</div>`;
 }
 
 // Envoi vers Google Maps (trajet avec étapes, autoroutes évitées) et Waze (destination seule)
@@ -243,6 +256,21 @@ function gpsJour(i,lx){
  return `<div class="it-gps">${lien("g",gMaps(o,d),"Jour "+(i+1)+" dans Google Maps")}${v.length?lien("g",gMaps(o,d,v),"avec "+v.length+" visite"+(v.length>1?"s":"")):""}${lien("w",waze(d),"Waze jusqu'à "+esc(j.fin))}</div>`;
 }
 
+function borneSous(x){return [x.puissance?"jusqu'à "+x.puissance+" kW":"",x.points?x.points+" point"+(x.points>1?"s":""):"",x.operateur,x.ville].filter(Boolean).join(", ")}
+function rechargeJour(km,lx,ville){
+ if(!ETAT.ev)return"";
+ const a=ETAT.auto,n=Math.ceil(km/a)-1;
+ const msg=km<=a*0.8?"Journée de "+Math.round(km)+" km : votre autonomie de "+a+" km suffit sans recharge en route. Une recharge pendant le déjeuner reste un confort."
+  :km<=a?"Journée de "+Math.round(km)+" km, proche de votre autonomie de "+a+" km : prévoyez de recharger pendant le déjeuner."
+  :"Journée de "+Math.round(km)+" km, au-delà de votre autonomie de "+a+" km : prévoyez au moins "+n+" recharge"+(n>1?"s":"")+" en route.";
+ let corps="";
+ if(lx&&!lx.erreur){
+  corps=liste("Recharger près du déjeuner",lx.bornes_midi,borneSous,"Aucune borne trouvée près du milieu de la journée.")
+   +liste("Recharger à "+esc(ville),lx.bornes_nuit,borneSous,"Aucune borne trouvée dans cette ville. Vérifiez si votre hôtel en propose une.");
+ }
+ return `<div class="it-bloc"><h3>Recharge</h3><p class="it-wait" style="color:var(--text)">${esc(msg)}</p></div>${corps}`;
+}
+
 function afficherJour(i,jours){
  ETAT.cur=i;
  [...$("itTabs").children].forEach((b,k)=>b.setAttribute("aria-selected",k===i));
@@ -258,11 +286,11 @@ function afficherJour(i,jours){
  let corps;
  if(!lx)corps='<div class="it-bloc"><p class="it-wait">Recherche des lieux à visiter et des restaurants autour de votre trajet...</p></div>';
  else if(lx.erreur)corps='<div class="it-bloc"><p class="it-wait">Lieux indisponibles pour le moment : '+esc(lx.erreur)+'</p></div>';
- else corps=liste("À voir en chemin",lx.visites,x=>x.genre,"Aucun lieu remarquable trouvé sur ce tronçon.","visite",ville)
-  +liste("Où déjeuner",lx.dejeuner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé près du milieu de la journée.","dejeuner",ville)
-  +liste("Où dîner à "+esc(ville),lx.diner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé dans cette ville.","diner",ville);
+ else corps=liste("À voir en chemin",lx.visites,x=>x.genre,"Aucun lieu remarquable trouvé sur ce tronçon.")
+  +liste("Où déjeuner",lx.dejeuner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé près du milieu de la journée.")
+  +liste("Où dîner à "+esc(ville),lx.diner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé dans cette ville.");
  $("itDay").innerHTML=`<div class="it-dayhead"><h2>${esc(j.titre)}</h2><span>${Math.round(m/1000)} km, ${hh(sec)} de conduite</span></div>
- <div class="it-roads">${roads}</div>${gpsJour(i,lx)}${corps}
+ <div class="it-roads">${roads}</div>${gpsJour(i,lx)}${rechargeJour(m/1000,lx,ville)}${corps}
  <div class="it-bloc"><h3>Dormir à ${esc(ville)}</h3><a class="btn-booking" style="display:inline-block" href="${bk}" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à ${esc(ville)}</a></div>`;
 }
 
@@ -277,8 +305,10 @@ $("itForm").addEventListener("submit",async e=>{
   const r=await fetch(WORKER_URL,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({depart:dep,arrivee:arr})});
   const data=await r.json();if(!r.ok)throw new Error(data.error||"Erreur du serveur");
   const conso=+$("itConso").value,prix=+$("itPrix").value,rythme=+$("itRythme").value;
-  const A={km:data.autoroute.km,sec:data.autoroute.sec,peage:data.autoroute.peageKm*TARIF_PEAGE,carb:data.autoroute.km*conso*F_AUTO/100*prix};
-  const D={km:data.decouverte.km,sec:data.decouverte.sec,peage:0,carb:data.decouverte.km*conso*F_DECOUV/100*prix};
+  const FA=EV()?1.30:F_AUTO,FD=EV()?0.90:F_DECOUV;
+  const A={km:data.autoroute.km,sec:data.autoroute.sec,peage:data.autoroute.peageKm*TARIF_PEAGE,carb:data.autoroute.km*conso*FA/100*prix};
+  const D={km:data.decouverte.km,sec:data.decouverte.sec,peage:0,carb:data.decouverte.km*conso*FD/100*prix};
+  $("itNoteC").textContent=EV()?NOTE_EV:NOTE_TH;
   $("itA").innerHTML=bloc(A);$("itB").innerHTML=bloc(D);
   const eco=(A.peage+A.carb)-(D.peage+D.carb);
   $("itSave").textContent=(eco>=0?"Vous économisez ":"Surcoût de ")+eur(Math.abs(eco))+" sur la route, pour "+hh(Math.max(0,D.sec-A.sec))+" de conduite en plus.";
@@ -286,7 +316,7 @@ $("itForm").addEventListener("submit",async e=>{
   const debut=base($("itDep").value),fin=base($("itArr").value);
   const {jours,noms,pays,centres}=await decouperVilles(data.decouverte.steps,nb,fin,va.pays,arr);
   jours.forEach((j,i)=>{j.steps=j;j.fin=noms[i];j.pays=pays[i];j.centre=centres[i];j.titre="Jour "+(i+1)+" : "+(i?noms[i-1]:debut)+" à "+noms[i]});
-  ETAT={id:Date.now(),jours,lieux:[],cur:0,dep,arr};
+  ETAT={id:Date.now(),jours,lieux:[],cur:0,dep,arr,ev:EV(),auto:Math.max(50,+$("itAuto").value||300)};
   $("itTabs").innerHTML="";
   jours.forEach((j,i)=>{const b=document.createElement("button");b.className="it-tab";b.type="button";b.setAttribute("role","tab");b.textContent=jours.length>1?"Jour "+(i+1):"Trajet";b.onclick=()=>afficherJour(i,jours);$("itTabs").appendChild(b)});
   $("itGps").innerHTML=gpsTout();$("itRes").style.display="block";msg.innerHTML="";
@@ -296,13 +326,6 @@ $("itForm").addEventListener("submit",async e=>{
  }catch(err){msg.innerHTML='<div class="it-msg err">'+esc(err.message)+"</div>"}
  go.disabled=false;go.textContent="Calculer mon itinéraire";
 });
-// Suivi des clics sur les lieux et restaurants (Google Analytics)
-document.addEventListener("click",function(ev){
- const lien=ev.target.closest&&ev.target.closest("[data-suivi]");
- const carte=lien&&lien.closest("[data-suivi-etab]");
- if(!carte||typeof gtag!=="function")return;
- gtag("event","clic_etablissement",{type_clic:lien.getAttribute("data-suivi"),etab_nom:carte.getAttribute("data-nom"),etab_categorie:carte.getAttribute("data-cat"),etab_etape:carte.getAttribute("data-etape")});
-},true);
 </script>
 </body>
 </html>
