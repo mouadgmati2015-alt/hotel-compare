@@ -3,10 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Itinéraire découverte : voyagez sans autoroute | MyHotelCompare</title>
-<meta name="description" content="Rejoignez votre destination en Europe par les nationales et départementales : étapes de conduite, visites, restaurants et coût comparé à l'autoroute.">
-<meta name="robots" content="noindex">
+<title>Itinéraire sans autoroute en Europe : visites et coût | MyHotelCompare</title>
+<meta name="description" content="Planifiez un trajet sans autoroute en Europe : étapes de conduite, visites, restaurants, hôtels et comparaison du coût avec l'autoroute.">
 <link rel="canonical" href="https://myhotelcompare.com/itineraire-decouverte.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Itinéraire sans autoroute en Europe : visites et coût">
+<meta property="og:description" content="Un trajet par les petites routes, découpé en étapes avec visites, restaurants et hôtels, et comparé au coût de l'autoroute.">
+<meta property="og:url" content="https://myhotelcompare.com/itineraire-decouverte.html">
+<meta name="twitter:card" content="summary">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 
 <!-- Google Consent Mode v2 : refus par défaut tant que l'utilisateur n'a pas choisi -->
@@ -282,6 +286,16 @@ a { color: var(--secondary); }
   <p class="it-note">Lieux et restaurants : données &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors, via <a href="https://www.geoapify.com/" target="_blank" rel="noopener">Geoapify</a>. Vérifiez les horaires et l'ouverture avant de partir.</p>
 </section>
 
+<section class="glass-box it-seo" style="margin:24px 0">
+  <h2 style="margin-top:0">Pourquoi voyager sans autoroute ?</h2>
+  <p>Prendre les routes nationales et départementales transforme le trajet en première étape des vacances : villages, panoramas, marchés et tables locales se trouvent le long de la route, pas sur les aires d'autoroute. Notre planificateur calcule un itinéraire sans autoroute entre deux villes d'Europe, le découpe en journées de conduite raisonnables et propose, pour chaque journée, des lieux à visiter, des restaurants et une ville pour dormir.</p>
+  <h3>Questions fréquentes</h3>
+  <details><summary><b>Est-ce moins cher que l'autoroute ?</b></summary><p>Vous économisez les péages, mais le trajet est plus long et peut consommer un peu plus. Le comparatif affiche les deux calculs côte à côte, à partir d'estimations : péage moyen de 0,10 €/km, sans les vignettes de Suisse ou d'Autriche, et prix du carburant que vous pouvez modifier.</p></details>
+  <details><summary><b>Quels pays sont couverts ?</b></summary><p>Les villes de départ et d'arrivée peuvent se trouver dans la plupart des pays d'Europe, et le calcul d'itinéraire traverse les frontières.</p></details>
+  <details><summary><b>D'où viennent les visites et les restaurants ?</b></summary><p>Ils proviennent d'OpenStreetMap, une carte collaborative. La qualité varie selon les régions : vérifiez toujours les horaires et l'ouverture avant de partir.</p></details>
+  <details><summary><b>Puis-je envoyer l'itinéraire vers mon GPS ?</b></summary><p>Oui : des boutons ouvrent le trajet dans Google Maps, avec les villes d'étape et l'option « éviter les autoroutes ». Waze accepte seulement une destination, donc un bouton par journée est proposé.</p></details>
+</section>
+
 
 
 <div id="cookie-banner" class="cookie-banner" style="display:none;">
@@ -462,13 +476,13 @@ async function chargerLieux(jours,dep,id){
   if(ETAT.cur===k)afficherJour(k,jours);
  }
 }
-function lieuHtml(x,sous){
+function lieuHtml(x,sous,cat,etape){
  const carte="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(x.nom+" "+x.lat+","+x.lon);
- const site=/^https?:\/\//i.test(x.site||"")?`<a href="${esc(x.site)}" target="_blank" rel="noopener nofollow">Site</a>`:"";
- return `<li class="it-lieu"><div><b>${esc(x.nom)}</b>${sous?`<small>${esc(sous)}</small>`:""}</div><span>${site}<a href="${esc(carte)}" target="_blank" rel="noopener nofollow">Carte</a></span></li>`;
+ const site=/^https?:\/\//i.test(x.site||"")?`<a href="${esc(x.site)}" target="_blank" rel="noopener nofollow" data-suivi="site">Site</a>`:"";
+ return `<li class="it-lieu" data-suivi-etab="1" data-nom="${esc(x.nom)}" data-cat="${esc(cat)}" data-etape="${esc(etape)}"><div><b>${esc(x.nom)}</b>${sous?`<small>${esc(sous)}</small>`:""}</div><span>${site}<a href="${esc(carte)}" target="_blank" rel="noopener nofollow" data-suivi="carte">Carte</a></span></li>`;
 }
-function liste(titre,arr,sous,vide){
- return `<div class="it-bloc"><h3>${titre}</h3>${arr&&arr.length?`<ul class="it-lieux">${arr.map(x=>lieuHtml(x,sous(x))).join("")}</ul>`:`<p class="it-wait">${vide}</p>`}</div>`;
+function liste(titre,arr,sous,vide,cat,etape){
+ return `<div class="it-bloc"><h3>${titre}</h3>${arr&&arr.length?`<ul class="it-lieux">${arr.map(x=>lieuHtml(x,sous(x),cat,etape)).join("")}</ul>`:`<p class="it-wait">${vide}</p>`}</div>`;
 }
 
 // Envoi vers Google Maps (trajet avec étapes, autoroutes évitées) et Waze (destination seule)
@@ -503,9 +517,9 @@ function afficherJour(i,jours){
  let corps;
  if(!lx)corps='<div class="it-bloc"><p class="it-wait">Recherche des lieux à visiter et des restaurants autour de votre trajet...</p></div>';
  else if(lx.erreur)corps='<div class="it-bloc"><p class="it-wait">Lieux indisponibles pour le moment : '+esc(lx.erreur)+'</p></div>';
- else corps=liste("À voir en chemin",lx.visites,x=>x.genre,"Aucun lieu remarquable trouvé sur ce tronçon.")
-  +liste("Où déjeuner",lx.dejeuner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé près du milieu de la journée.")
-  +liste("Où dîner à "+esc(ville),lx.diner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé dans cette ville.");
+ else corps=liste("À voir en chemin",lx.visites,x=>x.genre,"Aucun lieu remarquable trouvé sur ce tronçon.","visite",ville)
+  +liste("Où déjeuner",lx.dejeuner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé près du milieu de la journée.","dejeuner",ville)
+  +liste("Où dîner à "+esc(ville),lx.diner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé dans cette ville.","diner",ville);
  $("itDay").innerHTML=`<div class="it-dayhead"><h2>${esc(j.titre)}</h2><span>${Math.round(m/1000)} km, ${hh(sec)} de conduite</span></div>
  <div class="it-roads">${roads}</div>${gpsJour(i,lx)}${corps}
  <div class="it-bloc"><h3>Dormir à ${esc(ville)}</h3><a class="btn-booking" style="display:inline-block" href="${bk}" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à ${esc(ville)}</a></div>`;
@@ -541,6 +555,13 @@ $("itForm").addEventListener("submit",async e=>{
  }catch(err){msg.innerHTML='<div class="it-msg err">'+esc(err.message)+"</div>"}
  go.disabled=false;go.textContent="Calculer mon itinéraire";
 });
+// Suivi des clics sur les lieux et restaurants (Google Analytics)
+document.addEventListener("click",function(ev){
+ const lien=ev.target.closest&&ev.target.closest("[data-suivi]");
+ const carte=lien&&lien.closest("[data-suivi-etab]");
+ if(!carte||typeof gtag!=="function")return;
+ gtag("event","clic_etablissement",{type_clic:lien.getAttribute("data-suivi"),etab_nom:carte.getAttribute("data-nom"),etab_categorie:carte.getAttribute("data-cat"),etab_etape:carte.getAttribute("data-etape")});
+},true);
 </script>
 </body>
 </html>

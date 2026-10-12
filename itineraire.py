@@ -217,13 +217,13 @@ async function chargerLieux(jours,dep,id){
   if(ETAT.cur===k)afficherJour(k,jours);
  }
 }
-function lieuHtml(x,sous){
+function lieuHtml(x,sous,cat,etape){
  const carte="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(x.nom+" "+x.lat+","+x.lon);
- const site=/^https?:\/\//i.test(x.site||"")?`<a href="${esc(x.site)}" target="_blank" rel="noopener nofollow">Site</a>`:"";
- return `<li class="it-lieu"><div><b>${esc(x.nom)}</b>${sous?`<small>${esc(sous)}</small>`:""}</div><span>${site}<a href="${esc(carte)}" target="_blank" rel="noopener nofollow">Carte</a></span></li>`;
+ const site=/^https?:\/\//i.test(x.site||"")?`<a href="${esc(x.site)}" target="_blank" rel="noopener nofollow" data-suivi="site">Site</a>`:"";
+ return `<li class="it-lieu" data-suivi-etab="1" data-nom="${esc(x.nom)}" data-cat="${esc(cat)}" data-etape="${esc(etape)}"><div><b>${esc(x.nom)}</b>${sous?`<small>${esc(sous)}</small>`:""}</div><span>${site}<a href="${esc(carte)}" target="_blank" rel="noopener nofollow" data-suivi="carte">Carte</a></span></li>`;
 }
-function liste(titre,arr,sous,vide){
- return `<div class="it-bloc"><h3>${titre}</h3>${arr&&arr.length?`<ul class="it-lieux">${arr.map(x=>lieuHtml(x,sous(x))).join("")}</ul>`:`<p class="it-wait">${vide}</p>`}</div>`;
+function liste(titre,arr,sous,vide,cat,etape){
+ return `<div class="it-bloc"><h3>${titre}</h3>${arr&&arr.length?`<ul class="it-lieux">${arr.map(x=>lieuHtml(x,sous(x),cat,etape)).join("")}</ul>`:`<p class="it-wait">${vide}</p>`}</div>`;
 }
 
 // Envoi vers Google Maps (trajet avec étapes, autoroutes évitées) et Waze (destination seule)
@@ -258,9 +258,9 @@ function afficherJour(i,jours){
  let corps;
  if(!lx)corps='<div class="it-bloc"><p class="it-wait">Recherche des lieux à visiter et des restaurants autour de votre trajet...</p></div>';
  else if(lx.erreur)corps='<div class="it-bloc"><p class="it-wait">Lieux indisponibles pour le moment : '+esc(lx.erreur)+'</p></div>';
- else corps=liste("À voir en chemin",lx.visites,x=>x.genre,"Aucun lieu remarquable trouvé sur ce tronçon.")
-  +liste("Où déjeuner",lx.dejeuner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé près du milieu de la journée.")
-  +liste("Où dîner à "+esc(ville),lx.diner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé dans cette ville.");
+ else corps=liste("À voir en chemin",lx.visites,x=>x.genre,"Aucun lieu remarquable trouvé sur ce tronçon.","visite",ville)
+  +liste("Où déjeuner",lx.dejeuner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé près du milieu de la journée.","dejeuner",ville)
+  +liste("Où dîner à "+esc(ville),lx.diner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé dans cette ville.","diner",ville);
  $("itDay").innerHTML=`<div class="it-dayhead"><h2>${esc(j.titre)}</h2><span>${Math.round(m/1000)} km, ${hh(sec)} de conduite</span></div>
  <div class="it-roads">${roads}</div>${gpsJour(i,lx)}${corps}
  <div class="it-bloc"><h3>Dormir à ${esc(ville)}</h3><a class="btn-booking" style="display:inline-block" href="${bk}" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à ${esc(ville)}</a></div>`;
@@ -296,6 +296,13 @@ $("itForm").addEventListener("submit",async e=>{
  }catch(err){msg.innerHTML='<div class="it-msg err">'+esc(err.message)+"</div>"}
  go.disabled=false;go.textContent="Calculer mon itinéraire";
 });
+// Suivi des clics sur les lieux et restaurants (Google Analytics)
+document.addEventListener("click",function(ev){
+ const lien=ev.target.closest&&ev.target.closest("[data-suivi]");
+ const carte=lien&&lien.closest("[data-suivi-etab]");
+ if(!carte||typeof gtag!=="function")return;
+ gtag("event","clic_etablissement",{type_clic:lien.getAttribute("data-suivi"),etab_nom:carte.getAttribute("data-nom"),etab_categorie:carte.getAttribute("data-cat"),etab_etape:carte.getAttribute("data-etape")});
+},true);
 </script>
 </body>
 </html>
