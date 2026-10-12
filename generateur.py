@@ -13,6 +13,7 @@ import urllib.request
 from pathlib import Path
 
 from data.airlines_data import AIRLINES_DATA
+from itineraire import generate_itineraire_page
 def nettoyer_liens_et_images(data):
     """
     Nettoie automatiquement les URL qui contiendraient par erreur 
@@ -462,6 +463,11 @@ if images_source.exists():
 js_source = BASE_DIR / "villes-aeroports.js"
 if js_source.exists():
     shutil.copy(js_source, OUTPUT_DIR / "villes-aeroports.js")
+    moteur_source = BASE_DIR / "recherche-nomad.js"
+if moteur_source.exists():
+    shutil.copy(moteur_source, OUTPUT_DIR / "recherche-nomad.js")
+else:
+    print("ATTENTION : recherche-nomad.js est introuvable à côté du script.")
 
 def nettoyer_slug(texte):
     texte = texte.lower().strip()
@@ -503,6 +509,7 @@ menu_html = f"""
     <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
     <a href="loueurs-vehicules.html">Location de Véhicules</a>
     <a href="croisieres.html">Croisières</a>
+    <a href="itineraire-decouverte.html">Itinéraires</a>
     <a href="blog.html">Blog</a>
     <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
 </div>
@@ -667,6 +674,14 @@ a { color: var(--secondary); }
 .fiche-photo-carte { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0; align-items: stretch; }
 .fiche-photo-carte img, .fiche-photo-carte iframe { width: 100%; height: 260px; object-fit: cover; border-radius: 16px; border: 0; }
 @media (max-width: 600px) { .fiche-photo-carte { grid-template-columns: 1fr; } .fiche-photo-carte img, .fiche-photo-carte iframe { height: 220px; } }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 20px; }
+.btn-itineraire {
+    display: inline-block; padding: 14px 24px; border-radius: 14px; font-weight: 800;
+    background: rgba(255,255,255,0.14); color: #fff; text-decoration: none;
+    border: 1.5px solid rgba(255,255,255,0.6);
+}
+.btn-itineraire:hover { background: rgba(255,255,255,0.26); }
+.btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
 </style>
 
 <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
@@ -767,6 +782,7 @@ footer_html = """
                 <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
+                <li><a href="itineraire-decouverte.html">Itinéraire découverte</a></li>
             </ul>
         </div>
         <div>
@@ -792,6 +808,184 @@ footer_html = """
     </div>
 </footer>
 """
+def _texte(valeur):
+    """Met n'importe quelle valeur JSON (texte, liste, dict) à plat dans une phrase lisible."""
+    if valeur is None:
+        return ""
+    if isinstance(valeur, (list, tuple)):
+        return " ; ".join(t for t in (_texte(v) for v in valeur) if t)
+    if isinstance(valeur, dict):
+        return " ; ".join(t for t in (_texte(v) for v in valeur.values()) if t)
+    return re.sub(r"\s+", " ", str(valeur)).strip()
+
+
+def generer_base_connaissances(loueurs, croisieres):
+    """Écrit base-connaissances.js (toutes les infos du site : hôtels, FAQ, accès, compagnies,
+    loueurs, croisières, blog) et visas-data.js (règles de visa par nationalité et par pays)
+    utilisés par la page « Vos désirs sont des ordres »."""
+    docs = []      # passages de texte interrogeables
+    etabs = []     # établissements + aéroport le plus proche
+    villes = {}    # ville -> pays
+
+    def ajouter_etablissement(nom, d, url, genre):
+        ville = _texte(d.get("ville"))
+        pays = _texte(d.get("pays"))
+        lieu = ", ".join(p for p in (ville, pays) if p)
+        titre = f"{nom} ({lieu})" if lieu else nom
+        if ville:
+            villes[ville] = pays
+        corps = [_texte(d.get("description_ia") or d.get("description"))[:600]]
+        if d.get("prix_moyen"):
+            corps.append("Prix : " + _texte(d.get("prix_moyen")))
+        if d.get("etoiles") and str(d.get("etoiles")) != "N/C":
+            corps.append(f"{d.get('etoiles')} étoiles")
+        if d.get("equipements"):
+            corps.append("Équipements : " + _texte(d.get("equipements")))
+        positifs = [nettoyer_avis(p) for p in (d.get("points_positifs") or [])]
+        negatifs = [nettoyer_avis(p) for p in (d.get("points_negatifs") or [])]
+        if positifs:
+            corps.append("Points positifs : " + _texte(positifs))
+        if negatifs:
+            corps.append("Points négatifs : " + _texte(negatifs))
+        pour_qui = d.get("pour_qui")
+        if pour_qui:
+            corps.append("Pour qui : " + _texte(pour_qui))
+        nomad = d.get("Nomad, vous en dit plus") or d.get("nomad_vous_en_dit_plus")
+        if nomad:
+            corps.append(_texte(nomad))
+        docs.append({"t": titre, "u": url, "k": genre, "x": " ".join(c for c in corps if c)})
+
+        for item in d.get("faq") or []:
+            if isinstance(item, dict) and item.get("question"):
+                docs.append({"t": f"{nom} : {_texte(item.get('question'))}", "u": url, "k": "faq",
+                             "x": _texte(item.get("reponse"))})
+
+        acces = d.get("acces") or {}
+        environs = _texte(d.get("environs"))
+        if acces or environs:
+            docs.append({"t": f"{nom} : accès, aéroport et alentours", "u": url, "k": "acces",
+                         "x": " ".join(t for t in (_texte(acces), environs) if t)})
+
+        if d.get("avertissement_visa_sinai"):
+            docs.append({"t": f"{nom} : visa et formalités", "u": url, "k": "visa",
+                         "x": _texte(d.get("avertissement_visa_sinai"))})
+
+        if isinstance(acces, dict):
+            aeroport = _texte(acces.get("aeroport_le_plus_proche"))
+            autres = [_texte(v) for k, v in acces.items() if v and k != "aeroport_le_plus_proche"]
+        else:
+            aeroport, autres = "", [_texte(acces)] if acces else []
+        if aeroport or autres:
+            etabs.append({"n": nom, "u": url, "v": ville, "p": pays, "a": aeroport, "ac": autres})
+
+    for nom, d in HOTELS_DATA_COMPLET.items():
+        slug = nettoyer_slug(nom)
+        if slug:
+            ajouter_etablissement(nom, d, f"{slug}.html", "hotel")
+    for nom, d in LOGEMENTS_DATA_COMPLET.items():
+        slug = nettoyer_slug(nom)
+        if slug:
+            ajouter_etablissement(nom, d, f"atypique-{slug}.html", "logement")
+
+    # Compagnies aériennes
+    for nom, a in AIRLINES_DATA.items():
+        url = f"{nettoyer_slug(nom)}.html"
+        morceaux = []
+        for cle, libelle in (("resume", ""), ("categorie", "Catégorie : "), ("alliance", "Alliance : "),
+                             ("histoire", "Histoire : "), ("flotte", "Flotte : "), ("securite", "Sécurité : "),
+                             ("liaisons", "Liaisons fréquentes : "), ("pour_qui", "Pour qui : "),
+                             ("points_positifs", "Points positifs : "), ("points_negatifs", "Points de vigilance : ")):
+            if a.get(cle):
+                morceaux.append(libelle + _texte(a.get(cle)))
+        docs.append({"t": f"{nom} (compagnie aérienne)", "u": url, "k": "compagnie", "x": " ".join(morceaux)})
+        if a.get("bagages"):
+            docs.append({"t": f"{nom} : bagages", "u": url, "k": "compagnie", "x": _texte(a.get("bagages"))})
+
+    # Loueurs de véhicules
+    for nom, info in loueurs.items():
+        docs.append({"t": f"{nom} (location de véhicules)", "u": "loueurs-vehicules.html", "k": "loueur",
+                     "x": f"{info.get('rang', '')} Note : {info.get('note', '')}. {info.get('resume', '')}"})
+
+    # Croisières
+    for nom, c in croisieres.items():
+        corps = " ".join([
+            _texte(c.get("description")), f"Compagnie : {_texte(c.get('compagnie'))}.",
+            f"Région : {_texte(c.get('region'))}.", f"Durée : {_texte(c.get('duree'))}.",
+            f"Départ : {_texte(c.get('depart'))}.", f"Prix : {_texte(c.get('prix_moyen'))}.",
+            f"Avis : {_texte(c.get('avis'))}.", "Itinéraire : " + _texte(c.get("itineraire")),
+        ])
+        docs.append({"t": nom, "u": f"{nettoyer_slug(nom)}.html", "k": "croisiere", "x": corps})
+
+    # Articles du blog
+    if os.path.exists("blog_data.json"):
+        try:
+            with open("blog_data.json", "r", encoding="utf-8") as f:
+                for art in json.load(f):
+                    titre = _texte(art.get("titre"))
+                    slug = nettoyer_slug(art.get("slug") or titre)
+                    if slug:
+                        docs.append({"t": titre, "u": f"{slug}.html", "k": "blog",
+                                     "x": (_texte(art.get("resume")) + " " + _texte(art.get("details")))[:1800]})
+        except Exception as e:
+            print(f"Blog ignoré dans la base de connaissances : {e}")
+
+    # Informations générales sur le site
+    docs.extend([
+        {"t": "Devenir partenaire", "u": "devenir-partenaire.html", "k": "info",
+         "x": "Hôteliers et propriétaires : référencez votre établissement sur MyHotelCompare via le formulaire de partenariat."},
+        {"t": "Contact", "u": "contact.html", "k": "info",
+         "x": "Pour toute question, remarque ou suggestion, contactez l'équipe MyHotelCompare sur Facebook ou par email."},
+        {"t": "Liens affiliés et réservation", "u": "mentions-legales.html", "k": "info",
+         "x": "MyHotelCompare est un comparateur : les réservations s'effectuent chez les partenaires (Booking.com, Expedia). Certains liens sont affiliés, sans coût supplémentaire pour vous."},
+        {"t": "Vols et billets d'avion", "u": "hotels.html", "k": "info",
+         "x": "Chaque fiche d'hôtel propose un comparateur de vols : choisissez votre ville de départ pour comparer les billets vers l'aéroport de destination."},
+    ])
+
+    base = {"docs": docs, "etabs": etabs, "villes": [{"v": v, "p": p} for v, p in sorted(villes.items())]}
+    write_html(OUTPUT_DIR / "base-connaissances.js",
+               "window.NOMAD_KB=" + json.dumps(base, ensure_ascii=False, separators=(",", ":")) + ";")
+
+    # --- Visas : règle par nationalité et par pays de destination ---
+    nationalites = charger_nationalites()
+    destinations = {}
+    for d in list(HOTELS_DATA_COMPLET.values()) + list(LOGEMENTS_DATA_COMPLET.values()):
+        pays = _texte(d.get("pays"))
+    if pays:
+            destinations.setdefault(normaliser_avec_alias(pays), pays)
+    # Toutes les destinations du fichier des visas (même sans hôtel sur le site)
+    for _code, _info in nationalites.items():
+        if _code.startswith("_") or not isinstance(_info, dict):
+            continue
+        for _nom_dest in (_info.get("regles_destinations") or {}):
+            destinations.setdefault(normaliser_avec_alias(_nom_dest), _nom_dest)
+    regle_defaut = "Règle standard applicable. Veuillez vérifier les exigences locales auprès du consulat compétent."
+    nats, regles, index_regles, regles_par_nat = {}, [], {}, {}
+    for code, info in nationalites.items():
+        if code.startswith("_") or not isinstance(info, dict):
+            continue
+        nats[code] = info.get("nom", code)
+        regles_par_nat[code] = {
+            normaliser_avec_alias(nom_dest): texte
+            for nom_dest, texte in (info.get("regles_destinations") or {}).items()
+        }
+    dest = {}
+    for cle, nom_affiche in destinations.items():
+        par_nat = {}
+        for code, info in nationalites.items():
+            if code not in nats:
+                continue
+            regle = regles_par_nat[code].get(cle) or info.get("regle_generale") or regle_defaut
+            if regle not in index_regles:
+                index_regles[regle] = len(regles)
+                regles.append(regle)
+            par_nat[code] = index_regles[regle]
+        dest[cle] = {"n": nom_affiche, "r": par_nat}
+    visas = {"nats": nats, "regles": regles, "dest": dest}
+    write_html(OUTPUT_DIR / "visas-data.js",
+               "window.NOMAD_VISAS=" + json.dumps(visas, ensure_ascii=False, separators=(",", ":")) + ";")
+    print(f"Base de connaissances : {len(docs)} passages, {len(etabs)} établissements, "
+          f"{len(dest)} pays de destination, {len(nats)} nationalités.")
+
 
 
 def generate_information_pages():
@@ -804,7 +998,7 @@ def generate_information_pages():
             <p>Notre comparateur met en avant les prix, les équipements, les avis et les points forts des établissements dans une interface claire.</p>
         """),
         "confidentialite.html": ("Politique de confidentialité", """
-            <p><strong>Dernière mise à jour : août 2026</strong></p>
+            <p><strong>Dernière mise à jour : octobre 2026</strong></p>
 
             <h2>Responsable du traitement</h2>
             <p>Mouad Guemati (Entreprise Individuelle), Fegersheim, 67640, France.<br>
@@ -814,6 +1008,7 @@ def generate_information_pages():
             <ul>
                 <li>Les informations que vous nous transmettez volontairement (formulaire de contact)</li>
                 <li>Des données techniques de navigation (adresse IP, appareil, pages visitées) via Google Analytics, uniquement si vous avez donné votre consentement</li>
+                <li>Les villes de départ et d'arrivée et les paramètres saisis dans le planificateur d'itinéraires (durée de conduite, consommation, prix du carburant, date de départ facultative)</li>
             </ul>
 
             <h2>Finalités et base légale</h2>
@@ -821,6 +1016,7 @@ def generate_information_pages():
                 <li><strong>Répondre à vos demandes</strong> — intérêt légitime</li>
                 <li><strong>Mesure d'audience (Google Analytics)</strong> — votre consentement, recueilli via le bandeau cookies</li>
                 <li><strong>Fonctionnement technique du site</strong> — intérêt légitime</li>
+                <li><strong>Calculer votre itinéraire et proposer des étapes</strong> — exécution de votre demande</li>
             </ul>
 
             <h2>Cookies</h2>
@@ -832,14 +1028,14 @@ def generate_information_pages():
             <h2>Durée de conservation</h2>
             <p>Les données de mesure d'audience sont conservées 13 mois maximum, conformément aux recommandations
             de la CNIL. Les données transmises via le formulaire de contact sont conservées le temps nécessaire
-            au traitement de votre demande.</p>
+            au traitement de votre demande. Les villes saisies dans le planificateur ne sont pas enregistrées par MyHotelCompare : seuls les résultats de calcul sont conservés temporairement dans une mémoire technique (de 24 heures à 7 jours), sans lien avec votre identité. Votre adresse IP est utilisée pendant environ une minute pour limiter les abus.</p>
 
             <h2>Destinataires des données</h2>
             <p>Vos données de navigation (si consentement donné) sont transmises à Google (Google Analytics),
             susceptible de les traiter en dehors de l'Union Européenne (États-Unis), dans le cadre de garanties
             contractuelles types approuvées par la Commission européenne. Notre hébergeur, Render Services, Inc.
             (États-Unis), traite les données techniques nécessaires à la mise à disposition du site. Aucune
-            donnée personnelle n'est vendue à des tiers.</p>
+            donnée personnelle n'est vendue à des tiers. Le planificateur d'itinéraires transmet les villes saisies et les coordonnées du trajet à des prestataires techniques : Cloudflare, Inc. (États-Unis), qui exécute notre service de calcul et reçoit à cette occasion votre adresse IP, HeiGIT (Allemagne) pour le calcul d'itinéraire (OpenRouteService) et Geoapify pour les suggestions de villes, de lieux et de restaurants. L'affichage de la carte charge par ailleurs des fonds de carte depuis OpenStreetMap et la bibliothèque Leaflet depuis le service unpkg.com, qui reçoivent également votre adresse IP.</p>
 
             <h2>Vos droits</h2>
             <p>Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, d'effacement, de
@@ -1097,38 +1293,66 @@ mosaique_html = f"""
 """ if types_uniques else ""
 
 # 2. Recherche intelligente en langage naturel
+
+
+codes_pays_json = json.dumps(CODES_PAYS, ensure_ascii=False)
+
+base_lien_vol_recherche = LIEN_VOLS_TEMPLATE.split("{params}")[0]
 recherche_intelligente_page = f"""<!DOCTYPE html>
 <html lang="fr">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vos désirs sont des ordres | MyHotelCompare</title>{global_style}</head>
+<script src="villes-aeroports.js"></script>
 <body><div class="container">{menu_html}
 <main class="card" style="background: linear-gradient(135deg, #075985 0%, #087f9b 100%); color: white;">
     <p style="margin:0 0 8px; font-weight:700; color:#b8f0f6;">NOMAD SMART SEARCH</p>
     <h1 style="color:white; margin:0 0 12px;">Vos désirs sont des ordres</h1>
-    <p style="color:#effcff; max-width:760px; line-height:1.7;">Décrivez votre séjour comme vous le feriez à un conseiller. Nomad repère la destination, le budget et les équipements recherchés.</p>
+    <p style="color:#effcff; max-width:760px; line-height:1.7;">Posez votre question comme vous le feriez à un conseiller. Nomad repère la destination, le budget et les équipements recherchés, et répond aussi à vos questions sur les visas, les aéroports, les compagnies aériennes et toutes les informations du site.</p>
     <form id="smart-search" style="display:flex; gap:12px; flex-wrap:wrap; margin-top:22px;">
         <input id="smart-query" type="search" required value="Je recherche un hôtel à Djerba en Tunisie à moins de 900 euros la semaine avec un parc aquatique" placeholder="Exemple : un hôtel à Djerba à moins de 900 euros avec un parc aquatique" style="flex:1 1 520px; min-width:220px; padding:15px 16px; border:0; border-radius:12px; color:#123443; font-size:1rem;">
         <button class="btn-compare" type="submit" style="width:auto; padding:14px 22px; background:#e59a21;">Rechercher</button>
     </form>
-    <p style="font-size:.86rem; color:#d6eef2; margin:12px 0 0;">Essayez avec une ville, un pays, un budget ou un équipement : plage, piscine, spa, parc aquatique, tout compris...</p>
+    <p style="font-size:.86rem; color:#d6eef2; margin:12px 0 0;">Essayez : « Faut-il un visa pour l'Égypte ? », « Quel aéroport pour aller à Djerba ? », « Un camping en France avec piscine », « Quelle compagnie dessert Charm el-Cheikh ? »</p>
 </main>
+<section id="smart-answers" aria-live="polite"></section>
 <section id="smart-results" aria-live="polite"></section>
 {footer_html}
 </div>
+<script src="recherche-nomad.js"></script>
 <script>
 const hotels = {json.dumps(all_hotels, ensure_ascii=False)};
+const DEST_CODES = {codes_pays_json};
+
+const BASE_LIEN_VOL = "{base_lien_vol_recherche}";
+
+function normaliserPays(txt) {{
+    return normalize(txt).replace(/\\s+/g, '').replace(/-/g, '');
+}}
+
+function trouverVilleDepart(normalizedQuery) {{
+    const motsCles = ['depuis ', 'de ', 'au depart de ', 'au départ de '];
+    for (const v of VILLES_AEROPORTS) {{
+        const nomVille = normalize(v.ville.split(',')[0]);
+         if (nomVille.length > 3 && (' ' + normalizedQuery.replace(/[^a-z0-9]+/g, ' ') + ' ').includes(' ' + nomVille + ' ')) {{
+            return v;
+        }}
+    }}
+    return null;
+}}
 const stopWords = new Set(['je','recherche','cherche','un','une','des','de','du','la','le','les','a','à','en','au','aux','avec','pour','dans','sur','mon','ma','mes','hotel','hôtel','semaine','euros','euro','prix','moins','que','qui','et']);
+['hebergement','hebergements','logement','logements','hotels','etablissement','etablissements','sejour','sejours','vacances','voyage','voyager','il','ils','elle','elles','ya','existe','existent','propose','proposez','proposer','moi','nous','vous','veux','voudrais','souhaite','besoin','trouver','trouve','avez','est','sont','ont','avoir','faut','visa','visas','compagnie','compagnies','aerienne','aeriennes','vol','vols','aeroport','aeroports','quel','quelle','quels','quelles','comment','combien','cette','ces','cet','notre','nos','votre','vos','quand','pourquoi','faire','aller','chez','vers','sans','donc','mais','son','ses','leur','leurs','ainsi','alors'].forEach(w => stopWords.add(w));
 const aliases = {{
     'parc aquatique': ['parc aquatique','aqua parc','aquapark','aquatique'],
     'tout compris': ['tout compris','all inclusive'],
     'piscine': ['piscine'], 'plage': ['plage','bord de mer'], 'spa': ['spa','thalasso'],
-    'famille': ['famille','familial'], 'adulte': ['adulte','adult only']
+    'famille': ['famille','familial'], 'adulte': ['adulte','adult only'],
+    'sur l eau': ['sur l\\'eau','sur l eau','pilotis','overwater','over water','over-water','water villa','houseboat','peniche','bungalow sur l\\'eau','villa sur l\\'eau','chambre sur l\\'eau','cabane flottante','cabanes flottantes','logement flottant','hebergement flottant','maison flottante','villa flottante','bateau-maison','cabane sur l\\'eau']
 }};
 const noiseEquipment = new Set(['climatisation', 'wi-fi gratuit', 'connexion wi-fi gratuite', 'parking gratuit', 'parking prive', 'reception ouverte 24h/24', 'wi-fi', 'wifi gratuit']);
 const allWorldCountries = ['france','espagne','italie','portugal','allemagne','belgique','suisse','angleterre','royaume-uni','grece','turquie','maroc','tunisie','egypte','emirats arabes unis','etats-unis','canada','mexique','bresil','japon','chine','thailande','vietnam','maldives','seychelles','ile maurice','indonesie','malaisie','singapour','inde','pays-bas','autriche','croatie','montenegro','albanie','hongrie','pologne','republique tcheque','chypre'];
 
 function normalize(value) {{
-    return String(value || '').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '');
+    return String(value || '').toLowerCase().replace(/[\\u2019\\u2018`]/g, "'").normalize('NFD').replace(/[\\u0300-\\u036f]/g, '');
 }}
 function normalizePriceToWeek(priceText) {{
     const t = normalize(priceText);
@@ -1170,7 +1394,7 @@ function searchHotels(query) {{
     const results = hotels.map(hotel => {{
         const text = searchable(hotel);
         const price = normalizePriceToWeek(hotel.prix);
-        const matchedTerms = requestedTerms.filter(term => text.includes(term));
+        const matchedTerms = requestedTerms.filter(term => term.length > 4 ? text.includes(term) : (' ' + text.replace(/[^a-z0-9]+/g, ' ') + ' ').includes(' ' + term + ' '));
         let score = matchedTerms.length;
         const matchedFeatures = requestedFeatures.filter(([, words]) => words.some(word => text.includes(normalize(word))));
         const matchedEquipment = requestedEquipment.filter(equipment => text.includes(equipment));
@@ -1180,15 +1404,19 @@ function searchHotels(query) {{
         const countryOk = !requestedCountry || normalize(hotel.pays) === requestedCountry;
         const locationOk = cityOk && countryOk;
         const equipmentOk = requestedEquipment.every(equipment => matchedEquipment.includes(equipment));
-        const featuresOk = requestedFeatures.every(([, words]) => words.some(word => text.includes(normalize(word))));
-        return {{ hotel, score, budgetOk, locationOk, equipmentOk, featuresOk, price }};
+        const featuresOk = requestedFeatures.every(([key, words]) => key === 'sur l eau' ? words.slice(2).some(word => text.includes(normalize(word))) : words.some(word => text.includes(normalize(word))));
+       const typeTerms = requestedTerms.filter(term => ['camping','campement','auberge','hostel','riad','villa','appartement','residence','chalet','ecolodge','gite','bungalow','glamping','lodge','kasbah'].some(type => term.startsWith(type)));
+        const typeOk = typeTerms.every(term => text.includes(term.length > 4 ? term.replace(/s$/, '') : term));
+        return {{ hotel, score, budgetOk, locationOk, equipmentOk, featuresOk, price, typeOk, hasType: typeTerms.length > 0 }};
     }});
     if (countryNotInInventory) {{
         return [];
     }}
     const matched = results.filter(result => result.budgetOk && result.locationOk && result.equipmentOk && result.featuresOk && (requestedTerms.length === 0 || result.score > 0));
     if (matched.length > 0 || requestedTerms.length === 0) {{
-        return matched.sort((a, b) => b.score - a.score);
+        const strict = matched.filter(result => result.typeOk);
+        const finalList = (strict.length > 0 && strict.length < matched.length) ? strict : matched;
+        return finalList.sort((a, b) => b.score - a.score);
     }}
     return results.filter(result => result.budgetOk && result.locationOk && result.equipmentOk && result.featuresOk).sort((a, b) => b.score - a.score);
 }}
@@ -1199,13 +1427,29 @@ document.getElementById('smart-search').addEventListener('submit', event => {{
     const mentionedCountryCheck = findLocation(normalizedQuery, allWorldCountries);
     const knownCountryCheck = findLocation(normalizedQuery, knownCountries);
     const isUnavailableCountry = mentionedCountryCheck && !knownCountryCheck;
+    const destinationNormalisee = knownCountryCheck ? normaliserPays(knownCountryCheck) : null;
+    const villeDepart = trouverVilleDepart(normalizedQuery);
+
+    let extrasHtml = '';
+    if (villeDepart && destinationNormalisee && DEST_CODES[destinationNormalisee]) {{
+        const lienVol = BASE_LIEN_VOL + villeDepart.code + DEST_CODES[destinationNormalisee] + "1";
+        extrasHtml += `<div class="glass-box" style="margin-bottom:16px; border-left:5px solid var(--primary);">
+            <h3 style="margin-top:0;">✈️ Vol au départ de ${{escapeText(villeDepart.ville.split(',')[0])}}</h3>
+            <a href="${{lienVol}}" target="_blank" rel="noopener sponsored nofollow" class="btn">Comparer les vols</a>
+        </div>`;
+    }}
     const results = searchHotels(query);
     const container = document.getElementById('smart-results');
     if (results.length === 0 && isUnavailableCountry) {{
-        container.innerHTML = '<div class="card"><h2>Destination non disponible</h2><p>Nous ne proposons pas encore d\\'hôtels pour cette destination. Essayez une autre ville ou un autre pays.</p></div>';
+        container.innerHTML =  '<div class="card"><h2>Destination non disponible</h2><p>Nous ne proposons pas encore d\\'hôtels pour cette destination. Essayez une autre ville ou un autre pays.</p></div>';
     }} else {{
         container.innerHTML = `<div class="glass-box" style="margin-bottom:20px;"><h2 style="margin-top:0;">${{results.length}} résultat(s) trouvé(s)</h2><p style="margin-bottom:0; color:var(--muted);">Les hôtels sont classés selon les critères détectés dans votre phrase.</p></div>` + (results.length ? results.map(result => renderHotel(result.hotel)).join('') : '<div class="card"><h2>Aucun résultat exact</h2><p>Essayez une destination plus large ou retirez un critère très précis.</p></div>');
     }}
+     const answerPromise = window.nomadAnswer ? window.nomadAnswer(query, results.length) : Promise.resolve(null);
+    answerPromise.then(answer => {{
+        document.getElementById('smart-answers').innerHTML = extrasHtml + (answer && answer.html ? answer.html : '');
+        if (answer && answer.hideHotels) {{ container.innerHTML = ''; }}
+    }}).catch(() => {{ document.getElementById('smart-answers').innerHTML = extrasHtml; }});
 }});
 document.getElementById('smart-search').dispatchEvent(new Event('submit'));
 </script></body></html>"""
@@ -1287,9 +1531,12 @@ html_accueil = f"""<!DOCTYPE html>
     <span>🧠 Analyse des avis</span>
     <span>🛂 Infos visas par nationalité</span>
 </div>
-            <h2 style="margin:0 0 10px; font-size: clamp(2rem, 4vw, 3rem);">Trouvez le bon hôtel, au bon prix, sans perdre une heure.</h2>
-            <p style="margin:0; max-width: 700px; font-size: 1.05rem; line-height: 1.7; color: rgba(45,28,16,0.9);">Comparez les meilleurs séjours, découvrez les meilleurs rapports qualité-prix et réservez en quelques clics.</p>
-            <a href="hotels.html" class="btn-compare" style="display:inline-block; text-decoration:none; width:auto; margin-top:20px; padding:14px 28px;">🔍 Comparer les hôtels</a>
+            <h2 style="margin:0 0 10px; font-size: clamp(2rem, 4vw, 3rem); color:#fff;">Trouvez le bon hôtel, au bon prix, sans perdre une heure.</h2>
+            <p style="margin:0; max-width: 700px; font-size: 1.05rem; line-height: 1.7; color: #effcff;">Comparez les meilleurs séjours, découvrez les meilleurs rapports qualité-prix et réservez en quelques clics.</p>
+            <div class="hero-actions">
+                <a href="hotels.html" class="btn-compare" style="display:inline-block; text-decoration:none; width:auto; padding:14px 28px;">🔍 Comparer les hôtels</a>
+                <a href="itineraire-decouverte.html" class="btn-itineraire">🛣️ Itinéraire découverte</a>
+            </div>
         </div>
 
         {mosaique_html}
@@ -2432,7 +2679,9 @@ blog_page = f"""<!DOCTYPE html>
 </div></body></html>"""
 with open(os.path.join(output_dir, "blog.html"), "w", encoding="utf-8") as f: f.write(blog_page)
 
+generer_base_connaissances(loueurs_data, croisieres_data)
 generate_information_pages()
+generate_itineraire_page(OUTPUT_DIR, global_style, menu_html, footer_html, SITE_URL)
 generate_seo_files()
 
 print("Génération réussie à 100% avec l'intégration complète des témoignages et du footer Formspree !")

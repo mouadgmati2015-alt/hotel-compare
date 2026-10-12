@@ -119,4 +119,35 @@ else:
             lien = info.get('lien', '#')
             st.link_button("Réserver sur Booking", lien)
             
-        st.markdown("---")
+        # ...existing code...
+
+st.markdown("---")
+st.subheader("✈️ Questions sur les compagnies aériennes")
+
+@st.cache_data
+def load_faq():
+    with open("faq_nomad.json", "r", encoding="utf-8") as f:
+        return json.load(f)
+
+faq_data = load_faq()
+question = st.text_input(
+    "Posez une question :",
+    placeholder="Ex. Quels bagages sont inclus avec Ethiopian Airlines ?",
+    key="question_faq"
+)
+
+if question:
+    question_lower = question.casefold()
+    faq_trouvee = next(
+        (
+            faq for faq in faq_data
+            if faq["compagnie"].casefold() in question_lower
+            or any(q.casefold() in question_lower for q in faq.get("questions", []))
+        ),
+        None
+    )
+
+    if faq_trouvee:
+        st.success(faq_trouvee["reponse"])
+    else:
+        st.info("Je n’ai pas trouvé de réponse. Essayez de mentionner le nom de la compagnie.")
