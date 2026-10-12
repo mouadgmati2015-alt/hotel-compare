@@ -230,13 +230,16 @@ async function chargerLieux(jours,dep,id){
   if(ETAT.cur===k)afficherJour(k,jours);
  }
 }
-function lieuHtml(x,sous){
- const carte="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(x.nom+" "+x.lat+","+x.lon);
+function lieuHtml(x,sous,pin){
+ // pin : repère exact sur les coordonnées (bornes) ; sinon recherche du nom, centrée sur le lieu
+ const carte=pin?"https://www.google.com/maps/search/?api=1&query="+x.lat+","+x.lon
+  :"https://www.google.com/maps/search/"+encodeURIComponent(x.nom)+"/@"+x.lat+","+x.lon+",16z";
+ const wz=pin?`<a href="${esc("https://waze.com/ul?ll="+x.lat+","+x.lon+"&navigate=yes")}" target="_blank" rel="noopener nofollow">Waze</a>`:"";
  const site=/^https?:\/\//i.test(x.site||"")?`<a href="${esc(x.site)}" target="_blank" rel="noopener nofollow">Site</a>`:"";
- return `<li class="it-lieu"><div><b>${esc(x.nom)}</b>${sous?`<small>${esc(sous)}</small>`:""}</div><span>${site}<a href="${esc(carte)}" target="_blank" rel="noopener nofollow">Carte</a></span></li>`;
+ return `<li class="it-lieu"><div><b>${esc(x.nom)}</b>${sous?`<small>${esc(sous)}</small>`:""}</div><span>${site}<a href="${esc(carte)}" target="_blank" rel="noopener nofollow">Carte</a>${wz}</span></li>`;
 }
-function liste(titre,arr,sous,vide){
- return `<div class="it-bloc"><h3>${titre}</h3>${arr&&arr.length?`<ul class="it-lieux">${arr.map(x=>lieuHtml(x,sous(x))).join("")}</ul>`:`<p class="it-wait">${vide}</p>`}</div>`;
+function liste(titre,arr,sous,vide,pin){
+ return `<div class="it-bloc"><h3>${titre}</h3>${arr&&arr.length?`<ul class="it-lieux">${arr.map(x=>lieuHtml(x,sous(x),pin)).join("")}</ul>`:`<p class="it-wait">${vide}</p>`}</div>`;
 }
 
 // Envoi vers Google Maps (trajet avec étapes, autoroutes évitées) et Waze (destination seule)
@@ -265,8 +268,8 @@ function rechargeJour(km,lx,ville){
   :"Journée de "+Math.round(km)+" km, au-delà de votre autonomie de "+a+" km : prévoyez au moins "+n+" recharge"+(n>1?"s":"")+" en route.";
  let corps="";
  if(lx&&!lx.erreur){
-  corps=liste("Recharger près du déjeuner",lx.bornes_midi,borneSous,"Aucune borne trouvée près du milieu de la journée.")
-   +liste("Recharger à "+esc(ville),lx.bornes_nuit,borneSous,"Aucune borne trouvée dans cette ville. Vérifiez si votre hôtel en propose une.");
+  corps=liste("Recharger près du déjeuner",lx.bornes_midi,borneSous,"Aucune borne trouvée près du milieu de la journée.",true)
+   +liste("Recharger à "+esc(ville),lx.bornes_nuit,borneSous,"Aucune borne trouvée dans cette ville. Vérifiez si votre hôtel en propose une.",true);
  }
  return `<div class="it-bloc"><h3>Recharge</h3><p class="it-wait" style="color:var(--text)">${esc(msg)}</p></div>${corps}`;
 }
