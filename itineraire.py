@@ -364,7 +364,9 @@ $("itForm").addEventListener("submit",async e=>{
   const fer=data.decouverte.ferry||data.autoroute.ferry;
   $("itFerry").style.display=fer?"block":"none";$("itFerry").textContent=fer?noteFerry(fer,trav(fer)):"";
   const tA=A.sec+(A.ferry?A.ferry.sec:0),tD=D.sec+(D.ferry?D.ferry.sec:0),dt=tD-tA,mot=(A.ferry||D.ferry)?"de trajet (traversée comprise)":"de conduite";
-  $("itSave").textContent=(eco>=0?"Vous économisez ":"Surcoût de ")+eur(Math.abs(eco))+" sur la route, "+(dt>=0?"pour "+hh(dt)+" "+mot+" en plus.":"avec "+hh(-dt)+" "+mot+" en moins.");
+  const msgEco=(eco>=0?"Vous économisez ":"Surcoût de ")+eur(Math.abs(eco))+" sur la route, "+(dt>=0?"pour "+hh(dt)+" "+mot+" en plus.":"avec "+hh(-dt)+" "+mot+" en moins.");
+  const equiv=A.peage<0.5&&Math.abs(A.km-D.km)<=Math.max(3,0.03*D.km)&&Math.abs(tA-tD)<=900;
+  $("itSave").textContent=equiv?"Aucune autoroute n'est utile sur ce trajet : les deux itinéraires sont équivalents.":msgEco;
   const nb=Math.max(1,Math.ceil(D.sec/(rythme*3600)));
   const debut=base($("itDep").value),fin=base($("itArr").value);
   const {jours,noms,pays,centres}=await decouperVilles(data.decouverte.steps,nb,fin,va.pays,arr);
