@@ -537,6 +537,10 @@ function icoCuisine(c){
  if(/crêp/.test(t))return"🥞";if(/kebab|turq|liban|maroc/.test(t))return"🥙";if(/mer/.test(t))return"🦐";if(/grill/.test(t))return"🥩";
  return"🍽️";
 }
+function sousResto(x){
+ const c=x.cuisine||"";if(!c)return"";
+ return /^(pizzeria|crêperie|kebab|burgers|sushi|grillades)$/.test(c)?c.charAt(0).toUpperCase()+c.slice(1):"Cuisine "+c;
+}
 function lieuHtml(x,sous,pin,kind){
  // pin : repère exact sur les coordonnées (bornes) ; sinon recherche du nom, centrée sur le lieu
  const carte=pin?"https://www.google.com/maps/search/?api=1&query="+x.lat+","+x.lon
@@ -630,8 +634,8 @@ function afficherJour(i,jours){
  if(!lx)corps='<div class="it-bloc"><p class="it-wait">Recherche des lieux à visiter et des restaurants autour de votre trajet...</p></div>';
  else if(lx.erreur)corps='<div class="it-bloc"><p class="it-wait">Lieux indisponibles pour le moment : '+esc(lx.erreur)+'</p></div>';
  else corps=liste("À voir en chemin",lx.visites,x=>x.genre,"Aucun lieu remarquable trouvé sur ce tronçon.",false,"v")
-  +liste("Où déjeuner",lx.dejeuner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé près du milieu de la journée.",false,"r")
-  +liste("Où dîner à "+esc(ville),lx.diner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé dans cette ville.",false,"r");
+  +liste("Où déjeuner",lx.dejeuner,sousResto,"Aucun restaurant trouvé près du milieu de la journée.",false,"r")
+  +liste("Où dîner à "+esc(ville),lx.diner,sousResto,"Aucun restaurant trouvé dans cette ville.",false,"r");
  $("itDay").innerHTML=`<div class="it-dayhead"><h2>${esc(j.titre)}</h2><span>${Math.round(m/1000)} km, ${hh(sec)} de conduite</span></div>
  <div class="it-roads">${roads}</div>${gpsJour(i,lx)}${ferryJour(fk)}${rechargeJour(m/1000,lx,ville)}${corps}
  <div class="it-bloc"><h3>Dormir à ${esc(ville)}</h3><a class="btn-booking" style="display:inline-block" href="${bk}" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à ${esc(ville)}</a></div>`;
