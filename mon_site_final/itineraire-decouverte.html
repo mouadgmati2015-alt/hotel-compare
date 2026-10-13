@@ -278,6 +278,7 @@ a { color: var(--secondary); }
   <div id="itAutoDiv" style="display:none"><label for="itAuto">Autonomie réelle (km)</label><input id="itAuto" type="number" value="300" min="80" max="900" step="10"></div>
   <button class="btn-compare" type="submit" id="itGo">Calculer mon itinéraire</button>
 </form>
+<p class="it-note" style="margin:-10px 0 14px">Ce service couvre uniquement les villes d'Europe. Choisissez une ville dans la liste qui s'affiche pendant la saisie.</p>
 <div id="itMsg" role="status"></div>
 
 <section id="itRes">
@@ -424,8 +425,11 @@ function brancher(input,dl){
 brancher($("itDep"),$("itDl1"));brancher($("itArr"),$("itDl2"));
 async function resoudre(input){
  const v=input.value.trim();if(sugg[v])return sugg[v];
- const d=await worker({action:"villes",q:v,limit:1});
- if(!d.villes.length)throw new Error("Ville introuvable : "+v+". Essayez le nom d'une ville d'Europe.");
+ const d=await worker({action:"villes",q:v,limit:1,strict:true});
+ if(!d.villes.length){
+  if(d.horsEurope)throw new Error(d.horsEurope.nom+" ("+d.horsEurope.pays+") est hors d'Europe : ce service couvre uniquement les villes d'Europe.");
+  throw new Error("« "+v+" » n'a pas été trouvée. Ce service couvre uniquement les villes d'Europe : choisissez une ville dans la liste qui s'affiche pendant la saisie.");
+ }
  const x=d.villes[0];return{c:[x.lon,x.lat],pays:x.pays};
 }
 
