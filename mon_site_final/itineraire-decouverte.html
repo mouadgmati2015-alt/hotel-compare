@@ -492,7 +492,8 @@ function noteFerry(f,prix){
 }
 function bloc(d){return `<div class="it-row"><span>${d.ferry?"Distance de conduite":"Distance"}</span><b>${Math.round(d.km)} km</b></div>
 <div class="it-row"><span>Temps de conduite</span><b>${hh(d.sec)}</b></div>
-${d.ferry?`<div class="it-row"><span>Traversée (durée estimée)</span><b>${hh(d.ferry.sec)}</b></div>`:""}
+${d.ferry?`<div class="it-row"><span>Traversée (durée estimée)</span><b>${hh(d.ferry.sec)}</b></div>
+<div class="it-row"><span>Durée totale du trajet</span><b>${hh(d.sec+d.ferry.sec)}</b></div>`:""}
 <div class="it-row"><span>Péages</span><b>${eur(d.peage)}</b></div>
 <div class="it-row"><span>Carburant</span><b>${eur(d.carb)}</b></div>
 ${d.traversee?`<div class="it-row"><span>Traversée en ferry (estimation)</span><b>${eur(d.traversee)}</b></div>`:""}
@@ -621,7 +622,8 @@ $("itForm").addEventListener("submit",async e=>{
   const eco=(A.peage+A.carb+A.traversee)-(D.peage+D.carb+D.traversee);
   const fer=data.decouverte.ferry||data.autoroute.ferry;
   $("itFerry").style.display=fer?"block":"none";$("itFerry").textContent=fer?noteFerry(fer,trav(fer)):"";
-  $("itSave").textContent=(eco>=0?"Vous économisez ":"Surcoût de ")+eur(Math.abs(eco))+" sur la route, pour "+hh(Math.max(0,D.sec-A.sec))+" de conduite en plus.";
+  const tA=A.sec+(A.ferry?A.ferry.sec:0),tD=D.sec+(D.ferry?D.ferry.sec:0),dt=tD-tA,mot=(A.ferry||D.ferry)?"de trajet (traversée comprise)":"de conduite";
+  $("itSave").textContent=(eco>=0?"Vous économisez ":"Surcoût de ")+eur(Math.abs(eco))+" sur la route, "+(dt>=0?"pour "+hh(dt)+" "+mot+" en plus.":"avec "+hh(-dt)+" "+mot+" en moins.");
   const nb=Math.max(1,Math.ceil(D.sec/(rythme*3600)));
   const debut=base($("itDep").value),fin=base($("itArr").value);
   const {jours,noms,pays,centres}=await decouperVilles(data.decouverte.steps,nb,fin,va.pays,arr);
