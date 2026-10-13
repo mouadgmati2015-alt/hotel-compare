@@ -98,6 +98,7 @@ TEMPLATE = r"""<!DOCTYPE html>
     <div class="glass-box win"><h2>Parcours découverte</h2><div id="itB"></div></div>
   </section>
   <div class="it-save" id="itSave"></div>
+  <p class="it-note" id="itFerry" style="display:none"></p>
   <p class="it-note" id="itNoteC">Estimations en euros : péage à 0,10 €/km sur les tronçons à péage (vignettes de Suisse, d'Autriche et d'autres pays non incluses), consommation majorée de 15 % à 130 km/h et réduite de 5 % sur routes secondaires.</p>
   <section class="glass-box it-budget" id="itBudget" aria-label="Budget estimé du voyage"></section>
   <div id="itMap"></div>
@@ -114,6 +115,7 @@ TEMPLATE = r"""<!DOCTYPE html>
   <details><summary><b>Est-ce moins cher que l'autoroute ?</b></summary><p>Vous économisez les péages, mais le trajet est plus long et peut consommer un peu plus. Le comparatif affiche les deux calculs côte à côte, à partir d'estimations : péage moyen de 0,10 €/km, sans les vignettes de Suisse ou d'Autriche, et prix du carburant que vous pouvez modifier.</p></details>
   <details><summary><b>Le planificateur convient-il aux voitures électriques ?</b></summary><p>Oui : choisissez « Électrique », indiquez la consommation en kWh/100 km, le prix de l'électricité et l'autonomie réelle de votre voiture. Le coût est recalculé et, pour chaque journée, la page propose des bornes de recharge près du déjeuner et de la ville d'étape, avec la puissance quand elle est connue.</p></details>
   <details><summary><b>Les repas et les visites sont-ils inclus dans le coût ?</b></summary><p>Le comparatif de route (péages, carburant ou électricité) est calculé séparément. Un second tableau estime le budget du voyage : repas selon un montant par personne et par jour que vous choisissez, et visites payantes estimées d'après le type de lieu. L'hébergement n'est pas inclus. Ces montants sont indicatifs.</p></details>
+  <details><summary><b>Et si une mer sépare mon départ et mon arrivée (Corse, Sardaigne, Royaume-Uni...) ?</b></summary><p>Quand un ferry existe dans nos données, la traversée est intégrée : elle est exclue du temps de conduite, comptée à part avec une durée et un prix estimés, et la nuit n'est jamais placée en pleine mer. Les tarifs réels varient beaucoup selon la compagnie, la date et la saison : réservez à l'avance. L'Eurostar ne transporte pas les voitures, contrairement au Shuttle d'Eurotunnel.</p></details>
   <details><summary><b>Quels pays sont couverts ?</b></summary><p>Les villes de départ et d'arrivée peuvent se trouver dans la plupart des pays d'Europe, et le calcul d'itinéraire traverse les frontières.</p></details>
   <details><summary><b>D'où viennent les visites et les restaurants ?</b></summary><p>Ils proviennent d'OpenStreetMap, une carte collaborative. La qualité varie selon les régions : vérifiez toujours les horaires et l'ouverture avant de partir.</p></details>
   <details><summary><b>Puis-je envoyer l'itinéraire vers mon GPS ?</b></summary><p>Oui : des boutons ouvrent le trajet dans Google Maps, avec les villes d'étape et l'option « éviter les autoroutes ». Waze accepte seulement une destination, donc un bouton par journée est proposé.</p></details>
@@ -180,11 +182,11 @@ function roadRef(n){
 const km2=(a,b)=>{const t=Math.PI/180,x=Math.sin((b[1]-a[1])*t/2)**2+Math.cos(a[1]*t)*Math.cos(b[1]*t)*Math.sin((b[0]-a[0])*t/2)**2;return 12742*Math.asin(Math.sqrt(x))};
 // Pour chaque nuit : la ville la plus importante près du point de coupure idéal, puis le tronçon le plus proche d'elle
 async function villeEtape(steps,cum,cible,prev){
- let idx0=cum.findIndex(x=>x>=cible);if(idx0<0)idx0=steps.length-2;idx0=Math.max(idx0,prev+1);
+ let idx0=cum.findIndex(x=>x>=cible);if(idx0<0)idx0=steps.length-2;idx0=Math.max(idx0,prev+1);while(idx0>prev+1&&steps[idx0]&&steps[idx0].f)idx0--;
  try{
   const v=await worker({action:"etape",pt:steps[Math.min(idx0,steps.length-1)].c});
   let best=-1,bd=1e9;
-  steps.forEach((s,i)=>{if(i>prev&&i<steps.length-1&&Math.abs(cum[i]-cible)<=2400){const d=km2(s.c,[v.lon,v.lat]);if(d<bd){bd=d;best=i}}});
+  steps.forEach((s,i)=>{if(i>prev&&i<steps.length-1&&!s.f&&Math.abs(cum[i]-cible)<=2400){const d=km2(s.c,[v.lon,v.lat]);if(d<bd){bd=d;best=i}}});
   return{idx:best>=0?best:idx0,nom:v.nom,pays:v.pays,c:[v.lon,v.lat]};
  }catch(e){console.warn("Ville d'étape introuvable",e);return null}
 }
@@ -213,21 +215,40 @@ function marqueurs(d){
  if(!layerL||!d||!d.visites)return;
  d.visites.forEach(x=>L.circleMarker([x.lat,x.lon],{radius:6,color:"#c8322b",weight:2,fillColor:"#fff",fillOpacity:1}).bindPopup(esc(x.nom)+"<br>"+esc(x.genre)).addTo(layerL));
 }
-function bloc(d){return `<div class="it-row"><span>Distance</span><b>${Math.round(d.km)} km</b></div>
+// Estimation d'une traversée pour le véhicule et ses passagers (tarif très variable)
+function trav(f){
+ if(!f)return 0;
+ const k=f.km,pers=Math.max(1,+$("itPers").value||2);
+ return Math.min(650,Math.round((k<=60?40+1.8*k:148+0.65*(k-60))+(k>100?0.12*k*pers:0)));
+}
+function ferryJour(fk){
+ if(!fk)return"";
+ const h=Math.max(1,Math.round(fk/32*2)/2);
+ return `<div class="it-bloc"><h3>Traversée en ferry</h3><p class="it-wait" style="color:var(--text)">Traversée d'environ ${Math.round(fk)} km (environ ${hh(h*3600)}), estimée à ${eur(trav({km:fk}))} pour le véhicule et ses passagers. Réservez à l'avance : les traversées longues se font souvent de nuit, avec cabine possible.</p></div>`;
+}
+function noteFerry(f,prix){
+ const dans=c=>c[1]>49.3&&c[1]<51.6&&c[0]>-2&&c[0]<2.6;
+ return "Votre trajet comprend une traversée maritime d'environ "+Math.round(f.km)+" km (environ "+hh(f.sec)+" de traversée), comptée "+eur(prix)+" pour le véhicule et ses passagers. Ce tarif est une estimation très variable selon la compagnie, la date et la saison : réservez à l'avance."
+  +(dans(f.de)&&dans(f.a)?" Pour la Manche, Le Shuttle (Eurotunnel) transporte aussi les voitures ; l'Eurostar ne transporte que les voyageurs, sans véhicule.":"");
+}
+function bloc(d){return `<div class="it-row"><span>${d.ferry?"Distance de conduite":"Distance"}</span><b>${Math.round(d.km)} km</b></div>
 <div class="it-row"><span>Temps de conduite</span><b>${hh(d.sec)}</b></div>
+${d.ferry?`<div class="it-row"><span>Traversée (durée estimée)</span><b>${hh(d.ferry.sec)}</b></div>`:""}
 <div class="it-row"><span>Péages</span><b>${eur(d.peage)}</b></div>
 <div class="it-row"><span>Carburant</span><b>${eur(d.carb)}</b></div>
-<div class="it-row"><span>Total route</span><b>${eur(d.peage+d.carb)}</b></div>`}
+${d.traversee?`<div class="it-row"><span>Traversée en ferry (estimation)</span><b>${eur(d.traversee)}</b></div>`:""}
+<div class="it-row"><span>Total route</span><b>${eur(d.peage+d.carb+(d.traversee||0))}</b></div>`}
 
 // Lieux d'une journée, demandés au Worker un jour après l'autre
 async function chargerLieux(jours,dep,id){
  for(let k=0;k<jours.length;k++){
   if(ETAT.id!==id)return;
-  const st=jours[k].steps,pas=Math.max(1,Math.ceil(st.length/25));
+  const st=jours[k].steps,rt=st.filter(s=>!s.f),pas=Math.max(1,Math.ceil(rt.length/25));
   const debut=k===0?dep:jours[k-1].steps[jours[k-1].steps.length-1].c;
-  const poly=[debut].concat(st.filter((_,x)=>x%pas===0).map(s=>s.c));
-  const tot=st.reduce((a,s)=>a+s.s,0);let t=0,midi=st[0].c;
-  for(const s of st){t+=s.s;if(t>=tot/2){midi=s.c;break}}
+  const poly=[debut].concat(rt.filter((_,x)=>x%pas===0).map(s=>s.c));
+  if(poly.length<2){ETAT.lieux[k]={visites:[],dejeuner:[],diner:[]};majBudget();if(ETAT.cur===k)afficherJour(k,jours);continue}
+  const tot=rt.reduce((a,s)=>a+s.s,0);let t=0,midi=(rt[0]||st[0]).c;
+  for(const s of rt){t+=s.s;if(t>=tot/2){midi=s.c;break}}
   try{
    const r=await fetch(WORKER_URL,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({action:"lieux",poly,midi,fin:st[st.length-1].c,ev:ETAT.ev})});
    const d=await r.json();if(!r.ok)throw new Error(d.error||"Erreur du serveur");
@@ -273,12 +294,12 @@ function majBudget(){
  const c=ETAT.cout;if(!c)return;
  const rep_=ETAT.lieux.filter(Boolean),fini=rep_.length>=ETAT.jours.length,ok=rep_.filter(l=>!l.erreur);
  let v=0;ok.forEach(l=>(l.visites||[]).forEach(x=>{v+=PRIX_VISITE[x.genre]||0}));
- const visites=v*c.pers,rA=c.A.peage+c.A.carb,rD=c.D.peage+c.D.carb,mA=c.nbA*c.repas*c.pers,mD=c.nbD*c.repas*c.pers;
+ const visites=v*c.pers,rA=c.A.peage+c.A.carb+(c.A.traversee||0),rD=c.D.peage+c.D.carb+(c.D.traversee||0),mA=c.nbA*c.repas*c.pers,mD=c.nbD*c.repas*c.pers;
  const ligne=(t,a,d,fort)=>{const k=fort?' class="fort"':"";return `<span${k}>${t}</span><span${k}>${a}</span><span${k}>${d}</span>`};
  const jr=n=>n+" jour"+(n>1?"s":"");
  const partiel=fini&&ok.length<rep_.length?" <small>(partiel)</small>":"";
  $("itBudget").innerHTML=`<h2 style="margin-top:0">Budget estimé du voyage</h2><div class="it-bt"><span></span><b>Autoroute</b><b>Découverte</b>`
-  +ligne("Route (carburant ou électricité, péages)",eur(rA),eur(rD))
+  +ligne("Route (carburant ou électricité, péages, ferry)",eur(rA),eur(rD))
   +ligne("Repas pour "+c.pers+" personne"+(c.pers>1?"s":""),eur(mA)+" <small>("+jr(c.nbA)+")</small>",eur(mD)+" <small>("+jr(c.nbD)+")</small>")
   +ligne("Visites payantes","<small>aucune prévue</small>",fini?eur(visites)+partiel:"<small>calcul en cours...</small>")
   +ligne("Total estimé",eur(rA+mA),fini?eur(rD+mD+visites):"<small>en cours...</small>",true)
@@ -302,7 +323,7 @@ function rechargeJour(km,lx,ville){
 function afficherJour(i,jours){
  ETAT.cur=i;
  [...$("itTabs").children].forEach((b,k)=>b.setAttribute("aria-selected",k===i));
- const j=jours[i],m=j.steps.reduce((a,s)=>a+s.d,0),sec=j.steps.reduce((a,s)=>a+s.s,0),r={};
+ const j=jours[i],m=j.steps.filter(s=>!s.f).reduce((a,s)=>a+s.d,0),fk=j.steps.filter(s=>s.f).reduce((a,s)=>a+s.d,0)/1000,sec=j.steps.reduce((a,s)=>a+s.s,0),r={};
  j.steps.forEach(s=>{const ref=roadRef(s.n);if(ref)r[ref[1]]=(r[ref[1]]||0)+s.d});
  const top=Object.entries(r).sort((a,b)=>b[1]-a[1]).slice(0,6);
  const roads=top.length?top.map(([n,d])=>`<span>${badge([n[0],n])} <small>${Math.round(d/1000)} km</small></span>`).join(""):"<small>Numéros de route non indiqués sur ce parcours.</small>";
@@ -318,7 +339,7 @@ function afficherJour(i,jours){
   +liste("Où déjeuner",lx.dejeuner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé près du milieu de la journée.")
   +liste("Où dîner à "+esc(ville),lx.diner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé dans cette ville.");
  $("itDay").innerHTML=`<div class="it-dayhead"><h2>${esc(j.titre)}</h2><span>${Math.round(m/1000)} km, ${hh(sec)} de conduite</span></div>
- <div class="it-roads">${roads}</div>${gpsJour(i,lx)}${rechargeJour(m/1000,lx,ville)}${corps}
+ <div class="it-roads">${roads}</div>${gpsJour(i,lx)}${ferryJour(fk)}${rechargeJour(m/1000,lx,ville)}${corps}
  <div class="it-bloc"><h3>Dormir à ${esc(ville)}</h3><a class="btn-booking" style="display:inline-block" href="${bk}" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à ${esc(ville)}</a></div>`;
 }
 
@@ -334,11 +355,13 @@ $("itForm").addEventListener("submit",async e=>{
   const data=await r.json();if(!r.ok)throw new Error(data.error||"Erreur du serveur");
   const conso=+$("itConso").value,prix=+$("itPrix").value,rythme=+$("itRythme").value;
   const FA=EV()?1.30:F_AUTO,FD=EV()?0.90:F_DECOUV;
-  const A={km:data.autoroute.km,sec:data.autoroute.sec,peage:data.autoroute.peageKm*TARIF_PEAGE,carb:data.autoroute.km*conso*FA/100*prix};
-  const D={km:data.decouverte.km,sec:data.decouverte.sec,peage:0,carb:data.decouverte.km*conso*FD/100*prix};
+  const A={km:data.autoroute.km,sec:data.autoroute.sec,peage:data.autoroute.peageKm*TARIF_PEAGE,carb:data.autoroute.km*conso*FA/100*prix,traversee:trav(data.autoroute.ferry),ferry:data.autoroute.ferry};
+  const D={km:data.decouverte.km,sec:data.decouverte.sec,peage:0,carb:data.decouverte.km*conso*FD/100*prix,traversee:trav(data.decouverte.ferry),ferry:data.decouverte.ferry};
   $("itNoteC").textContent=EV()?NOTE_EV:NOTE_TH;
   $("itA").innerHTML=bloc(A);$("itB").innerHTML=bloc(D);
-  const eco=(A.peage+A.carb)-(D.peage+D.carb);
+  const eco=(A.peage+A.carb+A.traversee)-(D.peage+D.carb+D.traversee);
+  const fer=data.decouverte.ferry||data.autoroute.ferry;
+  $("itFerry").style.display=fer?"block":"none";$("itFerry").textContent=fer?noteFerry(fer,trav(fer)):"";
   $("itSave").textContent=(eco>=0?"Vous économisez ":"Surcoût de ")+eur(Math.abs(eco))+" sur la route, pour "+hh(Math.max(0,D.sec-A.sec))+" de conduite en plus.";
   const nb=Math.max(1,Math.ceil(D.sec/(rythme*3600)));
   const debut=base($("itDep").value),fin=base($("itArr").value);
