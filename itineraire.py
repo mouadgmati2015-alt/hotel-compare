@@ -49,10 +49,16 @@ TEMPLATE = r"""<!DOCTYPE html>
 .it-bloc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:14px}
 .it-bloc h3{margin:0 0 8px;font-size:1.05rem}
 .it-lieux{list-style:none;margin:0;padding:0}
-.it-lieu{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}
+.it-lieu{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
 .it-lieu:last-child{border:0}
 .it-lieu small{display:block;color:var(--muted)}
-.it-lieu a{font-weight:700;margin-left:12px;white-space:nowrap}
+.it-vig{flex:0 0 76px;width:76px;height:76px;border-radius:12px;overflow:hidden;background:var(--panel);display:flex;align-items:center;justify-content:center;font-size:2rem}
+.it-vig img{width:100%;height:100%;object-fit:cover;display:block}
+.it-txt{flex:1;min-width:0}
+.it-res{margin:4px 0 2px;font-size:.9rem;line-height:1.45}
+.it-meta{margin-top:2px;font-size:.82rem}
+.it-liens{display:flex;gap:12px;flex-wrap:wrap;align-self:center}
+.it-liens a{font-weight:700;white-space:nowrap}
 .it-wait{color:var(--muted);margin:0}
 .it-budget{margin-bottom:22px}
 .it-bt{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:8px 12px;align-items:center}
@@ -66,7 +72,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 .it-btn.w{background:#33ccff;color:#06364a}
 .it-btn:hover{filter:brightness(.95)}
 .it-btn:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
-@media (max-width:620px){.it-cmp{grid-template-columns:1fr}.it-lieu{align-items:flex-start;flex-direction:column;gap:4px}.it-lieu a{margin:0 12px 0 0}}
+@media (max-width:620px){.it-cmp{grid-template-columns:1fr}.it-lieu{flex-wrap:wrap}.it-liens{flex-basis:100%;align-self:flex-start}}
 </style>
 </head>
 <body><div class="container">
@@ -264,16 +270,40 @@ async function chargerLieux(jours,dep,id){
   if(ETAT.cur===k)afficherJour(k,jours);
  }
 }
-function lieuHtml(x,sous,pin){
+const ICONES={"Musée":"🏛️","Château":"🏰","Abbaye":"⛪","Lieu de culte":"⛪","Point de vue":"🌄","Cascade":"💧","Loisirs":"🎡","Patrimoine":"🏺","À voir":"📍"};
+function icoCuisine(c){
+ const t=String(c||"").toLowerCase();
+ if(/pizza/.test(t))return"🍕";if(/ital/.test(t))return"🍝";if(/japon|sushi/.test(t))return"🍣";
+ if(/chin|asiat|vietnam|thaï/.test(t))return"🥡";if(/indi/.test(t))return"🍛";if(/burger/.test(t))return"🍔";
+ if(/crêp/.test(t))return"🥞";if(/kebab|turq|liban|maroc/.test(t))return"🥙";if(/mer/.test(t))return"🦐";if(/grill/.test(t))return"🥩";
+ return"🍽️";
+}
+function lieuHtml(x,sous,pin,kind){
  // pin : repère exact sur les coordonnées (bornes) ; sinon recherche du nom, centrée sur le lieu
  const carte=pin?"https://www.google.com/maps/search/?api=1&query="+x.lat+","+x.lon
   :"https://www.google.com/maps/search/"+encodeURIComponent(x.nom)+"/@"+x.lat+","+x.lon+",16z";
  const wz=pin?`<a href="${esc("https://waze.com/ul?ll="+x.lat+","+x.lon+"&navigate=yes")}" target="_blank" rel="noopener nofollow">Waze</a>`:"";
  const site=/^https?:\/\//i.test(x.site||"")?`<a href="${esc(x.site)}" target="_blank" rel="noopener nofollow">Site</a>`:"";
- return `<li class="it-lieu"><div><b>${esc(x.nom)}</b>${sous?`<small>${esc(sous)}</small>`:""}</div><span>${site}<a href="${esc(carte)}" target="_blank" rel="noopener nofollow">Carte</a>${wz}</span></li>`;
+ let vig="";
+ if(kind){
+  const img=/^https:\/\//i.test(x.image||"")?`<img src="${esc(x.image)}" alt="" loading="lazy" width="76" height="76">`:"";
+  vig=`<div class="it-vig">${img||(kind==="v"?(ICONES[x.genre]||"📍"):icoCuisine(x.cuisine))}</div>`;
+ }
+ const res=x.resume?`<p class="it-res">${esc(x.resume)}</p>`:"";
+ const m=[];
+ if(x.adresse)m.push("📍 "+esc(x.adresse));
+ if(x.horaires)m.push("🕒 "+esc(x.horaires));
+ if(x.infos&&x.infos.length)m.push(esc(x.infos.join(", ")));
+ if(x.tel)m.push(`📞 <a href="tel:${esc(String(x.tel).replace(/\s/g,""))}">${esc(x.tel)}</a>`);
+ const credit=[];
+ if(x.source&&/^https:\/\//i.test(x.source.url||""))credit.push(`texte : <a href="${esc(x.source.url)}" target="_blank" rel="noopener nofollow">${esc(x.source.nom)}</a> (CC BY-SA)`);
+ if(/wikimedia\.org/.test(x.image||""))credit.push("image : Wikimedia");
+ if(credit.length)m.push(credit.join(", "));
+ const meta=m.map(t=>`<small class="it-meta">${t}</small>`).join("");
+ return `<li class="it-lieu">${vig}<div class="it-txt"><b>${esc(x.nom)}</b>${sous?`<small>${esc(sous)}</small>`:""}${res}${meta}</div><span class="it-liens">${site}<a href="${esc(carte)}" target="_blank" rel="noopener nofollow">Carte</a>${wz}</span></li>`;
 }
-function liste(titre,arr,sous,vide,pin){
- return `<div class="it-bloc"><h3>${titre}</h3>${arr&&arr.length?`<ul class="it-lieux">${arr.map(x=>lieuHtml(x,sous(x),pin)).join("")}</ul>`:`<p class="it-wait">${vide}</p>`}</div>`;
+function liste(titre,arr,sous,vide,pin,kind){
+ return `<div class="it-bloc"><h3>${titre}</h3>${arr&&arr.length?`<ul class="it-lieux">${arr.map(x=>lieuHtml(x,sous(x),pin,kind)).join("")}</ul>`:`<p class="it-wait">${vide}</p>`}</div>`;
 }
 
 // Envoi vers Google Maps (trajet avec étapes, autoroutes évitées) et Waze (destination seule)
@@ -340,9 +370,9 @@ function afficherJour(i,jours){
  let corps;
  if(!lx)corps='<div class="it-bloc"><p class="it-wait">Recherche des lieux à visiter et des restaurants autour de votre trajet...</p></div>';
  else if(lx.erreur)corps='<div class="it-bloc"><p class="it-wait">Lieux indisponibles pour le moment : '+esc(lx.erreur)+'</p></div>';
- else corps=liste("À voir en chemin",lx.visites,x=>x.genre,"Aucun lieu remarquable trouvé sur ce tronçon.")
-  +liste("Où déjeuner",lx.dejeuner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé près du milieu de la journée.")
-  +liste("Où dîner à "+esc(ville),lx.diner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé dans cette ville.");
+ else corps=liste("À voir en chemin",lx.visites,x=>x.genre,"Aucun lieu remarquable trouvé sur ce tronçon.",false,"v")
+  +liste("Où déjeuner",lx.dejeuner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé près du milieu de la journée.",false,"r")
+  +liste("Où dîner à "+esc(ville),lx.diner,x=>x.cuisine?"Cuisine "+x.cuisine:"","Aucun restaurant trouvé dans cette ville.",false,"r");
  $("itDay").innerHTML=`<div class="it-dayhead"><h2>${esc(j.titre)}</h2><span>${Math.round(m/1000)} km, ${hh(sec)} de conduite</span></div>
  <div class="it-roads">${roads}</div>${gpsJour(i,lx)}${ferryJour(fk)}${rechargeJour(m/1000,lx,ville)}${corps}
  <div class="it-bloc"><h3>Dormir à ${esc(ville)}</h3><a class="btn-booking" style="display:inline-block" href="${bk}" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à ${esc(ville)}</a></div>`;
