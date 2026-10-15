@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Strasbourg Milan sans autoroute : itinéraire, étapes et coût | MyHotelCompare</title>
+<meta name="description" content="Strasbourg Milan sans autoroute : 518 km, 3 jours, 30 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<link rel="canonical" href="https://myhotelcompare.com/strasbourg-milan-sans-autoroute.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Strasbourg Milan sans autoroute : itinéraire, étapes et coût">
+<meta property="og:description" content="Strasbourg Milan sans autoroute : 518 km, 3 jours, 30 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<meta property="og:url" content="https://myhotelcompare.com/strasbourg-milan-sans-autoroute.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Quelle est la distance de Strasbourg à Milan sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Environ 518 km, soit 10 h 45 de conduite et 3 jours à raison d'environ 4 h par jour. Par l'autoroute, le trajet fait 483 km en 5 h 29."}}, {"@type": "Question", "name": "Combien coûte le trajet de Strasbourg à Milan ?", "acceptedAnswer": {"@type": "Answer", "text": "Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 53 € sans autoroute contre 90 € par l'autoroute (péages compris). Les repas, les visites et l'hébergement ne sont pas inclus."}}, {"@type": "Question", "name": "Où s'arrêter entre Strasbourg et Milan ?", "acceptedAnswer": {"@type": "Answer", "text": "Les étapes proposées sont : Winterthur, Thusis, Milan. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit."}}, {"@type": "Question", "name": "Y a-t-il des péages entre Strasbourg et Milan sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l'estimation."}}]}</script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<!-- Google Consent Mode v2 : refus par défaut tant que l'utilisateur n'a pas choisi -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLVNV2211J"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RLVNV2211J');
+</script>
+
+<link rel="icon" type="image/png" href="images/logo_5.png?v=2">
+<link rel="apple-touch-icon" href="images/logo_5.png?v=2">
+<style>
+:root {
+    --bg: #f2fbfd;
+    --bg-dark: #063247;
+    --panel: #e5f5f8;
+    --panel-strong: #c7eaf0;
+    --card: #ffffff;
+    --line: #b9dfe7;
+    --text: #123443;
+    --muted: #52717c;
+    --primary: #087f9b;
+    --primary-dark: #056078;
+    --secondary: #075985;
+    --success: #16805b;
+    --success-soft: #d7f4e7;
+    --warning: #e59a21;
+    --shadow: 0 18px 38px rgba(5, 96, 120, 0.14);
+}
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #f4fcfd 0%, #e7f6f8 100%);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px 16px 40px;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.site-header { margin-bottom: 24px; }
+.brand-lockup { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 18px; color: var(--text); }
+.brand-mark { width: 58px; height: 58px; object-fit: contain; border-radius: 16px; background: var(--panel-strong); padding: 5px; }
+.brand-lockup strong { display: block; color: var(--secondary); font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1; }
+.brand-lockup span { display: block; color: var(--muted); margin-top: 5px; font-size: 0.88rem; }
+h1, h2, h3, h4 { color: var(--text); }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; }
+a { color: var(--secondary); }
+.site-footer { margin-top: 48px; background: linear-gradient(135deg, #063247, #075985); color: #effcff; border-radius: 22px; padding: 30px; box-shadow: var(--shadow); }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 28px; }
+.site-footer h3, .site-footer h4 { color: #b8f0f6; margin-top: 0; }
+.site-footer p, .site-footer li { color: #d6eef2; line-height: 1.6; }
+.site-footer a { color: #b8f0f6; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+.footer-links { list-style: none; padding: 0; margin: 0; }
+.footer-links li { margin-bottom: 8px; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.18); margin-top: 24px; padding-top: 18px; display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; font-size: 0.85rem; }
+.footer-bottom p { margin: 0; }
+@media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } .brand-lockup { justify-content: flex-start; } }
+.top-nav {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    background: linear-gradient(135deg, var(--secondary), var(--primary-dark));
+    padding: 14px 18px; border-radius: 18px; margin: 6px 0 22px;
+    box-shadow: var(--shadow); justify-content: center;
+}
+.top-nav a {
+    color: white; background: rgba(255,255,255,0.12);
+    padding: 10px 16px; border-radius: 12px; text-decoration: none;
+    font-weight: 700; border: 1px solid rgba(255,255,255,0.15);
+}
+.top-nav a:hover { background: rgba(255,255,255,0.2); }
+.card {
+    background: linear-gradient(180deg, #fffefb 0%, #fff8ef 100%);
+    border: 1px solid var(--line); border-radius: 20px;
+    padding: 24px; margin-bottom: 22px; box-shadow: var(--shadow);
+}
+.btn, .btn-booking, .btn-expedia {
+    display: inline-block; text-decoration: none; border-radius: 12px;
+    font-weight: 700; transition: transform 0.2s ease; cursor: pointer;
+}
+.btn:hover, .btn-booking:hover, .btn-expedia:hover { transform: translateY(-1px); }
+.btn { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 18px; }
+.btn-booking { display: block; background: linear-gradient(135deg, #0f3d85, #1d5bbf); color: white; padding: 12px 16px; text-align: center; margin-bottom: 10px; }
+.btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
+.btn-site-officiel { display: block; background: linear-gradient(135deg, var(--secondary), var(--primary-dark)); color: white; padding: 12px 16px; text-align: center; }
+.hero-banner {
+    background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
+    border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
+}
+.hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 18px; }
+.hero-badges span {
+    background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.24); color: #f2fdff; border-radius: 999px; padding: 7px 12px; font-weight: 700; font-size: 0.82rem;
+}
+.glass-box { background: rgba(255,255,255,0.72); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+.filters-box {
+    background: linear-gradient(180deg, #e3f5f8 0%, #f8fdfe 100%);
+    border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 24px 0 18px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; box-shadow: var(--shadow);
+}
+.filters-box label { color: var(--muted); display: block; margin-bottom: 8px; font-weight: 700; }
+.filters-box select {
+    width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--text); font-size: 0.97rem;
+}
+.btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
+.comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.smart-results-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.smart-results-grid .card { margin-bottom: 0; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
+.review-card {
+    background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
+    border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
+}
+.review-card .stars { color: var(--warning); font-size: 1.1rem; letter-spacing: 2px; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 16px; margin-top: 18px; }
+.stat-item { background: rgba(255,255,255,0.5); border: 1px solid rgba(130,90,20,0.15); border-radius: 16px; padding: 18px; }
+.stat-item strong { display: block; font-size: 1.5rem; }
+.testimonial-section > h2 { color: var(--text) !important; }
+.testimonial-section > div > div { background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%) !important; border-color: var(--line) !important; }
+.testimonial-section > div > div p { color: var(--muted) !important; }
+.testimonial-section > div > div p:first-child { color: var(--warning) !important; }
+.testimonial-section > div > div p strong { color: var(--text) !important; }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 1000px) { .smart-results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .smart-results-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+.cookie-banner {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+    background: #063247; color: #effcff; padding: 18px 20px;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+    gap: 16px; box-shadow: 0 -8px 24px rgba(0,0,0,0.25);
+}
+.cookie-banner p { margin: 0; max-width: 640px; font-size: 0.92rem; line-height: 1.5; }
+.cookie-banner a { color: #b8f0f6; }
+.cookie-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie-actions button {
+    border: none; border-radius: 10px; padding: 10px 18px; font-weight: 700; cursor: pointer;
+}
+.cookie-accept { background: var(--primary); color: white; }
+.cookie-refuse { background: rgba(255,255,255,0.15); color: white; }
+.fiche-photo-carte { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0; align-items: stretch; }
+.fiche-photo-carte img, .fiche-photo-carte iframe { width: 100%; height: 260px; object-fit: cover; border-radius: 16px; border: 0; }
+@media (max-width: 600px) { .fiche-photo-carte { grid-template-columns: 1fr; } .fiche-photo-carte img, .fiche-photo-carte iframe { height: 220px; } }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 20px; }
+.btn-itineraire {
+    display: inline-block; padding: 14px 24px; border-radius: 14px; font-weight: 800;
+    background: rgba(255,255,255,0.14); color: #fff; text-decoration: none;
+    border: 1.5px solid rgba(255,255,255,0.6);
+}
+.btn-itineraire:hover { background: rgba(255,255,255,0.26); }
+.btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+</style>
+
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrld.ltd/NTcxODA1.js?t=571805';
+      document.head.appendChild(script);
+  })();
+</script>
+
+<style>
+.it-road{display:inline-block;min-width:36px;text-align:center;padding:0 7px;border-radius:5px;font-weight:800;font-size:.8rem;line-height:22px}
+.it-road.N{background:#c8322b;color:#fff}
+.it-road.D{background:#f2c230;color:#123443;box-shadow:inset 0 0 0 2px #123443}
+.it-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:24px 0;align-items:end}
+.it-form label{display:block;font-weight:700;color:var(--muted);margin-bottom:6px}
+.it-form input,.it-form select{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--text);font-size:.97rem}
+.it-msg{padding:12px 16px;border-radius:12px;margin-bottom:18px;font-weight:600}
+.it-msg.err{background:#fde8e6;color:#9a2a22}.it-msg.info{background:var(--panel);color:var(--secondary)}
+#itRes{display:none}
+.it-cmp{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 14px}
+.it-cmp .glass-box.win{border:2px solid var(--success)}
+.it-cmp h2{font-size:1.15rem;margin:0 0 10px}
+.it-row{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid var(--line)}
+.it-row:last-child{border:0}
+.it-save{background:var(--success-soft);color:var(--success);border-radius:12px;padding:12px 16px;font-weight:700;margin-bottom:8px}
+.it-note{color:var(--muted);font-size:.85rem;margin:0 0 22px}
+#itMap{height:380px;border-radius:16px;margin-bottom:22px;box-shadow:var(--shadow)}
+.it-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.it-tab{font:inherit;font-weight:700;cursor:pointer;background:#fff;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:9px 18px}
+.it-tab[aria-selected=true]{background:var(--secondary);color:#fff;border-color:var(--secondary)}
+.it-tab:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+.it-dayhead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.it-dayhead h2{margin:0;font-size:1.4rem}
+.it-dayhead span{color:var(--muted)}
+.it-roads{display:flex;gap:10px 14px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+.it-roads small{color:var(--muted)}
+.it-bloc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:14px}
+.it-bloc h3{margin:0 0 8px;font-size:1.05rem}
+.it-lieux{list-style:none;margin:0;padding:0}
+.it-lieu{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
+.it-lieu:last-child{border:0}
+.it-lieu small{display:block;color:var(--muted)}
+.it-vig{flex:0 0 76px;width:76px;height:76px;border-radius:12px;overflow:hidden;background:var(--panel);display:flex;align-items:center;justify-content:center;font-size:2rem}
+.it-vig img{width:100%;height:100%;object-fit:cover;display:block}
+.it-txt{flex:1;min-width:0}
+.it-res{margin:4px 0 2px;font-size:.9rem;line-height:1.45}
+.it-meta{margin-top:2px;font-size:.82rem}
+.it-liens{display:flex;gap:12px;flex-wrap:wrap;align-self:center}
+.it-liens a{font-weight:700;white-space:nowrap}
+.it-wait{color:var(--muted);margin:0}
+.it-budget{margin-bottom:22px}
+.it-bt{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:8px 12px;align-items:center}
+.it-bt .fort{font-weight:800;border-top:1px solid var(--line);padding-top:8px}
+.it-bt small{color:var(--muted)}
+.it-btn.s{background:var(--secondary);color:#fff;border:0;cursor:pointer;font-family:inherit}
+.it-share-msg{align-self:center;color:var(--success);font-weight:700}
+.it-urlcopy{width:100%;max-width:440px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:.85rem}
+.it-all{margin-bottom:18px}
+.it-all p{margin:6px 0 0}
+.it-gps{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px}
+.it-btn{display:inline-block;padding:10px 16px;border-radius:12px;font-weight:700;text-decoration:none;font-size:.95rem}
+.it-btn.g{background:#1a73e8;color:#fff}
+.it-btn.w{background:#33ccff;color:#06364a}
+.it-btn:hover{filter:brightness(.95)}
+.it-btn:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+@media (max-width:620px){.it-cmp{grid-template-columns:1fr}.it-lieu{flex-wrap:wrap}.it-liens{flex-basis:100%;align-self:flex-start}}
+
+.tj-cmp .glass-box h2{margin-top:0}
+.tj-fil{font-size:.9rem;color:var(--muted);margin:0 0 10px}
+</style>
+</head>
+<body><div class="container">
+
+<header class="site-header">
+<div class="brand-lockup">
+    <img src="images/logo_5.svg" alt="Nomad" class="brand-mark">
+    <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
+</div>
+<div class="top-nav">
+    <a href="index.html">Accueil</a>
+    <a href="hotels.html">Hôtels</a>
+    <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
+    <a href="loueurs-vehicules.html">Location de Véhicules</a>
+    <a href="croisieres.html">Croisières</a>
+    <a href="itineraire-decouverte.html">Itinéraires</a>
+    <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
+</div>
+</header>
+
+<p class="tj-fil"><a href="index.html">Accueil</a> &gt; <a href="trajets-sans-autoroute.html">Trajets sans autoroute</a> &gt; Strasbourg Milan</p>
+<div class="hero-banner">
+  <h1 style="color:#fff;margin:0 0 10px;font-size:clamp(1.6rem,3.6vw,2.4rem)">Strasbourg Milan sans autoroute : itinéraire, étapes et coût</h1>
+  <p style="margin:0;max-width:760px;line-height:1.7;color:#effcff">Pour aller de Strasbourg à Milan sans autoroute, comptez environ 518 km et 10 h 45 de conduite, soit 3 jours à raison d&#x27;environ 4 h de route par jour. Par l&#x27;autoroute, le même trajet fait 483 km en 5 h 29, avec environ 30 € de péages estimés.</p>
+</div>
+<p style="line-height:1.7">En évitant l&#x27;autoroute, vous économisez environ 36 € sur la route (péages et carburant), pour environ 5 h 16 de trajet en plus. Les routes les plus empruntées sont la B33 (50 km), la A13 (31 km), la B27 (30 km). </p>
+<section class="it-cmp tj-cmp" aria-label="Comparatif avec l'autoroute">
+  <div class="glass-box"><h2>Par l'autoroute</h2><div class="it-row"><span>Distance</span><b>483 km</b></div><div class="it-row"><span>Temps de conduite</span><b>5 h 29</b></div><div class="it-row"><span>Péages</span><b>30 €</b></div><div class="it-row"><span>Carburant</span><b>60 €</b></div><div class="it-row"><span>Total route</span><b>90 €</b></div></div>
+  <div class="glass-box win"><h2>Parcours découverte</h2><div class="it-row"><span>Distance</span><b>518 km</b></div><div class="it-row"><span>Temps de conduite</span><b>10 h 45</b></div><div class="it-row"><span>Péages</span><b>0 €</b></div><div class="it-row"><span>Carburant</span><b>53 €</b></div><div class="it-row"><span>Total route</span><b>53 €</b></div></div>
+</section>
+<p class="it-note">Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, péage à 0,10 €/km sur les tronçons à péage. Montants indicatifs, mis à jour le 15 octobre 2026.</p>
+<p><a class="btn-compare" style="display:inline-block;text-decoration:none;width:auto;padding:14px 24px" href="itineraire-decouverte.html?d=Strasbourg+%28France%29&amp;dc=7.7521%2C48.5734&amp;dp=France&amp;a=Milan+%28Italie%29&amp;ac=9.19%2C45.4642&amp;ap=Italie&amp;r=4&amp;v=th&amp;c=6&amp;p=1.8&amp;n=2&amp;m=45&amp;utm_source=pages-trajets&amp;utm_medium=site&amp;utm_campaign=trajet">Calculer avec mon véhicule</a></p>
+<div id="itMap"></div>
+<section><h2>Jour 1 : Strasbourg à Winterthur</h2><p class="it-wait">179 km, 3 h 33 de conduite</p><div class="it-roads"><span><span class="it-road N">B33</span> <small>50 km</small></span><span><span class="it-road N">B27</span> <small>30 km</small></span><span><span class="it-road N">A4</span> <small>14 km</small></span><span><span class="it-road D">K5362</span> <small>10 km</small></span><span><span class="it-road D">L98</span> <small>7 km</small></span><span><span class="it-road D">K5357</span> <small>7 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/20120520_Segen_Gottes_13.jpg/330px-20120520_Segen_Gottes_13.jpg?utm_source=de.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Besucherbergwerk Segen Gottes</b><small>À voir</small><p class="it-res">Zwei zweistündige Führungen täglich während der Saison um 11:30 und 13:30 (max. 15 Personen). Treffpunkt der Führungen am Silbersee!</p><small class="it-meta">📍 Silbergrube Segen Gottes, Haslach im Kinzigtal</small><small class="it-meta">🕒 Apr 01-Oct 31: mer-dim 11:30-13:30 ; lun,mar,dim fermé ; Nov 02-Mar 31: lun-dim fermé</small><small class="it-meta">📞 <a href="tel:+497832706172">+49 7832 706172</a></small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="http://www.besucherbergwerk-segen-gottes.de" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Besucherbergwerk%20Segen%20Gottes/@48.29212,8.08545,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/BB_Burg_Blumberg_%28Tafelzeichnung%29.jpg/330px-BB_Burg_Blumberg_%28Tafelzeichnung%29.jpg?utm_source=de.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Ehemalige Burg Blumberg</b><small>À voir</small><small class="it-meta">📍 Rettungssektor Z3, Blumberg</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ehemalige%20Burg%20Blumberg/@47.83952,8.52164,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Eigenthal03.JPG/330px-Eigenthal03.JPG?utm_source=de.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Schloss Eigenthal</b><small>Château</small><p class="it-res">Landsitz in spätgotischem Stil mit zwei durch einen Zwischentrakt verbundenen Wohnbauten mit Treppengiebeln an der Südseite. 1588 für den Schaffhauser Junker Georg Rietmann erbaut. Heute Privatbesitz. (Quelle: Burgenverein.ch)</p><small class="it-meta">📍 Eigental, Berg am Irchel</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="http://www.schloss-eigenthal.ch/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Schloss%20Eigenthal/@47.56915,8.60599,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🏰</div><div class="it-txt"><b>Burgstelle Schiterberg</b><small>Château</small><p class="it-res">Im 19. Jh. teilweise abgetragener Burghügel. Die Burg war wahrscheinlich im 14. Jh. Sitz der Herren von Schiterberg.</p><small class="it-meta">📍 Schiterbergstrasse, Kleinandelfingen</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Burgstelle%20Schiterberg/@47.60968,8.66945,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Zur Stadt Frankfurt</b><small>Cuisine régionale</small><small class="it-meta">📍 2 Rupertsbergweg, St. Georgen im Schwarzwald</small><small class="it-meta">🕒 11:30-14:30,17:30-21:00 ; mar,mer fermé</small><small class="it-meta">📞 <a href="tel:+4977246207">+49 7724 6207</a></small></div><span class="it-liens"><a href="https://www.zur-stadt-frankfurt.de/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Zur%20Stadt%20Frankfurt/@48.13157,8.33421,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Roßbergschänke</b><small>Cuisine régionale</small><small class="it-meta">📍 21 Roßbergstraße, St. Georgen im Schwarzwald</small><small class="it-meta">🕒 lun-mar 17:30-22:00 ; jeu 17:30-22:00 ; ven 11:30-14:00,17:30-24:00 ; sam 17:30-22:00 ; dim 11:00-14:00,17:…</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+4977245829577">+49 7724 5829577</a></small></div><span class="it-liens"><a href="https://www.rossbergschaenke21.de/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Ro%C3%9Fbergsch%C3%A4nke/@48.12629,8.33118,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Gasthaus Krone</b><small>Cuisine régionale</small><small class="it-meta">📍 12 Hauptstraße, St. Georgen im Schwarzwald</small><small class="it-meta">🕒 mar-dim 11:00-22:00</small><small class="it-meta">terrasse, à emporter, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+4977246943">+49 7724 6943</a></small></div><span class="it-liens"><a href="https://www.gasthaus-krone-st-georgen.de/contact" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Gasthaus%20Krone/@48.12562,8.33162,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Winterthur</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Schlosshalde Mörsburg</b><small>Cuisine régionale</small><small class="it-meta">📍 36 Mörsburgstrasse, Winterthur</small><small class="it-meta">🕒 mer-dim 09:00-23:00</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+41522337878">+41 52 233 78 78</a></small></div><span class="it-liens"><a href="https://moersburg-winterthur.ch/site/speis-trank/kueche/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Schlosshalde%20M%C3%B6rsburg/@47.54004,8.76802,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Riedmühle</b><small>Cuisine régionale</small><small class="it-meta">📍 86 Riedmühlestrasse, Dinhard</small><small class="it-meta">🕒 lun 11:30-13:30,17:30-21:00 ; mer-sam 11:30-13:30,17:30-21:00 ; dim 11:30-14:00,17:00-20:00</small><small class="it-meta">options végétariennes</small><small class="it-meta">📞 <a href="tel:+41523361198">+41 52 336 11 98</a></small></div><span class="it-liens"><a href="https://www.riedmuehli.ch/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Riedm%C3%BChle/@47.54848,8.78018,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Wirtschaft zum Lindenhof</b><small>Cuisine régionale</small><small class="it-meta">📍 39 Hauptstrasse, Wiesendangen</small><small class="it-meta">🕒 lun-mar, ven-sam 08:30-23:30 ; dim 09:00-22:00</small><small class="it-meta">📞 <a href="tel:+41523751877">+41 52 375 18 77</a></small></div><span class="it-liens"><a href="https://www.zum-lindenhof.ch/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Wirtschaft%20zum%20Lindenhof/@47.5404,8.82335,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Winterthur</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Winterthur%2C%20Switzerland&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Winterthur</a></div></section><section><h2>Jour 2 : Winterthur à Thusis</h2><p class="it-wait">168 km, 3 h 52 de conduite</p><div class="it-roads"><span><span class="it-road N">A13</span> <small>31 km</small></span><span><span class="it-road D">K43</span> <small>6 km</small></span><span><span class="it-road D">K38</span> <small>3 km</small></span><span><span class="it-road D">K21</span> <small>3 km</small></span><span><span class="it-road D">K41</span> <small>1 km</small></span><span><span class="it-road D">K39</span> <small>1 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Ortsmuseum_Wila.JPG/330px-Ortsmuseum_Wila.JPG?utm_source=de.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Ortsmuseum</b><small>Musée</small><small class="it-meta">📍 33 Tösstalstrasse, Wila</small><small class="it-meta">🕒 dim[1] 14:00-16:00 ; Jun-Oct &quot;nur auf Voranmeldung&quot;</small><small class="it-meta">📞 <a href="tel:+41523942424">+41 52 394 24 24</a></small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.wila.ch/leben/ortsmuseum.html/235" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Ortsmuseum/@47.41972,8.84608,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Dussnang02.JPG/330px-Dussnang02.JPG?utm_source=de.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Ruine Tannegg</b><small>Château</small><p class="it-res">Mauerspuren eines Turmes. Ehemaliges Städtchen (ohne sichtbare Mauern) als Zentrum für das Tannegger Amt erbaut. Burg um 1240 von Bischof von Konstanz erworben. 1407 durch die Appenzeller zerstört. (Quelle: Burgenverein.ch)</p><small class="it-meta">📍 Tanneggergrat, Fischingen</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ruine%20Tannegg/@47.43041,8.95046,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Wartau.jpg/330px-Wartau.jpg?utm_source=de.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Burgruine Wartau</b><small>Château</small><p class="it-res">Wohnbauten und ihre Nebenanlagen / Burgruinen / Archäologische Objekte / Mesolithikum / Neolithikum / Bronzezeit / Eisenzeit / Mittelalter</p><small class="it-meta">📍 Burghaldenweg, Wartau</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Burgruine%20Wartau/@47.09847,9.49038,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Haldenstein_Stich.jpg/330px-Haldenstein_Stich.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Ruine Haldenstein</b><small>Château</small><p class="it-res">La ruine d&#x27;Haldenstein, appelée en allemand Burg Haldenstein, est un château fort situé sur le territoire de la commune grisonne d&#x27;Haldenstein, en Suisse.</p><small class="it-meta">📍 Alpweg, Chur</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ruine_d&#x27;Haldenstein" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ruine%20Haldenstein/@46.88045,9.52351,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/TraubeBuchs.JPG?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Gasthaus Traube Buchs</b><small>Cuisine régionale</small><p class="it-res">Willkommen im traditionsreichen Gasthaus Traube im Zentrum von Buchs SG. Wir freuen uns auf herzliche Begegnungen aller Couleur.</p><small class="it-meta">📍 7 St. Gallerstrasse, Buchs (SG)</small><small class="it-meta">terrasse, options végétariennes, options véganes, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+41817505522">+41 817505522</a></small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://gasthaus-traube.ch" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Gasthaus%20Traube%20Buchs/@47.16547,9.46946,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Pizzeria da Giovanni</b><small>Pizzeria</small><small class="it-meta">📍 18 Moosweg, Buchs (SG)</small><small class="it-meta">🕒 mer-dim 10:00-13:30,17:00-22:00</small><small class="it-meta">terrasse, options végétariennes</small><small class="it-meta">📞 <a href="tel:+41817400722">+41817400722</a></small></div><span class="it-liens"><a href="https://www.pizzeriadagiovanni.ch/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Pizzeria%20da%20Giovanni/@47.16486,9.46459,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Pizzeria zur Tanne</b><small>Pizzeria</small><small class="it-meta">📍 14 Alvierstrasse, Buchs (SG)</small><small class="it-meta">🕒 lun-ven 11:00-14:00,17:00-22:00 ; sam 11:00-22:00</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+41817712540">+41 81 7712540</a></small></div><span class="it-liens"><a href="https://zur-tanne.ch/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Pizzeria%20zur%20Tanne/@47.16714,9.47439,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Thusis</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Hotel Restaurant Capricorns</b><small class="it-meta">📍 51 Veia Cantunala, Muntogna da Schons</small><small class="it-meta">🕒 Dec 18-Apr 03,May 13-Oct 23 lun-dim 08:00-22:30</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+41816307172">+41 81 630 71 72</a></small></div><span class="it-liens"><a href="http://capricorns.ch" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Hotel%20Restaurant%20Capricorns/@46.6263,9.40751,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Gasthaus Edelweis</b><small>Cuisine régionale</small><small class="it-meta">📍 2 Hauptstrasse, Ferrera</small><small class="it-meta">📞 <a href="tel:+41816611827">+41 81 661 18 27</a></small></div><span class="it-liens"><a href="http://www.valferrera.com/#!edelweiss/cagb" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Gasthaus%20Edelweis/@46.55814,9.43955,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Restaurant Muntsulej</b><small class="it-meta">📍 1 Laresch, Muntogna da Schons</small><small class="it-meta">🕒 ven-mer 09:00-22:00</small></div><span class="it-liens"><a href="https://www.muntsulej.ch/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Restaurant%20Muntsulej/@46.63872,9.41619,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Thusis</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Thusis%2C%20Switzerland&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Thusis</a></div></section><section><h2>Jour 3 : Thusis à Milan</h2><p class="it-wait">171 km, 3 h 20 de conduite</p><div class="it-roads"><span><span class="it-road N">SS36</span> <small>21 km</small></span><span><span class="it-road D">SP2</span> <small>10 km</small></span><span><span class="it-road N">A13</span> <small>0 km</small></span><span><span class="it-road D">SP102</span> <small>0 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Chiavenna_-_Galleria_Storica_dei_Civici_Pompieri_della_Valchiavenna..jpg/330px-Chiavenna_-_Galleria_Storica_dei_Civici_Pompieri_della_Valchiavenna..jpg?utm_source=it.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Galleria storica dei civici pompieri della Valchiavenna</b><small>Musée</small><small class="it-meta">📍 Piazza Corpo dei Vigili del Fuoco di Chiavenna, Chiavenna</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Galleria%20storica%20dei%20civici%20pompieri%20della%20Valchiavenna/@46.32172,9.40532,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Forte_de_Fuentes.jpg/330px-Forte_de_Fuentes.jpg?utm_source=it.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Forte di Fuentes</b><small>Château</small><small class="it-meta">📍 Via Forte Fuentes, Colico</small><small class="it-meta">🕒 sam,dim 10:00-18:00 ; jours fériés 10:00-18:00</small><small class="it-meta">📞 <a href="tel:+390341940322">+390341940322</a></small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.fortedifuentes.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Forte%20di%20Fuentes/@46.14764,9.4046,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Rotanda_inverigo.png/330px-Rotanda_inverigo.png?utm_source=it.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>La rotonda</b><small>À voir</small><small class="it-meta">📍 Via Privata D&#x27;Adda, Inverigo</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/La%20rotonda/@45.74086,9.21947,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Marchio_Barigozzi_Cornaredo.JPG/330px-Marchio_Barigozzi_Cornaredo.JPG?utm_source=it.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Fonderia Napoleonica Eugenia</b><small>Musée</small><small class="it-meta">📍 21 Via Genova Thaon Di Revel, Milan</small><small class="it-meta">🕒 sam 11:00-19:00 ; dim 10:00-19:00 ; lun-ven fermé</small><small class="it-meta">entrée gratuite</small><small class="it-meta">📞 <a href="tel:+393930552272">+39 393 0552272</a></small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.fonderianapoleonica.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Fonderia%20Napoleonica%20Eugenia/@45.49296,9.18754,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Ristorante Beccaccino</b><small>Cuisine fish</small><small class="it-meta">📍 49 Via Boschetto, Sorico</small><small class="it-meta">📞 <a href="tel:+39034484241">+39034484241</a></small></div><span class="it-liens"><a href="https://www.beccaccino.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Ristorante%20Beccaccino/@46.16828,9.39317,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Hotel Ristorante Maloia</b><p class="it-res">Room from 35 €, free Wifi</p><small class="it-meta">📍 Via Spluga, Dubino</small><small class="it-meta">📞 <a href="tel:+390342687936">+39 0342 687936</a></small></div><span class="it-liens"><a href="https://www.hotelmaloia.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Hotel%20Ristorante%20Maloia/@46.16784,9.42836,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍝</div><div class="it-txt"><b>Agriturismo Giacomino</b><small>Cuisine italienne</small><small class="it-meta">📍 42 Via Fordeccia, Sorico</small><small class="it-meta">📞 <a href="tel:+39034484710">+39 0344 84710</a></small></div><span class="it-liens"><a href="https://www.agriturismogiacomino.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Agriturismo%20Giacomino/@46.19358,9.39657,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Milan</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍝</div><div class="it-txt"><b>Cracco in Galleria</b><small>Cuisine italienne</small><small class="it-meta">📍 1n11 Galleria Vittorio Emanuele Secondo, Milan</small><small class="it-meta">🕒 lun-ven 12:30-14:00,19:15-22:00 ; sam 19:30-22:00</small><small class="it-meta">terrasse, à emporter, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+3902876774">+39 02 876774</a></small></div><span class="it-liens"><a href="https://www.ristorantecracco.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Cracco%20in%20Galleria/@45.46534,9.18987,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD%2C_%D0%9F%D0%B0%D1%81%D1%81%D0%B0%D0%B6_-_panoramio.jpg/330px-%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD%2C_%D0%9F%D0%B0%D1%81%D1%81%D0%B0%D0%B6_-_panoramio.jpg?utm_source=it.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Ristorante Savini</b><small class="it-meta">📍 4n04 Galleria Vittorio Emanuele Secondo, Milan</small><small class="it-meta">🕒 lun-ven 12:00-14:30,19:00-22:30 ; sam 19:00-22:30</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://savinimilano.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Ristorante%20Savini/@45.46569,9.19047,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mailand-Papa_Francesco_8915.jpg?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Papà Francesco</b><small>Cuisine italienne</small><small class="it-meta">📍 7n03 Via Tommaso Marino, Milan</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.papafrancesco.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Pap%C3%A0%20Francesco/@45.4663,9.19038,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Milan</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Milan%2C%20Italie&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Milan</a></div></section>
+<section class="glass-box it-seo" style="margin:24px 0"><h2 style="margin-top:0">Questions fréquentes</h2><details><summary><b>Quelle est la distance de Strasbourg à Milan sans autoroute ?</b></summary><p>Environ 518 km, soit 10 h 45 de conduite et 3 jours à raison d&#x27;environ 4 h par jour. Par l&#x27;autoroute, le trajet fait 483 km en 5 h 29.</p></details><details><summary><b>Combien coûte le trajet de Strasbourg à Milan ?</b></summary><p>Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 53 € sans autoroute contre 90 € par l&#x27;autoroute (péages compris). Les repas, les visites et l&#x27;hébergement ne sont pas inclus.</p></details><details><summary><b>Où s&#x27;arrêter entre Strasbourg et Milan ?</b></summary><p>Les étapes proposées sont : Winterthur, Thusis, Milan. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit.</p></details><details><summary><b>Y a-t-il des péages entre Strasbourg et Milan sans autoroute ?</b></summary><p>Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l&#x27;estimation.</p></details></section>
+<h2>Autres trajets</h2><ul><li><a href="strasbourg-barcelone-sans-autoroute.html">Strasbourg Barcelone sans autoroute</a></li><li><a href="strasbourg-nice-sans-autoroute.html">Strasbourg Nice sans autoroute</a></li><li><a href="lyon-milan-sans-autoroute.html">Lyon Milan sans autoroute</a></li><li><a href="strasbourg-lyon-sans-autoroute.html">Strasbourg Lyon sans autoroute</a></li><li><a href="strasbourg-marseille-sans-autoroute.html">Strasbourg Marseille sans autoroute</a></li><li><a href="strasbourg-lausanne-sans-autoroute.html">Strasbourg Lausanne sans autoroute</a></li><li><a href="strasbourg-munich-sans-autoroute.html">Strasbourg Munich sans autoroute</a></li><li><a href="strasbourg-annecy-sans-autoroute.html">Strasbourg Annecy sans autoroute</a></li></ul>
+<p class="it-note">Les lieux et restaurants viennent d'OpenStreetMap et de Wikipédia : vérifiez les horaires avant de partir. Itinéraire calculé avec <a href="https://openrouteservice.org/" target="_blank" rel="noopener">OpenRouteService</a>, lieux via <a href="https://www.geoapify.com/" target="_blank" rel="noopener">Geoapify</a>, données &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</p>
+
+
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+    <p>Nous utilisons des cookies pour mesurer l'audience du site (Google Analytics). Vous pouvez accepter ou refuser ce suivi. Voir notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+    <div class="cookie-actions">
+        <button class="cookie-refuse" onclick="setCookieConsent(false)">Refuser</button>
+        <button class="cookie-accept" onclick="setCookieConsent(true)">Accepter</button>
+    </div>
+</div>
+<script>
+(function() {
+    function setCookieConsent(accepted) {
+        localStorage.setItem('cookie_consent', accepted ? 'granted' : 'denied');
+        gtag('consent', 'update', {
+            'analytics_storage': accepted ? 'granted' : 'denied'
+        });
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+    window.setCookieConsent = setCookieConsent;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var saved = localStorage.getItem('cookie_consent');
+        if (saved === 'granted') {
+            gtag('consent', 'update', { 'analytics_storage': 'granted' });
+        } else if (saved === null) {
+            document.getElementById('cookie-banner').style.display = 'flex';
+        }
+        
+    });
+})();
+</script>
+
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <h3>Nomad</h3>
+            <p>Le compagnon de voyage qui vous aide à choisir plus vite et à partir plus serein.</p>
+        </div>
+        <div>
+            <h4>Explorer</h4>
+            <ul class="footer-links">
+                <li><a href="hotels.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
+                <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
+                <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
+                <li><a href="croisieres.html">Croisières</a></li>
+                <li><a href="itineraire-decouverte.html">Itinéraire découverte</a></li>
+                <li><a href="trajets-sans-autoroute.html">Trajets sans autoroute</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>À propos</h4>
+            <ul class="footer-links">
+                <li><a href="apropos.html">À propos de nous</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Conseils de voyage</a></li>
+                <li><a href="index.html#avis">Avis voyageurs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Votre retour compte</h4>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
+        <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
+    </div>
+</footer>
+
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const TR={"c": [[48.573, 7.7521], [48.5646, 7.7522], [48.5459, 7.7386], [48.5372, 7.7457], [48.5275, 7.735], [48.5126, 7.7282], [48.5009, 7.7316], [48.4983, 7.7404], [48.4918, 7.7656], [48.4946, 7.7855], [48.4948, 7.8195], [48.4932, 7.8446], [48.4839, 7.8683], [48.4753, 7.895], [48.4703, 7.9192], [48.4556, 7.9315], [48.4475, 7.9398], [48.4349, 7.96], [48.4072, 7.9995], [48.3894, 8.0236], [48.3722, 8.0244], [48.3545, 8.0171], [48.338, 8.0199], [48.3104, 8.0482], [48.3056, 8.0602], [48.2893, 8.0693], [48.2849, 8.082], [48.2843, 8.0977], [48.2858, 8.1084], [48.2873, 8.1187], [48.2866, 8.1298], [48.2887, 8.1498], [48.2855, 8.1655], [48.2864, 8.1757], [48.287, 8.1945], [48.2864, 8.1896], [48.2794, 8.1976], [48.2642, 8.2058], [48.2552, 8.2095], [48.2468, 8.2117], [48.2341, 8.215], [48.2237, 8.222], [48.2153, 8.2266], [48.2144, 8.2339], [48.2181, 8.2445], [48.2188, 8.2594], [48.215, 8.273], [48.2082, 8.2843], [48.1999, 8.3004], [48.179, 8.3], [48.1623, 8.3161], [48.1557, 8.3271], [48.1547, 8.3412], [48.1458, 8.3672], [48.1339, 8.3732], [48.129, 8.38], [48.1162, 8.3983], [48.1053, 8.4158], [48.0892, 8.4321], [48.0727, 8.4555], [48.0652, 8.4684], [48.0514, 8.4725], [48.0413, 8.4894], [48.0296, 8.512], [48.0225, 8.5209], [48.004, 8.5317], [47.9706, 8.512], [47.9502, 8.5211], [47.9212, 8.5052], [47.9062, 8.5076], [47.8916, 8.5155], [47.8737, 8.5406], [47.8603, 8.5481], [47.8445, 8.5552], [47.8357, 8.5565], [47.8273, 8.5629], [47.823, 8.5709], [47.8156, 8.5806], [47.806, 8.5855], [47.8046, 8.5811], [47.7974, 8.5761], [47.7936, 8.5966], [47.7897, 8.6146], [47.773, 8.6156], [47.7561, 8.614], [47.7385, 8.6224], [47.7246, 8.6339], [47.7153, 8.6535], [47.707, 8.6383], [47.6926, 8.6252], [47.6796, 8.6332], [47.6712, 8.6225], [47.6556, 8.6378], [47.6299, 8.6716], [47.6071, 8.6871], [47.6009, 8.6911], [47.5948, 8.6865], [47.5886, 8.7059], [47.5791, 8.7179], [47.5679, 8.7325], [47.5572, 8.7462], [47.5544, 8.7527], [47.5552, 8.7674], [47.5518, 8.7766], [47.5423, 8.7863], [47.5349, 8.7864], [47.5359, 8.7966], [47.5317, 8.8094], [47.5256, 8.8222], [47.5198, 8.8262], [47.5116, 8.8269], [47.5049, 8.8468], [47.4986, 8.8557], [47.4903, 8.8665], [47.4829, 8.874], [47.4717, 8.8876], [47.465, 8.8937], [47.4619, 8.8937], [47.4581, 8.8951], [47.4563, 8.9033], [47.448, 8.9241], [47.4397, 8.9422], [47.4345, 8.9543], [47.4282, 8.9629], [47.4182, 8.9689], [47.4107, 8.9681], [47.4023, 8.9736], [47.3929, 8.972], [47.3843, 8.9753], [47.3744, 8.9759], [47.3717, 8.9892], [47.371, 9.0038], [47.3738, 9.0189], [47.372, 9.0336], [47.3636, 9.0408], [47.362, 9.0471], [47.3642, 9.0575], [47.3623, 9.0682], [47.3567, 9.0734], [47.3475, 9.0796], [47.3448, 9.0819], [47.3353, 9.0798], [47.3163, 9.0813], [47.3014, 9.0794], [47.2903, 9.0857], [47.2778, 9.0988], [47.2743, 9.1149], [47.2664, 9.1267], [47.2589, 9.1405], [47.2556, 9.1517], [47.2506, 9.1622], [47.2471, 9.173], [47.2416, 9.1816], [47.2343, 9.1878], [47.2295, 9.1952], [47.2257, 9.1991], [47.2212, 9.2055], [47.2182, 9.2125], [47.212, 9.2169], [47.2048, 9.2216], [47.1984, 9.2272], [47.1903, 9.2339], [47.1877, 9.241], [47.1838, 9.2577], [47.1925, 9.2818], [47.1962, 9.2957], [47.1968, 9.313], [47.1991, 9.3222], [47.2009, 9.3376], [47.2021, 9.3539], [47.1989, 9.3699], [47.1982, 9.3843], [47.1957, 9.3943], [47.1943, 9.4033], [47.1966, 9.4113], [47.1974, 9.4262], [47.202, 9.4321], [47.195, 9.4305], [47.1925, 9.4322], [47.1907, 9.4411], [47.1857, 9.4429], [47.1816, 9.4456], [47.1771, 9.4495], [47.1703, 9.4586], [47.1667, 9.4666], [47.1626, 9.475], [47.1573, 9.4792], [47.1512, 9.482], [47.1443, 9.4855], [47.1284, 9.4858], [47.1205, 9.4856], [47.1156, 9.4898], [47.0981, 9.5033], [47.0923, 9.497], [47.0868, 9.4934], [47.0769, 9.4838], [47.0715, 9.4918], [47.0665, 9.4975], [47.0576, 9.4992], [47.0521, 9.5058], [47.0475, 9.5127], [47.0453, 9.5206], [47.0374, 9.5274], [47.0283, 9.5295], [47.0186, 9.5277], [47.0109, 9.5283], [47.0062, 9.5316], [46.9975, 9.5371], [46.9698, 9.562], [46.9663, 9.563], [46.955, 9.5658], [46.9439, 9.5687], [46.933, 9.5632], [46.9208, 9.563], [46.9086, 9.5583], [46.8996, 9.5522], [46.8865, 9.541], [46.8719, 9.5341], [46.8651, 9.5351], [46.8599, 9.5309], [46.8577, 9.5215], [46.8536, 9.5138], [46.8487, 9.5144], [46.8459, 9.508], [46.844, 9.4966], [46.841, 9.4823], [46.8371, 9.4613], [46.8365, 9.451], [46.8329, 9.4456], [46.8294, 9.4326], [46.8291, 9.4174], [46.822, 9.4075], [46.8031, 9.4162], [46.7801, 9.416], [46.7384, 9.4354], [46.7186, 9.4415], [46.6952, 9.4449], [46.6829, 9.4408], [46.6725, 9.4488], [46.6622, 9.4458], [46.6555, 9.4523], [46.6423, 9.4429], [46.631, 9.4386], [46.6164, 9.4332], [46.6047, 9.4304], [46.5934, 9.427], [46.5785, 9.4265], [46.5765, 9.4173], [46.5705, 9.4173], [46.5678, 9.4078], [46.569, 9.3912], [46.5695, 9.3853], [46.5707, 9.3725], [46.5672, 9.3614], [46.5635, 9.3521], [46.5599, 9.3442], [46.5561, 9.3356], [46.5487, 9.3233], [46.546, 9.3216], [46.5443, 9.3202], [46.5423, 9.3261], [46.5347, 9.3263], [46.5246, 9.3302], [46.516, 9.331], [46.5162, 9.329], [46.5141, 9.3291], [46.5126, 9.3283], [46.5121, 9.3271], [46.5094, 9.3279], [46.5027, 9.3298], [46.4961, 9.3313], [46.4926, 9.3323], [46.4902, 9.3349], [46.4873, 9.3452], [46.4802, 9.354], [46.47, 9.3514], [46.4615, 9.3412], [46.4529, 9.3392], [46.4496, 9.3402], [46.4422, 9.3438], [46.4366, 9.3431], [46.4314, 9.3432], [46.4267, 9.3448], [46.4223, 9.3447], [46.4226, 9.3446], [46.4198, 9.3443], [46.4195, 9.344], [46.4177, 9.3439], [46.4104, 9.3504], [46.4033, 9.3544], [46.393, 9.3529], [46.3829, 9.3554], [46.3724, 9.3598], [46.3691, 9.3605], [46.3656, 9.3642], [46.3632, 9.3643], [46.3613, 9.3641], [46.3536, 9.3663], [46.3504, 9.3677], [46.3463, 9.3685], [46.3389, 9.3704], [46.3354, 9.3708], [46.3322, 9.3728], [46.3239, 9.3826], [46.321, 9.3951], [46.3178, 9.3998], [46.3085, 9.3937], [46.2933, 9.386], [46.2837, 9.3851], [46.266, 9.3899], [46.2604, 9.3931], [46.2308, 9.4199], [46.2201, 9.4451], [46.2136, 9.4472], [46.2072, 9.4605], [46.198, 9.4514], [46.1849, 9.444], [46.1713, 9.4323], [46.1572, 9.4185], [46.1474, 9.4123], [46.134, 9.404], [46.1291, 9.3737], [46.1143, 9.3429], [46.0958, 9.3202], [46.0578, 9.3181], [46.0332, 9.3076], [45.9895, 9.2959], [45.9519, 9.3139], [45.9325, 9.3274], [45.9119, 9.329], [45.8925, 9.3538], [45.8788, 9.3717], [45.8574, 9.3975], [45.8427, 9.4051], [45.8361, 9.3731], [45.8247, 9.3388], [45.7997, 9.3064], [45.764, 9.2872], [45.7372, 9.2503], [45.7161, 9.2286], [45.7067, 9.2283], [45.6858, 9.2161], [45.6483, 9.2256], [45.5983, 9.2403], [45.5835, 9.2508], [45.5495, 9.2363], [45.5334, 9.2157], [45.5053, 9.1999], [45.4952, 9.1832], [45.4857, 9.1814], [45.4805, 9.1795], [45.4697, 9.1833], [45.4691, 9.187], [45.4649, 9.1893]], "n": [[47.49917, 8.72915, "Nuit 1 : Winterthur"], [46.69724, 9.43908, "Nuit 2 : Thusis"], [45.4642, 9.19, "Nuit 3 : Milan"]], "v": [[48.29212, 8.08545, "Besucherbergwerk Segen Gottes"], [47.83952, 8.52164, "Ehemalige Burg Blumberg"], [47.56915, 8.60599, "Schloss Eigenthal"], [47.60968, 8.66945, "Burgstelle Schiterberg"], [47.41972, 8.84608, "Ortsmuseum"], [47.43041, 8.95046, "Ruine Tannegg"], [47.09847, 9.49038, "Burgruine Wartau"], [46.88045, 9.52351, "Ruine Haldenstein"], [46.32172, 9.40532, "Galleria storica dei civici pompieri della Valchiavenna"], [46.14764, 9.4046, "Forte di Fuentes"], [45.74086, 9.21947, "La rotonda"], [45.49296, 9.18754, "Fonderia Napoleonica Eugenia"]]};
+const map=L.map("itMap");
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"&copy; OpenStreetMap"}).addTo(map);
+const ligne=L.polyline(TR.c,{color:"#075985",weight:5}).addTo(map);
+TR.n.slice(0,-1).forEach(p=>L.marker([p[0],p[1]]).addTo(map).bindPopup(p[2]));
+TR.v.forEach(p=>L.circleMarker([p[0],p[1]],{radius:6,color:"#c8322b",weight:2,fillColor:"#fff",fillOpacity:1}).addTo(map).bindPopup(p[2]));
+map.fitBounds(ligne.getBounds().pad(0.1));
+</script>
+</body>
+</html>

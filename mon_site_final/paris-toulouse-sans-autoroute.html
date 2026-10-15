@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paris Toulouse sans autoroute : itinéraire, étapes et coût | MyHotelCompare</title>
+<meta name="description" content="Paris Toulouse sans autoroute : 737 km, 4 jours, 34 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<link rel="canonical" href="https://myhotelcompare.com/paris-toulouse-sans-autoroute.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Paris Toulouse sans autoroute : itinéraire, étapes et coût">
+<meta property="og:description" content="Paris Toulouse sans autoroute : 737 km, 4 jours, 34 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<meta property="og:url" content="https://myhotelcompare.com/paris-toulouse-sans-autoroute.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Quelle est la distance de Paris à Toulouse sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Environ 737 km, soit 12 h 02 de conduite et 4 jours à raison d'environ 4 h par jour. Par l'autoroute, le trajet fait 677 km en 6 h 39."}}, {"@type": "Question", "name": "Combien coûte le trajet de Paris à Toulouse ?", "acceptedAnswer": {"@type": "Answer", "text": "Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 76 € sans autoroute contre 118 € par l'autoroute (péages compris). Les repas, les visites et l'hébergement ne sont pas inclus."}}, {"@type": "Question", "name": "Où s'arrêter entre Paris et Toulouse ?", "acceptedAnswer": {"@type": "Answer", "text": "Les étapes proposées sont : Cerdon, Chénérailles, Montfaucon, Toulouse. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit."}}, {"@type": "Question", "name": "Y a-t-il des péages entre Paris et Toulouse sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l'estimation."}}]}</script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<!-- Google Consent Mode v2 : refus par défaut tant que l'utilisateur n'a pas choisi -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLVNV2211J"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RLVNV2211J');
+</script>
+
+<link rel="icon" type="image/png" href="images/logo_5.png?v=2">
+<link rel="apple-touch-icon" href="images/logo_5.png?v=2">
+<style>
+:root {
+    --bg: #f2fbfd;
+    --bg-dark: #063247;
+    --panel: #e5f5f8;
+    --panel-strong: #c7eaf0;
+    --card: #ffffff;
+    --line: #b9dfe7;
+    --text: #123443;
+    --muted: #52717c;
+    --primary: #087f9b;
+    --primary-dark: #056078;
+    --secondary: #075985;
+    --success: #16805b;
+    --success-soft: #d7f4e7;
+    --warning: #e59a21;
+    --shadow: 0 18px 38px rgba(5, 96, 120, 0.14);
+}
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #f4fcfd 0%, #e7f6f8 100%);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px 16px 40px;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.site-header { margin-bottom: 24px; }
+.brand-lockup { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 18px; color: var(--text); }
+.brand-mark { width: 58px; height: 58px; object-fit: contain; border-radius: 16px; background: var(--panel-strong); padding: 5px; }
+.brand-lockup strong { display: block; color: var(--secondary); font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1; }
+.brand-lockup span { display: block; color: var(--muted); margin-top: 5px; font-size: 0.88rem; }
+h1, h2, h3, h4 { color: var(--text); }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; }
+a { color: var(--secondary); }
+.site-footer { margin-top: 48px; background: linear-gradient(135deg, #063247, #075985); color: #effcff; border-radius: 22px; padding: 30px; box-shadow: var(--shadow); }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 28px; }
+.site-footer h3, .site-footer h4 { color: #b8f0f6; margin-top: 0; }
+.site-footer p, .site-footer li { color: #d6eef2; line-height: 1.6; }
+.site-footer a { color: #b8f0f6; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+.footer-links { list-style: none; padding: 0; margin: 0; }
+.footer-links li { margin-bottom: 8px; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.18); margin-top: 24px; padding-top: 18px; display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; font-size: 0.85rem; }
+.footer-bottom p { margin: 0; }
+@media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } .brand-lockup { justify-content: flex-start; } }
+.top-nav {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    background: linear-gradient(135deg, var(--secondary), var(--primary-dark));
+    padding: 14px 18px; border-radius: 18px; margin: 6px 0 22px;
+    box-shadow: var(--shadow); justify-content: center;
+}
+.top-nav a {
+    color: white; background: rgba(255,255,255,0.12);
+    padding: 10px 16px; border-radius: 12px; text-decoration: none;
+    font-weight: 700; border: 1px solid rgba(255,255,255,0.15);
+}
+.top-nav a:hover { background: rgba(255,255,255,0.2); }
+.card {
+    background: linear-gradient(180deg, #fffefb 0%, #fff8ef 100%);
+    border: 1px solid var(--line); border-radius: 20px;
+    padding: 24px; margin-bottom: 22px; box-shadow: var(--shadow);
+}
+.btn, .btn-booking, .btn-expedia {
+    display: inline-block; text-decoration: none; border-radius: 12px;
+    font-weight: 700; transition: transform 0.2s ease; cursor: pointer;
+}
+.btn:hover, .btn-booking:hover, .btn-expedia:hover { transform: translateY(-1px); }
+.btn { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 18px; }
+.btn-booking { display: block; background: linear-gradient(135deg, #0f3d85, #1d5bbf); color: white; padding: 12px 16px; text-align: center; margin-bottom: 10px; }
+.btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
+.btn-site-officiel { display: block; background: linear-gradient(135deg, var(--secondary), var(--primary-dark)); color: white; padding: 12px 16px; text-align: center; }
+.hero-banner {
+    background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
+    border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
+}
+.hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 18px; }
+.hero-badges span {
+    background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.24); color: #f2fdff; border-radius: 999px; padding: 7px 12px; font-weight: 700; font-size: 0.82rem;
+}
+.glass-box { background: rgba(255,255,255,0.72); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+.filters-box {
+    background: linear-gradient(180deg, #e3f5f8 0%, #f8fdfe 100%);
+    border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 24px 0 18px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; box-shadow: var(--shadow);
+}
+.filters-box label { color: var(--muted); display: block; margin-bottom: 8px; font-weight: 700; }
+.filters-box select {
+    width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--text); font-size: 0.97rem;
+}
+.btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
+.comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.smart-results-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.smart-results-grid .card { margin-bottom: 0; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
+.review-card {
+    background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
+    border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
+}
+.review-card .stars { color: var(--warning); font-size: 1.1rem; letter-spacing: 2px; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 16px; margin-top: 18px; }
+.stat-item { background: rgba(255,255,255,0.5); border: 1px solid rgba(130,90,20,0.15); border-radius: 16px; padding: 18px; }
+.stat-item strong { display: block; font-size: 1.5rem; }
+.testimonial-section > h2 { color: var(--text) !important; }
+.testimonial-section > div > div { background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%) !important; border-color: var(--line) !important; }
+.testimonial-section > div > div p { color: var(--muted) !important; }
+.testimonial-section > div > div p:first-child { color: var(--warning) !important; }
+.testimonial-section > div > div p strong { color: var(--text) !important; }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 1000px) { .smart-results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .smart-results-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+.cookie-banner {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+    background: #063247; color: #effcff; padding: 18px 20px;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+    gap: 16px; box-shadow: 0 -8px 24px rgba(0,0,0,0.25);
+}
+.cookie-banner p { margin: 0; max-width: 640px; font-size: 0.92rem; line-height: 1.5; }
+.cookie-banner a { color: #b8f0f6; }
+.cookie-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie-actions button {
+    border: none; border-radius: 10px; padding: 10px 18px; font-weight: 700; cursor: pointer;
+}
+.cookie-accept { background: var(--primary); color: white; }
+.cookie-refuse { background: rgba(255,255,255,0.15); color: white; }
+.fiche-photo-carte { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0; align-items: stretch; }
+.fiche-photo-carte img, .fiche-photo-carte iframe { width: 100%; height: 260px; object-fit: cover; border-radius: 16px; border: 0; }
+@media (max-width: 600px) { .fiche-photo-carte { grid-template-columns: 1fr; } .fiche-photo-carte img, .fiche-photo-carte iframe { height: 220px; } }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 20px; }
+.btn-itineraire {
+    display: inline-block; padding: 14px 24px; border-radius: 14px; font-weight: 800;
+    background: rgba(255,255,255,0.14); color: #fff; text-decoration: none;
+    border: 1.5px solid rgba(255,255,255,0.6);
+}
+.btn-itineraire:hover { background: rgba(255,255,255,0.26); }
+.btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+</style>
+
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrld.ltd/NTcxODA1.js?t=571805';
+      document.head.appendChild(script);
+  })();
+</script>
+
+<style>
+.it-road{display:inline-block;min-width:36px;text-align:center;padding:0 7px;border-radius:5px;font-weight:800;font-size:.8rem;line-height:22px}
+.it-road.N{background:#c8322b;color:#fff}
+.it-road.D{background:#f2c230;color:#123443;box-shadow:inset 0 0 0 2px #123443}
+.it-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:24px 0;align-items:end}
+.it-form label{display:block;font-weight:700;color:var(--muted);margin-bottom:6px}
+.it-form input,.it-form select{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--text);font-size:.97rem}
+.it-msg{padding:12px 16px;border-radius:12px;margin-bottom:18px;font-weight:600}
+.it-msg.err{background:#fde8e6;color:#9a2a22}.it-msg.info{background:var(--panel);color:var(--secondary)}
+#itRes{display:none}
+.it-cmp{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 14px}
+.it-cmp .glass-box.win{border:2px solid var(--success)}
+.it-cmp h2{font-size:1.15rem;margin:0 0 10px}
+.it-row{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid var(--line)}
+.it-row:last-child{border:0}
+.it-save{background:var(--success-soft);color:var(--success);border-radius:12px;padding:12px 16px;font-weight:700;margin-bottom:8px}
+.it-note{color:var(--muted);font-size:.85rem;margin:0 0 22px}
+#itMap{height:380px;border-radius:16px;margin-bottom:22px;box-shadow:var(--shadow)}
+.it-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.it-tab{font:inherit;font-weight:700;cursor:pointer;background:#fff;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:9px 18px}
+.it-tab[aria-selected=true]{background:var(--secondary);color:#fff;border-color:var(--secondary)}
+.it-tab:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+.it-dayhead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.it-dayhead h2{margin:0;font-size:1.4rem}
+.it-dayhead span{color:var(--muted)}
+.it-roads{display:flex;gap:10px 14px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+.it-roads small{color:var(--muted)}
+.it-bloc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:14px}
+.it-bloc h3{margin:0 0 8px;font-size:1.05rem}
+.it-lieux{list-style:none;margin:0;padding:0}
+.it-lieu{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
+.it-lieu:last-child{border:0}
+.it-lieu small{display:block;color:var(--muted)}
+.it-vig{flex:0 0 76px;width:76px;height:76px;border-radius:12px;overflow:hidden;background:var(--panel);display:flex;align-items:center;justify-content:center;font-size:2rem}
+.it-vig img{width:100%;height:100%;object-fit:cover;display:block}
+.it-txt{flex:1;min-width:0}
+.it-res{margin:4px 0 2px;font-size:.9rem;line-height:1.45}
+.it-meta{margin-top:2px;font-size:.82rem}
+.it-liens{display:flex;gap:12px;flex-wrap:wrap;align-self:center}
+.it-liens a{font-weight:700;white-space:nowrap}
+.it-wait{color:var(--muted);margin:0}
+.it-budget{margin-bottom:22px}
+.it-bt{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:8px 12px;align-items:center}
+.it-bt .fort{font-weight:800;border-top:1px solid var(--line);padding-top:8px}
+.it-bt small{color:var(--muted)}
+.it-btn.s{background:var(--secondary);color:#fff;border:0;cursor:pointer;font-family:inherit}
+.it-share-msg{align-self:center;color:var(--success);font-weight:700}
+.it-urlcopy{width:100%;max-width:440px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:.85rem}
+.it-all{margin-bottom:18px}
+.it-all p{margin:6px 0 0}
+.it-gps{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px}
+.it-btn{display:inline-block;padding:10px 16px;border-radius:12px;font-weight:700;text-decoration:none;font-size:.95rem}
+.it-btn.g{background:#1a73e8;color:#fff}
+.it-btn.w{background:#33ccff;color:#06364a}
+.it-btn:hover{filter:brightness(.95)}
+.it-btn:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+@media (max-width:620px){.it-cmp{grid-template-columns:1fr}.it-lieu{flex-wrap:wrap}.it-liens{flex-basis:100%;align-self:flex-start}}
+
+.tj-cmp .glass-box h2{margin-top:0}
+.tj-fil{font-size:.9rem;color:var(--muted);margin:0 0 10px}
+</style>
+</head>
+<body><div class="container">
+
+<header class="site-header">
+<div class="brand-lockup">
+    <img src="images/logo_5.svg" alt="Nomad" class="brand-mark">
+    <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
+</div>
+<div class="top-nav">
+    <a href="index.html">Accueil</a>
+    <a href="hotels.html">Hôtels</a>
+    <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
+    <a href="loueurs-vehicules.html">Location de Véhicules</a>
+    <a href="croisieres.html">Croisières</a>
+    <a href="itineraire-decouverte.html">Itinéraires</a>
+    <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
+</div>
+</header>
+
+<p class="tj-fil"><a href="index.html">Accueil</a> &gt; <a href="trajets-sans-autoroute.html">Trajets sans autoroute</a> &gt; Paris Toulouse</p>
+<div class="hero-banner">
+  <h1 style="color:#fff;margin:0 0 10px;font-size:clamp(1.6rem,3.6vw,2.4rem)">Paris Toulouse sans autoroute : itinéraire, étapes et coût</h1>
+  <p style="margin:0;max-width:760px;line-height:1.7;color:#effcff">Pour aller de Paris à Toulouse sans autoroute, comptez environ 737 km et 12 h 02 de conduite, soit 4 jours à raison d&#x27;environ 4 h de route par jour. Par l&#x27;autoroute, le même trajet fait 677 km en 6 h 39, avec environ 34 € de péages estimés.</p>
+</div>
+<p style="line-height:1.7">En évitant l&#x27;autoroute, vous économisez environ 42 € sur la route (péages et carburant), pour environ 5 h 23 de trajet en plus. Les routes les plus empruntées sont la D940 (70 km), la D820 (63 km), la D948 (41 km). </p>
+<section class="it-cmp tj-cmp" aria-label="Comparatif avec l'autoroute">
+  <div class="glass-box"><h2>Par l'autoroute</h2><div class="it-row"><span>Distance</span><b>677 km</b></div><div class="it-row"><span>Temps de conduite</span><b>6 h 39</b></div><div class="it-row"><span>Péages</span><b>34 €</b></div><div class="it-row"><span>Carburant</span><b>84 €</b></div><div class="it-row"><span>Total route</span><b>118 €</b></div></div>
+  <div class="glass-box win"><h2>Parcours découverte</h2><div class="it-row"><span>Distance</span><b>737 km</b></div><div class="it-row"><span>Temps de conduite</span><b>12 h 02</b></div><div class="it-row"><span>Péages</span><b>0 €</b></div><div class="it-row"><span>Carburant</span><b>76 €</b></div><div class="it-row"><span>Total route</span><b>76 €</b></div></div>
+</section>
+<p class="it-note">Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, péage à 0,10 €/km sur les tronçons à péage. Montants indicatifs, mis à jour le 15 octobre 2026.</p>
+<p><a class="btn-compare" style="display:inline-block;text-decoration:none;width:auto;padding:14px 24px" href="itineraire-decouverte.html?d=Paris+%28France%29&amp;dc=2.3522%2C48.8566&amp;dp=France&amp;a=Toulouse+%28France%29&amp;ac=1.4442%2C43.6047&amp;ap=France&amp;r=4&amp;v=th&amp;c=6&amp;p=1.8&amp;n=2&amp;m=45&amp;utm_source=pages-trajets&amp;utm_medium=site&amp;utm_campaign=trajet">Calculer avec mon véhicule</a></p>
+<div id="itMap"></div>
+<section><h2>Jour 1 : Paris à Cerdon</h2><p class="it-wait">172 km, 3 h 01 de conduite</p><div class="it-roads"><span><span class="it-road D">D948</span> <small>41 km</small></span><span><span class="it-road N">N118</span> <small>31 km</small></span><span><span class="it-road D">D721</span> <small>19 km</small></span><span><span class="it-road D">D44</span> <small>12 km</small></span><span><span class="it-road D">D921</span> <small>9 km</small></span><span><span class="it-road D">D30</span> <small>7 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/H%C3%B4tel_ville_%C3%89tampes_1.jpg/330px-H%C3%B4tel_ville_%C3%89tampes_1.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Musée Intercommunal d&#x27;Étampes</b><small>Musée</small><p class="it-res">Le musée intercommunal d&#x27;Étampes, anciennement musée municipal d’Étampes, est situé à Étampes, dans le département de l&#x27;Essonne et la région Île-de-France.</p><small class="it-meta">📍 Rue Saint-Mars, Étampes</small><small class="it-meta">🕒 mer-dim 14:00-17:00</small><small class="it-meta">📞 <a href="tel:+33169926902">+331 69 92 69 02</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Mus%C3%A9e_intercommunal_d&#x27;%C3%89tampes" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.mairie-etampes.fr/le-musee/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Mus%C3%A9e%20Intercommunal%20d%27%C3%89tampes/@48.43447,2.1612,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pithivierslevieilmontguignard.jpg?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château de Montguignard</b><small>Château</small><small class="it-meta">📍 Rue de Montguignard, Pithiviers-le-Vieil</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20de%20Montguignard/@48.16936,2.17859,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/CP_Ch%C3%A2teau_de_la_Rivi%C3%A8re%2C_Ch%C3%A2tenoy%2C_Loiret%2C_France.png/330px-CP_Ch%C3%A2teau_de_la_Rivi%C3%A8re%2C_Ch%C3%A2tenoy%2C_Loiret%2C_France.png?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château de la Rivière</b><small>Château</small><p class="it-res">Le château de la Rivière est un château du XVIe siècle situé à Châtenoy, dans le département du Loiret en région Centre-Val de Loire.</p><small class="it-meta">📍 La Rivère, Châtenoy</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_la_Rivi%C3%A8re_(Loiret)" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20de%20la%20Rivi%C3%A8re/@47.92588,2.41941,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Ch%C3%A2teau_de_Sully_sur_Loire.jpg/330px-Ch%C3%A2teau_de_Sully_sur_Loire.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château de Sully-sur-Loire</b><small>Château</small><p class="it-res">Le château de Sully-sur-Loire est un château français situé au bord de la Loire, dans la commune française de Sully-sur-Loire, le département du Loiret et la région Centre-Val de Loire.</p><small class="it-meta">📍 Promenade des Douves, Sully-sur-Loire</small><small class="it-meta">🕒 Jan: fermé ; Feb-Apr: mar-ven 13:30-17:30 ; sam-dim 10:00-12:00, 13:30-17:30 ; Oct-Dec: mar-ven 13:30-17:30…</small><small class="it-meta">📞 <a href="tel:+33238363686">+33 2 38 36 36 86</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Sully-sur-Loire" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.chateausully.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20de%20Sully-sur-Loire/@47.76765,2.37556,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🥩</div><div class="it-txt"><b>Steak House</b><small>Grillades</small><small class="it-meta">📍 D 921, Pithiviers</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Steak%20House/@48.19078,2.24615,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🥡</div><div class="it-txt"><b>Wok Grill</b><small>Cuisine asiatique</small><small class="it-meta">📍 Rue Flora Tristan, Pithiviers</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Wok%20Grill/@48.18587,2.25027,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Hôtel-du Cygne</b><small class="it-meta">📍 17 Rue de la Libération, Autruy-sur-Juine</small><small class="it-meta">📞 <a href="tel:+33238325278">+33238325278</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/H%C3%B4tel-du%20Cygne/@48.27548,2.10147,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Cerdon</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Auberge de l&#x27;Étang du Puits</b><small class="it-meta">📍 25 Route de la Digue de l&#x27;Étang du Puits, Argent-sur-Sauldre</small><small class="it-meta">🕒 lun-dim 10:00-22:00</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+33248734134">+33 2 48 73 41 34</a></small></div><span class="it-liens"><a href="https://www.facebook.com/100063588430578/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Auberge%20de%20l%27%C3%89tang%20du%20Puits/@47.58477,2.37348,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>A l&#x27;Ardoise</b><small>Cuisine régionale</small><small class="it-meta">📍 1 Rue Nationale, Argent-sur-Sauldre</small><small class="it-meta">🕒 mar-sam 12:00-14:00</small><small class="it-meta">accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33986725999">+33 9 86 72 59 99</a></small></div><span class="it-liens"><a href="https://www.facebook.com/alardoise.argent/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/A%20l%27Ardoise/@47.56149,2.44779,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Relais de la Poste</b><small>Cuisine régionale</small><small class="it-meta">📍 3 Rue Nationale, Argent-sur-Sauldre</small><small class="it-meta">🕒 lun-dim 08:00-22:00</small><small class="it-meta">📞 <a href="tel:+33689984941">+33689984941</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Relais%20de%20la%20Poste/@47.56143,2.44759,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Cerdon</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Cerdon%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Cerdon</a></div></section><section><h2>Jour 2 : Cerdon à Chénérailles</h2><p class="it-wait">198 km, 3 h 05 de conduite</p><div class="it-roads"><span><span class="it-road D">D940</span> <small>49 km</small></span><span><span class="it-road D">D953</span> <small>33 km</small></span><span><span class="it-road D">D2144</span> <small>23 km</small></span><span><span class="it-road D">D28</span> <small>14 km</small></span><span><span class="it-road D">D2076</span> <small>12 km</small></span><span><span class="it-road D">D997</span> <small>11 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Ch%C3%A2teau_de_Menetou-Salon.jpg/330px-Ch%C3%A2teau_de_Menetou-Salon.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château de Menetou-Salon</b><small>Château</small><p class="it-res">Le château de Menetou-Salon, situé au 2, rue Prince Auguste d&#x27;Arenberg à Menetou-Salon (Cher), est une ancienne forteresse du XIIe siècle entièrement remaniée et agrandie dans un style néo-gothique au XIXe siècle par son…</p><small class="it-meta">📍 Rue Prince Auguste d&#x27;Arenberg, Menetou-Salon</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Menetou-Salon" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://chateau-menetou-salon.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20de%20Menetou-Salon/@47.23484,2.49134,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Bourges_-_Palais_Jacques-C%C5%93ur_-_Ext%C3%A9rieur_-_08.jpg/330px-Bourges_-_Palais_Jacques-C%C5%93ur_-_Ext%C3%A9rieur_-_08.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Palais Jacques Cœur</b><small>Musée</small><p class="it-res">Le palais Jacques-Cœur est un hôtel particulier du XVe siècle situé à Bourges, dans la région historique du Berry et le département français du Cher, en région Centre-Val de Loire.</p><small class="it-meta">📍 10 bis Rue Jacques Cœur, Bourges</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Palais_Jacques-C%C5%93ur" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.palais-jacques-coeur.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Palais%20Jacques%20C%C5%93ur/@47.08421,2.39355,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Fortification_-_Ainay_le_Ch%C3%A2teau_015.JPG/330px-Fortification_-_Ainay_le_Ch%C3%A2teau_015.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Fortifications d&#x27;Ainay-le-Château</b><small>Château</small><p class="it-res">Les fortifications d&#x27;Ainay-le-Château sont des fortifications situées à Ainay-le-Château, en France.</p><small class="it-meta">📍 Rue de l&#x27;Horloge, Ainay-le-Château</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Fortifications_d&#x27;Ainay-le-Ch%C3%A2teau" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Fortifications%20d%27Ainay-le-Ch%C3%A2teau/@46.71163,2.69309,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Huriel_donjon-2.jpg/330px-Huriel_donjon-2.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>La Toque</b><small>Musée</small><p class="it-res">Le donjon de la Toque est, avec son enceinte, le dernier vestige du château d&#x27;Huriel. Cette tour seigneuriale élevée au XIIe siècle se dresse sur la commune d&#x27;Huriel (France).</p><small class="it-meta">📍 Avenue de la Toque, Huriel</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Donjon_de_la_Toque" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/La%20Toque/@46.37303,2.47851,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Auberge Le Rond Gardien</b><small>Cuisine française</small><small class="it-meta">📍 D 953, Isle-et-Bardais</small><small class="it-meta">🕒 lun fermé</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+33470292190">+33 470 292 190</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Auberge%20Le%20Rond%20Gardien/@46.65063,2.74396,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le Relais de Pirot</b><small>Cuisine française</small><small class="it-meta">📍 Route de l&#x27;Étang de Pirot, Isle-et-Bardais</small></div><span class="it-liens"><a href="https://www.lerelaisdepirot.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Le%20Relais%20de%20Pirot/@46.68869,2.7921,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Chez Marianne</b><small>Cuisine régionale</small><small class="it-meta">📍 Route de Saint-Amand-Montrond, Braize</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Chez%20Marianne/@46.66701,2.65019,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Chénérailles</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le Coq d&#x27;Or</b><small>Cuisine française</small><small class="it-meta">📍 7 Place du Champ de Foire, Chénérailles</small><small class="it-meta">📞 <a href="tel:+33555623083">+33 5 55 62 30 83</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Le%20Coq%20d%27Or/@46.11168,2.17712,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le Sporting</b><small class="it-meta">📍 Grande Rue, Chénérailles</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Le%20Sporting/@46.11299,2.17636,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Au Bon Accueil</b><small class="it-meta">📍 Place du Champ de Foire, Chénérailles</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Au%20Bon%20Accueil/@46.11182,2.17711,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Chénérailles</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Ch%C3%A9n%C3%A9railles%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Chénérailles</a></div></section><section><h2>Jour 3 : Chénérailles à Montfaucon</h2><p class="it-wait">208 km, 3 h 06 de conduite</p><div class="it-roads"><span><span class="it-road D">D19</span> <small>29 km</small></span><span><span class="it-road D">D20</span> <small>22 km</small></span><span><span class="it-road D">D940</span> <small>22 km</small></span><span><span class="it-road D">D135</span> <small>20 km</small></span><span><span class="it-road D">D990</span> <small>14 km</small></span><span><span class="it-road D">D997</span> <small>13 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Cite_tapisserie_Aubusson.jpg/330px-Cite_tapisserie_Aubusson.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Cité Internationale de la Tapisserie</b><small>Musée</small><p class="it-res">La Cité internationale de la tapisserie à Aubusson, dans le département de la Creuse en Nouvelle Aquitaine, est une institution publique à vocation culturelle, artistique et économique adossée à une filière de production de…</p><small class="it-meta">📍 Rue des Arts, Aubusson</small><small class="it-meta">🕒 jours fériés,mer-lun 09:30-12:00,14:00-18:00</small><small class="it-meta">entrée payante</small><small class="it-meta">📞 <a href="tel:+33555663306">+33 5 55 66 33 06</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Cit%C3%A9_internationale_de_la_tapisserie" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.cite-tapisserie.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Cit%C3%A9%20Internationale%20de%20la%20Tapisserie/@45.9541,2.16642,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Felletin_%C3%A9glise_ch%C3%A2teau_%281%29.jpg/330px-Felletin_%C3%A9glise_ch%C3%A2teau_%281%29.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Chapelle Notre-Dame du Château</b><small>Musée</small><p class="it-res">L&#x27;église Notre-Dame-du-Château est une église catholique située à Felletin, dans le département de la Creuse, en France.</p><small class="it-meta">📍 Rue du Château, Felletin</small><small class="it-meta">entrée payante</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/%C3%89glise_Notre-Dame-du-Ch%C3%A2teau_de_Felletin" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Chapelle%20Notre-Dame%20du%20Ch%C3%A2teau/@45.88457,2.17261,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Meymac_Abbaye.JPG/330px-Meymac_Abbaye.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Ancienne abbaye Saint-André</b><small>Abbaye</small><p class="it-res">L&#x27;abbaye Saint-André-Saint-Léger de Meymac est une ancienne abbaye bénédictine située sur la commune de Meymac dans le département français de la Corrèze et la région Nouvelle-Aquitaine.</p><small class="it-meta">📍 Place du Bûcher, Meymac</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Abbaye_Saint-Andr%C3%A9_de_Meymac" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ancienne%20abbaye%20Saint-Andr%C3%A9/@45.53507,2.14776,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Mus%C3%A9e_Chirac.JPG/330px-Mus%C3%A9e_Chirac.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Musée du Président Jacques Chirac</b><small>Musée</small><p class="it-res">Le musée du Président Jacques Chirac, couramment appelé le musée du Président, est un musée situé à Sarran, au sud-est du massif des Monédières dans le département de la Corrèze, à 30 km au nord-est de Tulle.</p><small class="it-meta">📍 Route du Musée, Sarran</small><small class="it-meta">📞 <a href="tel:+33555217777">+33 5 55 21 77 77</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_Pr%C3%A9sident_Jacques_Chirac" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="http://www.museepresidentjchirac.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Mus%C3%A9e%20du%20Pr%C3%A9sident%20Jacques%20Chirac/@45.40796,1.93984,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Bar restaurant l&#x27;Entracte</b><small class="it-meta">📍 Rue des Monédières, Corrèze</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Bar%20restaurant%20l%27Entracte/@45.33212,1.87908,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>chalet de paul</b><small>Cuisine française</small><small class="it-meta">📍 D 53E4, Gimel-les-Cascades</small><small class="it-meta">accessible en fauteuil roulant</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/chalet%20de%20paul/@45.2979,1.84817,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le Relais Saint-Jacques</b><small class="it-meta">📍 Impasse des Bois Grands, Gimel-les-Cascades</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Le%20Relais%20Saint-Jacques/@45.3162,1.83248,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Montfaucon</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍔</div><div class="it-txt"><b>Tolentino</b><small>Burgers</small><small class="it-meta">📍 Place de la Mairie, Cœur de Causse</small><small class="it-meta">🕒 lun-mar,jeu-ven 11:30-14:00,18:00-20:30 ; sam-dim 18:00-21:00</small><small class="it-meta">à emporter</small><small class="it-meta">📞 <a href="tel:+33695852260">+33 6 95852260</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Tolentino/@44.64829,1.56804,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Auberge de Carlucet</b><small>Cuisine régionale</small><small class="it-meta">📍 76 Rue de la Fontbotte, Carlucet</small><small class="it-meta">📞 <a href="tel:+33658020626">+33 6 58 02 06 26</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Auberge%20de%20Carlucet/@44.72042,1.61159,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Campagnac du Causse</b><small class="it-meta">📍 Route de Gramat, Montfaucon</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Campagnac%20du%20Causse/@44.68669,1.60495,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Montfaucon</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Montfaucon%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Montfaucon</a></div></section><section><h2>Jour 4 : Montfaucon à Toulouse</h2><p class="it-wait">159 km, 2 h 50 de conduite</p><div class="it-roads"><span><span class="it-road D">D820</span> <small>63 km</small></span><span><span class="it-road D">D677</span> <small>12 km</small></span><span><span class="it-road D">D36</span> <small>11 km</small></span><span><span class="it-road D">D64</span> <small>9 km</small></span><span><span class="it-road D">D115</span> <small>9 km</small></span><span><span class="it-road D">D999</span> <small>4 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/20111016T104955_dscf5791.jpg/330px-20111016T104955_dscf5791.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Aqueduc romain de Divona</b><small>Patrimoine</small><p class="it-res">L’aqueduc romain de Divona a été construit pour alimenter en eau potable la ville antique de Divona Cadurcorum, Cahors.</p><small class="it-meta">📍 Route de Figeac, Saint-Géry-Vers</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Aqueduc_romain_de_Divona" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Aqueduc%20romain%20de%20Divona/@44.49112,1.55535,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Ch%C3%A2teau_de_BIOULE.JPG/330px-Ch%C3%A2teau_de_BIOULE.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château de Bioule</b><small>Château</small><p class="it-res">Le château de Bioule est situé à Bioule dans le département de Tarn-et-Garonne en région Occitanie.</p><small class="it-meta">📍 Place du Château, Bioule</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Bioule" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20de%20Bioule/@44.08911,1.53873,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Montauban_-_Le_Mus%C3%A9e_Ingres.jpg/330px-Montauban_-_Le_Mus%C3%A9e_Ingres.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Musée Ingres</b><small>Musée</small><p class="it-res">Le musée Ingres Bourdelle, anciennement musée Ingres, est un musée d&#x27;art et d&#x27;archéologie installé dans l&#x27;ancien hôtel de ville, qui fut le palais épiscopal des évêques de Montauban, construit au XVIIe siècle en France.</p><small class="it-meta">📍 La Frabègue, Montauban</small><small class="it-meta">entrée payante, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33563221292">+33 5 63 22 12 92</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Mus%C3%A9e_Ingres-Bourdelle" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://museeingresbourdelle.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Mus%C3%A9e%20Ingres/@44.01689,1.35149,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Toulouse_-_2012-03-26_-_Bazacle_-_2.jpg/330px-Toulouse_-_2012-03-26_-_Bazacle_-_2.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Espace EDF Bazacle</b><small>Musée</small><p class="it-res">Le Bazacle, ou chaussée du Bazacle, est un site géologique, historique et touristique situé sur la Garonne à Toulouse.</p><small class="it-meta">📍 11 Quai Saint-Pierre, Toulouse</small><small class="it-meta">🕒 Jan-Apr, Nov-Dec mar-dim 11:00-18:00 ; May-Oct mar-dim 11:00-19:00</small><small class="it-meta">accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33562301600">+33 5 62301600</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Bazacle" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Espace%20EDF%20Bazacle/@43.60418,1.43197,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🥩</div><div class="it-txt"><b>LA FER&#x27;MEEUH</b><small>Grillades</small><small class="it-meta">📍 105 Allée des Platanes, Nègrepelisse</small><small class="it-meta">🕒 mar-sam 12:00-14:00 ; ven-sam 19:00-22:30</small><small class="it-meta">accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33620190849">+33 6 20 19 08 49</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/LA%20FER%27MEEUH/@44.07176,1.52971,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Hôtel Restaurant l&#x27;Escale chez Mimi</b><small class="it-meta">📍 5 Place de l&#x27;Église, Bioule</small><small class="it-meta">📞 <a href="tel:+33563309651">+33 5 63 30 96 51</a></small></div><span class="it-liens"><a href="https://www.escalechezmimi.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/H%C3%B4tel%20Restaurant%20l%27Escale%20chez%20Mimi/@44.08983,1.53984,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍔</div><div class="it-txt"><b>Le Gourmand</b><small>Burgers</small><small class="it-meta">📍 1 Avenue Jean Moulin, Nègrepelisse</small><small class="it-meta">halal</small><small class="it-meta">📞 <a href="tel:+33951189004">+33 9 51 18 90 04</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Le%20Gourmand/@44.07167,1.52555,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Toulouse</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🥡</div><div class="it-txt"><b>Tokyo Bento</b><small>Cuisine asiatique</small><small class="it-meta">📍 Rue du Taur, Toulouse</small><small class="it-meta">🕒 mar-sam 11:30-18:30</small><small class="it-meta">📞 <a href="tel:+33663347193">+33 6 63 34 71 93</a></small></div><span class="it-liens"><a href="https://www.tokyobento.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Tokyo%20Bento/@43.6052,1.44268,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍣</div><div class="it-txt"><b>Aiko</b><small>Cuisine japonaise</small><p class="it-res">Bistrot Japonais</p><small class="it-meta">📍 Rue des Lois, Toulouse</small><small class="it-meta">🕒 mar-jeu 12:00-14:00,19:30-22:00 ; ven-sam 12:00-14:30,19:30-22:30 ; dim,lun fermé</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+33983502275">+33 9 83 50 22 75</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Aiko/@43.6054,1.44188,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>La Fabric</b><small>Pizzeria</small><small class="it-meta">📍 9 Place du Capitole, Toulouse</small><small class="it-meta">🕒 lun-dim 10:00-22:30</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+33561384062">+33 5 61 38 40 62</a></small></div><span class="it-liens"><a href="https://lafabrictoulousecptle.wordpress.com" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/La%20Fabric/@43.60392,1.44283,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Toulouse</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Toulouse%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Toulouse</a></div></section>
+<section class="glass-box it-seo" style="margin:24px 0"><h2 style="margin-top:0">Questions fréquentes</h2><details><summary><b>Quelle est la distance de Paris à Toulouse sans autoroute ?</b></summary><p>Environ 737 km, soit 12 h 02 de conduite et 4 jours à raison d&#x27;environ 4 h par jour. Par l&#x27;autoroute, le trajet fait 677 km en 6 h 39.</p></details><details><summary><b>Combien coûte le trajet de Paris à Toulouse ?</b></summary><p>Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 76 € sans autoroute contre 118 € par l&#x27;autoroute (péages compris). Les repas, les visites et l&#x27;hébergement ne sont pas inclus.</p></details><details><summary><b>Où s&#x27;arrêter entre Paris et Toulouse ?</b></summary><p>Les étapes proposées sont : Cerdon, Chénérailles, Montfaucon, Toulouse. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit.</p></details><details><summary><b>Y a-t-il des péages entre Paris et Toulouse sans autoroute ?</b></summary><p>Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l&#x27;estimation.</p></details></section>
+<h2>Autres trajets</h2><ul><li><a href="paris-nice-sans-autoroute.html">Paris Nice sans autoroute</a></li><li><a href="paris-menton-sans-autoroute.html">Paris Menton sans autoroute</a></li><li><a href="paris-londres-sans-autoroute.html">Paris Londres sans autoroute</a></li><li><a href="paris-marseille-sans-autoroute.html">Paris Marseille sans autoroute</a></li><li><a href="paris-bordeaux-sans-autoroute.html">Paris Bordeaux sans autoroute</a></li><li><a href="paris-strasbourg-sans-autoroute.html">Paris Strasbourg sans autoroute</a></li><li><a href="paris-nice-voiture-electrique.html">Paris Nice en voiture électrique</a></li><li><a href="paris-marseille-voiture-electrique.html">Paris Marseille en voiture électrique</a></li></ul>
+<p class="it-note">Les lieux et restaurants viennent d'OpenStreetMap et de Wikipédia : vérifiez les horaires avant de partir. Itinéraire calculé avec <a href="https://openrouteservice.org/" target="_blank" rel="noopener">OpenRouteService</a>, lieux via <a href="https://www.geoapify.com/" target="_blank" rel="noopener">Geoapify</a>, données &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</p>
+
+
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+    <p>Nous utilisons des cookies pour mesurer l'audience du site (Google Analytics). Vous pouvez accepter ou refuser ce suivi. Voir notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+    <div class="cookie-actions">
+        <button class="cookie-refuse" onclick="setCookieConsent(false)">Refuser</button>
+        <button class="cookie-accept" onclick="setCookieConsent(true)">Accepter</button>
+    </div>
+</div>
+<script>
+(function() {
+    function setCookieConsent(accepted) {
+        localStorage.setItem('cookie_consent', accepted ? 'granted' : 'denied');
+        gtag('consent', 'update', {
+            'analytics_storage': accepted ? 'granted' : 'denied'
+        });
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+    window.setCookieConsent = setCookieConsent;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var saved = localStorage.getItem('cookie_consent');
+        if (saved === 'granted') {
+            gtag('consent', 'update', { 'analytics_storage': 'granted' });
+        } else if (saved === null) {
+            document.getElementById('cookie-banner').style.display = 'flex';
+        }
+        
+    });
+})();
+</script>
+
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <h3>Nomad</h3>
+            <p>Le compagnon de voyage qui vous aide à choisir plus vite et à partir plus serein.</p>
+        </div>
+        <div>
+            <h4>Explorer</h4>
+            <ul class="footer-links">
+                <li><a href="hotels.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
+                <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
+                <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
+                <li><a href="croisieres.html">Croisières</a></li>
+                <li><a href="itineraire-decouverte.html">Itinéraire découverte</a></li>
+                <li><a href="trajets-sans-autoroute.html">Trajets sans autoroute</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>À propos</h4>
+            <ul class="footer-links">
+                <li><a href="apropos.html">À propos de nous</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Conseils de voyage</a></li>
+                <li><a href="index.html#avis">Avis voyageurs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Votre retour compte</h4>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
+        <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
+    </div>
+</footer>
+
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const TR={"c": [[48.8572, 2.3523], [48.8534, 2.3435], [48.8514, 2.3321], [48.8461, 2.3142], [48.8408, 2.2967], [48.8361, 2.2818], [48.8352, 2.2606], [48.8353, 2.2488], [48.8302, 2.2321], [48.8249, 2.221], [48.8098, 2.2121], [48.7779, 2.2222], [48.7659, 2.2298], [48.7491, 2.2192], [48.7435, 2.189], [48.7193, 2.1697], [48.7045, 2.1927], [48.6843, 2.1894], [48.6624, 2.1872], [48.6522, 2.1813], [48.6351, 2.2125], [48.6301, 2.2523], [48.6164, 2.2564], [48.5922, 2.2402], [48.5688, 2.2324], [48.5055, 2.2004], [48.4746, 2.1886], [48.451, 2.174], [48.4341, 2.1709], [48.4249, 2.1764], [48.4008, 2.1751], [48.3604, 2.1639], [48.3277, 2.1965], [48.295, 2.2018], [48.264, 2.2113], [48.2495, 2.2164], [48.2144, 2.236], [48.1872, 2.2413], [48.1706, 2.2277], [48.1607, 2.2338], [48.1611, 2.25], [48.1522, 2.2822], [48.1077, 2.3211], [48.0801, 2.3275], [48.0373, 2.3761], [48.023, 2.3623], [47.9961, 2.3627], [47.9565, 2.3783], [47.9502, 2.3774], [47.9143, 2.3956], [47.8578, 2.3801], [47.8253, 2.3801], [47.7962, 2.3815], [47.7892, 2.3784], [47.7749, 2.3727], [47.7666, 2.3732], [47.7557, 2.3734], [47.7191, 2.3687], [47.6373, 2.3602], [47.6251, 2.3732], [47.5824, 2.4283], [47.5619, 2.4489], [47.5527, 2.4498], [47.4983, 2.4397], [47.4876, 2.4385], [47.4728, 2.4373], [47.412, 2.4346], [47.3624, 2.4321], [47.2689, 2.4272], [47.2213, 2.425], [47.192, 2.4235], [47.1514, 2.4281], [47.1349, 2.4307], [47.1243, 2.4248], [47.1065, 2.4468], [47.0962, 2.4431], [47.0835, 2.4424], [47.0577, 2.4274], [47.0479, 2.4393], [46.997, 2.5074], [46.9423, 2.5483], [46.8892, 2.5739], [46.8465, 2.6338], [46.8191, 2.6546], [46.8039, 2.6496], [46.76, 2.6675], [46.7193, 2.6828], [46.703, 2.6809], [46.675, 2.6636], [46.6324, 2.6363], [46.6105, 2.6192], [46.5961, 2.6126], [46.5754, 2.6186], [46.5455, 2.6175], [46.5224, 2.6229], [46.4981, 2.6249], [46.4566, 2.6126], [46.4235, 2.613], [46.3988, 2.6091], [46.3884, 2.5927], [46.375, 2.5915], [46.3775, 2.5848], [46.3595, 2.5498], [46.3277, 2.5353], [46.3142, 2.4741], [46.2862, 2.405], [46.2393, 2.3292], [46.2126, 2.2794], [46.2001, 2.2391], [46.1965, 2.2389], [46.1842, 2.2317], [46.1642, 2.2137], [46.1394, 2.1983], [46.1166, 2.1782], [46.1105, 2.1777], [46.0958, 2.1813], [46.0486, 2.1951], [46.0182, 2.1962], [45.991, 2.1903], [45.9735, 2.1867], [45.9613, 2.1936], [45.9513, 2.1924], [45.9475, 2.1969], [45.9378, 2.192], [45.9295, 2.1898], [45.9097, 2.1911], [45.8944, 2.1833], [45.8889, 2.1764], [45.8821, 2.1746], [45.8712, 2.1711], [45.8576, 2.1665], [45.8323, 2.1732], [45.8214, 2.163], [45.8044, 2.1531], [45.7984, 2.1503], [45.7914, 2.149], [45.7871, 2.1488], [45.783, 2.1415], [45.7773, 2.1367], [45.7579, 2.1409], [45.7278, 2.122], [45.7151, 2.1109], [45.6913, 2.1043], [45.6804, 2.1014], [45.6683, 2.0969], [45.6399, 2.0979], [45.6197, 2.1078], [45.5991, 2.1243], [45.581, 2.1277], [45.5777, 2.1096], [45.5745, 2.0918], [45.5737, 2.0734], [45.5678, 2.0339], [45.5669, 2.0242], [45.5641, 2.0171], [45.5572, 2.0063], [45.5515, 1.9991], [45.5444, 1.9966], [45.5379, 1.9857], [45.5312, 1.9829], [45.5257, 1.986], [45.5113, 1.9821], [45.5052, 1.9924], [45.4935, 1.9876], [45.4835, 1.9886], [45.4746, 1.9825], [45.4685, 1.9833], [45.4625, 1.9814], [45.4584, 1.9824], [45.4573, 1.9759], [45.452, 1.9752], [45.443, 1.9706], [45.4382, 1.9601], [45.4356, 1.9525], [45.4271, 1.9429], [45.4238, 1.9385], [45.414, 1.9378], [45.4062, 1.9349], [45.4005, 1.9326], [45.3958, 1.9328], [45.3844, 1.9236], [45.3778, 1.9238], [45.3681, 1.9216], [45.356, 1.9109], [45.3503, 1.9025], [45.3323, 1.8704], [45.3178, 1.8395], [45.3106, 1.8253], [45.2973, 1.814], [45.2898, 1.8061], [45.2813, 1.7965], [45.2662, 1.7913], [45.2561, 1.7776], [45.2491, 1.7705], [45.2503, 1.765], [45.2423, 1.773], [45.2366, 1.7736], [45.2272, 1.7664], [45.211, 1.7722], [45.2011, 1.7718], [45.1881, 1.7661], [45.1717, 1.7555], [45.1548, 1.7695], [45.1361, 1.782], [45.1266, 1.7862], [45.1134, 1.7819], [45.1029, 1.7761], [45.0848, 1.7769], [45.0798, 1.7727], [45.0743, 1.765], [45.0709, 1.7708], [45.0632, 1.7624], [45.0547, 1.7595], [45.0494, 1.7522], [45.042, 1.7479], [45.0267, 1.7444], [45.0131, 1.7477], [44.9982, 1.7445], [44.9887, 1.7452], [44.9815, 1.7386], [44.9747, 1.7394], [44.968, 1.7451], [44.9639, 1.7407], [44.9504, 1.7373], [44.9432, 1.7356], [44.9159, 1.7456], [44.9171, 1.7346], [44.9145, 1.7263], [44.909, 1.7297], [44.894, 1.7201], [44.8841, 1.7121], [44.8803, 1.7053], [44.8707, 1.7016], [44.8579, 1.7082], [44.8484, 1.7033], [44.8406, 1.694], [44.8326, 1.6948], [44.8216, 1.6922], [44.8062, 1.6954], [44.7985, 1.6918], [44.7884, 1.713], [44.7832, 1.7105], [44.7796, 1.7089], [44.7744, 1.7049], [44.7674, 1.6965], [44.7583, 1.6925], [44.7464, 1.683], [44.7266, 1.6771], [44.721, 1.6663], [44.7129, 1.6593], [44.7073, 1.6338], [44.6855, 1.6052], [44.6724, 1.5972], [44.6596, 1.5852], [44.6507, 1.5747], [44.6441, 1.5651], [44.6415, 1.5517], [44.6372, 1.5342], [44.6296, 1.5218], [44.6192, 1.5096], [44.6148, 1.5061], [44.608, 1.5044], [44.5969, 1.5153], [44.5884, 1.5048], [44.5831, 1.4874], [44.5768, 1.4727], [44.5616, 1.4722], [44.55, 1.4791], [44.542, 1.4761], [44.5281, 1.4656], [44.5233, 1.4526], [44.509, 1.4456], [44.4983, 1.4377], [44.484, 1.4387], [44.4757, 1.4321], [44.4679, 1.4285], [44.4617, 1.4188], [44.4511, 1.4132], [44.4356, 1.4259], [44.4283, 1.438], [44.4243, 1.4405], [44.4152, 1.4369], [44.4069, 1.44], [44.4012, 1.4498], [44.3826, 1.4541], [44.3672, 1.4516], [44.3526, 1.4694], [44.3365, 1.4673], [44.323, 1.4672], [44.2879, 1.4718], [44.2737, 1.4631], [44.2577, 1.4882], [44.2402, 1.5037], [44.2232, 1.507], [44.209, 1.5262], [44.1905, 1.5304], [44.1793, 1.5376], [44.1599, 1.5282], [44.1554, 1.5303], [44.1458, 1.5239], [44.1267, 1.5236], [44.1085, 1.534], [44.0873, 1.5361], [44.0768, 1.5253], [44.0734, 1.5232], [44.0631, 1.4956], [44.0397, 1.4301], [44.0147, 1.4311], [43.9989, 1.43], [43.9856, 1.4312], [43.9767, 1.4335], [43.9672, 1.4339], [43.9565, 1.4404], [43.9349, 1.4642], [43.919, 1.4617], [43.9126, 1.4565], [43.907, 1.455], [43.8908, 1.4387], [43.8808, 1.428], [43.8655, 1.4119], [43.8542, 1.3995], [43.8469, 1.3914], [43.8382, 1.402], [43.8281, 1.4041], [43.8194, 1.3937], [43.8149, 1.3844], [43.8023, 1.3878], [43.7897, 1.3865], [43.7824, 1.3785], [43.779, 1.37], [43.7734, 1.377], [43.7686, 1.3776], [43.7646, 1.3799], [43.7511, 1.3863], [43.6998, 1.4074], [43.6555, 1.4268], [43.6264, 1.4194], [43.6108, 1.4148], [43.6072, 1.4273], [43.6085, 1.4353], [43.6048, 1.4426]], "n": [[47.5983, 2.3973, "Nuit 1 : Cerdon"], [46.1132, 2.1759, "Nuit 2 : Chénérailles"], [44.6857, 1.6053, "Nuit 3 : Montfaucon"], [43.6047, 1.4442, "Nuit 4 : Toulouse"]], "v": [[48.43447, 2.1612, "Musée Intercommunal d'Étampes"], [48.16936, 2.17859, "Château de Montguignard"], [47.92588, 2.41941, "Château de la Rivière"], [47.76765, 2.37556, "Château de Sully-sur-Loire"], [47.23484, 2.49134, "Château de Menetou-Salon"], [47.08421, 2.39355, "Palais Jacques Cœur"], [46.71163, 2.69309, "Fortifications d'Ainay-le-Château"], [46.37303, 2.47851, "La Toque"], [45.9541, 2.16642, "Cité Internationale de la Tapisserie"], [45.88457, 2.17261, "Chapelle Notre-Dame du Château"], [45.53507, 2.14776, "Ancienne abbaye Saint-André"], [45.40796, 1.93984, "Musée du Président Jacques Chirac"], [44.49112, 1.55535, "Aqueduc romain de Divona"], [44.08911, 1.53873, "Château de Bioule"], [44.01689, 1.35149, "Musée Ingres"], [43.60418, 1.43197, "Espace EDF Bazacle"]]};
+const map=L.map("itMap");
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"&copy; OpenStreetMap"}).addTo(map);
+const ligne=L.polyline(TR.c,{color:"#075985",weight:5}).addTo(map);
+TR.n.slice(0,-1).forEach(p=>L.marker([p[0],p[1]]).addTo(map).bindPopup(p[2]));
+TR.v.forEach(p=>L.circleMarker([p[0],p[1]],{radius:6,color:"#c8322b",weight:2,fillColor:"#fff",fillOpacity:1}).addTo(map).bindPopup(p[2]));
+map.fitBounds(ligne.getBounds().pad(0.1));
+</script>
+</body>
+</html>

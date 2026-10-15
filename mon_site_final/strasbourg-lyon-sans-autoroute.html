@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Strasbourg Lyon sans autoroute : itinéraire, étapes et coût | MyHotelCompare</title>
+<meta name="description" content="Strasbourg Lyon sans autoroute : 467 km, 3 jours, 32 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<link rel="canonical" href="https://myhotelcompare.com/strasbourg-lyon-sans-autoroute.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Strasbourg Lyon sans autoroute : itinéraire, étapes et coût">
+<meta property="og:description" content="Strasbourg Lyon sans autoroute : 467 km, 3 jours, 32 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<meta property="og:url" content="https://myhotelcompare.com/strasbourg-lyon-sans-autoroute.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Quelle est la distance de Strasbourg à Lyon sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Environ 467 km, soit 8 h 13 de conduite et 3 jours à raison d'environ 4 h par jour. Par l'autoroute, le trajet fait 489 km en 4 h 45."}}, {"@type": "Question", "name": "Combien coûte le trajet de Strasbourg à Lyon ?", "acceptedAnswer": {"@type": "Answer", "text": "Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 48 € sans autoroute contre 93 € par l'autoroute (péages compris). Les repas, les visites et l'hébergement ne sont pas inclus."}}, {"@type": "Question", "name": "Où s'arrêter entre Strasbourg et Lyon ?", "acceptedAnswer": {"@type": "Answer", "text": "Les étapes proposées sont : Belfort, Lons-le-Saunier, Lyon. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit."}}, {"@type": "Question", "name": "Y a-t-il des péages entre Strasbourg et Lyon sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l'estimation."}}]}</script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<!-- Google Consent Mode v2 : refus par défaut tant que l'utilisateur n'a pas choisi -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLVNV2211J"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RLVNV2211J');
+</script>
+
+<link rel="icon" type="image/png" href="images/logo_5.png?v=2">
+<link rel="apple-touch-icon" href="images/logo_5.png?v=2">
+<style>
+:root {
+    --bg: #f2fbfd;
+    --bg-dark: #063247;
+    --panel: #e5f5f8;
+    --panel-strong: #c7eaf0;
+    --card: #ffffff;
+    --line: #b9dfe7;
+    --text: #123443;
+    --muted: #52717c;
+    --primary: #087f9b;
+    --primary-dark: #056078;
+    --secondary: #075985;
+    --success: #16805b;
+    --success-soft: #d7f4e7;
+    --warning: #e59a21;
+    --shadow: 0 18px 38px rgba(5, 96, 120, 0.14);
+}
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #f4fcfd 0%, #e7f6f8 100%);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px 16px 40px;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.site-header { margin-bottom: 24px; }
+.brand-lockup { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 18px; color: var(--text); }
+.brand-mark { width: 58px; height: 58px; object-fit: contain; border-radius: 16px; background: var(--panel-strong); padding: 5px; }
+.brand-lockup strong { display: block; color: var(--secondary); font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1; }
+.brand-lockup span { display: block; color: var(--muted); margin-top: 5px; font-size: 0.88rem; }
+h1, h2, h3, h4 { color: var(--text); }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; }
+a { color: var(--secondary); }
+.site-footer { margin-top: 48px; background: linear-gradient(135deg, #063247, #075985); color: #effcff; border-radius: 22px; padding: 30px; box-shadow: var(--shadow); }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 28px; }
+.site-footer h3, .site-footer h4 { color: #b8f0f6; margin-top: 0; }
+.site-footer p, .site-footer li { color: #d6eef2; line-height: 1.6; }
+.site-footer a { color: #b8f0f6; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+.footer-links { list-style: none; padding: 0; margin: 0; }
+.footer-links li { margin-bottom: 8px; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.18); margin-top: 24px; padding-top: 18px; display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; font-size: 0.85rem; }
+.footer-bottom p { margin: 0; }
+@media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } .brand-lockup { justify-content: flex-start; } }
+.top-nav {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    background: linear-gradient(135deg, var(--secondary), var(--primary-dark));
+    padding: 14px 18px; border-radius: 18px; margin: 6px 0 22px;
+    box-shadow: var(--shadow); justify-content: center;
+}
+.top-nav a {
+    color: white; background: rgba(255,255,255,0.12);
+    padding: 10px 16px; border-radius: 12px; text-decoration: none;
+    font-weight: 700; border: 1px solid rgba(255,255,255,0.15);
+}
+.top-nav a:hover { background: rgba(255,255,255,0.2); }
+.card {
+    background: linear-gradient(180deg, #fffefb 0%, #fff8ef 100%);
+    border: 1px solid var(--line); border-radius: 20px;
+    padding: 24px; margin-bottom: 22px; box-shadow: var(--shadow);
+}
+.btn, .btn-booking, .btn-expedia {
+    display: inline-block; text-decoration: none; border-radius: 12px;
+    font-weight: 700; transition: transform 0.2s ease; cursor: pointer;
+}
+.btn:hover, .btn-booking:hover, .btn-expedia:hover { transform: translateY(-1px); }
+.btn { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 18px; }
+.btn-booking { display: block; background: linear-gradient(135deg, #0f3d85, #1d5bbf); color: white; padding: 12px 16px; text-align: center; margin-bottom: 10px; }
+.btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
+.btn-site-officiel { display: block; background: linear-gradient(135deg, var(--secondary), var(--primary-dark)); color: white; padding: 12px 16px; text-align: center; }
+.hero-banner {
+    background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
+    border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
+}
+.hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 18px; }
+.hero-badges span {
+    background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.24); color: #f2fdff; border-radius: 999px; padding: 7px 12px; font-weight: 700; font-size: 0.82rem;
+}
+.glass-box { background: rgba(255,255,255,0.72); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+.filters-box {
+    background: linear-gradient(180deg, #e3f5f8 0%, #f8fdfe 100%);
+    border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 24px 0 18px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; box-shadow: var(--shadow);
+}
+.filters-box label { color: var(--muted); display: block; margin-bottom: 8px; font-weight: 700; }
+.filters-box select {
+    width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--text); font-size: 0.97rem;
+}
+.btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
+.comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.smart-results-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.smart-results-grid .card { margin-bottom: 0; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
+.review-card {
+    background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
+    border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
+}
+.review-card .stars { color: var(--warning); font-size: 1.1rem; letter-spacing: 2px; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 16px; margin-top: 18px; }
+.stat-item { background: rgba(255,255,255,0.5); border: 1px solid rgba(130,90,20,0.15); border-radius: 16px; padding: 18px; }
+.stat-item strong { display: block; font-size: 1.5rem; }
+.testimonial-section > h2 { color: var(--text) !important; }
+.testimonial-section > div > div { background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%) !important; border-color: var(--line) !important; }
+.testimonial-section > div > div p { color: var(--muted) !important; }
+.testimonial-section > div > div p:first-child { color: var(--warning) !important; }
+.testimonial-section > div > div p strong { color: var(--text) !important; }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 1000px) { .smart-results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .smart-results-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+.cookie-banner {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+    background: #063247; color: #effcff; padding: 18px 20px;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+    gap: 16px; box-shadow: 0 -8px 24px rgba(0,0,0,0.25);
+}
+.cookie-banner p { margin: 0; max-width: 640px; font-size: 0.92rem; line-height: 1.5; }
+.cookie-banner a { color: #b8f0f6; }
+.cookie-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie-actions button {
+    border: none; border-radius: 10px; padding: 10px 18px; font-weight: 700; cursor: pointer;
+}
+.cookie-accept { background: var(--primary); color: white; }
+.cookie-refuse { background: rgba(255,255,255,0.15); color: white; }
+.fiche-photo-carte { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0; align-items: stretch; }
+.fiche-photo-carte img, .fiche-photo-carte iframe { width: 100%; height: 260px; object-fit: cover; border-radius: 16px; border: 0; }
+@media (max-width: 600px) { .fiche-photo-carte { grid-template-columns: 1fr; } .fiche-photo-carte img, .fiche-photo-carte iframe { height: 220px; } }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 20px; }
+.btn-itineraire {
+    display: inline-block; padding: 14px 24px; border-radius: 14px; font-weight: 800;
+    background: rgba(255,255,255,0.14); color: #fff; text-decoration: none;
+    border: 1.5px solid rgba(255,255,255,0.6);
+}
+.btn-itineraire:hover { background: rgba(255,255,255,0.26); }
+.btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+</style>
+
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrld.ltd/NTcxODA1.js?t=571805';
+      document.head.appendChild(script);
+  })();
+</script>
+
+<style>
+.it-road{display:inline-block;min-width:36px;text-align:center;padding:0 7px;border-radius:5px;font-weight:800;font-size:.8rem;line-height:22px}
+.it-road.N{background:#c8322b;color:#fff}
+.it-road.D{background:#f2c230;color:#123443;box-shadow:inset 0 0 0 2px #123443}
+.it-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:24px 0;align-items:end}
+.it-form label{display:block;font-weight:700;color:var(--muted);margin-bottom:6px}
+.it-form input,.it-form select{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--text);font-size:.97rem}
+.it-msg{padding:12px 16px;border-radius:12px;margin-bottom:18px;font-weight:600}
+.it-msg.err{background:#fde8e6;color:#9a2a22}.it-msg.info{background:var(--panel);color:var(--secondary)}
+#itRes{display:none}
+.it-cmp{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 14px}
+.it-cmp .glass-box.win{border:2px solid var(--success)}
+.it-cmp h2{font-size:1.15rem;margin:0 0 10px}
+.it-row{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid var(--line)}
+.it-row:last-child{border:0}
+.it-save{background:var(--success-soft);color:var(--success);border-radius:12px;padding:12px 16px;font-weight:700;margin-bottom:8px}
+.it-note{color:var(--muted);font-size:.85rem;margin:0 0 22px}
+#itMap{height:380px;border-radius:16px;margin-bottom:22px;box-shadow:var(--shadow)}
+.it-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.it-tab{font:inherit;font-weight:700;cursor:pointer;background:#fff;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:9px 18px}
+.it-tab[aria-selected=true]{background:var(--secondary);color:#fff;border-color:var(--secondary)}
+.it-tab:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+.it-dayhead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.it-dayhead h2{margin:0;font-size:1.4rem}
+.it-dayhead span{color:var(--muted)}
+.it-roads{display:flex;gap:10px 14px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+.it-roads small{color:var(--muted)}
+.it-bloc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:14px}
+.it-bloc h3{margin:0 0 8px;font-size:1.05rem}
+.it-lieux{list-style:none;margin:0;padding:0}
+.it-lieu{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
+.it-lieu:last-child{border:0}
+.it-lieu small{display:block;color:var(--muted)}
+.it-vig{flex:0 0 76px;width:76px;height:76px;border-radius:12px;overflow:hidden;background:var(--panel);display:flex;align-items:center;justify-content:center;font-size:2rem}
+.it-vig img{width:100%;height:100%;object-fit:cover;display:block}
+.it-txt{flex:1;min-width:0}
+.it-res{margin:4px 0 2px;font-size:.9rem;line-height:1.45}
+.it-meta{margin-top:2px;font-size:.82rem}
+.it-liens{display:flex;gap:12px;flex-wrap:wrap;align-self:center}
+.it-liens a{font-weight:700;white-space:nowrap}
+.it-wait{color:var(--muted);margin:0}
+.it-budget{margin-bottom:22px}
+.it-bt{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:8px 12px;align-items:center}
+.it-bt .fort{font-weight:800;border-top:1px solid var(--line);padding-top:8px}
+.it-bt small{color:var(--muted)}
+.it-btn.s{background:var(--secondary);color:#fff;border:0;cursor:pointer;font-family:inherit}
+.it-share-msg{align-self:center;color:var(--success);font-weight:700}
+.it-urlcopy{width:100%;max-width:440px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:.85rem}
+.it-all{margin-bottom:18px}
+.it-all p{margin:6px 0 0}
+.it-gps{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px}
+.it-btn{display:inline-block;padding:10px 16px;border-radius:12px;font-weight:700;text-decoration:none;font-size:.95rem}
+.it-btn.g{background:#1a73e8;color:#fff}
+.it-btn.w{background:#33ccff;color:#06364a}
+.it-btn:hover{filter:brightness(.95)}
+.it-btn:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+@media (max-width:620px){.it-cmp{grid-template-columns:1fr}.it-lieu{flex-wrap:wrap}.it-liens{flex-basis:100%;align-self:flex-start}}
+
+.tj-cmp .glass-box h2{margin-top:0}
+.tj-fil{font-size:.9rem;color:var(--muted);margin:0 0 10px}
+</style>
+</head>
+<body><div class="container">
+
+<header class="site-header">
+<div class="brand-lockup">
+    <img src="images/logo_5.svg" alt="Nomad" class="brand-mark">
+    <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
+</div>
+<div class="top-nav">
+    <a href="index.html">Accueil</a>
+    <a href="hotels.html">Hôtels</a>
+    <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
+    <a href="loueurs-vehicules.html">Location de Véhicules</a>
+    <a href="croisieres.html">Croisières</a>
+    <a href="itineraire-decouverte.html">Itinéraires</a>
+    <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
+</div>
+</header>
+
+<p class="tj-fil"><a href="index.html">Accueil</a> &gt; <a href="trajets-sans-autoroute.html">Trajets sans autoroute</a> &gt; Strasbourg Lyon</p>
+<div class="hero-banner">
+  <h1 style="color:#fff;margin:0 0 10px;font-size:clamp(1.6rem,3.6vw,2.4rem)">Strasbourg Lyon sans autoroute : itinéraire, étapes et coût</h1>
+  <p style="margin:0;max-width:760px;line-height:1.7;color:#effcff">Pour aller de Strasbourg à Lyon sans autoroute, comptez environ 467 km et 8 h 13 de conduite, soit 3 jours à raison d&#x27;environ 4 h de route par jour. Par l&#x27;autoroute, le même trajet fait 489 km en 4 h 45, avec environ 32 € de péages estimés.</p>
+</div>
+<p style="line-height:1.7">En évitant l&#x27;autoroute, vous économisez environ 45 € sur la route (péages et carburant), pour environ 3 h 28 de trajet en plus. Les routes les plus empruntées sont la D83 (72 km), la D1083 (57 km), la D9 (31 km). </p>
+<section class="it-cmp tj-cmp" aria-label="Comparatif avec l'autoroute">
+  <div class="glass-box"><h2>Par l'autoroute</h2><div class="it-row"><span>Distance</span><b>489 km</b></div><div class="it-row"><span>Temps de conduite</span><b>4 h 45</b></div><div class="it-row"><span>Péages</span><b>32 €</b></div><div class="it-row"><span>Carburant</span><b>61 €</b></div><div class="it-row"><span>Total route</span><b>93 €</b></div></div>
+  <div class="glass-box win"><h2>Parcours découverte</h2><div class="it-row"><span>Distance</span><b>467 km</b></div><div class="it-row"><span>Temps de conduite</span><b>8 h 13</b></div><div class="it-row"><span>Péages</span><b>0 €</b></div><div class="it-row"><span>Carburant</span><b>48 €</b></div><div class="it-row"><span>Total route</span><b>48 €</b></div></div>
+</section>
+<p class="it-note">Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, péage à 0,10 €/km sur les tronçons à péage. Montants indicatifs, mis à jour le 15 octobre 2026.</p>
+<p><a class="btn-compare" style="display:inline-block;text-decoration:none;width:auto;padding:14px 24px" href="itineraire-decouverte.html?d=Strasbourg+%28France%29&amp;dc=7.7521%2C48.5734&amp;dp=France&amp;a=Lyon+%28France%29&amp;ac=4.8357%2C45.764&amp;ap=France&amp;r=4&amp;v=th&amp;c=6&amp;p=1.8&amp;n=2&amp;m=45&amp;utm_source=pages-trajets&amp;utm_medium=site&amp;utm_campaign=trajet">Calculer avec mon véhicule</a></p>
+<div id="itMap"></div>
+<section><h2>Jour 1 : Strasbourg à Belfort</h2><p class="it-wait">142 km, 2 h 28 de conduite</p><div class="it-roads"><span><span class="it-road D">D83</span> <small>72 km</small></span><span><span class="it-road D">D514</span> <small>26 km</small></span><span><span class="it-road D">D42</span> <small>12 km</small></span><span><span class="it-road D">D483</span> <small>10 km</small></span><span><span class="it-road D">D600</span> <small>1 km</small></span><span><span class="it-road D">D418</span> <small>1 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Monument_de_la_Fid%C3%A9lit%C3%A9_%28Bennwihr%29.jpg/330px-Monument_de_la_Fid%C3%A9lit%C3%A9_%28Bennwihr%29.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Monument de la Fidélité</b><small>Patrimoine</small><p class="it-res">Le monument de la Fidélité est un monument historique situé à Bennwihr, dans le département français du Haut-Rhin.</p><small class="it-meta">📍 Rue du Général de Gaulle, Bennwihr</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Monument_de_la_Fid%C3%A9lit%C3%A9" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Monument%20de%20la%20Fid%C3%A9lit%C3%A9/@48.14481,7.32455,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/fr/thumb/f/ff/Logotype_Mus%C3%A9e_Unterlinden.svg/langfr-330px-Logotype_Mus%C3%A9e_Unterlinden.svg.png?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Musée Unterlinden</b><small>Musée</small><p class="it-res">Le musée Unterlinden est un musée d&#x27;art situé à Colmar dans le Haut-Rhin. Il est géré, depuis plus de 150 ans, par la Société Schongauer, association de droit local dotée d’une autonomie financière et administrative.</p><small class="it-meta">📍 Rue d&#x27;Unterlinden, Colmar</small><small class="it-meta">🕒 lun, mer-dim 10:00-18:00 ; jeu 10:00-20:00</small><small class="it-meta">entrée payante</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Mus%C3%A9e_Unterlinden" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Mus%C3%A9e%20Unterlinden/@48.07986,7.35556,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/2012_02_11_Soultz%2C_Bucheneck.JPG/330px-2012_02_11_Soultz%2C_Bucheneck.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château de Bucheneck</b><small>Musée</small><p class="it-res">Le château de Bucheneck est un monument historique situé à Soultz-Haut-Rhin, dans le département français du Haut-Rhin.</p><small class="it-meta">📍 Place du Bucheneck, Soultz-Haut-Rhin</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Bucheneck" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20de%20Bucheneck/@47.8869,7.22734,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/%C3%89tueffont%2C_Forge-mus%C3%A9e.jpg/330px-%C3%89tueffont%2C_Forge-mus%C3%A9e.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Forge-musée d&#x27;Étueffont</b><small>Musée</small><p class="it-res">La forge-musée est un musée situé à Étueffont dans le Territoire de Belfort, en Bourgogne-Franche-Comté. Il détient le label musée de France et est inscrit aux monuments historiques depuis 1993.</p><small class="it-meta">📍 Rue de Rougemont, Étueffont</small><small class="it-meta">📞 <a href="tel:+33384546041">+33 3 84 54 60 41</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Forge-mus%C3%A9e_d&#x27;%C3%89tueffont" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="http://forgemusee.etueffont.free.fr" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Forge-mus%C3%A9e%20d%27%C3%89tueffont/@47.72245,6.92087,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍝</div><div class="it-txt"><b>Ristorante Del Arte</b><small>Cuisine italienne</small><small class="it-meta">📍 Place Scheurer-Kestner, Colmar</small><small class="it-meta">🕒 lun-dim 11:30-14:30, 18:30-22:30</small><small class="it-meta">accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33389241726">+33389241726</a></small></div><span class="it-liens"><a href="https://www.delarte.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Ristorante%20Del%20Arte/@48.08167,7.35578,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Café Restaurant Schongauer</b><small>Cuisine française</small><small class="it-meta">📍 Place d&#x27;Unterlinden, Colmar</small><small class="it-meta">🕒 mer 10:30-17:00 ; ven-dim 10:30-17:00</small><small class="it-meta">terrasse, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33368092380">+33 3 68 09 23 80</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Caf%C3%A9%20Restaurant%20Schongauer/@48.08037,7.35568,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍣</div><div class="it-txt"><b>Sushi Chez Na ＆ Hana Kiri</b><small>Cuisine japonaise</small><small class="it-meta">📍 39 Cours Sainte-Anne, Colmar</small><small class="it-meta">🕒 lun, dim 18:00-22:30 ; mar-sam 11:30-14:00, 18:30-22:30</small><small class="it-meta">à emporter</small><small class="it-meta">📞 <a href="tel:+33369490090">+33 3 69 49 00 90</a></small></div><span class="it-liens"><a href="https://hanakiri.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Sushi%20Chez%20Na%20%EF%BC%86%20Hana%20Kiri/@48.08067,7.35741,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Belfort</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Les Abeilles</b><small>Cuisine française</small><small class="it-meta">📍 21 Faubourg de France, Belfort</small><small class="it-meta">🕒 lun-jeu 12:00-19:00 ; ven-sam 12:00-23:00</small><small class="it-meta">📞 <a href="tel:+33384215104">+33 3 84 21 51 04</a></small></div><span class="it-liens"><a href="https://les-abeilles.eatbu.com/?lang=fr" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Les%20Abeilles/@47.63648,6.8562,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Daily&#x27;s Pizza</b><small>Pizzeria</small><small class="it-meta">📍 Rue des Capucins, Belfort</small><small class="it-meta">🕒 11:00-14:00,18:00-23:00</small><small class="it-meta">à emporter, livraison, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33384215210">+33 3 84 21 52 10</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Daily%27s%20Pizza/@47.63578,6.85579,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Nenni Ma Foi</b><small>Pizzeria</small><small class="it-meta">📍 Rue Charles Stractman, Belfort</small><small class="it-meta">🕒 mar-jeu 12:00-14:00,19:00-21:30 ; ven,sam 12:00-14:00,19:00-22:00</small><small class="it-meta">à emporter, options végétariennes, options véganes, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33384564696">+33 3 84 56 46 96</a></small></div><span class="it-liens"><a href="https://www.nenni-ma-foi-belfort.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Nenni%20Ma%20Foi/@47.63476,6.85737,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Belfort</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Belfort%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Belfort</a></div></section><section><h2>Jour 2 : Belfort à Lons-le-Saunier</h2><p class="it-wait">186 km, 3 h 08 de conduite</p><div class="it-roads"><span><span class="it-road D">D9</span> <small>31 km</small></span><span><span class="it-road D">D1083</span> <small>19 km</small></span><span><span class="it-road D">D15</span> <small>16 km</small></span><span><span class="it-road D">D49</span> <small>14 km</small></span><span><span class="it-road D">D31</span> <small>11 km</small></span><span><span class="it-road D">D71</span> <small>10 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Rigney%2C_le_ch%C3%A2teau_de_la_Roche-2.jpg/330px-Rigney%2C_le_ch%C3%A2teau_de_la_Roche-2.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château de la Roche</b><small>Château</small><p class="it-res">Le château de La Roche est un château du XIIIe siècle de style classique dans le Doubs à Rigney en Franche-Comté, à 26 km au nord-est de Besançon.</p><small class="it-meta">📍 Rue du Château, Rigney</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_La_Roche_(Doubs)" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20de%20la%20Roche/@47.401,6.19169,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Sorans-L%C3%A8s-Breurey%2C_le_ch%C3%A2teau.jpg/330px-Sorans-L%C3%A8s-Breurey%2C_le_ch%C3%A2teau.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château de Sorans-lès-Breurey</b><small>Château</small><p class="it-res">Le château de Sorans-lès-Breurey est un château situé à Sorans-lès-Breurey, en France.</p><small class="it-meta">📍 Chemin des Prés, Sorans-lès-Breurey</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Sorans-l%C3%A8s-Breurey" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20de%20Sorans-l%C3%A8s-Breurey/@47.39793,6.04436,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Bonnay%2C_le_ch%C3%A2teau.jpg/330px-Bonnay%2C_le_ch%C3%A2teau.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château</b><small>Château</small><p class="it-res">Le château de Bonnay est un château situé sur la commune de Bonnay dans le département français du Doubs.</p><small class="it-meta">📍 Route de Buthiers, Bonnay</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Bonnay" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau/@47.33598,6.05067,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Saline_royale_d%27Arc-et-Senans_nord.jpg/330px-Saline_royale_d%27Arc-et-Senans_nord.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Saline royale d&#x27;Arc-et-Senans</b><small>Patrimoine</small><p class="it-res">La saline royale d&#x27;Arc-et-Senans est une ancienne saline du XVIIIe siècle en activité jusqu&#x27;en 1895. Elle est située à Arc-et-Senans dans le Doubs en Franche-Comté.</p><small class="it-meta">📍 Avenue de la Saline, Arc-et-Senans</small><small class="it-meta">🕒 9:00-18:00</small><small class="it-meta">📞 <a href="tel:+33381544500">+33 3 81 54 45 00</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Saline_royale_d&#x27;Arc-et-Senans" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.salineroyale.com" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Saline%20royale%20d%27Arc-et-Senans/@47.03354,5.77736,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍝</div><div class="it-txt"><b>Ristorante Del Arte</b><small>Cuisine italienne</small><small class="it-meta">📍 Rue Météore, Miserey-Salines</small><small class="it-meta">🕒 lun-jeu 11:30-14:00, 18:30-22:00 ; ven-sam 11:30-14:00, 18:30-23:00 ; dim 11:30-14:00, 18:30-22:00</small><small class="it-meta">accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33381573476">+33 3 81 57 34 76</a></small></div><span class="it-liens"><a href="https://www.delarte.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Ristorante%20Del%20Arte/@47.28306,5.9899,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🥡</div><div class="it-txt"><b>Chez Yoshinoya</b><small>Cuisine asiatique</small><small class="it-meta">📍 Impasse de l&#x27;Écureuil, Miserey-Salines</small><small class="it-meta">🕒 lun-dim 12:00-14:30, 19:00-22:30</small><small class="it-meta">📞 <a href="tel:+33381528642">+33 3 81 52 86 42</a></small></div><span class="it-liens"><a href="https://www.chezyoshinoya.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Chez%20Yoshinoya/@47.28493,5.99156,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Lumière</b><small>Pizzeria</small><small class="it-meta">📍 42 Avenue de l&#x27;Observatoire, Besançon</small><small class="it-meta">🕒 lun-ven 11:30-13:30,18:00-20:00</small><small class="it-meta">à emporter, options végétariennes, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33381484500">+33 3 81 48 45 00</a></small></div><span class="it-liens"><a href="https://www.crous-bfc.fr/restaurant/resto-u-cafet-lumiere/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Lumi%C3%A8re/@47.24903,5.98684,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Lons-le-Saunier</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🥡</div><div class="it-txt"><b>Monsieur Wok</b><small>Cuisine asiatique</small><small class="it-meta">📍 2 A Avenue Maillot, Montmorot</small><small class="it-meta">🕒 mar-dim 12:00-14:00,19:00-22:15</small><small class="it-meta">terrasse, à emporter</small><small class="it-meta">📞 <a href="tel:+33384251602">+33 3 84 25 16 02</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Monsieur%20Wok/@46.67755,5.51687,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le Bistrot d&#x27;Hugo</b><small>Cuisine régionale</small><small class="it-meta">📍 Avenue de Chalon, Courlans</small><small class="it-meta">🕒 mar-dim 12:00-14:00 ; ven 12:00-14:00,19:00-22:00 ; sam 19:00-22:00</small><small class="it-meta">à emporter</small><small class="it-meta">📞 <a href="tel:+33384477147">+33 3 84 47 71 47</a></small></div><span class="it-liens"><a href="https://www.lebistrodhugo.com" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Le%20Bistrot%20d%27Hugo/@46.67586,5.49549,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>La Charmille</b><small>Cuisine régionale</small><small class="it-meta">📍 570 Route de Lyon, Messia-sur-Sorne</small><small class="it-meta">🕒 lun-ven 06:00-21:00 ; sam 07:00-21:00 ; dim 08:00-15:30</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+33384471055">+33 3 84 47 10 55</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/La%20Charmille/@46.66236,5.52034,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Lons-le-Saunier</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Lons-le-Saunier%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Lons-le-Saunier</a></div></section><section><h2>Jour 3 : Lons-le-Saunier à Lyon</h2><p class="it-wait">139 km, 2 h 36 de conduite</p><div class="it-roads"><span><span class="it-road D">D1083</span> <small>38 km</small></span><span><span class="it-road D">D22</span> <small>29 km</small></span><span><span class="it-road D">D996</span> <small>14 km</small></span><span><span class="it-road D">D117</span> <small>10 km</small></span><span><span class="it-road D">D4</span> <small>9 km</small></span><span><span class="it-road D">D86</span> <small>9 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/H%C3%B4tel_Nayme._Cuiseaux.jpg/330px-H%C3%B4tel_Nayme._Cuiseaux.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Hôtel Nayme</b><small>Château</small><p class="it-res">L&#x27;hôtel Nayme est un hôtel particulier situé sur le territoire de la commune de Cuiseaux dans le département français de Saône-et-Loire et la région Bourgogne-Franche-Comté.</p><small class="it-meta">📍 Rue Édouard Vuillard, Cuiseaux</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/H%C3%B4tel_Nayme" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/H%C3%B4tel%20Nayme/@46.49309,5.38704,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Ch%C3%A2teau_du_Plantay_en_septembre_2013.JPG/330px-Ch%C3%A2teau_du_Plantay_en_septembre_2013.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château du Plantay</b><small>Château</small><p class="it-res">Le château du Plantay est un ancien château fort, fondée vers 1305 par le chevalier Hugues du Plantay, centre de la seigneurie du Plantay, qui se dresse sur la commune du Plantay dans le département de l&#x27;Ain en région…</p><small class="it-meta">📍 Route de la Tour, Le Plantay</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_du_Plantay" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20du%20Plantay/@46.02138,5.08134,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Ch%C3%A2teau_de_Loyes.JPG/330px-Ch%C3%A2teau_de_Loyes.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château de Loyes</b><small>Château</small><p class="it-res">Le château de Loyes est une demeure du XVIIIe siècle élevée par Gabriel Dervieu de Villieu, baron de Loyes, et modifié par la suite pour la famille Baboin, qui se dresse sur le territoire de la commune française de…</p><small class="it-meta">📍 Rue du Château, Villieu-Loyes-Mollon</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Loyes" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20de%20Loyes/@45.92646,5.23126,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Ensemble_castral_du_Montellier.JPG/330px-Ensemble_castral_du_Montellier.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château du Montellier</b><small>Château</small><p class="it-res">Le château du Montellier est un ancien château fort à motte, des XIIIe et XIVe siècles remanié aux XVIe et XVIIe siècles, qui se dresse sur la commune du Montellier dans le département de l&#x27;Ain en région Auvergne-Rhône-Alpes.</p><small class="it-meta">📍 Impasse du Mas Chard, Le Montellier</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_du_Montellier" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20du%20Montellier/@45.94265,5.07437,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le Duverger</b><small>Cuisine régionale</small><small class="it-meta">📍 Rue du Magnolia, Saint-Paul-de-Varax</small><small class="it-meta">🕒 lun fermé</small><small class="it-meta">📞 <a href="tel:+33474425197">+33 4 74 42 51 97</a></small></div><span class="it-liens"><a href="https://www.restaurant-leduverger.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Le%20Duverger/@46.09964,5.12809,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>L&#x27;Auberge de Dompierre</b><small>Cuisine française</small><small class="it-meta">📍 Rue des Écoles, Dompierre-sur-Veyle</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/L%27Auberge%20de%20Dompierre/@46.07111,5.20598,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Wilki Pizza</b><small>Pizzeria</small><small class="it-meta">📍 Rue de la Dombes, Saint-Paul-de-Varax</small><small class="it-meta">🕒 lun-dim 11:00-14:00,17:30-22:00 ; sam 11:00-14:00,17:30-22:30</small><small class="it-meta">à emporter</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Wilki%20Pizza/@46.0977,5.12722,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Lyon</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Bouchon Palais Grillet</b><small>Cuisine régionale</small><small class="it-meta">📍 Rue du Palais Grillet, Lyon</small><small class="it-meta">🕒 lun-sam 12:00-14:00,19:00-21:30 ; dim 11:00-14:30</small><small class="it-meta">📞 <a href="tel:+33472040400">+33 4 72 04 04 00</a></small></div><span class="it-liens"><a href="https://www.bouchonpalaisgrillet.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Bouchon%20Palais%20Grillet/@45.76314,4.83504,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Grand Café des Négociants</b><small>Cuisine française</small><small class="it-meta">📍 Place Francisque Régaud, Lyon</small><small class="it-meta">🕒 lun-dim 07:00-00:00</small><small class="it-meta">📞 <a href="tel:+33478425005">+33 4 78425005</a></small></div><span class="it-liens"><a href="https://www.lesnegociants.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Grand%20Caf%C3%A9%20des%20N%C3%A9gociants/@45.76329,4.83453,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🥡</div><div class="it-txt"><b>Lion et Poisson</b><small>Cuisine chinoise</small><small class="it-meta">📍 Rue du Palais Grillet, Lyon</small><small class="it-meta">🕒 mar-sam 12:00-14:30,19:00-23:00 ; dim 12:00-14:30,19:00-21:00</small><small class="it-meta">📞 <a href="tel:+33478828674">+33 478 828 674</a></small></div><span class="it-liens"><a href="http://lionetpoisson.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Lion%20et%20Poisson/@45.76261,4.83516,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Lyon</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Lyon%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Lyon</a></div></section>
+<section class="glass-box it-seo" style="margin:24px 0"><h2 style="margin-top:0">Questions fréquentes</h2><details><summary><b>Quelle est la distance de Strasbourg à Lyon sans autoroute ?</b></summary><p>Environ 467 km, soit 8 h 13 de conduite et 3 jours à raison d&#x27;environ 4 h par jour. Par l&#x27;autoroute, le trajet fait 489 km en 4 h 45.</p></details><details><summary><b>Combien coûte le trajet de Strasbourg à Lyon ?</b></summary><p>Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 48 € sans autoroute contre 93 € par l&#x27;autoroute (péages compris). Les repas, les visites et l&#x27;hébergement ne sont pas inclus.</p></details><details><summary><b>Où s&#x27;arrêter entre Strasbourg et Lyon ?</b></summary><p>Les étapes proposées sont : Belfort, Lons-le-Saunier, Lyon. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit.</p></details><details><summary><b>Y a-t-il des péages entre Strasbourg et Lyon sans autoroute ?</b></summary><p>Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l&#x27;estimation.</p></details></section>
+<h2>Autres trajets</h2><ul><li><a href="strasbourg-barcelone-sans-autoroute.html">Strasbourg Barcelone sans autoroute</a></li><li><a href="strasbourg-nice-sans-autoroute.html">Strasbourg Nice sans autoroute</a></li><li><a href="strasbourg-milan-sans-autoroute.html">Strasbourg Milan sans autoroute</a></li><li><a href="strasbourg-marseille-sans-autoroute.html">Strasbourg Marseille sans autoroute</a></li><li><a href="strasbourg-lausanne-sans-autoroute.html">Strasbourg Lausanne sans autoroute</a></li><li><a href="strasbourg-munich-sans-autoroute.html">Strasbourg Munich sans autoroute</a></li><li><a href="strasbourg-annecy-sans-autoroute.html">Strasbourg Annecy sans autoroute</a></li><li><a href="lille-lyon-sans-autoroute.html">Lille Lyon sans autoroute</a></li></ul>
+<p class="it-note">Les lieux et restaurants viennent d'OpenStreetMap et de Wikipédia : vérifiez les horaires avant de partir. Itinéraire calculé avec <a href="https://openrouteservice.org/" target="_blank" rel="noopener">OpenRouteService</a>, lieux via <a href="https://www.geoapify.com/" target="_blank" rel="noopener">Geoapify</a>, données &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</p>
+
+
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+    <p>Nous utilisons des cookies pour mesurer l'audience du site (Google Analytics). Vous pouvez accepter ou refuser ce suivi. Voir notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+    <div class="cookie-actions">
+        <button class="cookie-refuse" onclick="setCookieConsent(false)">Refuser</button>
+        <button class="cookie-accept" onclick="setCookieConsent(true)">Accepter</button>
+    </div>
+</div>
+<script>
+(function() {
+    function setCookieConsent(accepted) {
+        localStorage.setItem('cookie_consent', accepted ? 'granted' : 'denied');
+        gtag('consent', 'update', {
+            'analytics_storage': accepted ? 'granted' : 'denied'
+        });
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+    window.setCookieConsent = setCookieConsent;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var saved = localStorage.getItem('cookie_consent');
+        if (saved === 'granted') {
+            gtag('consent', 'update', { 'analytics_storage': 'granted' });
+        } else if (saved === null) {
+            document.getElementById('cookie-banner').style.display = 'flex';
+        }
+        
+    });
+})();
+</script>
+
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <h3>Nomad</h3>
+            <p>Le compagnon de voyage qui vous aide à choisir plus vite et à partir plus serein.</p>
+        </div>
+        <div>
+            <h4>Explorer</h4>
+            <ul class="footer-links">
+                <li><a href="hotels.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
+                <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
+                <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
+                <li><a href="croisieres.html">Croisières</a></li>
+                <li><a href="itineraire-decouverte.html">Itinéraire découverte</a></li>
+                <li><a href="trajets-sans-autoroute.html">Trajets sans autoroute</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>À propos</h4>
+            <ul class="footer-links">
+                <li><a href="apropos.html">À propos de nous</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Conseils de voyage</a></li>
+                <li><a href="index.html#avis">Avis voyageurs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Votre retour compte</h4>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
+        <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
+    </div>
+</footer>
+
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const TR={"c": [[48.573, 7.7521], [48.5708, 7.7424], [48.5707, 7.7306], [48.5709, 7.7308], [48.5483, 7.7297], [48.5369, 7.7145], [48.5329, 7.6976], [48.5298, 7.6935], [48.5161, 7.6987], [48.5044, 7.6944], [48.4943, 7.6796], [48.4873, 7.6745], [48.4775, 7.6696], [48.4369, 7.648], [48.4039, 7.6279], [48.3759, 7.5952], [48.3635, 7.5768], [48.357, 7.5641], [48.3474, 7.5488], [48.3354, 7.5358], [48.3235, 7.515], [48.3114, 7.5048], [48.3063, 7.5001], [48.3023, 7.4959], [48.2943, 7.4844], [48.2882, 7.4772], [48.2773, 7.4643], [48.2723, 7.4599], [48.2656, 7.4534], [48.2599, 7.4468], [48.2542, 7.4407], [48.2493, 7.4367], [48.2356, 7.4224], [48.2226, 7.4061], [48.2188, 7.3998], [48.2141, 7.385], [48.2081, 7.3932], [48.2081, 7.4009], [48.1867, 7.3909], [48.1762, 7.3794], [48.1652, 7.3756], [48.1559, 7.3778], [48.1493, 7.3696], [48.1361, 7.3647], [48.1225, 7.3651], [48.1175, 7.3645], [48.1079, 7.3635], [48.0949, 7.361], [48.0882, 7.3595], [48.0861, 7.3506], [48.0812, 7.3535], [48.0765, 7.3549], [48.0716, 7.3491], [48.0612, 7.3376], [48.0508, 7.3273], [48.0453, 7.323], [48.0312, 7.3163], [48.0226, 7.3154], [48.0114, 7.3053], [47.9899, 7.2937], [47.9736, 7.298], [47.9617, 7.3086], [47.949, 7.3021], [47.9416, 7.2837], [47.9171, 7.2655], [47.8896, 7.2561], [47.8735, 7.2471], [47.8566, 7.2423], [47.8284, 7.2163], [47.8112, 7.1944], [47.7939, 7.1848], [47.7823, 7.167], [47.7672, 7.1605], [47.7519, 7.1517], [47.7428, 7.1504], [47.7403, 7.1425], [47.7301, 7.1262], [47.7152, 7.0987], [47.7107, 7.0891], [47.7154, 7.0618], [47.7214, 7.0395], [47.7188, 7.0307], [47.7165, 7.0245], [47.7138, 7.0181], [47.7114, 7.0147], [47.7099, 7.0117], [47.7084, 7.0077], [47.7, 6.991], [47.6926, 6.9749], [47.6902, 6.9601], [47.6858, 6.9529], [47.6826, 6.9433], [47.6773, 6.9318], [47.6724, 6.9242], [47.6701, 6.9194], [47.6671, 6.9147], [47.6619, 6.9076], [47.654, 6.8986], [47.6513, 6.8916], [47.6454, 6.8772], [47.6405, 6.8685], [47.6428, 6.8624], [47.6393, 6.8589], [47.6381, 6.8542], [47.6355, 6.8494], [47.6294, 6.8461], [47.6256, 6.8435], [47.6213, 6.8366], [47.6199, 6.8325], [47.6147, 6.829], [47.6078, 6.827], [47.6023, 6.8205], [47.6007, 6.8133], [47.5989, 6.8087], [47.5908, 6.7957], [47.5862, 6.7605], [47.5861, 6.7395], [47.5963, 6.7269], [47.5993, 6.7247], [47.5966, 6.7211], [47.5928, 6.7086], [47.5881, 6.6903], [47.5857, 6.68], [47.5793, 6.6642], [47.5672, 6.6537], [47.5638, 6.6429], [47.564, 6.6335], [47.5615, 6.6264], [47.5622, 6.6133], [47.5531, 6.5892], [47.5529, 6.5732], [47.5444, 6.5578], [47.5407, 6.547], [47.5391, 6.5298], [47.5428, 6.5114], [47.5443, 6.4821], [47.5464, 6.458], [47.5472, 6.437], [47.5344, 6.4169], [47.5366, 6.3893], [47.5368, 6.3785], [47.5348, 6.3725], [47.527, 6.3709], [47.5143, 6.3569], [47.511, 6.336], [47.5025, 6.33], [47.4955, 6.3241], [47.5, 6.3156], [47.494, 6.3068], [47.487, 6.3016], [47.4817, 6.2897], [47.4752, 6.2769], [47.4681, 6.2638], [47.4671, 6.2595], [47.4631, 6.2516], [47.4544, 6.2275], [47.4475, 6.2047], [47.445, 6.1954], [47.4439, 6.1819], [47.4404, 6.1566], [47.4343, 6.1383], [47.4329, 6.13], [47.4363, 6.1217], [47.4363, 6.113], [47.4309, 6.107], [47.4271, 6.086], [47.4238, 6.0732], [47.418, 6.0717], [47.4167, 6.0682], [47.4113, 6.0694], [47.3984, 6.0661], [47.3913, 6.0612], [47.3537, 6.0286], [47.3426, 6.011], [47.3164, 5.9976], [47.2965, 5.9874], [47.2842, 5.9843], [47.2807, 5.9905], [47.2744, 5.9955], [47.2707, 5.9948], [47.2655, 5.9777], [47.2571, 5.9685], [47.2518, 5.958], [47.2372, 5.9379], [47.2298, 5.9335], [47.2192, 5.9207], [47.2162, 5.9141], [47.2084, 5.9051], [47.1966, 5.8601], [47.193, 5.8477], [47.1897, 5.8357], [47.1853, 5.8201], [47.1826, 5.8121], [47.182, 5.8039], [47.1787, 5.7994], [47.172, 5.7801], [47.1631, 5.7634], [47.1584, 5.7596], [47.1507, 5.7606], [47.1472, 5.7581], [47.1489, 5.7437], [47.1442, 5.7264], [47.1393, 5.7266], [47.127, 5.7286], [47.1178, 5.7365], [47.0894, 5.7471], [47.0661, 5.7584], [47.0479, 5.7656], [47.0426, 5.7626], [47.0349, 5.7645], [47.0288, 5.7598], [47.0268, 5.7369], [47.0216, 5.721], [47.0219, 5.7149], [47.0225, 5.7044], [47.0039, 5.7036], [46.997, 5.703], [46.994, 5.6721], [46.9905, 5.6667], [46.985, 5.6691], [46.9584, 5.6695], [46.9457, 5.6604], [46.9424, 5.6592], [46.9386, 5.6566], [46.9209, 5.6455], [46.9113, 5.6373], [46.9066, 5.6362], [46.8939, 5.6243], [46.8871, 5.623], [46.8768, 5.6188], [46.8652, 5.6113], [46.8484, 5.6063], [46.837, 5.607], [46.8284, 5.5991], [46.8112, 5.5854], [46.8063, 5.5793], [46.7994, 5.5719], [46.7879, 5.5657], [46.7809, 5.5608], [46.7673, 5.5551], [46.7536, 5.558], [46.7386, 5.5559], [46.7203, 5.5571], [46.7075, 5.5489], [46.6993, 5.5335], [46.6828, 5.5134], [46.6775, 5.51], [46.6719, 5.5106], [46.6612, 5.5068], [46.6562, 5.5074], [46.6445, 5.5037], [46.6389, 5.4988], [46.6253, 5.488], [46.6086, 5.4719], [46.5987, 5.4597], [46.588, 5.4468], [46.5759, 5.4381], [46.5697, 5.424], [46.5565, 5.4075], [46.5452, 5.3995], [46.5295, 5.3961], [46.521, 5.3888], [46.5057, 5.3869], [46.4939, 5.3778], [46.4829, 5.368], [46.4692, 5.3595], [46.4617, 5.3571], [46.454, 5.3492], [46.4443, 5.3475], [46.4341, 5.354], [46.421, 5.3501], [46.399, 5.3493], [46.3877, 5.3476], [46.3844, 5.3442], [46.3813, 5.3411], [46.3801, 5.3248], [46.3718, 5.3082], [46.3726, 5.3013], [46.3714, 5.2991], [46.3677, 5.2908], [46.3596, 5.2817], [46.3534, 5.2715], [46.3468, 5.2613], [46.3437, 5.2576], [46.3387, 5.2556], [46.3312, 5.2513], [46.3215, 5.244], [46.311, 5.2372], [46.2858, 5.2312], [46.273, 5.2317], [46.2595, 5.2322], [46.2485, 5.2302], [46.2354, 5.2283], [46.2285, 5.2294], [46.2304, 5.2193], [46.2313, 5.2122], [46.2333, 5.1997], [46.2295, 5.2026], [46.2208, 5.2066], [46.2143, 5.2045], [46.2086, 5.2034], [46.2049, 5.198], [46.2006, 5.1978], [46.1916, 5.1969], [46.1884, 5.1941], [46.177, 5.1938], [46.1662, 5.1925], [46.1514, 5.1942], [46.1323, 5.1913], [46.1208, 5.195], [46.102, 5.1895], [46.0751, 5.1961], [46.0583, 5.1911], [46.0232, 5.1789], [46.004, 5.1739], [45.9974, 5.1708], [45.9901, 5.1685], [45.9519, 5.1422], [45.9223, 5.1289], [45.9299, 5.0813], [45.9288, 5.0585], [45.9223, 5.0117], [45.9142, 5.0162], [45.9047, 5.0157], [45.9021, 4.9957], [45.8995, 4.9793], [45.8955, 4.97], [45.8808, 4.9696], [45.8776, 4.9686], [45.8746, 4.9647], [45.8699, 4.9625], [45.8659, 4.9609], [45.8567, 4.9591], [45.8467, 4.9584], [45.8397, 4.9512], [45.8318, 4.9442], [45.8336, 4.9338], [45.8351, 4.9254], [45.8345, 4.9123], [45.8296, 4.9076], [45.8213, 4.8987], [45.8181, 4.8926], [45.8162, 4.8879], [45.8113, 4.8766], [45.8081, 4.8706], [45.8036, 4.8612], [45.8008, 4.8549], [45.7975, 4.8522], [45.7963, 4.8578], [45.7886, 4.8531], [45.7808, 4.8422], [45.7728, 4.8382], [45.7667, 4.838], [45.7647, 4.8331], [45.7638, 4.8357]], "n": [[47.63796, 6.86289, "Nuit 1 : Belfort"], [46.6727, 5.559, "Nuit 2 : Lons-le-Saunier"], [45.764, 4.8357, "Nuit 3 : Lyon"]], "v": [[48.14481, 7.32455, "Monument de la Fidélité"], [48.07986, 7.35556, "Musée Unterlinden"], [47.8869, 7.22734, "Château de Bucheneck"], [47.72245, 6.92087, "Forge-musée d'Étueffont"], [47.401, 6.19169, "Château de la Roche"], [47.39793, 6.04436, "Château de Sorans-lès-Breurey"], [47.33598, 6.05067, "Château"], [47.03354, 5.77736, "Saline royale d'Arc-et-Senans"], [46.49309, 5.38704, "Hôtel Nayme"], [46.02138, 5.08134, "Château du Plantay"], [45.92646, 5.23126, "Château de Loyes"], [45.94265, 5.07437, "Château du Montellier"]]};
+const map=L.map("itMap");
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"&copy; OpenStreetMap"}).addTo(map);
+const ligne=L.polyline(TR.c,{color:"#075985",weight:5}).addTo(map);
+TR.n.slice(0,-1).forEach(p=>L.marker([p[0],p[1]]).addTo(map).bindPopup(p[2]));
+TR.v.forEach(p=>L.circleMarker([p[0],p[1]],{radius:6,color:"#c8322b",weight:2,fillColor:"#fff",fillOpacity:1}).addTo(map).bindPopup(p[2]));
+map.fitBounds(ligne.getBounds().pad(0.1));
+</script>
+</body>
+</html>

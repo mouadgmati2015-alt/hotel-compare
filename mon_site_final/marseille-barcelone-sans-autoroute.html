@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marseille Barcelone sans autoroute : itinéraire, étapes et coût | MyHotelCompare</title>
+<meta name="description" content="Marseille Barcelone sans autoroute : 501 km, 2 jours, 28 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<link rel="canonical" href="https://myhotelcompare.com/marseille-barcelone-sans-autoroute.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Marseille Barcelone sans autoroute : itinéraire, étapes et coût">
+<meta property="og:description" content="Marseille Barcelone sans autoroute : 501 km, 2 jours, 28 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<meta property="og:url" content="https://myhotelcompare.com/marseille-barcelone-sans-autoroute.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Quelle est la distance de Marseille à Barcelone sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Environ 501 km, soit 5 h 51 de conduite et 2 jours à raison d'environ 4 h par jour. Par l'autoroute, le trajet fait 505 km en 5 h 15."}}, {"@type": "Question", "name": "Combien coûte le trajet de Marseille à Barcelone ?", "acceptedAnswer": {"@type": "Answer", "text": "Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 51 € sans autoroute contre 91 € par l'autoroute (péages compris). Les repas, les visites et l'hébergement ne sont pas inclus."}}, {"@type": "Question", "name": "Où s'arrêter entre Marseille et Barcelone ?", "acceptedAnswer": {"@type": "Answer", "text": "Les étapes proposées sont : Girona, Barcelone. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit."}}, {"@type": "Question", "name": "Y a-t-il des péages entre Marseille et Barcelone sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l'estimation."}}]}</script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<!-- Google Consent Mode v2 : refus par défaut tant que l'utilisateur n'a pas choisi -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLVNV2211J"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RLVNV2211J');
+</script>
+
+<link rel="icon" type="image/png" href="images/logo_5.png?v=2">
+<link rel="apple-touch-icon" href="images/logo_5.png?v=2">
+<style>
+:root {
+    --bg: #f2fbfd;
+    --bg-dark: #063247;
+    --panel: #e5f5f8;
+    --panel-strong: #c7eaf0;
+    --card: #ffffff;
+    --line: #b9dfe7;
+    --text: #123443;
+    --muted: #52717c;
+    --primary: #087f9b;
+    --primary-dark: #056078;
+    --secondary: #075985;
+    --success: #16805b;
+    --success-soft: #d7f4e7;
+    --warning: #e59a21;
+    --shadow: 0 18px 38px rgba(5, 96, 120, 0.14);
+}
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #f4fcfd 0%, #e7f6f8 100%);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px 16px 40px;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.site-header { margin-bottom: 24px; }
+.brand-lockup { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 18px; color: var(--text); }
+.brand-mark { width: 58px; height: 58px; object-fit: contain; border-radius: 16px; background: var(--panel-strong); padding: 5px; }
+.brand-lockup strong { display: block; color: var(--secondary); font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1; }
+.brand-lockup span { display: block; color: var(--muted); margin-top: 5px; font-size: 0.88rem; }
+h1, h2, h3, h4 { color: var(--text); }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; }
+a { color: var(--secondary); }
+.site-footer { margin-top: 48px; background: linear-gradient(135deg, #063247, #075985); color: #effcff; border-radius: 22px; padding: 30px; box-shadow: var(--shadow); }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 28px; }
+.site-footer h3, .site-footer h4 { color: #b8f0f6; margin-top: 0; }
+.site-footer p, .site-footer li { color: #d6eef2; line-height: 1.6; }
+.site-footer a { color: #b8f0f6; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+.footer-links { list-style: none; padding: 0; margin: 0; }
+.footer-links li { margin-bottom: 8px; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.18); margin-top: 24px; padding-top: 18px; display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; font-size: 0.85rem; }
+.footer-bottom p { margin: 0; }
+@media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } .brand-lockup { justify-content: flex-start; } }
+.top-nav {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    background: linear-gradient(135deg, var(--secondary), var(--primary-dark));
+    padding: 14px 18px; border-radius: 18px; margin: 6px 0 22px;
+    box-shadow: var(--shadow); justify-content: center;
+}
+.top-nav a {
+    color: white; background: rgba(255,255,255,0.12);
+    padding: 10px 16px; border-radius: 12px; text-decoration: none;
+    font-weight: 700; border: 1px solid rgba(255,255,255,0.15);
+}
+.top-nav a:hover { background: rgba(255,255,255,0.2); }
+.card {
+    background: linear-gradient(180deg, #fffefb 0%, #fff8ef 100%);
+    border: 1px solid var(--line); border-radius: 20px;
+    padding: 24px; margin-bottom: 22px; box-shadow: var(--shadow);
+}
+.btn, .btn-booking, .btn-expedia {
+    display: inline-block; text-decoration: none; border-radius: 12px;
+    font-weight: 700; transition: transform 0.2s ease; cursor: pointer;
+}
+.btn:hover, .btn-booking:hover, .btn-expedia:hover { transform: translateY(-1px); }
+.btn { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 18px; }
+.btn-booking { display: block; background: linear-gradient(135deg, #0f3d85, #1d5bbf); color: white; padding: 12px 16px; text-align: center; margin-bottom: 10px; }
+.btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
+.btn-site-officiel { display: block; background: linear-gradient(135deg, var(--secondary), var(--primary-dark)); color: white; padding: 12px 16px; text-align: center; }
+.hero-banner {
+    background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
+    border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
+}
+.hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 18px; }
+.hero-badges span {
+    background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.24); color: #f2fdff; border-radius: 999px; padding: 7px 12px; font-weight: 700; font-size: 0.82rem;
+}
+.glass-box { background: rgba(255,255,255,0.72); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+.filters-box {
+    background: linear-gradient(180deg, #e3f5f8 0%, #f8fdfe 100%);
+    border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 24px 0 18px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; box-shadow: var(--shadow);
+}
+.filters-box label { color: var(--muted); display: block; margin-bottom: 8px; font-weight: 700; }
+.filters-box select {
+    width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--text); font-size: 0.97rem;
+}
+.btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
+.comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.smart-results-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.smart-results-grid .card { margin-bottom: 0; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
+.review-card {
+    background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
+    border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
+}
+.review-card .stars { color: var(--warning); font-size: 1.1rem; letter-spacing: 2px; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 16px; margin-top: 18px; }
+.stat-item { background: rgba(255,255,255,0.5); border: 1px solid rgba(130,90,20,0.15); border-radius: 16px; padding: 18px; }
+.stat-item strong { display: block; font-size: 1.5rem; }
+.testimonial-section > h2 { color: var(--text) !important; }
+.testimonial-section > div > div { background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%) !important; border-color: var(--line) !important; }
+.testimonial-section > div > div p { color: var(--muted) !important; }
+.testimonial-section > div > div p:first-child { color: var(--warning) !important; }
+.testimonial-section > div > div p strong { color: var(--text) !important; }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 1000px) { .smart-results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .smart-results-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+.cookie-banner {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+    background: #063247; color: #effcff; padding: 18px 20px;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+    gap: 16px; box-shadow: 0 -8px 24px rgba(0,0,0,0.25);
+}
+.cookie-banner p { margin: 0; max-width: 640px; font-size: 0.92rem; line-height: 1.5; }
+.cookie-banner a { color: #b8f0f6; }
+.cookie-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie-actions button {
+    border: none; border-radius: 10px; padding: 10px 18px; font-weight: 700; cursor: pointer;
+}
+.cookie-accept { background: var(--primary); color: white; }
+.cookie-refuse { background: rgba(255,255,255,0.15); color: white; }
+.fiche-photo-carte { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0; align-items: stretch; }
+.fiche-photo-carte img, .fiche-photo-carte iframe { width: 100%; height: 260px; object-fit: cover; border-radius: 16px; border: 0; }
+@media (max-width: 600px) { .fiche-photo-carte { grid-template-columns: 1fr; } .fiche-photo-carte img, .fiche-photo-carte iframe { height: 220px; } }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 20px; }
+.btn-itineraire {
+    display: inline-block; padding: 14px 24px; border-radius: 14px; font-weight: 800;
+    background: rgba(255,255,255,0.14); color: #fff; text-decoration: none;
+    border: 1.5px solid rgba(255,255,255,0.6);
+}
+.btn-itineraire:hover { background: rgba(255,255,255,0.26); }
+.btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+</style>
+
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrld.ltd/NTcxODA1.js?t=571805';
+      document.head.appendChild(script);
+  })();
+</script>
+
+<style>
+.it-road{display:inline-block;min-width:36px;text-align:center;padding:0 7px;border-radius:5px;font-weight:800;font-size:.8rem;line-height:22px}
+.it-road.N{background:#c8322b;color:#fff}
+.it-road.D{background:#f2c230;color:#123443;box-shadow:inset 0 0 0 2px #123443}
+.it-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:24px 0;align-items:end}
+.it-form label{display:block;font-weight:700;color:var(--muted);margin-bottom:6px}
+.it-form input,.it-form select{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--text);font-size:.97rem}
+.it-msg{padding:12px 16px;border-radius:12px;margin-bottom:18px;font-weight:600}
+.it-msg.err{background:#fde8e6;color:#9a2a22}.it-msg.info{background:var(--panel);color:var(--secondary)}
+#itRes{display:none}
+.it-cmp{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 14px}
+.it-cmp .glass-box.win{border:2px solid var(--success)}
+.it-cmp h2{font-size:1.15rem;margin:0 0 10px}
+.it-row{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid var(--line)}
+.it-row:last-child{border:0}
+.it-save{background:var(--success-soft);color:var(--success);border-radius:12px;padding:12px 16px;font-weight:700;margin-bottom:8px}
+.it-note{color:var(--muted);font-size:.85rem;margin:0 0 22px}
+#itMap{height:380px;border-radius:16px;margin-bottom:22px;box-shadow:var(--shadow)}
+.it-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.it-tab{font:inherit;font-weight:700;cursor:pointer;background:#fff;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:9px 18px}
+.it-tab[aria-selected=true]{background:var(--secondary);color:#fff;border-color:var(--secondary)}
+.it-tab:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+.it-dayhead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.it-dayhead h2{margin:0;font-size:1.4rem}
+.it-dayhead span{color:var(--muted)}
+.it-roads{display:flex;gap:10px 14px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+.it-roads small{color:var(--muted)}
+.it-bloc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:14px}
+.it-bloc h3{margin:0 0 8px;font-size:1.05rem}
+.it-lieux{list-style:none;margin:0;padding:0}
+.it-lieu{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
+.it-lieu:last-child{border:0}
+.it-lieu small{display:block;color:var(--muted)}
+.it-vig{flex:0 0 76px;width:76px;height:76px;border-radius:12px;overflow:hidden;background:var(--panel);display:flex;align-items:center;justify-content:center;font-size:2rem}
+.it-vig img{width:100%;height:100%;object-fit:cover;display:block}
+.it-txt{flex:1;min-width:0}
+.it-res{margin:4px 0 2px;font-size:.9rem;line-height:1.45}
+.it-meta{margin-top:2px;font-size:.82rem}
+.it-liens{display:flex;gap:12px;flex-wrap:wrap;align-self:center}
+.it-liens a{font-weight:700;white-space:nowrap}
+.it-wait{color:var(--muted);margin:0}
+.it-budget{margin-bottom:22px}
+.it-bt{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:8px 12px;align-items:center}
+.it-bt .fort{font-weight:800;border-top:1px solid var(--line);padding-top:8px}
+.it-bt small{color:var(--muted)}
+.it-btn.s{background:var(--secondary);color:#fff;border:0;cursor:pointer;font-family:inherit}
+.it-share-msg{align-self:center;color:var(--success);font-weight:700}
+.it-urlcopy{width:100%;max-width:440px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:.85rem}
+.it-all{margin-bottom:18px}
+.it-all p{margin:6px 0 0}
+.it-gps{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px}
+.it-btn{display:inline-block;padding:10px 16px;border-radius:12px;font-weight:700;text-decoration:none;font-size:.95rem}
+.it-btn.g{background:#1a73e8;color:#fff}
+.it-btn.w{background:#33ccff;color:#06364a}
+.it-btn:hover{filter:brightness(.95)}
+.it-btn:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+@media (max-width:620px){.it-cmp{grid-template-columns:1fr}.it-lieu{flex-wrap:wrap}.it-liens{flex-basis:100%;align-self:flex-start}}
+
+.tj-cmp .glass-box h2{margin-top:0}
+.tj-fil{font-size:.9rem;color:var(--muted);margin:0 0 10px}
+</style>
+</head>
+<body><div class="container">
+
+<header class="site-header">
+<div class="brand-lockup">
+    <img src="images/logo_5.svg" alt="Nomad" class="brand-mark">
+    <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
+</div>
+<div class="top-nav">
+    <a href="index.html">Accueil</a>
+    <a href="hotels.html">Hôtels</a>
+    <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
+    <a href="loueurs-vehicules.html">Location de Véhicules</a>
+    <a href="croisieres.html">Croisières</a>
+    <a href="itineraire-decouverte.html">Itinéraires</a>
+    <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
+</div>
+</header>
+
+<p class="tj-fil"><a href="index.html">Accueil</a> &gt; <a href="trajets-sans-autoroute.html">Trajets sans autoroute</a> &gt; Marseille Barcelone</p>
+<div class="hero-banner">
+  <h1 style="color:#fff;margin:0 0 10px;font-size:clamp(1.6rem,3.6vw,2.4rem)">Marseille Barcelone sans autoroute : itinéraire, étapes et coût</h1>
+  <p style="margin:0;max-width:760px;line-height:1.7;color:#effcff">Pour aller de Marseille à Barcelone sans autoroute, comptez environ 501 km et 5 h 51 de conduite, soit 2 jours à raison d&#x27;environ 4 h de route par jour. Par l&#x27;autoroute, le même trajet fait 505 km en 5 h 15, avec environ 28 € de péages estimés.</p>
+</div>
+<p style="line-height:1.7">En évitant l&#x27;autoroute, vous économisez environ 40 € sur la route (péages et carburant), pour environ 0 h 36 de trajet en plus. Les routes les plus empruntées sont la A54 (315 km), la N568 (45 km), la D568 (19 km). </p>
+<section class="it-cmp tj-cmp" aria-label="Comparatif avec l'autoroute">
+  <div class="glass-box"><h2>Par l'autoroute</h2><div class="it-row"><span>Distance</span><b>505 km</b></div><div class="it-row"><span>Temps de conduite</span><b>5 h 15</b></div><div class="it-row"><span>Péages</span><b>28 €</b></div><div class="it-row"><span>Carburant</span><b>63 €</b></div><div class="it-row"><span>Total route</span><b>91 €</b></div></div>
+  <div class="glass-box win"><h2>Parcours découverte</h2><div class="it-row"><span>Distance</span><b>501 km</b></div><div class="it-row"><span>Temps de conduite</span><b>5 h 51</b></div><div class="it-row"><span>Péages</span><b>0 €</b></div><div class="it-row"><span>Carburant</span><b>51 €</b></div><div class="it-row"><span>Total route</span><b>51 €</b></div></div>
+</section>
+<p class="it-note">Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, péage à 0,10 €/km sur les tronçons à péage. Montants indicatifs, mis à jour le 15 octobre 2026.</p>
+<p><a class="btn-compare" style="display:inline-block;text-decoration:none;width:auto;padding:14px 24px" href="itineraire-decouverte.html?d=Marseille+%28France%29&amp;dc=5.3698%2C43.2965&amp;dp=France&amp;a=Barcelone+%28Espagne%29&amp;ac=2.1734%2C41.3851&amp;ap=Espagne&amp;r=4&amp;v=th&amp;c=6&amp;p=1.8&amp;n=2&amp;m=45&amp;utm_source=pages-trajets&amp;utm_medium=site&amp;utm_campaign=trajet">Calculer avec mon véhicule</a></p>
+<div id="itMap"></div>
+<section><h2>Jour 1 : Marseille à Girona</h2><p class="it-wait">407 km, 4 h 33 de conduite</p><div class="it-roads"><span><span class="it-road N">A54</span> <small>315 km</small></span><span><span class="it-road N">N568</span> <small>45 km</small></span><span><span class="it-road D">D568</span> <small>19 km</small></span><span><span class="it-road D">D5</span> <small>5 km</small></span><span><span class="it-road D">D50</span> <small>0 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Bouches-du-Rh%C3%B4ne_department_location_map.svg/langfr-330px-Bouches-du-Rh%C3%B4ne_department_location_map.svg.png?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Habitat fortifié dit le Camp de Laure</b><small>Patrimoine</small><p class="it-res">Le Camp de Laure est le lieu-dit d&#x27;un habitat fortifié préhistorique dans la commune du Rove (France). C&#x27;est le plus ancien site construit de Provence, avec les ruines d&#x27;un rempart datant du IIe millénaire av. J.-C.</p><small class="it-meta">📍 Autoroute du Littoral, Le Rove</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Camp_de_Laure" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Habitat%20fortifi%C3%A9%20dit%20le%20Camp%20de%20Laure/@43.38153,5.22996,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Fort_de_Bouc_in_Martigues%2C_France.jpg/330px-Fort_de_Bouc_in_Martigues%2C_France.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Fort de Bouc</b><small>Château</small><p class="it-res">Le fort de Bouc ou tour de Bouc est un ancien fort située dans la ville de Martigues dans le département des Bouches-du-Rhône en région Provence-Alpes-Côte d&#x27;Azur en France.</p><small class="it-meta">📍 Chemin de la Jetée, Port-de-Bouc</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Fort_de_Bouc" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Fort%20de%20Bouc/@43.39408,4.98552,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Saint-Blaise_oppidum26.jpg/330px-Saint-Blaise_oppidum26.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Oppidum Saint-Blaise</b><small>Patrimoine</small><p class="it-res">L&#x27;oppidum de Saint-Blaise est un site archéologique majeur en Méditerranée occidentale, situé sur le territoire de la commune française de Saint-Mitre-les-Remparts, près de Fos-sur-Mer, dans le département des Bouches-du-Rhône,…</p><small class="it-meta">📍 Voie Principale de la Ville Basse, Saint-Mitre-les-Remparts</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Oppidum_de_Saint-Blaise" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Oppidum%20Saint-Blaise/@43.46112,4.98185,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Museon_Arlaten_ext%C3%A9rieur07.jpg?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Musée Arlaten</b><small>Musée</small><small class="it-meta">📍 29 Rue de la République, Arles</small><small class="it-meta">🕒 jours fériés,mar-dim 10:00-17:30 ; Jan 01,May 01,Nov 01,Dec 25 fermé</small><small class="it-meta">entrée payante</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Mus%C3%A9e%20Arlaten/@43.67669,4.6263,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Can Sabata</b><small>Cuisine régionale</small><small class="it-meta">📍 423 Carrer de Barcelona, Girona</small><small class="it-meta">🕒 mar-dim 13:00-18:00</small><small class="it-meta">📞 <a href="tel:+34972201403">+34 972 20 14 03</a></small></div><span class="it-liens"><a href="https://www.cansabata.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Can%20Sabata/@41.95372,2.80803,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>La Temporada</b><small>Cuisine régionale</small><small class="it-meta">📍 02, Salt</small><small class="it-meta">📞 <a href="tel:+34972664487">+34 972664487</a></small></div><span class="it-liens"><a href="https://www.latemporada.cat/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/La%20Temporada/@41.9663,2.78106,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Restaurant Torremirona</b><small>Cuisine régionale</small><small class="it-meta">📍 Carrer d&#x27;Isaac Rabin, Salt</small><small class="it-meta">📞 <a href="tel:+34972401200">+34 972 401 200</a></small></div><span class="it-liens"><a href="https://www.restaurant-torremirona.com" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Restaurant%20Torremirona/@41.96695,2.77392,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Girona</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Can Sabata</b><small>Cuisine régionale</small><small class="it-meta">📍 423 Carrer de Barcelona, Girona</small><small class="it-meta">🕒 mar-dim 13:00-18:00</small><small class="it-meta">📞 <a href="tel:+34972201403">+34 972 20 14 03</a></small></div><span class="it-liens"><a href="https://www.cansabata.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Can%20Sabata/@41.95372,2.80803,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍔</div><div class="it-txt"><b>Konig Vilablareix</b><small>Burgers</small><small class="it-meta">📍 2 Baixos Carrer del Mas de Falgas, Vilablareix</small><small class="it-meta">terrasse, à emporter, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+34972396585">+34 972396585</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Konig%20Vilablareix/@41.95721,2.80065,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>La Temporada</b><small class="it-meta">📍 62 Carrer del Montnegre, Vilablareix</small><small class="it-meta">📞 <a href="tel:+34972233050">+34 972233050</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/La%20Temporada/@41.95679,2.79851,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Girona</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Girona%2C%20Spain&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Girona</a></div></section><section><h2>Jour 2 : Girona à Barcelone</h2><p class="it-wait">95 km, 1 h 18 de conduite</p><div class="it-roads"><span><span class="it-road D">C33</span> <small>16 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Edifici_Isern_Mollet_del_Valles.JPG/330px-Edifici_Isern_Mollet_del_Valles.JPG?utm_source=ca.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Museu Isern</b><small>Musée</small><small class="it-meta">📍 72 Avinguda d&#x27;Antoni Gaudí, Mollet del Vallès</small><small class="it-meta">📞 <a href="tel:+34665670707">+34 665670707</a></small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Museu%20Isern/@41.54848,2.22085,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tall_Irregular_Progression.jpg?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>En record i homenatge a les víctimes del terrorisme</b><small>Patrimoine</small><p class="it-res">En record i homenatge a les víctimes del terrorisme</p><small class="it-meta">📍 Avinguda de Rio de Janeiro, Barcelona</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/En%20record%20i%20homenatge%20a%20les%20v%C3%ADctimes%20del%20terrorisme/@41.4312,2.18204,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Casa Carmen</b><small>Cuisine méditerranéenne</small><small class="it-meta">📍 42 Avinguda de Rio de Janeiro, Barcelona</small><small class="it-meta">🕒 lun-jeu 12:30-23:00,ven-sam 12:30-00:00,dim 12:30-23:30</small><small class="it-meta">accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+34931315592">+34931315592</a></small></div><span class="it-liens"><a href="https://casacarmenrestaurant.com/restaurantes/som/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Casa%20Carmen/@41.43491,2.18058,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Üla Café Cafetería</b><small>Cuisine coffee shop</small><small class="it-meta">📍 92 Carrer del Llenguadoc, Barcelona</small><small class="it-meta">🕒 mar-dim,jours fériés 08:00-20:00</small><small class="it-meta">options végétariennes, options véganes</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/%C3%9Cla%20Caf%C3%A9%20Cafeter%C3%ADa/@41.43049,2.18556,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Santo Paladar</b><small>Cuisine local</small><small class="it-meta">📍 33 Rambla de Fabra i Puig, Barcelona</small><small class="it-meta">🕒 lun, jeu-sam 12:30-16:00, 19:00-23:00 ; dim 12:00-18:00</small></div><span class="it-liens"><a href="https://www.santopaladar.es/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Santo%20Paladar/@41.42997,2.18743,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Barcelone</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Pardo de Flores</b><small>Cuisine espagnole</small><p class="it-res">Paella</p><small class="it-meta">📍 11 Carrer de Santa Anna, Barcelona</small><small class="it-meta">🕒 09:00-01:00</small><small class="it-meta">options végétariennes, options véganes</small><small class="it-meta">📞 <a href="tel:+34648444204">+34 648 44 42 04</a></small></div><span class="it-liens"><a href="https://pradodeflores.es/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Pardo%20de%20Flores/@41.38512,2.17121,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🦐</div><div class="it-txt"><b>Hard Rock Cafe</b><small>Cuisine american</small><small class="it-meta">📍 21-22 Plaça de Catalunya, Barcelona</small><small class="it-meta">🕒 dim-jeu 11:30-01:00 ; ven-sam 11:30-01:00</small><small class="it-meta">options végétariennes, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+34932702305">+34 932 70 23 05</a></small></div><span class="it-liens"><a href="https://www.hardrockcafe.com/location/barcelona/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Hard%20Rock%20Cafe/@41.38596,2.17075,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>ATN</b><small>Cuisine catalan</small><small class="it-meta">📍 6 Carrer de la Canuda, Barcelona</small><small class="it-meta">🕒 lun,dim 13:00-16:30 ; mar-sam 13:00-16:30,19:15-23:00</small><small class="it-meta">📞 <a href="tel:+34933185238">+34 933185238</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/ATN/@41.38463,2.17176,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Barcelone</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Barcelone%2C%20Espagne&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Barcelone</a></div></section>
+<section class="glass-box it-seo" style="margin:24px 0"><h2 style="margin-top:0">Questions fréquentes</h2><details><summary><b>Quelle est la distance de Marseille à Barcelone sans autoroute ?</b></summary><p>Environ 501 km, soit 5 h 51 de conduite et 2 jours à raison d&#x27;environ 4 h par jour. Par l&#x27;autoroute, le trajet fait 505 km en 5 h 15.</p></details><details><summary><b>Combien coûte le trajet de Marseille à Barcelone ?</b></summary><p>Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 51 € sans autoroute contre 91 € par l&#x27;autoroute (péages compris). Les repas, les visites et l&#x27;hébergement ne sont pas inclus.</p></details><details><summary><b>Où s&#x27;arrêter entre Marseille et Barcelone ?</b></summary><p>Les étapes proposées sont : Girona, Barcelone. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit.</p></details><details><summary><b>Y a-t-il des péages entre Marseille et Barcelone sans autoroute ?</b></summary><p>Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l&#x27;estimation.</p></details></section>
+<h2>Autres trajets</h2><ul><li><a href="strasbourg-barcelone-sans-autoroute.html">Strasbourg Barcelone sans autoroute</a></li><li><a href="marseille-ajaccio-sans-autoroute.html">Marseille Ajaccio sans autoroute</a></li><li><a href="lyon-barcelone-sans-autoroute.html">Lyon Barcelone sans autoroute</a></li></ul>
+<p class="it-note">Les lieux et restaurants viennent d'OpenStreetMap et de Wikipédia : vérifiez les horaires avant de partir. Itinéraire calculé avec <a href="https://openrouteservice.org/" target="_blank" rel="noopener">OpenRouteService</a>, lieux via <a href="https://www.geoapify.com/" target="_blank" rel="noopener">Geoapify</a>, données &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</p>
+
+
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+    <p>Nous utilisons des cookies pour mesurer l'audience du site (Google Analytics). Vous pouvez accepter ou refuser ce suivi. Voir notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+    <div class="cookie-actions">
+        <button class="cookie-refuse" onclick="setCookieConsent(false)">Refuser</button>
+        <button class="cookie-accept" onclick="setCookieConsent(true)">Accepter</button>
+    </div>
+</div>
+<script>
+(function() {
+    function setCookieConsent(accepted) {
+        localStorage.setItem('cookie_consent', accepted ? 'granted' : 'denied');
+        gtag('consent', 'update', {
+            'analytics_storage': accepted ? 'granted' : 'denied'
+        });
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+    window.setCookieConsent = setCookieConsent;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var saved = localStorage.getItem('cookie_consent');
+        if (saved === 'granted') {
+            gtag('consent', 'update', { 'analytics_storage': 'granted' });
+        } else if (saved === null) {
+            document.getElementById('cookie-banner').style.display = 'flex';
+        }
+        
+    });
+})();
+</script>
+
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <h3>Nomad</h3>
+            <p>Le compagnon de voyage qui vous aide à choisir plus vite et à partir plus serein.</p>
+        </div>
+        <div>
+            <h4>Explorer</h4>
+            <ul class="footer-links">
+                <li><a href="hotels.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
+                <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
+                <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
+                <li><a href="croisieres.html">Croisières</a></li>
+                <li><a href="itineraire-decouverte.html">Itinéraire découverte</a></li>
+                <li><a href="trajets-sans-autoroute.html">Trajets sans autoroute</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>À propos</h4>
+            <ul class="footer-links">
+                <li><a href="apropos.html">À propos de nous</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Conseils de voyage</a></li>
+                <li><a href="index.html#avis">Avis voyageurs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Votre retour compte</h4>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
+        <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
+    </div>
+</footer>
+
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const TR={"c": [[43.2961, 5.3699], [43.2952, 5.3633], [43.297, 5.3629], [43.3053, 5.3655], [43.3115, 5.3674], [43.3161, 5.3646], [43.3217, 5.3626], [43.3271, 5.3574], [43.3293, 5.3552], [43.3319, 5.3549], [43.3364, 5.3536], [43.339, 5.3488], [43.3456, 5.3462], [43.3491, 5.3428], [43.3517, 5.3396], [43.3537, 5.3365], [43.3538, 5.3312], [43.3569, 5.3273], [43.3589, 5.323], [43.3575, 5.3204], [43.3596, 5.3171], [43.3615, 5.3118], [43.3617, 5.3063], [43.3617, 5.3019], [43.3601, 5.2941], [43.3581, 5.2878], [43.3544, 5.2827], [43.3591, 5.2744], [43.3617, 5.271], [43.3648, 5.2639], [43.368, 5.2618], [43.3693, 5.2567], [43.3662, 5.2421], [43.3665, 5.235], [43.3719, 5.2303], [43.3781, 5.2254], [43.3854, 5.2181], [43.3929, 5.2045], [43.3937, 5.2021], [43.3936, 5.1938], [43.3932, 5.1896], [43.3926, 5.1815], [43.3908, 5.1738], [43.3902, 5.1693], [43.3904, 5.162], [43.3929, 5.1535], [43.3931, 5.1499], [43.3938, 5.1418], [43.3943, 5.1375], [43.3944, 5.1315], [43.3944, 5.125], [43.3967, 5.1164], [43.3983, 5.1088], [43.3999, 5.1033], [43.3991, 5.0926], [43.3979, 5.0871], [43.3977, 5.0794], [43.3973, 5.0731], [43.3987, 5.0667], [43.3998, 5.062], [43.4033, 5.0572], [43.4063, 5.0559], [43.4095, 5.0565], [43.4137, 5.0563], [43.4123, 5.0476], [43.413, 5.0416], [43.4142, 5.0384], [43.4141, 5.0348], [43.4143, 5.0298], [43.4139, 5.025], [43.4127, 5.0203], [43.4135, 4.9964], [43.4167, 4.9822], [43.4227, 4.9765], [43.428, 4.9634], [43.4325, 4.9429], [43.4466, 4.9381], [43.4508, 4.935], [43.4585, 4.9233], [43.462, 4.92], [43.4698, 4.9105], [43.4781, 4.8971], [43.4817, 4.8928], [43.4869, 4.8859], [43.5055, 4.8626], [43.5299, 4.832], [43.5496, 4.8095], [43.5711, 4.7855], [43.5803, 4.7702], [43.5921, 4.7616], [43.6047, 4.7618], [43.6175, 4.7527], [43.6286, 4.7476], [43.6335, 4.7455], [43.6354, 4.7375], [43.6561, 4.653], [43.6665, 4.63], [43.6772, 4.6161], [43.6792, 4.6057], [43.6833, 4.5796], [43.6849, 4.5504], [43.6997, 4.5371], [43.7086, 4.5241], [43.7155, 4.512], [43.7275, 4.5008], [43.7306, 4.486], [43.7341, 4.4675], [43.7411, 4.4526], [43.7476, 4.4361], [43.7696, 4.4199], [43.7803, 4.4134], [43.7905, 4.3988], [43.7982, 4.3855], [43.8057, 4.3739], [43.8069, 4.3596], [43.8095, 4.3418], [43.8025, 4.3169], [43.7979, 4.308], [43.7825, 4.2914], [43.7714, 4.278], [43.7618, 4.2648], [43.749, 4.2493], [43.751, 4.2228], [43.7493, 4.2084], [43.7402, 4.1961], [43.7297, 4.1889], [43.725, 4.1717], [43.7238, 4.1531], [43.7127, 4.1308], [43.6994, 4.1106], [43.6968, 4.0948], [43.6905, 4.069], [43.6851, 4.0494], [43.6747, 4.0219], [43.6662, 4.0062], [43.6507, 3.9867], [43.6402, 3.9728], [43.6296, 3.9668], [43.616, 3.95], [43.6053, 3.9431], [43.5911, 3.9124], [43.5725, 3.8761], [43.5706, 3.8624], [43.565, 3.8356], [43.5554, 3.8225], [43.551, 3.8104], [43.5481, 3.7973], [43.5333, 3.7782], [43.5189, 3.7523], [43.5017, 3.7289], [43.489, 3.713], [43.4839, 3.6924], [43.4797, 3.6658], [43.4762, 3.6523], [43.4626, 3.6267], [43.4576, 3.6108], [43.4517, 3.5974], [43.4478, 3.5788], [43.4307, 3.562], [43.4244, 3.5515], [43.4182, 3.5253], [43.4077, 3.494], [43.3988, 3.4726], [43.3835, 3.4514], [43.3781, 3.4409], [43.3769, 3.4179], [43.3743, 3.4033], [43.3635, 3.3778], [43.3618, 3.3516], [43.3558, 3.3381], [43.346, 3.3244], [43.3364, 3.2884], [43.3183, 3.2624], [43.3056, 3.2364], [43.3016, 3.2126], [43.2915, 3.1937], [43.2717, 3.1806], [43.2553, 3.1617], [43.2365, 3.14], [43.2312, 3.1242], [43.2254, 3.0992], [43.2124, 3.0898], [43.198, 3.0767], [43.186, 3.0579], [43.179, 3.0401], [43.1689, 3.0094], [43.1608, 2.9909], [43.1459, 2.9811], [43.1277, 2.9623], [43.1175, 2.9568], [43.1003, 2.9426], [43.0836, 2.9368], [43.0703, 2.9378], [43.0545, 2.9388], [43.0416, 2.949], [43.0309, 2.9526], [43.0109, 2.9534], [43.0004, 2.9651], [42.9828, 2.9742], [42.9711, 2.9701], [42.9534, 2.9705], [42.9325, 2.9692], [42.9245, 2.9735], [42.9123, 2.9889], [42.8996, 2.9927], [42.8862, 2.9928], [42.8721, 2.9866], [42.863, 2.9719], [42.8586, 2.9561], [42.8532, 2.9383], [42.8461, 2.9245], [42.8421, 2.9127], [42.831, 2.91], [42.81, 2.904], [42.7919, 2.8952], [42.7652, 2.8918], [42.7479, 2.8921], [42.7237, 2.8759], [42.7061, 2.8663], [42.6891, 2.8617], [42.67, 2.862], [42.6341, 2.8605], [42.6143, 2.8535], [42.5952, 2.8509], [42.5693, 2.8438], [42.5547, 2.8487], [42.5451, 2.8481], [42.5332, 2.8283], [42.525, 2.8198], [42.5038, 2.818], [42.4966, 2.8253], [42.4888, 2.8397], [42.4807, 2.8459], [42.4762, 2.854], [42.4716, 2.863], [42.4611, 2.8658], [42.4541, 2.8672], [42.4445, 2.8685], [42.4381, 2.8657], [42.4302, 2.8638], [42.4213, 2.87], [42.4083, 2.8724], [42.3957, 2.8781], [42.386, 2.8833], [42.3766, 2.8866], [42.3667, 2.8913], [42.3603, 2.8994], [42.3515, 2.9082], [42.3393, 2.9218], [42.3259, 2.9375], [42.3106, 2.9458], [42.3001, 2.9434], [42.2903, 2.9403], [42.2765, 2.9401], [42.2658, 2.9409], [42.2502, 2.9428], [42.2357, 2.9365], [42.2173, 2.9404], [42.2004, 2.9347], [42.1835, 2.9333], [42.1724, 2.93], [42.1588, 2.917], [42.1445, 2.9188], [42.1305, 2.9131], [42.1119, 2.9129], [42.1026, 2.9053], [42.0876, 2.8909], [42.0754, 2.8883], [42.0595, 2.884], [42.0461, 2.8678], [42.0435, 2.8555], [42.0417, 2.8418], [42.0323, 2.8336], [42.0238, 2.8186], [42.0121, 2.8111], [42.001, 2.8036], [41.9857, 2.7836], [41.9719, 2.7781], [41.9563, 2.7851], [41.9387, 2.7883], [41.9232, 2.778], [41.9064, 2.7727], [41.896, 2.7749], [41.8815, 2.77], [41.867, 2.7563], [41.8505, 2.7494], [41.8357, 2.7492], [41.8242, 2.7464], [41.8123, 2.7477], [41.7998, 2.7472], [41.7826, 2.7439], [41.7692, 2.7362], [41.7608, 2.7197], [41.753, 2.7086], [41.748, 2.698], [41.7447, 2.6806], [41.7403, 2.6625], [41.7421, 2.6478], [41.7347, 2.639], [41.7294, 2.6211], [41.7263, 2.6012], [41.7219, 2.574], [41.7127, 2.5413], [41.706, 2.5269], [41.6969, 2.5137], [41.6871, 2.501], [41.6774, 2.4877], [41.6702, 2.4751], [41.6612, 2.4614], [41.6562, 2.4494], [41.6483, 2.4295], [41.643, 2.4167], [41.6359, 2.404], [41.632, 2.3897], [41.6268, 2.378], [41.6243, 2.3649], [41.6175, 2.3536], [41.6091, 2.345], [41.6008, 2.3322], [41.593, 2.3109], [41.5828, 2.2944], [41.5775, 2.2853], [41.5685, 2.2814], [41.5617, 2.2694], [41.5588, 2.249], [41.5542, 2.2385], [41.5459, 2.2337], [41.5373, 2.2248], [41.5162, 2.2084], [41.499, 2.1927], [41.4913, 2.1894], [41.4861, 2.1841], [41.4762, 2.1833], [41.4683, 2.1771], [41.4614, 2.1816], [41.4545, 2.1886], [41.4466, 2.1875], [41.4345, 2.1835], [41.4285, 2.1842], [41.4205, 2.1868], [41.4163, 2.1855], [41.4106, 2.1893], [41.4056, 2.1828], [41.3989, 2.1738], [41.3933, 2.1664], [41.3887, 2.1602], [41.3837, 2.1632], [41.3817, 2.1667], [41.3847, 2.1708], [41.3859, 2.1722]], "n": [[41.9793, 2.81994, "Nuit 1 : Girona"], [41.3851, 2.1734, "Nuit 2 : Barcelone"]], "v": [[43.38153, 5.22996, "Habitat fortifié dit le Camp de Laure"], [43.39408, 4.98552, "Fort de Bouc"], [43.46112, 4.98185, "Oppidum Saint-Blaise"], [43.67669, 4.6263, "Musée Arlaten"], [41.54848, 2.22085, "Museu Isern"], [41.4312, 2.18204, "En record i homenatge a les víctimes del terrorisme"]]};
+const map=L.map("itMap");
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"&copy; OpenStreetMap"}).addTo(map);
+const ligne=L.polyline(TR.c,{color:"#075985",weight:5}).addTo(map);
+TR.n.slice(0,-1).forEach(p=>L.marker([p[0],p[1]]).addTo(map).bindPopup(p[2]));
+TR.v.forEach(p=>L.circleMarker([p[0],p[1]],{radius:6,color:"#c8322b",weight:2,fillColor:"#fff",fillOpacity:1}).addTo(map).bindPopup(p[2]));
+map.fitBounds(ligne.getBounds().pad(0.1));
+</script>
+</body>
+</html>

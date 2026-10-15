@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grasse Grenoble sans autoroute : itinéraire, étapes et coût | MyHotelCompare</title>
+<meta name="description" content="Grasse Grenoble sans autoroute : 289 km, 2 jours, 38 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<link rel="canonical" href="https://myhotelcompare.com/grasse-grenoble-sans-autoroute.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Grasse Grenoble sans autoroute : itinéraire, étapes et coût">
+<meta property="og:description" content="Grasse Grenoble sans autoroute : 289 km, 2 jours, 38 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<meta property="og:url" content="https://myhotelcompare.com/grasse-grenoble-sans-autoroute.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Quelle est la distance de Grasse à Grenoble sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Environ 289 km, soit 5 h 49 de conduite et 2 jours à raison d'environ 4 h par jour. Par l'autoroute, le trajet fait 450 km en 4 h 23."}}, {"@type": "Question", "name": "Combien coûte le trajet de Grasse à Grenoble ?", "acceptedAnswer": {"@type": "Answer", "text": "Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 30 € sans autoroute contre 94 € par l'autoroute (péages compris). Les repas, les visites et l'hébergement ne sont pas inclus."}}, {"@type": "Question", "name": "Où s'arrêter entre Grasse et Grenoble ?", "acceptedAnswer": {"@type": "Answer", "text": "Les étapes proposées sont : Sisteron, Grenoble. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit."}}, {"@type": "Question", "name": "Y a-t-il des péages entre Grasse et Grenoble sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l'estimation."}}]}</script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<!-- Google Consent Mode v2 : refus par défaut tant que l'utilisateur n'a pas choisi -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLVNV2211J"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RLVNV2211J');
+</script>
+
+<link rel="icon" type="image/png" href="images/logo_5.png?v=2">
+<link rel="apple-touch-icon" href="images/logo_5.png?v=2">
+<style>
+:root {
+    --bg: #f2fbfd;
+    --bg-dark: #063247;
+    --panel: #e5f5f8;
+    --panel-strong: #c7eaf0;
+    --card: #ffffff;
+    --line: #b9dfe7;
+    --text: #123443;
+    --muted: #52717c;
+    --primary: #087f9b;
+    --primary-dark: #056078;
+    --secondary: #075985;
+    --success: #16805b;
+    --success-soft: #d7f4e7;
+    --warning: #e59a21;
+    --shadow: 0 18px 38px rgba(5, 96, 120, 0.14);
+}
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #f4fcfd 0%, #e7f6f8 100%);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px 16px 40px;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.site-header { margin-bottom: 24px; }
+.brand-lockup { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 18px; color: var(--text); }
+.brand-mark { width: 58px; height: 58px; object-fit: contain; border-radius: 16px; background: var(--panel-strong); padding: 5px; }
+.brand-lockup strong { display: block; color: var(--secondary); font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1; }
+.brand-lockup span { display: block; color: var(--muted); margin-top: 5px; font-size: 0.88rem; }
+h1, h2, h3, h4 { color: var(--text); }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; }
+a { color: var(--secondary); }
+.site-footer { margin-top: 48px; background: linear-gradient(135deg, #063247, #075985); color: #effcff; border-radius: 22px; padding: 30px; box-shadow: var(--shadow); }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 28px; }
+.site-footer h3, .site-footer h4 { color: #b8f0f6; margin-top: 0; }
+.site-footer p, .site-footer li { color: #d6eef2; line-height: 1.6; }
+.site-footer a { color: #b8f0f6; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+.footer-links { list-style: none; padding: 0; margin: 0; }
+.footer-links li { margin-bottom: 8px; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.18); margin-top: 24px; padding-top: 18px; display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; font-size: 0.85rem; }
+.footer-bottom p { margin: 0; }
+@media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } .brand-lockup { justify-content: flex-start; } }
+.top-nav {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    background: linear-gradient(135deg, var(--secondary), var(--primary-dark));
+    padding: 14px 18px; border-radius: 18px; margin: 6px 0 22px;
+    box-shadow: var(--shadow); justify-content: center;
+}
+.top-nav a {
+    color: white; background: rgba(255,255,255,0.12);
+    padding: 10px 16px; border-radius: 12px; text-decoration: none;
+    font-weight: 700; border: 1px solid rgba(255,255,255,0.15);
+}
+.top-nav a:hover { background: rgba(255,255,255,0.2); }
+.card {
+    background: linear-gradient(180deg, #fffefb 0%, #fff8ef 100%);
+    border: 1px solid var(--line); border-radius: 20px;
+    padding: 24px; margin-bottom: 22px; box-shadow: var(--shadow);
+}
+.btn, .btn-booking, .btn-expedia {
+    display: inline-block; text-decoration: none; border-radius: 12px;
+    font-weight: 700; transition: transform 0.2s ease; cursor: pointer;
+}
+.btn:hover, .btn-booking:hover, .btn-expedia:hover { transform: translateY(-1px); }
+.btn { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 18px; }
+.btn-booking { display: block; background: linear-gradient(135deg, #0f3d85, #1d5bbf); color: white; padding: 12px 16px; text-align: center; margin-bottom: 10px; }
+.btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
+.btn-site-officiel { display: block; background: linear-gradient(135deg, var(--secondary), var(--primary-dark)); color: white; padding: 12px 16px; text-align: center; }
+.hero-banner {
+    background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
+    border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
+}
+.hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 18px; }
+.hero-badges span {
+    background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.24); color: #f2fdff; border-radius: 999px; padding: 7px 12px; font-weight: 700; font-size: 0.82rem;
+}
+.glass-box { background: rgba(255,255,255,0.72); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+.filters-box {
+    background: linear-gradient(180deg, #e3f5f8 0%, #f8fdfe 100%);
+    border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 24px 0 18px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; box-shadow: var(--shadow);
+}
+.filters-box label { color: var(--muted); display: block; margin-bottom: 8px; font-weight: 700; }
+.filters-box select {
+    width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--text); font-size: 0.97rem;
+}
+.btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
+.comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.smart-results-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.smart-results-grid .card { margin-bottom: 0; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
+.review-card {
+    background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
+    border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
+}
+.review-card .stars { color: var(--warning); font-size: 1.1rem; letter-spacing: 2px; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 16px; margin-top: 18px; }
+.stat-item { background: rgba(255,255,255,0.5); border: 1px solid rgba(130,90,20,0.15); border-radius: 16px; padding: 18px; }
+.stat-item strong { display: block; font-size: 1.5rem; }
+.testimonial-section > h2 { color: var(--text) !important; }
+.testimonial-section > div > div { background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%) !important; border-color: var(--line) !important; }
+.testimonial-section > div > div p { color: var(--muted) !important; }
+.testimonial-section > div > div p:first-child { color: var(--warning) !important; }
+.testimonial-section > div > div p strong { color: var(--text) !important; }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 1000px) { .smart-results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .smart-results-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+.cookie-banner {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+    background: #063247; color: #effcff; padding: 18px 20px;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+    gap: 16px; box-shadow: 0 -8px 24px rgba(0,0,0,0.25);
+}
+.cookie-banner p { margin: 0; max-width: 640px; font-size: 0.92rem; line-height: 1.5; }
+.cookie-banner a { color: #b8f0f6; }
+.cookie-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie-actions button {
+    border: none; border-radius: 10px; padding: 10px 18px; font-weight: 700; cursor: pointer;
+}
+.cookie-accept { background: var(--primary); color: white; }
+.cookie-refuse { background: rgba(255,255,255,0.15); color: white; }
+.fiche-photo-carte { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0; align-items: stretch; }
+.fiche-photo-carte img, .fiche-photo-carte iframe { width: 100%; height: 260px; object-fit: cover; border-radius: 16px; border: 0; }
+@media (max-width: 600px) { .fiche-photo-carte { grid-template-columns: 1fr; } .fiche-photo-carte img, .fiche-photo-carte iframe { height: 220px; } }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 20px; }
+.btn-itineraire {
+    display: inline-block; padding: 14px 24px; border-radius: 14px; font-weight: 800;
+    background: rgba(255,255,255,0.14); color: #fff; text-decoration: none;
+    border: 1.5px solid rgba(255,255,255,0.6);
+}
+.btn-itineraire:hover { background: rgba(255,255,255,0.26); }
+.btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+</style>
+
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrld.ltd/NTcxODA1.js?t=571805';
+      document.head.appendChild(script);
+  })();
+</script>
+
+<style>
+.it-road{display:inline-block;min-width:36px;text-align:center;padding:0 7px;border-radius:5px;font-weight:800;font-size:.8rem;line-height:22px}
+.it-road.N{background:#c8322b;color:#fff}
+.it-road.D{background:#f2c230;color:#123443;box-shadow:inset 0 0 0 2px #123443}
+.it-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:24px 0;align-items:end}
+.it-form label{display:block;font-weight:700;color:var(--muted);margin-bottom:6px}
+.it-form input,.it-form select{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--text);font-size:.97rem}
+.it-msg{padding:12px 16px;border-radius:12px;margin-bottom:18px;font-weight:600}
+.it-msg.err{background:#fde8e6;color:#9a2a22}.it-msg.info{background:var(--panel);color:var(--secondary)}
+#itRes{display:none}
+.it-cmp{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 14px}
+.it-cmp .glass-box.win{border:2px solid var(--success)}
+.it-cmp h2{font-size:1.15rem;margin:0 0 10px}
+.it-row{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid var(--line)}
+.it-row:last-child{border:0}
+.it-save{background:var(--success-soft);color:var(--success);border-radius:12px;padding:12px 16px;font-weight:700;margin-bottom:8px}
+.it-note{color:var(--muted);font-size:.85rem;margin:0 0 22px}
+#itMap{height:380px;border-radius:16px;margin-bottom:22px;box-shadow:var(--shadow)}
+.it-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.it-tab{font:inherit;font-weight:700;cursor:pointer;background:#fff;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:9px 18px}
+.it-tab[aria-selected=true]{background:var(--secondary);color:#fff;border-color:var(--secondary)}
+.it-tab:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+.it-dayhead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.it-dayhead h2{margin:0;font-size:1.4rem}
+.it-dayhead span{color:var(--muted)}
+.it-roads{display:flex;gap:10px 14px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+.it-roads small{color:var(--muted)}
+.it-bloc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:14px}
+.it-bloc h3{margin:0 0 8px;font-size:1.05rem}
+.it-lieux{list-style:none;margin:0;padding:0}
+.it-lieu{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
+.it-lieu:last-child{border:0}
+.it-lieu small{display:block;color:var(--muted)}
+.it-vig{flex:0 0 76px;width:76px;height:76px;border-radius:12px;overflow:hidden;background:var(--panel);display:flex;align-items:center;justify-content:center;font-size:2rem}
+.it-vig img{width:100%;height:100%;object-fit:cover;display:block}
+.it-txt{flex:1;min-width:0}
+.it-res{margin:4px 0 2px;font-size:.9rem;line-height:1.45}
+.it-meta{margin-top:2px;font-size:.82rem}
+.it-liens{display:flex;gap:12px;flex-wrap:wrap;align-self:center}
+.it-liens a{font-weight:700;white-space:nowrap}
+.it-wait{color:var(--muted);margin:0}
+.it-budget{margin-bottom:22px}
+.it-bt{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:8px 12px;align-items:center}
+.it-bt .fort{font-weight:800;border-top:1px solid var(--line);padding-top:8px}
+.it-bt small{color:var(--muted)}
+.it-btn.s{background:var(--secondary);color:#fff;border:0;cursor:pointer;font-family:inherit}
+.it-share-msg{align-self:center;color:var(--success);font-weight:700}
+.it-urlcopy{width:100%;max-width:440px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:.85rem}
+.it-all{margin-bottom:18px}
+.it-all p{margin:6px 0 0}
+.it-gps{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px}
+.it-btn{display:inline-block;padding:10px 16px;border-radius:12px;font-weight:700;text-decoration:none;font-size:.95rem}
+.it-btn.g{background:#1a73e8;color:#fff}
+.it-btn.w{background:#33ccff;color:#06364a}
+.it-btn:hover{filter:brightness(.95)}
+.it-btn:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+@media (max-width:620px){.it-cmp{grid-template-columns:1fr}.it-lieu{flex-wrap:wrap}.it-liens{flex-basis:100%;align-self:flex-start}}
+
+.tj-cmp .glass-box h2{margin-top:0}
+.tj-fil{font-size:.9rem;color:var(--muted);margin:0 0 10px}
+</style>
+</head>
+<body><div class="container">
+
+<header class="site-header">
+<div class="brand-lockup">
+    <img src="images/logo_5.svg" alt="Nomad" class="brand-mark">
+    <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
+</div>
+<div class="top-nav">
+    <a href="index.html">Accueil</a>
+    <a href="hotels.html">Hôtels</a>
+    <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
+    <a href="loueurs-vehicules.html">Location de Véhicules</a>
+    <a href="croisieres.html">Croisières</a>
+    <a href="itineraire-decouverte.html">Itinéraires</a>
+    <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
+</div>
+</header>
+
+<p class="tj-fil"><a href="index.html">Accueil</a> &gt; <a href="trajets-sans-autoroute.html">Trajets sans autoroute</a> &gt; Grasse Grenoble</p>
+<div class="hero-banner">
+  <h1 style="color:#fff;margin:0 0 10px;font-size:clamp(1.6rem,3.6vw,2.4rem)">Grasse Grenoble sans autoroute : itinéraire, étapes et coût</h1>
+  <p style="margin:0;max-width:760px;line-height:1.7;color:#effcff">Pour aller de Grasse à Grenoble sans autoroute, comptez environ 289 km et 5 h 49 de conduite, soit 2 jours à raison d&#x27;environ 4 h de route par jour. Par l&#x27;autoroute, le même trajet fait 450 km en 4 h 23, avec environ 38 € de péages estimés.</p>
+</div>
+<p style="line-height:1.7">En évitant l&#x27;autoroute, vous économisez environ 65 € sur la route (péages et carburant), pour environ 1 h 26 de trajet en plus. Les routes les plus empruntées sont la D1075 (93 km), la D6085 (61 km), la D4085 (52 km). </p>
+<section class="it-cmp tj-cmp" aria-label="Comparatif avec l'autoroute">
+  <div class="glass-box"><h2>Par l'autoroute</h2><div class="it-row"><span>Distance</span><b>450 km</b></div><div class="it-row"><span>Temps de conduite</span><b>4 h 23</b></div><div class="it-row"><span>Péages</span><b>38 €</b></div><div class="it-row"><span>Carburant</span><b>56 €</b></div><div class="it-row"><span>Total route</span><b>94 €</b></div></div>
+  <div class="glass-box win"><h2>Parcours découverte</h2><div class="it-row"><span>Distance</span><b>289 km</b></div><div class="it-row"><span>Temps de conduite</span><b>5 h 49</b></div><div class="it-row"><span>Péages</span><b>0 €</b></div><div class="it-row"><span>Carburant</span><b>30 €</b></div><div class="it-row"><span>Total route</span><b>30 €</b></div></div>
+</section>
+<p class="it-note">Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, péage à 0,10 €/km sur les tronçons à péage. Montants indicatifs, mis à jour le 15 octobre 2026.</p>
+<p><a class="btn-compare" style="display:inline-block;text-decoration:none;width:auto;padding:14px 24px" href="itineraire-decouverte.html?d=Grasse+%28France%29&amp;dc=6.9226%2C43.6588&amp;dp=France&amp;a=Grenoble+%28France%29&amp;ac=5.7245%2C45.1885&amp;ap=France&amp;r=4&amp;v=th&amp;c=6&amp;p=1.8&amp;n=2&amp;m=45&amp;utm_source=pages-trajets&amp;utm_medium=site&amp;utm_campaign=trajet">Calculer avec mon véhicule</a></p>
+<div id="itMap"></div>
+<section><h2>Jour 1 : Grasse à Sisteron</h2><p class="it-wait">144 km, 2 h 52 de conduite</p><div class="it-roads"><span><span class="it-road D">D6085</span> <small>61 km</small></span><span><span class="it-road D">D4085</span> <small>42 km</small></span><span><span class="it-road D">D4</span> <small>16 km</small></span><span><span class="it-road N">N85</span> <small>13 km</small></span><span><span class="it-road D">D17</span> <small>7 km</small></span><span><span class="it-road D">D12</span> <small>3 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Mons_dolm_st-marcellin_053.jpg/330px-Mons_dolm_st-marcellin_053.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Dolmen de Saint-Marcelin</b><small>Patrimoine</small><p class="it-res">Le dolmen de Saint-Marcelin est situé dans le Camp de Canjuers, à Mons, dans le département du Var, en France.</p><small class="it-meta">📍 Chemin des Vennes, Mons</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Dolmen_de_Saint-Marcelin" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Dolmen%20de%20Saint-Marcelin/@43.69429,6.67067,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">📍</div><div class="it-txt"><b>Notre-Dame d&#x27;Eoulx</b><small>À voir</small><small class="it-meta">📍 Route d&#x27;Eoulx, Castellane</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Notre-Dame%20d%27Eoulx/@43.81492,6.55404,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Maison-mus%C3%A9e_d%27Alexandra_David_Nee_%C3%A0_Digne-les-Bains_%28Alpes_de_Haute_Provence%29.jpg/330px-Maison-mus%C3%A9e_d%27Alexandra_David_Nee_%C3%A0_Digne-les-Bains_%28Alpes_de_Haute_Provence%29.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Samten Dzong</b><small>Musée</small><p class="it-res">La Maison Alexandra David-Neel, aussi appelée en tibétain Samten Dzong, est un musée et un centre d&#x27;interprétation consacré à l&#x27;écrivaine orientaliste Alexandra David-Néel et situé dans son ancienne résidence à Digne-les-Bains en…</p><small class="it-meta">📍 Avenue du Maréchal Juin, Digne-les-Bains</small><small class="it-meta">entrée payante</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Maison_Alexandra_David-Neel" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Samten%20Dzong/@44.08156,6.224,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Montfort_(Alpes-de-Haute-Provence)%2C_mairie.jpg?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Monument aux Morts</b><small>Patrimoine</small><small class="it-meta">📍 Allée des Tilleuls, Montfort</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Monument%20aux%20Morts/@44.06335,5.97191,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le Bleu Cerise</b><small>Cuisine française</small><p class="it-res">Carte variée de plats traditionnels (aussi à emporter)</p><small class="it-meta">📍 45 Rue de l&#x27;Hubac, Digne-les-Bains</small><small class="it-meta">🕒 &quot;Ouverture du lundi au samedi midi et soir sauf le jeudi soir et le dimanche&quot;</small><small class="it-meta">à emporter, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33631287459">+33 631287459</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Le%20Bleu%20Cerise/@44.09269,6.23571,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Les Marronniers</b><small>Pizzeria</small><small class="it-meta">📍 Avenue du Général de Gaulle, Mallemoisson</small><small class="it-meta">📞 <a href="tel:+33492613534">+33492613534</a></small></div><span class="it-liens"><a href="https://mapszi.com/business/brasserie-pizzeria-les-marronniers-0fYuiUUM" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Les%20Marronniers/@44.04124,6.1256,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🥡</div><div class="it-txt"><b>Asia Grill Wok</b><small>Cuisine asiatique</small><small class="it-meta">📍 Avenue Gutenberg, Digne-les-Bains</small><small class="it-meta">🕒 lun-sam 12:00-14:30,19:00-22:30 ; dim 12:00-14:30</small><small class="it-meta">accessible en fauteuil roulant</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Asia%20Grill%20Wok/@44.07543,6.18702,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Sisteron</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Au Romarin</b><small>Cuisine française</small><small class="it-meta">📍 103 Rue Saunerie, Sisteron</small><small class="it-meta">🕒 lun,mer-dim 12:00-22:00</small><small class="it-meta">options végétariennes</small><small class="it-meta">📞 <a href="tel:+33492348804">+33 4 92 34 88 04</a></small></div><span class="it-liens"><a href="https://restaurant-au-romarin.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Au%20Romarin/@44.19843,5.94495,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🥞</div><div class="it-txt"><b>Crêperie l&#x27;Akène</b><small>Crêperie</small><small class="it-meta">📍 67 Rue Saunerie, Sisteron</small><small class="it-meta">🕒 mer-dim 12:00-13:30,19:00-20:30</small><small class="it-meta">terrasse, options végétariennes, accessible en fauteuil roulant, réservation conseillée</small><small class="it-meta">📞 <a href="tel:+33492612039">+33 4 92 61 20 39</a></small></div><span class="it-liens"><a href="https://m.facebook.com/creperielakene/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Cr%C3%AAperie%20l%27Ak%C3%A8ne/@44.19816,5.9449,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le Brasero</b><small>Cuisine pâtes</small><small class="it-meta">📍 27 Rue Deleuze, Sisteron</small><small class="it-meta">🕒 lun-mar,jeu-dim 11:00-15:00,19:00-23:00 ; mer fermé</small><small class="it-meta">terrasse, options végétariennes, options véganes, accessible en fauteuil roulant, réservation conseillée</small><small class="it-meta">📞 <a href="tel:+33492615679">+33 4 92 61 56 79</a></small></div><span class="it-liens"><a href="https://restaurant-le-brasero.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Le%20Brasero/@44.19592,5.9436,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Sisteron</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Sisteron%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Sisteron</a></div></section><section><h2>Jour 2 : Sisteron à Grenoble</h2><p class="it-wait">144 km, 2 h 58 de conduite</p><div class="it-roads"><span><span class="it-road D">D1075</span> <small>93 km</small></span><span><span class="it-road D">D34</span> <small>16 km</small></span><span><span class="it-road D">D4085</span> <small>10 km</small></span><span><span class="it-road D">D22</span> <small>6 km</small></span><span><span class="it-road D">D253</span> <small>5 km</small></span><span><span class="it-road D">D526</span> <small>3 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🏰</div><div class="it-txt"><b>Château d&#x27;Arzeliers</b><small>Château</small><small class="it-meta">📍 Chemin du Castelet, Laragne-Montéglin</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20d%27Arzeliers/@44.34753,5.80933,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Isere_department_location_map.svg/langfr-330px-Isere_department_location_map.svg.png?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Espace Giono</b><small>Musée</small><p class="it-res">L&#x27;Espace Giono est un musée situé à Lalley dans le sud du département de l&#x27;Isère et la région Auvergne-Rhône-Alpes.</p><small class="it-meta">📍 Rue Hannibal, Lalley</small><small class="it-meta">entrée payante</small><small class="it-meta">📞 <a href="tel:+33476347823">+33 4 76 34 78 23</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Espace_Giono" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://lalley.fr/index.php/espace-giono/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Espace%20Giono/@44.75695,5.67635,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Caf%C3%A9_des_Arts%2C_Mens_%28Is%C3%A8re%29.jpg/330px-Caf%C3%A9_des_Arts%2C_Mens_%28Is%C3%A8re%29.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Café des Arts</b><small>Patrimoine</small><p class="it-res">Situé dans le centre du bourg de Mens, au sud du département de l&#x27;Isère, en région Auvergne-Rhône-Alpes, Le Café des Arts est un bar restaurant de cette petite ville de montagne qui a pu conserver son ancien cachet et ses…</p><small class="it-meta">📍 Rue Saint-Giraud, Mens</small><small class="it-meta">📞 <a href="tel:+33476346816">+33 4 76 34 68 16</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Caf%C3%A9_des_Arts_(Mens)" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Caf%C3%A9%20des%20Arts/@44.81811,5.75214,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Mus%C3%A9e_Champollion_de_Vif.jpg/330px-Mus%C3%A9e_Champollion_de_Vif.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Musée Champollion</b><small>Musée</small><p class="it-res">Le musée Champollion de Vif, aussi appelé maison Champollion ou le domaine des Ombrages, est un musée d&#x27;histoire du département de l&#x27;Isère situé dans la maison familiale de Jacques-Joseph Champollion, frère de l&#x27;égyptologue…</p><small class="it-meta">📍 45 Rue Champollion, Vif</small><small class="it-meta">entrée gratuite</small><small class="it-meta">📞 <a href="tel:+33457588850">+33 4 57 58 88 50</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Mus%C3%A9e_Champollion_(Vif)" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://musees.isere.fr/musee/musee-champollion-2021" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Mus%C3%A9e%20Champollion/@45.05337,5.6692,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le Chalet</b><small class="it-meta">📍 Route des Alpes, Saint-Maurice-en-Trièves</small><small class="it-meta">📞 <a href="tel:+33476347105">+33 476347105</a></small></div><span class="it-liens"><a href="https://lechaletentrieves.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Le%20Chalet/@44.76188,5.66252,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le Comptoir des Géants</b><small class="it-meta">📍 497 Rue de la Fonderie d&#x27;Or, Saint-Maurice-en-Trièves</small><small class="it-meta">📞 <a href="tel:+33456552278">+33456552278</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Le%20Comptoir%20des%20G%C3%A9ants/@44.76374,5.66525,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Auberge du Grand Champ</b><small class="it-meta">📍 113 Route du Col, Lalley</small><small class="it-meta">📞 <a href="tel:+33476342108">+33 4 76 34 21 08</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Auberge%20du%20Grand%20Champ/@44.75688,5.6763,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Grenoble</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍣</div><div class="it-txt"><b>Sushi Poké Salade</b><small>Cuisine japonaise</small><small class="it-meta">📍 5 Rue Paul Bert, Grenoble</small><small class="it-meta">🕒 mar,jeu,ven 11:00-14:00 ; sam,dim 11:00-14:30 ; jeu-mar 18:00-23:30</small><small class="it-meta">terrasse, options végétariennes, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33981758157">+33 9 81 75 81 57</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Sushi%20Pok%C3%A9%20Salade/@45.18823,5.72558,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍣</div><div class="it-txt"><b>Shun Bun</b><small>Sushi</small><small class="it-meta">📍 4 Cours Lafontaine, Grenoble</small><small class="it-meta">🕒 mar-sam 12:00-14:30,19:00-22:30</small><small class="it-meta">accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33983955741">+33 9 83 95 57 41</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Shun%20Bun/@45.18804,5.72592,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍣</div><div class="it-txt"><b>Wasabi</b><small>Cuisine japonaise</small><small class="it-meta">📍 7 Rue Thiers, Grenoble</small><small class="it-meta">🕒 mar-dim 11:30-14:30,18:30-22:00</small><small class="it-meta">📞 <a href="tel:+33476952604">+33476952604</a></small></div><span class="it-liens"><a href="https://www.owasabi.fr" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Wasabi/@45.18833,5.72221,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Grenoble</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Grenoble%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Grenoble</a></div></section>
+<section class="glass-box it-seo" style="margin:24px 0"><h2 style="margin-top:0">Questions fréquentes</h2><details><summary><b>Quelle est la distance de Grasse à Grenoble sans autoroute ?</b></summary><p>Environ 289 km, soit 5 h 49 de conduite et 2 jours à raison d&#x27;environ 4 h par jour. Par l&#x27;autoroute, le trajet fait 450 km en 4 h 23.</p></details><details><summary><b>Combien coûte le trajet de Grasse à Grenoble ?</b></summary><p>Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 30 € sans autoroute contre 94 € par l&#x27;autoroute (péages compris). Les repas, les visites et l&#x27;hébergement ne sont pas inclus.</p></details><details><summary><b>Où s&#x27;arrêter entre Grasse et Grenoble ?</b></summary><p>Les étapes proposées sont : Sisteron, Grenoble. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit.</p></details><details><summary><b>Y a-t-il des péages entre Grasse et Grenoble sans autoroute ?</b></summary><p>Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l&#x27;estimation.</p></details></section>
+
+<p class="it-note">Les lieux et restaurants viennent d'OpenStreetMap et de Wikipédia : vérifiez les horaires avant de partir. Itinéraire calculé avec <a href="https://openrouteservice.org/" target="_blank" rel="noopener">OpenRouteService</a>, lieux via <a href="https://www.geoapify.com/" target="_blank" rel="noopener">Geoapify</a>, données &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</p>
+
+
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+    <p>Nous utilisons des cookies pour mesurer l'audience du site (Google Analytics). Vous pouvez accepter ou refuser ce suivi. Voir notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+    <div class="cookie-actions">
+        <button class="cookie-refuse" onclick="setCookieConsent(false)">Refuser</button>
+        <button class="cookie-accept" onclick="setCookieConsent(true)">Accepter</button>
+    </div>
+</div>
+<script>
+(function() {
+    function setCookieConsent(accepted) {
+        localStorage.setItem('cookie_consent', accepted ? 'granted' : 'denied');
+        gtag('consent', 'update', {
+            'analytics_storage': accepted ? 'granted' : 'denied'
+        });
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+    window.setCookieConsent = setCookieConsent;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var saved = localStorage.getItem('cookie_consent');
+        if (saved === 'granted') {
+            gtag('consent', 'update', { 'analytics_storage': 'granted' });
+        } else if (saved === null) {
+            document.getElementById('cookie-banner').style.display = 'flex';
+        }
+        
+    });
+})();
+</script>
+
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <h3>Nomad</h3>
+            <p>Le compagnon de voyage qui vous aide à choisir plus vite et à partir plus serein.</p>
+        </div>
+        <div>
+            <h4>Explorer</h4>
+            <ul class="footer-links">
+                <li><a href="hotels.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
+                <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
+                <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
+                <li><a href="croisieres.html">Croisières</a></li>
+                <li><a href="itineraire-decouverte.html">Itinéraire découverte</a></li>
+                <li><a href="trajets-sans-autoroute.html">Trajets sans autoroute</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>À propos</h4>
+            <ul class="footer-links">
+                <li><a href="apropos.html">À propos de nous</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Conseils de voyage</a></li>
+                <li><a href="index.html#avis">Avis voyageurs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Votre retour compte</h4>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
+        <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
+    </div>
+</footer>
+
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const TR={"c": [[43.6589, 6.9222], [43.6609, 6.9221], [43.66, 6.9204], [43.6595, 6.9183], [43.6636, 6.9161], [43.6669, 6.9234], [43.6681, 6.9235], [43.6687, 6.9128], [43.6702, 6.9099], [43.6725, 6.9014], [43.6767, 6.903], [43.6785, 6.9024], [43.6796, 6.8955], [43.6837, 6.8864], [43.688, 6.8737], [43.6915, 6.8624], [43.6946, 6.8554], [43.6978, 6.8502], [43.6996, 6.8485], [43.7038, 6.8485], [43.7051, 6.8405], [43.7056, 6.8312], [43.7032, 6.8162], [43.7054, 6.8185], [43.7097, 6.8335], [43.7115, 6.844], [43.7146, 6.8515], [43.717, 6.8608], [43.7187, 6.8582], [43.7167, 6.846], [43.7178, 6.833], [43.7218, 6.8219], [43.7283, 6.8152], [43.7304, 6.8133], [43.7333, 6.8144], [43.7381, 6.8142], [43.7333, 6.8031], [43.73, 6.7928], [43.731, 6.7832], [43.7321, 6.7765], [43.7345, 6.7714], [43.7412, 6.765], [43.7419, 6.7597], [43.7444, 6.7517], [43.7459, 6.7483], [43.7461, 6.7428], [43.751, 6.7362], [43.7522, 6.7279], [43.7582, 6.7136], [43.7635, 6.711], [43.7706, 6.7045], [43.7719, 6.6904], [43.7638, 6.6659], [43.7632, 6.6573], [43.7669, 6.649], [43.7739, 6.6463], [43.7794, 6.6422], [43.7859, 6.6355], [43.7918, 6.6359], [43.7975, 6.6243], [43.8008, 6.6231], [43.8007, 6.6201], [43.8026, 6.6177], [43.8034, 6.6104], [43.8038, 6.5983], [43.805, 6.5966], [43.8062, 6.598], [43.8078, 6.5969], [43.8112, 6.5986], [43.8157, 6.5946], [43.814, 6.593], [43.8181, 6.5883], [43.822, 6.5836], [43.824, 6.5807], [43.8239, 6.5749], [43.8263, 6.5671], [43.8303, 6.5625], [43.8313, 6.5534], [43.835, 6.5476], [43.8391, 6.5452], [43.8421, 6.5467], [43.8438, 6.5431], [43.8426, 6.5392], [43.8437, 6.5342], [43.8435, 6.5219], [43.8459, 6.5132], [43.8482, 6.5106], [43.8517, 6.5077], [43.856, 6.4958], [43.8605, 6.4954], [43.8585, 6.4938], [43.86, 6.4898], [43.8604, 6.4913], [43.8618, 6.4928], [43.8666, 6.4912], [43.8616, 6.4898], [43.8645, 6.4897], [43.8672, 6.487], [43.8651, 6.487], [43.8642, 6.4856], [43.8639, 6.4837], [43.8664, 6.4768], [43.8686, 6.4711], [43.8683, 6.4673], [43.8651, 6.4665], [43.8665, 6.4592], [43.8657, 6.4569], [43.8682, 6.4529], [43.8745, 6.4446], [43.8779, 6.4443], [43.8798, 6.4417], [43.8829, 6.4399], [43.8833, 6.4384], [43.882, 6.4383], [43.8853, 6.438], [43.8876, 6.4323], [43.8888, 6.4341], [43.8923, 6.4227], [43.9014, 6.4186], [43.9085, 6.4165], [43.9139, 6.4133], [43.916, 6.409], [43.9274, 6.3975], [43.9405, 6.3825], [43.9509, 6.3676], [43.9559, 6.3617], [43.962, 6.3537], [43.9618, 6.3459], [43.9608, 6.3378], [43.9617, 6.3286], [43.9656, 6.3194], [43.9683, 6.3128], [43.9757, 6.3117], [43.9799, 6.3067], [43.9841, 6.3023], [43.9883, 6.2967], [43.9928, 6.2934], [43.9995, 6.2911], [44.0044, 6.2848], [44.0092, 6.2746], [44.0099, 6.2604], [44.012, 6.2535], [44.0168, 6.2508], [44.0159, 6.2348], [44.0122, 6.2214], [44.0108, 6.2146], [44.0144, 6.211], [44.0115, 6.2075], [44.0056, 6.2009], [44.0089, 6.198], [44.0108, 6.1888], [44.0166, 6.1791], [44.0225, 6.1775], [44.026, 6.1705], [44.0321, 6.1721], [44.0391, 6.1694], [44.0445, 6.1671], [44.0472, 6.1625], [44.0404, 6.1555], [44.0386, 6.1487], [44.0414, 6.1411], [44.0446, 6.1325], [44.0416, 6.1261], [44.0401, 6.124], [44.0371, 6.1148], [44.0329, 6.0934], [44.037, 6.0807], [44.0429, 6.0659], [44.0464, 6.0463], [44.0461, 6.0406], [44.0473, 6.0269], [44.053, 6.0216], [44.0657, 6.0216], [44.0807, 6.0172], [44.086, 6.0198], [44.0945, 6.0232], [44.1002, 6.0235], [44.1022, 6.0234], [44.1082, 6.0154], [44.1119, 6.0117], [44.1199, 6.0047], [44.1268, 5.9989], [44.1314, 5.9906], [44.137, 5.9861], [44.142, 5.9866], [44.1468, 5.9819], [44.1608, 5.9661], [44.1706, 5.9581], [44.1737, 5.9549], [44.1871, 5.9558], [44.1961, 5.9507], [44.1996, 5.945], [44.201, 5.9399], [44.2101, 5.9292], [44.2239, 5.9142], [44.2259, 5.9166], [44.2371, 5.9144], [44.2523, 5.9087], [44.2824, 5.8986], [44.2903, 5.8975], [44.295, 5.8956], [44.3046, 5.8876], [44.3039, 5.8783], [44.3081, 5.8697], [44.3073, 5.8578], [44.3129, 5.8436], [44.3136, 5.8324], [44.3138, 5.8272], [44.3143, 5.8235], [44.3151, 5.8192], [44.3173, 5.8137], [44.3256, 5.7931], [44.3357, 5.7829], [44.3433, 5.7752], [44.3462, 5.7709], [44.3573, 5.7641], [44.375, 5.7503], [44.3794, 5.7426], [44.3858, 5.7433], [44.4001, 5.734], [44.4104, 5.7265], [44.4199, 5.7198], [44.4275, 5.7184], [44.4314, 5.7186], [44.4311, 5.7164], [44.4359, 5.7131], [44.4441, 5.7173], [44.4491, 5.7245], [44.4588, 5.7255], [44.4752, 5.7265], [44.4919, 5.7282], [44.499, 5.7306], [44.515, 5.7434], [44.5206, 5.7513], [44.5231, 5.7564], [44.5279, 5.7653], [44.5408, 5.7784], [44.5487, 5.778], [44.5519, 5.7738], [44.5555, 5.7673], [44.564, 5.7602], [44.5672, 5.7486], [44.5671, 5.739], [44.5722, 5.7332], [44.5883, 5.7212], [44.5938, 5.7153], [44.6123, 5.7081], [44.6174, 5.7064], [44.6351, 5.6959], [44.6443, 5.7016], [44.6508, 5.6972], [44.6595, 5.6946], [44.6693, 5.6983], [44.6733, 5.6982], [44.6801, 5.693], [44.6876, 5.6885], [44.6986, 5.6826], [44.7085, 5.6774], [44.7146, 5.6768], [44.727, 5.6779], [44.7324, 5.6796], [44.7354, 5.6811], [44.7385, 5.6783], [44.7438, 5.6815], [44.7483, 5.6775], [44.7538, 5.669], [44.7573, 5.6678], [44.7599, 5.6678], [44.7618, 5.6618], [44.7653, 5.6641], [44.773, 5.6693], [44.7748, 5.6679], [44.777, 5.6697], [44.7803, 5.6735], [44.7845, 5.68], [44.7844, 5.6815], [44.786, 5.6828], [44.7856, 5.6868], [44.7893, 5.6926], [44.7934, 5.6935], [44.8029, 5.6953], [44.8042, 5.6968], [44.8072, 5.6971], [44.8085, 5.7001], [44.8122, 5.6923], [44.8148, 5.6875], [44.8191, 5.6777], [44.8225, 5.6732], [44.8264, 5.6713], [44.8298, 5.6721], [44.8332, 5.6748], [44.8373, 5.6732], [44.8394, 5.6722], [44.8483, 5.6718], [44.8536, 5.6712], [44.8576, 5.676], [44.8585, 5.6819], [44.8606, 5.6817], [44.8649, 5.6773], [44.8672, 5.6766], [44.8687, 5.6682], [44.8693, 5.6685], [44.8703, 5.6668], [44.8695, 5.6625], [44.87, 5.6581], [44.8727, 5.6553], [44.8739, 5.6501], [44.8791, 5.6488], [44.8846, 5.6451], [44.8867, 5.6386], [44.8931, 5.6353], [44.8976, 5.6318], [44.8979, 5.6297], [44.9015, 5.6283], [44.9041, 5.6275], [44.9076, 5.6279], [44.9121, 5.6321], [44.9162, 5.634], [44.9206, 5.635], [44.9248, 5.6377], [44.9293, 5.6395], [44.9406, 5.6407], [44.9459, 5.6405], [44.9522, 5.6403], [44.955, 5.6402], [44.9622, 5.6363], [44.9635, 5.6381], [44.9691, 5.6384], [44.9778, 5.6442], [44.988, 5.6486], [44.9942, 5.6508], [45.0112, 5.6576], [45.022, 5.6611], [45.0309, 5.6642], [45.0342, 5.662], [45.0357, 5.6682], [45.0399, 5.6714], [45.0471, 5.6682], [45.0502, 5.6713], [45.0532, 5.6777], [45.0581, 5.6832], [45.0631, 5.6764], [45.066, 5.6732], [45.0734, 5.6775], [45.0853, 5.6823], [45.0934, 5.6839], [45.0992, 5.6845], [45.1061, 5.6869], [45.1136, 5.6898], [45.1188, 5.6937], [45.1232, 5.6978], [45.1301, 5.6996], [45.1405, 5.7031], [45.1539, 5.7076], [45.1642, 5.7111], [45.1698, 5.713], [45.1795, 5.7163], [45.1835, 5.7197], [45.1873, 5.7239], [45.1884, 5.7243]], "n": [[44.19635, 5.94438, "Nuit 1 : Sisteron"], [45.1885, 5.7245, "Nuit 2 : Grenoble"]], "v": [[43.69429, 6.67067, "Dolmen de Saint-Marcelin"], [43.81492, 6.55404, "Notre-Dame d'Eoulx"], [44.08156, 6.224, "Samten Dzong"], [44.06335, 5.97191, "Monument aux Morts"], [44.34753, 5.80933, "Château d'Arzeliers"], [44.75695, 5.67635, "Espace Giono"], [44.81811, 5.75214, "Café des Arts"], [45.05337, 5.6692, "Musée Champollion"]]};
+const map=L.map("itMap");
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"&copy; OpenStreetMap"}).addTo(map);
+const ligne=L.polyline(TR.c,{color:"#075985",weight:5}).addTo(map);
+TR.n.slice(0,-1).forEach(p=>L.marker([p[0],p[1]]).addTo(map).bindPopup(p[2]));
+TR.v.forEach(p=>L.circleMarker([p[0],p[1]],{radius:6,color:"#c8322b",weight:2,fillColor:"#fff",fillOpacity:1}).addTo(map).bindPopup(p[2]));
+map.fitBounds(ligne.getBounds().pad(0.1));
+</script>
+</body>
+</html>

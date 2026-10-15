@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lyon Barcelone sans autoroute : itinéraire, étapes et coût | MyHotelCompare</title>
+<meta name="description" content="Lyon Barcelone sans autoroute : 705 km, 4 jours, 45 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<link rel="canonical" href="https://myhotelcompare.com/lyon-barcelone-sans-autoroute.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Lyon Barcelone sans autoroute : itinéraire, étapes et coût">
+<meta property="og:description" content="Lyon Barcelone sans autoroute : 705 km, 4 jours, 45 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<meta property="og:url" content="https://myhotelcompare.com/lyon-barcelone-sans-autoroute.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Quelle est la distance de Lyon à Barcelone sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Environ 705 km, soit 13 h 09 de conduite et 4 jours à raison d'environ 4 h par jour. Par l'autoroute, le trajet fait 640 km en 6 h 24."}}, {"@type": "Question", "name": "Combien coûte le trajet de Lyon à Barcelone ?", "acceptedAnswer": {"@type": "Answer", "text": "Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 72 € sans autoroute contre 124 € par l'autoroute (péages compris). Les repas, les visites et l'hébergement ne sont pas inclus."}}, {"@type": "Question", "name": "Où s'arrêter entre Lyon et Barcelone ?", "acceptedAnswer": {"@type": "Answer", "text": "Les étapes proposées sont : La Panouse, Faugères, Figueres, Barcelone. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit."}}, {"@type": "Question", "name": "Y a-t-il des péages entre Lyon et Barcelone sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l'estimation."}}]}</script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<!-- Google Consent Mode v2 : refus par défaut tant que l'utilisateur n'a pas choisi -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLVNV2211J"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RLVNV2211J');
+</script>
+
+<link rel="icon" type="image/png" href="images/logo_5.png?v=2">
+<link rel="apple-touch-icon" href="images/logo_5.png?v=2">
+<style>
+:root {
+    --bg: #f2fbfd;
+    --bg-dark: #063247;
+    --panel: #e5f5f8;
+    --panel-strong: #c7eaf0;
+    --card: #ffffff;
+    --line: #b9dfe7;
+    --text: #123443;
+    --muted: #52717c;
+    --primary: #087f9b;
+    --primary-dark: #056078;
+    --secondary: #075985;
+    --success: #16805b;
+    --success-soft: #d7f4e7;
+    --warning: #e59a21;
+    --shadow: 0 18px 38px rgba(5, 96, 120, 0.14);
+}
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #f4fcfd 0%, #e7f6f8 100%);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px 16px 40px;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.site-header { margin-bottom: 24px; }
+.brand-lockup { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 18px; color: var(--text); }
+.brand-mark { width: 58px; height: 58px; object-fit: contain; border-radius: 16px; background: var(--panel-strong); padding: 5px; }
+.brand-lockup strong { display: block; color: var(--secondary); font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1; }
+.brand-lockup span { display: block; color: var(--muted); margin-top: 5px; font-size: 0.88rem; }
+h1, h2, h3, h4 { color: var(--text); }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; }
+a { color: var(--secondary); }
+.site-footer { margin-top: 48px; background: linear-gradient(135deg, #063247, #075985); color: #effcff; border-radius: 22px; padding: 30px; box-shadow: var(--shadow); }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 28px; }
+.site-footer h3, .site-footer h4 { color: #b8f0f6; margin-top: 0; }
+.site-footer p, .site-footer li { color: #d6eef2; line-height: 1.6; }
+.site-footer a { color: #b8f0f6; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+.footer-links { list-style: none; padding: 0; margin: 0; }
+.footer-links li { margin-bottom: 8px; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.18); margin-top: 24px; padding-top: 18px; display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; font-size: 0.85rem; }
+.footer-bottom p { margin: 0; }
+@media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } .brand-lockup { justify-content: flex-start; } }
+.top-nav {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    background: linear-gradient(135deg, var(--secondary), var(--primary-dark));
+    padding: 14px 18px; border-radius: 18px; margin: 6px 0 22px;
+    box-shadow: var(--shadow); justify-content: center;
+}
+.top-nav a {
+    color: white; background: rgba(255,255,255,0.12);
+    padding: 10px 16px; border-radius: 12px; text-decoration: none;
+    font-weight: 700; border: 1px solid rgba(255,255,255,0.15);
+}
+.top-nav a:hover { background: rgba(255,255,255,0.2); }
+.card {
+    background: linear-gradient(180deg, #fffefb 0%, #fff8ef 100%);
+    border: 1px solid var(--line); border-radius: 20px;
+    padding: 24px; margin-bottom: 22px; box-shadow: var(--shadow);
+}
+.btn, .btn-booking, .btn-expedia {
+    display: inline-block; text-decoration: none; border-radius: 12px;
+    font-weight: 700; transition: transform 0.2s ease; cursor: pointer;
+}
+.btn:hover, .btn-booking:hover, .btn-expedia:hover { transform: translateY(-1px); }
+.btn { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 18px; }
+.btn-booking { display: block; background: linear-gradient(135deg, #0f3d85, #1d5bbf); color: white; padding: 12px 16px; text-align: center; margin-bottom: 10px; }
+.btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
+.btn-site-officiel { display: block; background: linear-gradient(135deg, var(--secondary), var(--primary-dark)); color: white; padding: 12px 16px; text-align: center; }
+.hero-banner {
+    background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
+    border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
+}
+.hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 18px; }
+.hero-badges span {
+    background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.24); color: #f2fdff; border-radius: 999px; padding: 7px 12px; font-weight: 700; font-size: 0.82rem;
+}
+.glass-box { background: rgba(255,255,255,0.72); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+.filters-box {
+    background: linear-gradient(180deg, #e3f5f8 0%, #f8fdfe 100%);
+    border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 24px 0 18px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; box-shadow: var(--shadow);
+}
+.filters-box label { color: var(--muted); display: block; margin-bottom: 8px; font-weight: 700; }
+.filters-box select {
+    width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--text); font-size: 0.97rem;
+}
+.btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
+.comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.smart-results-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.smart-results-grid .card { margin-bottom: 0; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
+.review-card {
+    background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
+    border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
+}
+.review-card .stars { color: var(--warning); font-size: 1.1rem; letter-spacing: 2px; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 16px; margin-top: 18px; }
+.stat-item { background: rgba(255,255,255,0.5); border: 1px solid rgba(130,90,20,0.15); border-radius: 16px; padding: 18px; }
+.stat-item strong { display: block; font-size: 1.5rem; }
+.testimonial-section > h2 { color: var(--text) !important; }
+.testimonial-section > div > div { background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%) !important; border-color: var(--line) !important; }
+.testimonial-section > div > div p { color: var(--muted) !important; }
+.testimonial-section > div > div p:first-child { color: var(--warning) !important; }
+.testimonial-section > div > div p strong { color: var(--text) !important; }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 1000px) { .smart-results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .smart-results-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+.cookie-banner {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+    background: #063247; color: #effcff; padding: 18px 20px;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+    gap: 16px; box-shadow: 0 -8px 24px rgba(0,0,0,0.25);
+}
+.cookie-banner p { margin: 0; max-width: 640px; font-size: 0.92rem; line-height: 1.5; }
+.cookie-banner a { color: #b8f0f6; }
+.cookie-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie-actions button {
+    border: none; border-radius: 10px; padding: 10px 18px; font-weight: 700; cursor: pointer;
+}
+.cookie-accept { background: var(--primary); color: white; }
+.cookie-refuse { background: rgba(255,255,255,0.15); color: white; }
+.fiche-photo-carte { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0; align-items: stretch; }
+.fiche-photo-carte img, .fiche-photo-carte iframe { width: 100%; height: 260px; object-fit: cover; border-radius: 16px; border: 0; }
+@media (max-width: 600px) { .fiche-photo-carte { grid-template-columns: 1fr; } .fiche-photo-carte img, .fiche-photo-carte iframe { height: 220px; } }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 20px; }
+.btn-itineraire {
+    display: inline-block; padding: 14px 24px; border-radius: 14px; font-weight: 800;
+    background: rgba(255,255,255,0.14); color: #fff; text-decoration: none;
+    border: 1.5px solid rgba(255,255,255,0.6);
+}
+.btn-itineraire:hover { background: rgba(255,255,255,0.26); }
+.btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+</style>
+
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrld.ltd/NTcxODA1.js?t=571805';
+      document.head.appendChild(script);
+  })();
+</script>
+
+<style>
+.it-road{display:inline-block;min-width:36px;text-align:center;padding:0 7px;border-radius:5px;font-weight:800;font-size:.8rem;line-height:22px}
+.it-road.N{background:#c8322b;color:#fff}
+.it-road.D{background:#f2c230;color:#123443;box-shadow:inset 0 0 0 2px #123443}
+.it-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:24px 0;align-items:end}
+.it-form label{display:block;font-weight:700;color:var(--muted);margin-bottom:6px}
+.it-form input,.it-form select{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--text);font-size:.97rem}
+.it-msg{padding:12px 16px;border-radius:12px;margin-bottom:18px;font-weight:600}
+.it-msg.err{background:#fde8e6;color:#9a2a22}.it-msg.info{background:var(--panel);color:var(--secondary)}
+#itRes{display:none}
+.it-cmp{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 14px}
+.it-cmp .glass-box.win{border:2px solid var(--success)}
+.it-cmp h2{font-size:1.15rem;margin:0 0 10px}
+.it-row{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid var(--line)}
+.it-row:last-child{border:0}
+.it-save{background:var(--success-soft);color:var(--success);border-radius:12px;padding:12px 16px;font-weight:700;margin-bottom:8px}
+.it-note{color:var(--muted);font-size:.85rem;margin:0 0 22px}
+#itMap{height:380px;border-radius:16px;margin-bottom:22px;box-shadow:var(--shadow)}
+.it-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.it-tab{font:inherit;font-weight:700;cursor:pointer;background:#fff;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:9px 18px}
+.it-tab[aria-selected=true]{background:var(--secondary);color:#fff;border-color:var(--secondary)}
+.it-tab:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+.it-dayhead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.it-dayhead h2{margin:0;font-size:1.4rem}
+.it-dayhead span{color:var(--muted)}
+.it-roads{display:flex;gap:10px 14px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+.it-roads small{color:var(--muted)}
+.it-bloc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:14px}
+.it-bloc h3{margin:0 0 8px;font-size:1.05rem}
+.it-lieux{list-style:none;margin:0;padding:0}
+.it-lieu{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
+.it-lieu:last-child{border:0}
+.it-lieu small{display:block;color:var(--muted)}
+.it-vig{flex:0 0 76px;width:76px;height:76px;border-radius:12px;overflow:hidden;background:var(--panel);display:flex;align-items:center;justify-content:center;font-size:2rem}
+.it-vig img{width:100%;height:100%;object-fit:cover;display:block}
+.it-txt{flex:1;min-width:0}
+.it-res{margin:4px 0 2px;font-size:.9rem;line-height:1.45}
+.it-meta{margin-top:2px;font-size:.82rem}
+.it-liens{display:flex;gap:12px;flex-wrap:wrap;align-self:center}
+.it-liens a{font-weight:700;white-space:nowrap}
+.it-wait{color:var(--muted);margin:0}
+.it-budget{margin-bottom:22px}
+.it-bt{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:8px 12px;align-items:center}
+.it-bt .fort{font-weight:800;border-top:1px solid var(--line);padding-top:8px}
+.it-bt small{color:var(--muted)}
+.it-btn.s{background:var(--secondary);color:#fff;border:0;cursor:pointer;font-family:inherit}
+.it-share-msg{align-self:center;color:var(--success);font-weight:700}
+.it-urlcopy{width:100%;max-width:440px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:.85rem}
+.it-all{margin-bottom:18px}
+.it-all p{margin:6px 0 0}
+.it-gps{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px}
+.it-btn{display:inline-block;padding:10px 16px;border-radius:12px;font-weight:700;text-decoration:none;font-size:.95rem}
+.it-btn.g{background:#1a73e8;color:#fff}
+.it-btn.w{background:#33ccff;color:#06364a}
+.it-btn:hover{filter:brightness(.95)}
+.it-btn:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+@media (max-width:620px){.it-cmp{grid-template-columns:1fr}.it-lieu{flex-wrap:wrap}.it-liens{flex-basis:100%;align-self:flex-start}}
+
+.tj-cmp .glass-box h2{margin-top:0}
+.tj-fil{font-size:.9rem;color:var(--muted);margin:0 0 10px}
+</style>
+</head>
+<body><div class="container">
+
+<header class="site-header">
+<div class="brand-lockup">
+    <img src="images/logo_5.svg" alt="Nomad" class="brand-mark">
+    <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
+</div>
+<div class="top-nav">
+    <a href="index.html">Accueil</a>
+    <a href="hotels.html">Hôtels</a>
+    <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
+    <a href="loueurs-vehicules.html">Location de Véhicules</a>
+    <a href="croisieres.html">Croisières</a>
+    <a href="itineraire-decouverte.html">Itinéraires</a>
+    <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
+</div>
+</header>
+
+<p class="tj-fil"><a href="index.html">Accueil</a> &gt; <a href="trajets-sans-autoroute.html">Trajets sans autoroute</a> &gt; Lyon Barcelone</p>
+<div class="hero-banner">
+  <h1 style="color:#fff;margin:0 0 10px;font-size:clamp(1.6rem,3.6vw,2.4rem)">Lyon Barcelone sans autoroute : itinéraire, étapes et coût</h1>
+  <p style="margin:0;max-width:760px;line-height:1.7;color:#effcff">Pour aller de Lyon à Barcelone sans autoroute, comptez environ 705 km et 13 h 09 de conduite, soit 4 jours à raison d&#x27;environ 4 h de route par jour. Par l&#x27;autoroute, le même trajet fait 640 km en 6 h 24, avec environ 45 € de péages estimés.</p>
+</div>
+<p style="line-height:1.7">En évitant l&#x27;autoroute, vous économisez environ 52 € sur la route (péages et carburant), pour environ 6 h 45 de trajet en plus. Les routes les plus empruntées sont la N88 (86 km), la D6009 (52 km), la D900 (47 km). </p>
+<section class="it-cmp tj-cmp" aria-label="Comparatif avec l'autoroute">
+  <div class="glass-box"><h2>Par l'autoroute</h2><div class="it-row"><span>Distance</span><b>640 km</b></div><div class="it-row"><span>Temps de conduite</span><b>6 h 24</b></div><div class="it-row"><span>Péages</span><b>45 €</b></div><div class="it-row"><span>Carburant</span><b>79 €</b></div><div class="it-row"><span>Total route</span><b>124 €</b></div></div>
+  <div class="glass-box win"><h2>Parcours découverte</h2><div class="it-row"><span>Distance</span><b>705 km</b></div><div class="it-row"><span>Temps de conduite</span><b>13 h 09</b></div><div class="it-row"><span>Péages</span><b>0 €</b></div><div class="it-row"><span>Carburant</span><b>72 €</b></div><div class="it-row"><span>Total route</span><b>72 €</b></div></div>
+</section>
+<p class="it-note">Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, péage à 0,10 €/km sur les tronçons à péage. Montants indicatifs, mis à jour le 15 octobre 2026.</p>
+<p><a class="btn-compare" style="display:inline-block;text-decoration:none;width:auto;padding:14px 24px" href="itineraire-decouverte.html?d=Lyon+%28France%29&amp;dc=4.8357%2C45.764&amp;dp=France&amp;a=Barcelone+%28Espagne%29&amp;ac=2.1734%2C41.3851&amp;ap=Espagne&amp;r=4&amp;v=th&amp;c=6&amp;p=1.8&amp;n=2&amp;m=45&amp;utm_source=pages-trajets&amp;utm_medium=site&amp;utm_campaign=trajet">Calculer avec mon véhicule</a></p>
+<div id="itMap"></div>
+<section><h2>Jour 1 : Lyon à La Panouse</h2><p class="it-wait">185 km, 3 h 23 de conduite</p><div class="it-roads"><span><span class="it-road N">N88</span> <small>86 km</small></span><span><span class="it-road D">D342</span> <small>15 km</small></span><span><span class="it-road D">D5</span> <small>15 km</small></span><span><span class="it-road D">D31</span> <small>15 km</small></span><span><span class="it-road D">D88</span> <small>8 km</small></span><span><span class="it-road D">D33</span> <small>5 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Chassagny%2C_ch%C3%A2teau.jpg?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château de Chassagny</b><small>Château</small><small class="it-meta">📍 Route de la Chaudane, Beauvallon</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20de%20Chassagny/@45.60487,4.73646,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Croix_Cleyssac_43_vue_sud-ouest.jpg/330px-Croix_Cleyssac_43_vue_sud-ouest.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Croix du 15e siècle en pierre à Cleyssac</b><small>Patrimoine</small><p class="it-res">La croix du Cleyssac est une croix monumentale située à Malrevers, en France.</p><small class="it-meta">📍 Impasse de la Croix de Cleyssac, Malrevers</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Croix_de_Cleyssac" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Croix%20du%2015e%20si%C3%A8cle%20en%20pierre%20%C3%A0%20Cleyssac/@45.10858,3.97006,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Couvent_des_Clarisses_%28entr%C3%A9e_rue_Sainte-Claire%29.jpg/330px-Couvent_des_Clarisses_%28entr%C3%A9e_rue_Sainte-Claire%29.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Couvent de Sainte-Claire</b><small>Abbaye</small><p class="it-res">Le couvent Sainte-Claire du Puy-en-Velay est un monument situé dans la ville du Puy-en-Velay dans le département français de la Haute-Loire.</p><small class="it-meta">📍 Rue Traversière du Bac, Le Puy-en-Velay</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Couvent_Sainte-Claire_du_Puy-en-Velay" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Couvent%20de%20Sainte-Claire/@45.04445,3.88844,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Rauret_%28Haute-Loire%2C_Fr%29_-_ch%C3%A2teau_de_Jonch%C3%A8res_%28ruines%29_%C3%A0_Joncherette.JPG/330px-Rauret_%28Haute-Loire%2C_Fr%29_-_ch%C3%A2teau_de_Jonch%C3%A8res_%28ruines%29_%C3%A0_Joncherette.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château de Jonchères</b><small>Château</small><p class="it-res">Le château de Jonchères est situé sur la commune de Rauret, dans le département de la Haute-Loire.</p><small class="it-meta">📍 Route de l&#x27;Allier, Rauret</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Jonch%C3%A8res" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20de%20Jonch%C3%A8res/@44.79234,3.78979,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Restaurant du Col</b><small>Cuisine française</small><small class="it-meta">📍 Route du Velay, Le Pertuis</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Restaurant%20du%20Col/@45.09672,4.0589,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>L&#x27;Auberge de Marliou</b><small>Cuisine française</small><small class="it-meta">📍 Route de Marliou, Queyrières</small></div><span class="it-liens"><a href="http://aubergedemarliou.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/L%27Auberge%20de%20Marliou/@45.08611,4.10412,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le Meygal</b><small>Cuisine régionale</small><small class="it-meta">📍 Route du Puy, Saint-Hostien</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Le%20Meygal/@45.07361,4.04785,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à La Panouse</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Restaurant</b><small class="it-meta">📍 Route du Pont Neuf, Saint-Denis-en-Margeride</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Restaurant/@44.7355,3.47179,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Chez Daudet</b><small class="it-meta">📍 Rue du Souvenir, Grandrieu</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Chez%20Daudet/@44.78381,3.63427,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Laurès</b><small class="it-meta">📍 Avenue Principale, Grandrieu</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Laur%C3%A8s/@44.78571,3.63337,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à La Panouse</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=La%20Panouse%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à La Panouse</a></div></section><section><h2>Jour 2 : La Panouse à Faugères</h2><p class="it-wait">193 km, 3 h 16 de conduite</p><div class="it-roads"><span><span class="it-road D">D986</span> <small>37 km</small></span><span><span class="it-road D">D991</span> <small>19 km</small></span><span><span class="it-road D">D35</span> <small>16 km</small></span><span><span class="it-road D">D806</span> <small>14 km</small></span><span><span class="it-road D">D584</span> <small>13 km</small></span><span><span class="it-road D">D59</span> <small>13 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🏰</div><div class="it-txt"><b>Domaine du château de Combettes</b><small>Château</small><p class="it-res">Le château de Combettes est un château situé à Estables sur la commune de Monts-de-Randon, dans le département de la Lozère, en France.</p><small class="it-meta">📍 D 34, Monts-de-Randon</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Combettes_(Estables)" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA)</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Domaine%20du%20ch%C3%A2teau%20de%20Combettes/@44.69562,3.48486,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🏰</div><div class="it-txt"><b>Domaine de Cougoussac</b><small>Château</small><p class="it-res">Le château de Cougoussac est un château situé sur la commune française de Gabrias, en Lozère. Le domaine de Cougoussac est inscrit Monument historique depuis 1986.</p><small class="it-meta">📍 Route de Cougoussac, Gabrias</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Cougoussac" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA)</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Domaine%20de%20Cougoussac/@44.56848,3.38053,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Grand_trail_des_Templiers_2014-_Saint-Jean_de_Balmes_857.jpg/330px-Grand_trail_des_Templiers_2014-_Saint-Jean_de_Balmes_857.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Prieuré de Saint-Jean-de-Balmes</b><small>Abbaye</small><p class="it-res">Le prieuré de Saint-Jean-de-Balmes est un prieuré situé en France sur la commune de Veyreau, dans le département de l&#x27;Aveyron en région Midi-Pyrénées.</p><small class="it-meta">📍 Route du Causse Noir, Veyreau</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Prieur%C3%A9_de_Saint-Jean-de-Balmes" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Prieur%C3%A9%20de%20Saint-Jean-de-Balmes/@44.1727,3.24692,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🏰</div><div class="it-txt"><b>Château de Sorbs</b><small>Château</small><small class="it-meta">📍 Chemin des Faïsses, Sorbs</small></div><span class="it-liens"><a href="https://patrimoine-de-france.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20de%20Sorbs/@43.89273,3.40739,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🥩</div><div class="it-txt"><b>Ferme du Maubert</b><small>Cuisine grill</small><small class="it-meta">📍 D 110, La Roque-Sainte-Marguerite</small><small class="it-meta">📞 <a href="tel:+33789614970">+33789614970</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ferme%20du%20Maubert/@44.14692,3.19827,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Capluc Kfé</b><small>Cuisine française</small><small class="it-meta">📍 Pont de la Jonte, Le Rozier</small><small class="it-meta">🕒 lun 10:00-15:00 ; mer-dim 10:00-15:00,17:00-23:00</small><small class="it-meta">options végétariennes</small><small class="it-meta">📞 <a href="tel:+33977990586">+33 9 77 99 05 86</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Capluc%20Kf%C3%A9/@44.19029,3.20962,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Entre Tarn et Jonte</b><small>Pizzeria</small><small class="it-meta">📍 Route de Florac, Le Rozier</small><small class="it-meta">🕒 jeu-dim 17:00-21:00</small><small class="it-meta">options végétariennes</small><small class="it-meta">📞 <a href="tel:+33644199626">+33 6 44 19 96 26</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Entre%20Tarn%20et%20Jonte/@44.19116,3.20752,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Faugères</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>L&#x27;Ocre Rouge</b><small>Cuisine regional et gastronomique</small><small class="it-meta">📍 12 Rue Jean Moulin, Hérépian</small><small class="it-meta">📞 <a href="tel:+33467950693">+33 4 67 95 06 93</a></small></div><span class="it-liens"><a href="http://www.locrerouge.fr" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/L%27Ocre%20Rouge/@43.5926,3.11655,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Damejane</b><small class="it-meta">📍 880 Route de Pézenas, Faugères</small><small class="it-meta">🕒 jeu-dim 09:00-17:00 ; 09:00-17:00 ; jours fériés closed</small><small class="it-meta">terrasse, à emporter, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33637647622">+33 6 37 64 76 22</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Damejane/@43.56452,3.18945,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>La Forge</b><small class="it-meta">📍 22 Impasse de la Fonderie, Bédarieux</small><small class="it-meta">📞 <a href="tel:+33467951313">+33 4 67 95 13 13</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/La%20Forge/@43.61774,3.15577,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Faugères</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Faug%C3%A8res%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Faugères</a></div></section><section><h2>Jour 3 : Faugères à Figueres</h2><p class="it-wait">176 km, 3 h 02 de conduite</p><div class="it-roads"><span><span class="it-road D">D6009</span> <small>52 km</small></span><span><span class="it-road D">D900</span> <small>47 km</small></span><span><span class="it-road D">D909</span> <small>27 km</small></span><span><span class="it-road D">D609</span> <small>11 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Roman_Horreum%2C_Narbonne_%2819347913742%29.jpg/330px-Roman_Horreum%2C_Narbonne_%2819347913742%29.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Horreum Romain</b><small>Musée</small><p class="it-res">L’Horreum est un monument romain situé à Narbonne en cœur de ville, à une centaine de mètres au nord du Palais des archevêques. Le site est classé Monument historique depuis 1960 et 1961.</p><small class="it-meta">📍 7 Rue Rouget de Lisle, Narbonne</small><small class="it-meta">🕒 mar-dim 10:00-13:00,14:00-18:00</small><small class="it-meta">entrée payante</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Horreum_de_Narbonne" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.narbonne.fr/fr_horreum-romain" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Horreum%20Romain/@43.18578,3.00463,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://upload.wikimedia.org/wikipedia/commons/7/75/M%C3%A9morial_du_camp_de_Rivesaltes.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail_unscaled" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Mémorial du Camp de Rivesaltes</b><small>Musée</small><p class="it-res">Le Mémorial du Camp de Rivesaltes, situé sur les communes de Rivesaltes et Salses-le-Château dans les Pyrénées-Orientales en France, rend hommage aux personnes incarcérées ou hébergées dans ce camp au gré des événements…</p><small class="it-meta">📍 Avenue Christian Bourquin, Rivesaltes</small><small class="it-meta">🕒 Apr-Oct 10:00-18:00 ; Nov-Mar dim-ven 10:00-18:00 ; Jan 01,May 01,Nov 01,Dec 25 fermé</small><small class="it-meta">📞 <a href="tel:+33468083970">+33 4 68 08 39 70</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/M%C3%A9morial_du_Camp_de_Rivesaltes" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.memorialcamprivesaltes.eu" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/M%C3%A9morial%20du%20Camp%20de%20Rivesaltes/@42.80941,2.89284,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Vue_du_palais_des_rois_de_Majorque_depuis_ses_jardins_en_2021_%28Perpignan_-_France%29.jpg/330px-Vue_du_palais_des_rois_de_Majorque_depuis_ses_jardins_en_2021_%28Perpignan_-_France%29.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Palais des Rois de Majorque</b><small>Château</small><p class="it-res">Datant du dernier tiers du XIIIe siècle, le palais des rois de Majorque est édifié à Perpignan pour accueillir la cour du royaume de Majorque.</p><small class="it-meta">📍 Rue Jacques 1er, Perpignan</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Palais_des_rois_de_Majorque" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Palais%20des%20Rois%20de%20Majorque/@42.6939,2.89607,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Bellegarde_jcb.jpg/330px-Bellegarde_jcb.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Fort de Bellegarde</b><small>Château</small><p class="it-res">Le fort de Bellegarde est une fortification du XVIIe siècle située à la frontière entre la France et l&#x27;Espagne, au-dessus de la ville du Perthus, dans les Pyrénées-Orientales.</p><small class="it-meta">📍 Pont Levis, Le Perthus</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Fort_de_Bellegarde" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Fort%20de%20Bellegarde/@42.45856,2.85921,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/France_location_map-Regions_and_departements-2016.svg/langfr-330px-France_location_map-Regions_and_departements-2016.svg.png?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Café de La Loge</b><p class="it-res">Le Café de la Loge est un café-restaurant situé à Salses-le-Château, dans les Pyrénées-Orientales. Construit au XIXe siècle, il se distingue par sa décoration intérieure.</p><small class="it-meta">📍 38 Avenue Xavier Llobères, Salses-le-Château</small><small class="it-meta">📞 <a href="tel:+33468386286">+33 4 68 38 62 86</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Caf%C3%A9_de_la_Loge" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="http://lalogesalses.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Caf%C3%A9%20de%20La%20Loge/@42.83408,2.91957,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>La Boca du Chât’ô</b><small>Cuisine française</small><small class="it-meta">📍 21 Avenue Armand Claret, Salses-le-Château</small><small class="it-meta">🕒 lun-ven 12:00-15:00 ; sam-dim 12:00-15:00, 18:00-22:00</small><small class="it-meta">📞 <a href="tel:+33468387855">+33 4 68 38 78 55</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/La%20Boca%20du%20Ch%C3%A2t%E2%80%99%C3%B4/@42.83591,2.91995,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Restaurant du Fort de Salses</b><small>Cuisine espagnole</small><small class="it-meta">📍 D 900, Salses-le-Château</small><small class="it-meta">🕒 mer-lun 12:00-13:45</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+33468387072">+33 4 68 38 70 72</a></small></div><span class="it-liens"><a href="https://www.salses.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Restaurant%20du%20Fort%20de%20Salses/@42.84484,2.92761,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Figueres</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Sancho Panza</b><small>Cuisine régionale</small><small class="it-meta">📍 N-IIa, Llers</small><small class="it-meta">🕒 mar-dim 08:00-16:00</small><small class="it-meta">📞 <a href="tel:+34972505639">+34 972 505 639</a></small></div><span class="it-liens"><a href="https://www.restaurantsanchopanza.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Sancho%20Panza/@42.28993,2.94563,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Hotel Figueresparc</b><small class="it-meta">📍 N-IIa, Llers</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+34972505151">+34 972 505151</a></small></div><span class="it-liens"><a href="https://www.hotelfigueresparc.com/de/restaurant.html" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Hotel%20Figueresparc/@42.28926,2.94532,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>amiel&amp;molins</b><small class="it-meta">📍 Carrer de Figueres, Pont de Molins</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/amiel%26molins/@42.3133,2.92914,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Figueres</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Figueres%2C%20Spain&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Figueres</a></div></section><section><h2>Jour 4 : Figueres à Barcelone</h2><p class="it-wait">150 km, 3 h 28 de conduite</p><div class="it-roads"><span><span class="it-road D">C35</span> <small>31 km</small></span><span><span class="it-road D">C1415</span> <small>1 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Cervi%C3%A0_de_Ter_-_Can_Santamaria_de_Raset_%281%29.jpg/330px-Cervi%C3%A0_de_Ter_-_Can_Santamaria_de_Raset_%281%29.jpg?utm_source=ca.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Can Santamaria</b><small>Musée</small><small class="it-meta">📍 29 Carrer Raset, Cervià de Ter</small><small class="it-meta">🕒 lun-dim 08:00-13:00</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Can%20Santamaria/@42.0718,2.92424,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/17_Castell_de_Vilob%C3%AD_d%27Onyar_al_fons_l%27esgl%C3%A9sia.jpg/330px-17_Castell_de_Vilob%C3%AD_d%27Onyar_al_fons_l%27esgl%C3%A9sia.jpg?utm_source=ca.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Castell de Vilobí</b><small>Château</small><small class="it-meta">📍 Carrer de Sant Esteve, Vilobí d&#x27;Onyar</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Castell%20de%20Vilob%C3%AD/@41.88917,2.74268,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Cancaciques2.jpg/330px-Cancaciques2.jpg?utm_source=ca.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Can Caciques. Centre d&#x27;interpratació de Llagostera</b><small>Musée</small><small class="it-meta">📍 38 Carrer de l&#x27;Olivareta, Llagostera</small><small class="it-meta">entrée gratuite</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="http://www.cancaciques.cat/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Can%20Caciques.%20Centre%20d%27interprataci%C3%B3%20de%20Llagostera/@41.82908,2.89146,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Caldes_de_Malavella%2C_Castell_de_Malavella.JPG/330px-Caldes_de_Malavella%2C_Castell_de_Malavella.JPG?utm_source=ca.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Castell de Malavella</b><small>Château</small><small class="it-meta">📍 Camí de St.Maurici, Caldes de Malavella</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Castell%20de%20Malavella/@41.81676,2.79993,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍣</div><div class="it-txt"><b>Restaurante Japonés Taiyo</b><small>Sushi</small><small class="it-meta">📍 15 Carrer d&#x27;Anselm Clavé, Sant Celoni</small><small class="it-meta">🕒 lun-dim 12:30-16:30, 20:00-00:00</small><small class="it-meta">📞 <a href="tel:+34938082538">+34 938 08 25 38</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Restaurante%20Japon%C3%A9s%20Taiyo/@41.68928,2.49303,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Brasseria La Llar</b><small>Cuisine régionale</small><small class="it-meta">📍 5 Carrer de Mossèn Cinto Verdaguer, Sant Celoni</small><small class="it-meta">📞 <a href="tel:+34938675377">+34 938 675 377</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Brasseria%20La%20Llar/@41.68361,2.48795,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>La Font de Cal Guardià</b><small>Cuisine régionale</small><small class="it-meta">📍 3.3 Carretera de Campins, Fogars de Montclús</small><small class="it-meta">📞 <a href="tel:+34935670652">+34 935670652</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/La%20Font%20de%20Cal%20Guardi%C3%A0/@41.70988,2.46456,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Barcelone</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Pardo de Flores</b><small>Cuisine espagnole</small><p class="it-res">Paella</p><small class="it-meta">📍 11 Carrer de Santa Anna, Barcelona</small><small class="it-meta">🕒 09:00-01:00</small><small class="it-meta">options végétariennes, options véganes</small><small class="it-meta">📞 <a href="tel:+34648444204">+34 648 44 42 04</a></small></div><span class="it-liens"><a href="https://pradodeflores.es/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Pardo%20de%20Flores/@41.38512,2.17121,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🦐</div><div class="it-txt"><b>Hard Rock Cafe</b><small>Cuisine american</small><small class="it-meta">📍 21-22 Plaça de Catalunya, Barcelona</small><small class="it-meta">🕒 dim-jeu 11:30-01:00 ; ven-sam 11:30-01:00</small><small class="it-meta">options végétariennes, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+34932702305">+34 932 70 23 05</a></small></div><span class="it-liens"><a href="https://www.hardrockcafe.com/location/barcelona/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Hard%20Rock%20Cafe/@41.38596,2.17075,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>ATN</b><small>Cuisine catalan</small><small class="it-meta">📍 6 Carrer de la Canuda, Barcelona</small><small class="it-meta">🕒 lun,dim 13:00-16:30 ; mar-sam 13:00-16:30,19:15-23:00</small><small class="it-meta">📞 <a href="tel:+34933185238">+34 933185238</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/ATN/@41.38463,2.17176,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Barcelone</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Barcelone%2C%20Espagne&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Barcelone</a></div></section>
+<section class="glass-box it-seo" style="margin:24px 0"><h2 style="margin-top:0">Questions fréquentes</h2><details><summary><b>Quelle est la distance de Lyon à Barcelone sans autoroute ?</b></summary><p>Environ 705 km, soit 13 h 09 de conduite et 4 jours à raison d&#x27;environ 4 h par jour. Par l&#x27;autoroute, le trajet fait 640 km en 6 h 24.</p></details><details><summary><b>Combien coûte le trajet de Lyon à Barcelone ?</b></summary><p>Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 72 € sans autoroute contre 124 € par l&#x27;autoroute (péages compris). Les repas, les visites et l&#x27;hébergement ne sont pas inclus.</p></details><details><summary><b>Où s&#x27;arrêter entre Lyon et Barcelone ?</b></summary><p>Les étapes proposées sont : La Panouse, Faugères, Figueres, Barcelone. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit.</p></details><details><summary><b>Y a-t-il des péages entre Lyon et Barcelone sans autoroute ?</b></summary><p>Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l&#x27;estimation.</p></details></section>
+<h2>Autres trajets</h2><ul><li><a href="strasbourg-barcelone-sans-autoroute.html">Strasbourg Barcelone sans autoroute</a></li><li><a href="lyon-milan-sans-autoroute.html">Lyon Milan sans autoroute</a></li><li><a href="marseille-barcelone-sans-autoroute.html">Marseille Barcelone sans autoroute</a></li><li><a href="lyon-milan-voiture-electrique.html">Lyon Milan en voiture électrique</a></li></ul>
+<p class="it-note">Les lieux et restaurants viennent d'OpenStreetMap et de Wikipédia : vérifiez les horaires avant de partir. Itinéraire calculé avec <a href="https://openrouteservice.org/" target="_blank" rel="noopener">OpenRouteService</a>, lieux via <a href="https://www.geoapify.com/" target="_blank" rel="noopener">Geoapify</a>, données &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</p>
+
+
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+    <p>Nous utilisons des cookies pour mesurer l'audience du site (Google Analytics). Vous pouvez accepter ou refuser ce suivi. Voir notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+    <div class="cookie-actions">
+        <button class="cookie-refuse" onclick="setCookieConsent(false)">Refuser</button>
+        <button class="cookie-accept" onclick="setCookieConsent(true)">Accepter</button>
+    </div>
+</div>
+<script>
+(function() {
+    function setCookieConsent(accepted) {
+        localStorage.setItem('cookie_consent', accepted ? 'granted' : 'denied');
+        gtag('consent', 'update', {
+            'analytics_storage': accepted ? 'granted' : 'denied'
+        });
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+    window.setCookieConsent = setCookieConsent;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var saved = localStorage.getItem('cookie_consent');
+        if (saved === 'granted') {
+            gtag('consent', 'update', { 'analytics_storage': 'granted' });
+        } else if (saved === null) {
+            document.getElementById('cookie-banner').style.display = 'flex';
+        }
+        
+    });
+})();
+</script>
+
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <h3>Nomad</h3>
+            <p>Le compagnon de voyage qui vous aide à choisir plus vite et à partir plus serein.</p>
+        </div>
+        <div>
+            <h4>Explorer</h4>
+            <ul class="footer-links">
+                <li><a href="hotels.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
+                <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
+                <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
+                <li><a href="croisieres.html">Croisières</a></li>
+                <li><a href="itineraire-decouverte.html">Itinéraire découverte</a></li>
+                <li><a href="trajets-sans-autoroute.html">Trajets sans autoroute</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>À propos</h4>
+            <ul class="footer-links">
+                <li><a href="apropos.html">À propos de nous</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Conseils de voyage</a></li>
+                <li><a href="index.html#avis">Avis voyageurs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Votre retour compte</h4>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
+        <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
+    </div>
+</footer>
+
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const TR={"c": [[45.7638, 4.8357], [45.7599, 4.8377], [45.7358, 4.8196], [45.7132, 4.8196], [45.704, 4.8129], [45.6982, 4.7993], [45.6913, 4.7895], [45.6796, 4.7751], [45.6715, 4.7717], [45.6597, 4.7517], [45.6469, 4.7447], [45.6337, 4.7318], [45.6135, 4.7025], [45.583, 4.6586], [45.5502, 4.6374], [45.5414, 4.6411], [45.5329, 4.6266], [45.5257, 4.6103], [45.5179, 4.5929], [45.5081, 4.5722], [45.4965, 4.5629], [45.4878, 4.5461], [45.4832, 4.5334], [45.4753, 4.5197], [45.4722, 4.5071], [45.4634, 4.4939], [45.4569, 4.4829], [45.4361, 4.4426], [45.4339, 4.4183], [45.4109, 4.3965], [45.4035, 4.3731], [45.394, 4.3279], [45.3922, 4.2936], [45.3755, 4.2709], [45.365, 4.2519], [45.3441, 4.2518], [45.3282, 4.2404], [45.3066, 4.217], [45.283, 4.181], [45.2648, 4.152], [45.245, 4.1387], [45.2276, 4.136], [45.1862, 4.1333], [45.147, 4.1158], [45.1233, 4.0829], [45.1039, 4.0684], [45.0933, 4.0498], [45.0758, 4.0508], [45.0652, 4.0361], [45.0633, 4.01], [45.0634, 3.9877], [45.0654, 3.9695], [45.0528, 3.9521], [45.0568, 3.9205], [45.0491, 3.9026], [45.027, 3.9021], [45.0057, 3.8827], [44.9951, 3.8682], [44.9793, 3.8612], [44.9722, 3.8429], [44.9542, 3.8301], [44.9306, 3.809], [44.9232, 3.8085], [44.9095, 3.8062], [44.8914, 3.796], [44.8794, 3.7706], [44.8496, 3.7572], [44.8458, 3.7552], [44.8373, 3.7515], [44.8399, 3.7449], [44.8415, 3.7395], [44.8318, 3.735], [44.8258, 3.7369], [44.8166, 3.7364], [44.8113, 3.7213], [44.8185, 3.7141], [44.8147, 3.7053], [44.8087, 3.7004], [44.8072, 3.6901], [44.8059, 3.6774], [44.8073, 3.6623], [44.8016, 3.6602], [44.7975, 3.6528], [44.7918, 3.6417], [44.7876, 3.6321], [44.7822, 3.633], [44.779, 3.6184], [44.7757, 3.5793], [44.7682, 3.5567], [44.7598, 3.5475], [44.7474, 3.5541], [44.7409, 3.5447], [44.7281, 3.5446], [44.7218, 3.5336], [44.7143, 3.5229], [44.7092, 3.5149], [44.6973, 3.4988], [44.6887, 3.4947], [44.6746, 3.4941], [44.6663, 3.488], [44.6557, 3.4879], [44.644, 3.4849], [44.6408, 3.4784], [44.635, 3.4753], [44.6214, 3.4749], [44.6016, 3.4865], [44.586, 3.4923], [44.5798, 3.4963], [44.5659, 3.4979], [44.5574, 3.5039], [44.545, 3.5045], [44.5332, 3.4914], [44.5227, 3.4784], [44.5155, 3.4675], [44.5044, 3.4599], [44.4957, 3.4604], [44.485, 3.4579], [44.4797, 3.4551], [44.4779, 3.4487], [44.4707, 3.4569], [44.4636, 3.4571], [44.438, 3.4469], [44.4148, 3.444], [44.4085, 3.4388], [44.3927, 3.4249], [44.3781, 3.4189], [44.3718, 3.4106], [44.3644, 3.4061], [44.3576, 3.4029], [44.3626, 3.4108], [44.3664, 3.4107], [44.3603, 3.4118], [44.3511, 3.4035], [44.3432, 3.3988], [44.3394, 3.3947], [44.3362, 3.39], [44.3342, 3.3904], [44.3295, 3.3873], [44.3245, 3.3838], [44.3136, 3.3779], [44.2787, 3.362], [44.2673, 3.3558], [44.254, 3.3561], [44.2446, 3.355], [44.2394, 3.3396], [44.2369, 3.3185], [44.2241, 3.3085], [44.2234, 3.2962], [44.2174, 3.2925], [44.2122, 3.2897], [44.2117, 3.2906], [44.2051, 3.2888], [44.2014, 3.2818], [44.201, 3.2778], [44.1997, 3.2816], [44.199, 3.2803], [44.1981, 3.2783], [44.1972, 3.2799], [44.1961, 3.2876], [44.196, 3.2884], [44.1953, 3.2884], [44.1942, 3.2907], [44.1901, 3.2936], [44.1868, 3.2985], [44.1752, 3.2934], [44.1605, 3.287], [44.1369, 3.2588], [44.1281, 3.249], [44.1196, 3.2523], [44.1218, 3.2489], [44.1255, 3.2425], [44.1194, 3.2387], [44.1197, 3.234], [44.1169, 3.2468], [44.1109, 3.257], [44.1013, 3.262], [44.0929, 3.2616], [44.085, 3.2748], [44.0753, 3.285], [44.0689, 3.2924], [44.056, 3.301], [44.0471, 3.2963], [44.0373, 3.291], [44.0295, 3.291], [44.022, 3.303], [44.009, 3.309], [43.9995, 3.3153], [43.9891, 3.3096], [43.9741, 3.32], [43.9636, 3.3136], [43.9369, 3.3104], [43.9199, 3.3064], [43.9148, 3.3017], [43.9064, 3.2899], [43.9, 3.2817], [43.8903, 3.2767], [43.8672, 3.2712], [43.8459, 3.2689], [43.8394, 3.2679], [43.8337, 3.2514], [43.8223, 3.2477], [43.8151, 3.2458], [43.8066, 3.2455], [43.7993, 3.2404], [43.7863, 3.243], [43.7732, 3.2395], [43.7623, 3.2348], [43.7561, 3.2442], [43.7455, 3.2488], [43.7391, 3.2503], [43.7271, 3.2535], [43.7201, 3.2475], [43.7157, 3.2326], [43.7116, 3.2076], [43.7082, 3.1946], [43.7022, 3.1793], [43.69, 3.174], [43.6844, 3.1703], [43.6615, 3.1538], [43.6496, 3.1533], [43.6386, 3.1638], [43.6187, 3.1556], [43.6149, 3.1587], [43.6063, 3.1646], [43.5997, 3.1668], [43.5983, 3.1724], [43.5886, 3.1713], [43.5831, 3.1672], [43.5659, 3.1691], [43.5559, 3.1809], [43.5317, 3.1847], [43.4976, 3.1877], [43.4792, 3.2063], [43.4506, 3.209], [43.4357, 3.2157], [43.4025, 3.229], [43.3814, 3.2224], [43.3666, 3.223], [43.3714, 3.1927], [43.3527, 3.1724], [43.3231, 3.1891], [43.3109, 3.173], [43.2972, 3.1478], [43.2914, 3.119], [43.2765, 3.0832], [43.2667, 3.0811], [43.2361, 3.057], [43.228, 3.0499], [43.2007, 3.0158], [43.1941, 2.9928], [43.1864, 2.9721], [43.1712, 2.9779], [43.1568, 2.9812], [43.1334, 2.9652], [43.1061, 2.9459], [43.0808, 2.9433], [43.0642, 2.9375], [43.0531, 2.9614], [43.026, 2.965], [43.0096, 2.9698], [42.9834, 2.9803], [42.9586, 2.9849], [42.9301, 2.9931], [42.8941, 2.997], [42.8676, 2.9854], [42.852, 2.9394], [42.8407, 2.9246], [42.8237, 2.9176], [42.8083, 2.9122], [42.7729, 2.9013], [42.7203, 2.8744], [42.6948, 2.8627], [42.6751, 2.8632], [42.6784, 2.8806], [42.6626, 2.8835], [42.6309, 2.871], [42.5962, 2.855], [42.5728, 2.8508], [42.5449, 2.851], [42.5328, 2.8402], [42.5196, 2.8315], [42.5078, 2.8251], [42.5002, 2.8207], [42.4876, 2.8372], [42.4788, 2.8447], [42.473, 2.8527], [42.4693, 2.858], [42.4591, 2.8641], [42.4452, 2.8669], [42.4325, 2.8662], [42.4206, 2.8707], [42.4045, 2.8785], [42.3871, 2.8843], [42.3647, 2.8969], [42.3501, 2.9076], [42.3265, 2.9332], [42.313, 2.9321], [42.2937, 2.9443], [42.2734, 2.9853], [42.2383, 2.9827], [42.2228, 2.9522], [42.2031, 2.9408], [42.1901, 2.9303], [42.1686, 2.9168], [42.1353, 2.9051], [42.1072, 2.9035], [42.0974, 2.8912], [42.0803, 2.8865], [42.0585, 2.8795], [42.0437, 2.8589], [42.0226, 2.8509], [42.0069, 2.8454], [41.9856, 2.8489], [41.9753, 2.8469], [41.9598, 2.8436], [41.9437, 2.8253], [41.937, 2.8091], [41.9269, 2.792], [41.9057, 2.7877], [41.8899, 2.7843], [41.8668, 2.7777], [41.8512, 2.773], [41.8487, 2.7664], [41.8346, 2.7575], [41.8183, 2.7316], [41.8011, 2.7101], [41.7936, 2.687], [41.785, 2.68], [41.7772, 2.6686], [41.7651, 2.6707], [41.7538, 2.6623], [41.7452, 2.6501], [41.7451, 2.6248], [41.7348, 2.6081], [41.7251, 2.5707], [41.7174, 2.5392], [41.6972, 2.5087], [41.6835, 2.4901], [41.6717, 2.4767], [41.6608, 2.4563], [41.6525, 2.4378], [41.6408, 2.4147], [41.6286, 2.3827], [41.6154, 2.353], [41.6064, 2.3515], [41.594, 2.3415], [41.5888, 2.3251], [41.5644, 2.3098], [41.5575, 2.2959], [41.5505, 2.2822], [41.5451, 2.2682], [41.5441, 2.2585], [41.5411, 2.245], [41.5331, 2.236], [41.528, 2.2276], [41.5206, 2.2223], [41.5104, 2.2105], [41.5003, 2.2017], [41.4891, 2.1938], [41.4827, 2.1879], [41.4811, 2.1848], [41.466, 2.1787], [41.4505, 2.1886], [41.4283, 2.1843], [41.4137, 2.189], [41.3976, 2.1721], [41.3848, 2.1618], [41.3859, 2.1722]], "n": [[44.76, 3.5488, "Nuit 1 : La Panouse"], [43.5806, 3.1673, "Nuit 2 : Faugères"], [42.26663, 2.96384, "Nuit 3 : Figueres"], [41.3851, 2.1734, "Nuit 4 : Barcelone"]], "v": [[45.60487, 4.73646, "Château de Chassagny"], [45.10858, 3.97006, "Croix du 15e siècle en pierre à Cleyssac"], [45.04445, 3.88844, "Couvent de Sainte-Claire"], [44.79234, 3.78979, "Château de Jonchères"], [44.69562, 3.48486, "Domaine du château de Combettes"], [44.56848, 3.38053, "Domaine de Cougoussac"], [44.1727, 3.24692, "Prieuré de Saint-Jean-de-Balmes"], [43.89273, 3.40739, "Château de Sorbs"], [43.18578, 3.00463, "Horreum Romain"], [42.80941, 2.89284, "Mémorial du Camp de Rivesaltes"], [42.6939, 2.89607, "Palais des Rois de Majorque"], [42.45856, 2.85921, "Fort de Bellegarde"], [42.0718, 2.92424, "Can Santamaria"], [41.88917, 2.74268, "Castell de Vilobí"], [41.82908, 2.89146, "Can Caciques. Centre d'interpratació de Llagostera"], [41.81676, 2.79993, "Castell de Malavella"]]};
+const map=L.map("itMap");
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"&copy; OpenStreetMap"}).addTo(map);
+const ligne=L.polyline(TR.c,{color:"#075985",weight:5}).addTo(map);
+TR.n.slice(0,-1).forEach(p=>L.marker([p[0],p[1]]).addTo(map).bindPopup(p[2]));
+TR.v.forEach(p=>L.circleMarker([p[0],p[1]],{radius:6,color:"#c8322b",weight:2,fillColor:"#fff",fillOpacity:1}).addTo(map).bindPopup(p[2]));
+map.fitBounds(ligne.getBounds().pad(0.1));
+</script>
+</body>
+</html>

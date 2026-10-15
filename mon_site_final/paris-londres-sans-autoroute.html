@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paris Londres sans autoroute : itinéraire, étapes et coût | MyHotelCompare</title>
+<meta name="description" content="Paris Londres sans autoroute : 431 km, 2 jours, 25 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<link rel="canonical" href="https://myhotelcompare.com/paris-londres-sans-autoroute.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Paris Londres sans autoroute : itinéraire, étapes et coût">
+<meta property="og:description" content="Paris Londres sans autoroute : 431 km, 2 jours, 25 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<meta property="og:url" content="https://myhotelcompare.com/paris-londres-sans-autoroute.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Quelle est la distance de Paris à Londres sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Environ 431 km, soit 7 h 58 de conduite et 2 jours à raison d'environ 4 h par jour. Par l'autoroute, le trajet fait 418 km en 4 h 51."}}, {"@type": "Question", "name": "Combien coûte le trajet de Paris à Londres ?", "acceptedAnswer": {"@type": "Answer", "text": "Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 160 € sans autoroute contre 193 € par l'autoroute (péages compris). Les repas, les visites et l'hébergement ne sont pas inclus."}}, {"@type": "Question", "name": "Où s'arrêter entre Paris et Londres ?", "acceptedAnswer": {"@type": "Answer", "text": "Les étapes proposées sont : Étaples, Londres. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit."}}, {"@type": "Question", "name": "Y a-t-il des péages entre Paris et Londres sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l'estimation."}}]}</script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<!-- Google Consent Mode v2 : refus par défaut tant que l'utilisateur n'a pas choisi -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLVNV2211J"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RLVNV2211J');
+</script>
+
+<link rel="icon" type="image/png" href="images/logo_5.png?v=2">
+<link rel="apple-touch-icon" href="images/logo_5.png?v=2">
+<style>
+:root {
+    --bg: #f2fbfd;
+    --bg-dark: #063247;
+    --panel: #e5f5f8;
+    --panel-strong: #c7eaf0;
+    --card: #ffffff;
+    --line: #b9dfe7;
+    --text: #123443;
+    --muted: #52717c;
+    --primary: #087f9b;
+    --primary-dark: #056078;
+    --secondary: #075985;
+    --success: #16805b;
+    --success-soft: #d7f4e7;
+    --warning: #e59a21;
+    --shadow: 0 18px 38px rgba(5, 96, 120, 0.14);
+}
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #f4fcfd 0%, #e7f6f8 100%);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px 16px 40px;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.site-header { margin-bottom: 24px; }
+.brand-lockup { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 18px; color: var(--text); }
+.brand-mark { width: 58px; height: 58px; object-fit: contain; border-radius: 16px; background: var(--panel-strong); padding: 5px; }
+.brand-lockup strong { display: block; color: var(--secondary); font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1; }
+.brand-lockup span { display: block; color: var(--muted); margin-top: 5px; font-size: 0.88rem; }
+h1, h2, h3, h4 { color: var(--text); }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; }
+a { color: var(--secondary); }
+.site-footer { margin-top: 48px; background: linear-gradient(135deg, #063247, #075985); color: #effcff; border-radius: 22px; padding: 30px; box-shadow: var(--shadow); }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 28px; }
+.site-footer h3, .site-footer h4 { color: #b8f0f6; margin-top: 0; }
+.site-footer p, .site-footer li { color: #d6eef2; line-height: 1.6; }
+.site-footer a { color: #b8f0f6; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+.footer-links { list-style: none; padding: 0; margin: 0; }
+.footer-links li { margin-bottom: 8px; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.18); margin-top: 24px; padding-top: 18px; display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; font-size: 0.85rem; }
+.footer-bottom p { margin: 0; }
+@media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } .brand-lockup { justify-content: flex-start; } }
+.top-nav {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    background: linear-gradient(135deg, var(--secondary), var(--primary-dark));
+    padding: 14px 18px; border-radius: 18px; margin: 6px 0 22px;
+    box-shadow: var(--shadow); justify-content: center;
+}
+.top-nav a {
+    color: white; background: rgba(255,255,255,0.12);
+    padding: 10px 16px; border-radius: 12px; text-decoration: none;
+    font-weight: 700; border: 1px solid rgba(255,255,255,0.15);
+}
+.top-nav a:hover { background: rgba(255,255,255,0.2); }
+.card {
+    background: linear-gradient(180deg, #fffefb 0%, #fff8ef 100%);
+    border: 1px solid var(--line); border-radius: 20px;
+    padding: 24px; margin-bottom: 22px; box-shadow: var(--shadow);
+}
+.btn, .btn-booking, .btn-expedia {
+    display: inline-block; text-decoration: none; border-radius: 12px;
+    font-weight: 700; transition: transform 0.2s ease; cursor: pointer;
+}
+.btn:hover, .btn-booking:hover, .btn-expedia:hover { transform: translateY(-1px); }
+.btn { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 18px; }
+.btn-booking { display: block; background: linear-gradient(135deg, #0f3d85, #1d5bbf); color: white; padding: 12px 16px; text-align: center; margin-bottom: 10px; }
+.btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
+.btn-site-officiel { display: block; background: linear-gradient(135deg, var(--secondary), var(--primary-dark)); color: white; padding: 12px 16px; text-align: center; }
+.hero-banner {
+    background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
+    border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
+}
+.hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 18px; }
+.hero-badges span {
+    background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.24); color: #f2fdff; border-radius: 999px; padding: 7px 12px; font-weight: 700; font-size: 0.82rem;
+}
+.glass-box { background: rgba(255,255,255,0.72); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+.filters-box {
+    background: linear-gradient(180deg, #e3f5f8 0%, #f8fdfe 100%);
+    border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 24px 0 18px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; box-shadow: var(--shadow);
+}
+.filters-box label { color: var(--muted); display: block; margin-bottom: 8px; font-weight: 700; }
+.filters-box select {
+    width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--text); font-size: 0.97rem;
+}
+.btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
+.comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.smart-results-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.smart-results-grid .card { margin-bottom: 0; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
+.review-card {
+    background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
+    border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
+}
+.review-card .stars { color: var(--warning); font-size: 1.1rem; letter-spacing: 2px; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 16px; margin-top: 18px; }
+.stat-item { background: rgba(255,255,255,0.5); border: 1px solid rgba(130,90,20,0.15); border-radius: 16px; padding: 18px; }
+.stat-item strong { display: block; font-size: 1.5rem; }
+.testimonial-section > h2 { color: var(--text) !important; }
+.testimonial-section > div > div { background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%) !important; border-color: var(--line) !important; }
+.testimonial-section > div > div p { color: var(--muted) !important; }
+.testimonial-section > div > div p:first-child { color: var(--warning) !important; }
+.testimonial-section > div > div p strong { color: var(--text) !important; }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 1000px) { .smart-results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .smart-results-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+.cookie-banner {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+    background: #063247; color: #effcff; padding: 18px 20px;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+    gap: 16px; box-shadow: 0 -8px 24px rgba(0,0,0,0.25);
+}
+.cookie-banner p { margin: 0; max-width: 640px; font-size: 0.92rem; line-height: 1.5; }
+.cookie-banner a { color: #b8f0f6; }
+.cookie-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie-actions button {
+    border: none; border-radius: 10px; padding: 10px 18px; font-weight: 700; cursor: pointer;
+}
+.cookie-accept { background: var(--primary); color: white; }
+.cookie-refuse { background: rgba(255,255,255,0.15); color: white; }
+.fiche-photo-carte { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0; align-items: stretch; }
+.fiche-photo-carte img, .fiche-photo-carte iframe { width: 100%; height: 260px; object-fit: cover; border-radius: 16px; border: 0; }
+@media (max-width: 600px) { .fiche-photo-carte { grid-template-columns: 1fr; } .fiche-photo-carte img, .fiche-photo-carte iframe { height: 220px; } }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 20px; }
+.btn-itineraire {
+    display: inline-block; padding: 14px 24px; border-radius: 14px; font-weight: 800;
+    background: rgba(255,255,255,0.14); color: #fff; text-decoration: none;
+    border: 1.5px solid rgba(255,255,255,0.6);
+}
+.btn-itineraire:hover { background: rgba(255,255,255,0.26); }
+.btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+</style>
+
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrld.ltd/NTcxODA1.js?t=571805';
+      document.head.appendChild(script);
+  })();
+</script>
+
+<style>
+.it-road{display:inline-block;min-width:36px;text-align:center;padding:0 7px;border-radius:5px;font-weight:800;font-size:.8rem;line-height:22px}
+.it-road.N{background:#c8322b;color:#fff}
+.it-road.D{background:#f2c230;color:#123443;box-shadow:inset 0 0 0 2px #123443}
+.it-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:24px 0;align-items:end}
+.it-form label{display:block;font-weight:700;color:var(--muted);margin-bottom:6px}
+.it-form input,.it-form select{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--text);font-size:.97rem}
+.it-msg{padding:12px 16px;border-radius:12px;margin-bottom:18px;font-weight:600}
+.it-msg.err{background:#fde8e6;color:#9a2a22}.it-msg.info{background:var(--panel);color:var(--secondary)}
+#itRes{display:none}
+.it-cmp{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 14px}
+.it-cmp .glass-box.win{border:2px solid var(--success)}
+.it-cmp h2{font-size:1.15rem;margin:0 0 10px}
+.it-row{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid var(--line)}
+.it-row:last-child{border:0}
+.it-save{background:var(--success-soft);color:var(--success);border-radius:12px;padding:12px 16px;font-weight:700;margin-bottom:8px}
+.it-note{color:var(--muted);font-size:.85rem;margin:0 0 22px}
+#itMap{height:380px;border-radius:16px;margin-bottom:22px;box-shadow:var(--shadow)}
+.it-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.it-tab{font:inherit;font-weight:700;cursor:pointer;background:#fff;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:9px 18px}
+.it-tab[aria-selected=true]{background:var(--secondary);color:#fff;border-color:var(--secondary)}
+.it-tab:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+.it-dayhead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.it-dayhead h2{margin:0;font-size:1.4rem}
+.it-dayhead span{color:var(--muted)}
+.it-roads{display:flex;gap:10px 14px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+.it-roads small{color:var(--muted)}
+.it-bloc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:14px}
+.it-bloc h3{margin:0 0 8px;font-size:1.05rem}
+.it-lieux{list-style:none;margin:0;padding:0}
+.it-lieu{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
+.it-lieu:last-child{border:0}
+.it-lieu small{display:block;color:var(--muted)}
+.it-vig{flex:0 0 76px;width:76px;height:76px;border-radius:12px;overflow:hidden;background:var(--panel);display:flex;align-items:center;justify-content:center;font-size:2rem}
+.it-vig img{width:100%;height:100%;object-fit:cover;display:block}
+.it-txt{flex:1;min-width:0}
+.it-res{margin:4px 0 2px;font-size:.9rem;line-height:1.45}
+.it-meta{margin-top:2px;font-size:.82rem}
+.it-liens{display:flex;gap:12px;flex-wrap:wrap;align-self:center}
+.it-liens a{font-weight:700;white-space:nowrap}
+.it-wait{color:var(--muted);margin:0}
+.it-budget{margin-bottom:22px}
+.it-bt{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:8px 12px;align-items:center}
+.it-bt .fort{font-weight:800;border-top:1px solid var(--line);padding-top:8px}
+.it-bt small{color:var(--muted)}
+.it-btn.s{background:var(--secondary);color:#fff;border:0;cursor:pointer;font-family:inherit}
+.it-share-msg{align-self:center;color:var(--success);font-weight:700}
+.it-urlcopy{width:100%;max-width:440px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:.85rem}
+.it-all{margin-bottom:18px}
+.it-all p{margin:6px 0 0}
+.it-gps{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px}
+.it-btn{display:inline-block;padding:10px 16px;border-radius:12px;font-weight:700;text-decoration:none;font-size:.95rem}
+.it-btn.g{background:#1a73e8;color:#fff}
+.it-btn.w{background:#33ccff;color:#06364a}
+.it-btn:hover{filter:brightness(.95)}
+.it-btn:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+@media (max-width:620px){.it-cmp{grid-template-columns:1fr}.it-lieu{flex-wrap:wrap}.it-liens{flex-basis:100%;align-self:flex-start}}
+
+.tj-cmp .glass-box h2{margin-top:0}
+.tj-fil{font-size:.9rem;color:var(--muted);margin:0 0 10px}
+</style>
+</head>
+<body><div class="container">
+
+<header class="site-header">
+<div class="brand-lockup">
+    <img src="images/logo_5.svg" alt="Nomad" class="brand-mark">
+    <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
+</div>
+<div class="top-nav">
+    <a href="index.html">Accueil</a>
+    <a href="hotels.html">Hôtels</a>
+    <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
+    <a href="loueurs-vehicules.html">Location de Véhicules</a>
+    <a href="croisieres.html">Croisières</a>
+    <a href="itineraire-decouverte.html">Itinéraires</a>
+    <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
+</div>
+</header>
+
+<p class="tj-fil"><a href="index.html">Accueil</a> &gt; <a href="trajets-sans-autoroute.html">Trajets sans autoroute</a> &gt; Paris Londres</p>
+<div class="hero-banner">
+  <h1 style="color:#fff;margin:0 0 10px;font-size:clamp(1.6rem,3.6vw,2.4rem)">Paris Londres sans autoroute : itinéraire, étapes et coût</h1>
+  <p style="margin:0;max-width:760px;line-height:1.7;color:#effcff">Pour aller de Paris à Londres sans autoroute, comptez environ 431 km et 7 h 58 de conduite, soit 2 jours à raison d&#x27;environ 4 h de route par jour. Par l&#x27;autoroute, le même trajet fait 418 km en 4 h 51, avec environ 25 € de péages estimés. Le trajet comprend une traversée maritime d&#x27;environ 42 km (environ 1 h 30), comptée 116 € pour le véhicule et ses passagers (estimation).</p>
+</div>
+<p style="line-height:1.7">En évitant l&#x27;autoroute, vous économisez environ 32 € sur la route (péages et carburant), pour environ 3 h 08 de trajet en plus. Les routes les plus empruntées sont la A2 (40 km), la D1016 (38 km), la D901 (33 km). </p>
+<section class="it-cmp tj-cmp" aria-label="Comparatif avec l'autoroute">
+  <div class="glass-box"><h2>Par l'autoroute</h2><div class="it-row"><span>Distance de conduite</span><b>418 km</b></div><div class="it-row"><span>Temps de conduite</span><b>4 h 51</b></div><div class="it-row"><span>Traversée (durée estimée)</span><b>1 h 30</b></div><div class="it-row"><span>Durée totale du trajet</span><b>6 h 21</b></div><div class="it-row"><span>Péages</span><b>25 €</b></div><div class="it-row"><span>Carburant</span><b>52 €</b></div><div class="it-row"><span>Traversée en ferry (estimation)</span><b>116 €</b></div><div class="it-row"><span>Total route</span><b>193 €</b></div></div>
+  <div class="glass-box win"><h2>Parcours découverte</h2><div class="it-row"><span>Distance de conduite</span><b>431 km</b></div><div class="it-row"><span>Temps de conduite</span><b>7 h 58</b></div><div class="it-row"><span>Traversée (durée estimée)</span><b>1 h 30</b></div><div class="it-row"><span>Durée totale du trajet</span><b>9 h 28</b></div><div class="it-row"><span>Péages</span><b>0 €</b></div><div class="it-row"><span>Carburant</span><b>44 €</b></div><div class="it-row"><span>Traversée en ferry (estimation)</span><b>116 €</b></div><div class="it-row"><span>Total route</span><b>160 €</b></div></div>
+</section>
+<p class="it-note">Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, péage à 0,10 €/km sur les tronçons à péage. Montants indicatifs, mis à jour le 15 octobre 2026.</p>
+<p><a class="btn-compare" style="display:inline-block;text-decoration:none;width:auto;padding:14px 24px" href="itineraire-decouverte.html?d=Paris+%28France%29&amp;dc=2.3522%2C48.8566&amp;dp=France&amp;a=Londres+%28Royaume-Uni%29&amp;ac=-0.1276%2C51.5072&amp;ap=Royaume-Uni&amp;r=4&amp;v=th&amp;c=6&amp;p=1.8&amp;n=2&amp;m=45&amp;utm_source=pages-trajets&amp;utm_medium=site&amp;utm_campaign=trajet">Calculer avec mon véhicule</a></p>
+<div id="itMap"></div>
+<section><h2>Jour 1 : Paris à Étaples</h2><p class="it-wait">226 km, 4 h 11 de conduite</p><div class="it-roads"><span><span class="it-road D">D1016</span> <small>38 km</small></span><span><span class="it-road D">D38</span> <small>31 km</small></span><span><span class="it-road D">D317</span> <small>20 km</small></span><span><span class="it-road D">D12</span> <small>18 km</small></span><span><span class="it-road D">D11</span> <small>16 km</small></span><span><span class="it-road D">D901</span> <small>15 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Gonesse_-_Ancien_hotel-Dieu_-_Foyer_Pierre_de_Theilley.jpg?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Ancien hôtel-Dieu</b><small>Patrimoine</small><small class="it-meta">📍 Rue Bernard Février, Gonesse</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ancien%20h%C3%B4tel-Dieu/@48.98835,2.44823,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Mus%C3%A9e_Arch%C3%A9a.jpg/330px-Mus%C3%A9e_Arch%C3%A9a.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Archéa</b><small>Musée</small><p class="it-res">Archéa, Archéologie en pays de France est un musée labellisé Musée de France, consacré à l&#x27;archéologie dans le pays de France, situé à Louvres à l&#x27;est du Val-d&#x27;Oise.</p><small class="it-meta">📍 56 Rue de Paris, Louvres</small><small class="it-meta">accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33134090102">+33 1 34 09 01 02</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Arch%C3%A9a" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://archea.roissypaysdefrance.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Arch%C3%A9a/@49.04105,2.50726,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Air_France_Aerospatiale-BAC_Concorde_101_F-BTSC_%282%29_%28cropped%29.jpg/330px-Air_France_Aerospatiale-BAC_Concorde_101_F-BTSC_%282%29_%28cropped%29.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Mémorial du Concorde</b><small>Patrimoine</small><p class="it-res">L&#x27;accident du Concorde est survenu le 25 juillet 2000, lorsque le Concorde effectuant le vol Air France 4590, un vol charter international à destination de l&#x27;aéroport international de New York - John-F.-Kennedy, aux États-Unis,…</p><small class="it-meta">📍 Route Périphérique Sud, Mitry-Mory</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Accident_du_Concorde" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/M%C3%A9morial%20du%20Concorde/@48.99064,2.59006,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Maladrerie_st_lazare_beauvais_1.JPG/330px-Maladrerie_st_lazare_beauvais_1.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Maladrerie Saint-Lazare</b><small>Patrimoine</small><p class="it-res">La maladrerie Saint-Lazare est une ancienne léproserie datant du XIIe siècle, située à Beauvais, préfecture du département de l&#x27;Oise, en région Hauts-de-France en France.</p><small class="it-meta">📍 Rue Vinot Préfontaine, Beauvais</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Maladrerie_Saint-Lazare_de_Beauvais" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://maladrerie.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Maladrerie%20Saint-Lazare/@49.41514,2.10202,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Auberge du Village</b><small class="it-meta">📍 Place du Général de Gaulle, Conty</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Auberge%20du%20Village/@49.74096,2.15178,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Étaples</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le Cocquempot</b><small class="it-meta">📍 Place de Darnétal, Montreuil-sur-Mer</small><small class="it-meta">🕒 lun-dim 12:00-14:00, 19:00-21:00</small><small class="it-meta">réservation conseillée</small><small class="it-meta">📞 <a href="tel:+33321810561">+33321810561</a></small></div><span class="it-liens"><a href="https://www.lecocquempotrestaurantmontreuilsurmer.fr" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Le%20Cocquempot/@50.46382,1.7613,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Au Bon Accueil</b><small class="it-meta">📍 52 Route d&#x27;Étaples, Attin</small><small class="it-meta">accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33321069355">+33 3 21 06 93 55</a></small></div><span class="it-liens"><a href="https://www.aubonaccueil-attin.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Au%20Bon%20Accueil/@50.48739,1.74467,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Auberge du Vieux Logis</b><small class="it-meta">📍 7 Route de Montreuil, La Madelaine-sous-Montreuil</small><small class="it-meta">📞 <a href="tel:+33321061092">+33 3 21 06 10 92</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Auberge%20du%20Vieux%20Logis/@50.4689,1.74829,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Étaples</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=%C3%89taples%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Étaples</a></div></section><section><h2>Jour 2 : Étaples à Londres</h2><p class="it-wait">204 km, 3 h 48 de conduite</p><div class="it-roads"><span><span class="it-road N">A2</span> <small>40 km</small></span><span><span class="it-road D">D901</span> <small>18 km</small></span><span><span class="it-road D">D238</span> <small>14 km</small></span><span><span class="it-road N">A289</span> <small>13 km</small></span><span><span class="it-road D">D127</span> <small>11 km</small></span><span><span class="it-road N">A1203</span> <small>4 km</small></span></div><div class="it-bloc"><h3>Traversée en ferry</h3><p class="it-wait" style="color:var(--text)">Traversée d'environ 42 km, estimée à 116 € pour le véhicule et ses passagers. Réservez à l'avance : les traversées longues se font souvent de nuit, avec cabine possible.</p></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Colonne_de_la_Grande_Arm%C3%A9e.jpg/330px-Colonne_de_la_Grande_Arm%C3%A9e.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Colonne de la Grande Armée</b><small>Patrimoine</small><p class="it-res">La colonne de la Grande Armée ou colonne Napoléon est une colonne commémorative élevée à Wimille (Pas-de-Calais), près de Boulogne-sur-Mer, entre 1804 et 1841.</p><small class="it-meta">📍 Route du Chemin Vert, Wimille</small><small class="it-meta">🕒 Oct 01-Jun 14 ven-dim 10:00-12:00, 14:00-16:00 ; Jun 15-Sep 30 mer-dim 10:00-12:30, 14:30-18:30 ; Jan 01 fe…</small><small class="it-meta">entrée payante</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Colonne_de_la_Grande_Arm%C3%A9e" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Colonne%20de%20la%20Grande%20Arm%C3%A9e/@50.74126,1.61744,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/1_dover_castle_aerial_panorama_2017.jpg/330px-1_dover_castle_aerial_panorama_2017.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Dover Castle</b><small>Château</small><p class="it-res">Le château de Douvres est un château fort en pierre ayant remplacé un premier château de terre et de bois, du XIe siècle, remanié à plusieurs reprises, qui se dresse au-dessus de la ville de Douvres dans le comté de Kent en…</p><small class="it-meta">📍 Upper Road, Dover</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Douvres" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.english-heritage.org.uk/visit/places/dover-castle/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Dover%20Castle/@51.12898,1.32288,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Leeds_Castle_%282004a%29.jpg/330px-Leeds_Castle_%282004a%29.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Leeds Castle</b><small>Château</small><p class="it-res">Le château de Leeds est un château anglais construit en 1119, qui se trouve au sud-est de Maidstone, près du village de Leeds dans le Kent.</p><small class="it-meta">📍 Ashford Road, Maidstone</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Leeds" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Leeds%20Castle/@51.24845,0.63002,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Jeztow1.jpg/330px-Jeztow1.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Jezreel&#x27;s Tower</b><small>À voir</small><small class="it-meta">📍 Eva Road, Gillingham</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://web.archive.org/web/20250308103205/https://apps.medway.gov.uk/apps/medwayimages/details.asp?pg=&amp;pga=24&amp;searchtype=&amp;search=gillingham" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Jezreel%27s%20Tower/@51.3743,0.55134,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍛</div><div class="it-txt"><b>India Royal</b><small>Cuisine indienne</small><small class="it-meta">📍 16 East Street, Borough of Swale</small><small class="it-meta">à emporter</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/India%20Royal/@51.31515,0.89334,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Leo Lounge</b><small>Cuisine british</small><small class="it-meta">📍 13 Market Place, Borough of Swale</small><small class="it-meta">🕒 dim-jeu 21:00-23:00, ven,sam 09:00-24:00</small></div><span class="it-liens"><a href="https://thelounges.co.uk/leo" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Leo%20Lounge/@51.31556,0.89102,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍝</div><div class="it-txt"><b>ASK Italian</b><small>Cuisine italienne</small><small class="it-meta">📍 Court Street, Borough of Swale</small><small class="it-meta">📞 <a href="tel:+441795601313">+44 1795 601313</a></small></div><span class="it-liens"><a href="https://www.askitalian.co.uk/italian/restaurants/faversham" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/ASK%20Italian/@51.31699,0.89245,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Londres</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Ekstedt at The Yard</b><small>Cuisine nordic</small><small class="it-meta">📍 3-5 Great Scotland Yard, City of Westminster</small><small class="it-meta">🕒 ouvert 24 h/24, 7 j/7</small><small class="it-meta">📞 <a href="tel:+442079254749">+44 20 7925 4749</a></small></div><span class="it-liens"><a href="https://www.ekstedtattheyard.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Ekstedt%20at%20The%20Yard/@51.50641,-0.12617,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>PizzaExpress</b><small>Pizzeria</small><small class="it-meta">📍 450 Strand, City of Westminster</small><small class="it-meta">🕒 lun-mer 11:30-22:30 ; jeu-sam 11:30-23:00 ; dim 11:30-22:00</small><small class="it-meta">terrasse, à emporter, options végétariennes, options véganes, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+442079308205">+44 20 7930 8205</a></small></div><span class="it-liens"><a href="https://www.pizzaexpress.com/london-450-strand" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/PizzaExpress/@51.50841,-0.12612,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>The Portrait Restaurant</b><small>Cuisine british</small><p class="it-res">A contemporary British restaurant by Richard Corrigan situated on the fourth floor of the National Portrait Gallery serving an all day menu alongside views out across Trafalgar Square and beyond.</p><small class="it-meta">📍 2 St Martin&#x27;s Place, City of Westminster</small><small class="it-meta">🕒 dim-mar 12:00-17:30 mer-sam 12:00-22:30</small><small class="it-meta">accessible en fauteuil roulant, réservation conseillée</small><small class="it-meta">📞 <a href="tel:+442038727610">+44 20 3872 7610</a></small></div><span class="it-liens"><a href="https://theportraitrestaurant.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/The%20Portrait%20Restaurant/@51.50924,-0.128,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Londres</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Londres%2C%20Royaume-Uni&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Londres</a></div></section>
+<section class="glass-box it-seo" style="margin:24px 0"><h2 style="margin-top:0">Questions fréquentes</h2><details><summary><b>Quelle est la distance de Paris à Londres sans autoroute ?</b></summary><p>Environ 431 km, soit 7 h 58 de conduite et 2 jours à raison d&#x27;environ 4 h par jour. Par l&#x27;autoroute, le trajet fait 418 km en 4 h 51.</p></details><details><summary><b>Combien coûte le trajet de Paris à Londres ?</b></summary><p>Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 160 € sans autoroute contre 193 € par l&#x27;autoroute (péages compris). Les repas, les visites et l&#x27;hébergement ne sont pas inclus.</p></details><details><summary><b>Où s&#x27;arrêter entre Paris et Londres ?</b></summary><p>Les étapes proposées sont : Étaples, Londres. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit.</p></details><details><summary><b>Y a-t-il des péages entre Paris et Londres sans autoroute ?</b></summary><p>Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l&#x27;estimation.</p></details></section>
+<h2>Autres trajets</h2><ul><li><a href="paris-nice-sans-autoroute.html">Paris Nice sans autoroute</a></li><li><a href="paris-menton-sans-autoroute.html">Paris Menton sans autoroute</a></li><li><a href="paris-marseille-sans-autoroute.html">Paris Marseille sans autoroute</a></li><li><a href="paris-bordeaux-sans-autoroute.html">Paris Bordeaux sans autoroute</a></li><li><a href="paris-toulouse-sans-autoroute.html">Paris Toulouse sans autoroute</a></li><li><a href="paris-strasbourg-sans-autoroute.html">Paris Strasbourg sans autoroute</a></li><li><a href="paris-nice-voiture-electrique.html">Paris Nice en voiture électrique</a></li><li><a href="paris-marseille-voiture-electrique.html">Paris Marseille en voiture électrique</a></li></ul>
+<p class="it-note">Les lieux et restaurants viennent d'OpenStreetMap et de Wikipédia : vérifiez les horaires avant de partir. Itinéraire calculé avec <a href="https://openrouteservice.org/" target="_blank" rel="noopener">OpenRouteService</a>, lieux via <a href="https://www.geoapify.com/" target="_blank" rel="noopener">Geoapify</a>, données &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</p>
+
+
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+    <p>Nous utilisons des cookies pour mesurer l'audience du site (Google Analytics). Vous pouvez accepter ou refuser ce suivi. Voir notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+    <div class="cookie-actions">
+        <button class="cookie-refuse" onclick="setCookieConsent(false)">Refuser</button>
+        <button class="cookie-accept" onclick="setCookieConsent(true)">Accepter</button>
+    </div>
+</div>
+<script>
+(function() {
+    function setCookieConsent(accepted) {
+        localStorage.setItem('cookie_consent', accepted ? 'granted' : 'denied');
+        gtag('consent', 'update', {
+            'analytics_storage': accepted ? 'granted' : 'denied'
+        });
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+    window.setCookieConsent = setCookieConsent;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var saved = localStorage.getItem('cookie_consent');
+        if (saved === 'granted') {
+            gtag('consent', 'update', { 'analytics_storage': 'granted' });
+        } else if (saved === null) {
+            document.getElementById('cookie-banner').style.display = 'flex';
+        }
+        
+    });
+})();
+</script>
+
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <h3>Nomad</h3>
+            <p>Le compagnon de voyage qui vous aide à choisir plus vite et à partir plus serein.</p>
+        </div>
+        <div>
+            <h4>Explorer</h4>
+            <ul class="footer-links">
+                <li><a href="hotels.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
+                <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
+                <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
+                <li><a href="croisieres.html">Croisières</a></li>
+                <li><a href="itineraire-decouverte.html">Itinéraire découverte</a></li>
+                <li><a href="trajets-sans-autoroute.html">Trajets sans autoroute</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>À propos</h4>
+            <ul class="footer-links">
+                <li><a href="apropos.html">À propos de nous</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Conseils de voyage</a></li>
+                <li><a href="index.html#avis">Avis voyageurs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Votre retour compte</h4>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
+        <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
+    </div>
+</footer>
+
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const TR={"c": [[48.8572, 2.3523], [48.867, 2.353], [48.875, 2.3591], [48.8793, 2.363], [48.8884, 2.3741], [48.8969, 2.385], [48.9012, 2.3895], [48.9095, 2.3984], [48.9163, 2.4058], [48.9275, 2.4181], [48.9352, 2.4263], [48.9421, 2.4326], [48.95, 2.4395], [48.9568, 2.4456], [48.9652, 2.4531], [48.9875, 2.4731], [49.0056, 2.4895], [49.0264, 2.5], [49.0302, 2.5004], [49.0393, 2.5093], [49.0461, 2.5116], [49.0562, 2.5182], [49.0625, 2.5229], [49.0812, 2.5296], [49.0966, 2.5311], [49.0996, 2.5315], [49.1255, 2.5335], [49.1303, 2.5338], [49.1511, 2.5242], [49.1565, 2.5193], [49.1876, 2.4869], [49.1926, 2.4841], [49.1968, 2.4782], [49.2004, 2.4757], [49.205, 2.4652], [49.221, 2.4675], [49.2422, 2.4741], [49.2472, 2.4763], [49.253, 2.4908], [49.2634, 2.4878], [49.274, 2.4862], [49.2849, 2.4736], [49.2895, 2.4552], [49.3068, 2.4531], [49.3139, 2.4443], [49.3295, 2.4354], [49.3481, 2.43], [49.3645, 2.4257], [49.374, 2.4357], [49.3819, 2.4371], [49.3868, 2.4267], [49.3898, 2.3985], [49.3927, 2.3814], [49.405, 2.364], [49.4149, 2.2933], [49.4156, 2.2616], [49.418, 2.2447], [49.4326, 2.235], [49.4527, 2.2158], [49.4574, 2.2133], [49.4724, 2.2126], [49.4923, 2.2095], [49.4976, 2.2107], [49.5073, 2.2009], [49.5142, 2.1884], [49.5186, 2.181], [49.5247, 2.1685], [49.5393, 2.1568], [49.5521, 2.1429], [49.5585, 2.1317], [49.5719, 2.1221], [49.5836, 2.1344], [49.5898, 2.1477], [49.597, 2.1539], [49.6087, 2.165], [49.6152, 2.1744], [49.6268, 2.1802], [49.6399, 2.1811], [49.6511, 2.1793], [49.6685, 2.1764], [49.6864, 2.1749], [49.696, 2.1725], [49.7066, 2.1764], [49.7234, 2.1789], [49.7408, 2.1631], [49.7422, 2.156], [49.7441, 2.1503], [49.7497, 2.1508], [49.7606, 2.1457], [49.7761, 2.1337], [49.7913, 2.1119], [49.7975, 2.1061], [49.8037, 2.1075], [49.8084, 2.1068], [49.8143, 2.0988], [49.8268, 2.0855], [49.8356, 2.0767], [49.8496, 2.0665], [49.8619, 2.0587], [49.8714, 2.0456], [49.8757, 2.0316], [49.8826, 2.0206], [49.8888, 2.0151], [49.8926, 2.0102], [49.9, 1.994], [49.912, 1.9836], [49.918, 1.9801], [49.9357, 1.9719], [49.9527, 1.9545], [49.9571, 1.9497], [49.9611, 1.9432], [49.9671, 1.9418], [49.974, 1.9411], [50.0013, 1.9132], [50.0318, 1.8904], [50.0434, 1.8966], [50.0512, 1.9026], [50.0563, 1.9036], [50.0601, 1.9091], [50.0769, 1.9222], [50.096, 1.9362], [50.101, 1.9364], [50.1115, 1.9367], [50.1254, 1.9509], [50.1311, 1.9495], [50.1339, 1.9469], [50.1421, 1.9446], [50.1613, 1.9431], [50.1821, 1.9348], [50.1986, 1.9208], [50.2063, 1.9167], [50.2196, 1.9055], [50.2301, 1.8963], [50.2432, 1.8867], [50.2502, 1.8843], [50.2567, 1.886], [50.2753, 1.8819], [50.2895, 1.8777], [50.2945, 1.8727], [50.3152, 1.8623], [50.3253, 1.8683], [50.3323, 1.8755], [50.3372, 1.8717], [50.3437, 1.8587], [50.3491, 1.8496], [50.3545, 1.856], [50.364, 1.8695], [50.3681, 1.8748], [50.3805, 1.862], [50.3888, 1.8577], [50.4134, 1.8303], [50.424, 1.8164], [50.4385, 1.7995], [50.4514, 1.7745], [50.4595, 1.7724], [50.4699, 1.7741], [50.4773, 1.7684], [50.4816, 1.764], [50.4886, 1.7684], [50.5142, 1.7628], [50.5369, 1.7637], [50.5716, 1.7498], [50.5824, 1.7403], [50.6055, 1.7441], [50.61, 1.7407], [50.6315, 1.7422], [50.6396, 1.7457], [50.6449, 1.7514], [50.6568, 1.7518], [50.6636, 1.751], [50.6698, 1.7533], [50.6749, 1.756], [50.6836, 1.7609], [50.6885, 1.7671], [50.6985, 1.7845], [50.7024, 1.7831], [50.7232, 1.7778], [50.7291, 1.7743], [50.7378, 1.7662], [50.743, 1.76], [50.7491, 1.7565], [50.7546, 1.7728], [50.762, 1.7808], [50.776, 1.7837], [50.7864, 1.7858], [50.7906, 1.7987], [50.7979, 1.8217], [50.8018, 1.8216], [50.8059, 1.8243], [50.827, 1.8293], [50.8361, 1.8313], [50.8522, 1.849], [50.8672, 1.8655], [50.8694, 1.8705], [50.8742, 1.8697], [50.8823, 1.873], [50.8899, 1.8804], [50.9012, 1.8811], [50.9055, 1.8823], [50.9176, 1.8875], [50.9252, 1.8879], [50.9313, 1.8865], [50.9365, 1.8858], [50.9398, 1.8789], [50.9516, 1.8767], [50.9597, 1.8762], [50.9661, 1.8739], [50.9694, 1.876], [50.9699, 1.8739], [50.9675, 1.8694], [50.966, 1.8641], [50.9661, 1.8598], [50.9658, 1.8559], [50.964, 1.748], [51.121, 1.344], [51.127, 1.3347], [51.1272, 1.3355], [51.1285, 1.3361], [51.1292, 1.3365], [51.1269, 1.3291], [51.1264, 1.33], [51.1342, 1.3303], [51.1438, 1.3315], [51.1513, 1.3169], [51.1549, 1.2913], [51.1546, 1.2879], [51.1693, 1.2513], [51.1727, 1.2311], [51.1764, 1.2129], [51.1909, 1.188], [51.2234, 1.1527], [51.2445, 1.1346], [51.2532, 1.1239], [51.2552, 1.1001], [51.2574, 1.0784], [51.272, 1.0575], [51.286, 1.0224], [51.29, 0.9924], [51.2903, 0.9626], [51.2993, 0.9352], [51.2986, 0.9238], [51.2955, 0.918], [51.2909, 0.912], [51.2855, 0.908], [51.2782, 0.8978], [51.2775, 0.883], [51.274, 0.8728], [51.2749, 0.8672], [51.2779, 0.8567], [51.288, 0.8531], [51.2901, 0.8461], [51.2905, 0.8417], [51.294, 0.8267], [51.2953, 0.8187], [51.2992, 0.8046], [51.2975, 0.7893], [51.2995, 0.7805], [51.3031, 0.7687], [51.3019, 0.7573], [51.301, 0.746], [51.3015, 0.7367], [51.299, 0.7307], [51.2984, 0.7238], [51.3031, 0.722], [51.3041, 0.7117], [51.3036, 0.7015], [51.303, 0.6905], [51.3054, 0.6841], [51.3104, 0.6868], [51.312, 0.6769], [51.3117, 0.6722], [51.3197, 0.6627], [51.3267, 0.6649], [51.33, 0.6654], [51.3357, 0.6711], [51.3412, 0.6626], [51.3473, 0.6623], [51.3531, 0.6614], [51.3586, 0.6326], [51.3619, 0.6155], [51.3637, 0.6066], [51.3664, 0.5959], [51.3724, 0.5993], [51.3755, 0.588], [51.3798, 0.5763], [51.3861, 0.5784], [51.3906, 0.575], [51.3925, 0.5672], [51.3938, 0.5603], [51.395, 0.5544], [51.3998, 0.5372], [51.4014, 0.5139], [51.4065, 0.5093], [51.4116, 0.5167], [51.4154, 0.5131], [51.4105, 0.4885], [51.4095, 0.469], [51.4059, 0.4593], [51.3983, 0.4438], [51.3995, 0.4348], [51.4039, 0.4003], [51.4116, 0.3721], [51.4202, 0.3438], [51.4302, 0.3177], [51.4302, 0.2733], [51.4268, 0.2424], [51.4259, 0.226], [51.4344, 0.1828], [51.4433, 0.1659], [51.4483, 0.1502], [51.4489, 0.1231], [51.4555, 0.0896], [51.455, 0.0497], [51.4618, 0.0299], [51.4722, 0.0262], [51.4866, 0.0178], [51.4956, 0.0037], [51.5024, 0.013], [51.5082, 0.0121], [51.51, 0.0038], [51.5097, -0.0024], [51.5077, -0.0195], [51.5076, -0.0289], [51.5117, -0.0356], [51.5104, -0.0433], [51.5097, -0.0508], [51.5095, -0.0599], [51.5093, -0.067], [51.509, -0.0735], [51.5095, -0.0801], [51.5097, -0.0877], [51.5109, -0.0937], [51.511, -0.108], [51.5096, -0.1191], [51.5073, -0.1267], [51.5072, -0.1276]], "n": [[50.51396, 1.63863, "Nuit 1 : Étaples"], [51.5072, -0.1276, "Nuit 2 : Londres"]], "v": [[48.98835, 2.44823, "Ancien hôtel-Dieu"], [49.04105, 2.50726, "Archéa"], [48.99064, 2.59006, "Mémorial du Concorde"], [49.41514, 2.10202, "Maladrerie Saint-Lazare"], [50.74126, 1.61744, "Colonne de la Grande Armée"], [51.12898, 1.32288, "Dover Castle"], [51.24845, 0.63002, "Leeds Castle"], [51.3743, 0.55134, "Jezreel's Tower"]]};
+const map=L.map("itMap");
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"&copy; OpenStreetMap"}).addTo(map);
+const ligne=L.polyline(TR.c,{color:"#075985",weight:5}).addTo(map);
+TR.n.slice(0,-1).forEach(p=>L.marker([p[0],p[1]]).addTo(map).bindPopup(p[2]));
+TR.v.forEach(p=>L.circleMarker([p[0],p[1]],{radius:6,color:"#c8322b",weight:2,fillColor:"#fff",fillOpacity:1}).addTo(map).bindPopup(p[2]));
+map.fitBounds(ligne.getBounds().pad(0.1));
+</script>
+</body>
+</html>

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paris Strasbourg sans autoroute : itinéraire, étapes et coût | MyHotelCompare</title>
+<meta name="description" content="Paris Strasbourg sans autoroute : 501 km, 2 jours, 41 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<link rel="canonical" href="https://myhotelcompare.com/paris-strasbourg-sans-autoroute.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Paris Strasbourg sans autoroute : itinéraire, étapes et coût">
+<meta property="og:description" content="Paris Strasbourg sans autoroute : 501 km, 2 jours, 41 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<meta property="og:url" content="https://myhotelcompare.com/paris-strasbourg-sans-autoroute.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Quelle est la distance de Paris à Strasbourg sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Environ 501 km, soit 4 h 55 de conduite et 2 jours à raison d'environ 4 h par jour. Par l'autoroute, le trajet fait 490 km en 4 h 44."}}, {"@type": "Question", "name": "Combien coûte le trajet de Paris à Strasbourg ?", "acceptedAnswer": {"@type": "Answer", "text": "Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 51 € sans autoroute contre 101 € par l'autoroute (péages compris). Les repas, les visites et l'hébergement ne sont pas inclus."}}, {"@type": "Question", "name": "Où s'arrêter entre Paris et Strasbourg ?", "acceptedAnswer": {"@type": "Answer", "text": "Les étapes proposées sont : Metz, Strasbourg. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit."}}, {"@type": "Question", "name": "Y a-t-il des péages entre Paris et Strasbourg sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l'estimation."}}]}</script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<!-- Google Consent Mode v2 : refus par défaut tant que l'utilisateur n'a pas choisi -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLVNV2211J"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RLVNV2211J');
+</script>
+
+<link rel="icon" type="image/png" href="images/logo_5.png?v=2">
+<link rel="apple-touch-icon" href="images/logo_5.png?v=2">
+<style>
+:root {
+    --bg: #f2fbfd;
+    --bg-dark: #063247;
+    --panel: #e5f5f8;
+    --panel-strong: #c7eaf0;
+    --card: #ffffff;
+    --line: #b9dfe7;
+    --text: #123443;
+    --muted: #52717c;
+    --primary: #087f9b;
+    --primary-dark: #056078;
+    --secondary: #075985;
+    --success: #16805b;
+    --success-soft: #d7f4e7;
+    --warning: #e59a21;
+    --shadow: 0 18px 38px rgba(5, 96, 120, 0.14);
+}
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #f4fcfd 0%, #e7f6f8 100%);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px 16px 40px;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.site-header { margin-bottom: 24px; }
+.brand-lockup { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 18px; color: var(--text); }
+.brand-mark { width: 58px; height: 58px; object-fit: contain; border-radius: 16px; background: var(--panel-strong); padding: 5px; }
+.brand-lockup strong { display: block; color: var(--secondary); font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1; }
+.brand-lockup span { display: block; color: var(--muted); margin-top: 5px; font-size: 0.88rem; }
+h1, h2, h3, h4 { color: var(--text); }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; }
+a { color: var(--secondary); }
+.site-footer { margin-top: 48px; background: linear-gradient(135deg, #063247, #075985); color: #effcff; border-radius: 22px; padding: 30px; box-shadow: var(--shadow); }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 28px; }
+.site-footer h3, .site-footer h4 { color: #b8f0f6; margin-top: 0; }
+.site-footer p, .site-footer li { color: #d6eef2; line-height: 1.6; }
+.site-footer a { color: #b8f0f6; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+.footer-links { list-style: none; padding: 0; margin: 0; }
+.footer-links li { margin-bottom: 8px; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.18); margin-top: 24px; padding-top: 18px; display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; font-size: 0.85rem; }
+.footer-bottom p { margin: 0; }
+@media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } .brand-lockup { justify-content: flex-start; } }
+.top-nav {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    background: linear-gradient(135deg, var(--secondary), var(--primary-dark));
+    padding: 14px 18px; border-radius: 18px; margin: 6px 0 22px;
+    box-shadow: var(--shadow); justify-content: center;
+}
+.top-nav a {
+    color: white; background: rgba(255,255,255,0.12);
+    padding: 10px 16px; border-radius: 12px; text-decoration: none;
+    font-weight: 700; border: 1px solid rgba(255,255,255,0.15);
+}
+.top-nav a:hover { background: rgba(255,255,255,0.2); }
+.card {
+    background: linear-gradient(180deg, #fffefb 0%, #fff8ef 100%);
+    border: 1px solid var(--line); border-radius: 20px;
+    padding: 24px; margin-bottom: 22px; box-shadow: var(--shadow);
+}
+.btn, .btn-booking, .btn-expedia {
+    display: inline-block; text-decoration: none; border-radius: 12px;
+    font-weight: 700; transition: transform 0.2s ease; cursor: pointer;
+}
+.btn:hover, .btn-booking:hover, .btn-expedia:hover { transform: translateY(-1px); }
+.btn { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 18px; }
+.btn-booking { display: block; background: linear-gradient(135deg, #0f3d85, #1d5bbf); color: white; padding: 12px 16px; text-align: center; margin-bottom: 10px; }
+.btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
+.btn-site-officiel { display: block; background: linear-gradient(135deg, var(--secondary), var(--primary-dark)); color: white; padding: 12px 16px; text-align: center; }
+.hero-banner {
+    background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
+    border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
+}
+.hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 18px; }
+.hero-badges span {
+    background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.24); color: #f2fdff; border-radius: 999px; padding: 7px 12px; font-weight: 700; font-size: 0.82rem;
+}
+.glass-box { background: rgba(255,255,255,0.72); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+.filters-box {
+    background: linear-gradient(180deg, #e3f5f8 0%, #f8fdfe 100%);
+    border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 24px 0 18px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; box-shadow: var(--shadow);
+}
+.filters-box label { color: var(--muted); display: block; margin-bottom: 8px; font-weight: 700; }
+.filters-box select {
+    width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--text); font-size: 0.97rem;
+}
+.btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
+.comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.smart-results-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.smart-results-grid .card { margin-bottom: 0; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
+.review-card {
+    background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
+    border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
+}
+.review-card .stars { color: var(--warning); font-size: 1.1rem; letter-spacing: 2px; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 16px; margin-top: 18px; }
+.stat-item { background: rgba(255,255,255,0.5); border: 1px solid rgba(130,90,20,0.15); border-radius: 16px; padding: 18px; }
+.stat-item strong { display: block; font-size: 1.5rem; }
+.testimonial-section > h2 { color: var(--text) !important; }
+.testimonial-section > div > div { background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%) !important; border-color: var(--line) !important; }
+.testimonial-section > div > div p { color: var(--muted) !important; }
+.testimonial-section > div > div p:first-child { color: var(--warning) !important; }
+.testimonial-section > div > div p strong { color: var(--text) !important; }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 1000px) { .smart-results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .smart-results-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+.cookie-banner {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+    background: #063247; color: #effcff; padding: 18px 20px;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+    gap: 16px; box-shadow: 0 -8px 24px rgba(0,0,0,0.25);
+}
+.cookie-banner p { margin: 0; max-width: 640px; font-size: 0.92rem; line-height: 1.5; }
+.cookie-banner a { color: #b8f0f6; }
+.cookie-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie-actions button {
+    border: none; border-radius: 10px; padding: 10px 18px; font-weight: 700; cursor: pointer;
+}
+.cookie-accept { background: var(--primary); color: white; }
+.cookie-refuse { background: rgba(255,255,255,0.15); color: white; }
+.fiche-photo-carte { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0; align-items: stretch; }
+.fiche-photo-carte img, .fiche-photo-carte iframe { width: 100%; height: 260px; object-fit: cover; border-radius: 16px; border: 0; }
+@media (max-width: 600px) { .fiche-photo-carte { grid-template-columns: 1fr; } .fiche-photo-carte img, .fiche-photo-carte iframe { height: 220px; } }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 20px; }
+.btn-itineraire {
+    display: inline-block; padding: 14px 24px; border-radius: 14px; font-weight: 800;
+    background: rgba(255,255,255,0.14); color: #fff; text-decoration: none;
+    border: 1.5px solid rgba(255,255,255,0.6);
+}
+.btn-itineraire:hover { background: rgba(255,255,255,0.26); }
+.btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+</style>
+
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrld.ltd/NTcxODA1.js?t=571805';
+      document.head.appendChild(script);
+  })();
+</script>
+
+<style>
+.it-road{display:inline-block;min-width:36px;text-align:center;padding:0 7px;border-radius:5px;font-weight:800;font-size:.8rem;line-height:22px}
+.it-road.N{background:#c8322b;color:#fff}
+.it-road.D{background:#f2c230;color:#123443;box-shadow:inset 0 0 0 2px #123443}
+.it-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:24px 0;align-items:end}
+.it-form label{display:block;font-weight:700;color:var(--muted);margin-bottom:6px}
+.it-form input,.it-form select{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--text);font-size:.97rem}
+.it-msg{padding:12px 16px;border-radius:12px;margin-bottom:18px;font-weight:600}
+.it-msg.err{background:#fde8e6;color:#9a2a22}.it-msg.info{background:var(--panel);color:var(--secondary)}
+#itRes{display:none}
+.it-cmp{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 14px}
+.it-cmp .glass-box.win{border:2px solid var(--success)}
+.it-cmp h2{font-size:1.15rem;margin:0 0 10px}
+.it-row{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid var(--line)}
+.it-row:last-child{border:0}
+.it-save{background:var(--success-soft);color:var(--success);border-radius:12px;padding:12px 16px;font-weight:700;margin-bottom:8px}
+.it-note{color:var(--muted);font-size:.85rem;margin:0 0 22px}
+#itMap{height:380px;border-radius:16px;margin-bottom:22px;box-shadow:var(--shadow)}
+.it-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.it-tab{font:inherit;font-weight:700;cursor:pointer;background:#fff;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:9px 18px}
+.it-tab[aria-selected=true]{background:var(--secondary);color:#fff;border-color:var(--secondary)}
+.it-tab:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+.it-dayhead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.it-dayhead h2{margin:0;font-size:1.4rem}
+.it-dayhead span{color:var(--muted)}
+.it-roads{display:flex;gap:10px 14px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+.it-roads small{color:var(--muted)}
+.it-bloc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:14px}
+.it-bloc h3{margin:0 0 8px;font-size:1.05rem}
+.it-lieux{list-style:none;margin:0;padding:0}
+.it-lieu{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
+.it-lieu:last-child{border:0}
+.it-lieu small{display:block;color:var(--muted)}
+.it-vig{flex:0 0 76px;width:76px;height:76px;border-radius:12px;overflow:hidden;background:var(--panel);display:flex;align-items:center;justify-content:center;font-size:2rem}
+.it-vig img{width:100%;height:100%;object-fit:cover;display:block}
+.it-txt{flex:1;min-width:0}
+.it-res{margin:4px 0 2px;font-size:.9rem;line-height:1.45}
+.it-meta{margin-top:2px;font-size:.82rem}
+.it-liens{display:flex;gap:12px;flex-wrap:wrap;align-self:center}
+.it-liens a{font-weight:700;white-space:nowrap}
+.it-wait{color:var(--muted);margin:0}
+.it-budget{margin-bottom:22px}
+.it-bt{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:8px 12px;align-items:center}
+.it-bt .fort{font-weight:800;border-top:1px solid var(--line);padding-top:8px}
+.it-bt small{color:var(--muted)}
+.it-btn.s{background:var(--secondary);color:#fff;border:0;cursor:pointer;font-family:inherit}
+.it-share-msg{align-self:center;color:var(--success);font-weight:700}
+.it-urlcopy{width:100%;max-width:440px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:.85rem}
+.it-all{margin-bottom:18px}
+.it-all p{margin:6px 0 0}
+.it-gps{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px}
+.it-btn{display:inline-block;padding:10px 16px;border-radius:12px;font-weight:700;text-decoration:none;font-size:.95rem}
+.it-btn.g{background:#1a73e8;color:#fff}
+.it-btn.w{background:#33ccff;color:#06364a}
+.it-btn:hover{filter:brightness(.95)}
+.it-btn:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+@media (max-width:620px){.it-cmp{grid-template-columns:1fr}.it-lieu{flex-wrap:wrap}.it-liens{flex-basis:100%;align-self:flex-start}}
+
+.tj-cmp .glass-box h2{margin-top:0}
+.tj-fil{font-size:.9rem;color:var(--muted);margin:0 0 10px}
+</style>
+</head>
+<body><div class="container">
+
+<header class="site-header">
+<div class="brand-lockup">
+    <img src="images/logo_5.svg" alt="Nomad" class="brand-mark">
+    <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
+</div>
+<div class="top-nav">
+    <a href="index.html">Accueil</a>
+    <a href="hotels.html">Hôtels</a>
+    <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
+    <a href="loueurs-vehicules.html">Location de Véhicules</a>
+    <a href="croisieres.html">Croisières</a>
+    <a href="itineraire-decouverte.html">Itinéraires</a>
+    <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
+</div>
+</header>
+
+<p class="tj-fil"><a href="index.html">Accueil</a> &gt; <a href="trajets-sans-autoroute.html">Trajets sans autoroute</a> &gt; Paris Strasbourg</p>
+<div class="hero-banner">
+  <h1 style="color:#fff;margin:0 0 10px;font-size:clamp(1.6rem,3.6vw,2.4rem)">Paris Strasbourg sans autoroute : itinéraire, étapes et coût</h1>
+  <p style="margin:0;max-width:760px;line-height:1.7;color:#effcff">Pour aller de Paris à Strasbourg sans autoroute, comptez environ 501 km et 4 h 55 de conduite, soit 2 jours à raison d&#x27;environ 4 h de route par jour. Par l&#x27;autoroute, le même trajet fait 490 km en 4 h 44, avec environ 41 € de péages estimés.</p>
+</div>
+<p style="line-height:1.7">En évitant l&#x27;autoroute, vous économisez environ 50 € sur la route (péages et carburant), pour environ 0 h 11 de trajet en plus. Les routes les plus empruntées sont la A4 (462 km), la A355 (13 km), la D103 (1 km). </p>
+<section class="it-cmp tj-cmp" aria-label="Comparatif avec l'autoroute">
+  <div class="glass-box"><h2>Par l'autoroute</h2><div class="it-row"><span>Distance</span><b>490 km</b></div><div class="it-row"><span>Temps de conduite</span><b>4 h 44</b></div><div class="it-row"><span>Péages</span><b>41 €</b></div><div class="it-row"><span>Carburant</span><b>61 €</b></div><div class="it-row"><span>Total route</span><b>101 €</b></div></div>
+  <div class="glass-box win"><h2>Parcours découverte</h2><div class="it-row"><span>Distance</span><b>501 km</b></div><div class="it-row"><span>Temps de conduite</span><b>4 h 55</b></div><div class="it-row"><span>Péages</span><b>0 €</b></div><div class="it-row"><span>Carburant</span><b>51 €</b></div><div class="it-row"><span>Total route</span><b>51 €</b></div></div>
+</section>
+<p class="it-note">Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, péage à 0,10 €/km sur les tronçons à péage. Montants indicatifs, mis à jour le 15 octobre 2026.</p>
+<p><a class="btn-compare" style="display:inline-block;text-decoration:none;width:auto;padding:14px 24px" href="itineraire-decouverte.html?d=Paris+%28France%29&amp;dc=2.3522%2C48.8566&amp;dp=France&amp;a=Strasbourg+%28France%29&amp;ac=7.7521%2C48.5734&amp;ap=France&amp;r=4&amp;v=th&amp;c=6&amp;p=1.8&amp;n=2&amp;m=45&amp;utm_source=pages-trajets&amp;utm_medium=site&amp;utm_campaign=trajet">Calculer avec mon véhicule</a></p>
+<div id="itMap"></div>
+<section><h2>Jour 1 : Paris à Metz</h2><p class="it-wait">331 km, 3 h 13 de conduite</p><div class="it-roads"><span><span class="it-road N">A4</span> <small>318 km</small></span><span><span class="it-road D">D103</span> <small>1 km</small></span><span><span class="it-road D">D6</span> <small>0 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Braille_house.JPG/330px-Braille_house.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Musée Louis Braille</b><small>Musée</small><p class="it-res">La maison natale de Louis Braille parfois nommée maison Louis Braille ou encore musée Louis-Braille est la maison natale de Louis Braille située à Coupvray en Seine-et-Marne en France.</p><small class="it-meta">📍 Rue Louis Braille, Coupvray</small><small class="it-meta">🕒 mer-dim 10:00-18:00</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Maison_natale_de_Louis_Braille" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://museelouisbraille.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Mus%C3%A9e%20Louis%20Braille/@48.8945,2.79203,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">📍</div><div class="it-txt"><b>Vase du Parc</b><small>À voir</small><small class="it-meta">📍 Avenue du Parc, Villenoy</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Vase%20du%20Parc/@48.94493,2.8652,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Chapelle_castrale_Montoy_Flanville.JPG/330px-Chapelle_castrale_Montoy_Flanville.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château de Montoy</b><small>Château</small><p class="it-res">Le château de Montoy à Montoy-Flanville en Moselle est un bâtiment à trois niveaux remanié au XVIIIe siècle.</p><small class="it-meta">📍 5 Rue de la Gloriette, Ogy-Montoy-Flanville</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Montoy" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20de%20Montoy/@49.12012,6.27751,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Double_couronne_de_Bellecroix_-_Porte_de_Sarrelouis.jpg/330px-Double_couronne_de_Bellecroix_-_Porte_de_Sarrelouis.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Porte de Sarrelouis</b><small>Patrimoine</small><p class="it-res">La porte de Bellecroix ou Sarrelouis est une des nombreuses portes des remparts médiévaux de Metz.</p><small class="it-meta">📍 Rue du Corps Expéditionnaire Français en Italie, Metz</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Porte_de_Bellecroix" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Porte%20de%20Sarrelouis/@49.12062,6.19145,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍣</div><div class="it-txt"><b>Sushi Villa</b><small>Sushi</small><small class="it-meta">📍 Drive KFC, Metz</small><small class="it-meta">🕒 lun-dim 11:30-14:30,18:30-22:30</small><small class="it-meta">📞 <a href="tel:+33365671818">+33 3 65 67 18 18</a></small></div><span class="it-liens"><a href="https://sushivillametz57.com" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Sushi%20Villa/@49.10924,6.23298,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍝</div><div class="it-txt"><b>Ristorante Del Arte</b><small>Cuisine italienne</small><small class="it-meta">📍 Drive KFC, Metz</small><small class="it-meta">🕒 lun-dim 11:30-14:30,18:30-22:00 ; ven,sam 11:30-14:30,18:30-22:30</small><small class="it-meta">livraison</small><small class="it-meta">📞 <a href="tel:+33387743273">+33 3 87 74 32 73</a></small></div><span class="it-liens"><a href="https://www.delarte.fr/store-finder/397001" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Ristorante%20Del%20Arte/@49.10911,6.23256,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🥩</div><div class="it-txt"><b>Buffalo Grill</b><small>Grillades</small><small class="it-meta">📍 16 Rue Jules Michelet, Metz</small><small class="it-meta">🕒 lun,sam 11:30-22:30 ; mar-jeu 11:30-15:00,18:00-22:00 ; ven 11:30-15:00,18:00-22:30 ; dim 11:30-22:00</small><small class="it-meta">terrasse, à emporter, livraison, accessible en fauteuil roulant, réservation conseillée</small><small class="it-meta">📞 <a href="tel:+33387763491">+33 3 87 76 34 91</a></small></div><span class="it-liens"><a href="https://www.buffalo-grill.fr/nos-restaurants/metz-borny" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Buffalo%20Grill/@49.10818,6.22571,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Metz</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Restaurant du Fort</b><small>Cuisine française</small><small class="it-meta">📍 Allée du Fort, Saint-Julien-lès-Metz</small><small class="it-meta">options véganes</small><small class="it-meta">📞 <a href="tel:+33387757116">+33 3 87 75 71 16</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Restaurant%20du%20Fort/@49.1409,6.21343,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>La Basse-Cour</b><small>Cuisine poultry</small><p class="it-res">Brasserie-restaurant</p><small class="it-meta">📍 198 Rue du Général Metman, Metz</small><small class="it-meta">terrasse</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/La%20Basse-Cour/@49.11985,6.24191,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Öz Urfa</b><small class="it-meta">📍 9 Rue des Cloutiers, Metz</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+33988345021">+33 9 88 34 50 21</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/%C3%96z%20Urfa/@49.11494,6.23626,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Metz</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Metz%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Metz</a></div></section><section><h2>Jour 2 : Metz à Strasbourg</h2><p class="it-wait">170 km, 1 h 43 de conduite</p><div class="it-roads"><span><span class="it-road N">A4</span> <small>144 km</small></span><span><span class="it-road N">A355</span> <small>13 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Brumath21.JPG/330px-Brumath21.JPG?utm_source=de.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Ancien château de Brumath</b><small>Musée</small><small class="it-meta">📍 Cour du Château, Brumath</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ancien%20ch%C3%A2teau%20de%20Brumath/@48.73168,7.70961,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🏛️</div><div class="it-txt"><b>Maison des arts et du patrimoine - Musée de l&#x27;asperge</b><small>Musée</small><small class="it-meta">📍 Rue de la Wantzenau, Hœrdt</small><small class="it-meta">🕒 sam,dim,jours fériés 14:00-17:00</small><small class="it-meta">📞 <a href="tel:+33388682010">+33 3 88 68 20 10</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Maison%20des%20arts%20et%20du%20patrimoine%20-%20Mus%C3%A9e%20de%20l%27asperge/@48.69812,7.78526,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Stolperstein_f%C3%BCr_Aline_Roth_(Wolfisheim).jpg?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Aline Roth née Weill</b><small>Patrimoine</small><small class="it-meta">📍 Rue du Général Leclerc, Wolfisheim</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.stolpersteine.lautre.net/wp/abraham-aline-et-paul-roth/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Aline%20Roth%20n%C3%A9e%20Weill/@48.58685,7.66594,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Ernolsheim_Ch%C3%A2teau.JPG/330px-Ernolsheim_Ch%C3%A2teau.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château d&#x27;Urendorf</b><small>Château</small><p class="it-res">Le château d&#x27;Urendorf est un monument historique situé à Ernolsheim-Bruche, dans le département français du Bas-Rhin.</p><small class="it-meta">📍 Rue du Milieu, Ernolsheim-Bruche</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d&#x27;Urendorf" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20d%27Urendorf/@48.56355,7.56285,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Ce cher Hans</b><small>Cuisine régionale</small><small class="it-meta">📍 10 Route de Brumath, Vendenheim</small><small class="it-meta">🕒 lun-dim 12:00-14:00,18:30-22:00</small><small class="it-meta">réservation conseillée</small><small class="it-meta">📞 <a href="tel:+33388694369">+33 3 88 69 43 69</a></small></div><span class="it-liens"><a href="http://www.ce-cher-hans.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Ce%20cher%20Hans/@48.67172,7.71839,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Maison Rouge</b><small>Cuisine régionale</small><small class="it-meta">📍 2 Route de Brumath, Vendenheim</small><small class="it-meta">🕒 lun,mer 12:00-14:00 ; mar,jeu-sam 12:00-14:00,18:00-00:00</small><small class="it-meta">accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33388695179">+33 3 88 69 51 79</a></small></div><span class="it-liens"><a href="https://www.restaurantmaisonrouge.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Maison%20Rouge/@48.67,7.71901,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Flam&#x27;s</b><small>Cuisine tarte flambee</small><small class="it-meta">📍 1 Route de Strasbourg, Vendenheim</small><small class="it-meta">🕒 lun-jeu 11:30-14:00,18:30-22:00 ; ven,sam 11:30-14:00,18:30-23:00 ; dim 11:30-14:00,18:00-22:30</small><small class="it-meta">📞 <a href="tel:+33390298952">+33 3 90 29 89 52</a></small></div><span class="it-liens"><a href="https://www.flams.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Flam%27s/@48.66736,7.71971,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Strasbourg</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Les Tontons Flambeurs</b><small>Cuisine régionale</small><p class="it-res">Tartes flambées artisanales</p><small class="it-meta">📍 Route de Vienne, Strasbourg</small><small class="it-meta">🕒 mar-jeu 12:00-14:00,18:00-00:00 ; ven-sam 12:00-14:00,18:00-01:00, dim 17:00-23:00</small><small class="it-meta">terrasse, options végétariennes, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33955119980">+33 9 55 11 99 80</a></small></div><span class="it-liens"><a href="https://tontonsflambeurs.fr" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Les%20Tontons%20Flambeurs/@48.57257,7.75602,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍣</div><div class="it-txt"><b>Shoon</b><small>Cuisine japonaise</small><small class="it-meta">📍 51 Route de l&#x27;Hôpital, Strasbourg</small><small class="it-meta">🕒 lun-dim 11:30-14:30,18:30-23:00</small><small class="it-meta">à emporter</small><small class="it-meta">📞 <a href="tel:+33388605050">+33 3 88 60 50 50</a></small></div><span class="it-liens"><a href="https://www.shoon.fr" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Shoon/@48.57011,7.75116,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Brasserie Louise</b><small>Cuisine régionale</small><small class="it-meta">📍 1 Rue de la Brigade Alsace-Lorraine, Strasbourg</small><small class="it-meta">🕒 lun-dim 09:00-00:30</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+33388364053">+33 3 88 36 40 53</a></small></div><span class="it-liens"><a href="https://www.brasserie-louise.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Brasserie%20Louise/@48.57641,7.75366,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Strasbourg</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Strasbourg%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Strasbourg</a></div></section>
+<section class="glass-box it-seo" style="margin:24px 0"><h2 style="margin-top:0">Questions fréquentes</h2><details><summary><b>Quelle est la distance de Paris à Strasbourg sans autoroute ?</b></summary><p>Environ 501 km, soit 4 h 55 de conduite et 2 jours à raison d&#x27;environ 4 h par jour. Par l&#x27;autoroute, le trajet fait 490 km en 4 h 44.</p></details><details><summary><b>Combien coûte le trajet de Paris à Strasbourg ?</b></summary><p>Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 51 € sans autoroute contre 101 € par l&#x27;autoroute (péages compris). Les repas, les visites et l&#x27;hébergement ne sont pas inclus.</p></details><details><summary><b>Où s&#x27;arrêter entre Paris et Strasbourg ?</b></summary><p>Les étapes proposées sont : Metz, Strasbourg. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit.</p></details><details><summary><b>Y a-t-il des péages entre Paris et Strasbourg sans autoroute ?</b></summary><p>Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l&#x27;estimation.</p></details></section>
+<h2>Autres trajets</h2><ul><li><a href="paris-nice-sans-autoroute.html">Paris Nice sans autoroute</a></li><li><a href="paris-menton-sans-autoroute.html">Paris Menton sans autoroute</a></li><li><a href="paris-londres-sans-autoroute.html">Paris Londres sans autoroute</a></li><li><a href="paris-marseille-sans-autoroute.html">Paris Marseille sans autoroute</a></li><li><a href="paris-bordeaux-sans-autoroute.html">Paris Bordeaux sans autoroute</a></li><li><a href="paris-toulouse-sans-autoroute.html">Paris Toulouse sans autoroute</a></li><li><a href="paris-nice-voiture-electrique.html">Paris Nice en voiture électrique</a></li><li><a href="paris-marseille-voiture-electrique.html">Paris Marseille en voiture électrique</a></li></ul>
+<p class="it-note">Les lieux et restaurants viennent d'OpenStreetMap et de Wikipédia : vérifiez les horaires avant de partir. Itinéraire calculé avec <a href="https://openrouteservice.org/" target="_blank" rel="noopener">OpenRouteService</a>, lieux via <a href="https://www.geoapify.com/" target="_blank" rel="noopener">Geoapify</a>, données &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</p>
+
+
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+    <p>Nous utilisons des cookies pour mesurer l'audience du site (Google Analytics). Vous pouvez accepter ou refuser ce suivi. Voir notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+    <div class="cookie-actions">
+        <button class="cookie-refuse" onclick="setCookieConsent(false)">Refuser</button>
+        <button class="cookie-accept" onclick="setCookieConsent(true)">Accepter</button>
+    </div>
+</div>
+<script>
+(function() {
+    function setCookieConsent(accepted) {
+        localStorage.setItem('cookie_consent', accepted ? 'granted' : 'denied');
+        gtag('consent', 'update', {
+            'analytics_storage': accepted ? 'granted' : 'denied'
+        });
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+    window.setCookieConsent = setCookieConsent;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var saved = localStorage.getItem('cookie_consent');
+        if (saved === 'granted') {
+            gtag('consent', 'update', { 'analytics_storage': 'granted' });
+        } else if (saved === null) {
+            document.getElementById('cookie-banner').style.display = 'flex';
+        }
+        
+    });
+})();
+</script>
+
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <h3>Nomad</h3>
+            <p>Le compagnon de voyage qui vous aide à choisir plus vite et à partir plus serein.</p>
+        </div>
+        <div>
+            <h4>Explorer</h4>
+            <ul class="footer-links">
+                <li><a href="hotels.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
+                <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
+                <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
+                <li><a href="croisieres.html">Croisières</a></li>
+                <li><a href="itineraire-decouverte.html">Itinéraire découverte</a></li>
+                <li><a href="trajets-sans-autoroute.html">Trajets sans autoroute</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>À propos</h4>
+            <ul class="footer-links">
+                <li><a href="apropos.html">À propos de nous</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Conseils de voyage</a></li>
+                <li><a href="index.html#avis">Avis voyageurs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Votre retour compte</h4>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
+        <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
+    </div>
+</footer>
+
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const TR={"c": [[48.8572, 2.3523], [48.8565, 2.3495], [48.8541, 2.3557], [48.8497, 2.3615], [48.8453, 2.367], [48.8406, 2.3737], [48.8338, 2.382], [48.8279, 2.3886], [48.8262, 2.3923], [48.8221, 2.3984], [48.8203, 2.4033], [48.8181, 2.4125], [48.8178, 2.4184], [48.8173, 2.4228], [48.8167, 2.4475], [48.819, 2.4581], [48.825, 2.4638], [48.828, 2.4728], [48.8303, 2.4935], [48.8279, 2.5043], [48.8265, 2.5223], [48.8302, 2.5296], [48.8363, 2.542], [48.8346, 2.5839], [48.8302, 2.6116], [48.8309, 2.6376], [48.8323, 2.663], [48.8288, 2.734], [48.8347, 2.8041], [48.8421, 2.8245], [48.8531, 2.8382], [48.8647, 2.8495], [48.8731, 2.8667], [48.8792, 2.8836], [48.8958, 2.9112], [48.9011, 2.9269], [48.908, 2.9436], [48.9116, 2.9647], [48.9179, 2.9863], [48.9294, 3.0213], [48.9405, 3.0327], [48.9524, 3.0438], [48.9598, 3.0514], [48.9709, 3.0633], [48.9814, 3.0777], [48.9895, 3.0979], [49.0019, 3.1296], [49.0099, 3.1464], [49.019, 3.1594], [49.0295, 3.1695], [49.0363, 3.1875], [49.0404, 3.2049], [49.0395, 3.2314], [49.042, 3.2501], [49.0466, 3.2745], [49.0501, 3.3065], [49.0573, 3.3246], [49.0729, 3.3475], [49.0772, 3.3643], [49.0779, 3.3882], [49.0817, 3.4053], [49.0941, 3.4329], [49.1039, 3.4583], [49.1097, 3.482], [49.1137, 3.5018], [49.1227, 3.5223], [49.1275, 3.5459], [49.128, 3.5771], [49.1301, 3.5969], [49.1406, 3.6238], [49.1471, 3.6464], [49.1492, 3.6729], [49.1518, 3.7021], [49.1591, 3.7244], [49.1699, 3.7412], [49.1864, 3.7523], [49.1968, 3.7585], [49.2063, 3.7723], [49.2121, 3.7922], [49.2222, 3.8164], [49.2295, 3.8304], [49.2331, 3.8483], [49.2362, 3.8687], [49.243, 3.8923], [49.2425, 3.9118], [49.2469, 3.9372], [49.2477, 3.9505], [49.2432, 3.9647], [49.2378, 3.9691], [49.2273, 3.9704], [49.2206, 3.9763], [49.2076, 4.0089], [49.2046, 4.0198], [49.2062, 4.032], [49.2106, 4.0476], [49.2069, 4.0821], [49.2031, 4.095], [49.1976, 4.1177], [49.1775, 4.1604], [49.1662, 4.185], [49.1491, 4.2065], [49.1361, 4.2193], [49.1255, 4.2349], [49.1168, 4.2477], [49.1071, 4.254], [49.0882, 4.2594], [49.0717, 4.2678], [49.0524, 4.2916], [49.0442, 4.3174], [49.0405, 4.335], [49.038, 4.3488], [49.034, 4.363], [49.0339, 4.3919], [49.0357, 4.4183], [49.0353, 4.4348], [49.0336, 4.4588], [49.0297, 4.4842], [49.0268, 4.5118], [49.0289, 4.5322], [49.0337, 4.5682], [49.036, 4.5891], [49.0368, 4.6227], [49.0444, 4.6492], [49.0515, 4.6759], [49.064, 4.723], [49.0694, 4.7448], [49.0694, 4.7657], [49.0756, 4.804], [49.0772, 4.8294], [49.075, 4.851], [49.0728, 4.874], [49.0722, 4.8985], [49.0764, 4.9183], [49.0822, 4.9545], [49.0887, 4.9748], [49.0923, 4.9839], [49.091, 5.0059], [49.0936, 5.0158], [49.0992, 5.0261], [49.0955, 5.0475], [49.095, 5.0621], [49.0965, 5.0801], [49.092, 5.0952], [49.0914, 5.1174], [49.092, 5.1374], [49.0873, 5.1624], [49.0887, 5.1748], [49.0889, 5.1923], [49.0912, 5.2197], [49.0902, 5.24], [49.0927, 5.2537], [49.0963, 5.2777], [49.0981, 5.2998], [49.1013, 5.3129], [49.1047, 5.3292], [49.11, 5.3608], [49.1161, 5.377], [49.1191, 5.3896], [49.1171, 5.3991], [49.1114, 5.4085], [49.1073, 5.4235], [49.1108, 5.4355], [49.116, 5.4485], [49.1195, 5.4626], [49.12, 5.4754], [49.1216, 5.4883], [49.1191, 5.5056], [49.1184, 5.5319], [49.1177, 5.5475], [49.1108, 5.5633], [49.1118, 5.5738], [49.1199, 5.587], [49.1238, 5.6024], [49.1268, 5.6192], [49.1277, 5.6424], [49.1291, 5.6622], [49.1378, 5.6921], [49.1526, 5.7288], [49.1646, 5.7476], [49.1756, 5.7674], [49.1845, 5.8013], [49.1877, 5.8227], [49.1902, 5.8441], [49.1965, 5.8726], [49.1986, 5.9003], [49.1983, 5.917], [49.1999, 5.9371], [49.2039, 5.9477], [49.2033, 5.9614], [49.1985, 5.9788], [49.1952, 5.9885], [49.1866, 5.9998], [49.1821, 6.0155], [49.1793, 6.041], [49.1809, 6.0618], [49.1844, 6.0788], [49.1907, 6.0866], [49.1967, 6.0962], [49.2014, 6.1058], [49.2058, 6.1207], [49.2067, 6.1323], [49.2011, 6.1413], [49.1961, 6.1513], [49.1965, 6.1606], [49.2011, 6.1758], [49.2004, 6.1928], [49.1962, 6.2116], [49.187, 6.2291], [49.1827, 6.2429], [49.1747, 6.2501], [49.1594, 6.2531], [49.1454, 6.2475], [49.1361, 6.247], [49.1292, 6.254], [49.1284, 6.2651], [49.1261, 6.2774], [49.1266, 6.2981], [49.1311, 6.3188], [49.1355, 6.3577], [49.1394, 6.3851], [49.1389, 6.3975], [49.1371, 6.4128], [49.1418, 6.4303], [49.14, 6.4515], [49.1404, 6.4809], [49.1332, 6.5057], [49.1321, 6.5294], [49.1335, 6.5469], [49.1327, 6.5678], [49.1372, 6.5971], [49.1351, 6.6111], [49.1354, 6.6216], [49.1362, 6.6434], [49.1318, 6.6735], [49.1351, 6.688], [49.1358, 6.7045], [49.1342, 6.7288], [49.138, 6.7506], [49.1385, 6.7625], [49.1339, 6.7786], [49.1374, 6.7957], [49.1397, 6.8107], [49.1364, 6.8188], [49.1227, 6.8267], [49.1029, 6.8645], [49.0836, 6.8773], [49.0751, 6.8972], [49.0692, 6.92], [49.0623, 6.9426], [49.0597, 6.9612], [49.0494, 6.9815], [49.0463, 7.0001], [49.0416, 7.0196], [49.0432, 7.0327], [49.0402, 7.0541], [49.0296, 7.0671], [49.0096, 7.0708], [48.9971, 7.0658], [48.9813, 7.0622], [48.9681, 7.0717], [48.9564, 7.0898], [48.9454, 7.0991], [48.9355, 7.1111], [48.9286, 7.1177], [48.9152, 7.1213], [48.8979, 7.1255], [48.8861, 7.1216], [48.8722, 7.1203], [48.8556, 7.1213], [48.8428, 7.1295], [48.8279, 7.1475], [48.8153, 7.1551], [48.8099, 7.1648], [48.8039, 7.1797], [48.7967, 7.1994], [48.791, 7.2161], [48.7802, 7.2284], [48.7762, 7.2366], [48.7755, 7.2479], [48.7753, 7.268], [48.7728, 7.2834], [48.771, 7.3027], [48.7712, 7.3123], [48.7724, 7.3226], [48.7723, 7.3303], [48.7657, 7.3409], [48.7604, 7.3519], [48.7616, 7.3663], [48.7677, 7.3788], [48.776, 7.3966], [48.7778, 7.4092], [48.7763, 7.4301], [48.7735, 7.4444], [48.7723, 7.4617], [48.7695, 7.4772], [48.7707, 7.4928], [48.7694, 7.5133], [48.7694, 7.5403], [48.7679, 7.5618], [48.7675, 7.5819], [48.7695, 7.6011], [48.7703, 7.6129], [48.7706, 7.6338], [48.7645, 7.6552], [48.7565, 7.6722], [48.7483, 7.6841], [48.7383, 7.6882], [48.7278, 7.6905], [48.7116, 7.7008], [48.7022, 7.7143], [48.6926, 7.7254], [48.683, 7.7306], [48.6782, 7.7267], [48.6776, 7.7167], [48.6744, 7.6985], [48.6657, 7.6759], [48.6563, 7.6643], [48.6445, 7.6532], [48.6313, 7.6441], [48.6178, 7.6371], [48.6027, 7.6238], [48.598, 7.6168], [48.6011, 7.6186], [48.603, 7.6206], [48.604, 7.6435], [48.5944, 7.666], [48.5879, 7.7089], [48.5845, 7.723], [48.5807, 7.7237], [48.58, 7.7288], [48.5764, 7.7319], [48.5747, 7.737], [48.5741, 7.747], [48.5724, 7.7506], [48.573, 7.7521]], "n": [[49.1197, 6.17636, "Nuit 1 : Metz"], [48.5734, 7.7521, "Nuit 2 : Strasbourg"]], "v": [[48.8945, 2.79203, "Musée Louis Braille"], [48.94493, 2.8652, "Vase du Parc"], [49.12012, 6.27751, "Château de Montoy"], [49.12062, 6.19145, "Porte de Sarrelouis"], [48.73168, 7.70961, "Ancien château de Brumath"], [48.69812, 7.78526, "Maison des arts et du patrimoine - Musée de l'asperge"], [48.58685, 7.66594, "Aline Roth née Weill"], [48.56355, 7.56285, "Château d'Urendorf"]]};
+const map=L.map("itMap");
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"&copy; OpenStreetMap"}).addTo(map);
+const ligne=L.polyline(TR.c,{color:"#075985",weight:5}).addTo(map);
+TR.n.slice(0,-1).forEach(p=>L.marker([p[0],p[1]]).addTo(map).bindPopup(p[2]));
+TR.v.forEach(p=>L.circleMarker([p[0],p[1]],{radius:6,color:"#c8322b",weight:2,fillColor:"#fff",fillOpacity:1}).addTo(map).bindPopup(p[2]));
+map.fitBounds(ligne.getBounds().pad(0.1));
+</script>
+</body>
+</html>

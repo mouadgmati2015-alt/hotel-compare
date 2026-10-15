@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paris Bordeaux sans autoroute : itinéraire, étapes et coût | MyHotelCompare</title>
+<meta name="description" content="Paris Bordeaux sans autoroute : 600 km, 3 jours, 52 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<link rel="canonical" href="https://myhotelcompare.com/paris-bordeaux-sans-autoroute.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Paris Bordeaux sans autoroute : itinéraire, étapes et coût">
+<meta property="og:description" content="Paris Bordeaux sans autoroute : 600 km, 3 jours, 52 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<meta property="og:url" content="https://myhotelcompare.com/paris-bordeaux-sans-autoroute.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Quelle est la distance de Paris à Bordeaux sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Environ 600 km, soit 9 h 04 de conduite et 3 jours à raison d'environ 4 h par jour. Par l'autoroute, le trajet fait 584 km en 5 h 42."}}, {"@type": "Question", "name": "Combien coûte le trajet de Paris à Bordeaux ?", "acceptedAnswer": {"@type": "Answer", "text": "Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 62 € sans autoroute contre 124 € par l'autoroute (péages compris). Les repas, les visites et l'hébergement ne sont pas inclus."}}, {"@type": "Question", "name": "Où s'arrêter entre Paris et Bordeaux ?", "acceptedAnswer": {"@type": "Answer", "text": "Les étapes proposées sont : Vendôme, Poitiers, Bordeaux. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit."}}, {"@type": "Question", "name": "Y a-t-il des péages entre Paris et Bordeaux sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l'estimation."}}]}</script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<!-- Google Consent Mode v2 : refus par défaut tant que l'utilisateur n'a pas choisi -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLVNV2211J"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RLVNV2211J');
+</script>
+
+<link rel="icon" type="image/png" href="images/logo_5.png?v=2">
+<link rel="apple-touch-icon" href="images/logo_5.png?v=2">
+<style>
+:root {
+    --bg: #f2fbfd;
+    --bg-dark: #063247;
+    --panel: #e5f5f8;
+    --panel-strong: #c7eaf0;
+    --card: #ffffff;
+    --line: #b9dfe7;
+    --text: #123443;
+    --muted: #52717c;
+    --primary: #087f9b;
+    --primary-dark: #056078;
+    --secondary: #075985;
+    --success: #16805b;
+    --success-soft: #d7f4e7;
+    --warning: #e59a21;
+    --shadow: 0 18px 38px rgba(5, 96, 120, 0.14);
+}
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #f4fcfd 0%, #e7f6f8 100%);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px 16px 40px;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.site-header { margin-bottom: 24px; }
+.brand-lockup { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 18px; color: var(--text); }
+.brand-mark { width: 58px; height: 58px; object-fit: contain; border-radius: 16px; background: var(--panel-strong); padding: 5px; }
+.brand-lockup strong { display: block; color: var(--secondary); font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1; }
+.brand-lockup span { display: block; color: var(--muted); margin-top: 5px; font-size: 0.88rem; }
+h1, h2, h3, h4 { color: var(--text); }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; }
+a { color: var(--secondary); }
+.site-footer { margin-top: 48px; background: linear-gradient(135deg, #063247, #075985); color: #effcff; border-radius: 22px; padding: 30px; box-shadow: var(--shadow); }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 28px; }
+.site-footer h3, .site-footer h4 { color: #b8f0f6; margin-top: 0; }
+.site-footer p, .site-footer li { color: #d6eef2; line-height: 1.6; }
+.site-footer a { color: #b8f0f6; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+.footer-links { list-style: none; padding: 0; margin: 0; }
+.footer-links li { margin-bottom: 8px; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.18); margin-top: 24px; padding-top: 18px; display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; font-size: 0.85rem; }
+.footer-bottom p { margin: 0; }
+@media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } .brand-lockup { justify-content: flex-start; } }
+.top-nav {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    background: linear-gradient(135deg, var(--secondary), var(--primary-dark));
+    padding: 14px 18px; border-radius: 18px; margin: 6px 0 22px;
+    box-shadow: var(--shadow); justify-content: center;
+}
+.top-nav a {
+    color: white; background: rgba(255,255,255,0.12);
+    padding: 10px 16px; border-radius: 12px; text-decoration: none;
+    font-weight: 700; border: 1px solid rgba(255,255,255,0.15);
+}
+.top-nav a:hover { background: rgba(255,255,255,0.2); }
+.card {
+    background: linear-gradient(180deg, #fffefb 0%, #fff8ef 100%);
+    border: 1px solid var(--line); border-radius: 20px;
+    padding: 24px; margin-bottom: 22px; box-shadow: var(--shadow);
+}
+.btn, .btn-booking, .btn-expedia {
+    display: inline-block; text-decoration: none; border-radius: 12px;
+    font-weight: 700; transition: transform 0.2s ease; cursor: pointer;
+}
+.btn:hover, .btn-booking:hover, .btn-expedia:hover { transform: translateY(-1px); }
+.btn { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 18px; }
+.btn-booking { display: block; background: linear-gradient(135deg, #0f3d85, #1d5bbf); color: white; padding: 12px 16px; text-align: center; margin-bottom: 10px; }
+.btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
+.btn-site-officiel { display: block; background: linear-gradient(135deg, var(--secondary), var(--primary-dark)); color: white; padding: 12px 16px; text-align: center; }
+.hero-banner {
+    background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
+    border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
+}
+.hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 18px; }
+.hero-badges span {
+    background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.24); color: #f2fdff; border-radius: 999px; padding: 7px 12px; font-weight: 700; font-size: 0.82rem;
+}
+.glass-box { background: rgba(255,255,255,0.72); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+.filters-box {
+    background: linear-gradient(180deg, #e3f5f8 0%, #f8fdfe 100%);
+    border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 24px 0 18px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; box-shadow: var(--shadow);
+}
+.filters-box label { color: var(--muted); display: block; margin-bottom: 8px; font-weight: 700; }
+.filters-box select {
+    width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--text); font-size: 0.97rem;
+}
+.btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
+.comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.smart-results-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.smart-results-grid .card { margin-bottom: 0; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
+.review-card {
+    background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
+    border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
+}
+.review-card .stars { color: var(--warning); font-size: 1.1rem; letter-spacing: 2px; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 16px; margin-top: 18px; }
+.stat-item { background: rgba(255,255,255,0.5); border: 1px solid rgba(130,90,20,0.15); border-radius: 16px; padding: 18px; }
+.stat-item strong { display: block; font-size: 1.5rem; }
+.testimonial-section > h2 { color: var(--text) !important; }
+.testimonial-section > div > div { background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%) !important; border-color: var(--line) !important; }
+.testimonial-section > div > div p { color: var(--muted) !important; }
+.testimonial-section > div > div p:first-child { color: var(--warning) !important; }
+.testimonial-section > div > div p strong { color: var(--text) !important; }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 1000px) { .smart-results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .smart-results-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+.cookie-banner {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+    background: #063247; color: #effcff; padding: 18px 20px;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+    gap: 16px; box-shadow: 0 -8px 24px rgba(0,0,0,0.25);
+}
+.cookie-banner p { margin: 0; max-width: 640px; font-size: 0.92rem; line-height: 1.5; }
+.cookie-banner a { color: #b8f0f6; }
+.cookie-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie-actions button {
+    border: none; border-radius: 10px; padding: 10px 18px; font-weight: 700; cursor: pointer;
+}
+.cookie-accept { background: var(--primary); color: white; }
+.cookie-refuse { background: rgba(255,255,255,0.15); color: white; }
+.fiche-photo-carte { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0; align-items: stretch; }
+.fiche-photo-carte img, .fiche-photo-carte iframe { width: 100%; height: 260px; object-fit: cover; border-radius: 16px; border: 0; }
+@media (max-width: 600px) { .fiche-photo-carte { grid-template-columns: 1fr; } .fiche-photo-carte img, .fiche-photo-carte iframe { height: 220px; } }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 20px; }
+.btn-itineraire {
+    display: inline-block; padding: 14px 24px; border-radius: 14px; font-weight: 800;
+    background: rgba(255,255,255,0.14); color: #fff; text-decoration: none;
+    border: 1.5px solid rgba(255,255,255,0.6);
+}
+.btn-itineraire:hover { background: rgba(255,255,255,0.26); }
+.btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+</style>
+
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrld.ltd/NTcxODA1.js?t=571805';
+      document.head.appendChild(script);
+  })();
+</script>
+
+<style>
+.it-road{display:inline-block;min-width:36px;text-align:center;padding:0 7px;border-radius:5px;font-weight:800;font-size:.8rem;line-height:22px}
+.it-road.N{background:#c8322b;color:#fff}
+.it-road.D{background:#f2c230;color:#123443;box-shadow:inset 0 0 0 2px #123443}
+.it-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:24px 0;align-items:end}
+.it-form label{display:block;font-weight:700;color:var(--muted);margin-bottom:6px}
+.it-form input,.it-form select{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--text);font-size:.97rem}
+.it-msg{padding:12px 16px;border-radius:12px;margin-bottom:18px;font-weight:600}
+.it-msg.err{background:#fde8e6;color:#9a2a22}.it-msg.info{background:var(--panel);color:var(--secondary)}
+#itRes{display:none}
+.it-cmp{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 14px}
+.it-cmp .glass-box.win{border:2px solid var(--success)}
+.it-cmp h2{font-size:1.15rem;margin:0 0 10px}
+.it-row{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid var(--line)}
+.it-row:last-child{border:0}
+.it-save{background:var(--success-soft);color:var(--success);border-radius:12px;padding:12px 16px;font-weight:700;margin-bottom:8px}
+.it-note{color:var(--muted);font-size:.85rem;margin:0 0 22px}
+#itMap{height:380px;border-radius:16px;margin-bottom:22px;box-shadow:var(--shadow)}
+.it-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.it-tab{font:inherit;font-weight:700;cursor:pointer;background:#fff;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:9px 18px}
+.it-tab[aria-selected=true]{background:var(--secondary);color:#fff;border-color:var(--secondary)}
+.it-tab:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+.it-dayhead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.it-dayhead h2{margin:0;font-size:1.4rem}
+.it-dayhead span{color:var(--muted)}
+.it-roads{display:flex;gap:10px 14px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+.it-roads small{color:var(--muted)}
+.it-bloc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:14px}
+.it-bloc h3{margin:0 0 8px;font-size:1.05rem}
+.it-lieux{list-style:none;margin:0;padding:0}
+.it-lieu{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
+.it-lieu:last-child{border:0}
+.it-lieu small{display:block;color:var(--muted)}
+.it-vig{flex:0 0 76px;width:76px;height:76px;border-radius:12px;overflow:hidden;background:var(--panel);display:flex;align-items:center;justify-content:center;font-size:2rem}
+.it-vig img{width:100%;height:100%;object-fit:cover;display:block}
+.it-txt{flex:1;min-width:0}
+.it-res{margin:4px 0 2px;font-size:.9rem;line-height:1.45}
+.it-meta{margin-top:2px;font-size:.82rem}
+.it-liens{display:flex;gap:12px;flex-wrap:wrap;align-self:center}
+.it-liens a{font-weight:700;white-space:nowrap}
+.it-wait{color:var(--muted);margin:0}
+.it-budget{margin-bottom:22px}
+.it-bt{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:8px 12px;align-items:center}
+.it-bt .fort{font-weight:800;border-top:1px solid var(--line);padding-top:8px}
+.it-bt small{color:var(--muted)}
+.it-btn.s{background:var(--secondary);color:#fff;border:0;cursor:pointer;font-family:inherit}
+.it-share-msg{align-self:center;color:var(--success);font-weight:700}
+.it-urlcopy{width:100%;max-width:440px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:.85rem}
+.it-all{margin-bottom:18px}
+.it-all p{margin:6px 0 0}
+.it-gps{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px}
+.it-btn{display:inline-block;padding:10px 16px;border-radius:12px;font-weight:700;text-decoration:none;font-size:.95rem}
+.it-btn.g{background:#1a73e8;color:#fff}
+.it-btn.w{background:#33ccff;color:#06364a}
+.it-btn:hover{filter:brightness(.95)}
+.it-btn:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+@media (max-width:620px){.it-cmp{grid-template-columns:1fr}.it-lieu{flex-wrap:wrap}.it-liens{flex-basis:100%;align-self:flex-start}}
+
+.tj-cmp .glass-box h2{margin-top:0}
+.tj-fil{font-size:.9rem;color:var(--muted);margin:0 0 10px}
+</style>
+</head>
+<body><div class="container">
+
+<header class="site-header">
+<div class="brand-lockup">
+    <img src="images/logo_5.svg" alt="Nomad" class="brand-mark">
+    <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
+</div>
+<div class="top-nav">
+    <a href="index.html">Accueil</a>
+    <a href="hotels.html">Hôtels</a>
+    <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
+    <a href="loueurs-vehicules.html">Location de Véhicules</a>
+    <a href="croisieres.html">Croisières</a>
+    <a href="itineraire-decouverte.html">Itinéraires</a>
+    <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
+</div>
+</header>
+
+<p class="tj-fil"><a href="index.html">Accueil</a> &gt; <a href="trajets-sans-autoroute.html">Trajets sans autoroute</a> &gt; Paris Bordeaux</p>
+<div class="hero-banner">
+  <h1 style="color:#fff;margin:0 0 10px;font-size:clamp(1.6rem,3.6vw,2.4rem)">Paris Bordeaux sans autoroute : itinéraire, étapes et coût</h1>
+  <p style="margin:0;max-width:760px;line-height:1.7;color:#effcff">Pour aller de Paris à Bordeaux sans autoroute, comptez environ 600 km et 9 h 04 de conduite, soit 3 jours à raison d&#x27;environ 4 h de route par jour. Par l&#x27;autoroute, le même trajet fait 584 km en 5 h 42, avec environ 52 € de péages estimés.</p>
+</div>
+<p style="line-height:1.7">En évitant l&#x27;autoroute, vous économisez environ 63 € sur la route (péages et carburant), pour environ 3 h 22 de trajet en plus. Les routes les plus empruntées sont la N10 (260 km), la D347 (43 km), la D927 (39 km). </p>
+<section class="it-cmp tj-cmp" aria-label="Comparatif avec l'autoroute">
+  <div class="glass-box"><h2>Par l'autoroute</h2><div class="it-row"><span>Distance</span><b>584 km</b></div><div class="it-row"><span>Temps de conduite</span><b>5 h 42</b></div><div class="it-row"><span>Péages</span><b>52 €</b></div><div class="it-row"><span>Carburant</span><b>73 €</b></div><div class="it-row"><span>Total route</span><b>124 €</b></div></div>
+  <div class="glass-box win"><h2>Parcours découverte</h2><div class="it-row"><span>Distance</span><b>600 km</b></div><div class="it-row"><span>Temps de conduite</span><b>9 h 04</b></div><div class="it-row"><span>Péages</span><b>0 €</b></div><div class="it-row"><span>Carburant</span><b>62 €</b></div><div class="it-row"><span>Total route</span><b>62 €</b></div></div>
+</section>
+<p class="it-note">Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, péage à 0,10 €/km sur les tronçons à péage. Montants indicatifs, mis à jour le 15 octobre 2026.</p>
+<p><a class="btn-compare" style="display:inline-block;text-decoration:none;width:auto;padding:14px 24px" href="itineraire-decouverte.html?d=Paris+%28France%29&amp;dc=2.3522%2C48.8566&amp;dp=France&amp;a=Bordeaux+%28France%29&amp;ac=-0.5792%2C44.8378&amp;ap=France&amp;r=4&amp;v=th&amp;c=6&amp;p=1.8&amp;n=2&amp;m=45&amp;utm_source=pages-trajets&amp;utm_medium=site&amp;utm_campaign=trajet">Calculer avec mon véhicule</a></p>
+<div id="itMap"></div>
+<section><h2>Jour 1 : Paris à Vendôme</h2><p class="it-wait">188 km, 3 h 11 de conduite</p><div class="it-roads"><span><span class="it-road N">N10</span> <small>43 km</small></span><span><span class="it-road D">D927</span> <small>39 km</small></span><span><span class="it-road N">N118</span> <small>31 km</small></span><span><span class="it-road N">N20</span> <small>29 km</small></span><span><span class="it-road D">D354</span> <small>4 km</small></span><span><span class="it-road D">D118</span> <small>4 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/H%C3%B4tel_ville_%C3%89tampes_1.jpg/330px-H%C3%B4tel_ville_%C3%89tampes_1.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Musée Intercommunal d&#x27;Étampes</b><small>Musée</small><p class="it-res">Le musée intercommunal d&#x27;Étampes, anciennement musée municipal d’Étampes, est situé à Étampes, dans le département de l&#x27;Essonne et la région Île-de-France.</p><small class="it-meta">📍 Rue Saint-Mars, Étampes</small><small class="it-meta">🕒 mer-dim 14:00-17:00</small><small class="it-meta">📞 <a href="tel:+33169926902">+331 69 92 69 02</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Mus%C3%A9e_intercommunal_d&#x27;%C3%89tampes" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.mairie-etampes.fr/le-musee/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Mus%C3%A9e%20Intercommunal%20d%27%C3%89tampes/@48.43447,2.1612,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Dolmenpiercloueeandonville.JPG/330px-Dolmenpiercloueeandonville.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Dolmen de la Pierre Clouée</b><small>Patrimoine</small><p class="it-res">La Pierre Clouée ou Koraïre est un dolmen situé à Andonville dans le département du Loiret en région Centre-Val de Loire.</p><small class="it-meta">📍 C 4, Andonville</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/La_Pierre_Clou%C3%A9e" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Dolmen%20de%20la%20Pierre%20Clou%C3%A9e/@48.25842,2.02203,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Stmaursurleloirmansaveuz_%283%29.jpg/330px-Stmaursurleloirmansaveuz_%283%29.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Restes de l&#x27;ancien château de Mémillon</b><small>Château</small><p class="it-res">Saint-Maur-sur-le-Loir est une commune française située dans le département d&#x27;Eure-et-Loir en région Centre-Val de Loire.</p><small class="it-meta">📍 Rue de la Brémondière, Saint-Maur-sur-le-Loir</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Saint-Maur-sur-le-Loir" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Restes%20de%20l%27ancien%20ch%C3%A2teau%20de%20M%C3%A9millon/@48.14192,1.40254,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Ch%C3%A2teau_de_Vend%C3%B4me_g%C3%A9n%C3%A9ral.jpg/330px-Ch%C3%A2teau_de_Vend%C3%B4me_g%C3%A9n%C3%A9ral.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château de Vendôme</b><small>Château</small><p class="it-res">Le château de Vendôme est un ancien château fort, de nos jours en ruine, dont les vestiges se dressent sur la commune française de Vendôme, dans le département de Loir-et-Cher, en région Centre-Val de Loire.</p><small class="it-meta">📍 Rampe du Château, Vendôme</small><small class="it-meta">🕒 Apr-May 09:00-20:00 ; Jun-Sep 09:00-22:00 ; Oct-Mar 09:00-18:00</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Vend%C3%B4me" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20de%20Vend%C3%B4me/@47.78899,1.06621,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Relais La Castellane</b><small>Cuisine trucker</small><small class="it-meta">📍 Route Nationale, Oinville-Saint-Liphard</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Relais%20La%20Castellane/@48.22763,1.95145,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Les sabots d’or</b><small>Cuisine française</small><small class="it-meta">📍 10 Rue du Château, Janville-en-Beauce</small><small class="it-meta">📞 <a href="tel:+33237900011">+33 2 37 90 00 11</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Les%20sabots%20d%E2%80%99or/@48.20084,1.88444,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>La Panetière</b><small class="it-meta">📍 Route Nationale, Neuville Saint Denis</small></div><span class="it-liens"><a href="https://restaurant-la-panetiere.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/La%20Paneti%C3%A8re/@48.25954,1.96818,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Vendôme</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le Malu</b><small>Cuisine française</small><small class="it-meta">📍 Route de Tours, Vendôme</small><small class="it-meta">🕒 mer-sam 12:00-13:30,19:30-21:30 ; sam 12:00-13:30</small><small class="it-meta">📞 <a href="tel:+33254804012">+33 2 54 80 40 12</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Le%20Malu/@47.78279,1.06201,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Cafeteria La Parenthèse</b><small class="it-meta">📍 3 Rue Nicéphore Niepce, Vendôme</small><small class="it-meta">🕒 lun-ven 11:45-14:00</small><small class="it-meta">📞 <a href="tel:+33254231775">+33 2 54 23 17 75</a></small></div><span class="it-liens"><a href="http://www.reseau-gesat.com/Gesat/files/Etablissement/documentPresentation/d5922dc058ec11f9713dab20e124bbfb.pdf" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Cafeteria%20La%20Parenth%C3%A8se/@47.77991,1.08062,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🥞</div><div class="it-txt"><b>Le Blé Noir</b><small>Crêperie</small><small class="it-meta">📍 Rue du Change, Vendôme</small><small class="it-meta">🕒 lun-sam 12:00-14:00 ; mar-sam 19:00-22:00</small><small class="it-meta">terrasse, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33254773212">+33 2 54 77 32 12</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Le%20Bl%C3%A9%20Noir/@47.79305,1.06777,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Vendôme</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Vend%C3%B4me%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Vendôme</a></div></section><section><h2>Jour 2 : Vendôme à Poitiers</h2><p class="it-wait">180 km, 2 h 56 de conduite</p><div class="it-roads"><span><span class="it-road D">D347</span> <small>43 km</small></span><span><span class="it-road D">D751</span> <small>28 km</small></span><span><span class="it-road D">D910</span> <small>23 km</small></span><span><span class="it-road N">N10</span> <small>22 km</small></span><span><span class="it-road D">D759</span> <small>19 km</small></span><span><span class="it-road N">N147</span> <small>4 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Ch%C3%A2teau-Renault_%28Indre-et-Loire%29.jpg/330px-Ch%C3%A2teau-Renault_%28Indre-et-Loire%29.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château de Château-Renault</b><small>Château</small><p class="it-res">Le château de Château-Renault est un ancien château fort, dont la fondation remonte au début du XIe siècle, qui se dresse sur la commune française de Château-Renault dans le département d&#x27;Indre-et-Loire, en région Centre-Val de…</p><small class="it-meta">📍 Rue du Château, Château-Renault</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Ch%C3%A2teau-Renault" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20de%20Ch%C3%A2teau-Renault/@47.59197,0.90914,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Sapaill%C3%A9%2C_Ao%C3%BBt_2015.JPG/330px-Sapaill%C3%A9%2C_Ao%C3%BBt_2015.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Manoir de Sapaillé</b><small>Château</small><p class="it-res">L&#x27;ancien manoir de Sapaillé est un monument historique de Tours, possession de l&#x27;abbaye de Marmoutier antérieure à 1040.</p><small class="it-meta">📍 Rue Marie et Pierre Curie, Tours</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Manoir_de_Sapaill%C3%A9" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Manoir%20de%20Sapaill%C3%A9/@47.4285,0.69262,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Chinon_-_Ch%C3%A2teau_vu_depuis_la_plage.jpg/330px-Chinon_-_Ch%C3%A2teau_vu_depuis_la_plage.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Forteresse Royale de Chinon</b><small>Château</small><p class="it-res">La forteresse royale de Chinon, ensemble composé de trois châteaux, se situe sur la commune française de Chinon dans le département d&#x27;Indre-et-Loire, en région Centre-Val de Loire.</p><small class="it-meta">📍 Avenue François Mitterrand, Chinon</small><small class="it-meta">📞 <a href="tel:+33247931345">+33 2 47 93 13 45</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Forteresse_royale_de_Chinon" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://forteressechinon.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Forteresse%20Royale%20de%20Chinon/@47.16815,0.23599,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🏛️</div><div class="it-txt"><b>Maison de l&#x27;Art Roman</b><small>Musée</small><small class="it-meta">📍 Rue Vouguet, Loudun</small><small class="it-meta">📞 <a href="tel:+33549988159">+33 5 49 98 81 59</a></small></div><span class="it-liens"><a href="https://ville-loudun.fr/services-au-public/culture/les-musees/la-maison-de-l-art-roman" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Maison%20de%20l%27Art%20Roman/@47.00791,0.08588,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Brasserie du Blanc Carroi</b><small>Cuisine coffee shop</small><small class="it-meta">📍 Rue Georges Guynemer, Chinon</small><small class="it-meta">🕒 9:00-20:00</small><small class="it-meta">terrasse, à emporter, accessible en fauteuil roulant</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Brasserie%20du%20Blanc%20Carroi/@47.18312,0.26442,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Hôtel-Restaurant Belle Époque</b><small>Cuisine régionale</small><small class="it-meta">📍 14 Avenue Gambetta, Chinon</small><small class="it-meta">📞 <a href="tel:+33247930086">+33 2 47 93 00 86</a></small></div><span class="it-liens"><a href="https://www.hotelbelle-epoque.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/H%C3%B4tel-Restaurant%20Belle%20%C3%89poque/@47.16348,0.25116,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Relais de la Forêt</b><small>Cuisine française</small><small class="it-meta">📍 Route de Tours, Chinon</small><small class="it-meta">terrasse, à emporter, livraison</small><small class="it-meta">📞 <a href="tel:+33247931908">+33 2 47 93 19 08</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Relais%20de%20la%20For%C3%AAt/@47.18231,0.27265,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Poitiers</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍝</div><div class="it-txt"><b>Gourmandizz Pizza</b><small>Cuisine italienne</small><small class="it-meta">📍 11 Rue Léopold Sédar Senghor, Poitiers</small><small class="it-meta">🕒 lun-mer 11:00-14:00,18:00-21:00 ; jeu-sam 11:00-14:00,18:00-22:00</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+33549466601">+33 5 49 46 66 01</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Gourmandizz%20Pizza/@46.57883,0.32029,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍣</div><div class="it-txt"><b>Natsukaya</b><small>Cuisine japonaise</small><small class="it-meta">📍 Rue des Charmes, Biard</small><small class="it-meta">🕒 mar-sam 12:00-13:00, 19:00-20:45</small><small class="it-meta">📞 <a href="tel:+33549007347">+33549007347</a></small></div><span class="it-liens"><a href="https://www.natsukaya.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Natsukaya/@46.57642,0.30771,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Moulin de la Norée</b><small>Cuisine française</small><small class="it-meta">📍 5 Rue de l’Ermitage, Biard</small><small class="it-meta">🕒 mer,dim 12:00-13:30 ; jeu-sam 12:00-13:30,19:00-21:30</small><small class="it-meta">options végétariennes</small><small class="it-meta">📞 <a href="tel:+33549467657">+33549467657</a></small></div><span class="it-liens"><a href="https://moulindelanoree.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Moulin%20de%20la%20Nor%C3%A9e/@46.57519,0.30178,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Poitiers</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Poitiers%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Poitiers</a></div></section><section><h2>Jour 3 : Poitiers à Bordeaux</h2><p class="it-wait">231 km, 2 h 57 de conduite</p><div class="it-roads"><span><span class="it-road N">N10</span> <small>195 km</small></span><span><span class="it-road D">D1010</span> <small>6 km</small></span><span><span class="it-road D">D113</span> <small>5 km</small></span><span><span class="it-road D">D910</span> <small>5 km</small></span><span><span class="it-road D">D10</span> <small>4 km</small></span><span><span class="it-road D">D248</span> <small>1 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Entr%C3%A9e_de_Pair-non-Pair.jpg/330px-Entr%C3%A9e_de_Pair-non-Pair.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Grotte de Pair-Non-Pair</b><small>Musée</small><p class="it-res">La grotte de Pair-non-Pair est une grotte ornée, découverte en 1881, qui renferme des représentations artistiques datées de plus de 32 000 ans avant le présent, attribuées à la culture aurignacienne.</p><small class="it-meta">📍 Chemin de Pair Non Pair, Prignac-et-Marcamps</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Grotte_de_Pair-non-Pair" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="http://pair-non-pair.monuments-nationaux.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Grotte%20de%20Pair-Non-Pair/@45.03933,-0.5017,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🏛️</div><div class="it-txt"><b>Moulin des Grandes-Vignes</b><small>Musée</small><small class="it-meta">📍 Rue du Moulin à Vent, Périssac</small></div><span class="it-liens"><a href="https://domaine-chataigniere.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Moulin%20des%20Grandes-Vignes/@45.01221,-0.30685,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Croix_de_cimeti%C3%A8re_2012-09-26_12-11-25.jpg/330px-Croix_de_cimeti%C3%A8re_2012-09-26_12-11-25.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Croix de cimetière</b><small>Patrimoine</small><p class="it-res">La croix de cimetière de La Lande-de-Fronsac est une croix hosannière située en face du portail de l&#x27;église de Saint-Pierre de La Lande-de-Fronsac dans la Gironde.</p><small class="it-meta">📍 Parvis, La Lande-de-Fronsac</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Croix_de_cimeti%C3%A8re_de_la_Lande-de-Fronsac" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Croix%20de%20cimeti%C3%A8re/@44.97902,-0.38193,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/St_louis_de_Montferrand_Ch%C3%A2teau_Peyronnet.JPG/330px-St_louis_de_Montferrand_Ch%C3%A2teau_Peyronnet.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château Peyronnet</b><small>Château</small><p class="it-res">Le Château Peyronnet est situé sur la commune de Saint-Louis-de-Montferrand, dans le département de la Gironde.</p><small class="it-meta">📍 Avenue de la Garonne, Saint-Louis-de-Montferrand</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_Peyronnet" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20Peyronnet/@44.97449,-0.53417,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>La pizza de Nico</b><small>Pizzeria</small><small class="it-meta">📍 40 Avenue Boussicaut, Saint-André-de-Cubzac</small><small class="it-meta">🕒 dim-jeu 11:30-14:00,18:00-22:00 ; ven,sam 11:30-14:00,18:00-22:30</small><small class="it-meta">options véganes</small><small class="it-meta">📞 <a href="tel:+33557687857">+33 5 57 68 78 57</a></small></div><span class="it-liens"><a href="https://lapizzadenico.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/La%20pizza%20de%20Nico/@45.0099,-0.43896,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍔</div><div class="it-txt"><b>Meuh ! Restaurant</b><small>Burgers</small><small class="it-meta">📍 35 Route de Blaye, Saint-André-de-Cubzac</small><small class="it-meta">🕒 lun 11:30-14:30, 17:00-22:30 ; mar-jeu 11:30-14:30, 18:00-22:30 ; ven 11:30-14:30, 17:00-23:00 ; sam 11:30-…</small><small class="it-meta">📞 <a href="tel:+33557320336">+33 5 57 32 03 36</a></small></div><span class="it-liens"><a href="https://www.meuh-restaurant.fr/web/restaurant-saint-andre-de-cubzac.php" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Meuh%20%21%20Restaurant/@45.00691,-0.43598,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le Soleil Levant</b><small>Pizzeria</small><small class="it-meta">📍 Rue Nationale, Saint-André-de-Cubzac</small><small class="it-meta">🕒 lun-jeu 11:30-14:00,18:30-21:30 ; ven-sam 11:30-14:00,18:30-22:30 ; dim 18:30-21:30</small><small class="it-meta">📞 <a href="tel:+33557434394">+33 5 57 43 43 94</a></small></div><span class="it-liens"><a href="https://www.lesoleillevantpizza.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Le%20Soleil%20Levant/@44.99706,-0.44419,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Bordeaux</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Atelier des Faures</b><small>Cuisine française</small><small class="it-meta">📍 15 Rue des Frères Bonie, Bordeaux</small><small class="it-meta">🕒 lun-jeu 12:00-14:00 ; ven 12:00-14:00,19:30-21:45 ; sam 19:30-21:45</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+33557602356">+33 5 57 60 23 56</a></small></div><span class="it-liens"><a href="https://www.atelierdesfaures.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Atelier%20des%20Faures/@44.83693,-0.5797,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Dieci</b><small>Pizzeria</small><small class="it-meta">📍 10 Rue du Maréchal Joffre, Bordeaux</small><small class="it-meta">🕒 lun-dim 12:00-14:00,19:00-00:00-22:00</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+33556444174">+33 5 56 44 41 74</a></small></div><span class="it-liens"><a href="https://www.pizzeriadieci.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Dieci/@44.8366,-0.57853,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Comptoir des Remparts</b><small>Cuisine tea</small><small class="it-meta">📍 64 Rue des Remparts, Bordeaux</small><small class="it-meta">🕒 lun-ven 11:00-18:00 ; sam-dim 10:00-19:00</small><small class="it-meta">📞 <a href="tel:+33556449822">+33 5 56 44 98 22</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Comptoir%20des%20Remparts/@44.83878,-0.57906,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Bordeaux</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Bordeaux%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Bordeaux</a></div></section>
+<section class="glass-box it-seo" style="margin:24px 0"><h2 style="margin-top:0">Questions fréquentes</h2><details><summary><b>Quelle est la distance de Paris à Bordeaux sans autoroute ?</b></summary><p>Environ 600 km, soit 9 h 04 de conduite et 3 jours à raison d&#x27;environ 4 h par jour. Par l&#x27;autoroute, le trajet fait 584 km en 5 h 42.</p></details><details><summary><b>Combien coûte le trajet de Paris à Bordeaux ?</b></summary><p>Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 62 € sans autoroute contre 124 € par l&#x27;autoroute (péages compris). Les repas, les visites et l&#x27;hébergement ne sont pas inclus.</p></details><details><summary><b>Où s&#x27;arrêter entre Paris et Bordeaux ?</b></summary><p>Les étapes proposées sont : Vendôme, Poitiers, Bordeaux. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit.</p></details><details><summary><b>Y a-t-il des péages entre Paris et Bordeaux sans autoroute ?</b></summary><p>Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l&#x27;estimation.</p></details></section>
+<h2>Autres trajets</h2><ul><li><a href="paris-nice-sans-autoroute.html">Paris Nice sans autoroute</a></li><li><a href="paris-menton-sans-autoroute.html">Paris Menton sans autoroute</a></li><li><a href="paris-londres-sans-autoroute.html">Paris Londres sans autoroute</a></li><li><a href="paris-marseille-sans-autoroute.html">Paris Marseille sans autoroute</a></li><li><a href="paris-toulouse-sans-autoroute.html">Paris Toulouse sans autoroute</a></li><li><a href="paris-strasbourg-sans-autoroute.html">Paris Strasbourg sans autoroute</a></li><li><a href="paris-nice-voiture-electrique.html">Paris Nice en voiture électrique</a></li><li><a href="paris-marseille-voiture-electrique.html">Paris Marseille en voiture électrique</a></li></ul>
+<p class="it-note">Les lieux et restaurants viennent d'OpenStreetMap et de Wikipédia : vérifiez les horaires avant de partir. Itinéraire calculé avec <a href="https://openrouteservice.org/" target="_blank" rel="noopener">OpenRouteService</a>, lieux via <a href="https://www.geoapify.com/" target="_blank" rel="noopener">Geoapify</a>, données &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</p>
+
+
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+    <p>Nous utilisons des cookies pour mesurer l'audience du site (Google Analytics). Vous pouvez accepter ou refuser ce suivi. Voir notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+    <div class="cookie-actions">
+        <button class="cookie-refuse" onclick="setCookieConsent(false)">Refuser</button>
+        <button class="cookie-accept" onclick="setCookieConsent(true)">Accepter</button>
+    </div>
+</div>
+<script>
+(function() {
+    function setCookieConsent(accepted) {
+        localStorage.setItem('cookie_consent', accepted ? 'granted' : 'denied');
+        gtag('consent', 'update', {
+            'analytics_storage': accepted ? 'granted' : 'denied'
+        });
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+    window.setCookieConsent = setCookieConsent;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var saved = localStorage.getItem('cookie_consent');
+        if (saved === 'granted') {
+            gtag('consent', 'update', { 'analytics_storage': 'granted' });
+        } else if (saved === null) {
+            document.getElementById('cookie-banner').style.display = 'flex';
+        }
+        
+    });
+})();
+</script>
+
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <h3>Nomad</h3>
+            <p>Le compagnon de voyage qui vous aide à choisir plus vite et à partir plus serein.</p>
+        </div>
+        <div>
+            <h4>Explorer</h4>
+            <ul class="footer-links">
+                <li><a href="hotels.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
+                <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
+                <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
+                <li><a href="croisieres.html">Croisières</a></li>
+                <li><a href="itineraire-decouverte.html">Itinéraire découverte</a></li>
+                <li><a href="trajets-sans-autoroute.html">Trajets sans autoroute</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>À propos</h4>
+            <ul class="footer-links">
+                <li><a href="apropos.html">À propos de nous</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Conseils de voyage</a></li>
+                <li><a href="index.html#avis">Avis voyageurs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Votre retour compte</h4>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
+        <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
+    </div>
+</footer>
+
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const TR={"c": [[48.8572, 2.3523], [48.8556, 2.3483], [48.8534, 2.3435], [48.8517, 2.3384], [48.8514, 2.3321], [48.8502, 2.3241], [48.8461, 2.3142], [48.8442, 2.3082], [48.8408, 2.2967], [48.8381, 2.2877], [48.8361, 2.2818], [48.8347, 2.2755], [48.8352, 2.2606], [48.838, 2.2542], [48.8353, 2.2488], [48.833, 2.2414], [48.8302, 2.2321], [48.8277, 2.2248], [48.8249, 2.221], [48.821, 2.2189], [48.8098, 2.2121], [48.788, 2.2219], [48.7779, 2.2222], [48.7723, 2.2266], [48.7659, 2.2298], [48.7576, 2.2239], [48.7491, 2.2192], [48.7502, 2.2045], [48.7435, 2.189], [48.7317, 2.1668], [48.7193, 2.1697], [48.7128, 2.1803], [48.7045, 2.1927], [48.6955, 2.1924], [48.6843, 2.1894], [48.6747, 2.1935], [48.6624, 2.1872], [48.6566, 2.1781], [48.6522, 2.1813], [48.643, 2.1973], [48.6351, 2.2125], [48.6304, 2.235], [48.6301, 2.2523], [48.6251, 2.2604], [48.6164, 2.2564], [48.6024, 2.2477], [48.5922, 2.2402], [48.5813, 2.2343], [48.5688, 2.2324], [48.5439, 2.2134], [48.5055, 2.2004], [48.4975, 2.2011], [48.4746, 2.1886], [48.4582, 2.1766], [48.451, 2.174], [48.4416, 2.1746], [48.4289, 2.1605], [48.4236, 2.1399], [48.4159, 2.1302], [48.4073, 2.1244], [48.3914, 2.1095], [48.3774, 2.0852], [48.365, 2.0683], [48.354, 2.0524], [48.337, 2.0351], [48.3228, 2.0129], [48.3163, 1.9949], [48.303, 1.9924], [48.285, 1.9797], [48.2649, 1.9708], [48.2574, 1.9653], [48.2534, 1.9505], [48.2476, 1.9412], [48.2367, 1.922], [48.234, 1.9166], [48.2328, 1.9062], [48.231, 1.8899], [48.2366, 1.8769], [48.2358, 1.8589], [48.2319, 1.8494], [48.2231, 1.8418], [48.2121, 1.8313], [48.2076, 1.8211], [48.2048, 1.8195], [48.1908, 1.7991], [48.1531, 1.7185], [48.1463, 1.693], [48.1456, 1.6841], [48.1448, 1.6747], [48.1361, 1.6115], [48.1123, 1.5473], [48.0975, 1.5152], [48.0941, 1.5073], [48.0939, 1.462], [48.077, 1.3878], [48.0698, 1.3659], [48.0692, 1.3614], [48.064, 1.3581], [48.0609, 1.335], [48.0608, 1.331], [48.0571, 1.3267], [48.038, 1.3085], [48.0244, 1.2953], [48.0178, 1.2816], [48.0114, 1.2716], [47.9927, 1.2566], [47.979, 1.2328], [47.9671, 1.2251], [47.9475, 1.2115], [47.9393, 1.2046], [47.9244, 1.1935], [47.9049, 1.1884], [47.8951, 1.1814], [47.8884, 1.1773], [47.8756, 1.1565], [47.8742, 1.1398], [47.8647, 1.1238], [47.851, 1.1058], [47.8465, 1.0993], [47.8286, 1.0801], [47.8197, 1.076], [47.807, 1.0721], [47.8005, 1.0725], [47.7945, 1.0753], [47.7871, 1.0825], [47.7814, 1.0749], [47.7764, 1.0633], [47.7718, 1.0592], [47.7517, 1.0437], [47.7194, 1.0184], [47.6985, 1.0002], [47.6957, 0.9973], [47.6676, 0.9681], [47.6559, 0.9593], [47.6465, 0.9508], [47.6113, 0.9245], [47.6047, 0.9195], [47.5994, 0.9148], [47.5947, 0.9031], [47.5906, 0.8994], [47.5856, 0.8978], [47.5721, 0.8943], [47.5548, 0.8655], [47.5498, 0.8639], [47.5454, 0.861], [47.5304, 0.8366], [47.5135, 0.809], [47.5039, 0.7932], [47.499, 0.7854], [47.49, 0.775], [47.4763, 0.7592], [47.464, 0.7443], [47.4534, 0.7325], [47.4483, 0.7265], [47.4375, 0.71], [47.4321, 0.705], [47.4319, 0.6992], [47.4324, 0.6928], [47.4306, 0.6868], [47.43, 0.6784], [47.4306, 0.6723], [47.4302, 0.6647], [47.4285, 0.66], [47.4265, 0.6549], [47.4304, 0.6535], [47.4298, 0.6435], [47.4251, 0.6355], [47.4173, 0.6357], [47.4076, 0.6373], [47.3992, 0.6477], [47.3875, 0.6492], [47.3802, 0.6494], [47.3737, 0.6527], [47.3669, 0.6535], [47.3599, 0.6459], [47.3424, 0.647], [47.3351, 0.6204], [47.3296, 0.6073], [47.3168, 0.5924], [47.3049, 0.5612], [47.3011, 0.5537], [47.2995, 0.5499], [47.2889, 0.5246], [47.2758, 0.4933], [47.2713, 0.4822], [47.267, 0.4717], [47.2636, 0.4593], [47.2532, 0.4544], [47.247, 0.4421], [47.2221, 0.3776], [47.2132, 0.3541], [47.2023, 0.3252], [47.192, 0.2982], [47.1874, 0.2864], [47.1824, 0.2731], [47.1784, 0.2623], [47.1842, 0.2522], [47.1848, 0.249], [47.1867, 0.2249], [47.1825, 0.2113], [47.1751, 0.2013], [47.17, 0.1993], [47.1569, 0.1991], [47.1514, 0.1985], [47.1474, 0.196], [47.1414, 0.1941], [47.1286, 0.1931], [47.1141, 0.1912], [47.0934, 0.1851], [47.0716, 0.1698], [47.0654, 0.1625], [47.06, 0.1557], [47.0406, 0.1279], [47.0302, 0.1183], [47.0217, 0.1035], [47.019, 0.1001], [47.0151, 0.0938], [47.0097, 0.0902], [47.0065, 0.0868], [47.0003, 0.09], [46.9962, 0.0908], [46.9855, 0.0941], [46.9716, 0.1003], [46.9514, 0.1096], [46.9367, 0.1163], [46.8971, 0.1345], [46.8697, 0.147], [46.832, 0.1643], [46.8109, 0.1739], [46.8104, 0.1821], [46.8085, 0.1875], [46.8024, 0.1878], [46.7923, 0.1859], [46.7898, 0.1853], [46.7831, 0.1861], [46.7692, 0.1926], [46.7597, 0.197], [46.7421, 0.2052], [46.7143, 0.2177], [46.7136, 0.2244], [46.7019, 0.2381], [46.6943, 0.2524], [46.6856, 0.2618], [46.6801, 0.2664], [46.6639, 0.2784], [46.6522, 0.287], [46.6439, 0.2923], [46.6379, 0.2879], [46.6314, 0.2915], [46.6202, 0.3049], [46.6168, 0.3129], [46.6099, 0.3181], [46.608, 0.3201], [46.6031, 0.3233], [46.595, 0.318], [46.5844, 0.3142], [46.5768, 0.3147], [46.5724, 0.3135], [46.5666, 0.3063], [46.5589, 0.3028], [46.5545, 0.3066], [46.5515, 0.303], [46.5473, 0.2985], [46.5369, 0.285], [46.5255, 0.2818], [46.5153, 0.2786], [46.5001, 0.2782], [46.4901, 0.2739], [46.4492, 0.2659], [46.4311, 0.2613], [46.4074, 0.2391], [46.3731, 0.2093], [46.3632, 0.2038], [46.3486, 0.1859], [46.3142, 0.1867], [46.3069, 0.1792], [46.2936, 0.1739], [46.2575, 0.1692], [46.2466, 0.1651], [46.2074, 0.1597], [46.1874, 0.1633], [46.1458, 0.1751], [46.1363, 0.1753], [46.1126, 0.1861], [46.088, 0.1911], [46.0794, 0.1913], [46.0625, 0.1996], [46.0429, 0.1925], [46.0308, 0.1793], [46.0218, 0.1809], [46.0101, 0.1963], [45.9948, 0.2002], [45.9727, 0.2042], [45.9639, 0.2032], [45.9062, 0.1946], [45.8768, 0.1882], [45.8608, 0.183], [45.822, 0.1932], [45.7991, 0.1872], [45.7879, 0.1895], [45.7711, 0.1891], [45.7571, 0.1926], [45.7452, 0.1878], [45.7201, 0.1852], [45.7121, 0.1763], [45.7024, 0.1785], [45.6957, 0.1772], [45.6936, 0.1679], [45.6881, 0.1581], [45.6699, 0.1367], [45.6561, 0.1208], [45.6391, 0.1185], [45.6245, 0.1092], [45.6107, 0.0875], [45.6061, 0.0754], [45.5952, 0.0651], [45.5842, 0.0436], [45.5526, -0.006], [45.5455, -0.0326], [45.5411, -0.043], [45.5294, -0.0619], [45.5232, -0.0722], [45.5219, -0.0936], [45.5184, -0.1027], [45.4912, -0.1297], [45.4662, -0.1344], [45.4554, -0.1491], [45.4384, -0.1732], [45.4271, -0.1728], [45.4149, -0.1759], [45.4009, -0.1787], [45.3837, -0.1812], [45.3716, -0.1813], [45.3581, -0.1944], [45.3357, -0.2213], [45.3159, -0.2306], [45.2957, -0.2402], [45.2612, -0.2516], [45.2507, -0.2635], [45.2332, -0.278], [45.1844, -0.3205], [45.1535, -0.3591], [45.1162, -0.3764], [45.0953, -0.3809], [45.0737, -0.3875], [45.0579, -0.4024], [45.0407, -0.4128], [45.024, -0.4243], [45.0156, -0.4289], [45.0141, -0.4293], [45.012, -0.431], [45.0091, -0.433], [45.005, -0.436], [44.9996, -0.4356], [44.9974, -0.4389], [44.9916, -0.4405], [44.9912, -0.4426], [44.9878, -0.4489], [44.9836, -0.4509], [44.97, -0.4543], [44.9647, -0.4557], [44.9562, -0.4684], [44.9575, -0.4689], [44.9614, -0.4704], [44.959, -0.4763], [44.9602, -0.5028], [44.9605, -0.5183], [44.9523, -0.5184], [44.9244, -0.53], [44.9206, -0.5406], [44.9194, -0.5439], [44.9148, -0.5417], [44.9112, -0.5366], [44.909, -0.5354], [44.9051, -0.5353], [44.9007, -0.5329], [44.8961, -0.5309], [44.8902, -0.5297], [44.8881, -0.5296], [44.8817, -0.5316], [44.8793, -0.5332], [44.8706, -0.5375], [44.8649, -0.5385], [44.8595, -0.5384], [44.8579, -0.5464], [44.8602, -0.5537], [44.853, -0.5673], [44.8467, -0.5752], [44.8449, -0.5781], [44.8414, -0.581], [44.8384, -0.5816], [44.8376, -0.579]], "n": [[47.79345, 1.06623, "Nuit 1 : Vendôme"], [46.58026, 0.3402, "Nuit 2 : Poitiers"], [44.8378, -0.5792, "Nuit 3 : Bordeaux"]], "v": [[48.43447, 2.1612, "Musée Intercommunal d'Étampes"], [48.25842, 2.02203, "Dolmen de la Pierre Clouée"], [48.14192, 1.40254, "Restes de l'ancien château de Mémillon"], [47.78899, 1.06621, "Château de Vendôme"], [47.59197, 0.90914, "Château de Château-Renault"], [47.4285, 0.69262, "Manoir de Sapaillé"], [47.16815, 0.23599, "Forteresse Royale de Chinon"], [47.00791, 0.08588, "Maison de l'Art Roman"], [45.03933, -0.5017, "Grotte de Pair-Non-Pair"], [45.01221, -0.30685, "Moulin des Grandes-Vignes"], [44.97902, -0.38193, "Croix de cimetière"], [44.97449, -0.53417, "Château Peyronnet"]]};
+const map=L.map("itMap");
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"&copy; OpenStreetMap"}).addTo(map);
+const ligne=L.polyline(TR.c,{color:"#075985",weight:5}).addTo(map);
+TR.n.slice(0,-1).forEach(p=>L.marker([p[0],p[1]]).addTo(map).bindPopup(p[2]));
+TR.v.forEach(p=>L.circleMarker([p[0],p[1]],{radius:6,color:"#c8322b",weight:2,fillColor:"#fff",fillOpacity:1}).addTo(map).bindPopup(p[2]));
+map.fitBounds(ligne.getBounds().pad(0.1));
+</script>
+</body>
+</html>

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zurich Milan sans autoroute : itinéraire, étapes et coût | MyHotelCompare</title>
+<meta name="description" content="Zurich Milan sans autoroute : 339 km, 2 jours, 26 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<link rel="canonical" href="https://myhotelcompare.com/zurich-milan-sans-autoroute.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Zurich Milan sans autoroute : itinéraire, étapes et coût">
+<meta property="og:description" content="Zurich Milan sans autoroute : 339 km, 2 jours, 26 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<meta property="og:url" content="https://myhotelcompare.com/zurich-milan-sans-autoroute.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Quelle est la distance de Zurich à Milan sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Environ 339 km, soit 7 h 10 de conduite et 2 jours à raison d'environ 4 h par jour. Par l'autoroute, le trajet fait 294 km en 3 h 43."}}, {"@type": "Question", "name": "Combien coûte le trajet de Zurich à Milan ?", "acceptedAnswer": {"@type": "Answer", "text": "Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 35 € sans autoroute contre 62 € par l'autoroute (péages compris). Les repas, les visites et l'hébergement ne sont pas inclus."}}, {"@type": "Question", "name": "Où s'arrêter entre Zurich et Milan ?", "acceptedAnswer": {"@type": "Answer", "text": "Les étapes proposées sont : Thusis, Milan. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit."}}, {"@type": "Question", "name": "Y a-t-il des péages entre Zurich et Milan sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l'estimation."}}]}</script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<!-- Google Consent Mode v2 : refus par défaut tant que l'utilisateur n'a pas choisi -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLVNV2211J"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RLVNV2211J');
+</script>
+
+<link rel="icon" type="image/png" href="images/logo_5.png?v=2">
+<link rel="apple-touch-icon" href="images/logo_5.png?v=2">
+<style>
+:root {
+    --bg: #f2fbfd;
+    --bg-dark: #063247;
+    --panel: #e5f5f8;
+    --panel-strong: #c7eaf0;
+    --card: #ffffff;
+    --line: #b9dfe7;
+    --text: #123443;
+    --muted: #52717c;
+    --primary: #087f9b;
+    --primary-dark: #056078;
+    --secondary: #075985;
+    --success: #16805b;
+    --success-soft: #d7f4e7;
+    --warning: #e59a21;
+    --shadow: 0 18px 38px rgba(5, 96, 120, 0.14);
+}
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #f4fcfd 0%, #e7f6f8 100%);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px 16px 40px;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.site-header { margin-bottom: 24px; }
+.brand-lockup { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 18px; color: var(--text); }
+.brand-mark { width: 58px; height: 58px; object-fit: contain; border-radius: 16px; background: var(--panel-strong); padding: 5px; }
+.brand-lockup strong { display: block; color: var(--secondary); font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1; }
+.brand-lockup span { display: block; color: var(--muted); margin-top: 5px; font-size: 0.88rem; }
+h1, h2, h3, h4 { color: var(--text); }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; }
+a { color: var(--secondary); }
+.site-footer { margin-top: 48px; background: linear-gradient(135deg, #063247, #075985); color: #effcff; border-radius: 22px; padding: 30px; box-shadow: var(--shadow); }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 28px; }
+.site-footer h3, .site-footer h4 { color: #b8f0f6; margin-top: 0; }
+.site-footer p, .site-footer li { color: #d6eef2; line-height: 1.6; }
+.site-footer a { color: #b8f0f6; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+.footer-links { list-style: none; padding: 0; margin: 0; }
+.footer-links li { margin-bottom: 8px; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.18); margin-top: 24px; padding-top: 18px; display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; font-size: 0.85rem; }
+.footer-bottom p { margin: 0; }
+@media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } .brand-lockup { justify-content: flex-start; } }
+.top-nav {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    background: linear-gradient(135deg, var(--secondary), var(--primary-dark));
+    padding: 14px 18px; border-radius: 18px; margin: 6px 0 22px;
+    box-shadow: var(--shadow); justify-content: center;
+}
+.top-nav a {
+    color: white; background: rgba(255,255,255,0.12);
+    padding: 10px 16px; border-radius: 12px; text-decoration: none;
+    font-weight: 700; border: 1px solid rgba(255,255,255,0.15);
+}
+.top-nav a:hover { background: rgba(255,255,255,0.2); }
+.card {
+    background: linear-gradient(180deg, #fffefb 0%, #fff8ef 100%);
+    border: 1px solid var(--line); border-radius: 20px;
+    padding: 24px; margin-bottom: 22px; box-shadow: var(--shadow);
+}
+.btn, .btn-booking, .btn-expedia {
+    display: inline-block; text-decoration: none; border-radius: 12px;
+    font-weight: 700; transition: transform 0.2s ease; cursor: pointer;
+}
+.btn:hover, .btn-booking:hover, .btn-expedia:hover { transform: translateY(-1px); }
+.btn { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 18px; }
+.btn-booking { display: block; background: linear-gradient(135deg, #0f3d85, #1d5bbf); color: white; padding: 12px 16px; text-align: center; margin-bottom: 10px; }
+.btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
+.btn-site-officiel { display: block; background: linear-gradient(135deg, var(--secondary), var(--primary-dark)); color: white; padding: 12px 16px; text-align: center; }
+.hero-banner {
+    background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
+    border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
+}
+.hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 18px; }
+.hero-badges span {
+    background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.24); color: #f2fdff; border-radius: 999px; padding: 7px 12px; font-weight: 700; font-size: 0.82rem;
+}
+.glass-box { background: rgba(255,255,255,0.72); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+.filters-box {
+    background: linear-gradient(180deg, #e3f5f8 0%, #f8fdfe 100%);
+    border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 24px 0 18px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; box-shadow: var(--shadow);
+}
+.filters-box label { color: var(--muted); display: block; margin-bottom: 8px; font-weight: 700; }
+.filters-box select {
+    width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--text); font-size: 0.97rem;
+}
+.btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
+.comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.smart-results-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.smart-results-grid .card { margin-bottom: 0; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
+.review-card {
+    background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
+    border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
+}
+.review-card .stars { color: var(--warning); font-size: 1.1rem; letter-spacing: 2px; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 16px; margin-top: 18px; }
+.stat-item { background: rgba(255,255,255,0.5); border: 1px solid rgba(130,90,20,0.15); border-radius: 16px; padding: 18px; }
+.stat-item strong { display: block; font-size: 1.5rem; }
+.testimonial-section > h2 { color: var(--text) !important; }
+.testimonial-section > div > div { background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%) !important; border-color: var(--line) !important; }
+.testimonial-section > div > div p { color: var(--muted) !important; }
+.testimonial-section > div > div p:first-child { color: var(--warning) !important; }
+.testimonial-section > div > div p strong { color: var(--text) !important; }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 1000px) { .smart-results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .smart-results-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+.cookie-banner {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+    background: #063247; color: #effcff; padding: 18px 20px;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+    gap: 16px; box-shadow: 0 -8px 24px rgba(0,0,0,0.25);
+}
+.cookie-banner p { margin: 0; max-width: 640px; font-size: 0.92rem; line-height: 1.5; }
+.cookie-banner a { color: #b8f0f6; }
+.cookie-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie-actions button {
+    border: none; border-radius: 10px; padding: 10px 18px; font-weight: 700; cursor: pointer;
+}
+.cookie-accept { background: var(--primary); color: white; }
+.cookie-refuse { background: rgba(255,255,255,0.15); color: white; }
+.fiche-photo-carte { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0; align-items: stretch; }
+.fiche-photo-carte img, .fiche-photo-carte iframe { width: 100%; height: 260px; object-fit: cover; border-radius: 16px; border: 0; }
+@media (max-width: 600px) { .fiche-photo-carte { grid-template-columns: 1fr; } .fiche-photo-carte img, .fiche-photo-carte iframe { height: 220px; } }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 20px; }
+.btn-itineraire {
+    display: inline-block; padding: 14px 24px; border-radius: 14px; font-weight: 800;
+    background: rgba(255,255,255,0.14); color: #fff; text-decoration: none;
+    border: 1.5px solid rgba(255,255,255,0.6);
+}
+.btn-itineraire:hover { background: rgba(255,255,255,0.26); }
+.btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+</style>
+
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrld.ltd/NTcxODA1.js?t=571805';
+      document.head.appendChild(script);
+  })();
+</script>
+
+<style>
+.it-road{display:inline-block;min-width:36px;text-align:center;padding:0 7px;border-radius:5px;font-weight:800;font-size:.8rem;line-height:22px}
+.it-road.N{background:#c8322b;color:#fff}
+.it-road.D{background:#f2c230;color:#123443;box-shadow:inset 0 0 0 2px #123443}
+.it-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:24px 0;align-items:end}
+.it-form label{display:block;font-weight:700;color:var(--muted);margin-bottom:6px}
+.it-form input,.it-form select{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--text);font-size:.97rem}
+.it-msg{padding:12px 16px;border-radius:12px;margin-bottom:18px;font-weight:600}
+.it-msg.err{background:#fde8e6;color:#9a2a22}.it-msg.info{background:var(--panel);color:var(--secondary)}
+#itRes{display:none}
+.it-cmp{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 14px}
+.it-cmp .glass-box.win{border:2px solid var(--success)}
+.it-cmp h2{font-size:1.15rem;margin:0 0 10px}
+.it-row{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid var(--line)}
+.it-row:last-child{border:0}
+.it-save{background:var(--success-soft);color:var(--success);border-radius:12px;padding:12px 16px;font-weight:700;margin-bottom:8px}
+.it-note{color:var(--muted);font-size:.85rem;margin:0 0 22px}
+#itMap{height:380px;border-radius:16px;margin-bottom:22px;box-shadow:var(--shadow)}
+.it-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.it-tab{font:inherit;font-weight:700;cursor:pointer;background:#fff;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:9px 18px}
+.it-tab[aria-selected=true]{background:var(--secondary);color:#fff;border-color:var(--secondary)}
+.it-tab:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+.it-dayhead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.it-dayhead h2{margin:0;font-size:1.4rem}
+.it-dayhead span{color:var(--muted)}
+.it-roads{display:flex;gap:10px 14px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+.it-roads small{color:var(--muted)}
+.it-bloc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:14px}
+.it-bloc h3{margin:0 0 8px;font-size:1.05rem}
+.it-lieux{list-style:none;margin:0;padding:0}
+.it-lieu{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
+.it-lieu:last-child{border:0}
+.it-lieu small{display:block;color:var(--muted)}
+.it-vig{flex:0 0 76px;width:76px;height:76px;border-radius:12px;overflow:hidden;background:var(--panel);display:flex;align-items:center;justify-content:center;font-size:2rem}
+.it-vig img{width:100%;height:100%;object-fit:cover;display:block}
+.it-txt{flex:1;min-width:0}
+.it-res{margin:4px 0 2px;font-size:.9rem;line-height:1.45}
+.it-meta{margin-top:2px;font-size:.82rem}
+.it-liens{display:flex;gap:12px;flex-wrap:wrap;align-self:center}
+.it-liens a{font-weight:700;white-space:nowrap}
+.it-wait{color:var(--muted);margin:0}
+.it-budget{margin-bottom:22px}
+.it-bt{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:8px 12px;align-items:center}
+.it-bt .fort{font-weight:800;border-top:1px solid var(--line);padding-top:8px}
+.it-bt small{color:var(--muted)}
+.it-btn.s{background:var(--secondary);color:#fff;border:0;cursor:pointer;font-family:inherit}
+.it-share-msg{align-self:center;color:var(--success);font-weight:700}
+.it-urlcopy{width:100%;max-width:440px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:.85rem}
+.it-all{margin-bottom:18px}
+.it-all p{margin:6px 0 0}
+.it-gps{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px}
+.it-btn{display:inline-block;padding:10px 16px;border-radius:12px;font-weight:700;text-decoration:none;font-size:.95rem}
+.it-btn.g{background:#1a73e8;color:#fff}
+.it-btn.w{background:#33ccff;color:#06364a}
+.it-btn:hover{filter:brightness(.95)}
+.it-btn:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+@media (max-width:620px){.it-cmp{grid-template-columns:1fr}.it-lieu{flex-wrap:wrap}.it-liens{flex-basis:100%;align-self:flex-start}}
+
+.tj-cmp .glass-box h2{margin-top:0}
+.tj-fil{font-size:.9rem;color:var(--muted);margin:0 0 10px}
+</style>
+</head>
+<body><div class="container">
+
+<header class="site-header">
+<div class="brand-lockup">
+    <img src="images/logo_5.svg" alt="Nomad" class="brand-mark">
+    <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
+</div>
+<div class="top-nav">
+    <a href="index.html">Accueil</a>
+    <a href="hotels.html">Hôtels</a>
+    <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
+    <a href="loueurs-vehicules.html">Location de Véhicules</a>
+    <a href="croisieres.html">Croisières</a>
+    <a href="itineraire-decouverte.html">Itinéraires</a>
+    <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
+</div>
+</header>
+
+<p class="tj-fil"><a href="index.html">Accueil</a> &gt; <a href="trajets-sans-autoroute.html">Trajets sans autoroute</a> &gt; Zurich Milan</p>
+<div class="hero-banner">
+  <h1 style="color:#fff;margin:0 0 10px;font-size:clamp(1.6rem,3.6vw,2.4rem)">Zurich Milan sans autoroute : itinéraire, étapes et coût</h1>
+  <p style="margin:0;max-width:760px;line-height:1.7;color:#effcff">Pour aller de Zurich à Milan sans autoroute, comptez environ 339 km et 7 h 10 de conduite, soit 2 jours à raison d&#x27;environ 4 h de route par jour. Par l&#x27;autoroute, le même trajet fait 294 km en 3 h 43, avec environ 26 € de péages estimés.</p>
+</div>
+<p style="line-height:1.7">En évitant l&#x27;autoroute, vous économisez environ 28 € sur la route (péages et carburant), pour environ 3 h 26 de trajet en plus. Les routes les plus empruntées sont la A13 (31 km), la SS36 (21 km), la A52 (14 km). </p>
+<section class="it-cmp tj-cmp" aria-label="Comparatif avec l'autoroute">
+  <div class="glass-box"><h2>Par l'autoroute</h2><div class="it-row"><span>Distance</span><b>294 km</b></div><div class="it-row"><span>Temps de conduite</span><b>3 h 43</b></div><div class="it-row"><span>Péages</span><b>26 €</b></div><div class="it-row"><span>Carburant</span><b>36 €</b></div><div class="it-row"><span>Total route</span><b>62 €</b></div></div>
+  <div class="glass-box win"><h2>Parcours découverte</h2><div class="it-row"><span>Distance</span><b>339 km</b></div><div class="it-row"><span>Temps de conduite</span><b>7 h 10</b></div><div class="it-row"><span>Péages</span><b>0 €</b></div><div class="it-row"><span>Carburant</span><b>35 €</b></div><div class="it-row"><span>Total route</span><b>35 €</b></div></div>
+</section>
+<p class="it-note">Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, péage à 0,10 €/km sur les tronçons à péage. Montants indicatifs, mis à jour le 15 octobre 2026.</p>
+<p><a class="btn-compare" style="display:inline-block;text-decoration:none;width:auto;padding:14px 24px" href="itineraire-decouverte.html?d=Zurich+%28Suisse%29&amp;dc=8.5417%2C47.3769&amp;dp=Suisse&amp;a=Milan+%28Italie%29&amp;ac=9.19%2C45.4642&amp;ap=Italie&amp;r=4&amp;v=th&amp;c=6&amp;p=1.8&amp;n=2&amp;m=45&amp;utm_source=pages-trajets&amp;utm_medium=site&amp;utm_campaign=trajet">Calculer avec mon véhicule</a></p>
+<div id="itMap"></div>
+<section><h2>Jour 1 : Zurich à Thusis</h2><p class="it-wait">168 km, 3 h 49 de conduite</p><div class="it-roads"><span><span class="it-road N">A13</span> <small>31 km</small></span><span><span class="it-road N">A52</span> <small>14 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Bubikon-Ost.jpg/330px-Bubikon-Ost.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Ritterhaus Bubikon</b><small>Château</small><p class="it-res">La commanderie de Bubikon ou maison des chevaliers de Bubikon est une ancienne commanderie de l&#x27;ordre de Saint-Jean de Jérusalem à Bubikon en Suisse. Elle passe pour être la commanderie de Saint-Jean la mieux préservée en Europe.</p><small class="it-meta">📍 Weidlistrasse, Bubikon</small><small class="it-meta">🕒 Apr-Oct: mar-ven 13:00-17:00 ; Apr-Oct: sam,dim,jours fériés 10:00-17:00</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Commanderie_de_Bubikon" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.ritterhaus.ch/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Ritterhaus%20Bubikon/@47.26648,8.828,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Sargans_asv2022-10_img1_Schloss.jpg/330px-Sargans_asv2022-10_img1_Schloss.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Schloss Sargans</b><small>Château</small><p class="it-res">Le château de Sargans, appelé en allemand Schloss Sargans, est un château situé sur le territoire de la commune saint-galloise de Sargans, en Suisse.</p><small class="it-meta">📍 Schloss, Sargans</small><small class="it-meta">🕒 Apr 01-Oct 31 mar-ven 10:00-12:00, 13:30-17:30, sam-dim 10:00-17:30 ; lun fermé</small><small class="it-meta">📞 <a href="tel:+41817236569">+41 81 723 65 69</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Sargans" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.museumsargans.ch/neu/museum-sarganserland" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Schloss%20Sargans/@47.04995,9.43767,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Fracstein_Mauer.jpg/330px-Fracstein_Mauer.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Burgruine Fracstein</b><small>Château</small><p class="it-res">Le château de Fracstein, appelé en allemand Burg Fracstein, est un château fort situé sur le territoire de la commune grisonne de Seewis im Prättigau, en Suisse.</p><small class="it-meta">📍 Chlustunnel, Seewis im Prättigau</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Fracstein" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Burgruine%20Fracstein/@46.97557,9.61579,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Grottenstein_aussen.jpg/330px-Grottenstein_aussen.jpg?utm_source=de.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Burgruine Grottenstein</b><small>Château</small><small class="it-meta">📍 Oldisweg, Chur</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Burgruine%20Grottenstein/@46.88371,9.52197,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Neu-Schönstatt</b><small>Cuisine régionale</small><small class="it-meta">📍 1 Josef-Kentenich-Weg, Quarten</small><small class="it-meta">🕒 lun-dim 08:00-20:00</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+41815110200">+41 81 511 02 00</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Neu-Sch%C3%B6nstatt/@47.10941,9.24199,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Molseralp</b><small>Cuisine régionale</small><small class="it-meta">📍 18 Molseralpstrasse, Quarten</small><small class="it-meta">🕒 lun-dim 08:00-18:00 ; mer,jeu 08:00-22:00 ; ven,sam 08:00-23:00</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+41817101851">+41 81 710 18 51</a></small></div><span class="it-liens"><a href="https://www.molseralp.ch/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Molseralp/@47.09202,9.27851,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Cresta</b><small>Cuisine régionale</small><small class="it-meta">📍 4 Molseralpstrasse, Quarten</small><small class="it-meta">🕒 lun-dim 08:00-21:00 ; ven,sam 08:00-23:00</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+41817331744">+41 81 733 17 44</a></small></div><span class="it-liens"><a href="https://www.restaurant-cresta.ch/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Cresta/@47.09319,9.28096,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Thusis</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Hotel Restaurant Capricorns</b><small class="it-meta">📍 51 Veia Cantunala, Muntogna da Schons</small><small class="it-meta">🕒 Dec 18-Apr 03,May 13-Oct 23 lun-dim 08:00-22:30</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+41816307172">+41 81 630 71 72</a></small></div><span class="it-liens"><a href="http://capricorns.ch" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Hotel%20Restaurant%20Capricorns/@46.6263,9.40751,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Gasthaus Edelweis</b><small>Cuisine régionale</small><small class="it-meta">📍 2 Hauptstrasse, Ferrera</small><small class="it-meta">📞 <a href="tel:+41816611827">+41 81 661 18 27</a></small></div><span class="it-liens"><a href="http://www.valferrera.com/#!edelweiss/cagb" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Gasthaus%20Edelweis/@46.55814,9.43955,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Restaurant Muntsulej</b><small class="it-meta">📍 1 Laresch, Muntogna da Schons</small><small class="it-meta">🕒 ven-mer 09:00-22:00</small></div><span class="it-liens"><a href="https://www.muntsulej.ch/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Restaurant%20Muntsulej/@46.63872,9.41619,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Thusis</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Thusis%2C%20Switzerland&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Thusis</a></div></section><section><h2>Jour 2 : Thusis à Milan</h2><p class="it-wait">171 km, 3 h 20 de conduite</p><div class="it-roads"><span><span class="it-road N">SS36</span> <small>21 km</small></span><span><span class="it-road D">SP2</span> <small>10 km</small></span><span><span class="it-road N">A13</span> <small>0 km</small></span><span><span class="it-road D">SP102</span> <small>0 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Chiavenna_-_Galleria_Storica_dei_Civici_Pompieri_della_Valchiavenna..jpg/330px-Chiavenna_-_Galleria_Storica_dei_Civici_Pompieri_della_Valchiavenna..jpg?utm_source=it.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Galleria storica dei civici pompieri della Valchiavenna</b><small>Musée</small><small class="it-meta">📍 Piazza Corpo dei Vigili del Fuoco di Chiavenna, Chiavenna</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Galleria%20storica%20dei%20civici%20pompieri%20della%20Valchiavenna/@46.32172,9.40532,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Forte_de_Fuentes.jpg/330px-Forte_de_Fuentes.jpg?utm_source=it.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Forte di Fuentes</b><small>Château</small><small class="it-meta">📍 Via Forte Fuentes, Colico</small><small class="it-meta">🕒 sam,dim 10:00-18:00 ; jours fériés 10:00-18:00</small><small class="it-meta">📞 <a href="tel:+390341940322">+390341940322</a></small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.fortedifuentes.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Forte%20di%20Fuentes/@46.14764,9.4046,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Rotanda_inverigo.png/330px-Rotanda_inverigo.png?utm_source=it.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>La rotonda</b><small>À voir</small><small class="it-meta">📍 Via Privata D&#x27;Adda, Inverigo</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/La%20rotonda/@45.74086,9.21947,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Marchio_Barigozzi_Cornaredo.JPG/330px-Marchio_Barigozzi_Cornaredo.JPG?utm_source=it.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Fonderia Napoleonica Eugenia</b><small>Musée</small><small class="it-meta">📍 21 Via Genova Thaon Di Revel, Milan</small><small class="it-meta">🕒 sam 11:00-19:00 ; dim 10:00-19:00 ; lun-ven fermé</small><small class="it-meta">entrée gratuite</small><small class="it-meta">📞 <a href="tel:+393930552272">+39 393 0552272</a></small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.fonderianapoleonica.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Fonderia%20Napoleonica%20Eugenia/@45.49296,9.18754,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Ristorante Beccaccino</b><small>Cuisine fish</small><small class="it-meta">📍 49 Via Boschetto, Sorico</small><small class="it-meta">📞 <a href="tel:+39034484241">+39034484241</a></small></div><span class="it-liens"><a href="https://www.beccaccino.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Ristorante%20Beccaccino/@46.16828,9.39317,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Hotel Ristorante Maloia</b><p class="it-res">Room from 35 €, free Wifi</p><small class="it-meta">📍 Via Spluga, Dubino</small><small class="it-meta">📞 <a href="tel:+390342687936">+39 0342 687936</a></small></div><span class="it-liens"><a href="https://www.hotelmaloia.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Hotel%20Ristorante%20Maloia/@46.16784,9.42836,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍝</div><div class="it-txt"><b>Agriturismo Giacomino</b><small>Cuisine italienne</small><small class="it-meta">📍 42 Via Fordeccia, Sorico</small><small class="it-meta">📞 <a href="tel:+39034484710">+39 0344 84710</a></small></div><span class="it-liens"><a href="https://www.agriturismogiacomino.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Agriturismo%20Giacomino/@46.19358,9.39657,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Milan</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍝</div><div class="it-txt"><b>Cracco in Galleria</b><small>Cuisine italienne</small><small class="it-meta">📍 1n11 Galleria Vittorio Emanuele Secondo, Milan</small><small class="it-meta">🕒 lun-ven 12:30-14:00,19:15-22:00 ; sam 19:30-22:00</small><small class="it-meta">terrasse, à emporter, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+3902876774">+39 02 876774</a></small></div><span class="it-liens"><a href="https://www.ristorantecracco.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Cracco%20in%20Galleria/@45.46534,9.18987,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD%2C_%D0%9F%D0%B0%D1%81%D1%81%D0%B0%D0%B6_-_panoramio.jpg/330px-%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD%2C_%D0%9F%D0%B0%D1%81%D1%81%D0%B0%D0%B6_-_panoramio.jpg?utm_source=it.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Ristorante Savini</b><small class="it-meta">📍 4n04 Galleria Vittorio Emanuele Secondo, Milan</small><small class="it-meta">🕒 lun-ven 12:00-14:30,19:00-22:30 ; sam 19:00-22:30</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://savinimilano.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Ristorante%20Savini/@45.46569,9.19047,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mailand-Papa_Francesco_8915.jpg?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Papà Francesco</b><small>Cuisine italienne</small><small class="it-meta">📍 7n03 Via Tommaso Marino, Milan</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.papafrancesco.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Pap%C3%A0%20Francesco/@45.4663,9.19038,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Milan</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Milan%2C%20Italie&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Milan</a></div></section>
+<section class="glass-box it-seo" style="margin:24px 0"><h2 style="margin-top:0">Questions fréquentes</h2><details><summary><b>Quelle est la distance de Zurich à Milan sans autoroute ?</b></summary><p>Environ 339 km, soit 7 h 10 de conduite et 2 jours à raison d&#x27;environ 4 h par jour. Par l&#x27;autoroute, le trajet fait 294 km en 3 h 43.</p></details><details><summary><b>Combien coûte le trajet de Zurich à Milan ?</b></summary><p>Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 35 € sans autoroute contre 62 € par l&#x27;autoroute (péages compris). Les repas, les visites et l&#x27;hébergement ne sont pas inclus.</p></details><details><summary><b>Où s&#x27;arrêter entre Zurich et Milan ?</b></summary><p>Les étapes proposées sont : Thusis, Milan. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit.</p></details><details><summary><b>Y a-t-il des péages entre Zurich et Milan sans autoroute ?</b></summary><p>Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l&#x27;estimation.</p></details></section>
+<h2>Autres trajets</h2><ul><li><a href="strasbourg-milan-sans-autoroute.html">Strasbourg Milan sans autoroute</a></li><li><a href="lyon-milan-sans-autoroute.html">Lyon Milan sans autoroute</a></li><li><a href="strasbourg-milan-voiture-electrique.html">Strasbourg Milan en voiture électrique</a></li><li><a href="lyon-milan-voiture-electrique.html">Lyon Milan en voiture électrique</a></li></ul>
+<p class="it-note">Les lieux et restaurants viennent d'OpenStreetMap et de Wikipédia : vérifiez les horaires avant de partir. Itinéraire calculé avec <a href="https://openrouteservice.org/" target="_blank" rel="noopener">OpenRouteService</a>, lieux via <a href="https://www.geoapify.com/" target="_blank" rel="noopener">Geoapify</a>, données &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</p>
+
+
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+    <p>Nous utilisons des cookies pour mesurer l'audience du site (Google Analytics). Vous pouvez accepter ou refuser ce suivi. Voir notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+    <div class="cookie-actions">
+        <button class="cookie-refuse" onclick="setCookieConsent(false)">Refuser</button>
+        <button class="cookie-accept" onclick="setCookieConsent(true)">Accepter</button>
+    </div>
+</div>
+<script>
+(function() {
+    function setCookieConsent(accepted) {
+        localStorage.setItem('cookie_consent', accepted ? 'granted' : 'denied');
+        gtag('consent', 'update', {
+            'analytics_storage': accepted ? 'granted' : 'denied'
+        });
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+    window.setCookieConsent = setCookieConsent;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var saved = localStorage.getItem('cookie_consent');
+        if (saved === 'granted') {
+            gtag('consent', 'update', { 'analytics_storage': 'granted' });
+        } else if (saved === null) {
+            document.getElementById('cookie-banner').style.display = 'flex';
+        }
+        
+    });
+})();
+</script>
+
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <h3>Nomad</h3>
+            <p>Le compagnon de voyage qui vous aide à choisir plus vite et à partir plus serein.</p>
+        </div>
+        <div>
+            <h4>Explorer</h4>
+            <ul class="footer-links">
+                <li><a href="hotels.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
+                <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
+                <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
+                <li><a href="croisieres.html">Croisières</a></li>
+                <li><a href="itineraire-decouverte.html">Itinéraire découverte</a></li>
+                <li><a href="trajets-sans-autoroute.html">Trajets sans autoroute</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>À propos</h4>
+            <ul class="footer-links">
+                <li><a href="apropos.html">À propos de nous</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Conseils de voyage</a></li>
+                <li><a href="index.html#avis">Avis voyageurs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Votre retour compte</h4>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
+        <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
+    </div>
+</footer>
+
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const TR={"c": [[47.3769, 8.5417], [47.3767, 8.5444], [47.3705, 8.5485], [47.3667, 8.5534], [47.3639, 8.5566], [47.3616, 8.5611], [47.3601, 8.5684], [47.3559, 8.5739], [47.3524, 8.5778], [47.351, 8.5831], [47.346, 8.5899], [47.3471, 8.5961], [47.3448, 8.605], [47.3342, 8.6191], [47.3277, 8.628], [47.3247, 8.6497], [47.3226, 8.6606], [47.3149, 8.6721], [47.3084, 8.6872], [47.2994, 8.6995], [47.2952, 8.7123], [47.2894, 8.7271], [47.2888, 8.7658], [47.2918, 8.7847], [47.2868, 8.7968], [47.284, 8.8021], [47.2771, 8.8166], [47.273, 8.8193], [47.2752, 8.8243], [47.2739, 8.8279], [47.2756, 8.8378], [47.276, 8.8447], [47.2703, 8.8528], [47.2648, 8.8517], [47.2605, 8.8514], [47.257, 8.8538], [47.2557, 8.8593], [47.253, 8.8685], [47.2511, 8.8768], [47.2481, 8.8798], [47.246, 8.8829], [47.2427, 8.8861], [47.2411, 8.8913], [47.2424, 8.9088], [47.2409, 8.9204], [47.2411, 8.9266], [47.2414, 8.9421], [47.2433, 8.9479], [47.2406, 8.949], [47.2369, 8.9541], [47.2333, 8.9623], [47.2315, 8.9628], [47.2305, 8.9631], [47.2293, 8.9668], [47.2278, 8.9745], [47.227, 8.9798], [47.2244, 8.9841], [47.2219, 8.9838], [47.2041, 9.0075], [47.1981, 9.0052], [47.196, 9.0015], [47.1875, 8.995], [47.1801, 8.9907], [47.1723, 8.9856], [47.1678, 8.9809], [47.1636, 8.9946], [47.1554, 9.0133], [47.1516, 9.0199], [47.147, 9.0226], [47.144, 9.027], [47.1404, 9.0332], [47.1313, 9.0487], [47.128, 9.0534], [47.1255, 9.0532], [47.123, 9.053], [47.1202, 9.057], [47.1176, 9.0595], [47.1138, 9.0602], [47.1118, 9.0614], [47.1054, 9.0653], [47.1025, 9.0689], [47.0998, 9.0677], [47.0975, 9.0691], [47.0953, 9.0733], [47.0941, 9.0759], [47.0968, 9.0774], [47.0978, 9.0778], [47.1013, 9.0757], [47.1027, 9.0766], [47.1079, 9.0804], [47.112, 9.0838], [47.1139, 9.0903], [47.1171, 9.1052], [47.1213, 9.1179], [47.1214, 9.1253], [47.1196, 9.129], [47.1196, 9.1343], [47.1212, 9.1392], [47.1178, 9.1432], [47.1175, 9.1492], [47.1162, 9.1543], [47.1169, 9.1582], [47.1164, 9.1687], [47.1123, 9.1691], [47.116, 9.1777], [47.114, 9.1859], [47.1146, 9.1913], [47.114, 9.1967], [47.1126, 9.2106], [47.112, 9.2187], [47.1122, 9.2358], [47.1129, 9.2506], [47.1138, 9.2554], [47.1152, 9.267], [47.1127, 9.2774], [47.1139, 9.288], [47.1149, 9.2949], [47.1195, 9.3082], [47.1192, 9.3173], [47.1162, 9.3277], [47.1102, 9.3414], [47.0984, 9.3511], [47.095, 9.3549], [47.0888, 9.3607], [47.0838, 9.3699], [47.0804, 9.3796], [47.0745, 9.3888], [47.0708, 9.3946], [47.0662, 9.403], [47.0597, 9.4098], [47.0576, 9.4122], [47.0559, 9.4162], [47.0549, 9.4226], [47.0519, 9.4301], [47.0492, 9.4341], [47.0476, 9.4393], [47.046, 9.4425], [47.0431, 9.4463], [47.039, 9.4536], [47.0325, 9.4614], [47.0245, 9.4754], [47.0191, 9.4881], [47.0131, 9.4941], [47.0084, 9.4971], [47.0049, 9.5], [47.0027, 9.5024], [46.9985, 9.5122], [46.9902, 9.5242], [46.9796, 9.5381], [46.9717, 9.5489], [46.9713, 9.5539], [46.969, 9.5625], [46.9666, 9.5629], [46.9578, 9.5661], [46.9524, 9.5665], [46.945, 9.5684], [46.9378, 9.5664], [46.9315, 9.5628], [46.9213, 9.5628], [46.9192, 9.5622], [46.9081, 9.5582], [46.9014, 9.554], [46.8963, 9.5473], [46.8865, 9.541], [46.8727, 9.5347], [46.8705, 9.5343], [46.8659, 9.535], [46.8613, 9.5343], [46.8597, 9.5291], [46.8582, 9.5225], [46.8554, 9.5167], [46.8531, 9.5132], [46.8498, 9.5139], [46.8464, 9.5129], [46.8457, 9.5073], [46.8449, 9.5013], [46.8428, 9.4895], [46.841, 9.4823], [46.838, 9.465], [46.8371, 9.4571], [46.8367, 9.4511], [46.834, 9.4491], [46.8323, 9.4443], [46.8293, 9.435], [46.8279, 9.42], [46.8288, 9.4176], [46.8235, 9.4102], [46.8184, 9.4057], [46.8009, 9.4173], [46.7838, 9.4155], [46.7705, 9.4211], [46.7384, 9.4354], [46.7246, 9.4399], [46.7113, 9.4477], [46.6956, 9.4453], [46.6869, 9.4374], [46.681, 9.4458], [46.674, 9.448], [46.666, 9.4485], [46.6605, 9.4475], [46.6565, 9.4515], [46.6485, 9.4485], [46.642, 9.4424], [46.6347, 9.4384], [46.6245, 9.4347], [46.6164, 9.4332], [46.6087, 9.4336], [46.6007, 9.431], [46.5939, 9.4269], [46.5884, 9.4262], [46.5798, 9.4233], [46.5781, 9.4176], [46.5735, 9.4186], [46.57, 9.4164], [46.5685, 9.4111], [46.5664, 9.4003], [46.569, 9.3905], [46.5692, 9.3853], [46.5693, 9.3814], [46.5707, 9.3725], [46.5682, 9.3665], [46.5659, 9.3577], [46.5638, 9.352], [46.5617, 9.3507], [46.56, 9.3432], [46.5573, 9.3383], [46.5532, 9.3237], [46.5482, 9.3239], [46.5466, 9.3228], [46.5458, 9.3226], [46.5442, 9.3201], [46.5427, 9.3248], [46.5413, 9.325], [46.5347, 9.3263], [46.528, 9.3283], [46.5234, 9.3295], [46.5161, 9.331], [46.5164, 9.3294], [46.5153, 9.3294], [46.5146, 9.3287], [46.5116, 9.3296], [46.5121, 9.3281], [46.5115, 9.3279], [46.5109, 9.3266], [46.509, 9.3289], [46.5038, 9.3307], [46.5017, 9.3291], [46.4961, 9.3313], [46.4943, 9.3307], [46.4924, 9.3318], [46.4904, 9.3344], [46.4896, 9.3405], [46.4875, 9.3476], [46.481, 9.355], [46.4762, 9.3519], [46.468, 9.3502], [46.4646, 9.3448], [46.4564, 9.3369], [46.4528, 9.3391], [46.4498, 9.3413], [46.4486, 9.3393], [46.4422, 9.3438], [46.4377, 9.3443], [46.4342, 9.3422], [46.4313, 9.3443], [46.4283, 9.3439], [46.4255, 9.3449], [46.4227, 9.345], [46.4228, 9.3447], [46.4222, 9.3443], [46.4205, 9.3443], [46.4196, 9.3442], [46.4194, 9.344], [46.4186, 9.3439], [46.4143, 9.3449], [46.4104, 9.3504], [46.4062, 9.352], [46.4025, 9.3547], [46.3936, 9.3527], [46.387, 9.354], [46.3782, 9.3567], [46.3734, 9.36], [46.3695, 9.36], [46.3688, 9.3614], [46.3667, 9.3644], [46.3659, 9.3637], [46.3631, 9.3642], [46.361, 9.3643], [46.3583, 9.3646], [46.3536, 9.3663], [46.353, 9.3667], [46.3517, 9.367], [46.3472, 9.3682], [46.3419, 9.3704], [46.338, 9.3712], [46.3362, 9.3697], [46.3345, 9.3708], [46.3302, 9.374], [46.3248, 9.3797], [46.3223, 9.3872], [46.321, 9.3956], [46.3187, 9.3996], [46.3139, 9.3976], [46.3085, 9.3937], [46.2998, 9.3868], [46.2888, 9.3902], [46.2844, 9.3849], [46.2749, 9.3849], [46.2636, 9.3918], [46.2615, 9.3925], [46.2408, 9.4095], [46.2263, 9.4265], [46.2212, 9.4406], [46.2174, 9.4468], [46.2131, 9.4475], [46.2094, 9.4592], [46.2024, 9.4583], [46.198, 9.4514], [46.1885, 9.4464], [46.1794, 9.4389], [46.1713, 9.4324], [46.1641, 9.4255], [46.1561, 9.4177], [46.1477, 9.4122], [46.1413, 9.4112], [46.1328, 9.4003], [46.1332, 9.3835], [46.1257, 9.359], [46.11, 9.3313], [46.1001, 9.3221], [46.0866, 9.3126], [46.0578, 9.3181], [46.043, 9.3121], [46.0106, 9.2955], [45.9913, 9.2952], [45.9597, 9.3116], [45.9482, 9.3124], [45.9343, 9.3246], [45.9199, 9.3289], [45.9101, 9.3307], [45.8947, 9.3483], [45.8877, 9.3592], [45.8786, 9.3722], [45.8659, 9.3885], [45.853, 9.3997], [45.8427, 9.4051], [45.8389, 9.3917], [45.8295, 9.3536], [45.8246, 9.3424], [45.8195, 9.3227], [45.787, 9.2961], [45.7656, 9.2877], [45.7571, 9.2744], [45.7357, 9.2495], [45.7187, 9.2337], [45.7162, 9.2276], [45.706, 9.2287], [45.6924, 9.2227], [45.6777, 9.2182], [45.6483, 9.2256], [45.6018, 9.2314], [45.5955, 9.2433], [45.5842, 9.2509], [45.5571, 9.2403], [45.5473, 9.2298], [45.5421, 9.2206], [45.5174, 9.2068], [45.5033, 9.1988], [45.4939, 9.188], [45.4906, 9.1812], [45.4852, 9.1811], [45.484, 9.1769], [45.4748, 9.1815], [45.4697, 9.1833], [45.4681, 9.1827], [45.4674, 9.19], [45.4649, 9.1893]], "n": [[46.69724, 9.43908, "Nuit 1 : Thusis"], [45.4642, 9.19, "Nuit 2 : Milan"]], "v": [[47.26648, 8.828, "Ritterhaus Bubikon"], [47.04995, 9.43767, "Schloss Sargans"], [46.97557, 9.61579, "Burgruine Fracstein"], [46.88371, 9.52197, "Burgruine Grottenstein"], [46.32172, 9.40532, "Galleria storica dei civici pompieri della Valchiavenna"], [46.14764, 9.4046, "Forte di Fuentes"], [45.74086, 9.21947, "La rotonda"], [45.49296, 9.18754, "Fonderia Napoleonica Eugenia"]]};
+const map=L.map("itMap");
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"&copy; OpenStreetMap"}).addTo(map);
+const ligne=L.polyline(TR.c,{color:"#075985",weight:5}).addTo(map);
+TR.n.slice(0,-1).forEach(p=>L.marker([p[0],p[1]]).addTo(map).bindPopup(p[2]));
+TR.v.forEach(p=>L.circleMarker([p[0],p[1]],{radius:6,color:"#c8322b",weight:2,fillColor:"#fff",fillOpacity:1}).addTo(map).bindPopup(p[2]));
+map.fitBounds(ligne.getBounds().pad(0.1));
+</script>
+</body>
+</html>

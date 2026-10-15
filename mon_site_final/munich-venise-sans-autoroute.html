@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Munich Venise sans autoroute : itinéraire, étapes et coût | MyHotelCompare</title>
+<meta name="description" content="Munich Venise sans autoroute : 457 km, 3 jours, 40 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<link rel="canonical" href="https://myhotelcompare.com/munich-venise-sans-autoroute.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Munich Venise sans autoroute : itinéraire, étapes et coût">
+<meta property="og:description" content="Munich Venise sans autoroute : 457 km, 3 jours, 40 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<meta property="og:url" content="https://myhotelcompare.com/munich-venise-sans-autoroute.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Quelle est la distance de Munich à Venise sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Environ 457 km, soit 9 h 16 de conduite et 3 jours à raison d'environ 4 h par jour. Par l'autoroute, le trajet fait 566 km en 5 h 30."}}, {"@type": "Question", "name": "Combien coûte le trajet de Munich à Venise ?", "acceptedAnswer": {"@type": "Answer", "text": "Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 47 € sans autoroute contre 110 € par l'autoroute (péages compris). Les repas, les visites et l'hébergement ne sont pas inclus."}}, {"@type": "Question", "name": "Où s'arrêter entre Munich et Venise ?", "acceptedAnswer": {"@type": "Answer", "text": "Les étapes proposées sont : Steinach am Brenner, Agordo, Venise. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit."}}, {"@type": "Question", "name": "Y a-t-il des péages entre Munich et Venise sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l'estimation."}}]}</script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<!-- Google Consent Mode v2 : refus par défaut tant que l'utilisateur n'a pas choisi -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLVNV2211J"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RLVNV2211J');
+</script>
+
+<link rel="icon" type="image/png" href="images/logo_5.png?v=2">
+<link rel="apple-touch-icon" href="images/logo_5.png?v=2">
+<style>
+:root {
+    --bg: #f2fbfd;
+    --bg-dark: #063247;
+    --panel: #e5f5f8;
+    --panel-strong: #c7eaf0;
+    --card: #ffffff;
+    --line: #b9dfe7;
+    --text: #123443;
+    --muted: #52717c;
+    --primary: #087f9b;
+    --primary-dark: #056078;
+    --secondary: #075985;
+    --success: #16805b;
+    --success-soft: #d7f4e7;
+    --warning: #e59a21;
+    --shadow: 0 18px 38px rgba(5, 96, 120, 0.14);
+}
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #f4fcfd 0%, #e7f6f8 100%);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px 16px 40px;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.site-header { margin-bottom: 24px; }
+.brand-lockup { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 18px; color: var(--text); }
+.brand-mark { width: 58px; height: 58px; object-fit: contain; border-radius: 16px; background: var(--panel-strong); padding: 5px; }
+.brand-lockup strong { display: block; color: var(--secondary); font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1; }
+.brand-lockup span { display: block; color: var(--muted); margin-top: 5px; font-size: 0.88rem; }
+h1, h2, h3, h4 { color: var(--text); }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; }
+a { color: var(--secondary); }
+.site-footer { margin-top: 48px; background: linear-gradient(135deg, #063247, #075985); color: #effcff; border-radius: 22px; padding: 30px; box-shadow: var(--shadow); }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 28px; }
+.site-footer h3, .site-footer h4 { color: #b8f0f6; margin-top: 0; }
+.site-footer p, .site-footer li { color: #d6eef2; line-height: 1.6; }
+.site-footer a { color: #b8f0f6; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+.footer-links { list-style: none; padding: 0; margin: 0; }
+.footer-links li { margin-bottom: 8px; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.18); margin-top: 24px; padding-top: 18px; display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; font-size: 0.85rem; }
+.footer-bottom p { margin: 0; }
+@media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } .brand-lockup { justify-content: flex-start; } }
+.top-nav {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    background: linear-gradient(135deg, var(--secondary), var(--primary-dark));
+    padding: 14px 18px; border-radius: 18px; margin: 6px 0 22px;
+    box-shadow: var(--shadow); justify-content: center;
+}
+.top-nav a {
+    color: white; background: rgba(255,255,255,0.12);
+    padding: 10px 16px; border-radius: 12px; text-decoration: none;
+    font-weight: 700; border: 1px solid rgba(255,255,255,0.15);
+}
+.top-nav a:hover { background: rgba(255,255,255,0.2); }
+.card {
+    background: linear-gradient(180deg, #fffefb 0%, #fff8ef 100%);
+    border: 1px solid var(--line); border-radius: 20px;
+    padding: 24px; margin-bottom: 22px; box-shadow: var(--shadow);
+}
+.btn, .btn-booking, .btn-expedia {
+    display: inline-block; text-decoration: none; border-radius: 12px;
+    font-weight: 700; transition: transform 0.2s ease; cursor: pointer;
+}
+.btn:hover, .btn-booking:hover, .btn-expedia:hover { transform: translateY(-1px); }
+.btn { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 18px; }
+.btn-booking { display: block; background: linear-gradient(135deg, #0f3d85, #1d5bbf); color: white; padding: 12px 16px; text-align: center; margin-bottom: 10px; }
+.btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
+.btn-site-officiel { display: block; background: linear-gradient(135deg, var(--secondary), var(--primary-dark)); color: white; padding: 12px 16px; text-align: center; }
+.hero-banner {
+    background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
+    border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
+}
+.hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 18px; }
+.hero-badges span {
+    background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.24); color: #f2fdff; border-radius: 999px; padding: 7px 12px; font-weight: 700; font-size: 0.82rem;
+}
+.glass-box { background: rgba(255,255,255,0.72); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+.filters-box {
+    background: linear-gradient(180deg, #e3f5f8 0%, #f8fdfe 100%);
+    border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 24px 0 18px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; box-shadow: var(--shadow);
+}
+.filters-box label { color: var(--muted); display: block; margin-bottom: 8px; font-weight: 700; }
+.filters-box select {
+    width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--text); font-size: 0.97rem;
+}
+.btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
+.comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.smart-results-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.smart-results-grid .card { margin-bottom: 0; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
+.review-card {
+    background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
+    border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
+}
+.review-card .stars { color: var(--warning); font-size: 1.1rem; letter-spacing: 2px; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 16px; margin-top: 18px; }
+.stat-item { background: rgba(255,255,255,0.5); border: 1px solid rgba(130,90,20,0.15); border-radius: 16px; padding: 18px; }
+.stat-item strong { display: block; font-size: 1.5rem; }
+.testimonial-section > h2 { color: var(--text) !important; }
+.testimonial-section > div > div { background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%) !important; border-color: var(--line) !important; }
+.testimonial-section > div > div p { color: var(--muted) !important; }
+.testimonial-section > div > div p:first-child { color: var(--warning) !important; }
+.testimonial-section > div > div p strong { color: var(--text) !important; }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 1000px) { .smart-results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .smart-results-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+.cookie-banner {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+    background: #063247; color: #effcff; padding: 18px 20px;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+    gap: 16px; box-shadow: 0 -8px 24px rgba(0,0,0,0.25);
+}
+.cookie-banner p { margin: 0; max-width: 640px; font-size: 0.92rem; line-height: 1.5; }
+.cookie-banner a { color: #b8f0f6; }
+.cookie-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie-actions button {
+    border: none; border-radius: 10px; padding: 10px 18px; font-weight: 700; cursor: pointer;
+}
+.cookie-accept { background: var(--primary); color: white; }
+.cookie-refuse { background: rgba(255,255,255,0.15); color: white; }
+.fiche-photo-carte { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0; align-items: stretch; }
+.fiche-photo-carte img, .fiche-photo-carte iframe { width: 100%; height: 260px; object-fit: cover; border-radius: 16px; border: 0; }
+@media (max-width: 600px) { .fiche-photo-carte { grid-template-columns: 1fr; } .fiche-photo-carte img, .fiche-photo-carte iframe { height: 220px; } }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 20px; }
+.btn-itineraire {
+    display: inline-block; padding: 14px 24px; border-radius: 14px; font-weight: 800;
+    background: rgba(255,255,255,0.14); color: #fff; text-decoration: none;
+    border: 1.5px solid rgba(255,255,255,0.6);
+}
+.btn-itineraire:hover { background: rgba(255,255,255,0.26); }
+.btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+</style>
+
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrld.ltd/NTcxODA1.js?t=571805';
+      document.head.appendChild(script);
+  })();
+</script>
+
+<style>
+.it-road{display:inline-block;min-width:36px;text-align:center;padding:0 7px;border-radius:5px;font-weight:800;font-size:.8rem;line-height:22px}
+.it-road.N{background:#c8322b;color:#fff}
+.it-road.D{background:#f2c230;color:#123443;box-shadow:inset 0 0 0 2px #123443}
+.it-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:24px 0;align-items:end}
+.it-form label{display:block;font-weight:700;color:var(--muted);margin-bottom:6px}
+.it-form input,.it-form select{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--text);font-size:.97rem}
+.it-msg{padding:12px 16px;border-radius:12px;margin-bottom:18px;font-weight:600}
+.it-msg.err{background:#fde8e6;color:#9a2a22}.it-msg.info{background:var(--panel);color:var(--secondary)}
+#itRes{display:none}
+.it-cmp{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 14px}
+.it-cmp .glass-box.win{border:2px solid var(--success)}
+.it-cmp h2{font-size:1.15rem;margin:0 0 10px}
+.it-row{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid var(--line)}
+.it-row:last-child{border:0}
+.it-save{background:var(--success-soft);color:var(--success);border-radius:12px;padding:12px 16px;font-weight:700;margin-bottom:8px}
+.it-note{color:var(--muted);font-size:.85rem;margin:0 0 22px}
+#itMap{height:380px;border-radius:16px;margin-bottom:22px;box-shadow:var(--shadow)}
+.it-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.it-tab{font:inherit;font-weight:700;cursor:pointer;background:#fff;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:9px 18px}
+.it-tab[aria-selected=true]{background:var(--secondary);color:#fff;border-color:var(--secondary)}
+.it-tab:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+.it-dayhead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.it-dayhead h2{margin:0;font-size:1.4rem}
+.it-dayhead span{color:var(--muted)}
+.it-roads{display:flex;gap:10px 14px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+.it-roads small{color:var(--muted)}
+.it-bloc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:14px}
+.it-bloc h3{margin:0 0 8px;font-size:1.05rem}
+.it-lieux{list-style:none;margin:0;padding:0}
+.it-lieu{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
+.it-lieu:last-child{border:0}
+.it-lieu small{display:block;color:var(--muted)}
+.it-vig{flex:0 0 76px;width:76px;height:76px;border-radius:12px;overflow:hidden;background:var(--panel);display:flex;align-items:center;justify-content:center;font-size:2rem}
+.it-vig img{width:100%;height:100%;object-fit:cover;display:block}
+.it-txt{flex:1;min-width:0}
+.it-res{margin:4px 0 2px;font-size:.9rem;line-height:1.45}
+.it-meta{margin-top:2px;font-size:.82rem}
+.it-liens{display:flex;gap:12px;flex-wrap:wrap;align-self:center}
+.it-liens a{font-weight:700;white-space:nowrap}
+.it-wait{color:var(--muted);margin:0}
+.it-budget{margin-bottom:22px}
+.it-bt{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:8px 12px;align-items:center}
+.it-bt .fort{font-weight:800;border-top:1px solid var(--line);padding-top:8px}
+.it-bt small{color:var(--muted)}
+.it-btn.s{background:var(--secondary);color:#fff;border:0;cursor:pointer;font-family:inherit}
+.it-share-msg{align-self:center;color:var(--success);font-weight:700}
+.it-urlcopy{width:100%;max-width:440px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:.85rem}
+.it-all{margin-bottom:18px}
+.it-all p{margin:6px 0 0}
+.it-gps{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px}
+.it-btn{display:inline-block;padding:10px 16px;border-radius:12px;font-weight:700;text-decoration:none;font-size:.95rem}
+.it-btn.g{background:#1a73e8;color:#fff}
+.it-btn.w{background:#33ccff;color:#06364a}
+.it-btn:hover{filter:brightness(.95)}
+.it-btn:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+@media (max-width:620px){.it-cmp{grid-template-columns:1fr}.it-lieu{flex-wrap:wrap}.it-liens{flex-basis:100%;align-self:flex-start}}
+
+.tj-cmp .glass-box h2{margin-top:0}
+.tj-fil{font-size:.9rem;color:var(--muted);margin:0 0 10px}
+</style>
+</head>
+<body><div class="container">
+
+<header class="site-header">
+<div class="brand-lockup">
+    <img src="images/logo_5.svg" alt="Nomad" class="brand-mark">
+    <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
+</div>
+<div class="top-nav">
+    <a href="index.html">Accueil</a>
+    <a href="hotels.html">Hôtels</a>
+    <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
+    <a href="loueurs-vehicules.html">Location de Véhicules</a>
+    <a href="croisieres.html">Croisières</a>
+    <a href="itineraire-decouverte.html">Itinéraires</a>
+    <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
+</div>
+</header>
+
+<p class="tj-fil"><a href="index.html">Accueil</a> &gt; <a href="trajets-sans-autoroute.html">Trajets sans autoroute</a> &gt; Munich Venise</p>
+<div class="hero-banner">
+  <h1 style="color:#fff;margin:0 0 10px;font-size:clamp(1.6rem,3.6vw,2.4rem)">Munich Venise sans autoroute : itinéraire, étapes et coût</h1>
+  <p style="margin:0;max-width:760px;line-height:1.7;color:#effcff">Pour aller de Munich à Venise sans autoroute, comptez environ 457 km et 9 h 16 de conduite, soit 3 jours à raison d&#x27;environ 4 h de route par jour. Par l&#x27;autoroute, le même trajet fait 566 km en 5 h 30, avec environ 40 € de péages estimés.</p>
+</div>
+<p style="line-height:1.7">En évitant l&#x27;autoroute, vous économisez environ 63 € sur la route (péages et carburant), pour environ 3 h 47 de trajet en plus. Les routes les plus empruntées sont la SR203 (53 km), la B182 (33 km), la SS244 (28 km). </p>
+<section class="it-cmp tj-cmp" aria-label="Comparatif avec l'autoroute">
+  <div class="glass-box"><h2>Par l'autoroute</h2><div class="it-row"><span>Distance</span><b>566 km</b></div><div class="it-row"><span>Temps de conduite</span><b>5 h 30</b></div><div class="it-row"><span>Péages</span><b>40 €</b></div><div class="it-row"><span>Carburant</span><b>70 €</b></div><div class="it-row"><span>Total route</span><b>110 €</b></div></div>
+  <div class="glass-box win"><h2>Parcours découverte</h2><div class="it-row"><span>Distance</span><b>457 km</b></div><div class="it-row"><span>Temps de conduite</span><b>9 h 16</b></div><div class="it-row"><span>Péages</span><b>0 €</b></div><div class="it-row"><span>Carburant</span><b>47 €</b></div><div class="it-row"><span>Total route</span><b>47 €</b></div></div>
+</section>
+<p class="it-note">Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, péage à 0,10 €/km sur les tronçons à péage. Montants indicatifs, mis à jour le 15 octobre 2026.</p>
+<p><a class="btn-compare" style="display:inline-block;text-decoration:none;width:auto;padding:14px 24px" href="itineraire-decouverte.html?d=Munich+%28Allemagne%29&amp;dc=11.582%2C48.1351&amp;dp=Allemagne&amp;a=Venise+%28Italie%29&amp;ac=12.3155%2C45.4408&amp;ap=Italie&amp;r=4&amp;v=th&amp;c=6&amp;p=1.8&amp;n=2&amp;m=45&amp;utm_source=pages-trajets&amp;utm_medium=site&amp;utm_campaign=trajet">Calculer avec mon véhicule</a></p>
+<div id="itMap"></div>
+<section><h2>Jour 1 : Munich à Steinach am Brenner</h2><p class="it-wait">169 km, 3 h 20 de conduite</p><div class="it-roads"><span><span class="it-road N">B2</span> <small>22 km</small></span><span><span class="it-road N">B13</span> <small>21 km</small></span><span><span class="it-road N">B182</span> <small>21 km</small></span><span><span class="it-road N">B177</span> <small>10 km</small></span><span><span class="it-road N">B307</span> <small>10 km</small></span><span><span class="it-road D">L304</span> <small>5 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/DEU_Jachenau_COA.svg/langde-330px-DEU_Jachenau_COA.svg.png?utm_source=de.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Felsmarch im Seibertsgraben</b><small>Patrimoine</small><small class="it-meta">📍 B 307, Lenggries</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://geoportal.bayern.de/denkmalatlas/searchResult.html?objtyp=bau&amp;koid=187040" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Felsmarch%20im%20Seibertsgraben/@47.56978,11.48754,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Geigenbaumuseum_in_(Mittenwald)_Garmisch-Partenkirchen.jpg?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Geigenbau-Museum</b><small>Musée</small><small class="it-meta">📍 3 Ballenhausstraße, Mittenwald</small><small class="it-meta">entrée payante</small><small class="it-meta">📞 <a href="tel:+4988232511">+49 8823 2511</a></small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="http://www.geigenbaumuseum-mittenwald.de/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Geigenbau-Museum/@47.44263,11.2605,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Kruen_Kriegerdenkmal_8362.jpg?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Kriegerdenkmal</b><small>Patrimoine</small><small class="it-meta">📍 Karwendelstraße, Krün</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Kriegerdenkmal/@47.50405,11.27869,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Hohe_Birga_uebersicht.jpg/330px-Hohe_Birga_uebersicht.jpg?utm_source=de.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Hohe Birga</b><small>Patrimoine</small><small class="it-meta">📍 Burgfeldweg, Birgitz</small><small class="it-meta">🕒 ouvert 24 h/24, 7 j/7</small><small class="it-meta">entrée gratuite</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="http://www.hohe-birga.at/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Hohe%20Birga/@47.24063,11.29644,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Gasthof_Post_Kr%C3%BCn%2C_Oberbayern.JPG?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Block&#x27;s Post</b><small class="it-meta">📍 4 Walchenseestraße, Krün</small><small class="it-meta">🕒 lun-mer fermé ; jeu-dim 15:00-22:00</small><small class="it-meta">options végétariennes, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+498825321">+49 8825 321</a></small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="http://www.gasthof-blocks-post-kruen.de/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Block%27s%20Post/@47.50557,11.27856,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Gasthof und Hotel &quot;Zur Post&quot;</b><small>Cuisine régionale</small><small class="it-meta">📍 6 Dorfplatz, Wallgau</small><small class="it-meta">🕒 mer-dim 11:30-14:00, 17:30-21:00</small><small class="it-meta">options végétariennes</small><small class="it-meta">📞 <a href="tel:+4988259190">+49 8825 9190</a></small></div><span class="it-liens"><a href="https://www.posthotel-wallgau.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Gasthof%20und%20Hotel%20%22Zur%20Post%22/@47.52186,11.28171,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Gasthaus Isartal</b><small>Cuisine régionale</small><small class="it-meta">📍 2 Dorfplatz, Wallgau</small><small class="it-meta">🕒 08:00-22:30 ; mar fermé ; mer 17:00-22:30</small><small class="it-meta">options végétariennes</small><small class="it-meta">📞 <a href="tel:+4988251044">+49 8825 1044</a></small></div><span class="it-liens"><a href="http://www.gasthof-isartal.de" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Gasthaus%20Isartal/@47.5212,11.28155,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Steinach am Brenner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/N%C3%B6sslachjoch_N.JPG/330px-N%C3%B6sslachjoch_N.JPG?utm_source=de.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Panorama-Restaurant Bergeralm</b><small>Cuisine local</small><small class="it-meta">📍 Höhenloipe Steinach, Steinach am Brenner</small><small class="it-meta">📞 <a href="tel:+4352726333">+43 5272 6333</a></small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.bergeralm.net/panoramarestaurant/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Panorama-Restaurant%20Bergeralm/@47.07636,11.45416,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Die gute Stube</b><small>Cuisine régionale</small><small class="it-meta">📍 3 Brennerstraße, Steinach am Brenner</small><small class="it-meta">🕒 lun-sam 06:00-21:00  So 07:00-21:00</small><small class="it-meta">options végétariennes</small><small class="it-meta">📞 <a href="tel:+435022776150">+435022776150</a></small></div><span class="it-liens"><a href="https://www.gutmann.cc/unternehmen/essen-trinken/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Die%20gute%20Stube/@47.09809,11.46455,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Pizzeria Venezia</b><small>Pizzeria</small><small class="it-meta">📍 3 Trinserstraße, Steinach am Brenner</small><small class="it-meta">🕒 mar-dim 17:00-22:30</small><small class="it-meta">📞 <a href="tel:+4352726995">+43 5272 6995</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Pizzeria%20Venezia/@47.09397,11.46509,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Steinach am Brenner</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Steinach%20am%20Brenner%2C%20Austria&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Steinach am Brenner</a></div></section><section><h2>Jour 2 : Steinach am Brenner à Agordo</h2><p class="it-wait">159 km, 3 h 12 de conduite</p><div class="it-roads"><span><span class="it-road D">SR203</span> <small>32 km</small></span><span><span class="it-road N">SS244</span> <small>28 km</small></span><span><span class="it-road N">SS49</span> <small>22 km</small></span><span><span class="it-road N">SS12</span> <small>21 km</small></span><span><span class="it-road D">SP37</span> <small>15 km</small></span><span><span class="it-road N">B182</span> <small>12 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Castello_della_strada.jpg/330px-Castello_della_strada.jpg?utm_source=it.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Straßberg - Castello della Strada</b><small>Château</small><small class="it-meta">📍 Waldheim, Sterzing - Vipiteno</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Stra%C3%9Fberg%20-%20Castello%20della%20Strada/@46.92658,11.45212,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Schloss_Wolfsthurn_04.jpg/330px-Schloss_Wolfsthurn_04.jpg?utm_source=de.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Landesmuseum für Jagd und Fischerei - Museo provinciale della caccia e della pesca</b><small>Musée</small><small class="it-meta">📍 Kirchdorf, Ratschings - Racines</small><small class="it-meta">🕒 mar-sam 10:00-17:00 ; dim 13:00-17:00</small><small class="it-meta">entrée payante</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.wolfsthurn.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Landesmuseum%20f%C3%BCr%20Jagd%20und%20Fischerei%20-%20Museo%20provinciale%20della%20caccia%20e%20della%20pesca/@46.89308,11.34937,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Castel_Guelfo11.JPG/330px-Castel_Guelfo11.JPG?utm_source=it.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Burg Welfenstein - Castel Guelfo</b><small>Château</small><small class="it-meta">📍 Brennerstraße - Via Brennero, Freienfeld - Campo di Trens</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Burg%20Welfenstein%20-%20Castel%20Guelfo/@46.85767,11.51112,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Messner_Mountain_Musem.jpg/330px-Messner_Mountain_Musem.jpg?utm_source=it.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Messner Mountain Museum Ripa</b><small>Musée</small><small class="it-meta">📍 2 Schlossweg - Vicolo Castello, Bruneck - Brunico</small><small class="it-meta">🕒 May dim [2]-Nov dim [1] mer-lun 10:00-18:00 ; Dec 07-Apr 25 mer-lun 10:00-18:00 ; mar fermé</small><small class="it-meta">entrée payante</small><small class="it-meta">📞 <a href="tel:+390474410220">+39 0474 410 220</a></small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.messner-mountain-museum.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Messner%20Mountain%20Museum%20Ripa/@46.79437,11.93953,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Al Cir</b><small>Cuisine régionale</small><small class="it-meta">📍 44 Strada Sarjëi, Marèo - Enneberg - Marebbe</small><small class="it-meta">🕒 lun-dim 08:30-16:30</small><small class="it-meta">📞 <a href="tel:+393388997207">+39 338 899 7207</a></small></div><span class="it-liens"><a href="https://www.alcir.it/en/al-cir-hut" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Al%20Cir/@46.69855,11.9112,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Ütia da Jù</b><small>Cuisine régionale</small><small class="it-meta">📍 43 Strada Sarjëi, Marèo - Enneberg - Marebbe</small><small class="it-meta">📞 <a href="tel:+393398656831">+39 339 8656831</a></small></div><span class="it-liens"><a href="http://www.utiadaju.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/%C3%9Ctia%20da%20J%C3%B9/@46.69761,11.91146,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🥩</div><div class="it-txt"><b>Tabarel</b><small>Grillades</small><small class="it-meta">📍 28 Strada Catarina Lanz, Marèo - Enneberg - Marebbe</small><small class="it-meta">accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+390474501210">+39 0474 501210</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Tabarel/@46.69799,11.92998,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Agordo</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Da Carla</b><small>Cuisine régionale</small><small class="it-meta">📍 59 Località Rif, Agordo</small><small class="it-meta">📞 <a href="tel:+39043762663">+39 0437 62663</a></small></div><span class="it-liens"><a href="https://www.concagordina.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Da%20Carla/@46.28507,12.0462,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>da Meto</b><small>Pizzeria</small><small class="it-meta">📍 Località Costolin, Agordo</small><small class="it-meta">terrasse, options végétariennes</small><small class="it-meta">📞 <a href="tel:+3904371874144">+39 0437 18 74 144</a></small></div><span class="it-liens"><a href="https://www.pizzeriadameto.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/da%20Meto/@46.2761,12.05144,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Country House Ranch alle Roste</b><small>Cuisine régionale</small><small class="it-meta">📍 1 Strada Provinciale della Val Imperina, Rivamonte Agordino</small></div><span class="it-liens"><a href="https://www.ranchalleroste.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Country%20House%20Ranch%20alle%20Roste/@46.26403,12.03401,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Agordo</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Agordo%2C%20Italy&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Agordo</a></div></section><section><h2>Jour 3 : Agordo à Venise</h2><p class="it-wait">129 km, 2 h 44 de conduite</p><div class="it-roads"><span><span class="it-road D">SR348</span> <small>21 km</small></span><span><span class="it-road D">SR203</span> <small>21 km</small></span><span><span class="it-road D">SP1</span> <small>16 km</small></span><span><span class="it-road N">SS50</span> <small>8 km</small></span><span><span class="it-road D">SP2</span> <small>6 km</small></span><span><span class="it-road N">SS13</span> <small>6 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🏛️</div><div class="it-txt"><b>7° Alpini</b><small>Musée</small><small class="it-meta">📍 1 Via Villa Patt, Sedico</small><small class="it-meta">entrée payante</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/7%C2%B0%20Alpini/@46.10538,12.08813,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Villa_dei_Cedri_-_Valdobbiadene_abc3.jpg/330px-Villa_dei_Cedri_-_Valdobbiadene_abc3.jpg?utm_source=it.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Villa dei Cedri</b><small>Patrimoine</small><small class="it-meta">📍 89 Via Piva, Valdobbiadene</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Villa%20dei%20Cedri/@45.90183,12.0016,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/%28Treviso%29_Museo_Bailo.jpg/330px-%28Treviso%29_Museo_Bailo.jpg?utm_source=it.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Museo Civico Luigi Bailo</b><small>Musée</small><small class="it-meta">📍 24 Borgo Cavour, Treviso</small><small class="it-meta">entrée payante</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Museo%20Civico%20Luigi%20Bailo/@45.6677,12.23807,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Inaugurazione_Museo_M9.jpg?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>M9 Museo 900</b><small>Musée</small><small class="it-meta">📍 11 Corte Brenta Vecchia, Venice</small><small class="it-meta">🕒 lun-ven 09:00-20:00 ; mar fermé ; sam 10:00-21:30 ; dim 10:00-21:00</small><small class="it-meta">entrée payante</small><small class="it-meta">📞 <a href="tel:+390412387230">+39 0412387230</a></small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.m9digital.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/M9%20Museo%20900/@45.49174,12.24092,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Pizzeria al Glicine</b><small>Pizzeria</small><small class="it-meta">📍 162 Via Erizzo, Montebelluna</small><small class="it-meta">🕒 lun-dim 11:00-14:30 ; lun-ven 18:00-23:00 ; sam, dim 18:00-23:59</small><small class="it-meta">📞 <a href="tel:+393319683808">+39 331 968 3808</a></small></div><span class="it-liens"><a href="https://m.facebook.com/Pizzeria-Al-Glicine-957797467639273/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Pizzeria%20al%20Glicine/@45.80084,12.0395,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Ristorante Bragosso</b><small>Cuisine régionale</small><small class="it-meta">📍 9 Via Sant&#x27;Anna, Cornuda</small><small class="it-meta">accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+390423665473">+39 0423 665473</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ristorante%20Bragosso/@45.8345,12.02106,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍔</div><div class="it-txt"><b>Yuri&#x27;s Risto Pub</b><small>Burgers</small><small class="it-meta">📍 2 Via Brentellona, Crocetta del Montello</small><small class="it-meta">🕒 lun-ven 10:30-02:00 ; sam-dim 16:00-02:00</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Yuri%27s%20Risto%20Pub/@45.82093,12.03229,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Venise</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍝</div><div class="it-txt"><b>Hostaria oSottoosopra</b><small>Cuisine italienne</small><small class="it-meta">📍 Fondamenta Minotto, Venice</small><small class="it-meta">🕒 lun,mar,jeu 18:00-23:00 ; ven,sam,dim 12:00-15:00,18:00-23:00</small><small class="it-meta">accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+393338027830">+393338027830</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Hostaria%20oSottoosopra/@45.43704,12.3213,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍣</div><div class="it-txt"><b>Mirai</b><small>Sushi</small><small class="it-meta">📍 201/A, Venice</small><small class="it-meta">🕒 mar-dim 19:00-23:00 ; lun fermé</small><small class="it-meta">📞 <a href="tel:+390412206517">+39 041 2206517</a></small></div><span class="it-liens"><a href="https://www.miraivenice.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Mirai/@45.4421,12.32348,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Ostaria Al Vecio Pozzo</b><small>Pizzeria</small><small class="it-meta">📍 656, Venice</small><small class="it-meta">🕒 dim-ven 12:00-14:30, lun-dim 18:30-01:00</small><small class="it-meta">terrasse, options végétariennes, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+390415242760">+39 041 5242760</a></small></div><span class="it-liens"><a href="https://www.veciopozzo.it/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Ostaria%20Al%20Vecio%20Pozzo/@45.43921,12.3238,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Venise</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Venise%2C%20Italie&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Venise</a></div></section>
+<section class="glass-box it-seo" style="margin:24px 0"><h2 style="margin-top:0">Questions fréquentes</h2><details><summary><b>Quelle est la distance de Munich à Venise sans autoroute ?</b></summary><p>Environ 457 km, soit 9 h 16 de conduite et 3 jours à raison d&#x27;environ 4 h par jour. Par l&#x27;autoroute, le trajet fait 566 km en 5 h 30.</p></details><details><summary><b>Combien coûte le trajet de Munich à Venise ?</b></summary><p>Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 47 € sans autoroute contre 110 € par l&#x27;autoroute (péages compris). Les repas, les visites et l&#x27;hébergement ne sont pas inclus.</p></details><details><summary><b>Où s&#x27;arrêter entre Munich et Venise ?</b></summary><p>Les étapes proposées sont : Steinach am Brenner, Agordo, Venise. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit.</p></details><details><summary><b>Y a-t-il des péages entre Munich et Venise sans autoroute ?</b></summary><p>Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l&#x27;estimation.</p></details></section>
+
+<p class="it-note">Les lieux et restaurants viennent d'OpenStreetMap et de Wikipédia : vérifiez les horaires avant de partir. Itinéraire calculé avec <a href="https://openrouteservice.org/" target="_blank" rel="noopener">OpenRouteService</a>, lieux via <a href="https://www.geoapify.com/" target="_blank" rel="noopener">Geoapify</a>, données &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</p>
+
+
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+    <p>Nous utilisons des cookies pour mesurer l'audience du site (Google Analytics). Vous pouvez accepter ou refuser ce suivi. Voir notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+    <div class="cookie-actions">
+        <button class="cookie-refuse" onclick="setCookieConsent(false)">Refuser</button>
+        <button class="cookie-accept" onclick="setCookieConsent(true)">Accepter</button>
+    </div>
+</div>
+<script>
+(function() {
+    function setCookieConsent(accepted) {
+        localStorage.setItem('cookie_consent', accepted ? 'granted' : 'denied');
+        gtag('consent', 'update', {
+            'analytics_storage': accepted ? 'granted' : 'denied'
+        });
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+    window.setCookieConsent = setCookieConsent;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var saved = localStorage.getItem('cookie_consent');
+        if (saved === 'granted') {
+            gtag('consent', 'update', { 'analytics_storage': 'granted' });
+        } else if (saved === null) {
+            document.getElementById('cookie-banner').style.display = 'flex';
+        }
+        
+    });
+})();
+</script>
+
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <h3>Nomad</h3>
+            <p>Le compagnon de voyage qui vous aide à choisir plus vite et à partir plus serein.</p>
+        </div>
+        <div>
+            <h4>Explorer</h4>
+            <ul class="footer-links">
+                <li><a href="hotels.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
+                <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
+                <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
+                <li><a href="croisieres.html">Croisières</a></li>
+                <li><a href="itineraire-decouverte.html">Itinéraire découverte</a></li>
+                <li><a href="trajets-sans-autoroute.html">Trajets sans autoroute</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>À propos</h4>
+            <ul class="footer-links">
+                <li><a href="apropos.html">À propos de nous</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Conseils de voyage</a></li>
+                <li><a href="index.html#avis">Avis voyageurs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Votre retour compte</h4>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
+        <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
+    </div>
+</footer>
+
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const TR={"c": [[48.1352, 11.5821], [48.1313, 11.5831], [48.1245, 11.5812], [48.1196, 11.5822], [48.1135, 11.5766], [48.1018, 11.5674], [48.0917, 11.562], [48.0856, 11.5542], [48.078, 11.5506], [48.065, 11.5443], [48.0539, 11.5371], [48.0448, 11.5281], [48.0385, 11.5219], [48.0143, 11.516], [48.0033, 11.5142], [47.9944, 11.5091], [47.9776, 11.5012], [47.9607, 11.4984], [47.9519, 11.4982], [47.9402, 11.4942], [47.9299, 11.5024], [47.9291, 11.5091], [47.9218, 11.5096], [47.9124, 11.5114], [47.8969, 11.5078], [47.8852, 11.5055], [47.8723, 11.5126], [47.8619, 11.5165], [47.8504, 11.5202], [47.8406, 11.5275], [47.8261, 11.5335], [47.8131, 11.5503], [47.8014, 11.5557], [47.7871, 11.5524], [47.7776, 11.5562], [47.7687, 11.5593], [47.7618, 11.5604], [47.7589, 11.5585], [47.7537, 11.5613], [47.7477, 11.5653], [47.7353, 11.5658], [47.7138, 11.5619], [47.6972, 11.5635], [47.6806, 11.5724], [47.6668, 11.5809], [47.6551, 11.5892], [47.6485, 11.5878], [47.6367, 11.5941], [47.6209, 11.5947], [47.6066, 11.5822], [47.6006, 11.5692], [47.5906, 11.548], [47.5861, 11.5483], [47.5793, 11.5455], [47.5751, 11.5368], [47.5679, 11.5256], [47.5603, 11.5067], [47.5587, 11.4866], [47.5584, 11.466], [47.5567, 11.4514], [47.5595, 11.435], [47.5537, 11.4247], [47.5519, 11.397], [47.5486, 11.3818], [47.545, 11.3657], [47.541, 11.3488], [47.5385, 11.3357], [47.5327, 11.3188], [47.5318, 11.3102], [47.5289, 11.3018], [47.5254, 11.2891], [47.5245, 11.2848], [47.5194, 11.2828], [47.5072, 11.2784], [47.4977, 11.2756], [47.489, 11.2745], [47.4704, 11.28], [47.4522, 11.281], [47.4389, 11.2721], [47.4248, 11.2598], [47.4035, 11.2628], [47.3915, 11.2595], [47.3823, 11.2417], [47.3702, 11.2341], [47.3572, 11.2256], [47.347, 11.2104], [47.3406, 11.1988], [47.3318, 11.1987], [47.3199, 11.1989], [47.3091, 11.2022], [47.2966, 11.2056], [47.2896, 11.2202], [47.2833, 11.2344], [47.2813, 11.2255], [47.2778, 11.2371], [47.2717, 11.2564], [47.2699, 11.259], [47.266, 11.2657], [47.2612, 11.2645], [47.2528, 11.2668], [47.2544, 11.2726], [47.2599, 11.2797], [47.2567, 11.3124], [47.2551, 11.3201], [47.2526, 11.3276], [47.2489, 11.3284], [47.246, 11.3284], [47.243, 11.3157], [47.2388, 11.3116], [47.2355, 11.3136], [47.2327, 11.3207], [47.2317, 11.3343], [47.2296, 11.3477], [47.2282, 11.368], [47.2278, 11.3774], [47.2306, 11.383], [47.2338, 11.3854], [47.228, 11.3867], [47.2198, 11.3894], [47.2117, 11.3873], [47.2096, 11.3967], [47.2048, 11.3968], [47.2002, 11.4021], [47.1953, 11.4015], [47.1936, 11.4054], [47.1904, 11.4112], [47.189, 11.4163], [47.1865, 11.4112], [47.1811, 11.4156], [47.1721, 11.4279], [47.1584, 11.4419], [47.1443, 11.4468], [47.137, 11.4524], [47.1287, 11.4528], [47.1138, 11.4518], [47.0978, 11.4644], [47.0916, 11.4667], [47.079, 11.4774], [47.07, 11.4858], [47.0629, 11.4873], [47.0538, 11.4853], [47.0451, 11.4837], [47.0389, 11.4794], [47.0326, 11.486], [47.0273, 11.4984], [47.0184, 11.5067], [47.0114, 11.507], [47.0015, 11.5042], [46.9834, 11.4928], [46.9745, 11.478], [46.9584, 11.461], [46.9565, 11.4569], [46.9446, 11.4493], [46.9373, 11.4449], [46.9262, 11.4493], [46.9146, 11.4425], [46.9045, 11.4303], [46.8959, 11.4356], [46.89, 11.4385], [46.8824, 11.4557], [46.8778, 11.4739], [46.8719, 11.4839], [46.8683, 11.4948], [46.8608, 11.5111], [46.8512, 11.5203], [46.8305, 11.5362], [46.8167, 11.5403], [46.8136, 11.5508], [46.808, 11.5751], [46.8004, 11.596], [46.7945, 11.6067], [46.7868, 11.6122], [46.7779, 11.6264], [46.7771, 11.6348], [46.776, 11.6419], [46.7691, 11.6467], [46.7694, 11.6553], [46.7778, 11.6684], [46.7912, 11.6652], [46.8047, 11.6769], [46.8139, 11.6883], [46.8167, 11.7042], [46.8143, 11.7189], [46.8147, 11.7395], [46.8094, 11.7646], [46.8114, 11.7851], [46.8105, 11.8045], [46.808, 11.8247], [46.805, 11.838], [46.7975, 11.8509], [46.79, 11.8636], [46.7908, 11.8803], [46.7782, 11.8839], [46.7721, 11.8685], [46.7632, 11.8643], [46.7539, 11.8722], [46.7402, 11.8728], [46.7301, 11.8837], [46.7217, 11.891], [46.7141, 11.8893], [46.7083, 11.8833], [46.7018, 11.885], [46.6967, 11.8878], [46.6904, 11.8932], [46.6855, 11.8987], [46.6753, 11.9012], [46.6692, 11.906], [46.6616, 11.9088], [46.6539, 11.9098], [46.6427, 11.9022], [46.6319, 11.8954], [46.6257, 11.8922], [46.6195, 11.8948], [46.6185, 11.8947], [46.6164, 11.8934], [46.6101, 11.8937], [46.6045, 11.8961], [46.5982, 11.8995], [46.5902, 11.9028], [46.5853, 11.9064], [46.5835, 11.9093], [46.5817, 11.9173], [46.5779, 11.9219], [46.5728, 11.9285], [46.5685, 11.9367], [46.5656, 11.9439], [46.5617, 11.9536], [46.5547, 11.9668], [46.5493, 11.9678], [46.5529, 11.9764], [46.5523, 11.9779], [46.5491, 11.9772], [46.5435, 11.9733], [46.5391, 11.9845], [46.5347, 11.9851], [46.5341, 11.9887], [46.5311, 11.9895], [46.5222, 12.0037], [46.5201, 12.0053], [46.5178, 12.0056], [46.5153, 12.0002], [46.5145, 12.0021], [46.5102, 12.0005], [46.506, 11.9973], [46.4998, 11.9915], [46.4963, 11.9905], [46.4943, 11.989], [46.4892, 11.9893], [46.4876, 11.9875], [46.4814, 11.987], [46.4727, 11.9808], [46.4628, 11.9837], [46.4576, 11.9904], [46.4523, 11.9924], [46.4463, 11.9941], [46.4425, 11.9972], [46.4431, 11.9926], [46.4399, 11.999], [46.4393, 11.997], [46.4395, 11.9948], [46.4341, 11.9973], [46.4133, 12.0162], [46.4061, 12.0206], [46.3998, 12.0158], [46.3956, 12.0068], [46.3891, 11.9969], [46.3859, 11.9961], [46.3752, 11.9819], [46.363, 11.9744], [46.3519, 11.9668], [46.3445, 11.9722], [46.3364, 11.9838], [46.3204, 12.0043], [46.3079, 12.0114], [46.292, 12.0205], [46.2845, 12.0272], [46.2711, 12.0364], [46.27, 12.0402], [46.2589, 12.043], [46.2529, 12.0619], [46.244, 12.1053], [46.2297, 12.1141], [46.2159, 12.1281], [46.1904, 12.1253], [46.1753, 12.1144], [46.1652, 12.1231], [46.1566, 12.1261], [46.1527, 12.1208], [46.1448, 12.104], [46.1414, 12.0925], [46.1299, 12.0796], [46.1164, 12.0757], [46.1016, 12.0673], [46.0884, 12.0513], [46.0816, 12.038], [46.0762, 12.0264], [46.0622, 12.0091], [46.0498, 11.9935], [46.0389, 11.9842], [46.0355, 11.9974], [46.0183, 11.9888], [45.9939, 11.9831], [45.9801, 11.9682], [45.969, 11.9366], [45.948, 11.9284], [45.9363, 11.9301], [45.9329, 11.94], [45.9147, 11.9501], [45.8997, 11.9437], [45.8859, 11.9486], [45.8742, 11.9646], [45.8696, 11.9692], [45.8626, 11.9921], [45.8449, 12.0127], [45.8295, 12.019], [45.8157, 12.0145], [45.8008, 12.0334], [45.7838, 12.0515], [45.7825, 12.0647], [45.7709, 12.0751], [45.7607, 12.0904], [45.7567, 12.0956], [45.7486, 12.109], [45.7379, 12.1251], [45.7195, 12.1514], [45.7083, 12.1413], [45.6944, 12.1483], [45.6769, 12.172], [45.6685, 12.1858], [45.6592, 12.2022], [45.65, 12.2407], [45.6451, 12.2414], [45.6353, 12.2402], [45.6147, 12.2376], [45.6018, 12.2351], [45.5747, 12.2349], [45.5652, 12.2352], [45.5557, 12.2343], [45.5373, 12.2394], [45.5268, 12.2387], [45.5164, 12.2383], [45.504, 12.2378], [45.4974, 12.2366], [45.4868, 12.234], [45.4825, 12.2361], [45.4744, 12.2527], [45.4656, 12.2756], [45.4409, 12.3155], [45.4408, 12.3155]], "n": [[47.09075, 11.46657, "Nuit 1 : Steinach am Brenner"], [46.28215, 12.03498, "Nuit 2 : Agordo"], [45.4408, 12.3155, "Nuit 3 : Venise"]], "v": [[47.56978, 11.48754, "Felsmarch im Seibertsgraben"], [47.44263, 11.2605, "Geigenbau-Museum"], [47.50405, 11.27869, "Kriegerdenkmal"], [47.24063, 11.29644, "Hohe Birga"], [46.92658, 11.45212, "Straßberg - Castello della Strada"], [46.89308, 11.34937, "Landesmuseum für Jagd und Fischerei - Museo provinciale della caccia e della pesca"], [46.85767, 11.51112, "Burg Welfenstein - Castel Guelfo"], [46.79437, 11.93953, "Messner Mountain Museum Ripa"], [46.10538, 12.08813, "7° Alpini"], [45.90183, 12.0016, "Villa dei Cedri"], [45.6677, 12.23807, "Museo Civico Luigi Bailo"], [45.49174, 12.24092, "M9 Museo 900"]]};
+const map=L.map("itMap");
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"&copy; OpenStreetMap"}).addTo(map);
+const ligne=L.polyline(TR.c,{color:"#075985",weight:5}).addTo(map);
+TR.n.slice(0,-1).forEach(p=>L.marker([p[0],p[1]]).addTo(map).bindPopup(p[2]));
+TR.v.forEach(p=>L.circleMarker([p[0],p[1]],{radius:6,color:"#c8322b",weight:2,fillColor:"#fff",fillOpacity:1}).addTo(map).bindPopup(p[2]));
+map.fitBounds(ligne.getBounds().pad(0.1));
+</script>
+</body>
+</html>

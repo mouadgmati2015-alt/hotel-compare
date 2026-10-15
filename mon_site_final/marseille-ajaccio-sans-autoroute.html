@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marseille Ajaccio sans autoroute : itinéraire, étapes et coût | MyHotelCompare</title>
+<meta name="description" content="Marseille Ajaccio sans autoroute : 5 km, 1 jour, 0 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<link rel="canonical" href="https://myhotelcompare.com/marseille-ajaccio-sans-autoroute.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Marseille Ajaccio sans autoroute : itinéraire, étapes et coût">
+<meta property="og:description" content="Marseille Ajaccio sans autoroute : 5 km, 1 jour, 0 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<meta property="og:url" content="https://myhotelcompare.com/marseille-ajaccio-sans-autoroute.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Quelle est la distance de Marseille à Ajaccio sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Environ 5 km, soit 0 h 13 de conduite et 1 jour à raison d'environ 4 h par jour. Par l'autoroute, le trajet fait 5 km en 0 h 13."}}, {"@type": "Question", "name": "Combien coûte le trajet de Marseille à Ajaccio ?", "acceptedAnswer": {"@type": "Answer", "text": "Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 415 € sans autoroute contre 415 € par l'autoroute (péages compris). Les repas, les visites et l'hébergement ne sont pas inclus."}}, {"@type": "Question", "name": "Où s'arrêter entre Marseille et Ajaccio ?", "acceptedAnswer": {"@type": "Answer", "text": "Les étapes proposées sont : Ajaccio. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit."}}, {"@type": "Question", "name": "Y a-t-il des péages entre Marseille et Ajaccio sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l'estimation."}}]}</script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<!-- Google Consent Mode v2 : refus par défaut tant que l'utilisateur n'a pas choisi -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLVNV2211J"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RLVNV2211J');
+</script>
+
+<link rel="icon" type="image/png" href="images/logo_5.png?v=2">
+<link rel="apple-touch-icon" href="images/logo_5.png?v=2">
+<style>
+:root {
+    --bg: #f2fbfd;
+    --bg-dark: #063247;
+    --panel: #e5f5f8;
+    --panel-strong: #c7eaf0;
+    --card: #ffffff;
+    --line: #b9dfe7;
+    --text: #123443;
+    --muted: #52717c;
+    --primary: #087f9b;
+    --primary-dark: #056078;
+    --secondary: #075985;
+    --success: #16805b;
+    --success-soft: #d7f4e7;
+    --warning: #e59a21;
+    --shadow: 0 18px 38px rgba(5, 96, 120, 0.14);
+}
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #f4fcfd 0%, #e7f6f8 100%);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px 16px 40px;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.site-header { margin-bottom: 24px; }
+.brand-lockup { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 18px; color: var(--text); }
+.brand-mark { width: 58px; height: 58px; object-fit: contain; border-radius: 16px; background: var(--panel-strong); padding: 5px; }
+.brand-lockup strong { display: block; color: var(--secondary); font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1; }
+.brand-lockup span { display: block; color: var(--muted); margin-top: 5px; font-size: 0.88rem; }
+h1, h2, h3, h4 { color: var(--text); }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; }
+a { color: var(--secondary); }
+.site-footer { margin-top: 48px; background: linear-gradient(135deg, #063247, #075985); color: #effcff; border-radius: 22px; padding: 30px; box-shadow: var(--shadow); }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 28px; }
+.site-footer h3, .site-footer h4 { color: #b8f0f6; margin-top: 0; }
+.site-footer p, .site-footer li { color: #d6eef2; line-height: 1.6; }
+.site-footer a { color: #b8f0f6; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+.footer-links { list-style: none; padding: 0; margin: 0; }
+.footer-links li { margin-bottom: 8px; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.18); margin-top: 24px; padding-top: 18px; display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; font-size: 0.85rem; }
+.footer-bottom p { margin: 0; }
+@media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } .brand-lockup { justify-content: flex-start; } }
+.top-nav {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    background: linear-gradient(135deg, var(--secondary), var(--primary-dark));
+    padding: 14px 18px; border-radius: 18px; margin: 6px 0 22px;
+    box-shadow: var(--shadow); justify-content: center;
+}
+.top-nav a {
+    color: white; background: rgba(255,255,255,0.12);
+    padding: 10px 16px; border-radius: 12px; text-decoration: none;
+    font-weight: 700; border: 1px solid rgba(255,255,255,0.15);
+}
+.top-nav a:hover { background: rgba(255,255,255,0.2); }
+.card {
+    background: linear-gradient(180deg, #fffefb 0%, #fff8ef 100%);
+    border: 1px solid var(--line); border-radius: 20px;
+    padding: 24px; margin-bottom: 22px; box-shadow: var(--shadow);
+}
+.btn, .btn-booking, .btn-expedia {
+    display: inline-block; text-decoration: none; border-radius: 12px;
+    font-weight: 700; transition: transform 0.2s ease; cursor: pointer;
+}
+.btn:hover, .btn-booking:hover, .btn-expedia:hover { transform: translateY(-1px); }
+.btn { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 18px; }
+.btn-booking { display: block; background: linear-gradient(135deg, #0f3d85, #1d5bbf); color: white; padding: 12px 16px; text-align: center; margin-bottom: 10px; }
+.btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
+.btn-site-officiel { display: block; background: linear-gradient(135deg, var(--secondary), var(--primary-dark)); color: white; padding: 12px 16px; text-align: center; }
+.hero-banner {
+    background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
+    border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
+}
+.hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 18px; }
+.hero-badges span {
+    background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.24); color: #f2fdff; border-radius: 999px; padding: 7px 12px; font-weight: 700; font-size: 0.82rem;
+}
+.glass-box { background: rgba(255,255,255,0.72); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+.filters-box {
+    background: linear-gradient(180deg, #e3f5f8 0%, #f8fdfe 100%);
+    border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 24px 0 18px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; box-shadow: var(--shadow);
+}
+.filters-box label { color: var(--muted); display: block; margin-bottom: 8px; font-weight: 700; }
+.filters-box select {
+    width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--text); font-size: 0.97rem;
+}
+.btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
+.comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.smart-results-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.smart-results-grid .card { margin-bottom: 0; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
+.review-card {
+    background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
+    border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
+}
+.review-card .stars { color: var(--warning); font-size: 1.1rem; letter-spacing: 2px; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 16px; margin-top: 18px; }
+.stat-item { background: rgba(255,255,255,0.5); border: 1px solid rgba(130,90,20,0.15); border-radius: 16px; padding: 18px; }
+.stat-item strong { display: block; font-size: 1.5rem; }
+.testimonial-section > h2 { color: var(--text) !important; }
+.testimonial-section > div > div { background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%) !important; border-color: var(--line) !important; }
+.testimonial-section > div > div p { color: var(--muted) !important; }
+.testimonial-section > div > div p:first-child { color: var(--warning) !important; }
+.testimonial-section > div > div p strong { color: var(--text) !important; }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 1000px) { .smart-results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .smart-results-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+.cookie-banner {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+    background: #063247; color: #effcff; padding: 18px 20px;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+    gap: 16px; box-shadow: 0 -8px 24px rgba(0,0,0,0.25);
+}
+.cookie-banner p { margin: 0; max-width: 640px; font-size: 0.92rem; line-height: 1.5; }
+.cookie-banner a { color: #b8f0f6; }
+.cookie-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie-actions button {
+    border: none; border-radius: 10px; padding: 10px 18px; font-weight: 700; cursor: pointer;
+}
+.cookie-accept { background: var(--primary); color: white; }
+.cookie-refuse { background: rgba(255,255,255,0.15); color: white; }
+.fiche-photo-carte { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0; align-items: stretch; }
+.fiche-photo-carte img, .fiche-photo-carte iframe { width: 100%; height: 260px; object-fit: cover; border-radius: 16px; border: 0; }
+@media (max-width: 600px) { .fiche-photo-carte { grid-template-columns: 1fr; } .fiche-photo-carte img, .fiche-photo-carte iframe { height: 220px; } }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 20px; }
+.btn-itineraire {
+    display: inline-block; padding: 14px 24px; border-radius: 14px; font-weight: 800;
+    background: rgba(255,255,255,0.14); color: #fff; text-decoration: none;
+    border: 1.5px solid rgba(255,255,255,0.6);
+}
+.btn-itineraire:hover { background: rgba(255,255,255,0.26); }
+.btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+</style>
+
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrld.ltd/NTcxODA1.js?t=571805';
+      document.head.appendChild(script);
+  })();
+</script>
+
+<style>
+.it-road{display:inline-block;min-width:36px;text-align:center;padding:0 7px;border-radius:5px;font-weight:800;font-size:.8rem;line-height:22px}
+.it-road.N{background:#c8322b;color:#fff}
+.it-road.D{background:#f2c230;color:#123443;box-shadow:inset 0 0 0 2px #123443}
+.it-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:24px 0;align-items:end}
+.it-form label{display:block;font-weight:700;color:var(--muted);margin-bottom:6px}
+.it-form input,.it-form select{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--text);font-size:.97rem}
+.it-msg{padding:12px 16px;border-radius:12px;margin-bottom:18px;font-weight:600}
+.it-msg.err{background:#fde8e6;color:#9a2a22}.it-msg.info{background:var(--panel);color:var(--secondary)}
+#itRes{display:none}
+.it-cmp{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 14px}
+.it-cmp .glass-box.win{border:2px solid var(--success)}
+.it-cmp h2{font-size:1.15rem;margin:0 0 10px}
+.it-row{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid var(--line)}
+.it-row:last-child{border:0}
+.it-save{background:var(--success-soft);color:var(--success);border-radius:12px;padding:12px 16px;font-weight:700;margin-bottom:8px}
+.it-note{color:var(--muted);font-size:.85rem;margin:0 0 22px}
+#itMap{height:380px;border-radius:16px;margin-bottom:22px;box-shadow:var(--shadow)}
+.it-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.it-tab{font:inherit;font-weight:700;cursor:pointer;background:#fff;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:9px 18px}
+.it-tab[aria-selected=true]{background:var(--secondary);color:#fff;border-color:var(--secondary)}
+.it-tab:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+.it-dayhead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.it-dayhead h2{margin:0;font-size:1.4rem}
+.it-dayhead span{color:var(--muted)}
+.it-roads{display:flex;gap:10px 14px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+.it-roads small{color:var(--muted)}
+.it-bloc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:14px}
+.it-bloc h3{margin:0 0 8px;font-size:1.05rem}
+.it-lieux{list-style:none;margin:0;padding:0}
+.it-lieu{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
+.it-lieu:last-child{border:0}
+.it-lieu small{display:block;color:var(--muted)}
+.it-vig{flex:0 0 76px;width:76px;height:76px;border-radius:12px;overflow:hidden;background:var(--panel);display:flex;align-items:center;justify-content:center;font-size:2rem}
+.it-vig img{width:100%;height:100%;object-fit:cover;display:block}
+.it-txt{flex:1;min-width:0}
+.it-res{margin:4px 0 2px;font-size:.9rem;line-height:1.45}
+.it-meta{margin-top:2px;font-size:.82rem}
+.it-liens{display:flex;gap:12px;flex-wrap:wrap;align-self:center}
+.it-liens a{font-weight:700;white-space:nowrap}
+.it-wait{color:var(--muted);margin:0}
+.it-budget{margin-bottom:22px}
+.it-bt{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:8px 12px;align-items:center}
+.it-bt .fort{font-weight:800;border-top:1px solid var(--line);padding-top:8px}
+.it-bt small{color:var(--muted)}
+.it-btn.s{background:var(--secondary);color:#fff;border:0;cursor:pointer;font-family:inherit}
+.it-share-msg{align-self:center;color:var(--success);font-weight:700}
+.it-urlcopy{width:100%;max-width:440px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:.85rem}
+.it-all{margin-bottom:18px}
+.it-all p{margin:6px 0 0}
+.it-gps{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px}
+.it-btn{display:inline-block;padding:10px 16px;border-radius:12px;font-weight:700;text-decoration:none;font-size:.95rem}
+.it-btn.g{background:#1a73e8;color:#fff}
+.it-btn.w{background:#33ccff;color:#06364a}
+.it-btn:hover{filter:brightness(.95)}
+.it-btn:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+@media (max-width:620px){.it-cmp{grid-template-columns:1fr}.it-lieu{flex-wrap:wrap}.it-liens{flex-basis:100%;align-self:flex-start}}
+
+.tj-cmp .glass-box h2{margin-top:0}
+.tj-fil{font-size:.9rem;color:var(--muted);margin:0 0 10px}
+</style>
+</head>
+<body><div class="container">
+
+<header class="site-header">
+<div class="brand-lockup">
+    <img src="images/logo_5.svg" alt="Nomad" class="brand-mark">
+    <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
+</div>
+<div class="top-nav">
+    <a href="index.html">Accueil</a>
+    <a href="hotels.html">Hôtels</a>
+    <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
+    <a href="loueurs-vehicules.html">Location de Véhicules</a>
+    <a href="croisieres.html">Croisières</a>
+    <a href="itineraire-decouverte.html">Itinéraires</a>
+    <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
+</div>
+</header>
+
+<p class="tj-fil"><a href="index.html">Accueil</a> &gt; <a href="trajets-sans-autoroute.html">Trajets sans autoroute</a> &gt; Marseille Ajaccio</p>
+<div class="hero-banner">
+  <h1 style="color:#fff;margin:0 0 10px;font-size:clamp(1.6rem,3.6vw,2.4rem)">Marseille Ajaccio sans autoroute : itinéraire, étapes et coût</h1>
+  <p style="margin:0;max-width:760px;line-height:1.7;color:#effcff">Pour aller de Marseille à Ajaccio sans autoroute, comptez environ 5 km et 0 h 13 de conduite, soit 1 jour à raison d&#x27;environ 4 h de route par jour. Par l&#x27;autoroute, le même trajet fait 5 km en 0 h 13, avec environ 0 € de péages estimés. Le trajet comprend une traversée maritime d&#x27;environ 343 km (environ 10 h 30), comptée 414 € pour le véhicule et ses passagers (estimation).</p>
+</div>
+<p style="line-height:1.7">Ce trajet utilise peu ou pas d&#x27;autoroute : les deux itinéraires sont proches. Les routes les plus empruntées sont la D111 (1 km). </p>
+<section class="it-cmp tj-cmp" aria-label="Comparatif avec l'autoroute">
+  <div class="glass-box"><h2>Par l'autoroute</h2><div class="it-row"><span>Distance de conduite</span><b>5 km</b></div><div class="it-row"><span>Temps de conduite</span><b>0 h 13</b></div><div class="it-row"><span>Traversée (durée estimée)</span><b>10 h 30</b></div><div class="it-row"><span>Durée totale du trajet</span><b>10 h 43</b></div><div class="it-row"><span>Péages</span><b>0 €</b></div><div class="it-row"><span>Carburant</span><b>1 €</b></div><div class="it-row"><span>Traversée en ferry (estimation)</span><b>414 €</b></div><div class="it-row"><span>Total route</span><b>415 €</b></div></div>
+  <div class="glass-box win"><h2>Parcours découverte</h2><div class="it-row"><span>Distance de conduite</span><b>5 km</b></div><div class="it-row"><span>Temps de conduite</span><b>0 h 13</b></div><div class="it-row"><span>Traversée (durée estimée)</span><b>10 h 30</b></div><div class="it-row"><span>Durée totale du trajet</span><b>10 h 43</b></div><div class="it-row"><span>Péages</span><b>0 €</b></div><div class="it-row"><span>Carburant</span><b>1 €</b></div><div class="it-row"><span>Traversée en ferry (estimation)</span><b>414 €</b></div><div class="it-row"><span>Total route</span><b>415 €</b></div></div>
+</section>
+<p class="it-note">Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, péage à 0,10 €/km sur les tronçons à péage. Montants indicatifs, mis à jour le 15 octobre 2026.</p>
+<p><a class="btn-compare" style="display:inline-block;text-decoration:none;width:auto;padding:14px 24px" href="itineraire-decouverte.html?d=Marseille+%28France%29&amp;dc=5.3698%2C43.2965&amp;dp=France&amp;a=Ajaccio+%28France%29&amp;ac=8.7386%2C41.9192&amp;ap=France&amp;r=4&amp;v=th&amp;c=6&amp;p=1.8&amp;n=2&amp;m=45&amp;utm_source=pages-trajets&amp;utm_medium=site&amp;utm_campaign=trajet">Calculer avec mon véhicule</a></p>
+<div id="itMap"></div>
+<section><h2>Jour 1 : Marseille à Ajaccio</h2><p class="it-wait">5 km, 0 h 13 de conduite</p><div class="it-roads"><span><span class="it-road D">D111</span> <small>1 km</small></span></div><div class="it-bloc"><h3>Traversée en ferry</h3><p class="it-wait" style="color:var(--text)">Traversée d'environ 343 km, estimée à 414 € pour le véhicule et ses passagers. Réservez à l'avance : les traversées longues se font souvent de nuit, avec cabine possible.</p></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Ajaccio_MN1JPG.jpg/330px-Ajaccio_MN1JPG.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Maison de Napoléon Bonaparte</b><small>Musée</small><p class="it-res">Le musée de la Maison Bonaparte est un musée créé dans la maison où Napoléon Bonaparte est né à Ajaccio, et où il a passé son enfance.</p><small class="it-meta">📍 Rue Saint-Charles, Ajaccio</small><small class="it-meta">🕒 Oct-Mar: mar-dim 10:30-12:00,13:15-16:00 ; Apr-Sep: mar-dim 10:00-12:00,13:15-17:00</small><small class="it-meta">entrée payante</small><small class="it-meta">📞 <a href="tel:+33495214389">+33 4 95 21 43 89</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_la_Maison_Bonaparte" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://musees-nationaux-malmaison.fr/musee-maisonbonaparte/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Maison%20de%20Napol%C3%A9on%20Bonaparte/@41.91794,8.73864,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🏺</div><div class="it-txt"><b>Site archéologique</b><small>Patrimoine</small><small class="it-meta">📍 Allée de la Plage Supérieure, Grosseto-Prugna</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Site%20arch%C3%A9ologique/@41.88739,8.82231,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Dubble</b><small>Cuisine health food</small><small class="it-meta">📍 Place de la Joliette, Marseille</small><small class="it-meta">🕒 lun-ven 08:30-15:00</small><small class="it-meta">📞 <a href="tel:+33491903798">+33 4 91 90 37 98</a></small></div><span class="it-liens"><a href="https://www.dubble-food.com/3-43-1-restauration-dubble-food-dubble_marseille_joliette.html" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Dubble/@43.30445,5.36659,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Jour Euromed</b><small class="it-meta">📍 83 Boulevard de Dunkerque, Marseille</small><small class="it-meta">🕒 lun-ven 09:00-14:45</small><small class="it-meta">📞 <a href="tel:+33491319220">+33 4 91 31 92 20</a></small></div><span class="it-liens"><a href="https://cmdfrance.jour.fr/fr/shops/healthy/marseille-euromed" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Jour%20Euromed/@43.31063,5.36798,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Jour Les Docks</b><small class="it-meta">📍 Rue des Docks, Marseille</small><small class="it-meta">🕒 lun-ven 09:00-22:00 ; sam-dim 11:00-22:00</small><small class="it-meta">📞 <a href="tel:+33962616672">+33 9 62 61 66 72</a></small></div><span class="it-liens"><a href="https://cmdfrance.jour.fr/fr/shops/healthy/marseille-lesdocks" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Jour%20Les%20Docks/@43.30598,5.36629,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Ajaccio</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>A Calata</b><small>Pizzeria</small><small class="it-meta">📍 8 Boulevard Danielle Casanova, Ajaccio</small><small class="it-meta">🕒 lun-dim 08:00-02:00</small><small class="it-meta">📞 <a href="tel:+33495221953">+33 4 95 22 19 53</a></small></div><span class="it-liens"><a href="https://www.tripadvisor.fr/Restaurant_Review-g187140-d1328480-Reviews-A_Calata-Ajaccio_Communaute_d_Agglomeration_du_Pays_Ajaccien_Corse_du_Sud_Corsica.html" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/A%20Calata/@41.91792,8.73986,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Gusto</b><small>Cuisine local</small><small class="it-meta">📍 Avenue du Premier Consul, Ajaccio</small></div><span class="it-liens"><a href="https://www.whatiseat.com/de/menu/gusto/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Gusto/@41.91878,8.73713,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le Comptoir Italien</b><small class="it-meta">📍 Rue Emmanuel Arène, Ajaccio</small><small class="it-meta">🕒 mar 11:30-14:30, 19:00-23:00 ; mer 11:30-14:30 ; jeu-ven 11:30-14:30, 19:00-23:00 ; sam 19:00-23:00</small><small class="it-meta">📞 <a href="tel:+33495217274">+33 4 95 21 72 74</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Le%20Comptoir%20Italien/@41.91836,8.73751,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Ajaccio</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Ajaccio%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Ajaccio</a></div></section>
+<section class="glass-box it-seo" style="margin:24px 0"><h2 style="margin-top:0">Questions fréquentes</h2><details><summary><b>Quelle est la distance de Marseille à Ajaccio sans autoroute ?</b></summary><p>Environ 5 km, soit 0 h 13 de conduite et 1 jour à raison d&#x27;environ 4 h par jour. Par l&#x27;autoroute, le trajet fait 5 km en 0 h 13.</p></details><details><summary><b>Combien coûte le trajet de Marseille à Ajaccio ?</b></summary><p>Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 415 € sans autoroute contre 415 € par l&#x27;autoroute (péages compris). Les repas, les visites et l&#x27;hébergement ne sont pas inclus.</p></details><details><summary><b>Où s&#x27;arrêter entre Marseille et Ajaccio ?</b></summary><p>Les étapes proposées sont : Ajaccio. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit.</p></details><details><summary><b>Y a-t-il des péages entre Marseille et Ajaccio sans autoroute ?</b></summary><p>Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l&#x27;estimation.</p></details></section>
+<h2>Autres trajets</h2><ul><li><a href="marseille-barcelone-sans-autoroute.html">Marseille Barcelone sans autoroute</a></li></ul>
+<p class="it-note">Les lieux et restaurants viennent d'OpenStreetMap et de Wikipédia : vérifiez les horaires avant de partir. Itinéraire calculé avec <a href="https://openrouteservice.org/" target="_blank" rel="noopener">OpenRouteService</a>, lieux via <a href="https://www.geoapify.com/" target="_blank" rel="noopener">Geoapify</a>, données &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</p>
+
+
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+    <p>Nous utilisons des cookies pour mesurer l'audience du site (Google Analytics). Vous pouvez accepter ou refuser ce suivi. Voir notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+    <div class="cookie-actions">
+        <button class="cookie-refuse" onclick="setCookieConsent(false)">Refuser</button>
+        <button class="cookie-accept" onclick="setCookieConsent(true)">Accepter</button>
+    </div>
+</div>
+<script>
+(function() {
+    function setCookieConsent(accepted) {
+        localStorage.setItem('cookie_consent', accepted ? 'granted' : 'denied');
+        gtag('consent', 'update', {
+            'analytics_storage': accepted ? 'granted' : 'denied'
+        });
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+    window.setCookieConsent = setCookieConsent;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var saved = localStorage.getItem('cookie_consent');
+        if (saved === 'granted') {
+            gtag('consent', 'update', { 'analytics_storage': 'granted' });
+        } else if (saved === null) {
+            document.getElementById('cookie-banner').style.display = 'flex';
+        }
+        
+    });
+})();
+</script>
+
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <h3>Nomad</h3>
+            <p>Le compagnon de voyage qui vous aide à choisir plus vite et à partir plus serein.</p>
+        </div>
+        <div>
+            <h4>Explorer</h4>
+            <ul class="footer-links">
+                <li><a href="hotels.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
+                <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
+                <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
+                <li><a href="croisieres.html">Croisières</a></li>
+                <li><a href="itineraire-decouverte.html">Itinéraire découverte</a></li>
+                <li><a href="trajets-sans-autoroute.html">Trajets sans autoroute</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>À propos</h4>
+            <ul class="footer-links">
+                <li><a href="apropos.html">À propos de nous</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Conseils de voyage</a></li>
+                <li><a href="index.html#avis">Avis voyageurs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Votre retour compte</h4>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
+        <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
+    </div>
+</footer>
+
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const TR={"c": [[43.2961, 5.3699], [43.296, 5.3696], [43.296, 5.3689], [43.2959, 5.3676], [43.2958, 5.3671], [43.2956, 5.3664], [43.2956, 5.3661], [43.2954, 5.3653], [43.2955, 5.3651], [43.2954, 5.3649], [43.2953, 5.3644], [43.2952, 5.3639], [43.2952, 5.3637], [43.2952, 5.3636], [43.2952, 5.3633], [43.2954, 5.3631], [43.2954, 5.363], [43.2956, 5.3628], [43.2958, 5.3628], [43.296, 5.3628], [43.2963, 5.3628], [43.2964, 5.3628], [43.2966, 5.3628], [43.2967, 5.3629], [43.2968, 5.3629], [43.2969, 5.3629], [43.2969, 5.3629], [43.2969, 5.3629], [43.297, 5.3629], [43.298, 5.3632], [43.2986, 5.3634], [43.2988, 5.3634], [43.2989, 5.3635], [43.299, 5.3635], [43.2999, 5.3638], [43.3011, 5.3642], [43.3021, 5.3645], [43.3022, 5.3645], [43.3024, 5.3646], [43.3033, 5.3649], [43.3034, 5.3649], [43.3048, 5.3653], [43.3053, 5.3655], [43.3061, 5.3657], [43.3067, 5.3659], [43.3069, 5.366], [43.307, 5.3661], [43.3084, 5.3665], [43.3086, 5.3665], [43.3091, 5.3666], [43.3095, 5.3668], [43.3095, 5.3668], [43.3097, 5.367], [43.3105, 5.3672], [43.3111, 5.3674], [43.3113, 5.3674], [43.3115, 5.3674], [43.3117, 5.3673], [43.3119, 5.3672], [43.3121, 5.3671], [43.3125, 5.3669], [43.313, 5.3664], [43.3132, 5.3663], [43.3133, 5.3662], [43.3137, 5.366], [43.3141, 5.3658], [43.3145, 5.3656], [43.3149, 5.3654], [43.3155, 5.3651], [43.3155, 5.3649], [43.3152, 5.3651], [43.3149, 5.3653], [43.3147, 5.3653], [43.3146, 5.3653], [43.3142, 5.3654], [43.3137, 5.3656], [43.3137, 5.3655], [43.3137, 5.3652], [43.3137, 5.3652], [43.3138, 5.3651], [43.3138, 5.365], [43.3137, 5.3649], [43.3137, 5.3649], [43.3136, 5.3648], [43.3135, 5.3649], [43.3135, 5.3649], [43.3135, 5.365], [43.3134, 5.365], [43.3134, 5.365], [43.3129, 5.3654], [43.3127, 5.3646], [43.3125, 5.3645], [43.3123, 5.3642], [43.3087, 5.3628], [43.2989, 5.3587], [43.2986, 5.3586], [43.2983, 5.3584], [43.2981, 5.3581], [43.2962, 5.3544], [43.2923, 5.3454], [43.2919, 5.3447], [43.2863, 5.3387], [43.2843, 5.3371], [43.281, 5.3361], [43.2156, 5.3089], [43.2153, 5.3088], [43.2148, 5.3089], [43.2142, 5.309], [43.2137, 5.3092], [43.2131, 5.3096], [43.1589, 5.3724], [42.0076, 8.1699], [41.8282, 8.6012], [41.8281, 8.6018], [41.8236, 8.6212], [41.8219, 8.6282], [41.8217, 8.6296], [41.8219, 8.6307], [41.8223, 8.6317], [41.8817, 8.7404], [41.8821, 8.7409], [41.8826, 8.7413], [41.9068, 8.754], [41.9074, 8.7541], [41.9079, 8.7541], [41.921, 8.7488], [41.9216, 8.7484], [41.922, 8.7479], [41.9223, 8.7472], [41.9224, 8.7462], [41.9225, 8.7409], [41.9225, 8.7406], [41.9224, 8.7404], [41.9236, 8.7405], [41.9237, 8.7404], [41.9238, 8.7403], [41.924, 8.7397], [41.924, 8.7396], [41.9241, 8.7395], [41.9243, 8.7395], [41.9245, 8.7394], [41.9246, 8.7394], [41.925, 8.7393], [41.9251, 8.7393], [41.9253, 8.7394], [41.9255, 8.7394], [41.9259, 8.7395], [41.9263, 8.7395], [41.9263, 8.7395], [41.9264, 8.7395], [41.9266, 8.7395], [41.9267, 8.7394], [41.9268, 8.7393], [41.9269, 8.7393], [41.927, 8.7392], [41.927, 8.7391], [41.927, 8.739], [41.9269, 8.7389], [41.9267, 8.7388], [41.9259, 8.7387], [41.9256, 8.7387], [41.925, 8.7389], [41.925, 8.7389], [41.9249, 8.7389], [41.9248, 8.7389], [41.9248, 8.7389], [41.9242, 8.739], [41.9239, 8.7391], [41.9227, 8.7394], [41.9226, 8.7394], [41.9225, 8.7394], [41.9222, 8.7393], [41.9222, 8.7393], [41.922, 8.7393], [41.9219, 8.7392], [41.9217, 8.7391], [41.9215, 8.7391], [41.9213, 8.739], [41.921, 8.7388], [41.9204, 8.7385], [41.9203, 8.7384], [41.9202, 8.7384], [41.9197, 8.7386], [41.9192, 8.7388]], "n": [[41.9192, 8.7386, "Nuit 1 : Ajaccio"]], "v": [[41.91794, 8.73864, "Maison de Napoléon Bonaparte"], [41.88739, 8.82231, "Site archéologique"]]};
+const map=L.map("itMap");
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"&copy; OpenStreetMap"}).addTo(map);
+const ligne=L.polyline(TR.c,{color:"#075985",weight:5}).addTo(map);
+TR.n.slice(0,-1).forEach(p=>L.marker([p[0],p[1]]).addTo(map).bindPopup(p[2]));
+TR.v.forEach(p=>L.circleMarker([p[0],p[1]],{radius:6,color:"#c8322b",weight:2,fillColor:"#fff",fillOpacity:1}).addTo(map).bindPopup(p[2]));
+map.fitBounds(ligne.getBounds().pad(0.1));
+</script>
+</body>
+</html>

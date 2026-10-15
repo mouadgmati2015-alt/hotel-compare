@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Strasbourg Munich sans autoroute : itinéraire, étapes et coût | MyHotelCompare</title>
+<meta name="description" content="Strasbourg Munich sans autoroute : 364 km, 2 jours, 0 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<link rel="canonical" href="https://myhotelcompare.com/strasbourg-munich-sans-autoroute.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Strasbourg Munich sans autoroute : itinéraire, étapes et coût">
+<meta property="og:description" content="Strasbourg Munich sans autoroute : 364 km, 2 jours, 0 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<meta property="og:url" content="https://myhotelcompare.com/strasbourg-munich-sans-autoroute.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Quelle est la distance de Strasbourg à Munich sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Environ 364 km, soit 6 h 42 de conduite et 2 jours à raison d'environ 4 h par jour. Par l'autoroute, le trajet fait 360 km en 3 h 33."}}, {"@type": "Question", "name": "Combien coûte le trajet de Strasbourg à Munich ?", "acceptedAnswer": {"@type": "Answer", "text": "Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 37 € sans autoroute contre 45 € par l'autoroute (péages compris). Les repas, les visites et l'hébergement ne sont pas inclus."}}, {"@type": "Question", "name": "Où s'arrêter entre Strasbourg et Munich ?", "acceptedAnswer": {"@type": "Answer", "text": "Les étapes proposées sont : Biberach an der Riß, Munich. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit."}}, {"@type": "Question", "name": "Y a-t-il des péages entre Strasbourg et Munich sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l'estimation."}}]}</script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<!-- Google Consent Mode v2 : refus par défaut tant que l'utilisateur n'a pas choisi -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLVNV2211J"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RLVNV2211J');
+</script>
+
+<link rel="icon" type="image/png" href="images/logo_5.png?v=2">
+<link rel="apple-touch-icon" href="images/logo_5.png?v=2">
+<style>
+:root {
+    --bg: #f2fbfd;
+    --bg-dark: #063247;
+    --panel: #e5f5f8;
+    --panel-strong: #c7eaf0;
+    --card: #ffffff;
+    --line: #b9dfe7;
+    --text: #123443;
+    --muted: #52717c;
+    --primary: #087f9b;
+    --primary-dark: #056078;
+    --secondary: #075985;
+    --success: #16805b;
+    --success-soft: #d7f4e7;
+    --warning: #e59a21;
+    --shadow: 0 18px 38px rgba(5, 96, 120, 0.14);
+}
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #f4fcfd 0%, #e7f6f8 100%);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px 16px 40px;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.site-header { margin-bottom: 24px; }
+.brand-lockup { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 18px; color: var(--text); }
+.brand-mark { width: 58px; height: 58px; object-fit: contain; border-radius: 16px; background: var(--panel-strong); padding: 5px; }
+.brand-lockup strong { display: block; color: var(--secondary); font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1; }
+.brand-lockup span { display: block; color: var(--muted); margin-top: 5px; font-size: 0.88rem; }
+h1, h2, h3, h4 { color: var(--text); }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; }
+a { color: var(--secondary); }
+.site-footer { margin-top: 48px; background: linear-gradient(135deg, #063247, #075985); color: #effcff; border-radius: 22px; padding: 30px; box-shadow: var(--shadow); }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 28px; }
+.site-footer h3, .site-footer h4 { color: #b8f0f6; margin-top: 0; }
+.site-footer p, .site-footer li { color: #d6eef2; line-height: 1.6; }
+.site-footer a { color: #b8f0f6; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+.footer-links { list-style: none; padding: 0; margin: 0; }
+.footer-links li { margin-bottom: 8px; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.18); margin-top: 24px; padding-top: 18px; display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; font-size: 0.85rem; }
+.footer-bottom p { margin: 0; }
+@media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } .brand-lockup { justify-content: flex-start; } }
+.top-nav {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    background: linear-gradient(135deg, var(--secondary), var(--primary-dark));
+    padding: 14px 18px; border-radius: 18px; margin: 6px 0 22px;
+    box-shadow: var(--shadow); justify-content: center;
+}
+.top-nav a {
+    color: white; background: rgba(255,255,255,0.12);
+    padding: 10px 16px; border-radius: 12px; text-decoration: none;
+    font-weight: 700; border: 1px solid rgba(255,255,255,0.15);
+}
+.top-nav a:hover { background: rgba(255,255,255,0.2); }
+.card {
+    background: linear-gradient(180deg, #fffefb 0%, #fff8ef 100%);
+    border: 1px solid var(--line); border-radius: 20px;
+    padding: 24px; margin-bottom: 22px; box-shadow: var(--shadow);
+}
+.btn, .btn-booking, .btn-expedia {
+    display: inline-block; text-decoration: none; border-radius: 12px;
+    font-weight: 700; transition: transform 0.2s ease; cursor: pointer;
+}
+.btn:hover, .btn-booking:hover, .btn-expedia:hover { transform: translateY(-1px); }
+.btn { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 18px; }
+.btn-booking { display: block; background: linear-gradient(135deg, #0f3d85, #1d5bbf); color: white; padding: 12px 16px; text-align: center; margin-bottom: 10px; }
+.btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
+.btn-site-officiel { display: block; background: linear-gradient(135deg, var(--secondary), var(--primary-dark)); color: white; padding: 12px 16px; text-align: center; }
+.hero-banner {
+    background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
+    border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
+}
+.hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 18px; }
+.hero-badges span {
+    background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.24); color: #f2fdff; border-radius: 999px; padding: 7px 12px; font-weight: 700; font-size: 0.82rem;
+}
+.glass-box { background: rgba(255,255,255,0.72); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+.filters-box {
+    background: linear-gradient(180deg, #e3f5f8 0%, #f8fdfe 100%);
+    border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 24px 0 18px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; box-shadow: var(--shadow);
+}
+.filters-box label { color: var(--muted); display: block; margin-bottom: 8px; font-weight: 700; }
+.filters-box select {
+    width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--text); font-size: 0.97rem;
+}
+.btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
+.comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.smart-results-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.smart-results-grid .card { margin-bottom: 0; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
+.review-card {
+    background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
+    border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
+}
+.review-card .stars { color: var(--warning); font-size: 1.1rem; letter-spacing: 2px; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 16px; margin-top: 18px; }
+.stat-item { background: rgba(255,255,255,0.5); border: 1px solid rgba(130,90,20,0.15); border-radius: 16px; padding: 18px; }
+.stat-item strong { display: block; font-size: 1.5rem; }
+.testimonial-section > h2 { color: var(--text) !important; }
+.testimonial-section > div > div { background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%) !important; border-color: var(--line) !important; }
+.testimonial-section > div > div p { color: var(--muted) !important; }
+.testimonial-section > div > div p:first-child { color: var(--warning) !important; }
+.testimonial-section > div > div p strong { color: var(--text) !important; }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 1000px) { .smart-results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .smart-results-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+.cookie-banner {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+    background: #063247; color: #effcff; padding: 18px 20px;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+    gap: 16px; box-shadow: 0 -8px 24px rgba(0,0,0,0.25);
+}
+.cookie-banner p { margin: 0; max-width: 640px; font-size: 0.92rem; line-height: 1.5; }
+.cookie-banner a { color: #b8f0f6; }
+.cookie-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie-actions button {
+    border: none; border-radius: 10px; padding: 10px 18px; font-weight: 700; cursor: pointer;
+}
+.cookie-accept { background: var(--primary); color: white; }
+.cookie-refuse { background: rgba(255,255,255,0.15); color: white; }
+.fiche-photo-carte { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0; align-items: stretch; }
+.fiche-photo-carte img, .fiche-photo-carte iframe { width: 100%; height: 260px; object-fit: cover; border-radius: 16px; border: 0; }
+@media (max-width: 600px) { .fiche-photo-carte { grid-template-columns: 1fr; } .fiche-photo-carte img, .fiche-photo-carte iframe { height: 220px; } }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 20px; }
+.btn-itineraire {
+    display: inline-block; padding: 14px 24px; border-radius: 14px; font-weight: 800;
+    background: rgba(255,255,255,0.14); color: #fff; text-decoration: none;
+    border: 1.5px solid rgba(255,255,255,0.6);
+}
+.btn-itineraire:hover { background: rgba(255,255,255,0.26); }
+.btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+</style>
+
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrld.ltd/NTcxODA1.js?t=571805';
+      document.head.appendChild(script);
+  })();
+</script>
+
+<style>
+.it-road{display:inline-block;min-width:36px;text-align:center;padding:0 7px;border-radius:5px;font-weight:800;font-size:.8rem;line-height:22px}
+.it-road.N{background:#c8322b;color:#fff}
+.it-road.D{background:#f2c230;color:#123443;box-shadow:inset 0 0 0 2px #123443}
+.it-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:24px 0;align-items:end}
+.it-form label{display:block;font-weight:700;color:var(--muted);margin-bottom:6px}
+.it-form input,.it-form select{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--text);font-size:.97rem}
+.it-msg{padding:12px 16px;border-radius:12px;margin-bottom:18px;font-weight:600}
+.it-msg.err{background:#fde8e6;color:#9a2a22}.it-msg.info{background:var(--panel);color:var(--secondary)}
+#itRes{display:none}
+.it-cmp{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 14px}
+.it-cmp .glass-box.win{border:2px solid var(--success)}
+.it-cmp h2{font-size:1.15rem;margin:0 0 10px}
+.it-row{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid var(--line)}
+.it-row:last-child{border:0}
+.it-save{background:var(--success-soft);color:var(--success);border-radius:12px;padding:12px 16px;font-weight:700;margin-bottom:8px}
+.it-note{color:var(--muted);font-size:.85rem;margin:0 0 22px}
+#itMap{height:380px;border-radius:16px;margin-bottom:22px;box-shadow:var(--shadow)}
+.it-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.it-tab{font:inherit;font-weight:700;cursor:pointer;background:#fff;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:9px 18px}
+.it-tab[aria-selected=true]{background:var(--secondary);color:#fff;border-color:var(--secondary)}
+.it-tab:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+.it-dayhead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.it-dayhead h2{margin:0;font-size:1.4rem}
+.it-dayhead span{color:var(--muted)}
+.it-roads{display:flex;gap:10px 14px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+.it-roads small{color:var(--muted)}
+.it-bloc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:14px}
+.it-bloc h3{margin:0 0 8px;font-size:1.05rem}
+.it-lieux{list-style:none;margin:0;padding:0}
+.it-lieu{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
+.it-lieu:last-child{border:0}
+.it-lieu small{display:block;color:var(--muted)}
+.it-vig{flex:0 0 76px;width:76px;height:76px;border-radius:12px;overflow:hidden;background:var(--panel);display:flex;align-items:center;justify-content:center;font-size:2rem}
+.it-vig img{width:100%;height:100%;object-fit:cover;display:block}
+.it-txt{flex:1;min-width:0}
+.it-res{margin:4px 0 2px;font-size:.9rem;line-height:1.45}
+.it-meta{margin-top:2px;font-size:.82rem}
+.it-liens{display:flex;gap:12px;flex-wrap:wrap;align-self:center}
+.it-liens a{font-weight:700;white-space:nowrap}
+.it-wait{color:var(--muted);margin:0}
+.it-budget{margin-bottom:22px}
+.it-bt{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:8px 12px;align-items:center}
+.it-bt .fort{font-weight:800;border-top:1px solid var(--line);padding-top:8px}
+.it-bt small{color:var(--muted)}
+.it-btn.s{background:var(--secondary);color:#fff;border:0;cursor:pointer;font-family:inherit}
+.it-share-msg{align-self:center;color:var(--success);font-weight:700}
+.it-urlcopy{width:100%;max-width:440px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:.85rem}
+.it-all{margin-bottom:18px}
+.it-all p{margin:6px 0 0}
+.it-gps{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px}
+.it-btn{display:inline-block;padding:10px 16px;border-radius:12px;font-weight:700;text-decoration:none;font-size:.95rem}
+.it-btn.g{background:#1a73e8;color:#fff}
+.it-btn.w{background:#33ccff;color:#06364a}
+.it-btn:hover{filter:brightness(.95)}
+.it-btn:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+@media (max-width:620px){.it-cmp{grid-template-columns:1fr}.it-lieu{flex-wrap:wrap}.it-liens{flex-basis:100%;align-self:flex-start}}
+
+.tj-cmp .glass-box h2{margin-top:0}
+.tj-fil{font-size:.9rem;color:var(--muted);margin:0 0 10px}
+</style>
+</head>
+<body><div class="container">
+
+<header class="site-header">
+<div class="brand-lockup">
+    <img src="images/logo_5.svg" alt="Nomad" class="brand-mark">
+    <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
+</div>
+<div class="top-nav">
+    <a href="index.html">Accueil</a>
+    <a href="hotels.html">Hôtels</a>
+    <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
+    <a href="loueurs-vehicules.html">Location de Véhicules</a>
+    <a href="croisieres.html">Croisières</a>
+    <a href="itineraire-decouverte.html">Itinéraires</a>
+    <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
+</div>
+</header>
+
+<p class="tj-fil"><a href="index.html">Accueil</a> &gt; <a href="trajets-sans-autoroute.html">Trajets sans autoroute</a> &gt; Strasbourg Munich</p>
+<div class="hero-banner">
+  <h1 style="color:#fff;margin:0 0 10px;font-size:clamp(1.6rem,3.6vw,2.4rem)">Strasbourg Munich sans autoroute : itinéraire, étapes et coût</h1>
+  <p style="margin:0;max-width:760px;line-height:1.7;color:#effcff">Pour aller de Strasbourg à Munich sans autoroute, comptez environ 364 km et 6 h 42 de conduite, soit 2 jours à raison d&#x27;environ 4 h de route par jour. Par l&#x27;autoroute, le même trajet fait 360 km en 3 h 33, avec environ 0 € de péages estimés.</p>
+</div>
+<p style="line-height:1.7">En évitant l&#x27;autoroute, vous économisez environ 7 € sur la route (péages et carburant), pour environ 3 h 09 de trajet en plus. Les routes les plus empruntées sont la B28 (43 km), la B32 (31 km), la L275 (24 km). </p>
+<section class="it-cmp tj-cmp" aria-label="Comparatif avec l'autoroute">
+  <div class="glass-box"><h2>Par l'autoroute</h2><div class="it-row"><span>Distance</span><b>360 km</b></div><div class="it-row"><span>Temps de conduite</span><b>3 h 33</b></div><div class="it-row"><span>Péages</span><b>0 €</b></div><div class="it-row"><span>Carburant</span><b>45 €</b></div><div class="it-row"><span>Total route</span><b>45 €</b></div></div>
+  <div class="glass-box win"><h2>Parcours découverte</h2><div class="it-row"><span>Distance</span><b>364 km</b></div><div class="it-row"><span>Temps de conduite</span><b>6 h 42</b></div><div class="it-row"><span>Péages</span><b>0 €</b></div><div class="it-row"><span>Carburant</span><b>37 €</b></div><div class="it-row"><span>Total route</span><b>37 €</b></div></div>
+</section>
+<p class="it-note">Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, péage à 0,10 €/km sur les tronçons à péage. Montants indicatifs, mis à jour le 15 octobre 2026.</p>
+<p><a class="btn-compare" style="display:inline-block;text-decoration:none;width:auto;padding:14px 24px" href="itineraire-decouverte.html?d=Strasbourg+%28France%29&amp;dc=7.7521%2C48.5734&amp;dp=France&amp;a=Munich+%28Allemagne%29&amp;ac=11.582%2C48.1351&amp;ap=Allemagne&amp;r=4&amp;v=th&amp;c=6&amp;p=1.8&amp;n=2&amp;m=45&amp;utm_source=pages-trajets&amp;utm_medium=site&amp;utm_campaign=trajet">Calculer avec mon véhicule</a></p>
+<div id="itMap"></div>
+<section><h2>Jour 1 : Strasbourg à Biberach an der Riß</h2><p class="it-wait">200 km, 3 h 43 de conduite</p><div class="it-roads"><span><span class="it-road N">B28</span> <small>43 km</small></span><span><span class="it-road N">B32</span> <small>31 km</small></span><span><span class="it-road D">L275</span> <small>24 km</small></span><span><span class="it-road N">B312</span> <small>15 km</small></span><span><span class="it-road D">L410</span> <small>13 km</small></span><span><span class="it-road D">L92</span> <small>9 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Oberkirch_Schauenburg.jpg/330px-Oberkirch_Schauenburg.jpg?utm_source=de.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Schauenburg</b><small>Château</small><small class="it-meta">📍 Burgstraße, Oberkirch</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Schauenburg/@48.53943,8.09438,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Haigerloch_-_Altstadt_-_Schloss_-_Ansicht_von_SSW_%282%29.jpg/330px-Haigerloch_-_Altstadt_-_Schloss_-_Ansicht_von_SSW_%282%29.jpg?utm_source=de.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Schloss Haigerloch</b><small>Château</small><small class="it-meta">📍 Schloßsteige, Haigerloch</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.schloss-haigerloch.de/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Schloss%20Haigerloch/@48.36771,8.80372,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Sulz-Kloster_Bernstein_DSC0452.jpg/330px-Sulz-Kloster_Bernstein_DSC0452.jpg?utm_source=de.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Kloster Bernstein</b><small>Abbaye</small><small class="it-meta">📍 K 5510, Sulz am Neckar</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Kloster%20Bernstein/@48.34746,8.72283,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Krippenmuseum_Oberstadion.jpg/330px-Krippenmuseum_Oberstadion.jpg?utm_source=de.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Krippenmuseum</b><small>Musée</small><small class="it-meta">📍 5/1 Kirchplatz, Oberstadion</small><small class="it-meta">accessible en fauteuil roulant</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.krippen-museum.de/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Krippenmuseum/@48.18634,9.69182,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Horb_am_Neckar_2017_(MTheiler)_4827_Ihlinger-Tor_Luzifer-Turm.JPG?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Luziferturm</b><small>Cuisine régionale</small><small class="it-meta">📍 77 Neckarstraße, Horb am Neckar</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Luziferturm/@48.44414,8.68653,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Biergarten - Aussichtsplatte Rauschbart</b><small>Cuisine bavarian</small><small class="it-meta">📍 1 Rauschbart, Horb am Neckar</small><small class="it-meta">🕒 mar-sam 11:00-22:00 ; dim,jours fériés 10:00-21:00</small><small class="it-meta">options végétariennes, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+4974513717">+49 7451 3717</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Biergarten%20-%20Aussichtsplatte%20Rauschbart/@48.45067,8.70428,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🥡</div><div class="it-txt"><b>Succulent</b><small>Cuisine chinoise</small><small class="it-meta">📍 8 Bahnhofplatz, Horb am Neckar</small><small class="it-meta">🕒 mer-lun,jours fériés 11:30-15:00,17:30-22:30 ; mar fermé</small><small class="it-meta">terrasse, options végétariennes</small><small class="it-meta">📞 <a href="tel:+4974516277899">+49 7451 6277899</a></small></div><span class="it-liens"><a href="http://www.restaurant-succulent.de/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Succulent/@48.44228,8.68927,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Biberach an der Riß</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🥙</div><div class="it-txt"><b>Döner-Haus</b><small>Kebab</small><small class="it-meta">📍 24/1 Biberacher Straße, Warthausen</small><small class="it-meta">📞 <a href="tel:+4973515773304">+49 7351 5773304</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/D%C3%B6ner-Haus/@48.12698,9.79739,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍝</div><div class="it-txt"><b>Passarelli</b><small>Cuisine italienne</small><small class="it-meta">📍 6 Brauerstraße, Warthausen</small><small class="it-meta">accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+49735115290">+49 7351 1529 0</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Passarelli/@48.12966,9.79707,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Alter Bahnhof</b><small class="it-meta">📍 Am Bahnhof, Schemmerhofen</small><small class="it-meta">accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+497356928405">+49 7356 928405</a></small></div><span class="it-liens"><a href="http://www.alter-bahnhof.info/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Alter%20Bahnhof/@48.16445,9.8174,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Biberach an der Riß</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Biberach%20an%20der%20Ri%C3%9F%2C%20Germany&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Biberach an der Riß</a></div></section><section><h2>Jour 2 : Biberach an der Riß à Munich</h2><p class="it-wait">164 km, 2 h 59 de conduite</p><div class="it-roads"><span><span class="it-road D">L280</span> <small>14 km</small></span><span><span class="it-road N">A96</span> <small>8 km</small></span><span><span class="it-road D">L1268</span> <small>6 km</small></span><span><span class="it-road N">B300</span> <small>6 km</small></span><span><span class="it-road D">L266</span> <small>4 km</small></span><span><span class="it-road N">A2</span> <small>4 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🏛️</div><div class="it-txt"><b>Museum der Gartenkultur</b><small>Musée</small><small class="it-meta">📍 1 Jungviehweide, Illertissen</small><small class="it-meta">🕒 11:00-17:00</small><small class="it-meta">entrée gratuite, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+4973039524747">+49 7303 9524747</a></small></div><span class="it-liens"><a href="https://museum-der-gartenkultur.de/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Museum%20der%20Gartenkultur/@48.24111,10.13334,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/KRU_altes_Rathaus.jpg/330px-KRU_altes_Rathaus.jpg?utm_source=de.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Altes Rathaus</b><small>Patrimoine</small><small class="it-meta">📍 1 Marktplatz, Krumbach (Schwaben)</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Altes%20Rathaus/@48.24303,10.3629,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Stockerhof_(Naichen)_Neben-_und_Hauptgeb%C3%A4ude.jpg?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Hammerschmiede Naichen und Stockerhof</b><small>Musée</small><small class="it-meta">📍 Zur Hammerschmiede, Neuburg an der Kammel</small><small class="it-meta">🕒 easter-Nov dim[1]: dim 13:00-17:00 ; dim[1,3] 13:00-17:00 &quot;Schmiedevorführung&quot;</small><small class="it-meta">📞 <a href="tel:+498283928606">+49 8283 928606</a></small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="http://www.hammerschmiede-naichen.de/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Hammerschmiede%20Naichen%20und%20Stockerhof/@48.32795,10.37058,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Zwangsarbeiterlager_Neuaubing_Bauplan_0042b.jpg/330px-Zwangsarbeiterlager_Neuaubing_Bauplan_0042b.jpg?utm_source=de.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Ehem. Zwangsarbeiterlager Neuaubing</b><small>Patrimoine</small><small class="it-meta">📍 Wiesentfelser Straße, Munich</small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ehem.%20Zwangsarbeiterlager%20Neuaubing/@48.14295,11.41249,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍔</div><div class="it-txt"><b>Germar&#x27;s Best Burger</b><small>Burgers</small><small class="it-meta">📍 59 Riedstraße, Schwabmünchen</small><small class="it-meta">🕒 dim-jeu 11:00-23:00 ; ven,sam 11:00-24:00</small><small class="it-meta">terrasse, à emporter, options végétariennes, options véganes, réservation conseillée</small><small class="it-meta">📞 <a href="tel:+4982321846980">+49 8232 1846980</a></small></div><span class="it-liens"><a href="https://www.germars.de/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Germar%27s%20Best%20Burger/@48.18156,10.74725,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🥡</div><div class="it-txt"><b>Pho 2</b><small>Cuisine asiatique</small><small class="it-meta">📍 2 Kaufbeurer Straße, Schwabmünchen</small><small class="it-meta">🕒 mar-dim 11:00-15:00, 17:00-22:00</small><small class="it-meta">📞 <a href="tel:+4982329955858">+49 8232 9955858</a></small></div><span class="it-liens"><a href="https://schwabmuenchen.pho-2.de/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Pho%202/@48.17666,10.75772,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍝</div><div class="it-txt"><b>Tradizione Italiana</b><small>Cuisine italienne</small><small class="it-meta">📍 5 Luitpoldstraße, Schwabmünchen</small><small class="it-meta">🕒 mar 17:30-23:00 ; mer-dim 11:30-14:30,17:30-23:00</small><small class="it-meta">à emporter</small><small class="it-meta">📞 <a href="tel:+4982328079814">+49 8232 8079814</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Tradizione%20Italiana/@48.17756,10.75808,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Munich</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Schapeau</b><small>Cuisine allemande</small><small class="it-meta">📍 41 Tal, Munich</small><small class="it-meta">🕒 lun-dim 11:00-23:30</small><small class="it-meta">terrasse, options végétariennes, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+498924234400">+49 89 24234400</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Schapeau/@48.13548,11.58151,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🥩</div><div class="it-txt"><b>Little London Bar&amp;Grill</b><small>Grillades</small><small class="it-meta">📍 31 Tal, Munich</small><small class="it-meta">🕒 mar-sam 17:00-01:00 ; Dec 24-Dec 26 fermé ; dim,lun fermé</small><small class="it-meta">terrasse, options végétariennes, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+4989122239470">+49 89 122 239470</a></small></div><span class="it-liens"><a href="https://little-london.de" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Little%20London%20Bar%26Grill/@48.13567,11.58089,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Haxnbauer</b><small>Cuisine régionale</small><small class="it-meta">📍 38 Tal, Munich</small><small class="it-meta">🕒 lun-ven 11:30-23:00 ; sam 11:00-24:00 ; dim 11:00-22:00</small><small class="it-meta">à emporter, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+4989224248">+49 89 224 248</a></small></div><span class="it-liens"><a href="https://www.kuffler.de/de/haxnbauer/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Haxnbauer/@48.13548,11.58065,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Munich</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Munich%2C%20Allemagne&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Munich</a></div></section>
+<section class="glass-box it-seo" style="margin:24px 0"><h2 style="margin-top:0">Questions fréquentes</h2><details><summary><b>Quelle est la distance de Strasbourg à Munich sans autoroute ?</b></summary><p>Environ 364 km, soit 6 h 42 de conduite et 2 jours à raison d&#x27;environ 4 h par jour. Par l&#x27;autoroute, le trajet fait 360 km en 3 h 33.</p></details><details><summary><b>Combien coûte le trajet de Strasbourg à Munich ?</b></summary><p>Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 37 € sans autoroute contre 45 € par l&#x27;autoroute (péages compris). Les repas, les visites et l&#x27;hébergement ne sont pas inclus.</p></details><details><summary><b>Où s&#x27;arrêter entre Strasbourg et Munich ?</b></summary><p>Les étapes proposées sont : Biberach an der Riß, Munich. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit.</p></details><details><summary><b>Y a-t-il des péages entre Strasbourg et Munich sans autoroute ?</b></summary><p>Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l&#x27;estimation.</p></details></section>
+<h2>Autres trajets</h2><ul><li><a href="strasbourg-barcelone-sans-autoroute.html">Strasbourg Barcelone sans autoroute</a></li><li><a href="strasbourg-nice-sans-autoroute.html">Strasbourg Nice sans autoroute</a></li><li><a href="strasbourg-milan-sans-autoroute.html">Strasbourg Milan sans autoroute</a></li><li><a href="strasbourg-lyon-sans-autoroute.html">Strasbourg Lyon sans autoroute</a></li><li><a href="strasbourg-marseille-sans-autoroute.html">Strasbourg Marseille sans autoroute</a></li><li><a href="strasbourg-lausanne-sans-autoroute.html">Strasbourg Lausanne sans autoroute</a></li><li><a href="strasbourg-annecy-sans-autoroute.html">Strasbourg Annecy sans autoroute</a></li><li><a href="strasbourg-lyon-voiture-electrique.html">Strasbourg Lyon en voiture électrique</a></li></ul>
+<p class="it-note">Les lieux et restaurants viennent d'OpenStreetMap et de Wikipédia : vérifiez les horaires avant de partir. Itinéraire calculé avec <a href="https://openrouteservice.org/" target="_blank" rel="noopener">OpenRouteService</a>, lieux via <a href="https://www.geoapify.com/" target="_blank" rel="noopener">Geoapify</a>, données &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</p>
+
+
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+    <p>Nous utilisons des cookies pour mesurer l'audience du site (Google Analytics). Vous pouvez accepter ou refuser ce suivi. Voir notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+    <div class="cookie-actions">
+        <button class="cookie-refuse" onclick="setCookieConsent(false)">Refuser</button>
+        <button class="cookie-accept" onclick="setCookieConsent(true)">Accepter</button>
+    </div>
+</div>
+<script>
+(function() {
+    function setCookieConsent(accepted) {
+        localStorage.setItem('cookie_consent', accepted ? 'granted' : 'denied');
+        gtag('consent', 'update', {
+            'analytics_storage': accepted ? 'granted' : 'denied'
+        });
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+    window.setCookieConsent = setCookieConsent;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var saved = localStorage.getItem('cookie_consent');
+        if (saved === 'granted') {
+            gtag('consent', 'update', { 'analytics_storage': 'granted' });
+        } else if (saved === null) {
+            document.getElementById('cookie-banner').style.display = 'flex';
+        }
+        
+    });
+})();
+</script>
+
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <h3>Nomad</h3>
+            <p>Le compagnon de voyage qui vous aide à choisir plus vite et à partir plus serein.</p>
+        </div>
+        <div>
+            <h4>Explorer</h4>
+            <ul class="footer-links">
+                <li><a href="hotels.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
+                <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
+                <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
+                <li><a href="croisieres.html">Croisières</a></li>
+                <li><a href="itineraire-decouverte.html">Itinéraire découverte</a></li>
+                <li><a href="trajets-sans-autoroute.html">Trajets sans autoroute</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>À propos</h4>
+            <ul class="footer-links">
+                <li><a href="apropos.html">À propos de nous</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Conseils de voyage</a></li>
+                <li><a href="index.html#avis">Avis voyageurs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Votre retour compte</h4>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
+        <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
+    </div>
+</footer>
+
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const TR={"c": [[48.573, 7.7521], [48.5719, 7.7541], [48.5683, 7.7676], [48.567, 7.7733], [48.5702, 7.7857], [48.5727, 7.7926], [48.5728, 7.7994], [48.5765, 7.8101], [48.5756, 7.8232], [48.5725, 7.8349], [48.5607, 7.8572], [48.5463, 7.8898], [48.5383, 7.9122], [48.5347, 7.9285], [48.533, 7.9532], [48.5297, 7.975], [48.5331, 8.0002], [48.5389, 8.0169], [48.541, 8.031], [48.5345, 8.0541], [48.5316, 8.0656], [48.5286, 8.0773], [48.5245, 8.0807], [48.5211, 8.0838], [48.5194, 8.0878], [48.5174, 8.1015], [48.5174, 8.1167], [48.5147, 8.125], [48.5083, 8.1359], [48.501, 8.1384], [48.4943, 8.1419], [48.4894, 8.1476], [48.4823, 8.1527], [48.4746, 8.1559], [48.4742, 8.1621], [48.4772, 8.1697], [48.4786, 8.1815], [48.4801, 8.1879], [48.4803, 8.1934], [48.4802, 8.2004], [48.4797, 8.2031], [48.4815, 8.2042], [48.4843, 8.2054], [48.4866, 8.2122], [48.4872, 8.2173], [48.4918, 8.2221], [48.4949, 8.2313], [48.4916, 8.2384], [48.4867, 8.2403], [48.4922, 8.2435], [48.4949, 8.253], [48.494, 8.2601], [48.4898, 8.2697], [48.4812, 8.2748], [48.4798, 8.2797], [48.474, 8.2959], [48.4713, 8.3092], [48.4703, 8.3186], [48.4635, 8.3333], [48.4622, 8.3444], [48.4602, 8.3525], [48.462, 8.3644], [48.4564, 8.3782], [48.4511, 8.396], [48.4571, 8.4074], [48.4611, 8.412], [48.4628, 8.4174], [48.4655, 8.4218], [48.4624, 8.4338], [48.4601, 8.4402], [48.4663, 8.4654], [48.4665, 8.4758], [48.4783, 8.4808], [48.4784, 8.485], [48.4753, 8.4998], [48.4696, 8.5127], [48.4684, 8.5252], [48.4616, 8.5424], [48.4586, 8.5655], [48.4527, 8.569], [48.4499, 8.5921], [48.4496, 8.6104], [48.4488, 8.6227], [48.45, 8.633], [48.452, 8.6523], [48.4518, 8.6631], [48.4521, 8.6752], [48.4512, 8.6777], [48.4465, 8.685], [48.4449, 8.6908], [48.4424, 8.6922], [48.4442, 8.6989], [48.4438, 8.7025], [48.4375, 8.7099], [48.4356, 8.728], [48.4315, 8.724], [48.4284, 8.7297], [48.4257, 8.7445], [48.4207, 8.7564], [48.4206, 8.7582], [48.4188, 8.7565], [48.4195, 8.7603], [48.4151, 8.765], [48.4062, 8.7714], [48.3982, 8.7814], [48.3916, 8.7869], [48.386, 8.7904], [48.3805, 8.7935], [48.3812, 8.8026], [48.3816, 8.812], [48.3716, 8.8185], [48.3717, 8.8295], [48.3828, 8.8684], [48.3811, 8.8833], [48.3817, 8.8886], [48.3804, 8.8973], [48.3773, 8.9092], [48.3742, 8.9266], [48.3729, 8.9382], [48.374, 8.9545], [48.3684, 8.9768], [48.3562, 8.9908], [48.3523, 9.0006], [48.3473, 9.0213], [48.3434, 9.0261], [48.3352, 9.0335], [48.3276, 9.0401], [48.3261, 9.0456], [48.3241, 9.0511], [48.3183, 9.0571], [48.3123, 9.0622], [48.3042, 9.0662], [48.2971, 9.0719], [48.2929, 9.0875], [48.2911, 9.0983], [48.2894, 9.1093], [48.2891, 9.1151], [48.2904, 9.1298], [48.2893, 9.1437], [48.2767, 9.166], [48.2691, 9.1697], [48.2586, 9.1741], [48.2507, 9.1823], [48.2467, 9.1855], [48.2439, 9.1928], [48.2448, 9.1994], [48.25, 9.2077], [48.2484, 9.2096], [48.2512, 9.2103], [48.2493, 9.2149], [48.2478, 9.2209], [48.2448, 9.2248], [48.2422, 9.2281], [48.2429, 9.2292], [48.2425, 9.2402], [48.2401, 9.2558], [48.2356, 9.27], [48.2283, 9.2863], [48.2217, 9.3016], [48.2174, 9.3109], [48.2118, 9.3204], [48.2078, 9.3266], [48.2035, 9.332], [48.2011, 9.3359], [48.1965, 9.3471], [48.1924, 9.3582], [48.185, 9.3628], [48.1825, 9.3674], [48.1796, 9.3726], [48.1812, 9.3789], [48.1775, 9.3881], [48.1764, 9.3962], [48.1741, 9.399], [48.1724, 9.4182], [48.1706, 9.4277], [48.1681, 9.4492], [48.1589, 9.4625], [48.1551, 9.4696], [48.1593, 9.4761], [48.1561, 9.4855], [48.1527, 9.4963], [48.1527, 9.5115], [48.1536, 9.5269], [48.1447, 9.5326], [48.1412, 9.5352], [48.1379, 9.5472], [48.1407, 9.5778], [48.1423, 9.5941], [48.1429, 9.6112], [48.1414, 9.6245], [48.1392, 9.6356], [48.138, 9.6477], [48.1382, 9.6586], [48.1467, 9.6652], [48.1501, 9.6686], [48.1525, 9.6747], [48.1539, 9.6838], [48.1553, 9.6909], [48.1613, 9.7067], [48.1635, 9.7136], [48.1587, 9.7242], [48.1548, 9.7334], [48.1538, 9.7381], [48.1527, 9.7429], [48.153, 9.7535], [48.1577, 9.7661], [48.1578, 9.7723], [48.1508, 9.7829], [48.1483, 9.785], [48.1516, 9.7945], [48.1419, 9.805], [48.1411, 9.8095], [48.1478, 9.8289], [48.1519, 9.8455], [48.1536, 9.855], [48.153, 9.8641], [48.1532, 9.8706], [48.1533, 9.8896], [48.1497, 9.8991], [48.1507, 9.9092], [48.149, 9.9232], [48.1524, 9.9402], [48.1551, 9.9451], [48.1588, 9.9529], [48.1664, 9.9624], [48.1734, 9.9712], [48.1756, 9.9759], [48.1795, 9.9822], [48.1844, 9.9964], [48.1868, 10.0135], [48.1882, 10.0205], [48.1896, 10.0305], [48.195, 10.0437], [48.2022, 10.0442], [48.2026, 10.0661], [48.2031, 10.0782], [48.2076, 10.1011], [48.2151, 10.1153], [48.2194, 10.1229], [48.2218, 10.1285], [48.2287, 10.1434], [48.2312, 10.167], [48.2321, 10.18], [48.2364, 10.1894], [48.2393, 10.2034], [48.243, 10.2154], [48.2426, 10.2315], [48.2358, 10.2652], [48.237, 10.288], [48.2371, 10.3006], [48.2339, 10.3147], [48.2329, 10.3193], [48.2351, 10.3305], [48.2393, 10.3462], [48.2415, 10.3566], [48.243, 10.3622], [48.2438, 10.3649], [48.2441, 10.3703], [48.2436, 10.3762], [48.245, 10.3937], [48.2485, 10.4091], [48.2529, 10.4242], [48.2625, 10.4375], [48.2649, 10.4452], [48.2582, 10.4499], [48.2533, 10.4558], [48.2466, 10.4642], [48.2426, 10.4827], [48.243, 10.4892], [48.2417, 10.4933], [48.2358, 10.4989], [48.2318, 10.5156], [48.2275, 10.5271], [48.2293, 10.5376], [48.2252, 10.5421], [48.228, 10.5614], [48.2261, 10.5806], [48.2242, 10.5889], [48.2265, 10.592], [48.2219, 10.5969], [48.2196, 10.6066], [48.2136, 10.6119], [48.213, 10.6144], [48.2126, 10.6242], [48.2071, 10.6308], [48.207, 10.6458], [48.2053, 10.6503], [48.1962, 10.6575], [48.1886, 10.6732], [48.1861, 10.6856], [48.187, 10.691], [48.1993, 10.7018], [48.199, 10.7092], [48.1931, 10.7251], [48.1896, 10.7377], [48.1767, 10.742], [48.1715, 10.738], [48.1676, 10.7391], [48.1656, 10.7483], [48.1661, 10.7574], [48.1699, 10.7825], [48.1747, 10.8144], [48.1728, 10.831], [48.173, 10.8392], [48.161, 10.8379], [48.1574, 10.8382], [48.1557, 10.8427], [48.1512, 10.8591], [48.1509, 10.8669], [48.1508, 10.8775], [48.1491, 10.892], [48.1474, 10.9128], [48.1464, 10.9248], [48.1432, 10.9409], [48.1392, 10.9601], [48.1307, 10.9818], [48.1219, 10.9941], [48.1231, 11.006], [48.1228, 11.0191], [48.1229, 11.0253], [48.1212, 11.0299], [48.117, 11.042], [48.107, 11.0651], [48.1067, 11.0777], [48.1088, 11.0847], [48.1069, 11.0916], [48.1032, 11.105], [48.0969, 11.1152], [48.0886, 11.1154], [48.0835, 11.1146], [48.078, 11.1146], [48.0782, 11.1237], [48.0836, 11.1473], [48.0853, 11.1531], [48.0843, 11.1619], [48.0842, 11.1759], [48.0849, 11.1872], [48.0853, 11.1974], [48.085, 11.2019], [48.087, 11.2189], [48.0877, 11.2269], [48.0919, 11.2375], [48.0923, 11.2452], [48.0918, 11.2554], [48.0926, 11.2683], [48.0942, 11.279], [48.0944, 11.285], [48.0982, 11.2887], [48.103, 11.2966], [48.1059, 11.3051], [48.1027, 11.3076], [48.1001, 11.3097], [48.0959, 11.3139], [48.0954, 11.3142], [48.0976, 11.3274], [48.1088, 11.3455], [48.117, 11.3814], [48.1222, 11.4006], [48.1298, 11.4139], [48.1273, 11.4331], [48.1269, 11.4472], [48.1236, 11.4852], [48.1255, 11.5038], [48.1283, 11.5142], [48.1343, 11.5227], [48.1385, 11.5282], [48.1396, 11.54], [48.1375, 11.5528], [48.1372, 11.5647], [48.1327, 11.5671], [48.1338, 11.5741], [48.1346, 11.5806], [48.1352, 11.5821]], "n": [[48.09844, 9.78999, "Nuit 1 : Biberach an der Riß"], [48.1351, 11.582, "Nuit 2 : Munich"]], "v": [[48.53943, 8.09438, "Schauenburg"], [48.36771, 8.80372, "Schloss Haigerloch"], [48.34746, 8.72283, "Kloster Bernstein"], [48.18634, 9.69182, "Krippenmuseum"], [48.24111, 10.13334, "Museum der Gartenkultur"], [48.24303, 10.3629, "Altes Rathaus"], [48.32795, 10.37058, "Hammerschmiede Naichen und Stockerhof"], [48.14295, 11.41249, "Ehem. Zwangsarbeiterlager Neuaubing"]]};
+const map=L.map("itMap");
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"&copy; OpenStreetMap"}).addTo(map);
+const ligne=L.polyline(TR.c,{color:"#075985",weight:5}).addTo(map);
+TR.n.slice(0,-1).forEach(p=>L.marker([p[0],p[1]]).addTo(map).bindPopup(p[2]));
+TR.v.forEach(p=>L.circleMarker([p[0],p[1]],{radius:6,color:"#c8322b",weight:2,fillColor:"#fff",fillOpacity:1}).addTo(map).bindPopup(p[2]));
+map.fitBounds(ligne.getBounds().pad(0.1));
+</script>
+</body>
+</html>

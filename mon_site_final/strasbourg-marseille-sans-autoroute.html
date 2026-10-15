@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Strasbourg Marseille sans autoroute : itinéraire, étapes et coût | MyHotelCompare</title>
+<meta name="description" content="Strasbourg Marseille sans autoroute : 799 km, 4 jours, 57 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<link rel="canonical" href="https://myhotelcompare.com/strasbourg-marseille-sans-autoroute.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Strasbourg Marseille sans autoroute : itinéraire, étapes et coût">
+<meta property="og:description" content="Strasbourg Marseille sans autoroute : 799 km, 4 jours, 57 € de péages évités. Étapes, visites, restaurants et comparaison avec l&#x27;autoroute.">
+<meta property="og:url" content="https://myhotelcompare.com/strasbourg-marseille-sans-autoroute.html">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Quelle est la distance de Strasbourg à Marseille sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Environ 799 km, soit 14 h 42 de conduite et 4 jours à raison d'environ 4 h par jour. Par l'autoroute, le trajet fait 805 km en 7 h 40."}}, {"@type": "Question", "name": "Combien coûte le trajet de Strasbourg à Marseille ?", "acceptedAnswer": {"@type": "Answer", "text": "Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 82 € sans autoroute contre 157 € par l'autoroute (péages compris). Les repas, les visites et l'hébergement ne sont pas inclus."}}, {"@type": "Question", "name": "Où s'arrêter entre Strasbourg et Marseille ?", "acceptedAnswer": {"@type": "Answer", "text": "Les étapes proposées sont : Rioz, Ambérieu-en-Bugey, Charols, Marseille. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit."}}, {"@type": "Question", "name": "Y a-t-il des péages entre Strasbourg et Marseille sans autoroute ?", "acceptedAnswer": {"@type": "Answer", "text": "Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l'estimation."}}]}</script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<!-- Google Consent Mode v2 : refus par défaut tant que l'utilisateur n'a pas choisi -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'analytics_storage': 'denied'
+  });
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RLVNV2211J"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RLVNV2211J');
+</script>
+
+<link rel="icon" type="image/png" href="images/logo_5.png?v=2">
+<link rel="apple-touch-icon" href="images/logo_5.png?v=2">
+<style>
+:root {
+    --bg: #f2fbfd;
+    --bg-dark: #063247;
+    --panel: #e5f5f8;
+    --panel-strong: #c7eaf0;
+    --card: #ffffff;
+    --line: #b9dfe7;
+    --text: #123443;
+    --muted: #52717c;
+    --primary: #087f9b;
+    --primary-dark: #056078;
+    --secondary: #075985;
+    --success: #16805b;
+    --success-soft: #d7f4e7;
+    --warning: #e59a21;
+    --shadow: 0 18px 38px rgba(5, 96, 120, 0.14);
+}
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #f4fcfd 0%, #e7f6f8 100%);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px 16px 40px;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.site-header { margin-bottom: 24px; }
+.brand-lockup { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 18px; color: var(--text); }
+.brand-mark { width: 58px; height: 58px; object-fit: contain; border-radius: 16px; background: var(--panel-strong); padding: 5px; }
+.brand-lockup strong { display: block; color: var(--secondary); font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1; }
+.brand-lockup span { display: block; color: var(--muted); margin-top: 5px; font-size: 0.88rem; }
+h1, h2, h3, h4 { color: var(--text); }
+h1, h2 { font-family: Georgia, "Times New Roman", serif; }
+a { color: var(--secondary); }
+.site-footer { margin-top: 48px; background: linear-gradient(135deg, #063247, #075985); color: #effcff; border-radius: 22px; padding: 30px; box-shadow: var(--shadow); }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap: 28px; }
+.site-footer h3, .site-footer h4 { color: #b8f0f6; margin-top: 0; }
+.site-footer p, .site-footer li { color: #d6eef2; line-height: 1.6; }
+.site-footer a { color: #b8f0f6; text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+.footer-links { list-style: none; padding: 0; margin: 0; }
+.footer-links li { margin-bottom: 8px; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.18); margin-top: 24px; padding-top: 18px; display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; font-size: 0.85rem; }
+.footer-bottom p { margin: 0; }
+@media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } .brand-lockup { justify-content: flex-start; } }
+.top-nav {
+    display: flex; gap: 10px; flex-wrap: wrap;
+    background: linear-gradient(135deg, var(--secondary), var(--primary-dark));
+    padding: 14px 18px; border-radius: 18px; margin: 6px 0 22px;
+    box-shadow: var(--shadow); justify-content: center;
+}
+.top-nav a {
+    color: white; background: rgba(255,255,255,0.12);
+    padding: 10px 16px; border-radius: 12px; text-decoration: none;
+    font-weight: 700; border: 1px solid rgba(255,255,255,0.15);
+}
+.top-nav a:hover { background: rgba(255,255,255,0.2); }
+.card {
+    background: linear-gradient(180deg, #fffefb 0%, #fff8ef 100%);
+    border: 1px solid var(--line); border-radius: 20px;
+    padding: 24px; margin-bottom: 22px; box-shadow: var(--shadow);
+}
+.btn, .btn-booking, .btn-expedia {
+    display: inline-block; text-decoration: none; border-radius: 12px;
+    font-weight: 700; transition: transform 0.2s ease; cursor: pointer;
+}
+.btn:hover, .btn-booking:hover, .btn-expedia:hover { transform: translateY(-1px); }
+.btn { background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: white; padding: 12px 18px; }
+.btn-booking { display: block; background: linear-gradient(135deg, #0f3d85, #1d5bbf); color: white; padding: 12px 16px; text-align: center; margin-bottom: 10px; }
+.btn-expedia { display: block; background: linear-gradient(135deg, #ffca28, #f59e0b); color: #3f2a00; padding: 12px 16px; text-align: center; }
+.btn-site-officiel { display: block; background: linear-gradient(135deg, var(--secondary), var(--primary-dark)); color: white; padding: 12px 16px; text-align: center; }
+.hero-banner {
+    background: linear-gradient(135deg, #0a7892 0%, #086b8d 45%, #064e72 100%);
+    border-radius: 24px; padding: 28px; border: 1px solid rgba(5,78,114,0.22); color: #f2fdff; box-shadow: var(--shadow);
+}
+.hero-badges { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 18px; }
+.hero-badges span {
+    background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.24); color: #f2fdff; border-radius: 999px; padding: 7px 12px; font-weight: 700; font-size: 0.82rem;
+}
+.glass-box { background: rgba(255,255,255,0.72); border: 1px solid var(--line); border-radius: 18px; padding: 18px; }
+.filters-box {
+    background: linear-gradient(180deg, #e3f5f8 0%, #f8fdfe 100%);
+    border: 1px solid var(--line); border-radius: 18px; padding: 20px; margin: 24px 0 18px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; box-shadow: var(--shadow);
+}
+.filters-box label { color: var(--muted); display: block; margin-bottom: 8px; font-weight: 700; }
+.filters-box select {
+    width: 100%; padding: 11px 12px; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: var(--text); font-size: 0.97rem;
+}
+.btn-compare { width: 100%; border: none; background: linear-gradient(135deg, var(--success), #16a34a); color: white; padding: 14px 18px; border-radius: 14px; font-size: 1rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
+.comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.smart-results-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.smart-results-grid .card { margin-bottom: 0; }
+.rental-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.rental-grid .card { padding: 16px; margin-bottom: 0; }
+.rental-grid h3 { font-size: 1.05rem; }
+.rental-grid p { font-size: 0.86rem; line-height: 1.45; }
+.review-card {
+    background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%);
+    border: 1px solid var(--line); border-radius: 16px; padding: 18px; min-height: 170px;
+}
+.review-card .stars { color: var(--warning); font-size: 1.1rem; letter-spacing: 2px; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 16px; margin-top: 18px; }
+.stat-item { background: rgba(255,255,255,0.5); border: 1px solid rgba(130,90,20,0.15); border-radius: 16px; padding: 18px; }
+.stat-item strong { display: block; font-size: 1.5rem; }
+.testimonial-section > h2 { color: var(--text) !important; }
+.testimonial-section > div > div { background: linear-gradient(180deg, #fffaf6 0%, #fff1e0 100%) !important; border-color: var(--line) !important; }
+.testimonial-section > div > div p { color: var(--muted) !important; }
+.testimonial-section > div > div p:first-child { color: var(--warning) !important; }
+.testimonial-section > div > div p strong { color: var(--text) !important; }
+@media (max-width: 900px) { .rental-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 1000px) { .smart-results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 768px) { .comparison-grid { grid-template-columns: 1fr; } .smart-results-grid { grid-template-columns: 1fr; } .rental-grid { grid-template-columns: 1fr; } .top-grid { grid-template-columns: 1fr !important; } }
+.cookie-banner {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+    background: #063247; color: #effcff; padding: 18px 20px;
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+    gap: 16px; box-shadow: 0 -8px 24px rgba(0,0,0,0.25);
+}
+.cookie-banner p { margin: 0; max-width: 640px; font-size: 0.92rem; line-height: 1.5; }
+.cookie-banner a { color: #b8f0f6; }
+.cookie-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie-actions button {
+    border: none; border-radius: 10px; padding: 10px 18px; font-weight: 700; cursor: pointer;
+}
+.cookie-accept { background: var(--primary); color: white; }
+.cookie-refuse { background: rgba(255,255,255,0.15); color: white; }
+.fiche-photo-carte { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 15px 0; align-items: stretch; }
+.fiche-photo-carte img, .fiche-photo-carte iframe { width: 100%; height: 260px; object-fit: cover; border-radius: 16px; border: 0; }
+@media (max-width: 600px) { .fiche-photo-carte { grid-template-columns: 1fr; } .fiche-photo-carte img, .fiche-photo-carte iframe { height: 220px; } }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 20px; }
+.btn-itineraire {
+    display: inline-block; padding: 14px 24px; border-radius: 14px; font-weight: 800;
+    background: rgba(255,255,255,0.14); color: #fff; text-decoration: none;
+    border: 1.5px solid rgba(255,255,255,0.6);
+}
+.btn-itineraire:hover { background: rgba(255,255,255,0.26); }
+.btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+</style>
+
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrld.ltd/NTcxODA1.js?t=571805';
+      document.head.appendChild(script);
+  })();
+</script>
+
+<style>
+.it-road{display:inline-block;min-width:36px;text-align:center;padding:0 7px;border-radius:5px;font-weight:800;font-size:.8rem;line-height:22px}
+.it-road.N{background:#c8322b;color:#fff}
+.it-road.D{background:#f2c230;color:#123443;box-shadow:inset 0 0 0 2px #123443}
+.it-form{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin:24px 0;align-items:end}
+.it-form label{display:block;font-weight:700;color:var(--muted);margin-bottom:6px}
+.it-form input,.it-form select{width:100%;padding:11px 12px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--text);font-size:.97rem}
+.it-msg{padding:12px 16px;border-radius:12px;margin-bottom:18px;font-weight:600}
+.it-msg.err{background:#fde8e6;color:#9a2a22}.it-msg.info{background:var(--panel);color:var(--secondary)}
+#itRes{display:none}
+.it-cmp{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 14px}
+.it-cmp .glass-box.win{border:2px solid var(--success)}
+.it-cmp h2{font-size:1.15rem;margin:0 0 10px}
+.it-row{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid var(--line)}
+.it-row:last-child{border:0}
+.it-save{background:var(--success-soft);color:var(--success);border-radius:12px;padding:12px 16px;font-weight:700;margin-bottom:8px}
+.it-note{color:var(--muted);font-size:.85rem;margin:0 0 22px}
+#itMap{height:380px;border-radius:16px;margin-bottom:22px;box-shadow:var(--shadow)}
+.it-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.it-tab{font:inherit;font-weight:700;cursor:pointer;background:#fff;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:9px 18px}
+.it-tab[aria-selected=true]{background:var(--secondary);color:#fff;border-color:var(--secondary)}
+.it-tab:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+.it-dayhead{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.it-dayhead h2{margin:0;font-size:1.4rem}
+.it-dayhead span{color:var(--muted)}
+.it-roads{display:flex;gap:10px 14px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+.it-roads small{color:var(--muted)}
+.it-bloc{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-bottom:14px}
+.it-bloc h3{margin:0 0 8px;font-size:1.05rem}
+.it-lieux{list-style:none;margin:0;padding:0}
+.it-lieu{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
+.it-lieu:last-child{border:0}
+.it-lieu small{display:block;color:var(--muted)}
+.it-vig{flex:0 0 76px;width:76px;height:76px;border-radius:12px;overflow:hidden;background:var(--panel);display:flex;align-items:center;justify-content:center;font-size:2rem}
+.it-vig img{width:100%;height:100%;object-fit:cover;display:block}
+.it-txt{flex:1;min-width:0}
+.it-res{margin:4px 0 2px;font-size:.9rem;line-height:1.45}
+.it-meta{margin-top:2px;font-size:.82rem}
+.it-liens{display:flex;gap:12px;flex-wrap:wrap;align-self:center}
+.it-liens a{font-weight:700;white-space:nowrap}
+.it-wait{color:var(--muted);margin:0}
+.it-budget{margin-bottom:22px}
+.it-bt{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:8px 12px;align-items:center}
+.it-bt .fort{font-weight:800;border-top:1px solid var(--line);padding-top:8px}
+.it-bt small{color:var(--muted)}
+.it-btn.s{background:var(--secondary);color:#fff;border:0;cursor:pointer;font-family:inherit}
+.it-share-msg{align-self:center;color:var(--success);font-weight:700}
+.it-urlcopy{width:100%;max-width:440px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:.85rem}
+.it-all{margin-bottom:18px}
+.it-all p{margin:6px 0 0}
+.it-gps{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px}
+.it-btn{display:inline-block;padding:10px 16px;border-radius:12px;font-weight:700;text-decoration:none;font-size:.95rem}
+.it-btn.g{background:#1a73e8;color:#fff}
+.it-btn.w{background:#33ccff;color:#06364a}
+.it-btn:hover{filter:brightness(.95)}
+.it-btn:focus-visible{outline:3px solid var(--warning);outline-offset:2px}
+@media (max-width:620px){.it-cmp{grid-template-columns:1fr}.it-lieu{flex-wrap:wrap}.it-liens{flex-basis:100%;align-self:flex-start}}
+
+.tj-cmp .glass-box h2{margin-top:0}
+.tj-fil{font-size:.9rem;color:var(--muted);margin:0 0 10px}
+</style>
+</head>
+<body><div class="container">
+
+<header class="site-header">
+<div class="brand-lockup">
+    <img src="images/logo_5.svg" alt="Nomad" class="brand-mark">
+    <div><strong>MyHotelCompare</strong><span>Nomad, le comparateur intelligent</span></div>
+</div>
+<div class="top-nav">
+    <a href="index.html">Accueil</a>
+    <a href="hotels.html">Hôtels</a>
+    <a href="compagnies-aeriennes.html">Compagnies Aériennes</a>
+    <a href="loueurs-vehicules.html">Location de Véhicules</a>
+    <a href="croisieres.html">Croisières</a>
+    <a href="itineraire-decouverte.html">Itinéraires</a>
+    <a href="blog.html">Blog</a>
+    <a href="vos-desirs-sont-des-ordres.html">Vos désirs sont des ordres</a>
+</div>
+</header>
+
+<p class="tj-fil"><a href="index.html">Accueil</a> &gt; <a href="trajets-sans-autoroute.html">Trajets sans autoroute</a> &gt; Strasbourg Marseille</p>
+<div class="hero-banner">
+  <h1 style="color:#fff;margin:0 0 10px;font-size:clamp(1.6rem,3.6vw,2.4rem)">Strasbourg Marseille sans autoroute : itinéraire, étapes et coût</h1>
+  <p style="margin:0;max-width:760px;line-height:1.7;color:#effcff">Pour aller de Strasbourg à Marseille sans autoroute, comptez environ 799 km et 14 h 42 de conduite, soit 4 jours à raison d&#x27;environ 4 h de route par jour. Par l&#x27;autoroute, le même trajet fait 805 km en 7 h 40, avec environ 57 € de péages estimés.</p>
+</div>
+<p style="line-height:1.7">En évitant l&#x27;autoroute, vous économisez environ 75 € sur la route (péages et carburant), pour environ 7 h 02 de trajet en plus. Les routes les plus empruntées sont la D83 (76 km), la D538 (60 km), la D1083 (57 km). </p>
+<section class="it-cmp tj-cmp" aria-label="Comparatif avec l'autoroute">
+  <div class="glass-box"><h2>Par l'autoroute</h2><div class="it-row"><span>Distance</span><b>805 km</b></div><div class="it-row"><span>Temps de conduite</span><b>7 h 40</b></div><div class="it-row"><span>Péages</span><b>57 €</b></div><div class="it-row"><span>Carburant</span><b>100 €</b></div><div class="it-row"><span>Total route</span><b>157 €</b></div></div>
+  <div class="glass-box win"><h2>Parcours découverte</h2><div class="it-row"><span>Distance</span><b>799 km</b></div><div class="it-row"><span>Temps de conduite</span><b>14 h 42</b></div><div class="it-row"><span>Péages</span><b>0 €</b></div><div class="it-row"><span>Carburant</span><b>82 €</b></div><div class="it-row"><span>Total route</span><b>82 €</b></div></div>
+</section>
+<p class="it-note">Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, péage à 0,10 €/km sur les tronçons à péage. Montants indicatifs, mis à jour le 15 octobre 2026.</p>
+<p><a class="btn-compare" style="display:inline-block;text-decoration:none;width:auto;padding:14px 24px" href="itineraire-decouverte.html?d=Strasbourg+%28France%29&amp;dc=7.7521%2C48.5734&amp;dp=France&amp;a=Marseille+%28France%29&amp;ac=5.3698%2C43.2965&amp;ap=France&amp;r=4&amp;v=th&amp;c=6&amp;p=1.8&amp;n=2&amp;m=45&amp;utm_source=pages-trajets&amp;utm_medium=site&amp;utm_campaign=trajet">Calculer avec mon véhicule</a></p>
+<div id="itMap"></div>
+<section><h2>Jour 1 : Strasbourg à Rioz</h2><p class="it-wait">216 km, 3 h 50 de conduite</p><div class="it-roads"><span><span class="it-road D">D83</span> <small>76 km</small></span><span><span class="it-road D">D9</span> <small>31 km</small></span><span><span class="it-road D">D514</span> <small>26 km</small></span><span><span class="it-road D">D15</span> <small>16 km</small></span><span><span class="it-road D">D49</span> <small>14 km</small></span><span><span class="it-road D">D42</span> <small>12 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🏛️</div><div class="it-txt"><b>Maison du Pain d&#x27;Alsace</b><small>Musée</small><small class="it-meta">📍 Rue du Sel, Sélestat</small><small class="it-meta">🕒 mar-sam 09:00-18:00 ; dim 09:00-12:30,14:00-18:00</small><small class="it-meta">entrée gratuite</small><small class="it-meta">📞 <a href="tel:+33388584590">+33 3 88 58 45 90</a></small></div><span class="it-liens"><a href="https://maisondupain.alsace" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Maison%20du%20Pain%20d%27Alsace/@48.25992,7.4557,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Bergheim_rEglise_5a.JPG/330px-Bergheim_rEglise_5a.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Ancienne Maison d&#x27;école</b><small>Patrimoine</small><p class="it-res">La maison d&#x27;école est un monument historique situé à Bergheim, dans le département français du Haut-Rhin.</p><small class="it-meta">📍 Rue de l&#x27;Église, Bergheim</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Maison_d&#x27;%C3%A9cole_de_Bergheim" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ancienne%20Maison%20d%27%C3%A9cole/@48.20445,7.36426,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Stuivekenskerke_-_Demarcatiepaal_nr_11.jpg/330px-Stuivekenskerke_-_Demarcatiepaal_nr_11.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Borne Vauthier</b><small>Patrimoine</small><p class="it-res">Les bornes Vauthier également appelées bornes du front sont un ensemble de bornes sculptées par l&#x27;artiste Paul Moreau-Vauthier érigées le long de routes dans les années 1920 pour matérialiser la ligne de front de la mer du Nord à…</p><small class="it-meta">📍 D 483, Burnhaupt-le-Haut</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Bornes_Vauthier" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Borne%20Vauthier/@47.73542,7.1363,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/2021-04-13_16-52-13_dolmen-Brevilliers.jpg/330px-2021-04-13_16-52-13_dolmen-Brevilliers.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Dolmen</b><small>Patrimoine</small><p class="it-res">Le dolmen des Issières, connu localement sous le nom de Pierre des Gaulois, est un dolmen situé à Brevilliers, dans le département français de la Haute-Saône.</p><small class="it-meta">📍 Vers Champ Morel, Brevilliers</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Dolmen_des_Issi%C3%A8res" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Dolmen/@47.5777,6.80067,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Au lion d&#x27;or</b><small>Cuisine régionale</small><small class="it-meta">📍 1 Rue de Guewenheim, Burnhaupt-le-Haut</small><small class="it-meta">📞 <a href="tel:+33389487304">+33 3 89487304</a></small></div><span class="it-liens"><a href="https://www.auliondor68.fr" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Au%20lion%20d%27or/@47.74022,7.14426,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍝</div><div class="it-txt"><b>Aux 100 pâtes</b><small>Cuisine italienne</small><small class="it-meta">📍 7 Rue du Canal, Dannemarie</small><small class="it-meta">🕒 mer-dim 10:00-21:00</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+33389257595">+33 3 89 25 75 95</a></small></div><span class="it-liens"><a href="https://www.aux100pates.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Aux%20100%20p%C3%A2tes/@47.63552,7.11569,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le 240</b><small>Cuisine française</small><small class="it-meta">📍 240 Rue Nicolas Koechlin, Aspach-Michelbach</small><small class="it-meta">🕒 lun-ven 11:45-13:45</small><small class="it-meta">📞 <a href="tel:+33310450844">+33 3 10 45 08 44</a></small></div><span class="it-liens"><a href="https://www.facebook.com/people/Restaurant-LE-240/61552799216687/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Le%20240/@47.79061,7.13237,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Rioz</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Les Routiers La Charmotte</b><small>Cuisine française</small><small class="it-meta">📍 Route de Besançon, Hyet</small><small class="it-meta">📞 <a href="tel:+33384918054">+33 3 84 91 80 54</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Les%20Routiers%20La%20Charmotte/@47.47246,6.09843,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Rioz</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Rioz%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Rioz</a></div></section><section><h2>Jour 2 : Rioz à Ambérieu-en-Bugey</h2><p class="it-wait">212 km, 3 h 29 de conduite</p><div class="it-roads"><span><span class="it-road D">D1083</span> <small>57 km</small></span><span><span class="it-road D">D22</span> <small>28 km</small></span><span><span class="it-road D">D996</span> <small>14 km</small></span><span><span class="it-road D">D31</span> <small>11 km</small></span><span><span class="it-road D">D71</span> <small>10 km</small></span><span><span class="it-road D">D117</span> <small>10 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Baraques_du_14_016.JPG/330px-Baraques_du_14_016.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Les Baraques du 14</b><small>Musée</small><p class="it-res">Les baraques du hameau 14 de la forêt de Chaux sont un ancien hameau forestier de la forêt de Chaux, devenu écomusée en 1990, à La Vieille-Loye, dans le Jura, en Bourgogne-Franche-Comté.</p><small class="it-meta">📍 Les Baraques, La Vieille-Loye</small><small class="it-meta">entrée payante, accessible en fauteuil roulant</small><small class="it-meta">📞 <a href="tel:+33384725098">+33 3 84 72 50 98</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Baraques_du_14_de_la_for%C3%AAt_de_Chaux" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Les%20Baraques%20du%2014/@47.05488,5.64032,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Saline_royale_d%27Arc-et-Senans_nord.jpg/330px-Saline_royale_d%27Arc-et-Senans_nord.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Saline royale d&#x27;Arc-et-Senans</b><small>Patrimoine</small><p class="it-res">La saline royale d&#x27;Arc-et-Senans est une ancienne saline du XVIIIe siècle en activité jusqu&#x27;en 1895. Elle est située à Arc-et-Senans dans le Doubs en Franche-Comté.</p><small class="it-meta">📍 Avenue de la Saline, Arc-et-Senans</small><small class="it-meta">🕒 9:00-18:00</small><small class="it-meta">📞 <a href="tel:+33381544500">+33 3 81 54 45 00</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Saline_royale_d&#x27;Arc-et-Senans" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.salineroyale.com" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Saline%20royale%20d%27Arc-et-Senans/@47.03354,5.77736,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Le_Pin_%28jura%29_le_ch%C3%A2teau.JPG/330px-Le_Pin_%28jura%29_le_ch%C3%A2teau.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château du Pin</b><small>Château</small><p class="it-res">Le château du Pin est un ancien château fort du XIIIe siècle qui se dresse sur la commune française du Pin, dans le département du Jura, en région Franche-Comté.</p><small class="it-meta">📍 Route du Montier, Le Pin</small><small class="it-meta">📞 <a href="tel:+33384253295">+33 3 84 25 32 95</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_du_Pin_(Jura)" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20du%20Pin/@46.71006,5.5772,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Calvaire_de_dingier.jpg/330px-Calvaire_de_dingier.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Calvaire</b><small>Patrimoine</small><p class="it-res">Le calvaire de Dingier est un calvaire situé à Salavre, en France.</p><small class="it-meta">📍 Route Principale, Salavre</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Calvaire_de_Dingier" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Calvaire/@46.36072,5.3667,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🥡</div><div class="it-txt"><b>Monsieur Wok</b><small>Cuisine asiatique</small><small class="it-meta">📍 2 A Avenue Maillot, Montmorot</small><small class="it-meta">🕒 mar-dim 12:00-14:00,19:00-22:15</small><small class="it-meta">terrasse, à emporter</small><small class="it-meta">📞 <a href="tel:+33384251602">+33 3 84 25 16 02</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Monsieur%20Wok/@46.67755,5.51687,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le Bistrot d&#x27;Hugo</b><small>Cuisine régionale</small><small class="it-meta">📍 Avenue de Chalon, Courlans</small><small class="it-meta">🕒 mar-dim 12:00-14:00 ; ven 12:00-14:00,19:00-22:00 ; sam 19:00-22:00</small><small class="it-meta">à emporter</small><small class="it-meta">📞 <a href="tel:+33384477147">+33 3 84 47 71 47</a></small></div><span class="it-liens"><a href="https://www.lebistrodhugo.com" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Le%20Bistrot%20d%27Hugo/@46.67586,5.49549,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>La Charmille</b><small>Cuisine régionale</small><small class="it-meta">📍 570 Route de Lyon, Messia-sur-Sorne</small><small class="it-meta">🕒 lun-ven 06:00-21:00 ; sam 07:00-21:00 ; dim 08:00-15:30</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+33384471055">+33 3 84 47 10 55</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/La%20Charmille/@46.66236,5.52034,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Ambérieu-en-Bugey</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Boutique_%C3%94_Galettes_de_Sophie_%C3%A0_P%C3%A9rouges_(rue_des_Rondes)_%C3%A0_P%C3%A9rouges.jpg?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Ô Galettes de Sophie</b><small>Cuisine régionale</small><small class="it-meta">📍 Rue des Rondes, Pérouges</small><small class="it-meta">à emporter</small><small class="it-meta">📞 <a href="tel:+33677997738">+33 6 77 99 77 38</a></small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/%C3%94%20Galettes%20de%20Sophie/@45.90372,5.17988,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/L&#x27;Auberge_du_Coq_%C3%A0_P%C3%A9rouges_en_mars_2022_(2).JPG?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Auberge du Coq</b><small>Cuisine française</small><small class="it-meta">📍 Rue des Rondes, Pérouges</small><small class="it-meta">📞 <a href="tel:+33474610547">+33 4 74 61 05 47</a></small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.auberge-du-coq.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Auberge%20du%20Coq/@45.90369,5.17997,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Chez Lucio</b><small>Pizzeria</small><small class="it-meta">📍 Route de Chalamont, Meximieux</small><small class="it-meta">🕒 mer,jeu 12:00-14:00,18:00-21:30 ; ven,sam 12:00-14:00,18:00-22:00 ; dim 18:00-21:30</small><small class="it-meta">à emporter</small><small class="it-meta">📞 <a href="tel:+33474613758">+33 4 74 61 37 58</a></small></div><span class="it-liens"><a href="https://pizzeria-chezluccio-meximieux.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Chez%20Lucio/@45.91328,5.19225,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Ambérieu-en-Bugey</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Amb%C3%A9rieu-en-Bugey%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Ambérieu-en-Bugey</a></div></section><section><h2>Jour 3 : Ambérieu-en-Bugey à Charols</h2><p class="it-wait">188 km, 3 h 46 de conduite</p><div class="it-roads"><span><span class="it-road D">D538</span> <small>47 km</small></span><span><span class="it-road D">D75</span> <small>29 km</small></span><span><span class="it-road D">D2532</span> <small>22 km</small></span><span><span class="it-road D">D113</span> <small>15 km</small></span><span><span class="it-road D">D65</span> <small>13 km</small></span><span><span class="it-road D">D38</span> <small>12 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🏰</div><div class="it-txt"><b>Château Marcel</b><small>Château</small><p class="it-res">Le château Marcel est un château situé route de Port-Galland sur la commune de Saint-Jean-de-Niost. C&#x27;est une ancienne maison forte vouée à l’exploitation agricole dès le XVIe siècle.</p><small class="it-meta">📍 Route de Port Galland, Saint-Jean-de-Niost</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_Marcel" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA)</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20Marcel/@45.82808,5.21879,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Vienne_mus%C3%A9e_de_l%27industrie_textile.jpg/330px-Vienne_mus%C3%A9e_de_l%27industrie_textile.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Musée de l&#x27;industrie textile</b><small>Musée</small><p class="it-res">Le musée de l’Industrie textile, un des cinq musées ou site de la ville de Vienne, est situé à Vienne dans la vallée de Gère. Il est installé dans l’ancienne usine Proplan depuis 2019.</p><small class="it-meta">📍 Rue Victor Faugier, Vienne</small><small class="it-meta">accessible en fauteuil roulant</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Mus%C3%A9e_de_l&#x27;industrie_textile" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://vienne.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Mus%C3%A9e%20de%20l%27industrie%20textile/@45.52738,4.88119,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Palais_Id%C3%A9al_%28East_facade%29_May_2014.jpg/330px-Palais_Id%C3%A9al_%28East_facade%29_May_2014.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Palais Idéal du Facteur Cheval</b><small>Patrimoine</small><p class="it-res">Le Palais idéal est un monument construit à Hauterives (France) par le facteur Ferdinand Cheval, de 1879 à 1912.</p><small class="it-meta">📍 Rue du Palais Idéal, Hauterives</small><small class="it-meta">entrée payante, accessible en fauteuil roulant</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Palais_id%C3%A9al" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.facteurcheval.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Palais%20Id%C3%A9al%20du%20Facteur%20Cheval/@45.25628,5.02847,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Tour_de_Crest.jpg/330px-Tour_de_Crest.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Tour de Crest</b><small>Château</small><p class="it-res">La tour de Crest est l&#x27;ancien donjon du château médiéval de Crest dans la Drôme (Auvergne-Rhône-Alpes). Elle s&#x27;élève à 52 mètres de hauteur.</p><small class="it-meta">📍 Chemin des Remparts, Crest</small><small class="it-meta">entrée payante</small><small class="it-meta">📞 <a href="tel:+33475253253">+33 4 75 25 32 53</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Tour_de_Crest" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://tourdecrest.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Tour%20de%20Crest/@44.73031,5.02355,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>L&#x27;Escale des Collines</b><small class="it-meta">📍 Ruelle de Montmartin, Moras-en-Valloire</small><small class="it-meta">📞 <a href="tel:+33475312590">+33 4 75 31 25 90</a></small></div><span class="it-liens"><a href="https://www.restaurantlescaledescollines.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/L%27Escale%20des%20Collines/@45.29017,4.99351,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le Pic Boeuf</b><small>Pizzeria</small><small class="it-meta">📍 Rue des Sources, Manthes</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Le%20Pic%20Boeuf/@45.30322,5.00774,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>L&#x27;Échatel</b><small class="it-meta">📍 Route de la Plaine, Lens-Lestang</small><small class="it-meta">à emporter</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/L%27%C3%89chatel/@45.29232,5.0423,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Charols</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Pizzeria Vintage</b><small>Pizzeria</small><small class="it-meta">📍 9 Place du Commerce, Cléon-d&#x27;Andran</small><small class="it-meta">📞 <a href="tel:+33475524356">+33 4 75 52 43 56</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Pizzeria%20Vintage/@44.61002,4.93453,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Le Cafoutch</b><small>Cuisine régionale</small><small class="it-meta">📍 Impasse de l&#x27;Église, Salettes</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Le%20Cafoutch/@44.56687,4.96638,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Pizzeria Grill Crêperie &quot;Chez Rose&quot;</b><small class="it-meta">📍 37 Route de Puy-Saint-Martin, Cléon-d&#x27;Andran</small><small class="it-meta">📞 <a href="tel:+33475013641">+33 4 75 01 36 41</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Pizzeria%20Grill%20Cr%C3%AAperie%20%22Chez%20Rose%22/@44.61149,4.93713,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Charols</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Charols%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Charols</a></div></section><section><h2>Jour 4 : Charols à Marseille</h2><p class="it-wait">183 km, 3 h 38 de conduite</p><div class="it-roads"><span><span class="it-road D">D907</span> <small>24 km</small></span><span><span class="it-road D">D113</span> <small>22 km</small></span><span><span class="it-road N">A551</span> <small>14 km</small></span><span><span class="it-road D">D538</span> <small>13 km</small></span><span><span class="it-road D">D9</span> <small>13 km</small></span><span><span class="it-road D">D976</span> <small>12 km</small></span></div><div class="it-bloc"><h3>À voir en chemin</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Ch%C3%A2teau_de_Grignan%2Cext%C3%A9rieur_%284%29.JPG/330px-Ch%C3%A2teau_de_Grignan%2Cext%C3%A9rieur_%284%29.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Château de Grignan</b><small>Musée</small><p class="it-res">Le château de Grignan est un château du XIIe siècle construit sur un piton rocheux dominant Grignan en Drôme provençale, transformé en forteresse au XIIIe siècle par la famille d&#x27;Adhémar.</p><small class="it-meta">📍 Rue de la Fourche, Grignan</small><small class="it-meta">entrée payante</small><small class="it-meta">📞 <a href="tel:+33475918350">+33 4 75 91 83 50</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Grignan" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.chateaux-ladrome.fr/fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Ch%C3%A2teau%20de%20Grignan/@44.41876,4.90892,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Le_P%C3%A8gue_Oppidum_Saint-Marcel.JPG/330px-Le_P%C3%A8gue_Oppidum_Saint-Marcel.JPG?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Oppidum du Pègue</b><small>Patrimoine</small><p class="it-res">L&#x27;oppidum Saint-Marcel, situé sur la commune du Pègue, dans la Drôme provençale, est un emporion qui a été en relation avec Massalia du VIe siècle avant notre ère jusqu&#x27;à l&#x27;an -49.</p><small class="it-meta">📍 Route de Celas, Le Pègue</small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Oppidum_Saint-Marcel" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Oppidum%20du%20P%C3%A8gue/@44.43366,5.05456,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Facade_2.jpg/330px-Facade_2.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Musée du Cartonnage et de l&#x27;Imprimerie</b><small>Musée</small><p class="it-res">Le musée du cartonnage et de l&#x27;imprimerie est un musée situé à Valréas, dans le Vaucluse. Installé dans un ancien local commercial, il regroupe deux types de collections.</p><small class="it-meta">📍 Avenue Maréchal Foch, Valréas</small><small class="it-meta">📞 <a href="tel:+33490355875">+33 4 90 35 58 75</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Mus%C3%A9e_du_cartonnage_et_de_l&#x27;imprimerie" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://www.vaucluse.fr/culture-et-patrimoine/les-musees-departementaux/le-musee-du-cartonnage-et-de-limprimerie-a-valreas-867.html" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Mus%C3%A9e%20du%20Cartonnage%20et%20de%20l%27Imprimerie/@44.38261,4.98743,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig"><img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Mus%C3%A9e_des_docks_romains_vue_g%C3%A9n%C3%A9rale.jpg/330px-Mus%C3%A9e_des_docks_romains_vue_g%C3%A9n%C3%A9rale.jpg?utm_source=fr.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>Musée des Docks romains</b><small>Musée</small><p class="it-res">Le musée des docks romains, situé 28 place Vivaux dans le 2e arrondissement de Marseille, présente in situ les vestiges d’un des rares entrepôts commerciaux romains connus dans le monde.</p><small class="it-meta">📍 Place Vivaux, Marseille</small><small class="it-meta">📞 <a href="tel:+33491912462">+33 4 91 91 24 62</a></small><small class="it-meta">texte : <a href="https://fr.wikipedia.org/wiki/Mus%C3%A9e_des_docks_romains" target="_blank" rel="noopener nofollow">Wikipédia</a> (CC BY-SA), image : Wikimedia</small></div><span class="it-liens"><a href="https://musee-histoire-marseille-voie-historique.fr/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Mus%C3%A9e%20des%20Docks%20romains/@43.29683,5.36804,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où déjeuner</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig">🥡</div><div class="it-txt"><b>Au Bonheur Gourmet</b><small>Cuisine asiatique</small><small class="it-meta">📍 94 Rue du Sous-Marin Casabianca, Avignon</small><small class="it-meta">🕒 lun-dim 12:00-15:00, 19:00-23:00</small><small class="it-meta">à emporter, livraison</small><small class="it-meta">📞 <a href="tel:+33490392380">+33490392380</a></small></div><span class="it-liens"><a href="https://aubonheurgourmet.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Au%20Bonheur%20Gourmet/@43.92277,4.85868,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Courtepaille</b><small>Cuisine française</small><small class="it-meta">📍 Allée de la Chartreuse, Avignon</small><small class="it-meta">🕒 lun-jeu 11:30-15:00,18:30-22:00 ; ven 11:30-15:00,18:30-23:00 ; sam 11:30-23:00 ; dim 11:30-22:00</small><small class="it-meta">terrasse, à emporter, accessible en fauteuil roulant, réservation conseillée</small><small class="it-meta">📞 <a href="tel:+33490841960">+33 4 90 84 19 60</a></small></div><span class="it-liens"><a href="https://restaurants.courtepaille.com/restaurant-avignon-aerodrome-id93" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Courtepaille/@43.9034,4.89663,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🥡</div><div class="it-txt"><b>Wok D&#x27;asie</b><small>Cuisine asiatique</small><small class="it-meta">📍 102 Chemin de l&#x27;Oratoire, Châteaurenard</small><small class="it-meta">🕒 mar-dim 12:00-14:00, 19:00-22:00</small><small class="it-meta">📞 <a href="tel:+33430220414">+33430220414</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Wok%20D%27asie/@43.88873,4.85262,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Où dîner à Marseille</h3><ul class="it-lieux"><li class="it-lieu"><div class="it-vig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/La_Caravelle.jpg?width=320" alt="" loading="lazy" width="76" height="76"></div><div class="it-txt"><b>La Caravelle</b><small>Cuisine fish</small><small class="it-meta">📍 34 Quai du Port, Marseille</small><small class="it-meta">terrasse</small><small class="it-meta">📞 <a href="tel:+33491903664">+33 4 91 90 36 64</a></small><small class="it-meta">image : Wikimedia</small></div><span class="it-liens"><a href="https://www.lacaravelle-marseille.com/" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/La%20Caravelle/@43.2965,5.37205,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Yassou greek pita</b><small>Cuisine grecque</small><small class="it-meta">📍 36 Grand Rue, Marseille</small><small class="it-meta">🕒 mar-sam 12:00-16:00</small></div><span class="it-liens"><a href="https://www.instagram.com/yassou_marseille" target="_blank" rel="noopener nofollow">Site</a><a href="https://www.google.com/maps/search/Yassou%20greek%20pita/@43.29793,5.37137,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li><li class="it-lieu"><div class="it-vig">🍽️</div><div class="it-txt"><b>Vinoneo</b><small>Cuisine régionale</small><small class="it-meta">📍 6 Place Daviel, Marseille</small><small class="it-meta">📞 <a href="tel:+33491904026">+33 4 91 90 40 26</a></small></div><span class="it-liens"><a href="https://www.google.com/maps/search/Vinoneo/@43.29783,5.36933,16z" target="_blank" rel="noopener nofollow">Carte</a></span></li></ul></div><div class="it-bloc"><h3>Dormir à Marseille</h3><a class="btn-booking" style="display:inline-block" href="https://www.booking.com/searchresults.fr.html?ss=Marseille%2C%20France&amp;group_adults=2&amp;no_rooms=1&amp;group_children=0&amp;aid=8012379" target="_blank" rel="noopener sponsored nofollow">Chercher un hôtel à Marseille</a></div></section>
+<section class="glass-box it-seo" style="margin:24px 0"><h2 style="margin-top:0">Questions fréquentes</h2><details><summary><b>Quelle est la distance de Strasbourg à Marseille sans autoroute ?</b></summary><p>Environ 799 km, soit 14 h 42 de conduite et 4 jours à raison d&#x27;environ 4 h par jour. Par l&#x27;autoroute, le trajet fait 805 km en 7 h 40.</p></details><details><summary><b>Combien coûte le trajet de Strasbourg à Marseille ?</b></summary><p>Estimations pour un véhicule thermique consommant 6 l/100 km, avec le carburant à 1,8 €/l, la route coûte environ 82 € sans autoroute contre 157 € par l&#x27;autoroute (péages compris). Les repas, les visites et l&#x27;hébergement ne sont pas inclus.</p></details><details><summary><b>Où s&#x27;arrêter entre Strasbourg et Marseille ?</b></summary><p>Les étapes proposées sont : Rioz, Ambérieu-en-Bugey, Charols, Marseille. Pour chaque journée, la page indique des lieux à visiter, des restaurants pour le déjeuner et le dîner, et un lien pour réserver une nuit.</p></details><details><summary><b>Y a-t-il des péages entre Strasbourg et Marseille sans autoroute ?</b></summary><p>Le parcours évite les autoroutes à péage. Quelques ouvrages (tunnels, ponts) peuvent rester payants : ils ne sont pas inclus dans l&#x27;estimation.</p></details></section>
+<h2>Autres trajets</h2><ul><li><a href="strasbourg-barcelone-sans-autoroute.html">Strasbourg Barcelone sans autoroute</a></li><li><a href="strasbourg-nice-sans-autoroute.html">Strasbourg Nice sans autoroute</a></li><li><a href="strasbourg-milan-sans-autoroute.html">Strasbourg Milan sans autoroute</a></li><li><a href="paris-marseille-sans-autoroute.html">Paris Marseille sans autoroute</a></li><li><a href="strasbourg-lyon-sans-autoroute.html">Strasbourg Lyon sans autoroute</a></li><li><a href="strasbourg-lausanne-sans-autoroute.html">Strasbourg Lausanne sans autoroute</a></li><li><a href="strasbourg-munich-sans-autoroute.html">Strasbourg Munich sans autoroute</a></li><li><a href="strasbourg-annecy-sans-autoroute.html">Strasbourg Annecy sans autoroute</a></li></ul>
+<p class="it-note">Les lieux et restaurants viennent d'OpenStreetMap et de Wikipédia : vérifiez les horaires avant de partir. Itinéraire calculé avec <a href="https://openrouteservice.org/" target="_blank" rel="noopener">OpenRouteService</a>, lieux via <a href="https://www.geoapify.com/" target="_blank" rel="noopener">Geoapify</a>, données &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</p>
+
+
+<div id="cookie-banner" class="cookie-banner" style="display:none;">
+    <p>Nous utilisons des cookies pour mesurer l'audience du site (Google Analytics). Vous pouvez accepter ou refuser ce suivi. Voir notre <a href="confidentialite.html">politique de confidentialité</a>.</p>
+    <div class="cookie-actions">
+        <button class="cookie-refuse" onclick="setCookieConsent(false)">Refuser</button>
+        <button class="cookie-accept" onclick="setCookieConsent(true)">Accepter</button>
+    </div>
+</div>
+<script>
+(function() {
+    function setCookieConsent(accepted) {
+        localStorage.setItem('cookie_consent', accepted ? 'granted' : 'denied');
+        gtag('consent', 'update', {
+            'analytics_storage': accepted ? 'granted' : 'denied'
+        });
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+    window.setCookieConsent = setCookieConsent;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var saved = localStorage.getItem('cookie_consent');
+        if (saved === 'granted') {
+            gtag('consent', 'update', { 'analytics_storage': 'granted' });
+        } else if (saved === null) {
+            document.getElementById('cookie-banner').style.display = 'flex';
+        }
+        
+    });
+})();
+</script>
+
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <h3>Nomad</h3>
+            <p>Le compagnon de voyage qui vous aide à choisir plus vite et à partir plus serein.</p>
+        </div>
+        <div>
+            <h4>Explorer</h4>
+            <ul class="footer-links">
+                <li><a href="hotels.html">Hôtels</a></li>
+                <li><a href="vos-desirs-sont-des-ordres.html">Recherche intelligente</a></li>
+                <li><a href="compagnies-aeriennes.html">Compagnies aériennes</a></li>
+                <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
+                <li><a href="croisieres.html">Croisières</a></li>
+                <li><a href="itineraire-decouverte.html">Itinéraire découverte</a></li>
+                <li><a href="trajets-sans-autoroute.html">Trajets sans autoroute</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>À propos</h4>
+            <ul class="footer-links">
+                <li><a href="apropos.html">À propos de nous</a></li>
+                <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+                <li><a href="mentions-legales.html">Mentions légales</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Conseils de voyage</a></li>
+                <li><a href="index.html#avis">Avis voyageurs</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Votre retour compte</h4>
+            <p>Une remarque ou une idée ? Contactez-nous directement sur Facebook.</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener">Nous contacter sur Facebook</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>©2026 Myhotelcompare . Tous droits réservés.</p>
+        <p><a href="index.html">Accueil</a> · <a href="blog.html">Blog</a> · Propulsé par l'IA</p>
+    </div>
+</footer>
+
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const TR={"c": [[48.573, 7.7521], [48.5711, 7.7337], [48.5636, 7.7332], [48.5369, 7.7145], [48.5311, 7.6932], [48.5137, 7.6971], [48.4943, 7.6796], [48.4838, 7.6727], [48.4236, 7.6408], [48.3759, 7.5952], [48.3588, 7.5676], [48.345, 7.5461], [48.3235, 7.515], [48.3067, 7.5006], [48.2996, 7.4944], [48.2882, 7.4772], [48.2758, 7.4629], [48.2639, 7.4518], [48.2542, 7.4407], [48.2418, 7.4286], [48.2179, 7.4035], [48.2141, 7.385], [48.2085, 7.3994], [48.1852, 7.3885], [48.1652, 7.3756], [48.1519, 7.3715], [48.1311, 7.3659], [48.1175, 7.3645], [48.0993, 7.3618], [48.0853, 7.3574], [48.0812, 7.3535], [48.0729, 7.3512], [48.0584, 7.3349], [48.0453, 7.323], [48.0258, 7.3135], [48.0027, 7.2949], [47.9736, 7.298], [47.9518, 7.3057], [47.9329, 7.2754], [47.8896, 7.2561], [47.871, 7.2463], [47.8235, 7.2078], [47.7939, 7.1848], [47.7721, 7.162], [47.7485, 7.1504], [47.7403, 7.1425], [47.722, 7.1126], [47.7109, 7.0819], [47.7214, 7.0395], [47.717, 7.0259], [47.7125, 7.0167], [47.7099, 7.0117], [47.7047, 7.0007], [47.6906, 6.9687], [47.6858, 6.9529], [47.6793, 6.936], [47.6709, 6.923], [47.6671, 6.9147], [47.6561, 6.9006], [47.6494, 6.8883], [47.6405, 6.8685], [47.6407, 6.8596], [47.6384, 6.8518], [47.6294, 6.8461], [47.6235, 6.8399], [47.6183, 6.8312], [47.6078, 6.827], [47.6014, 6.8163], [47.5949, 6.8032], [47.5862, 6.7605], [47.5902, 6.7328], [47.5981, 6.7238], [47.5928, 6.7086], [47.5855, 6.6818], [47.5762, 6.6573], [47.5638, 6.6429], [47.562, 6.6296], [47.562, 6.6095], [47.5529, 6.5732], [47.542, 6.5516], [47.5415, 6.5207], [47.5443, 6.4821], [47.5483, 6.4402], [47.536, 6.4039], [47.5368, 6.3785], [47.5304, 6.3698], [47.5107, 6.3526], [47.5025, 6.33], [47.5003, 6.3173], [47.4928, 6.3044], [47.4817, 6.2897], [47.4702, 6.2635], [47.4665, 6.2589], [47.4544, 6.2275], [47.4453, 6.2025], [47.4454, 6.1768], [47.4343, 6.1383], [47.4369, 6.1244], [47.4349, 6.1117], [47.4271, 6.086], [47.4193, 6.0719], [47.416, 6.0673], [47.3984, 6.0661], [47.3663, 6.0431], [47.3335, 6.0054], [47.2965, 5.9874], [47.2819, 5.9889], [47.272, 5.9972], [47.2655, 5.9777], [47.2527, 5.9592], [47.2307, 5.9341], [47.2192, 5.9207], [47.2097, 5.909], [47.1965, 5.8591], [47.1897, 5.8357], [47.1829, 5.8137], [47.1813, 5.8034], [47.172, 5.7801], [47.1603, 5.7594], [47.1491, 5.761], [47.1489, 5.7437], [47.1409, 5.7271], [47.1253, 5.7292], [47.0894, 5.7471], [47.0519, 5.7655], [47.0399, 5.7654], [47.0288, 5.7598], [47.0233, 5.7256], [47.0213, 5.7127], [47.0039, 5.7036], [46.9964, 5.6932], [46.9878, 5.6674], [46.9584, 5.6695], [46.9433, 5.6575], [46.933, 5.6533], [46.9113, 5.6373], [46.8975, 5.6286], [46.8827, 5.6207], [46.8652, 5.6113], [46.8427, 5.6086], [46.8174, 5.5929], [46.8063, 5.5793], [46.7935, 5.5683], [46.7774, 5.5594], [46.7536, 5.558], [46.725, 5.5575], [46.7065, 5.5475], [46.6828, 5.5134], [46.6736, 5.5112], [46.6608, 5.5071], [46.6445, 5.5037], [46.6293, 5.4903], [46.6046, 5.4669], [46.588, 5.4468], [46.5738, 5.4345], [46.5538, 5.4047], [46.5295, 5.3961], [46.5116, 5.3882], [46.4894, 5.3755], [46.4692, 5.3595], [46.455, 5.3506], [46.4414, 5.3496], [46.421, 5.3501], [46.3892, 5.3473], [46.3844, 5.3425], [46.3801, 5.3248], [46.3716, 5.3023], [46.3701, 5.2972], [46.3596, 5.2817], [46.3472, 5.2634], [46.3423, 5.257], [46.3312, 5.2513], [46.3167, 5.2402], [46.2814, 5.2294], [46.2595, 5.2322], [46.239, 5.2286], [46.2289, 5.2263], [46.2313, 5.2122], [46.2326, 5.2004], [46.2188, 5.2058], [46.2086, 5.2034], [46.2016, 5.1977], [46.1908, 5.1965], [46.177, 5.1938], [46.16, 5.1933], [46.1273, 5.1919], [46.102, 5.1895], [46.0708, 5.1959], [46.0138, 5.1796], [45.9974, 5.1708], [45.9726, 5.1707], [45.9296, 5.185], [45.9124, 5.1935], [45.9043, 5.1981], [45.8973, 5.1917], [45.8616, 5.183], [45.8449, 5.1905], [45.8229, 5.1934], [45.8179, 5.2111], [45.7862, 5.2095], [45.7781, 5.2114], [45.7694, 5.2055], [45.7605, 5.2083], [45.7521, 5.216], [45.7442, 5.2278], [45.7252, 5.2294], [45.7161, 5.2241], [45.703, 5.1903], [45.6877, 5.1727], [45.6704, 5.151], [45.6619, 5.1338], [45.6532, 5.1199], [45.644, 5.105], [45.6382, 5.0948], [45.6261, 5.0914], [45.6145, 5.0822], [45.6013, 5.0762], [45.5768, 5.0373], [45.5642, 4.9988], [45.5463, 5.0085], [45.5352, 5.0126], [45.5218, 5.0127], [45.5155, 5.0167], [45.5013, 5.0113], [45.4896, 4.9978], [45.4757, 4.9986], [45.4703, 5.0021], [45.4669, 5.0013], [45.4579, 4.9993], [45.445, 4.9956], [45.4391, 5.0048], [45.4253, 5.0129], [45.4053, 5.0182], [45.3867, 5.0237], [45.3694, 5.0275], [45.3469, 5.0415], [45.3399, 5.0526], [45.3301, 5.0566], [45.3155, 5.0501], [45.3002, 5.0402], [45.2906, 5.0428], [45.289, 5.0382], [45.2825, 5.0345], [45.2641, 5.0291], [45.2548, 5.0242], [45.2492, 5.0255], [45.2439, 5.0321], [45.2329, 5.0283], [45.2223, 5.0285], [45.2087, 5.032], [45.2001, 5.0406], [45.1958, 5.0445], [45.1898, 5.0462], [45.1656, 5.0376], [45.1538, 5.04], [45.1357, 5.0452], [45.1145, 5.0459], [45.0996, 5.0441], [45.0919, 5.0479], [45.0836, 5.0414], [45.0669, 5.0405], [45.0582, 5.0423], [45.051, 5.0464], [45.0455, 5.0462], [45.0422, 5.0464], [45.0359, 5.0464], [45.0246, 5.041], [44.9979, 4.9985], [44.971, 4.9638], [44.9565, 4.9356], [44.9289, 4.9455], [44.9073, 4.9331], [44.9021, 4.9011], [44.9049, 4.8839], [44.9016, 4.887], [44.8796, 4.8939], [44.8607, 4.8991], [44.8488, 4.8932], [44.8358, 4.8991], [44.826, 4.9041], [44.8119, 4.9045], [44.7944, 4.9062], [44.7771, 4.9034], [44.7668, 4.9103], [44.7606, 4.9166], [44.7421, 4.9246], [44.7305, 4.9313], [44.726, 4.9264], [44.7135, 4.9263], [44.7037, 4.9294], [44.6941, 4.9329], [44.6857, 4.9358], [44.6758, 4.9422], [44.6697, 4.9364], [44.6614, 4.9339], [44.6502, 4.9409], [44.6492, 4.9447], [44.6421, 4.9406], [44.6235, 4.9379], [44.6112, 4.9368], [44.5948, 4.9512], [44.5884, 4.9561], [44.5618, 4.9423], [44.5492, 4.9372], [44.5327, 4.9325], [44.5173, 4.9408], [44.5094, 4.9374], [44.4996, 4.9403], [44.4968, 4.9361], [44.4961, 4.9435], [44.4903, 4.9554], [44.4796, 4.958], [44.4713, 4.9583], [44.4609, 4.9676], [44.4454, 4.9802], [44.442, 4.9806], [44.4329, 4.9824], [44.4139, 4.984], [44.3955, 4.9872], [44.3872, 4.9905], [44.3829, 4.9877], [44.3736, 4.9802], [44.362, 4.9731], [44.3448, 4.9534], [44.3247, 4.9463], [44.3146, 4.949], [44.3046, 4.9438], [44.2862, 4.9365], [44.283, 4.9299], [44.2649, 4.9253], [44.244, 4.9114], [44.2298, 4.9196], [44.2284, 4.9323], [44.2122, 4.9347], [44.1942, 4.9495], [44.1709, 4.9623], [44.1623, 4.9519], [44.1414, 4.9407], [44.1116, 4.9206], [44.1056, 4.9158], [44.0883, 4.9098], [44.0815, 4.8949], [44.0728, 4.8913], [44.0623, 4.889], [44.0406, 4.8875], [44.0348, 4.8782], [44.023, 4.8718], [44.0057, 4.8633], [43.99, 4.863], [43.9732, 4.8578], [43.9584, 4.8416], [43.9464, 4.8395], [43.9341, 4.8316], [43.9247, 4.8495], [43.9153, 4.8745], [43.9037, 4.8938], [43.8915, 4.9084], [43.8834, 4.9159], [43.8795, 4.9278], [43.8744, 4.9442], [43.8601, 4.9626], [43.8481, 4.9673], [43.8307, 4.9913], [43.8178, 5.0162], [43.7951, 5.0295], [43.7918, 5.0367], [43.7796, 5.0518], [43.7434, 5.0767], [43.7213, 5.0875], [43.6927, 5.0953], [43.6638, 5.0954], [43.6495, 5.0942], [43.6435, 5.0956], [43.6378, 5.0991], [43.6261, 5.1024], [43.6166, 5.0952], [43.5937, 5.1065], [43.5869, 5.1267], [43.5816, 5.1471], [43.5606, 5.1621], [43.5468, 5.1839], [43.5262, 5.1962], [43.5004, 5.2125], [43.4848, 5.2233], [43.4704, 5.2313], [43.4574, 5.2329], [43.4462, 5.2291], [43.4275, 5.2349], [43.425, 5.2482], [43.4213, 5.2687], [43.4072, 5.2895], [43.3923, 5.3003], [43.3714, 5.3208], [43.3628, 5.3414], [43.348, 5.3449], [43.3344, 5.354], [43.322, 5.3642], [43.311, 5.3671], [43.2961, 5.3655], [43.2961, 5.3699]], "n": [[47.4256, 6.0785, "Nuit 1 : Rioz"], [45.95843, 5.35951, "Nuit 2 : Ambérieu-en-Bugey"], [44.592, 4.9528, "Nuit 3 : Charols"], [43.2965, 5.3698, "Nuit 4 : Marseille"]], "v": [[48.25992, 7.4557, "Maison du Pain d'Alsace"], [48.20445, 7.36426, "Ancienne Maison d'école"], [47.73542, 7.1363, "Borne Vauthier"], [47.5777, 6.80067, "Dolmen"], [47.05488, 5.64032, "Les Baraques du 14"], [47.03354, 5.77736, "Saline royale d'Arc-et-Senans"], [46.71006, 5.5772, "Château du Pin"], [46.36072, 5.3667, "Calvaire"], [45.82808, 5.21879, "Château Marcel"], [45.52738, 4.88119, "Musée de l'industrie textile"], [45.25628, 5.02847, "Palais Idéal du Facteur Cheval"], [44.73031, 5.02355, "Tour de Crest"], [44.41876, 4.90892, "Château de Grignan"], [44.43366, 5.05456, "Oppidum du Pègue"], [44.38261, 4.98743, "Musée du Cartonnage et de l'Imprimerie"], [43.29683, 5.36804, "Musée des Docks romains"]]};
+const map=L.map("itMap");
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"&copy; OpenStreetMap"}).addTo(map);
+const ligne=L.polyline(TR.c,{color:"#075985",weight:5}).addTo(map);
+TR.n.slice(0,-1).forEach(p=>L.marker([p[0],p[1]]).addTo(map).bindPopup(p[2]));
+TR.v.forEach(p=>L.circleMarker([p[0],p[1]],{radius:6,color:"#c8322b",weight:2,fillColor:"#fff",fillOpacity:1}).addTo(map).bindPopup(p[2]));
+map.fitBounds(ligne.getBounds().pad(0.1));
+</script>
+</body>
+</html>
