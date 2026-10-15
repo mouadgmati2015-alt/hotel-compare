@@ -235,6 +235,9 @@ a { color: var(--secondary); }
 .it-bt{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:8px 12px;align-items:center}
 .it-bt .fort{font-weight:800;border-top:1px solid var(--line);padding-top:8px}
 .it-bt small{color:var(--muted)}
+.it-btn.s{background:var(--secondary);color:#fff;border:0;cursor:pointer;font-family:inherit}
+.it-share-msg{align-self:center;color:var(--success);font-weight:700}
+.it-urlcopy{width:100%;max-width:440px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:.85rem}
 .it-all{margin-bottom:18px}
 .it-all p{margin:6px 0 0}
 .it-gps{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px}
@@ -311,6 +314,7 @@ a { color: var(--secondary); }
   <details><summary><b>Le planificateur convient-il aux voitures électriques ?</b></summary><p>Oui : choisissez « Électrique », indiquez la consommation en kWh/100 km, le prix de l'électricité et l'autonomie réelle de votre voiture. Le coût est recalculé et, pour chaque journée, la page propose des bornes de recharge près du déjeuner et de la ville d'étape, avec la puissance quand elle est connue.</p></details>
   <details><summary><b>Les repas et les visites sont-ils inclus dans le coût ?</b></summary><p>Le comparatif de route (péages, carburant ou électricité) est calculé séparément. Un second tableau estime le budget du voyage : repas selon un montant par personne et par jour que vous choisissez, et visites payantes estimées d'après le type de lieu. L'hébergement n'est pas inclus. Ces montants sont indicatifs.</p></details>
   <details><summary><b>Et si une mer sépare mon départ et mon arrivée (Corse, Sardaigne, Royaume-Uni...) ?</b></summary><p>Quand un ferry existe dans nos données, la traversée est intégrée : elle est exclue du temps de conduite, comptée à part avec une durée et un prix estimés, et la nuit n'est jamais placée en pleine mer. Les tarifs réels varient beaucoup selon la compagnie, la date et la saison : réservez à l'avance. L'Eurostar ne transporte pas les voitures, contrairement au Shuttle d'Eurotunnel.</p></details>
+  <details><summary><b>Comment partager mon itinéraire ?</b></summary><p>Une fois le trajet calculé, le bouton « Partager mon itinéraire » copie un lien (ou ouvre le partage de votre téléphone). La personne qui l'ouvre retrouve le même trajet, avec vos réglages, et peut le modifier.</p></details>
   <details><summary><b>Quels pays sont couverts ?</b></summary><p>Les villes de départ et d'arrivée peuvent se trouver dans la plupart des pays d'Europe, et le calcul d'itinéraire traverse les frontières.</p></details>
   <details><summary><b>D'où viennent les visites et les restaurants ?</b></summary><p>Ils proviennent d'OpenStreetMap, une carte collaborative. La qualité varie selon les régions : vérifiez toujours les horaires et l'ouverture avant de partir.</p></details>
   <details><summary><b>Puis-je envoyer l'itinéraire vers mon GPS ?</b></summary><p>Oui : des boutons ouvrent le trajet dans Google Maps, avec les villes d'étape et l'option « éviter les autoroutes ». Waze accepte seulement une destination, donc un bouton par journée est proposé.</p></details>
@@ -576,7 +580,7 @@ const waze=d=>"https://waze.com/ul?ll="+ll(d)+"&navigate=yes";
 const lien=(cls,url,txt)=>`<a class="it-btn ${cls}" href="${esc(url)}" target="_blank" rel="noopener nofollow">${txt}</a>`;
 function gpsTout(){
  const J=ETAT.jours,w=J.slice(0,-1).map(j=>j.centre).filter(Boolean),pas=Math.max(1,Math.ceil(w.length/9)),wp=w.filter((_,k)=>k%pas===0).slice(0,9);
- return `<div class="glass-box it-all"><b>Envoyer le trajet vers votre GPS</b><div class="it-gps">${lien("g",gMaps(ETAT.dep,ETAT.arr,wp),"Tout le voyage dans Google Maps")}</div>
+ return `<div class="glass-box it-all"><b>Envoyer ou partager le trajet</b><div class="it-gps">${lien("g",gMaps(ETAT.dep,ETAT.arr,wp),"Tout le voyage dans Google Maps")}<button type="button" class="it-btn s" id="itShare">Partager mon itinéraire</button><span id="itShareMsg" class="it-share-msg" role="status" aria-live="polite"></span></div>
  <p class="it-note">Google Maps reçoit les villes d'étape et évite les autoroutes (certains téléphones n'acceptent que 3 étapes). Waze accepte seulement une destination : utilisez les boutons de chaque journée.</p></div>`;
 }
 function gpsJour(i,lx){
@@ -669,7 +673,7 @@ $("itForm").addEventListener("submit",async e=>{
   const {jours,noms,pays,centres}=await decouperVilles(data.decouverte.steps,nb,fin,va.pays,arr);
   jours.forEach((j,i)=>{j.steps=j;j.fin=noms[i];j.pays=pays[i];j.centre=centres[i];j.titre="Jour "+(i+1)+" : "+(i?noms[i-1]:debut)+" à "+noms[i]});
   const pers=Math.max(1,+$("itPers").value||2),repas=Math.max(0,+$("itRepas").value||45),nbA=Math.max(1,Math.round(A.sec/(rythme*3600)));
-  ETAT={id:Date.now(),jours,lieux:[],cur:0,dep,arr,ev:EV(),cout:{A,D,nbA,nbD:jours.length,pers,repas},auto:Math.max(50,+$("itAuto").value||300)};
+  ETAT={id:Date.now(),jours,lieux:[],cur:0,dep,arr,ev:EV(),cout:{A,D,nbA,nbD:jours.length,pers,repas},auto:Math.max(50,+$("itAuto").value||300),params:{d:$("itDep").value.trim(),dc:dep,dp:vd.pays||"",a:$("itArr").value.trim(),ac:arr,ap:va.pays||"",r:rythme,v:EV()?"ev":"th",c:conso,p:prix,n:pers,m:repas,u:Math.max(50,+$("itAuto").value||300),t:$("itDate").value}};
   $("itTabs").innerHTML="";
   jours.forEach((j,i)=>{const b=document.createElement("button");b.className="it-tab";b.type="button";b.setAttribute("role","tab");b.textContent=jours.length>1?"Jour "+(i+1):"Trajet";b.onclick=()=>afficherJour(i,jours);$("itTabs").appendChild(b)});
   $("itGps").innerHTML=gpsTout();majBudget();$("itRes").style.display="block";msg.innerHTML="";
@@ -679,6 +683,58 @@ $("itForm").addEventListener("submit",async e=>{
  }catch(err){msg.innerHTML='<div class="it-msg err">'+esc(err.message)+"</div>"}
  go.disabled=false;go.textContent="Calculer mon itinéraire";
 });
+
+// Partage : un lien qui rouvre exactement le même trajet
+function evenement(nom,params){if(typeof gtag==="function")gtag("event",nom,params||{})}
+function lienPartage(){
+ const P=ETAT.params;if(!P)return"";
+ const q=new URLSearchParams();
+ q.set("d",P.d);q.set("dc",P.dc.map(x=>(+x).toFixed(4)).join(","));if(P.dp)q.set("dp",P.dp);
+ q.set("a",P.a);q.set("ac",P.ac.map(x=>(+x).toFixed(4)).join(","));if(P.ap)q.set("ap",P.ap);
+ q.set("r",P.r);q.set("v",P.v);q.set("c",P.c);q.set("p",P.p);q.set("n",P.n);q.set("m",P.m);
+ if(P.v==="ev")q.set("u",P.u);
+ if(P.t)q.set("t",P.t);
+ q.set("utm_source","partage");q.set("utm_medium","lien");q.set("utm_campaign","itineraire");
+ return location.origin+location.pathname+"?"+q.toString();
+}
+async function partager(){
+ const url=lienPartage(),msg=$("itShareMsg"),P=ETAT.params;
+ if(!url)return;
+ const titre="Mon itinéraire sans autoroute : "+base(P.d)+" vers "+base(P.a);
+ evenement("share",{method:"lien",content_type:"itineraire",item_id:base(P.d)+" - "+base(P.a)});
+ try{
+  if(navigator.share&&/Android|iPhone|iPad|Mobi/i.test(navigator.userAgent)){await navigator.share({title:titre,text:titre,url});return}
+  await navigator.clipboard.writeText(url);
+  msg.textContent="Lien copié !";
+  setTimeout(()=>{if(msg.textContent==="Lien copié !")msg.textContent=""},4000);
+ }catch(e){
+  if(e&&e.name==="AbortError")return; // partage annulé par l'utilisateur
+  const i=document.createElement("input");i.readOnly=true;i.value=url;i.className="it-urlcopy";i.setAttribute("aria-label","Lien de l'itinéraire à copier");
+  msg.replaceChildren(i);i.focus();i.select();
+ }
+}
+$("itGps").addEventListener("click",e=>{if(e.target.closest("#itShare"))partager()});
+
+// Ouverture d'un lien partagé : on remplit le formulaire et on lance le calcul
+function depuisLien(){
+ const q=new URLSearchParams(location.search);
+ const coord=k=>{const t=(q.get(k)||"").split(",").map(Number);return t.length===2&&t.every(Number.isFinite)&&Math.abs(t[0])<=180&&Math.abs(t[1])<=90?t:null};
+ const num=(k,min,max,def)=>{const v=parseFloat(q.get(k));return Number.isFinite(v)?Math.min(max,Math.max(min,v)):def};
+ const dc=coord("dc"),ac=coord("ac"),d=(q.get("d")||"").trim().slice(0,80),a=(q.get("a")||"").trim().slice(0,80);
+ if(!dc||!ac||!d||!a)return;
+ $("itDep").value=d;$("itArr").value=a;
+ sugg[d]={c:dc,pays:(q.get("dp")||"").slice(0,40)};sugg[a]={c:ac,pays:(q.get("ap")||"").slice(0,40)};
+ const v=q.get("v")==="ev"?"ev":"th";
+ $("itVeh").value=v;$("itVeh").dispatchEvent(new Event("change"));
+ const r=Math.round(num("r",3,5,4));$("itRythme").value=String([3,4,5].includes(r)?r:4);
+ $("itConso").value=num("c",2,60,v==="ev"?18:6);$("itPrix").value=num("p",0.1,5,v==="ev"?0.45:1.8);
+ $("itPers").value=Math.round(num("n",1,12,2));$("itRepas").value=Math.round(num("m",0,300,45));
+ if(v==="ev")$("itAuto").value=Math.round(num("u",50,900,300));
+ const t=q.get("t");if(/^\d{4}-\d{2}-\d{2}$/.test(t||"")&&t>=new Date().toISOString().slice(0,10))$("itDate").value=t;
+ if(q.get("utm_source")==="partage")evenement("itineraire_partage_ouvert",{item_id:base(d)+" - "+base(a)});
+ $("itForm").dispatchEvent(new Event("submit",{cancelable:true}));
+}
+depuisLien();
 </script>
 </body>
 </html>
