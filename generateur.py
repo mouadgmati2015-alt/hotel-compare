@@ -14,6 +14,7 @@ from pathlib import Path
 
 from data.airlines_data import AIRLINES_DATA
 from itineraire import generate_itineraire_page
+from trajets import generate_trajets_pages
 def nettoyer_liens_et_images(data):
     """
     Nettoie automatiquement les URL qui contiendraient par erreur 
@@ -783,6 +784,7 @@ footer_html = """
                 <li><a href="loueurs-vehicules.html">Location de véhicules</a></li>
                 <li><a href="croisieres.html">Croisières</a></li>
                 <li><a href="itineraire-decouverte.html">Itinéraire découverte</a></li>
+                <li><a href="trajets-sans-autoroute.html">Trajets sans autoroute</a></li>
             </ul>
         </div>
         <div>
@@ -2682,6 +2684,7 @@ with open(os.path.join(output_dir, "blog.html"), "w", encoding="utf-8") as f: f.
 generer_base_connaissances(loueurs_data, croisieres_data)
 generate_information_pages()
 generate_itineraire_page(OUTPUT_DIR, global_style, menu_html, footer_html, SITE_URL)
+generate_trajets_pages(OUTPUT_DIR, global_style, menu_html, footer_html, SITE_URL)
 generate_seo_files()
 
 print("Génération réussie à 100% avec l'intégration complète des témoignages et du footer Formspree !")

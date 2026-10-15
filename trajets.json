@@ -1,0 +1,572 @@
+[
+ {
+  "slug": "paris-nice-sans-autoroute",
+  "titre": "Paris Nice sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Paris",
+   "pays": "France",
+   "lon": 2.3522,
+   "lat": 48.8566
+  },
+  "arrivee": {
+   "nom": "Nice",
+   "pays": "France",
+   "lon": 7.262,
+   "lat": 43.7102
+  },
+  "vehicule": "thermique",
+  "priorite": 1,
+  "angle": "grand classique des vacances, forte envie d'éviter les péages"
+ },
+ {
+  "slug": "paris-menton-sans-autoroute",
+  "titre": "Paris Menton sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Paris",
+   "pays": "France",
+   "lon": 2.3522,
+   "lat": 48.8566
+  },
+  "arrivee": {
+   "nom": "Menton",
+   "pays": "France",
+   "lon": 7.5004,
+   "lat": 43.7745
+  },
+  "vehicule": "thermique",
+  "priorite": 1,
+  "angle": "tracé de l'ancienne Nationale 7, la « route des vacances »"
+ },
+ {
+  "slug": "thonon-les-bains-menton-sans-autoroute",
+  "titre": "Thonon-les-Bains Menton sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Thonon-les-Bains",
+   "pays": "France",
+   "lon": 6.4789,
+   "lat": 46.3707
+  },
+  "arrivee": {
+   "nom": "Menton",
+   "pays": "France",
+   "lon": 7.5004,
+   "lat": 43.7745
+  },
+  "vehicule": "thermique",
+  "priorite": 1,
+  "angle": "Route des Grandes Alpes : voyage touristique en soi"
+ },
+ {
+  "slug": "grasse-grenoble-sans-autoroute",
+  "titre": "Grasse Grenoble sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Grasse",
+   "pays": "France",
+   "lon": 6.9226,
+   "lat": 43.6588
+  },
+  "arrivee": {
+   "nom": "Grenoble",
+   "pays": "France",
+   "lon": 5.7245,
+   "lat": 45.1885
+  },
+  "vehicule": "thermique",
+  "priorite": 1,
+  "angle": "Route Napoléon : voyage touristique en soi"
+ },
+ {
+  "slug": "strasbourg-barcelone-sans-autoroute",
+  "titre": "Strasbourg Barcelone sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Strasbourg",
+   "pays": "France",
+   "lon": 7.7521,
+   "lat": 48.5734
+  },
+  "arrivee": {
+   "nom": "Barcelone",
+   "pays": "Espagne",
+   "lon": 2.1734,
+   "lat": 41.3851
+  },
+  "vehicule": "thermique",
+  "priorite": 1,
+  "angle": "départ d'Alsace, très long, péages importants"
+ },
+ {
+  "slug": "strasbourg-nice-sans-autoroute",
+  "titre": "Strasbourg Nice sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Strasbourg",
+   "pays": "France",
+   "lon": 7.7521,
+   "lat": 48.5734
+  },
+  "arrivee": {
+   "nom": "Nice",
+   "pays": "France",
+   "lon": 7.262,
+   "lat": 43.7102
+  },
+  "vehicule": "thermique",
+  "priorite": 1,
+  "angle": "départ d'Alsace vers la Côte d'Azur"
+ },
+ {
+  "slug": "strasbourg-milan-sans-autoroute",
+  "titre": "Strasbourg Milan sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Strasbourg",
+   "pays": "France",
+   "lon": 7.7521,
+   "lat": 48.5734
+  },
+  "arrivee": {
+   "nom": "Milan",
+   "pays": "Italie",
+   "lon": 9.19,
+   "lat": 45.4642
+  },
+  "vehicule": "thermique",
+  "priorite": 1,
+  "angle": "traversée des Alpes, vignettes et péages"
+ },
+ {
+  "slug": "lyon-milan-sans-autoroute",
+  "titre": "Lyon Milan sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Lyon",
+   "pays": "France",
+   "lon": 4.8357,
+   "lat": 45.764
+  },
+  "arrivee": {
+   "nom": "Milan",
+   "pays": "Italie",
+   "lon": 9.19,
+   "lat": 45.4642
+  },
+  "vehicule": "thermique",
+  "priorite": 1,
+  "angle": "trajet déjà testé dans l'outil"
+ },
+ {
+  "slug": "paris-londres-sans-autoroute",
+  "titre": "Paris Londres sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Paris",
+   "pays": "France",
+   "lon": 2.3522,
+   "lat": 48.8566
+  },
+  "arrivee": {
+   "nom": "Londres",
+   "pays": "Royaume-Uni",
+   "lon": -0.1276,
+   "lat": 51.5072
+  },
+  "vehicule": "thermique",
+  "priorite": 1,
+  "angle": "angle unique : traversée en ferry ou tunnel"
+ },
+ {
+  "slug": "marseille-ajaccio-sans-autoroute",
+  "titre": "Marseille Ajaccio sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Marseille",
+   "pays": "France",
+   "lon": 5.3698,
+   "lat": 43.2965
+  },
+  "arrivee": {
+   "nom": "Ajaccio",
+   "pays": "France",
+   "lon": 8.7386,
+   "lat": 41.9192
+  },
+  "vehicule": "thermique",
+  "priorite": 1,
+  "angle": "angle unique : la Corse et le ferry"
+ },
+ {
+  "slug": "paris-marseille-sans-autoroute",
+  "titre": "Paris Marseille sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Paris",
+   "pays": "France",
+   "lon": 2.3522,
+   "lat": 48.8566
+  },
+  "arrivee": {
+   "nom": "Marseille",
+   "pays": "France",
+   "lon": 5.3698,
+   "lat": 43.2965
+  },
+  "vehicule": "thermique",
+  "priorite": 2,
+  "angle": "grand axe nord-sud"
+ },
+ {
+  "slug": "paris-bordeaux-sans-autoroute",
+  "titre": "Paris Bordeaux sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Paris",
+   "pays": "France",
+   "lon": 2.3522,
+   "lat": 48.8566
+  },
+  "arrivee": {
+   "nom": "Bordeaux",
+   "pays": "France",
+   "lon": -0.5792,
+   "lat": 44.8378
+  },
+  "vehicule": "thermique",
+  "priorite": 2,
+  "angle": "grand axe nord-sud-ouest"
+ },
+ {
+  "slug": "paris-toulouse-sans-autoroute",
+  "titre": "Paris Toulouse sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Paris",
+   "pays": "France",
+   "lon": 2.3522,
+   "lat": 48.8566
+  },
+  "arrivee": {
+   "nom": "Toulouse",
+   "pays": "France",
+   "lon": 1.4442,
+   "lat": 43.6047
+  },
+  "vehicule": "thermique",
+  "priorite": 2,
+  "angle": "grand axe vers le sud-ouest"
+ },
+ {
+  "slug": "paris-strasbourg-sans-autoroute",
+  "titre": "Paris Strasbourg sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Paris",
+   "pays": "France",
+   "lon": 2.3522,
+   "lat": 48.8566
+  },
+  "arrivee": {
+   "nom": "Strasbourg",
+   "pays": "France",
+   "lon": 7.7521,
+   "lat": 48.5734
+  },
+  "vehicule": "thermique",
+  "priorite": 2,
+  "angle": "grand axe vers l'est"
+ },
+ {
+  "slug": "strasbourg-lyon-sans-autoroute",
+  "titre": "Strasbourg Lyon sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Strasbourg",
+   "pays": "France",
+   "lon": 7.7521,
+   "lat": 48.5734
+  },
+  "arrivee": {
+   "nom": "Lyon",
+   "pays": "France",
+   "lon": 4.8357,
+   "lat": 45.764
+  },
+  "vehicule": "thermique",
+  "priorite": 2,
+  "angle": "départ d'Alsace, trajet fréquent"
+ },
+ {
+  "slug": "strasbourg-marseille-sans-autoroute",
+  "titre": "Strasbourg Marseille sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Strasbourg",
+   "pays": "France",
+   "lon": 7.7521,
+   "lat": 48.5734
+  },
+  "arrivee": {
+   "nom": "Marseille",
+   "pays": "France",
+   "lon": 5.3698,
+   "lat": 43.2965
+  },
+  "vehicule": "thermique",
+  "priorite": 2,
+  "angle": "départ d'Alsace, long trajet"
+ },
+ {
+  "slug": "strasbourg-lausanne-sans-autoroute",
+  "titre": "Strasbourg Lausanne sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Strasbourg",
+   "pays": "France",
+   "lon": 7.7521,
+   "lat": 48.5734
+  },
+  "arrivee": {
+   "nom": "Lausanne",
+   "pays": "Suisse",
+   "lon": 6.6323,
+   "lat": 46.5197
+  },
+  "vehicule": "thermique",
+  "priorite": 2,
+  "angle": "départ d'Alsace vers la Suisse"
+ },
+ {
+  "slug": "strasbourg-munich-sans-autoroute",
+  "titre": "Strasbourg Munich sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Strasbourg",
+   "pays": "France",
+   "lon": 7.7521,
+   "lat": 48.5734
+  },
+  "arrivee": {
+   "nom": "Munich",
+   "pays": "Allemagne",
+   "lon": 11.582,
+   "lat": 48.1351
+  },
+  "vehicule": "thermique",
+  "priorite": 2,
+  "angle": "départ d'Alsace vers l'Allemagne"
+ },
+ {
+  "slug": "strasbourg-annecy-sans-autoroute",
+  "titre": "Strasbourg Annecy sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Strasbourg",
+   "pays": "France",
+   "lon": 7.7521,
+   "lat": 48.5734
+  },
+  "arrivee": {
+   "nom": "Annecy",
+   "pays": "France",
+   "lon": 6.1294,
+   "lat": 45.8992
+  },
+  "vehicule": "thermique",
+  "priorite": 2,
+  "angle": "départ d'Alsace vers les Alpes"
+ },
+ {
+  "slug": "lille-lyon-sans-autoroute",
+  "titre": "Lille Lyon sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Lille",
+   "pays": "France",
+   "lon": 3.0573,
+   "lat": 50.6292
+  },
+  "arrivee": {
+   "nom": "Lyon",
+   "pays": "France",
+   "lon": 4.8357,
+   "lat": 45.764
+  },
+  "vehicule": "thermique",
+  "priorite": 2,
+  "angle": "traversée de la France du nord au sud"
+ },
+ {
+  "slug": "lyon-barcelone-sans-autoroute",
+  "titre": "Lyon Barcelone sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Lyon",
+   "pays": "France",
+   "lon": 4.8357,
+   "lat": 45.764
+  },
+  "arrivee": {
+   "nom": "Barcelone",
+   "pays": "Espagne",
+   "lon": 2.1734,
+   "lat": 41.3851
+  },
+  "vehicule": "thermique",
+  "priorite": 2,
+  "angle": "vers la Catalogne"
+ },
+ {
+  "slug": "marseille-barcelone-sans-autoroute",
+  "titre": "Marseille Barcelone sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Marseille",
+   "pays": "France",
+   "lon": 5.3698,
+   "lat": 43.2965
+  },
+  "arrivee": {
+   "nom": "Barcelone",
+   "pays": "Espagne",
+   "lon": 2.1734,
+   "lat": 41.3851
+  },
+  "vehicule": "thermique",
+  "priorite": 2,
+  "angle": "le long de la Méditerranée"
+ },
+ {
+  "slug": "zurich-milan-sans-autoroute",
+  "titre": "Zurich Milan sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Zurich",
+   "pays": "Suisse",
+   "lon": 8.5417,
+   "lat": 47.3769
+  },
+  "arrivee": {
+   "nom": "Milan",
+   "pays": "Italie",
+   "lon": 9.19,
+   "lat": 45.4642
+  },
+  "vehicule": "thermique",
+  "priorite": 3,
+  "angle": "traversée des Alpes par la Suisse"
+ },
+ {
+  "slug": "munich-venise-sans-autoroute",
+  "titre": "Munich Venise sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Munich",
+   "pays": "Allemagne",
+   "lon": 11.582,
+   "lat": 48.1351
+  },
+  "arrivee": {
+   "nom": "Venise",
+   "pays": "Italie",
+   "lon": 12.3155,
+   "lat": 45.4408
+  },
+  "vehicule": "thermique",
+  "priorite": 3,
+  "angle": "traversée des Alpes par l'Autriche"
+ },
+ {
+  "slug": "paris-nice-voiture-electrique",
+  "titre": "Paris Nice en voiture électrique : itinéraire, bornes et coût",
+  "depart": {
+   "nom": "Paris",
+   "pays": "France",
+   "lon": 2.3522,
+   "lat": 48.8566
+  },
+  "arrivee": {
+   "nom": "Nice",
+   "pays": "France",
+   "lon": 7.262,
+   "lat": 43.7102
+  },
+  "vehicule": "electrique",
+  "priorite": 1,
+  "angle": "même trajet, avec les bornes de recharge"
+ },
+ {
+  "slug": "paris-marseille-voiture-electrique",
+  "titre": "Paris Marseille en voiture électrique : itinéraire, bornes et coût",
+  "depart": {
+   "nom": "Paris",
+   "pays": "France",
+   "lon": 2.3522,
+   "lat": 48.8566
+  },
+  "arrivee": {
+   "nom": "Marseille",
+   "pays": "France",
+   "lon": 5.3698,
+   "lat": 43.2965
+  },
+  "vehicule": "electrique",
+  "priorite": 2,
+  "angle": "même trajet, avec les bornes de recharge"
+ },
+ {
+  "slug": "strasbourg-lyon-voiture-electrique",
+  "titre": "Strasbourg Lyon en voiture électrique : itinéraire, bornes et coût",
+  "depart": {
+   "nom": "Strasbourg",
+   "pays": "France",
+   "lon": 7.7521,
+   "lat": 48.5734
+  },
+  "arrivee": {
+   "nom": "Lyon",
+   "pays": "France",
+   "lon": 4.8357,
+   "lat": 45.764
+  },
+  "vehicule": "electrique",
+  "priorite": 2,
+  "angle": "même trajet, avec les bornes de recharge"
+ },
+ {
+  "slug": "strasbourg-milan-voiture-electrique",
+  "titre": "Strasbourg Milan en voiture électrique : itinéraire, bornes et coût",
+  "depart": {
+   "nom": "Strasbourg",
+   "pays": "France",
+   "lon": 7.7521,
+   "lat": 48.5734
+  },
+  "arrivee": {
+   "nom": "Milan",
+   "pays": "Italie",
+   "lon": 9.19,
+   "lat": 45.4642
+  },
+  "vehicule": "electrique",
+  "priorite": 1,
+  "angle": "même trajet, avec les bornes de recharge"
+ },
+ {
+  "slug": "lyon-milan-voiture-electrique",
+  "titre": "Lyon Milan en voiture électrique : itinéraire, bornes et coût",
+  "depart": {
+   "nom": "Lyon",
+   "pays": "France",
+   "lon": 4.8357,
+   "lat": 45.764
+  },
+  "arrivee": {
+   "nom": "Milan",
+   "pays": "Italie",
+   "lon": 9.19,
+   "lat": 45.4642
+  },
+  "vehicule": "electrique",
+  "priorite": 1,
+  "angle": "même trajet, avec les bornes de recharge"
+ },
+ {
+  "slug": "paris-londres-voiture-electrique",
+  "titre": "Paris Londres en voiture électrique : itinéraire, bornes et coût",
+  "depart": {
+   "nom": "Paris",
+   "pays": "France",
+   "lon": 2.3522,
+   "lat": 48.8566
+  },
+  "arrivee": {
+   "nom": "Londres",
+   "pays": "Royaume-Uni",
+   "lon": -0.1276,
+   "lat": 51.5072
+  },
+  "vehicule": "electrique",
+  "priorite": 1,
+  "angle": "même trajet, avec les bornes de recharge"
+ }
+]
