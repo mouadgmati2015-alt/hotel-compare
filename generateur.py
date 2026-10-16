@@ -14,7 +14,7 @@ from pathlib import Path
 
 from data.airlines_data import AIRLINES_DATA
 from itineraire import generate_itineraire_page
-from trajets import generate_trajets_pages
+from trajets import generate_trajets_pages, bouton_accueil, bloc_accueil
 def nettoyer_liens_et_images(data):
     """
     Nettoie automatiquement les URL qui contiendraient par erreur 
@@ -1513,6 +1513,8 @@ carousel_html = f"""
 </div>
 """
 
+bouton_trajets = bouton_accueil()
+bloc_trajets = bloc_accueil()
 html_accueil = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -1535,13 +1537,15 @@ html_accueil = f"""<!DOCTYPE html>
 </div>
             <h2 style="margin:0 0 10px; font-size: clamp(2rem, 4vw, 3rem); color:#fff;">Trouvez le bon hôtel, au bon prix, sans perdre une heure.</h2>
             <p style="margin:0; max-width: 700px; font-size: 1.05rem; line-height: 1.7; color: #effcff;">Comparez les meilleurs séjours, découvrez les meilleurs rapports qualité-prix et réservez en quelques clics.</p>
-            <div class="hero-actions">
+                        <div class="hero-actions">
                 <a href="hotels.html" class="btn-compare" style="display:inline-block; text-decoration:none; width:auto; padding:14px 28px;">🔍 Comparer les hôtels</a>
                 <a href="itineraire-decouverte.html" class="btn-itineraire">🛣️ Itinéraire découverte</a>
+                {bouton_trajets}
             </div>
         </div>
 
         {mosaique_html}
+        {bloc_trajets}
 
         <div class="glass-box" style="margin: 10px 0 10px; text-align: center; background: linear-gradient(135deg, #075985 0%, #087f9b 100%); color: white;">
             <h2 style="margin-top:0; color: white;">🏨 Vous êtes propriétaire ou hôtelier ?</h2>

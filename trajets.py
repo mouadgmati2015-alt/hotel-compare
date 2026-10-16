@@ -428,12 +428,11 @@ def page_index(pages, site_url, global_style, menu_html, footer_html, css):
 
 # ---------- Point d'entrée appelé par generateur.py ----------
 
-def generate_trajets_pages(output_dir, global_style, menu_html, footer_html, site_url):
+def charger_pages():
+    """(liste des trajets, pages publiables, pages ignorées avec la raison)."""
     if not LISTE.exists():
-        print("Trajets : trajets.json introuvable, rien à générer.")
-        return
+        return [], [], []
     trajets = json.loads(LISTE.read_text(encoding="utf-8"))
-    css = css_planificateur()
     pages, ignores = [], []
     for t in trajets:
         f = DATA / f"{t['slug']}.json"
@@ -445,6 +444,42 @@ def generate_trajets_pages(output_dir, global_style, menu_html, footer_html, sit
             ignores.append((t["slug"], "données insuffisantes"))
             continue
         pages.append((d, t["slug"]))
+    return trajets, pages, ignores
+
+
+# ---------- Page d'accueil : bouton d'accès direct et trajets populaires ----------
+
+def bouton_accueil():
+    """Bouton à côté de « Comparer les hôtels » ; vide tant qu'aucune page de trajet n'est publiable."""
+    _, pages, _ = charger_pages()
+    return f'<a href="{PAGE_INDEX}" class="btn-itineraire">🧭 Trajets sans autoroute</a>' if pages else ""
+
+
+def bloc_accueil(n=8):
+    """Bloc de liens vers les trajets populaires (utile aux visiteurs et au maillage interne du site)."""
+    _, pages, _ = charger_pages()
+    choix = [(d, slug) for d, slug in pages if d["vehicule"] == "thermique"][:n]
+    if not choix:
+        return ""
+    pastille = ("display:inline-block;margin:5px;padding:9px 15px;border-radius:999px;background:var(--panel-strong);"
+                "color:var(--text);font-weight:700;text-decoration:none;border:1px solid var(--line)")
+    liens = "".join(f'<a href="{esc(slug)}.html" style="{pastille}">{esc(d["depart"]["nom"])} – {esc(d["arrivee"]["nom"])}</a>' for d, slug in choix)
+    return f"""
+<div class="glass-box" style="margin: 26px 0 10px; text-align: center;">
+    <h2 style="margin-top:0;">🧭 Trajets sans autoroute en Europe</h2>
+    <p style="color: var(--muted); max-width: 640px; margin: 0 auto 16px; line-height: 1.6;">Étapes, visites, restaurants et coût comparé à l'autoroute pour les trajets les plus populaires.</p>
+    <div>{liens}</div>
+    <p style="margin: 16px 0 0;"><a class="btn" href="{PAGE_INDEX}" style="display:inline-block; text-decoration:none;">Voir tous les trajets</a></p>
+</div>
+"""
+
+
+def generate_trajets_pages(output_dir, global_style, menu_html, footer_html, site_url):
+    trajets, pages, ignores = charger_pages()
+    if not trajets:
+        print("Trajets : trajets.json introuvable, rien à générer.")
+        return
+    css = css_planificateur()
     out = Path(output_dir)
     out.mkdir(parents=True, exist_ok=True)
     for d, slug in pages:
