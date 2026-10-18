@@ -289,7 +289,7 @@ function sousResto(x){
 function lieuHtml(x,sous,pin,kind){
  // pin : repère exact sur les coordonnées (bornes) ; sinon recherche du nom, centrée sur le lieu
  const carte=pin?"https://www.google.com/maps/search/?api=1&query="+x.lat+","+x.lon
-  :"https://www.google.com/maps/search/"+encodeURIComponent(x.nom)+"/@"+x.lat+","+x.lon+",16z";
+  :"https://www.google.com/maps/search/"+encodeURIComponent(x.nom_local||x.nom)+"/@"+x.lat+","+x.lon+",16z";
  const wz=pin?`<a href="${esc("https://waze.com/ul?ll="+x.lat+","+x.lon+"&navigate=yes")}" target="_blank" rel="noopener nofollow">Waze</a>`:"";
  const site=/^https?:\/\//i.test(x.site||"")?`<a href="${esc(x.site)}" target="_blank" rel="noopener nofollow">Site</a>`:"";
  let vig="";
@@ -299,6 +299,7 @@ function lieuHtml(x,sous,pin,kind){
  }
  const res=x.resume?`<p class="it-res">${esc(x.resume)}</p>`:"";
  const m=[];
+ if(x.nom_local)m.push("Nom local : "+esc(x.nom_local));
  if(x.adresse)m.push("📍 "+esc(x.adresse));
  if(x.horaires)m.push("🕒 "+esc(x.horaires));
  if(x.infos&&x.infos.length)m.push(esc(x.infos.join(", ")));

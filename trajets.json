@@ -568,5 +568,24 @@
   "vehicule": "electrique",
   "priorite": 1,
   "angle": "même trajet, avec les bornes de recharge"
+ },
+ {
+  "slug": "strasbourg-athenes-sans-autoroute",
+  "titre": "Strasbourg Athènes sans autoroute : itinéraire, étapes et coût",
+  "depart": {
+   "nom": "Strasbourg",
+   "pays": "France",
+   "lon": 7.7521,
+   "lat": 48.5734
+  },
+  "arrivee": {
+   "nom": "Athènes",
+   "pays": "Grèce",
+   "lon": 23.7275,
+   "lat": 37.9838
+  },
+  "vehicule": "thermique",
+  "priorite": 2,
+  "angle": "grand voyage vers la Grèce par l'Europe centrale et les Balkans, 11 jours"
  }
 ]

@@ -128,7 +128,7 @@ def lieu_html(x, sous="", kind=None, pin=False):
         carte = f"https://www.google.com/maps/search/?api=1&query={x['lat']},{x['lon']}"
         waze = lien_ext(f"https://waze.com/ul?ll={x['lat']},{x['lon']}&navigate=yes", "Waze")
     else:
-        carte = f"https://www.google.com/maps/search/{quote(x['nom'])}/@{x['lat']},{x['lon']},16z"
+        carte = f"https://www.google.com/maps/search/{quote(x.get('nom_local') or x['nom'])}/@{x['lat']},{x['lon']},16z"
         waze = ""
     site = lien_ext(x["site"], "Site") if re.match(r"https?://", x.get("site") or "", re.I) else ""
     vig = ""
@@ -137,6 +137,8 @@ def lieu_html(x, sous="", kind=None, pin=False):
         vig = f'<div class="it-vig">{img or (ICONES.get(x.get("genre"), "📍") if kind == "v" else ico_cuisine(x.get("cuisine")))}</div>'
     res = f'<p class="it-res">{esc(x["resume"])}</p>' if x.get("resume") else ""
     meta = []
+    if x.get("nom_local"):
+        meta.append("Nom local : " + esc(x["nom_local"]))
     if x.get("adresse"):
         meta.append("📍 " + esc(x["adresse"]))
     if x.get("horaires"):
