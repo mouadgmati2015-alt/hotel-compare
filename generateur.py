@@ -1324,6 +1324,7 @@ recherche_intelligente_page = f"""<!DOCTYPE html>
 <section id="smart-results" aria-live="polite"></section>
 {footer_html}
 </div>
+<script src="reponses-site.js"></script>
 <script src="recherche-nomad.js"></script>
 <script>
 const hotels = {json.dumps(all_hotels, ensure_ascii=False)};
@@ -1426,6 +1427,33 @@ function searchHotels(query) {{
     }}
     return results.filter(result => result.budgetOk && result.locationOk && result.equipmentOk && result.featuresOk).sort((a, b) => b.score - a.score);
 }}
+const REPONSES_MANUELLES = window.NOMAD_REPONSES || [];
+function racineMot(m) {{ return m.replace(/[sx]$/, '').replace(/e+$/, ''); }}
+function motsCles(texte) {{
+    return normalize(texte).replace(/[^a-z0-9 ]/g, ' ').split(/\\s+/)
+        .filter(m => m.length > 2 && !stopWords.has(m)).map(racineMot);
+}}
+function reponseManuelle(query) {{
+    const q = new Set(motsCles(query));
+    if (!q.size) return null;
+    let meilleure = null, meilleurScore = 0;
+    for (const r of REPONSES_MANUELLES) {{
+        if (r.assistant_seulement) continue;
+        for (const question of r.questions) {{
+            const t = [...new Set(motsCles(question))];
+            if (!t.length) continue;
+            const communs = t.filter(m => q.has(m)).length;
+            if (communs < Math.min(2, t.length)) continue;
+            const score = 2 * communs / (t.length + q.size);
+            if (score > meilleurScore) {{ meilleure = r; meilleurScore = score; }}
+        }}
+    }}
+    if (!meilleure || meilleurScore < 0.5) return null;
+    const lien = meilleure.lien ? `<p style="margin:12px 0 0;"><a class="btn" href="${{escapeText(meilleure.lien)}}">${{escapeText(meilleure.lien_texte || 'Voir la page')}}</a></p>` : '';
+    return {{
+        html: `<div class="glass-box" style="margin-bottom:16px; border-left:5px solid var(--success);"><h3 style="margin-top:0;">💡 Réponse de Nomad</h3><p style="margin:0; line-height:1.7;">${{escapeText(meilleure.reponse)}}</p>${{lien}}</div>`
+    }};
+}}
 document.getElementById('smart-search').addEventListener('submit', event => {{
     event.preventDefault();
     const query = document.getElementById('smart-query').value;
@@ -1451,7 +1479,13 @@ document.getElementById('smart-search').addEventListener('submit', event => {{
     }} else {{
         container.innerHTML = `<div class="glass-box" style="margin-bottom:20px;"><h2 style="margin-top:0;">${{results.length}} résultat(s) trouvé(s)</h2><p style="margin-bottom:0; color:var(--muted);">Les hôtels sont classés selon les critères détectés dans votre phrase.</p></div>` + (results.length ? results.map(result => renderHotel(result.hotel)).join('') : '<div class="card"><h2>Aucun résultat exact</h2><p>Essayez une destination plus large ou retirez un critère très précis.</p></div>');
     }}
-     const answerPromise = window.nomadAnswer ? window.nomadAnswer(query, results.length) : Promise.resolve(null);
+     const manuelle = reponseManuelle(query);
+    if (manuelle) {{
+        document.getElementById('smart-answers').innerHTML = extrasHtml + manuelle.html;
+        container.innerHTML = '';
+        return;
+    }}
+    const answerPromise = window.nomadAnswer ? window.nomadAnswer(query, results.length) : Promise.resolve(null);
     answerPromise.then(answer => {{
         document.getElementById('smart-answers').innerHTML = extrasHtml + (answer && answer.html ? answer.html : '');
         if (answer && answer.hideHotels) {{ container.innerHTML = ''; }}
@@ -2689,7 +2723,23 @@ blog_page = f"""<!DOCTYPE html>
 </div></body></html>"""
 with open(os.path.join(output_dir, "blog.html"), "w", encoding="utf-8") as f: f.write(blog_page)
 
+def generer_reponses_manuelles():
+    """Écrit reponses-site.js à partir de reponses_site.json : réponses écrites à la main,
+    prioritaires sur la page « Vos désirs sont des ordres »."""
+    chemin = BASE_DIR / "reponses_site.json"
+    try:
+        reponses = json.loads(chemin.read_text(encoding="utf-8")) if chemin.exists() else []
+    except Exception as e:
+        print(f"reponses_site.json ignoré : {e}")
+        reponses = []
+    reponses = [r for r in reponses if isinstance(r, dict) and r.get("questions") and r.get("reponse")]
+    write_html(OUTPUT_DIR / "reponses-site.js",
+               "window.NOMAD_REPONSES=" + json.dumps(reponses, ensure_ascii=False, separators=(",", ":")) + ";")
+    print(f"Réponses manuelles : {len(reponses)}")
+
+
 generer_base_connaissances(loueurs_data, croisieres_data)
+generer_reponses_manuelles()
 generate_information_pages()
 generate_itineraire_page(OUTPUT_DIR, global_style, menu_html, footer_html, SITE_URL)
 generate_trajets_pages(OUTPUT_DIR, global_style, menu_html, footer_html, SITE_URL)

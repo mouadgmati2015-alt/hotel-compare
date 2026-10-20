@@ -17,6 +17,16 @@
   },
   {
     "questions": [
+      "la réservation est-elle sécurisée",
+      "paiement sécurisé",
+      "le site est-il fiable",
+      "est-ce une arnaque",
+      "puis-je payer en confiance"
+    ],
+    "reponse": "Vous ne payez pas sur ce site : il compare les hôtels, puis vous envoie vers le site du partenaire (Booking ou Expedia), où se font la réservation et le paiement. Avant de saisir vos informations, vérifiez que l'adresse affichée dans votre navigateur est bien celle du partenaire."
+  },
+  {
+    "questions": [
       "le site est-il gratuit",
       "comment le site gagne de l'argent",
       "est-ce payant",
@@ -102,7 +112,8 @@
       "trouver un hôtel avec piscine",
       "hôtel avec toboggans parc aquatique"
     ],
-    "reponse": "Écrivez par exemple « hôtel piscine Djerba » dans la barre de recherche, ou utilisez la recherche avancée par critères avec le filtre « Piscine » ou « Parc aquatique / Toboggans »."
+    "reponse": "Écrivez par exemple « hôtel piscine Djerba » dans la barre de recherche, ou utilisez la recherche avancée par critères avec le filtre « Piscine » ou « Parc aquatique / Toboggans ».",
+    "assistant_seulement": true
   },
   {
     "questions": [
@@ -110,7 +121,8 @@
       "hôtel adapté aux familles",
       "voyager avec des enfants hôtel"
     ],
-    "reponse": "Cherchez par exemple « hôtel famille enfants » avec votre ville : les hôtels qui proposent un parc aquatique, des toboggans ou des animations ressortent en premier. Vérifiez sur Booking la disponibilité des lits bébé et des chambres familiales."
+    "reponse": "Cherchez par exemple « hôtel famille enfants » avec votre ville : les hôtels qui proposent un parc aquatique, des toboggans ou des animations ressortent en premier. Vérifiez sur Booking la disponibilité des lits bébé et des chambres familiales.",
+    "assistant_seulement": true
   },
   {
     "questions": [
@@ -118,7 +130,8 @@
       "voyager avec mon chien",
       "hôtel qui accepte les animaux"
     ],
-    "reponse": "Cela dépend de chaque établissement, et un supplément peut s'appliquer. Vérifiez la politique « animaux » sur la fiche Booking de l'hôtel avant de réserver, et contactez-le en cas de doute."
+    "reponse": "Cela dépend de chaque établissement, et un supplément peut s'appliquer. Vérifiez la politique « animaux » sur la fiche Booking de l'hôtel avant de réserver, et contactez-le en cas de doute.",
+    "assistant_seulement": true
   },
   {
     "questions": [
@@ -126,7 +139,8 @@
       "hôtel bien situé",
       "hôtel proche du centre"
     ],
-    "reponse": "Utilisez la recherche avancée par critères avec le filtre « Centre-ville », ou écrivez « hôtel centre-ville » suivi du nom de la ville dans la barre de recherche."
+    "reponse": "Utilisez la recherche avancée par critères avec le filtre « Centre-ville », ou écrivez « hôtel centre-ville » suivi du nom de la ville dans la barre de recherche.",
+    "assistant_seulement": true
   },
   {
     "questions": [
@@ -174,7 +188,8 @@
       "formalités d'entrée en Tunisie",
       "visa Tunisie passeport"
     ],
-    "reponse": "Les conditions d'entrée dépendent de votre nationalité et peuvent changer. Consultez le site officiel du ministère des Affaires étrangères de votre pays avant de réserver, et vérifiez la validité de votre passeport."
+    "reponse": "Les conditions d'entrée dépendent de votre nationalité et peuvent changer. Consultez le site officiel du ministère des Affaires étrangères de votre pays avant de réserver, et vérifiez la validité de votre passeport.",
+    "assistant_seulement": true
   },
   {
     "questions": [
