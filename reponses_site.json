@@ -1,0 +1,457 @@
+[
+  {
+    "questions": [
+      "comment réserver un hôtel",
+      "comment faire une réservation",
+      "où réserver"
+    ],
+    "reponse": "Choisissez un hôtel puis cliquez sur « Réserver sur Booking ». La réservation se fait sur le site de Booking, avec le prix, les disponibilités et les conditions du moment."
+  },
+  {
+    "questions": [
+      "les prix affichés sont-ils définitifs",
+      "prix hôtel exact",
+      "le prix peut-il changer"
+    ],
+    "reponse": "Les prix affichés sur le site sont des prix moyens indicatifs. Le prix final, les taxes et les conditions sont ceux affichés sur Booking au moment de réserver."
+  },
+  {
+    "questions": [
+      "le site est-il gratuit",
+      "comment le site gagne de l'argent",
+      "est-ce payant",
+      "commission affiliation"
+    ],
+    "reponse": "Consulter et comparer sur le site est gratuit. Les boutons de réservation sont des liens d'affiliation : si vous réservez, le site peut recevoir une commission, sans augmenter le prix que vous payez."
+  },
+  {
+    "questions": [
+      "comment annuler une réservation",
+      "annuler ma réservation d'hôtel",
+      "annulation réservation booking"
+    ],
+    "reponse": "Pour annuler, ouvrez l'e-mail de confirmation de Booking ou votre compte Booking et suivez le lien de gestion de la réservation. Les possibilités d'annulation dépendent du tarif que vous avez choisi."
+  },
+  {
+    "questions": [
+      "annulation gratuite",
+      "puis-je annuler sans frais",
+      "frais d'annulation hôtel"
+    ],
+    "reponse": "Cela dépend du tarif. Avant de réserver, cherchez la mention « annulation gratuite » et sa date limite sur Booking : après cette date, des frais peuvent s'appliquer."
+  },
+  {
+    "questions": [
+      "quand faut-il réserver un hôtel",
+      "réserver à l'avance",
+      "meilleur moment pour réserver"
+    ],
+    "reponse": "En haute saison (été, vacances scolaires, week-ends prolongés), réservez tôt car les meilleurs hôtels partent vite. Choisir un tarif à annulation gratuite permet de réserver à l'avance sans risque."
+  },
+  {
+    "questions": [
+      "heure d'arrivée et de départ hôtel",
+      "check-in check-out",
+      "à quelle heure arriver à l'hôtel"
+    ],
+    "reponse": "Les horaires varient selon l'hôtel : l'arrivée se fait souvent l'après-midi et le départ le matin ou à midi. Ils sont indiqués dans la confirmation de réservation ; prévenez l'hôtel en cas d'arrivée tardive."
+  },
+  {
+    "questions": [
+      "taxe de séjour",
+      "taxe touristique hôtel",
+      "frais supplémentaires à payer sur place"
+    ],
+    "reponse": "Selon la destination, une taxe de séjour ou des frais locaux peuvent être payés sur place, en plus du prix de la réservation. Les conditions de l'hôtel sur Booking indiquent ce qui est inclus ou non."
+  },
+  {
+    "questions": [
+      "petit déjeuner inclus",
+      "le petit-déjeuner est-il compris",
+      "repas inclus hôtel"
+    ],
+    "reponse": "Cela dépend de l'hôtel et du tarif choisi. Sur Booking, vérifiez la ligne « petit-déjeuner inclus » ou le détail de la formule avant de valider."
+  },
+  {
+    "questions": [
+      "demi-pension pension complète all inclusive",
+      "différence demi-pension et pension complète",
+      "tout compris signification"
+    ],
+    "reponse": "La demi-pension comprend le petit-déjeuner et un repas (déjeuner ou dîner). La pension complète comprend les trois repas. Le « tout compris » ajoute en général boissons et activités, mais son contenu varie beaucoup d'un hôtel à l'autre : vérifiez ce qui est inclus."
+  },
+  {
+    "questions": [
+      "différence hôtel et maison d'hôtes",
+      "maison d'hôtes ou hôtel",
+      "qu'est-ce qu'une maison d'hôtes"
+    ],
+    "reponse": "Une maison d'hôtes est une petite structure, souvent tenue par le propriétaire, avec peu de chambres et un accueil plus personnel. Un hôtel est généralement plus grand, avec davantage de services (réception, restaurant, piscine)."
+  },
+  {
+    "questions": [
+      "que signifient les étoiles",
+      "classement des étoiles hôtel",
+      "différence 3 4 5 étoiles"
+    ],
+    "reponse": "Les étoiles indiquent le niveau de confort et de services de l'hôtel (équipements, taille des chambres, services). Les critères dépendent du système de classement de chaque pays, donc deux hôtels de même classement peuvent différer."
+  },
+  {
+    "questions": [
+      "hôtel avec piscine",
+      "trouver un hôtel avec piscine",
+      "hôtel avec toboggans parc aquatique"
+    ],
+    "reponse": "Écrivez par exemple « hôtel piscine Djerba » dans la barre de recherche, ou utilisez la recherche avancée par critères avec le filtre « Piscine » ou « Parc aquatique / Toboggans »."
+  },
+  {
+    "questions": [
+      "hôtel pour enfants",
+      "hôtel adapté aux familles",
+      "voyager avec des enfants hôtel"
+    ],
+    "reponse": "Cherchez par exemple « hôtel famille enfants » avec votre ville : les hôtels qui proposent un parc aquatique, des toboggans ou des animations ressortent en premier. Vérifiez sur Booking la disponibilité des lits bébé et des chambres familiales."
+  },
+  {
+    "questions": [
+      "animaux acceptés hôtel",
+      "voyager avec mon chien",
+      "hôtel qui accepte les animaux"
+    ],
+    "reponse": "Cela dépend de chaque établissement, et un supplément peut s'appliquer. Vérifiez la politique « animaux » sur la fiche Booking de l'hôtel avant de réserver, et contactez-le en cas de doute."
+  },
+  {
+    "questions": [
+      "hôtel au centre-ville",
+      "hôtel bien situé",
+      "hôtel proche du centre"
+    ],
+    "reponse": "Utilisez la recherche avancée par critères avec le filtre « Centre-ville », ou écrivez « hôtel centre-ville » suivi du nom de la ville dans la barre de recherche."
+  },
+  {
+    "questions": [
+      "contacter l'hôtel après réservation",
+      "comment joindre mon hôtel",
+      "demander quelque chose à l'hôtel"
+    ],
+    "reponse": "Après la réservation, l'e-mail de confirmation de Booking contient les coordonnées de l'hôtel et un lien pour lui écrire. Vous pouvez aussi le faire depuis votre compte Booking."
+  },
+  {
+    "questions": [
+      "paiement en ligne ou sur place",
+      "quand payer l'hôtel",
+      "payer à l'arrivée"
+    ],
+    "reponse": "Cela dépend du tarif : certains se paient à l'avance, d'autres à l'arrivée ou au départ. Le mode de paiement est indiqué avant la validation de la réservation sur Booking."
+  },
+  {
+    "questions": [
+      "meilleure période pour partir en Tunisie",
+      "quand partir en Tunisie",
+      "météo Tunisie"
+    ],
+    "reponse": "En général, le printemps (avril à juin) et le début de l'automne (septembre-octobre) sont agréables. Juillet et août sont très chauds, surtout dans le sud, mais la mer reste chaude jusqu'en octobre."
+  },
+  {
+    "questions": [
+      "Djerba ou Hammamet",
+      "quelle différence entre Djerba et Hammamet",
+      "où séjourner en Tunisie"
+    ],
+    "reponse": "Djerba est une île du sud, connue pour ses plages de sable et une ambiance plutôt calme. Hammamet est une station balnéaire du nord-est, plus proche de Tunis, avec davantage d'animation et de visites possibles aux alentours."
+  },
+  {
+    "questions": [
+      "monnaie en Tunisie",
+      "quelle devise en Tunisie",
+      "changer de l'argent en Tunisie"
+    ],
+    "reponse": "La monnaie est le dinar tunisien (TND). Les règles de change sont strictes : renseignez-vous avant le départ sur les conditions pour changer, entrer ou sortir des dinars."
+  },
+  {
+    "questions": [
+      "papiers nécessaires pour voyager",
+      "formalités d'entrée en Tunisie",
+      "visa Tunisie passeport"
+    ],
+    "reponse": "Les conditions d'entrée dépendent de votre nationalité et peuvent changer. Consultez le site officiel du ministère des Affaires étrangères de votre pays avant de réserver, et vérifiez la validité de votre passeport."
+  },
+  {
+    "questions": [
+      "différence bagage cabine et bagage en soute",
+      "bagage à main ou soute",
+      "quel bagage choisir"
+    ],
+    "reponse": "Le bagage cabine se garde avec vous à bord ; ses dimensions et son poids sont limités. Le bagage en soute est enregistré à l'aéroport et voyage dans la soute de l'avion. Le tarif choisi détermine souvent ce qui est inclus."
+  },
+  {
+    "questions": [
+      "quels bagages sont inclus avec ma compagnie",
+      "bagage inclus compagnie aérienne",
+      "franchise bagage"
+    ],
+    "reponse": "Indiquez le nom de la compagnie dans la barre de recherche (par exemple « bagages Ethiopian Airlines ») pour voir sa réponse dans la FAQ. Les règles dépendent aussi du tarif et peuvent changer : vérifiez sur le site de la compagnie avant de partir."
+  },
+  {
+    "questions": [
+      "enregistrement en ligne",
+      "check-in en ligne vol",
+      "quand faire l'enregistrement"
+    ],
+    "reponse": "L'enregistrement en ligne ouvre en général entre 24 et 48 heures avant le départ, selon la compagnie. Il permet d'obtenir sa carte d'embarquement et d'éviter la file au comptoir, sauf si des bagages sont à déposer."
+  },
+  {
+    "questions": [
+      "liquides en cabine",
+      "règle des 100 ml",
+      "puis-je prendre un parfum dans l'avion"
+    ],
+    "reponse": "En règle générale, chaque contenant de liquide en cabine est limité à 100 ml, dans un sachet transparent d'un litre. Certains aéroports équipés de scanners récents assouplissent cette règle : renseignez-vous auprès de votre aéroport."
+  },
+  {
+    "questions": [
+      "vol retardé",
+      "vol annulé que faire",
+      "indemnisation retard avion",
+      "droits des passagers"
+    ],
+    "reponse": "Dans l'Union européenne, en cas d'annulation, de refus d'embarquement ou de retard de plus de 3 heures à l'arrivée, vous pouvez avoir droit à une indemnité de 250 à 600 € selon la distance, sauf circonstances extraordinaires. La compagnie doit aussi vous prendre en charge (repas, hébergement si nécessaire). Faites votre demande directement auprès de la compagnie."
+  },
+  {
+    "questions": [
+      "bagage perdu ou endommagé",
+      "ma valise n'est pas arrivée",
+      "bagage retardé"
+    ],
+    "reponse": "Signalez-le immédiatement au comptoir bagages de l'aéroport avant de partir, et faites établir un constat. Gardez votre carte d'embarquement, l'étiquette bagage et les justificatifs, puis suivez le dossier auprès de la compagnie."
+  },
+  {
+    "questions": [
+      "combien de temps avant le vol arriver à l'aéroport",
+      "heure d'arrivée aéroport",
+      "quand arriver à l'aéroport"
+    ],
+    "reponse": "Comptez en général environ 2 heures avant un vol en Europe et 3 heures avant un vol long-courrier. Prévoyez plus si vous partez d'un grand aéroport, avec des bagages à enregistrer ou en période de forte affluence."
+  },
+  {
+    "questions": [
+      "animal en avion",
+      "voyager avec un chien dans l'avion",
+      "chat en cabine"
+    ],
+    "reponse": "Les règles dépendent de la compagnie : animal en cabine ou en soute, poids maximal, cage, certificats. Contactez la compagnie avant de réserver car le nombre d'animaux par vol est limité."
+  },
+  {
+    "questions": [
+      "modifier un billet d'avion",
+      "changer la date de mon vol",
+      "corriger un nom sur un billet"
+    ],
+    "reponse": "Les modifications dépendent du tarif acheté : certains billets sont modifiables, d'autres non, avec ou sans frais. Contactez rapidement la compagnie ou l'agence qui vous a vendu le billet."
+  },
+  {
+    "questions": [
+      "trouver un vol pas cher",
+      "comment payer moins cher son billet d'avion",
+      "astuces vol moins cher"
+    ],
+    "reponse": "Soyez flexible sur les dates (le milieu de semaine est souvent moins cher), réservez à l'avance, comparez plusieurs aéroports de départ et regardez ce qui est inclus (bagages, repas) avant de comparer les prix."
+  },
+  {
+    "questions": [
+      "âge minimum pour louer une voiture",
+      "louer une voiture à 21 ans",
+      "permis de conduire location"
+    ],
+    "reponse": "L'âge minimum est souvent de 21 ans, parfois 25 selon la catégorie de véhicule, avec un permis détenu depuis un à trois ans. Un supplément « jeune conducteur » peut s'appliquer : vérifiez les conditions du loueur."
+  },
+  {
+    "questions": [
+      "caution location voiture",
+      "carte bancaire pour louer une voiture",
+      "dépôt de garantie"
+    ],
+    "reponse": "Le loueur bloque généralement une caution sur une carte bancaire au nom du conducteur principal. Les cartes de crédit sont souvent exigées plutôt que les cartes de débit : vérifiez les conditions avant de réserver."
+  },
+  {
+    "questions": [
+      "assurance location voiture franchise",
+      "quelle assurance pour louer une voiture",
+      "rachat de franchise"
+    ],
+    "reponse": "La location comprend en général une assurance de base avec une franchise, c'est-à-dire une somme qui reste à votre charge en cas de dommage. Des options de rachat de franchise existent : lisez bien ce qui est couvert avant de signer."
+  },
+  {
+    "questions": [
+      "que comprend une croisière",
+      "qu'est-ce qui est inclus dans une croisière",
+      "prix croisière tout compris"
+    ],
+    "reponse": "Une croisière comprend en général la cabine, la plupart des repas et des animations à bord. Les boissons, les excursions, les pourboires et certains restaurants sont souvent en supplément : vérifiez le détail de l'offre."
+  },
+  {
+    "questions": [
+      "pourboires et boissons à bord",
+      "forfait boissons croisière",
+      "dépenses à bord"
+    ],
+    "reponse": "Sur beaucoup de croisières, les boissons, les excursions et les pourboires ne sont pas inclus dans le prix de base. Des forfaits existent selon les compagnies : comparez-les avec votre consommation prévue."
+  },
+  {
+    "questions": [
+      "qu'est-ce que le planificateur d'itinéraires",
+      "comment fonctionne le planificateur",
+      "itinéraire par les petites routes"
+    ],
+    "reponse": "Le planificateur calcule un trajet en voiture par les routes nationales et départementales, sans autoroute. Vous indiquez le départ, l'arrivée, le nombre d'heures de conduite par jour et le type de véhicule. Il propose ensuite des étapes, des lieux à visiter, des restaurants, des hôtels et un comparatif avec l'autoroute.",
+    "lien": "https://myhotelcompare.com/itineraire-decouverte.html",
+    "lien_texte": "Ouvrir le planificateur"
+  },
+  {
+    "questions": [
+      "combien d'heures de conduite par jour",
+      "durée de conduite par étape",
+      "rythme de conduite"
+    ],
+    "reponse": "Les trajets du site sont calculés avec environ 4 heures de conduite par jour. Dans le planificateur, vous pouvez choisir votre propre rythme, et le nombre de jours s'adapte.",
+    "lien": "https://myhotelcompare.com/itineraire-decouverte.html",
+    "lien_texte": "Choisir mon rythme"
+  },
+  {
+    "questions": [
+      "comment sont calculés les péages et le carburant",
+      "hypothèses de coût du trajet",
+      "coût du trajet estimation"
+    ],
+    "reponse": "Ce sont des estimations. Par défaut : péage à 0,10 € par km sur les tronçons à péage, et pour un véhicule thermique 6 l/100 km avec le carburant à 1,80 € le litre ; pour un véhicule électrique 18 kWh/100 km avec l'électricité à 0,45 € le kWh. Votre consommation réelle peut différer."
+  },
+  {
+    "questions": [
+      "d'où viennent les lieux à visiter et les restaurants",
+      "sources des données",
+      "les horaires sont-ils fiables"
+    ],
+    "reponse": "Les lieux et restaurants proviennent d'OpenStreetMap et de Wikipédia, et l'itinéraire est calculé avec OpenRouteService. Les informations peuvent être incomplètes ou dater : vérifiez les horaires et l'ouverture avant de partir."
+  },
+  {
+    "questions": [
+      "faire un road trip en voiture électrique",
+      "bornes de recharge sur le trajet",
+      "voiture électrique sans autoroute"
+    ],
+    "reponse": "Oui. Choisissez « électrique » dans le planificateur : pour chaque journée, il indique si votre autonomie suffit et liste des bornes de recharge près du déjeuner et de l'étape du soir. Vérifiez la disponibilité des bornes dans l'application de votre réseau.",
+    "lien": "https://myhotelcompare.com/itineraire-decouverte.html",
+    "lien_texte": "Ouvrir le planificateur"
+  },
+  {
+    "questions": [
+      "envoyer l'itinéraire vers le GPS",
+      "utiliser l'itinéraire sur mon téléphone",
+      "exporter le trajet vers Google Maps ou Waze"
+    ],
+    "reponse": "Une fois l'itinéraire généré dans le planificateur, vous pouvez le transférer vers le GPS de votre téléphone pour être guidé pendant le trajet.",
+    "lien": "https://myhotelcompare.com/itineraire-decouverte.html",
+    "lien_texte": "Ouvrir le planificateur"
+  },
+  {
+    "questions": [
+      "Paris Menton sans péage",
+      "route nationale 7",
+      "route des vacances N7",
+      "itinéraire N7"
+    ],
+    "reponse": "La Nationale 7, surnommée la « Route des Vacances », relie Paris à Menton sans péage. Une grande partie du tracé a été déclassée et renumérotée (souvent en D7), mais il reste continu. Le détail des étapes, la durée et les péages évités sont sur la page Paris – Menton.",
+    "lien": "https://myhotelcompare.com/trajets-sans-autoroute.html",
+    "lien_texte": "Voir les trajets sans autoroute"
+  },
+  {
+    "questions": [
+      "route Napoléon",
+      "itinéraire route Napoléon",
+      "où passe la route Napoléon"
+    ],
+    "reponse": "La Route Napoléon suit le chemin pris par Napoléon en mars 1815 à son retour de l'île d'Elbe. Elle relie la Côte d'Azur (Golfe-Juan) à Grenoble par Grasse, Castellane, Digne, Sisteron et Gap. C'est un trajet très prisé pour rejoindre ou quitter la Côte d'Azur sans autoroute.",
+    "lien": "https://myhotelcompare.com/trajets-sans-autoroute.html",
+    "lien_texte": "Voir les trajets sans autoroute"
+  },
+  {
+    "questions": [
+      "Strasbourg Nice sans péage",
+      "aller de Strasbourg à Nice sans autoroute",
+      "Strasbourg Côte d'Azur"
+    ],
+    "reponse": "Oui, c'est possible en restant en France, par Besançon, la Savoie, Grenoble et la Route Napoléon. Le GPS propose parfois un trajet par la Suisse et l'Italie, qui demande une vignette suisse et des péages italiens. Distance, durée et jours conseillés figurent sur la page du trajet.",
+    "lien": "https://myhotelcompare.com/trajets-sans-autoroute.html",
+    "lien_texte": "Voir les trajets sans autoroute"
+  },
+  {
+    "questions": [
+      "vignette suisse et péages en Italie",
+      "traverser la Suisse en voiture sans payer",
+      "autoroutes payantes en Italie"
+    ],
+    "reponse": "La Suisse impose une vignette annuelle pour utiliser ses autoroutes, et l'Italie fait payer la plupart de ses autoroutes. Un trajet entièrement en France évite ces frais, mais il est plus long."
+  },
+  {
+    "questions": [
+      "éviter les péages avec Google Maps ou Waze",
+      "régler mon GPS sans péage",
+      "option éviter les péages"
+    ],
+    "reponse": "Sur Google Maps, entrez votre destination, ouvrez « Options d'itinéraire » (menu à trois points) et cochez « Éviter les péages » et « Éviter les autoroutes ». Sur Waze, ouvrez les paramètres de navigation et activez l'option pour éviter les routes à péage. Les intitulés peuvent varier selon la version."
+  },
+  {
+    "questions": [
+      "est-ce plus long sans autoroute",
+      "combien de temps en plus sans autoroute",
+      "différence de durée autoroute et nationale"
+    ],
+    "reponse": "Oui, un trajet sans autoroute est plus long et se fait souvent sur plusieurs jours, avec des étapes. En échange, vous évitez les péages, vous traversez des villes et des paysages, et vous pouvez vous arrêter en chemin. Les distances et durées de chaque trajet sont sur la page des trajets.",
+    "lien": "https://myhotelcompare.com/trajets-sans-autoroute.html",
+    "lien_texte": "Voir les trajets sans autoroute"
+  },
+  {
+    "questions": [
+      "combien économise-t-on sans autoroute",
+      "péages évités",
+      "est-ce vraiment moins cher sans autoroute"
+    ],
+    "reponse": "Les péages évités sont indiqués pour chaque trajet, à titre d'estimation. Mais un trajet plus long consomme aussi plus de carburant : chaque page compare le coût total de la route par l'autoroute et sans autoroute.",
+    "lien": "https://myhotelcompare.com/trajets-sans-autoroute.html",
+    "lien_texte": "Voir les trajets sans autoroute"
+  },
+  {
+    "questions": [
+      "zone à faibles émissions Crit'Air",
+      "ZFE vignette Crit'Air",
+      "traverser une grande ville en voiture"
+    ],
+    "reponse": "Certaines grandes agglomérations françaises ont des zones à faibles émissions (ZFE) qui demandent une vignette Crit'Air et limitent certains véhicules. Les règles évoluent : vérifiez-les avant de traverser une grande ville."
+  },
+  {
+    "questions": [
+      "camping-car ou caravane",
+      "itinéraire pour un véhicule haut ou lourd",
+      "le trajet convient-il à mon camping-car"
+    ],
+    "reponse": "Le calcul est prévu pour une voiture particulière. La hauteur, la largeur et le poids de votre véhicule ne sont pas pris en compte : vérifiez les restrictions (ponts, villages, routes de montagne) sur votre parcours."
+  },
+  {
+    "questions": [
+      "carburant moins cher",
+      "où faire le plein sans payer trop cher",
+      "essence moins chère hors autoroute"
+    ],
+    "reponse": "Le carburant est généralement moins cher dans les stations des supermarchés en périphérie des villes que sur l'autoroute. Les trajets sans autoroute permettent de choisir où faire le plein."
+  },
+  {
+    "questions": [
+      "mon trajet n'est pas dans la liste",
+      "calculer un autre trajet",
+      "trajet personnalisé"
+    ],
+    "reponse": "Si votre trajet n'est pas dans la liste, calculez-le directement dans le planificateur d'itinéraires : indiquez votre départ, votre arrivée et votre rythme de conduite.",
+    "lien": "https://myhotelcompare.com/itineraire-decouverte.html",
+    "lien_texte": "Ouvrir le planificateur"
+  }
+]

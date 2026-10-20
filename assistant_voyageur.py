@@ -1,153 +1,161 @@
-import streamlit as st
 import json
+import os
+
+import streamlit as st
+
+from moteur_site import MODELE_DEFAUT, charger_index, repondre
 
 st.set_page_config(page_title="Assistant Voyageur", layout="wide")
 
-# Ton thème graphique global
+# --- Thème graphique (inchangé) ---
 st.markdown("""
     <style>
     [data-testid="stHeader"] { display: none !important; }
     [data-testid="stDecoration"] { display: none !important; }
-    
-    .stApp { 
-        background-color: #0B132B !important; 
-        color: #FFFFFF !important;
-    }
-    .block-container { 
-        padding-top: 0rem !important; 
-        margin-top: -10px !important;
-    }
-    
-    p, span, label, h1, h2, h3, h4, h5, h6, .stMarkdown {
-        color: #FFFFFF !important;
-    }
-
-    .stLinkButton a, .stLinkButton a p, .stLinkButton a div {
-        color: #0B132B !important;
-        font-weight: 700 !important;
-    }
+    .stApp { background-color: #0B132B !important; color: #FFFFFF !important; }
+    .block-container { padding-top: 0rem !important; margin-top: -10px !important; }
+    p, span, label, h1, h2, h3, h4, h5, h6, .stMarkdown { color: #FFFFFF !important; }
+    .stLinkButton a, .stLinkButton a p, .stLinkButton a div { color: #0B132B !important; font-weight: 700 !important; }
     </style>
 """, unsafe_allow_html=True)
 
-@st.cache_data
-def load_hotels():
-    with open("data/tunisie.json", "r", encoding="utf-8") as f:
-        return json.load(f)
+MAX_QUESTIONS_PAR_SESSION = 20
 
-hotels_data = load_hotels()
 
-st.title("🤖 Assistant Voyageur")
-st.write("Trouvez l'hôtel idéal via la recherche ou les filtres par critères ci-dessous 👇")
+def secret(nom, defaut=None):
+    try:
+        return st.secrets.get(nom, os.environ.get(nom, defaut))
+    except Exception:               # pas de fichier secrets.toml
+        return os.environ.get(nom, defaut)
 
-# --- 1. BARRE DE RECHERCHE PRINCIPALE ---
-query = st.text_input("Recherche rapide :", placeholder="Ex: un hôtel à Tunis ou à Djerba...", key="recherche_input")
 
-st.markdown("---")
+@st.cache_resource(show_spinner="Chargement du site…")
+def index_du_site():
+    return charger_index()
 
-# --- 2. SECTION DE RECHERCHE PAR CRITÈRES (EN DESSOUS) ---
-st.subheader("🎯 Recherche avancée par critères")
 
-col_c1, col_c2, col_c3 = st.columns(3)
+@st.cache_data(ttl=3600, show_spinner=False)
+def reponse_cachee(question, cle, modele, _index):
+    return repondre(question, _index, cle, modele)
 
-with col_c1:
-    villes_disponibles = sorted(list(set(info.get("ville", "") for info in hotels_data.values() if info.get("ville"))))
-    filtre_ville = st.selectbox("📍 Choisir une ville :", ["Toutes"] + villes_disponibles)
 
-with col_c2:
-    filtre_etoiles = st.selectbox("⭐ Standing / Étoiles :", ["Tous", "3 étoiles", "4 étoiles", "5 étoiles", "Maison d'hôtes"])
-
-with col_c3:
-    filtre_equipement = st.selectbox("🏊 Équipement spécifique :", ["Tous", "Piscine", "Centre-ville", "Parc aquatique / Toboggans"])
-
-st.markdown("---")
-
-# --- 3. LOGIQUE DE FILTRAGE COMBINÉE ---
-hotels_filtres = []
-
-for nom, info in hotels_data.items():
-    ville_hotel = str(info.get("ville", ""))
-    etoiles_hotel = str(info.get("etoiles", ""))
-    
-    equipements_str = " ".join(info.get('equipements', []))
-    texte_complet = f"{nom} {ville_hotel} {info.get('description', '')} {' '.join(info.get('points_positifs', []))} {equipements_str}".lower()
-    
-    # Si l'utilisateur utilise la barre de recherche textuelle du haut
-    if query:
-        query_lower = query.lower()
-        mots_requete = [m for m in query_lower.split() if len(m) > 2]
-        # Vérification si les mots de la recherche correspondent à l'hôtel
-        correspond_texte = any(mot in texte_complet for mot in mots_requete)
-        if not correspond_texte:
-            continue
-    
-    # Si l'utilisateur utilise les filtres par critères du bas
-    if filtre_ville != "Toutes" and filtre_ville.lower() not in ville_hotel.lower():
-        continue
-        
-    if filtre_etoiles != "Tous" and filtre_etoiles.lower() not in etoiles_hotel.lower():
-        continue
-        
-    if filtre_equipement == "Piscine" and not any(m in texte_complet for m in ["piscine", "bassin"]):
-        continue
-    if filtre_equipement == "Centre-ville" and not any(m in texte_complet for m in ["centre", "habib", "bourguiba", "emplacement"]):
-        continue
-    if filtre_equipement == "Parc aquatique / Toboggans" and not any(m in texte_complet for m in ["aquatique", "toboggan"]):
-        continue
-
-    hotels_filtres.append((nom, info))
-
-# --- 4. AFFICHAGE DES RÉSULTATS ---
-if not hotels_filtres:
-    st.warning("⚠️ Aucun hôtel ne correspond à vos critères de recherche.")
-else:
-    st.success(f"🔍 **{len(hotels_filtres)} hôtel(s) trouvé(s)**")
-
-    for nom, info in hotels_filtres:
-        col1, col2 = st.columns([1, 2])
-        with col1:
-            image_url = info.get("image", "")
-            if image_url:
-                st.image(image_url, use_container_width=True)
-        with col2:
-            st.subheader(nom)
-            st.write(f"📍 **{info.get('ville', '')}** | ⭐ {info.get('etoiles', 'N/C')}")
-            st.write(f"💰 **{info.get('prix_moyen', 'Sur demande')}**")
-            points = info.get('points_positifs', [])
-            if points:
-                st.markdown(f"**Points forts :** {', '.join(points)}")
-            
-            lien = info.get('lien', '#')
-            st.link_button("Réserver sur Booking", lien)
-            
-        # ...existing code...
-
-st.markdown("---")
-st.subheader("✈️ Questions sur les compagnies aériennes")
-
-@st.cache_data
-def load_faq():
-    with open("faq_nomad.json", "r", encoding="utf-8") as f:
-        return json.load(f)
-
-faq_data = load_faq()
-question = st.text_input(
-    "Posez une question :",
-    placeholder="Ex. Quels bagages sont inclus avec Ethiopian Airlines ?",
-    key="question_faq"
-)
-
-if question:
-    question_lower = question.casefold()
-    faq_trouvee = next(
-        (
-            faq for faq in faq_data
-            if faq["compagnie"].casefold() in question_lower
-            or any(q.casefold() in question_lower for q in faq.get("questions", []))
-        ),
-        None
-    )
-
-    if faq_trouvee:
-        st.success(faq_trouvee["reponse"])
+def afficher_source(d, i):
+    if d["type"] == "hotel":
+        m = d["meta"]
+        c1, c2 = st.columns([1, 2])
+        with c1:
+            if m.get("image"):
+                st.image(m["image"], use_container_width=True)
+        with c2:
+            st.subheader(d["titre"])
+            st.write(f"📍 **{m.get('ville', '')}** | ⭐ {m.get('etoiles') or 'N/C'}")
+            st.write(f"💰 **{m.get('prix') or 'Sur demande'}**")
+            if m.get("points"):
+                st.markdown(f"**Points forts :** {', '.join(m['points'])}")
+            if d["url"]:
+                st.link_button("Réserver sur Booking", d["url"], key=f"src_{i}")
+    elif d["type"] == "faq":
+        st.markdown(f"**✈️ {d['meta']['compagnie']}**")
+        st.info(d["meta"]["reponse"])
     else:
-        st.info("Je n’ai pas trouvé de réponse. Essayez de mentionner le nom de la compagnie.")
+        st.markdown(f"**{d['titre']}**")
+        st.caption(d["texte"][:220] + "…")
+        if d["url"]:
+            st.link_button("Voir la page", d["url"], key=f"src_{i}")
+
+
+# =====================================================================
+st.title("🤖 Assistant Voyageur")
+st.write("Posez votre question en vos propres mots : je cherche la réponse dans tout le site "
+         "(hôtels, compagnies aériennes, trajets sans autoroute).")
+
+index = index_du_site()
+cle = secret("ANTHROPIC_API_KEY")
+modele = secret("MODELE", MODELE_DEFAUT)
+
+with st.form("demande"):
+    question = st.text_input(
+        "Votre demande :", max_chars=400,
+        placeholder="Ex. un hôtel avec piscine à Djerba, les bagages avec Ethiopian Airlines, Strasbourg Nice sans péage…")
+    envoye = st.form_submit_button("Chercher")
+
+if envoye and question.strip():
+    st.session_state["nb_q"] = st.session_state.get("nb_q", 0) + 1
+    if st.session_state["nb_q"] > MAX_QUESTIONS_PAR_SESSION:
+        st.warning("Vous avez atteint la limite de questions pour cette session. Revenez un peu plus tard.")
+    else:
+        with st.spinner("Je cherche dans le site…"):
+            r = reponse_cachee(question.strip(), cle, modele, index)
+        for avant, apres in r["corrections"]:
+            st.caption(f"J'ai lu « {apres} » à la place de « {avant} ».")
+        if r["erreur"]:
+            st.caption("L'assistant IA est momentanément indisponible : voici les résultats de la recherche.")
+        if r["trouve"]:
+            st.success(r["texte"])
+        else:
+            st.warning(r["texte"])
+        if r["lien"]:
+            st.link_button(r["lien"][0], r["lien"][1], key="lien_reponse")
+        if r["sources"]:
+            st.markdown("---")
+            st.subheader("📌 Sur le site")
+            for i, d in enumerate(r["sources"]):
+                afficher_source(d, i)
+                st.markdown("---")
+
+st.caption("Les demandes restées sans réponse sont enregistrées (texte seul, sans donnée personnelle) "
+           "pour améliorer le site.")
+
+# --- Espace gestion : questions sans réponse (visible seulement si ADMIN_CODE est défini dans les secrets) ---
+code_admin = secret("ADMIN_CODE")
+if code_admin:
+    with st.expander("🔒 Gestion"):
+        if st.text_input("Code", type="password", key="code_admin") == code_admin:
+            from moteur_site import FICHIER_LOG
+            if FICHIER_LOG.exists():
+                st.download_button("Télécharger les questions sans réponse", FICHIER_LOG.read_bytes(),
+                                   file_name="questions_sans_reponse.jsonl")
+                st.code(FICHIER_LOG.read_text(encoding="utf-8")[-3000:] or "(vide)")
+            else:
+                st.write("Aucune question sans réponse pour l'instant.")
+
+# --- Recherche par critères (logique d'origine, conservée) ---
+with st.expander("🎯 Recherche avancée par critères (Tunisie)"):
+    @st.cache_data
+    def load_hotels():
+        with open("data/tunisie.json", "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    hotels_data = load_hotels()
+    c1, c2, c3 = st.columns(3)
+    with c1:
+        villes = sorted({i.get("ville", "") for i in hotels_data.values() if i.get("ville")})
+        f_ville = st.selectbox("📍 Choisir une ville :", ["Toutes"] + villes)
+    with c2:
+        f_etoiles = st.selectbox("⭐ Standing / Étoiles :", ["Tous", "3 étoiles", "4 étoiles", "5 étoiles", "Maison d'hôtes"])
+    with c3:
+        f_equip = st.selectbox("🏊 Équipement spécifique :", ["Tous", "Piscine", "Centre-ville", "Parc aquatique / Toboggans"])
+
+    for nom, info in hotels_data.items():
+        ville = str(info.get("ville", ""))
+        txt = f"{nom} {ville} {info.get('description', '')} {' '.join(info.get('points_positifs', []))} {' '.join(info.get('equipements', []))}".lower()
+        if f_ville != "Toutes" and f_ville.lower() not in ville.lower():
+            continue
+        if f_etoiles != "Tous" and f_etoiles.lower() not in str(info.get("etoiles", "")).lower():
+            continue
+        if f_equip == "Piscine" and not any(m in txt for m in ["piscine", "bassin"]):
+            continue
+        if f_equip == "Centre-ville" and not any(m in txt for m in ["centre", "habib", "bourguiba", "emplacement"]):
+            continue
+        if f_equip == "Parc aquatique / Toboggans" and not any(m in txt for m in ["aquatique", "toboggan"]):
+            continue
+        a, b = st.columns([1, 2])
+        with a:
+            if info.get("image"):
+                st.image(info["image"], use_container_width=True)
+        with b:
+            st.subheader(nom)
+            st.write(f"📍 **{ville}** | ⭐ {info.get('etoiles', 'N/C')} | 💰 {info.get('prix_moyen', 'Sur demande')}")
+            if info.get("points_positifs"):
+                st.markdown(f"**Points forts :** {', '.join(info['points_positifs'])}")
+            st.link_button("Réserver sur Booking", info.get("lien", "#"), key=f"crit_{nom}")
