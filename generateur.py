@@ -15,6 +15,7 @@ from pathlib import Path
 from data.airlines_data import AIRLINES_DATA
 from itineraire import generate_itineraire_page
 from trajets import generate_trajets_pages, bouton_accueil, bloc_accueil
+from carte_itineraire import generer_carte_itineraire
 def nettoyer_liens_et_images(data):
     """
     Nettoie automatiquement les URL qui contiendraient par erreur 
@@ -2682,6 +2683,7 @@ if os.path.exists("blog_data.json"):
 <div class="card">
     <h1>{art_title}</h1>
     {f'<img src="{img_art}" alt="{escape_html(art_title)}" style="width:100%; height:340px; object-fit:cover; object-position:center 35%; border-radius:16px; margin:20px 0; box-shadow: var(--shadow);">' if img_art else ''}
+    {generer_carte_itineraire(art)}
     <p style="font-size: 1.1em; line-height: 1.8;">{details_texte}</p>
 </div>
 {footer_html}
