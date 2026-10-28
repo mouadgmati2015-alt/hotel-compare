@@ -1,0 +1,75 @@
+"""Ajoute à l'article « Route des Grandes Alpes » la liste de VOS hôtels situés sur le parcours.
+
+Usage (depuis le dossier qui contient data/ et data_logements/) :
+    python ajouter_hotels_grandes_alpes.py article-grandes-alpes.json
+
+Le script lit vos fiches (data/*.json et data_logements/*.json), repère celles dont la ville correspond aux
+villes de chaque étape, et remplace chaque marqueur <!--HOTELS ... --> par une liste de liens vers vos pages.
+Il écrit article-route-des-grandes-alpes-final.json (à coller dans blog_data.json). Les villes sans hôtel
+dans vos données sont simplement ignorées : le script affiche ce qu'il a trouvé pour chaque étape.
+"""
+import json
+import re
+import sys
+import unicodedata
+from pathlib import Path
+
+SITE = "https://myhotelcompare.com"
+MAX_PAR_ETAPE = 6
+
+
+def slug(t):
+    t = unicodedata.normalize("NFKD", str(t).lower().strip()).encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+
+
+def charger(dossier, prefixe):
+    res = []
+    d = Path(dossier)
+    if not d.exists():
+        return res
+    for f in sorted(d.glob("*.json")):
+        if f.name.startswith("_") or f.name == "promo_semaine.json":
+            continue
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+        except Exception as e:
+            print("  (ignoré)", f.name, e)
+            continue
+        if not isinstance(data, dict):
+            continue
+        for nom, v in data.items():
+            if not isinstance(v, dict) or not slug(nom):
+                continue
+            res.append({"nom": nom, "ville": slug(v.get("ville", "")), "ville_aff": v.get("ville", ""),
+                        "pays": slug(v.get("pays", "")), "etoiles": v.get("etoiles"),
+                        "url": f"{SITE}/{prefixe}{slug(nom)}.html"})
+    return res
+
+
+def main(chemin):
+    art = json.loads(Path(chemin).read_text(encoding="utf-8"))
+    fiches = charger("data", "") + charger("data_logements", "atypique-")
+    print(f"{len(fiches)} fiche(s) lue(s).")
+
+    def remplacer(m):
+        titre, villes = m.group(1).strip(), [slug(v) for v in m.group(2).split(",") if v.strip()]
+        trouves = [f for f in fiches if f["ville"] in villes and f["pays"] in ("france", "")]
+        trouves = sorted(trouves, key=lambda f: villes.index(f["ville"]))[:MAX_PAR_ETAPE]
+        print(f"  {titre} : {len(trouves)} établissement(s)")
+        if not trouves:
+            return ""
+        lis = "".join(
+            f'<li><a href="{f["url"]}">{f["nom"]}</a> ({f["ville_aff"]}'
+            + (f', {f["etoiles"]} étoiles' if str(f.get("etoiles") or "").strip().isdigit() else "") + ")</li>"
+            for f in trouves)
+        return f'<h4>Nos hôtels à {titre}</h4><ul>{lis}</ul>'
+
+    art["details"] = re.sub(r"<!--HOTELS\s+(.+?)\s*:\s*(.+?)\s*-->", remplacer, art["details"])
+    sortie = Path("article-route-des-grandes-alpes-final.json")
+    sortie.write_text(json.dumps(art, ensure_ascii=False, indent=2), encoding="utf-8")
+    print("Écrit :", sortie)
+
+
+if __name__ == "__main__":
+    main(sys.argv[1] if len(sys.argv) > 1 else "article-grandes-alpes.json")

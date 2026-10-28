@@ -176,6 +176,52 @@ a { color: var(--secondary); }
 }
 .btn-itineraire:hover { background: rgba(255,255,255,0.26); }
 .btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+/* ===== myhotelcompare : styles des articles (à ajouter à la feuille de style globale du site) ===== */
+
+/* Texte et espacements de l'article */
+.mhc-art{font-size:1.15rem;line-height:1.7}
+.mhc-art p,.mhc-art li{font-size:1.15rem!important;line-height:1.7!important;margin:0 0 14px!important}
+.mhc-art h2{font-size:1.7rem!important;line-height:1.25!important;margin:32px 0 12px!important}
+.mhc-art h3{font-size:1.3rem!important;margin:22px 0 8px!important}
+.mhc-art br{display:none!important}
+
+/* Encadrés */
+.mhc-note{border-left:5px solid #2dd4bf;background:rgba(45,212,191,.12);padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0}
+.mhc-teaser{background:rgba(232,96,76,.12);padding:12px 16px;border-radius:8px;margin:16px 0}
+.mhc-teaser b{color:#e8604c}
+.mhc-toc{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px 18px;margin:16px 0}
+.mhc-toc ol{margin:6px 0 0;padding-left:20px}
+
+/* Tableaux */
+.mhc-wrap{overflow-x:auto;margin:16px 0}
+.mhc-table{width:100%;min-width:480px;border-collapse:collapse;box-shadow:0 2px 10px rgba(0,0,0,.08);border-radius:8px;overflow:hidden;font-size:1.05rem;margin:0}
+.mhc-table th{background:linear-gradient(90deg,#ff7f6b,#2dd4bf);color:#fff;text-align:left;padding:10px 14px;font-size:1rem}
+.mhc-table td{padding:10px 14px;border-bottom:1px solid rgba(128,128,128,.25)}
+.mhc-table .n{text-align:right;white-space:nowrap}
+.mhc-table tr.t td{font-weight:700;background:rgba(45,212,191,.12)}
+.mhc-cap{font-size:.9rem!important;opacity:.75;margin:6px 0 16px!important}
+.mhc-big{font-size:2.6rem;font-weight:800;color:#e8604c;line-height:1.1;margin:16px 0 4px}
+
+/* Calculateur */
+.mhc-calc{border:2px solid #2dd4bf;border-radius:12px;padding:18px;margin:16px 0}
+.mhc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:12px}
+.mhc-calc label{display:block;font-size:.9rem;opacity:.85;margin-top:6px}
+.mhc-calc input[type=number]{width:100%;padding:8px 10px;font-size:1rem;border:1px solid rgba(128,128,128,.5);border-radius:6px;background:transparent;color:inherit}
+.mhc-check{display:flex;gap:10px;align-items:flex-start;margin:10px 0}
+.mhc-check label{margin:0;opacity:1;font-size:.95rem}
+.mhc-res{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.mhc-box{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px}
+.mhc-box.win{border:2px solid #2dd4bf;background:rgba(45,212,191,.12)}
+.mhc-tot{font-size:1.6rem;font-weight:800;margin:4px 0 8px}
+.mhc-box dl{margin:0;display:grid;grid-template-columns:1fr auto;gap:4px 12px}
+.mhc-box dd{margin:0;text-align:right}
+.mhc-verdict{margin-top:14px;font-weight:700}
+
+/* FAQ */
+.mhc-faq{border-bottom:1px solid rgba(128,128,128,.3);padding:10px 0}
+.mhc-faq summary{cursor:pointer;font-weight:700}
+
+@media(max-width:520px){.mhc-res{grid-template-columns:1fr}}
 </style>
 
 <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
@@ -210,6 +256,7 @@ a { color: var(--secondary); }
 <div class="card">
     <h1>Paris-Strasbourg sans autoroute : par la Champagne et la Lorraine, en 2 jours</h1>
     <img src="images/paris-strasbourg-champagne-lorraine.jpg" alt="Paris-Strasbourg sans autoroute : par la Champagne et la Lorraine, en 2 jours" style="width:100%; height:340px; object-fit:cover; object-position:center 35%; border-radius:16px; margin:20px 0; box-shadow: var(--shadow);">
+    
     <p style="font-size: 1.1em; line-height: 1.8;"><p>Deux jours, environ 500 km et zéro péage : de <strong>Paris à Strasbourg</strong>, la route des petites villes traverse la Brie, la Champagne et la Lorraine, avec une nuit à <strong>Metz</strong>, avant de plonger dans l'Alsace. Cathédrales, vignobles, champs de bataille, canaux et tartes flambées : ce trajet prend un peu plus de temps que l'autoroute, mais il vaut le détour. Vous voulez le détail kilomètre par kilomètre ? Consultez notre <a href="https://myhotelcompare.com/paris-strasbourg-sans-autoroute.html">itinéraire Paris-Strasbourg sans autoroute</a>.</p><br><h2>1. Pourquoi éviter l'autoroute entre Paris et Strasbourg ?</h2><br><p>Le corridor Paris-Strasbourg est l'un des grands axes de l'Est de la France, emprunté depuis des siècles par les armées, les marchands et les pèlerins. L'autoroute le parcourt vite, mais elle contourne tout ce qui fait le charme du trajet. En quittant les péages, on retrouve les vallées de la Marne et de la Meuse, les villages de pierre et les centres-villes que l'on ne voit jamais depuis la bretelle.</p><p>Notre estimation donne environ <strong>501 km pour 4 h 55 de conduite</strong>, contre 490 km et 4 h 44 par l'autoroute : soit une dizaine de minutes de plus. Côté budget, le trajet revient à environ <strong>51 €</strong> (carburant) contre environ <strong>101 €</strong> avec les péages et le carburant, soit une cinquantaine d'euros d'économie. Ces chiffres reposent sur un véhicule thermique à 6 l/100 km, un carburant à 1,80 € le litre et un péage à 0,10 €/km ; ils n'incluent ni repas, ni visites, ni hébergement.</p><br><h2>2. Jour 1 : Paris - Metz (environ 330 km, 3 h 15 de route)</h2><br><p>On quitte Paris par l'est, vers la Brie et la vallée de la Marne.</p><ul><li><strong>Coupvray :</strong> village natal de <strong>Louis Braille</strong>, né en 1809. Sa maison abrite un petit musée consacré à l'inventeur de l'alphabet tactile (ouvert du mercredi au dimanche, de 10 h à 18 h ; vérifiez avant de partir).</li><li><strong>Meaux :</strong> ville de Bossuet, célèbre pour son brie, avec sa cathédrale Saint-Étienne dominant la Marne.</li><li><strong>Champagne :</strong> la route longe les coteaux et les villages viticoles. Un arrêt à <strong>Épernay</strong> et son avenue de Champagne, ou à <strong>Reims</strong> et sa cathédrale classée à l'UNESCO, vaut le détour si vous avez du temps.</li><li><strong>Verdun et la Meuse :</strong> le souvenir de la bataille de 1916 est partout. Les forts, l'ossuaire de Douaumont et les paysages marqués par la guerre invitent au recueillement.</li><li><strong>Metz :</strong> étape du soir. Sa <strong>cathédrale Saint-Étienne</strong> est réputée pour l'immensité de ses vitraux (on l'appelle la « Lanterne du Bon Dieu »), et le <strong>Centre Pompidou-Metz</strong> apporte une touche contemporaine. N'oubliez pas la <strong>porte des Allemands</strong>, vestige des remparts médiévaux, ni les quais de la Moselle au coucher du soleil.</li></ul><p>Pour le dîner à Metz, comptez sur les brasseries du centre : notre page de trajet propose une sélection de tables pour le déjeuner et le dîner. Et pour dormir, comparez les prix sur notre page <a href="https://myhotelcompare.com/hotels.html">Hôtels</a>.</p><br><h2>3. Jour 2 : Metz - Strasbourg (environ 170 km, 1 h 45 de route)</h2><br><p>La seconde journée est plus courte : elle laisse le temps de flâner avant d'arriver en Alsace.</p><ul><li><strong>Saverne et le col :</strong> si vous avez le temps, un détour par la porte des Vosges permet de voir le <strong>château des Rohan</strong> et le canal de la Marne au Rhin.</li><li><strong>Brumath :</strong> petite ville alsacienne avec son ancien château, aujourd'hui musée.</li><li><strong>Hœrdt :</strong> le « pays de l'asperge », avec son musée de l'asperge, ouvert le week-end et les jours fériés l'après-midi.</li><li><strong>Vendenheim :</strong> bon endroit pour une pause déjeuner de cuisine régionale ou une tarte flambée avant d'entrer dans la ville.</li><li><strong>Strasbourg :</strong> la <strong>Grande Île</strong> est classée à l'UNESCO depuis 1988, avec sa cathédrale Notre-Dame en grès rose, le quartier de la <strong>Petite France</strong>, les ponts couverts et les winstubs. La <strong>Neustadt</strong>, ses bâtiments de l'époque allemande, est elle aussi classée depuis 2017.</li></ul><br><h2>4. Nos conseils pratiques</h2><br><ol><li><strong>Partez tôt de Paris :</strong> le trajet est tranquille, mais la sortie de l'agglomération prend du temps aux heures de pointe.</li><li><strong>Gardez le GPS en mode « sans autoroute » :</strong> vérifiez le tracé le matin du départ, car les routes peuvent être en travaux.</li><li><strong>Réservez Metz et Strasbourg à l'avance :</strong> comparez les prix sur notre page <a href="https://myhotelcompare.com/hotels.html">Hôtels</a> et suivez nos conseils pour <a href="https://myhotelcompare.com/comment-trouver-un-hotel-moins-cher.html">trouver un hôtel moins cher</a>.</li><li><strong>Choisissez la bonne saison :</strong> notre <a href="https://myhotelcompare.com/quand-partir-et-ou-calendrier-voyageurs.html">calendrier des voyageurs malins</a> vous aide à choisir la bonne période. Les marchés de Noël de Strasbourg attirent beaucoup de monde en décembre : réservez très tôt.</li><li><strong>Pas de voiture ?</strong> Comparez les offres sur notre page <a href="https://myhotelcompare.com/loueurs-vehicules.html">Location de véhicules</a> avant de partir.</li><li><strong>Surveillez votre budget :</strong> carburant, taxes et prix des transports pèsent sur les vacances. Notre article sur le <a href="https://myhotelcompare.com/budget-etat-vacances-taxe-kerosene-sucre.html">budget de l'État et son impact sur vos vacances</a> détaille les astuces pour partir malin.</li><li><strong>Prolongez le voyage :</strong> depuis Strasbourg, poursuivez vers l'Italie avec notre article <a href="https://myhotelcompare.com/strasbourg-milan-route-du-gothard.html">Strasbourg-Milan par la route du Gothard</a>, ou vers les Alpes avec <a href="https://myhotelcompare.com/strasbourg-annecy-par-le-jura.html">Strasbourg-Annecy par le Jura</a>.</li></ol><br><p>Vérifiez horaires, tarifs et jours d'ouverture des sites avant de partir : ils évoluent d'une saison à l'autre.</p><br><div class="glass-box" style="margin:22px 0; border-left:5px solid var(--primary); text-align:center;"><h3 style="margin-top:0;">🧭 Planifiez votre propre route</h3><p style="margin-bottom:16px;">Entrez votre départ et votre arrivée : MyHotelCompare découpe votre trajet sans autoroute en étapes, avec lieux à visiter, restaurants, ville-étape et comparaison de coût avec l'autoroute.</p><a href="https://myhotelcompare.com/itineraire-decouverte.html" class="btn">Calculer mon itinéraire</a><p style="margin:16px 0 0;">À lire aussi : <a href="https://myhotelcompare.com/blog.html">tous les articles du blog</a></p></div></p>
 </div>
 

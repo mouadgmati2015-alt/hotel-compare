@@ -176,6 +176,52 @@ a { color: var(--secondary); }
 }
 .btn-itineraire:hover { background: rgba(255,255,255,0.26); }
 .btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+/* ===== myhotelcompare : styles des articles (à ajouter à la feuille de style globale du site) ===== */
+
+/* Texte et espacements de l'article */
+.mhc-art{font-size:1.15rem;line-height:1.7}
+.mhc-art p,.mhc-art li{font-size:1.15rem!important;line-height:1.7!important;margin:0 0 14px!important}
+.mhc-art h2{font-size:1.7rem!important;line-height:1.25!important;margin:32px 0 12px!important}
+.mhc-art h3{font-size:1.3rem!important;margin:22px 0 8px!important}
+.mhc-art br{display:none!important}
+
+/* Encadrés */
+.mhc-note{border-left:5px solid #2dd4bf;background:rgba(45,212,191,.12);padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0}
+.mhc-teaser{background:rgba(232,96,76,.12);padding:12px 16px;border-radius:8px;margin:16px 0}
+.mhc-teaser b{color:#e8604c}
+.mhc-toc{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px 18px;margin:16px 0}
+.mhc-toc ol{margin:6px 0 0;padding-left:20px}
+
+/* Tableaux */
+.mhc-wrap{overflow-x:auto;margin:16px 0}
+.mhc-table{width:100%;min-width:480px;border-collapse:collapse;box-shadow:0 2px 10px rgba(0,0,0,.08);border-radius:8px;overflow:hidden;font-size:1.05rem;margin:0}
+.mhc-table th{background:linear-gradient(90deg,#ff7f6b,#2dd4bf);color:#fff;text-align:left;padding:10px 14px;font-size:1rem}
+.mhc-table td{padding:10px 14px;border-bottom:1px solid rgba(128,128,128,.25)}
+.mhc-table .n{text-align:right;white-space:nowrap}
+.mhc-table tr.t td{font-weight:700;background:rgba(45,212,191,.12)}
+.mhc-cap{font-size:.9rem!important;opacity:.75;margin:6px 0 16px!important}
+.mhc-big{font-size:2.6rem;font-weight:800;color:#e8604c;line-height:1.1;margin:16px 0 4px}
+
+/* Calculateur */
+.mhc-calc{border:2px solid #2dd4bf;border-radius:12px;padding:18px;margin:16px 0}
+.mhc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:12px}
+.mhc-calc label{display:block;font-size:.9rem;opacity:.85;margin-top:6px}
+.mhc-calc input[type=number]{width:100%;padding:8px 10px;font-size:1rem;border:1px solid rgba(128,128,128,.5);border-radius:6px;background:transparent;color:inherit}
+.mhc-check{display:flex;gap:10px;align-items:flex-start;margin:10px 0}
+.mhc-check label{margin:0;opacity:1;font-size:.95rem}
+.mhc-res{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.mhc-box{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px}
+.mhc-box.win{border:2px solid #2dd4bf;background:rgba(45,212,191,.12)}
+.mhc-tot{font-size:1.6rem;font-weight:800;margin:4px 0 8px}
+.mhc-box dl{margin:0;display:grid;grid-template-columns:1fr auto;gap:4px 12px}
+.mhc-box dd{margin:0;text-align:right}
+.mhc-verdict{margin-top:14px;font-weight:700}
+
+/* FAQ */
+.mhc-faq{border-bottom:1px solid rgba(128,128,128,.3);padding:10px 0}
+.mhc-faq summary{cursor:pointer;font-weight:700}
+
+@media(max-width:520px){.mhc-res{grid-template-columns:1fr}}
 </style>
 
 <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
@@ -210,6 +256,7 @@ a { color: var(--secondary); }
 <div class="card">
     <h1>Top des concepts hôteliers les plus insolites : Quand la nuit d'hôtel devient une attraction à part entière</h1>
     <img src="images/hotels_insolites.jpg" alt="Top des concepts hôteliers les plus insolites : Quand la nuit d&#39;hôtel devient une attraction à part entière" style="width:100%; height:340px; object-fit:cover; object-position:center 35%; border-radius:16px; margin:20px 0; box-shadow: var(--shadow);">
+    
     <p style="font-size: 1.1em; line-height: 1.8;"><p>Le secteur de l'hôtellerie réinvente sans cesse ses codes pour transformer un simple hébergement en une véritable expérience immersive. Aujourd'hui, les voyageurs ne cherchent plus seulement un lit où dormir, mais un lieu de vie singulier, une architecture audacieuse ou un dépaysement total.</p><br><h2>1. Entre feu, glace et grands espaces sauvages</h2><p>Pour les voyageurs en quête d'ultra-minimalisme ou de frissons polaires, les destinations nordiques proposent des ruptures totales avec le quotidien urbain.</p><ul><li><strong>L'art éphémère sculpté dans le froid en Suède :</strong> Situé à Jukkasjärvi, l'emblématique <a href="https://www.icehotel.com" target="_blank" rel="noopener noreferrer">Icehotel</a> se réinvente chaque hiver avec des suites artistiques sculptées à la main.</li><li><strong>Le minimalisme volcanique en Islande :</strong> Le <a href="https://blandsandhotel.is" target="_blank" rel="noopener noreferrer">Black Sand Hotel</a> s'impose comme une référence audacieuse face à une plage de sable noir volcanique.</li></ul><div style="margin: 20px 0;"><img src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?auto=format&fit=crop&w=1200&q=80" alt="Hôtel insolite et nature sauvage" style="width:100%; border-radius:8px;"></div><p>> <em>Astuce <a href="index.html">MyHotelCompare</a> :</em> Utilisez notre comparateur pour filtrer les hébergements thématiques et dénicher des offres adaptées au tourisme d'aventure ou au grand froid.</p><br><h2>2. Le patrimoine réinventé : Dormir dans l'histoire vivante</h2><p>L'hôtellerie d'exception s'empare également de monuments historiques pour offrir une immersion temporelle unique, loin des complexes standardisés.</p><p>À Venise, des adresses d'exception à l'instar d'<a href="https://www.elizabethuniquevenice.com" target="_blank" rel="noopener noreferrer">Elizabeth Unique Venice</a> investissent des palais du XVIIe siècle. En Toscane, le domaine <a href="https://www.chapter-italia.com" target="_blank" rel="noopener noreferrer">Chapter Chianti</a> transforme un hameau historique en carrefour de design contemporain.</p><br><h2>3. Le nomadisme de luxe et les échappées sur l'eau</h2><p>Quand l'hôtel ne se contente plus de rester immobile, l'expérience de voyage franchit un nouveau cap en matière d'exclusivité.</p><p>L'audacieux projet <a href="https://www.orient-express.com" target="_blank" rel="noopener noreferrer">Orient Express Corinthian</a> repousse les limites du voyage en mer à bord d'un voilier de croisière d'exception, tandis que des concepts comme <a href="https://www.singita.com" target="_blank" rel="noopener noreferrer">Singita Elela</a> réinventent le safari en Afrique.</p><br><p>Pour comparer les tarifs de ces pépites ou trouver des alternatives au meilleur prix, pensez à consulter les outils disponibles sur <a href="index.html">MyHotelCompare</a>.</p><p><em>Découvrez aussi nos autres guides sur le blog : <a href="https://myhotelcompare.com/phenomene-staycation-vacances-grand-luxe.html" target="_blank">Le phénomène Staycation : vacances grand luxe près de chez soi</a> et <a href="https://myhotelcompare.com/comment-reperer-hotels-eco-responsables-greenwashing.html" target="_blank">Comment repérer les meilleurs hôtels éco-responsables sans tomber dans le greenwashing</a>.</em></p></p>
 </div>
 

@@ -176,6 +176,52 @@ a { color: var(--secondary); }
 }
 .btn-itineraire:hover { background: rgba(255,255,255,0.26); }
 .btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+/* ===== myhotelcompare : styles des articles (à ajouter à la feuille de style globale du site) ===== */
+
+/* Texte et espacements de l'article */
+.mhc-art{font-size:1.15rem;line-height:1.7}
+.mhc-art p,.mhc-art li{font-size:1.15rem!important;line-height:1.7!important;margin:0 0 14px!important}
+.mhc-art h2{font-size:1.7rem!important;line-height:1.25!important;margin:32px 0 12px!important}
+.mhc-art h3{font-size:1.3rem!important;margin:22px 0 8px!important}
+.mhc-art br{display:none!important}
+
+/* Encadrés */
+.mhc-note{border-left:5px solid #2dd4bf;background:rgba(45,212,191,.12);padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0}
+.mhc-teaser{background:rgba(232,96,76,.12);padding:12px 16px;border-radius:8px;margin:16px 0}
+.mhc-teaser b{color:#e8604c}
+.mhc-toc{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px 18px;margin:16px 0}
+.mhc-toc ol{margin:6px 0 0;padding-left:20px}
+
+/* Tableaux */
+.mhc-wrap{overflow-x:auto;margin:16px 0}
+.mhc-table{width:100%;min-width:480px;border-collapse:collapse;box-shadow:0 2px 10px rgba(0,0,0,.08);border-radius:8px;overflow:hidden;font-size:1.05rem;margin:0}
+.mhc-table th{background:linear-gradient(90deg,#ff7f6b,#2dd4bf);color:#fff;text-align:left;padding:10px 14px;font-size:1rem}
+.mhc-table td{padding:10px 14px;border-bottom:1px solid rgba(128,128,128,.25)}
+.mhc-table .n{text-align:right;white-space:nowrap}
+.mhc-table tr.t td{font-weight:700;background:rgba(45,212,191,.12)}
+.mhc-cap{font-size:.9rem!important;opacity:.75;margin:6px 0 16px!important}
+.mhc-big{font-size:2.6rem;font-weight:800;color:#e8604c;line-height:1.1;margin:16px 0 4px}
+
+/* Calculateur */
+.mhc-calc{border:2px solid #2dd4bf;border-radius:12px;padding:18px;margin:16px 0}
+.mhc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:12px}
+.mhc-calc label{display:block;font-size:.9rem;opacity:.85;margin-top:6px}
+.mhc-calc input[type=number]{width:100%;padding:8px 10px;font-size:1rem;border:1px solid rgba(128,128,128,.5);border-radius:6px;background:transparent;color:inherit}
+.mhc-check{display:flex;gap:10px;align-items:flex-start;margin:10px 0}
+.mhc-check label{margin:0;opacity:1;font-size:.95rem}
+.mhc-res{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.mhc-box{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px}
+.mhc-box.win{border:2px solid #2dd4bf;background:rgba(45,212,191,.12)}
+.mhc-tot{font-size:1.6rem;font-weight:800;margin:4px 0 8px}
+.mhc-box dl{margin:0;display:grid;grid-template-columns:1fr auto;gap:4px 12px}
+.mhc-box dd{margin:0;text-align:right}
+.mhc-verdict{margin-top:14px;font-weight:700}
+
+/* FAQ */
+.mhc-faq{border-bottom:1px solid rgba(128,128,128,.3);padding:10px 0}
+.mhc-faq summary{cursor:pointer;font-weight:700}
+
+@media(max-width:520px){.mhc-res{grid-template-columns:1fr}}
 </style>
 
 <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
@@ -210,6 +256,7 @@ a { color: var(--secondary); }
 <div class="card">
     <h1>Le piège de la "chambre vue mer" : Ce que les hôteliers et les sites de réservation ne vous disent jamais</h1>
     <img src="images/vue_mer.jpg" alt="Le piège de la &quot;chambre vue mer&quot; : Ce que les hôteliers et les sites de réservation ne vous disent jamais" style="width:100%; height:340px; object-fit:cover; object-position:center 35%; border-radius:16px; margin:20px 0; box-shadow: var(--shadow);">
+    
     <p style="font-size: 1.1em; line-height: 1.8;"><p>Vous avez passé des heures à comparer des dizaines d'établissements, vous avez craqué pour l'option "chambre vue mer" en pensant déjà au bruit des vagues depuis votre lit, et le jour J, c'est la douche froide. En ouvrant les fenêtres, votre regard plonge tout droit sur un toit en tôle, un parking bondé ou, au mieux, sur un bout d'horizon si vous vous tordez le cou à 45 degrés depuis le bord du balcon.</p><br><p>Derrière le marketing bien huilé des plateformes de réservation en ligne, le secteur hôtelier excelle dans l'art des nuances sémantiques. Pour vous aider à ne plus vous faire avoir, voici une plongée dans les coulisses des descriptions hôtelières, agrémentée des meilleurs secrets pour déjouer leurs pièges.</p><br><h2>1. La grande illusion des appellations sémantiques</h2><p>Le diable se cache dans les détails, et surtout dans les adjectifs choisis pour qualifier votre hébergement. Si les vacanciers font souvent confiance aux photos d'illustration globales de l'hôtel, la réalité de la chambre attribuée peut être radicalement différente.</p><div style="margin: 20px 0;"><img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?q=80&w=1000&auto=format&fit=crop" alt="Chambre d'hôtel et vue" style="width:100%; border-radius:8px;"></div><ul><li><strong>La « vue mer latérale » :</strong> Derrière ce terme poétique se cache souvent une obligation de se pencher dangereusement hors de la rambarde pour apercevoir un petit coin bleuté entre deux immeubles.</li><li><strong>La « vue jardin ou piscine » :</strong> Souvent synonyme d'exposition directe au bruit des animations nocturnes, des plongeons matinaux et des machines de nettoyage au chlore.</li><li><strong>La « chambre standard » mystère :</strong> Située généralement au rez-de-chaussée, juste au-dessus de la buanderie, face au local poubelles ou au va-et-vient incessant du personnel.</li></ul><br><h2>2. Les secrets d'initiés pour contourner les pièges et obtenir les meilleurs "Upgrades"</h2><p>Les voyageurs fréquents et les professionnels partagent des astuces redoutables pour reprendre le contrôle, que vous passiez par des plateformes partenaires comme <a href="https://www.booking.com" target="_blank">Booking</a> ou <a href="https://www.expedia.fr" target="_blank">Expedia</a> :</p><ul><li><strong>Le piège de la chambre la plus économique :</strong> Contrairement aux idées reçues, si vous réservez la catégorie absolument la plus basse, l'hôtel a beaucoup moins de marge de manœuvre pour vous surclasser en cas de forte affluence (car il n'y a plus de "tampon" intermédiaire). Viser un milieu de gamme flexible facilite grandement l'accès aux catégories supérieures.</li><li><strong>Le timing parfait du check-in :</strong> Évitez d'arriver trop tôt (quand les chambres ne sont pas prêtes et que le personnel est sous l'eau) ou trop tard. Le créneau idéal se situe entre 15h00 et 16h00 : les réceptionnistes ont une vision claire des chambres effectivement propres et des désistements de dernière minute.</li><li><strong>L'art du "formulaire de sympathie" :</strong> Les réceptionnistes gèrent des centaines de clients mécontents par jour. Commencer par leur demander comment se passe leur journée avec un sourire sincère change radicalement la donne au moment de distribuer les clés.</li><li><strong>Le choix stratégique des jours d'arrivée :</strong> Arriver un dimanche ou un lundi dans un hôtel orienté affaires (ou à l'inverse, en milieu de semaine dans un resort de loisirs) maximise vos chances d'arriver dans une structure en sous-effectif d'occupation, ce qui pousse le personnel à offrir de meilleures prestations pour fidéliser.</li><li><strong>Comparer efficacement via les bonnes plateformes :</strong> Pour dénicher les meilleures offres transparentes et profiter des garanties des leaders du marché, un passage par un <a href="index.html">comparateur intelligent d'hôtels</a> s'avère indispensable afin d'analyser les prix et les prestations réelles avant de valider votre séjour.</li></ul><br><p><strong>En conclusion, le marché du voyage en ligne mise sur l'opacité et l'effet de surprise visuel. Pour ne plus subir ces désillusions, il est indispensable de changer sa méthode de recherche et de s'armer de ces quelques réflexes de terrain.</strong></p><p>Envie d'explorer toutes nos options en toute transparence et de dénicher votre prochain hôtel ? Rendez-vous dès maintenant sur <a href="index.html">notre page d'accueil MyHotelCompare</a>.</p><p><em>Et vous, avez-vous déjà eu de mauvaises surprises avec une prétendue vue mer ? Dites-nous tout en commentaire !</em></p></p>
 </div>
 

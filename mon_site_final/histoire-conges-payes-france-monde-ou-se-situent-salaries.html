@@ -176,6 +176,52 @@ a { color: var(--secondary); }
 }
 .btn-itineraire:hover { background: rgba(255,255,255,0.26); }
 .btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+/* ===== myhotelcompare : styles des articles (à ajouter à la feuille de style globale du site) ===== */
+
+/* Texte et espacements de l'article */
+.mhc-art{font-size:1.15rem;line-height:1.7}
+.mhc-art p,.mhc-art li{font-size:1.15rem!important;line-height:1.7!important;margin:0 0 14px!important}
+.mhc-art h2{font-size:1.7rem!important;line-height:1.25!important;margin:32px 0 12px!important}
+.mhc-art h3{font-size:1.3rem!important;margin:22px 0 8px!important}
+.mhc-art br{display:none!important}
+
+/* Encadrés */
+.mhc-note{border-left:5px solid #2dd4bf;background:rgba(45,212,191,.12);padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0}
+.mhc-teaser{background:rgba(232,96,76,.12);padding:12px 16px;border-radius:8px;margin:16px 0}
+.mhc-teaser b{color:#e8604c}
+.mhc-toc{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px 18px;margin:16px 0}
+.mhc-toc ol{margin:6px 0 0;padding-left:20px}
+
+/* Tableaux */
+.mhc-wrap{overflow-x:auto;margin:16px 0}
+.mhc-table{width:100%;min-width:480px;border-collapse:collapse;box-shadow:0 2px 10px rgba(0,0,0,.08);border-radius:8px;overflow:hidden;font-size:1.05rem;margin:0}
+.mhc-table th{background:linear-gradient(90deg,#ff7f6b,#2dd4bf);color:#fff;text-align:left;padding:10px 14px;font-size:1rem}
+.mhc-table td{padding:10px 14px;border-bottom:1px solid rgba(128,128,128,.25)}
+.mhc-table .n{text-align:right;white-space:nowrap}
+.mhc-table tr.t td{font-weight:700;background:rgba(45,212,191,.12)}
+.mhc-cap{font-size:.9rem!important;opacity:.75;margin:6px 0 16px!important}
+.mhc-big{font-size:2.6rem;font-weight:800;color:#e8604c;line-height:1.1;margin:16px 0 4px}
+
+/* Calculateur */
+.mhc-calc{border:2px solid #2dd4bf;border-radius:12px;padding:18px;margin:16px 0}
+.mhc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:12px}
+.mhc-calc label{display:block;font-size:.9rem;opacity:.85;margin-top:6px}
+.mhc-calc input[type=number]{width:100%;padding:8px 10px;font-size:1rem;border:1px solid rgba(128,128,128,.5);border-radius:6px;background:transparent;color:inherit}
+.mhc-check{display:flex;gap:10px;align-items:flex-start;margin:10px 0}
+.mhc-check label{margin:0;opacity:1;font-size:.95rem}
+.mhc-res{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.mhc-box{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px}
+.mhc-box.win{border:2px solid #2dd4bf;background:rgba(45,212,191,.12)}
+.mhc-tot{font-size:1.6rem;font-weight:800;margin:4px 0 8px}
+.mhc-box dl{margin:0;display:grid;grid-template-columns:1fr auto;gap:4px 12px}
+.mhc-box dd{margin:0;text-align:right}
+.mhc-verdict{margin-top:14px;font-weight:700}
+
+/* FAQ */
+.mhc-faq{border-bottom:1px solid rgba(128,128,128,.3);padding:10px 0}
+.mhc-faq summary{cursor:pointer;font-weight:700}
+
+@media(max-width:520px){.mhc-res{grid-template-columns:1fr}}
 </style>
 
 <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
@@ -210,6 +256,7 @@ a { color: var(--secondary); }
 <div class="card">
     <h1>L’histoire des congés payés en France, en Europe et dans le monde : Où se situent les salariés ?</h1>
     <img src="images/conges_paye.jpg" alt="L’histoire des congés payés en France, en Europe et dans le monde : Où se situent les salariés ?" style="width:100%; height:340px; object-fit:cover; object-position:center 35%; border-radius:16px; margin:20px 0; box-shadow: var(--shadow);">
+    
     <p style="font-size: 1.1em; line-height: 1.8;"><p>Les vacances, le repos estival, l'évasion... Pour beaucoup d'entre nous, l'année est rythmée par l'attente de ces précieuses semaines de repos. En France, les <strong>congés payés (CP)</strong> font partie intégrante de l'ADN social et culturel. Mais saviez-vous que ce droit fondamental n’a pas toujours existé ?</p><p>Sur <a href="https://myhotelcompare.com" target="_blank">myhotelcompare</a>, nous aimons décrypter tout ce qui touche de près ou de loin à l'art du voyage et de l'hébergement. Explorons ensemble l'histoire fascinante de cette conquête sociale, voyons comment la France se positionne par rapport à ses voisins européens, et élargissons la focale à l’échelle mondiale.</p><br><h2>1. Du luxe au droit fondamental : Une brève histoire des congés payés en France</h2><p>L’histoire des congés payés en France s'est construite pas à pas, au fil des luttes sociales et des évolutions politiques :</p><ul><li><strong>1853 : Les prémices pour l'élite :</strong> Un décret de Napoléon III accorde, pour la première fois, un congé payé de 15 jours... mais uniquement aux fonctionnaires de l’État. Pour les ouvriers et employés du secteur privé, le labeur continue sans répit.</li><li><strong>1936 : Le grand tournant du Front Populaire :</strong> C’est la date historique que tout le monde connaît. À la suite d’une immense vague de grèves, les <strong>Accords de Matignon</strong> débouchent sur la loi du 20 juin 1936, portée par le gouvernement de Léon Blum. Elle institue <strong>15 jours de congés payés</strong> pour tous les salariés.</li><li><strong>Les Trente Glorieuses et l'allongement progressif :</strong> Le droit au repos s'allonge au fil des décennies : 3 semaines en 1956, puis 4 semaines en 1969.</li><li><strong>1982 : Le standard actuel des 5 semaines :</strong> Sous l'impulsion du gouvernement de Pierre Mauroy, la durée légale passe à <strong>5 semaines (soit 30 jours ouvrables)</strong>. Un standard solide qui perdure encore aujourd’hui.</li></ul><p>Si vous préparez vos prochaines escapades, n'hésitez pas à jeter un œil à notre <a href="https://myhotelcompare.com" target="_blank">comparateur d'hôtels en ligne</a> pour optimiser chaque précieux jour de repos gagné de haute lutte ! Vous pouvez également consulter le site du <a href="https://travail-emploi.gouv.fr" target="_blank">Ministère du Travail</a> pour en savoir plus sur la législation française actuelle.</p><br><div style="margin: 10px 0;"><img src="images/conges_histoire_1936.jpg" alt="L'histoire des congés payés en France" style="width:50%; max-width:400px; display:block; margin:0 auto; border-radius:8px;"></div><br><h2>2. La France face à l’Union Européenne : Qui donne le plus, qui donne le moins ?</h2><p>En matière de droit du travail, l’Union Européenne impose un socle minimal commun : la directive européenne sur le temps de travail garantit à tous les travailleurs européens un minimum de <strong>4 semaines (soit 20 jours ouvrés) de congés payés par an</strong>. Cependant, les législations nationales varient :</p><ul><li><strong>Le champion d’Europe :</strong> Le <strong>Luxembourg</strong> se positionne en tête de peloton européen avec un minimum légal de <strong>26 jours ouvrés</strong> de congés payés par an, devançant ainsi la France et une grande partie de ses voisins.</li><li><strong>Le peloton de tête :</strong> La France se positionne très bien à l'échelle européenne avec ses <strong>25 jours ouvrés minimum (30 jours ouvrables)</strong>, aux côtés de l'Autriche, la Suède ou le Danemark.</li><li><strong>Ceux qui en donnent le moins dans l'UE :</strong> Des pays comme l’<strong>Allemagne</strong>, l’<strong>Italie</strong>, les <strong>Pays-Bas</strong> ou la <strong>Belgique</strong> s'en tiennent strictement au plancher légal européen minimal de <strong>20 jours par an</strong> (souvent rehaussé par les conventions collectives).</li></ul><br><h3>Graphique 1 : Comparatif des jours de congés payés légaux dans l’Union Européenne</h3><pre style="background:#f4f4f4; padding:15px; border-radius:8px; font-family:monospace; overflow-x:auto;">[ UNION EUROPÉENNE - Jours de congés payés légaux (ouvrés) ]<br><br>████████████████████████████ 26 jours (Le plus généreux UE)<br>Luxembourg<br><br>██████████████████████████ 25 jours<br>France / Autriche / Suède / Danemark<br><br>██████████████████████ 22 jours<br>Espagne / Portugal<br><br>██████████████████ 20 jours (Minimum légal UE)<br>Allemagne / Italie / Pays-Bas / Belgique</pre><p><em>Note : Ce graphique reflète les seuils légaux minimaux nationaux hors accords de branches ou d'entreprises.</em></p><br><h2>3. Perspective mondiale : Des extrêmes de la planète</h2><p>Si l'on élargit la focale à l’échelle internationale, le fossé entre les nations est immense en matière de droit aux vacances. Pour explorer les réglementations du travail à l'international, vous pouvez consulter des rapports de référence de l'<a href="https://www.ilo.org" target="_blank">Organisation Internationale du Travail (OIT)</a>.</p><ul><li><strong>Le moins généreux au monde :</strong> À l’opposé, les <strong>États-Unis</strong> détiennent le triste record de la grande économie offrant le moins de congés, n'imposant <strong>aucune obligation légale fédérale</strong> de congés payés par l'employeur (0 jour garanti par la loi).</li><li><strong>Le sommet mondial :</strong> Des pays comme l'<strong>Iran</strong> ou le <strong>Yémen</strong> affichent les volumes combinés les plus élevés de la planète si l'on cumule congés légaux et jours fériés religieux (souvent au-delà de 45 à 50 jours de repos payés par an).</li></ul><br><h3>Graphique 2 : Comparatif mondial des jours de congés payés légaux</h3><pre style="background:#f4f4f4; padding:15px; border-radius:8px; font-family:monospace; overflow-x:auto;">[ MONDIAL - Jours de congés payés légaux (hors/avec jours fériés) ]<br><br>████████████████████████████████████████████████████████████ 30 à 53 jours (Max mondial)<br>Iran / Yémen<br><br>████████████████████████████████████████████████████████████ 30 jours (Ouvrables/Calendaires)<br>Brésil<br><br>██████████████████████████ 25 jours<br>France<br><br>████████████████████ 21 jours (Moyenne)<br>Russie<br><br>███████████ 12 jours<br>Mexique<br><br>█████ 5 à 15 jours (Selon ancienneté)<br>Chine<br><br>░ 0 jour (Aucun minimum légal fédéral obligatoire)<br>États-Unis</pre><br><h2>En résumé</h2><p>Que vous disposiez de 20, 25 ou 30 jours de congés par an, chaque vacance mérite d'être optimisée. Sur <a href="https://myhotelcompare.com" target="_blank">myhotelcompare</a>, nous vous aidons à trouver le meilleur rapport qualité-prix pour vos séjours, que vous restiez en France ou décidiez d'explorer les superbes infrastructures touristiques de nos voisins européens et d'ailleurs !</p></p>
 </div>
 

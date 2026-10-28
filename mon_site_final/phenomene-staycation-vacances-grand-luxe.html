@@ -176,6 +176,52 @@ a { color: var(--secondary); }
 }
 .btn-itineraire:hover { background: rgba(255,255,255,0.26); }
 .btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+/* ===== myhotelcompare : styles des articles (à ajouter à la feuille de style globale du site) ===== */
+
+/* Texte et espacements de l'article */
+.mhc-art{font-size:1.15rem;line-height:1.7}
+.mhc-art p,.mhc-art li{font-size:1.15rem!important;line-height:1.7!important;margin:0 0 14px!important}
+.mhc-art h2{font-size:1.7rem!important;line-height:1.25!important;margin:32px 0 12px!important}
+.mhc-art h3{font-size:1.3rem!important;margin:22px 0 8px!important}
+.mhc-art br{display:none!important}
+
+/* Encadrés */
+.mhc-note{border-left:5px solid #2dd4bf;background:rgba(45,212,191,.12);padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0}
+.mhc-teaser{background:rgba(232,96,76,.12);padding:12px 16px;border-radius:8px;margin:16px 0}
+.mhc-teaser b{color:#e8604c}
+.mhc-toc{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px 18px;margin:16px 0}
+.mhc-toc ol{margin:6px 0 0;padding-left:20px}
+
+/* Tableaux */
+.mhc-wrap{overflow-x:auto;margin:16px 0}
+.mhc-table{width:100%;min-width:480px;border-collapse:collapse;box-shadow:0 2px 10px rgba(0,0,0,.08);border-radius:8px;overflow:hidden;font-size:1.05rem;margin:0}
+.mhc-table th{background:linear-gradient(90deg,#ff7f6b,#2dd4bf);color:#fff;text-align:left;padding:10px 14px;font-size:1rem}
+.mhc-table td{padding:10px 14px;border-bottom:1px solid rgba(128,128,128,.25)}
+.mhc-table .n{text-align:right;white-space:nowrap}
+.mhc-table tr.t td{font-weight:700;background:rgba(45,212,191,.12)}
+.mhc-cap{font-size:.9rem!important;opacity:.75;margin:6px 0 16px!important}
+.mhc-big{font-size:2.6rem;font-weight:800;color:#e8604c;line-height:1.1;margin:16px 0 4px}
+
+/* Calculateur */
+.mhc-calc{border:2px solid #2dd4bf;border-radius:12px;padding:18px;margin:16px 0}
+.mhc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:12px}
+.mhc-calc label{display:block;font-size:.9rem;opacity:.85;margin-top:6px}
+.mhc-calc input[type=number]{width:100%;padding:8px 10px;font-size:1rem;border:1px solid rgba(128,128,128,.5);border-radius:6px;background:transparent;color:inherit}
+.mhc-check{display:flex;gap:10px;align-items:flex-start;margin:10px 0}
+.mhc-check label{margin:0;opacity:1;font-size:.95rem}
+.mhc-res{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.mhc-box{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px}
+.mhc-box.win{border:2px solid #2dd4bf;background:rgba(45,212,191,.12)}
+.mhc-tot{font-size:1.6rem;font-weight:800;margin:4px 0 8px}
+.mhc-box dl{margin:0;display:grid;grid-template-columns:1fr auto;gap:4px 12px}
+.mhc-box dd{margin:0;text-align:right}
+.mhc-verdict{margin-top:14px;font-weight:700}
+
+/* FAQ */
+.mhc-faq{border-bottom:1px solid rgba(128,128,128,.3);padding:10px 0}
+.mhc-faq summary{cursor:pointer;font-weight:700}
+
+@media(max-width:520px){.mhc-res{grid-template-columns:1fr}}
 </style>
 
 <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
@@ -210,6 +256,7 @@ a { color: var(--secondary); }
 <div class="card">
     <h1>Le phénomène Staycation : pourquoi partir loin quand on peut s'offrir un grand luxe près de chez soi ?</h1>
     <img src="images/staycation_luxe.jpg" alt="Le phénomène Staycation : pourquoi partir loin quand on peut s&#39;offrir un grand luxe près de chez soi ?" style="width:100%; height:340px; object-fit:cover; object-position:center 35%; border-radius:16px; margin:20px 0; box-shadow: var(--shadow);">
+    
     <p style="font-size: 1.1em; line-height: 1.8;"><p>Et si pour vos prochaines vacances, la meilleure destination était... tout près de chez vous ? Né de la contraction des mots anglais *stay* (rester) et *vacation* (vacances), le <strong>staycation</strong> s'est imposé comme une alternative incontournable au tourisme de masse. L'idée : s'offrir une parenthèse enchantée dans un hôtel d'exception de sa propre région, le temps d'un week-end ou même d'une seule nuit.</p><br><h2>1. Déconnecter sans les contraintes du voyage</h2><p>Le principal frein aux vacances traditionnelles reste la fatigue logistique : les heures de vol, les correspondances, les valises à boucler et le décalage horaire. Avec le staycation, le voyage commence dès le pas de la porte franchi.</p><div style="margin: 20px 0;"><img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1200&q=80" alt="Hôtel de luxe et détente" style="width:100%; border-radius:8px;"></div><p><strong>Le concept :</strong> S'accorder un séjour dans un palace urbain, un boutique-hôtel de charme ou un domaine caché au vert à moins d'une heure de chez soi. On profite d'un service irréprochable, d'une literie haut de gamme, d'un spa et d'une table gastronomique sans subir le stress du transport. Pour dénicher ces pépites locales au meilleur tarif, vous pouvez compter sur les filtres de recherche de <a href="index.html" target="_blank">MyHotelCompare</a>.</p><br><h2>2. Redécouvrir sa propre région sous un œil nouveau</h2><p>En mode touriste chez soi, on prend enfin le temps d'explorer les trésors cachés de sa ville ou de sa campagne environnante. Musée déserté un mardi après-midi, balade dans un quartier historique méconnu ou sirotage de cocktail sur un rooftop branché : le regard change radicalement quand on dort à l'hôtel.</p><br><h2>Comment réussir son staycation ?</h2><ul><li><strong>Lâchez prise totalement :</strong> Oubliez les tâches ménagères et mettez votre esprit professionnel en mode avion dès votre arrivée à la réception.</li><li><strong>Optez pour la formule avec extras :</strong> Puisque vous économisez sur le prix des billets d'avion ou du train, profitez-en pour vous offrir une option bien-être (massage, accès privatif au spa) ou un dîner d'exception sur place.</li><li><strong>Comparez pour mieux en profiter :</strong> Même à deux pas de chez soi, les prix varient d'une plateforme à l'autre. Utilisez <a href="index.html">MyHotelCompare</a> pour vous assurer d'obtenir le meilleur rapport qualité-prix.</li></ul><p>Le luxe, aujourd'hui, ce n'est plus forcément de partir à l'autre bout de la planète, c'est de savoir s'accorder du temps pour soi dans un cadre somptueux.</p><p>Envie de vous évader sans partir loin ? Venez comparer les plus beaux hôtels près de chez vous sur <a href="index.html">notre page d'accueil MyHotelCompare</a>.</p><p><em>Et vous, prêts à tester le concept du staycation pour votre prochain week-end ? <a href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener noreferrer">Partagez vos envies en commentaire !</a></em></p></p>
 </div>
 

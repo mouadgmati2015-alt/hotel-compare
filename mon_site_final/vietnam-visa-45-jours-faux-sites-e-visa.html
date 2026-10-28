@@ -176,6 +176,52 @@ a { color: var(--secondary); }
 }
 .btn-itineraire:hover { background: rgba(255,255,255,0.26); }
 .btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+/* ===== myhotelcompare : styles des articles (à ajouter à la feuille de style globale du site) ===== */
+
+/* Texte et espacements de l'article */
+.mhc-art{font-size:1.15rem;line-height:1.7}
+.mhc-art p,.mhc-art li{font-size:1.15rem!important;line-height:1.7!important;margin:0 0 14px!important}
+.mhc-art h2{font-size:1.7rem!important;line-height:1.25!important;margin:32px 0 12px!important}
+.mhc-art h3{font-size:1.3rem!important;margin:22px 0 8px!important}
+.mhc-art br{display:none!important}
+
+/* Encadrés */
+.mhc-note{border-left:5px solid #2dd4bf;background:rgba(45,212,191,.12);padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0}
+.mhc-teaser{background:rgba(232,96,76,.12);padding:12px 16px;border-radius:8px;margin:16px 0}
+.mhc-teaser b{color:#e8604c}
+.mhc-toc{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px 18px;margin:16px 0}
+.mhc-toc ol{margin:6px 0 0;padding-left:20px}
+
+/* Tableaux */
+.mhc-wrap{overflow-x:auto;margin:16px 0}
+.mhc-table{width:100%;min-width:480px;border-collapse:collapse;box-shadow:0 2px 10px rgba(0,0,0,.08);border-radius:8px;overflow:hidden;font-size:1.05rem;margin:0}
+.mhc-table th{background:linear-gradient(90deg,#ff7f6b,#2dd4bf);color:#fff;text-align:left;padding:10px 14px;font-size:1rem}
+.mhc-table td{padding:10px 14px;border-bottom:1px solid rgba(128,128,128,.25)}
+.mhc-table .n{text-align:right;white-space:nowrap}
+.mhc-table tr.t td{font-weight:700;background:rgba(45,212,191,.12)}
+.mhc-cap{font-size:.9rem!important;opacity:.75;margin:6px 0 16px!important}
+.mhc-big{font-size:2.6rem;font-weight:800;color:#e8604c;line-height:1.1;margin:16px 0 4px}
+
+/* Calculateur */
+.mhc-calc{border:2px solid #2dd4bf;border-radius:12px;padding:18px;margin:16px 0}
+.mhc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:12px}
+.mhc-calc label{display:block;font-size:.9rem;opacity:.85;margin-top:6px}
+.mhc-calc input[type=number]{width:100%;padding:8px 10px;font-size:1rem;border:1px solid rgba(128,128,128,.5);border-radius:6px;background:transparent;color:inherit}
+.mhc-check{display:flex;gap:10px;align-items:flex-start;margin:10px 0}
+.mhc-check label{margin:0;opacity:1;font-size:.95rem}
+.mhc-res{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.mhc-box{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px}
+.mhc-box.win{border:2px solid #2dd4bf;background:rgba(45,212,191,.12)}
+.mhc-tot{font-size:1.6rem;font-weight:800;margin:4px 0 8px}
+.mhc-box dl{margin:0;display:grid;grid-template-columns:1fr auto;gap:4px 12px}
+.mhc-box dd{margin:0;text-align:right}
+.mhc-verdict{margin-top:14px;font-weight:700}
+
+/* FAQ */
+.mhc-faq{border-bottom:1px solid rgba(128,128,128,.3);padding:10px 0}
+.mhc-faq summary{cursor:pointer;font-weight:700}
+
+@media(max-width:520px){.mhc-res{grid-template-columns:1fr}}
 </style>
 
 <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
@@ -210,6 +256,7 @@ a { color: var(--secondary); }
 <div class="card">
     <h1>Visa Vietnam : l'exemption de 45 jours, le changement d'adresse officielle et le piège des faux sites</h1>
     <img src="images/vietnam-visa.jpg" alt="Visa Vietnam : l&#39;exemption de 45 jours, le changement d&#39;adresse officielle et le piège des faux sites" style="width:100%; height:340px; object-fit:cover; object-position:center 35%; border-radius:16px; margin:20px 0; box-shadow: var(--shadow);">
+    
     <p style="font-size: 1.1em; line-height: 1.8;"><p>Le Vietnam a changé les règles du jeu ces dernières années, dans le bon sens pour beaucoup de voyageurs — mais la confusion qui en découle profite à des sites peu scrupuleux. Voici ce qu'il faut vraiment savoir avant de préparer votre voyage.</p><br><h2>Qui peut entrer sans visa, et pour combien de temps ?</h2><p>Depuis août 2023, l'exemption de visa pour un groupe de pays est passée de 15 à <strong>45 jours</strong>. Sont notamment concernés : la France, l'Allemagne, l'Italie, l'Espagne, le Royaume-Uni, la Russie, le Japon, la Corée du Sud, le Danemark, la Suède, la Norvège, la Finlande, la Biélorussie et la Suisse. Si vous avez l'un de ces passeports et un séjour de 45 jours ou moins, vous n'avez besoin d'aucun visa ni e-visa — juste un passeport valide au moins 6 mois avec une page vierge.</p><br><p>À l'inverse, les citoyens américains, canadiens, australiens et indiens (entre autres) doivent obligatoirement passer par l'e-visa, quelle que soit la durée du séjour.</p><br><h3>Le piège de la règle des 30 jours</h3><p>Si vous bénéficiez de l'exemption de 45 jours et que vous envisagez une excursion rapide au Cambodge ou au Laos avant de revenir au Vietnam, attention : une fois l'exemption utilisée, il faut attendre <strong>30 jours</strong> avant de pouvoir re-entrer au Vietnam sans visa. De nombreux voyageurs en circuit régional se font surprendre par cette règle et se retrouvent bloqués à la frontière, ou doivent payer un visa en urgence qu'ils pensaient ne jamais avoir à demander.</p><br><h2>L'e-visa a changé d'adresse en novembre 2024</h2><p>Si vous avez besoin d'un e-visa, une seule règle compte : le site doit se terminer par <strong>.gov.vn</strong>. Depuis le 11 novembre 2024, les deux seules adresses officielles sont :</p><ul><li><strong>evisa.gov.vn</strong></li><li><strong>thithucdientu.gov.vn</strong></li></ul><br><p>L'ancienne adresse (evisa.xuatnhapcanh.gov.vn) redirige encore vers le nouveau système mais n'est plus l'adresse principale à utiliser. Ce changement récent crée justement de la confusion dont profitent des sites tiers, qui achètent des publicités sur des mots-clés comme « Vietnam visa site officiel » pour apparaître en haut de Google avec une page qui imite le vrai portail.</p><br><h3>Le tarif officiel, pour ne pas se faire avoir</h3><ul><li>E-visa entrée simple : <strong>25 USD</strong></li><li>E-visa entrées multiples : <strong>50 USD</strong> (utile pour les excursions Cambodge/Laos)</li></ul><br><p>Plusieurs témoignages de voyageurs rapportent avoir payé jusqu'à <strong>120 USD</strong> sur des sites tiers pour un service qui coûte 25 USD sur le site officiel — presque 5 fois le prix. Avant de saisir vos coordonnées bancaires, vérifiez systématiquement que l'adresse se termine bien par .gov.vn.</p><br><h2>Où séjourner au Vietnam ?</h2><p>Dans notre sélection, direction Hanoï :</p><ul><li><a href="sofitel-legend-metropole-hanoi.html">Sofitel Legend Metropole Hanoi</a></li></ul><br><h2>Une règle à confirmer avant de partir</h2><p>Le Vietnam a modifié ses règles d'entrée à plusieurs reprises ces dernières années, parfois avec seulement quelques semaines de préavis. Avant de réserver vos billets, confirmez toujours votre situation exacte sur <strong>evisa.gov.vn</strong> ou via l'outil officiel <a href="https://www.iatatravelcentre.com" target="_blank" rel="noopener">IATA Travel Centre</a>.</p></p>
 </div>
 

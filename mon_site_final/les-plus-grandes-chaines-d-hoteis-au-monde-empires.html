@@ -176,6 +176,52 @@ a { color: var(--secondary); }
 }
 .btn-itineraire:hover { background: rgba(255,255,255,0.26); }
 .btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+/* ===== myhotelcompare : styles des articles (à ajouter à la feuille de style globale du site) ===== */
+
+/* Texte et espacements de l'article */
+.mhc-art{font-size:1.15rem;line-height:1.7}
+.mhc-art p,.mhc-art li{font-size:1.15rem!important;line-height:1.7!important;margin:0 0 14px!important}
+.mhc-art h2{font-size:1.7rem!important;line-height:1.25!important;margin:32px 0 12px!important}
+.mhc-art h3{font-size:1.3rem!important;margin:22px 0 8px!important}
+.mhc-art br{display:none!important}
+
+/* Encadrés */
+.mhc-note{border-left:5px solid #2dd4bf;background:rgba(45,212,191,.12);padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0}
+.mhc-teaser{background:rgba(232,96,76,.12);padding:12px 16px;border-radius:8px;margin:16px 0}
+.mhc-teaser b{color:#e8604c}
+.mhc-toc{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px 18px;margin:16px 0}
+.mhc-toc ol{margin:6px 0 0;padding-left:20px}
+
+/* Tableaux */
+.mhc-wrap{overflow-x:auto;margin:16px 0}
+.mhc-table{width:100%;min-width:480px;border-collapse:collapse;box-shadow:0 2px 10px rgba(0,0,0,.08);border-radius:8px;overflow:hidden;font-size:1.05rem;margin:0}
+.mhc-table th{background:linear-gradient(90deg,#ff7f6b,#2dd4bf);color:#fff;text-align:left;padding:10px 14px;font-size:1rem}
+.mhc-table td{padding:10px 14px;border-bottom:1px solid rgba(128,128,128,.25)}
+.mhc-table .n{text-align:right;white-space:nowrap}
+.mhc-table tr.t td{font-weight:700;background:rgba(45,212,191,.12)}
+.mhc-cap{font-size:.9rem!important;opacity:.75;margin:6px 0 16px!important}
+.mhc-big{font-size:2.6rem;font-weight:800;color:#e8604c;line-height:1.1;margin:16px 0 4px}
+
+/* Calculateur */
+.mhc-calc{border:2px solid #2dd4bf;border-radius:12px;padding:18px;margin:16px 0}
+.mhc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:12px}
+.mhc-calc label{display:block;font-size:.9rem;opacity:.85;margin-top:6px}
+.mhc-calc input[type=number]{width:100%;padding:8px 10px;font-size:1rem;border:1px solid rgba(128,128,128,.5);border-radius:6px;background:transparent;color:inherit}
+.mhc-check{display:flex;gap:10px;align-items:flex-start;margin:10px 0}
+.mhc-check label{margin:0;opacity:1;font-size:.95rem}
+.mhc-res{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.mhc-box{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px}
+.mhc-box.win{border:2px solid #2dd4bf;background:rgba(45,212,191,.12)}
+.mhc-tot{font-size:1.6rem;font-weight:800;margin:4px 0 8px}
+.mhc-box dl{margin:0;display:grid;grid-template-columns:1fr auto;gap:4px 12px}
+.mhc-box dd{margin:0;text-align:right}
+.mhc-verdict{margin-top:14px;font-weight:700}
+
+/* FAQ */
+.mhc-faq{border-bottom:1px solid rgba(128,128,128,.3);padding:10px 0}
+.mhc-faq summary{cursor:pointer;font-weight:700}
+
+@media(max-width:520px){.mhc-res{grid-template-columns:1fr}}
 </style>
 
 <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
@@ -210,6 +256,7 @@ a { color: var(--secondary); }
 <div class="card">
     <h1>Les plus grandes chaînes d'hôtels au monde : Plongée au cœur des empires de l'hospitalité</h1>
     <img src="images/les_plus_grandes_chaines_hotelieres_du_monde.jpg" alt="Les plus grandes chaînes d&#39;hôtels au monde : Plongée au cœur des empires de l&#39;hospitalité" style="width:100%; height:340px; object-fit:cover; object-position:center 35%; border-radius:16px; margin:20px 0; box-shadow: var(--shadow);">
+    
     <p style="font-size: 1.1em; line-height: 1.8;"><p>Derrière vos vacances de rêve ou vos déplacements professionnels se cachent souvent de vastes empires hôteliers. Le secteur du tourisme a connu des transformations spectaculaires, mais quelques mastodontes se partagent des milliers d'établissements à travers le globe. Quels sont ces géants qui régissent l'hôtellerie mondiale et d'où viennent-ils ? Explorons l'histoire et les marques phares des plus grands groupes de la planète.</p><br><h2>1. Marriott International : Le Numéro Un Incontesté</h2><p>L'histoire de Marriott ressemble au modèle classique du "rêve américain". Tout commence en 1927, lorsque J. Willard Marriott et son épouse Alice ouvrent un simple stand de root beer à Washington, D.C., baptisé <em>The Hot Shoppe</em>. L'activité se diversifie ensuite dans l'hôtellerie en 1957 avec l'ouverture de leur tout premier hôtel, le <em>Twin Bridges Marriott Motor Hotel</em> en Virginie.</p><div style="margin: 20px 0;"><img src="https://i.redd.it/twin-bridges-marriott-motor-lodge-arlington-va-1957-1990-v0-2ws8rv0wa0g91.jpg?width=916&format=pjpg&auto=webp&s=e0dc7356eaeb4132cbdd3ee41c05697be8238b36" alt="Marriott International Hotel" style="width:100%; border-radius:8px;"></div><p>Au fil des décennies, le groupe a grandi de manière organique avant d'accélérer par des acquisitions mastodontes, notamment le rachat historique de <strong>Starwood Hotels & Resorts en 2016</strong>, propulsant la compagnie au rang de leader mondial incontesté avec plus de 10 000 hôtels et un programme de fidélité incontournable, <em>Marriott Bonvoy</em>. Pour comparer les meilleures offres de ces grands groupes, vous pouvez consulter nos outils sur <a href="index.html" target="_blank">MyHotelCompare</a>.</p><br><h2>2. Jin Jiang International : Le Titan Asiatique</h2><p>Fondé à Shanghai en 1934 autour d'un restaurant, le groupe <strong>Jin Jiang</strong> a d'abord été un symbole de l'hospitalité de prestige pour les dignitaires visitant la Chine. Au tournant des années 2000, le groupe étend ses ambitions à l'international grâce à une stratégie d'investissement agressive.</p><p>En 2015, Jin Jiang s'offre le géant français <em>Louvre Hotels Group</em> (propriétaire de Campanile et Première Classe), puis prend le contrôle de la <em>Radisson Hotel Group</em>. S'appuyant sur près de 15 000 hôtels, le titan asiatique s'impose durablement comme un acteur incontournable hors de ses frontières, couvrant toutes les gammes, de l'économique au haut de gamme.</p><br><h2>3. Hilton Worldwide : L'Icône Légendaire de l'Innovation</h2><div style="margin: 20px 0;"><img src="https://stories-editor.hilton.com/wp-content/uploads/2019/05/MobleyHotel10.jpg" alt="Hilton Hotel Lobby" style="width:100%; border-radius:8px;"></div><p>L'histoire de Hilton est indissociable de son fondateur visionnaire, <strong>Conrad Hilton</strong>, qui achète son premier hôtel au Texas en 1919. En 1943, Hilton devient le premier groupe à posséder une chaîne d'hôtels d'un océan à l'autre aux États-Unis. C'est aussi à Hilton que l'on doit des innovations majeures de l'industrie, comme l'invention de la climatisation centralisée ou la généralisation de la clé numérique sur smartphone.</p><ul><li><strong>Marques emblématiques :</strong> Waldorf Astoria, Conrad, Hilton Hotels & Resorts, DoubleTree, Hampton by Hilton.</li><li><strong>Le point fort :</strong> Une réputation d'excellence en matière de service standardisé et une avance technologique constante.</li></ul><p>Aujourd'hui, la guerre ne se joue plus seulement sur le nombre de chambres, mais sur l'expérience client et l'engagement écoresponsable. Face à la montée des nouvelles attentes, ces mastodontes réinventent sans cesse leurs concepts pour séduire une clientèle toujours plus exigeante.</p><p>Envie de trouver l'hôtel parfait pour votre prochain séjour ? Rendez-vous dès maintenant sur <a href="index.html">notre page d'accueil MyHotelCompare</a> pour dénicher les meilleures pépites.</p><p><em>Et vous, quel est votre groupe hôtelier favori lors de vos déplacements ? <a href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener noreferrer">Dites-le-nous en commentaire !</a></em></p></p>
 </div>
 

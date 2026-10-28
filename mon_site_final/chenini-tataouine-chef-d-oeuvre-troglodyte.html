@@ -176,6 +176,52 @@ a { color: var(--secondary); }
 }
 .btn-itineraire:hover { background: rgba(255,255,255,0.26); }
 .btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+/* ===== myhotelcompare : styles des articles (à ajouter à la feuille de style globale du site) ===== */
+
+/* Texte et espacements de l'article */
+.mhc-art{font-size:1.15rem;line-height:1.7}
+.mhc-art p,.mhc-art li{font-size:1.15rem!important;line-height:1.7!important;margin:0 0 14px!important}
+.mhc-art h2{font-size:1.7rem!important;line-height:1.25!important;margin:32px 0 12px!important}
+.mhc-art h3{font-size:1.3rem!important;margin:22px 0 8px!important}
+.mhc-art br{display:none!important}
+
+/* Encadrés */
+.mhc-note{border-left:5px solid #2dd4bf;background:rgba(45,212,191,.12);padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0}
+.mhc-teaser{background:rgba(232,96,76,.12);padding:12px 16px;border-radius:8px;margin:16px 0}
+.mhc-teaser b{color:#e8604c}
+.mhc-toc{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px 18px;margin:16px 0}
+.mhc-toc ol{margin:6px 0 0;padding-left:20px}
+
+/* Tableaux */
+.mhc-wrap{overflow-x:auto;margin:16px 0}
+.mhc-table{width:100%;min-width:480px;border-collapse:collapse;box-shadow:0 2px 10px rgba(0,0,0,.08);border-radius:8px;overflow:hidden;font-size:1.05rem;margin:0}
+.mhc-table th{background:linear-gradient(90deg,#ff7f6b,#2dd4bf);color:#fff;text-align:left;padding:10px 14px;font-size:1rem}
+.mhc-table td{padding:10px 14px;border-bottom:1px solid rgba(128,128,128,.25)}
+.mhc-table .n{text-align:right;white-space:nowrap}
+.mhc-table tr.t td{font-weight:700;background:rgba(45,212,191,.12)}
+.mhc-cap{font-size:.9rem!important;opacity:.75;margin:6px 0 16px!important}
+.mhc-big{font-size:2.6rem;font-weight:800;color:#e8604c;line-height:1.1;margin:16px 0 4px}
+
+/* Calculateur */
+.mhc-calc{border:2px solid #2dd4bf;border-radius:12px;padding:18px;margin:16px 0}
+.mhc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:12px}
+.mhc-calc label{display:block;font-size:.9rem;opacity:.85;margin-top:6px}
+.mhc-calc input[type=number]{width:100%;padding:8px 10px;font-size:1rem;border:1px solid rgba(128,128,128,.5);border-radius:6px;background:transparent;color:inherit}
+.mhc-check{display:flex;gap:10px;align-items:flex-start;margin:10px 0}
+.mhc-check label{margin:0;opacity:1;font-size:.95rem}
+.mhc-res{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.mhc-box{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px}
+.mhc-box.win{border:2px solid #2dd4bf;background:rgba(45,212,191,.12)}
+.mhc-tot{font-size:1.6rem;font-weight:800;margin:4px 0 8px}
+.mhc-box dl{margin:0;display:grid;grid-template-columns:1fr auto;gap:4px 12px}
+.mhc-box dd{margin:0;text-align:right}
+.mhc-verdict{margin-top:14px;font-weight:700}
+
+/* FAQ */
+.mhc-faq{border-bottom:1px solid rgba(128,128,128,.3);padding:10px 0}
+.mhc-faq summary{cursor:pointer;font-weight:700}
+
+@media(max-width:520px){.mhc-res{grid-template-columns:1fr}}
 </style>
 
 <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
@@ -210,6 +256,7 @@ a { color: var(--secondary); }
 <div class="card">
     <h1>Chenini : Le chef-d'œuvre troglodyte suspendu aux montagnes de Tataouine</h1>
     <img src="images/chenini_tataouine.jpg" alt="Chenini : Le chef-d&#39;œuvre troglodyte suspendu aux montagnes de Tataouine" style="width:100%; height:340px; object-fit:cover; object-position:center 35%; border-radius:16px; margin:20px 0; box-shadow: var(--shadow);">
+    
     <p style="font-size: 1.1em; line-height: 1.8;"><p>Niché à flanc de montagne dans le sud tunisien, le village de <strong>Chenini</strong> apparaît comme une illusion d'optique, sculpté directement dans la roche couleur ocre et dorée. Ce village berbère perché, situé à quelques kilomètres de Tataouine, fascine par son architecture troglodyte séculaire et ses paysages lunaires qui racontent l'histoire millénaire d'un peuple ingénieux.</p><br><h2>Un patrimoine architectural unique au monde</h2><p>L'histoire de Chenini est indissociable de la stratégie de défense de ses anciens habitants. En s'installant en hauteur, les Berbères protégeaient leurs habitations et leurs réserves de grains des invasions nomades. Les maisons, ou <em>gourfas</em>, sont creusées à même la falaise ou empilées les unes sur les autres, créant un labyrinthe vertical saisissant.</p><br><ul><li><strong>Le ksar de crête :</strong> Perché au sommet du village, l'ancien grenier fortifié servait à stocker les récoltes en toute sécurité.</li><li><strong>La mosquée des Sept Dormants :</strong> Un lieu de pèlerinage énigmatique associé à la légende des Sept Dormants d'Éphèse, abritant des tombes de dimensions impressionnantes.</li><li><strong>L'habitat troglodyte :</strong> Naturellement climatisées, ces habitations maintiennent une fraîcheur appréciable en été et une douce chaleur en hiver grâce à l'inertie thermique de la roche.</li></ul><br><h2>Entre traditions berbères et paysages de cinéma</h2><p>Au-delà de ses pierres, Chenini offre une immersion totale dans la culture berbère. Les ruelles sinueuses mènent à des terrasses panoramiques où le regard se perd sur le reg (désert de pierres) et les oueds en contrebas. C'est également un haut lieu pour les amateurs de science-fiction : la région de Tataouine a largement inspiré l'univers de <em>Star Wars</em> pour la planète Tatooine.</p><br><blockquote>"À Chenini, le temps semble suspendu entre le bleu intense du ciel tunisien et la terre ocre des falaises."</blockquote><br><h2>Conseils pratiques pour préparer votre visite</h2><p>Explorer Chenini demande un minimum de préparation pour profiter pleinement de l'expérience, que vous partiez en road-trip depuis <a href="https://myhotelcompare.com/medina-les-quatre-saisons-aqua-park-resort-and-thalasso-djerba.html" target="_blank" rel="noopener noreferrer">Djerba ou Zarzis</a> ou que vous fassiez un circuit dédié au <a href="https://fr.wikipedia.org/wiki/Tourisme_en_Tunisie" target="_blank" rel="noopener noreferrer">Tourisme saharien en Tunisie</a>.</p><br><ul><li><strong>Meilleure période :</strong> Privilégiez le printemps (mars à mai) ou l'automne pour éviter les températures extrêmes de l'été.</li><li><strong>Équipement :</strong> Prévoyez des chaussures de marche robustes pour grimper les sentiers escarpés et de quoi vous protéger du soleil.</li><li><strong>Hébergement :</strong> Pour vivre l'expérience à 100 %, optez pour une nuit dans un <a href="https://myhotelcompare.com/logement-troglodyte.html" target="_blank" rel="noopener noreferrer">gîte troglodyte traditionnel</a> tenu par les habitants locaux.</li></ul><br><h2>En résumé : pourquoi visiter Chenini ?</h2><div style="overflow-x:auto; margin: 20px 0;"><table style="width:100%; border-collapse:collapse; font-family:inherit; box-shadow:0 2px 10px rgba(0,0,0,0.08); border-radius:8px; overflow:hidden;"><thead><tr style="background:linear-gradient(90deg,#8c4a32,#b5a495); color:#ffffff; text-align:left;"><th style="padding:12px 16px; font-size:14px;">Caractéristique</th><th style="padding:12px 16px; font-size:14px;">Description</th><th style="padding:12px 16px; font-size:14px;">À ne pas manquer</th></tr></thead><tbody><tr style="background:#f9fafb;"><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;"><strong>Architecture</strong></td><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;">Troglodyte et villages perchés</td><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;">Les gourfas et le ksar de crête</td></tr><tr style="background:#ffffff;"><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;"><strong>Culture</strong></td><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;">Traditions berbères authentiques</td><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;">Mosquée des Sept Dormants</td></tr><tr style="background:#f9fafb;"><td style="padding:12px 16px;"><strong>Expérience</strong></td><td style="padding:12px 16px;">Immersion nature et cinéma</td><td style="padding:12px 16px;">Randonnée et panoramas lunaires</td></tr></tbody></table></div><br><p>Prêt à explorer les merveilles cachées du sud tunisien ? Organisez votre séjour dès maintenant et profitez de conseils exclusifs sur <a href="index.html">notre plateforme MyHotelCompare</a>.</p><p><em>Avez-vous prévu d'inclure d'autres ksars des environs, comme Guermessa ou Douirat, lors de votre voyage ? <a href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener noreferrer">Partagez votre projet en commentaire !</a></em></p></p>
 </div>
 

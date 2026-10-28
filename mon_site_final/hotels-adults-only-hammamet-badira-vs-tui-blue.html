@@ -176,6 +176,52 @@ a { color: var(--secondary); }
 }
 .btn-itineraire:hover { background: rgba(255,255,255,0.26); }
 .btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+/* ===== myhotelcompare : styles des articles (à ajouter à la feuille de style globale du site) ===== */
+
+/* Texte et espacements de l'article */
+.mhc-art{font-size:1.15rem;line-height:1.7}
+.mhc-art p,.mhc-art li{font-size:1.15rem!important;line-height:1.7!important;margin:0 0 14px!important}
+.mhc-art h2{font-size:1.7rem!important;line-height:1.25!important;margin:32px 0 12px!important}
+.mhc-art h3{font-size:1.3rem!important;margin:22px 0 8px!important}
+.mhc-art br{display:none!important}
+
+/* Encadrés */
+.mhc-note{border-left:5px solid #2dd4bf;background:rgba(45,212,191,.12);padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0}
+.mhc-teaser{background:rgba(232,96,76,.12);padding:12px 16px;border-radius:8px;margin:16px 0}
+.mhc-teaser b{color:#e8604c}
+.mhc-toc{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px 18px;margin:16px 0}
+.mhc-toc ol{margin:6px 0 0;padding-left:20px}
+
+/* Tableaux */
+.mhc-wrap{overflow-x:auto;margin:16px 0}
+.mhc-table{width:100%;min-width:480px;border-collapse:collapse;box-shadow:0 2px 10px rgba(0,0,0,.08);border-radius:8px;overflow:hidden;font-size:1.05rem;margin:0}
+.mhc-table th{background:linear-gradient(90deg,#ff7f6b,#2dd4bf);color:#fff;text-align:left;padding:10px 14px;font-size:1rem}
+.mhc-table td{padding:10px 14px;border-bottom:1px solid rgba(128,128,128,.25)}
+.mhc-table .n{text-align:right;white-space:nowrap}
+.mhc-table tr.t td{font-weight:700;background:rgba(45,212,191,.12)}
+.mhc-cap{font-size:.9rem!important;opacity:.75;margin:6px 0 16px!important}
+.mhc-big{font-size:2.6rem;font-weight:800;color:#e8604c;line-height:1.1;margin:16px 0 4px}
+
+/* Calculateur */
+.mhc-calc{border:2px solid #2dd4bf;border-radius:12px;padding:18px;margin:16px 0}
+.mhc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:12px}
+.mhc-calc label{display:block;font-size:.9rem;opacity:.85;margin-top:6px}
+.mhc-calc input[type=number]{width:100%;padding:8px 10px;font-size:1rem;border:1px solid rgba(128,128,128,.5);border-radius:6px;background:transparent;color:inherit}
+.mhc-check{display:flex;gap:10px;align-items:flex-start;margin:10px 0}
+.mhc-check label{margin:0;opacity:1;font-size:.95rem}
+.mhc-res{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.mhc-box{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px}
+.mhc-box.win{border:2px solid #2dd4bf;background:rgba(45,212,191,.12)}
+.mhc-tot{font-size:1.6rem;font-weight:800;margin:4px 0 8px}
+.mhc-box dl{margin:0;display:grid;grid-template-columns:1fr auto;gap:4px 12px}
+.mhc-box dd{margin:0;text-align:right}
+.mhc-verdict{margin-top:14px;font-weight:700}
+
+/* FAQ */
+.mhc-faq{border-bottom:1px solid rgba(128,128,128,.3);padding:10px 0}
+.mhc-faq summary{cursor:pointer;font-weight:700}
+
+@media(max-width:520px){.mhc-res{grid-template-columns:1fr}}
 </style>
 
 <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
@@ -210,6 +256,7 @@ a { color: var(--secondary); }
 <div class="card">
     <h1>Hôtels Adults Only à Hammamet : La Badira ou Tui Blue Palm Beach, lequel choisir ?</h1>
     <img src="images/hotels_adults_only_hammamet.jpg" alt="Hôtels Adults Only à Hammamet : La Badira ou Tui Blue Palm Beach, lequel choisir ?" style="width:100%; height:340px; object-fit:cover; object-position:center 35%; border-radius:16px; margin:20px 0; box-shadow: var(--shadow);">
+    
     <p style="font-size: 1.1em; line-height: 1.8;"><p>Hammamet compte plusieurs adresses réservées aux adultes, mais deux d'entre elles se distinguent particulièrement par leur positionnement : <a href="la-badira.html">La Badira</a>, hôtel-boutique 5 étoiles au design rétro-chic, et <a href="tui-blue-palm-beach-hammamet.html">Tui Blue Palm Beach</a>, établissement 4 étoiles plus accessible mais tout aussi paisible. Deux philosophies différentes pour un même objectif : offrir une parenthèse calme, loin de l'agitation des grands complexes familiaux.</p><br><div style="margin: 20px 0;"><img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80" alt="Hôtel Adults Only à Hammamet" style="width:100%; border-radius:8px;"></div><br><h2>Deux ambiances, deux univers</h2><p>La Badira mise sur un <strong>design signature</strong> inspiré des années 1930, avec moucharabiehs graphiques, œuvres d'art contemporain et une piscine à débordement qui se fond dans la Méditerranée. L'atmosphère y est feutrée, intimiste, résolument haut de gamme.</p><p>Tui Blue Palm Beach adopte une approche plus simple : un vaste domaine verdoyant, une architecture méditerranéenne épurée, et une ambiance de sérénité sans la dimension « design » revendiquée par La Badira. C'est un hôtel pensé pour la déconnexion, à un tarif nettement plus abordable.</p><br><h2>Le tableau comparatif</h2><div style="overflow-x:auto; margin: 20px 0;"><table style="width:100%; border-collapse:collapse; font-family:inherit; box-shadow:0 2px 10px rgba(0,0,0,0.08); border-radius:8px; overflow:hidden;"><thead><tr style="background:linear-gradient(90deg,#ff7f6b,#2dd4bf); color:#ffffff; text-align:left;"><th style="padding:12px 16px; font-size:14px;">Critère</th><th style="padding:12px 16px; font-size:14px;">La Badira</th><th style="padding:12px 16px; font-size:14px;">Tui Blue Palm Beach</th></tr></thead><tbody><tr style="background:#f9fafb;"><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;"><strong>Catégorie</strong></td><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;">5 étoiles</td><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;">4 étoiles</td></tr><tr style="background:#ffffff;"><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;"><strong>Prix moyen</strong></td><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;">180€ - 350€ / nuit</td><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;">80€ - 140€ / nuit</td></tr><tr style="background:#f9fafb;"><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;"><strong>Style</strong></td><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;">Boutique-hôtel design rétro-chic</td><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;">Hôtel club orienté bien-être</td></tr><tr style="background:#ffffff;"><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;"><strong>Ambiance</strong></td><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;">Intime, sophistiquée, romantique</td><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;">Paisible, simple, reposante</td></tr><tr style="background:#f9fafb;"><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;"><strong>Idéal pour</strong></td><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;">Occasion spéciale, lune de miel</td><td style="padding:12px 16px; border-bottom:1px solid #e5e7eb;">Pause détente à budget maîtrisé</td></tr><tr style="background:#ffffff;"><td style="padding:12px 16px;"><strong>Équipement phare</strong></td><td style="padding:12px 16px;">Spa Clarins, plage privée</td><td style="padding:12px 16px;">Piscine lagon, accès direct plage</td></tr></tbody></table></div><br><h2>Notre conseil</h2><p>Si vous cherchez une expérience design mémorable pour une occasion précise (anniversaire, lune de miel) et que le budget n'est pas la priorité, <a href="la-badira.html">La Badira</a> reste la référence à Hammamet. Si vous voulez avant tout déconnecter, profiter du calme et de la plage sans vous ruiner, <a href="tui-blue-palm-beach-hammamet.html">Tui Blue Palm Beach</a> offre un excellent compromis.</p><p>Comparez les prix et disponibilités des deux établissements directement sur <a href="index.html">MyHotelCompare</a>.</p><p><em>Vous avez séjourné dans l'un de ces deux hôtels ? <a href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener noreferrer">Partagez votre expérience en commentaire !</a></em></p></p>
 </div>
 

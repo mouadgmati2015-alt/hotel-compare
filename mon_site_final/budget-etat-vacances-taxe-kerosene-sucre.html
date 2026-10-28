@@ -176,6 +176,52 @@ a { color: var(--secondary); }
 }
 .btn-itineraire:hover { background: rgba(255,255,255,0.26); }
 .btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+/* ===== myhotelcompare : styles des articles (à ajouter à la feuille de style globale du site) ===== */
+
+/* Texte et espacements de l'article */
+.mhc-art{font-size:1.15rem;line-height:1.7}
+.mhc-art p,.mhc-art li{font-size:1.15rem!important;line-height:1.7!important;margin:0 0 14px!important}
+.mhc-art h2{font-size:1.7rem!important;line-height:1.25!important;margin:32px 0 12px!important}
+.mhc-art h3{font-size:1.3rem!important;margin:22px 0 8px!important}
+.mhc-art br{display:none!important}
+
+/* Encadrés */
+.mhc-note{border-left:5px solid #2dd4bf;background:rgba(45,212,191,.12);padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0}
+.mhc-teaser{background:rgba(232,96,76,.12);padding:12px 16px;border-radius:8px;margin:16px 0}
+.mhc-teaser b{color:#e8604c}
+.mhc-toc{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px 18px;margin:16px 0}
+.mhc-toc ol{margin:6px 0 0;padding-left:20px}
+
+/* Tableaux */
+.mhc-wrap{overflow-x:auto;margin:16px 0}
+.mhc-table{width:100%;min-width:480px;border-collapse:collapse;box-shadow:0 2px 10px rgba(0,0,0,.08);border-radius:8px;overflow:hidden;font-size:1.05rem;margin:0}
+.mhc-table th{background:linear-gradient(90deg,#ff7f6b,#2dd4bf);color:#fff;text-align:left;padding:10px 14px;font-size:1rem}
+.mhc-table td{padding:10px 14px;border-bottom:1px solid rgba(128,128,128,.25)}
+.mhc-table .n{text-align:right;white-space:nowrap}
+.mhc-table tr.t td{font-weight:700;background:rgba(45,212,191,.12)}
+.mhc-cap{font-size:.9rem!important;opacity:.75;margin:6px 0 16px!important}
+.mhc-big{font-size:2.6rem;font-weight:800;color:#e8604c;line-height:1.1;margin:16px 0 4px}
+
+/* Calculateur */
+.mhc-calc{border:2px solid #2dd4bf;border-radius:12px;padding:18px;margin:16px 0}
+.mhc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:12px}
+.mhc-calc label{display:block;font-size:.9rem;opacity:.85;margin-top:6px}
+.mhc-calc input[type=number]{width:100%;padding:8px 10px;font-size:1rem;border:1px solid rgba(128,128,128,.5);border-radius:6px;background:transparent;color:inherit}
+.mhc-check{display:flex;gap:10px;align-items:flex-start;margin:10px 0}
+.mhc-check label{margin:0;opacity:1;font-size:.95rem}
+.mhc-res{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.mhc-box{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px}
+.mhc-box.win{border:2px solid #2dd4bf;background:rgba(45,212,191,.12)}
+.mhc-tot{font-size:1.6rem;font-weight:800;margin:4px 0 8px}
+.mhc-box dl{margin:0;display:grid;grid-template-columns:1fr auto;gap:4px 12px}
+.mhc-box dd{margin:0;text-align:right}
+.mhc-verdict{margin-top:14px;font-weight:700}
+
+/* FAQ */
+.mhc-faq{border-bottom:1px solid rgba(128,128,128,.3);padding:10px 0}
+.mhc-faq summary{cursor:pointer;font-weight:700}
+
+@media(max-width:520px){.mhc-res{grid-template-columns:1fr}}
 </style>
 
 <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
@@ -210,6 +256,7 @@ a { color: var(--secondary); }
 <div class="card">
     <h1>Budget de l'État : Quel impact réel sur vos prochaines vacances ?</h1>
     <img src="images/budget-vacances.jpg" alt="Budget de l&#39;État : Quel impact réel sur vos prochaines vacances ?" style="width:100%; height:340px; object-fit:cover; object-position:center 35%; border-radius:16px; margin:20px 0; box-shadow: var(--shadow);">
+    
     <p style="font-size: 1.1em; line-height: 1.8;"><p>À l’approche des congés, la question du pouvoir d'achat est plus que jamais au cœur des préoccupations. Entre les arbitrages de la loi de finances, la pression sur les comptes publics, l'arrivée de nouvelles fiscalités (taxe kérosène, taxe sucre) et l'évolution des prix, comment s'organisent les vacances des Français ? Décryptage des tendances, des mesures qui impactent directement votre portefeuille, et conseils pratiques pour alléger la facture.</p><br><h2>1. Transport aérien et budget global : Les arbitrages sous contrainte</h2><br><p>Les dernières données le confirment : le budget moyen alloué aux vacances subit une baisse notable, atteignant environ <strong>1 748 € par foyer</strong>. Face à la hausse générale du coût de la vie et aux incertitudes économiques, les ménages revoient leurs priorités :</p><br><ul><li><strong>L'impact de la taxe kérosène :</strong> C'est l'un des dossiers majeurs des réajustements budgétaires avec l'alourdissement de la fiscalité sur le transport aérien. Les compagnies répercutent ces surcoûts sur les billets (surtout en moyen et long-courriers), poussant beaucoup de vacanciers vers des alternatives comme le train, le covoiturage ou des destinations proches.</li><li><strong>Arbitrage sur les extras :</strong> Les coupes budgétaires se font principalement sur les achats de souvenirs, les restaurants et les loisirs sur place.</li><li><strong>Le choix de la proximité :</strong> Plus de 60 % des vacanciers privilégient des séjours plus proches de leur domicile ou optent pour des destinations en France et en Europe du Sud (Espagne, Portugal, Italie) jugées plus abordables.</li><li><strong>Recours au paiement fractionné :</strong> Pour lisser la dépense, le paiement en 3 ou 4 fois sans frais séduit de plus en plus, notamment chez les jeunes actifs.</li></ul><br><h2>2. Ce qui change concrètement avec les arbitrages budgétaires et la fiscalité</h2><br><p>Si le budget de l'État se concentre principalement sur le redressement des comptes publics, la maîtrise des dépenses et le gel de certaines prestations, la fiscalité ciblée se fait ressentir jusque dans les paniers de vacances :</p><br><ul><li><strong>La taxe sucre et l'assiette :</strong> Le renforcement des taxes sur les produits sucrés et les boissons transformées pèse sur les petits plaisirs de l'été. Glaces, sodas et cocktails subissent une inflation cumulée, poussant les familles en location ou en camping à cuisiner davantage sur place plutôt qu'à multiplier les sorties.</li><li><strong>Le coût des transports :</strong> Entre la fiscalité aérienne, les prix du carburant et l'évolution des taxes, se déplacer pèse lourdement dans la balance.</li><li><strong>Les taxes locales et hébergements :</strong> La dissociation des taux de taxe d'habitation sur les résidences secondaires et de la taxe foncière donne plus de latitude aux communes touristiques, ce qui peut influencer les coûts indirects de l'hébergement et des taxes de séjour.</li><li><strong>Le soutien aux minima sociaux :</strong> Pour les foyers bénéficiant de revalorisations ciblées, les aides aux vacances de type AVF (Caf) ou les dispositifs de l'ANCV restent des leviers essentiels pour réussir à partir.</li></ul><br><h2>3. Nos astuces pratiques pour des vacances malines et anti-crise</h2><br><p>Pour ne pas voir vos congés se transformer en gouffre financier face à ces nouvelles taxes et à l'inflation, quelques réflexes s'imposent :</p><br><ol><li><strong>Privilégiez le tourisme de proximité et les mobilités douces :</strong> En optant pour des vacances en France ou dans des pays limitrophes accessibles en train ou en covoiturage, vous contournez l'inflation des billets d'avion et la taxe kérosène.</li><li><strong>Maîtrisez votre budget alimentation :</strong> Pour échapper au piège des produits transformés et surtaxés (boissons sucrées, snacks industriels), faites vos courses sur les marchés locaux de saison et cuisinez vous-même vos repas.</li><li><strong>Définissez une enveloppe globale stricte :</strong> Séparez vos frais fixes (logement, transport) de vos dépenses variables (repas, sorties) pour éviter les mauvaises surprises au retour.</li><li><strong>Anticipez les réservations :</strong> Qu'il s'agisse des billets ou des hébergements, s'y prendre tôt ou cibler les périodes de basse saison reste la meilleure parade contre la hausse des prix.</li><li><strong>Activez les aides et leviers solidaires :</strong> Renseignez-vous auprès de votre comité d'entreprise (chèques-vacances) ou des structures d'aide sociale pour maximiser vos droits.</li></ol><br><div class="glass-box" style="margin:22px 0; border-left:5px solid var(--primary); text-align:center;"><h3 style="margin-top:0;">📺 Pour aller plus loin</h3><p style="margin-bottom:16px;">Découvrez comment les Français s'adaptent face aux contraintes économiques et fiscales en modifiant leurs habitudes de voyage.</p><a href="https://www.youtube.com/watch?v=gYNPbB8semo" target="_blank" rel="noopener" class="btn">Voir la vidéo sur YouTube</a></div></p>
 </div>
 

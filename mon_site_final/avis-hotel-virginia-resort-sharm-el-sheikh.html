@@ -176,6 +176,52 @@ a { color: var(--secondary); }
 }
 .btn-itineraire:hover { background: rgba(255,255,255,0.26); }
 .btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+/* ===== myhotelcompare : styles des articles (à ajouter à la feuille de style globale du site) ===== */
+
+/* Texte et espacements de l'article */
+.mhc-art{font-size:1.15rem;line-height:1.7}
+.mhc-art p,.mhc-art li{font-size:1.15rem!important;line-height:1.7!important;margin:0 0 14px!important}
+.mhc-art h2{font-size:1.7rem!important;line-height:1.25!important;margin:32px 0 12px!important}
+.mhc-art h3{font-size:1.3rem!important;margin:22px 0 8px!important}
+.mhc-art br{display:none!important}
+
+/* Encadrés */
+.mhc-note{border-left:5px solid #2dd4bf;background:rgba(45,212,191,.12);padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0}
+.mhc-teaser{background:rgba(232,96,76,.12);padding:12px 16px;border-radius:8px;margin:16px 0}
+.mhc-teaser b{color:#e8604c}
+.mhc-toc{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px 18px;margin:16px 0}
+.mhc-toc ol{margin:6px 0 0;padding-left:20px}
+
+/* Tableaux */
+.mhc-wrap{overflow-x:auto;margin:16px 0}
+.mhc-table{width:100%;min-width:480px;border-collapse:collapse;box-shadow:0 2px 10px rgba(0,0,0,.08);border-radius:8px;overflow:hidden;font-size:1.05rem;margin:0}
+.mhc-table th{background:linear-gradient(90deg,#ff7f6b,#2dd4bf);color:#fff;text-align:left;padding:10px 14px;font-size:1rem}
+.mhc-table td{padding:10px 14px;border-bottom:1px solid rgba(128,128,128,.25)}
+.mhc-table .n{text-align:right;white-space:nowrap}
+.mhc-table tr.t td{font-weight:700;background:rgba(45,212,191,.12)}
+.mhc-cap{font-size:.9rem!important;opacity:.75;margin:6px 0 16px!important}
+.mhc-big{font-size:2.6rem;font-weight:800;color:#e8604c;line-height:1.1;margin:16px 0 4px}
+
+/* Calculateur */
+.mhc-calc{border:2px solid #2dd4bf;border-radius:12px;padding:18px;margin:16px 0}
+.mhc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:12px}
+.mhc-calc label{display:block;font-size:.9rem;opacity:.85;margin-top:6px}
+.mhc-calc input[type=number]{width:100%;padding:8px 10px;font-size:1rem;border:1px solid rgba(128,128,128,.5);border-radius:6px;background:transparent;color:inherit}
+.mhc-check{display:flex;gap:10px;align-items:flex-start;margin:10px 0}
+.mhc-check label{margin:0;opacity:1;font-size:.95rem}
+.mhc-res{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.mhc-box{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px}
+.mhc-box.win{border:2px solid #2dd4bf;background:rgba(45,212,191,.12)}
+.mhc-tot{font-size:1.6rem;font-weight:800;margin:4px 0 8px}
+.mhc-box dl{margin:0;display:grid;grid-template-columns:1fr auto;gap:4px 12px}
+.mhc-box dd{margin:0;text-align:right}
+.mhc-verdict{margin-top:14px;font-weight:700}
+
+/* FAQ */
+.mhc-faq{border-bottom:1px solid rgba(128,128,128,.3);padding:10px 0}
+.mhc-faq summary{cursor:pointer;font-weight:700}
+
+@media(max-width:520px){.mhc-res{grid-template-columns:1fr}}
 </style>
 
 <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
@@ -210,6 +256,7 @@ a { color: var(--secondary); }
 <div class="card">
     <h1>Avis Hôtel Virginia Resort Sharm El Sheikh : Mon séjour cauchemardesque de 7 nuits.</h1>
     <img src="images/virginia.png" alt="Avis Hôtel Virginia Resort Sharm El Sheikh : Mon séjour cauchemardesque de 7 nuits." style="width:100%; height:340px; object-fit:cover; object-position:center 35%; border-radius:16px; margin:20px 0; box-shadow: var(--shadow);">
+    
     <p style="font-size: 1.1em; line-height: 1.8;"><p>Partir en vacances est toujours un moment très attendu, l'occasion de souffler, de découvrir une nouvelle destination et de se détendre. Malheureusement, mon séjour de 7 nuits à l'<strong>Hôtel Virginia Resort à Sharm El Sheikh</strong> a tourné à la déception totale. Cet établissement ne mérite absolument pas ses prétendues 4 étoiles : <strong>il en vaut tout juste 2</strong>.</p><br><p>Si vous envisagez de réserver dans cet hôtel, voici mon retour d'expérience honnête et sans filtre sur ce qui vous y attend réellement.</p><br><h2>1. Des chambres extrêmement vétustes</h2><p>Dès l'arrivée, le choc visuel est immédiat. Les chambres de l'hôtel affichent un état de délabrement avancé. Elles sont <strong>extrêmement vétustes</strong> : mobilier fatigué, équipements vieillissants et manque flagrant de modernité. On est très loin du confort attendu pour des vacances sereines.</p><br><h2>2. Restauration : Un cauchemar culinaire en 'All Inclusive'</h2><p>Le point noir majeur du séjour reste sans conteste la restauration, bien loin d'un service digne de ce nom :</p><ul><li><strong>Un buffet chaud pauvre et répétitif :</strong> Pendant 8 jours, la variété a brillé par son absence. On nous a servi <strong>uniquement du poulet</strong> tous les jours, et <strong>une seule et unique fois du poisson</strong>.</li><li><strong>Un buffet froid figé :</strong> Il est resté strictement le même pendant 8 jours, sans le moindre assaisonnement, avec de la mayonnaise servie uniquement sur demande.</li><li><strong>Côté desserts et fruits :</strong> Le buffet des desserts est resté identique tout le séjour, avec des pâtisseries bas de gamme. Côté fruits, rebelote : pendant 8 jours, nous avons eu droit uniquement à du melon sans aucun goût et des oranges coupées en quartiers. Malgré une chaleur suffocante, <strong>aucune glace n'a été proposée</strong> de tout le séjour !</li><li><strong>Le goûter 'All Inclusive' :</strong> Une blague. Il se résumait à deux petites assiettes composées des restes de gâteaux du buffet, posées au bar de la piscine à la merci des mouches.</li></ul><br><h2>3. Une formule 'All Inclusive' très limitée et restrictive</h2><p>Le système 'All Inclusive' s'arrête net à <strong>22h00</strong>, après quoi tout devient payant. C’est aberrant, d’autant plus que nous venions tout juste de sortir du dîner et que la soirée venait à peine de commencer.</p><br><h2>4. Barrière de la langue et isolement des francophones</h2><p>Le personnel ne communique pas du tout en français. Il fallait impérativement parler l'arabe, l'italien, l'allemand ou le russe. Toutes les informations affichées dans l'hôtel étaient d'ailleurs rédigées dans ces mêmes langues, excluant totalement les francophones.</p><br><h2>5. Une gestion du départ inadmissible</h2><p>Notre vol retour était programmé le 1er août à 1h30 du matin. Nous avons donc rendu la chambre à 12h00, pour rester bloqués de 12h00 à 22h30 (heure de notre transfert vers l'aéroport) dans le hall d'accueil, <strong>sans déjeuner ni dîner</strong>.</p><p>Aucun sens de l'hospitalité et zéro geste commercial. Pourtant, les buffets existaient : cela n'aurait absolument rien coûté à l'hôtel de nous permettre de nous restaurer durant ces 10 longues heures d'attente, surtout en sachant que nous nous apprêtions à faire un voyage de retour de 10 heures.</p><br><h2>6. Le seul point positif : l'humain</h2><p>Il faut tout de même le souligner : <strong>la gentillesse du personnel</strong> présent au quotidien a été la seule lueur positive de ce séjour. Je tiens également à exprimer un grand remerciement à <strong>notre guide HENI</strong>, qui nous a permis de réaliser de très belles activités (que je ne manquerai pas de détailler dans un prochain article).</p><br><p><strong>Bilan et avis final :</strong> L'<strong>Hôtel Virginia Resort à Sharm El Sheikh</strong> est un établissement à éviter absolument. Entre une offre de restauration indigente, des chambres vétustes, une formule tout compris restrictive et un mépris total des clients lors du départ, les 4 étoiles affichées sont une tromperie. Économisez votre argent et passez votre chemin !</p><p>Pour découvrir d'autres analyses objectives et éviter les mauvaises surprises pour vos vacances, consultez <a href="index.html">notre page d'accueil MyHotelCompare</a>.</p><p><em>Et vous, avez-vous déjà vécu un séjour hôtelier cauchemardesque ? Dites-nous tout en commentaire !</em></p></p>
 </div>
 

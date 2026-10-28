@@ -176,6 +176,52 @@ a { color: var(--secondary); }
 }
 .btn-itineraire:hover { background: rgba(255,255,255,0.26); }
 .btn-itineraire:focus-visible { outline: 3px solid #e59a21; outline-offset: 2px; }
+/* ===== myhotelcompare : styles des articles (à ajouter à la feuille de style globale du site) ===== */
+
+/* Texte et espacements de l'article */
+.mhc-art{font-size:1.15rem;line-height:1.7}
+.mhc-art p,.mhc-art li{font-size:1.15rem!important;line-height:1.7!important;margin:0 0 14px!important}
+.mhc-art h2{font-size:1.7rem!important;line-height:1.25!important;margin:32px 0 12px!important}
+.mhc-art h3{font-size:1.3rem!important;margin:22px 0 8px!important}
+.mhc-art br{display:none!important}
+
+/* Encadrés */
+.mhc-note{border-left:5px solid #2dd4bf;background:rgba(45,212,191,.12);padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0}
+.mhc-teaser{background:rgba(232,96,76,.12);padding:12px 16px;border-radius:8px;margin:16px 0}
+.mhc-teaser b{color:#e8604c}
+.mhc-toc{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px 18px;margin:16px 0}
+.mhc-toc ol{margin:6px 0 0;padding-left:20px}
+
+/* Tableaux */
+.mhc-wrap{overflow-x:auto;margin:16px 0}
+.mhc-table{width:100%;min-width:480px;border-collapse:collapse;box-shadow:0 2px 10px rgba(0,0,0,.08);border-radius:8px;overflow:hidden;font-size:1.05rem;margin:0}
+.mhc-table th{background:linear-gradient(90deg,#ff7f6b,#2dd4bf);color:#fff;text-align:left;padding:10px 14px;font-size:1rem}
+.mhc-table td{padding:10px 14px;border-bottom:1px solid rgba(128,128,128,.25)}
+.mhc-table .n{text-align:right;white-space:nowrap}
+.mhc-table tr.t td{font-weight:700;background:rgba(45,212,191,.12)}
+.mhc-cap{font-size:.9rem!important;opacity:.75;margin:6px 0 16px!important}
+.mhc-big{font-size:2.6rem;font-weight:800;color:#e8604c;line-height:1.1;margin:16px 0 4px}
+
+/* Calculateur */
+.mhc-calc{border:2px solid #2dd4bf;border-radius:12px;padding:18px;margin:16px 0}
+.mhc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:12px}
+.mhc-calc label{display:block;font-size:.9rem;opacity:.85;margin-top:6px}
+.mhc-calc input[type=number]{width:100%;padding:8px 10px;font-size:1rem;border:1px solid rgba(128,128,128,.5);border-radius:6px;background:transparent;color:inherit}
+.mhc-check{display:flex;gap:10px;align-items:flex-start;margin:10px 0}
+.mhc-check label{margin:0;opacity:1;font-size:.95rem}
+.mhc-res{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.mhc-box{border:1px solid rgba(128,128,128,.35);border-radius:10px;padding:14px}
+.mhc-box.win{border:2px solid #2dd4bf;background:rgba(45,212,191,.12)}
+.mhc-tot{font-size:1.6rem;font-weight:800;margin:4px 0 8px}
+.mhc-box dl{margin:0;display:grid;grid-template-columns:1fr auto;gap:4px 12px}
+.mhc-box dd{margin:0;text-align:right}
+.mhc-verdict{margin-top:14px;font-weight:700}
+
+/* FAQ */
+.mhc-faq{border-bottom:1px solid rgba(128,128,128,.3);padding:10px 0}
+.mhc-faq summary{cursor:pointer;font-weight:700}
+
+@media(max-width:520px){.mhc-res{grid-template-columns:1fr}}
 </style>
 
 <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
@@ -210,6 +256,7 @@ a { color: var(--secondary); }
 <div class="card">
     <h1>Faut-il avoir peur de réserver en hôtel en ligne ? Le guide cash pour déjouer les arnaques et voyager l'esprit libre</h1>
     <img src="images/reservation_hotel_securite.jpg" alt="Faut-il avoir peur de réserver en hôtel en ligne ? Le guide cash pour déjouer les arnaques et voyager l&#39;esprit libre" style="width:100%; height:340px; object-fit:cover; object-position:center 35%; border-radius:16px; margin:20px 0; box-shadow: var(--shadow);">
+    
     <p style="font-size: 1.1em; line-height: 1.8;"><p>Réserver ses vacances en ligne devrait toujours être un pur moment de plaisir et d'évasion. Pourtant, avec la multiplication des offres sur le web, il est facile de tomber sur des pièges ou des intermédiaires douteux. Pas de panique : les arnaques existent, mais elles se contournent très facilement quand on sait où regarder. Décryptage des faux pas à éviter pour voyager l'esprit 100 % serein.</p><br><h2>1. L'arnaque au faux message d'hôtel (Le piège de la messagerie)</h2><p>C'est une technique de plus en plus surveillée par les professionnels. Après avoir validé votre réservation sur une plateforme de confiance, vous recevez parfois un message via la messagerie officielle ou par e-mail, semblant provenir de l'hôtel.</p><div style="margin: 20px 0;"><img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80" alt="Sécurité et réservation d'hôtel" style="width:100%; border-radius:8px;"></div><p><strong>Le piège :</strong> Le message intègre vos données personnelles et prétexte un problème technique de carte bancaire pour vous demander de régler à nouveau via un lien externe. En réalité, des pirates exploitent des failles informatiques pour intercepter ces communications. Pour contourner ce stress, l'idéal est de passer par des comparateurs rigoureux et de toujours vérifier l'URL ou de contacter directement l'établissement par ses propres moyens en cas de doute. Vous pouvez retrouver toutes nos sélections vérifiées et sécurisées sur <a href="index.html" target="_blank">MyHotelCompare</a>.</p><br><h2>2. Les faux sites miroirs et annonces trop belles pour être vraies</h2><p>Autre piège classique : les sites internet usurpant l'identité de grandes chaînes ou proposant des villas de rêve à des prix défiant toute concurrence. Si l'offre semble trop belle pour être vraie, c'est qu'elle cache généralement une escroquerie.</p><p>Les fraudeurs misent sur la précipitation du vacancier pour lui faire faire un virement direct. Une fois l'argent envoyé, le site disparaît.</p><br><h2>Comment réserver en toute sécurité et déjouer les pièges ?</h2><ul><li><strong>Méfiez-vous des urgences artificielles :</strong> Aucun hôtel sérieux ne vous sommera de payer en dehors de la plateforme officielle sous 2 heures sous peine de perdre votre chambre.</li><li><strong>Vérifiez les canaux officiels :</strong> Privilégiez toujours les plateformes reconnues ou les liens directs testés et approuvés par des comparateurs de confiance comme <a href="index.html">MyHotelCompare</a>.</li><li><strong>En cas de doute, appelez :</strong> Un coup de fil rapide au numéro officiel de l'hôtel (trouvé via un moteur de recherche indépendant) dissipera immédiatement le moindre doute.</li></ul><p>Voyager malin, c'est d'abord savoir s'entourer des bons outils pour comparer sans risque et profiter de ses vacances dès les premières recherches.</p><p>Prêt à organiser votre prochaine escapade l'esprit tranquille ? Venez explorer nos meilleures offres et comparatifs sur <a href="index.html">notre page d'accueil MyHotelCompare</a>.</p><p><em>Et vous, quels sont vos réflexes pour réserver vos hôtels en toute sécurité ? <a href="https://www.facebook.com/profile.php?id=61591545557027" target="_blank" rel="noopener noreferrer">Partagez vos astuces en commentaire !</a></em></p></p>
 </div>
 
