@@ -1273,5 +1273,287 @@
             "temps_de_trajet_estime": "",
             "transferts": ""
         }
+    },    
+       "Hotel Base Camp Lodge - Bourg Saint Maurice": {
+        "pays": "France",
+        "ville": "Bourg-Saint-Maurice",
+        "etoiles": "",
+        "lien_booking": "https://www.booking.com/hotel/fr/base-camp-lodge-hotels.fr.html",
+        "lien_expedia": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/229874247.jpg?k=61347d9bec2846db8b42aa2fe9e85dea113bd5d7b1f4f49143ab665ea102e63f&o=",
+        "image_alt": "Hotel Base Camp Lodge à Bourg-Saint-Maurice",
+        "meta_title": "Hotel Base Camp Lodge Bourg-Saint-Maurice : Avis & Prix",
+        "meta_description": "Hotel Base Camp Lodge à Bourg-Saint-Maurice : note 8.2/10 sur 1 644 avis Booking.com. Parking gratuit, restaurant, Wi-Fi gratuit et équipements de ski.",
+        "description": "Situé à Bourg-Saint-Maurice, à proximité du funiculaire des Arcs 1600, l'Hotel Base Camp Lodge propose une terrasse, un restaurant, un bar, un local à skis et un parking privé gratuit. Les chambres et dortoirs disposent d'une télévision à écran plat, d'une salle de bains privative et du Wi-Fi gratuit.",
+        "prix_moyen": "",
+        "avis": "",
+        "notes_categories": {
+            "personnel": "9.0",
+            "equipements": "8.4",
+            "proprete": "8.6",
+            "confort": "8.6",
+            "rapport_qualite_prix": "8.0",
+            "situation_geographique": "8.7"
+        },
+        "points_positifs": [
+            "Personnel très apprécié, noté 9,0/10. (Booking.com)",
+            "Excellente situation géographique notée 8,7/10. (Booking.com)",
+            "Parking privé gratuit et sécurisé (avec espace pour motos). (Booking.com)",
+            "Superbe petit-déjeuner continental et buffet. (Booking.com)"
+        ],
+        "points_negatifs": [
+            "Dépôt de garantie de 100 € demandé à l'arrivée. (Booking.com)",
+            "Kit de serviettes en supplément pour les lits en dortoir. (Booking.com)",
+            "Animaux admis avec frais potentiels applicables. (Booking.com)",
+            "Heure d'arrivée encadrée de 17:00 à 22:00. (Booking.com)"
+        ],
+        "equipements": [
+            "Wi-Fi gratuit",
+            "Restaurant",
+            "Bar",
+            "Parking privé gratuit",
+            "Local à skis",
+            "Chambres familiales",
+            "Équipements pour les personnes handicapées",
+            "Chambres non-fumeurs",
+            "Terrasse"
+        ],
+        "Nomad, vous en dit plus": "Un hôtel moderne et original à Bourg-Saint-Maurice, idéal pour les amateurs de ski et de grands espaces. Très apprécié pour son ambiance conviviale, son restaurant de qualité, son parking gratuit et son accès facile au funiculaire des Arcs.",
+        "pour_qui": {
+            "ambiance": "Moderne, conviviale, chaleureuse et orientée sport/ski",
+            "public": "Groupes, couples, familles et voyageurs en quête d'un séjour sportif ou d'étape",
+            "style": "Lodge de montagne contemporain",
+            "verdict": "Une adresse très bien notée (8,2/10) pour rayonner et skier facilement dans la région."
+        },
+        "meta_avis": {
+            "note_globale": "8.2",
+            "source_principale": "Booking.com, 1 644 commentaires (note sur 10)",
+            "points_cles_avis": "Très bon accueil, propreté irréprochable, restaurant de qualité à prix corrects, parking sécurisé."
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Hotel Base Camp Lodge - Bourg Saint Maurice",
+            "priceRange": "",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "8.2",
+                "bestRating": "10",
+                "reviewCount": "1644"
+            }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'un parking ?",
+                "reponse": "Oui, l'établissement dispose d'un parking privé gratuit (intérieur, dans la rue, avec options pour motos et recharge électrique)."
+            },
+            {
+                "question": "Quels sont les horaires d'arrivée et de départ ?",
+                "reponse": "L'arrivée s'effectue de 17:00 à 22:00 et le départ de 08:00 à 10:00."
+            },
+            {
+                "question": "Y a-t-il un dépôt de garantie ?",
+                "reponse": "Oui, un dépôt de garantie de 100 € par carte de crédit est demandé à l'arrivée et remboursé sous 7 jours après le départ si aucun dommage n'est constaté."
+            },
+            {
+                "question": "Les animaux sont-ils admis ?",
+                "reponse": "Oui, les animaux de compagnie sont admis (des frais supplémentaires peuvent s'appliquer)."
+            }
+        ],
+        "environs": "Bourg-Saint-Maurice : Funiculaire Des Arcs 1600 à 900 m, gare de Bourg-Saint-Maurice à 850 m à pied, Parc national de la Vanoise, La Rosière - Espace San Bernardo à 19 km.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport de Chambéry - Savoie (112 km)",
+            "temps_de_trajet_estime": "",
+            "transferts": ""
+            }
+    },    
+       "Hôtel des Alpes - Skiers & Bikers Lodge": {
+    "pays": "France",
+    "ville": "La Grave",
+    "etoiles": "",
+    "lien_booking": "https://www.booking.com/hotel/fr/des-alpes-skiers-lodge.fr.html",
+    "lien_expedia": "",
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/603469961.jpg?k=12710cb6e1e8ccfa3e23cb7ca9e4a4830b5fdf817ecd2fdacfe4e04647cdb037&o=",
+    "image_alt": "Hôtel des Alpes - Skiers & Bikers Lodge à La Grave",
+    "meta_title": "Hôtel des Alpes - Skiers & Bikers Lodge La Grave : Avis & Prix",
+    "meta_description": "Hôtel des Alpes - Skiers & Bikers Lodge à La Grave : note 8.7/10 sur 193 avis Booking.com. Emplacement idéal, restaurant sur place, Wi-Fi gratuit et vue sur la montagne.",
+    "description": "Situé au cœur de La Grave, à proximité immédiate du téléphérique des Glaciers de la Meije, l'Hôtel des Alpes - Skiers & Bikers Lodge propose une terrasse, un restaurant, un bar, un local à skis et une connexion Wi-Fi gratuite. Ses chambres confortables offrent une vue magnifique sur la montagne.",
+    "prix_moyen": "",
+    "avis": "",
+    "notes_categories": {
+        "personnel": "9.3",
+        "equipements": "8.1",
+        "proprete": "8.7",
+        "confort": "8.8",
+        "rapport_qualite_prix": "9.0",
+        "situation_geographique": "9.5"
+    },
+    "points_positifs": [
+        "Exceptionnelle situation géographique, notée 9,5/10. (Booking.com)",
+        "Personnel très accueillant et chaleureux, noté 9,3/10. (Booking.com)",
+        "Proximité immédiate du téléphérique et du centre. (Booking.com)",
+        "Restaurant et bar conviviaux sur place. (Booking.com)"
+    ],
+    "points_negatifs": [
+        "Hôtel non accessible aux personnes à mobilité réduite (pas d'ascenseur, accès par escaliers). (Booking.com)",
+        "Absence de télévision dans l'établissement pour privilégier la vue sur la montagne. (Booking.com)",
+        "Animaux de compagnie non admis. (Booking.com)",
+        "Heure d'arrivée encadrée de 17:00 à 19:00. (Booking.com)"
+    ],
+    "equipements": [
+        "Wi-Fi gratuit",
+        "Restaurant",
+        "Bar",
+        "Terrasse",
+        "Local à skis",
+        "Point de vente de forfaits de ski",
+        "Chambres non-fumeurs",
+        "Vue sur la montagne"
+    ],
+    "Nomad, vous en dit plus": "Un lodge chaleureux et convivial au cœur de La Grave, parfait pour les passionnés de ski et de montagne. Apprécié pour son ambiance de village, son restaurant de qualité et sa proximité directe avec les pistes et le téléphérique.",
+    "pour_qui": {
+        "ambiance": "Conviviale, chaleureuse, authentique et sportive",
+        "public": "Skieurs, randonneurs, motards et amoureux de la montagne",
+        "style": "Lodge de montagne traditionnel",
+        "verdict": "Une adresse incontournable à La Grave, très bien notée (8,7/10) pour son emplacement et son accueil."
+    },
+    "meta_avis": {
+        "note_globale": "8.7",
+        "source_principale": "Booking.com, 193 commentaires (note sur 10)",
+        "points_cles_avis": "Accueil aux petits soins, excellent petit-déjeuner copieux, vue imprenable sur les montagnes et emplacement idéal."
+    },
+    "schema_org": {
+        "@context": "https://schema.org",
+        "@type": "Hotel",
+        "name": "Hôtel des Alpes - Skiers & Bikers Lodge",
+        "priceRange": "",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "8.7",
+            "bestRating": "10",
+            "reviewCount": "193"
+        }
+    },
+    "faq": [
+        {
+            "question": "L'hôtel dispose-t-il d'un parking ?",
+            "reponse": "Un stationnement facile et proche est disponible à proximité de l'hôtel."
+        },
+        {
+            "question": "Quels sont les horaires d'arrivée et de départ ?",
+            "reponse": "L'arrivée s'effectue de 17:00 à 19:00 et le départ de 08:00 à 10:00."
+        },
+        {
+            "question": "Les animaux sont-ils admis ?",
+            "reponse": "Non, les animaux de compagnie ne sont pas admis au sein de l'établissement."
+        },
+        {
+            "question": "Y a-t-il une télévision dans les chambres ?",
+            "reponse": "Non, l'hôtel ne dispose d'aucune télévision pour inciter les clients à profiter des vues sur la montagne."
+        }
+    ],
+    "environs": "La Grave : Téléphérique des Glaciers de la Meije à 400 m, Parc national des Écrins, restaurants et commerces à proximité immédiate.",
+    "hotels_similaires": [],
+    "acces": {
+        "aeroport_le_plus_proche": "Aéroport de Grenoble-Alpes-Isère (121 km)",
+        "temps_de_trajet_estime": "",
+        "transferts": ""
+         }
+    },    
+      "Superbe ferme rénovée en chalet de luxe en PLEINE NATURE": {
+    "pays": "France",
+    "ville": "Barcelonnette",
+    "etoiles": "5",
+    "lien_booking": "https://www.booking.com/hotel/fr/maison-martin-barcelonnette.fr.html",
+    "lien_expedia": "",
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/471162637.jpg?k=75fdbdd626b81cb48691fad5c27e65bdcaaaa6c38b54a2815d2f5eb91f286b69&o=",
+    "image_alt": "Superbe ferme rénovée en chalet de luxe en pleine nature à Barcelonnette",
+    "meta_title": "Superbe ferme rénovée en chalet de luxe Barcelonnette : Avis & Prix",
+    "meta_description": "Superbe ferme rénovée en chalet de luxe en pleine nature à Barcelonnette : note exceptionnelle de 9.9/10 sur 28 avis Booking.com. Prestations haut de gamme, 3 suites, vue panoramique.",
+    "description": "Située dans le paisible hameau de Pra Soubeiran à Barcelonnette, la Maison Martin est une superbe ferme de 1625 rénovée en un chalet de luxe de 170 m². Classé meublé de tourisme 5 étoiles, il offre un vaste salon avec cheminée, une cuisine entièrement équipée, une grande terrasse, un jardin, ainsi que trois suites indépendantes dotées de leur propre salle de bains et télévision.",
+    "prix_moyen": "",
+    "avis": "",
+    "notes_categories": {
+        "personnel": "10",
+        "equipements": "10",
+        "proprete": "10",
+        "confort": "9.7",
+        "rapport_qualite_prix": "9.2",
+        "situation_geographique": "9.4"
+    },
+    "points_positifs": [
+        "Note exceptionnelle de 9,9/10 attribuée par les clients (Booking.com).",
+        "Prestations haut de gamme, décoration soignée et souci du détail (Booking.com).",
+        "Environnement naturel exceptionnel avec vue panoramique sur Barcelonnette et les sommets (Booking.com).",
+        "Accueil chaleureux et attentionné des propriétaires (Booking.com)."
+    ],
+    "points_negatifs": [
+        "Fêtes et événements non autorisés au sein de l'établissement (Booking.com).",
+        "Animaux de compagnie admis uniquement sur demande, avec un supplément possible (Booking.com).",
+        "Dépôt de garantie en cas de dommages (jusqu'à 250 €) (Booking.com).",
+        "Horaires d'arrivée encadrés de 15:00 à 18:00 (Booking.com)."
+    ],
+    "equipements": [
+        "Wi-Fi gratuit",
+        "Parking privé gratuit",
+        "3 chambres / 3 suites avec salles de bains privatives",
+        "Cuisine privative (lave-vaisselle, réfrigérateur, machine à café)",
+        "Salon avec cheminée et télévision grand écran",
+        "Terrasse et jardin",
+        "Barbecue",
+        "Accès PMR"
+    ],
+    "Nomad, vous en dit plus": "Un véritable havre de paix luxueux aménagé dans une ancienne ferme historique de 1625. Idéal pour un séjour d'exception en famille ou entre amis au cœur de la vallée de l'Ubaye, combinant authenticité alpine, confort moderne et prestations 5 étoiles.",
+    "pour_qui": {
+        "ambiance": "Luxueuse, chaleureuse, paisible et haut de gamme",
+        "public": "Familles, groupes d'amis et voyageurs en quête de calme et de raffinement en pleine nature",
+        "style": "Chalet de luxe / Ferme historique rénovée",
+        "verdict": "Une adresse d'exception notée 9,9/10, parfaite pour un séjour inoubliable dans les Alpes."
+    },
+    "meta_avis": {
+        "note_globale": "9.9",
+        "source_principale": "Booking.com, 28 commentaires (note sur 10)",
+        "points_cles_avis": "Décoration sublime, quiétude absolue, prestations luxueuses et accueil extrêmement chaleureux."
+    },
+    "schema_org": {
+        "@context": "https://schema.org",
+        "@type": "Hotel",
+        "name": "Superbe ferme rénovée en chalet de luxe en PLEINE NATURE",
+        "priceRange": "",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "9.9",
+            "bestRating": "10",
+            "reviewCount": "28"
+        }
+    },
+    "faq": [
+        {
+            "question": "L'établissement dispose-t-il d'un parking ?",
+            "reponse": "Oui, un parking privé gratuit est disponible sur place."
+        },
+        {
+            "question": "Quels sont les horaires d'arrivée et de départ ?",
+            "reponse": "L'arrivée s'effectue de 15:00 à 18:00 et le départ de 08:00 à 11:00."
+        },
+        {
+            "question": "Les animaux sont-ils admis ?",
+            "reponse": "Les animaux de compagnie sont admis sur demande (un supplément peut s'appliquer)."
+        },
+        {
+            "question": "Combien de chambres possède le chalet ?",
+            "reponse": "Le chalet dispose de 3 chambres (suites) avec salles de bains privatives, pouvant accueillir jusqu'à 6 voyageurs."
+        }
+    ],
+    "environs": "Barcelonnette (Pra Soubeiran) : Parc national du Mercantour à proximité immédiate, domaines skiables de Pra-Loup et du Sauze, activités de plein air (randonnée, VTT, rafting, golf).",
+    "hotels_similaires": [],
+    "acces": {
+        "aeroport_le_plus_proche": "Aéroport de Marseille-Provence (220 km)",
+        "temps_de_trajet_estime": "",
+        "transferts": ""
+          }
+
     }
-}
+
+} 

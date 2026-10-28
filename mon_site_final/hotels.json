@@ -4045,6 +4045,73 @@
         "lien_expedia": "https://www.expedia.fr/Saint-Gervais-Les-Bains-Hotel-Hotel-Le-Coeur-Des-Neiges.h30054672.Description-Hotel"
     },
     {
+        "nom": "Hotel Base Camp Lodge - Bourg Saint Maurice",
+        "slug": "hotel-base-camp-lodge-bourg-saint-maurice",
+        "ville": "Bourg-Saint-Maurice",
+        "pays": "France",
+        "etoiles": "",
+        "prix": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/229874247.jpg?k=61347d9bec2846db8b42aa2fe9e85dea113bd5d7b1f4f49143ab665ea102e63f&o=",
+        "description": "Situé à Bourg-Saint-Maurice, à proximité du funiculaire des Arcs 1600, l'Hotel Base Camp Lodge propose une terrasse, un restaurant, un bar, un local à skis et un parking privé gratuit. Les chambres et dortoirs disposent d'une télévision à écran plat, d'une salle de bains privative et du Wi-Fi gratuit.",
+        "equipements": [
+            "Wi-Fi gratuit",
+            "Restaurant",
+            "Bar",
+            "Parking privé gratuit",
+            "Local à skis",
+            "Chambres familiales",
+            "Équipements pour les personnes handicapées",
+            "Chambres non-fumeurs",
+            "Terrasse"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/fr/base-camp-lodge-hotels.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Hotel-Search?destination=Hotel%20Base%20Camp%20Lodge%20-%20Bourg%20Saint%20Maurice%20Bourg-Saint-Maurice%20France"
+    },
+    {
+        "nom": "Hôtel des Alpes - Skiers & Bikers Lodge",
+        "slug": "hotel-des-alpes-skiers-bikers-lodge",
+        "ville": "La Grave",
+        "pays": "France",
+        "etoiles": "",
+        "prix": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/603469961.jpg?k=12710cb6e1e8ccfa3e23cb7ca9e4a4830b5fdf817ecd2fdacfe4e04647cdb037&o=",
+        "description": "Situé au cœur de La Grave, à proximité immédiate du téléphérique des Glaciers de la Meije, l'Hôtel des Alpes - Skiers & Bikers Lodge propose une terrasse, un restaurant, un bar, un local à skis et une connexion Wi-Fi gratuite. Ses chambres confortables offrent une vue magnifique sur la montagne.",
+        "equipements": [
+            "Wi-Fi gratuit",
+            "Restaurant",
+            "Bar",
+            "Terrasse",
+            "Local à skis",
+            "Point de vente de forfaits de ski",
+            "Chambres non-fumeurs",
+            "Vue sur la montagne"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/fr/des-alpes-skiers-lodge.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Hotel-Search?destination=H%C3%B4tel%20des%20Alpes%20-%20Skiers%20%26%20Bikers%20Lodge%20La%20Grave%20France"
+    },
+    {
+        "nom": "Superbe ferme rénovée en chalet de luxe en PLEINE NATURE",
+        "slug": "superbe-ferme-renovee-en-chalet-de-luxe-en-pleine-nature",
+        "ville": "Barcelonnette",
+        "pays": "France",
+        "etoiles": "5",
+        "prix": "",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/471162637.jpg?k=75fdbdd626b81cb48691fad5c27e65bdcaaaa6c38b54a2815d2f5eb91f286b69&o=",
+        "description": "Située dans le paisible hameau de Pra Soubeiran à Barcelonnette, la Maison Martin est une superbe ferme de 1625 rénovée en un chalet de luxe de 170 m². Classé meublé de tourisme 5 étoiles, il offre un vaste salon avec cheminée, une cuisine entièrement équipée, une grande terrasse, un jardin, ainsi que trois suites indépendantes dotées de leur propre salle de bains et télévision.",
+        "equipements": [
+            "Wi-Fi gratuit",
+            "Parking privé gratuit",
+            "3 chambres / 3 suites avec salles de bains privatives",
+            "Cuisine privative (lave-vaisselle, réfrigérateur, machine à café)",
+            "Salon avec cheminée et télévision grand écran",
+            "Terrasse et jardin",
+            "Barbecue",
+            "Accès PMR"
+        ],
+        "lien_booking": "https://www.booking.com/hotel/fr/maison-martin-barcelonnette.fr.html?aid=8012379",
+        "lien_expedia": "https://www.expedia.fr/Hotel-Search?destination=Superbe%20ferme%20r%C3%A9nov%C3%A9e%20en%20chalet%20de%20luxe%20en%20PLEINE%20NATURE%20Barcelonnette%20France"
+    },
+    {
         "nom": "Amaronda Resort & Spa Eretria",
         "slug": "amaronda-resort-spa-eretria",
         "ville": "Érétrie",
