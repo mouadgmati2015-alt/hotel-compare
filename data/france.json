@@ -892,5 +892,386 @@
             "temps_de_trajet_estime": "Environ 106 min en voiture (estimation, hors trafic)",
             "transferts": "Transferts privés ou navette disponibles sur demande auprès de l'hôtel ou d'un prestataire local."
         }
+    },
+    "Wanderful Life MontBlanc refuge haut de gamme": {
+        "pays": "France",
+        "ville": "Saint-Gervais-les-Bains",
+        "etoiles": "4 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/fr/wanderful-life-saint-gervais.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Saint-Gervais-Les-Bains-Hotel-Wanderful-Life-Mont-Blanc-Refuge-De-Luxe.h112068535.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/515617757.jpg?k=b44820c203ef1781e57e0e03016730a2b0e9e7d684a01ced95545216365c54ac&o=",
+        "image_alt": "Wanderful Life MontBlanc refuge haut de gamme à Saint-Gervais-les-Bains",
+        "meta_title": "Wanderful Life MontBlanc refuge haut de gamme Saint-Gervais-les-Bains : Avis & Prix 2026",
+        "meta_description": "Wanderful Life MontBlanc refuge haut de gamme à Saint-Gervais-les-Bains : note 9.4/10 sur 643 avis Booking.com. Équipements, avis détaillés, prix et réservation.",
+        "description": "Situé à Saint-Gervais-les-Bains, à 41 km du point de vue Skyway Monte Bianco et à 27 km du Train du Montenvers - Mer de Glace, cet établissement 4 étoiles dispose d'un salon commun, d'un parking privé gratuit, du Wi-Fi gratuit, d'une cuisine commune et d'une terrasse bien exposée. Sauna et bain à remous sont disponibles sur place, avec vue sur la montagne. Petit-déjeuner buffet ou continental.",
+        "prix_moyen": "Dès 186 € / nuit (2 adultes)",
+        "avis": "",
+        "notes_categories": {
+            "personnel": "9.4",
+            "equipements": "9.6",
+            "proprete": "9.8",
+            "confort": "9.7",
+            "rapport_qualite_prix": "9.3",
+            "situation_geographique": "9.3"
+        },
+        "points_positifs": [
+            "Propreté exceptionnelle : 9,8/10. (Booking.com)",
+            "Petit-déjeuner exceptionnel et Wi-Fi gratuit noté 9,9/10. (Booking.com)",
+            "Sauna et bain à remous sur place, vue sur la montagne. (Booking.com)",
+            "Parking privé gratuit et animaux admis sans supplément. (Booking.com)"
+        ],
+        "points_negatifs": [
+            "Les enfants ne sont pas autorisés. (Booking.com)",
+            "Aucun lit d'appoint ni lit bébé disponible. (Booking.com)"
+        ],
+        "equipements": [
+            "Salon commun",
+            "Cuisine commune",
+            "Sauna",
+            "Bain à remous",
+            "Terrasse bien exposée",
+            "Parking privé gratuit",
+            "Wi-Fi gratuit",
+            "Petit-déjeuner buffet ou continental",
+            "Barbecue",
+            "Local à skis",
+            "Animaux admis (gratuit)",
+            "Chambres non-fumeurs"
+        ],
+        "Nomad, vous en dit plus": "Un refuge de charme haut de gamme, calme et très bien noté, pensé pour les adultes : sauna, bain à remous, cuisine commune et petit-déjeuner réputé. Point d'attention : les enfants ne sont pas admis.",
+        "pour_qui": {
+            "ambiance": "Calme, cosy, montagnard",
+            "public": "Couples et groupes d'amis adultes, amateurs de randonnée et de ski",
+            "style": "Chalet-refuge haut de gamme avec sauna et bain à remous",
+            "verdict": "Une adresse très bien notée pour une pause bien-être en montagne, réservée aux adultes."
+        },
+        "meta_avis": {
+            "note_globale": "9.4",
+            "source_principale": "Booking.com, 643 commentaires (note sur 10)",
+            "points_cles_avis": ""
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Wanderful Life MontBlanc refuge haut de gamme",
+            "priceRange": "Dès 186 € / nuit (2 adultes)",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "9.4",
+                "bestRating": "10",
+                "reviewCount": "643"
+            },
+            "starRating": {
+                "@type": "Rating",
+                "ratingValue": "4"
+            }
+        },
+        "faq": [
+            {
+                "question": "Quels sont les horaires d'arrivée et de départ ?",
+                "reponse": "Arrivée de 15h00 à 22h00, départ jusqu'à 12h00."
+            },
+            {
+                "question": "Les animaux sont-ils admis ?",
+                "reponse": "Oui, les animaux de compagnie sont admis sans supplément."
+            },
+            {
+                "question": "Les enfants sont-ils acceptés ?",
+                "reponse": "Non, les enfants ne sont pas autorisés dans cet établissement."
+            },
+            {
+                "question": "Y a-t-il un sauna et un bain à remous ?",
+                "reponse": "Oui, un sauna et un bain à remous sont disponibles sur place."
+            }
+        ],
+        "environs": "Saint-Gervais-les-Bains, au pied du Mont-Blanc : Église de Saint-Gervais à 3,8 km, Parc Thermal à 5 km, télésiège de Saint-Gervais - Le Bettex à 3,9 km, gare de Motivon à 1,8 km.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport international de Genève (75 km)",
+            "temps_de_trajet_estime": "",
+            "transferts": ""
+        }
+    },
+    "Armancette - The Leading Hotels of the World": {
+        "pays": "France",
+        "ville": "Saint-Gervais-les-Bains",
+        "etoiles": "5 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/fr/l-39-armancette-saint-gervais-les-bains.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Saint-Gervais-Les-Bains-Hotel-Armancette.h35477890.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/585392706.jpg?k=382edcf87e9d2cf71c973e01ef54ef736c8f7f9b26d049b274cd3ddd5a1e923f&o=",
+        "image_alt": "Armancette à Saint-Gervais-les-Bains",
+        "meta_title": "Armancette Saint-Gervais-les-Bains : Avis & Prix 2026",
+        "meta_description": "Armancette à Saint-Gervais-les-Bains : note 9.4/10 sur 186 avis Booking.com. Équipements, avis détaillés, prix et réservation.",
+        "description": "L'Hôtel l'Armancette est situé à Saint-Gervais-les-Bains, à moins de 11 km des thermes de la ville. Chambres non-fumeurs, conciergerie, bar, Wi-Fi gratuit, restaurant, piscine intérieure chauffée, salle de sport, hammam, jacuzzi, sauna et prêt de vélos. Réception ouverte 24h/24. L'hôtel se trouve dans le domaine skiable Évasion Mont-Blanc, à 200 m du télésiège du Chef-Lieu.",
+        "prix_moyen": "Dès 498 € / nuit (2 adultes)",
+        "avis": "",
+        "notes_categories": {
+            "personnel": "9.7",
+            "equipements": "9.5",
+            "proprete": "9.7",
+            "confort": "9.7",
+            "rapport_qualite_prix": "9.0",
+            "situation_geographique": "9.5"
+        },
+        "points_positifs": [
+            "Personnel exceptionnel : 9,7/10. (Booking.com)",
+            "Spa avec piscine intérieure chauffée, hammam, jacuzzi et sauna. (Booking.com)",
+            "Restaurant gastronomique et petit-déjeuner buffet très apprécié. (Booking.com)",
+            "À 200 m du télésiège du Chef-Lieu. (Booking.com)"
+        ],
+        "points_negatifs": [
+            "Les animaux de compagnie ne sont pas admis. (Booking.com)",
+            "Navette aéroport payante. (Booking.com)"
+        ],
+        "equipements": [
+            "Piscine intérieure chauffée",
+            "Spa, hammam, jacuzzi, sauna",
+            "Salle de sport",
+            "Restaurant et bar",
+            "Conciergerie",
+            "Réception 24h/24",
+            "Parking privé gratuit",
+            "Recharge véhicules électriques",
+            "Chambres familiales",
+            "Location de vélos et de matériel de ski",
+            "Wi-Fi gratuit"
+        ],
+        "Nomad, vous en dit plus": "Une adresse haut de gamme de la collection The Leading Hotels of the World, avec spa, restaurant et service très bien notés. Le calme du lieu et la proximité du télésiège en font une base idéale pour le ski comme pour la randonnée.",
+        "pour_qui": {
+            "ambiance": "Raffiné, calme, bien-être",
+            "public": "Couples, familles et amateurs de spa et de gastronomie",
+            "style": "Hôtel de luxe savoyard avec spa et restaurant",
+            "verdict": "Une valeur sûre pour un séjour haut de gamme à Saint-Gervais, au prix qui va avec."
+        },
+        "meta_avis": {
+            "note_globale": "9.4",
+            "source_principale": "Booking.com, 186 commentaires (note sur 10)",
+            "points_cles_avis": ""
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Armancette - The Leading Hotels of the World",
+            "priceRange": "Dès 498 € / nuit (2 adultes)",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "9.4",
+                "bestRating": "10",
+                "reviewCount": "186"
+            }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "reponse": "Oui, une piscine intérieure chauffée."
+            },
+            {
+                "question": "Quels sont les horaires d'arrivée et de départ ?",
+                "reponse": "Arrivée de 15h00 à 23h30, départ de 08h00 à 11h30."
+            },
+            {
+                "question": "Les animaux sont-ils admis ?",
+                "reponse": "Non, les animaux de compagnie ne sont pas admis."
+            },
+            {
+                "question": "Y a-t-il un restaurant sur place ?",
+                "reponse": "Oui, un restaurant est présent sur place."
+            }
+        ],
+        "environs": "Saint-Gervais-les-Bains : Église de Saint-Gervais à 6 km, Parc Thermal à 8 km, restaurants à 40 et 50 m, télésiège du Chef-Lieu à 150 m.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport international de Genève (78 km)",
+            "temps_de_trajet_estime": "",
+            "transferts": "Navette aéroport disponible moyennant des frais supplémentaires."
+        }
+    },
+    "Hôtel Restaurant La Ferme de Cupelin": {
+        "pays": "France",
+        "ville": "Saint-Gervais-les-Bains",
+        "etoiles": "4 étoiles",
+        "lien_booking": "https://www.booking.com/hotel/fr/la-ferme-de-cupelin.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Saint-Gervais-Les-Bains-Hotel-La-Ferme-De-Cupelin.h29311683.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/668220009.jpg?k=078ff90f5a50ba5426447a5a3d8a3ce65a2a69964a6c8b41bb38df3c918d0cb5&o=",
+        "image_alt": "Hôtel Restaurant La Ferme de Cupelin à Saint-Gervais-les-Bains",
+        "meta_title": "Hôtel Restaurant La Ferme de Cupelin Saint-Gervais-les-Bains : Avis & Prix 2026",
+        "meta_description": "Hôtel Restaurant La Ferme de Cupelin à Saint-Gervais-les-Bains : note 9.2/10 sur 333 avis Booking.com. Équipements, avis détaillés, prix et réservation.",
+        "description": "La Ferme de Cupelin est située sur les hauteurs de Saint-Gervais-les-Bains, à 5 minutes en voiture de la station de ski. Jardin, salon, restaurant, bar et Wi-Fi gratuit. Chambres de style chalet avec balcon, télévision et salle de bains privative. Piscine intérieure chauffée par panneaux solaires, vue sur le massif du Mont Blanc, bornes de recharge pour voitures électriques.",
+        "prix_moyen": "Dès 245 € / nuit (2 adultes)",
+        "avis": "",
+        "notes_categories": {
+            "personnel": "9.7",
+            "equipements": "9.1",
+            "proprete": "9.6",
+            "confort": "9.6",
+            "rapport_qualite_prix": "8.8",
+            "situation_geographique": "9.4"
+        },
+        "points_positifs": [
+            "Personnel exceptionnel : 9,7/10. (Booking.com)",
+            "Piscine intérieure chauffée et vue sur le Mont Blanc. (Booking.com)",
+            "Restaurant à la cuisine gastronomique de produits locaux. (Booking.com)",
+            "Bornes de recharge pour voitures électriques. (Booking.com)"
+        ],
+        "points_negatifs": [
+            "Pas d'ascenseur. (Booking.com)",
+            "Restaurant fermé le mardi et le mercredi, réservation à l'avance. (Booking.com)",
+            "Les animaux ne sont pas admis. (Booking.com)"
+        ],
+        "equipements": [
+            "Piscine intérieure chauffée",
+            "Restaurant et bar",
+            "Jardin",
+            "Balcon dans les chambres",
+            "Parking privé gratuit",
+            "Recharge véhicules électriques",
+            "Massages",
+            "Chambres familiales",
+            "Service d'étage",
+            "Wi-Fi gratuit"
+        ],
+        "Nomad, vous en dit plus": "Une ferme savoyarde devenue hôtel de charme, avec une vue superbe sur le Mont Blanc, une table appréciée et une piscine chauffée. À savoir : pas d'ascenseur et restaurant fermé deux jours par semaine.",
+        "pour_qui": {
+            "ambiance": "Chaleureux, savoyard, authentique",
+            "public": "Couples et familles en quête de calme et de bonne table",
+            "style": "Hôtel-restaurant de charme avec piscine",
+            "verdict": "Un très bon choix pour un séjour au calme face au Mont Blanc."
+        },
+        "meta_avis": {
+            "note_globale": "9.2",
+            "source_principale": "Booking.com, 333 commentaires (note sur 10)",
+            "points_cles_avis": ""
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Hôtel Restaurant La Ferme de Cupelin",
+            "priceRange": "Dès 245 € / nuit (2 adultes)",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "9.2",
+                "bestRating": "10",
+                "reviewCount": "333"
+            }
+        },
+        "faq": [
+            {
+                "question": "Y a-t-il une piscine ?",
+                "reponse": "Oui, une piscine intérieure chauffée. Elle n'est pas accessible aux personnes de 15 ans ou moins."
+            },
+            {
+                "question": "Quels sont les horaires d'arrivée et de départ ?",
+                "reponse": "Arrivée de 16h00 à 19h00, départ de 07h00 à 11h30."
+            },
+            {
+                "question": "Le restaurant est-il ouvert tous les jours ?",
+                "reponse": "Non, il est fermé le mardi et le mercredi, et la réservation est nécessaire."
+            },
+            {
+                "question": "Y a-t-il une borne de recharge électrique ?",
+                "reponse": "Oui, une borne est disponible sur place."
+            }
+        ],
+        "environs": "Sur les hauteurs de Saint-Gervais-les-Bains : Église de Saint-Gervais à 1,7 km, Parc Thermal à 2,5 km, remontée mécanique Saint-Gervais - Le Bettex à 900 m, gare de Saint-Gervais-les-Bains à 1,9 km.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport international de Genève (72 km)",
+            "temps_de_trajet_estime": "",
+            "transferts": ""
+        }
+    },
+    "Coeur des Neiges": {
+        "pays": "France",
+        "ville": "Saint-Gervais-les-Bains",
+        "etoiles": "",
+        "lien_booking": "https://www.booking.com/hotel/fr/chalet-la-maison-blanche.fr.html",
+        "lien_expedia": "https://www.expedia.fr/Saint-Gervais-Les-Bains-Hotel-Hotel-Le-Coeur-Des-Neiges.h30054672.Description-Hotel",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/467696806.jpg?k=02439ca4e8db596498f7c75952f39bb9c751c4760ae82beb18acb00aa815e202&o=",
+        "image_alt": "Coeur des Neiges à Saint-Gervais-les-Bains",
+        "meta_title": "Coeur des Neiges Saint-Gervais-les-Bains : Avis & Prix 2026",
+        "meta_description": "Coeur des Neiges à Saint-Gervais-les-Bains : note 9.1/10 sur 212 avis Booking.com. Équipements, avis détaillés, prix et réservation.",
+        "description": "Situé au pied du Mont-Blanc, le chalet Coeur des Neiges vous accueille au cœur du village de Saint-Gervais, à 50 m de l'église et à 750 m de la gare. Chambres confortables avec salle de bains privative, cheminée dans le salon, bar, petit-déjeuner de produits régionaux et accès aux domaines skiables Évasion Mont-Blanc.",
+        "prix_moyen": "Dès 288 € / nuit (2 adultes)",
+        "avis": "",
+        "notes_categories": {
+            "personnel": "9.7",
+            "equipements": "8.8",
+            "proprete": "9.3",
+            "confort": "9.4",
+            "rapport_qualite_prix": "8.9",
+            "situation_geographique": "9.5"
+        },
+        "points_positifs": [
+            "Personnel exceptionnel : 9,7/10. (Booking.com)",
+            "Emplacement au cœur du village, noté 9,5/10. (Booking.com)",
+            "Très bon petit-déjeuner avec produits régionaux. (Booking.com)",
+            "Wi-Fi gratuit dans tout l'établissement. (Booking.com)"
+        ],
+        "points_negatifs": [
+            "Pas de parking. (Booking.com)",
+            "Étages accessibles uniquement par escaliers. (Booking.com)",
+            "Dépôt de garantie de 500 € à l'arrivée. (Booking.com)",
+            "Animaux non admis. (Booking.com)"
+        ],
+        "equipements": [
+            "Wi-Fi gratuit",
+            "Bar",
+            "Salon avec cheminée",
+            "Chambres familiales",
+            "Terrasse",
+            "Local à skis",
+            "Massages (en supplément)",
+            "Chambres non-fumeurs",
+            "Service de conciergerie"
+        ],
+        "Nomad, vous en dit plus": "Un chalet cosy en plein cœur de Saint-Gervais, apprécié pour l'accueil de son hôte et son petit-déjeuner. Pratique à pied, mais sans parking : prévoyez votre stationnement.",
+        "pour_qui": {
+            "ambiance": "Cosy, chaleureux, au cœur du village",
+            "public": "Couples et petites familles voyageant sans contrainte de parking",
+            "style": "Chalet-hôtel de village",
+            "verdict": "Une adresse de charme bien située, notée 9,1/10."
+        },
+        "meta_avis": {
+            "note_globale": "9.1",
+            "source_principale": "Booking.com, 212 commentaires (note sur 10)",
+            "points_cles_avis": ""
+        },
+        "schema_org": {
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "Coeur des Neiges",
+            "priceRange": "Dès 288 € / nuit (2 adultes)",
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "9.1",
+                "bestRating": "10",
+                "reviewCount": "212"
+            }
+        },
+        "faq": [
+            {
+                "question": "L'hôtel dispose-t-il d'un parking ?",
+                "reponse": "Non, l'établissement ne dispose pas de parking."
+            },
+            {
+                "question": "Quels sont les horaires d'arrivée et de départ ?",
+                "reponse": "Arrivée de 16h00 à 19h00 (à indiquer à l'avance, enregistrement impossible après 21h00), départ de 08h00 à 11h00."
+            },
+            {
+                "question": "Y a-t-il un dépôt de garantie ?",
+                "reponse": "Oui, 500 € par carte de crédit à l'arrivée, remboursés après le séjour si aucun dommage n'est constaté."
+            },
+            {
+                "question": "Les animaux sont-ils admis ?",
+                "reponse": "Non."
+            }
+        ],
+        "environs": "Au cœur de Saint-Gervais-les-Bains : Église de Saint-Gervais à 50 m, restaurants à 50 m, remontée mécanique Saint-Gervais - Le Bettex à 850 m, gare à 750 m.",
+        "hotels_similaires": [],
+        "acces": {
+            "aeroport_le_plus_proche": "Aéroport international de Genève (73 km)",
+            "temps_de_trajet_estime": "",
+            "transferts": ""
+        }
     }
 }
