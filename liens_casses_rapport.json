@@ -1,8 +1,98 @@
 [
   {
-    "fichier": "data/albanie.json",
-    "nom": "Marbella Beach Hotel",
-    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/454274127.jpg?k=98bd7b6e578b7bce1eb48eff14374d14be173f690e6657d7c8ea0b1c03a8c63d&o=",
-    "raison": "Erreur SSL/certificat"
+    "fichier": "data/chine.json",
+    "nom": "East Beijing Hotel",
+    "url": "https://images.trvl-media.com/lodging/6000000/5410000/5408600/5408503/5f999c18.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+    "raison": "Code HTTP 404"
+  },
+  {
+    "fichier": "data/egypte.json",
+    "nom": "King's Gate Royal View INN",
+    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/895677609.jpg?k=52f4a17f1373883b146c39de2358f1652617ba9e48910b0424ad041b85cca89c&o=",
+    "raison": "Code HTTP 404"
+  },
+  {
+    "fichier": "data/france.json",
+    "nom": "Hôtel Barrière Le Majestic",
+    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/757280195.jpg?k=2e50a053c68544e3bd9cf27f6429bf49f851b63a3169bccdacca59530025c21b&o=",
+    "raison": "Code HTTP 404"
+  },
+  {
+    "fichier": "data/italie.json",
+    "nom": "Hotel Danieli, Venice",
+    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/839011614.jpg?k=d5b3a2b3585c73992b90b7c566b9afa608e95735f3b678fc9393a0940e2516d5&o=",
+    "raison": "Code HTTP 404"
+  },
+  {
+    "fichier": "data/maroc.json",
+    "nom": "Kasbah Agounsane Hotel & Spa",
+    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/535800913.jpg?k=0f7a0750231ec85eb29d9c38734f139e3294eec6f27face040e71d1259922df3&o=",
+    "raison": "Code HTTP 404"
+  },
+  {
+    "fichier": "data/maroc.json",
+    "nom": "Jnane Ayam Atlas",
+    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/581976217.jpg?k=54a5b70c4329f3df4a5a697068a0802947e0a9f568bd45366d24f50843848d3c&o=",
+    "raison": "Code HTTP 404"
+  },
+  {
+    "fichier": "data/maroc.json",
+    "nom": "Mercure Shéhérazade Rabat",
+    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/914458476.jpg?k=53366af4b8c6587c0ce71ee52804c67e3411bf3c9224eabb6f30afe89337937d&o=",
+    "raison": "Code HTTP 404"
+  },
+  {
+    "fichier": "data/maroc.json",
+    "nom": "Sillage Palace Sky & Spa",
+    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/587922831.jpg?k=6e367ecab377a82a9294d8258fb1e47db9b949eafcc83caef7c4c0ef5bfd8425&o=",
+    "raison": "Code HTTP 404"
+  },
+  {
+    "fichier": "data/maroc.json",
+    "nom": "Ibis Meknès",
+    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/914467831.jpg?k=d216faa2c762cb068add74f1675d7493c7a722810b7ea27e1fcdce5550abac72&o=",
+    "raison": "Code HTTP 404"
+  },
+  {
+    "fichier": "data/maroc.json",
+    "nom": "Ibis Abdelmoumen Casa Centre",
+    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/922781653.jpg?k=64b22e8c18c4d6f85082af9c3774c468cdc06c3dfd4188e521a9659b383b2cf5&o=",
+    "raison": "Code HTTP 404"
+  },
+  {
+    "fichier": "data/maroc.json",
+    "nom": "Amani Hotel Suites & Spa",
+    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/154632278.jpg?k=ffc3b5c7aae0ccc0f1c6a1914684eecc34f588423d5fd3631e4cb59300adf93e&o=",
+    "raison": "Code HTTP 404"
+  },
+  {
+    "fichier": "data/tunisie.json",
+    "nom": "Hôtel Résidence Romane",
+    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/507627075.jpg?k=e0df89ef927228dadc5f18cc528e1fe5c477d238e28a6aa318d8d602d160da7c&o=",
+    "raison": "Code HTTP 404"
+  },
+  {
+    "fichier": "data/tunisie.json",
+    "nom": "Hilton Skanes Monastir Beach Resort",
+    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/882962583.jpg?k=718a5029630c3a00debadcc940df46ca3970ca643d53fe2a2ca5d2b889e6b23e&o=",
+    "raison": "Code HTTP 404"
+  },
+  {
+    "fichier": "data/tunisie.json",
+    "nom": "Mövenpick Resort & Marine Spa Sousse",
+    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/922789537.jpg?k=0c5d8055ad5ccdeeb43596cc54cd06db1948d8fe97115b306852fdda2686f396&o=",
+    "raison": "Code HTTP 404"
+  },
+  {
+    "fichier": "data/tunisie.json",
+    "nom": "Hôtel Romane",
+    "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/507627075.jpg?k=e0df89ef927228dadc5f18cc528e1fe5c477d238e28a6aa318d8d602d160da7c&o=",
+    "raison": "Code HTTP 404"
+  },
+  {
+    "fichier": "data_logements/kenya.json",
+    "nom": "Giraffe Manor",
+    "url": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn4zspZVNZAWT5tYeLSr9TnZerNq9kY8sOeUx7l5FR3hu185En0j7elItIAUKm157kk0pHVCBdZ6vAp7Lg2Wq5V92QEpG5u1GatejVLpdZ3yTT5ha9-Xkw2hBrNTua4M8wrny3u=s680-w680-h510-rw",
+    "raison": "Code HTTP 403"
   }
 ]
