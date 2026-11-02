@@ -1,11 +1,12 @@
-"""Publie l'article « Décembre au soleil » dans blog_data.json avec les liens vers vos hôtels.
+"""Publie l'article « Décembre au soleil » dans blog_data.json avec les liens vers vos hôtels ET vos logements atypiques.
 Usage (dossier comparateur-ia) :  python decembre_soleil.py
 Sauvegarde automatique : blog_data.json.bak2"""
 import base64, json, re, shutil, sys, unicodedata
 from pathlib import Path
 
 SITE = "https://myhotelcompare.com"
-MAX = 6
+MAX_HOTELS = 6
+MAX_ATYP = 4
 ARTICLE_B64 = (
     "eyJpZCI6ICJkZWNlbWJyZS1hdS1zb2xlaWwtNy1kZXN0aW5hdGlvbnMiLCAidGl0cmUiOiAiUGFydGlyIGF1IHNvbGVpbCBlbiBk"
     "w6ljZW1icmUgOiA3IGRlc3RpbmF0aW9ucyBwb3VyIGZ1aXIgbGUgZnJvaWQiLCAic2x1ZyI6ICJkZWNlbWJyZS1hdS1zb2xlaWwt"
@@ -154,51 +155,54 @@ ARTICLE_B64 = (
     "w6kgaG9ycyBVbmlvbi4gTGUgc3VkIGRlIFTDqW7DqXJpZmUgZXN0IGzigJllbmRyb2l0IGxlIHBsdXMgZG91eCBkZSBs4oCZw65s"
     "ZSwgYWxvcnMgcXVlIGxlIG5vcmQgZXQgbGEgbW9udGFnbmUgc29udCBiaWVuIHBsdXMgZnJhaXMgZXQgcGx1dmlldXguIEdyYW4g"
     "Q2FuYXJpYSwgTGFuemFyb3RlIGV0IEZ1ZXJ0ZXZlbnR1cmEgb2ZmcmVudCB1biBjbGltYXQgdm9pc2luLCBhdmVjIGNoYWN1bmUg"
-    "c2EgcGVyc29ubmFsaXTDqS48L3A+XG48ZGl2IGNsYXNzPVwibWhjLW5vdGVcIj48c3Ryb25nPsOAIHJldGVuaXIgOjwvc3Ryb25n"
-    "PiBwb3VyIHNlIGJhaWduZXIsIHZpc2V6IGxhIG1lciBSb3VnZSBvdSBsZXMgQ2FuYXJpZXMgOyBwb3VyIHVuIGNvdXJ0IHPDqWpv"
-    "dXIgZGUgcmVwb3MsIERqZXJiYSwgSGFtbWFtZXQgb3UgTWFycmFrZWNoIDsgcG91ciBkZXMgdmFjYW5jZXMgZW4gZmFtaWxsZSBh"
-    "dmVjIGdyYW5kZSBwbGFnZSBldCBwaXNjaW5lLCBBZ2FkaXIuPC9kaXY+XG48aDIgaWQ9XCJtaGMtcmVzZXJ2ZXJcIj42LiBRdWFu"
-    "ZCByw6lzZXJ2ZXIgPzwvaDI+PHA+UG91ciBsZXMgZsOqdGVzIGRlIGZpbiBk4oCZYW5uw6llLCByw6lzZXJ2ZXogbGUgcGx1cyB0"
-    "w7R0IHBvc3NpYmxlIDogaMO0dGVscyBldCB2b2xzIHNvbnQgY29tcGxldHMgcGx1c2lldXJzIHNlbWFpbmVzIMOgIGzigJlhdmFu"
-    "Y2UuIExlcyB2YWNhbmNlcyBkZSBOb8OrbCBjb21tZW5jZW50IGxlIDE5IGTDqWNlbWJyZSAyMDI2IGV0IHNlIHRlcm1pbmVudCBs"
-    "ZSAzIGphbnZpZXIgMjAyNy4gSG9ycyB2YWNhbmNlcyBzY29sYWlyZXMsIGRlIGJvbm5lcyBhZmZhaXJlcyBhcHBhcmFpc3NlbnQg"
-    "w6AgbGEgZGVybmnDqHJlIG1pbnV0ZS4gQ29tcGFyZXogbGVzIHNhaXNvbnMgYXZlYyBub3RyZSA8YSBocmVmPVwiaHR0cHM6Ly9t"
-    "eWhvdGVsY29tcGFyZS5jb20vcXVhbmQtcGFydGlyLWV0LW91LWNhbGVuZHJpZXItdm95YWdldXJzLmh0bWxcIj5jYWxlbmRyaWVy"
-    "IGRlcyBtZWlsbGV1cmVzIHDDqXJpb2RlcyBwb3VyIHBhcnRpcjwvYT4uPC9wPlxuPGgyIGlkPVwibWhjLWZhcVwiPjcuIFF1ZXN0"
-    "aW9ucyBmcsOpcXVlbnRlczwvaDI+PGRldGFpbHMgY2xhc3M9XCJtaGMtZmFxXCI+PHN1bW1hcnk+T8O5IGZhaXQtaWwgbGUgcGx1"
-    "cyBjaGF1ZCBlbiBkw6ljZW1icmUgPzwvc3VtbWFyeT48cD5QYXJtaSBsZXMgZGVzdGluYXRpb25zIGRvbnQgbm91cyBhdm9ucyB2"
-    "w6lyaWZpw6kgbGVzIGNoaWZmcmVzLCBIdXJnaGFkYSBhcnJpdmUgZW4gdMOqdGUgYXZlYyBlbnZpcm9uIDI0IMKwQyBkZSBtb3ll"
-    "bm5lIGxlIGpvdXIsIGRldmFudCBBZ2FkaXIgZXQgbGUgc3VkIGRlIFTDqW7DqXJpZmUgKGVudmlyb24gMjMgwrBDKS48L3A+PC9k"
-    "ZXRhaWxzPjxkZXRhaWxzIGNsYXNzPVwibWhjLWZhcVwiPjxzdW1tYXJ5PlBldXQtb24gc2UgYmFpZ25lciBlbiBkw6ljZW1icmUg"
-    "Pzwvc3VtbWFyeT48cD5PdWkgZW4gbWVyIFJvdWdlIChlbnZpcm9uIDIzIMKwQyDDoCBIdXJnaGFkYSkgZXQgc3VyIGxhIGPDtHRl"
-    "IHN1ZCBkZSBUw6luw6lyaWZlIChlbnZpcm9uIDIxIMKwQykuIMOAIEFnYWRpciAoZW52aXJvbiAxOCDCsEMpIGV0IMOgIERqZXJi"
-    "YSAoZW52aXJvbiAxOCw1IMKwQyksIGzigJllYXUgZXN0IGZyYcOuY2hlIDogbGEgcGlzY2luZSBjaGF1ZmbDqWUgZXN0IHBsdXMg"
-    "Y29uZm9ydGFibGUuPC9wPjwvZGV0YWlscz48ZGV0YWlscyBjbGFzcz1cIm1oYy1mYXFcIj48c3VtbWFyeT5RdWVsbGUgZXN0IGxh"
-    "IGRlc3RpbmF0aW9uIGxhIHBsdXMgcHJvY2hlID88L3N1bW1hcnk+PHA+TGVzIHZvbHMgdmVycyBsYSBUdW5pc2llIHNvbnQgbGVz"
-    "IHBsdXMgY291cnRzIDogZW52aXJvbiAyIGggMjAgdmVycyBNb25hc3RpciBldCAyIGggMzUgdmVycyBEamVyYmEuPC9wPjwvZGV0"
-    "YWlscz48ZGV0YWlscyBjbGFzcz1cIm1oYy1mYXFcIj48c3VtbWFyeT5GYXV0LWlsIHLDqXNlcnZlciBsb25ndGVtcHMgw6AgbOKA"
-    "mWF2YW5jZSA/PC9zdW1tYXJ5PjxwPlBvdXIgbGVzIHZhY2FuY2VzIGRlIE5vw6tsLCBvdWkgOiBwbHVzaWV1cnMgc2VtYWluZXMu"
-    "IEhvcnMgdmFjYW5jZXMgc2NvbGFpcmVzLCBsZXMgcHJpeCBiYWlzc2VudCBldCBsYSBkZXJuacOocmUgbWludXRlIGRldmllbnQg"
-    "aW50w6lyZXNzYW50ZS48L3A+PC9kZXRhaWxzPlxuPGRpdiBjbGFzcz1cImdsYXNzLWJveFwiIHN0eWxlPVwibWFyZ2luOjIycHgg"
-    "MDsgYm9yZGVyLWxlZnQ6NXB4IHNvbGlkIHZhcigtLXByaW1hcnkpOyB0ZXh0LWFsaWduOmNlbnRlcjtcIj48aDMgc3R5bGU9XCJt"
-    "YXJnaW4tdG9wOjA7XCI+4piA77iPIMOAIHZvdXMgZGUgY2hvaXNpcjwvaDM+PHAgc3R5bGU9XCJtYXJnaW4tYm90dG9tOjE2cHg7"
-    "XCI+Vm91cyBhdmV6IGxlcyBjaGlmZnJlcyA6IGNvbXBhcmV6IG1haW50ZW5hbnQgbGVzIGjDtHRlbHMgZGUgdm90cmUgZGVzdGlu"
-    "YXRpb24sIGF2ZWMgbGVzIG5vdGVzLCBsZXMgw6lxdWlwZW1lbnRzIGV0IGxlcyBvZmZyZXMgZGUgbm9zIHBhcnRlbmFpcmVzLjwv"
-    "cD48YSBocmVmPVwiaHR0cHM6Ly9teWhvdGVsY29tcGFyZS5jb20vaG90ZWxzLmh0bWxcIiBjbGFzcz1cImJ0blwiPkNvbXBhcmVy"
-    "IGxlcyBow7R0ZWxzPC9hPjxwIHN0eWxlPVwibWFyZ2luOjE2cHggMCAwO1wiPlB1aXMgOiA8YSBocmVmPVwiaHR0cHM6Ly9teWhv"
-    "dGVsY29tcGFyZS5jb20vY29tbWVudC10cm91dmVyLXVuLWhvdGVsLW1vaW5zLWNoZXIuaHRtbFwiPm5vcyBhc3R1Y2VzIHBvdXIg"
-    "dW4gaMO0dGVsIG1vaW5zIGNoZXI8L2E+IMK3IDxhIGhyZWY9XCJodHRwczovL215aG90ZWxjb21wYXJlLmNvbS9xdWFuZC1wYXJ0"
-    "aXItZXQtb3UtY2FsZW5kcmllci12b3lhZ2V1cnMuaHRtbFwiPmxlIGNhbGVuZHJpZXIgZGVzIHZveWFnZXVyczwvYT48L3A+PC9k"
-    "aXY+XG48aDI+U291cmNlcyBldCBtw6l0aG9kZTwvaDI+PHA+TGVzIHRlbXDDqXJhdHVyZXMgc29udCBkZXMgbW95ZW5uZXMgbWVu"
-    "c3VlbGxlcyBkZSBkw6ljZW1icmUsIGxlcyBkdXLDqWVzIGRlIHZvbCBzb250IGNlbGxlcyBkZXMgdm9scyBkaXJlY3RzIGRlcHVp"
-    "cyBQYXJpcyBldCBwZXV2ZW50IHZhcmllciBzZWxvbiBs4oCZYcOpcm9wb3J0IGV0IGxhIGNvbXBhZ25pZS4gTm91cyBu4oCZYXZv"
-    "bnMgcGFzIGRlIG1veWVubmUgZmlhYmxlIHBvdXIgU2hhcm0gZWwtU2hlaWtoLCBIYW1tYW1ldCBldCBTb3Vzc2UgOiBub3VzIG5l"
-    "IGxlcyBjaGlmZnJvbnMgZG9uYyBwYXMuIFbDqXJpZmlleiBsZXMgZm9ybWFsaXTDqXMgZOKAmWVudHLDqWUgZXQgbGVzIGNvbnNl"
-    "aWxzIGF1eCB2b3lhZ2V1cnMgZGUgY2hhcXVlIHBheXMgYXZhbnQgZGUgcGFydGlyLjwvcD48dWw+PGxpPkNsaW1hdCBNYXJvYyBl"
-    "dCBEamVyYmEgZW4gZMOpY2VtYnJlIDogb3UtZXQtcXVhbmQubmV0PC9saT48bGk+Q2xpbWF0IEh1cmdoYWRhIGV0IFTDqW7DqXJp"
-    "ZmUgZW4gZMOpY2VtYnJlIDogY2xpbWF0c2V0dm95YWdlcy5jb208L2xpPjxsaT5EdXLDqWVzIGRlIHZvbCBQYXJpc+KAk01hcnJh"
-    "a2VjaCwgQWdhZGlyLCBIdXJnaGFkYSwgVMOpbsOpcmlmZSA6IHBhcnRpci5jb208L2xpPjxsaT5EdXLDqWVzIGRlIHZvbCBQYXJp"
-    "c+KAk1R1bmlzaWUgOiBvdS1ldC1xdWFuZC5uZXQ8L2xpPjwvdWw+XG48L2Rpdj4ifQ=="
+    "c2EgcGVyc29ubmFsaXTDqS48L3A+PCEtLUhPVEVMUyBMZXMgQ2FuYXJpZXMgKEVzcGFnbmUpIHwgZXNwYWduZSB8IHRlbmVyaWZl"
+    "LCBhZGVqZSwgY29zdGEtYWRlamUsIGFyb25hLCBncmFuLWNhbmFyaWEsIG1hc3BhbG9tYXMsIGxhbnphcm90ZSwgZnVlcnRldmVu"
+    "dHVyYSwgcGxheWEtZGVsLWluZ2xlcywgY2FuYXJpZXMsIGxhcy1wYWxtYXMsIHB1ZXJ0by1kZS1sYS1jcnV6LCBjb3JyYWxlam8s"
+    "IGNvc3RhLXRlZ3Vpc2UtLT5cbjxkaXYgY2xhc3M9XCJtaGMtbm90ZVwiPjxzdHJvbmc+w4AgcmV0ZW5pciA6PC9zdHJvbmc+IHBv"
+    "dXIgc2UgYmFpZ25lciwgdmlzZXogbGEgbWVyIFJvdWdlIG91IGxlcyBDYW5hcmllcyA7IHBvdXIgdW4gY291cnQgc8Opam91ciBk"
+    "ZSByZXBvcywgRGplcmJhLCBIYW1tYW1ldCBvdSBNYXJyYWtlY2ggOyBwb3VyIGRlcyB2YWNhbmNlcyBlbiBmYW1pbGxlIGF2ZWMg"
+    "Z3JhbmRlIHBsYWdlIGV0IHBpc2NpbmUsIEFnYWRpci48L2Rpdj5cbjxoMiBpZD1cIm1oYy1yZXNlcnZlclwiPjYuIFF1YW5kIHLD"
+    "qXNlcnZlciA/PC9oMj48cD5Qb3VyIGxlcyBmw6p0ZXMgZGUgZmluIGTigJlhbm7DqWUsIHLDqXNlcnZleiBsZSBwbHVzIHTDtHQg"
+    "cG9zc2libGUgOiBow7R0ZWxzIGV0IHZvbHMgc29udCBjb21wbGV0cyBwbHVzaWV1cnMgc2VtYWluZXMgw6AgbOKAmWF2YW5jZS4g"
+    "TGVzIHZhY2FuY2VzIGRlIE5vw6tsIGNvbW1lbmNlbnQgbGUgMTkgZMOpY2VtYnJlIDIwMjYgZXQgc2UgdGVybWluZW50IGxlIDMg"
+    "amFudmllciAyMDI3LiBIb3JzIHZhY2FuY2VzIHNjb2xhaXJlcywgZGUgYm9ubmVzIGFmZmFpcmVzIGFwcGFyYWlzc2VudCDDoCBs"
+    "YSBkZXJuacOocmUgbWludXRlLiBDb21wYXJleiBsZXMgc2Fpc29ucyBhdmVjIG5vdHJlIDxhIGhyZWY9XCJodHRwczovL215aG90"
+    "ZWxjb21wYXJlLmNvbS9xdWFuZC1wYXJ0aXItZXQtb3UtY2FsZW5kcmllci12b3lhZ2V1cnMuaHRtbFwiPmNhbGVuZHJpZXIgZGVz"
+    "IG1laWxsZXVyZXMgcMOpcmlvZGVzIHBvdXIgcGFydGlyPC9hPi48L3A+XG48aDIgaWQ9XCJtaGMtZmFxXCI+Ny4gUXVlc3Rpb25z"
+    "IGZyw6lxdWVudGVzPC9oMj48ZGV0YWlscyBjbGFzcz1cIm1oYy1mYXFcIj48c3VtbWFyeT5Pw7kgZmFpdC1pbCBsZSBwbHVzIGNo"
+    "YXVkIGVuIGTDqWNlbWJyZSA/PC9zdW1tYXJ5PjxwPlBhcm1pIGxlcyBkZXN0aW5hdGlvbnMgZG9udCBub3VzIGF2b25zIHbDqXJp"
+    "ZmnDqSBsZXMgY2hpZmZyZXMsIEh1cmdoYWRhIGFycml2ZSBlbiB0w6p0ZSBhdmVjIGVudmlyb24gMjQgwrBDIGRlIG1veWVubmUg"
+    "bGUgam91ciwgZGV2YW50IEFnYWRpciBldCBsZSBzdWQgZGUgVMOpbsOpcmlmZSAoZW52aXJvbiAyMyDCsEMpLjwvcD48L2RldGFp"
+    "bHM+PGRldGFpbHMgY2xhc3M9XCJtaGMtZmFxXCI+PHN1bW1hcnk+UGV1dC1vbiBzZSBiYWlnbmVyIGVuIGTDqWNlbWJyZSA/PC9z"
+    "dW1tYXJ5PjxwPk91aSBlbiBtZXIgUm91Z2UgKGVudmlyb24gMjMgwrBDIMOgIEh1cmdoYWRhKSBldCBzdXIgbGEgY8O0dGUgc3Vk"
+    "IGRlIFTDqW7DqXJpZmUgKGVudmlyb24gMjEgwrBDKS4gw4AgQWdhZGlyIChlbnZpcm9uIDE4IMKwQykgZXQgw6AgRGplcmJhIChl"
+    "bnZpcm9uIDE4LDUgwrBDKSwgbOKAmWVhdSBlc3QgZnJhw65jaGUgOiBsYSBwaXNjaW5lIGNoYXVmZsOpZSBlc3QgcGx1cyBjb25m"
+    "b3J0YWJsZS48L3A+PC9kZXRhaWxzPjxkZXRhaWxzIGNsYXNzPVwibWhjLWZhcVwiPjxzdW1tYXJ5PlF1ZWxsZSBlc3QgbGEgZGVz"
+    "dGluYXRpb24gbGEgcGx1cyBwcm9jaGUgPzwvc3VtbWFyeT48cD5MZXMgdm9scyB2ZXJzIGxhIFR1bmlzaWUgc29udCBsZXMgcGx1"
+    "cyBjb3VydHMgOiBlbnZpcm9uIDIgaCAyMCB2ZXJzIE1vbmFzdGlyIGV0IDIgaCAzNSB2ZXJzIERqZXJiYS48L3A+PC9kZXRhaWxz"
+    "PjxkZXRhaWxzIGNsYXNzPVwibWhjLWZhcVwiPjxzdW1tYXJ5PkZhdXQtaWwgcsOpc2VydmVyIGxvbmd0ZW1wcyDDoCBs4oCZYXZh"
+    "bmNlID88L3N1bW1hcnk+PHA+UG91ciBsZXMgdmFjYW5jZXMgZGUgTm/Dq2wsIG91aSA6IHBsdXNpZXVycyBzZW1haW5lcy4gSG9y"
+    "cyB2YWNhbmNlcyBzY29sYWlyZXMsIGxlcyBwcml4IGJhaXNzZW50IGV0IGxhIGRlcm5pw6hyZSBtaW51dGUgZGV2aWVudCBpbnTD"
+    "qXJlc3NhbnRlLjwvcD48L2RldGFpbHM+XG48ZGl2IGNsYXNzPVwiZ2xhc3MtYm94XCIgc3R5bGU9XCJtYXJnaW46MjJweCAwOyBi"
+    "b3JkZXItbGVmdDo1cHggc29saWQgdmFyKC0tcHJpbWFyeSk7IHRleHQtYWxpZ246Y2VudGVyO1wiPjxoMyBzdHlsZT1cIm1hcmdp"
+    "bi10b3A6MDtcIj7imIDvuI8gw4Agdm91cyBkZSBjaG9pc2lyPC9oMz48cCBzdHlsZT1cIm1hcmdpbi1ib3R0b206MTZweDtcIj5W"
+    "b3VzIGF2ZXogbGVzIGNoaWZmcmVzIDogY29tcGFyZXogbWFpbnRlbmFudCBsZXMgaMO0dGVscyBkZSB2b3RyZSBkZXN0aW5hdGlv"
+    "biwgYXZlYyBsZXMgbm90ZXMsIGxlcyDDqXF1aXBlbWVudHMgZXQgbGVzIG9mZnJlcyBkZSBub3MgcGFydGVuYWlyZXMuPC9wPjxh"
+    "IGhyZWY9XCJodHRwczovL215aG90ZWxjb21wYXJlLmNvbS9ob3RlbHMuaHRtbFwiIGNsYXNzPVwiYnRuXCI+Q29tcGFyZXIgbGVz"
+    "IGjDtHRlbHM8L2E+PHAgc3R5bGU9XCJtYXJnaW46MTZweCAwIDA7XCI+UHVpcyA6IDxhIGhyZWY9XCJodHRwczovL215aG90ZWxj"
+    "b21wYXJlLmNvbS9jb21tZW50LXRyb3V2ZXItdW4taG90ZWwtbW9pbnMtY2hlci5odG1sXCI+bm9zIGFzdHVjZXMgcG91ciB1biBo"
+    "w7R0ZWwgbW9pbnMgY2hlcjwvYT4gwrcgPGEgaHJlZj1cImh0dHBzOi8vbXlob3RlbGNvbXBhcmUuY29tL3F1YW5kLXBhcnRpci1l"
+    "dC1vdS1jYWxlbmRyaWVyLXZveWFnZXVycy5odG1sXCI+bGUgY2FsZW5kcmllciBkZXMgdm95YWdldXJzPC9hPjwvcD48L2Rpdj5c"
+    "bjxoMj5Tb3VyY2VzIGV0IG3DqXRob2RlPC9oMj48cD5MZXMgdGVtcMOpcmF0dXJlcyBzb250IGRlcyBtb3llbm5lcyBtZW5zdWVs"
+    "bGVzIGRlIGTDqWNlbWJyZSwgbGVzIGR1csOpZXMgZGUgdm9sIHNvbnQgY2VsbGVzIGRlcyB2b2xzIGRpcmVjdHMgZGVwdWlzIFBh"
+    "cmlzIGV0IHBldXZlbnQgdmFyaWVyIHNlbG9uIGzigJlhw6lyb3BvcnQgZXQgbGEgY29tcGFnbmllLiBOb3VzIG7igJlhdm9ucyBw"
+    "YXMgZGUgbW95ZW5uZSBmaWFibGUgcG91ciBTaGFybSBlbC1TaGVpa2gsIEhhbW1hbWV0IGV0IFNvdXNzZSA6IG5vdXMgbmUgbGVz"
+    "IGNoaWZmcm9ucyBkb25jIHBhcy4gVsOpcmlmaWV6IGxlcyBmb3JtYWxpdMOpcyBk4oCZZW50csOpZSBldCBsZXMgY29uc2VpbHMg"
+    "YXV4IHZveWFnZXVycyBkZSBjaGFxdWUgcGF5cyBhdmFudCBkZSBwYXJ0aXIuPC9wPjx1bD48bGk+Q2xpbWF0IE1hcm9jIGV0IERq"
+    "ZXJiYSBlbiBkw6ljZW1icmUgOiBvdS1ldC1xdWFuZC5uZXQ8L2xpPjxsaT5DbGltYXQgSHVyZ2hhZGEgZXQgVMOpbsOpcmlmZSBl"
+    "biBkw6ljZW1icmUgOiBjbGltYXRzZXR2b3lhZ2VzLmNvbTwvbGk+PGxpPkR1csOpZXMgZGUgdm9sIFBhcmlz4oCTTWFycmFrZWNo"
+    "LCBBZ2FkaXIsIEh1cmdoYWRhLCBUw6luw6lyaWZlIDogcGFydGlyLmNvbTwvbGk+PGxpPkR1csOpZXMgZGUgdm9sIFBhcmlz4oCT"
+    "VHVuaXNpZSA6IG91LWV0LXF1YW5kLm5ldDwvbGk+PC91bD5cbjwvZGl2PiJ9"
 )
 
 def slug(t):
@@ -230,20 +234,31 @@ def charger(dossier, prefixe):
                             "url": f"{SITE}/{prefixe}{slug(nom)}.html"})
     return res
 
+def liste(items, etoiles=True):
+    return "".join('<li><a href="' + f["url"] + '">' + f["nom"] + '</a> (' + f["ville_aff"] +
+                   (f', {f["et"]} étoiles' if etoiles and f["et"] else "") + ')</li>' for f in items)
+
 def main():
     art = json.loads(base64.b64decode("".join(ARTICLE_B64)).decode("utf-8"))
-    fiches = charger("data", "") + charger("data_logements", "atypique-")
-    print(len(fiches), "fiche(s) lue(s).")
+    hotels = charger("data", "")
+    atyp = charger("data_logements", "atypique-")
+    print(len(hotels), "hotel(s) et", len(atyp), "logement(s) atypique(s) lus.")
+
+    def trouve(src, pays, villes, n, cle):
+        ok = [f for f in src if f["pays"] == pays and any(v in f["ville"] for v in villes)]
+        return sorted(ok, key=cle)[:n]
 
     def rempl(m):
         titre, pays, villes = m.group(1).strip(), slug(m.group(2)), [slug(v) for v in m.group(3).split(",") if v.strip()]
-        ok = [f for f in fiches if f["pays"] == pays and any(v in f["ville"] for v in villes)]
-        ok = sorted(ok, key=lambda f: (-f["et"], f["nom"]))[:MAX]
-        print(f"  {titre} : {len(ok)} hotel(s)")
-        if not ok:
-            return ""
-        lis = "".join('<li><a href="' + f["url"] + '">' + f["nom"] + '</a> (' + f["ville_aff"] + (f', {f["et"]} étoiles' if f["et"] else "") + ')</li>' for f in ok)
-        return '<div class="mhc-hotels"><strong>Nos hôtels : ' + titre + '</strong><ul>' + lis + '</ul></div>'
+        h = trouve(hotels, pays, villes, MAX_HOTELS, lambda f: (-f["et"], f["nom"]))
+        a = trouve(atyp, pays, villes, MAX_ATYP, lambda f: f["nom"])
+        print(f"  {titre} : {len(h)} hotel(s), {len(a)} logement(s) atypique(s)")
+        out = ""
+        if h:
+            out += '<div class="mhc-hotels"><strong>Nos hôtels : ' + titre + '</strong><ul>' + liste(h) + '</ul></div>'
+        if a:
+            out += '<div class="mhc-hotels"><strong>Logements atypiques : ' + titre + '</strong><ul>' + liste(a, False) + '</ul></div>'
+        return out
 
     art["details"] = re.sub(r"<!--HOTELS\s+(.+?)\s*\|\s*(.+?)\s*\|\s*(.+?)\s*-->", rempl, art["details"])
     p = Path("blog_data.json")
@@ -251,13 +266,13 @@ def main():
         sys.exit("blog_data.json introuvable : lancez le script dans le dossier comparateur-ia.")
     data = json.loads(p.read_text(encoding="utf-8"))
     shutil.copy(p, "blog_data.json.bak2")
-    liste = data["articles"] if isinstance(data, dict) and isinstance(data.get("articles"), list) else data
-    if not isinstance(liste, list):
+    liste_art = data["articles"] if isinstance(data, dict) and isinstance(data.get("articles"), list) else data
+    if not isinstance(liste_art, list):
         sys.exit("Structure inattendue de blog_data.json.")
-    liste[:] = [a for a in liste if not (isinstance(a, dict) and a.get("slug") == art["slug"])]
-    liste.insert(0, art)
+    liste_art[:] = [a for a in liste_art if not (isinstance(a, dict) and a.get("slug") == art["slug"])]
+    liste_art.insert(0, art)
     p.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"OK : {len(liste)} articles au total.")
+    print(f"OK : {len(liste_art)} articles au total.")
 
 if __name__ == "__main__":
     main()
