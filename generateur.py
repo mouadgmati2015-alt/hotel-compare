@@ -538,7 +538,7 @@ global_style = """
   gtag('config', 'G-RLVNV2211J');
 </script>
 
-<link rel="icon" type="image/png" href="images/logo_5.png?v=2">
+<link rel="icon" type="image/svg+xml" href="images/logo_5.svg?v=3">
 <link rel="apple-touch-icon" href="images/logo_5.png?v=2">
 <style>
 :root {
@@ -573,7 +573,7 @@ body {
 }
 .site-header { margin-bottom: 24px; }
 .brand-lockup { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 18px; color: var(--text); }
-.brand-mark { width: 58px; height: 58px; object-fit: contain; border-radius: 16px; background: var(--panel-strong); padding: 5px; }
+.brand-mark { width: 64px; height: 64px; object-fit: contain; }
 .brand-lockup strong { display: block; color: var(--secondary); font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1; }
 .brand-lockup span { display: block; color: var(--muted); margin-top: 5px; font-size: 0.88rem; }
 h1, h2, h3, h4 { color: var(--text); }
