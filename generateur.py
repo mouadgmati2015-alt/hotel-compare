@@ -776,41 +776,13 @@ cookie_banner_html = """
 """
 
 temoignages_html = """
-<section class="testimonial-section" id="avis" style="margin: 50px 0;">
-    <h2 style="text-align: center; color: #FFFFFF; margin-bottom: 30px;">💬 Ce que pensent nos voyageurs</h2>
-    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 30px;">
-        <div style="background-color: #1C2541 !important; border: 1px solid #3A506B; border-radius: 12px; padding: 20px; box-sizing: border-box;">
-            <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px; margin-top: 0;">⭐⭐⭐⭐⭐</p>
-            <p style="font-style: italic; font-size: 0.95em; color: #E2E8F0;">"Grâce au comparateur, j'ai trouvé l'hôtel idéal pour mes vacances en un clin d'œil !"</p>
-            <div style="display: flex; align-items: center; margin-top: 15px;">
-                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=faces" alt="Photo de profil de Marc D." style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
-                <div><p style="font-weight: bold; font-size: 0.85em; margin: 0; color: white;">Marc D.</p><p style="font-size: 0.75em; color: #94a3b8; margin: 0;">Voyageur solo</p></div>
-            </div>
-        </div>
-        <div style="background-color: #1C2541 !important; border: 1px solid #3A506B; border-radius: 12px; padding: 20px; box-sizing: border-box;">
-            <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px; margin-top: 0;">⭐⭐⭐⭐⭐</p>
-            <p style="font-style: italic; font-size: 0.95em; color: #E2E8F0;">"Super application, très pratique pour comparer les hôtels rapidement. Je recommande !"</p>
-            <div style="display: flex; align-items: center; margin-top: 15px;">
-                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=faces" alt="Photo de profil de Sarah L." style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
-                <div><p style="font-weight: bold; font-size: 0.85em; margin: 0; color: white;">Sarah L.</p><p style="font-size: 0.75em; color: #94a3b8; margin: 0;">Voyage en famille</p></div>
-            </div>
-        </div>
-        <div style="background-color: #1C2541 !important; border: 1px solid #3A506B; border-radius: 12px; padding: 20px; box-sizing: border-box;">
-            <p style="color: #f59e0b; font-size: 1.1em; margin-bottom: 5px; margin-top: 0;">⭐⭐⭐⭐⭐</p>
-            <p style="font-style: italic; font-size: 0.95em; color: #E2E8F0;">"Le comparateur m'a permis d'économiser pas mal sur mon séjour. Interface fluide et propre."</p>
-            <div style="display: flex; align-items: center; margin-top: 15px;">
-                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=faces" alt="Photo de profil de Karim B." style="width: 35px; height: 35px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
-                <div><p style="font-weight: bold; font-size: 0.85em; margin: 0; color: white;">Karim B.</p><p style="font-size: 0.75em; color: #94a3b8; margin: 0;">Voyageur régulier</p></div>
-            </div>
-        </div>
+<section id="partenaires" style="margin: 50px 0; text-align: center;">
+    <p style="font-weight: bold; font-size: 15px; margin-bottom: 14px;">RÉSERVATION VIA NOS PARTENAIRES</p>
+    <div style="margin-bottom: 15px; display: flex; justify-content: center; align-items: center; gap: 30px; flex-wrap: wrap;">
+        <a href="https://www.booking.com/index.fr.html?aid=8012379" target="_blank" rel="nofollow sponsored noopener" style="background-color: #003580; color: white; width: 190px; min-height: 54px; padding: 8px 20px; border-radius: 6px; font-weight: 900; font-size: 18px; display: inline-flex; align-items: center; justify-content: center; text-decoration: none;">Booking.com</a>
+        <a href="https://www.expedia.fr/" target="_blank" rel="nofollow sponsored noopener" style="background-color: #ffca28; color: #111827; width: 190px; min-height: 54px; padding: 8px 20px; border-radius: 6px; font-weight: 900; font-size: 18px; display: inline-flex; align-items: center; justify-content: center; text-decoration: none;">Expedia</a>
     </div>
-    <hr style="border-color: #3A506B; margin: 30px 0;">
-    <p style="text-align: center; color: #000000; font-size: 15px; font-weight: bold; margin-bottom: 10px;">APPROUVÉ PAR LES VOYAGEURS QUI RÉSERVENT SUR</p>
-    <div style="text-align: center; margin-bottom: 15px; display: flex; justify-content: center; align-items: center; gap: 30px;">
-        <a href="https://www.booking.com/index.fr.html?aid=8012379" target="_blank" rel="nofollow sponsored" style="background-color: #003580; color: white; width: 190px; min-height: 54px; padding: 8px 20px; border-radius: 6px; font-weight: 900; font-size: 18px; display: inline-flex; align-items: center; justify-content: center; text-decoration: none;">Booking.com</a>
-        <a href="https://www.expedia.fr/" target="_blank" rel="nofollow sponsored" style="background-color: #ffca28; color: #111827; width: 190px; min-height: 54px; padding: 8px 20px; border-radius: 6px; font-weight: 900; font-size: 18px; display: inline-flex; align-items: center; justify-content: center; text-decoration: none;">Expedia</a>
-    </div>
-    <p style="text-align: center; color: #888; font-size: 11px;">Comparaison de plus de 1000 hôtels &nbsp;&bull;&nbsp; 10 destinations incontournables &nbsp;&bull;&nbsp; 2 sites de réservation vérifiés</p>
+    <p style="color: #52717c; font-size: 12px;">Liens affiliés : nous pouvons percevoir une commission, sans frais pour vous. <a href="mentions-legales.html">En savoir plus</a></p>
 </section>
 """
 
@@ -842,7 +814,6 @@ footer_html = """
                 <li><a href="mentions-legales.html">Mentions légales</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="blog.html">Conseils de voyage</a></li>
-                <li><a href="index.html#avis">Avis voyageurs</a></li>
             </ul>
         </div>
         <div>
@@ -1600,13 +1571,17 @@ carousel_html = f"""
 
 bouton_trajets = bouton_accueil()
 bloc_trajets = bloc_accueil()
+nb_hotels = len(all_hotels)
+nb_logements = len(all_logements)
+nb_pays = len({h['pays'] for h in all_hotels if h.get('pays')} | {l['pays'] for l in all_logements if l.get('pays')})
+nb_hotels_txt = f"{(nb_hotels // 100) * 100:,}".replace(",", " ") + "+"
 html_accueil = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyHotelCompare - Comparateur d'hôtels</title>
-<meta name="description" content="Comparez plus de 1200 hôtels dans le monde : prix, avis analysés par IA, équipements et formalités de visa par nationalité. Trouvez votre séjour idéal avec MyHotelCompare.">
+    <title>MyHotelCompare – Hôtels et trajets sans autoroute</title>
+<meta name="description" content="Comparez des hôtels et logements insolites, et planifiez vos trajets sans autoroute : étapes, visites, repas et coût réel comparé aux péages.">
 <link rel="canonical" href="{SITE_URL}/">
     {global_style}
 </head>
@@ -1614,20 +1589,20 @@ html_accueil = f"""<!DOCTYPE html>
     <div class="container">
         {menu_html}
         <div class="hero-banner">
-            <div class="hero-badges">
-    <span>✨ 1 200+ hôtels comparés</span>
-    <span>📍 Destinations partout dans le monde</span>
-    <span>🧠 Analyse des avis</span>
-    <span>🛂 Infos visas par nationalité</span>
+    <div class="hero-badges">
+        <span>✨ {nb_hotels_txt} hôtels comparés</span>
+        <span>🛣️ Trajets sans autoroute</span>
+        <span>🌿 Logements atypiques</span>
+        <span>🛂 Infos visas par nationalité</span>
+    </div>
+    <h1 style="margin:0 0 10px; font-size: clamp(2rem, 4vw, 3rem); color:#fff;">Votre séjour au vrai prix : hôtel, carburant et péages.</h1>
+    <p style="margin:0; max-width: 700px; font-size: 1.05rem; line-height: 1.7; color: #effcff;">Comparez des hôtels, des logements insolites et des trajets sans autoroute, avec les étapes, les visites et le coût total.</p>
+    <div class="hero-actions">
+        {bouton_trajets}
+        <a href="hotels.html" class="btn-itineraire">🔍 Comparer les hôtels</a>
+        <a href="itineraire-decouverte.html" class="btn-itineraire">🛣️ Itinéraire découverte</a>
+    </div>
 </div>
-            <h2 style="margin:0 0 10px; font-size: clamp(2rem, 4vw, 3rem); color:#fff;">Trouvez le bon hôtel, au bon prix, sans perdre une heure.</h2>
-            <p style="margin:0; max-width: 700px; font-size: 1.05rem; line-height: 1.7; color: #effcff;">Comparez les meilleurs séjours, découvrez les meilleurs rapports qualité-prix et réservez en quelques clics.</p>
-                        <div class="hero-actions">
-                <a href="hotels.html" class="btn-compare" style="display:inline-block; text-decoration:none; width:auto; padding:14px 28px;">🔍 Comparer les hôtels</a>
-                <a href="itineraire-decouverte.html" class="btn-itineraire">🛣️ Itinéraire découverte</a>
-                {bouton_trajets}
-            </div>
-        </div>
 
         {mosaique_html}
         {bloc_trajets}
@@ -1649,11 +1624,10 @@ html_accueil = f"""<!DOCTYPE html>
         </div>
 
         <div class="stat-grid">
-            <div class="stat-item"><strong>4.8/5</strong><span>Moyenne satisfaction</span></div>
-            <div class="stat-item"><strong>+90%</strong><span>Clients satisfaits</span></div>
-            <div class="stat-item"><strong>24h</strong><span>Réponse rapide</span></div>
-            <div class="stat-item"><strong>1000+</strong><span>Hôtels analysés</span></div>
-        </div>
+    <div class="stat-item"><strong>{nb_hotels_txt}</strong><span>Hôtels référencés</span></div>
+    <div class="stat-item"><strong>{nb_logements}</strong><span>Logements atypiques</span></div>
+    <div class="stat-item"><strong>{nb_pays}</strong><span>Pays couverts</span></div>
+</div>
 
         {temoignages_html}
         {footer_html}
