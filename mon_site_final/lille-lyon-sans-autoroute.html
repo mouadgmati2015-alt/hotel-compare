@@ -225,6 +225,13 @@ a { color: var(--secondary); }
 .mhc-faq summary{cursor:pointer;font-weight:700}
 
 @media(max-width:520px){.mhc-res{grid-template-columns:1fr}}
+
+/* Carte 3D en fenêtre dans l'article */
+.mhc-lb{position:fixed;inset:0;z-index:9998;background:rgba(5,15,22,.85);padding:14px;flex-direction:column;gap:10px}
+.mhc-lb:target{display:flex!important}
+.mhc-lbbar{display:flex;justify-content:space-between;gap:10px}
+.mhc-lbbar a{background:#fff;color:#13313d;border-radius:99px;padding:8px 16px;text-decoration:none;font-weight:700}
+.mhc-lb iframe{flex:1;width:100%;border:0;border-radius:12px;background:#0a1b25}
 </style>
 
 <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
