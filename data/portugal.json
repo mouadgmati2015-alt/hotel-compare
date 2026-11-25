@@ -45,16 +45,16 @@
         "meta_avis": "Contenu résumé par IA sur la base de 800+ expériences vécues · Mise à jour : 2026",
         "faq": [
             {
-                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "question": "L'hôtel dispose-t-il d'une piscine?",
                 "reponse": "Oui, Four Seasons Hotel Ritz Lisbon dispose d'une piscine parmi ses équipements."
             },
             {
-                "question": "Y a-t-il un spa sur place ?",
+                "question": "Y a-t-il un spa sur place?",
                 "reponse": "Oui, un spa fait partie des équipements de Four Seasons Hotel Ritz Lisbon."
             },
             {
-                "question": "Quelle est la meilleure période pour séjourner à Lisbonne ?",
-                "reponse": "La période idéale dépend de vos préférences climatiques ; renseignez-vous sur les moyennes saisonnières de Lisbonne."
+                "question": "Quelle est la meilleure période pour séjourner à Lisbonne?",
+                "reponse": "La période idéale dépend de vos préférences climatiques; renseignez-vous sur les moyennes saisonnières de Lisbonne."
             }
         ],
         "environs": "Implanté à Lisbonne, Portugal, l'établissement permet de rayonner facilement vers les attractions, commerces et restaurants du secteur.",
@@ -111,20 +111,20 @@
         "meta_avis": "Contenu résumé par IA sur la base de 950+ expériences vécues · Mise à jour : 2026",
         "faq": [
             {
-                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "question": "L'hôtel dispose-t-il d'une piscine?",
                 "reponse": "Oui, Vila Vita Parc Resort & Spa dispose d'une piscine parmi ses équipements."
             },
             {
-                "question": "L'hôtel est-il en bord de mer ?",
+                "question": "L'hôtel est-il en bord de mer?",
                 "reponse": "Oui, Vila Vita Parc Resort & Spa propose un accès plage parmi ses équipements."
             },
             {
-                "question": "Y a-t-il un spa sur place ?",
+                "question": "Y a-t-il un spa sur place?",
                 "reponse": "Oui, un spa fait partie des équipements de Vila Vita Parc Resort & Spa."
             },
             {
-                "question": "Quelle est la meilleure période pour séjourner à Algarve ?",
-                "reponse": "Cela dépend de la saison touristique locale ; consultez les tendances climatiques de la destination avant de réserver."
+                "question": "Quelle est la meilleure période pour séjourner à Algarve?",
+                "reponse": "Cela dépend de la saison touristique locale; consultez les tendances climatiques de la destination avant de réserver."
             }
         ],
         "environs": "L'hôtel est situé à Algarve, Portugal, une destination qui propose ses propres attractions, commerces et lieux de restauration à proximité.",

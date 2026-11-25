@@ -1,5 +1,5 @@
 {
-"Cicada Luxury Camping": {
+    "Cicada Luxury Camping": {
         "pays": "Australie",
         "ville": "Australie",
         "etoiles": "camping de luxe",
@@ -70,11 +70,11 @@
         },
         "faq": [
             {
-                "question": "L'hôtel propose-t-il une restauration sur place ?",
+                "question": "L'hôtel propose-t-il une restauration sur place?",
                 "reponse": "Oui, le Cicada Luxury Camping propose des options de restauration sur place."
             },
             {
-                "question": "Les tentes disposent-elles d'une terrasse ?",
+                "question": "Les tentes disposent-elles d'une terrasse?",
                 "reponse": "Oui, les logements disposent d'une terrasse extérieure privative."
             }
         ],
@@ -151,11 +151,11 @@
         },
         "faq": [
             {
-                "question": "L'établissement dispose-t-il d'une piscine ?",
+                "question": "L'établissement dispose-t-il d'une piscine?",
                 "reponse": "Oui, une piscine extérieure est à disposition des clients."
             },
             {
-                "question": "Peut-on visiter les grottes sur place ?",
+                "question": "Peut-on visiter les grottes sur place?",
                 "reponse": "Oui, le site propose des visites guidées du réseau de cavernes et de la cathédrale naturelle."
             }
         ],
@@ -233,11 +233,11 @@
         },
         "faq": [
             {
-                "question": "L'hôtel dispose-t-il d'une piscine ?",
+                "question": "L'hôtel dispose-t-il d'une piscine?",
                 "reponse": "Oui, une superbe piscine à débordement panoramique est disponible."
             },
             {
-                "question": "Y a-t-il un spa sur place ?",
+                "question": "Y a-t-il un spa sur place?",
                 "reponse": "Oui, un centre de bien-être et spa est inclus dans les équipements."
             }
         ],
@@ -314,11 +314,11 @@
         },
         "faq": [
             {
-                "question": "Les cottages disposent-ils d'une cuisine ?",
+                "question": "Les cottages disposent-ils d'une cuisine?",
                 "reponse": "Oui, les cottages sont entièrement équipés pour un séjour en autonomie."
             },
             {
-                "question": "Peut-on déguster du vin sur place ?",
+                "question": "Peut-on déguster du vin sur place?",
                 "reponse": "Oui, l'établissement possède son propre domaine viticole et sa cave."
             }
         ],
@@ -395,11 +395,11 @@
         },
         "faq": [
             {
-                "question": "L'établissement dispose-t-il d'une piscine ?",
+                "question": "L'établissement dispose-t-il d'une piscine?",
                 "reponse": "Oui, une superbe piscine extérieure est disponible pour les clients."
             },
             {
-                "question": "Comment accède-t-on à l'hôtel ?",
+                "question": "Comment accède-t-on à l'hôtel?",
                 "reponse": "L'hôtel est situé sur Magnetic Island, accessible en ferry depuis Townsville."
             }
         ],

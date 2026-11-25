@@ -223,6 +223,67 @@ a { color: var(--secondary); }
 .mhc-lb iframe{flex:1;width:100%;border:0;border-radius:12px;background:#0a1b25}
 </style>
 
+<script>
+(function(){
+  if (window.top !== window) return;
+  var CIBLE = 'ou-partir-noel-2026-france-pepites.html';
+  var EXCLUS = ['ou-partir-noel-2026-france-pepites', 'confidentialite', 'mentions-legales', 'contact', 'devenir-partenaire', 'apropos'];
+  var KEY = 'popup_ski_ferme', JOURS = 7;
+  for (var i = 0; i < EXCLUS.length; i++) { if (location.pathname.indexOf(EXCLUS[i]) !== -1) return; }
+  try {
+    var t = parseInt(localStorage.getItem(KEY) || '0', 10);
+    if (t && Date.now() - t < JOURS * 86400000) return;
+  } catch (e) {}
+
+  var css = document.createElement('style');
+  css.textContent =
+    '.pop-ski{position:fixed;right:16px;bottom:16px;z-index:9990;width:300px;max-width:calc(100vw - 32px);background:#fff;border:1px solid #b9dfe7;border-left:5px solid #087f9b;border-radius:14px;padding:16px 18px 14px;box-shadow:0 12px 32px rgba(5,50,71,.25);animation:popski-in .4s ease-out}' +
+    '.pop-ski-x{position:absolute;top:2px;right:2px;width:44px;height:44px;border:0;background:none;font-size:1.5rem;line-height:1;color:#52717c;cursor:pointer}' +
+    '.pop-ski-t{margin:0 40px 6px 0;font-weight:800;font-size:1.05rem;color:#123443}' +
+    '.pop-ski-d{margin:0 0 12px;font-size:.9rem;line-height:1.45;color:#123443}' +
+    '.pop-ski-b{display:inline-block;background:linear-gradient(135deg,#087f9b,#056078);color:#fff;text-decoration:none;font-weight:700;padding:10px 16px;border-radius:12px}' +
+    '.pop-ski-n{margin:10px 0 0;font-size:.75rem;color:#52717c}' +
+    '.pop-ski-x:focus-visible,.pop-ski-b:focus-visible{outline:3px solid #e59a21;outline-offset:2px}' +
+    '@keyframes popski-in{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}' +
+    '@media (prefers-reduced-motion:reduce){.pop-ski{animation:none}}' +
+    '@media (max-width:520px){.pop-ski{left:12px;right:12px;bottom:12px;width:auto;max-width:none}}';
+  document.head.appendChild(css);
+
+  var arme = false, affiche = false;
+  function memoriser() { try { localStorage.setItem(KEY, String(Date.now())); } catch (e) {} }
+  function cookiesEnAttente() {
+    var b = document.getElementById('cookie-banner');
+    return b && getComputedStyle(b).display !== 'none';
+  }
+  function afficher() {
+    if (affiche) return;
+    if (cookiesEnAttente()) { setTimeout(afficher, 2000); return; }
+    affiche = true;
+    var el = document.createElement('aside');
+    el.className = 'pop-ski';
+    el.setAttribute('role', 'complementary');
+    el.setAttribute('aria-label', 'Bon plan ski');
+    el.innerHTML = '<button type="button" class="pop-ski-x" aria-label="Fermer">×</button>' +
+      '<p class="pop-ski-t">⛷️ Skier dès 25 € la journée</p>' +
+      '<p class="pop-ski-d">Voir les stations les moins chères de France, avec la carte en 3D.</p>' +
+      '<a class="pop-ski-b" href="' + CIBLE + '">Voir les stations</a>' +
+      '<p class="pop-ski-n">Forfait journée à Schnepfenried, prix indicatif.</p>';
+    el.querySelector('.pop-ski-x').addEventListener('click', function () { memoriser(); el.remove(); });
+    el.querySelector('.pop-ski-b').addEventListener('click', function () {
+      memoriser();
+      if (window.gtag) { gtag('event', 'popup_ski_click'); }
+    });
+    document.body.appendChild(el);
+  }
+  function declencher() { if (arme) return; arme = true; afficher(); }
+
+  setTimeout(declencher, 12000);
+  window.addEventListener('scroll', function () {
+    var h = document.documentElement.scrollHeight - window.innerHeight;
+    if (h > 0 && window.scrollY / h > 0.4) declencher();
+  }, { passive: true });
+})();
+</script>
 <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
   (function () {
       var script = document.createElement("script");

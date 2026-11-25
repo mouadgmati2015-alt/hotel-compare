@@ -42,16 +42,16 @@
         },
         "faq": [
             {
-                "question": "Le logement dispose-t-il d'une piscine ?",
+                "question": "Le logement dispose-t-il d'une piscine?",
                 "reponse": "Oui, Giraffe Manor dispose d'une piscine parmi ses équipements."
             },
             {
-                "question": "Y a-t-il un spa sur place ?",
+                "question": "Y a-t-il un spa sur place?",
                 "reponse": "Oui, un spa fait partie des équipements de Giraffe Manor."
             },
             {
-                "question": "Quelle est la meilleure période pour séjourner à Nairobi ?",
-                "reponse": "Le climat varie selon les mois ; il est conseillé de vérifier la météo saisonnière de Nairobi avant de fixer vos dates."
+                "question": "Quelle est la meilleure période pour séjourner à Nairobi?",
+                "reponse": "Le climat varie selon les mois; il est conseillé de vérifier la météo saisonnière de Nairobi avant de fixer vos dates."
             }
         ],
         "environs": "Ce logement se trouve à Nairobi, Kenya, où l'on trouve à proximité diverses attractions locales, commerces et adresses de restauration.",
