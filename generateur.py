@@ -1648,8 +1648,8 @@ html_accueil = f"""<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyHotelCompare – Hôtels et trajets sans autoroute</title>
-<meta name="description" content="Comparez des hôtels et logements insolites, et planifiez vos trajets sans autoroute : étapes, visites, repas et coût réel comparé aux péages.">
+    <title>Comparateur d’hôtels et trajets sans autoroute | MyHotelCompare</title>
+<meta name="description" content="Comparateur d’hôtels et de logements insolites, avec un calculateur de trajets sans autoroute : péages, carburant et étapes.">
 <link rel="canonical" href="{SITE_URL}/">
     {global_style}
 </head>
@@ -1664,7 +1664,7 @@ html_accueil = f"""<!DOCTYPE html>
         <span>🛂 Infos visas par nationalité</span>
     </div>
     <h1 style="margin:0 0 10px; font-size: clamp(2rem, 4vw, 3rem); color:#fff;">Votre séjour au vrai prix : hôtel, carburant et péages.</h1>
-    <p style="margin:0; max-width: 700px; font-size: 1.05rem; line-height: 1.7; color: #effcff;">Comparez des hôtels, des logements insolites et des trajets sans autoroute, avec les étapes, les visites et le coût total.</p>
+    <p style="margin:0; max-width: 700px; font-size: 1.05rem; line-height: 1.7; color: #effcff;">Votre comparateur d’hôtels, de logements insolites et de trajets sans autoroute, avec les étapes, les visites et le coût total.</p>
     <div class="hero-actions">
         {bouton_trajets}
         <a href="hotels.html" class="btn-itineraire">🔍 Comparer les hôtels</a>
